@@ -1903,9 +1903,6 @@ Boolean `k`-scheme equipped with a transitive action of the discrete group `G`, 
 
 <!-- label: III.VI_B.5.8.4 -->
 
-
-
-
 ## 6. Subfunctors and group subschemes[^VI_B-6-1]
 
 <!-- label: III.VI_B.6 -->
@@ -5599,12 +5596,6 @@ over `S`, cf. [Ray70a], § VII.3, p. 116.
 
 <!-- label: III.VI_B.12.10.2 -->
 
-<!-- TRANSLATOR NOTE: §13 ("Groupes affines plats sur une base régulière de dimension ⩽ 2") and the Bibliography
-remain to be translated. Translation paused here pending review; the per-statement structure for §13 is:
-Lemma 13.1, Proposition 13.2, Example 13.3, Definition 13.4, Proposition 13.5, Remarks 13.6, Proposition 13.7,
-followed by the bibliography. Source: /Users/jcreinhold/Code/papers/books/sga/iii/10-expose-06B-generalites-schemas-en-groupes.md
-lines 5377–5680. -->
-
 <!-- LEDGER DELTA — Exposé VI_B — for consolidation in Phase 3
 | French | English | Note |
 | ------ | ------- | ---- |
@@ -5635,8 +5626,6 @@ lines 5377–5680. -->
 | (RE) (résolution équivariante) | equivariant resolution property (RE) | 13.4 (Thomason). |
 | réflexif | reflexive | Module-theoretic, regular base of dim ≤ 2. |
 -->
-
-
 
 ## 13. Flat affine groups over a regular base of dimension ≤ 2
 

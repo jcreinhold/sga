@@ -21,5 +21,4 @@ Each volume directory has its own `README.md` with status, exposé index, and tr
 
 ## Sources
 
-- French source documents under `~/Code/papers/books/sga/`
 - LaTeX community editions (where they exist) cross-referenced for technical accuracy

@@ -76,7 +76,6 @@ conventions (e.g. `SGA 4 IV 3.8`).
 
 ## Provenance
 
-This is a translation, not a critical edition. The authoritative text remains the French 2005 LaTeX edition
-(`~/Code/papers/books/sga/ii/`, derived from the IHÉS/North-Holland 1968 reprint as recomposed by Y. Laszlo). For any
-claim that matters mathematically, consult the source: this English version exists to make the volume readable, not to
-replace it.
+This is a translation, not a critical edition. The authoritative text remains the French 2005 LaTeX edition, derived
+from the IHÉS/North-Holland 1968 reprint as recomposed by Y. Laszlo. For any claim that matters mathematically, consult
+the source: this English version exists to make the volume readable, not to replace it.

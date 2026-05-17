@@ -109,6 +109,5 @@ list.
 ## Provenance
 
 This is a translation, not a critical edition. The authoritative text remains the French 2011 SMF *Documents
-Mathématiques* re-edition (`~/Code/papers/books/sga/iii/`, derived from the SLN 151, 152, 153 of 1970 as re-typeset by
-M. Demazure). For any claim that matters mathematically, consult the source: this English version exists to make the
-volume readable, not to replace it.
+Mathématiques* re-edition, derived from the SLN 151, 152, 153 of 1970 as re-typeset by M. Demazure. For any claim that
+matters mathematically, consult the source: this English version exists to make the volume readable, not to replace it.

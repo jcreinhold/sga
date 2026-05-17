@@ -42,8 +42,6 @@ years.
 
 Bures, June 1963.
 
-<!-- source: /Users/jcreinhold/Code/papers/sga-1/smf_doc-math_3_01.tex, Avertissement -->
-
 [^foreword-1]: Now published: J. Giraud, _Méthodes de la descente_, Mémoire no. 2 of the Société mathématique de France,
     1964\.
 

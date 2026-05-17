@@ -174,8 +174,6 @@ index.
 
 Massy, August 1970.
 
-<!-- source: /Users/jcreinhold/Code/papers/sga-1/smf_doc-math_3_01.tex, Introduction -->
-
 [^intro-1]: As were the notes of the seminars following this one. Since this mode of distribution proved impractical and
     insufficient in the long run, all the “Séminaire de Géométrie Algébrique du Bois-Marie” will henceforth
     appear in book form, as the present volume does.

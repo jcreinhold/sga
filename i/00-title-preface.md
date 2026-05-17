@@ -42,4 +42,3 @@ The differences between the two versions are documented in the source file.
 
 The old page numbering is incorporated in the margin; the number n indicates the beginning of page n.
 
-<!-- source: /Users/jcreinhold/Code/papers/sga-1/smf_doc-math_3_01.tex, front matter through Preface -->
