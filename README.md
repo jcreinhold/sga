@@ -21,4 +21,6 @@ Each volume directory has its own `README.md` with status, exposé index, and tr
 
 ## Sources
 
-- LaTeX community editions (where they exist) cross-referenced for technical accuracy
+The French source text was drawn from the Grothendieck Circle's archive of Grothendieck's published writings:
+<https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php>. LaTeX community editions (where they
+exist) were cross-referenced for technical accuracy.
