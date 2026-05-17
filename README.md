@@ -37,3 +37,14 @@ exist) were cross-referenced for technical accuracy.
 - [The Stacks Project](https://stacks.math.columbia.edu/) — an open-source modernized algebraic geometry reference that
     covers much of the SGA material (étale cohomology, descent, fundamental groups, group schemes) in contemporary
     language, with permanently linkable tags.
+
+## License and citation
+
+The translation is © 2026 Jacob Reinhold and licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see
+[LICENSE](LICENSE). The underlying French text remains © the original authors and publishers.
+
+Please cite as:
+
+> Reinhold, Jacob (trans.). *Séminaires de Géométrie Algébrique du Bois-Marie* (English translation).
+> <https://github.com/jcreinhold/sga>. CC BY 4.0.
