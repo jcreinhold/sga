@@ -3,6 +3,10 @@
 An idiomatic English translation, in Markdown with Unicode mathematics, of the Grothendieck-era *Séminaires de Géométrie
 Algébrique du Bois-Marie*.
 
+> **Note.** This translation was produced with substantial assistance from large language models, then curated and
+> edited by the maintainer. It has not been audited line-by-line by a working algebraic geometer. Treat it as a
+> reading aid: verify against the French source for anything that matters mathematically.
+
 ## Volumes
 
 - [`i/`](i) — SGA 1: Étale Coverings and the Fundamental Group (Grothendieck, with Raynaud)
