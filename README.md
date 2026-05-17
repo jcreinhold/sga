@@ -24,3 +24,12 @@ Each volume directory has its own `README.md` with status, exposé index, and tr
 The French source text was drawn from the Grothendieck Circle's archive of Grothendieck's published writings:
 <https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php>. LaTeX community editions (where they
 exist) were cross-referenced for technical accuracy.
+
+## Related projects
+
+- The French LaTeX re-typesettings of the SGA volumes — most notably Bas Edixhoven's volunteer SGA 1 LaTeX project, the
+    2005 SMF *Documents Mathématiques* edition of SGA 2 edited by Y. Laszlo et al., and the 2011 SMF re-edition of
+    SGA 3 edited by M. Demazure — were cross-referenced as authoritative French source text.
+- [The Stacks Project](https://stacks.math.columbia.edu/) — an open-source modernized algebraic geometry reference that
+    covers much of the SGA material (étale cohomology, descent, fundamental groups, group schemes) in contemporary
+    language, with permanently linkable tags.
