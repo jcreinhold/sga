@@ -30,6 +30,25 @@ structure, glossing conventions, and editorial notes — is © 2026 Jacob Reinho
 
 See [LICENSE](LICENSE) for the terms.
 
+### A note on LLM-assisted production
+
+This translation was produced with substantial assistance from large language models and then curated and edited by the
+maintainer. Copyright is claimed on the human editorial and curatorial contribution — terminology decisions, glossing
+policy, structural arrangement, post-editing of model output, and the per-volume conventions. The status of any
+passages that are predominantly raw model output varies by jurisdiction:
+
+- **United States and European Union.** Purely AI-generated material is not copyrightable; copyright attaches only to
+    the human contribution (US Copyright Office guidance and the 2024–2025 reports; *Thaler v. Perlmutter* (2023);
+    CJEU *Infopaq* / *Painer* requiring an "author's own intellectual creation").
+- **United Kingdom.** Under CDPA 1988 §9(3), computer-generated works lacking a human author have a 50-year copyright
+    vesting in "the person by whom the arrangements necessary for the creation of the work are undertaken" — the
+    maintainer.
+- **China.** Case-by-case; recent Beijing Internet Court decisions have granted copyright where the user demonstrated
+    meaningful creative input through prompt iteration and post-editing.
+
+The CC BY 4.0 license applies to whatever is copyrightable in your jurisdiction. Where material is not copyrightable,
+the license imposes no obligation because there is nothing to license.
+
 ## Attribution
 
 If you reuse material from this translation, please attribute it as:
