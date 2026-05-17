@@ -1,11 +1,7 @@
 # SGA — English translation
 
-An idiomatic English translation, in Markdown with Unicode mathematics, of the Grothendieck-era *Séminaires de Géométrie
-Algébrique du Bois-Marie*.
-
-> **Note.** This translation was produced with substantial assistance from large language models, then curated and
-> edited by the maintainer. It has not been audited line-by-line by a working algebraic geometer. Treat it as a
-> reading aid: verify against the French source for anything that matters mathematically.
+An idiomatic, LLM-generated English translation (Markdown, Unicode mathematics) of the Grothendieck-era *Séminaires de
+Géométrie Algébrique du Bois-Marie*.
 
 ## Volumes
 
@@ -43,8 +39,3 @@ exist) were cross-referenced for technical accuracy.
 The translation is © 2026 Jacob Reinhold and licensed under
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see
 [LICENSE](LICENSE). The underlying French text remains © the original authors and publishers.
-
-Please cite as:
-
-> Reinhold, Jacob (trans.). *Séminaires de Géométrie Algébrique du Bois-Marie* (English translation).
-> <https://github.com/jcreinhold/sga>. CC BY 4.0.
