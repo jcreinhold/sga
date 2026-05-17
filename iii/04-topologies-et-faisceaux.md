@@ -79,8 +79,8 @@ T ×_S T ⇉_{pr₁,pr₂} T —u→ S
 ```
 
 *is exact, i.e. if `u` makes `S` into a cokernel of `(pr₁, pr₂)`. One says that `u` is a* universal effective
-epimorphism *if for every morphism `S′ → S`, the fiber product `T′ = T ×_S S′` exists, and the morphism
-`u′ : T′ → S′` is an effective epimorphism.*
+epimorphism *if for every morphism `S′ → S`, the fiber product `T′ = T ×_S S′` exists, and the morphism `u′ : T′ → S′`
+is an effective epimorphism.*
 
 <!-- label: III.IV.1.3 -->
 
@@ -118,8 +118,8 @@ Let us also note:
 
 <!-- original page 163 -->
 
-**Definition 1.6.0.**[^N.D.E-IV-5] *One says that an object `S` of `C` is* squarable *if its product with every object of
-`C` exists. (If `C` has a final object `e`, this is equivalent to saying that the morphism `S → e` is squarable, cf.
+**Definition 1.6.0.**[^N.D.E-IV-5] *One says that an object `S` of `C` is* squarable *if its product with every object
+of `C` exists. (If `C` has a final object `e`, this is equivalent to saying that the morphism `S → e` is squarable, cf.
 1.4.0.)*
 
 <!-- label: III.IV.1.6.0 -->
@@ -220,8 +220,8 @@ epimorphism" or "universal and effective epimorphism", or simply by "epimorphism
 
 In the proof of 1.8 we used the following result, which deserves to be made explicit:
 
-**Proposition 1.12.** *Let `u : T → S` be a morphism that admits a section. Then `u` is an epimorphism, and if
-`T ×_S T` exists, it is an effective epimorphism, and a universal effective epimorphism if moreover `u` is squarable.*
+**Proposition 1.12.** *Let `u : T → S` be a morphism that admits a section. Then `u` is an epimorphism, and if `T ×_S T`
+exists, it is an effective epimorphism, and a universal effective epimorphism if moreover `u` is squarable.*
 
 <!-- label: III.IV.1.12 -->
 
@@ -303,8 +303,8 @@ object over `S′`. One calls* gluing datum *on `X′/S′`, relative to `f`, an
 c : X″₁ ⥲ X″₂
 ```
 
-*where `X″ᵢ` (`i = 1, 2`) denotes the inverse image (supposed to exist) of `X′/S′` under the projection
-`prᵢ : S″ → S′`. One says that the gluing datum `c` is a* descent datum *if it satisfies the "cocycle condition"*
+*where `X″ᵢ` (`i = 1, 2`) denotes the inverse image (supposed to exist) of `X′/S′` under the projection `prᵢ : S″ → S′`.
+One says that the gluing datum `c` is a* descent datum *if it satisfies the "cocycle condition"*
 
 ```text
 pr*₃,₁(c) = pr*₃,₂(c) pr*₂,₁(c)
@@ -328,10 +328,10 @@ be made in the present Séminaire, one may consult SGA 1, VIII.
 
 Let `f : S′ → S` still be a morphism such that `S″ = S′ ×_S S′` exists, and let `X` be an object over `S` such that
 `X′ = X ×_S S′` and `X″ = X ×_S S″` exist; then the inverse images of `X′` under `prᵢ` (`i = 1, 2`) exist and are
-canonically isomorphic, and consequently `X′/S′` is endowed with a canonical gluing datum relative to `f`. When `S‴`
-and `X‴ = X ×_S S‴` exist, this is even a descent datum. If `Y` is another object over `S`, satisfying the same
-conditions as `X/S`, then for every `S`-morphism `X → Y`, the corresponding `S′`-morphism `X′ → Y′` is "compatible with
-the canonical gluing data" on `X′, Y′`. If in particular `S′ → S` is a squarable morphism, then
+canonically isomorphic, and consequently `X′/S′` is endowed with a canonical gluing datum relative to `f`. When `S‴` and
+`X‴ = X ×_S S‴` exist, this is even a descent datum. If `Y` is another object over `S`, satisfying the same conditions
+as `X/S`, then for every `S`-morphism `X → Y`, the corresponding `S′`-morphism `X′ → Y′` is "compatible with the
+canonical gluing data" on `X′, Y′`. If in particular `S′ → S` is a squarable morphism, then
 
 ```text
 X ⟼ X′ = X ×_S S′
@@ -344,9 +344,9 @@ over `S′` equipped with a gluing datum relative to `f`".
 This being so:
 
 **Definition 2.2.** *One says that a morphism `f : S′ → S` is a* descent morphism *(resp. an* effective descent
-morphism*) if `f` is squarable (i.e. for every `X → S`, the fiber product `X ×_S S′` exists), and if the preceding
+morphism\*) if `f` is squarable (i.e. for every `X → S`, the fiber product `X ×_S S′` exists), and if the preceding
 functor `X ⟼ X′ = X ×_S S′` from the category `C/S` of objects over `S`, into the category of objects over `S′` equipped
-with a descent datum relative to `f`, is fully faithful (resp. an equivalence of categories).*
+with a descent datum relative to `f`, is fully faithful (resp. an equivalence of categories).\*
 
 <!-- label: III.IV.2.2 -->
 
@@ -354,8 +354,8 @@ with a descent datum relative to `f`, is fully faithful (resp. an equivalence of
 
 One notes that the first of these two notions can be expressed using only the notion of gluing datum (hence without
 involving the triple fiber product `S‴`), `f` being a descent morphism if `f` is squarable and `X ⟼ X′` is a fully
-faithful functor from the category `C/S` into the category of objects over `S′` equipped with a gluing datum relative
-to `f`. When one makes this definition explicit, one finds that it means that for two objects `X, Y` over `S`, the
+faithful functor from the category `C/S` into the category of objects over `S′` equipped with a gluing datum relative to
+`f`. When one makes this definition explicit, one finds that it means that for two objects `X, Y` over `S`, the
 following diagram of sets
 
 ```text
@@ -428,8 +428,8 @@ same holds for `X, Y` over `S`. Now since `Y′ → S′`, and hence also `Y″ 
 proof holds more generally when one has two objects `X, Y` over `S`, with `Y → S` a monomorphism, and one asks whether
 the morphism `X → S` factors through `Y`: it suffices that `X′ → S′` factor through `Y′`.
 
-**Corollary 2.5.** *Let `f : S′ → S` be a universal effective epimorphism and `g : S → T` a morphism such that
-`S ×_T S` exists. Suppose that `S″ = S′ ×_S S′` is also a fiber product of `S′` with itself over `T`, i.e.
+**Corollary 2.5.** *Let `f : S′ → S` be a universal effective epimorphism and `g : S → T` a morphism such that `S ×_T S`
+exists. Suppose that `S″ = S′ ×_S S′` is also a fiber product of `S′` with itself over `T`, i.e.
 `S′ ×_S S′ ⥲ S′ ×_T S′`. Then `g : S → T` is a monomorphism (and conversely, of course).*
 
 <!-- label: III.IV.2.5 -->
@@ -524,8 +524,8 @@ The canonical monomorphism `R → X × X` then factors through the monomorphism
 X ×_S X ⟶ X × X
 ```
 
-and defines an equivalence relation in the object `X → S` of `C/S`. When the quotient `X/R` exists, it is endowed with
-a canonical morphism into `S` and the corresponding object of `C/S` is a quotient of `X ∈ Ob C/S` by the preceding
+and defines an equivalence relation in the object `X → S` of `C/S`. When the quotient `X/R` exists, it is endowed with a
+canonical morphism into `S` and the corresponding object of `C/S` is a quotient of `X ∈ Ob C/S` by the preceding
 equivalence relation.
 
 <!-- original page 174 -->
@@ -543,8 +543,8 @@ u : X → X′
 
 *is said to be* compatible with `R` and `R′` *if the following equivalent conditions are satisfied:*
 
-*(i) for every `S ∈ Ob C`, two points of `X(S)` congruent modulo `R(S)` are transformed by `u` into two points of `X′(S)`
-congruent modulo `R′(S)`;*
+*(i) for every `S ∈ Ob C`, two points of `X(S)` congruent modulo `R(S)` are transformed by `u` into two points of
+`X′(S)` congruent modulo `R′(S)`;*
 
 *(ii) there exists a morphism `R → R′` (necessarily unique) making commutative the diagram*
 
@@ -721,8 +721,8 @@ H  —g→  H′
 G  —f→  G′.
 ```
 
-*Under these conditions, if the quotients `G/H` and `G′/H′` exist, there exists a unique morphism `f̄` making commutative
-the diagram*
+*Under these conditions, if the quotients `G/H` and `G′/H′` exist, there exists a unique morphism `f̄` making
+commutative the diagram*
 
 ```text
 G   —f→   G′
@@ -739,8 +739,8 @@ The first part is proved by reduction to the set-theoretic case. The second foll
 One could translate to the present situation the notions introduced above for general equivalence relations. Let us
 simply signal the following lemma, whose proof is immediate by reduction to the set-theoretic case:
 
-**Lemma 3.2.4.** *Let `u : H → G` be a monomorphism of `C`-groups and `G′` a sub-`C`-group of `G`. For the subobject `G′`
-of `G` to be stable under the equivalence relation defined by `H`, it is necessary and sufficient that `u` factor
+**Lemma 3.2.4.** *Let `u : H → G` be a monomorphism of `C`-groups and `G′` a sub-`C`-group of `G`. For the subobject
+`G′` of `G` to be stable under the equivalence relation defined by `H`, it is necessary and sufficient that `u` factor
 through the canonical monomorphism `G′ → G`, and under this condition the action of `H` on `G′` induced by the action of
 `H` on `G` defined by `u` is none other than the action deduced from the monomorphism `H → G′` that factors `u`.*
 
@@ -798,8 +798,8 @@ effective equivalence relations in `X` and universal effective quotients of `X`.
 of dimension 1 over `S`. Let `R ⊂ X ×_S X` be a universal effective equivalence relation and `p : X → Y` the quotient.
 Then, for every open `U` of `Y`, `O(U) = Hom_S(U, 𝔸¹_S)` is the set of elements `φ` of `O(p⁻¹(U)) = Hom_S(p⁻¹(U), 𝔸¹_S)`
 such that `φ ∘ pr₁ = φ ∘ pr₂`. In particular, if `R` is given by the action of a group `H` acting freely on the right on
-`X` (cf. 3.2.1), then `O(U)` is the set of `φ ∈ O(p⁻¹(U))` such that `φ(xh) = φ(x)`, for every `S′ → S` and
-`x ∈ X(S′)`, `h ∈ H(S′)`.*
+`X` (cf. 3.2.1), then `O(U)` is the set of `φ ∈ O(p⁻¹(U))` such that `φ(xh) = φ(x)`, for every `S′ → S` and `x ∈ X(S′)`,
+`h ∈ H(S′)`.*
 
 <!-- label: III.IV.3.3.3.2 -->
 
@@ -817,8 +817,8 @@ Indeed, (i) trivially entails (ii); the converse is none other than 2.5.
 <!-- original page 181 -->
 
 **Definition 3.3.5.** *Let `H` be a `C`-group acting freely on `X`. One says that `H` acts* effectively, *or that the
-action of `H` on `X` is* effective *(resp.* universally effective*), if the equivalence relation defined in `X` by the
-action of `H` is effective (resp. universally effective).*
+action of `H` on `X` is* effective *(resp.* universally effective\*), if the equivalence relation defined in `X` by the
+action of `H` is effective (resp. universally effective).\*
 
 <!-- label: III.IV.3.3.5 -->
 
@@ -841,8 +841,8 @@ for every `S′ → S`, `u′ : T ×_S S′ → S′` is an element of `(M)`.
 
 Note that (a) and (b) entail:
 
-(a′) The cartesian product of two elements of `(M)` is in `(M)`: let `u : X → Y` and `u′ : X′ → Y′` be two `S`-morphisms,
-elements of `(M)`. If `Y ×_S Y′` exists, then `X ×_S X′` exists and `u ×_S u′` is an element of `(M)`.
+(a′) The cartesian product of two elements of `(M)` is in `(M)`: let `u : X → Y` and `u′ : X′ → Y′` be two
+`S`-morphisms, elements of `(M)`. If `Y ×_S Y′` exists, then `X ×_S X′` exists and `u ×_S u′` is an element of `(M)`.
 
 <!-- original page 182 -->
 
@@ -924,9 +924,9 @@ relation defined in `X` by this action is `(M)`-effective.
 
 <!-- label: III.IV.3.4.5 -->
 
-Indeed, the canonical morphisms `X → Y` and `R → Y` are elements of `(M)`, hence by (a′) `X′` and `R′` are representable.
-By associativity of the product, `R′` is the equivalence relation defined in `X′` by the canonical morphism `X′ → Y′`
-which is an element of `(M)`, whence the conclusion.
+Indeed, the canonical morphisms `X → Y` and `R → Y` are elements of `(M)`, hence by (a′) `X′` and `R′` are
+representable. By associativity of the product, `R′` is the equivalence relation defined in `X′` by the canonical
+morphism `X′ → Y′` which is an element of `(M)`, whence the conclusion.
 
 **Proposition 3.4.6 ((M)-effectivity and cartesian products).** *Let `R` (resp. `R′`) be an `(M)`-effective equivalence
 relation in `X` (resp. `X′`) over `S`. If `(X/R) ×_S (X′/R′)` exists, then `X ×_S X′` exists, `R ×_S R′` is an
@@ -956,8 +956,8 @@ is an element of `(M)`. Now the formula
 `X ×_S X′`, which completes the proof.
 
 **3.4.7.**[^N.D.E-IV-16] Suppose that `C` has a final object `e` and let `f : G → G′` be a morphism of `C`-groups, such
-that `f ∈ (M)`. Then, by 3.4.1 (a), the kernel `Ker(f)` is representable by `e ×_{G′} G`, and the morphism
-`Ker(f) → e` belongs to `(M)`.
+that `f ∈ (M)`. Then, by 3.4.1 (a), the kernel `Ker(f)` is representable by `e ×_{G′} G`, and the morphism `Ker(f) → e`
+belongs to `(M)`.
 
 On the other hand, the equivalence relation defined by `f` is the same as that defined by the action of `Ker(f)` (say,
 on the right) on `G`, i.e., it is the image of the morphism `G × Ker(f) → G × G`, defined set-theoretically by
@@ -1034,8 +1034,8 @@ isomorphism for the same reason as before (2.4).
 Note that the hypothesis of the text is satisfied if one takes for `(M)` the family `(M₀)` of universal effective
 epimorphisms and if `C` has fiber products (1.10). One deduces the
 
-**Corollary 3.5.3.** *Suppose that `C` has fiber products (over `S` would suffice). Let `R` be an equivalence relation in
-`X` over `S` and `S′ → S` a universal effective epimorphism. The following conditions are equivalent:*
+**Corollary 3.5.3.** *Suppose that `C` has fiber products (over `S` would suffice). Let `R` be an equivalence relation
+in `X` over `S` and `S′ → S` a universal effective epimorphism. The following conditions are equivalent:*
 
 *(i) `R` is universally effective in `X`,*
 
@@ -1082,11 +1082,11 @@ Conversely, if `E` is a subset of `Ob C` enjoying property (++), then `E` is wri
 and `C` is defined by the formulas (+). There is therefore a one-to-one correspondence between sieves of `C` and subsets
 of `Ob C` satisfying condition (++). By abuse of language, we shall sometimes say that the set `E(C)` is a sieve of `C`.
 
-[^N.D.E-IV-18] Let `C` and `C′` be two sieves of `C`; since they are two subfunctors of the final functor `e`, it amounts
-to the same to say that `C` dominates `C′` (for the relation of domination in `Ob Ĉ`), or that `C` is a subfunctor of
-`C′`, or yet that `E(C) ⊂ E(C′)`; one then says that `C` is *finer* than `C′`. One sees that this gives an order
-structure on the set of sieves of `C`. Furthermore, one has `E(C) ∩ E(C′) = E(C × C′)` and therefore the set of sieves
-of `C` is filtered for the order relation "being finer".
+[^N.D.E-IV-18] Let `C` and `C′` be two sieves of `C`; since they are two subfunctors of the final functor `e`, it
+amounts to the same to say that `C` dominates `C′` (for the relation of domination in `Ob Ĉ`), or that `C` is a
+subfunctor of `C′`, or yet that `E(C) ⊂ E(C′)`; one then says that `C` is *finer* than `C′`. One sees that this gives an
+order structure on the set of sieves of `C`. Furthermore, one has `E(C) ∩ E(C′) = E(C × C′)` and therefore the set of
+sieves of `C` is filtered for the order relation "being finer".
 
 Every subset `E` of `Ob Ĉ`, for example a subset of `Ob C`, defines a sieve `C(E)`: the set of `X ∈ Ob C` such that
 `F(X) ≠ ∅` for at least one `F ∈ E` satisfies condition (++) and defines the sought sieve.
@@ -1197,7 +1197,8 @@ Hom(e, F)  →  Hom(R, F)
 
 <!-- label: III.IV.4.1.6 -->
 
-**Definition 4.1.7.** *Let `C` be a category. One calls a* sieve of the object `S` of `C` *a sieve of the category `C/S`.*
+**Definition 4.1.7.** *Let `C` be a category. One calls a* sieve of the object `S` of `C` *a sieve of the category
+`C/S`.*
 
 <!-- label: III.IV.4.1.7 -->
 
@@ -1244,9 +1245,9 @@ axioms entail the following properties:
 
 <!-- original page 191 -->
 
-Conversely, if one gives oneself, for every `F ∈ Ob Ĉ`, a set `J(F)` of subobjects of `F` satisfying the properties
-(T′ 0) through (T′ 4), the map `S ⟼ J(S)` defines a topology on `C` and the two preceding constructions are inverse to
-each other.
+Conversely, if one gives oneself, for every `F ∈ Ob Ĉ`, a set `J(F)` of subobjects of `F` satisfying the properties (T′
+0\) through (T′ 4), the map `S ⟼ J(S)` defines a topology on `C` and the two preceding constructions are inverse to each
+other.
 
 From (T′ 1), (T′ 2) and (T′ 3)[^N.D.E-IV-21] results the following property:
 
@@ -1294,8 +1295,8 @@ family `{F_{ij} → F}` is covering ("stability under composition").
 Note that (C 2) and (C 3) also entail:
 
 (C 5) If `{Fᵢ → F}` is a family of morphisms with target `F` such that there exists a covering family `{Gⱼ → F}` such
-that for every `j` the family `{Fᵢ ×_F Gⱼ → Gⱼ}` is covering, then the family `{Fᵢ → F}` is covering ("a locally covering
-family is covering").
+that for every `j` the family `{Fᵢ ×_F Gⱼ → Gⱼ}` is covering, then the family `{Fᵢ → F}` is covering ("a locally
+covering family is covering").
 
 **4.2.4.** Conversely, let `C` be a category having fiber products and let us give ourselves, for each `S ∈ Ob C`, a set
 of families of morphisms of `C` with target `S`, said to be *covering families*, the datum satisfying axioms (C 1)
@@ -1316,8 +1317,8 @@ which the given families are covering.*
 <!-- label: III.IV.4.2.5.0 -->
 
 **Definition 4.2.5.** *Let `C` be a category. One calls a* pretopology *on `C` the datum for each `S ∈ Ob C` of a set
-`R(S)` of families of morphisms `{Sᵢ → S}` with target `S`, said to be* covering for the pretopology under consideration,
-*satisfying the following axioms:*
+`R(S)` of families of morphisms `{Sᵢ → S}` with target `S`, said to be* covering for the pretopology under
+consideration, *satisfying the following axioms:*
 
 *(P 1) For every family `{Sᵢ → S} ∈ R(S)` and every morphism `T → S`, the fiber products `Sᵢ ×_S T` exist and
 `{Sᵢ ×_S T → T} ∈ R(T)`.*
@@ -1339,25 +1340,24 @@ pretopology `R`. Let `J_R(S)` be the part of `J(S)` formed by the sieves defined
 
 <!-- original page 194 -->
 
-For every `S`, let `J′(S)` be the set of sieves of `S` containing a sieve of `J_R(S)`. One evidently has
-`J′(S) ⊂ J(S)`. To show that `J(S) = J′(S)`, it suffices to show that the `J′(S)` make a topology on `C`, that is, that
-they satisfy axioms (T 1) through (T 4). Now (T 1), (T 3), (T 4) are evidently satisfied. It remains to verify
-(T 2).[^N.D.E-IV-23]
+For every `S`, let `J′(S)` be the set of sieves of `S` containing a sieve of `J_R(S)`. One evidently has `J′(S) ⊂ J(S)`.
+To show that `J(S) = J′(S)`, it suffices to show that the `J′(S)` make a topology on `C`, that is, that they satisfy
+axioms (T 1) through (T 4). Now (T 1), (T 3), (T 4) are evidently satisfied. It remains to verify (T 2).[^N.D.E-IV-23]
 
 So let `U` be an element of `J′(S)` and `C` a sieve of `S`; one supposes that for every `T → U`, the sieve `C ×_S T` is
-in `J′(T)` and one must prove that `C ∈ J′(S)`. By definition of `J′`, `U` contains a refinement `U′` defined by a family
-`{Sᵢ → S} ∈ R(S)`. Since one has verified (T 3), it suffices to prove that `U′ ∩ C ∈ J′(S)`, so one may suppose that
-`U = U′`. By hypothesis, for every `i`, `C ×_S Sᵢ ∈ J′(Sᵢ)`; there therefore exists, for each `i`, a covering family
-`{T_{ij} → Sᵢ} ∈ R(Sᵢ)` such that `T_{ij} → Sᵢ` factors through `C ×_S Sᵢ → Sᵢ`. The morphism `T_{ij} → S` therefore
-factors through `C → S`, which shows that `C` contains the sieve defined by the composite family `{T_{ij} → S}`, and one
-has finished by (P 2).
+in `J′(T)` and one must prove that `C ∈ J′(S)`. By definition of `J′`, `U` contains a refinement `U′` defined by a
+family `{Sᵢ → S} ∈ R(S)`. Since one has verified (T 3), it suffices to prove that `U′ ∩ C ∈ J′(S)`, so one may suppose
+that `U = U′`. By hypothesis, for every `i`, `C ×_S Sᵢ ∈ J′(Sᵢ)`; there therefore exists, for each `i`, a covering
+family `{T_{ij} → Sᵢ} ∈ R(Sᵢ)` such that `T_{ij} → Sᵢ` factors through `C ×_S Sᵢ → Sᵢ`. The morphism `T_{ij} → S`
+therefore factors through `C → S`, which shows that `C` contains the sieve defined by the composite family
+`{T_{ij} → S}`, and one has finished by (P 2).
 
 The axioms (P 1) through (P 3) are those of [MA]. Given the practical interest of pretopologies, we shall interpret each
 important result with the aid of a pretopology defining the given topology.
 
 **Remark 4.2.7.** *One can introduce a somewhat more general notion: one gives, for each `S`, a set of covering families
-satisfying (P 1), (P 3) and Proposition 4.2.6. This presents itself in particular when the given families satisfy
-(P 1), (P 3) and (C 5). The reader may consult [D].*
+satisfying (P 1), (P 3) and Proposition 4.2.6. This presents itself in particular when the given families satisfy (P 1),
+(P 3) and (C 5). The reader may consult [D].*
 
 <!-- label: III.IV.4.2.7 -->
 
@@ -1376,8 +1376,8 @@ that `P(S′)` is true for every `S′` of this family.*
 
 <!-- label: III.IV.4.2.8 -->
 
-**Example 4.2.9.** *Let `f : X → Y` be an `S`-morphism. One will say that `f` is* locally an isomorphism *if there exists
-a covering family `{Sᵢ → S}` such that for every `i`, `f ×_S Sᵢ`*
+**Example 4.2.9.** *Let `f : X → Y` be an `S`-morphism. One will say that `f` is* locally an isomorphism *if there
+exists a covering family `{Sᵢ → S}` such that for every `i`, `f ×_S Sᵢ`*
 
 <!-- original page 203 -->
 
@@ -1392,8 +1392,8 @@ One will see in the sequel many other examples of "local" language.
 
 **Definition 4.3.1.** *Let `C` be a category. One calls a* presheaf of sets *on `C` any contravariant functor from `C`
 into the category of sets. The category `Ĉ = Hom(C°, (Ens))` is called the* category of presheaves *on `C`. If `C` is
-equipped with a topology, one says that the presheaf `P` is* separated *(resp.* is a sheaf*) if for every `S ∈ Ob C` and
-every `R ∈ J(S)`, the canonical map*
+equipped with a topology, one says that the presheaf `P` is* separated *(resp.* is a sheaf\*) if for every `S ∈ Ob C`
+and every `R ∈ J(S)`, the canonical map\*
 
 ```text
 (+)    P(S) = Hom(S, P) ⟶ Hom(R, P)
@@ -1512,12 +1512,13 @@ Hom(T, X) ⟶ Hom(R ×_S T, X)
 
 <!-- label: III.IV.4.3.7 -->
 
-**Definition 4.3.8.** *A sieve covering for the canonical topology will be called a* universal effective epimorphic sieve.
+**Definition 4.3.8.** *A sieve covering for the canonical topology will be called a* universal effective epimorphic
+sieve.
 
 <!-- label: III.IV.4.3.8 -->
 
-**Corollary 4.3.9.** *A universal effective epimorphic family defines a universal effective epimorphic sieve. Conversely,
-every squarable family defining a universal effective epimorphic sieve is universal effective epimorphic.*
+**Corollary 4.3.9.** *A universal effective epimorphic family defines a universal effective epimorphic sieve.
+Conversely, every squarable family defining a universal effective epimorphic sieve is universal effective epimorphic.*
 
 <!-- label: III.IV.4.3.9 -->
 
@@ -1763,10 +1764,10 @@ Hom(P, F) ≃ Hom(a(P), F).
 **Remark 4.3.16.** *As the functor `L` is constructed using inverse limits and filtered direct limits, it commutes with
 finite inverse limits.*[^N.D.E-IV-29]
 
-*Moreover, if one identifies `L(P × P)` with `LP × LP`, the morphism `ℓ_{P×P}` is identified with `ℓ_P × ℓ_P`. It follows
-for example that if `P` is a presheaf of groups, `LP` is also canonically equipped with a structure of presheaf of
-groups and the canonical morphism `P → LP` is a morphism of groups. The same holds for the functor `a`, which shows that
-if `P` is a presheaf of groups and `F` a sheaf of groups, one has an isomorphism*
+*Moreover, if one identifies `L(P × P)` with `LP × LP`, the morphism `ℓ_{P×P}` is identified with `ℓ_P × ℓ_P`. It
+follows for example that if `P` is a presheaf of groups, `LP` is also canonically equipped with a structure of presheaf
+of groups and the canonical morphism `P → LP` is a morphism of groups. The same holds for the functor `a`, which shows
+that if `P` is a presheaf of groups and `F` a sheaf of groups, one has an isomorphism*
 
 ```text
 Hom_{Ĉ-gr.}(P, i(F)) ≃ Hom_{C̃-gr.}(a(P), F).
@@ -1809,8 +1810,8 @@ P(S) = P_S(S) = lim← P_S ⟶ lim←(P_S ∘ i_R).
 
 One denotes by `lim←_R P` the object `lim←(P_S ∘ i_R)` of `V̂`. By virtue of 4.1.6, Definition 4.3.1 generalizes to the
 
-**Definition 4.3.18.** *The presheaf `P` on `C` with values in `V` is said to be* separated *(resp.* a sheaf*), if for
-every `S ∈ Ob C` and every `R ∈ J(S)`, the canonical morphism of `V̂`*
+**Definition 4.3.18.** *The presheaf `P` on `C` with values in `V` is said to be* separated *(resp.* a sheaf\*), if for
+every `S ∈ Ob C` and every `R ∈ J(S)`, the canonical morphism of `V̂`\*
 
 ```text
 P(S) ⟶ lim←_R P
@@ -1912,8 +1913,8 @@ the two "coordinate" morphisms `Y → V`. If `X → Y` is an epimorphism in the 
 this case, for each `S`, the map `X(S) → Y(S)` is surjective; as it is also injective, it is a bijection, and therefore
 `X → Y` is an isomorphism.
 
-Let us place ourselves finally in the category `C̃` of sheaves. By 4.4.1 (ii), the amalgamated sum in `C̃` of the sheaves
-`Y` and `Y` under `X` is the sheaf `Z` associated to the presheaf `V`. Consider the diagram of morphisms:
+Let us place ourselves finally in the category `C̃` of sheaves. By 4.4.1 (ii), the amalgamated sum in `C̃` of the
+sheaves `Y` and `Y` under `X` is the sheaf `Z` associated to the presheaf `V`. Consider the diagram of morphisms:
 
 ```text
 X —f→ Y ⇉_{i₁, i₂} V —τ→ Z = a(V).
@@ -1930,8 +1931,8 @@ entails that `f : X → Y` is an isomorphism. This proves Lemma 4.4.4, once one 
 [^N.D.E-IV-32] Let `R_∅` be the presheaf that to every `S ∈ Ob C` associates the empty set; it is an initial object of
 `Ĉ`.
 
-**Lemma 4.4.5.** *(i) Suppose that `R_∅ ∉ J(S)`, for every `S ∈ Ob C`. If `(Xᵢ)` is a family of separated presheaves, the
-direct sum presheaf `∐ᵢ Xᵢ` is separated.*[^N.D.E-IV-33]
+**Lemma 4.4.5.** *(i) Suppose that `R_∅ ∉ J(S)`, for every `S ∈ Ob C`. If `(Xᵢ)` is a family of separated presheaves,
+the direct sum presheaf `∐ᵢ Xᵢ` is separated.*[^N.D.E-IV-33]
 
 *(ii) Consider an equivalence relation in the category of presheaves:*
 
@@ -1992,12 +1993,12 @@ V(S)  —V(τ)→  V(R).
 Let `v₁, v₂ ∈ V(S)` whose images in `V(R)` coincide. By the definition of `V`, `v₁, v₂` lift to elements `y₁, y₂` of
 `U(S)`; denote by `z₁, z₂` their images in `U(R)`. Then `z₁, z₂` have the same image in `V(R)`.
 
-Since `i : Y → V` and `j : Y′ → V` are monomorphisms, the maps `Y(R) → V(R)` and `Y′(R) → V(R)` are injective. Therefore,
-since `Y` and `Y′` are separated, if `y₁` and `y₂` both belong to `Y(S)` or to `Y′(S)`, then `y₁ = y₂`. Otherwise, one
-may suppose that `y₁ ∈ Y(S)` and `y₂ ∈ Y′(S)`, whence `z₁ ∈ Y(R)` and `z₂ ∈ Y′(R)`. But then, since `i ∘ z₁ = j ∘ z₂`,
-the morphism `z₁ ⊠ z₂ : R → Y × Y′` factors through `K = X`. Moreover, since `X(R) = X(S)` (because `X` is a sheaf),
-there exists `x ∈ X(S)` such that `u(x) ∘ τ = z₁ = y₁ ∘ τ` and `u′(x) ∘ τ = z₂ = y₂ ∘ τ`, whence, since `Y` and `Y′` are
-separated, `u(x) = y₁` and `u′(x) = y₂`, and therefore `v₁ = v₂`. This proves that `V` is separated.
+Since `i : Y → V` and `j : Y′ → V` are monomorphisms, the maps `Y(R) → V(R)` and `Y′(R) → V(R)` are injective.
+Therefore, since `Y` and `Y′` are separated, if `y₁` and `y₂` both belong to `Y(S)` or to `Y′(S)`, then `y₁ = y₂`.
+Otherwise, one may suppose that `y₁ ∈ Y(S)` and `y₂ ∈ Y′(S)`, whence `z₁ ∈ Y(R)` and `z₂ ∈ Y′(R)`. But then, since
+`i ∘ z₁ = j ∘ z₂`, the morphism `z₁ ⊠ z₂ : R → Y × Y′` factors through `K = X`. Moreover, since `X(R) = X(S)` (because
+`X` is a sheaf), there exists `x ∈ X(S)` such that `u(x) ∘ τ = z₁ = y₁ ∘ τ` and `u′(x) ∘ τ = z₂ = y₂ ∘ τ`, whence, since
+`Y` and `Y′` are separated, `u(x) = y₁` and `u′(x) = y₂`, and therefore `v₁ = v₂`. This proves that `V` is separated.
 
 Let us prove (ii). Let us first remark that the morphism of presheaves
 
@@ -2177,18 +2178,17 @@ proved.
 
 <!-- label: III.IV.4.4.8.2 -->
 
-Let `S ∈ Ob C`; it must be shown (cf. I 2.3.6) that `L(H)(S)` is normal (resp. central) in `L(G)(S)`. Let
-`h ∈ L(H)(S)` and `g ∈ L(G)(S)`; there exist a sieve `R` of `S` and elements `h′ ∈ H(R)`, `g′ ∈ G(R)`, such that
-`h = z_R(h′)` and `g = z_R(g′)` (notation of 4.3.10). Since `z_R` is a morphism of groups, one has
-`g h g⁻¹ h⁻¹ = z_R(g′ h′ g′⁻¹ h′⁻¹)`.
+Let `S ∈ Ob C`; it must be shown (cf. I 2.3.6) that `L(H)(S)` is normal (resp. central) in `L(G)(S)`. Let `h ∈ L(H)(S)`
+and `g ∈ L(G)(S)`; there exist a sieve `R` of `S` and elements `h′ ∈ H(R)`, `g′ ∈ G(R)`, such that `h = z_R(h′)` and
+`g = z_R(g′)` (notation of 4.3.10). Since `z_R` is a morphism of groups, one has `g h g⁻¹ h⁻¹ = z_R(g′ h′ g′⁻¹ h′⁻¹)`.
 
-In case (i), one has `g′ h′ g′⁻¹ h′⁻¹ ∈ H(R)`, whence `g h g⁻¹ h⁻¹ ∈ LH(S)`; in case (ii),
-`g′ h′ g′⁻¹ h′⁻¹ = 1` and therefore `g h g⁻¹ h⁻¹ = 1`.
+In case (i), one has `g′ h′ g′⁻¹ h′⁻¹ ∈ H(R)`, whence `g h g⁻¹ h⁻¹ ∈ LH(S)`; in case (ii), `g′ h′ g′⁻¹ h′⁻¹ = 1` and
+therefore `g h g⁻¹ h⁻¹ = 1`.
 
 <!-- original page 218 -->
 
-**Proposition 4.4.9.** *Every equivalence relation in `C̃` is universally effective (3.3.3): let `R` be a `C̃`-equivalence
-relation in the sheaf `X`; then the sheaf associated to the separated presheaf*
+**Proposition 4.4.9.** *Every equivalence relation in `C̃` is universally effective (3.3.3): let `R` be a
+`C̃`-equivalence relation in the sheaf `X`; then the sheaf associated to the separated presheaf*
 
 ```text
 i(X)/i(R) : S ⟼ X(S)/R(S)
@@ -2292,140 +2292,6 @@ of `Y` for the equivalence relation `R`.
 
 ## Footnotes (chunk-A)
 
-[^IV-0-1]: This text develops the substance of two oral expositions of A. Grothendieck, completing the latter on
-several important points which had been passed over in silence or scarcely touched on.
-
-[^N.D.E-IV-0]: N.D.E.: Version of 13/10/2024.
-
-[^IV-1-1]: N.D.E.: that is, if `u` is right-cancellable.
-
-[^N.D.E-IV-2]: N.D.E.: This implies, in particular, that `u` be an epimorphism.
-
-[^N.D.E-IV-3]: N.D.E.: For example, if `C = (Sch)` is the category of schemes, one sees easily that every universal
-epimorphism is surjective. Let `T = ∐_{p prime} Spec(F_p)` and `S = Spec(Z)`; then the morphism `u : T → S` is an
-epimorphism that is not universal. On the other hand, one sees that `T ×_S T` is identified with `T`, so that the two
-projections `T ×_S T ⇉ T` coincide; since `id_T` does not descend to a morphism `S → T`, this shows that `u` is not an
-effective epimorphism.
-
-[^N.D.E-IV-4]: N.D.E.: The numbering 1.4.0 has been added for later references.
-
-[^N.D.E-IV-5]: N.D.E.: The numbering 1.6.0 has been added for later references.
-
-[^N.D.E-IV-6]: N.D.E.: This is the following argument, communicated by M. Demazure. Let `f, g : T′ → T`, and let
-`φ : T′ → T ×_S T` be the morphism with components `f` and `g`, whence `p₁ ∘ φ = f` and `p₂ ∘ φ = g`. Then
-`F(φ) : F(T ×_S T) → F(T′)` satisfies `F(φ) ∘ F(p₁) = F(f)` and `F(φ) ∘ F(p₂) = F(g)`. Now, for every
-`x ∈ Ȟ⁰(T/S, F)`, one has `F(p₁)(x) = F(p₂)(x)`. Hence, applying `F(φ)` to both sides, one obtains
-`F(f)(x) = F(g)(x)`, which shows that `f` and `g` induce the same morphism.
-
-[^N.D.E-IV-7]: N.D.E.: One will note that a monomorphism which is an epimorphism is not necessarily an isomorphism.
-For example, in `C = (Sch)`, the morphism `Spec(F_p) ∐ Spec(Z[1/p]) → Spec(Z)` is a monomorphism and a surjective
-epimorphism, but is not an isomorphism.
-
-[^N.D.E-IV-8]: N.D.E.: for example, one has identified, on the one hand, `pr*₂,₁(X″₁) = pr*₃,₁(X″₁)` and, on the other
-hand, `pr*₂,₁(X″₂) = pr*₃,₂(X″₂)`.
-
-[^N.D.E-IV-9]: N.D.E.: applied to `f : S′ ×_T S′ → S ×_T S = Y`.
-
-[^N.D.E-IV-10]: N.D.E.: The condition is evidently necessary. Conversely, if for every `S ∈ Ob C`, `R(S)` is the graph
-of an equivalence relation, then this equivalence relation extends to `R(F)` for every `F ∈ Ob Ĉ`, by declaring that
-two morphisms `φ, ψ : F → R` are equivalent if, for every `S ∈ Ob C` and `x ∈ F(S)`, `φ(x)` and `ψ(x)` are equivalent
-in `X(S)`.
-
-[^N.D.E-IV-11]: N.D.E.: Let us illustrate this by giving an outline of the sequel of this Exposé. Let `G` be a
-`C`-group, `H` a sub-`C`-group, `R` the equivalence relation in `G` defined by `G × H → G × G`, `(g, h) ⟼ (g, gh)`
-(cf. 3.2). The functor `Q` defined by `Q(S) = G(S)/H(S)` is a quotient in `Ĉ` (according to 4.4.9 applied to the least
-fine topology, cf. 4.4.2), but it is not in general the quotient that one wishes. For example, for `C = (Sch)`, one
-has an exact sequence of (affine) group schemes:
-
-    ```text
-    1 ⟶ μ₂ ⟶ G_m —p→ G_m ⟶ 1
-    ```
-
-    which identifies `G_m` with the quotient `G_m/μ₂`. Moreover, since `p` is a finite and locally free morphism, then
-    `G_m` is the sheaf-quotient of `G_m` by `μ₂` in the larger category of sheaves for the (fppf) topology, cf. 4.6.6
-    (ii) and 6.3.2. By contrast, the quotient `Q` in `Ĉ` is not isomorphic to `G_m` since, for example, `Q(Z) = {1}`
-    while `G_m(Z) = {±1}`. Hence `Q` is not an (fppf) sheaf, and *a fortiori* `Q` is not representable.
-
-[^N.D.E-IV-12]: N.D.E.: Note that, even for a `Ĉ`-equivalence relation in `X`, one is interested in the existence of a
-quotient in `C`.
-
-[^N.D.E-IV-13]: N.D.E.: "in `C`" has been added.
-
-[^N.D.E-IV-14]: N.D.E.: The numbering 3.3.2.1 (resp. 3.3.3.1) has been added for later references. On the other hand,
-Remark 3.3.3.2 has been added.
-
-[^N.D.E-IV-15]: N.D.E.: The numbering 3.4.3.1 has been added for later references, and the proof of point (i) has been
-detailed.
-
-[^N.D.E-IV-16]: N.D.E.: This paragraph has been added.
-
-[^N.D.E-IV-17]: N.D.E.: Here, "dominator" is taken in the sense of the preorder relation mentioned above, i.e., `Y`
-dominates `X` if there exists an arrow `Y → X`. On the other hand, if `X, Y` are two subobjects of an object `Z`, one
-says (cf. 2.4) that `Y` contains `X` if `X ⊂ Y`. To avoid any ambiguity between these two terminologies, "majorant"
-has been replaced in the sequel by "dominating" in the first case, and by "containing", in the second.
-
-[^N.D.E-IV-18]: N.D.E.: The sentence that follows has been detailed.
-
-[^N.D.E-IV-19]: N.D.E.: The numbering 4.1.4.0 has been added in order to highlight this definition.
-
-[^N.D.E-IV-20]: N.D.E.: that is: if `C` is covering "locally with respect to the covering sieve `R`", then `C` is
-covering.
-
-[^N.D.E-IV-21]: N.D.E.: (T′ 1) and (T′ 2) suffice: `G ∩ H = G ×_F H` belongs to `J(H)`, by (T′ 1), hence to `J(F)`, by
-(T′ 2).
-
-[^N.D.E-IV-22]: N.D.E.: This definition has been placed here (placed in the original after 4.2.5), since it will be
-used in 6.2.1 in a slightly more general setting than that of 4.2.5.
-
-[^N.D.E-IV-23]: N.D.E.: in what follows, typographical errors of the original have been corrected.
-
-[^N.D.E-IV-24]: N.D.E.: One will note that if `Q` is a subpresheaf of a separated presheaf `P`, then `Q` is separated.
-Indeed, for every sieve `R` of `S`, the composite map `Q(S) ↪ P(S) ↪ P(R)` is injective and factors through
-`Q(S) → Q(R)`.
-
-[^N.D.E-IV-25]: N.D.E.: This corollary has been added.
-
-[^N.D.E-IV-26]: N.D.E.: The numbering 4.3.10.0 has been added for later references. On the other hand, it follows
-from the definition that if `Q → P` is a monomorphism, the same holds for `LP → LQ`; hence `L` "preserves
-monomorphisms" (see also 4.3.16 for a more general result: `L` "commutes with finite inverse limits").
-
-[^N.D.E-IV-27]: N.D.E.: Denote by `p` the projection `R′ → R`. Since `i_R` is a monomorphism, one has `p = g i_{R′}`.
-Let `g′` be the section of `i_{R′}` defined by `g`; then `p g′ = g` and therefore `p g′ i_{R′} = g i_{R′} = p`; this
-entails `g′ i_{R′} = id_{R′}` and therefore `i_{R′} : R′ → T` is an isomorphism, with inverse `g′`.
-
-[^N.D.E-IV-28]: N.D.E.: The statement of the corollary and its proof have been detailed.
-
-[^N.D.E-IV-29]: N.D.E.: In particular, if `K` is the kernel of a pair of morphisms of presheaves `u, v : Q ⇉ P`, then
-`LK` is the kernel of `Lu, Lv : LQ ⇉ LP` (this will be used in 4.4.5).
-
-[^N.D.E-IV-30]: N.D.E.: The original has been modified here.
-
-[^N.D.E-IV-31]: N.D.E.: The continuation of the proof has been slightly modified.
-
-[^N.D.E-IV-32]: N.D.E.: Point (i) of Lemma 4.4.5 has been corrected, and the proof of the three points detailed.
-
-[^N.D.E-IV-33]: N.D.E.: In general, the direct sum of two sheaves `F, G` is not a sheaf. Indeed, let
-`S₁, S₂ ∈ Ob C`; suppose that the direct sum `S = S₁ ∐ S₂` exists in `C` and that the fiber product `S₁ ×_S S₂` is an
-initial object `∅` of `C` (cf. I, 1.8). Let `R` be the sieve of `S` with base `{S₁, S₂}`; then `(F ∐ G)(R)` is the
-disjoint union of `F(S) ∐ G(S)` and of `F(Sᵢ) × G(Sⱼ)` for `i ≠ j`, hence `F ∐ G` is not a sheaf in general. On the
-other hand, if `C` is the category with a single object `S` and `id_S` as sole morphism, equipped with the topology
-defined by `J(S) = {R_∅, S}`, then the only separated presheaves are `R_∅` and `X = h_S` (which is a sheaf), and
-`X ∐ X` is not separated.
-
-[^N.D.E-IV-34]: N.D.E.: The statement of the lemma and its proof have been detailed.
-
-[^N.D.E-IV-35]: N.D.E.: Recall (cf. N.D.E. (17)) that one says that a morphism `g : G → H` is *dominated* by a family
-of morphisms `Fᵢ → H` if this family factors through `g`.
-
-[^N.D.E-IV-36]: N.D.E.: In order to be in accord with later references, the numbering of the original, which contained
-two nos. 4.4.7, has been corrected.
-
-[^N.D.E-IV-37]: N.D.E.: "contains" has been replaced by: "is dominated by", cf. N.D.E. (17).
-
-[^N.D.E-IV-38]: N.D.E.: Lemmas 4.4.8.1 and 4.4.8.2 have been added.
-
-[^N.D.E-IV-39]: N.D.E.: and one has `(Y′ ×_{X′} X)/R = Y′`.
-
 ### 4.5. The case of a topology coarser than the canonical topology
 
 By 4.3.6 and 4.3.8, the following conditions are equivalent for a topology `T` on `C`:
@@ -2442,9 +2308,11 @@ If `T` is defined by a pretopology `S ↦ R(S)`, these conditions are further eq
 
 (iv) Every family belonging to `R(S)` is universal effective epimorphic.
 
-In the case where these conditions are satisfied, the canonical functor `C → Ĉ` factors through a functor `j_C = j : C → C̃` (we shall also write `j(S) = S̃`[^N.D.E-IV-40]).
+In the case where these conditions are satisfied, the canonical functor `C → Ĉ` factors through a functor
+`j_C = j : C → C̃` (we shall also write `j(S) = S̃`[^N.D.E-IV-40]).
 
-**Proposition 4.5.1.** *The functor `j : C → C̃` is fully faithful and commutes with arbitrary inverse limits. It is in particular left exact and therefore preserves the algebraic structures defined by finite inverse limits.*
+**Proposition 4.5.1.** *The functor `j : C → C̃` is fully faithful and commutes with arbitrary inverse limits. It is in
+particular left exact and therefore preserves the algebraic structures defined by finite inverse limits.*
 
 <!-- label: III.IV.4.5.1 -->
 
@@ -2460,7 +2328,14 @@ This follows at once from consideration of the commutative diagram
 
 and from 4.4.1 (i).
 
-Before exhibiting other properties of the functor `j`, we need to define the topology induced on a category `C/S`. No longer assuming the given topology necessarily coarser than the canonical one, this is done as follows: if `C` is a sieve of `T` in `C` and one has a morphism `T → S`, then `C` defines naturally a sieve of `T` in `C/S`, denoted `J(T)` (since the definition of a sieve of `T` depends only on the category `C/T = (C/S)/T`). If, for example, `C` is defined by the family `{T_i → T}`, then its image in `C/S` is defined by the same family considered as a family of morphisms of `C/S`. This being said, the map `T ↦ J(T)` defines a topology on `C/S` called the *topology induced* by the given topology. With the definitions of [AS], 2.3, it is the coarsest of the topologies on `C/S` for which the canonical functor
+Before exhibiting other properties of the functor `j`, we need to define the topology induced on a category `C/S`. No
+longer assuming the given topology necessarily coarser than the canonical one, this is done as follows: if `C` is a
+sieve of `T` in `C` and one has a morphism `T → S`, then `C` defines naturally a sieve of `T` in `C/S`, denoted `J(T)`
+(since the definition of a sieve of `T` depends only on the category `C/T = (C/S)/T`). If, for example, `C` is defined
+by the family `{T_i → T}`, then its image in `C/S` is defined by the same family considered as a family of morphisms of
+`C/S`. This being said, the map `T ↦ J(T)` defines a topology on `C/S` called the *topology induced* by the given
+topology. With the definitions of [AS], 2.3, it is the coarsest of the topologies on `C/S` for which the canonical
+functor
 
 ```text
 i_S : C/S ⟶ C
@@ -2476,7 +2351,9 @@ is a comorphism[^N.D.E-IV-41]. One will note that the identifications
 
 respect the topologies by definition.
 
-**Proposition 4.5.2.** *Let `S` be a representable sheaf on `C` and `F → S` a morphism of `Ĉ`. In order for `S′ ↦ Hom_S(S′, F)` to be a separated presheaf (resp. a sheaf) on `C/S`, it is necessary and sufficient that `F` be a separated presheaf (resp. a sheaf) on `C`.*
+**Proposition 4.5.2.** *Let `S` be a representable sheaf on `C` and `F → S` a morphism of `Ĉ`. In order for
+`S′ ↦ Hom_S(S′, F)` to be a separated presheaf (resp. a sheaf) on `C/S`, it is necessary and sufficient that `F` be a
+separated presheaf (resp. a sheaf) on `C`.*
 
 <!-- label: III.IV.4.5.2 -->
 
@@ -2490,7 +2367,8 @@ Hom(P, F) = ⨆_{f ∈ Hom(P, S)} Hom_f(P, F).
 
 <!-- original page 221 -->
 
-Let `S′ ∈ Ob C` and `η : C′ → S′` a covering sieve. As `S` is a sheaf, the map `f ↦ f ∘ η` establishes a bijection `Hom(S′, S) ⥲ Hom(C′, S)`. Consequently, the map
+Let `S′ ∈ Ob C` and `η : C′ → S′` a covering sieve. As `S` is a sheaf, the map `f ↦ f ∘ η` establishes a bijection
+`Hom(S′, S) ⥲ Hom(C′, S)`. Consequently, the map
 
 ```text
 Hom_Ĉ(S′, F) ⟶ Hom_Ĉ(C′, F)
@@ -2504,11 +2382,13 @@ Hom_f(S′, F) ⟶ Hom_{f ∘ η}(C′, F).
 
 The proposition follows.
 
-**Corollary 4.5.3.** *The topology induced on `C/S` by a topology on `C` coarser than the canonical topology of `C`, is coarser than the canonical topology of `C/S`.*
+**Corollary 4.5.3.** *The topology induced on `C/S` by a topology on `C` coarser than the canonical topology of `C`, is
+coarser than the canonical topology of `C/S`.*
 
 <!-- label: III.IV.4.5.3 -->
 
-**Corollary 4.5.4.** *Suppose the given topology on `C` is coarser than the canonical topology. For every `S ∈ Ob C`, one has an equivalence of categories*
+**Corollary 4.5.4.** *Suppose the given topology on `C` is coarser than the canonical topology. For every `S ∈ Ob C`,
+one has an equivalence of categories*
 
 ```text
 C̃/S̃ ⥲ C̃/S.
@@ -2537,7 +2417,8 @@ C̃/S̃ ⥲ C̃/S.
 
 <!-- original page 215 -->
 
-The commutativity of the first two squares results from the definition of the equivalence `C̃/S̃ → C̃/S`. To prove the commutativity of the last, one must see that the following square is commutative:
+The commutativity of the first two squares results from the definition of the equivalence `C̃/S̃ → C̃/S`. To prove the
+commutativity of the last, one must see that the following square is commutative:
 
 ```text
        L′
@@ -2548,19 +2429,29 @@ The commutativity of the first two squares results from the definition of the eq
 Ĉ/S ────→  Ĉ/S ,
 ```
 
-where `L′` is the restriction of the functor `L_C` to `Ĉ/Ŝ` and `L″` the functor `L_{C/S}`; this is easily seen by going back to the definition of the functors `L` (given after 4.3.9). As for the second diagram, this is none other than the restriction to the sheaf categories of the corresponding diagram on the categories of presheaves (Exposé I, n° 1), which is commutative.
+where `L′` is the restriction of the functor `L_C` to `Ĉ/Ŝ` and `L″` the functor `L_{C/S}`; this is easily seen by going
+back to the definition of the functors `L` (given after 4.3.9). As for the second diagram, this is none other than the
+restriction to the sheaf categories of the corresponding diagram on the categories of presheaves (Exposé I, n° 1), which
+is commutative.
 
-**Scholie 4.5.5.** *The various assertions of this number show that, in the case where the given topology is coarser than the canonical topology, one may identify `C` with a full subcategory of `C̃`, itself a full subcategory of `Ĉ`, and that under this identification one may indulge in the usual abuses of language regarding `C → Ĉ`, justified by the commutativities above. Let us explicitly remark that the first diagram of 4.5.4 shows that one may use the functor `a` without special precaution.*
+**Scholie 4.5.5.** *The various assertions of this number show that, in the case where the given topology is coarser
+than the canonical topology, one may identify `C` with a full subcategory of `C̃`, itself a full subcategory of `Ĉ`, and
+that under this identification one may indulge in the usual abuses of language regarding `C → Ĉ`, justified by the
+commutativities above. Let us explicitly remark that the first diagram of 4.5.4 shows that one may use the functor `a`
+without special precaution.*
 
 <!-- label: III.IV.4.5.5 -->
 
 <!-- original page 216 -->
 
-We shall see in the next number that the identification of `C` with a full subcategory of `C̃` (contrary to what was the case for `Ĉ`) commutes with the formation of certain direct limits, and we shall then say how to use this fact.
+We shall see in the next number that the identification of `C` with a full subcategory of `C̃` (contrary to what was the
+case for `Ĉ`) commutes with the formation of certain direct limits, and we shall then say how to use this fact.
 
-From now on, and unless explicitly stated otherwise, we shall assume the given topology coarser than the canonical topology and we shall systematically make the identifications described above.
+From now on, and unless explicitly stated otherwise, we shall assume the given topology coarser than the canonical
+topology and we shall systematically make the identifications described above.
 
-**Proposition 4.5.6.** *Let `F` and `G` be two sheaves over `S` and `f : F → G` an `S`-morphism. The following conditions on `f` are equivalent:*
+**Proposition 4.5.6.** *Let `F` and `G` be two sheaves over `S` and `f : F → G` an `S`-morphism. The following
+conditions on `f` are equivalent:*
 
 <!-- label: III.IV.4.5.6 -->
 
@@ -2568,7 +2459,9 @@ From now on, and unless explicitly stated otherwise, we shall assume the given t
 
 *(ii) `f` is a monomorphism (resp. an epimorphism, resp. an isomorphism) in `C̃/S = C̃/S`.*
 
-For monomorphism and isomorphism, this is evident (it is a question of presheaves). For epimorphism, it follows from the description of epimorphisms as covering morphisms (4.4.3) and from the fact that, by definition of the induced topology, these are the same in `C̃` and `C̃/S`.
+For monomorphism and isomorphism, this is evident (it is a question of presheaves). For epimorphism, it follows from the
+description of epimorphisms as covering morphisms (4.4.3) and from the fact that, by definition of the induced topology,
+these are the same in `C̃` and `C̃/S`.
 
 **Proposition 4.5.7.** *Let `f : F → G` be a morphism of sheaves. The following conditions are equivalent:*
 
@@ -2578,19 +2471,29 @@ For monomorphism and isomorphism, this is evident (it is a question of presheave
 
 <!-- original page 217 -->
 
-*(ii) For each `S ∈ Ob C`, `f_S : F_S → G_S` is locally a monomorphism (resp. an epimorphism, resp. an isomorphism), that is:*
+*(ii) For each `S ∈ Ob C`, `f_S : F_S → G_S` is locally a monomorphism (resp. an epimorphism, resp. an isomorphism),
+that is:*
 
-*(iii) For each `S ∈ Ob C`, the set of `T → S` such that `F_T → G_T` is a monomorphism (resp. an epimorphism, resp. an isomorphism) is a refinement of `S`.*
+*(iii) For each `S ∈ Ob C`, the set of `T → S` such that `F_T → G_T` is a monomorphism (resp. an epimorphism, resp. an
+isomorphism) is a refinement of `S`.*
 
 *If the given topology is defined by a pretopology `R`, these conditions are further equivalent to the following:*
 
-*(iv) For each `S ∈ Ob C`, there exists a covering family `{S_i → S} ∈ R(S)` such that for every `i`, `F_{S_i} → G_{S_i}` is a monomorphism (resp. an epimorphism, resp. an isomorphism).*
+*(iv) For each `S ∈ Ob C`, there exists a covering family `{S_i → S} ∈ R(S)` such that for every `i`,
+`F_{S_i} → G_{S_i}` is a monomorphism (resp. an epimorphism, resp. an isomorphism).*
 
-*If the category `C` has a final object `e`, one may content oneself with taking `S = e` in conditions (ii), (iii), and (iv).*
+*If the category `C` has a final object `e`, one may content oneself with taking `S = e` in conditions (ii), (iii), and
+(iv).*
 
-One obviously has (ii) ⇔ (iii) ⇔ (iv). To prove the equivalence of (i) and (ii) as well as the supplement concerning the final object, one must show that (ii) ⇒ (i) and that the notions in question are stable under base extension. Let us first prove this last point. For monomorphism and isomorphism, this is evident (it is a question of presheaves). For epimorphism, it follows from the fact that every epimorphism of sheaves is universal (4.4.3).
+One obviously has (ii) ⇔ (iii) ⇔ (iv). To prove the equivalence of (i) and (ii) as well as the supplement concerning the
+final object, one must show that (ii) ⇒ (i) and that the notions in question are stable under base extension. Let us
+first prove this last point. For monomorphism and isomorphism, this is evident (it is a question of presheaves). For
+epimorphism, it follows from the fact that every epimorphism of sheaves is universal (4.4.3).
 
-Let us finally show that (ii) entails (i). Suppose first that `f_S : F_S → G_S` is locally a monomorphism (resp. an isomorphism). There then exists a covering sieve `C` of `S` such that for every `T → C`, `f_T` is a monomorphism (resp. an isomorphism). As an inverse limit of monomorphisms (resp. isomorphisms) is one, `Hom(C, f)` will be a monomorphism (resp. an isomorphism) (cf. 4.1.4). The commutative diagram
+Let us finally show that (ii) entails (i). Suppose first that `f_S : F_S → G_S` is locally a monomorphism (resp. an
+isomorphism). There then exists a covering sieve `C` of `S` such that for every `T → C`, `f_T` is a monomorphism (resp.
+an isomorphism). As an inverse limit of monomorphisms (resp. isomorphisms) is one, `Hom(C, f)` will be a monomorphism
+(resp. an isomorphism) (cf. 4.1.4). The commutative diagram
 
 ```text
             Hom(C, f)
@@ -2603,19 +2506,27 @@ Hom(C, F) ────────────→ Hom(C, G)
 
 <!-- original page 218 -->
 
-then shows that `f(S)` is injective (resp. bijective). Suppose finally that `f : F → G` is locally an epimorphism and let `H ⊂ G` be its image. For each `S → G`, `H ×_G S` is the image of `f ×_G S : F ×_G S → S`. To show that `f` is an epimorphism, one must show that `H` is a refinement of `G`, that is, that `H ×_G S` is a refinement of `S` for each `S`. But since this is so after every base change `T → S` of a refinement of `S` (since `f ×_G S` is locally covering), `H ×_G S` is indeed a refinement of `S` (Axiom (T 2)).
+then shows that `f(S)` is injective (resp. bijective). Suppose finally that `f : F → G` is locally an epimorphism and
+let `H ⊂ G` be its image. For each `S → G`, `H ×_G S` is the image of `f ×_G S : F ×_G S → S`. To show that `f` is an
+epimorphism, one must show that `H` is a refinement of `G`, that is, that `H ×_G S` is a refinement of `S` for each `S`.
+But since this is so after every base change `T → S` of a refinement of `S` (since `f ×_G S` is locally covering),
+`H ×_G S` is indeed a refinement of `S` (Axiom (T 2)).
 
-**Corollary 4.5.8.** *Let `F` and `G` be two sheaves over `S` and `f : F → G` an `S`-morphism. In order for `f` to be a monomorphism, resp. an epimorphism, resp. an isomorphism, it is necessary and sufficient that it be so locally on `S`.*
+**Corollary 4.5.8.** *Let `F` and `G` be two sheaves over `S` and `f : F → G` an `S`-morphism. In order for `f` to be a
+monomorphism, resp. an epimorphism, resp. an isomorphism, it is necessary and sufficient that it be so locally on `S`.*
 
 <!-- label: III.IV.4.5.8 -->
 
-**Remark 4.5.9.** *The proof of the proposition shows that it remains valid, for the part concerning monomorphisms (resp. isomorphisms), when one only assumes that `F` is a separated presheaf (resp. a sheaf) and `G` an arbitrary presheaf (resp. a separated presheaf).*
+**Remark 4.5.9.** *The proof of the proposition shows that it remains valid, for the part concerning monomorphisms
+(resp. isomorphisms), when one only assumes that `F` is a separated presheaf (resp. a sheaf) and `G` an arbitrary
+presheaf (resp. a separated presheaf).*
 
 <!-- label: III.IV.4.5.9 -->
 
 Let us provisionally return to the case of an arbitrary topology and lay down a definition.
 
-**Definition 4.5.10.** *Let `G → F` be a morphism of `Ĉ`. We say that `G` is a* relative sheaf above `F` *if for every `F`-functor `H` and every refinement `R` of `H`, the canonical map*
+**Definition 4.5.10.** *Let `G → F` be a morphism of `Ĉ`. We say that `G` is a* relative sheaf above `F` *if for every
+`F`-functor `H` and every refinement `R` of `H`, the canonical map*
 
 <!-- label: III.IV.4.5.10 -->
 
@@ -2633,7 +2544,8 @@ Proposition 4.5.2 immediately generalizes:
 
 <!-- label: III.IV.4.5.11 -->
 
-**Lemma 4.5.12.** *In the situation `X → T → S` (where `X, T, S` are three objects of `Ĉ`), if `X` is a relative sheaf above `T`, then `U = ∏_{T/S} X` is a relative sheaf above `S`.*
+**Lemma 4.5.12.** *In the situation `X → T → S` (where `X, T, S` are three objects of `Ĉ`), if `X` is a relative sheaf
+above `T`, then `U = ∏_{T/S} X` is a relative sheaf above `S`.*
 
 <!-- label: III.IV.4.5.12 -->
 
@@ -2647,17 +2559,21 @@ Hom_S(Y, U) = Hom_T(T ×_S Y, X).
 
 If `C` is a sieve of `Y`, then `T ×_S C` is a sieve of `T ×_S Y`; one concludes at once.
 
-**Corollary 4.5.13.** *The presheaves `Hom_{T/S}(X, Y)`, `Isom_S(X, Y)`, etc., are sheaves when the arguments appearing in them are also.*
+**Corollary 4.5.13.** *The presheaves `Hom_{T/S}(X, Y)`, `Isom_S(X, Y)`, etc., are sheaves when the arguments appearing
+in them are also.*
 
 <!-- label: III.IV.4.5.13 -->
 
-Indeed, all these presheaves are constructed by means of fibered products and presheaves `∏_{T/S} X` (I 1.7 and II 1). It therefore suffices to verify the result for a presheaf `∏_{T/S} X`; in this case, the assertion follows from 4.5.11 and 4.5.12.
+Indeed, all these presheaves are constructed by means of fibered products and presheaves `∏_{T/S} X` (I 1.7 and II 1).
+It therefore suffices to verify the result for a presheaf `∏_{T/S} X`; in this case, the assertion follows from 4.5.11
+and 4.5.12.
 
 ### 4.6. Description of the quotient of a sheaf by an equivalence relation
 
 Recall that we are assuming the topology `T` given to be coarser than the canonical topology.
 
-**Proposition 4.6.1.** *Let `R ⇒ X` (with morphisms `p_1, p_2`) be a `C̃`-equivalence relation in the sheaf `X`. Let `F ∈ Ob Ĉ` be defined as follows: for each `S` of `C`,*
+**Proposition 4.6.1.** *Let `R ⇒ X` (with morphisms `p_1, p_2`) be a `C̃`-equivalence relation in the sheaf `X`. Let
+`F ∈ Ob Ĉ` be defined as follows: for each `S` of `C`,*
 
 <!-- label: III.IV.4.6.1 -->
 
@@ -2682,7 +2598,8 @@ R ⇒ X →^p F
 
 <!-- original page 220 -->
 
-Indeed, set `Q = X/R`. For every sheaf `Y` and every morphism `f ∈ Hom(Y, Q)` corresponding to a section `s : Y ↪ Q × Y`, consider the diagram
+Indeed, set `Q = X/R`. For every sheaf `Y` and every morphism `f ∈ Hom(Y, Q)` corresponding to a section
+`s : Y ↪ Q × Y`, consider the diagram
 
 ```text
 R × Y ⇒ X × Y ──→ Q × Y
@@ -2694,15 +2611,24 @@ R × Y ⇒ X × Y ──→ Q × Y
 
 <!-- original page 225 -->
 
-where the square is cartesian. It is immediate by 4.4.11 that `Z` is a sub-`Y`-sheaf of `X × Y`, stable under `R × Y`, whose quotient is `Y`, and that, conversely, every `Z` of this type comes from a unique section of `Q × Y` over `Y`. Taking first `Y` representable, one extracts an isomorphism `Q ≃ F`. Taking next `Y` arbitrary, one extracts the announced form of `Hom(Y, F)`. Considering finally the canonical morphism `X → Q`, one sees at once that it corresponds to the sub-`X`-sheaf `R` of `X × X`, which completes the proof.
+where the square is cartesian. It is immediate by 4.4.11 that `Z` is a sub-`Y`-sheaf of `X × Y`, stable under `R × Y`,
+whose quotient is `Y`, and that, conversely, every `Z` of this type comes from a unique section of `Q × Y` over `Y`.
+Taking first `Y` representable, one extracts an isomorphism `Q ≃ F`. Taking next `Y` arbitrary, one extracts the
+announced form of `Hom(Y, F)`. Considering finally the canonical morphism `X → Q`, one sees at once that it corresponds
+to the sub-`X`-sheaf `R` of `X × X`, which completes the proof.
 
-**Corollary 4.6.2.** *Let `G` be an arbitrary subfunctor of `F` such that `Hom(X, G) ⊂ Hom(X, F)` contains `R`. Then the canonical morphism `p : X → F` factors through `G`.*
+**Corollary 4.6.2.** *Let `G` be an arbitrary subfunctor of `F` such that `Hom(X, G) ⊂ Hom(X, F)` contains `R`. Then the
+canonical morphism `p : X → F` factors through `G`.*
 
 <!-- label: III.IV.4.6.2 -->
 
-Since `p` is covering (4.4.9 and 4.4.3), it follows that `G` is a refinement of `F`. In particular, every sub-sheaf `G` of `F` satisfying the preceding condition is equal to `F` (4.3.12).
+Since `p` is covering (4.4.9 and 4.4.3), it follows that `G` is a refinement of `F`. In particular, every sub-sheaf `G`
+of `F` satisfying the preceding condition is equal to `F` (4.3.12).
 
-**4.6.3.** We are now going to interest ourselves in the case where `X` and `R` are representable. Let us first introduce some terminology. Besides the conditions (a) to (d) introduced in 3.4.1, we shall use other conditions on a family `(M)` of morphisms of `C`, which we state below, recalling the conditions (a) to (c) already given, for completeness.
+**4.6.3.** We are now going to interest ourselves in the case where `X` and `R` are representable. Let us first
+introduce some terminology. Besides the conditions (a) to (d) introduced in 3.4.1, we shall use other conditions on a
+family `(M)` of morphisms of `C`, which we state below, recalling the conditions (a) to (c) already given, for
+completeness.
 
 <!-- label: III.IV.4.6.3 -->
 
@@ -2714,7 +2640,8 @@ Since `p` is covering (4.4.9 and 4.4.3), it follows that `G` is a refinement of 
 
 (d_T) Every element of `(M)` is covering.[^N.D.E-IV-44]
 
-(e_T) Let `f : X → Y` be a morphism of `C`. If there exists a refinement `R` of `Y` such that for every `Y′ → R`, `X ×_Y Y′ → Y′` is an element of `(M)`, then `f` is an element of `(M)`.
+(e_T) Let `f : X → Y` be a morphism of `C`. If there exists a refinement `R` of `Y` such that for every `Y′ → R`,
+`X ×_Y Y′ → Y′` is an element of `(M)`, then `f` is an element of `(M)`.
 
 <!-- original page 221 -->
 
@@ -2726,23 +2653,35 @@ On the other hand, (a) and (d_T) entail by 4.3.9:
 
 (d′) Every element of `(M)` is a universal effective epimorphism.
 
-**4.6.4.** The preceding conditions are verified by the family of covering morphisms, denoted `(M_T)`, when `C` has fibered products. Indeed (cf. 4.2.3), (a) follows from (C 1), (b) from (C 2), (c) from (C 4), (d_T) from the definition, (e_T) from (C 5). The results we shall establish for a family satisfying these conditions will apply in particular to the family `(M_T)`. In particular, one may take for `T` the canonical topology and for `(M)` the family of universal effective epimorphisms.
+**4.6.4.** The preceding conditions are verified by the family of covering morphisms, denoted `(M_T)`, when `C` has
+fibered products. Indeed (cf. 4.2.3), (a) follows from (C 1), (b) from (C 2), (c) from (C 4), (d_T) from the definition,
+(e_T) from (C 5). The results we shall establish for a family satisfying these conditions will apply in particular to
+the family `(M_T)`. In particular, one may take for `T` the canonical topology and for `(M)` the family of universal
+effective epimorphisms.
 
-**Lemma 4.6.5.** *Let `(M)` be a family of morphisms satisfying the properties (a) to (e_T) above. Let `R` be a `C`-equivalence relation in `X ∈ Ob C`, of type `(M)`. Let `X̃` be the sheaf defined by `X`, `R̃` the `C̃`-equivalence relation in `X̃` defined by `R` and `X̃/R̃` the sheaf-quotient. In order for `R` to be `(M)`-effective, it is necessary and sufficient that `X̃/R̃` be representable. If this is so, `X̃/R̃` is represented by the quotient `X/R`.*
+**Lemma 4.6.5.** *Let `(M)` be a family of morphisms satisfying the properties (a) to (e_T) above. Let `R` be a
+`C`-equivalence relation in `X ∈ Ob C`, of type `(M)`. Let `X̃` be the sheaf defined by `X`, `R̃` the `C̃`-equivalence
+relation in `X̃` defined by `R` and `X̃/R̃` the sheaf-quotient. In order for `R` to be `(M)`-effective, it is necessary
+and sufficient that `X̃/R̃` be representable. If this is so, `X̃/R̃` is represented by the quotient `X/R`.*
 
 <!-- label: III.IV.4.6.5 -->
 
-Suppose first that `R` is `(M)`-effective and denote `Y = X/R`. The canonical morphism `p : X → Y` is an element of `(M)`, hence covering by (d_T). The corresponding morphism
+Suppose first that `R` is `(M)`-effective and denote `Y = X/R`. The canonical morphism `p : X → Y` is an element of
+`(M)`, hence covering by (d_T). The corresponding morphism
 
 ```text
 p̃ : X̃ ⟶ X̃/R̃
 ```
 
-is therefore a universal effective epimorphism of `C̃` (4.4.3), hence identifies `X̃/R̃` with the quotient of `X̃` by the equivalence relation `R′` defined in `X̃` by `p̃`. As the canonical functor `C → C̃` commutes with fibered products, `R′` is none other than `R̃`, since `R` is the equivalence relation defined by `p`.
+is therefore a universal effective epimorphism of `C̃` (4.4.3), hence identifies `X̃/R̃` with the quotient of `X̃` by
+the equivalence relation `R′` defined in `X̃` by `p̃`. As the canonical functor `C → C̃` commutes with fibered products,
+`R′` is none other than `R̃`, since `R` is the equivalence relation defined by `p`.
 
 <!-- original page 222 -->
 
-Conversely, suppose `X̃/R̃` representable by an object `Y` of `C`. Let `p : X → Y` be the morphism deduced from the canonical morphism `X̃ → X̃/R̃`; it is a covering morphism by 4.4.3. It is clear as before that `R` is the equivalence relation defined by `p`. It only remains to show that `p ∈ (M)`. Now the cartesian square
+Conversely, suppose `X̃/R̃` representable by an object `Y` of `C`. Let `p : X → Y` be the morphism deduced from the
+canonical morphism `X̃ → X̃/R̃`; it is a covering morphism by 4.4.3. It is clear as before that `R` is the equivalence
+relation defined by `p`. It only remains to show that `p ∈ (M)`. Now the cartesian square
 
 ```text
 R ⥲ X ×_Y X ──→ X
@@ -2752,9 +2691,13 @@ R ⥲ X ×_Y X ──→ X
            X ───→ Y
 ```
 
-shows that `p` becomes `p_2`, which is an element of `(M)`, after base change by the covering morphism `p`. One concludes by (e_T).
+shows that `p` becomes `p_2`, which is an element of `(M)`, after base change by the covering morphism `p`. One
+concludes by (e_T).
 
-**Corollary 4.6.5.1.**[^N.D.E-IV-45] *Let `(M)` satisfy the properties (a) to (e_T) above and let `f : G → G′` be a morphism of `C`-groups, such that `f ∈ (M)`. Suppose `Ker(f)` representable (which is the case if `C` has a final object `e`). Then the equivalence relation in `G` defined by `H = Ker(f)` is `(M)`-effective and `G′` represents the sheaf-quotient `G̃/H̃` for the topology `T`.*
+**Corollary 4.6.5.1.**[^N.D.E-IV-45] *Let `(M)` satisfy the properties (a) to (e_T) above and let `f : G → G′` be a
+morphism of `C`-groups, such that `f ∈ (M)`. Suppose `Ker(f)` representable (which is the case if `C` has a final object
+`e`). Then the equivalence relation in `G` defined by `H = Ker(f)` is `(M)`-effective and `G′` represents the
+sheaf-quotient `G̃/H̃` for the topology `T`.*
 
 <!-- label: III.IV.4.6.5.1 -->
 
@@ -2762,7 +2705,9 @@ This follows from 4.6.5 and 3.4.7.1.
 
 We are now in a position to state the main result of this number.
 
-**Theorem 4.6.6.** *Let `(M)` be a family of morphisms verifying the axioms (a) to (e_T) of 4.6.3. Let `R` be a `C`-equivalence relation of type `(M)` (cf. 3.4.3) in the object `X` of `C`. Consider the functor `F ∈ Ob Ĉ` defined as follows:*
+**Theorem 4.6.6.** *Let `(M)` be a family of morphisms verifying the axioms (a) to (e_T) of 4.6.3. Let `R` be a
+`C`-equivalence relation of type `(M)` (cf. 3.4.3) in the object `X` of `C`. Consider the functor `F ∈ Ob Ĉ` defined as
+follows:*
 
 <!-- label: III.IV.4.6.6 -->
 
@@ -2770,7 +2715,8 @@ We are now in a position to state the main result of this number.
 F(S) = { sub-S-sheaves Z of X_S stable under R × S whose quotient by R_Z is S }.
 ```
 
-*Let `F_0` be the subfunctor of `F` defined as follows: `F_0(S)` consists of the `Z ∈ F(S)` that are representable, that is:*
+*Let `F_0` be the subfunctor of `F` defined as follows: `F_0(S)` consists of the `Z ∈ F(S)` that are representable, that
+is:*
 
 ```text
 F_0(S) = { sub-C/S-objects Z of X_S stable under R × S, such that
@@ -2782,9 +2728,11 @@ F_0(S) = { sub-C/S-objects Z of X_S stable under R × S, such that
 
 <!-- original page 227 -->
 
-*(i) The morphism `p ∈ Hom(X, F) = F(X)` defined by the sub-object `R` of `X × X` identifies `F` with the sheaf-quotient of `X` by `R`.*
+*(i) The morphism `p ∈ Hom(X, F) = F(X)` defined by the sub-object `R` of `X × X` identifies `F` with the sheaf-quotient
+of `X` by `R`.*
 
 *(ii) The following conditions are equivalent:*
+
 - *a) `F` is representable.*
 - *b) `F_0` is representable.*
 - *c) `R` is `(M)`-effective.*
@@ -2793,17 +2741,26 @@ F_0(S) = { sub-C/S-objects Z of X_S stable under R × S, such that
 
 *Under these conditions, `F = F_0 = X/R`.*
 
-*(iii) Let `(N)` be a family of morphisms stable under base change, such that for every covering family `{S_i → S}` and every family `{T_i → S_i}` of morphisms of `(N)`, every descent datum on the `T_i` relative to `{S_i → S}` is effective. Suppose `X` squarable (cf. 1.6.0) and the morphism `R → X × X` an element of `(N)`. Then `F_0 = F`.*
+*(iii) Let `(N)` be a family of morphisms stable under base change, such that for every covering family `{S_i → S}` and
+every family `{T_i → S_i}` of morphisms of `(N)`, every descent datum on the `T_i` relative to `{S_i → S}` is effective.
+Suppose `X` squarable (cf. 1.6.0) and the morphism `R → X × X` an element of `(N)`. Then `F_0 = F`.*
 
 *Proof.* (i) has already been proved (4.6.1).
 
-(ii) We have seen the equivalence of a) and c) as well as the equality `F = X/R`. It remains to prove that b) or c) implies `F_0 = F`. Let us first remark, as is moreover affirmed in the statement, that `F_0` is indeed a subfunctor of `F`; for every `S ∈ Ob C` and every `Z ∈ F_0(S)`, the morphism `Z → S` is squarable, hence `Z ×_S S′` is an element of `F_0(S′)` for every `S′ → S`. As `R ∈ F(X)` belongs to `F_0(X)`, 4.6.2 shows that b) implies `F_0 = F`.
+(ii) We have seen the equivalence of a) and c) as well as the equality `F = X/R`. It remains to prove that b) or c)
+implies `F_0 = F`. Let us first remark, as is moreover affirmed in the statement, that `F_0` is indeed a subfunctor of
+`F`; for every `S ∈ Ob C` and every `Z ∈ F_0(S)`, the morphism `Z → S` is squarable, hence `Z ×_S S′` is an element of
+`F_0(S′)` for every `S′ → S`. As `R ∈ F(X)` belongs to `F_0(X)`, 4.6.2 shows that b) implies `F_0 = F`.
 
-Now suppose c) verified and let `Q` be an object of `C` representing `X/R`. Then the morphism `X → Q` is an element of `(M)` and, for every `S ∈ Ob C` and every `Z ∈ F(S)`, the diagram (∗) of 4.6.1 shows that `Z = S ×_{Q × S} X × S` is representable, and `Z → S` belongs to `(M)`, hence `Z ∈ F_0(S)`.
+Now suppose c) verified and let `Q` be an object of `C` representing `X/R`. Then the morphism `X → Q` is an element of
+`(M)` and, for every `S ∈ Ob C` and every `Z ∈ F(S)`, the diagram (∗) of 4.6.1 shows that `Z = S ×_{Q × S} X × S` is
+representable, and `Z → S` belongs to `(M)`, hence `Z ∈ F_0(S)`.
 
-(iii) Let `f ∈ Hom(S, F)` correspond to `Z ∈ F(S)`. We must show that `f` factors through `F_0`, that is, that `Z` is representable. This is clear first if `f` factors through `X`, by virtue of:
+(iii) Let `f ∈ Hom(S, F)` correspond to `Z ∈ F(S)`. We must show that `f` factors through `F_0`, that is, that `Z` is
+representable. This is clear first if `f` factors through `X`, by virtue of:
 
-**Lemma 4.6.7.** *Let `x_0 ∈ X(S)`. The image of `x_0` in `F(S)` corresponds to the sub-sheaf `Z` of `X_S` defined by the two cartesian squares*
+**Lemma 4.6.7.** *Let `x_0 ∈ X(S)`. The image of `x_0` in `F(S)` corresponds to the sub-sheaf `Z` of `X_S` defined by
+the two cartesian squares*
 
 <!-- label: III.IV.4.6.7 -->
 
@@ -2819,9 +2776,11 @@ Now suppose c) verified and let `Q` be an object of `C` representing `X/R`. Then
 
 This lemma follows at once from the description of the morphism `X → F`.
 
-Let us return to the proof of the theorem. If `f` factors through `X`, then `Z` is representable and, as `R → X × X` is an element of `(N)`, the same holds for `Z → X_S`.
+Let us return to the proof of the theorem. If `f` factors through `X`, then `Z` is representable and, as `R → X × X` is
+an element of `(N)`, the same holds for `Z → X_S`.
 
-In general, `f` does not necessarily factor through `X`; but since `X → F` is covering (4.4.3), there exists by 4.4.8 (vii) a covering family `{S_i → S}` and for each `i` a morphism `S_i → X` making commutative the diagram
+In general, `f` does not necessarily factor through `X`; but since `X → F` is covering (4.4.3), there exists by 4.4.8
+(vii) a covering family `{S_i → S}` and for each `i` a morphism `S_i → X` making commutative the diagram
 
 ```text
 X ────→ F
@@ -2832,13 +2791,24 @@ S_i ──→ S .
 
 <!-- original page 228 -->
 
-By what precedes, the morphism `f_i : S_i → F` defined by the preceding diagram belongs to `Hom(S_i, F_0)` and corresponds to the sub-sheaf `Z ×_S S_i` of `X_{S_i}`. The morphism `Z ×_S S_i → X_{S_i}` is an element of `(N)` and the family `X_{S_i} → X_S` covering. It therefore only remains to establish:
+By what precedes, the morphism `f_i : S_i → F` defined by the preceding diagram belongs to `Hom(S_i, F_0)` and
+corresponds to the sub-sheaf `Z ×_S S_i` of `X_{S_i}`. The morphism `Z ×_S S_i → X_{S_i}` is an element of `(N)` and the
+family `X_{S_i} → X_S` covering. It therefore only remains to establish:
 
-**Proposition 4.6.8.** *Let `{S_i → S}` be a covering family and `Z` a sheaf above `S`. Suppose that for each `i`, the `S_i`-functor `Z ×_S S_i` is representable by an object `T_i`. Then the family of `T_i` is equipped with a canonical descent datum relative to `S_i → S`. In order for `Z` to be representable, it is necessary and sufficient that this datum be effective; if this is so, the "descended" object represents `Z`.*
+**Proposition 4.6.8.** *Let `{S_i → S}` be a covering family and `Z` a sheaf above `S`. Suppose that for each `i`, the
+`S_i`-functor `Z ×_S S_i` is representable by an object `T_i`. Then the family of `T_i` is equipped with a canonical
+descent datum relative to `S_i → S`. In order for `Z` to be representable, it is necessary and sufficient that this
+datum be effective; if this is so, the "descended" object represents `Z`.*
 
 <!-- label: III.IV.4.6.8 -->
 
-Let us first remark that by 4.4.3, `{S_i → S}` is a universal effective epimorphic family in `C̃`, hence a descent family in `C̃` (2.3). If `Z` is representable by the object `T`, then `T ×_S S_i` (considered as a sheaf) is isomorphic to `Z ×_S S_i`, hence the descent datum on the `T_i` is effective and the (unique) descended object is isomorphic to `Z`. Conversely, suppose that the canonical descent datum on the `T_i` is effective and let `T` be the descended object. Since the family `{S_i → S}` is a descent family in `C̃`, there exists an `S`-morphism `T → Z` which by base extension to each `S_i` recovers the canonical morphism `T_i → Z ×_S S_i`. This morphism is locally an isomorphism; as `T` and `Z` are sheaves, it follows from 4.5.8 that it is an isomorphism.
+Let us first remark that by 4.4.3, `{S_i → S}` is a universal effective epimorphic family in `C̃`, hence a descent
+family in `C̃` (2.3). If `Z` is representable by the object `T`, then `T ×_S S_i` (considered as a sheaf) is isomorphic
+to `Z ×_S S_i`, hence the descent datum on the `T_i` is effective and the (unique) descended object is isomorphic to
+`Z`. Conversely, suppose that the canonical descent datum on the `T_i` is effective and let `T` be the descended object.
+Since the family `{S_i → S}` is a descent family in `C̃`, there exists an `S`-morphism `T → Z` which by base extension
+to each `S_i` recovers the canonical morphism `T_i → Z ×_S S_i`. This morphism is locally an isomorphism; as `T` and `Z`
+are sheaves, it follows from 4.5.8 that it is an isomorphism.
 
 <!-- original page 225 -->
 
@@ -2852,15 +2822,23 @@ Hom(X/R, F) ⟶ Hom(X, F)
 
 *identifies the first set with the part of the second consisting of the morphisms compatible with `R`.*
 
-**Corollary 4.6.10.** *Let `T ′` be a topology coarser than `T`, for which the morphisms of `(M)` are covering. Under the conditions of 4.6.6 (iii), `X/R` is also the sheaf-quotient of `X` by `R` in every intermediate topology between `T ′` and the canonical topology.*
+**Corollary 4.6.10.** *Let `T ′` be a topology coarser than `T`, for which the morphisms of `(M)` are covering. Under
+the conditions of 4.6.6 (iii), `X/R` is also the sheaf-quotient of `X` by `R` in every intermediate topology between
+`T ′` and the canonical topology.*
 
 <!-- label: III.IV.4.6.10 -->
 
-**Remark 4.6.11.** *If in the statement of 4.6.6 (iii), one furthermore assumes that, under the hypotheses of the text, if one denotes `T` the descended object, the morphism `T → S` is an element of `(N)`, then the inclusion morphisms `Z ↪ X_S` are also elements of `(N)`, as follows at once from the construction of `Z` by descent.*
+**Remark 4.6.11.** *If in the statement of 4.6.6 (iii), one furthermore assumes that, under the hypotheses of the text,
+if one denotes `T` the descended object, the morphism `T → S` is an element of `(N)`, then the inclusion morphisms
+`Z ↪ X_S` are also elements of `(N)`, as follows at once from the construction of `Z` by descent.*
 
 <!-- label: III.IV.4.6.11 -->
 
-**Remark 4.6.12.** *The implications c) ⇒ b) ⇒ a) and c) ⇒ [F_0 = F = X/R] have been established without recourse to the "if" part of Lemma 4.6.5, which is the only place where condition (e_T) is used. They therefore remain valid if `(M)` satisfies only conditions (a) to (d_T). An example of such a family `(M)` is that of squarable covering morphisms (compare with 4.6.4). In the case of the canonical topology, these are none other than the universal effective epimorphisms. One therefore has:*
+**Remark 4.6.12.** *The implications c) ⇒ b) ⇒ a) and c) ⇒ [F_0 = F = X/R] have been established without recourse to the
+"if" part of Lemma 4.6.5, which is the only place where condition (e_T) is used. They therefore remain valid if `(M)`
+satisfies only conditions (a) to (d_T). An example of such a family `(M)` is that of squarable covering morphisms
+(compare with 4.6.4). In the case of the canonical topology, these are none other than the universal effective
+epimorphisms. One therefore has:*
 
 <!-- label: III.IV.4.6.12 -->
 
@@ -2868,43 +2846,69 @@ Hom(X/R, F) ⟶ Hom(X, F)
 
 <!-- original page 229 -->
 
-**Corollary 4.6.13.** *Let `R` be a universal effective equivalence relation in `X`. Then the object `X/R` of `C` is the sheaf-quotient of `X` by `R` for the canonical topology. It represents the following functor: `(X/R)(S)` is the set of sub-`C/S`-objects `Z` of `X_S` stable under `R × S` and such that the induced equivalence relation is universal effective and has `S` as quotient.*
+**Corollary 4.6.13.** *Let `R` be a universal effective equivalence relation in `X`. Then the object `X/R` of `C` is the
+sheaf-quotient of `X` by `R` for the canonical topology. It represents the following functor: `(X/R)(S)` is the set of
+sub-`C/S`-objects `Z` of `X_S` stable under `R × S` and such that the induced equivalence relation is universal
+effective and has `S` as quotient.*
 
 <!-- label: III.IV.4.6.13 -->
 
 Similarly, for an arbitrary topology:
 
-**Corollary 4.6.14.** *Let `(M)` be the family of squarable covering morphisms. If `R` is an `(M)`-effective equivalence relation in `X`, then the object `X/R` of `C` is the sheaf-quotient of `X` by `R` and represents the functor `F_0` of 4.6.6.*
+**Corollary 4.6.14.** *Let `(M)` be the family of squarable covering morphisms. If `R` is an `(M)`-effective equivalence
+relation in `X`, then the object `X/R` of `C` is the sheaf-quotient of `X` by `R` and represents the functor `F_0` of
+4.6.6.*
 
 <!-- label: III.IV.4.6.14 -->
 
-**Scholie 4.6.15.** *We can now bring the following precisions to 4.5.5.* Whereas in questions involving exclusively inverse limits (fibered products, algebraic structures, etc.), one may, by the results of Exposé I and 4.5.5, identify `C` indifferently with a full subcategory of `C̃` or of `Ĉ`, it is not the same in those that mix inverse and direct limits. In all questions involving both inverse and direct limits, in particular passages to the quotient (example: group structure on the quotient of a group by an invariant subgroup), we shall consider the given category as embedded in the category of sheaves; thus if `R` is a `C`-equivalence relation in the object `X` of `C`, `X/R` will denote the sheaf-quotient of `X` by `R` (previously denoted `j(X)/j(R)`), hence in the case where this sheaf is representable, the object it represents. The preceding results show that in the most important cases, a quotient in `C` will also be a quotient in the category of sheaves; in any case, we forbid ourselves the use of the notation `X/R` for a quotient in `C` that does not coincide with the quotient in `C̃` (for example one that is not universal), thus modifying the definitions of n° 3.
+**Scholie 4.6.15.** *We can now bring the following precisions to 4.5.5.* Whereas in questions involving exclusively
+inverse limits (fibered products, algebraic structures, etc.), one may, by the results of Exposé I and 4.5.5, identify
+`C` indifferently with a full subcategory of `C̃` or of `Ĉ`, it is not the same in those that mix inverse and direct
+limits. In all questions involving both inverse and direct limits, in particular passages to the quotient (example:
+group structure on the quotient of a group by an invariant subgroup), we shall consider the given category as embedded
+in the category of sheaves; thus if `R` is a `C`-equivalence relation in the object `X` of `C`, `X/R` will denote the
+sheaf-quotient of `X` by `R` (previously denoted `j(X)/j(R)`), hence in the case where this sheaf is representable, the
+object it represents. The preceding results show that in the most important cases, a quotient in `C` will also be a
+quotient in the category of sheaves; in any case, we forbid ourselves the use of the notation `X/R` for a quotient in
+`C` that does not coincide with the quotient in `C̃` (for example one that is not universal), thus modifying the
+definitions of n° 3.
 
 <!-- label: III.IV.4.6.15 -->
 
 <!-- original page 227 -->
 
-To study a problem of the type above, one therefore places oneself first in the category of sheaves, where all the usual results are valid (cf. n° 4.4), then one specializes the results obtained to the original category, using the results of the present number and, when one has them, descent effectivity criteria. We shall see examples of this method in the following numbers.
+To study a problem of the type above, one therefore places oneself first in the category of sheaves, where all the usual
+results are valid (cf. n° 4.4), then one specializes the results obtained to the original category, using the results of
+the present number and, when one has them, descent effectivity criteria. We shall see examples of this method in the
+following numbers.
 
 ### 4.7. Use of effectivity criteria: isomorphism theorem
 
-In this number, we give an example of the use of effectivity criteria. The data of departure are a topology `T` on `C` (always coarser than the canonical topology), a family `(M)` of morphisms of `C` verifying the axioms (a) to (e_T) of 4.6.3, and a family `(N)` of morphisms of `C` liable to verify the following axioms:
+In this number, we give an example of the use of effectivity criteria. The data of departure are a topology `T` on `C`
+(always coarser than the canonical topology), a family `(M)` of morphisms of `C` verifying the axioms (a) to (e_T) of
+4.6.3, and a family `(N)` of morphisms of `C` liable to verify the following axioms:
 
 (a) `(N)` is stable under base extension.
 
-(f_T) "the morphisms of `(N)` descend by the given topology"; that is: for every `S ∈ Ob C`, every covering family `{S_i → S}` and every family `{T_i → S_i}` of morphisms of `(N)`, every descent datum on the `T_i` relative to `{S_i → S}` is effective, and if one denotes `T` the descended object, the morphism `T → S` is an element of `(N)`.
+(f_T) "the morphisms of `(N)` descend by the given topology"; that is: for every `S ∈ Ob C`, every covering family
+`{S_i → S}` and every family `{T_i → S_i}` of morphisms of `(N)`, every descent datum on the `T_i` relative to
+`{S_i → S}` is effective, and if one denotes `T` the descended object, the morphism `T → S` is an element of `(N)`.
 
 <!-- original page 230 -->
 
 Since every element of `(M)` is covering (condition 4.6.3 (d_T)), (f_T) entails the following axiom:[^N.D.E-IV-46]
 
-(f_M) If `Y → X` is an element of `(N)` and `X → X_1` an element of `(M)`, every descent datum on `Y` relative to `X → X_1` is effective; if one denotes `Y_1` the descended object, `Y_1 → X_1` is an element of `(N)`.
+(f_M) If `Y → X` is an element of `(N)` and `X → X_1` an element of `(M)`, every descent datum on `Y` relative to
+`X → X_1` is effective; if one denotes `Y_1` the descended object, `Y_1 → X_1` is an element of `(N)`.
 
-Let us at once signal an example of this situation, which will be treated later: `C` is the category of schemes, `T` the faithfully flat quasi-compact topology; `(M)` the family of faithfully flat quasi-compact morphisms, `(N)` the family of closed immersions, or that of quasi-compact immersions.[^N.D.E-IV-47]
+Let us at once signal an example of this situation, which will be treated later: `C` is the category of schemes, `T` the
+faithfully flat quasi-compact topology; `(M)` the family of faithfully flat quasi-compact morphisms, `(N)` the family of
+closed immersions, or that of quasi-compact immersions.[^N.D.E-IV-47]
 
 Let us recall the principal result of 4.6.6 (taking into account 4.6.11):
 
-**Proposition 4.7.1.** *If `X` is a squarable object of `C`, `R` an equivalence relation of type `(M)` in `X`, such that `R → X × X` is an element of `(N)`, with `(N)` verifying (a) and (f_T), then the sheaf-quotient `X/R` is defined by*
+**Proposition 4.7.1.** *If `X` is a squarable object of `C`, `R` an equivalence relation of type `(M)` in `X`, such that
+`R → X × X` is an element of `(N)`, with `(N)` verifying (a) and (f_T), then the sheaf-quotient `X/R` is defined by*
 
 <!-- label: III.IV.4.7.1 -->
 
@@ -2918,23 +2922,37 @@ Let us recall the principal result of 4.6.6 (taking into account 4.6.11):
 
 Moreover, one has:
 
-**Proposition 4.7.2.** *Let `X ∈ Ob C` and `R` an `(M)`-effective equivalence relation in `X`. Let `(N)` be a family of morphisms verifying (a) and (f_M).*
+**Proposition 4.7.2.** *Let `X ∈ Ob C` and `R` an `(M)`-effective equivalence relation in `X`. Let `(N)` be a family of
+morphisms verifying (a) and (f_M).*
 
 <!-- label: III.IV.4.7.2 -->
 
 <!-- original page 229 -->
 
-*For every sub-object `Y` of `X`, stable under `R` and such that `Y → X` belongs to `(N)`, the equivalence relation induced in `Y` by `R` is `(M)`-effective and the quotient `Y/R_Y = Y′` is a sub-object of `X′ = X/R` such that `Y′ → X′` belongs to `(N)`.*
+*For every sub-object `Y` of `X`, stable under `R` and such that `Y → X` belongs to `(N)`, the equivalence relation
+induced in `Y` by `R` is `(M)`-effective and the quotient `Y/R_Y = Y′` is a sub-object of `X′ = X/R` such that `Y′ → X′`
+belongs to `(N)`.*
 
-*The map `Y ↦ Y′` is a bijection between the set of sub-objects `Y` of `X`, stable under `R`, such that `Y → X` belongs to `(N)`, and the set of sub-objects `Y′` of `X′` such that `Y′ → X′` belongs to `(N)`. The inverse map is `Y′ ↦ Y′ ×_{X′} X`.*
+*The map `Y ↦ Y′` is a bijection between the set of sub-objects `Y` of `X`, stable under `R`, such that `Y → X` belongs
+to `(N)`, and the set of sub-objects `Y′` of `X′` such that `Y′ → X′` belongs to `(N)`. The inverse map is
+`Y′ ↦ Y′ ×_{X′} X`.*
 
-*Proof.* As `R` is `(M)`-effective, the morphism `X → X′` belongs to `(M)`. Let `Y′` be a sub-object of `X′` such that the canonical morphism `Y′ → X′` belongs to `(N)`. Then, the sub-object `Y = Y′ ×_{X′} X` of `X` is stable under `R`, and the morphism `Y → X` (resp. `Y → Y′`) belongs to `(N)` (resp. `(M)`) since `(N)` and `(M)` are stable under base change. Let `R_Y` denote the equivalence relation induced in `Y` by `R`. By 4.4.11, the sheaf quotient `Y/R_Y` is represented by `Y′` and therefore, by 4.6.5, `R_Y` is `(M)`-effective.
+*Proof.* As `R` is `(M)`-effective, the morphism `X → X′` belongs to `(M)`. Let `Y′` be a sub-object of `X′` such that
+the canonical morphism `Y′ → X′` belongs to `(N)`. Then, the sub-object `Y = Y′ ×_{X′} X` of `X` is stable under `R`,
+and the morphism `Y → X` (resp. `Y → Y′`) belongs to `(N)` (resp. `(M)`) since `(N)` and `(M)` are stable under base
+change. Let `R_Y` denote the equivalence relation induced in `Y` by `R`. By 4.4.11, the sheaf quotient `Y/R_Y` is
+represented by `Y′` and therefore, by 4.6.5, `R_Y` is `(M)`-effective.
 
-Conversely, let us show that every sub-object `Y` of `X`, stable under `R`, such that the structural morphism `Y → X` belongs to `(N)`, is obtained in this way. Indeed, if `Y` is stable under `R`, its two images in `R = X ×_{X′} X` are identical and `Y` is equipped with a descent datum relative to `X → X′`; the desired result follows, since the family `(N)` verifies the axiom (f_M).
+Conversely, let us show that every sub-object `Y` of `X`, stable under `R`, such that the structural morphism `Y → X`
+belongs to `(N)`, is obtained in this way. Indeed, if `Y` is stable under `R`, its two images in `R = X ×_{X′} X` are
+identical and `Y` is equipped with a descent datum relative to `X → X′`; the desired result follows, since the family
+`(N)` verifies the axiom (f_M).
 
 <!-- original page 231 -->
 
-**Corollary 4.7.3.** *Let `X ∈ Ob C` and `R` an `(M)`-effective equivalence relation in `X`; assume moreover that `R → X × X` belongs to `(N)`, where `(N)` verifies (a) and (f_T). Then, for every `Y` as in 4.7.2, `R_Y → Y × Y` also belongs to `(N)` and therefore, by 4.7.1, one has:*
+**Corollary 4.7.3.** *Let `X ∈ Ob C` and `R` an `(M)`-effective equivalence relation in `X`; assume moreover that
+`R → X × X` belongs to `(N)`, where `(N)` verifies (a) and (f_T). Then, for every `Y` as in 4.7.2, `R_Y → Y × Y` also
+belongs to `(N)` and therefore, by 4.7.1, one has:*
 
 <!-- label: III.IV.4.7.3 -->
 
@@ -2950,7 +2968,8 @@ Conversely, let us show that every sub-object `Y` of `X`, stable under `R`, such
 
 ### 5.1. Principal homogeneous bundles
 
-**Definition 5.1.0.**[^N.D.E-IV-48] *We recall (III 0.1) that an object `X` with (right) operator group `H` is said to be* formally principal homogeneous[^N.D.E-IV-49] *under `H` if the canonical morphism (of functors)*
+**Definition 5.1.0.**[^N.D.E-IV-48] *We recall (III 0.1) that an object `X` with (right) operator group `H` is said to
+be* formally principal homogeneous[^N.D.E-IV-49] *under `H` if the canonical morphism (of functors)*
 
 <!-- label: III.IV.5.1.0 -->
 
@@ -2958,11 +2977,15 @@ Conversely, let us show that every sub-object `Y` of `X`, stable under `R`, such
 X × H ⟶ X × X
 ```
 
-*defined by `(x, h) ↦ (x, xh)` is an isomorphism. It amounts to the same thing to say (cf. loc. cit.) that for every `S ∈ Ob C`, `X(S)` is formally principal homogeneous under `H(S)`, that is, empty or principal homogeneous under `H(S)`. In particular, if `H` is made to operate on itself by (right) translations, `H` becomes formally principal homogeneous under itself.*
+*defined by `(x, h) ↦ (x, xh)` is an isomorphism. It amounts to the same thing to say (cf. loc. cit.) that for every
+`S ∈ Ob C`, `X(S)` is formally principal homogeneous under `H(S)`, that is, empty or principal homogeneous under `H(S)`.
+In particular, if `H` is made to operate on itself by (right) translations, `H` becomes formally principal homogeneous
+under itself.*
 
 <!-- original page 230 -->
 
-**Definition 5.1.1.** *The object `X` with operator group `H` is said to be* trivial *if it is isomorphic (as object with operator group `H`) to `H` on which `H` operates by translations.*
+**Definition 5.1.1.** *The object `X` with operator group `H` is said to be* trivial *if it is isomorphic (as object
+with operator group `H`) to `H` on which `H` operates by translations.*
 
 <!-- label: III.IV.5.1.1 -->
 
@@ -2976,7 +2999,8 @@ X × H ⟶ X × X
 
 *of principal homogeneous sets under `Γ(H)`.*
 
-To every section `x` of `X` one associates the morphism from `H` to `X` defined setwise by `h ↦ xh`. The stated assertion is immediate, by reduction to the set-theoretic case.
+To every section `x` of `X` one associates the morphism from `H` to `X` defined setwise by `h ↦ xh`. The stated
+assertion is immediate, by reduction to the set-theoretic case.
 
 **Corollary 5.1.3.** *One has an isomorphism of objects with operators `H`*
 
@@ -2986,13 +3010,16 @@ To every section `x` of `X` one associates the morphism from `H` to `X` defined 
 X ⥲ Isom_{H-obj.}(H, X).
 ```
 
-**Corollary 5.1.4.** *In order for an object with operator group to be trivial, it is necessary and sufficient that it be formally principal homogeneous and possess a section.*
+**Corollary 5.1.4.** *In order for an object with operator group to be trivial, it is necessary and sufficient that it
+be formally principal homogeneous and possess a section.*
 
 <!-- label: III.IV.5.1.4 -->
 
 <!-- original page 232 -->
 
-**Definition 5.1.5.** *Let `C` be a category equipped with a topology. We say that the `S`-object `X` with `S`-operator group `H` is a* principal homogeneous bundle under `H` *if it is locally trivial, that is, if the following equivalent conditions are satisfied:[^N.D.E-IV-50]*
+**Definition 5.1.5.** *Let `C` be a category equipped with a topology. We say that the `S`-object `X` with `S`-operator
+group `H` is a* principal homogeneous bundle under `H` *if it is locally trivial, that is, if the following equivalent
+conditions are satisfied:[^N.D.E-IV-50]*
 
 <!-- label: III.IV.5.1.5 -->
 
@@ -3000,9 +3027,13 @@ X ⥲ Isom_{H-obj.}(H, X).
 
 <!-- original page 231 -->
 
-*(ii) There exists a covering family (for a pretopology defining the given topology) `{S_i → S}` such that for each `i`, the `S_i`-functor `X ×_S S_i` with `S_i`-functor-group of operators `H ×_S S_i` is trivial (= has a section over `S_i`).*
+*(ii) There exists a covering family (for a pretopology defining the given topology) `{S_i → S}` such that for each `i`,
+the `S_i`-functor `X ×_S S_i` with `S_i`-functor-group of operators `H ×_S S_i` is trivial (= has a section over
+`S_i`).*
 
-**Proposition 5.1.6.** *Let `C` be a category equipped with a topology `T`. Let `(M)` be a family of morphisms of `C` verifying the axioms (a) to (e_T) of 4.6.3. Let `H` be an `S`-group such that the structural morphism `H → S` is an element of `(M)` and `P` an `S`-object with `S`-operator group `H`. The following conditions are equivalent:*
+**Proposition 5.1.6.** *Let `C` be a category equipped with a topology `T`. Let `(M)` be a family of morphisms of `C`
+verifying the axioms (a) to (e_T) of 4.6.3. Let `H` be an `S`-group such that the structural morphism `H → S` is an
+element of `(M)` and `P` an `S`-object with `S`-operator group `H`. The following conditions are equivalent:*
 
 <!-- label: III.IV.5.1.6 -->
 
@@ -3010,29 +3041,42 @@ X ⥲ Isom_{H-obj.}(H, X).
 
 *(ii) `P` is formally principal homogeneous under `H` and the structural morphism `P → S` is an element of `(M)`.*
 
-*(iii) There exists a morphism `S′ → S` element of `(M)` such that by base extension from `S` to `S′`, `P` becomes trivial, that is, `P ×_S S′` is trivial under `H ×_S S′`.*
+*(iii) There exists a morphism `S′ → S` element of `(M)` such that by base extension from `S` to `S′`, `P` becomes
+trivial, that is, `P ×_S S′` is trivial under `H ×_S S′`.*
 
 *(iv) `H` operates freely on `P`, in an `(M)`-effective manner, and the quotient `P/H` is isomorphic to `S`.*
 
-Let us first remark that (ii) and (iv) are equivalent, taking into account that, in either case, `P → S` is an element of `(M)`, hence squarable, which ensures the representability of the fibered products `H ×_S P` and `P ×_S P`. It is clear that (ii) entails (iii), as one can take `P` itself as `S′`, the hypothesis that `P` is formally principal homogeneous entailing that `P ×_S P` is trivial under `H ×_S P` (5.1.4), since it has a section (the diagonal section). It is clear that (iii) entails (i), since `{S′ → S}` is a covering family, by axiom (d_T). It therefore remains to show that (i) entails (ii). The morphism of sheaves `P ×_S H → P ×_S P` is locally an isomorphism, hence an isomorphism (4.5.8); `P` is therefore formally principal homogeneous. The structural morphism `P → S` is locally isomorphic to the structural morphism `H → S` which is an element of `(M)`. It is therefore itself an element of `(M)` by (e_T).
+Let us first remark that (ii) and (iv) are equivalent, taking into account that, in either case, `P → S` is an element
+of `(M)`, hence squarable, which ensures the representability of the fibered products `H ×_S P` and `P ×_S P`. It is
+clear that (ii) entails (iii), as one can take `P` itself as `S′`, the hypothesis that `P` is formally principal
+homogeneous entailing that `P ×_S P` is trivial under `H ×_S P` (5.1.4), since it has a section (the diagonal section).
+It is clear that (iii) entails (i), since `{S′ → S}` is a covering family, by axiom (d_T). It therefore remains to show
+that (i) entails (ii). The morphism of sheaves `P ×_S H → P ×_S P` is locally an isomorphism, hence an isomorphism
+(4.5.8); `P` is therefore formally principal homogeneous. The structural morphism `P → S` is locally isomorphic to the
+structural morphism `H → S` which is an element of `(M)`. It is therefore itself an element of `(M)` by (e_T).
 
 <!-- original page 232 -->
 
 The equivalence between (i) and (iv) generalizes:
 
-**Proposition 5.1.7.** *Under the same hypotheses on `C` and `(M)`, let `H` be an `S`-group and `X` an `S`-object on which `H` operates (on the right). Suppose the structural morphism `H → S` is an element of `(M)`. The following conditions are equivalent:*
+**Proposition 5.1.7.** *Under the same hypotheses on `C` and `(M)`, let `H` be an `S`-group and `X` an `S`-object on
+which `H` operates (on the right). Suppose the structural morphism `H → S` is an element of `(M)`. The following
+conditions are equivalent:*
 
 <!-- label: III.IV.5.1.7 -->
 
 *(i) `H` operates freely on `X` and in an `(M)`-effective manner.*
 
-*(ii) There exists an `S`-morphism `p : X → Y` compatible with the equivalence relation defined in `X` by the action of `H` and such that the operation of `H ×_S Y` on `X` above `Y` thus deduced makes `X` a principal homogeneous bundle under `H_Y` above `Y`.*
+*(ii) There exists an `S`-morphism `p : X → Y` compatible with the equivalence relation defined in `X` by the action of
+`H` and such that the operation of `H ×_S Y` on `X` above `Y` thus deduced makes `X` a principal homogeneous bundle
+under `H_Y` above `Y`.*
 
 *Under these conditions `p` identifies `Y` with the quotient `X/H`.*
 
 <!-- original page 233 -->
 
-If `p : X → Y` is a morphism compatible with the action of `H`, then the operation of `H ×_S Y` on `X` above `Y` thus deduced defines in `X` the same equivalence relation as the action of `H`, by virtue of the formula
+If `p : X → Y` is a morphism compatible with the action of `H`, then the operation of `H ×_S Y` on `X` above `Y` thus
+deduced defines in `X` the same equivalence relation as the action of `H`, by virtue of the formula
 
 ```text
 H_Y ×_Y X ⥲ H ×_S X.
@@ -3040,17 +3084,26 @@ H_Y ×_Y X ⥲ H ×_S X.
 
 The proposition follows from this remark and from the equivalence (iv) ⇔ (i) above.
 
-**Corollary 5.1.7.1.**[^N.D.E-IV-51] *Let `C` be a category having a final object, stable under fibered products, and equipped with a topology `T` coarser than the canonical topology. Let `f : G → H` be a morphism of `C`-groups, and `K = Ker(f)`. Assume `f` covering for the topology `T`.*
+**Corollary 5.1.7.1.**[^N.D.E-IV-51] *Let `C` be a category having a final object, stable under fibered products, and
+equipped with a topology `T` coarser than the canonical topology. Let `f : G → H` be a morphism of `C`-groups, and
+`K = Ker(f)`. Assume `f` covering for the topology `T`.*
 
 <!-- label: III.IV.5.1.7.1 -->
 
-*Then `H` represents the sheaf quotient `G/K`, and `f` is a `K_H`-torsor. (N.B. One will also say that: "`G` is a `K`-torsor above `H`".)*
+*Then `H` represents the sheaf quotient `G/K`, and `f` is a `K_H`-torsor. (N.B. One will also say that: "`G` is a
+`K`-torsor above `H`".)*
 
-Indeed, as `f` is covering, it is a universal effective epimorphism (4.4.3), hence by 3.3.3.1, `H` is the quotient of `G` by the equivalence relation `R(f) = G ×_H G`. On the other hand, the morphism `G × K → G ×_H G`, `(g, k) ↦ (g, gk)` is an isomorphism of objects with operator group `K_G = G ×_H K_H` (its inverse being given by `(g, g′) ↦ (g, g⁻¹ g′)`). Hence, on the one hand, `R(f)` is the equivalence relation defined by `K`; on the other hand, since the morphism `f : G → H` is covering, `f` is a `K_H`-torsor, by 5.1.6 (ii) (or directly by definition 5.1.5 (ii)).
+Indeed, as `f` is covering, it is a universal effective epimorphism (4.4.3), hence by 3.3.3.1, `H` is the quotient of
+`G` by the equivalence relation `R(f) = G ×_H G`. On the other hand, the morphism `G × K → G ×_H G`, `(g, k) ↦ (g, gk)`
+is an isomorphism of objects with operator group `K_G = G ×_H K_H` (its inverse being given by `(g, g′) ↦ (g, g⁻¹ g′)`).
+Hence, on the one hand, `R(f)` is the equivalence relation defined by `K`; on the other hand, since the morphism
+`f : G → H` is covering, `f` is a `K_H`-torsor, by 5.1.6 (ii) (or directly by definition 5.1.5 (ii)).
 
 We can now make Theorem 4.6.6 more precise in the case of passage to the quotient by an operator group:
 
-**Proposition 5.1.8.** *Under the hypotheses of 5.1.7, let `F_0` denote the functor over `S` defined as follows: for each `S′ → S`, `F_0(S′)` is the set of representable sub-`S′`-functors `Z` of `X ×_S S′`, stable under `H ×_S S′` and being principal homogeneous bundles under this `S′`-group for the induced action (3.2.2).*
+**Proposition 5.1.8.** *Under the hypotheses of 5.1.7, let `F_0` denote the functor over `S` defined as follows: for
+each `S′ → S`, `F_0(S′)` is the set of representable sub-`S′`-functors `Z` of `X ×_S S′`, stable under `H ×_S S′` and
+being principal homogeneous bundles under this `S′`-group for the induced action (3.2.2).*
 
 <!-- label: III.IV.5.1.8 -->
 
@@ -3063,15 +3116,21 @@ We can now make Theorem 4.6.6 more precise in the case of passage to the quotien
 
 *Under these conditions, one has `F_0 = X/H`.*
 
-*(ii) Let `(N)` be a family of morphisms, stable under base change, such that for every covering family `{S′_i → S′}` and every family `{T_i → S′_i}` of morphisms of `(N)`, every descent datum on the `T_i` relative to `{S′_i → S′}` is effective. Assume the morphism `X ×_S H → X ×_S X` is an element of `(N)` and `X` squarable. Then the element `p` of `Hom(X, F_0)` corresponding to the sub-object `X ×_S H` of `X ×_S X` identifies `F_0` with the sheaf-quotient `X/H`.*
+*(ii) Let `(N)` be a family of morphisms, stable under base change, such that for every covering family `{S′_i → S′}`
+and every family `{T_i → S′_i}` of morphisms of `(N)`, every descent datum on the `T_i` relative to `{S′_i → S′}` is
+effective. Assume the morphism `X ×_S H → X ×_S X` is an element of `(N)` and `X` squarable. Then the element `p` of
+`Hom(X, F_0)` corresponding to the sub-object `X ×_S H` of `X ×_S X` identifies `F_0` with the sheaf-quotient `X/H`.*
 
 <!-- original page 234 -->
 
 ### 5.2. Group structures and passage to the quotient
 
-In this number we interest ourselves in the algebraic structures one can place on the quotient `G/H` of a group by a subgroup. We shall first place ourselves in the category of sheaves on `C` for an arbitrary topology. By taking the canonical topology and using 4.5.12, we shall obtain results for the universal effective passage to the quotient in `C`.
+In this number we interest ourselves in the algebraic structures one can place on the quotient `G/H` of a group by a
+subgroup. We shall first place ourselves in the category of sheaves on `C` for an arbitrary topology. By taking the
+canonical topology and using 4.5.12, we shall obtain results for the universal effective passage to the quotient in `C`.
 
-**Proposition 5.2.1.** *Let `u : H → G` be a monomorphism of sheaves of groups. There exists on the sheaf-quotient `G/H` a unique structure of object with operator group `G` such that the canonical morphism*
+**Proposition 5.2.1.** *Let `u : H → G` be a monomorphism of sheaves of groups. There exists on the sheaf-quotient `G/H`
+a unique structure of object with operator group `G` such that the canonical morphism*
 
 <!-- label: III.IV.5.2.1 -->
 
@@ -3079,7 +3138,8 @@ In this number we interest ourselves in the algebraic structures one can place o
 p : G ⟶ G/H
 ```
 
-*is a morphism of objects with operator group `G`. This structure is functorial with respect to the pair `(G, H)`: if one has a commutative diagram*
+*is a morphism of objects with operator group `G`. This structure is functorial with respect to the pair `(G, H)`: if
+one has a commutative diagram*
 
 ```text
 H ──→ G
@@ -3097,29 +3157,42 @@ Indeed, the sheaf `G/H` is the sheaf associated with the presheaf
 i(G)/i(H) : S ↦ G(S)/H(S);
 ```
 
-as the functor `a` is left exact, it transforms objects with operator groups into objects with operator group. As the presheaf `i(G)/i(H)` is equipped with a structure of object with operator groups `i(G)`, then `G/H = a(i(G)/i(H))` is equipped with a structure of object with operators `a(i(G)) = G`. This structure obviously enjoys all the stated properties.
+as the functor `a` is left exact, it transforms objects with operator groups into objects with operator group. As the
+presheaf `i(G)/i(H)` is equipped with a structure of object with operator groups `i(G)`, then `G/H = a(i(G)/i(H))` is
+equipped with a structure of object with operators `a(i(G)) = G`. This structure obviously enjoys all the stated
+properties.
 
-**Corollary 5.2.2.** *Let `u : H → G` be a monomorphism of `C`-groups. Suppose that the operation of `H` on `G` is universal effective. There exists on the object-quotient `G/H ∈ Ob C` a unique structure of object with operator group `G` such that `p : G → G/H` is a morphism of objects with operators. This structure is functorial in the pair `(H, G)` (with `H` operating in a universal effective manner in `G`), in the preceding sense.*
+**Corollary 5.2.2.** *Let `u : H → G` be a monomorphism of `C`-groups. Suppose that the operation of `H` on `G` is
+universal effective. There exists on the object-quotient `G/H ∈ Ob C` a unique structure of object with operator group
+`G` such that `p : G → G/H` is a morphism of objects with operators. This structure is functorial in the pair `(H, G)`
+(with `H` operating in a universal effective manner in `G`), in the preceding sense.*
 
 <!-- label: III.IV.5.2.2 -->
 
-**Proposition 5.2.3.** *Let `u : H → G` be a monomorphism of sheaves of groups identifying `H` with an invariant sub-sheaf of groups of `G`. There exists on the sheaf-quotient `G/H` a unique structure of sheaf of groups such that the canonical morphism `p : G → G/H` is a morphism of groups. This structure is functorial in the pair `(H, G)` (with `H` invariant).*
+**Proposition 5.2.3.** *Let `u : H → G` be a monomorphism of sheaves of groups identifying `H` with an invariant
+sub-sheaf of groups of `G`. There exists on the sheaf-quotient `G/H` a unique structure of sheaf of groups such that the
+canonical morphism `p : G → G/H` is a morphism of groups. This structure is functorial in the pair `(H, G)` (with `H`
+invariant).*
 
 <!-- label: III.IV.5.2.3 -->
 
 The proof is similar to that of 5.2.1.
 
-**Corollary 5.2.4.** *Let `u : H → G` be a monomorphism of `C`-groups identifying `H` with an invariant subgroup of `G`. Suppose that the action of `H` on `G` is universal effective. There exists on the object-quotient `G/H ∈ Ob C` a unique group structure*
+**Corollary 5.2.4.** *Let `u : H → G` be a monomorphism of `C`-groups identifying `H` with an invariant subgroup of `G`.
+Suppose that the action of `H` on `G` is universal effective. There exists on the object-quotient `G/H ∈ Ob C` a unique
+group structure*
 
 <!-- label: III.IV.5.2.4 -->
 
 <!-- original page 235 -->
 
-*such that the canonical morphism `G → G/H` is a morphism of groups. This structure is functorial with respect to the pair `(H, G)` (`H` invariant, `H` operating in a universal effective manner).*
+*such that the canonical morphism `G → G/H` is a morphism of groups. This structure is functorial with respect to the
+pair `(H, G)` (`H` invariant, `H` operating in a universal effective manner).*
 
 One can characterize the group structure of `G/H` in a more telling manner:
 
-**Proposition 5.2.5.** *Under the conditions of 5.2.4, let `K` be a `C`-group and `f : G → K` a morphism. The following conditions are equivalent:*
+**Proposition 5.2.5.** *Under the conditions of 5.2.4, let `K` be a `C`-group and `f : G → K` a morphism. The following
+conditions are equivalent:*
 
 <!-- label: III.IV.5.2.5 -->
 
@@ -3135,7 +3208,8 @@ One can characterize the group structure of `G/H` in a more telling manner:
 Hom_{C-gr.}(G/H, K) ⥲ {f ∈ Hom_{C-gr.}(G, K) | f ∘ u = e}.
 ```
 
-The equivalence of (i) and (ii) is proved set-theoretically. One obviously has (iii) ⇒ (ii). The equivalence of (iii) and (ii) follows from the formula
+The equivalence of (i) and (ii) is proved set-theoretically. One obviously has (iii) ⇒ (ii). The equivalence of (iii)
+and (ii) follows from the formula
 
 ```text
 Hom(G/H, K) ≃ Hom(i(G)/i(H), K)
@@ -3143,25 +3217,34 @@ Hom(G/H, K) ≃ Hom(i(G)/i(H), K)
 
 and from the definition of the group structure of `G/H`.
 
-**Remark 5.2.6.** *In the preceding situation, if the kernel of `f` is exactly `H`, the morphism `G/H → K` that factors `f` is a monomorphism. This follows at once from 3.3.4.*
+**Remark 5.2.6.** *In the preceding situation, if the kernel of `f` is exactly `H`, the morphism `G/H → K` that factors
+`f` is a monomorphism. This follows at once from 3.3.4.*
 
 <!-- label: III.IV.5.2.6 -->
 
 In the case of sheaves of groups, one can make 4.4.11 more precise by means of the
 
-**Proposition 5.2.7.** *Let `G` be a sheaf of groups, `H` an invariant sub-sheaf of groups. For every sub-sheaf of groups `K` of `G` containing `H`, let `K′` be the quotient group `K/H` considered as a subgroup of `G′ = G/H`.*
+**Proposition 5.2.7.** *Let `G` be a sheaf of groups, `H` an invariant sub-sheaf of groups. For every sub-sheaf of
+groups `K` of `G` containing `H`, let `K′` be the quotient group `K/H` considered as a subgroup of `G′ = G/H`.*
 
 <!-- label: III.IV.5.2.7 -->
 
 <!-- original page 236 -->
 
-*One has `K = K′ ×_{G′} G`, and the maps `K ↦ K/H` and `K′ ↦ K′ ×_{G′} G` realize a bijection between the set of sub-sheaves of groups of `G` containing `H` and the set of sub-sheaves of groups of `G′`. In this correspondence, the invariant sub-sheaves of groups of `G` and of `G′` correspond.*
+*One has `K = K′ ×_{G′} G`, and the maps `K ↦ K/H` and `K′ ↦ K′ ×_{G′} G` realize a bijection between the set of
+sub-sheaves of groups of `G` containing `H` and the set of sub-sheaves of groups of `G′`. In this correspondence, the
+invariant sub-sheaves of groups of `G` and of `G′` correspond.*
 
-The first part follows easily from 4.4.11 and 3.2.4. It remains to see that `K` is invariant in `G` if and only if `K′` is invariant in `G′`. If `K` is invariant in `G`, then the presheaf `i(K)/i(H)` is invariant in `i(G)/i(H)`. The same holds for the associated sheaves, by virtue of the usual argument. If conversely `K′` is invariant in `G′`, then the fibered product `K ×_{G′} G` is invariant in `G`, as one sees immediately.
+The first part follows easily from 4.4.11 and 3.2.4. It remains to see that `K` is invariant in `G` if and only if `K′`
+is invariant in `G′`. If `K` is invariant in `G`, then the presheaf `i(K)/i(H)` is invariant in `i(G)/i(H)`. The same
+holds for the associated sheaves, by virtue of the usual argument. If conversely `K′` is invariant in `G′`, then the
+fibered product `K ×_{G′} G` is invariant in `G`, as one sees immediately.
 
-If now `L` is an arbitrary sub-sheaf of groups of `G`, let `L̄` be the saturation of `L` for the equivalence relation defined by `H`; we shall also write `L̄ = L · H`.
+If now `L` is an arbitrary sub-sheaf of groups of `G`, let `L̄` be the saturation of `L` for the equivalence relation
+defined by `H`; we shall also write `L̄ = L · H`.
 
-**Proposition 5.2.8.** *Under the preceding conditions, `L · H` is a sub-sheaf of groups of `G` containing `H` and the image of `L` in `G/H` is identified with*
+**Proposition 5.2.8.** *Under the preceding conditions, `L · H` is a sub-sheaf of groups of `G` containing `H` and the
+image of `L` in `G/H` is identified with*
 
 <!-- label: III.IV.5.2.8 -->
 
@@ -3169,13 +3252,23 @@ If now `L` is an arbitrary sub-sheaf of groups of `G`, let `L̄` be the saturati
 (L · H)/H ≃ L/(H ∩ L).
 ```
 
-Indeed, let `L′` denote the sheaf image of `L` in `G/H`. It is a sub-sheaf of groups of `G/H` corresponding to `L · H` in the correspondence of the preceding proposition. As the morphism `L → L′` is covering, hence a universal effective epimorphism of sheaves, it follows from 4.4.9 that `L′` is identified with the quotient of `L` by the kernel of `L → L′` which is obviously none other than `H ∩ L`.
+Indeed, let `L′` denote the sheaf image of `L` in `G/H`. It is a sub-sheaf of groups of `G/H` corresponding to `L · H`
+in the correspondence of the preceding proposition. As the morphism `L → L′` is covering, hence a universal effective
+epimorphism of sheaves, it follows from 4.4.9 that `L′` is identified with the quotient of `L` by the kernel of `L → L′`
+which is obviously none other than `H ∩ L`.
 
-Let us finally consider the following situation: we have a sheaf of groups `G`, a sub-sheaf of groups `K` and a sub-sheaf of groups `H` of `K`, invariant in `K`. Let us first define a (right) operation of the sheaf of groups `H\K` (= `K/H`) on `G/H`. The group `K` operates by right translations on `G`. As `H` is invariant in `K`, this operation is compatible with the equivalence relation defined by the action of `H` and therefore defines an operation of `K` on `G/H`, that is, a morphism from the opposite group `K°` to `K` into `Aut(G/H)`. As the latter is a sheaf (4.5.13) and this morphism is trivial on `H`, it factors through `K/H` and defines the sought operation. As the right and left operations of `G` on itself commute, the operations of `G` and `K/H` on `G/H` commute.
+Let us finally consider the following situation: we have a sheaf of groups `G`, a sub-sheaf of groups `K` and a
+sub-sheaf of groups `H` of `K`, invariant in `K`. Let us first define a (right) operation of the sheaf of groups `H\K`
+(= `K/H`) on `G/H`. The group `K` operates by right translations on `G`. As `H` is invariant in `K`, this operation is
+compatible with the equivalence relation defined by the action of `H` and therefore defines an operation of `K` on
+`G/H`, that is, a morphism from the opposite group `K°` to `K` into `Aut(G/H)`. As the latter is a sheaf (4.5.13) and
+this morphism is trivial on `H`, it factors through `K/H` and defines the sought operation. As the right and left
+operations of `G` on itself commute, the operations of `G` and `K/H` on `G/H` commute.
 
 <!-- original page 237 -->
 
-**Proposition 5.2.9.** *Under the preceding conditions, `K/H` operates freely (on the right) on `G/H` and one has a canonical isomorphism of sheaves with operator group `G`*
+**Proposition 5.2.9.** *Under the preceding conditions, `K/H` operates freely (on the right) on `G/H` and one has a
+canonical isomorphism of sheaves with operator group `G`*
 
 <!-- label: III.IV.5.2.9 -->
 
@@ -3183,7 +3276,8 @@ Let us finally consider the following situation: we have a sheaf of groups `G`, 
 (G/H)/(K/H) ≃ G/K.
 ```
 
-*When `K` is invariant in `G`, in which case `K/H` is invariant in `G/H` (5.2.7), this isomorphism respects the group structures of the two sides.*
+*When `K` is invariant in `G`, in which case `K/H` is invariant in `G/H` (5.2.7), this isomorphism respects the group
+structures of the two sides.*
 
 One has an isomorphism of presheaves
 
@@ -3191,9 +3285,13 @@ One has an isomorphism of presheaves
 (i(G)/i(H)) / (i(K)/i(H)) ⥲ i(G)/i(K),
 ```
 
-which respects the structures of objects with operator group `i(G)`. The announced result is obtained by applying the functor `a` to this relation.
+which respects the structures of objects with operator group `i(G)`. The announced result is obtained by applying the
+functor `a` to this relation.
 
-**Corollary 5.2.10.** *Let `G` be a `C`-group, `K` a sub-`C`-group of `G`, `H` an invariant sub-`C`-group of `K`. Let `(M)` be a family of morphisms of `C` verifying the axioms (a) to (e_T). Suppose the operation of `H` on `G` (resp. `K`) on the right is `(M)`-effective. Then `K/H` operates in a natural manner freely on the right on `G/H`; this operation commutes with that of `G`. The following conditions are equivalent:*
+**Corollary 5.2.10.** *Let `G` be a `C`-group, `K` a sub-`C`-group of `G`, `H` an invariant sub-`C`-group of `K`. Let
+`(M)` be a family of morphisms of `C` verifying the axioms (a) to (e_T). Suppose the operation of `H` on `G` (resp. `K`)
+on the right is `(M)`-effective. Then `K/H` operates in a natural manner freely on the right on `G/H`; this operation
+commutes with that of `G`. The following conditions are equivalent:*
 
 <!-- label: III.IV.5.2.10 -->
 
@@ -3211,17 +3309,24 @@ which respects the structures of objects with operator group `i(G)`. The announc
 
 ### 5.3. Use of effectivity criteria: Noether's theorem[^N.D.E-IV-54]
 
-Let `C`, `T` and `(M)` be as usual. Let `(N)` be a family of morphisms verifying the axioms (a) and (f_M) of 4.7. Putting together 5.2.7 and 4.7.2, one obtains:
+Let `C`, `T` and `(M)` be as usual. Let `(N)` be a family of morphisms verifying the axioms (a) and (f_M) of 4.7.
+Putting together 5.2.7 and 4.7.2, one obtains:
 
-**Proposition 5.3.1.** *Let `G` be a `C`-group. Let `H` be a sub-`C`-group of `G`, invariant and operating in an `(M)`-effective manner in `G`.*
+**Proposition 5.3.1.** *Let `G` be a `C`-group. Let `H` be a sub-`C`-group of `G`, invariant and operating in an
+`(M)`-effective manner in `G`.*
 
 <!-- label: III.IV.5.3.1 -->
 
-*For every sub-`C`-group `K` of `G` containing `H` and such that the morphism `K → G` belongs to `(N)`, `H` operates in `K` in an `(M)`-effective manner and the quotient `K/H = K′` is a sub-`C`-group of `G/H = G′` such that the morphism `K′ → G′` belongs to `(N)`.*
+*For every sub-`C`-group `K` of `G` containing `H` and such that the morphism `K → G` belongs to `(N)`, `H` operates in
+`K` in an `(M)`-effective manner and the quotient `K/H = K′` is a sub-`C`-group of `G/H = G′` such that the morphism
+`K′ → G′` belongs to `(N)`.*
 
-*The map `K ↦ K′` is a bijection between the set of sub-`C`-groups `K` of `G`, containing `H` and such that `K → G` belongs to `(N)`, and the set of sub-`C`-groups `K′` of `G′` such that `K′ → G′` belongs to `(N)`. The inverse map is `K′ ↦ K ×_{G′} G`. In this correspondence, the invariant subgroups of `G` and `G′` correspond.*
+*The map `K ↦ K′` is a bijection between the set of sub-`C`-groups `K` of `G`, containing `H` and such that `K → G`
+belongs to `(N)`, and the set of sub-`C`-groups `K′` of `G′` such that `K′ → G′` belongs to `(N)`. The inverse map is
+`K′ ↦ K ×_{G′} G`. In this correspondence, the invariant subgroups of `G` and `G′` correspond.*
 
-**Corollary 5.3.2.** *If `H → G` is an element of `(N)`, then `C` has a final object `e` and the unit section `e → G/H` is an element of `(N)`.[^N.D.E-IV-55]*
+**Corollary 5.3.2.** *If `H → G` is an element of `(N)`, then `C` has a final object `e` and the unit section `e → G/H`
+is an element of `(N)`.[^N.D.E-IV-55]*
 
 <!-- label: III.IV.5.3.2 -->
 
@@ -3233,9 +3338,12 @@ Let `C`, `T` and `(M)` be as usual. Let `(N)` be a family of morphisms verifying
 
 ### 6.1. The Zariski topology
 
-This is the topology generated by the following pretopology: a family of morphisms `{S_i → S}` is covering if each morphism is an open immersion and the union of the images of the `S_i` is all of `S`. It is denoted (Zar).
+This is the topology generated by the following pretopology: a family of morphisms `{S_i → S}` is covering if each
+morphism is an open immersion and the union of the images of the `S_i` is all of `S`. It is denoted (Zar).
 
-**Definition 6.1.1.** *A sheaf for the Zariski topology is also called* a functor of local nature*: it is a contravariant functor from `(Sch)` to `(Ens)` such that for every scheme `S` and every covering of `S` by opens `S_i`, one has an exact diagram:*
+**Definition 6.1.1.** *A sheaf for the Zariski topology is also called* a functor of local nature\*: it is a
+contravariant functor from `(Sch)` to `(Ens)` such that for every scheme `S` and every covering of `S` by opens `S_i`,
+one has an exact diagram:\*
 
 <!-- label: III.IV.6.1.1 -->
 
@@ -3243,17 +3351,25 @@ This is the topology generated by the following pretopology: a family of morphis
 F(S) → ∏_i F(S_i) ⇒ ∏_{i,j} F(S_i ∩ S_j).
 ```
 
-In particular, a functor of local nature transforms direct sums into products. As every representable functor is a sheaf, this topology is coarser than the canonical topology.
+In particular, a functor of local nature transforms direct sums into products. As every representable functor is a
+sheaf, this topology is coarser than the canonical topology.
 
-From the terminological point of view, whenever we say "local", "locally", without precision, it will be with reference to the Zariski topology, hence in the usual sense.
+From the terminological point of view, whenever we say "local", "locally", without precision, it will be with reference
+to the Zariski topology, hence in the usual sense.
 
 ### 6.2. A procedure for constructing topologies
 
-**Proposition 6.2.1.** *Let `C` be a category, `C ′` a full subcategory, `P` a set of families of morphisms of `C` with the same target, stable under base change and under composition (i.e. verifying the axioms (P 1) and (P 2) of 4.2.5), `P′` a set of families of morphisms of `C ′` containing the families reduced to an identity isomorphism. Equip `C` with the topology generated by `P` and `P′` (cf. 4.2.5.0) and suppose the three conditions below are verified:*
+**Proposition 6.2.1.** *Let `C` be a category, `C ′` a full subcategory, `P` a set of families of morphisms of `C` with
+the same target, stable under base change and under composition (i.e. verifying the axioms (P 1) and (P 2) of 4.2.5),
+`P′` a set of families of morphisms of `C ′` containing the families reduced to an identity isomorphism. Equip `C` with
+the topology generated by `P` and `P′` (cf. 4.2.5.0) and suppose the three conditions below are verified:*
 
 <!-- label: III.IV.6.2.1 -->
 
-*(a) If `{S_i → S} ∈ P′` (hence `S_i, S ∈ Ob C ′`) and if `T → S` is a morphism of `C ′`, then the fibered products `S_i ×_S T` (in `C`) exist and the family `{S_i ×_S T → T}` belongs to `P′` (hence `S_i ×_S T ∈ Ob C ′`). (Remark: this condition entails that `P′` is stable under base change in `C ′`, but is not equivalent to it, since it further supposes that the inclusion functor from `C ′` to `C` commutes with certain fibered products).*
+*(a) If `{S_i → S} ∈ P′` (hence `S_i, S ∈ Ob C ′`) and if `T → S` is a morphism of `C ′`, then the fibered products
+`S_i ×_S T` (in `C`) exist and the family `{S_i ×_S T → T}` belongs to `P′` (hence `S_i ×_S T ∈ Ob C ′`). (Remark: this
+condition entails that `P′` is stable under base change in `C ′`, but is not equivalent to it, since it further supposes
+that the inclusion functor from `C ′` to `C` commutes with certain fibered products).*
 
 <!-- original page 240 -->
 
@@ -3272,7 +3388,9 @@ From the terminological point of view, whenever we say "local", "locally", witho
              S ,
 ```
 
-*where `S, S_i, S_{ij}, S_{ijk} ∈ Ob C ′`; `{S_i → S} ∈ P′`; `{S_{ij} → S_i} ∈ P` for each `i`; `{S_{ijk} → S_{ij}} ∈ P′` for each `ij`, there exists a family `{T_n → S} ∈ P′` and for each `n` a multi-index `(ijk)` and a commutative diagram*
+*where `S, S_i, S_{ij}, S_{ijk} ∈ Ob C ′`; `{S_i → S} ∈ P′`; `{S_{ij} → S_i} ∈ P` for each `i`;
+`{S_{ijk} → S_{ij}} ∈ P′` for each `ij`, there exists a family `{T_n → S} ∈ P′` and for each `n` a multi-index `(ijk)`
+and a commutative diagram*
 
 ```text
 S_{ijk} ←──── T_n
@@ -3282,7 +3400,8 @@ S_{ijk} ←──── T_n
           S .
 ```
 
-*Then, in order for a sieve `R` of `S ∈ Ob C` to be covering, it is necessary and sufficient that there exist a composite family*
+*Then, in order for a sieve `R` of `S ∈ Ob C` to be covering, it is necessary and sufficient that there exist a
+composite family*
 
 ```text
 R ←┄┄┄ S_{ij}
@@ -3292,17 +3411,21 @@ R ←┄┄┄ S_{ij}
         (P)
 ```
 
-*where `S_i, S_{ij} ∈ Ob C ′`, `{S_i → S} ∈ P`, `{S_{ij} → S_i} ∈ P′` for each `i`, and the morphisms `S_{ij} → S` so obtained factor through `R` (in other words, the sieve generated by this composite family is contained in `R`).*
+*where `S_i, S_{ij} ∈ Ob C ′`, `{S_i → S} ∈ P`, `{S_{ij} → S_i} ∈ P′` for each `i`, and the morphisms `S_{ij} → S` so
+obtained factor through `R` (in other words, the sieve generated by this composite family is contained in `R`).*
 
 <!-- original page 239 -->
 
-*Proof.* As the families elements of `P` and of `P′` are covering, a family composed of such families will be also (C 2), hence a sieve of the indicated form will be covering, since it contains a covering sieve.
+*Proof.* As the families elements of `P` and of `P′` are covering, a family composed of such families will be also (C
+2), hence a sieve of the indicated form will be covering, since it contains a covering sieve.
 
 <!-- original page 241 -->
 
-Conversely, it suffices to see that the sieves of this form do indeed form a topology, i.e. it suffices to verify the axioms (T 1) to (T 4) of 4.2.1.
+Conversely, it suffices to see that the sieves of this form do indeed form a topology, i.e. it suffices to verify the
+axioms (T 1) to (T 4) of 4.2.1.
 
-*Axiom (T 4).* Let `S ∈ Ob C`. There exists by (b) a family `{S_i → S} ∈ P` with `S_i ∈ Ob C ′`. The families `{S_i →^{id_{S_i}} S_i}` are elements of `P′` by hypothesis. The sieve `S` of `S` is therefore of the desired form:
+*Axiom (T 4).* Let `S ∈ Ob C`. There exists by (b) a family `{S_i → S} ∈ P` with `S_i ∈ Ob C ′`. The families
+`{S_i →^{id_{S_i}} S_i}` are elements of `P′` by hypothesis. The sieve `S` of `S` is therefore of the desired form:
 
 ```text
 S_i ───→ S
@@ -3313,7 +3436,9 @@ S_i ───→ S .
 
 *Axiom (T 3).* Evident.
 
-*Axiom (T 2).* Let `R` be a sieve of `S` of the desired form and let `C` be a sieve[^N.D.E-IV-56] of `S` such that, for every `T ∈ Ob C` and every morphism `T → S` factoring through `R`, the sieve `C ×_S T` of `T` is of the desired form. Then, as `S_{ij} → S` factors through `R`, the sieve `C_{ij} = C ×_S S_{ij}` of `S_{ij}`:
+*Axiom (T 2).* Let `R` be a sieve of `S` of the desired form and let `C` be a sieve[^N.D.E-IV-56] of `S` such that, for
+every `T ∈ Ob C` and every morphism `T → S` factoring through `R`, the sieve `C ×_S T` of `T` is of the desired form.
+Then, as `S_{ij} → S` factors through `R`, the sieve `C_{ij} = C ×_S S_{ij}` of `S_{ij}`:
 
 ```text
         S_{ij} ←─── C_{ij}
@@ -3348,7 +3473,9 @@ S_{ijkl} ──(P′)─→ S_{ijk} ──(P)─→ S_{ij} ──(P′)─→ S_
 
 <!-- original page 240 -->
 
-belonging to `P ∘ P′ ∘ P ∘ P′`, factoring through `C`, and where all objects other than `S` are in `C ′`. Applying condition (c) to each family `{S_{ijkl} → S_i}`, one deduces that for each `i` there exists a family `{T_{in} → S_i} ∈ P′`, such that `T_{in} → S` factors through one of the `S_{ijkl}`, hence through `C`:
+belonging to `P ∘ P′ ∘ P ∘ P′`, factoring through `C`, and where all objects other than `S` are in `C ′`. Applying
+condition (c) to each family `{S_{ijkl} → S_i}`, one deduces that for each `i` there exists a family
+`{T_{in} → S_i} ∈ P′`, such that `T_{in} → S` factors through one of the `S_{ijkl}`, hence through `C`:
 
 <!-- original page 242 -->
 
@@ -3364,7 +3491,8 @@ T_{in} ──→ S_{ijkl}
 
 The sieve `C` of `S` is therefore of the desired form, which completes the verification.
 
-*Axiom (T 1).* Let `R` be a sieve of `S` of the given form and let `T → S` be a morphism of `C`. Let us show that the sieve `R ×_S T` of `T` is of the desired form.
+*Axiom (T 1).* Let `R` be a sieve of `S` of the given form and let `T → S` be a morphism of `C`. Let us show that the
+sieve `R ×_S T` of `T` is of the desired form.
 
 ```text
        S_{ij} ←──────── U_{ikj}
@@ -3377,7 +3505,10 @@ The sieve `C` of `S` is therefore of the desired form, which completes the verif
    R ──→ S ←──────── T ←───────
 ```
 
-Let `T_i = S_i ×_S T`. The family `{T_i → T}` belongs to `P` (by (P 1)). Applying (b), one constructs `{U_{ik} → T_i} ∈ P`, with the `U_{ik} ∈ Ob C ′`. By hypothesis (condition (P 2) on `P`), one has `{U_{ik} → T} ∈ P`. By (a), `U_{ik} ×_{S_i} S_{ij} = U_{ikj}` is an object of `C ′` and for each `ik`, `{U_{ikj} → U_{ik}} ∈ P′`. Then, the commutative diagram below
+Let `T_i = S_i ×_S T`. The family `{T_i → T}` belongs to `P` (by (P 1)). Applying (b), one constructs
+`{U_{ik} → T_i} ∈ P`, with the `U_{ik} ∈ Ob C ′`. By hypothesis (condition (P 2) on `P`), one has `{U_{ik} → T} ∈ P`. By
+(a), `U_{ik} ×_{S_i} S_{ij} = U_{ikj}` is an object of `C ′` and for each `ik`, `{U_{ikj} → U_{ik}} ∈ P′`. Then, the
+commutative diagram below
 
 ```text
 R ←──────── U_{ikj}
@@ -3389,17 +3520,21 @@ R ←──────── U_{ikj}
 S ←──── T ←── 
 ```
 
-shows that the morphisms `U_{ijk} → T` factor through the sieve `T ×_S R` of `T`, which is therefore of the desired form, which completes the proof.
+shows that the morphisms `U_{ijk} → T` factor through the sieve `T ×_S R` of `T`, which is therefore of the desired
+form, which completes the proof.
 
-**Corollary 6.2.2.** *If `S ∈ Ob C ′` and if `R` is a sieve of `S`, `R` is covering if and only if there exists a family `{T_i → S} ∈ P′`, factoring through `R`.*
+**Corollary 6.2.2.** *If `S ∈ Ob C ′` and if `R` is a sieve of `S`, `R` is covering if and only if there exists a family
+`{T_i → S} ∈ P′`, factoring through `R`.*
 
 <!-- label: III.IV.6.2.2 -->
 
 <!-- original page 243 -->
 
-Indeed, such a sieve is covering. On the other hand, it suffices to apply (c) by taking the family `{S_i → S}` reduced to the identity isomorphism of `S` to deduce from the proposition that a covering sieve is of the indicated form.
+Indeed, such a sieve is covering. On the other hand, it suffices to apply (c) by taking the family `{S_i → S}` reduced
+to the identity isomorphism of `S` to deduce from the proposition that a covering sieve is of the indicated form.
 
-**Corollary 6.2.3.** *In order for a presheaf `F` on `C` to be separated (resp. a sheaf), it is necessary and sufficient that the morphism*
+**Corollary 6.2.3.** *In order for a presheaf `F` on `C` to be separated (resp. a sheaf), it is necessary and sufficient
+that the morphism*
 
 <!-- label: III.IV.6.2.3 -->
 
@@ -3417,9 +3552,12 @@ F(S) ⟶ ∏_i F(S_i) ⇒ ∏_{i,j} F(S_i ×_S S_j)
 
 *(i) `{S_i → S} ∈ P`,*
 
-*(ii) `S, S_i ∈ Ob C ′`;  `{S_i → S} ∈ P′`.*
+*(ii) `S, S_i ∈ Ob C ′`; `{S_i → S} ∈ P′`.*
 
-Indeed, the conditions are necessary, since the families in question are covering. If `C` is the sieve of `S` image of a family of morphisms `{S_{ij} →^{(P′)} S_i →^{(P)} S}`, a straightforward diagram chase shows that the conditions of the corollary entail that `Hom(S, F) →^g Hom(C, F)` is injective (resp. bijective). But every refinement `R` of `S` contains a sieve `C` of the above type and one has a commutative diagram
+Indeed, the conditions are necessary, since the families in question are covering. If `C` is the sieve of `S` image of a
+family of morphisms `{S_{ij} →^{(P′)} S_i →^{(P)} S}`, a straightforward diagram chase shows that the conditions of the
+corollary entail that `Hom(S, F) →^g Hom(C, F)` is injective (resp. bijective). But every refinement `R` of `S` contains
+a sieve `C` of the above type and one has a commutative diagram
 
 ```text
                 f
@@ -3431,7 +3569,8 @@ Hom(S, F) ───────────→ Hom(R, F)
            Hom(C, F) .
 ```
 
-One knows that `g` is injective, hence so is `f`. Therefore `F` is separated. But `R` is a refinement of `C`, hence `h` is also injective. If `g` is bijective, then `f` is also, hence `F` is a sheaf.
+One knows that `g` is injective, hence so is `f`. Therefore `F` is separated. But `R` is a refinement of `C`, hence `h`
+is also injective. If `g` is bijective, then `f` is also, hence `F` is a sheaf.
 
 <!-- original page 244 -->
 
@@ -3449,7 +3588,8 @@ One knows that `g` is injective, hence so is `f`. Therefore `F` is separated. Bu
 
 ### 6.3. Application to the category of schemes
 
-One takes for `C` the category of schemes, for `C ′` the full subcategory formed by affine schemes, for `P` the set of surjective families of open immersions. One will consider several sets `P′`:
+One takes for `C` the category of schemes, for `C ′` the full subcategory formed by affine schemes, for `P` the set of
+surjective families of open immersions. One will consider several sets `P′`:
 
 `P′_1` : finite surjective families, composed of flat morphisms.
 
@@ -3461,7 +3601,10 @@ One takes for `C` the category of schemes, for `C ′` the full subcategory form
 
 `P′_4` : finite surjective families, composed of étale and finite morphisms.
 
-For each of these sets `P′_i`, except `P′_4`, the conditions of Proposition 6.2.1 are verified ((c) thanks to 6.2.5, since an affine scheme being quasi-compact, every family of morphisms of `C ′`, element of `P`, contains a finite subfamily that is also in `P`, hence in `P′_i` for `i = 1, 2, 3`). The topology `T_i` generated by `P` and `P′_i` is denoted and called in the following way:
+For each of these sets `P′_i`, except `P′_4`, the conditions of Proposition 6.2.1 are verified ((c) thanks to 6.2.5,
+since an affine scheme being quasi-compact, every family of morphisms of `C ′`, element of `P`, contains a finite
+subfamily that is also in `P`, hence in `P′_i` for `i = 1, 2, 3`). The topology `T_i` generated by `P` and `P′_i` is
+denoted and called in the following way:
 
 <!-- original page 245 -->
 
@@ -3478,14 +3621,18 @@ As `P′_1 ⊃ P′_2 ⊃ P′_3 ⊃ P′_4`, one has
 (fpqc) ≥ (fppf) ≥ (ét) ≥ (étf) ≥ (Zar).
 ```
 
-**Proposition 6.3.1.** *(i) In order for the sieve `R` of `S` to be covering for `T_i`, `1 ≤ i ≤ 3`, it is necessary and sufficient that there exist a covering `(S_p)` of `S` by affine opens and for each `p` a family `{S_{pq} → S_p}` element of `P′_i`, the `S_{pq}` being affine, such that each morphism `{S_{pq} → S}` factors through `R`.[^N.D.E-IV-58]*
+**Proposition 6.3.1.** *(i) In order for the sieve `R` of `S` to be covering for `T_i`, `1 ≤ i ≤ 3`, it is necessary and
+sufficient that there exist a covering `(S_p)` of `S` by affine opens and for each `p` a family `{S_{pq} → S_p}` element
+of `P′_i`, the `S_{pq}` being affine, such that each morphism `{S_{pq} → S}` factors through `R`.[^N.D.E-IV-58]*
 
 <!-- label: III.IV.6.3.1 -->
 
-*(ii) In order for a presheaf `F` on `(Sch)` to be a sheaf for (fpqc) (resp. (fppf), (ét), (étf)), it is necessary and sufficient that*
+*(ii) In order for a presheaf `F` on `(Sch)` to be a sheaf for (fpqc) (resp. (fppf), (ét), (étf)), it is necessary and
+sufficient that*
 
 - *a) `F` be a sheaf for (Zar), i.e. a functor of local nature.*
-- *b) For every faithfully flat (resp. faithfully flat of finite presentation and quasi-finite, resp. surjective étale, resp. surjective étale finite) morphism `T → S`, where `T` and `S` are affine, one has an exact diagram:*
+- *b) For every faithfully flat (resp. faithfully flat of finite presentation and quasi-finite, resp. surjective étale,
+    resp. surjective étale finite) morphism `T → S`, where `T` and `S` are affine, one has an exact diagram:*
 
 ```text
 F(S) ⟶ F(T) ⇒ F(T ×_S T).
@@ -3495,21 +3642,41 @@ F(S) ⟶ F(T) ⇒ F(T ×_S T).
 
 <!-- original page 246 -->
 
-*(iv) Every surjective family formed of flat and open morphisms (resp. flat and locally of finite presentation, resp. étale, resp. étale and finite) is covering for (fpqc) (resp. (fppf), resp. (ét), resp. (étf)).*
+*(iv) Every surjective family formed of flat and open morphisms (resp. flat and locally of finite presentation, resp.
+étale, resp. étale and finite) is covering for (fpqc) (resp. (fppf), resp. (ét), resp. (étf)).*
 
-*(v) Every finite surjective family formed of flat and quasi-compact morphisms is covering for (fpqc). In particular, every faithfully flat and quasi-compact morphism is covering for (fpqc).*
+*(v) Every finite surjective family formed of flat and quasi-compact morphisms is covering for (fpqc). In particular,
+every faithfully flat and quasi-compact morphism is covering for (fpqc).*
 
-*Proof.* (i) follows from 6.2.1, (ii) from 6.2.3, taking into account the fact that a sheaf for the Zariski topology transforms direct sums into products. Every representable functor being a sheaf for (Zar) and verifying condition (b) of (ii) by SGA 1, VIII 5.3, `T_1` is coarser than the canonical topology, which proves (iii).
+*Proof.* (i) follows from 6.2.1, (ii) from 6.2.3, taking into account the fact that a sheaf for the Zariski topology
+transforms direct sums into products. Every representable functor being a sheaf for (Zar) and verifying condition (b) of
+(ii) by SGA 1, VIII 5.3, `T_1` is coarser than the canonical topology, which proves (iii).
 
-Let us prove (iv). Let `{S_i → S}` be a family of morphisms as in the statement. Considering a covering of `S` by affine opens, one reduces immediately to the case where `S` is affine.[^N.D.E-IV-59]
+Let us prove (iv). Let `{S_i → S}` be a family of morphisms as in the statement. Considering a covering of `S` by affine
+opens, one reduces immediately to the case where `S` is affine.[^N.D.E-IV-59]
 
-Let us first treat the case where the morphisms `S_i → S` are flat and open (resp. étale). Let `S_{ij}` be a covering of `S_i` by affine opens. As the morphisms in question are open, the images `T_{ij}` of the `S_{ij}` form an open covering of `S`. As `S` is affine, hence quasi-compact, it is covered by a finite number of opens `T_{ij}`, for `(i, j)` running through a finite set `F`. Then `S′ = ⨆_F S_{ij}` is affine, and the morphism `S′ → S` belongs to `P′_1`, resp. `P′_3`, hence is covering. As it factors through the given family, the latter is covering.
+Let us first treat the case where the morphisms `S_i → S` are flat and open (resp. étale). Let `S_{ij}` be a covering of
+`S_i` by affine opens. As the morphisms in question are open, the images `T_{ij}` of the `S_{ij}` form an open covering
+of `S`. As `S` is affine, hence quasi-compact, it is covered by a finite number of opens `T_{ij}`, for `(i, j)` running
+through a finite set `F`. Then `S′ = ⨆_F S_{ij}` is affine, and the morphism `S′ → S` belongs to `P′_1`, resp. `P′_3`,
+hence is covering. As it factors through the given family, the latter is covering.
 
-In the case (étf), each `S_i` is finite over `S` hence is affine; in the preceding argument, one can then take the covering `{S_i}` of `S_i`, and one obtains that `S′ → S` belongs to `P′_4`.
+In the case (étf), each `S_i` is finite over `S` hence is affine; in the preceding argument, one can then take the
+covering `{S_i}` of `S_i`, and one obtains that `S′ → S` belongs to `P′_4`.
 
-Let us now consider the case where the morphisms `f_i : S_i → S` are flat and locally of finite presentation. For every `s ∈ S`, there exists, by (the proof of) EGA IV_4, 17.16.2, an affine subscheme `X(s)` of a certain `S_i`, such that `s ∈ f_i(X(s))` and that the morphism `g_i : X(s) → S`, restriction of `f_i`, is flat, of finite presentation, and quasi-finite. Then, `g_i(X(s))` is an open neighborhood `U(s)` of `s` (EGA IV_2, 2.4.6), and, `S` being affine, it is covered by a finite number of such opens `U(s_j)`, `j = 1, ..., n`. Consequently, `X′ = ⨆_j X(s_j)` is affine, and the morphism `X′ → S` is surjective, flat, of finite presentation, and quasi-finite, hence belongs to `P′_2`.[^N.D.E-IV-60] This completes the proof of (iv).
+Let us now consider the case where the morphisms `f_i : S_i → S` are flat and locally of finite presentation. For every
+`s ∈ S`, there exists, by (the proof of) EGA IV_4, 17.16.2, an affine subscheme `X(s)` of a certain `S_i`, such that
+`s ∈ f_i(X(s))` and that the morphism `g_i : X(s) → S`, restriction of `f_i`, is flat, of finite presentation, and
+quasi-finite. Then, `g_i(X(s))` is an open neighborhood `U(s)` of `s` (EGA IV_2, 2.4.6), and, `S` being affine, it is
+covered by a finite number of such opens `U(s_j)`, `j = 1, ..., n`. Consequently, `X′ = ⨆_j X(s_j)` is affine, and the
+morphism `X′ → S` is surjective, flat, of finite presentation, and quasi-finite, hence belongs to `P′_2`.[^N.D.E-IV-60]
+This completes the proof of (iv).
 
-Let us prove (v). Let `{S_i → S}` be a finite faithfully flat and quasi-compact family. Let `T_j` be a covering of `S` by affine opens. The `S_{ij} = T_j ×_S S_i` are quasi-compact and therefore have finite affine open coverings `T_{ijk}`. Each morphism `T_{ijk} → T_j` is flat, and the family `{T_{ijk} → T_j}` is finite and surjective, hence covering for `T_1`. The family `{T_{ijk} → S}` is therefore also, by composition. It factors through the given family which is therefore also:
+Let us prove (v). Let `{S_i → S}` be a finite faithfully flat and quasi-compact family. Let `T_j` be a covering of `S`
+by affine opens. The `S_{ij} = T_j ×_S S_i` are quasi-compact and therefore have finite affine open coverings `T_{ijk}`.
+Each morphism `T_{ijk} → T_j` is flat, and the family `{T_{ijk} → T_j}` is finite and surjective, hence covering for
+`T_1`. The family `{T_{ijk} → S}` is therefore also, by composition. It factors through the given family which is
+therefore also:
 
 <!-- original page 247 -->
 
@@ -3530,11 +3697,15 @@ S ←──── T_j ←─────────
 - *(M_3) : surjective étale morphisms.*
 - *(M_4) : surjective étale finite morphisms.[^N.D.E-IV-61]*
 
-*The family `(M_i)` verifies the axioms (a), (b), (c), (d_{T_i}) and (e_{T_i}) of 4.6.3.*
+*The family `(M_i)` verifies the axioms (a), (b), (c), (d\_{T_i}) and (e\_{T_i}) of 4.6.3.*
 
-Indeed, for (a), (b), (c), it is classical (EGA and SGA 1, passim.).[^N.D.E-IV-62] By 6.3.1, (iv) and (v), `(M_i)` verifies (d_{T_i}). It remains to see that `(M_i)` verifies (e_{T_i}); for this, it suffices to see that `(M_i)` verifies (e_{T_1}), which entails the others. This follows from SGA 1, VIII (nos 4 and 5).
+Indeed, for (a), (b), (c), it is classical (EGA and SGA 1, passim.).[^N.D.E-IV-62] By 6.3.1, (iv) and (v), `(M_i)`
+verifies (d\_{T_i}). It remains to see that `(M_i)` verifies (e\_{T_i}); for this, it suffices to see that `(M_i)`
+verifies (e\_{T_1}), which entails the others. This follows from SGA 1, VIII (nos 4 and 5).
 
-**Corollary 6.3.3.** *If `X` is a scheme and `R` an equivalence relation in `X` of type `(M_i)`, `R` is `(M_i)`-effective if and only if the sheaf-quotient of `X` by `R` for `T_i` is representable and in this case it is represented by the quotient `X/R`.*
+**Corollary 6.3.3.** *If `X` is a scheme and `R` an equivalence relation in `X` of type `(M_i)`, `R` is
+`(M_i)`-effective if and only if the sheaf-quotient of `X` by `R` for `T_i` is representable and in this case it is
+represented by the quotient `X/R`.*
 
 <!-- label: III.IV.6.3.3 -->
 
@@ -3544,9 +3715,10 @@ Indeed, this is 4.6.5.
 
 ### 6.4. Effectivity conditions
 
-We now seek families `(N)` of morphisms verifying axiom (f_T) of 4.7. Let us first remark that (f_{T_1}) entails (f_{T_i}), so that we may restrict ourselves to the case of the topology (fpqc).
+We now seek families `(N)` of morphisms verifying axiom (f_T) of 4.7. Let us first remark that (f\_{T_1}) entails
+(f\_{T_i}), so that we may restrict ourselves to the case of the topology (fpqc).
 
-**Lemma 6.4.1.** *The following families of morphisms verify axiom (f_{T_1}) of 4.7, that is, "descend by (fpqc)":*
+**Lemma 6.4.1.** *The following families of morphisms verify axiom (f\_{T_1}) of 4.7, that is, "descend by (fpqc)":*
 
 <!-- label: III.IV.6.4.1 -->
 
@@ -3554,7 +3726,9 @@ We now seek families `(N)` of morphisms verifying axiom (f_T) of 4.7. Let us fir
 - *(N′) : closed immersions.*
 - *(N″) : quasi-compact immersions.*
 
-By virtue of 6.3.1 (ii), it suffices to verify that the given families descend by the Zariski topology and by a faithfully flat quasi-compact morphism. The first assertion is clear; let us verify the second. For (N), this is SGA 1, VIII 4.4; for (N′), this is loc. cit., 1.9. For (N″) one argues as in loc. cit., 5.5, using the two preceding results.
+By virtue of 6.3.1 (ii), it suffices to verify that the given families descend by the Zariski topology and by a
+faithfully flat quasi-compact morphism. The first assertion is clear; let us verify the second. For (N), this is SGA 1,
+VIII 4.4; for (N′), this is loc. cit., 1.9. For (N″) one argues as in loc. cit., 5.5, using the two preceding results.
 
 <!-- original page 245 -->
 
@@ -3562,9 +3736,13 @@ By virtue of 6.3.1 (ii), it suffices to verify that the given families descend b
 
 <!-- label: III.IV.6.4.2 -->
 
-These results allow one to apply to the present situation the general results of 4.7.1, 4.7.2, 5.1.8, 5.3.1, etc. Let us state one as an example, the first.
+These results allow one to apply to the present situation the general results of 4.7.1, 4.7.2, 5.1.8, 5.3.1, etc. Let us
+state one as an example, the first.
 
-**Corollary 6.4.3.** *(= 4.7.1 + 4.6.10).* *Let `X` be a scheme and `R` an equivalence relation in `X`. Suppose that `R → X` is faithfully flat and quasi-compact and that `R → X × X` is a closed immersion (resp. open, resp. quasi-compact, resp. quasi-compact open). Then the sheaf-quotient `X/R` is the same for the topology (fpqc) and for the canonical topology, and for each scheme `S`, one has*
+**Corollary 6.4.3.** *(= 4.7.1 + 4.6.10).* *Let `X` be a scheme and `R` an equivalence relation in `X`. Suppose that
+`R → X` is faithfully flat and quasi-compact and that `R → X × X` is a closed immersion (resp. open, resp.
+quasi-compact, resp. quasi-compact open). Then the sheaf-quotient `X/R` is the same for the topology (fpqc) and for the
+canonical topology, and for each scheme `S`, one has*
 
 <!-- label: III.IV.6.4.3 -->
 
@@ -3590,7 +3768,10 @@ Let us simply indicate the terminology:
 
 ### 6.6. Other topologies
 
-One sometimes uses other topologies on the category of schemes. Let us indicate one: the *global étale finite* topology (étfg), generated by the pretopology whose covering families are the surjective families formed of étale finite morphisms. It is not finer than the Zariski topology. The corresponding principal homogeneous bundles are called "isotrivial".
+One sometimes uses other topologies on the category of schemes. Let us indicate one: the *global étale finite* topology
+(étfg), generated by the pretopology whose covering families are the surjective families formed of étale finite
+morphisms. It is not finer than the Zariski topology. The corresponding principal homogeneous bundles are called
+"isotrivial".
 
 <!-- original page 246 -->
 
@@ -3620,7 +3801,8 @@ Let `G` be an `S`-group scheme, `X` an `S`-scheme with (left) operator group `G`
 Φ : G ×_S X ⟶ X ×_S X
 ```
 
-the morphism of `S`-schemes defined setwise by `(g, x) ↦ (gx, x)`. Let us recall (cf. 5.1.0 and III.0.1) that one says that `X` is a *formally principal homogeneous space* under `G` if the following equivalent conditions are satisfied:
+the morphism of `S`-schemes defined setwise by `(g, x) ↦ (gx, x)`. Let us recall (cf. 5.1.0 and III.0.1) that one says
+that `X` is a *formally principal homogeneous space* under `G` if the following equivalent conditions are satisfied:
 
 (i) for every `T → S`, the set `X(T)` is empty or principal homogeneous under `G(T)`,
 
@@ -3630,40 +3812,59 @@ the morphism of `S`-schemes defined setwise by `(g, x) ↦ (gx, x)`. Let us reca
 
 (The equivalence (i) ⇔ (ii) is clear, and one has (ii) ⇔ (iii) since `C = (Sch/S)` is a full subcategory of `Ĉ`.)
 
-The definition of formally homogeneous space (not necessarily principal homogeneous) is obtained by requiring that `Φ` be an epimorphism in the category of sheaves for an appropriate topology `T`. Indeed, the condition that `Φ` be an epimorphism of `S`-functors amounts to the requirement that, for every `T → S`, the set `X(T)` be empty or homogeneous (not necessarily principal homogeneous) under `G(T)`, but this condition is too restrictive, as the following simple example shows. Let `S = Spec R`, `G = G_{m,R}` and `X = G_{m,R}` on which `G` acts via `t · x = t² x`. Then the morphism `Φ` is étale, finite, and surjective, hence an epimorphism in the category of sheaves for the topology (étf) (a fortiori, an epimorphism of `S`-schemes); on the other hand, the points `1` and `−1` of `X(R)` are not conjugate by an element of `G(R)`, so that the morphism `G(R) × X(R) → X(R) × X(R)` is not surjective.[^N.D.E-IV-66] One is therefore led to lay down the following definition:
+The definition of formally homogeneous space (not necessarily principal homogeneous) is obtained by requiring that `Φ`
+be an epimorphism in the category of sheaves for an appropriate topology `T`. Indeed, the condition that `Φ` be an
+epimorphism of `S`-functors amounts to the requirement that, for every `T → S`, the set `X(T)` be empty or homogeneous
+(not necessarily principal homogeneous) under `G(T)`, but this condition is too restrictive, as the following simple
+example shows. Let `S = Spec R`, `G = G_{m,R}` and `X = G_{m,R}` on which `G` acts via `t · x = t² x`. Then the morphism
+`Φ` is étale, finite, and surjective, hence an epimorphism in the category of sheaves for the topology (étf) (a
+fortiori, an epimorphism of `S`-schemes); on the other hand, the points `1` and `−1` of `X(R)` are not conjugate by an
+element of `G(R)`, so that the morphism `G(R) × X(R) → X(R) × X(R)` is not surjective.[^N.D.E-IV-66] One is therefore
+led to lay down the following definition:
 
 <!-- original page 247 -->
 
-**Definition 6.7.1.** *Let `G` be an `S`-group, `X` an `S`-scheme with operator group `G`, and `T` a topology on `(Sch/S)`, coarser than the canonical topology. We say that `X` is a* formally homogeneous space under `G` (relative to the topology `T`) *if the following equivalent conditions are satisfied:*
+**Definition 6.7.1.** *Let `G` be an `S`-group, `X` an `S`-scheme with operator group `G`, and `T` a topology on
+`(Sch/S)`, coarser than the canonical topology. We say that `X` is a* formally homogeneous space under `G` (relative to
+the topology `T`) *if the following equivalent conditions are satisfied:*
 
 <!-- label: III.IV.6.7.1 -->
 
 *(i) the morphism `Φ : G ×_S X → X ×_S X` is an epimorphism in the category of sheaves for the topology `T`,*
 
-*(ii) for every `T → S`, and `x, y ∈ X(T)`, there exists a morphism `T′ → T` covering for the topology `T`, and `g ∈ G(T′)`, such that `y_{T′} = g · x_{T′}`.*
+*(ii) for every `T → S`, and `x, y ∈ X(T)`, there exists a morphism `T′ → T` covering for the topology `T`, and
+`g ∈ G(T′)`, such that `y_{T′} = g · x_{T′}`.*
 
-**Remark 6.7.2.** *Condition (i) implies, in particular, that `Φ` is a universal effective epimorphism in `(Sch/S)` (cf. 4.4.3). This entails, as one easily sees, that `Φ` is surjective (cf. 1.3, N.D.E. (3)).*
+**Remark 6.7.2.** *Condition (i) implies, in particular, that `Φ` is a universal effective epimorphism in `(Sch/S)` (cf.
+4.4.3). This entails, as one easily sees, that `Φ` is surjective (cf. 1.3, N.D.E. (3)).*
 
 <!-- label: III.IV.6.7.2 -->
 
-**Proposition and Definition 6.7.3.**[^N.D.E-IV-67] *Let `G` be an `S`-group, `X` an `S`-scheme with operator group `G`, and `T` a topology on `(Sch/S)`, coarser than the canonical topology. The following conditions are equivalent:*
+**Proposition and Definition 6.7.3.**[^N.D.E-IV-67] *Let `G` be an `S`-group, `X` an `S`-scheme with operator group `G`,
+and `T` a topology on `(Sch/S)`, coarser than the canonical topology. The following conditions are equivalent:*
 
 <!-- label: III.IV.6.7.3 -->
 
 *(i) `X` verifies the two hypotheses below:*
 
 - *(1) the morphism `Φ : G ×_S X → X ×_S X` is covering, i.e. `X` is a `G`-formally homogeneous space,*
-- *(2) the morphism `X → S` is also covering, i.e. locally for the topology `T`, it has a section (cf. RefIV.4.4.8bis.bis).*
+- *(2) the morphism `X → S` is also covering, i.e. locally for the topology `T`, it has a section (cf.
+    RefIV.4.4.8bis.bis).*
 
-*(ii) "Locally on `S` for the topology `T`", `X` is isomorphic, as a scheme with operator group `G`, to the sheaf quotient (for `T`) of `G` by a sub-group-scheme `H`, i.e. there exists a covering family `{S_i → S}` such that each `X ×_S S_i` represents the sheaf quotient of `G ×_S S_i` by a certain sub-group-scheme `H_i`.*
+*(ii) "Locally on `S` for the topology `T`", `X` is isomorphic, as a scheme with operator group `G`, to the sheaf
+quotient (for `T`) of `G` by a sub-group-scheme `H`, i.e. there exists a covering family `{S_i → S}` such that each
+`X ×_S S_i` represents the sheaf quotient of `G ×_S S_i` by a certain sub-group-scheme `H_i`.*
 
 *Under these conditions, one says that `X` is a `G`-*homogeneous space* (relative to the topology `T`).*
 
-*Proof.* Suppose (ii) is verified. Set `G_i = G ×_S S_i` and `X_i = X ×_S S_i`. Then, `X_i` has a section over `S_i`, namely the composite of the unit section `ε_i : S_i → G_i` and the projection `π_i : G_i → X_i = G_i/H_i`. Hence `X → S` is covering.
+*Proof.* Suppose (ii) is verified. Set `G_i = G ×_S S_i` and `X_i = X ×_S S_i`. Then, `X_i` has a section over `S_i`,
+namely the composite of the unit section `ε_i : S_i → G_i` and the projection `π_i : G_i → X_i = G_i/H_i`. Hence `X → S`
+is covering.
 
 <!-- original page 248 -->
 
-On the other hand, `π_i` is covering, hence `π_i × π_i` is also (cf. 4.2.3 (C 1) and (C 2)), and one has a commutative diagram:
+On the other hand, `π_i` is covering, hence `π_i × π_i` is also (cf. 4.2.3 (C 1) and (C 2)), and one has a commutative
+diagram:
 
 ```text
                  Φ_i
@@ -3676,9 +3877,13 @@ G_i ×_{S_i} G_i ────→ G_i ×_{S_i} G_i
                   ∼
 ```
 
-where `Φ_i` is deduced from `Φ` by the base change `S_i → S` and `Ψ_i` is the isomorphism defined setwise by `(g, g′) ↦ (gg′, g)`. Then `(π_i × π_i) ∘ Ψ_i` is covering, hence `Φ_i` is also (4.2.3 (C 3)). This shows that `Φ` is "locally covering", hence is covering (4.2.3 (C 5)). This proves that (ii) ⇒ (i).
+where `Φ_i` is deduced from `Φ` by the base change `S_i → S` and `Ψ_i` is the isomorphism defined setwise by
+`(g, g′) ↦ (gg′, g)`. Then `(π_i × π_i) ∘ Ψ_i` is covering, hence `Φ_i` is also (4.2.3 (C 3)). This shows that `Φ` is
+"locally covering", hence is covering (4.2.3 (C 5)). This proves that (ii) ⇒ (i).
 
-Conversely, suppose (i) is verified, and suppose moreover that the structural morphism `X → S` has a section `σ`. By EGA I, 5.3.13, `σ` is an immersion. Let us define `H = G ×_X S` by the diagram below, in which the two squares are cartesian:
+Conversely, suppose (i) is verified, and suppose moreover that the structural morphism `X → S` has a section `σ`. By EGA
+I, 5.3.13, `σ` is an immersion. Let us define `H = G ×_X S` by the diagram below, in which the two squares are
+cartesian:
 
 ```text
 H ──→ G ──id_G ⊠ σ──→ G ×_S X
@@ -3694,13 +3899,15 @@ where `π`, `id_G ⊠ σ` and `id_X ⊠ σ` denote the morphisms defined setwise
 π(g) = g · σ_T,    (id_G ⊠ σ)(g) = (g, σ_T),    (id_X ⊠ σ)(x) = (x, σ_T).
 ```
 
-Then, `π` is covering, and `H` is a sub-group-scheme of `G`, representing the stabilizer `Stab_G(σ)` of `σ` (cf. I, 2.3.3), i.e., for every `T → S`, one has:
+Then, `π` is covering, and `H` is a sub-group-scheme of `G`, representing the stabilizer `Stab_G(σ)` of `σ` (cf. I,
+2.3.3), i.e., for every `T → S`, one has:
 
 ```text
 H(T) = { g ∈ G(T) | g · σ_T = σ_T }.
 ```
 
-Let us denote `G/H` the presheaf `T ↦ G(T)/H(T)`, and `a(G/H)` the associated sheaf, for the topology `T`. By what precedes, one obtains a commutative diagram of morphisms of presheaves with operator group `G`:
+Let us denote `G/H` the presheaf `T ↦ G(T)/H(T)`, and `a(G/H)` the associated sheaf, for the topology `T`. By what
+precedes, one obtains a commutative diagram of morphisms of presheaves with operator group `G`:
 
 ```text
 G ──π──→ X
@@ -3710,9 +3917,15 @@ G ──π──→ X
    G/H
 ```
 
-where `π̄` is a monomorphism. As `π` is covering, `π̄` is also and therefore, by 4.3.12, `π̄` induces an isomorphism `a(G/H) ⥲ X`. One has therefore proved that: if `X` is a `G`-homogeneous space such that `X → S` admits a section `σ`, then `X` represents the sheaf quotient `G/H`, where `H = G ×_X S` is the stabilizer of `σ`.
+where `π̄` is a monomorphism. As `π` is covering, `π̄` is also and therefore, by 4.3.12, `π̄` induces an isomorphism
+`a(G/H) ⥲ X`. One has therefore proved that: if `X` is a `G`-homogeneous space such that `X → S` admits a section `σ`,
+then `X` represents the sheaf quotient `G/H`, where `H = G ×_X S` is the stabilizer of `σ`.
 
-In the general case, there exists by hypothesis a covering family `{S_i → S}` such that each morphism `X_i = X ×_S S_i → S_i` has a section `σ_i`. Set `G_i = G ×_S S_i`; then the morphism `Φ_i : G_i ×_{S_i} X_i → X_i ×_{S_i} X_i` deduced from `Φ` by the base change `S_i → S` is again covering. Hence, by what precedes, `X_i ≅ G_i/H_i`, where `H_i` is the stabilizer in `G_i` of `σ_i`. This completes the proof of the implication (i) ⇒ (ii).
+In the general case, there exists by hypothesis a covering family `{S_i → S}` such that each morphism
+`X_i = X ×_S S_i → S_i` has a section `σ_i`. Set `G_i = G ×_S S_i`; then the morphism
+`Φ_i : G_i ×_{S_i} X_i → X_i ×_{S_i} X_i` deduced from `Φ` by the base change `S_i → S` is again covering. Hence, by
+what precedes, `X_i ≅ G_i/H_i`, where `H_i` is the stabilizer in `G_i` of `σ_i`. This completes the proof of the
+implication (i) ⇒ (ii).
 
 <!-- original page 249 -->
 
@@ -3723,74 +3936,16 @@ In the general case, there exists by hypothesis a covering family `{S_i → S}` 
 - [AS] *Analysis Situs*, by J. Giraud, Sém. Bourbaki, Exp. 256, May 1963.
 - [D] *Méthode de la descente*, by J. Giraud, Mém. Soc. Math. France, t. 2 (1964), p. iii–viii + 1–150.
 - [MA] *Grothendieck Topologies*, by M. Artin, mimeographed notes, Harvard, 1962.
-- [SGA 1] *Séminaire de Géométrie Algébrique du Bois-Marie 1960–61, Revêtements étales et groupe fondamental*, Lecture Notes in Maths. 224 (1971), revised and annotated edition, Documents Math. 3, Soc. Math. France, 2003.
-- [SGA 4] *Séminaire de Géométrie Algébrique du Bois-Marie 1963–1964, Théorie des topos et cohomologie étale des schémas*, t. I, II, III, Lecture Notes in Maths. 269, 270 (1972), 305 (1973).
-- [TDTE I] *Techniques de descente et théorèmes d'existence en géométrie algébrique I. Généralités. Descente par morphismes fidèlement plats*, by A. Grothendieck, Sém. Bourbaki, Exp. 190, Dec. 1959.
-- [Ray70][^N.D.E-IV-68] M. Raynaud, *Faisceaux amples sur les schémas en groupes et les espaces homogènes*, Lect. Notes Math. 119, Springer-Verlag, 1970.
+- [SGA 1] *Séminaire de Géométrie Algébrique du Bois-Marie 1960–61, Revêtements étales et groupe fondamental*, Lecture
+    Notes in Maths. 224 (1971), revised and annotated edition, Documents Math. 3, Soc. Math. France, 2003.
+- [SGA 4] *Séminaire de Géométrie Algébrique du Bois-Marie 1963–1964, Théorie des topos et cohomologie étale des
+    schémas*, t. I, II, III, Lecture Notes in Maths. 269, 270 (1972), 305 (1973).
+- [TDTE I] *Techniques de descente et théorèmes d'existence en géométrie algébrique I. Généralités. Descente par
+    morphismes fidèlement plats*, by A. Grothendieck, Sém. Bourbaki, Exp. 190, Dec. 1959.
+- [Ray70][^N.D.E-IV-68] M. Raynaud, *Faisceaux amples sur les schémas en groupes et les espaces homogènes*, Lect. Notes
+    Math. 119, Springer-Verlag, 1970.
 
 ## Footnotes
-
-[^N.D.E-IV-40]: N.D.E.: and we shall also write `h_S = Ŝ`, cf. the first commutative diagram of 4.5.4.
-
-[^N.D.E-IV-41]: N.D.E.: i.e., such that for every object `T → S` of `C/S`, every covering sieve `R′` of `i_S(T → S) = T`, considered as a sieve of `(T → S) ∈ Ob C/S`, is covering.
-
-[^N.D.E-IV-42]: N.D.E.: We have expanded the original in what follows.
-
-[^N.D.E-IV-43]: N.D.E.: `R × S` denotes the equivalence relation in `X × S` defined by `R × S_{diagonal} ⊂ X × X × S × S`, and `R_Z` is the equivalence relation it induces in `Z` (cf. 3.1.6).
-
-[^N.D.E-IV-44]: N.D.E.: Recall that `T` denotes the given topology on `C`, coarser than the canonical topology.
-
-[^N.D.E-IV-45]: N.D.E.: We have added this corollary.
-
-[^N.D.E-IV-46]: N.D.E.: We have placed the axiom (f_M) here (which figured before Proposition 4.7.2).
-
-[^N.D.E-IV-47]: N.D.E.: cf. § 6.4, see also VI_A, 5.3.1.
-
-[^N.D.E-IV-48]: N.D.E.: We have introduced the numbering 5.1.0, to refer to it later.
-
-[^N.D.E-IV-49]: N.D.E.: One also says "pseudo-torsor", cf. EGA IV_4, 16.5.15. On the other hand, the more general notion of formally homogeneous object (not necessarily principal homogeneous), is defined in the addendum 6.7.1 at the end of this Exposé.
-
-[^N.D.E-IV-50]: N.D.E.: In this case, one also says that `X` is an `H`-torsor.
-
-[^N.D.E-IV-51]: N.D.E.: We have added this particular case as a corollary, which will be used several times in the following Exposés.
-
-[^N.D.E-IV-52]: N.D.E.: We have added "and free".
-
-[^N.D.E-IV-53]: N.D.E.: of `C`.
-
-[^N.D.E-IV-54]: N.D.E.: In fact, the isomorphisms established in 5.2.8 to 5.2.10 would deserve to be called "Noether isomorphism theorems".
-
-[^N.D.E-IV-55]: N.D.E.: This follows from the proposition applied to `K = H`.
-
-[^N.D.E-IV-56]: N.D.E.: We have corrected the original here.
-
-[^N.D.E-IV-57]: N.D.E.: Let `P″_2` denote the set of finite surjective families, composed of flat morphisms of `C ′` of finite presentation. According to Proposition 6.3.1 below, the topology `T_2` generated by `P` and `P′_2` coincides with the topology generated by `P` and `P″_2`. This follows from the results of EGA IV_4, § 17.16 on quasi-sections; see the proof of 6.3.1. Let us cite here the following particular case of EGA IV_4, 17.16.2: let `S` be affine and `f : X → S` a surjective flat morphism locally of finite presentation; then there exists a morphism `S′ → S` faithfully flat, of finite presentation, quasi-finite, with `S′` affine, and an `S`-morphism `S′ → X`.
-
-[^N.D.E-IV-58]: N.D.E.: By hypothesis, each family `{S_{pq} → S} ∈ P′_i` is finite, hence `S′_p = ⨆_q S_{pq}` is affine and the family can therefore be replaced by the morphism `S′_p → S_p`, which still belongs to `P′_i`.
-
-[^N.D.E-IV-59]: N.D.E.: We have simplified what follows, taking advantage of the fact that `S` is henceforth assumed affine.
-
-[^N.D.E-IV-60]: N.D.E.: This shows that, if one denotes `P″_2` the set of finite surjective families of morphisms of `C ′` flat of finite presentation, the topology generated by `P` and `P″_2` equals `T_2`. On the other hand, with the notations at the start of the proof of (iv), if one takes a covering of `S_i` by affine opens, of finite presentation over `S`, one obtains that `S′ → S` belongs to `P″_2`.
-
-[^N.D.E-IV-61]: N.D.E.: We have corrected the original by adding the surjectivity hypothesis for `(M_3)` and `(M_4)`, which is automatically satisfied in the other cases.
-
-[^N.D.E-IV-62]: N.D.E.: cf. EGA I, 6.6.4 for "quasi-compact", EGA II, 6.1.5 for "finite", EGA IV_1, 1.6.2 for "locally of finite presentation", EGA IV_2, 2.2.13 for "faithfully flat", and EGA IV_4, 17.3.3 for "étale".
-
-[^N.D.E-IV-63]: N.D.E.: Recall that a subscheme `Z` of a scheme `T` is said to be *retrocompact* if the immersion `Z ↪ T` is quasi-compact, cf. EGA 0_III, 9.1.1.
-
-[^N.D.E-IV-64]: N.D.E.: Recall (cf. 4.4.2) that the chaotic topology is the coarsest topology, defined by `J(S) = {S}` for every `S ∈ Ob C`.
-
-[^N.D.E-IV-65]: N.D.E.: We have added the numbers that follow.
-
-[^N.D.E-IV-66]: N.D.E.: Evidently, this difficulty arises from the fact that if `C ′` is a full subcategory of `Ĉ` containing `C`, for example, the category `C̃_T` of sheaves on `C` for a topology `T` coarser than the canonical topology, and if `f : X → Y` is a morphism in `C`, then the implications:
-    ```text
-    f epimorphism of Ĉ ⇒ f epimorphism of C ′ ⇒ f epimorphism of C
-    ```
-    are in general strict.
-
-[^N.D.E-IV-67]: N.D.E.: cf. [Ray70], Def. VI.1.1.
-
-[^N.D.E-IV-68]: N.D.E.: We have added this reference.
 
 <!-- LEDGER DELTA — Exposé IV — for consolidation in Phase 3
 | French | English | Note |
@@ -3860,5 +4015,226 @@ In the general case, there exists by hypothesis a covering family `{S_i → S}` 
 | stabilisateur | stabilizer | American spelling. |
 -->
 
+[^IV-0-1]: This text develops the substance of two oral expositions of A. Grothendieck, completing the latter on several
+    important points which had been passed over in silence or scarcely touched on.
 
+[^N.D.E-IV-0]: N.D.E.: Version of 13/10/2024.
 
+[^IV-1-1]: N.D.E.: that is, if `u` is right-cancellable.
+
+[^N.D.E-IV-2]: N.D.E.: This implies, in particular, that `u` be an epimorphism.
+
+[^N.D.E-IV-3]: N.D.E.: For example, if `C = (Sch)` is the category of schemes, one sees easily that every universal
+    epimorphism is surjective. Let `T = ∐_{p prime} Spec(F_p)` and `S = Spec(Z)`; then the morphism
+    `u : T → S` is an epimorphism that is not universal. On the other hand, one sees that `T ×_S T` is
+    identified with `T`, so that the two projections `T ×_S T ⇉ T` coincide; since `id_T` does not descend to
+    a morphism `S → T`, this shows that `u` is not an effective epimorphism.
+
+[^N.D.E-IV-4]: N.D.E.: The numbering 1.4.0 has been added for later references.
+
+[^N.D.E-IV-5]: N.D.E.: The numbering 1.6.0 has been added for later references.
+
+[^N.D.E-IV-6]: N.D.E.: This is the following argument, communicated by M. Demazure. Let `f, g : T′ → T`, and let
+    `φ : T′ → T ×_S T` be the morphism with components `f` and `g`, whence `p₁ ∘ φ = f` and `p₂ ∘ φ = g`.
+    Then `F(φ) : F(T ×_S T) → F(T′)` satisfies `F(φ) ∘ F(p₁) = F(f)` and `F(φ) ∘ F(p₂) = F(g)`. Now, for
+    every `x ∈ Ȟ⁰(T/S, F)`, one has `F(p₁)(x) = F(p₂)(x)`. Hence, applying `F(φ)` to both sides, one obtains
+    `F(f)(x) = F(g)(x)`, which shows that `f` and `g` induce the same morphism.
+
+[^N.D.E-IV-7]: N.D.E.: One will note that a monomorphism which is an epimorphism is not necessarily an isomorphism. For
+    example, in `C = (Sch)`, the morphism `Spec(F_p) ∐ Spec(Z[1/p]) → Spec(Z)` is a monomorphism and a
+    surjective epimorphism, but is not an isomorphism.
+
+[^N.D.E-IV-8]: N.D.E.: for example, one has identified, on the one hand, `pr*₂,₁(X″₁) = pr*₃,₁(X″₁)` and, on the other
+    hand, `pr*₂,₁(X″₂) = pr*₃,₂(X″₂)`.
+
+[^N.D.E-IV-9]: N.D.E.: applied to `f : S′ ×_T S′ → S ×_T S = Y`.
+
+[^N.D.E-IV-10]: N.D.E.: The condition is evidently necessary. Conversely, if for every `S ∈ Ob C`, `R(S)` is the graph
+    of an equivalence relation, then this equivalence relation extends to `R(F)` for every `F ∈ Ob Ĉ`, by
+    declaring that two morphisms `φ, ψ : F → R` are equivalent if, for every `S ∈ Ob C` and `x ∈ F(S)`,
+    `φ(x)` and `ψ(x)` are equivalent in `X(S)`.
+
+[^N.D.E-IV-11]: N.D.E.: Let us illustrate this by giving an outline of the sequel of this Exposé. Let `G` be a
+    `C`-group, `H` a sub-`C`-group, `R` the equivalence relation in `G` defined by `G × H → G × G`,
+    `(g, h) ⟼ (g, gh)` (cf. 3.2). The functor `Q` defined by `Q(S) = G(S)/H(S)` is a quotient in `Ĉ`
+    (according to 4.4.9 applied to the least fine topology, cf. 4.4.2), but it is not in general the
+    quotient that one wishes. For example, for `C = (Sch)`, one has an exact sequence of (affine) group
+    schemes:
+
+    ```text
+    1 ⟶ μ₂ ⟶ G_m —p→ G_m ⟶ 1
+    ```
+
+    which identifies `G_m` with the quotient `G_m/μ₂`. Moreover, since `p` is a finite and locally free morphism, then
+    `G_m` is the sheaf-quotient of `G_m` by `μ₂` in the larger category of sheaves for the (fppf) topology, cf. 4.6.6
+    (ii) and 6.3.2. By contrast, the quotient `Q` in `Ĉ` is not isomorphic to `G_m` since, for example, `Q(Z) = {1}`
+    while `G_m(Z) = {±1}`. Hence `Q` is not an (fppf) sheaf, and *a fortiori* `Q` is not representable.
+
+[^N.D.E-IV-12]: N.D.E.: Note that, even for a `Ĉ`-equivalence relation in `X`, one is interested in the existence of a
+    quotient in `C`.
+
+[^N.D.E-IV-13]: N.D.E.: "in `C`" has been added.
+
+[^N.D.E-IV-14]: N.D.E.: The numbering 3.3.2.1 (resp. 3.3.3.1) has been added for later references. On the other hand,
+    Remark 3.3.3.2 has been added.
+
+[^N.D.E-IV-15]: N.D.E.: The numbering 3.4.3.1 has been added for later references, and the proof of point (i) has been
+    detailed.
+
+[^N.D.E-IV-16]: N.D.E.: This paragraph has been added.
+
+[^N.D.E-IV-17]: N.D.E.: Here, "dominator" is taken in the sense of the preorder relation mentioned above, i.e., `Y`
+    dominates `X` if there exists an arrow `Y → X`. On the other hand, if `X, Y` are two subobjects of an
+    object `Z`, one says (cf. 2.4) that `Y` contains `X` if `X ⊂ Y`. To avoid any ambiguity between these
+    two terminologies, "majorant" has been replaced in the sequel by "dominating" in the first case, and by
+    "containing", in the second.
+
+[^N.D.E-IV-18]: N.D.E.: The sentence that follows has been detailed.
+
+[^N.D.E-IV-19]: N.D.E.: The numbering 4.1.4.0 has been added in order to highlight this definition.
+
+[^N.D.E-IV-20]: N.D.E.: that is: if `C` is covering "locally with respect to the covering sieve `R`", then `C` is
+    covering.
+
+[^N.D.E-IV-21]: N.D.E.: (T′ 1) and (T′ 2) suffice: `G ∩ H = G ×_F H` belongs to `J(H)`, by (T′ 1), hence to `J(F)`, by
+    (T′ 2).
+
+[^N.D.E-IV-22]: N.D.E.: This definition has been placed here (placed in the original after 4.2.5), since it will be used
+    in 6.2.1 in a slightly more general setting than that of 4.2.5.
+
+[^N.D.E-IV-23]: N.D.E.: in what follows, typographical errors of the original have been corrected.
+
+[^N.D.E-IV-24]: N.D.E.: One will note that if `Q` is a subpresheaf of a separated presheaf `P`, then `Q` is separated.
+    Indeed, for every sieve `R` of `S`, the composite map `Q(S) ↪ P(S) ↪ P(R)` is injective and factors
+    through `Q(S) → Q(R)`.
+
+[^N.D.E-IV-25]: N.D.E.: This corollary has been added.
+
+[^N.D.E-IV-26]: N.D.E.: The numbering 4.3.10.0 has been added for later references. On the other hand, it follows from
+    the definition that if `Q → P` is a monomorphism, the same holds for `LP → LQ`; hence `L` "preserves
+    monomorphisms" (see also 4.3.16 for a more general result: `L` "commutes with finite inverse limits").
+
+[^N.D.E-IV-27]: N.D.E.: Denote by `p` the projection `R′ → R`. Since `i_R` is a monomorphism, one has `p = g i_{R′}`.
+    Let `g′` be the section of `i_{R′}` defined by `g`; then `p g′ = g` and therefore
+    `p g′ i_{R′} = g i_{R′} = p`; this entails `g′ i_{R′} = id_{R′}` and therefore `i_{R′} : R′ → T` is an
+    isomorphism, with inverse `g′`.
+
+[^N.D.E-IV-28]: N.D.E.: The statement of the corollary and its proof have been detailed.
+
+[^N.D.E-IV-29]: N.D.E.: In particular, if `K` is the kernel of a pair of morphisms of presheaves `u, v : Q ⇉ P`, then
+    `LK` is the kernel of `Lu, Lv : LQ ⇉ LP` (this will be used in 4.4.5).
+
+[^N.D.E-IV-30]: N.D.E.: The original has been modified here.
+
+[^N.D.E-IV-31]: N.D.E.: The continuation of the proof has been slightly modified.
+
+[^N.D.E-IV-32]: N.D.E.: Point (i) of Lemma 4.4.5 has been corrected, and the proof of the three points detailed.
+
+[^N.D.E-IV-33]: N.D.E.: In general, the direct sum of two sheaves `F, G` is not a sheaf. Indeed, let `S₁, S₂ ∈ Ob C`;
+    suppose that the direct sum `S = S₁ ∐ S₂` exists in `C` and that the fiber product `S₁ ×_S S₂` is an
+    initial object `∅` of `C` (cf. I, 1.8). Let `R` be the sieve of `S` with base `{S₁, S₂}`; then
+    `(F ∐ G)(R)` is the disjoint union of `F(S) ∐ G(S)` and of `F(Sᵢ) × G(Sⱼ)` for `i ≠ j`, hence `F ∐ G` is
+    not a sheaf in general. On the other hand, if `C` is the category with a single object `S` and `id_S` as
+    sole morphism, equipped with the topology defined by `J(S) = {R_∅, S}`, then the only separated
+    presheaves are `R_∅` and `X = h_S` (which is a sheaf), and `X ∐ X` is not separated.
+
+[^N.D.E-IV-34]: N.D.E.: The statement of the lemma and its proof have been detailed.
+
+[^N.D.E-IV-35]: N.D.E.: Recall (cf. N.D.E. (17)) that one says that a morphism `g : G → H` is *dominated* by a family of
+    morphisms `Fᵢ → H` if this family factors through `g`.
+
+[^N.D.E-IV-36]: N.D.E.: In order to be in accord with later references, the numbering of the original, which contained
+    two nos. 4.4.7, has been corrected.
+
+[^N.D.E-IV-37]: N.D.E.: "contains" has been replaced by: "is dominated by", cf. N.D.E. (17).
+
+[^N.D.E-IV-38]: N.D.E.: Lemmas 4.4.8.1 and 4.4.8.2 have been added.
+
+[^N.D.E-IV-39]: N.D.E.: and one has `(Y′ ×_{X′} X)/R = Y′`.
+
+[^N.D.E-IV-40]: N.D.E.: and we shall also write `h_S = Ŝ`, cf. the first commutative diagram of 4.5.4.
+
+[^N.D.E-IV-41]: N.D.E.: i.e., such that for every object `T → S` of `C/S`, every covering sieve `R′` of
+    `i_S(T → S) = T`, considered as a sieve of `(T → S) ∈ Ob C/S`, is covering.
+
+[^N.D.E-IV-42]: N.D.E.: We have expanded the original in what follows.
+
+[^N.D.E-IV-44]: N.D.E.: Recall that `T` denotes the given topology on `C`, coarser than the canonical topology.
+
+[^N.D.E-IV-45]: N.D.E.: We have added this corollary.
+
+[^N.D.E-IV-46]: N.D.E.: We have placed the axiom (f_M) here (which figured before Proposition 4.7.2).
+
+[^N.D.E-IV-47]: N.D.E.: cf. § 6.4, see also VI_A, 5.3.1.
+
+[^N.D.E-IV-48]: N.D.E.: We have introduced the numbering 5.1.0, to refer to it later.
+
+[^N.D.E-IV-49]: N.D.E.: One also says "pseudo-torsor", cf. EGA IV_4, 16.5.15. On the other hand, the more general notion
+    of formally homogeneous object (not necessarily principal homogeneous), is defined in the addendum 6.7.1
+    at the end of this Exposé.
+
+[^N.D.E-IV-50]: N.D.E.: In this case, one also says that `X` is an `H`-torsor.
+
+[^N.D.E-IV-51]: N.D.E.: We have added this particular case as a corollary, which will be used several times in the
+    following Exposés.
+
+[^N.D.E-IV-52]: N.D.E.: We have added "and free".
+
+[^N.D.E-IV-53]: N.D.E.: of `C`.
+
+[^N.D.E-IV-54]: N.D.E.: In fact, the isomorphisms established in 5.2.8 to 5.2.10 would deserve to be called "Noether
+    isomorphism theorems".
+
+[^N.D.E-IV-55]: N.D.E.: This follows from the proposition applied to `K = H`.
+
+[^N.D.E-IV-56]: N.D.E.: We have corrected the original here.
+
+[^N.D.E-IV-57]: N.D.E.: Let `P″_2` denote the set of finite surjective families, composed of flat morphisms of `C ′` of
+    finite presentation. According to Proposition 6.3.1 below, the topology `T_2` generated by `P` and
+    `P′_2` coincides with the topology generated by `P` and `P″_2`. This follows from the results of EGA
+    IV_4, § 17.16 on quasi-sections; see the proof of 6.3.1. Let us cite here the following particular case
+    of EGA IV_4, 17.16.2: let `S` be affine and `f : X → S` a surjective flat morphism locally of finite
+    presentation; then there exists a morphism `S′ → S` faithfully flat, of finite presentation,
+    quasi-finite, with `S′` affine, and an `S`-morphism `S′ → X`.
+
+[^N.D.E-IV-58]: N.D.E.: By hypothesis, each family `{S_{pq} → S} ∈ P′_i` is finite, hence `S′_p = ⨆_q S_{pq}` is affine
+    and the family can therefore be replaced by the morphism `S′_p → S_p`, which still belongs to `P′_i`.
+
+[^N.D.E-IV-59]: N.D.E.: We have simplified what follows, taking advantage of the fact that `S` is henceforth assumed
+    affine.
+
+[^N.D.E-IV-60]: N.D.E.: This shows that, if one denotes `P″_2` the set of finite surjective families of morphisms of
+    `C ′` flat of finite presentation, the topology generated by `P` and `P″_2` equals `T_2`. On the other
+    hand, with the notations at the start of the proof of (iv), if one takes a covering of `S_i` by affine
+    opens, of finite presentation over `S`, one obtains that `S′ → S` belongs to `P″_2`.
+
+[^N.D.E-IV-61]: N.D.E.: We have corrected the original by adding the surjectivity hypothesis for `(M_3)` and `(M_4)`,
+    which is automatically satisfied in the other cases.
+
+[^N.D.E-IV-62]: N.D.E.: cf. EGA I, 6.6.4 for "quasi-compact", EGA II, 6.1.5 for "finite", EGA IV_1, 1.6.2 for "locally
+    of finite presentation", EGA IV_2, 2.2.13 for "faithfully flat", and EGA IV_4, 17.3.3 for "étale".
+
+[^N.D.E-IV-65]: N.D.E.: We have added the numbers that follow.
+
+[^N.D.E-IV-66]: N.D.E.: Evidently, this difficulty arises from the fact that if `C ′` is a full subcategory of `Ĉ`
+    containing `C`, for example, the category `C̃_T` of sheaves on `C` for a topology `T` coarser than the
+    canonical topology, and if `f : X → Y` is a morphism in `C`, then the implications:
+
+    ```text
+    f epimorphism of Ĉ ⇒ f epimorphism of C ′ ⇒ f epimorphism of C
+    ```
+
+    are in general strict.
+
+[^N.D.E-IV-67]: N.D.E.: cf. [Ray70], Def. VI.1.1.
+
+[^N.D.E-IV-68]: N.D.E.: We have added this reference.
+
+[^N.D.E-IV-43]: N.D.E.: `R × S` denotes the equivalence relation in `X × S` defined by
+    `R × S_{diagonal} ⊂ X × X × S × S`, and `R_Z` is the equivalence relation it induces in `Z` (cf. 3.1.6).
+
+[^N.D.E-IV-63]: N.D.E.: Recall that a subscheme `Z` of a scheme `T` is said to be *retrocompact* if the immersion
+    `Z ↪ T` is quasi-compact, cf. EGA 0_III, 9.1.1.
+
+[^N.D.E-IV-64]: N.D.E.: Recall (cf. 4.4.2) that the chaotic topology is the coarsest topology, defined by `J(S) = {S}`
+    for every `S ∈ Ob C`.

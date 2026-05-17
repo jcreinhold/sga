@@ -41,4 +41,3 @@ The two versions are produced from a single source file, located on the arXiv.or
 The differences between the two versions are documented in the source file.
 
 The old page numbering is incorporated in the margin; the number n indicates the beginning of page n.
-

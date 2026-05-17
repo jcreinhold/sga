@@ -17,9 +17,9 @@ form `∏_{X/S} Y/X` (where `Y` is a subobject of `X`), studied in Exp. VIII 6 i
 shall give variants in N° 6 of the present Exposé; these results give us the representability of various centralizers,
 normalizers, transporters.
 
-Less elementary representability criteria, using results that will appear in EGA VI, are indicated in 6.12 and in
-Exp. XV, XVI, where we shall give a criterion of representability of quotients `G/H` in cases not covered by the
-preceding Exposés (a criterion that was not developed in the oral Exposés).
+Less elementary representability criteria, using results that will appear in EGA VI, are indicated in 6.12 and in Exp.
+XV, XVI, where we shall give a criterion of representability of quotients `G/H` in cases not covered by the preceding
+Exposés (a criterion that was not developed in the oral Exposés).
 
 Our principal object in the present Exposé is the proof of theorems 4.1 and 4.2, which furnish a typical example of a
 non-projective construction technique (close to the one that will be developed in EGA VI). It has indeed appeared, since
@@ -29,8 +29,6 @@ the theory developed in the following Exposé, do without 4.1 and 4.2. It might 
 analogue of these results for a general reductive (for instance semisimple) group prescheme instead of a group of
 multiplicative type, in which case 4.1 and 4.2 will doubtless be the key result for the proof.
 
-[^XI-0-0]: version xy of 5/12/08
-
 ## 1. Reminders on smooth, étale, and unramified morphisms
 
 The reader is referred to EGA IV §§ 17 & 18, and pending its publication, to SGA 1, I, II, III (where it is however
@@ -38,8 +36,8 @@ appropriate to replace certain noetherian hypotheses, troublesome in application
 presentation).
 
 **Definition 1.1.** *Let `S` be a prescheme, `F` a functor `(Sch)°/S → (Ens)`. One says that `F` is* formally smooth
-*(resp.* formally unramified [^XI-1-1]*, resp.* formally étale*) if for every `S`-prescheme `S′`, affine (in the absolute
-sense), and every subscheme `S″` of `S′` defined by a nilpotent ideal `J`, the map*
+*(resp.* formally unramified [^XI-1-1]*, resp.* formally étale\*) if for every `S`-prescheme `S′`, affine (in the
+absolute sense), and every subscheme `S″` of `S′` defined by a nilpotent ideal `J`, the map\*
 
 ```text
 F(S′) ⟶ F(S″)
@@ -68,8 +66,8 @@ loc. cit.).
 *(i) For `X` to be smooth over `S`, it is necessary and sufficient that `X` be flat over `S`, and that its geometric
 fibers `X ⊗_S Spec(κ(s))` be regular schemes. More generally, for `X` to be smooth over `S` in a neighborhood of the
 point `x ∈ X` (one then says that `X` is* smooth over `S` at `x`*), it is necessary and sufficient that `X` be flat over
-`S` at `x` and `X_s` be smooth over `κ(s)` at `x`, i.e. `X_s ⊗_{κ(s)} κ̄(s)` be regular at the points (or simply, a point)
-above `x`.*
+`S` at `x` and `X_s` be smooth over `κ(s)` at `x`, i.e. `X_s ⊗_{κ(s)} κ̄(s)` be regular at the points (or simply, a
+point) above `x`.*
 
 *(ii) Suppose `S`, and hence `X`, locally noetherian; let `x ∈ X` and let `s ∈ S` be its image in `S`. Then the smooth
 nature of `X` over `S` at `x` is detected on the local homomorphism `A = O_{S,s} → B = O_{X,x}` of noetherian local
@@ -78,8 +76,6 @@ is flat over `A`, and `B ⊗_A k` is geometrically regular over `k` (the residue
 extension `k′` of `k`, `(B ⊗_A k) ⊗_k k′ = B ⊗_A k′` is a regular semi-local ring. When the residual extension
 `k(B)/k(A)` is trivial, these conditions are equivalent also to the following: `B̂` is isomorphic as `Â`-algebra to an
 algebra of formal power series `Â[[t_1, …, t_n]]`.*
-
-[^XI-1-1]: One will now rather say "net" instead of "unramified".
 
 Thus, from the "formal" point of view, the structure of `X` over `S` is that of the typical affine space
 `S[t_1, …, t_n]` over `S`.
@@ -90,16 +86,16 @@ Thus, from the "formal" point of view, the structure of `X` over `S` is that of 
 
 *(i) The following conditions are equivalent:*
 
-   *a) `X` is unramified over `S`.*
+*a) `X` is unramified over `S`.*
 
-   *b) The diagonal morphism `X → X ×_S X` is an open immersion.*
+*b) The diagonal morphism `X → X ×_S X` is an open immersion.*
 
-   *c) `Ω¹_{X/S} = 0`.*
+*c) `Ω¹_{X/S} = 0`.*
 
-   *d) The geometric fibers of `X/S` are discrete and reduced, i.e. isomorphic to sums of copies of the base field.*
+*d) The geometric fibers of `X/S` are discrete and reduced, i.e. isomorphic to sums of copies of the base field.*
 
-   *e) For every `s ∈ S`, the fiber `X ⊗_S Spec κ(s) = X_s` is unramified over `κ(s)`, or equivalently is isomorphic to
-   a sum of spectra of finite separable extensions of `κ(s)`.*
+*e) For every `s ∈ S`, the fiber `X ⊗_S Spec κ(s) = X_s` is unramified over `κ(s)`, or equivalently is isomorphic to a
+sum of spectra of finite separable extensions of `κ(s)`.*
 
 *(ii) One has analogous conditions of pointwise nature for `X` to be unramified over `S` at a given point `x` (i.e. in a
 neighborhood of the said point); for example, it is necessary and sufficient that `O_{X_s, x}` be a finite separable
@@ -117,7 +113,8 @@ applying criteria 1.2 and 1.3. One finds in particular:*
 
 <!-- label: III.XI.1.4 -->
 
-*(i) For `X` to be étale over `S`, it is necessary and sufficient that it be flat over `S` and unramified over `S`.
+\*(i) For `X` to be étale over `S`, it is necessary and sufficient that it be flat over `S` and unramified over `S`.
+
 <!-- original page 131 --> Analogous local criterion for `X` to be étale over `S` at a given point `x`.*
 
 *(ii) Suppose moreover `S`, and hence `X`, locally noetherian. Then the fact that `X` is étale over `S` at a point `x`
@@ -125,18 +122,18 @@ is detected on the local homomorphism `A = O_{S,s} → B = O_{X,x}` (and even on
 following characteristic property: `B` is flat over `A`, and `B ⊗_A k` is a finite separable extension of `k` (residue
 field [^N.D.E-XI-1] of `A`). When `k(A) ⥲ k(B)`, this condition means simply that `Â → B̂` is an isomorphism.*
 
-Thus, from the "formal" point of view, to say that `X` is étale over `S` means simply that `X` is locally isomorphic
-to `S`.
+Thus, from the "formal" point of view, to say that `X` is étale over `S` means simply that `X` is locally isomorphic to
+`S`.
 
 **Remark 1.5.** When `X` is locally of finite presentation over `S` and one is given a point `x ∈ X`, then the fact that
-`X` is smooth (resp. unramified, resp. étale) over `S` at `x`, i.e. in a neighborhood of `x`, is detected on the
-functor `X : (Sch)°/S → (Ens)` by the following property: for every `S′` over `S`, `S′` the spectrum of a local ring,
-every subscheme `S″` of `S′` defined by a nilpotent ideal, and every `S`-morphism `u″ : S″ → X` sending the closed point
-`s″` of `S″` to `x`, there exists at least one (resp. at most one, resp. exactly one) `S`-morphism `u : S′ → X` which
-extends it. This statement shows in particular that in definition 1.1 one may restrict to `S′` which are local schemes
-(provided that the functor in question is representable by a prescheme locally of finite presentation over `S`). On the
-other hand, when `S` is locally noetherian, one may even, in the preceding pointwise criterion, restrict to `S′` which
-are local artinian schemes, and one may thus impose the same restriction on `S′` in definition 1.1 (provided that `S` is
+`X` is smooth (resp. unramified, resp. étale) over `S` at `x`, i.e. in a neighborhood of `x`, is detected on the functor
+`X : (Sch)°/S → (Ens)` by the following property: for every `S′` over `S`, `S′` the spectrum of a local ring, every
+subscheme `S″` of `S′` defined by a nilpotent ideal, and every `S`-morphism `u″ : S″ → X` sending the closed point `s″`
+of `S″` to `x`, there exists at least one (resp. at most one, resp. exactly one) `S`-morphism `u : S′ → X` which extends
+it. This statement shows in particular that in definition 1.1 one may restrict to `S′` which are local schemes (provided
+that the functor in question is representable by a prescheme locally of finite presentation over `S`). On the other
+hand, when `S` is locally noetherian, one may even, in the preceding pointwise criterion, restrict to `S′` which are
+local artinian schemes, and one may thus impose the same restriction on `S′` in definition 1.1 (provided that `S` is
 locally noetherian and the functor in question is represented by a prescheme locally of finite type over `S`).
 
 <!-- label: III.XI.1.5 -->
@@ -228,8 +225,8 @@ one will say that `F → G` is *infinitesimally smooth* (resp. *infinitesimally 
 étale*) *at* `x`, and one says that `F → G` is infinitesimally smooth (resp. …) if it is so at every point `x`, in other
 terms if the condition envisaged in 1.6 is satisfied whenever `S′` is local <!-- original page 90 --> artinian. This
 variant of the preceding notions is technically useful, since it is often easier to verify, being a weaker notion, while
-being frequently sufficient (for example if `F → G` is a morphism locally of finite presentation, with `G`
-representable by a prescheme locally noetherian…) to entail the strong condition.
+being frequently sufficient (for example if `F → G` is a morphism locally of finite presentation, with `G` representable
+by a prescheme locally noetherian…) to entail the strong condition.
 
 <!-- label: III.XI.1.8 -->
 
@@ -255,8 +252,8 @@ F(D(k)) ⟶ F(k)
 ```
 
 deduced from the augmentation `D(k) → k`, and let finally `F(D(k), ξ)` be the inverse image of `ξ ∈ F(k)` under this
-map. Then this set is naturally endowed with a structure of vector space over `k` (in fact, it is the vector space
-dual of `Ω¹_{X/S} ⊗_{O_{X,x}} k`), whose dimension is the relative dimension of `X` over `S` at `x`.
+map. Then this set is naturally endowed with a structure of vector space over `k` (in fact, it is the vector space dual
+of `Ω¹_{X/S} ⊗_{O_{X,x}} k`), whose dimension is the relative dimension of `X` over `S` at `x`.
 
 To make explicit the vector law on `F(D(k), ξ)`, it is convenient to introduce more generally, as in Exp. II, for every
 vector space `V` over `k`, the algebra `D_k(V) = k + V` (with `V` an ideal of square zero), and to consider
@@ -285,8 +282,8 @@ at `x` a regular system of parameters of the local ring of the fiber `X_s` at `x
 `g_i` is then étale over `S` at `x`, and provided one shrinks `S′`, it will then be étale over `S`.
 
 We shall use 1.10 when `κ(x) = κ(s)`, i.e. `x` is rational over `κ(s)`, i.e. `x` can be considered as a section of `X_s`
-over `Spec(κ(s))`. Then 1.10 is in the nature of a theorem of extension of sections (after étale extension of the
-base). It takes a particularly simple form in the following special case:
+over `Spec(κ(s))`. Then 1.10 is in the nature of a theorem of extension of sections (after étale extension of the base).
+It takes a particularly simple form in the following special case:
 
 **Corollary 1.11.** *Under the conditions of 1.10, suppose that `S` is the spectrum of a henselian local ring, and that
 `κ(x) = κ(s)`. Then there exists a section of `X` over `S` passing through `x` (uniquely determined if `X` is in fact
@@ -346,6 +343,7 @@ w′ : (H_2)_{S′} ⟶ G_{S′}
 ```
 
 <!-- original page 138 --> a homomorphism of `S′`-groups such that `w′ u_{S′} = v_{S′}`; there then exists a
+
 homomorphism of `S`-groups
 
 ```text
@@ -462,6 +460,7 @@ formally smooth over `S`.*
 <!-- label: III.XI.2.5 -->
 
 The proof is analogous to that of 2.2, invoking IX 3.6 and X 2.1 (the latter in the case `K` of multiplicative type).
+
 <!-- original page 141 -->
 
 ## 3. Auxiliary representability results
@@ -472,10 +471,9 @@ The proof is analogous to that of 2.2, invoking IX 3.6 and X 2.1 (the latter in 
 
 *(i) `F` is representable, and `F → S` is an open immersion (one also says simply that `F → S` is an open immersion).*
 
-*(ii) `F` is a sheaf for the faithfully flat quasi-compact topology, "commutes with inductive limits of rings",
-`F → S` is a monomorphism, and finally the following condition is satisfied: for every local prescheme `S′` over `S`,
-of residue field `k`, and every `S`-morphism `Spec(k) = S″ → F`, there exists an `S`-morphism `S′ → S` which extends
-it.*
+*(ii) `F` is a sheaf for the faithfully flat quasi-compact topology, "commutes with inductive limits of rings", `F → S`
+is a monomorphism, and finally the following condition is satisfied: for every local prescheme `S′` over `S`, of residue
+field `k`, and every `S`-morphism `Spec(k) = S″ → F`, there exists an `S`-morphism `S′ → S` which extends it.*
 
 *(iii) (When `S` is locally noetherian.) `F` is a sheaf for the faithfully flat quasi-compact topology, "commutes with
 inductive limits of rings", "commutes with adic projective limits of local artinian rings", `F → S` is a monomorphism,
@@ -497,12 +495,12 @@ limits of rings*" if for every filtered projective system `(S′_i)_{i ∈ I}` o
 
 is bijective. One will note that `S′` is none other than the projective limit of `(S′_i)` in the category of preschemes
 (and even of all ringed spaces), so that the condition envisaged is in the nature of a right-exactness condition
-(commutation with certain inductive limits in `(Sch)°/S`), just as the condition of being a sheaf for some topology.
-One will pay attention to the fact that the condition envisaged is essentially relative, i.e. involves the morphism
-`F → S` and not only the functor `F : (Sch)° → (Ens)`; more precisely, in `(*)`, `F(S′_i)` and `F(S′)` denote
-`Hom_S(S′_i, F)`, `Hom_S(S′, F)`. Thus, when `F` is representable, the condition envisaged means that `F` is locally
-of finite presentation over `S`. (And we have used several times, in the last two Exposés, the fact that a functor
-represented by an `S`-prescheme locally of finite presentation commutes with inductive limits of rings.)
+(commutation with certain inductive limits in `(Sch)°/S`), just as the condition of being a sheaf for some topology. One
+will pay attention to the fact that the condition envisaged is essentially relative, i.e. involves the morphism `F → S`
+and not only the functor `F : (Sch)° → (Ens)`; more precisely, in `(*)`, `F(S′_i)` and `F(S′)` denote `Hom_S(S′_i, F)`,
+`Hom_S(S′, F)`. Thus, when `F` is representable, the condition envisaged means that `F` is locally of finite
+presentation over `S`. (And we have used several times, in the last two Exposés, the fact that a functor represented by
+an `S`-prescheme locally of finite presentation commutes with inductive limits of rings.)
 
 **Remark 3.3.** One says that a functor [^N.D.E-XI-2] `F` over `S` *commutes with adic projective limits of local
 artinian rings* if for every `S′` over `S` which is the spectrum of a complete noetherian local ring `A′`, setting
@@ -522,11 +520,11 @@ rings, it is intrinsic to `F` as an element of `Ob(Ŝch)`, i.e. it does not invo
 "of local nature". (It suffices for this that `F` be a sheaf for a finer topology, such as the faithfully flat
 quasi-compact topology.) Let `(S_i)` be a covering of `S` by opens; then one easily verifies (by a method of gluing
 pieces) that `F` is representable if and only if the `F_i = F ×_S S_i` are, <!-- original page 143 --> which allows for
-example reduction to the case where `S` is affine. Suppose that the functor `F` of local nature commutes with
-inductive limits of rings. Then, for `F` to be representable, it is necessary and sufficient that its restriction to
-the category of preschemes locally of finite presentation over `S` be representable. The "necessary" was pointed out in
-3.2; the "sufficient" amounts to this: if `X` is a prescheme locally of finite presentation over `S` and `X → F` a
-morphism such that, for every `S′` locally of finite presentation over `S`, the induced morphism
+example reduction to the case where `S` is affine. Suppose that the functor `F` of local nature commutes with inductive
+limits of rings. Then, for `F` to be representable, it is necessary and sufficient that its restriction to the category
+of preschemes locally of finite presentation over `S` be representable. The "necessary" was pointed out in 3.2; the
+"sufficient" amounts to this: if `X` is a prescheme locally of finite presentation over `S` and `X → F` a morphism such
+that, for every `S′` locally of finite presentation over `S`, the induced morphism
 
 ```text
 Hom_S(S′, X) ⟶ Hom_S(S′, F)
@@ -534,8 +532,8 @@ Hom_S(S′, X) ⟶ Hom_S(S′, F)
 
 <!-- label: III.XI.3.4 -->
 
-is bijective, then `X → F` is an isomorphism. Now this results easily from the fact that `X` and `F` are two functors
-of local nature which commute with inductive limits of rings.
+is bijective, then `X → F` is an isomorphism. Now this results easily from the fact that `X` and `F` are two functors of
+local nature which commute with inductive limits of rings.
 
 Let us now prove 3.1. The implications (i) ⇒ (ii) and (i) ⇒ (iii) are evident; let us prove the inverse implications.
 
@@ -561,13 +559,13 @@ S″ = S′ ×_{S_0} S′ ⇉ S′ → F
 
 are the same, which follows from the fact that `F → S` is a monomorphism.
 
-One has (iii) ⇒ (ii) (when `S` is locally noetherian). It suffices to prove the last condition of (ii), and moreover
-(by virtue of the preceding proof) it suffices to do so when `S′` is of the form `Spec(O_{S,s})`, with `s ∈ S`. Let
-`A = O_{S,s}`, `A_n = A/m^{n+1}`, `S_n = Spec(A_n)`. Then it follows from the hypothesis that `F → S` is
-infinitesimally smooth, that the given morphism `S_0 → F` extends to morphisms `S_n → F`. As `F → S` is a monomorphism,
-one thus obtains an element of `lim_← F(S_n)`, and since `F` commutes with adic projective limits of local artinian
-rings, the `S_n → F` come from a morphism `Spec(Â) = Ŝ′ → F`. As `F → S` is a monomorphism, `F` a sheaf for fpqc, and
-`Ŝ′ → S′` covering for the said topology, this morphism `Ŝ′ → F` factors through `S′ → F`, which completes the proof.
+One has (iii) ⇒ (ii) (when `S` is locally noetherian). It suffices to prove the last condition of (ii), and moreover (by
+virtue of the preceding proof) it suffices to do so when `S′` is of the form `Spec(O_{S,s})`, with `s ∈ S`. Let
+`A = O_{S,s}`, `A_n = A/m^{n+1}`, `S_n = Spec(A_n)`. Then it follows from the hypothesis that `F → S` is infinitesimally
+smooth, that the given morphism `S_0 → F` extends to morphisms `S_n → F`. As `F → S` is a monomorphism, one thus obtains
+an element of `lim_← F(S_n)`, and since `F` commutes with adic projective limits of local artinian rings, the `S_n → F`
+come from a morphism `Spec(Â) = Ŝ′ → F`. As `F → S` is a monomorphism, `F` a sheaf for fpqc, and `Ŝ′ → S′` covering for
+the said topology, this morphism `Ŝ′ → F` factors through `S′ → F`, which completes the proof.
 
 **Proposition 3.5.** *Let `S` be a locally noetherian prescheme, `F → S` a functor over `S`, `(X_i, u_i)_{i ∈ I}` a
 family of `S`-morphisms `u_i : X_i → F`, where the `X_i` are preschemes locally of finite type over `S`. Suppose the
@@ -626,9 +624,8 @@ Y = ⨿_i X_i
 by the equivalence relation `R = ⨿_{i,j} X_{i,j}` (the two projections `v, w : R ⇉ Y` being defined by the `v_{i,j}`
 resp. the `w_{i,j}`). More precisely, `F` being a sheaf for fpqc, the `u_i : X_i → F` come from a `u : Y → F`, and `R`
 is none other than the equivalence relation defined by `u`, `R = Y ×_F Y`; finally the quotient `X = Y/R` is also a
-quotient in the category of fpqc-sheaves (and even, in the category of sheaves for the Zariski topology): it suffices
-to use the definitions of "quotient" and "sheaf" to convince oneself. Consequently, `u` factors uniquely through a
-morphism
+quotient in the category of fpqc-sheaves (and even, in the category of sheaves for the Zariski topology): it suffices to
+use the definitions of "quotient" and "sheaf" to convince oneself. Consequently, `u` factors uniquely through a morphism
 
 ```text
 ū : X ⟶ F,
@@ -643,9 +640,9 @@ morphisms `u_i : X_i → F` are). Now by hypothesis `X → F` is set-theoretical
 this is a condition stable under base change, <!-- original page 147 --> hence `G → T` is set-theoretically surjective,
 hence an isomorphism since it is an open immersion. QED.
 
-**Proposition 3.7.** *Let `S` be a locally noetherian prescheme, `I` a filtered increasing index set, `(T_i)_{i ∈ I}`
-a projective system of `S`-preschemes locally of finite type, `T = lim_← T_i` the projective limit functor, `F` a
-functor over `S`, `u : F → T` an `S`-morphism. Suppose the following conditions are satisfied:*
+**Proposition 3.7.** *Let `S` be a locally noetherian prescheme, `I` a filtered increasing index set, `(T_i)_{i ∈ I}` a
+projective system of `S`-preschemes locally of finite type, `T = lim_← T_i` the projective limit functor, `F` a functor
+over `S`, `u : F → T` an `S`-morphism. Suppose the following conditions are satisfied:*
 
 <!-- label: III.XI.3.7 -->
 
@@ -660,13 +657,13 @@ adic projective limits of local artinian rings.*
 and by `t_i` the corresponding element of `T_i`, there exists an `i ∈ I` such that for `j ⩾ i` the transition morphism
 `p_{i,j} : T_j → T_i` is étale at `t_j`.*
 
-*d) For every prescheme `X` locally of finite type over `S`, and every `S`-morphism `X → F`, the set of `x ∈ X` at
-which this morphism is infinitesimally étale is open.*
+*d) For every prescheme `X` locally of finite type over `S`, and every `S`-morphism `X → F`, the set of `x ∈ X` at which
+this morphism is infinitesimally étale is open.*
 
 *Under these conditions, `F` is representable by a prescheme locally of finite type over `S`.*
 
-Let us note immediately that in the case which will occupy us in the following N°, one will verify conditions c) and
-d) through the following corollary:
+Let us note immediately that in the case which will occupy us in the following N°, one will verify conditions c) and d)
+through the following corollary:
 
 **Corollary 3.8.** *Granting a), b), b′), conditions c) and d) are implied by the following:*
 
@@ -679,11 +676,11 @@ d) through the following corollary:
 *d′) For every point `ξ` of `F` with values in the spectrum of a field `k`, let `t_i(ξ)` be the element of `T_i` defined
 by `ξ`, `d_i(ξ)` the relative dimension of `T_i` over `S` at `t_i(ξ)`, and `d(ξ) = sup d_i(ξ)`. Then:*
 
-   *1°) for every `ξ` as above, one has `d(ξ) < +∞`, and*
+*1°) for every `ξ` as above, one has `d(ξ) < +∞`, and*
 
-   *2°) for every prescheme `X` locally of finite type over `S` and every `S`-monomorphism `v : X → F`, the function
-   `x ↦ d(ξ_x)` on `X` is locally constant (where for `x ∈ X` one denotes by `ξ_x` the point of `F` with values in
-   `κ(x)` induced by `v`).*
+*2°) for every prescheme `X` locally of finite type over `S` and every `S`-monomorphism `v : X → F`, the function
+`x ↦ d(ξ_x)` on `X` is locally constant (where for `x ∈ X` one denotes by `ξ_x` the point of `F` with values in `κ(x)`
+induced by `v`).*
 
 Let us prove 3.7. Let us place ourselves under the conditions of c); let `t` be the element of `set(F)` defined by `ξ`
 (cf. 3.6) and set
@@ -723,8 +720,8 @@ T_0  ─→ T       .
 <!-- label: III.XI.3.9 -->
 
 The proof is that of 3.1 (iii) ⇒ (ii) (where the fact that the `S` of the cited statement be representable was not
-used), using that `F` is a sheaf for the fpqc topology, commutes with adic projective limits of local artinian rings
-(in this case the `A/rad(A)^{n+1}`), and that `F → T` is a monomorphism and is infinitesimally étale.
+used), using that `F` is a sheaf for the fpqc topology, commutes with adic projective limits of local artinian rings (in
+this case the `A/rad(A)^{n+1}`), and that `F → T` is a monomorphism and is infinitesimally étale.
 
 We shall apply lemma 3.9 to the case where `T_0 = Spec(O_t)`, hence `T_0″ = Spec(κ(t))`, noting that we have just
 constructed `T_0″ → F`, and that the canonical homomorphisms `O_{T_i, t_i} → O_t` define a projective system of
@@ -767,8 +764,8 @@ Consider the diagram
 
 where the unspecified arrows are the obvious ones. The square is commutative and so is the upper triangle, hence as
 `T_0 → T′_i` is an epimorphism, it follows that the lower triangle is commutative. Now `O_{T_i, t_i}` is the inductive
-limit of the affine rings of affine open neighborhoods of `t_i` in `T_i`, hence as `F` commutes with inductive limits
-of rings, `v′_i` comes from a morphism
+limit of the affine rings of affine open neighborhoods of `t_i` in `T_i`, hence as `F` commutes with inductive limits of
+rings, `v′_i` comes from a morphism
 
 ```text
 v_t : U_t ⟶ F
@@ -780,8 +777,7 @@ limits of rings). Then the composite of `v_t` with `F → T_i` is a monomorphism
 that it is infinitesimally étale at `t_i`. Since `F → T` is infinitesimally étale, it amounts to the same to say that
 the composite `T_i → F → T` is infinitesimally étale at `t_i`, or again that the induced morphism `T′_i → T` is
 infinitesimally étale, or finally (since `T_0 ⥲ T′_i`) that <!-- original page 151 --> `T_0 → T` is infinitesimally
-étale, which is immediate, this morphism being the projective limit of the infinitesimally étale morphisms
-`T′_i → T_i`.
+étale, which is immediate, this morphism being the projective limit of the infinitesimally étale morphisms `T′_i → T_i`.
 
 Let us now apply condition d), which had not yet been used; it follows that `v_t` is infinitesimally étale in a
 neighborhood of `t`, hence, restricting `U_t` to a smaller open if necessary, one may suppose that `v_t` is a
@@ -790,7 +786,7 @@ monomorphism infinitesimally étale.
 For `t ∈ set(F)` variable, the family of morphisms `v_t` is amenable to 3.5, which implies the conclusion of 3.7.
 
 Let us prove now 3.8, supposing satisfied conditions c′) and d′) of 3.8. Then with the notation of d′), one will have
-`d_i(ξ) = ` constant for `i` large, hence the relative dimension of `T_j` over `T_i` at `t_j`, equal to
+`d_i(ξ) =` constant for `i` large, hence the relative dimension of `T_j` over `T_i` at `t_j`, equal to
 `d_j(ξ) − d_i(ξ)`, is zero, hence `T_j → T_i` is étale at `t_j`, which proves condition c). Consequently the preceding
 proof applies to give, for each `t ∈ set(F)`, an index `i`, an open neighborhood `U_t` of `t_i`, and a morphism
 `U_t → F` which is a monomorphism, infinitesimally étale at `t_i`, and all reduces to proving that this morphism is
@@ -821,9 +817,9 @@ Spec(O_{U_t, x}) ⟶ Spec(O_{t_x}) ⟶ F
 ```
 
 and as the second arrow is infinitesimally étale at `t_x`, to prove that the composite is so at `x`, it suffices to
-prove that the first is so at `t_x`. Now thanks to formula (×) above, it is an `S`-homomorphism of localizations, at
-two points `x`, `t_x`, of smooth `S`-preschemes `U_t`, `U_{t_x}` of the same relative dimension `d` over `S` at `t`,
-`t_x`. This morphism is induced by an `S`-morphism
+prove that the first is so at `t_x`. Now thanks to formula (×) above, it is an `S`-homomorphism of localizations, at two
+points `x`, `t_x`, of smooth `S`-preschemes `U_t`, `U_{t_x}` of the same relative dimension `d` over `S` at `t`, `t_x`.
+This morphism is induced by an `S`-morphism
 
 ```text
 w : U ⟶ V
@@ -834,8 +830,8 @@ morphism is étale at `x`. Moreover, `U` and `V` are equipped with monomorphisms
 that, restricting `U` further if necessary, `w` is an `F`-morphism, hence `w` is a monomorphism. It now suffices to
 prove the
 
-**Lemma 3.10.** *Let `U`, `V` be two smooth `S`-preschemes, of the same relative dimension `d` over `S`, and
-`w : U → V` an `S`-morphism which is a monomorphism; then `w` is an open immersion (and a fortiori is étale).*
+**Lemma 3.10.** *Let `U`, `V` be two smooth `S`-preschemes, of the same relative dimension `d` over `S`, and `w : U → V`
+an `S`-morphism which is a monomorphism; then `w` is an open immersion (and a fortiori is étale).*
 
 <!-- label: III.XI.3.10 -->
 
@@ -845,23 +841,23 @@ at the closed points of `U`. Let `x` be such a point, <!-- original page 153 -->
 system of parameters `f_1, …, f_d` of `O_{V, y}`, one sees that `A = O_{U, x}/∑ f_i O_{U, x}` is the trivial extension
 of `k = O_{V, y}/∑ f_i O_{V, y}` (for `w` being a monomorphism, so is the structural morphism `Spec(A) → Spec(k)`
 deduced from it by base change). As `O_{U, x}` is a regular local ring of dimension `d`, it follows that the `f_i` form
-a regular system of parameters of this ring, which immediately implies that `w` is étale at `x` and completes the
-proof of 3.10, hence of 3.8.
+a regular system of parameters of this ring, which immediately implies that `w` is étale at `x` and completes the proof
+of 3.10, hence of 3.8.
 
 **Corollary 3.11.** *Under the conditions of 3.8, for every quasi-compact open `U` of `F` separated over `S`, there
-exists an `i ∈ I` such that for every `j ⩾ i` the morphism `u_j|U : U → T_j` is an open immersion. In particular, if
-the `T_i` are quasi-affine over `S`, then every open `U` of `F` quasi-compact over `S`, i.e. of finite type over `S`,
-is quasi-affine over `S`.*
+exists an `i ∈ I` such that for every `j ⩾ i` the morphism `u_j|U : U → T_j` is an open immersion. In particular, if the
+`T_i` are quasi-affine over `S`, then every open `U` of `F` quasi-compact over `S`, i.e. of finite type over `S`, is
+quasi-affine over `S`.*
 
 <!-- label: III.XI.3.11 -->
 
 The proof of 3.7 shows that for every `t ∈ F`, there exists an `i ∈ I` such that `u_i : F → T_i` is a local isomorphism
 at `t`, and then `u_j` is a local isomorphism at `x` for every `j ⩾ i`. By reason of quasi-compactness, one may choose
-`i` independent of `x ∈ U`. It remains to prove that for `i` large, `u_i|U : U → T_i` is a monomorphism. Now as
-`U → T` is a monomorphism, one sees that the intersection of the equivalence relations
-`U ×_{T_i} U ⊂ U ×_S U` is reduced to the diagonal, and as `U ×_S U` is a noetherian prescheme and the
-`U ×_{T_i} U` closed subpreschemes, it follows that one of these `U ×_{T_i} U` is already reduced to the diagonal, i.e.
-`u_i|U` is a monomorphism. This proves the first assertion in 3.11, and the second is an immediate consequence of it.
+`i` independent of `x ∈ U`. It remains to prove that for `i` large, `u_i|U : U → T_i` is a monomorphism. Now as `U → T`
+is a monomorphism, one sees that the intersection of the equivalence relations `U ×_{T_i} U ⊂ U ×_S U` is reduced to the
+diagonal, and as `U ×_S U` is a noetherian prescheme and the `U ×_{T_i} U` closed subpreschemes, it follows that one of
+these `U ×_{T_i} U` is already reduced to the diagonal, i.e. `u_i|U` is a monomorphism. This proves the first assertion
+in 3.11, and the second is an immediate consequence of it.
 
 **Proposition 3.12.** *Let `S` be a prescheme, `G` an affine `S`-prescheme in groups.*
 
@@ -883,10 +879,10 @@ representable. It is affine over `S`, and if `G` is of finite type (resp. of fin
 holds for `Hom_{S-gr.}(H, G)`.*
 
 **Remark 3.13.** Except for the precision that `Hom_{S-gr.}` is affine, and in the case where `G` is of finite
-presentation over `S` (which will suffice for us), 3.12 is an immediate consequence of the theory of Hilbert schemes
-(A. Grothendieck, *Techniques de construction et théorèmes d'existence en Géométrie Algébrique: IV Les Schémas de
-Hilbert*, Séminaire Bourbaki, May 1961, N° 221). It even suffices that `G` be quasi-projective over `S`; in case a),
-one may also represent the larger functor
+presentation over `S` (which will suffice for us), 3.12 is an immediate consequence of the theory of Hilbert schemes (A.
+Grothendieck, *Techniques de construction et théorèmes d'existence en Géométrie Algébrique: IV Les Schémas de Hilbert*,
+Séminaire Bourbaki, May 1961, N° 221). It even suffices that `G` be quasi-projective over `S`; in case a), one may also
+represent the larger functor
 
 ```text
 F′(T) = { set of subpreschemes in groups of G_T,
@@ -912,9 +908,9 @@ H = Spec(B),
 ```
 
 where `B` is a sheaf of algebras over `S` which is locally free as a sheaf of modules (this is the only hypothesis on
-`H` that we shall need to retain). As the representability question envisaged is local on `S`, we may suppose `S`
-affine with ring `A`. On the other hand, one will have `G = Spec(C)`, where `C` is an `A`-algebra. When
-`G = S[t] = G_0`, `t` an indeterminate, the functor `Hom` is none other than
+`H` that we shall need to retain). As the representability question envisaged is local on `S`, we may suppose `S` affine
+with ring `A`. On the other hand, one will have `G = Spec(C)`, where `C` is an `A`-algebra. When `G = S[t] = G_0`, `t`
+an indeterminate, the functor `Hom` is none other than
 
 ```text
 T ↦ Γ(T, B_T),
@@ -928,8 +924,8 @@ to `B`. When `G = S[(t_i)]`, with `(t_i)` a (not necessarily finite) family of i
 Hom_S(H, G)^I = V(B^∨)^I = V(B^{∨(I)}).
 ```
 
-In the general case, `G` will be isomorphic to a closed subscheme of a scheme of the form `S[(t_i)]`, i.e. `C` will be
-a quotient of an `A`-algebra of the form `A[(t_i)]`. Let `(F_j)` be a system of generators of the ideal by which one
+In the general case, `G` will be isomorphic to a closed subscheme of a scheme of the form `S[(t_i)]`, i.e. `C` will be a
+quotient of an `A`-algebra of the form `A[(t_i)]`. Let `(F_j)` be a system of generators of the ideal by which one
 divides. Suppose `B` free of rank `n`, which is permissible by covering `S` by smaller affine opens. Choose a basis
 `(e_k)_{1 ⩽ k ⩽ n}` of `B`; then writing the `n` components in this basis of `F_j((x_i))`, for `x_i = ∑ x_{ik} e_k`
 (`x_{ik}` indeterminate coefficients, taken in an unspecified algebra `A′` over `A`), one finds, for each `F_j`, `n`
@@ -938,26 +934,26 @@ polynomials `F_{j,k}` in the `(x_{i,k})_{i ∈ I, 1 ⩽ k ⩽ n}`, with coeffici
 generated by the `F_{j,k}`. This proves at once b).
 
 Let us prove a). For every ordinary finite commutative group `M`, let `F_M` be the subfunctor of `F` obtained by
-restricting to subgroups of `G_T` which are of multiplicative type <!-- original page 156 --> and of type `M`. One
-sees easily, by a gluing argument like the one which served in 3.5 (which we should have stated by unscrewing a bit
-more!), that it suffices to verify that the `F_M` are representable; then `F` will be representable by the prescheme
-sum of the `F_M`, where `M` runs over the set of classes of finite commutative groups up to isomorphism. (`F` is in
-fact the sum of the `F_M` in the category of sheaves…).
+restricting to subgroups of `G_T` which are of multiplicative type <!-- original page 156 --> and of type `M`. One sees
+easily, by a gluing argument like the one which served in 3.5 (which we should have stated by unscrewing a bit more!),
+that it suffices to verify that the `F_M` are representable; then `F` will be representable by the prescheme sum of the
+`F_M`, where `M` runs over the set of classes of finite commutative groups up to isomorphism. (`F` is in fact the sum of
+the `F_M` in the category of sheaves…).
 
 From now on we suppose `M` fixed, and we shall write `F` instead of `F_M`. Let `H = D_S(M)`; consider the subfunctor
-`F′ = Imm_{S-gr.}(H, G)` of `Hom_{S-gr.}(H, G)` whose value at `T` is the set of homomorphisms of `T`-groups
-`H_T → G_T` which are closed immersions. We know already that `Hom_{S-gr.}(H, G)` is representable by an affine
-`S`-prescheme by virtue of b), and using IX 6.8, one sees at once that `F′` is representable by an open and closed
-subprescheme of the latter, hence it is also affine over `S`. Consider finally the canonical morphism `F′ → F`, which
-associates to each monomorphism `H_T → G_T` the image group. One verifies at once, by virtue of the definitions, that
-in this way `F′` becomes a principal homogeneous bundle (in the category of fpqc sheaves) over `F`, with group
-`Γ_F = Γ_S ×_S F`, where `Γ = Aut_{gr.}(M)`, whence it follows "by descent" that this morphism is representable (i.e.
-for every morphism `T → F`, with `T` representable, `T ×_F F′` over `T` is representable — in fact, representable by a
-principal galois bundle under `Γ`). Hence by virtue of IV 4.6.6, `F` is representable if and only if the quotient
-`F′/F″`, where `F″ = F′ ×_F F′`, exists in `(Sch)` and is universally effective for faithfully flat quasi-compact
-morphisms, or what amounts to the same, if and only if the quotient `F′/Γ` exists and is universally effective for the
-said morphisms. Now as `F′` is affine over `S`, one has seen in V 4.1 that the condition in question is indeed
-satisfied. This proves the representability of `F` in a).
+`F′ = Imm_{S-gr.}(H, G)` of `Hom_{S-gr.}(H, G)` whose value at `T` is the set of homomorphisms of `T`-groups `H_T → G_T`
+which are closed immersions. We know already that `Hom_{S-gr.}(H, G)` is representable by an affine `S`-prescheme by
+virtue of b), and using IX 6.8, one sees at once that `F′` is representable by an open and closed subprescheme of the
+latter, hence it is also affine over `S`. Consider finally the canonical morphism `F′ → F`, which associates to each
+monomorphism `H_T → G_T` the image group. One verifies at once, by virtue of the definitions, that in this way `F′`
+becomes a principal homogeneous bundle (in the category of fpqc sheaves) over `F`, with group `Γ_F = Γ_S ×_S F`, where
+`Γ = Aut_{gr.}(M)`, whence it follows "by descent" that this morphism is representable (i.e. for every morphism `T → F`,
+with `T` representable, `T ×_F F′` over `T` is representable — in fact, representable by a principal galois bundle under
+`Γ`). Hence by virtue of IV 4.6.6, `F` is representable if and only if the quotient `F′/F″`, where `F″ = F′ ×_F F′`,
+exists in `(Sch)` and is universally effective for faithfully flat quasi-compact morphisms, or what amounts to the same,
+if and only if the quotient `F′/Γ` exists and is universally effective for the said morphisms. Now as `F′` is affine
+over `S`, one has seen in V 4.1 that the condition in question is indeed satisfied. This proves the representability of
+`F` in a).
 
 As for the complement, relative to the case where one supposes `G` of finite presentation over `S`, it follows at once
 from the preceding proof, taking into account that by virtue of b), `F′` is then locally of finite presentation over
@@ -1002,8 +998,8 @@ representable, so is `F′`, which will be representable by an open of `F`; and 
 so will `F′` be. In the case where `H` is finite over `S`, it suffices to apply 3.12 b) for the representability of
 `Hom_{S-gr.}(H, G)`. When `H` is a product `H_1 ×_S H_2`, with `H_1` smooth over `S` and `H_2` finite over `S`, then
 `Hom_{T-gr.}(H_T, G_T)` is identified with the subset of `Hom_{T-gr.}((H_1)_T, G_T) × Hom_{T-gr.}((H_2)_T, G_T)` formed
-of pairs `(u_1, u_2)` such that `u_1 · u_2 = u_2 · u_1`, whence it follows that `Hom_{S-gr.}(H, G)` is representable by a
-closed <!-- original page 158 --> subprescheme of `Hom_{S-gr.}(H_1, G) ×_S Hom_{S-gr.}(H_2, G) = X`, as one sees by
+of pairs `(u_1, u_2)` such that `u_1 · u_2 = u_2 · u_1`, whence it follows that `Hom_{S-gr.}(H, G)` is representable by
+a closed <!-- original page 158 --> subprescheme of `Hom_{S-gr.}(H_1, G) ×_S Hom_{S-gr.}(H_2, G) = X`, as one sees by
 applying VIII 6.5 b), where one takes `Y = H`, `Z = G`, `q_1` and `q_2` being defined respectively by
 `(u_1, u_2) ↦ u_1 · u_2` and `(u_1, u_2) ↦ u_2 · u_1`.
 
@@ -1014,25 +1010,25 @@ applies, since a diagonalizable group is the product of a diagonalizable torus b
 remains to see that the descent datum obtained on the `S′`-prescheme `Hom_{S′-gr.}(H′, G′) = X′` is effective. This is
 seen by the reasoning of X 5.4, noting that in loc. cit., the hypothesis that `X′ → S′` was separated and locally
 quasi-finite served only to ensure that every open part of `X′` quasi-compact over `S′` was quasi-affine over `S′`. Now
-this property is still verified in the present case, as follows easily from the fact that this is so for the functor
-`F` of 4.1 (which will be seen in the course of the proof of 4.1). This (or any other variant of this little
-unscrewing) establishes the representability of `Hom_{S-gr.}(H, G)`, and at the same time the fact that it is
-separated over `S`. It is locally of finite presentation over `S`, as one sees for example (as was pointed out in 3.2)
-thanks to the fact that this functor "commutes with inductive limits of rings". Finally, this functor being formally
-smooth over `S` (by virtue of 2.1), it is smooth over `S`.
+this property is still verified in the present case, as follows easily from the fact that this is so for the functor `F`
+of 4.1 (which will be seen in the course of the proof of 4.1). This (or any other variant of this little unscrewing)
+establishes the representability of `Hom_{S-gr.}(H, G)`, and at the same time the fact that it is separated over `S`. It
+is locally of finite presentation over `S`, as one sees for example (as was pointed out in 3.2) thanks to the fact that
+this functor "commutes with inductive limits of rings". Finally, this functor being formally smooth over `S` (by virtue
+of 2.1), it is smooth over `S`.
 
 **Remark 4.3.** We have here deduced 4.2 from 4.1, which is really immediate only when `H` is also smooth over `S`. For
 the deduction to be made without contortions for the general case, the representability result 4.1 would have to be
 established without supposing `G` smooth over `S`, but only affine of finite presentation over `S`. (Of course, <!--
 original page 159 --> then `F` will no longer be smooth in general over `S`!) There is little doubt that 4.1 remains
-true under these more general hypotheses, but the proof appears to have to be more delicate (failing the possibility
-of invoking 3.8)[^XI-4-1][^N.D.E-XI-4]. Let us point out however that when `G` is a closed subgroup of an affine and
-smooth group `G_0` over `S`, then the functor `F` representing the multiplicative-type subgroups of `G` is
-representable by a closed subprescheme of the prescheme representing the analogous functor `F_0` for `G_0` (amenable to
-4.1), as one sees easily by applying VIII 6.4. This raises also the question: is an affine `S`-group scheme `G`, which
-is affine and of finite presentation over `S`, isomorphic to a subgroup scheme of some `GL(n)_S`, `n` suitable? This is
-true when `S` is the spectrum of a field, cf. VI_B 11.11, but unfortunately false in general, even for tori, cf. 4.6.
-Finally, note that one could also prove 4.2 directly by exactly the same method as 4.1.
+true under these more general hypotheses, but the proof appears to have to be more delicate (failing the possibility of
+invoking 3.8)[^XI-4-1][^N.D.E-XI-4]. Let us point out however that when `G` is a closed subgroup of an affine and smooth
+group `G_0` over `S`, then the functor `F` representing the multiplicative-type subgroups of `G` is representable by a
+closed subprescheme of the prescheme representing the analogous functor `F_0` for `G_0` (amenable to 4.1), as one sees
+easily by applying VIII 6.4. This raises also the question: is an affine `S`-group scheme `G`, which is affine and of
+finite presentation over `S`, isomorphic to a subgroup scheme of some `GL(n)_S`, `n` suitable? This is true when `S` is
+the spectrum of a field, cf. VI_B 11.11, but unfortunately false in general, even for tori, cf. 4.6. Finally, note that
+one could also prove 4.2 directly by exactly the same method as 4.1.
 
 <!-- label: III.XI.4.3 -->
 
@@ -1051,6 +1047,7 @@ p_{n,m} : T_m ⟶ T_n
 ```
 
 <!-- original page 160 --> by `p_{n,m}(H) = ₙH = Ker(n · id_H)`. In this way the `T_n` form a projective system of
+
 functors over `S`. By virtue of 3.12 a), the functors `T_n` are representable, affine and of finite type over `S`.
 Define likewise morphisms
 
@@ -1072,24 +1069,24 @@ We are going to apply 3.7 and are reduced to verifying conditions a) to d) of 3.
 representable by a prescheme locally of finite type over `S`. It then follows from 2.1 bis that `F` is even smooth over
 `S`, and as `F` is a subfunctor of `T` which is affine over `S`, it follows that `F` is separated over `S` (being
 separated over `T`, which is separated over `S`). Let us prove at once the complement invoked above, namely that every
-open `U` of `F` quasi-compact over `S` is quasi-affine over `S`: this follows from 3.11 and from the fact that the
-`T_n` are affine over `S`.
+open `U` of `F` quasi-compact over `S` is quasi-affine over `S`: this follows from 3.11 and from the fact that the `T_n`
+are affine over `S`.
 
 Let us verify therefore the conditions of 3.7.
 
 a) `F` is a sheaf for the faithfully flat quasi-compact topology, by descent theory SGA 1, VIII, which applies here
-since multiplicative-type groups over `T` are affine over `S`. It commutes with inductive limits of rings by the
-general carpet [^XI-4-2] EGA IV 8. Let us show that it commutes with adic projective limits of local artinian rings.
-When dealing with, instead of the functor `F`, the analogous functor envisaged in 4.2, this property is none other
-than that of IX 7.1 in the special case where `A` is a complete noetherian local ring, equipped with an ideal of
-definition for its usual topology (N.B. This is exactly where the hypothesis `G` affine intervenes in an essential
-way). In the present case, we are reduced to proving the
+since multiplicative-type groups over `T` are affine over `S`. It commutes with inductive limits of rings by the general
+carpet [^XI-4-2] EGA IV 8. Let us show that it commutes with adic projective limits of local artinian rings. When
+dealing with, instead of the functor `F`, the analogous functor envisaged in 4.2, this property is none other than that
+of IX 7.1 in the special case where `A` is a complete noetherian local ring, equipped with an ideal of definition for
+its usual topology (N.B. This is exactly where the hypothesis `G` affine intervenes in an essential way). In the present
+case, we are reduced to proving the
 
 **Lemma 4.4.** *Let `A` be a complete noetherian local ring, with maximal ideal `m`, `G` a group scheme affine over
 `S = Spec(A)`. For every integer `n ⩾ 0`, let `S_n = Spec(A/m^{n+1})`, `G_n = G ×_S S_n`. Let for every `n`, `H_n` be a
 subgroup of multiplicative type and of finite type of `G_n`, such that for `m ⩾ n`, `H_n` is deduced from `H_m` by
-reduction. Under these conditions, there exists a unique multiplicative-type subgroup `H` in `G` which reduces along
-the `H_n`.*
+reduction. Under these conditions, there exists a unique multiplicative-type subgroup `H` in `G` which reduces along the
+`H_n`.*
 
 <!-- label: III.XI.4.4 -->
 
@@ -1102,10 +1099,10 @@ isotrivial, being of finite type over a field, cf. X 1.4). By virtue of X 2.1, f
 the homomorphisms `H_n → G_n` come from a unique homomorphism of `S`-groups `u : H → G`. By virtue of IX 6.6, this last
 is a monomorphism since `u_0 : H_0 → G_0` is one. This completes the proof of 4.4.
 
-b) The morphism `u : F → T` is a monomorphism. This follows from the density theorem IX 4.7, in the form of
-corollary 4.8 b). One will pay attention to the fact that it is essential, for the application we make of it here, to
-dispose of this result over a not necessarily noetherian base. (N.B. As the functor `T` does not commute with
-inductive limits of rings, it is not possible to reduce to that a priori.)
+b) The morphism `u : F → T` is a monomorphism. This follows from the density theorem IX 4.7, in the form of corollary
+4.8 b). One will pay attention to the fact that it is essential, for the application we make of it here, to dispose of
+this result over a not necessarily noetherian base. (N.B. As the functor `T` does not commute with inductive limits of
+rings, it is not possible to reduce to that a priori.)
 
 b′) The morphism `u : F → T` is infinitesimally étale; in other terms one has the
 
@@ -1114,18 +1111,18 @@ b′) The morphism `u : F → T` is infinitesimally étale; in other terms one h
 multiplicative-type subgroup `H_0` of `G_0` and for every integer `n > 0`, a multiplicative-type subgroup `H(n)` of `G`
 such that*
 
-   *1°) for every multiple `m` of `n`, `H(n) = ₙH(m)`, and*
+*1°) for every multiple `m` of `n`, `H(n) = ₙH(m)`, and*
 
-   *2°) `H(n)_0 = ₙH_0`.*
+*2°) `H(n)_0 = ₙH_0`.*
 
 *Under these conditions, there exists a multiplicative-type subgroup `H` of `G` and one only such that `ₙH = H(n)` for
 every `n`.*
 
 <!-- label: III.XI.4.5 -->
 
-Uniqueness is already contained in b). For existence, an immediate recurrence reduces us to the case where `Jm = 0`,
-`m` being the maximal ideal of `A`. Let `k = A/m`, `S_0 = Spec(k)`, `G_0 = G ×_S S_0`, `g_0` the Lie algebra of `G_0`,
-`h_0` that of `H_0`. One has a canonical isomorphism of groups: <!-- original page 162 -->
+Uniqueness is already contained in b). For existence, an immediate recurrence reduces us to the case where `Jm = 0`, `m`
+being the maximal ideal of `A`. Let `k = A/m`, `S_0 = Spec(k)`, `G_0 = G ×_S S_0`, `g_0` the Lie algebra of `G_0`, `h_0`
+that of `H_0`. One has a canonical isomorphism of groups: <!-- original page 162 -->
 
 ```text
 g_0 ⊗_k J ≃ Ker(G(S) ⟶ G(S_0)),
@@ -1139,8 +1136,8 @@ such that `int(g) · H = H`.
 Now one sees easily (Exp. III) that this subgroup is none other than the vector subspace of `g_0 ⊗_k J` formed of the
 invariants under `H_0`, when `H_0` operates on `g_0 ⊗_k J` by the representation induced by the adjoint representation
 of `G_0`. Likewise, the set `P(n)` of liftings of `H(n)_0 = ₙH_0` is a principal homogeneous set under `N/M(n)`, where
-`M(n)` is the vector subspace of `g_0 ⊗_k J = N` formed of the invariants under `ₙH_0`. Using the density theorem
-Exp. IX 4.7, one sees easily that for `n` large (in the sense of the order relation put on the set of integers `n > 0`,
+`M(n)` is the vector subspace of `g_0 ⊗_k J = N` formed of the invariants under `ₙH_0`. Using the density theorem Exp.
+IX 4.7, one sees easily that for `n` large (in the sense of the order relation put on the set of integers `n > 0`,
 namely the divisibility relation) one has `M = M(n)`. Consequently, the natural map `H ↦ ₙH` from `P` to `P(n)`, which
 is compatible with the operations of `N` and hence with the homomorphism `N/M → N/M(n)` on the groups of operators, is
 bijective for `n` large. The conclusion of 4.5 results from this at once.
@@ -1152,40 +1149,39 @@ c′) The `T_n` are smooth over `S`, and the transition morphisms `p_{n,m} : T_m
 This is none other than 2.2 bis.
 
 d′) With the notation of 3.8, a point `ξ` of `F` with values in a field `k` over `S` is none other than a
-multiplicative-type subgroup `H_0` of `G_0 = G_k`. Taking up again the reasoning of b′) above, one sees that the
-integer `d(ξ)` envisaged in 3.8 is none other than the dimension of `g_0/g_0^{H_0}`, <!-- original page 163 --> where
-`g_0` is the Lie algebra of `G_0` and `g_0^{H_0}` is the vector subspace of invariants under `H_0`. It is therefore a
-finite integer, i.e. condition d′) 1°) of 3.8 is verified. With the notation of d′) 2°), the datum of a morphism
-`v : X → F` amounts to the datum of a multiplicative-type subgroup `H` of `G_X`. For `x ∈ X`, the integer `d(ξ_x)` is
-then none other than the dimension of `(g ⊗ κ(x))^{H_x}`, where `g` is the sheaf of Lie algebras of `G_X` (which is
-locally free of finite type over `X` since `G_X` is smooth over `X`, and `g ⊗ κ(x)` is none other than the Lie algebra
-of the fiber `G_x` of `G_X` at `x`), and `H_x` is the fiber of `H` at `x`. Now `g` being a locally free module on `S`
-on which the group of multiplicative type `H` operates, one sees at once that the subfunctor `g^H` of invariants under
-`H` is given by a locally direct factor subsheaf, hence locally free, of `g`. (By descent, one is reduced to the case
-where `H` is diagonalizable, and where one applies Exp. I 4.7.3, noting that the subsheaf of invariants corresponds to
-the component of degree zero.) Consequently `d(ξ_x) = ` rank at `x` of `g^H`, hence it is a function locally constant
-in `x`. This completes the proof of condition d′).
+multiplicative-type subgroup `H_0` of `G_0 = G_k`. Taking up again the reasoning of b′) above, one sees that the integer
+`d(ξ)` envisaged in 3.8 is none other than the dimension of `g_0/g_0^{H_0}`, <!-- original page 163 --> where `g_0` is
+the Lie algebra of `G_0` and `g_0^{H_0}` is the vector subspace of invariants under `H_0`. It is therefore a finite
+integer, i.e. condition d′) 1°) of 3.8 is verified. With the notation of d′) 2°), the datum of a morphism `v : X → F`
+amounts to the datum of a multiplicative-type subgroup `H` of `G_X`. For `x ∈ X`, the integer `d(ξ_x)` is then none
+other than the dimension of `(g ⊗ κ(x))^{H_x}`, where `g` is the sheaf of Lie algebras of `G_X` (which is locally free
+of finite type over `X` since `G_X` is smooth over `X`, and `g ⊗ κ(x)` is none other than the Lie algebra of the fiber
+`G_x` of `G_X` at `x`), and `H_x` is the fiber of `H` at `x`. Now `g` being a locally free module on `S` on which the
+group of multiplicative type `H` operates, one sees at once that the subfunctor `g^H` of invariants under `H` is given
+by a locally direct factor subsheaf, hence locally free, of `g`. (By descent, one is reduced to the case where `H` is
+diagonalizable, and where one applies Exp. I 4.7.3, noting that the subsheaf of invariants corresponds to the component
+of degree zero.) Consequently `d(ξ_x) =` rank at `x` of `g^H`, hence it is a function locally constant in `x`. This
+completes the proof of condition d′).
 
 We have thus verified the conditions of 3.7, which completes the proof of 4.1.
 
-**Remark 4.6.** When `G = GL(n)_S`, one can give a noticeably simpler and more explicit direct proof of 4.1, by using
-I 4.7.3. The proof shows moreover that in this case, the modular scheme is a scheme that is a sum of a family of
-affine schemes over `S`. Proceeding as was said in 4.3, one deduces the same result whenever `G` is a closed subgroup
-of a group of the form `GL(n)_S`. One should however beware of thinking that the preschemes which represent the
-functors in 4.1 or 4.2 are always sums of a family of affine schemes over `S`. Let for example `H` be a
-multiplicative-type group of finite type over a locally noetherian prescheme `S`; then by virtue of X 5.11, `H` is
-isotrivial if and only if `Hom_{S-gr.}(H, G_m)` is a sum of a family of affine preschemes over `S`. Now one has
-pointed out (X 1.6) <!-- original page 164 --> that there can exist tori `H` (of relative dimension `2`) which are not
-isotrivial; for such a torus, `Hom_{S-gr.}(H, G_m)` is therefore not a sum of `S`-preschemes affine over `S`, and one
-sees likewise that the twisted constant group "dual" `Hom_{S-gr.}(G_m, H)` is not such a sum either (for if two twisted
-constant commutative groups of finite presentation `R`, `R′` are dual to each other, `R′ = Hom_{S-gr.}(R, ℤ_S)`, one
-sees easily that one is isotrivial if and only if the other is). This last point shows also that such an `H` is not
-isomorphic to a subgroup of a group of the form `GL(n)_S`; more precisely, one can show that a multiplicative-type group
-of finite type over `S` locally noetherian connected is isomorphic to a subgroup of a group of the form `Aut_{Mod}(E)`
-(with `E` a locally free module of finite type over `S`) if and only if it is isotrivial. Finally, taking
-`G = H × G_m` in the two preceding examples, one finds an example where the prescheme representing the functor `F` of
-4.1 is not a sum of a family of `S`-preschemes affine over `S` (with `G` a torus of relative dimension `3` if one
-wishes).
+**Remark 4.6.** When `G = GL(n)_S`, one can give a noticeably simpler and more explicit direct proof of 4.1, by using I
+4.7.3. The proof shows moreover that in this case, the modular scheme is a scheme that is a sum of a family of affine
+schemes over `S`. Proceeding as was said in 4.3, one deduces the same result whenever `G` is a closed subgroup of a
+group of the form `GL(n)_S`. One should however beware of thinking that the preschemes which represent the functors in
+4.1 or 4.2 are always sums of a family of affine schemes over `S`. Let for example `H` be a multiplicative-type group of
+finite type over a locally noetherian prescheme `S`; then by virtue of X 5.11, `H` is isotrivial if and only if
+`Hom_{S-gr.}(H, G_m)` is a sum of a family of affine preschemes over `S`. Now one has pointed out (X 1.6)
+    <!-- original page 164 --> that there can exist tori `H` (of relative dimension `2`) which are not isotrivial; for such
+a torus, `Hom_{S-gr.}(H, G_m)` is therefore not a sum of `S`-preschemes affine over `S`, and one sees likewise that the
+twisted constant group "dual" `Hom_{S-gr.}(G_m, H)` is not such a sum either (for if two twisted constant commutative
+groups of finite presentation `R`, `R′` are dual to each other, `R′ = Hom_{S-gr.}(R, ℤ_S)`, one sees easily that one is
+isotrivial if and only if the other is). This last point shows also that such an `H` is not isomorphic to a subgroup of
+a group of the form `GL(n)_S`; more precisely, one can show that a multiplicative-type group of finite type over `S`
+locally noetherian connected is isomorphic to a subgroup of a group of the form `Aut_{Mod}(E)` (with `E` a locally free
+module of finite type over `S`) if and only if it is isotrivial. Finally, taking `G = H × G_m` in the two preceding
+examples, one finds an example where the prescheme representing the functor `F` of 4.1 is not a sum of a family of
+`S`-preschemes affine over `S` (with `G` a torus of relative dimension `3` if one wishes).
 
 <!-- label: III.XI.4.6 -->
 
@@ -1222,8 +1218,8 @@ whose components are the preceding morphism `G ×_S M → M`, and the second pro
 
 This follows from 4.2 and 2.3. This statement is equivalent to the following:
 
-**Corollary 5.2.** *Let `u_1, u_2 : H ⇉ G` be two homomorphisms of `S`-groups. Then the subfunctor `Transp(u_1, u_2)`
-of `G` (cf. 2.4) is representable by a closed subprescheme of `G`, smooth over `S`.*
+**Corollary 5.2.** *Let `u_1, u_2 : H ⇉ G` be two homomorphisms of `S`-groups. Then the subfunctor `Transp(u_1, u_2)` of
+`G` (cf. 2.4) is representable by a closed subprescheme of `G`, smooth over `S`.*
 
 <!-- label: III.XI.5.2 -->
 
@@ -1232,8 +1228,8 @@ is the kernel of a pair of morphisms `G ⇉ M` (namely `g ↦ int(g) u_1` and th
 the fact that `M` is separated over `S`. In particular:
 
 **Corollary 5.3.** *Let `u : H → G` be a morphism of `S`-groups. Then `Centr_G(u) = Transp(u, u)` is representable by a
-closed subprescheme in groups of `G`, smooth over `S`. Moreover, `G/Centr_G(u)` is representable by an open
-subprescheme of `M`.*
+closed subprescheme in groups of `G`, smooth over `S`. Moreover, `G/Centr_G(u)` is representable by an open subprescheme
+of `M`.*
 
 <!-- label: III.XI.5.3 -->
 
@@ -1249,8 +1245,7 @@ type, hence covering for the faithfully flat and quasi-compact topology. Moreove
 morphism `G → M` makes `G` into a formally principal homogeneous sheaf under `Centr_G(u)_M`, which implies that the
 sheaf `G/Centr_G(u)` is indeed representable by `U`.
 
-**Corollary 5.4.** *Let `u_1, u_2 : H ⇉ G` be two homomorphisms of `S`-groups. The following conditions are
-equivalent:*
+**Corollary 5.4.** *Let `u_1, u_2 : H ⇉ G` be two homomorphisms of `S`-groups. The following conditions are equivalent:*
 
 <!-- label: III.XI.5.4 -->
 
@@ -1268,14 +1263,14 @@ equivalent:*
 *(iii) `Transp(u_1, u_2)` is a torsor under the action of the `S`-prescheme in groups smooth of finite type
 `Centr_G(u_1)`.*
 
-(i) ⇒ (i bis) and (ii) ⇒ (ii bis) are trivial (the second thanks to the Nullstellensatz); on the other hand (i bis)
-⇒ (ii) by the "principle of finite extension" (EGA IV 9). On the other hand (ii bis) ⇒ (iii) thanks to the fact that
+(i) ⇒ (i bis) and (ii) ⇒ (ii bis) are trivial (the second thanks to the Nullstellensatz); on the other hand (i bis) ⇒
+(ii) by the "principle of finite extension" (EGA IV 9). On the other hand (ii bis) ⇒ (iii) thanks to the fact that
 `Transp(u_1, u_2)` is smooth over `S` hence flat over `S`, and of finite type hence quasi-compact over `S`; it is
 therefore faithfully flat quasi-compact over `S` if and only if its structural morphism is surjective. As, on the other
 hand, it is formally principal homogeneous under `Centr_G(u_1)`, which is faithfully flat and quasi-compact over `S`,
-one sees that this last condition is equivalent also to saying that `Transp(u_1, u_2)` is a torsor under
-`Centr_G(u_1)` (understood: in the sense of the faithfully flat and quasi-compact topology). Finally (iii) ⇒ (i)
-thanks to the fact that `Transp(u_1, u_2)` is smooth over `S` and to "Hensel's lemma" in the form 1.10.
+one sees that this last condition is equivalent also to saying that `Transp(u_1, u_2)` is a torsor under `Centr_G(u_1)`
+(understood: in the sense of the faithfully flat and quasi-compact topology). Finally (iii) ⇒ (i) thanks to the fact
+that `Transp(u_1, u_2)` is smooth over `S` and to "Hensel's lemma" in the form 1.10.
 
 **Remark 5.5.** For `u_1 = u : H → G` fixed, the functor `(Sch)°/S → (Ens)` which associates to every `T` over `S` the
 set of homomorphisms of `T`-groups `u_2 : H_T → G_T` which are conjugate to `u_T : H_T → G_T` locally for the étale
@@ -1283,10 +1278,9 @@ topology, is precisely representable by the open of `M`, isomorphic to `G/Centr_
 
 <!-- label: III.XI.5.5 -->
 
-Let us sketch the variants of the preceding results, obtained by application of 4.1 instead of 4.2. Let therefore `G`
-be a prescheme in groups smooth and affine over `S`, and let us now denote by `M` the `S`-prescheme smooth, separated
-over `S`, <!-- original page 167 --> which represents the functor envisaged in 4.1. One has again operations of `G`
-on `M`:
+Let us sketch the variants of the preceding results, obtained by application of 4.1 instead of 4.2. Let therefore `G` be
+a prescheme in groups smooth and affine over `S`, and let us now denote by `M` the `S`-prescheme smooth, separated over
+`S`, <!-- original page 167 --> which represents the functor envisaged in 4.1. One has again operations of `G` on `M`:
 
 ```text
 (g, H) ⟼ int(g)(H),
@@ -1340,23 +1334,23 @@ finite type `Norm_G(H_1)`.*
 
 <!-- label: III.XI.5.5bis -->
 
-**Remark 5.6.** Note that to establish the result 5.2, and consequently also the first assertion in 5.3, as well as
-5.4, the reference to 4.2 can be replaced by a reference to VIII, 6.4, whose proof is much easier. This shows also
-that the hypothesis `G` affine over `S` is unnecessary there. Moreover, in N° 6, we shall show how a variant of this
-method permits extending these results to the case of certain groups `H` more general than groups of multiplicative
-type. These same observations extend to the variants 5.2 bis etc. On the other hand, the result 5.8 that follows uses
-in an essential way all the hypotheses made (notably `G` affine and smooth over `S`, `H` of multiplicative type), and
-the lecturer knows of no other proof of it than via the representability theorems 4.1 or 4.2[^XI-5-1].
+**Remark 5.6.** Note that to establish the result 5.2, and consequently also the first assertion in 5.3, as well as 5.4,
+the reference to 4.2 can be replaced by a reference to VIII, 6.4, whose proof is much easier. This shows also that the
+hypothesis `G` affine over `S` is unnecessary there. Moreover, in N° 6, we shall show how a variant of this method
+permits extending these results to the case of certain groups `H` more general than groups of multiplicative type. These
+same observations extend to the variants 5.2 bis etc. On the other hand, the result 5.8 that follows uses in an
+essential way all the hypotheses made (notably `G` affine and smooth over `S`, `H` of multiplicative type), and the
+lecturer knows of no other proof of it than via the representability theorems 4.1 or 4.2[^XI-5-1].
 
 <!-- label: III.XI.5.6 -->
 
 **5.7.** Since the morphism `(×)` resp. `(× bis)` is smooth hence open, its image is open. Let `R` be this image,
-equipped with the structure induced by `M ×_S M`; one easily verifies that `R` is an equivalence relation in `M`,
-which is none other moreover than the one made explicit in 5.4 resp. 5.4 bis. It would be interesting to know whether
-the quotient sheaf `M/R` (which is formally étale over `S`) is representable (it is then representable by a prescheme
-étale over `S`); it is so for example when `S` is the spectrum of a field. One will note moreover that `R` may not be
-closed in `M ×_S M` (even when `G` is quasi-finite over `S`…), which means (when `M/R` is representable) that `M/R` is
-then not separated over `S`.
+equipped with the structure induced by `M ×_S M`; one easily verifies that `R` is an equivalence relation in `M`, which
+is none other moreover than the one made explicit in 5.4 resp. 5.4 bis. It would be interesting to know whether the
+quotient sheaf `M/R` (which is formally étale over `S`) is representable (it is then representable by a prescheme étale
+over `S`); it is so for example when `S` is the spectrum of a field. One will note moreover that `R` may not be closed
+in `M ×_S M` (even when `G` is quasi-finite over `S`…), which means (when `M/R` is representable) that `M/R` is then not
+separated over `S`.
 
 <!-- label: III.XI.5.7 -->
 
@@ -1365,14 +1359,14 @@ original page 169 -->
 
 <!-- label: III.XI.5.8 -->
 
-*a) For every multiplicative-type subgroup `H^0` of `G_s`, there exists an étale morphism `S′ → S`, a point `s′` of
-`S′` above `s` such that the residue extension `κ(s′)/κ(s)` be trivial, and a multiplicative-type subgroup `H′` of
+*a) For every multiplicative-type subgroup `H^0` of `G_s`, there exists an étale morphism `S′ → S`, a point `s′` of `S′`
+above `s` such that the residue extension `κ(s′)/κ(s)` be trivial, and a multiplicative-type subgroup `H′` of
 `G′ = G ×_S S′`, such that `H′_{s′} = H^0 ⊗_{κ(s)} κ(s′)`.*
 
 *b) For every group homomorphism `u^0 : H_s → G_s`, where `H` is an `S`-prescheme in groups of multiplicative type and
-of finite type, there exists an étale morphism `S′ → S`, a point `s′` of `S′` above `s` such that the residue
-extension `κ(s′)/κ(s)` be trivial, and a group homomorphism `u′ : H′ → G′`, such that
-`u′_{s′} : H′_{s′} → G′_{s′}` be equal to `u^0 ⊗_{κ(s)} κ(s′)`.*
+of finite type, there exists an étale morphism `S′ → S`, a point `s′` of `S′` above `s` such that the residue extension
+`κ(s′)/κ(s)` be trivial, and a group homomorphism `u′ : H′ → G′`, such that `u′_{s′} : H′_{s′} → G′_{s′}` be equal to
+`u^0 ⊗_{κ(s)} κ(s′)`.*
 
 This results from 4.1 resp. 4.2, and from Hensel's lemma in the form 1.10.
 
@@ -1395,12 +1389,12 @@ Consider indeed the evident homomorphism
 θ : Norm_G(H) ⟶ Aut_{S-gr.}(H),
 ```
 
-whose kernel is by definition `Centr_G(H)`. As `Aut_{S-gr.}(H)` is representable by an `S`-prescheme in groups étale
-and separated over `S` (X 5.10), its unit section is an open and closed immersion, <!-- original page 170 --> hence
-its inverse image under `θ` is an open and closed subgroup of `Norm_G(H)`. I say moreover that `θ` is a smooth
-morphism: this indeed results formally from the definitions, and from the fact that `Norm_G(H)` is smooth over `S` and
-`Aut_{S-gr.}(H)` is étale over `S`. One concludes as in 5.3 that the image of `θ` is an open `U` of `Aut_{S-gr.}(H)`
-and that, equipped with the induced structure, `U` represents the quotient sheaf `Norm_G(H)/Centr_G(H)`. This latter is
+whose kernel is by definition `Centr_G(H)`. As `Aut_{S-gr.}(H)` is representable by an `S`-prescheme in groups étale and
+separated over `S` (X 5.10), its unit section is an open and closed immersion, <!-- original page 170 --> hence its
+inverse image under `θ` is an open and closed subgroup of `Norm_G(H)`. I say moreover that `θ` is a smooth morphism:
+this indeed results formally from the definitions, and from the fact that `Norm_G(H)` is smooth over `S` and
+`Aut_{S-gr.}(H)` is étale over `S`. One concludes as in 5.3 that the image of `θ` is an open `U` of `Aut_{S-gr.}(H)` and
+that, equipped with the induced structure, `U` represents the quotient sheaf `Norm_G(H)/Centr_G(H)`. This latter is
 therefore étale and separated over `S` since `Aut_{S-gr.}(H)` is, and it is quasi-finite over `S`, being quasi-compact
 over `S` as image of `Norm_G(H)` which is. This completes the proof of 5.9.
 
@@ -1411,15 +1405,15 @@ w(s) = rank Norm_{G_s}(H_s)/Centr_{G_s}(H_s)
 ```
 
 *(which is also the index of `Centr_{G(k̄)}(H(k̄))` in `Norm_{G(k̄)}(H(k̄))`, where `k̄` is an algebraic closure of
-`κ(s)`). Then the function `s ↦ w(s)` is lower semicontinuous. For it to be constant in a neighborhood of the point
-`s`, it is necessary and sufficient that `W_G(H)` be finite over `S` in a neighborhood of `s`.*
+`κ(s)`). Then the function `s ↦ w(s)` is lower semicontinuous. For it to be constant in a neighborhood of the point `s`,
+it is necessary and sufficient that `W_G(H)` be finite over `S` in a neighborhood of `s`.*
 
 <!-- label: III.XI.5.10 -->
 
-Indeed, for every `S`-prescheme `W` which is étale, of finite type and separated over `S`, it is true that the
-function `s ↦ w(s) = rank [W_s : κ(s)]` is lower semicontinuous, and that it is constant in a neighborhood of the
-point `s` if and only if `W` is finite over `S` in a neighborhood of `s` (a fact pointed out in SGA 1, I 10.9, and
-whose proof, which offers no difficulty, will be found in EGA IV[^XI-5-2]).
+Indeed, for every `S`-prescheme `W` which is étale, of finite type and separated over `S`, it is true that the function
+`s ↦ w(s) = rank [W_s : κ(s)]` is lower semicontinuous, and that it is constant in a neighborhood of the point `s` if
+and only if `W` is finite over `S` in a neighborhood of `s` (a fact pointed out in SGA 1, I 10.9, and whose proof, which
+offers no difficulty, will be found in EGA IV[^XI-5-2]).
 
 **Remark 5.11.**[^N.D.E-XI-5] Let `G` be a prescheme in groups affine and smooth over `S`, `H` a multiplicative-type
 subgroup; then 5.3 and 5.3 bis imply that the quotients
@@ -1429,8 +1423,8 @@ G/Centr_G(H) and G/Norm_G(H)
 ```
 
 are preschemes smooth over `S` and quasi-affine over `S`, since in both cases, the modular prescheme `M` in which the
-quotient is embedded is such that every open `U` of `M` quasi-compact over `S` is quasi-affine over `S` (3.11). We
-shall see moreover in the following Exposé [^N.D.E-XI-6] that for every `U` as above, the schematic closure `Ū` <!--
+quotient is embedded is such that every open `U` of `M` quasi-compact over `S` is quasi-affine over `S` (3.11). We shall
+see moreover in the following Exposé [^N.D.E-XI-6] that for every `U` as above, the schematic closure `Ū` <!--
 original page 171 --> of `U` in `M` is even affine over `S`, which shows that the quotients envisaged are affine over
 `S` provided the open `U` in the corresponding modular scheme (of homomorphisms of group from `H` to `G`, resp. of
 multiplicative-type subgroups of `G`) is closed in `M`. This is for example the case if `H` is a "maximal torus" in the
@@ -1451,8 +1445,8 @@ satisfied:*
 
 *b) For every `s ∈ S`, the family of the `ₙH_s` (`n ∈ E`) is schematically dense in `H`.*
 
-*Let `Y` be a closed subprescheme of `H`. Then the subfunctor `∏_{H/S} Y/H` of `S` (compare VIII, 6) is representable
-by a closed subprescheme `T` of `S`, and if `S` is noetherian, there exists an `n ∈ E` such that*
+*Let `Y` be a closed subprescheme of `H`. Then the subfunctor `∏_{H/S} Y/H` of `S` (compare VIII, 6) is representable by
+a closed subprescheme `T` of `S`, and if `S` is noetherian, there exists an `n ∈ E` such that*
 
 ```text
 (×)    ∏_{H/S} Y/H = ∏_{ₙH/S} Y ∩ ₙH/S.
@@ -1460,22 +1454,21 @@ by a closed subprescheme `T` of `S`, and if `S` is noetherian, there exists an `
 
 <!-- label: eq:III.XI.6.1-cross -->
 
-Indeed, by virtue of VIII 6.4, as by condition a) `ₙH` is finite and flat and a fortiori "essentially free" over `S`,
-it follows that the second member of `(×)` is representable <!-- original page 172 --> by a closed subprescheme `T_n`
-of `T`. Of course, for `n ∈ E`, with `E` ordered by divisibility, the `T_n` form a decreasing family of closed
+Indeed, by virtue of VIII 6.4, as by condition a) `ₙH` is finite and flat and a fortiori "essentially free" over `S`, it
+follows that the second member of `(×)` is representable <!-- original page 172 --> by a closed subprescheme `T_n` of
+`T`. Of course, for `n ∈ E`, with `E` ordered by divisibility, the `T_n` form a decreasing family of closed
 subpreschemes of `S`, hence if `S` is noetherian (which we may suppose) it is stationary for `n` large. Let `T` be the
-value of `T_n` for `n` large; I say that `T` indeed represents the first member of `(×)`, which will complete the
-proof. One is reduced to proving that if `S′` is a prescheme over `S` such that `(Y ∩ ₙH)_{S′} = (ₙH)_{S′}` for every
-`n ∈ E`, i.e. such that `Y_{S′} ⊃ ₙH_{S′}` for every `n ∈ E`, then `Y_{S′} = H_{S′}`. Now this is indeed the case, for
-by virtue of IX 4.4 the family of the `ₙH_{S′}` is schematically dense in `H_{S′}`, taking conditions a) and b) into
-account.
+value of `T_n` for `n` large; I say that `T` indeed represents the first member of `(×)`, which will complete the proof.
+One is reduced to proving that if `S′` is a prescheme over `S` such that `(Y ∩ ₙH)_{S′} = (ₙH)_{S′}` for every `n ∈ E`,
+i.e. such that `Y_{S′} ⊃ ₙH_{S′}` for every `n ∈ E`, then `Y_{S′} = H_{S′}`. Now this is indeed the case, for by virtue
+of IX 4.4 the family of the `ₙH_{S′}` is schematically dense in `H_{S′}`, taking conditions a) and b) into account.
 
 **Theorem 6.2.** *Let `S` be a prescheme, `H, E` as in 6.1 satisfying conditions a), b), `u : H → G` a homomorphism of
 `S`-groups from `H` to an `S`-prescheme in groups locally of finite type over `S`, finally `K` a closed subprescheme in
 groups of `H`. Consider the subfunctor `Transp_G(u, K)` of `G` (cf. 2.5). Then this last is representable by a closed
-subprescheme of `G`, and if `G` is noetherian (for example `S` noetherian and `G` of finite type over `S`), there
-exists an integer `n ∈ E` such that `Transp_G(u, K) = Transp_G(u|_{ₙH}, K)`. If finally `G` is smooth over `S`, and `K`
-smooth over `S` or of multiplicative type, and if `H, E` satisfy the following condition stronger than a):*
+subprescheme of `G`, and if `G` is noetherian (for example `S` noetherian and `G` of finite type over `S`), there exists
+an integer `n ∈ E` such that `Transp_G(u, K) = Transp_G(u|_{ₙH}, K)`. If finally `G` is smooth over `S`, and `K` smooth
+over `S` or of multiplicative type, and if `H, E` satisfy the following condition stronger than a):*
 
 <!-- label: III.XI.6.2 -->
 
@@ -1491,13 +1484,14 @@ H_G = H ×_S G ⟶ G
 ```
 
 <!-- original page 173 --> defined by `(h, g) ↦ int(g) · u(h)`. Then `Transp_G(u, K)` is none other than
-`∏_{H_G/G} Y/H_G` (compare VIII, examples 6.5 e)). Hence the first assertions result from 6.1, and moreover, one sees
-that for every quasi-compact open `U` of `G`, there exists `n ∈ E` such that `Transp_G(u, K)` and
-`Transp_G(u|_{ₙH}, K)` have the same trace on `U`. To verify the last assertion of 6.2, one can therefore replace `H`
-by an `ₙH`, and then it suffices to apply 2.5, which applies since `ₙH` is supposed of multiplicative type over `S`.
 
-**Remark 6.3.** The preceding proof uses only the very elementary result VIII 6.4, and moreover (for the last part)
-2.5, that is, when `K` is smooth over `S`, the infinitesimal result IX 3.6, hence the vanishing of the cohomology of
+`∏_{H_G/G} Y/H_G` (compare VIII, examples 6.5 e)). Hence the first assertions result from 6.1, and moreover, one sees
+that for every quasi-compact open `U` of `G`, there exists `n ∈ E` such that `Transp_G(u, K)` and `Transp_G(u|_{ₙH}, K)`
+have the same trace on `U`. To verify the last assertion of 6.2, one can therefore replace `H` by an `ₙH`, and then it
+suffices to apply 2.5, which applies since `ₙH` is supposed of multiplicative type over `S`.
+
+**Remark 6.3.** The preceding proof uses only the very elementary result VIII 6.4, and moreover (for the last part) 2.5,
+that is, when `K` is smooth over `S`, the infinitesimal result IX 3.6, hence the vanishing of the cohomology of
 multiplicative-type groups. One will note that in the most important cases (cf. 6.7) one can suppose even the `n ∈ E`
 prime to the residual characteristics of `S`, i.e. invertible in `O_S`, hence the `ₙH` finite étale over `S`, and then
 the cohomological result invoked is practically trivial, so that 6.2 is then independent of the theory of
@@ -1507,20 +1501,20 @@ multiplicative-type groups.
 
 **6.4.** One sees as usual that 6.1 extends to the case where one has an `S`-prescheme `S′` over `S` (not necessarily
 locally noetherian), and a closed subprescheme `Y′` of `H′ = H_{S′}`, provided that `Y′ → H′` is of finite presentation
-i.e. the ideal defining `Y′` is of finite type: then `∏_{H′/S′} Y′/H′` is representable by a closed subprescheme `T′`
-of `S′`, such that `T′ → S′` is of finite presentation, and if `S′` is quasi-compact, there exists `n ∈ E` such that
-the relation analogous to `(×)` is valid. It follows also that the first statement in 6.2 is valid without supposing
-`G` locally of finite type over `S`, provided that the immersion `K → G` is of finite presentation.
+i.e. the ideal defining `Y′` is of finite type: then `∏_{H′/S′} Y′/H′` is representable by a closed subprescheme `T′` of
+`S′`, such that `T′ → S′` is of finite presentation, and if `S′` is quasi-compact, there exists `n ∈ E` such that the
+relation analogous to `(×)` is valid. It follows also that the first statement in 6.2 is valid without supposing `G`
+locally of finite type over `S`, provided that the immersion `K → G` is of finite presentation.
 
 <!-- label: III.XI.6.4 -->
 
 **6.5.** As announced in 5.6, theorem 6.2 permits extending to the preschemes in groups satisfying a′) and b) above,
 certain results established by another method and under more restrictive conditions for groups of multiplicative type.
 This is the case for results 5.2, for the beginning of 5.3, for 5.4, and for the bis variants of the preceding results
-5.9 and 5.10. <!-- original page 174 --> This is also the case for the results of IX, N°s 5 and 6, with the exclusion
-of IX 6.8 (already false for a homomorphism of abelian schemes `u : H → G`, over the spectrum `S` of a discrete
-valuation ring with residue characteristic `p > 0`: it can happen that `Ker u` have as generic fiber the unit group,
-and as special fiber a radicial group not reduced to the unit group).
+5.9 and 5.10. <!-- original page 174 --> This is also the case for the results of IX, N°s 5 and 6, with the exclusion of
+IX 6.8 (already false for a homomorphism of abelian schemes `u : H → G`, over the spectrum `S` of a discrete valuation
+ring with residue characteristic `p > 0`: it can happen that `Ker u` have as generic fiber the unit group, and as
+special fiber a radicial group not reduced to the unit group).
 
 <!-- label: III.XI.6.5 -->
 
@@ -1533,16 +1527,16 @@ abelian varieties, while the theory of moduli for groups of multiplicative type 
 this infinitesimal difference is that if `H` is an abelian scheme over `S` locally noetherian, and `G` is an
 `S`-prescheme in groups commutative locally of finite type over `S`, then one can show that `Hom_{S-gr.}(H, G)` is
 representable by a prescheme locally of finite type over `S`, but contrary to what happens for `H` of multiplicative
-type, this prescheme is not étale over `S`, but only unramified over `S`. Thus, if `S` is for example the spectrum of
-a complete discrete valuation ring, `H` and `G` abelian schemes over `S`, there can exist homomorphisms `H_0 → G_0` on
-the special fibers which do not come "by specialization" from a homomorphism on the generic fibers.
+type, this prescheme is not étale over `S`, but only unramified over `S`. Thus, if `S` is for example the spectrum of a
+complete discrete valuation ring, `H` and `G` abelian schemes over `S`, there can exist homomorphisms `H_0 → G_0` on the
+special fibers which do not come "by specialization" from a homomorphism on the generic fibers.
 
 <!-- label: III.XI.6.6 -->
 
-**6.7.** Theorem 6.2 applies whenever `H` is an abelian scheme over `S`, or more generally an extension of such a
-scheme by a torus. Indeed, the question being local on `S`, one may suppose that there exists a prime number `ℓ`
-prime to the residue characteristics of `S`, <!-- original page 175 --> and one sees that it then suffices to take for
-`E` the set of powers of `ℓ` to satisfy conditions a′) and b).
+**6.7.** Theorem 6.2 applies whenever `H` is an abelian scheme over `S`, or more generally an extension of such a scheme
+by a torus. Indeed, the question being local on `S`, one may suppose that there exists a prime number `ℓ` prime to the
+residue characteristics of `S`, <!-- original page 175 --> and one sees that it then suffices to take for `E` the set of
+powers of `ℓ` to satisfy conditions a′) and b).
 
 <!-- label: III.XI.6.7 -->
 
@@ -1554,25 +1548,25 @@ is of finite presentation over `X`, then `T` is of finite presentation over `S`.
 
 <!-- label: III.XI.6.8 -->
 
-As `f : X → S` is faithfully flat locally of finite presentation, it is covering for the fpqc topology. As on the
-other hand `T = ∏_{X/S} Y/X` is evidently a subsheaf of `S` (for the fpqc topology), it follows that the question of
+As `f : X → S` is faithfully flat locally of finite presentation, it is covering for the fpqc topology. As on the other
+hand `T = ∏_{X/S} Y/X` is evidently a subsheaf of `S` (for the fpqc topology), it follows that the question of
 representability of `T` by a closed subprescheme of `S` is of local nature on `S` for the fpqc topology, and the same
-holds for the question of deciding whether `T` is of finite presentation over `S`. Doing then the base change
-`S′ → S`, with `S′ = X`, one is reduced to the case where `X` admits a section `e` over `S`. One may moreover suppose
-`S` affine and a fortiori quasi-compact. One then has:
+holds for the question of deciding whether `T` is of finite presentation over `S`. Doing then the base change `S′ → S`,
+with `S′ = X`, one is reduced to the case where `X` admits a section `e` over `S`. One may moreover suppose `S` affine
+and a fortiori quasi-compact. One then has:
 
-**Corollary 6.9.** *Under the conditions of 6.8, suppose that `S` be quasi-compact and that `X` admit a section `e`
-over `S`. Let, for every integer `n ⩾ 0`, `X_n` be the subprescheme of `X`, infinitesimal neighborhood of order `n` of
-the section `e`. Suppose `Y` of finite presentation over `X`. Then there exists an integer `n ⩾ 0` such that one has
+**Corollary 6.9.** *Under the conditions of 6.8, suppose that `S` be quasi-compact and that `X` admit a section `e` over
+`S`. Let, for every integer `n ⩾ 0`, `X_n` be the subprescheme of `X`, infinitesimal neighborhood of order `n` of the
+section `e`. Suppose `Y` of finite presentation over `X`. Then there exists an integer `n ⩾ 0` such that one has
 `∏_{X/S} Y/X = ∏_{X_n/S} Y_n/X_n` (where `Y_n = Y ∩ X_n`).*
 
 <!-- label: III.XI.6.9 -->
 
-This corollary indeed implies 6.8 when `Y` is of finite presentation over `X`, thanks to VIII 6.4: for, `X` being
-smooth over `S`, `X_n` is finite and locally free over `S` and a fortiori is "essentially free" over `S` in the sense
-of VIII 6.1, hence `∏_{X_n/S} Y_n/X_n` is representable by a closed subprescheme of `S`. Moreover, the proof of loc.
-cit., or the reduction to the noetherian case, <!-- original page 176 --> immediately shows us that the said closed
-subprescheme of `S` is of finite presentation over `S`.
+This corollary indeed implies 6.8 when `Y` is of finite presentation over `X`, thanks to VIII 6.4: for, `X` being smooth
+over `S`, `X_n` is finite and locally free over `S` and a fortiori is "essentially free" over `S` in the sense of VIII
+6.1, hence `∏_{X_n/S} Y_n/X_n` is representable by a closed subprescheme of `S`. Moreover, the proof of loc. cit., or
+the reduction to the noetherian case, <!-- original page 176 --> immediately shows us that the said closed subprescheme
+of `S` is of finite presentation over `S`.
 
 Let us prove first 6.9, hence 6.8, when `S` is noetherian. Let `T_n = ∏_{X_n/S} Y_n/X_n`. Then the `T_n` form a
 decreasing sequence of closed subpreschemes of `S`, and `S` being noetherian, this sequence is stationary. Let
@@ -1581,32 +1575,31 @@ establish that one has `R ⊂ T`. Doing the base change `R → S`, one is reduce
 `Y_n = X_n` for every `n` i.e. `Y ⊃ X_n` for every `n`, and to prove then `T = S` i.e. `Y = X`. Now `Y ⊃ X_n` for every
 `n` implies (thanks to the fact that `X` is locally noetherian) that `Y` is, in a neighborhood of each point of `e(S)`,
 an induced open subprescheme of `X`, hence there exists an induced open `U` of `X`, containing `e(S)`, such that
-`U ⊂ Y`. By virtue of IX 4.3, the fibers of `X/S` being integral, `U` is schematically dense in `X`, hence (`Y` being
-a closed subprescheme majorizing `U`) one has `Y = X`. This proves 6.9, hence 6.8, in this case.
+`U ⊂ Y`. By virtue of IX 4.3, the fibers of `X/S` being integral, `U` is schematically dense in `X`, hence (`Y` being a
+closed subprescheme majorizing `U`) one has `Y = X`. This proves 6.9, hence 6.8, in this case.
 
 The general case proceeds by reduction to the preceding case. For every `s ∈ S`, there exists an affine open
 neighborhood `U` of `s` and an affine open neighborhood `V` of `e(s)` such that `f(V) ⊂ U`. Then `f(V)` is an open
-neighborhood of `s` contained in `U`, and if `S_0` is an affine open neighborhood of `s` contained in
-`e⁻¹(V) ∩ f(V)`, and `X_0 = V ∩ f⁻¹(S_0)`, then `X_0` and `S_0` are affine opens of `X` resp. `S`, and `X_0/S_0`
-admits a section. Because of the local nature of 6.8 and 6.9, one may suppose `S = S_0`. I say that one then has
-`∏_{X/S} Y/X = ∏_{X_0/S_0} Y_0/X_0`, where `Y_0 = Y ∩ X_0`; indeed, by virtue of IX 4.6, `X_0` is schematically dense
-in `X` (at least when `X` is quasi-separated over `S` so that `X_0` is retrocompact in `X`; but in fact one can show
+neighborhood of `s` contained in `U`, and if `S_0` is an affine open neighborhood of `s` contained in `e⁻¹(V) ∩ f(V)`,
+and `X_0 = V ∩ f⁻¹(S_0)`, then `X_0` and `S_0` are affine opens of `X` resp. `S`, and `X_0/S_0` admits a section.
+Because of the local nature of 6.8 and 6.9, one may suppose `S = S_0`. I say that one then has
+`∏_{X/S} Y/X = ∏_{X_0/S_0} Y_0/X_0`, where `Y_0 = Y ∩ X_0`; indeed, by virtue of IX 4.6, `X_0` is schematically dense in
+`X` (at least when `X` is quasi-separated over `S` so that `X_0` is retrocompact in `X`; but in fact one can show
 without difficulty that IX 4.6 remains valid without the retrocompactness hypothesis), and likewise for every base
 change `S_1 → S`, `X_0 ×_S S_1` is schematically dense in `X ×_S S_1`, whence at once the announced equality. This
 reduces us to the case where `X = X_0`, so one may suppose `S` and `X` affine. <!-- original page 177 --> Moreover, if
 `X = Spec(B)` and if `J` is the ideal of `B` which defines `Y`, `J` is the inductive limit of its sub-ideals of finite
 type, hence `Y` is the intersection of closed subpreschemes `Y_i` of `X` which are of finite presentation over `S`, and
 consequently `∏_{X/S} Y/X = ⋂_i ∏_{X/S} Y_i/X`, which reduces us, to prove 6.8, to the case where `Y` is of finite
-presentation over `X`. It then suffices to prove 6.9 with `S` and `X` affine. But then `X` and `Y` over `S` come by
-base change `S → S_0` from an analogous situation `X_0` and `Y_0` over `S_0`, with `S_0` noetherian, which reduces us
-to the case where `S` is noetherian, which has already been treated. This completes the proof of 6.8 and 6.9.
+presentation over `X`. It then suffices to prove 6.9 with `S` and `X` affine. But then `X` and `Y` over `S` come by base
+change `S → S_0` from an analogous situation `X_0` and `Y_0` over `S_0`, with `S_0` noetherian, which reduces us to the
+case where `S` is noetherian, which has already been treated. This completes the proof of 6.8 and 6.9.
 
 **Corollary 6.10.** *Let `X` be an `S`-prescheme in groups smooth of finite presentation, with connected fibers, `Y` a
 prescheme in groups of finite presentation over `S`, `i : Y → X` a monomorphism of `S`-preschemes in groups, making `Y`
-therefore a subgroup of `X`. Then `∏_{X/S} Y/X` is representable by a closed subprescheme of finite presentation of
-`S`. If `S` is quasi-compact, denoting for every integer `n ⩾ 0` by `X_n` the infinitesimal neighborhood of order `n`
-of the unit section of `X`, and setting `Y_n = X_n ∩ Y`, one has for `n` large enough:
-`∏_{X/S} Y/X = ∏_{X_n/S} Y_n/X_n`.*
+therefore a subgroup of `X`. Then `∏_{X/S} Y/X` is representable by a closed subprescheme of finite presentation of `S`.
+If `S` is quasi-compact, denoting for every integer `n ⩾ 0` by `X_n` the infinitesimal neighborhood of order `n` of the
+unit section of `X`, and setting `Y_n = X_n ∩ Y`, one has for `n` large enough: `∏_{X/S} Y/X = ∏_{X_n/S} Y_n/X_n`.*
 
 <!-- label: III.XI.6.10 -->
 
@@ -1616,10 +1609,10 @@ injection `Y_n → X_n` is proper, hence, being a monomorphism of finite present
 Consequently, by virtue of VIII 6.4 already used, `∏_{X_n/S} Y_n/X_n` is representable by a closed subprescheme of `S`
 of finite presentation over `S`, and it remains therefore to prove the last assertion of 6.10 in the case where one
 supposes moreover `S` affine. One reduces immediately again to the case where `S` is noetherian, and one is reduced to
-proving that one then has `R = T` (with the notation of the proof of 6.9), or again that `Y ⊃ X_n` for every `n`
-implies `Y = X`. Now the hypothesis implies that `i : Y → X` is étale at the points of the unit section of `Y` over
-`S`, hence `Y` is smooth over `S` at the points of the unit section, whence it follows that the open `Y_0` of points of
-`Y` at which `Y` is smooth <!-- original page 178 --> over `S` is an induced open subgroup of `Y`. Then `Y_0 → X` is a
+proving that one then has `R = T` (with the notation of the proof of 6.9), or again that `Y ⊃ X_n` for every `n` implies
+`Y = X`. Now the hypothesis implies that `i : Y → X` is étale at the points of the unit section of `Y` over `S`, hence
+`Y` is smooth over `S` at the points of the unit section, whence it follows that the open `Y_0` of points of `Y` at
+which `Y` is smooth <!-- original page 178 --> over `S` is an induced open subgroup of `Y`. Then `Y_0 → X` is a
 monomorphism étale by virtue of X 3.5, hence an open immersion; now the fibers of `X` being connected and every open
 subgroup of an algebraic group being also closed, it follows that this is a surjective open immersion i.e. an
 isomorphism. Hence `Y_0 = X` and a fortiori `Y = X`, which completes the proof of 6.10.
@@ -1645,61 +1638,23 @@ Norm_G(H) = Norm_G(H_n)
 Transp_G(H, K) = Transp_G(H_n, K) = Transp_G(H_n, K_n).
 ```
 
-One applies 6.10 to the prescheme in groups `X = H_G = H ×_S G` above the base prescheme `G`, and to the subprescheme
-in groups `Y` inverse image of the diagonal subgroup of `(G ×_S G)_G` over `G` by a suitable homomorphism of `G`-groups
-of `X` into `(G ×_S G)_G` (in the case of `Centr`), resp. the inverse image of `K_G` by a suitable homomorphism of
-`G`-groups of `X` into `G_G` (in the case of `Transp`). The case of `Norm` reduces to the transporter by taking
-`K = H`, the hypothesis on `G` ensuring that `H → G` is of finite presentation (hence `Y → X` is of finite
-presentation); <!-- original page 179 --> in the case of `Centr`, the hypothesis made on `G` ensures that the diagonal
-group of `G ×_S G` is of finite presentation over `G ×_S G`, whence again the fact that `Y` is of finite presentation
-over `X`.
+One applies 6.10 to the prescheme in groups `X = H_G = H ×_S G` above the base prescheme `G`, and to the subprescheme in
+groups `Y` inverse image of the diagonal subgroup of `(G ×_S G)_G` over `G` by a suitable homomorphism of `G`-groups of
+`X` into `(G ×_S G)_G` (in the case of `Centr`), resp. the inverse image of `K_G` by a suitable homomorphism of
+`G`-groups of `X` into `G_G` (in the case of `Transp`). The case of `Norm` reduces to the transporter by taking `K = H`,
+the hypothesis on `G` ensuring that `H → G` is of finite presentation (hence `Y → X` is of finite presentation);
+    <!-- original page 179 --> in the case of `Centr`, the hypothesis made on `G` ensures that the diagonal group of
+`G ×_S G` is of finite presentation over `G ×_S G`, whence again the fact that `Y` is of finite presentation over `X`.
 
 **Remark 6.12.** One can prove (using rather delicate results of EGA VI[^XI-6-1]) that if `X` is a prescheme flat of
 finite presentation over `S`, which is proper over `S` or with non-empty connected geometric fibers, then for every
-closed subprescheme `Y` of `X` of finite presentation over `S`, `∏_{X/S} Y/X` is representable by a closed
-subprescheme of `S` of finite presentation over `S`. Likewise, if `X` is an `S`-prescheme in groups flat of finite
-presentation with connected fibers, and `i : Y → X` a monomorphism of `S`-groups, with `Y` an `S`-prescheme in groups
-of finite presentation, then `∏_{X/S} Y/X` is representable by a closed subprescheme of `S` of finite presentation
-over `S`. In particular, 6.11 a) remains valid by replacing the hypothesis "`H` smooth over `S`" by "`H` flat over
-`S`".
+closed subprescheme `Y` of `X` of finite presentation over `S`, `∏_{X/S} Y/X` is representable by a closed subprescheme
+of `S` of finite presentation over `S`. Likewise, if `X` is an `S`-prescheme in groups flat of finite presentation with
+connected fibers, and `i : Y → X` a monomorphism of `S`-groups, with `Y` an `S`-prescheme in groups of finite
+presentation, then `∏_{X/S} Y/X` is representable by a closed subprescheme of `S` of finite presentation over `S`. In
+particular, 6.11 a) remains valid by replacing the hypothesis "`H` smooth over `S`" by "`H` flat over `S`".
 
 <!-- label: III.XI.6.12 -->
-
-[^XI-5-1]: The situation has changed since the writing of this text, cf. XV and XIX N° 6.
-
-[^XI-6-0]: The present N° does not use the results of N°s 3, 4, 5; its natural place would be in VI_B.
-
-[^XI-6-1]: Cf. also J.P. Murre, *Representation of unramified functors. Applications*, Sém. Bourbaki N° 294 (May 1965),
-    th. 3 (p. 13).
-
-[^XI-4-1]: It is in fact proved for `G` flat and quasi-affine over `S` with connected fibers, provided one restricts to
-    the central subtori of `G` (XV 8.8).
-
-[^XI-4-2]: *Translator's note:* the French *tapis* is the standard SGA idiom for an underlying body of foundational
-    results that one rolls out; "the general machinery of EGA IV §8" would be an equivalent rendering.
-
-[^XI-5-2]: EGA IV 15.5.1 and 18.10.7.
-
-[^N.D.E-XI-1]: *N.D.E.* "Residual extension" has been replaced by "residue field".
-
-[^N.D.E-XI-2]: *N.D.E.* contravariant.
-
-[^N.D.E-XI-3]: *N.D.E.* Reference to verify/make precise.
-
-[^N.D.E-XI-4]: *N.D.E.* In the case `H` smooth (not necessarily affine) over a normal locally noetherian base `S`,
-    M. Raynaud has shown that the largest representable open of the functor of subtori of `H` is a disjoint sum of
-    smooth and affine opens over `S`. This is theorem IX.9.26 in *Faisceaux amples sur les schémas en groupes et sur
-    les espaces homogènes*, Lecture Notes Maths. 119 (1970).
-
-[^N.D.E-XI-5]: *N.D.E.* For a generalization to the non-affine case, see M. Raynaud, *Faisceaux amples sur les schémas
-    en groupes et les espaces homogènes*, Lecture Notes Math. 119 (1970), IX.2.8.
-
-[^N.D.E-XI-6]: *N.D.E.* Cf. remark XII.5.7. Let us mention here the following generalization. Without an affinity
-    hypothesis on `G`, if `H` is a torus and `S` is locally noetherian, `U` is affine and smooth by a theorem of
-    Raynaud (loc. cit., IX.2.6 and IX.2.8). Indeed, `G/Norm_G(H)` is an open of `M`, and the largest representable
-    open of `M` is a disjoint sum of opens smooth and affine over `S`.
-
-[^N.D.E-XI-7]: *N.D.E.* Under the hypothesis that `G` is of locally constant reductive rank.
 
 <!-- LEDGER DELTA — Exposé XI — for consolidation in Phase 3
 | French | English | Note |
@@ -1785,3 +1740,40 @@ over `S`. In particular, 6.11 a) remains valid by replacing the hypothesis "`H` 
 | sous-préschéma ouvert et fermé | open and closed subprescheme | Standard (clopen). |
 -->
 
+[^XI-1-1]: One will now rather say "net" instead of "unramified".
+
+[^N.D.E-XI-1]: *N.D.E.* "Residual extension" has been replaced by "residue field".
+
+[^N.D.E-XI-2]: *N.D.E.* contravariant.
+
+[^N.D.E-XI-3]: *N.D.E.* Reference to verify/make precise.
+
+[^XI-4-1]: It is in fact proved for `G` flat and quasi-affine over `S` with connected fibers, provided one restricts to
+    the central subtori of `G` (XV 8.8).
+
+[^N.D.E-XI-4]: *N.D.E.* In the case `H` smooth (not necessarily affine) over a normal locally noetherian base `S`, M.
+    Raynaud has shown that the largest representable open of the functor of subtori of `H` is a disjoint sum
+    of smooth and affine opens over `S`. This is theorem IX.9.26 in *Faisceaux amples sur les schémas en
+    groupes et sur les espaces homogènes*, Lecture Notes Maths. 119 (1970).
+
+[^XI-4-2]: *Translator's note:* the French *tapis* is the standard SGA idiom for an underlying body of foundational
+    results that one rolls out; "the general machinery of EGA IV §8" would be an equivalent rendering.
+
+[^XI-5-1]: The situation has changed since the writing of this text, cf. XV and XIX N° 6.
+
+[^XI-5-2]: EGA IV 15.5.1 and 18.10.7.
+
+[^N.D.E-XI-5]: *N.D.E.* For a generalization to the non-affine case, see M. Raynaud, *Faisceaux amples sur les schémas
+    en groupes et les espaces homogènes*, Lecture Notes Math. 119 (1970), IX.2.8.
+
+[^N.D.E-XI-6]: *N.D.E.* Cf. remark XII.5.7. Let us mention here the following generalization. Without an affinity
+    hypothesis on `G`, if `H` is a torus and `S` is locally noetherian, `U` is affine and smooth by a theorem
+    of Raynaud (loc. cit., IX.2.6 and IX.2.8). Indeed, `G/Norm_G(H)` is an open of `M`, and the largest
+    representable open of `M` is a disjoint sum of opens smooth and affine over `S`.
+
+[^N.D.E-XI-7]: *N.D.E.* Under the hypothesis that `G` is of locally constant reductive rank.
+
+[^XI-6-0]: The present N° does not use the results of N°s 3, 4, 5; its natural place would be in VI_B.
+
+[^XI-6-1]: Cf. also J.P. Murre, *Representation of unramified functors. Applications*, Sém. Bourbaki N° 294 (May 1965),
+    th. 3 (p. 13).

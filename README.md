@@ -1,7 +1,7 @@
 # SGA — English translation
 
-An idiomatic English translation, in Markdown with Unicode mathematics, of the Grothendieck-era *Séminaires de
-Géométrie Algébrique du Bois-Marie*.
+An idiomatic English translation, in Markdown with Unicode mathematics, of the Grothendieck-era *Séminaires de Géométrie
+Algébrique du Bois-Marie*.
 
 ## Volumes
 

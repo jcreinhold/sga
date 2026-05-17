@@ -15,18 +15,17 @@
 <!-- label: III.XVI.1.1 -->
 
 We are going to construct a prescheme `S`, two `S`-group preschemes `G` and `H`, and an `S`-group monomorphism
-`u : G → H` that is not an immersion. The groups `G` and `H` will be of finite presentation over `S`, flat over `S`,
-and `G` will even be smooth over `S` (cf. Exp. VIII, paragraph and footnote (∗) preceding 7.1; see also XVII App. III,
-4).
+`u : G → H` that is not an immersion. The groups `G` and `H` will be of finite presentation over `S`, flat over `S`, and
+`G` will even be smooth over `S` (cf. Exp. VIII, paragraph and footnote (∗) preceding 7.1; see also XVII App. III, 4).
 
 a) Take first for `S` the spectrum of a discrete valuation ring `A`, of unequal characteristic and of residue
 characteristic equal to 2. Let `t` be the generic point of `S` and `s` the closed point. Take for `G` the open subgroup
 of the constant group `G₀ = (ℤ/2ℤ)_S` obtained by removing the point of the closed fiber `(ℤ/2ℤ)_s` distinct from the
 identity element, and take for `H` the group of multiplicative type `(µ₂)_S` of second roots of unity (Exp. I 4.4.4). In
 view of the choice of `S`, `H_t` is isomorphic to `(ℤ/2ℤ)_t` while `H_s` is a radicial group. One has an evident
-morphism `G₀ → H` defined by the section `(−1)` of `H`, whence a morphism `u : G → H` which is a monomorphism but is
-not an immersion (otherwise it would necessarily be an isomorphism (cf. Exp. VIII 7)). Here, Exp. VIII 7.9 does not
-apply, since `₂G = G` is not finite over `S`.
+morphism `G₀ → H` defined by the section `(−1)` of `H`, whence a morphism `u : G → H` which is a monomorphism but is not
+an immersion (otherwise it would necessarily be an isomorphism (cf. Exp. VIII 7)). Here, Exp. VIII 7.9 does not apply,
+since `₂G = G` is not finite over `S`.
 
 b) Denote by `K` the `S`-group prescheme, étale and non-separated, obtained from the unit group <!-- original page 485
 --> by "doubling" the unique point of the closed fiber. Take for `H` the product group `(µ₂)_S ×_S K`. Let `a` (resp.
@@ -67,9 +66,9 @@ equation
 
 <!-- original page 486 -->
 
-Let `N′` and `N″` be two group subschemes of `G₁`, isomorphic to `(ℤ/2ℤ)_S`, whose closed fibers coincide with `N_s`
-and whose generic fibers are distinct. The groups `N′` and `N″` are therefore defined by the data of two sections of
-`G₁` over `S` with coordinates `(a′, b′)` (resp. `(a″, b″)`) such that
+Let `N′` and `N″` be two group subschemes of `G₁`, isomorphic to `(ℤ/2ℤ)_S`, whose closed fibers coincide with `N_s` and
+whose generic fibers are distinct. The groups `N′` and `N″` are therefore defined by the data of two sections of `G₁`
+over `S` with coordinates `(a′, b′)` (resp. `(a″, b″)`) such that
 
 ```text
 (3)    a′² + a′ − πb′ = a″² + a″ − πb″ = 0,
@@ -88,14 +87,14 @@ u : G₁ ⟶ G′ ×_S G″,
 ```
 
 and let `H` be the group subscheme of `G′ ×_S G″` equal to the schematic closure in `G′ ×_S G″` of `u_t((G₁)_t)`, so
-that `u` factors through `H`. The kernel of `u` is `K = N′ ∩ N″`, whose generic fiber is the unit group and whose
-closed fiber is equal to `N_s`; in particular, `K` is not flat over `S`. On the generic fiber, `u_t` is therefore an
+that `u` factors through `H`. The kernel of `u` is `K = N′ ∩ N″`, whose generic fiber is the unit group and whose closed
+fiber is equal to `N_s`; in particular, `K` is not flat over `S`. On the generic fiber, `u_t` is therefore an
 isomorphism of `(G₁)_t` onto `H_t`. On the other hand, I claim that `H_s` is not smooth. Indeed, if `H_s` were smooth,
-then since `u_s` is a morphism with finite kernel and `(G₁)_s` and `H_s` have the same dimension (namely 1), `u_s`
-would be a flat morphism; since `G₁` and `H` are flat, `u` would be a flat morphism and consequently `Ker u` would be
-flat over `S`, which is not the case. It is clear that the restriction of `u` to the connected component `G` of `G₁`
-is a monomorphism (the fibers of `K ∩ G` are unit groups, so `K ∩ G` is the unit group (Exp. VI_B 2.9)), but it is not
-an immersion (otherwise it would be an open immersion and `H_s` would be smooth). <!-- original page 487 --> Here, Exp.
+then since `u_s` is a morphism with finite kernel and `(G₁)_s` and `H_s` have the same dimension (namely 1), `u_s` would
+be a flat morphism; since `G₁` and `H` are flat, `u` would be a flat morphism and consequently `Ker u` would be flat
+over `S`, which is not the case. It is clear that the restriction of `u` to the connected component `G` of `G₁` is a
+monomorphism (the fibers of `K ∩ G` are unit groups, so `K ∩ G` is the unit group (Exp. VI_B 2.9)), but it is not an
+immersion (otherwise it would be an open immersion and `H_s` would be smooth). <!-- original page 487 --> Here, Exp.
 VIII 7.9 does not apply, since `₂G = G` is not finite over `S`.
 
 For lovers of equations, let us say that in the example above one may take for `H` the closed subgroup of
@@ -127,8 +126,8 @@ type, possessing locally for the fpqc topology Cartan subgroups (Exp. XV 6.1 and
 locally of finite type, `u : G → H` an `S`-group monomorphism. Then:*
 
 *a) If `G` has connected fibers, in order that `u` be an immersion, it is necessary and sufficient that for every
-`S`-scheme `S′` which is the spectrum of a complete discrete valuation ring with algebraically closed residue field,
-and for every Cartan subgroup `C` of `G_{S′}`, the restriction of `u_{S′}` to `C` be an immersion.*
+`S`-scheme `S′` which is the spectrum of a complete discrete valuation ring with algebraically closed residue field, and
+for every Cartan subgroup `C` of `G_{S′}`, the restriction of `u_{S′}` to `C` be an immersion.*
 
 *b) In order that `u` be an immersion (resp. a closed immersion), it is necessary and sufficient that for every `S′` as
 above and every Cartan subgroup `C` of the connected component `(G_{S′})⁰` of `G_{S′}`, the restriction of `u_{S′}` to
@@ -142,8 +141,8 @@ Before proving 1.3, let us state some applications.
 
 **Corollary 1.4.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth over `S`, of finite presentation over `S`,
 of zero unipotent rank (Exp. XV 6.1 ter) and possessing locally for the fpqc topology maximal tori, `H` an `S`-group
-prescheme, `u : G → H` an `S`-group monomorphism. Suppose further that either `H` is of finite presentation over `S`,
-or `S` is locally noetherian and `H` locally of finite type. Then:*
+prescheme, `u : G → H` an `S`-group monomorphism. Suppose further that either `H` is of finite presentation over `S`, or
+`S` is locally noetherian and `H` locally of finite type. Then:*
 
 *a) If `G` has connected fibers, `u` is an immersion.*
 
@@ -158,9 +157,9 @@ then `u` is a closed immersion.*
 
 <!-- label: III.XVI.1.4 -->
 
-**Corollary 1.5.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth over `S`, of finite presentation over
-`S`, with connected fibers, `H` an `S`-group prescheme, `u : G → H` an `S`-group monomorphism. Suppose either `H` of
-finite presentation over `S`, or `S` locally noetherian and `H` locally of finite type. Then:*
+**Corollary 1.5.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth over `S`, of finite presentation over `S`,
+with connected fibers, `H` an `S`-group prescheme, `u : G → H` an `S`-group monomorphism. Suppose either `H` of finite
+presentation over `S`, or `S` locally noetherian and `H` locally of finite type. Then:*
 
 <!-- original page 489 -->
 
@@ -185,18 +184,18 @@ u₀ : G₀ ⟶ H₀,
 ```
 
 such that `G`, `H`, `u` are obtained from `G₀`, `H₀`, `u₀` by a base extension `S → S₀`. The fact that `u` is a
-monomorphism translates to `Ker u =` unit group; we may therefore assume that `u₀` is a monomorphism. Since `G` has
-zero unipotent rank `ρ_u` and possesses, locally for the fpqc topology, maximal tori, the abelian rank `ρ_{ab}` of the
-fibers of `G` is locally constant (Exp. XV 8.18). But `ρ_u` and `ρ_{ab}` are locally constructible functions (Exp. XV
-6.3 bis). A standard argument (cf. EGA IV 8.3.4) shows that one may choose `S₀` and `G₀` so that the unipotent rank
-(resp. the abelian rank) of the fibers of `G₀` is zero (resp. locally constant). But then `G₀` possesses locally
-maximal tori for the fpqc topology (Exp. XV 8.18), and <!-- original page 490 --> the functor `𝒯ℳ_{G₀}` of maximal tori
-of `G₀` is representable by an `S₀`-scheme `X₀`, of finite type over `S₀` (Exp. XV 8.15). Let `T₀` be the "universal"
-maximal torus of `(G₀)_{X₀}`, `X` the `S`-prescheme `X₀ ×_{S₀} S`, `T = T₀ ×_{S₀} S` the universal maximal torus for
-`G`. By hypothesis, in case b), the Weyl group relative to `T` is representable and finite over `X`. These two
-properties are compatible with projective limits of preschemes (Exp. VI_B 10.1 iii) and EGA IV 8.10.5). One may
-therefore choose `S₀` so that the Weyl group of `T₀` is finite over `X₀`. Under these conditions it is clear that to
-prove 1.4 we may replace `S`, `G`, `u`, `H` by `S₀`, `G₀`, `u₀`, `H₀`, hence assume `S` noetherian.
+monomorphism translates to `Ker u =` unit group; we may therefore assume that `u₀` is a monomorphism. Since `G` has zero
+unipotent rank `ρ_u` and possesses, locally for the fpqc topology, maximal tori, the abelian rank `ρ_{ab}` of the fibers
+of `G` is locally constant (Exp. XV 8.18). But `ρ_u` and `ρ_{ab}` are locally constructible functions (Exp. XV 6.3 bis).
+A standard argument (cf. EGA IV 8.3.4) shows that one may choose `S₀` and `G₀` so that the unipotent rank (resp. the
+abelian rank) of the fibers of `G₀` is zero (resp. locally constant). But then `G₀` possesses locally maximal tori for
+the fpqc topology (Exp. XV 8.18), and <!-- original page 490 --> the functor `𝒯ℳ_{G₀}` of maximal tori of `G₀` is
+representable by an `S₀`-scheme `X₀`, of finite type over `S₀` (Exp. XV 8.15). Let `T₀` be the "universal" maximal torus
+of `(G₀)_{X₀}`, `X` the `S`-prescheme `X₀ ×_{S₀} S`, `T = T₀ ×_{S₀} S` the universal maximal torus for `G`. By
+hypothesis, in case b), the Weyl group relative to `T` is representable and finite over `X`. These two properties are
+compatible with projective limits of preschemes (Exp. VI_B 10.1 iii) and EGA IV 8.10.5). One may therefore choose `S₀`
+so that the Weyl group of `T₀` is finite over `X₀`. Under these conditions it is clear that to prove 1.4 we may replace
+`S`, `G`, `u`, `H` by `S₀`, `G₀`, `u₀`, `H₀`, hence assume `S` noetherian.
 
 Let us use the valuative criterion provided by 1.3. We are reduced to the case where `S` is the spectrum of a discrete
 valuation ring and where `G₀` possesses a Cartan subgroup `C`.
@@ -207,15 +206,15 @@ case where `H` is flat over `S`, `u` is an isomorphism on the generic fiber, and
 spaces on the closed fiber. The group `H` is then with connected fibers, hence separated over `S` (Exp. VI_B 5.2).
 Granting for a moment the lemma:
 
-**Lemma 1.6.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth over `S`, with connected, nilpotent fibers,
-of zero unipotent rank. Then:*
+**Lemma 1.6.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth over `S`, with connected, nilpotent fibers, of
+zero unipotent rank. Then:*
 
 <!-- label: III.XVI.1.6 -->
 
 *i) `G` is commutative.*
 
-*ii) For every integer `n > 0`, `_n G` is a group prescheme, flat, quasi-finite over `S`, finite over `S` if and only
-if the abelian rank, or the reductive rank, of `G` is locally constant on `S`.*
+*ii) For every integer `n > 0`, `_n G` is a group prescheme, flat, quasi-finite over `S`, finite over `S` if and only if
+the abelian rank, or the reductive rank, of `G` is locally constant on `S`.*
 
 *iii) For every integer `q > 0` invertible on `S`, the family of subgroups `_{qⁿ}G` is universally schematically dense
 in `G` relative to `S` (EGA IV 11.10.8).*
@@ -235,10 +234,10 @@ If `(q, p) = 1`, the family of subgroups `_{qⁿ}G (n ∈ ℕ)` is schematically
 
 <!-- label: III.XVI.1.7 -->
 
-**Proof of 1.7.** Let `Z` be the center of `G`. The group `G/Z` is affine (Exp. XII 6.1), of zero unipotent rank,
-smooth and connected, hence is a torus (*Bible* 4 th. 4); but then `G` is commutative (Exp. XII 6.4). If `T` is the
-unique maximal torus of `G` (Exp. XV 3.4), it follows at once from Chevalley's theorem (Sém. Bourbaki 1956/57, No. 145)
-that `G` is an extension of an abelian variety `A` by `T`. For every integer `n > 0`, raising to the `n`th power is an
+**Proof of 1.7.** Let `Z` be the center of `G`. The group `G/Z` is affine (Exp. XII 6.1), of zero unipotent rank, smooth
+and connected, hence is a torus (*Bible* 4 th. 4); but then `G` is commutative (Exp. XII 6.4). If `T` is the unique
+maximal torus of `G` (Exp. XV 3.4), it follows at once from Chevalley's theorem (Sém. Bourbaki 1956/57, No. 145) that
+`G` is an extension of an abelian variety `A` by `T`. For every integer `n > 0`, raising to the `n`th power is an
 epimorphism in `T`; one deduces an exact sequence
 
 ```text
@@ -249,21 +248,22 @@ A classical theorem of Weil (A. Weil: *Variétés abéliennes et courbes algébr
 `_n A` is a finite group defined by a `k`-algebra of rank `n^{2ρ_{ab}}`. Since `_n T` is a finite group of rank
 `n^{ρ_r}`, one deduces the announced structure of `_n G`.
 
-Now let `H` be the smallest closed subscheme of `G` majorizing `_{qⁿ}G` for every `n`. It follows from the foregoing
-and from Exp. XV 4.6 that `H` is a smooth, connected subgroup, hence of the same type as `G`. Raising to the `n`th
-power in `H` is an epimorphism (since `_q H` is finite), so that one has the exact sequence
+Now let `H` be the smallest closed subscheme of `G` majorizing `_{qⁿ}G` for every `n`. It follows from the foregoing and
+from Exp. XV 4.6 that `H` is a smooth, connected subgroup, hence of the same type as `G`. Raising to the `n`th power in
+`H` is an epimorphism (since `_q H` is finite), so that one has the exact sequence
 
 ```text
 0 ⟶ _q H ⟶ _q G ⟶ _q(G/H) ⟶ 0.
 ```
 
 It follows that `_q(G/H) = 0`, hence `G/H = 0`. That is to say, the subgroups `_{qⁿ}G` are schematically dense in `G`.
+
 <!-- original page 493 -->
 
 *Continuation of the proof of 1.6 i).* To show that `G` is commutative, we reduce by the usual procedure to the case
-where `S` is noetherian, then to the case where `S` is the spectrum of a local ring with closed point `s`. The center
-of `G` is representable by a closed group subscheme `Z` of `G` (Exp. XI 6.11). To show that `Z = G`, it suffices to
-show that `Z = G` after reduction by every power of the maximal ideal of the ring of `S` (for `Z` will then be an open
+where `S` is noetherian, then to the case where `S` is the spectrum of a local ring with closed point `s`. The center of
+`G` is representable by a closed group subscheme `Z` of `G` (Exp. XI 6.11). To show that `Z = G`, it suffices to show
+that `Z = G` after reduction by every power of the maximal ideal of the ring of `S` (for `Z` will then be an open
 subgroup of `G`, hence equal to `G` since `G` has connected fibers). This reduces us to the case where `S` is local
 artinian.
 
@@ -286,10 +286,10 @@ reduce to the case `S` noetherian. Taking 1.7 and 1.6 b) into account, it suffic
 
 **Proof of 1.4 b).** We have reduced to the case where `S` is the spectrum of a discrete valuation ring and where `G₀`
 possesses a Cartan subgroup `C`. Let `N = Norm_G C = Norm_G T`, where `T` is the unique maximal torus of `C` (Exp. XII
-7.1 a) and b)). Since `H` is separated over `S`, it follows from 1.6 ii) and from Exp. VIII 7.12 that the restriction
-of `u` to `C` is a closed immersion. On the other hand, to prove that `u` is a closed immersion, it suffices to show
-that this is the case for `u|N` (1.3 b)). Since by hypothesis `W = N/C` is representable by a finite group scheme, this
-will follow from the following lemma, applied to the exact sequence
+7.1 a) and b)). Since `H` is separated over `S`, it follows from 1.6 ii) and from Exp. VIII 7.12 that the restriction of
+`u` to `C` is a closed immersion. On the other hand, to prove that `u` is a closed immersion, it suffices to show that
+this is the case for `u|N` (1.3 b)). Since by hypothesis `W = N/C` is representable by a finite group scheme, this will
+follow from the following lemma, applied to the exact sequence
 
 ```text
 0 ⟶ C ⟶ N ⟶ W ⟶ 1
@@ -297,9 +297,9 @@ will follow from the following lemma, applied to the exact sequence
 
 (note that a proper immersion is a closed immersion).
 
-**Lemma 1.8.** *Let `S` be a prescheme, `G` an `S`-group prescheme of finite presentation over `S`, extension of a
-group prescheme `G″`, proper and of finite presentation over `S`, by a group prescheme `G′`, of finite presentation
-and flat over `S`:*
+**Lemma 1.8.** *Let `S` be a prescheme, `G` an `S`-group prescheme of finite presentation over `S`, extension of a group
+prescheme `G″`, proper and of finite presentation over `S`, by a group prescheme `G′`, of finite presentation and flat
+over `S`:*
 
 <!-- label: III.XVI.1.8 -->
 
@@ -317,12 +317,12 @@ if `S` is locally noetherian) and `u : G → H` an `S`-group morphism. Then if t
 then apply the valuative criterion of properness (EGA II 7.3.8). We therefore suppose that `S` is the spectrum of a
 discrete valuation ring `A`, with closed point `s` and generic point `t`. Let `x ∈ G(t)` and `h ∈ H(S)` be such that
 `u_t(x) = h(t)`. We must show that `x` comes from a unique element `x` of `G(S)`. It even suffices to prove the
-existence and uniqueness of `x` after a faithfully flat extension of the discrete valuation ring `A`. Now let `y` be
-the projection of `x` in `G″(t)`. Since `G″` is proper over `S`, `y` comes from a unique element `y` of `G″(S)`. Let
-`X` be the inverse image of `y` in `G`. The prescheme `X` is faithfully flat over `S` (since `G′` is faithfully flat
-over `S` as is the morphism `G → G″` (Exp. VI_B § 9)). Replacing if necessary the discrete valuation ring by a
-faithfully flat one, we may assume that `X` has a section `ℓ` over `S` (EGA IV 14.5.8). Replacing `x` by `xℓ_t⁻¹`, we
-may assume that `x ∈ G′(t)`. But then the existence and uniqueness of `x` follow from the fact that `u|G′` is proper.
+existence and uniqueness of `x` after a faithfully flat extension of the discrete valuation ring `A`. Now let `y` be the
+projection of `x` in `G″(t)`. Since `G″` is proper over `S`, `y` comes from a unique element `y` of `G″(S)`. Let `X` be
+the inverse image of `y` in `G`. The prescheme `X` is faithfully flat over `S` (since `G′` is faithfully flat over `S`
+as is the morphism `G → G″` (Exp. VI_B § 9)). Replacing if necessary the discrete valuation ring by a faithfully flat
+one, we may assume that `X` has a section `ℓ` over `S` (EGA IV 14.5.8). Replacing `x` by `xℓ_t⁻¹`, we may assume that
+`x ∈ G′(t)`. But then the existence and uniqueness of `x` follow from the fact that `u|G′` is proper.
 
 **Proof of 1.5.**
 
@@ -337,9 +337,9 @@ fibers, has unit Weyl group (*Bible* 6 th. 1 cor. 3).
 
 **Proof of 1.3 a).**
 
-Since the morphism `u` is already a monomorphism, in order to see that `u` is an immersion, it suffices to show that
-`u` is proper at the points of `u(G)` (EGA IV 15.7.1); for that we may use the valuative criterion of local properness
-(EGA IV 15.7.5). We are thus reduced to the case where `S` is the spectrum of a complete discrete valuation ring with
+Since the morphism `u` is already a monomorphism, in order to see that `u` is an immersion, it suffices to show that `u`
+is proper at the points of `u(G)` (EGA IV 15.7.1); for that we may use the valuative criterion of local properness (EGA
+IV 15.7.5). We are thus reduced to the case where `S` is the spectrum of a complete discrete valuation ring with
 algebraically closed residue field, with closed point `s` and generic point `t`. Since `G` is flat over `S`, standard
 reductions (cf. Exp. VIII proof of 7.1) allow us to reduce to the case where `H` is flat over `S`, `u_t` is an
 isomorphism, and `u_s` is an isomorphism of underlying spaces. To say that `u` is an immersion is then equivalent to
@@ -360,10 +360,10 @@ since `H` is flat over `S`. In short, `V = F`. It follows that `u|U` is an open 
 immersion (VI_B 2.6).
 
 It remains to show that `u|U` is an immersion, and for that we apply the valuative criterion of local properness.
-Replacing `S` by the spectrum of a faithfully flat discrete valuation ring, we must show that if `h` is a section of
-`H` over `S` whose image `h(S)` is contained in `u(U)`, then `h` is the image of a section `g` of `U` over `S`. It
-suffices to show that `h` is contained in the image of a Cartan subgroup `C` of `G`. Indeed, by hypothesis `u|C` is an
-immersion, so `h` is the image of a section `g` of `C`, which is necessarily a section of `U`.
+Replacing `S` by the spectrum of a faithfully flat discrete valuation ring, we must show that if `h` is a section of `H`
+over `S` whose image `h(S)` is contained in `u(U)`, then `h` is the image of a section `g` of `U` over `S`. It suffices
+to show that `h` is contained in the image of a Cartan subgroup `C` of `G`. Indeed, by hypothesis `u|C` is an immersion,
+so `h` is the image of a section `g` of `C`, which is necessarily a section of `U`.
 
 <!-- original page 498 -->
 
@@ -401,12 +401,12 @@ hence is connected).*
 
 Let `Z` be the center of `G`, `G′ = G/Z` (which is affine, Exp. XII 6.1), `a′`, `D′` the images of `a`, `D` in `G′`. It
 follows immediately from the correspondence between Cartan subgroups of `G` and Cartan subgroups of `G′` (Exp. XII 6.6
-e)) that `a′` is a regular element of `G′` and that it suffices to prove the lemma for the pair `D′, G′`; this allows
-us to assume `G` affine.
+e)) that `a′` is a regular element of `G′` and that it suffices to prove the lemma for the pair `D′, G′`; this allows us
+to assume `G` affine.
 
-Let `s` then be the semisimple component of `a`, which belongs to `D(k)` (*Bible* 4 th. 3) and is regular (*Bible* 7
-th. 2 cor. 1). By *Bible* 6 th. 2, `s` centralizes `D⁰`, hence `D⁰` is contained in the connected centralizer of `s`,
-which is a Cartan subgroup of `G` (*Bible* 7 th. 2). If now `dim D =` nilpotent rank of `G`, `D⁰` is therefore a Cartan
+Let `s` then be the semisimple component of `a`, which belongs to `D(k)` (*Bible* 4 th. 3) and is regular (*Bible* 7 th.
+2 cor. 1). By *Bible* 6 th. 2, `s` centralizes `D⁰`, hence `D⁰` is contained in the connected centralizer of `s`, which
+is a Cartan subgroup of `G` (*Bible* 7 th. 2). If now `dim D =` nilpotent rank of `G`, `D⁰` is therefore a Cartan
 subgroup of `G`, equal to `Centr_G(T)`, where `T` is the unique maximal torus of `D⁰` (Exp. XII 6.6). But `D` is
 nilpotent, hence centralizes `T` (*Bible* 6 th. 2), hence `D = D⁰`.
 
@@ -436,33 +436,33 @@ connected component of the schematic closure of `C_t` in `G` (note that `C′` a
 
 <!-- original page 501 -->
 
-**End of the proof of 1.3 a).** By hypothesis, the restriction of `u` to the Cartan subgroup `C` of `G` is an
-immersion. It is clear that `h(S)` is contained in `u(C) = D`, hence `h` is the image of a section `g` of `C(S)`. QED.
+**End of the proof of 1.3 a).** By hypothesis, the restriction of `u` to the Cartan subgroup `C` of `G` is an immersion.
+It is clear that `h(S)` is contained in `u(C) = D`, hence `h` is the image of a section `g` of `C(S)`. QED.
 
 **Proof of 1.3 b).**
 
 We shall again use the valuative criterion of local properness (EGA IV 15.5) in the case of an immersion (resp. the
 valuative criterion of properness (EGA II 7.3.6) in the case of a closed immersion). This reduces us to the case where
-`S` is the spectrum of a complete discrete valuation ring with algebraically closed residue field. Let `s` be the
-closed point and `t` the generic point of `S`. Replacing `H` by the schematic closure in `H` of `u_t(G_t)`, we may
-assume that `H` is flat over `S` and that `u_t` is an isomorphism.
+`S` is the spectrum of a complete discrete valuation ring with algebraically closed residue field. Let `s` be the closed
+point and `t` the generic point of `S`. Replacing `H` by the schematic closure in `H` of `u_t(G_t)`, we may assume that
+`H` is flat over `S` and that `u_t` is an isomorphism.
 
-Let `G⁰` be the connected component of `G`. By 1.2 a) [^XVI-1], `u|G⁰` is an immersion; denote by `H⁰` the group sub-prescheme
-of `H` image of `G⁰`. One has therefore `H⁰_s = (H_s)⁰_{red}`.
+Let `G⁰` be the connected component of `G`. By 1.2 a) [^XVI-1], `u|G⁰` is an immersion; denote by `H⁰` the group
+sub-prescheme of `H` image of `G⁰`. One has therefore `H⁰_s = (H_s)⁰_{red}`.
 
 To verify the valuative criterion, we must show that every section `h` of `H` over `S` such that `h(S)` is contained in
 `u(G)` in the case of an immersion (resp. every section `h` of `H` over `S` in the case of a closed immersion) is the
 image of a section `g` of `G` over `S`.
 
-Let `C` be a Cartan subgroup of `G`, `D = u(C)` the Cartan subgroup of `H⁰` image of `C`. <!-- original page 502 -->
-The `S`-group `D′ = int(h)D` has connected fibers, hence its underlying space is contained in that of `H⁰`; moreover,
-being smooth over `S`, it is reduced, and consequently `D′` is a smooth group sub-prescheme of `H⁰`. The fibers of `D′`
-are Cartan subgroups of the fibers of `H⁰`, so `D′` is a Cartan subgroup of `H⁰`, and `C′ = u⁻¹(D′)` is a Cartan
-subgroup of `G`. But `Transp^{str}_G(C, C′)` is smooth and surjective over `S` (Exp. XII 7.1 b)). Since `S` is henselian
-with algebraically closed residue field, there exists `g ∈ G(S)` such that `int(g)C = C′`. Replacing `h` by
-`u(g)⁻¹h`, we may assume that `h(t)` normalizes `D_t` (and that `h(s)` is the image of an element of the normalizer of
-`C_s` in `G_s` in the case of an immersion). Let `N = Norm_G(C)`. By hypothesis `u|N` is an immersion (resp. a closed
-immersion), so `h` is the image of a section of `N` over `S`, which completes the proof.
+Let `C` be a Cartan subgroup of `G`, `D = u(C)` the Cartan subgroup of `H⁰` image of `C`. <!-- original page 502 --> The
+`S`-group `D′ = int(h)D` has connected fibers, hence its underlying space is contained in that of `H⁰`; moreover, being
+smooth over `S`, it is reduced, and consequently `D′` is a smooth group sub-prescheme of `H⁰`. The fibers of `D′` are
+Cartan subgroups of the fibers of `H⁰`, so `D′` is a Cartan subgroup of `H⁰`, and `C′ = u⁻¹(D′)` is a Cartan subgroup of
+`G`. But `Transp^{str}_G(C, C′)` is smooth and surjective over `S` (Exp. XII 7.1 b)). Since `S` is henselian with
+algebraically closed residue field, there exists `g ∈ G(S)` such that `int(g)C = C′`. Replacing `h` by `u(g)⁻¹h`, we may
+assume that `h(t)` normalizes `D_t` (and that `h(s)` is the image of an element of the normalizer of `C_s` in `G_s` in
+the case of an immersion). Let `N = Norm_G(C)`. By hypothesis `u|N` is an immersion (resp. a closed immersion), so `h`
+is the image of a section of `N` over `S`, which completes the proof.
 
 ## 2. A representability theorem for quotients
 
@@ -472,8 +472,8 @@ immersion), so `h` is the image of a section of `N` over `S`, which completes th
 
 Let us "recall" the following result:
 
-**Theorem 2.1.** *Let `S` be a prescheme, `X` and `Y` two `S`-preschemes, `f : X → Y` an `S`-morphism. Suppose we are
-in one of the following two cases:*
+**Theorem 2.1.** *Let `S` be a prescheme, `X` and `Y` two `S`-preschemes, `f : X → Y` an `S`-morphism. Suppose we are in
+one of the following two cases:*
 
 <!-- label: III.XVI.2.1 -->
 
@@ -526,9 +526,9 @@ flat.
 b) The assertions of 2.1 are local on `Y` (and so are local on `S`); they are also local on `X`, as follows easily from
 the fact that a flat morphism locally of finite presentation is open (EGA IV 11.3.1).
 
-c) Under the hypotheses of 2.1 a), in view of the foregoing, we are reduced to the case where `X` and `Y` are affine
-and `f` of finite presentation. Replacing `S` by `Y`, we may assume `X` and `Y` of finite presentation over `S`. We
-then reduce to the case `S` noetherian thanks to EGA IV 11.2.6.
+c) Under the hypotheses of 2.1 a), in view of the foregoing, we are reduced to the case where `X` and `Y` are affine and
+`f` of finite presentation. Replacing `S` by `Y`, we may assume `X` and `Y` of finite presentation over `S`. We then
+reduce to the case `S` noetherian thanks to EGA IV 11.2.6.
 
 d) Under the hypotheses of 2.1 b), we may assume `S`, `X`, `Y` affine, `S` noetherian and `X` of finite type over `S`.
 Consider `Y` as a filtered projective limit of affine schemes `Y_i` of finite type over `S`. The schemes `X ×_{Y_i} X`
@@ -540,8 +540,8 @@ f_i : X ──f──→ Y → Y_i
 ```
 
 satisfies the hypotheses of 2.1 ii) if `f` does. <!-- original page 505 --> Since the equivalence relation defined by
-`f` on `X` coincides with that defined by `f_i`, it is clear that it suffices to prove ii) ⇒ i) for `f_i`, which
-reduces us to the case where `Y` is of finite type over `S`.
+`f` on `X` coincides with that defined by `f_i`, it is clear that it suffices to prove ii) ⇒ i) for `f_i`, which reduces
+us to the case where `Y` is of finite type over `S`.
 
 ### Application to group preschemes
 
@@ -568,8 +568,8 @@ f : G ⟶ X,    g ↦ g · ξ
   G/H ──i──→ X,
 ```
 
-*where `p` is the canonical projection, which is a faithfully flat morphism locally of finite presentation, and `i` is
-a monomorphism. (For definiteness, we have assumed that `G` acts on the left on `X`.)*
+*where `p` is the canonical projection, which is a faithfully flat morphism locally of finite presentation, and `i` is a
+monomorphism. (For definiteness, we have assumed that `G` acts on the left on `X`.)*
 
 **Proof.** The morphism `f` makes `G` into an `X`-prescheme. <!-- original page 506 --> By definition of the stabilizer
 of `ξ`, the morphism
@@ -578,10 +578,9 @@ of `ξ`, the morphism
 G ×_S H ⟶ G ×_X G,    (g, h) ↦ (g, gh)
 ```
 
-is an isomorphism. Since `H` is flat over `S`, `G ×_S H` is flat over `G`, so the first projection
-`p₁ : G ×_S G → G` is a flat morphism. Furthermore, if `X` is locally of finite type over `S`, `f` is locally of finite
-presentation (EGA IV 1.4.3 v)); otherwise `S` is assumed locally noetherian. It then suffices to apply 2.1 to the
-morphism `f`.
+is an isomorphism. Since `H` is flat over `S`, `G ×_S H` is flat over `G`, so the first projection `p₁ : G ×_S G → G` is
+a flat morphism. Furthermore, if `X` is locally of finite type over `S`, `f` is locally of finite presentation (EGA IV
+1.4.3 v)); otherwise `S` is assumed locally noetherian. It then suffices to apply 2.1 to the morphism `f`.
 
 It remains to see that `G/H` is locally of finite presentation over `S`, but this follows immediately from Exp. V 9.1.
 
@@ -604,9 +603,9 @@ prescheme locally of finite presentation over `S`, and `u` factors as*
 
 **Proof.** One applies 2.2 with `X = H` and `ξ` the unit section of `H`.
 
-**Corollary 2.4.** *Let `S` be a prescheme, `G` an `S`-group prescheme of finite presentation over `S`, `H` an
-`S`-group prescheme smooth over `S` with connected fibers (hence of finite presentation over `S`, by VI_B 5.5),
-`i : H → G` a monomorphism of `S`-groups, so that `H` is a subgroup of `G`.*
+**Corollary 2.4.** *Let `S` be a prescheme, `G` an `S`-group prescheme of finite presentation over `S`, `H` an `S`-group
+prescheme smooth over `S` with connected fibers (hence of finite presentation over `S`, by VI_B 5.5), `i : H → G` a
+monomorphism of `S`-groups, so that `H` is a subgroup of `G`.*
 
 <!-- label: III.XVI.2.4 -->
 
@@ -618,8 +617,8 @@ All the assertions to be proved, except the last, are local on `S`. To establish
 quasi-compact and the relative dimension of `H` over `S` constant and equal to `r`. Let us proceed as in XV § 5. For
 every integer `n > 0`, let `G_{(n)}` (resp. `H_{(n)}`) be the `n`th normal invariant of the unit section of `G` (resp.
 of `H`) (EGA IV 16). The sheaf of `𝒪_S`-modules `H_{(n)}` is a quotient of `G_{(n)}`, and `H` being smooth over `S` of
-dimension `r`, `H_{(n)}` canonically defines an element `ξ_n` of `X_n = Grass_{ϕ(n,r)} G_{(n)}` (EGA I 2nd ed. § 9)
-for a suitable integer `ϕ(n, r)`. On the other hand, `G` acts naturally on `G_{(n)}` (and hence also on `X_n`) via the
+dimension `r`, `H_{(n)}` canonically defines an element `ξ_n` of `X_n = Grass_{ϕ(n,r)} G_{(n)}` (EGA I 2nd ed. § 9) for
+a suitable integer `ϕ(n, r)`. On the other hand, `G` acts naturally on `G_{(n)}` (and hence also on `X_n`) via the
 representation
 
 ```text
@@ -646,8 +645,8 @@ Such a group `H` is of finite presentation over `S` (Exp. VI_B 5.5) and `H → G
 8.11.2). By effective descent of quasi-affine morphisms (SGA 1, VIII 7.9), one deduces that `F` is a sheaf for the fpqc
 topology. Since `G/N` is the sheaf associated to a subfunctor of `F`, one sees that there is a canonical monomorphism
 `G/N → F`. There exists therefore a subgroup `H₀` of `G ×_S (G/N)`, representable, smooth over `G/N`, with connected
-fibers, "universal" for the functor `G/N`. I claim that the invertible sheaf `L = (det(Lie H₀))⁻¹` is `S`-ample. In
-this form, the assertion becomes local on `S`, and the proof is analogous to the one given in (Exp. XV 5.8).
+fibers, "universal" for the functor `G/N`. I claim that the invertible sheaf `L = (det(Lie H₀))⁻¹` is `S`-ample. In this
+form, the assertion becomes local on `S`, and the proof is analogous to the one given in (Exp. XV 5.8).
 
 The following corollary was announced in Exp. XIV 4.8 bis.
 
@@ -669,9 +668,9 @@ presentation, which follows from 2.4, given that `P = Norm_G(P)` (*loc. cit.*) i
 <!-- original page 509 -->
 
 **Proposition 3.1.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth and of finite presentation over `S`,
-with connected fibers. Suppose that the center `Z` of `G` (which is representable by Exp. XI 6.11) is flat over `S`.
-For every integer `n > 0`, let `G_{(n)}` denote the locally free `𝒪_S`-module equal to the `n`th normal invariant of
-`G` along the unit section, and let `ρ_n` be the natural "adjoint representation" of `G` in `GL_S(G_{(n)})`. Then:*
+with connected fibers. Suppose that the center `Z` of `G` (which is representable by Exp. XI 6.11) is flat over `S`. For
+every integer `n > 0`, let `G_{(n)}` denote the locally free `𝒪_S`-module equal to the `n`th normal invariant of `G`
+along the unit section, and let `ρ_n` be the natural "adjoint representation" of `G` in `GL_S(G_{(n)})`. Then:*
 
 <!-- label: III.XVI.3.1 -->
 
@@ -720,16 +719,16 @@ smooth over `S` with connected fibers, and it suffices to apply Exp. XI 6.10.
 <!-- original page 511 -->
 
 **Theorem 3.3.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth and of finite presentation over `S`, with
-connected fibers, `Z` the center of `G`. Suppose that `Z` is flat over `S` and that the unipotent rank (Exp. XV 6.1
-ter) of `G` is equal to that of `Z`. Then:*
+connected fibers, `Z` the center of `G`. Suppose that `Z` is flat over `S` and that the unipotent rank (Exp. XV 6.1 ter)
+of `G` is equal to that of `Z`. Then:*
 
 <!-- label: III.XVI.3.3 -->
 
 *a) The group `G′ = G/Z` is representable, and if `S` is quasi-compact, the canonical morphism
 `i_n : G′ → GL_S(G_{(n)})` (cf. 3.1 b)) is an immersion for `n` large.*
 
-*b) The group `G′` is quasi-affine over `S`, with affine fibers, the center of `G′` is the unit group, and `G′` has
-zero unipotent rank.*
+*b) The group `G′` is quasi-affine over `S`, with affine fibers, the center of `G′` is the unit group, and `G′` has zero
+unipotent rank.*
 
 *c) The group `G′` possesses locally for the étale topology maximal tori, and these are also Cartan subgroups of `G′`.
 The functor `𝒯ℳ_{G′}` of maximal tori of `G′` (Exp. XV § 8) is representable by an `S`-prescheme smooth and affine over
@@ -739,8 +738,8 @@ The functor `𝒯ℳ_{G′}` of maximal tori of `G′` (Exp. XV § 8) is represe
 of `G` is representable by an `S`-prescheme, smooth and affine over `S`.*
 
 **Proof.** By 3.1, the group `G′` is representable by an `S`-prescheme, smooth and quasi-affine over `S`, with affine
-fibers. In view of the correspondence between Cartan subgroups of the fibers of `G` and of the fibers of `G′` (Exp.
-XII 6.6 e)), the hypothesis on the unipotent rank of `Z` implies that `G′` has zero unipotent rank. Using now <!--
+fibers. In view of the correspondence between Cartan subgroups of the fibers of `G` and of the fibers of `G′` (Exp. XII
+6.6 e)), the hypothesis on the unipotent rank of `Z` implies that `G′` has zero unipotent rank. Using now <!--
 original page 512 --> Exp. XV 8.18, one sees that `G′` possesses locally for the étale topology maximal tori. The fact
 that `i_n` is an immersion for `n` large then follows from 3.1 b) and 1.4 a). This completes the proof of a).
 
@@ -756,9 +755,9 @@ It remains to show b), and more precisely, it remains to prove that the center `
 `Z′` is representable (Exp. XI 6.11) and of finite presentation over `S`, it suffices to show that the fibers of `Z′`
 are reduced to the unit group (Exp. VI_B 2.9), which reduces us to the case where `S` is the spectrum of an
 algebraically closed field. The center `Z′` is evidently contained in every Cartan subgroup of `G′`, hence in every
-maximal torus of `G′` by c), and is therefore of multiplicative type. Moreover, we shall see in Exp. XVII that if `G`
-is a connected algebraic group with center `Z`, the center `Z′` of `G/Z` is unipotent. In the present case, `Z′` being
-both of multiplicative type and unipotent, is reduced to the unit group (cf. Exp. XVII).
+maximal torus of `G′` by c), and is therefore of multiplicative type. Moreover, we shall see in Exp. XVII that if `G` is
+a connected algebraic group with center `Z`, the center `Z′` of `G/Z` is unipotent. In the present case, `Z′` being both
+of multiplicative type and unipotent, is reduced to the unit group (cf. Exp. XVII).
 
 <!-- original page 513 -->
 
@@ -801,8 +800,8 @@ necessary (which is allowable for proving that `Z` is flat), we may assume that 
 
 Let us show, in the same way, that to prove 3.5 we may reduce to the case `S` artinian.
 
-i) Since `Z` is closed in `G` (Exp. XI 6.11), `Z ∩ T` is a closed group subscheme of `T`. It follows from Exp. X 4.8
-b) that `Z ∩ T` is of multiplicative type if and only if it is flat over `S`. As before, it suffices to establish that
+i) Since `Z` is closed in `G` (Exp. XI 6.11), `Z ∩ T` is a closed group subscheme of `T`. It follows from Exp. X 4.8 b)
+that `Z ∩ T` is of multiplicative type if and only if it is flat over `S`. As before, it suffices to establish that
 `Z ∩ T` is flat when `S` is artinian.
 
 ii) Since `G` has zero unipotent rank, every Cartan subgroup `C` of `G` satisfies the hypotheses of Lemma 1.6, hence is
@@ -834,23 +833,23 @@ will prove 3.5 iii) and will imply that `Z′` is flat over `S`, hence that `Z` 
 by the flat group `M` (Exp. VI_B § 9)). Since `Z_s` has the same abelian rank as `G_s` <!-- original page 516 --> (Exp.
 XII 6.1), `i_s` is an epimorphism, hence an isomorphism. Let `q` be an integer `> 0`, invertible on `S`. By the density
 theorem of 1.6 iii), to see that `i(Z′) = A`, it suffices to show that for every integer `n` equal to a power of `q`,
-`i(Z′)` majorizes `_n A`. Now let `M⁰_s` be the connected component of `M_s`. It is immediate by duality that raising
-to the `q`-th power in `M⁰_s` is an epimorphism. One deduces immediately that if `m₀` is the exponent of `q` in the
+`i(Z′)` majorizes `_n A`. Now let `M⁰_s` be the connected component of `M_s`. It is immediate by duality that raising to
+the `q`-th power in `M⁰_s` is an epimorphism. One deduces immediately that if `m₀` is the exponent of `q` in the
 factorization into prime factors of `card(M_s / M⁰_s)`, the image of `_{nm₀}Z_s` in `A_s ≅ Z_s/M_s` majorizes `_n A_s`.
 There exists therefore a subgroup of multiplicative type `M_s(n)` of `Z_s` whose image in `A_s` is `_n A_s`. As before,
 one sees that `M_s(n)` lifts to a subgroup of `G`, central and of multiplicative type, `M(n)`. The image of `M(n)` in
-`A` is a subgroup of multiplicative type (Exp. IX 6.8), hence necessarily equal to `_n A`, since it is so on the
-reduced fiber (Exp. IX 5.1 bis). This completes the proof of 3.4 a) and of 3.5.
+`A` is a subgroup of multiplicative type (Exp. IX 6.8), hence necessarily equal to `_n A`, since it is so on the reduced
+fiber (Exp. IX 5.1 bis). This completes the proof of 3.4 a) and of 3.5.
 
 **Proof of 3.4 b).** The assertion to be proved is local on `S`; we may therefore assume `S` affine with ring `A`.
 Considering `A` as an inductive limit of its sub-`ℤ`-algebras of finite type, we reduce as above to the case where `S`
 is noetherian reduced.
 
-To show that `Z` is flat, we have at our disposal a valuative criterion of flatness (EGA IV 11.8.1), which allows us
-to reduce to the case where `S` is the spectrum of a complete discrete valuation ring with algebraically closed residue
-field, with generic point `t` and closed point `s`. Let `Z′` be the schematic closure in `Z` of `Z_t`. We must show
-that `Z′ = Z`, and it suffices even to show that `Z_s = Z′_s` (Exp. VI_B 2.6). <!-- original page 517 --> By (Exp.
-VI_B § 4), one has the inequalities
+To show that `Z` is flat, we have at our disposal a valuative criterion of flatness (EGA IV 11.8.1), which allows us to
+reduce to the case where `S` is the spectrum of a complete discrete valuation ring with algebraically closed residue
+field, with generic point `t` and closed point `s`. Let `Z′` be the schematic closure in `Z` of `Z_t`. We must show that
+`Z′ = Z`, and it suffices even to show that `Z_s = Z′_s` (Exp. VI_B 2.6). <!-- original page 517 --> By (Exp. VI_B § 4),
+one has the inequalities
 
 ```text
 dim Z_t = dim Z′_t = dim Z′_s ⩽ dim Z_s.
@@ -872,8 +871,8 @@ completes the proof of 3.4 b).
 ### Example of a smooth group prescheme with connected fibers whose center is not flat
 
 Let `S` be the spectrum of a discrete valuation ring `A`, `π` a uniformizer of `A`, <!-- original page 518 --> `t` the
-generic point of `S`, `s` the closed point. Let `G` be the smooth and affine `S`-group with ring
-`B = A[T, T⁻¹, U]/F` with `F = 1 − T + πU`, the composition law being defined by
+generic point of `S`, `s` the closed point. Let `G` be the smooth and affine `S`-group with ring `B = A[T, T⁻¹, U]/F`
+with `F = 1 − T + πU`, the composition law being defined by
 
 ```text
 ((t, u), (t′, u′)) ↦ (tt′, πuu′ + u + u′).
@@ -918,19 +917,19 @@ affine, connected fibers, of zero unipotent rank (Exp. XV 6.1 ter). Then:*
 
 *These conditions are always realized if `S` is locally noetherian of dimension `⩽ 1`.*
 
-**Proof.** Since `G` has affine fibers (and so abelian rank zero) and zero unipotent rank, `G` possesses locally for
-the étale topology maximal tori (Exp. XV 8.18), and <!-- original page 520 --> every maximal torus of `G` is evidently
-a Cartan subgroup of `G`, which proves the first part of c). To see that `Z` is of multiplicative type, we may assume,
-by what precedes, that `G` possesses a maximal torus `T`. Since `T` is also a Cartan subgroup, `T` majorizes `Z` (since
+**Proof.** Since `G` has affine fibers (and so abelian rank zero) and zero unipotent rank, `G` possesses locally for the
+étale topology maximal tori (Exp. XV 8.18), and <!-- original page 520 --> every maximal torus of `G` is evidently a
+Cartan subgroup of `G`, which proves the first part of c). To see that `Z` is of multiplicative type, we may assume, by
+what precedes, that `G` possesses a maximal torus `T`. Since `T` is also a Cartan subgroup, `T` majorizes `Z` (since
 `T = Centr_G(T)` by Exp. XII 7.1), and `Z = Z ∩ T` is of multiplicative type by 3.5 i). This proves a). Assertion b) is
-clear, given a). On the other hand the functor `𝒯ℳ_G` is isomorphic to the functor of Cartan subgroups of `G` (Exp.
-XII 7.1), hence is smooth and affine over `S` (3.3 c)), which completes the proof of c). It remains to prove d).
+clear, given a). On the other hand the functor `𝒯ℳ_G` is isomorphic to the functor of Cartan subgroups of `G` (Exp. XII
+7.1), hence is smooth and affine over `S` (3.3 c)), which completes the proof of c). It remains to prove d).
 
 **Proof of d).** Since `G′` is quasi-affine (3.5 b)) and `Z` is of multiplicative type, hence affine over `S`, `G` is
 quasi-affine (Exp. VI_B § 9).
 
-i) ⇔ ii). If `G` is affine, `G′` is affine by Exp. IX 2.3. If `G′` is affine, `G` is affine as an extension of an
-affine group by an affine group (Exp. VI_B § 9).
+i) ⇔ ii). If `G` is affine, `G′` is affine by Exp. IX 2.3. If `G′` is affine, `G` is affine as an extension of an affine
+group by an affine group (Exp. VI_B § 9).
 
 i) ⇔ iii). If `G` is affine, `N` is affine since closed in `G` (Exp. XI 6.11 a)). Moreover `G/N` is isomorphic to the
 functor `𝒯ℳ_G` (conjugacy of maximal tori, cf. Exp. XII 7.1 b)), so is affine over `S` by c). Hence if `N` is affine
@@ -952,32 +951,31 @@ morphism.*
 <!-- label: III.XVI.4.2 -->
 
 The assertion to be proved is local on `Y`, which allows us to assume `Y` (and hence also `X`) of finite type over `S`.
-By EGA IV 8, one sees that it suffices to prove 4.2 when `S` is the spectrum of a local ring `A`. By fpqc descent we
-may assume `A` complete, then `A` reduced (EGA II 1.6.4), then `A` normal (Nagata's theorem (EGA 0_IV 22) and
-Chevalley's theorem (EGA II 6.7.1)). If `A` is a field, `u` is finite by hypothesis, hence affine. Otherwise `A` is a
-discrete valuation ring; let `s` be the closed point of `S`, `t` the generic point, `π` a uniformizer of `A`. Let `y`
-be a point of `Y_s`. Applying EGA IV 8 once more, we may replace `Y` by the spectrum `Y′` of `𝒪_{Y,y}` and `X` by
-`X′ = X ×_Y Y′`; we may even assume `𝒪_{Y,y}` complete. Since `u` is quasi-finite and separated, by EGA II 6.2.6 `X′`
-is a sum of two schemes `X₁` and `X₂` with `X₁` finite over `Y′` (hence affine) and `X₂` such that `u(X₂)` does not
-contain the closed point `y` of `Y′`. I claim that under these conditions `X₂` does not meet the closed fiber `X′_s`.
-Indeed, by hypothesis <!-- original page 522 --> `X′_s → Y′_s` is finite, hence the restriction of this morphism to
-the closed subset `(X₂)_s` is finite and its image in `(Y′)_s` is a closed subset. Since this image does not contain
-the closed point of the local scheme `(Y′)_s`, `(X₂)_s` is empty. Since `u_t` is finite, the restriction to
-`(X₂)_t = X₂` of the morphism `X′_t → Y′_t` is finite. Moreover, one has `Y′_t = Y′_π`, so the open immersion
-`Y′_t → Y′` is affine. In short, the composed morphism `X₂ → Y′_t → Y′` is affine, and it follows that the morphism
-`X′ = X₁ ⊔ X₂ → Y′` is affine.
+By EGA IV 8, one sees that it suffices to prove 4.2 when `S` is the spectrum of a local ring `A`. By fpqc descent we may
+assume `A` complete, then `A` reduced (EGA II 1.6.4), then `A` normal (Nagata's theorem (EGA 0_IV 22) and Chevalley's
+theorem (EGA II 6.7.1)). If `A` is a field, `u` is finite by hypothesis, hence affine. Otherwise `A` is a discrete
+valuation ring; let `s` be the closed point of `S`, `t` the generic point, `π` a uniformizer of `A`. Let `y` be a point
+of `Y_s`. Applying EGA IV 8 once more, we may replace `Y` by the spectrum `Y′` of `𝒪_{Y,y}` and `X` by `X′ = X ×_Y Y′`;
+we may even assume `𝒪_{Y,y}` complete. Since `u` is quasi-finite and separated, by EGA II 6.2.6 `X′` is a sum of two
+schemes `X₁` and `X₂` with `X₁` finite over `Y′` (hence affine) and `X₂` such that `u(X₂)` does not contain the closed
+point `y` of `Y′`. I claim that under these conditions `X₂` does not meet the closed fiber `X′_s`. Indeed, by hypothesis
+    <!-- original page 522 --> `X′_s → Y′_s` is finite, hence the restriction of this morphism to the closed subset `(X₂)_s`
+is finite and its image in `(Y′)_s` is a closed subset. Since this image does not contain the closed point of the local
+scheme `(Y′)_s`, `(X₂)_s` is empty. Since `u_t` is finite, the restriction to `(X₂)_t = X₂` of the morphism
+`X′_t → Y′_t` is finite. Moreover, one has `Y′_t = Y′_π`, so the open immersion `Y′_t → Y′` is affine. In short, the
+composed morphism `X₂ → Y′_t → Y′` is affine, and it follows that the morphism `X′ = X₁ ⊔ X₂ → Y′` is affine.
 
 **Corollary 4.3.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth and of finite presentation over `S`, with
 affine, solvable, connected fibers, of zero unipotent rank. Then `G` is affine over `S`. If moreover the center of `G`
-is the unit group and if `S` is quasi-compact, the canonical morphism `i_n : G → GL_S(G_{(n)})` (cf. 3.1 b)) is a
-closed immersion for `n` large enough.*
+is the unit group and if `S` is quasi-compact, the canonical morphism `i_n : G → GL_S(G_{(n)})` (cf. 3.1 b)) is a closed
+immersion for `n` large enough.*
 
 <!-- label: III.XVI.4.3 -->
 
 To prove that `G` is affine over `S`, we may assume that `G` possesses a maximal torus `T` (4.1 c)). Since `G` has
 solvable fibers, the Weyl group relative to `T` is the unit group (*Bible* 6 th. 1 cor. 3) and condition 4.1 d) iv) is
-satisfied. If the center of `G` is the unit group, `i_n` is a monomorphism for `n` large enough (3.1), hence is a
-closed immersion (1.5 b)).
+satisfied. If the center of `G` is the unit group, `i_n` is a monomorphism for `n` large enough (3.1), hence is a closed
+immersion (1.5 b)).
 
 ## 5. Application to reductive and semisimple groups
 
@@ -995,8 +993,8 @@ following properties, which will be proved in Exp. XIX (without using the develo
 
 <!-- label: III.XVI.5.1.1 -->
 
-a) *Let `S` be a prescheme, `G` an `S`-group prescheme smooth and affine over `S`, with connected fibers, `s` a point
-of `S` such that `G_s` is reductive (resp. semisimple). Then there exists a neighborhood `U` of `s` such that `G|U` is
+a) *Let `S` be a prescheme, `G` an `S`-group prescheme smooth and affine over `S`, with connected fibers, `s` a point of
+`S` such that `G_s` is reductive (resp. semisimple). Then there exists a neighborhood `U` of `s` such that `G|U` is
 reductive (resp. semisimple).*
 
 b) *If `G` is reductive, `G` possesses locally for the étale topology maximal tori, and if `T` is a maximal torus of
@@ -1020,27 +1018,27 @@ connected fibers, `s` a point of `S`. Then:*
 
 Using Exp. XV 6.2 i) and Exp. VI_B § 10, one reduces to the case where `S` is noetherian.
 
-In case (ii), consider the center `Z` of `G`, which is representable (Exp. XI 6.11 a)). Since `G_s` is semisimple, it
-is well known that `Z_s` is finite. Consequently (Exp. VI_B § 4), there exists a neighborhood `U` of `s` such that `Z`
-is quasi-finite over `U`. For every point `t` of `U`, `G_t` is then affine (Exp. XII 6.1). Replacing `S` by a smaller
-open if necessary, we may therefore assume that the fibers of `G` are affine, both in case (ii) and in case (i).
+In case (ii), consider the center `Z` of `G`, which is representable (Exp. XI 6.11 a)). Since `G_s` is semisimple, it is
+well known that `Z_s` is finite. Consequently (Exp. VI_B § 4), there exists a neighborhood `U` of `s` such that `Z` is
+quasi-finite over `U`. For every point `t` of `U`, `G_t` is then affine (Exp. XII 6.1). Replacing `S` by a smaller open
+if necessary, we may therefore assume that the fibers of `G` are affine, both in case (ii) and in case (i).
 
 To prove 5.2 it suffices, by a), to prove that `G` is affine over `S`. Since `G` has affine fibers, we know that the
 functor of subtori of `G` is representable by a smooth `S`-prescheme (Exp. XV 8.11 and 8.9). Replacing `S` by an étale
 extension covering `s` (which is allowable), we may therefore assume that there exists a subtorus `T` of `G` such that
 `T_s` is a maximal torus of `G_s`. But then `C = Centr_G(T)` is a smooth subgroup of `G`, with connected fibers,
 majorizing `T`, such that `C_s = T_s` (since `C_s` is a Cartan subgroup of `G_s` and `G_s` has zero unipotent rank by
-c)). It follows that `C = T`, hence `T` is a Cartan subgroup and a maximal torus of `G`; a fortiori, the unipotent
-rank of `G` is zero and one may apply 4.1.
+c)). It follows that `C = T`, hence `T` is a Cartan subgroup and a maximal torus of `G`; a fortiori, the unipotent rank
+of `G` is zero and one may apply 4.1.
 
-By 4.1 d), it suffices to show that the Weyl group `W` relative to `T` is affine over a neighborhood `U` of `s`. In
-fact we shall see that `W` is even finite over a neighborhood of `s`. Since `W` is quasi-finite over `S` (Exp. XV 7.1
-iv)), to say that `W` is finite over a neighborhood `U` of `s` is equivalent to saying that the morphism `W → S` is
-proper at `s` (EGA IV 15.7 and EGA III 4.4.2); to establish this we have at our disposal <!-- original page 525 -->
-the valuative criterion of local properness (EGA IV 15.7), which reduces us to the case where `S` is the spectrum of a
-discrete valuation ring, with closed point `s`. But then, by the last assertion of 4.1 d), `G` is affine over `S`, and
-we may apply property a) recalled above to conclude that `G` is reductive (resp. semisimple). Using now property b),
-we conclude that `W` is indeed finite over `S`, which completes the proof of 5.2.
+By 4.1 d), it suffices to show that the Weyl group `W` relative to `T` is affine over a neighborhood `U` of `s`. In fact
+we shall see that `W` is even finite over a neighborhood of `s`. Since `W` is quasi-finite over `S` (Exp. XV 7.1 iv)),
+to say that `W` is finite over a neighborhood `U` of `s` is equivalent to saying that the morphism `W → S` is proper at
+`s` (EGA IV 15.7 and EGA III 4.4.2); to establish this we have at our disposal <!-- original page 525 --> the valuative
+criterion of local properness (EGA IV 15.7), which reduces us to the case where `S` is the spectrum of a discrete
+valuation ring, with closed point `s`. But then, by the last assertion of 4.1 d), `G` is affine over `S`, and we may
+apply property a) recalled above to conclude that `G` is reductive (resp. semisimple). Using now property b), we
+conclude that `W` is indeed finite over `S`, which completes the proof of 5.2.
 
 ## 6. Applications: extension of certain rigidity properties of tori to groups of zero unipotent rank
 
@@ -1055,14 +1053,14 @@ over `S`.*
 
 <!-- label: III.XVI.6.1 -->
 
-Indeed, for every geometric point `s` above `S`, `(K_s)_{red}` is a finite étale subgroup of `G_s`, normal hence
-central (since `G_s` is connected). Consequently `K₀ = Z ∩ K` (where `Z` denotes the center of `G`) has the same
-underlying space as `K`, and it suffices to show that `K₀` is finite over `S`. Now `K₀` is a closed, quasi-finite
-subgroup of the multiplicative-type group `Z`, hence is finite, as one sees immediately (locally on `S`, `K₀` will be
-majorized by `_n Z` for a suitable integer `n`, and `_n Z` is finite over `S`).
+Indeed, for every geometric point `s` above `S`, `(K_s)_{red}` is a finite étale subgroup of `G_s`, normal hence central
+(since `G_s` is connected). Consequently `K₀ = Z ∩ K` (where `Z` denotes the center of `G`) has the same underlying
+space as `K`, and it suffices to show that `K₀` is finite over `S`. Now `K₀` is a closed, quasi-finite subgroup of the
+multiplicative-type group `Z`, hence is finite, as one sees immediately (locally on `S`, `K₀` will be majorized by
+`_n Z` for a suitable integer `n`, and `_n Z` is finite over `S`).
 
-**Corollary 6.2.** *Let `S` and `G` be as above, `K` an `S`-group sub-prescheme of `G`, of finite presentation over
-`S`, normal and closed in `G`, `s` a point of `S`. If `K_s` is finite (resp. is the unit group), there exists an open
+**Corollary 6.2.** *Let `S` and `G` be as above, `K` an `S`-group sub-prescheme of `G`, of finite presentation over `S`,
+normal and closed in `G`, `s` a point of `S`. If `K_s` is finite (resp. is the unit group), there exists an open
 neighborhood `U` of `s` such that `K|U` is finite over `S` (resp. is the unit group).*
 
 <!-- label: III.XVI.6.2 -->
@@ -1073,42 +1071,43 @@ replacing `S` by a smaller open if necessary, that `K` is quasi-finite over `S`,
 `Spec 𝒪_s`, hence over a neighborhood of `s`.
 
 **Proposition 6.3.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth and of finite presentation over `S`,
-with affine, connected fibers, of zero unipotent rank, `H` an `S`-group prescheme, `s` a point of `S`,
-`u : G → H` an `S`-group morphism such that `Ker u_s` is central. Suppose moreover that `H` is of finite presentation
-over `S` or that `S` is locally noetherian and `G` is locally of finite type over `S`. Then there exists an open
-neighborhood `U` of `s` such that if `K = Ker u`, `K|U` is central, of multiplicative type. Moreover,
-`G′ = (G|U)/(K|U)` is representable and the morphism `u′ : G′ → H|U` deduced from `u` by passage to the quotient is an
-immersion.*
+with affine, connected fibers, of zero unipotent rank, `H` an `S`-group prescheme, `s` a point of `S`, `u : G → H` an
+`S`-group morphism such that `Ker u_s` is central. Suppose moreover that `H` is of finite presentation over `S` or that
+`S` is locally noetherian and `G` is locally of finite type over `S`. Then there exists an open neighborhood `U` of `s`
+such that if `K = Ker u`, `K|U` is central, of multiplicative type. Moreover, `G′ = (G|U)/(K|U)` is representable and
+the morphism `u′ : G′ → H|U` deduced from `u` by passage to the quotient is an immersion.*
 
 <!-- label: III.XVI.6.3 -->
 
 **Proof.** Let `Z` be the center of `G`, and `K₀ = K ∩ Z`.
 
-a) `K₀` is a subgroup of multiplicative type over a neighborhood `U` of `s`. Indeed, replacing `S` by an étale
-extension over a neighborhood `U` of `s` if necessary (which is legitimate), we may assume that `G` possesses a maximal
-torus `T` (4.1 c)). But then `T ∩ K` is a group of multiplicative type (Exp. XV 8.3) whose fiber at `s` is central by
-hypothesis, so `T ∩ K` is central over a neighborhood of `s` (Exp. IX 5.6 a)) and consequently coincides with `K₀`.
+a) `K₀` is a subgroup of multiplicative type over a neighborhood `U` of `s`. Indeed, replacing `S` by an étale extension
+over a neighborhood `U` of `s` if necessary (which is legitimate), we may assume that `G` possesses a maximal torus `T`
+(4.1 c)). But then `T ∩ K` is a group of multiplicative type (Exp. XV 8.3) whose fiber at `s` is central by hypothesis,
+so `T ∩ K` is central over a neighborhood of `s` (Exp. IX 5.6 a)) and consequently coincides with `K₀`.
 
-b) Let us show that `K₀ = K` over a neighborhood `U` of `s`. <!-- original page 528 --> By a) we may already assume
-that `K₀` is of multiplicative type, hence flat over `S`. Since `K₀_s = K_s`, the natural immersion `K₀ → K` is then
-open over a neighborhood `U` of `s` (Exp. VI_B 2.6). If `t ∈ U`, the image of `K_t` in the group `G′_t = G_t/Z_t` is
-then an étale finite group, normal in `G′_t` (since `K_t` is normal in `G_t`), hence central, hence reduced to the
-unit group (3.3 b)). This says that `K_t` is contained in `Z_t`, hence is equal to `K₀_t`, whence `K = K₀` over `U`.
+b) Let us show that `K₀ = K` over a neighborhood `U` of `s`. <!-- original page 528 --> By a) we may already assume that
+`K₀` is of multiplicative type, hence flat over `S`. Since `K₀_s = K_s`, the natural immersion `K₀ → K` is then open
+over a neighborhood `U` of `s` (Exp. VI_B 2.6). If `t ∈ U`, the image of `K_t` in the group `G′_t = G_t/Z_t` is then an
+étale finite group, normal in `G′_t` (since `K_t` is normal in `G_t`), hence central, hence reduced to the unit group
+(3.3 b)). This says that `K_t` is contained in `Z_t`, hence is equal to `K₀_t`, whence `K = K₀` over `U`.
 
-c) The representability of `G′` then follows from 2.3; the fact that `u′` is an immersion is contained in 1.3 a),
-taking 4.1 c) applied to `G′` into account.
+c) The representability of `G′` then follows from 2.3; the fact that `u′` is an immersion is contained in 1.3 a), taking
+4.1 c) applied to `G′` into account.
 
 **Proposition 6.4.** *Let `S` be a prescheme, `G` an `S`-group prescheme smooth, of finite presentation over `S`, with
 connected fibers, `s` a point of `S`, such that `G_s` is generated by its subtori (Exp. XII 8.2) (for example `G_s`
 affine of zero unipotent rank), `H` an `S`-group prescheme, `u` and `v : G → H` two `S`-homomorphisms such that
-`u_s = v_s` and such that `u_s` is central. Suppose moreover that `H` is of finite presentation over `S`, or that `S`
-is locally noetherian. Then there exists a neighborhood `U` of `s` such that `u|U = v|U`.*
+`u_s = v_s` and such that `u_s` is central. Suppose moreover that `H` is of finite presentation over `S`, or that `S` is
+locally noetherian. Then there exists a neighborhood `U` of `s` such that `u|U = v|U`.*
 
 <!-- label: III.XVI.6.4 -->
 
 We reduce as usual to the case where `S` is noetherian (to study the condition "`G_s` is generated by its subtori", one
 uses Exp. VI_B 7.4). Since `G` has connected fibers, to show that `u = v` over a neighborhood `U` of `s`, it suffices
+
 <!-- original page 529 --> to show that `u = v` after reduction by every power of the maximal ideal of the local ring
+
 `𝒪_{S,s}`, which reduces us to the case where `S` is local artinian.
 
 But then, the functor of maximal subtori of `G` is representable by an `S`-scheme `X`, smooth of finite type over `S`
@@ -1117,8 +1116,8 @@ means that the algebraic subgroup of `G_s` generated (Exp. VI_B § 7) by the `κ
 of the immersion `T_s → G_{X_s}` and the canonical projection `G_{X_s} → G_s`) is equal to `G_s` itself. But `X_s` is
 geometrically connected (since if `T` is a maximal torus of `G_s`, `N` its normalizer in `G_s`, `X_s` is isomorphic to
 `G_s/N`), and the image of `T_s` under `f` contains the unit section of `G_s`; it then follows from Exp. VI_B 7.4 that
-there exist an integer `N > 0` and an `S`-morphism `f^N : T^N → G` (where `T^N = T ×_S ⋯ ×_S T` (`N` factors) and
-`f^N` depends only on `f` and on the multiplication law of `G`) such that `(f^N)_s` is surjective.
+there exist an integer `N > 0` and an `S`-morphism `f^N : T^N → G` (where `T^N = T ×_S ⋯ ×_S T` (`N` factors) and `f^N`
+depends only on `f` and on the multiplication law of `G`) such that `(f^N)_s` is surjective.
 
 Consider the base change `X → S` and the restrictions of `u_X` and `v_X` to the subtorus `T` of `G_X`. By hypothesis,
 `u_{X_s} = v_{X_s}` and `u_{X_s} : T_{X_s} → H_{X_s}` is a central homomorphism. It then follows from Exp. IX 5.1 that
@@ -1127,15 +1126,8 @@ deduces immediately that `u f^N = v f^N`. But the `κ(s)`-morphism `f^N_s` is su
 reduced; consequently `f^N_s` is generically flat. Since `T` is smooth over `S`, hence flat, there exists a non-empty
 open set `V` of `T` such that `f^N|V` is flat (EGA IV 11.3.10). The image of `V` is an open `W` of `G` (EGA IV 11.3.1)
 and `f^N : V → W` is faithfully flat, of finite presentation, hence covering for the fpqc topology. <!-- original page
-530 --> The equality `u f^N = v f^N` then implies `u|W = v|W`. Since `W` is schematically dense in `G` (EGA IV
-11.10.10) and `H` is separated over `S` (Exp. VI_A 0.3), one deduces immediately that `u = v`.
-
-[^XVI-0]: Cf. footnote on page 1 of Exp. XV.
-
-[^N.D.E-XVI-1]: N.D.E.: S. Koizumi & G. Shimura, Specialization of abelian varieties, *Sci. Papers Coll. Gen. Ed. Univ.
-Tokyo* **9** (1959), 187–211.
-
-[^XVI-1]: TRANSLATOR NOTE: the source reads "1.2 a)" here, which appears to be a typo for "1.3 a)" (the connected-fiber case of the immersion criterion stated and proved above).
+530 --> The equality `u f^N = v f^N` then implies `u|W = v|W`. Since `W` is schematically dense in `G` (EGA IV 11.10.10)
+and `H` is separated over `S` (Exp. VI_A 0.3), one deduces immediately that `u = v`.
 
 <!-- LEDGER DELTA — Exposé XVI — for consolidation in Phase 3
 | French | English | Note |
@@ -1174,3 +1166,10 @@ Tokyo* **9** (1959), 187–211.
 | N.D.E. | N.D.E. | Editors' note; rendered as `[^N.D.E-XVI-n]` footnote. |
 -->
 
+[^XVI-0]: Cf. footnote on page 1 of Exp. XV.
+
+[^N.D.E-XVI-1]: N.D.E.: S. Koizumi & G. Shimura, Specialization of abelian varieties, *Sci. Papers Coll. Gen. Ed. Univ.
+    Tokyo* **9** (1959), 187–211.
+
+[^XVI-1]: TRANSLATOR NOTE: the source reads "1.2 a)" here, which appears to be a typo for "1.3 a)" (the connected-fiber
+    case of the immersion criterion stated and proved above).

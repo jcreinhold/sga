@@ -19,8 +19,8 @@ The aim of this section is the study of certain properties of functors `T : C° 
 denotes the opposite category of `C`.
 
 Note that if `M ∈ Ob C`, then `T(M)` may be canonically endowed with a structure of `A`-module, defined as follows: if
-`f_M` is the homothety of `M` associated to `f ∈ A`, then `A` acts on `T(M)` by `f_{T(M)}`. In other words, `T`
-factors as
+`f_M` is the homothety of `M` associated to `f ∈ A`, then `A` acts on `T(M)` by `f_{T(M)}`. In other words, `T` factors
+as
 
 ```text
                          T
@@ -68,8 +68,8 @@ The following two properties are equivalent:
 The implication (i) ⇒ (ii) is trivial.
 
 The implication (ii) ⇒ (i) follows from the fact that, for a morphism `u : F → F′` of two additive left exact functors
-`F` and `F′` from `C°` to `Ab`, if `u(A)` is an isomorphism, then `u` is an isomorphism (one uses the fact that `A`
-is noetherian, hence that every `A`-module of finite type is of finite presentation).
+`F` and `F′` from `C°` to `Ab`, if `u(A)` is an isomorphism, then `u` is an isomorphism (one uses the fact that `A` is
+noetherian, hence that every `A`-module of finite type is of finite presentation).
 
 **Remark.**
 
@@ -126,8 +126,8 @@ and the following conditions are equivalent:
 
 *Proof.* — a) *Definition of* `φ_T`.
 
-Let `M ∈ Ob C_Y`. There exists an integer `n` such that `J^n M = 0`. Then `M` is an `A/J^n`-module, and if `T_n`
-denotes the restriction of `T` to `C^{(n)}`, one knows how to define the morphism
+Let `M ∈ Ob C_Y`. There exists an integer `n` such that `J^n M = 0`. Then `M` is an `A/J^n`-module, and if `T_n` denotes
+the restriction of `T` to `C^{(n)}`, one knows how to define the morphism
 
 ```text
 T_n ⟶ Hom_A(−, H_n),    where H_n = T(A/J^n);
@@ -249,9 +249,9 @@ The following properties are equivalent:
 1. `H` is injective in `C′`.
 
 *Proof.* — It clearly suffices to show that (i) implies (ii), that is, to prove that if the restriction to `C_Y` of the
-functor `Hom_A(−, H)` is an exact functor, then `H` is injective. But since `A` is noetherian, in order to show that
-`H` is injective it suffices to prove that every homomorphism `f : N → H` whose source is an `A`-module `N` of finite
-type, a submodule of an `A`-module `M` of finite type, extends to a homomorphism `f̄ : M → H`.
+functor `Hom_A(−, H)` is an exact functor, then `H` is injective. But since `A` is noetherian, in order to show that `H`
+is injective it suffices to prove that every homomorphism `f : N → H` whose source is an `A`-module `N` of finite type,
+a submodule of an `A`-module `M` of finite type, extends to a homomorphism `f̄ : M → H`.
 
 The definition of `H` and the fact that `N` is of finite type imply that there exists an integer `n` such that
 `J^n · f(N) = 0`. Endow `M` and `N` with the `J`-adic topology. The `J`-adic topology of `N` is equivalent to the
@@ -357,8 +357,8 @@ following conditions are equivalent:
 *Proof.* — We have already shown the equivalence of (ii) and (iii) (Prop. 2.1).
 
 Let us show that (ii) implies (iv): first, if `M ∈ Ob C_Y`, then since `M` is an `A/J^n`-module with `A/J^n` artinian,
-`long M` is finite. We argue by induction on the length of `M`. Condition (iv) holds when `long M = 1`, because then
-`M` is a residue field falling under (ii). If `long M > 1`, there exists a submodule `M′` of `M` with `M′ ≠ 0` and
+`long M` is finite. We argue by induction on the length of `M`. Condition (iv) holds when `long M = 1`, because then `M`
+is a residue field falling under (ii). If `long M > 1`, there exists a submodule `M′` of `M` with `M′ ≠ 0` and
 `long M′ < long M`. Form the exact sequence
 
 ```text
@@ -387,8 +387,8 @@ true. In the general case, write the commutative diagram with exact rows
 0 ⟶ T∘T(M′) ⟶ T∘T(M) ⟶ T∘T(M′′) ⟶ 0,
 ```
 
-where `M′` is a submodule of `M` with `M′ ≠ 0` and `long M′ < long M`. By the induction hypothesis the outer arrows
-are isomorphisms, hence
+where `M′` is a submodule of `M` with `M′ ≠ 0` and `long M′ < long M`. By the induction hypothesis the outer arrows are
+isomorphisms, hence
 
 ```text
 M ⟶ T ∘ T(M)
@@ -457,8 +457,8 @@ Let `A` be a noetherian local ring with maximal ideal `𝔪`. A *dualizing funct
 T : C_𝔪° ⟶ Ab,
 ```
 
-where we write `C_𝔪` in place of `C_Y` for `Y = V(𝔪)`, which satisfies the equivalent conditions of Proposition 3.1.
-An `A`-module `I` is said to be *dualizing* for `A` if the functor `M ↦ Hom_A(M, I)` is dualizing.
+where we write `C_𝔪` in place of `C_Y` for `Y = V(𝔪)`, which satisfies the equivalent conditions of Proposition 3.1. An
+`A`-module `I` is said to be *dualizing* for `A` if the functor `M ↦ Hom_A(M, I)` is dualizing.
 
 Definition 4.1 can be generalized to the case where `A` is no longer assumed to be a local ring.
 
@@ -467,8 +467,8 @@ Definition 4.1 can be generalized to the case where `A` is no longer assumed to 
 <!-- label: IV.4.2 -->
 
 Let `A` be a noetherian ring, and let `C̄` be the full subcategory of `C` consisting of the `A`-modules of finite
-length. A *dualizing functor* is any `A`-linear functor `T` from `C̄°` to `C̄` which is exact and such that the
-morphism of functors
+length. A *dualizing functor* is any `A`-linear functor `T` from `C̄°` to `C̄` which is exact and such that the morphism
+of functors
 
 ```text
 id ⟶ T ∘ T
@@ -476,9 +476,8 @@ id ⟶ T ∘ T
 
 is an isomorphism.
 
-We will prove an existence theorem and also that the module `I` representing such a functor is locally artinian. We
-will likewise show that, for every maximal ideal `𝔪` of `A`, the `𝔪`-primary component of the socle of `I` is of
-length 1.
+We will prove an existence theorem and also that the module `I` representing such a functor is locally artinian. We will
+likewise show that, for every maximal ideal `𝔪` of `A`, the `𝔪`-primary component of the socle of `I` is of length 1.
 
 **Proposition.**
 
@@ -523,8 +522,8 @@ I ⥲ Î = I ⊗_A Â.
 ```
 
 *Proof.* — Let `I_n` denote the annihilator of `𝔪^n` in `I`, where `𝔪` is the maximal ideal of `A`. To say that `I` is
-locally artinian is to say that `I` is the direct limit of the `I_n` and that these are of finite length. Now the
-tensor product commutes with direct limits, so one is reduced to the case where `I` is artinian. In this case `I` is
+locally artinian is to say that `I` is the direct limit of the `I_n` and that these are of finite length. Now the tensor
+product commutes with direct limits, so one is reduced to the case where `I` is artinian. In this case `I` is
 annihilated by some power of the maximal ideal, say `𝔪^k`; therefore for `p ⩾ k` one has `I ⥲ I ⊗_A A/𝔪^p`, and hence
 `I ⥲ I ⊗_A Â`, since `A` is noetherian and `I` is of finite type.
 
@@ -565,16 +564,16 @@ field `k` of `A`.
 <!-- label: IV.4.8 -->
 
 Proposition 4.6 reduces the proof to the case of a complete noetherian local ring. By a structure theorem of
-Cohen,[^N.D.E-IV-3] such a ring is a quotient of a regular ring. Proposition 4.3 then allows one to assume `A`
-regular. As we shall see later, this remark permits an explicit computation of the dualizing module;[^IV-4-1]
-nevertheless we will prove Theorem 4.7 by other means.
+Cohen,[^N.D.E-IV-3] such a ring is a quotient of a regular ring. Proposition 4.3 then allows one to assume `A` regular.
+As we shall see later, this remark permits an explicit computation of the dualizing module;[^IV-4-1] nevertheless we
+will prove Theorem 4.7 by other means.
 
 *Recollections.* — Before proving the theorem, we make a few recollections on the notion of injective envelope. Cf.
 Gabriel, *Thèse*, Paris 1961, *Des Catégories Abéliennes*, ch. II § 5.
 
 <!-- original page 54 -->
 
-Let `𝒞` be an abelian category in which direct limits exist and are exact[^N.D.E-IV-4] (e.g. `𝒞 = ` the category of
+Let `𝒞` be an abelian category in which direct limits exist and are exact[^N.D.E-IV-4] (e.g. `𝒞 =` the category of
 modules). Every object `M` embeds in an injective object, and one calls *injective envelope* of `M` any minimal
 injective object containing `M`. One has the following properties:
 
@@ -616,15 +615,15 @@ Hom_A(k, I) ≃ Hom_A(k, J) ⊕ Hom_A(k, J′);
 
 <!-- original page 55 -->
 
-`Hom_A(k, J)` is a vector subspace of `Hom_A(k, I) ≃ k` not reduced to zero (since it contains the inclusion
-`k ⊂ J`), so `Hom_A(k, J) ≃ k`, and consequently `Hom_A(k, J′) = 0`.
+`Hom_A(k, J)` is a vector subspace of `Hom_A(k, I) ≃ k` not reduced to zero (since it contains the inclusion `k ⊂ J`),
+so `Hom_A(k, J) ≃ k`, and consequently `Hom_A(k, J′) = 0`.
 
-Arguing by induction on the length, one deduces that `Hom_A(M, J′) = 0` for every `A`-module `M` of finite length;
-since `I` is the direct limit of the modules `Hom(A/𝔪^n, I)` (cf. Proposition 1.3), which are of finite length by
-hypothesis, the projection `I → J′` is zero, and consequently `J′ = 0`.
+Arguing by induction on the length, one deduces that `Hom_A(M, J′) = 0` for every `A`-module `M` of finite length; since
+`I` is the direct limit of the modules `Hom(A/𝔪^n, I)` (cf. Proposition 1.3), which are of finite length by hypothesis,
+the projection `I → J′` is zero, and consequently `J′ = 0`.
 
-Conversely, let `I` be an injective envelope of `k`. To see that `I` is a dualizing module, it suffices, by 2.1 and
-3.1 (ii), to show that `V = Hom_A(k, I)` is isomorphic to `k`. Now one has the double inclusion
+Conversely, let `I` be an injective envelope of `k`. To see that `I` is a dualizing module, it suffices, by 2.1 and 3.1
+(ii), to show that `V = Hom_A(k, I)` is isomorphic to `k`. Now one has the double inclusion
 
 ```text
 k ⊂ V ⊂ I;
@@ -680,8 +679,8 @@ and so on.
 Let `A` be a noetherian local ring, let `𝒟_A` be the category of `A`-modules `M` such that, for every `n ∈ ℕ`,
 `M_(n) = M/𝔪^{n+1}M` is of finite length and such that `M = lim_← M_(n)`, and let `Â` be the completion of `A`. The
 restriction-of-scalars functor and the completion functor are quasi-inverse equivalences between `𝒟_A` and `𝒟_{Â}`,
-which commute up to isomorphism with the formation of the underlying abelian groups of the modules considered. Let
-`𝒞_A` denote the category of locally artinian `A`-modules with socle of finite dimension.
+which commute up to isomorphism with the formation of the underlying abelian groups of the modules considered. Let `𝒞_A`
+denote the category of locally artinian `A`-modules with socle of finite dimension.
 
 **Proposition.**
 
@@ -701,8 +700,8 @@ Hom_{Â}(−, I) : 𝒟_A ⟶ (𝒞_A)°
 
 are equivalences of categories, quasi-inverse to one another.
 
-Moreover, if one transports these functors via the equivalences of categories between `𝒟_A` and `𝒟_{Â}` on the one
-hand, and `𝒞_A` and `𝒞_{Â}` on the other, one finds the functor `Hom_{Â}(−, I)`.
+Moreover, if one transports these functors via the equivalences of categories between `𝒟_A` and `𝒟_{Â}` on the one hand,
+and `𝒞_A` and `𝒞_{Â}` on the other, one finds the functor `Hom_{Â}(−, I)`.
 
 <!-- original page 57 -->
 
@@ -721,9 +720,9 @@ Hom_A(X, I) = lim_← Hom_A(X_k, I).
 
 Therefore `Y = lim_← X_k` is an `Â`-module of finite type, as follows from EGA 0_I 7.2.9. We note in this connection
 that `𝒟_A` is also the category of `Â`-modules of finite type, or, if one prefers, that `𝒟_A` is the category of
-complete `A`-modules of finite type over `Â`. Let then `Y` be such a module, and let `f : Y → I` be an
-`Â`-homomorphism. The image of `f` is a submodule of finite type, hence is annihilated by `𝔪^k` for some `k`;
-indeed every `x ∈ I` is annihilated by a power of `𝔪`. So `f` factors through `Y/𝔪^k Y`, whence it follows that
+complete `A`-modules of finite type over `Â`. Let then `Y` be such a module, and let `f : Y → I` be an `Â`-homomorphism.
+The image of `f` is a submodule of finite type, hence is annihilated by `𝔪^k` for some `k`; indeed every `x ∈ I` is
+annihilated by a power of `𝔪`. So `f` factors through `Y/𝔪^k Y`, whence it follows that
 
 ```text
 Hom_{Â}(Y, I) = lim_→ Hom_{Â}(Y_(k), I)    with Y_(k) = Y/𝔪^{k+1}Y
@@ -739,13 +738,12 @@ another.
 <!-- original page 58 -->
 
 It follows from the foregoing that neither the categories nor the functors under consideration, nor the underlying
-abelian groups of the modules considered, are changed by replacing `A` by `Â`; Proposition 5.1 then states as
-follows:
+abelian groups of the modules considered, are changed by replacing `A` by `Â`; Proposition 5.1 then states as follows:
 
 The restriction of the functor `Hom_{Â}(−, I)` to the category of `Â`-modules of finite type takes its values in the
 category of locally artinian `Â`-modules with socle of finite dimension, and admits a quasi-inverse functor, which is
-the restriction of the functor `Hom_{Â}(−, I)`. On the intersection of these two categories these two functors
-coincide (obviously!) and establish an auto-duality of the category of `Â`-modules of finite length.
+the restriction of the functor `Hom_{Â}(−, I)`. On the intersection of these two categories these two functors coincide
+(obviously!) and establish an auto-duality of the category of `Â`-modules of finite length.
 
 **Example** (Macaulay).
 
@@ -784,8 +782,8 @@ Ext^n_A(k, A) ≃ k.
 <!-- original page 59 -->
 
 The depth of `A` being `n`, for every `M` annihilated by a power of `𝔪`, `Ext^i_A(M, A) = 0` if `i < n`; furthermore
-`Ext^i_A(M, A) = 0` if `i > n`, since the global cohomological dimension of `A` is equal to `n`. Hence
-`Ext^n_A(−, A)` is exact, and moreover `Ext^n_A(k, A) ≃ k`; it follows that:
+`Ext^i_A(M, A) = 0` if `i > n`, since the global cohomological dimension of `A` is equal to `n`. Hence `Ext^n_A(−, A)`
+is exact, and moreover `Ext^n_A(k, A) ≃ k`; it follows that:
 
 **Proposition.**
 
@@ -813,8 +811,8 @@ it is isomorphic to `H^n_𝔪(A)` (Exposé II, Th. 6).[^IV-5-1]
 If `A` satisfies the hypotheses of both preceding examples, the two dualizing modules so obtained are isomorphic.
 Suppose for example that `A` is regular of dimension `n`, complete, and of equal characteristic. There then exists a
 field of representatives, say `K`. If one chooses a system of parameters `(x₁, …, x_n)` of `A`, one can construct an
-isomorphism between `A` and the ring of formal power series `K[[T₁, …, T_n]]`; whence, as we shall now see, an
-explicit isomorphism between the two dualizing modules
+isomorphism between `A` and the ring of formal power series `K[[T₁, …, T_n]]`; whence, as we shall now see, an explicit
+isomorphism between the two dualizing modules
 
 ```text
 v : H^n_𝔪(A) ⟶ A′.
@@ -868,8 +866,8 @@ therefore equivalent to that of a linear form
 ρ : H^n_𝔪(Ω^n) ⟶ K,
 ```
 
-called the *residue form*.[^IV-5-2] To construct `ρ`, it suffices to define forms `ρ_r : I_r → K` that fit together,
-and one will take
+called the *residue form*.[^IV-5-2] To construct `ρ`, it suffices to define forms `ρ_r : I_r → K` that fit together, and
+one will take
 
 ```text
 ρ_r(e^r_{a₁,…,a_n}) =
@@ -877,56 +875,56 @@ and one will take
     0   otherwise.
 ```
 
+## Translation ledger (Exposé IV-specific)
+
+| French                                           | English                                  | Note                                                                                           |
+| ------------------------------------------------ | ---------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `T : C° → Ab` (foncteurs additifs)               | `T : C° → Ab` (additive functors)        | Contravariant; `C°` is the opposite category. Convention pinned at first use.                  |
+| homothétie `f_M`                                 | homothety `f_M`                          | Standard. Multiplication-by-`f` map on `M`.                                                    |
+| limite projective / inductive                    | inverse limit / direct limit             | Modern English (per glossary). The source's `lim_←`/`lim_→` notation is preserved.             |
+| foncteur exact à gauche                          | left exact functor                       | Per glossary.                                                                                  |
+| de présentation finie                            | of finite presentation                   | Standard.                                                                                      |
+| ∂-foncteur exact                                 | exact `∂`-functor                        | Original Grothendieck notation preserved; modern usage would say *exact sequence of functors*. |
+| corps résiduel                                   | residue field                            | Per glossary.                                                                                  |
+| socle                                            | socle                                    | Standard module-theoretic term; kept as in source.                                             |
+| longueur (`long M`)                              | length (`long M`)                        | Original abbreviation `long` preserved inside math.                                            |
+| module dualisant / foncteur dualisant            | dualizing module / dualizing functor     | Per glossary.                                                                                  |
+| enveloppe injective                              | injective envelope                       | Per glossary.                                                                                  |
+| extension essentielle                            | essential extension                      | Per glossary.                                                                                  |
+| restriction (resp. extension) des scalaires      | restriction (resp. extension) of scalars | Standard.                                                                                      |
+| forme résidu                                     | residue form                             | Per glossary (§5.5).                                                                           |
+| `Hom_A(B, I)` (with `B` a finite `A`-algebra)    | `Hom_A(B, I)`                            | Notation preserved; the `B`-module structure is via the second argument.                       |
+| module localement artinien                       | locally artinian module                  | Standard. Direct limit of finite-length submodules.                                            |
+| EGA 0_I 7.2.9                                    | EGA 0_I 7.2.9                            | Cross-reference preserved.                                                                     |
+| `Ω^n(A/K)`                                       | `Ω^n(A/K)`                               | Completed relative differentials of maximal degree.                                            |
+| C̄ (sous-catégorie des modules de longueur finie) | `C̄`                                      | Source uses an overline on `C`; rendered with the combining macron `C̄`.                        |
+
 [^N.D.E-IV-1]: *N.D.E.* The definition of `H` is implicit in the original text.
 
-[^N.D.E-IV-2]: *N.D.E.* Here one must understand by "the completion of `I`" the tensor product `Î = I ⊗_A Â`
-    (cf. Lemma 4.5), namely `I` endowed with its canonical `Â`-module structure, and not the `𝔪`-adic completion. For
-    example, if `p` is a prime number and `A = Â = ℤ_p` is the ring of `p`-adic integers, then the injective envelope
-    of the residue field `k = ℤ/pℤ` is the discrete `ℤ_p`-module `ℚ_p/ℤ_p`, whose completion for the `p`-adic
-    topology is zero.
+[^N.D.E-IV-2]: *N.D.E.* Here one must understand by "the completion of `I`" the tensor product `Î = I ⊗_A Â` (cf. Lemma
+    4.5), namely `I` endowed with its canonical `Â`-module structure, and not the `𝔪`-adic completion. For
+    example, if `p` is a prime number and `A = Â = ℤ_p` is the ring of `p`-adic integers, then the injective
+    envelope of the residue field `k = ℤ/pℤ` is the discrete `ℤ_p`-module `ℚ_p/ℤ_p`, whose completion for the
+    `p`-adic topology is zero.
 
-[^N.D.E-IV-3]: *N.D.E.* See Cohen I.S., "On the structure and ideal theory of complete local rings", *Trans. Amer.
-    Math. Soc.* **59** (1946), pp. 54–106.
+[^N.D.E-IV-3]: *N.D.E.* See Cohen I.S., "On the structure and ideal theory of complete local rings", *Trans. Amer. Math.
+    Soc.* **59** (1946), pp. 54–106.
 
-[^N.D.E-IV-4]: *N.D.E.* Of course, what is assumed exact is the small filtered direct limits; one should also assume
-    the existence of a generator. Cf. *Tôhoku*. As for the category of modules, which suffices for our purposes, one
-    may also refer to Chapter 10 of Bourbaki's *Algèbre*.
+[^IV-4-1]: This was the method followed by Grothendieck (in 1957). The method by injective envelopes that now follows is
+    due, it seems, to K. Morita, "Duality for modules and its applications to the theory of rings with minimum
+    conditions", *Sc. Rep. Tokyo Kyoiku Daigaku* **6** (1958/59), pp. 83–142. Morita's work is, moreover,
+    independent of Grothendieck's and considerably earlier than the present seminar, and is not limited to the
+    case of commutative base rings.
+
+[^N.D.E-IV-4]: *N.D.E.* Of course, what is assumed exact is the small filtered direct limits; one should also assume the
+    existence of a generator. Cf. *Tôhoku*. As for the category of modules, which suffices for our purposes,
+    one may also refer to Chapter 10 of Bourbaki's *Algèbre*.
 
 [^N.D.E-IV-5]: *N.D.E.* As already observed, one may also simply remark that `I` is the direct limit of the modules
     `Hom_A(A/𝔪^n, I)`.
 
-[^IV-4-1]: This was the method followed by Grothendieck (in 1957). The method by injective envelopes that now follows
-    is due, it seems, to K. Morita, "Duality for modules and its applications to the theory of rings with minimum
-    conditions", *Sc. Rep. Tokyo Kyoiku Daigaku* **6** (1958/59), pp. 83–142. Morita's work is, moreover, independent
-    of Grothendieck's and considerably earlier than the present seminar, and is not limited to the case of
-    commutative base rings.
-
 [^IV-5-1]: Let `A` be a ring, `J` an ideal of `A`, `M` an `A`-module, `i ∈ ℤ`; one then sets `H^i_J(M) = H^i_Y(X, F̃)`,
     where `X = Spec(A)`, `Y = V(J)` and `F̃ = M̃`.
 
-[^IV-5-2]: For a more detailed study of the notion of residue, cf. R. Hartshorne, *Residues and Duality*, Lect. Notes
-    in Math., vol. 20, Springer, 1966.
-
-## Translation ledger (Exposé IV-specific)
-
-| French                                        | English                                | Note                                                                                                  |
-| --------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `T : C° → Ab` (foncteurs additifs)            | `T : C° → Ab` (additive functors)      | Contravariant; `C°` is the opposite category. Convention pinned at first use.                          |
-| homothétie `f_M`                              | homothety `f_M`                        | Standard. Multiplication-by-`f` map on `M`.                                                            |
-| limite projective / inductive                 | inverse limit / direct limit           | Modern English (per glossary). The source's `lim_←`/`lim_→` notation is preserved.                      |
-| foncteur exact à gauche                       | left exact functor                     | Per glossary.                                                                                          |
-| de présentation finie                         | of finite presentation                 | Standard.                                                                                              |
-| ∂-foncteur exact                              | exact `∂`-functor                      | Original Grothendieck notation preserved; modern usage would say *exact sequence of functors*.        |
-| corps résiduel                                | residue field                          | Per glossary.                                                                                          |
-| socle                                         | socle                                  | Standard module-theoretic term; kept as in source.                                                     |
-| longueur (`long M`)                           | length (`long M`)                      | Original abbreviation `long` preserved inside math.                                                    |
-| module dualisant / foncteur dualisant         | dualizing module / dualizing functor   | Per glossary.                                                                                          |
-| enveloppe injective                           | injective envelope                     | Per glossary.                                                                                          |
-| extension essentielle                         | essential extension                    | Per glossary.                                                                                          |
-| restriction (resp. extension) des scalaires   | restriction (resp. extension) of scalars | Standard.                                                                                            |
-| forme résidu                                  | residue form                           | Per glossary (§5.5).                                                                                   |
-| `Hom_A(B, I)` (with `B` a finite `A`-algebra) | `Hom_A(B, I)`                          | Notation preserved; the `B`-module structure is via the second argument.                              |
-| module localement artinien                    | locally artinian module                | Standard. Direct limit of finite-length submodules.                                                    |
-| EGA 0_I 7.2.9                                 | EGA 0_I 7.2.9                          | Cross-reference preserved.                                                                             |
-| `Ω^n(A/K)`                                    | `Ω^n(A/K)`                             | Completed relative differentials of maximal degree.                                                    |
-| C̄ (sous-catégorie des modules de longueur finie) | `C̄`                                | Source uses an overline on `C`; rendered with the combining macron `C̄`.                                |
+[^IV-5-2]: For a more detailed study of the notion of residue, cf. R. Hartshorne, *Residues and Duality*, Lect. Notes in
+    Math., vol. 20, Springer, 1966.

@@ -8,8 +8,8 @@
 
 [^N.D.E-XXVI-0]
 
-This Exposé studies the parabolic subgroups of an `S`-reductive group `G`. Its essential result is the conjugacy
-theorem (5.4). The essential tool is the notion of *transversal position* of two parabolic subgroups, a notion studied
+This Exposé studies the parabolic subgroups of an `S`-reductive group `G`. Its essential result is the conjugacy theorem
+(5.4). The essential tool is the notion of *transversal position* of two parabolic subgroups, a notion studied
 systematically in §4. Another fact plays an important role: the decomposition of the unipotent radical `rad^u(P)` of a
 parabolic subgroup `P` as successive extensions of vector groups (2.1)[^N.D.E-XXVI-1].
 
@@ -112,8 +112,8 @@ g_{R''} = t ⊕ ⨁_{α ∈ R''} g^α,
 
 where `R''` is the intersection of the systems of positive roots of `R` contained in `R'`. In particular, it follows
 that `R''` is closed and that `R'' ∩ (−R'') = ∅`. On the other hand, the group `H = P/U` is reductive, the canonical
-image `T̄` of `T` is a maximal torus of it (`T → T̄` is an isomorphism), and one has an isomorphism of `T̄`-modules, i.e.
-of `M`-graded vector spaces,
+image `T̄` of `T` is a maximal torus of it (`T → T̄` is an isomorphism), and one has an isomorphism of `T̄`-modules,
+i.e. of `M`-graded vector spaces,
 
 ```text
 Lie(H) ≃ t ⊕ ⨁_{α ∈ R_s} g^α,
@@ -129,11 +129,10 @@ R'' = { α ∈ R' | −α ∉ R' },        R_s = { α ∈ R' | −α ∈ R' }.
 Let us now show that `R'` is closed. Let `α, β ∈ R'` such that `α + β ∈ R`; let us prove that `α + β ∈ R'`. If
 `α, β ∈ R''`, then `α + β ∈ R''` because `R''` is closed. If `α ∈ R_s`, `β ∈ R''`, and if `α + β ∉ R'`, then
 `α + β ∈ −R''`, and one has `−α = −(α + β) + β ∈ R''` because `R''` is closed, which entails `−α ∈ R'' ∩ R_s` and
-contradicts the fact that `R_s ∩ R'' = ∅`. It therefore remains to study the case where `α, β ∈ R_s`. If
-`α + β ∉ R'`, then `α + β ∈ −R''`. But, as `α + β ≠ 0`, there exists a system of positive roots of the root system
-`R_s` containing `α` and `β`, hence a Borel subgroup of `H = P/U` containing the canonical image of `U_α` and `U_β`.
-Its inverse image in `P` is a Borel subgroup containing `U_α`, `U_β` and `U`, hence `U_α`, `U_β` and `U_{−(α+β)}`, which
-is impossible.
+contradicts the fact that `R_s ∩ R'' = ∅`. It therefore remains to study the case where `α, β ∈ R_s`. If `α + β ∉ R'`,
+then `α + β ∈ −R''`. But, as `α + β ≠ 0`, there exists a system of positive roots of the root system `R_s` containing
+`α` and `β`, hence a Borel subgroup of `H = P/U` containing the canonical image of `U_α` and `U_β`. Its inverse image in
+`P` is a Borel subgroup containing `U_α`, `U_β` and `U`, hence `U_α`, `U_β` and `U_{−(α+β)}`, which is impossible.
 
 **Corollary 1.5.** *A parabolic subgroup of a reductive group is of type (RC) (Exp. XXII, 5.11.1).*
 
@@ -150,9 +149,9 @@ denoted `rad^u(P)`. The quotient sheaf `P/rad^u(P)` is representable by an `S`-r
 
 *(ii) If `T` is a maximal torus of `P`, `P` possesses a reductive subgroup `L` containing `T` such that:*
 
-   *(a) Every reductive subgroup of `P` containing `T` is contained in `L`.*
+*(a) Every reductive subgroup of `P` containing `T` is contained in `L`.*
 
-   *(b) `P` is the semidirect product `L · rad^u(P)`, i.e. the canonical morphism `L → P/rad^u(P)` is an isomorphism.*
+*(b) `P` is the semidirect product `L · rad^u(P)`, i.e. the canonical morphism `L → P/rad^u(P)` is an isomorphism.*
 
 *Moreover, `L` is the unique subgroup (resp. reductive subgroup) of `P` containing `T` and satisfying (b) (resp. (a)).
 Finally, one has*
@@ -188,8 +187,8 @@ Let us denote by `Lev(P)` the functor of Levi subgroups of `P`: for `S' → S`, 
 of `P_{S'}`. From 1.8 one deduces:
 
 **Corollary 1.9.** *Let `P` be a subgroup of type (RC)[^N.D.E-XXVI-4] of the `S`-reductive group `G`. Then `Lev(P)` is a
-principal homogeneous bundle under the `S`-group `rad^u(P)`, and in particular is representable by an `S`-scheme that
-is smooth and affine over `S`, with integral geometric fibers.*
+principal homogeneous bundle under the `S`-group `rad^u(P)`, and in particular is representable by an `S`-scheme that is
+smooth and affine over `S`, with integral geometric fibers.*
 
 <!-- label: III.XXVI.1.9 -->
 
@@ -213,8 +212,8 @@ The first assertion of 1.10 is a consequence of the other two and of Exp. XXII, 
 
 **Definition 1.11.** *Let `S` be a nonempty scheme, `G` an `S`-reductive group, `P` a parabolic subgroup of `G`,
 `E = (T, M, R, Δ, (X_α)_{α ∈ Δ})` a pinning of `G`. One says that `E` is* adapted *to `P`, or that `E` is a* pinning of
-the pair `(G, P)`, *if `P ⊃ T` and if the Lie algebra of `P` is of the form `t ⊕ ⨁_{α ∈ R'} g^α`, where `R'` is a
-subset of `R` containing `R^+`.*
+the pair `(G, P)`, *if `P ⊃ T` and if the Lie algebra of `P` is of the form `t ⊕ ⨁_{α ∈ R'} g^α`, where `R'` is a subset
+of `R` containing `R^+`.*
 
 <!-- label: III.XXVI.1.11 -->
 
@@ -271,8 +270,8 @@ group `G`, may be pinned (1.11).*
 Let us note:
 
 **Proposition 1.15.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` a parabolic subgroup of `G`, `E` and `E'`
-two pinnings of `G` adapted to `P`. The unique inner automorphism of `G` over `S` that transforms `E` into `E'`
-(Exp. XXIV, 1.5) comes from `P`, via the morphism*
+two pinnings of `G` adapted to `P`. The unique inner automorphism of `G` over `S` that transforms `E` into `E'` (Exp.
+XXIV, 1.5) comes from `P`, via the morphism*
 
 ```text
 P ⟶ P/Centr(P) = P/Centr(G) ⟶ G/Centr(G).
@@ -287,9 +286,9 @@ parabolic subgroup `P` of the `S`-reductive group `G` are conjugate in `P`, loca
 
 <!-- label: III.XXVI.1.16 -->
 
-**Proposition 1.17.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` and `P'` two parabolic subgroups of `G`,
-`B` a Borel subgroup contained in `P` and `P'`. If `P` and `P'` are conjugate in `G` locally for the étale topology,
-then `P = P'`.*
+**Proposition 1.17.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` and `P'` two parabolic subgroups of `G`, `B`
+a Borel subgroup contained in `P` and `P'`. If `P` and `P'` are conjugate in `G` locally for the étale topology, then
+`P = P'`.*
 
 <!-- label: III.XXVI.1.17 -->
 
@@ -496,9 +495,9 @@ structures constructed on `U_i / U_{i+1} = U'_i / U'_{i+1}` coincide.
 This shows that the groups `U_i` and the vector structures on the quotients `U_i / U_{i+1}` are independent of the
 pinning considered (and in particular invariant under every automorphism of `P`, as one sees easily).
 
-We have therefore proved the proposition when the pair `(G, P)` is pinnable (part (iii) is trivial, since by
-Exp. XXI 3.1.2, the set `{ a(γ) | γ ∈ R }` is an interval of `ℤ`, hence one cannot have
-`dim(U_{i, s}) = dim(U_{i+1, s})` unless `U_{i, s} = e`).
+We have therefore proved the proposition when the pair `(G, P)` is pinnable (part (iii) is trivial, since by Exp. XXI
+3.1.2, the set `{ a(γ) | γ ∈ R }` is an interval of `ℤ`, hence one cannot have `dim(U_{i, s}) = dim(U_{i+1, s})` unless
+`U_{i, s} = e`).
 
 ### 2.1.3.
 
@@ -520,9 +519,11 @@ H^1(S, rad^u(P)) = 0,
 <!-- label: III.XXVI.2.2 -->
 
 Indeed, `S` decomposes as a sum of subschemes on each of which `rad^u(P)` is of constant relative dimension. One may
+
 <!-- original page 440 -->
-therefore, by (iii), assume that there exists `n` such that `U_n = e`. Since `H^1(S, U_i / U_{i+1}) = H^1(S, W(E_i)) = 0`
-by TDTE I, B, 1.1 (or SGA 1, XI 5.1), one concludes at once.
+
+therefore, by (iii), assume that there exists `n` such that `U_n = e`. Since
+`H^1(S, U_i / U_{i+1}) = H^1(S, W(E_i)) = 0` by TDTE I, B, 1.1 (or SGA 1, XI 5.1), one concludes at once.
 
 **Corollary 2.3.** *Under the preceding conditions, `P` possesses a Levi subgroup `L`. If `L` is a Levi subgroup of `P`,
 the canonical map*
@@ -571,8 +572,8 @@ This is clear for `i = 0`. Assume `i > 0`; then `rad^u(P) / U_i` is a principal 
 ```
 
 Now the base is affine (e.g. by the induction hypothesis), so this bundle is trivial (TDTE I or SGA 1 XI, *loc. cit.*),
-and there exists an isomorphism of `S`-schemes
-`rad^u(P) / U_i ≃ (rad^u(P) / U_{i−1}) ×_S (U_{i−1} / U_i)`, which completes the proof.
+and there exists an isomorphism of `S`-schemes `rad^u(P) / U_i ≃ (rad^u(P) / U_{i−1}) ×_S (U_{i−1} / U_i)`, which
+completes the proof.
 
 **Corollary 2.6.** *Let `S` be a semi-local scheme, `{s_i}` the set of its closed points, `G` an `S`-reductive group,
 `P` a parabolic subgroup of `G`. The canonical map*
@@ -613,9 +614,9 @@ Indeed, let `L_0` be a Levi subgroup of `P` (2.3). For each `i`, let `u_i ∈ ra
 the question.
 
 **Corollary 2.9.** *In the situation of 2.1, let moreover `H` be a sub-group-scheme of `G`, smooth and of finite
-presentation over `S`, with connected fibers, such that `P ∩ H` contains locally for the (fpqc) topology a maximal
-torus of `G`. Then for each `i ⩾ 0`, there exists a locally direct factor submodule `F_i` of `E_i` such that the
-isomorphism `U_i / U_{i+1} ⥲ W(E_i)` induces an isomorphism of groups*
+presentation over `S`, with connected fibers, such that `P ∩ H` contains locally for the (fpqc) topology a maximal torus
+of `G`. Then for each `i ⩾ 0`, there exists a locally direct factor submodule `F_i` of `E_i` such that the isomorphism
+`U_i / U_{i+1} ⥲ W(E_i)` induces an isomorphism of groups*
 
 ```text
 (U_i ∩ H) / (U_{i+1} ∩ H) ⥲ W(F_i).
@@ -625,8 +626,8 @@ isomorphism `U_i / U_{i+1} ⥲ W(E_i)` induces an isomorphism of groups*
 
 Indeed, `H` is a subgroup of type (R) of `G` (Exp. XXII, 5.2.1). On the other hand, the assertion to be proved is local
 for the (fpqc) topology, and one may assume `G` split relative to a maximal torus of `P ∩ H`; one may even reduce to the
-situation of 2.1.1, with `H` defined by a subset `R'` of `R`. Taking up the notation of *loc. cit.*, one sees by
-Exp. XXII, 5.6.7 (ii) that `U_i ∩ H = ∏_{α ∈ R_i ∩ R'} U_α`, hence that `(U_i ∩ H) / (U_{i+1} ∩ H)` is identified with
+situation of 2.1.1, with `H` defined by a subset `R'` of `R`. Taking up the notation of *loc. cit.*, one sees by Exp.
+XXII, 5.6.7 (ii) that `U_i ∩ H = ∏_{α ∈ R_i ∩ R'} U_α`, hence that `(U_i ∩ H) / (U_{i+1} ∩ H)` is identified with
 `∏_{α ∈ R', a(α) = i+1} U_α`, which yields the result.
 
 **Corollary 2.10.** *In the situation of 2.9, the conclusions of 2.2, 2.5, 2.6, 2.7 are also valid when `rad^u(P)` is
@@ -687,8 +688,8 @@ possessing the following properties:
 Let first `P` be a parabolic subgroup of `G` and `(T, M, R, Δ, …)` a pinning of `G` adapted to `P`. One defines `t(P)`
 by (ii); the subscheme `t(P)` of `Dyn(G)` thus constructed is independent of the pinning chosen. Indeed, if
 `(T', M', R', Δ', …)` is another pinning of `G` adapted to `P`, the unique inner automorphism of `G` transforming the
-first pinning into the second comes from `P` (1.15); the canonical isomorphism `Δ ⥲ Δ'` therefore transforms `Δ(P)`
-into `Δ'(P)`, which entails the announced result.
+first pinning into the second comes from `P` (1.15); the canonical isomorphism `Δ ⥲ Δ'` therefore transforms `Δ(P)` into
+`Δ'(P)`, which entails the announced result.
 
 If now one no longer assumes `(G, P)` to be pinnable, it follows immediately from 1.14 and the definition of `Dyn(G)`
 (Exp. XXIV, 3.3) that one may define by descent an open and closed subscheme `t(P)` of `Dyn(G)`, unique, such that for
@@ -712,7 +713,9 @@ necessary and sufficient that `t(P) = t(P')`.*
 By 3.2 (i), and the fact that inner automorphisms of `G` act trivially on `Dyn(G)` (Exp. XXIV, 3.4 (iv)), one indeed has
 `t(P) = t(P')` when `P` and `P'` are conjugate. Conversely, let `P` and `P'` be two parabolic subgroups of `G` such that
 `t(P) = t(P')`; let us prove that `P` and `P'` are conjugate in `G`, locally for the (fpqc) topology; one may first
+
 <!-- original page 445 -->
+
 assume that the pairs `(G, P)` and `(G, P')` are pinnable (1.14); by conjugacy of pinnings in `G` (Exp. XXIV, 1.5), one
 may assume that there exists a pinning `(T, M, R, Δ)` of `G` adapted to `P` and `P'`. Then `t(P) = t(P')` implies
 `Δ(P) = Δ(P')`, hence `P = P'` (cf. 1.4 (v)). We have therefore proved (i). To demonstrate (ii), let us take up the
@@ -732,12 +735,12 @@ Par(G) ────────t──────→ Of(Dyn(G))
 Now (*loc. cit.*) `H_c` is representable and the morphism `cℓ` is smooth, quasi-projective, of finite presentation, with
 integral geometric fibers, hence the same holds for `t`.
 
-It remains to prove that `t` is proper; but this is now a local assertion for the (fpqc) topology, and one may reduce
-to the pinned case `G = (G, T, M, R, Δ, …)`. One then has `Dyn(G) ≃ Δ_S`, and it suffices to prove that for every subset
+It remains to prove that `t` is proper; but this is now a local assertion for the (fpqc) topology, and one may reduce to
+the pinned case `G = (G, T, M, R, Δ, …)`. One then has `Dyn(G) ≃ Δ_S`, and it suffices to prove that for every subset
 `Δ_1` of `Δ`, the `S`-scheme `t^{-1}((Δ_1)_S)` is proper over `S`. Now if `P_1` is the parabolic subgroup of `G`
 containing `T` such that `Δ(P_1) = Δ_1`, it follows from (i) that the morphism `G → Par(G)` defined set-theoretically by
-`g ↦ int(g) P_1` induces an isomorphism of `G / Norm_G(P_1)` onto `t^{-1}((Δ_1)_S)`. Now, by 1.2, `G / Norm_G(P_1) =
-G / P_1` is projective over `S`.
+`g ↦ int(g) P_1` induces an isomorphism of `G / Norm_G(P_1)` onto `t^{-1}((Δ_1)_S)`. Now, by 1.2,
+`G / Norm_G(P_1) = G / P_1` is projective over `S`.
 
 **Definition 3.4.** *`Of(Dyn(G))` is called the* scheme of types of parabolics *of `G`; `t(P)` is called the* type *of
 `P`.*
@@ -809,9 +812,9 @@ The preceding discussions may be taken up in the case of critical subgroups. Let
 `Q` of `G` is a *C-critical torus* if `Q = rad(Centr_G(Q))`, and that critical subgroups and C-critical
 tori[^N.D.E-XXVI-11] are in bijective correspondence (via `H ↦ rad(H)` and `Q ↦ Centr_G(Q)`).
 
-If `(G, T, M, R)` is a split `S`-group, the subgroup of `G` containing `T` corresponding to the part `R'` of `R`
-(Exp. XXII, 5.4.2) is critical if and only if `R'` is "vectorial" (that is, the intersection of `R` with a vector
-subspace of `M ⊗ ℚ`), cf. Exp. XXII, 5.10.6.
+If `(G, T, M, R)` is a split `S`-group, the subgroup of `G` containing `T` corresponding to the part `R'` of `R` (Exp.
+XXII, 5.4.2) is critical if and only if `R'` is "vectorial" (that is, the intersection of `R` with a vector subspace of
+`M ⊗ ℚ`), cf. Exp. XXII, 5.10.6.
 
 If `G` is an arbitrary `S`-reductive group, one defines, as in Exp. XXII, 5.11.5, an étale finite `S`-scheme
 `Cℓ_{crit}`, which in the split case will be the constant scheme associated with the set of vectorial parts of `R`
@@ -872,13 +875,12 @@ representable by `S`-schemes that are affine and smooth over `S`.*
 The first assertion follows from 3.11, the second from the first and from Exp. XXII, 5.10.2.
 
 **Corollary 3.13.** *Let `Q` be a subtorus of the `S`-reductive group `G`. Then `G / Centr_G(Q)` is representable by an
-`S`-scheme that is smooth and affine over `S`. The same holds for `G / Norm_G(Q)` if `Q` is a critical subtorus of
-`G`.*
+`S`-scheme that is smooth and affine over `S`. The same holds for `G / Norm_G(Q)` if `Q` is a critical subtorus of `G`.*
 
 <!-- label: III.XXVI.3.13 -->
 
-Indeed, `H = Centr_G(Q)` is critical (Exp. XXII, 5.10.5), and one has `Norm_G(H) = Norm_G(Q)` if `Q` is critical
-(*loc. cit.* 5.10.8).
+Indeed, `H = Centr_G(Q)` is critical (Exp. XXII, 5.10.5), and one has `Norm_G(H) = Norm_G(Q)` if `Q` is critical (*loc.
+cit.* 5.10.8).
 
 ### 3.14.
 
@@ -963,8 +965,8 @@ geometric fibers, the morphism `e` is an isomorphism.*
 *Proof.* It is first clear that `e` is an isomorphism, by 1.6 (ii). On the other hand, (iv) is evident.
 
 The morphism `a` is smooth, affine, with integral geometric fibers: indeed, by base change `Crit(G) → S`, it suffices to
-verify that the morphism `Tor(L_0) → S`, where `L_0` is the universal critical subgroup, has these properties; but
-`L_0` is reductive (by definition), and one is reduced to Exp. XXII, 5.8.3. The morphism `b` therefore has the same
+verify that the morphism `Tor(L_0) → S`, where `L_0` is the universal critical subgroup, has these properties; but `L_0`
+is reductive (by definition), and one is reduced to Exp. XXII, 5.8.3. The morphism `b` therefore has the same
 properties, by virtue of (iv).
 
 <!-- original page 452 -->
@@ -996,8 +998,8 @@ a maximal torus is not always contained in a Borel subgroup (example: a non-spli
 
 *(ii) Similarly, it may happen that the morphism `u : Of(Dyn(G)) → Cℓ_{crit}` is not an isomorphism: two parabolic
 subgroups of distinct types may have Levi subgroups of the same type; for example: in a group of type `A_2`, there are
-two types of parabolic subgroups whose Levi subgroups are of semisimple rank 1 (corresponding to the two vertices of
-the diagram), whereas there is only one type of critical subgroup of rank 1.*
+two types of parabolic subgroups whose Levi subgroups are of semisimple rank 1 (corresponding to the two vertices of the
+diagram), whereas there is only one type of critical subgroup of rank 1.*
 
 *The analogous example with a group of type `A_3` shows that, even over an algebraically closed field, non-isomorphic
 parabolic subgroups may have Levi subgroups of the same type.*[^N.D.E-XXVI-14]
@@ -1029,8 +1031,8 @@ The proof goes exactly as in Exp. XXIV, 4.2.1.
 
 If `S` is a scheme, `G` an `S`-reductive group, and if `t ∈ Of(Dyn(G))(S)`, one denotes by `H^1_t(S, G)` the subset of
 `H^1(S, G)` formed of classes of principal bundles `F` under `G` such that the associated group `G_F` has a parabolic
-subgroup of type `t`. If `G` itself has a parabolic subgroup `P` of type `t`, `H^1_t(S, G)` is none other than the
-image of `H^1(S, P)` in `H^1(S, G)`, an image which therefore does not depend on the `P` chosen.
+subgroup of type `t`. If `G` itself has a parabolic subgroup `P` of type `t`, `H^1_t(S, G)` is none other than the image
+of `H^1(S, P)` in `H^1(S, G)`, an image which therefore does not depend on the `P` chosen.
 
 ## 4. Relative position of two parabolic subgroups
 
@@ -1050,7 +1052,9 @@ respect to `T`.*[^N.D.E-XXVI-16]
 <!-- label: III.XXVI.4.1.1 -->
 
 Suppose first `k` algebraically closed. Let `B` (resp. `B'`) be a Borel subgroup
+
 <!-- original page 454 -->
+
 of `P` (resp. `P'`). One knows that there exists `g ∈ G(k)` such that `int(g) B = B'`. On the other hand, if `T_0` is a
 maximal torus of `B` and one sets `N = Norm_G(T_0)`, one knows (Bruhat's theorem, Bible, §13.4, Cor. 1 to Th. 3) that
 `G(k) = B(k) N(k) B(k)`. One therefore sees that there exist `b, b_1 ∈ B(k)` and `n ∈ N(k)` such that `g = b n b_1`,
@@ -1074,8 +1078,8 @@ Finally, the set `R_P` (resp. `R_{P'}`) of roots of `P` (resp. `P'`) with respec
 <!-- label: III.XXVI.4.1.2 -->
 
 **Remark 4.1.3.** *The preceding lemma is not true over an arbitrary scheme. Indeed, let `G` be, for example, a
-reductive group over an algebraically closed field `k`, and let `B` be a Borel subgroup of `G`. Take `S = X` as base
-and consider the Borel subgroups `B_1` and `B_2` of `G_X`, where `B_1 = B_X` and `B_2 = int(g_0) B_1`, `g_0` being the
+reductive group over an algebraically closed field `k`, and let `B` be a Borel subgroup of `G`. Take `S = X` as base and
+consider the Borel subgroups `B_1` and `B_2` of `G_X`, where `B_1 = B_X` and `B_2 = int(g_0) B_1`, `g_0` being the
 canonical (diagonal) section of `G_X`. For each `g ∈ X(k)`, the fiber of `B_1 ∩ B_2` at `g` is none other than
 `B ∩ int(g) B`. If one assumes `B ≠ G`, the dimension of this fiber varies with `g`, hence `B_1 ∩ B_2` cannot be smooth
 over `X`.*
@@ -1114,10 +1118,10 @@ dim(P_s ∩ Q_s) = dim P_s + dim Q_s − dim G_s.
 *(vi) There exists a covering family for the étale topology `{ S_i → S }`, and for each `i` a Borel subgroup `B_i` of
 `P_{S_i}` and a Borel subgroup `B'_i` of `Q_{S_i}`, such that `B_i ∩ B'_i` is a maximal torus of `G_{S_i}`.*
 
-*(vii) There exists a covering family for the étale topology `{ S_i → S }`, and for each `i` a splitting
-`(T_i, …, R_i)` of `G_{S_i}` and a system of positive roots `R_i^+` of `R_i`, such that `P_{S_i}` (resp. `Q_{S_i}`) is
-the subgroup of type (R) of `G_{S_i}` containing `T_i` and defined by a subset `R_i^{(1)}` (resp. `R_i^{(2)}`) of `R`
-containing `R_i^+` (resp. `−R_i^+`) (see Exp. XXII, 5.4.2 and 5.2.1 for the definitions).*
+*(vii) There exists a covering family for the étale topology `{ S_i → S }`, and for each `i` a splitting `(T_i, …, R_i)`
+of `G_{S_i}` and a system of positive roots `R_i^+` of `R_i`, such that `P_{S_i}` (resp. `Q_{S_i}`) is the subgroup of
+type (R) of `G_{S_i}` containing `T_i` and defined by a subset `R_i^{(1)}` (resp. `R_i^{(2)}`) of `R` containing `R_i^+`
+(resp. `−R_i^+`) (see Exp. XXII, 5.4.2 and 5.2.1 for the definitions).*
 
 <!-- label: III.XXVI.4.2.1 -->
 
@@ -1135,9 +1139,9 @@ containing `R_i^+` (resp. `−R_i^+`) (see Exp. XXII, 5.4.2 and 5.2.1 for the de
 
 <!-- original page 456 -->
 
-One trivially has (ii) ⇒ (iii) and (ii') ⇒ (iii'). If (iii) holds, the set-theoretic image of the morphism
-`P ×_S Q → G` is an open set of `G` containing the unit section; since the fibers of `G` are connected, this image is
-dense on each fiber, which proves (iv). One similarly has (iii') ⇒ (iv').
+One trivially has (ii) ⇒ (iii) and (ii') ⇒ (iii'). If (iii) holds, the set-theoretic image of the morphism `P ×_S Q → G`
+is an open set of `G` containing the unit section; since the fibers of `G` are connected, this image is dense on each
+fiber, which proves (iv). One similarly has (iii') ⇒ (iv').
 
 One has (ii') ⇒ (ii), by the cartesian diagram
 
@@ -1156,8 +1160,7 @@ resp. (iv'), at a point of `G(k)`, resp. of `(G/Q)(k)`, is isomorphic to `P ∩ 
 One has (vi) ⇒ (vii), by Exp. XXII, 5.5.1 (iv) and 5.9.2.
 
 One has (vii) ⇒ (i), because to verify that `Lie(P) + Lie(Q) = Lie(G)`, one may reason locally for (fpqc); thus if (vii)
-is satisfied one may assume `G` split, `P ⊃ B_{R^+}` and `Q ⊃ B_{−R^+}` (usual notations), in which case one already
-has
+is satisfied one may assume `G` split, `P ⊃ B_{R^+}` and `Q ⊃ B_{−R^+}` (usual notations), in which case one already has
 
 ```text
 Lie(B_{R^+}) + Lie(B_{−R^+}) = Lie(G).
@@ -1167,10 +1170,12 @@ Let us prove that (i) implies (ii').
 
 Let `u : P → G/Q` be the canonical morphism; to prove that `u` is smooth, it suffices to do so on the geometric fibers
 of `u`, since `P` and `G/Q` are smooth over `S`, and one may therefore assume that `S` is the spectrum of an
-algebraically closed field. As the morphism `u` is compatible with the obvious action of `P` (one has `u(p p') = p
-u(p')`) it suffices, by a translation argument (cf. the proof of VI_B 1.3), to verify that `u` is smooth at
+algebraically closed field. As the morphism `u` is compatible with the obvious action of `P` (one has
+`u(p p') = p u(p')`) it suffices, by a translation argument (cf. the proof of VI_B 1.3), to verify that `u` is smooth at
 `e ∈ P(k)`, i.e. (SGA 1, II 4.7) that the tangent map to `u` at `e` is surjective; but the latter is naturally
+
 <!-- original page 457 -->
+
 identified with the canonical map `Lie(P) → Lie(G)/Lie(Q)`, which is surjective if (i) is satisfied.
 
 It therefore only remains to verify the last assertion, namely (v) ⇒ (vi). Suppose first that `S` is the spectrum of an
@@ -1199,13 +1204,15 @@ contains a system of positive roots of `R`. We are therefore reduced to proving:
 
 <!-- label: III.XXVI.4.2.2 -->
 
-Indeed, since `R_1 ∩ −R_2 = R_3` is evidently closed, and by Exp. XXI, 3.3.6, it suffices to show that
-`R_3 ∪ −R_3 = R`. Now one knows that `R_1 ∪ −R_1 = R = R_2 ∪ −R_2`, and one concludes thanks to the following
-elementary fact: if `A, A', B, B'` are four subsets of a set `E`, and if `A ∪ A' = B ∪ B' = A ∪ B = A' ∪ B' = E`, then
+Indeed, since `R_1 ∩ −R_2 = R_3` is evidently closed, and by Exp. XXI, 3.3.6, it suffices to show that `R_3 ∪ −R_3 = R`.
+Now one knows that `R_1 ∪ −R_1 = R = R_2 ∪ −R_2`, and one concludes thanks to the following elementary fact: if
+`A, A', B, B'` are four subsets of a set `E`, and if `A ∪ A' = B ∪ B' = A ∪ B = A' ∪ B' = E`, then
 `(A ∩ B') ∪ (A' ∩ B) = E`.
 
 This completes the proof of (v) ⇒ (vi) in the case where the base is the spectrum of an algebraically closed field. Let
+
 <!-- original page 458 -->
+
 us now return to the general case and assume (v) is satisfied. Let `s ∈ S`; by the preceding, one may find a Borel
 subgroup `B̄` (resp. `B̄'`) of `P_s` (resp. `Q_s`) such that `B̄ ∩ B̄'` is a maximal torus of `G_s`.
 
@@ -1213,8 +1220,8 @@ Since the `S`-scheme `Bor(P) ≃ Bor(P/rad^u(P))` of Borel subgroups of `P` is s
 (cf. Exp. XI 1.10) and reasoning locally for the étale topology (i.e. replacing `S` by an `S' → S` that is étale and
 covering `s`, and `s` by a point of its fiber in `S'`), assume that there exists a Borel subgroup `B` of `P` projecting
 onto `B̄`; one may similarly assume that there exists a Borel subgroup `B'` of `Q` projecting onto `B̄'`. Since
-`B_s ∩ B'_s` is a maximal torus of `G_s`, there exists an open neighborhood `U` of `s` in `S` such that
-`B_U ∩ B'_U` is a maximal torus of `G_U` (Exp. XXII, 5.9.4), which proves (vi). QED.
+`B_s ∩ B'_s` is a maximal torus of `G_s`, there exists an open neighborhood `U` of `s` in `S` such that `B_U ∩ B'_U` is
+a maximal torus of `G_U` (Exp. XXII, 5.9.4), which proves (vi). QED.
 
 **Definition 4.2.3.** *A pair `(P, Q)` satisfying the equivalent conditions (i) to (vii) of Theorem 4.2.1 is said to be
 in* transversal position. *One also says that `P` is in transversal position relative to `Q`, or, by abuse of language,
@@ -1232,8 +1239,8 @@ transversal position, then `(P, Q)` is in transversal position.*
 
 <!-- original page 459 -->
 
-*(ii) There exists an open subscheme `U` of `S` having the following property: for a morphism `S' → S` to factor
-through `U`, it is necessary and sufficient that `(P_{S'}, Q_{S'})` be in transversal position.*
+*(ii) There exists an open subscheme `U` of `S` having the following property: for a morphism `S' → S` to factor through
+`U`, it is necessary and sufficient that `(P_{S'}, Q_{S'})` be in transversal position.*
 
 *(iii) Consider the subfunctors*
 
@@ -1253,8 +1260,7 @@ position, `Gen(/Q)(S')` is the set of parabolic subgroups of `G_{S'}` in transve
 <!-- label: III.XXVI.4.2.4 -->
 
 Assertions (i) follow at once from the description 4.2.1 (i) of the term "transversal position". To demonstrate (ii),
-one takes `U = S − Supp(Coker u)` where `u` is the canonical morphism
-`Lie(P) ⊕ Lie(Q) → Lie(G)`.
+one takes `U = S − Supp(Coker u)` where `u` is the canonical morphism `Lie(P) ⊕ Lie(Q) → Lie(G)`.
 
 Since one has cartesian diagrams
 
@@ -1282,8 +1288,8 @@ field. As `Par(G)` is smooth, it suffices to verify that `Gen(G)` meets each irr
 `Par(G) ×_S Par(G)`; in other words, by 3.3, it suffices to see that if `t, t' ∈ Of(Dyn(G))(S)`, there exists a pair
 `(P, P')` in transversal position with `t(P) = t`, `t(P') = t'`. Now this is immediate: one chooses a pair `(B, B')` of
 Borel subgroups of `G` such that `B ∩ B'` is a maximal torus (one splits `G` and applies Exp. XXII, 5.9.2) then one
-applies 3.8 to construct `P ⊃ B` and `P' ⊃ B'`, with `t(P) = t`, `t(P') = t'`; `P` and `P'` are of the desired types
-and are in transversal position by 4.2.1 (vi).
+applies 3.8 to construct `P ⊃ B` and `P' ⊃ B'`, with `t(P) = t`, `t(P') = t'`; `P` and `P'` are of the desired types and
+are in transversal position by 4.2.1 (vi).
 
 **Corollary 4.2.5.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` and `Q` two parabolic subgroups of `G`, the
 pair `(P, Q)` being in transversal position.*
@@ -1314,8 +1320,8 @@ P / (P ∩ Q) ≃ Gen(/P) ∩ Par_{t(Q)}(G).
 ```
 
 *(iv) The canonical morphism `G → Par_{t(P)}(G) ×_S Par_{t(Q)}(G)` (defined set-theoretically by
-`g ↦ (int(g) P, int(g) Q)`) induces a smooth and surjective morphism
-`G → Gen(G) ∩ (Par_{t(P)}(G) ×_S Par_{t(Q)}(G))` and an isomorphism*
+`g ↦ (int(g) P, int(g) Q)`) induces a smooth and surjective morphism `G → Gen(G) ∩ (Par_{t(P)}(G) ×_S Par_{t(Q)}(G))`
+and an isomorphism*
 
 ```text
 G / (P ∩ Q) ≃ Gen(G) ∩ (Par_{t(P)}(G) ×_S Par_{t(Q)}(G)).
@@ -1327,34 +1333,36 @@ Let us demonstrate (i). It is clear that the condition is sufficient; let us pro
 `(P', Q')` be in transversal position. Since `P` and `P'` are conjugate locally for the étale topology, we may assume
 `P = P'`, and it suffices to prove that if `Q` and `Q'` are two parabolic subgroups of `G`, in transversal position
 relative to `P`, and of the same type, then they are conjugate, locally for the étale topology, by a section of `P`.
-Using 4.2.1 (vi), one may assume that there exist Borel subgroups `B, B', B_1, B'_1` of `P, P, Q, Q'` respectively,
-such that `B ∩ B_1 = T` and `B' ∩ B'_1 = T'` are maximal tori of `G`. Now the Killing pairs `(B, T)` and `(B', T')` of
-`P` are conjugate locally in `P` for the étale topology (1.16), and one may assume `B = B'`, `T = T'`, in which case
-one has `B_1 = B'_1` by Exp. XXII, 5.9.2, hence `Q = Q'` by 3.8.
+Using 4.2.1 (vi), one may assume that there exist Borel subgroups `B, B', B_1, B'_1` of `P, P, Q, Q'` respectively, such
+that `B ∩ B_1 = T` and `B' ∩ B'_1 = T'` are maximal tori of `G`. Now the Killing pairs `(B, T)` and `(B', T')` of `P`
+are conjugate locally in `P` for the étale topology (1.16), and one may assume `B = B'`, `T = T'`, in which case one has
+`B_1 = B'_1` by Exp. XXII, 5.9.2, hence `Q = Q'` by 3.8.
 
 Assertions (ii), (iii) and (iv) are proved in a parallel fashion. Let us demonstrate, for instance, (ii); let
 `g ∈ Gen(Q/P)(S)`, i.e. let `g ∈ G(S)` be such that `int(g) Q` is in transversal position relative to `P`. By the
 preceding proof, `Q` and `int(g) Q` are conjugate locally for the étale topology, by a section of `P`. Reasoning
+
 <!-- original page 462 -->
+
 locally for this topology, one may assume that there exists `p ∈ P(S)` such that `int(g) Q = int(p) Q`, hence
 `p^{-1} g ∈ Norm_G(Q)(S) = Q(S)`; which proves the existence of `q ∈ Q(S)` such that `g = p q`. We have therefore proved
 that the morphism considered in (ii) is covering for the étale topology. Comparing with 4.2.1 (ii), one deduces that it
 is smooth and surjective. On the other hand, an immediate reasoning shows that the equivalence relation defined on
-`P ×_S Q` by the morphism `P ×_S Q → G` is the equivalence relation associated with the action of the group
-`R = P ∩ Q` (operating by `(p, q) r = (p r, r^{-1} q)`), which demonstrates the last assertion of (ii) (since a smooth
-surjective morphism is an effective epimorphism, for example).
+`P ×_S Q` by the morphism `P ×_S Q → G` is the equivalence relation associated with the action of the group `R = P ∩ Q`
+(operating by `(p, q) r = (p r, r^{-1} q)`), which demonstrates the last assertion of (ii) (since a smooth surjective
+morphism is an effective epimorphism, for example).
 
 **Remark 4.2.6.** *If `P` and `Q` are in transversal position, one will often denote by `P · Q` the open subset
 `Gen(Q/P)` of `G`, a notation justified by 4.2.5 (ii).*
 
 <!-- label: III.XXVI.4.2.6 -->
 
-**Proposition 4.2.7.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` and `Q` two parabolic subgroups of `G`,
-the pair `(P, Q)` being in transversal position.*
+**Proposition 4.2.7.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` and `Q` two parabolic subgroups of `G`, the
+pair `(P, Q)` being in transversal position.*
 
-*(i) The group `P ∩ Q` is smooth over `S` (and in fact has connected fibers by 4.1.2); introducing then `(P ∩ Q)^0`
-(cf. Exp. VI_B 3.10), this is a subgroup of type (RC) of `G` (Exp. XXII, 5.11.1), whose unipotent radical (loc. cit.
-5.11.4) decomposes as a direct product*
+*(i) The group `P ∩ Q` is smooth over `S` (and in fact has connected fibers by 4.1.2); introducing then `(P ∩ Q)^0` (cf.
+Exp. VI_B 3.10), this is a subgroup of type (RC) of `G` (Exp. XXII, 5.11.1), whose unipotent radical (loc. cit. 5.11.4)
+decomposes as a direct product*
 
 ```text
 rad^u((P ∩ Q)^0) = (rad^u(P) ∩ Q) ×_S (P ∩ rad^u(Q)).
@@ -1399,9 +1407,9 @@ rad^u(Q) ∩ P = ∏_{α ∈ R_1 ∩ R_2, α ∉ −R_2} U_α = ∏_{α ∈ K_1}
 ```
 
 where `K_2` is the set of positive roots that are linear combinations of the elements of `A_2`, but not linear
-combinations of the elements of `A`, and `K_1` the set of negative roots that are linear combinations of the elements
-of `A_1`, but not linear combinations of the elements of `A`. It is clear that if `α ∈ K_2`, `β ∈ K_1`, `α + β` is
-never a root, nor zero, which entails that the two groups above commute.
+combinations of the elements of `A`, and `K_1` the set of negative roots that are linear combinations of the elements of
+`A_1`, but not linear combinations of the elements of `A`. It is clear that if `α ∈ K_2`, `β ∈ K_1`, `α + β` is never a
+root, nor zero, which entails that the two groups above commute.
 
 On the other hand, one knows by Exp. XXII, 5.4.5, that `H = (P ∩ Q)^0` is defined by the set of roots `R_1 ∩ R_2`,
 namely
@@ -1412,8 +1420,8 @@ namely
 R_1 ∩ R_2 = (R^+ ∩ ℕA_2) ∪ (R^− ∩ −ℕA_1).
 ```
 
-Since `R_1 ∩ R_2` is closed, `H` is of type (RC) by definition (Exp. XXII 5.11.1), and by *loc. cit.* 5.11.3 and
-5.11.4, one has
+Since `R_1 ∩ R_2` is closed, `H` is of type (RC) by definition (Exp. XXII 5.11.1), and by *loc. cit.* 5.11.3 and 5.11.4,
+one has
 
 ```text
 rad^u(H) = ∏_{α ∈ K} U_α,
@@ -1423,10 +1431,10 @@ where `K` is the set of `α ∈ R_1 ∩ R_2` such that `α ∉ −(R_1 ∩ R_2)`
 `R ∩ ℤA`, one sees at once that `K = K_1 ∪ K_2`, which completes the proof of (i).
 
 The first assertion of (ii) then follows from (i) and 2.10; let us demonstrate the second. Since
-`(P ∩ Q)^0 / rad^u((P ∩ Q)^0)` is reductive, it has a maximal torus `T̄` if the base is semi-local. The inverse image
-of `T̄` in `(P ∩ Q)^0` is a subgroup `N` of type (R) of `G` with solvable fibers, and one has
-`N^u = rad^u((P ∩ Q)^0)` (Exp. XXII, 5.6.9). The scheme of maximal tori of `N` is a principal homogeneous bundle under
-`N^u` (*loc. cit.* 5.6.13), hence has a section, since `H^1(S, N^u) = 0`.
+`(P ∩ Q)^0 / rad^u((P ∩ Q)^0)` is reductive, it has a maximal torus `T̄` if the base is semi-local. The inverse image of
+`T̄` in `(P ∩ Q)^0` is a subgroup `N` of type (R) of `G` with solvable fibers, and one has `N^u = rad^u((P ∩ Q)^0)`
+(Exp. XXII, 5.6.9). The scheme of maximal tori of `N` is a principal homogeneous bundle under `N^u` (*loc. cit.*
+5.6.13), hence has a section, since `H^1(S, N^u) = 0`.
 
 ### 4.3. Opposite parabolic subgroups
 
@@ -1478,23 +1486,22 @@ by base change `G → G/Q`.
 Now suppose (vii) holds, and let us prove all the other conditions; as they are local for the étale topology, one may
 assume `G = (G, T, M, R)` split, `P` defined by the part `R'` of `R` and `Q` by the part `−R'`. If `L` is the subgroup
 of type (R) of `G` containing `T` defined by `R' ∩ −R'`, it is clear by Exp. XXII, 5.11.3 that `L` is a Levi subgroup
-common to `P` and `Q`. But `P = L · rad^u(P)`, `Q = L · rad^u(Q)`, and by Exp. XXII, 5.6.7, `rad^u(P) ∩ Q =
-Q ∩ rad^u(P) = e`; hence `P ∩ Q = L`, and we have proved (ii) and (v). Since `P` and `Q` are in transversal position,
-the canonical morphism `P → G/Q` induces an open immersion `P / P ∩ Q → G/Q` (4.2.1); but the canonical morphism
-`rad^u(P) → P / P ∩ Q = P / L` is an isomorphism, so we have proved (vi'). In view of what was already seen, all
-assertions are therefore consequences of (vii).
+common to `P` and `Q`. But `P = L · rad^u(P)`, `Q = L · rad^u(Q)`, and by Exp. XXII, 5.6.7,
+`rad^u(P) ∩ Q = Q ∩ rad^u(P) = e`; hence `P ∩ Q = L`, and we have proved (ii) and (v). Since `P` and `Q` are in
+transversal position, the canonical morphism `P → G/Q` induces an open immersion `P / P ∩ Q → G/Q` (4.2.1); but the
+canonical morphism `rad^u(P) → P / P ∩ Q = P / L` is an isomorphism, so we have proved (vi'). In view of what was
+already seen, all assertions are therefore consequences of (vii).
 
 It now suffices to prove that any one of the assertions (i), (iv), (v), (vi) implies (vii); as we have already proved
-the equivalence of (ii) and (iii), it suffices to give the proof on geometric fibers, and one may assume that `S` is
-the spectrum of an algebraically closed field. By 4.1.1, there exists a maximal torus `T` of `G` contained in `P ∩ Q`.
-Let `R` (resp. `R_1`, resp. `R_2`) be the set of roots of `G` (resp. `P`, resp. `Q`) relative to `T`.
+the equivalence of (ii) and (iii), it suffices to give the proof on geometric fibers, and one may assume that `S` is the
+spectrum of an algebraically closed field. By 4.1.1, there exists a maximal torus `T` of `G` contained in `P ∩ Q`. Let
+`R` (resp. `R_1`, resp. `R_2`) be the set of roots of `G` (resp. `P`, resp. `Q`) relative to `T`.
 
 Let `R_1^a` be the asymmetric part of `R_1` (i.e. `R_1^a = { α ∈ R_1 | −α ∉ R_1 }`). Introduce `R_2^a` similarly. We
 must prove that `R_1 = −R_2`.
 
-– Condition (i) entails that `R_1 ∩ R_2` is symmetric; let `α ∈ R_1`; if `α ∉ R_2`, then `α ∈ −R_2`, and if
-`α ∈ R_2`, then `α ∈ R_1 ∩ R_2 = −(R_1 ∩ R_2) ⊂ −R_2`; one therefore has `R_1 ⊂ −R_2`, hence by symmetry
-`R_1 = −R_2`.
+– Condition (i) entails that `R_1 ∩ R_2` is symmetric; let `α ∈ R_1`; if `α ∉ R_2`, then `α ∈ −R_2`, and if `α ∈ R_2`,
+then `α ∈ R_1 ∩ R_2 = −(R_1 ∩ R_2) ⊂ −R_2`; one therefore has `R_1 ⊂ −R_2`, hence by symmetry `R_1 = −R_2`.
 
 – Condition (iv) entails `Card(R_1) = Card(R_2)` and `R_1^a ∩ R_2 = ∅`; the second condition is equivalent to
 `R_2 ⊂ −R_1`; the first then gives `R_2 = −R_1`.
@@ -1503,7 +1510,9 @@ must prove that `R_1 = −R_2`.
 `R_2 = −R_1`.
 
 – Condition (vi) entails `Lie(rad^u(P)) ⊕ Lie(Q) = Lie(G)`, which entails that `R` is the disjoint union of `R_2` and
+
 <!-- original page 467 -->
+
 `R_1^a`, hence that `R_2 = −R_1`.
 
 This completes the proof of the second part of the theorem. Let us prove the first; let us first remark that, by virtue
@@ -1540,8 +1549,8 @@ schematically dense open subscheme over `S`[^N.D.E-XXVI-21] of `Par_{s(t(P))}(G)
 
 *(iii) Suppose `P` and `Q` are opposite; let `P'` and `Q'` be two parabolic subgroups of `G`, `P'` being of the same
 type as `P`. For `P'` and `Q'` to be opposite, it is necessary and sufficient that locally for the étale topology, the
-pair `(P', Q')` be conjugate to the pair `(P, Q)`. (N. B. One shall see in §5 that the étale topology can be replaced
-by the Zariski topology.)*
+pair `(P', Q')` be conjugate to the pair `(P, Q)`. (N. B. One shall see in §5 that the étale topology can be replaced by
+the Zariski topology.)*
 
 <!-- label: III.XXVI.4.3.4 -->
 
@@ -1549,9 +1558,9 @@ by the Zariski topology.)*
 
 <!-- original page 469 -->
 
-*(i) The morphism `Opp(/P) → Lev(P)` (cf. 1.9) defined set-theoretically by `Q ↦ P ∩ Q`, is an isomorphism; `Opp(/P)`
-is a principal homogeneous bundle under `rad^u(P)` (`rad^u(P)` operating by inner automorphisms). If `S` is affine,
-there exists a parabolic subgroup of `G` opposite to `P`.*
+*(i) The morphism `Opp(/P) → Lev(P)` (cf. 1.9) defined set-theoretically by `Q ↦ P ∩ Q`, is an isomorphism; `Opp(/P)` is
+a principal homogeneous bundle under `rad^u(P)` (`rad^u(P)` operating by inner automorphisms). If `S` is affine, there
+exists a parabolic subgroup of `G` opposite to `P`.*
 
 *(ii) Suppose `S` semi-local; let `{s_i}` be the set of its closed points; for each `i`, let `Q_i` be a parabolic
 subgroup of `G_{s_i}`, opposite to `P_{s_i}`. There exists a parabolic subgroup `Q` of `G`, opposite to `P`, and such
@@ -1599,9 +1608,9 @@ following conditions are equivalent:*
 
 *(ii) `P ∩ Q` contains locally for the étale topology a Borel subgroup of `G`.*
 
-*(iii) `P ∩ Q` contains locally for the étale topology a maximal torus of `G`, and, for every `S' → S` and every
-maximal torus `T` of `G_{S'}` contained in `P_{S'}` and `Q_{S'}`, the opposite of `P_{S'}` relative to `T` is in
-transversal position relative to `Q_{S'}`.*
+*(iii) `P ∩ Q` contains locally for the étale topology a maximal torus of `G`, and, for every `S' → S` and every maximal
+torus `T` of `G_{S'}` contained in `P_{S'}` and `Q_{S'}`, the opposite of `P_{S'}` relative to `T` is in transversal
+position relative to `Q_{S'}`.*
 
 *(iv) There exists a covering family for the étale topology `{ S_i → S }`, and for each `i` a maximal torus `T_i` of
 `G_{S_i}` contained in `P_{S_i}` and `Q_{S_i}`, and such that the opposite of `P_{S_i}` relative to `T_i` is in
@@ -1609,10 +1618,10 @@ transversal position relative to `Q_{S_i}`.*
 
 <!-- original page 471 -->
 
-*(v) There exists a covering family for the étale topology `{ S_i → S }`, and for each `i` a splitting
-`(T_i, M_i, R_i)` of `G_{S_i}` such that `P_{S_i}` (resp. `Q_{S_i}`) is the subgroup of type (R) of `G_{S_i}`
-containing `T_i` and defined by a set of roots `R_i^{(1)}` (resp. `R_i^{(2)}`), `R_i^{(1)} ∩ R_i^{(2)}` containing a
-system of positive roots of `R`.*
+*(v) There exists a covering family for the étale topology `{ S_i → S }`, and for each `i` a splitting `(T_i, M_i, R_i)`
+of `G_{S_i}` such that `P_{S_i}` (resp. `Q_{S_i}`) is the subgroup of type (R) of `G_{S_i}` containing `T_i` and defined
+by a set of roots `R_i^{(1)}` (resp. `R_i^{(2)}`), `R_i^{(1)} ∩ R_i^{(2)}` containing a system of positive roots of
+`R`.*
 
 *Moreover, if these conditions are satisfied, one has `t(P ∩ Q) = t(P) ∩ t(Q)` (with the notations of 3.2).*
 
@@ -1620,9 +1629,9 @@ system of positive roots of `R`.*
 
 One has (v) ⇒ (ii) and (iii) ⇒ (iv) trivially. On the other hand, (ii) ⇒ (i) by 1.18. One has (iv) ⇒ (v): indeed, one
 may assume `G` split, `P` (resp. `Q`) defined by the set of roots `R_1` (resp. `R_2`); the opposite of `P` is then
-defined by `−R_1`, and one is reduced to Lemma 4.2.2. One proves (i) ⇒ (iii) by splitting, in the same way. Finally,
-the last assertion of the theorem can be proved locally for the étale topology; one may assume that `P ∩ Q` contains
-a Borel subgroup `B` of `G`, and one is reduced to 3.7.
+defined by `−R_1`, and one is reduced to Lemma 4.2.2. One proves (i) ⇒ (iii) by splitting, in the same way. Finally, the
+last assertion of the theorem can be proved locally for the étale topology; one may assume that `P ∩ Q` contains a Borel
+subgroup `B` of `G`, and one is reduced to 3.7.
 
 **Definition 4.4.2.** *Two parabolic subgroups of `G` satisfying conditions (i) to (v) of 4.4.1 are said to be in*
 osculating position.
@@ -1667,14 +1676,14 @@ conditions `P ∩ Q` is also in transversal position relative to `P'`.*
 <!-- label: III.XXVI.4.4.5 -->
 
 **Corollary 4.4.6.** *Let `P` and `Q` be two parabolic subgroups of `G` containing the same maximal torus `T`. For `P`
-and `Q` to be in transversal position, it is necessary and sufficient that there exist two parabolic subgroups
-`P' ⊂ P` and `Q' ⊂ Q` of `G`, opposite relative to `T`; one may even choose `t(P') = t(P) ∩ s(t(Q))`.*[^N.D.E-XXVI-22]
+and `Q` to be in transversal position, it is necessary and sufficient that there exist two parabolic subgroups `P' ⊂ P`
+and `Q' ⊂ Q` of `G`, opposite relative to `T`; one may even choose `t(P') = t(P) ∩ s(t(Q))`.*[^N.D.E-XXVI-22]
 
 <!-- label: III.XXVI.4.4.6 -->
 
-The condition is evidently sufficient (4.2.1 (i) and 4.3.2 (iii)). Let us show that it is necessary; let `P^−`
-(resp. `Q^−`) be the opposite of `P` (resp. `Q`) relative to `T`. By 4.4.5, `P^− ∩ Q` is in transversal position
-relative to `P` and `Q^−`, hence also relative to `P ∩ Q^−` by a further application of 4.4.5; moreover
+The condition is evidently sufficient (4.2.1 (i) and 4.3.2 (iii)). Let us show that it is necessary; let `P^−` (resp.
+`Q^−`) be the opposite of `P` (resp. `Q`) relative to `T`. By 4.4.5, `P^− ∩ Q` is in transversal position relative to
+`P` and `Q^−`, hence also relative to `P ∩ Q^−` by a further application of 4.4.5; moreover
 
 ```text
 t(P^− ∩ Q) = t(P^−) ∩ t(Q) = s(t(P)) ∩ s(t(Q^−)) = s(t(P) ∩ t(Q^−)) = s(t(P ∩ Q^−)),
@@ -1710,17 +1719,17 @@ conditions are equivalent:*[^N.D.E-XXVI-23]
 
 *Proof.*[^N.D.E-XXVI-23] Evidently, (iv) ⇒ (iii) (and (v) ⇒ (iv) when `S` is semi-local), and (ii) ⇒ (i) according to
 Exp. XXII, Def. 5.2.1. We shall show (i) ⇒ (ii) ⇒ (iii), then that (iii) entails (i) and (iv) (and also (v) when `S` is
-semi-local). Set `K = P_1 ∩ P_2`. By 4.1.1 and [BT65], 4.5, each geometric fiber `K_s` contains a maximal torus `T_s`
-of `G_s` and is connected, and the set of roots of `K_s` with respect to `T_s` is a closed subset of the set of roots
-of `G_s` with respect to `T_s`. Hence, if `K` is smooth over `S`, then it is a subgroup of type (RC) (hence a fortiori
-of type (R)), cf. Exp. XXII 5.2.1 and 5.11.1. We therefore have (i) ⇔ (ii).
+semi-local). Set `K = P_1 ∩ P_2`. By 4.1.1 and [BT65], 4.5, each geometric fiber `K_s` contains a maximal torus `T_s` of
+`G_s` and is connected, and the set of roots of `K_s` with respect to `T_s` is a closed subset of the set of roots of
+`G_s` with respect to `T_s`. Hence, if `K` is smooth over `S`, then it is a subgroup of type (RC) (hence a fortiori of
+type (R)), cf. Exp. XXII 5.2.1 and 5.11.1. We therefore have (i) ⇔ (ii).
 
 If `K` is a subgroup of type (R), it contains locally for the étale topology a maximal torus of `G`, by Exp. XXII 2.2
 and Exp. XIX 6.1. So (ii) ⇒ (iii).
 
 Suppose (iii) holds and let us show that `K` is smooth. By (fpqc) descent, one may assume that `G = (G, T, M, R)` is
-split, where `T` is a maximal torus contained in `P ∩ Q`, and that there exist two closed subsets `R_1` and `R_2` of
-`R` such that `P = H_{R_1}` and `Q = H_{R_2}`.
+split, where `T` is a maximal torus contained in `P ∩ Q`, and that there exist two closed subsets `R_1` and `R_2` of `R`
+such that `P = H_{R_1}` and `Q = H_{R_2}`.
 
 <!-- original page 311 source / page 475 -->
 
@@ -1728,9 +1737,9 @@ Since `K` has connected fibers, it follows from Exp. XXII 5.4.5 that `K` equals 
 `S` and of type (RC).
 
 Let `R_1^s` be the symmetric part of `R_1` and `R_1^a = R_1 − R_1^s`; then `rad^u(P_1) = H_{R_1^a}`. As noted in the
-proof of [BT65], 4.4, `R' = (R_1^s ∩ R_2) ∪ R_1^a` is a closed subset of `R` such that `R' ∪ (−R') = R`; hence, by
-Exp. XXI 3.3.6, `R'` contains a system of positive roots of `R`. Moreover, the symmetric part of `R'` is
-`R_1^s ∩ R_2^s`, which is contained in `R_1 ∩ R_2`.
+proof of [BT65], 4.4, `R' = (R_1^s ∩ R_2) ∪ R_1^a` is a closed subset of `R` such that `R' ∪ (−R') = R`; hence, by Exp.
+XXI 3.3.6, `R'` contains a system of positive roots of `R`. Moreover, the symmetric part of `R'` is `R_1^s ∩ R_2^s`,
+which is contained in `R_1 ∩ R_2`.
 
 It follows from the preceding that `P' = K · rad^u(P)` is a parabolic subgroup of `G`, and that `K` is a subgroup of
 type (RC) of `P'` such that `rad^u(K) = K ∩ rad^u(P')`. Hence, by 2.11, `K` has a Levi subgroup `L`. It then follows
@@ -1739,8 +1748,8 @@ proves 4.5.1.
 
 **Definition 4.5.1.1.**[^N.D.E-XXVI-24] *When the preceding conditions are satisfied, one says that `P` and `Q` are in*
 mutual standard position; *this is, for instance, the case if `P` and `Q` are in transversal position, or in osculating
-position, or if the base is the spectrum of a field. It is a notion stable under base extension and local for the
-(fpqc) topology.*
+position, or if the base is the spectrum of a field. It is a notion stable under base extension and local for the (fpqc)
+topology.*
 
 <!-- label: III.XXVI.4.5.1.1 -->
 
@@ -1804,9 +1813,11 @@ particular that `t_2^{−1}(t_2(P, Q)) ≃ G / (P ∩ Q)`).
 <!-- label: III.XXVI.4.5.4 -->
 
 Now let `P` be a fixed parabolic subgroup of `G`, and let `Par(G; P)` be the functor of parabolic subgroups of `G` in
-standard position relative to `P`. For each `t ∈ Of(Dyn(G))(S)`, set similarly
-`Par_t(G; P) = Par(G; P) ∩ Par_t(G)`. One sees at once that the two preceding functors are obtained from `Stand(G)` by
+standard position relative to `P`. For each `t ∈ Of(Dyn(G))(S)`, set similarly `Par_t(G; P) = Par(G; P) ∩ Par_t(G)`. One
+sees at once that the two preceding functors are obtained from `Stand(G)` by
+
 <!-- original page 477 -->
+
 fibered products, and are therefore representable by `S`-schemes that are smooth and of finite presentation over `S`,
 with non-empty fibers. One has a canonical morphism `t_P` induced by `t_2` (i.e. `t_P(Q) = t_2(P, Q)`)
 
@@ -1837,7 +1848,9 @@ Par_{t(Q)}(G) ─────────⥲────→ G/Q
 
 where `i` is a surjective monomorphism, and where `f` is smooth and of finite presentation, with irreducible geometric
 fibers. Moreover, if `Q_1` and `Q_2` are two sections of `Par_{t(Q)}(G; P)` (over an `S' → S`), i.e. two parabolic
+
 <!-- original page 478 -->
+
 subgroups of `G_{S'}` conjugate (locally for (fpqc)) to `Q`, and in standard position relative to `P_{S'}`, then `Q_1`
 and `Q_2` are conjugate by a section of `P` (locally for (fpqc)) if and only if `f(Q_1) = f(Q_2)`. If `S` is the
 spectrum of an algebraically closed field `k`, one thereby finds the relation
@@ -1901,9 +1914,11 @@ to `T`. Let us prove that
 (x)    B^u(S) · B' · B ⊂ rad^u(P)(S) · P' · P.
 ```
 
-Since one has `B^u(S) ⊂ P(S) = rad^u(P)(S) · L(S) ⊂ rad^u(P)(S) · P'(S)`, it suffices to prove that
-`B' · B ⊂ P' · P`, which is evident. It follows from (x) that it suffices to prove 5.1
+Since one has `B^u(S) ⊂ P(S) = rad^u(P)(S) · L(S) ⊂ rad^u(P)(S) · P'(S)`, it suffices to prove that `B' · B ⊂ P' · P`,
+which is evident. It follows from (x) that it suffices to prove 5.1
+
 <!-- original page 480 -->
+
 for the pair `(B, B')`.
 
 ### 5.1.3.
@@ -1941,11 +1956,13 @@ set of positive roots (resp. simple). By Exp. XXII, 5.7.2, it suffices to prove 
 
 Let `α_i` be the various roots conjugate to `α` over `k` (these are elements of `Δ`, since `B` is "defined over `k`"),
 and let `R'` be the set of roots that are linear combinations of the `α_i`. Set `R'^− = R^− ∩ R'`. As "`R'` is defined
+
 <!-- original page 481 -->
+
 over `k`", there exists a subtorus `Q` of `T` such that `Q_K` is the maximal torus of the common kernel of the `α_i`.
 
-Set `Z = Centr_G(Q)`, `B_Z = B ∩ Z`, `B'_Z = B' ∩ Z` (cf. Exp. XXII, 5.10.2). Let us show that it suffices to verify
-the sought assertion in `Z`, that is
+Set `Z = Centr_G(Q)`, `B_Z = B ∩ Z`, `B'_Z = B' ∩ Z` (cf. Exp. XXII, 5.10.2). Let us show that it suffices to verify the
+sought assertion in `Z`, that is
 
 ```text
 (2)    u_α · B'^u_Z(K) ⊂ B^u_Z(k) · B'^u_Z(K) · B_Z(K).
@@ -1967,8 +1984,8 @@ u_α · B'^u(K) = u_α · B'^u_Z(K) V(K) ⊂ B^u_Z(k) B'^u_Z(K) B_Z(K) V(K)
 
 which yields (1) at once.
 
-We are therefore reduced to the case where `G = Z`, that is, where the Galois group of `K` over `k` acts transitively
-on the simple roots.
+We are therefore reduced to the case where `G = Z`, that is, where the Galois group of `K` over `k` acts transitively on
+the simple roots.
 
 ### 5.1.7.
 
@@ -2012,11 +2029,11 @@ and it suffices to prove the sought assertion for the triple `(G_0, B_0, T_0)`.
 
 One may therefore assume that `G` is of type `∅`, `A_1`, or `A_2`. Since `G` has a Borel subgroup `B`, `G` is
 quasi-splittable relative to `B` (Exp. XXIV, 3.9.1), hence splittable if it is of type `∅` or `A_1`. Since the theorem
-has already been proved in the split case (Exp. XXII 5.7.10), only the case `A_2` remains to be treated. By
-Exp. XXIV, 3.11 there exists a morphism `E → Spec(k)`, principal Galois bundle under the group `ℤ/2ℤ` of automorphisms
-of the Dynkin diagram of type `A_2`, such that `G = Q-Ép_{E/Spec(k)}(A_2)`. If `E` has a section, `G` is splittable and
-the theorem is proved. Otherwise, one necessarily has `E = Spec(k')`, where `k'` is a quadratic extension of `k`.
-Finally, as one saw in 5.1.7, one may assume `G` simply connected (i.e. that `G` is a form of `SL_{3, k}`).
+has already been proved in the split case (Exp. XXII 5.7.10), only the case `A_2` remains to be treated. By Exp. XXIV,
+3.11 there exists a morphism `E → Spec(k)`, principal Galois bundle under the group `ℤ/2ℤ` of automorphisms of the
+Dynkin diagram of type `A_2`, such that `G = Q-Ép_{E/Spec(k)}(A_2)`. If `E` has a section, `G` is splittable and the
+theorem is proved. Otherwise, one necessarily has `E = Spec(k')`, where `k'` is a quadratic extension of `k`. Finally,
+as one saw in 5.1.7, one may assume `G` simply connected (i.e. that `G` is a form of `SL_{3, k}`).
 
 ### 5.1.10.
 
@@ -2114,8 +2131,8 @@ verified on the closed fibers. But `rad^u(P')(S) ⥲ V(S)` is bijective, and one
 
 <!-- original page 486 -->
 
-**Corollary 5.3.** *Let `S` be a semi-local scheme, `G` an `S`-reductive group, `P, P'` and `Q` three parabolic subgroups
-of `G`. There exists `g ∈ G(S)` such that `int(g) Q` is in transversal position relative to `P` and `P'`.*
+**Corollary 5.3.** *Let `S` be a semi-local scheme, `G` an `S`-reductive group, `P, P'` and `Q` three parabolic
+subgroups of `G`. There exists `g ∈ G(S)` such that `int(g) Q` is in transversal position relative to `P` and `P'`.*
 
 <!-- label: III.XXVI.5.3 -->
 
@@ -2141,7 +2158,9 @@ U ×_k U' ─────→ G
 since `V(k̄) ≠ ∅` by what was just seen, `V` is dense in `U ×_k U'`, hence has a section by 2.7.
 
 If `k` is finite, `P` (resp. `P'`) has a Borel subgroup `B` (resp. `B'`), by virtue of
+
 <!-- original page 487 -->
+
 Lang's theorem (cf. 5.1.5), since the schemes `Bor(P) ≃ Bor(P/rad^u(P))` and `Bor(Q) ≃ Bor(Q/rad^u(Q))` are smooth. If
 `B_1` is a Borel subgroup opposite to `B` (4.3.5 (i)), there exist `a ∈ B^u(k)` and `a_1 ∈ B_1^u(k)` such that
 `int(a a_1) B = B'` (5.2); then `B_0 = int(a a_1) B_1 = int(a) B_1` is opposite to `B'` and to `B`; if `Q_0` is the
@@ -2163,9 +2182,9 @@ osculating position, by 4.4.5. On the other hand, `P` and `P_1` being opposite t
 
 <!-- original page 488 -->
 
-Let us remark, moreover, that for the same reason there exists `u ∈ rad^u(P)(S)` such that `int(u) P' = P'_1`, hence
-`g` is written `int(u) u'` with `u' ∈ rad^u(P')(S)`, which gives `P_1 = int(u u' u^{−1}) P = int(u u') P` and
-re-proves 5.2 in passing.
+Let us remark, moreover, that for the same reason there exists `u ∈ rad^u(P)(S)` such that `int(u) P' = P'_1`, hence `g`
+is written `int(u) u'` with `u' ∈ rad^u(P')(S)`, which gives `P_1 = int(u u' u^{−1}) P = int(u u') P` and re-proves 5.2
+in passing.
 
 Statements 5.3 and 5.4 are the essential results of this section. Let us first state some consequences of 5.4.
 
@@ -2202,19 +2221,19 @@ then `P_n` and `int(g) P_n` are contained in `P_{n−1} = P'_{n−1}`, hence `g 
 On the other hand, (iv) follows at once from 5.2 and 1.8. Let us demonstrate (iii) in the case of "transversal
 position"; the assertion is a consequence of (iv) when the types of `P` and `Q` are opposite (4.3.3 (iii)); in the
 general case, by 4.2.7 (iii) and 4.4.6, one may find parabolic subgroups `P_1, P'_1, Q_1, Q'_1` of `P, P', Q, Q'`
-respectively, such that `P_1` and `P'_1` are opposite, as are `Q_1` and `Q'_1`, and such that `t(P_1) = t(P'_1)`;
-there therefore exists `g ∈ G(S)` such that `int(g) P_1 = P'_1`, `int(g) Q_1 = Q'_1`, and one may assume `P_1 = P'_1`
-and `Q_1 = Q'_1`; but then `P` and `P'` are in osculating position and of the same type, hence `P = P'` (4.4.4 (i));
-for the same reason `Q = Q'`.
+respectively, such that `P_1` and `P'_1` are opposite, as are `Q_1` and `Q'_1`, and such that `t(P_1) = t(P'_1)`; there
+therefore exists `g ∈ G(S)` such that `int(g) P_1 = P'_1`, `int(g) Q_1 = Q'_1`, and one may assume `P_1 = P'_1` and
+`Q_1 = Q'_1`; but then `P` and `P'` are in osculating position and of the same type, hence `P = P'` (4.4.4 (i)); for the
+same reason `Q = Q'`.
 
-It remains to demonstrate assertion (iii) in the case of "osculating position". By the conjugacy theorem (5.2), one
-may assume `P = P'`; by the same theorem, one may find `g ∈ G(S)` such that `int(g) Q = Q'`; but then `g ∈ P(S)` by
-4.4.4 (ii) and one has `int(g) P = P = P'`.
+It remains to demonstrate assertion (iii) in the case of "osculating position". By the conjugacy theorem (5.2), one may
+assume `P = P'`; by the same theorem, one may find `g ∈ G(S)` such that `int(g) Q = Q'`; but then `g ∈ P(S)` by 4.4.4
+(ii) and one has `int(g) P = P = P'`.
 
 <!-- original page 490 -->
 
-**Definition 5.6.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` a parabolic subgroup of `G`. One says that
-`P` is* minimal *if whenever `Q` is a parabolic subgroup of `G` contained in `P`, one has `Q = P`.*
+**Definition 5.6.** *Let `S` be a scheme, `G` an `S`-reductive group, `P` a parabolic subgroup of `G`. One says that `P`
+is* minimal *if whenever `Q` is a parabolic subgroup of `G` contained in `P`, one has `Q = P`.*
 
 <!-- label: III.XXVI.5.6 -->
 
@@ -2260,13 +2279,13 @@ G ⟶ G/L = Y
 <!-- label: III.XXVI.5.9 -->
 
 It suffices to prove that if one has a morphism `S' → S`, where `S'` is local and a morphism `S' → X` (resp. `S' → Y`),
-it lifts to a morphism `S' → G`. In other words, one may assume `S` local, and one must show that the map
-`G(S) → X(S)` (resp. `G(S) → Y(S)`) is surjective.
+it lifts to a morphism `S' → G`. In other words, one may assume `S` local, and one must show that the map `G(S) → X(S)`
+(resp. `G(S) → Y(S)`) is surjective.
 
 The first assertion was demonstrated in 5.2; let us demonstrate the second. Let `y ∈ Y(S)`; its canonical image in
-`X(S)` comes from a `g ∈ G(S)`; the projection `y'` of `g` in `Y(S)` therefore has the same projection as `y` in
-`X(S)`. There exists therefore a unique `u ∈ rad^u(P)(S)` such that `y' u = y`, and the projection of `g u` in `Y(S)`
-is indeed `y`.
+`X(S)` comes from a `g ∈ G(S)`; the projection `y'` of `g` in `Y(S)` therefore has the same projection as `y` in `X(S)`.
+There exists therefore a unique `u ∈ rad^u(P)(S)` such that `y' u = y`, and the projection of `g u` in `Y(S)` is indeed
+`y`.
 
 <!-- original page 492 -->
 
@@ -2300,24 +2319,25 @@ H^1(S, P ∩ Q) ──→ H^1(S, Q).
 Let us demonstrate (i). The map `H^1(S, L) → H^1(S, P)` is bijective by 2.3; the map `H^1(S, P) → H^1_{t(P)}(S, G)` is
 surjective (3.21); let us show that it is injective, i.e. that the canonical map `H^1(S, P) → H^1(S, G)` is injective.
 Let `Q` be a principal bundle under `P`, `Q_1` the associated principal bundle under `G`, `P'` and `G'` the
-corresponding twisted forms of `P` and `G`. It is clear that `G'` is an `S`-reductive group and that `P'` is a
-parabolic
+corresponding twisted forms of `P` and `G`. It is clear that `G'` is an `S`-reductive group and that `P'` is a parabolic
+
 <!-- original page 493 -->
+
 subgroup of it. The set of elements of `H^1(S, P)` that have the same image as the class of `Q` in `H^1(S, G)` is
-naturally identified with the kernel of the canonical map `H^1(S, P') → H^1(S, G')`, and this, by the exact sequence
-of cohomology, with the set of orbits of `G'(S)` in `(G'/P')(S)` (for these arguments of non-abelian cohomology, see
+naturally identified with the kernel of the canonical map `H^1(S, P') → H^1(S, G')`, and this, by the exact sequence of
+cohomology, with the set of orbits of `G'(S)` in `(G'/P')(S)` (for these arguments of non-abelian cohomology, see
 Giraud's thesis[^N.D.E-XXVI-28]). But `G'(S)` acts transitively on `(G'/P')(S)` by 5.2.
 
-Let us demonstrate (ii): let `Q` be a principal homogeneous bundle under `G` and `G_Q` the corresponding twisted form
-of `G`. By definition (3.21), we must prove that `G_Q` has a parabolic subgroup of type `t ∩ t'` if and only if it has
+Let us demonstrate (ii): let `Q` be a principal homogeneous bundle under `G` and `G_Q` the corresponding twisted form of
+`G`. By definition (3.21), we must prove that `G_Q` has a parabolic subgroup of type `t ∩ t'` if and only if it has
 parabolic subgroups of type `t` and `t'`, which is none other than the conjunction of 3.8 and 5.7 (i). Finally, (iii)
 follows at once from (i) and (ii).
 
 Let us now state a consequence of 5.3.
 
 **Corollary 5.11.** *Let `S` be a semi-local scheme, `G` an `S`-reductive group, `P` a parabolic subgroup of `G`. If
-`P ≠ G`, there exist at least three distinct parabolic subgroups of `G` of the same type as `P`; in other words,
-`P ≠ G` entails `(G(S) : P(S)) ⩾ 3`.*
+`P ≠ G`, there exist at least three distinct parabolic subgroups of `G` of the same type as `P`; in other words, `P ≠ G`
+entails `(G(S) : P(S)) ⩾ 3`.*
 
 <!-- label: III.XXVI.5.11 -->
 
@@ -2357,10 +2377,12 @@ M_1 ∪ (−M_1) = M       ⟹  H_{M_1} and H_{−M_1} are parabolic subgroups o
 <!-- label: III.XXVI.6.1 -->
 
 To demonstrate (i) and (ii), which are local for the (fpqc) topology, one may assume that `Q` is contained in a maximal
+
 <!-- original page 495 -->
+
 torus `T` of `G`; one may furthermore split `G` relative to `T`. Assertion (i) then follows at once from Exp. XXII,
-5.3.5, 5.4.5 and 5.4.7; the assertions of (ii) follow from Exp. XXII, 5.3.5, 5.10.1, 5.11.3 and, in this Exposé, 1.4
-and 4.3.2.
+5.3.5, 5.4.5 and 5.4.7; the assertions of (ii) follow from Exp. XXII, 5.3.5, 5.10.1, 5.11.3 and, in this Exposé, 1.4 and
+4.3.2.
 
 **Corollary 6.2.** *Let `S` be a scheme, `G` an `S`-reductive group, `Q` a split subtorus of `G`. There exists a
 parabolic subgroup of `G` of which `Centr_G(Q)` is a Levi subgroup.*
@@ -2377,11 +2399,11 @@ elements of `M`; the group `H_{M_1}` answers the question.
 
 By 5.9 and 5.10, one derives from 6.2:
 
-**Corollary 6.4.** *Let `S` be a scheme, `G` an `S`-reductive group, `Q` a split subtorus of `G`. The canonical
-morphism `G → G / Centr_G(Q)` is a locally trivial fibration.*
+**Corollary 6.4.** *Let `S` be a scheme, `G` an `S`-reductive group, `Q` a split subtorus of `G`. The canonical morphism
+`G → G / Centr_G(Q)` is a locally trivial fibration.*
 
-*If `S` is semi-local, the map `G(S) → (G / Centr_G(Q))(S)` is surjective, and the map
-`H^1(S, Centr_G(Q)) → H^1(S, G)` is injective.*
+*If `S` is semi-local, the map `G(S) → (G / Centr_G(Q))(S)` is surjective, and the map `H^1(S, Centr_G(Q)) → H^1(S, G)`
+is injective.*
 
 <!-- label: III.XXVI.6.4 -->
 
@@ -2391,7 +2413,9 @@ morphism `G → G / Centr_G(Q)` is a locally trivial fibration.*
 
 Suppose `S` connected. If `T` is an `S`-torus and `T'` and `T''` are two split subtori of `T`, their product
 `T' · T''`[^N.D.E-XXVI-29] is also a split subtorus of `T`. Indeed,
+
 <!-- original page 496 -->
+
 it is identified with the quotient of `T' ×_S T''` by `T' ∩ T''`, a quotient that is split by Exp. IX, 2.11. It follows
 that `T` has a largest split subtorus; one denotes it `T_{spl}`.
 
@@ -2404,15 +2428,15 @@ following conditions are equivalent:*
 
 <!-- label: III.XXVI.6.6 -->
 
-Since `T` is assumed isotrivial, there exist a finite group `Γ`, a connected principal Galois covering `S' → S` of
-group `Γ`, and an isomorphism `T_{S'} ≃ D_{S'}(M)`; `M` is then endowed with a structure of `Γ`-module, and one has a
-natural isomorphism `Hom_S(T, G_{m, S}) = H^0(Γ, M)`.
+Since `T` is assumed isotrivial, there exist a finite group `Γ`, a connected principal Galois covering `S' → S` of group
+`Γ`, and an isomorphism `T_{S'} ≃ D_{S'}(M)`; `M` is then endowed with a structure of `Γ`-module, and one has a natural
+isomorphism `Hom_S(T, G_{m, S}) = H^0(Γ, M)`.
 
 On the other hand, let `V` be the vector subspace of `M ⊗ ℚ` generated by elements of the form `g(m) − m`, `g ∈ Γ`,
 `m ∈ M`. One verifies at once that `(T_{spl})_{S'}` is identified with `D_{S'}(M / M ∩ V)`. Assertion (i) is therefore
 equivalent to `H^0(Γ, M) ≠ 0`, or equivalently to `H^0(Γ, M ⊗ ℚ) ≠ 0`, whereas assertion (ii) is equivalent to
-`M ≠ M ∩ V`, or equivalently to `M ⊗ ℚ ≠ V`. Now one has `M ⊗ ℚ = H^0(Γ, M ⊗ ℚ) ⊕ V`, as one verifies at once
-(consider the projector `M ⊗ ℚ → H^0(Γ, M ⊗ ℚ)` that sends `x` to the average of the transforms of `x` by `Γ`).
+`M ≠ M ∩ V`, or equivalently to `M ⊗ ℚ ≠ V`. Now one has `M ⊗ ℚ = H^0(Γ, M ⊗ ℚ) ⊕ V`, as one verifies at once (consider
+the projector `M ⊗ ℚ → H^0(Γ, M ⊗ ℚ)` that sends `x` to the average of the transforms of `x` by `Γ`).
 
 <!-- original page 497 -->
 
@@ -2421,9 +2445,9 @@ a Levi subgroup of `P`, `Q` its radical. There exists a homomorphism `Q → G_{m
 
 <!-- label: III.XXVI.6.7 -->
 
-Consider the unipotent radical `U` of `P`; it is invariant under `int(P)`, hence under `int(Q)`. Consider the
-invertible `O_S`-module `det(Lie(U))`, the "maximum exterior power" of the locally free `O_S`-module `Lie(U)`. The
-adjoint representation defines a homomorphism of groups
+Consider the unipotent radical `U` of `P`; it is invariant under `int(P)`, hence under `int(Q)`. Consider the invertible
+`O_S`-module `det(Lie(U))`, the "maximum exterior power" of the locally free `O_S`-module `Lie(U)`. The adjoint
+representation defines a homomorphism of groups
 
 ```text
 f : Q ⟶ Aut(det(Lie(U))) = G_{m, S}.
@@ -2444,7 +2468,9 @@ L = Centr_G(Q_{spl}).
 
 Set `L' = Centr_G(Q_{spl})`; this is a reductive subgroup of `G` containing `L`; moreover, `P' = P ∩ L'` is a parabolic
 subgroup of `L'`, of Levi subgroup `L` (1.20). If `L' ≠ L`, then `L' ⊄ P` (since `L` is a maximal reductive subgroup of
+
 <!-- original page 498 -->
+
 `P`, cf. 1.7), hence `P' ≠ L'`.
 
 Let `G_1` be the derived group of `G`, and `P_1 = P' ∩ G_1`. By 1.19, `P_1` is a parabolic subgroup of the semisimple
@@ -2459,9 +2485,9 @@ subtorus of `T_1`, is also isotrivial (Exp. IX, 2.11); since `P_1 ≠ G_1`, one 
 has `(Q_1)_{spl} ≠ e`, whence `(Q_{spl} ∩ G_1)^0 ≠ e`, hence `Q_{spl} ⊄ rad(L')` (since `rad(L') ∩ G_1` is finite),
 which is contradictory with the definition of `L'`.
 
-**Corollary 6.9.** *Let `S` be a connected semi-local scheme, `G` an `S`-reductive group, `Q` a critical subtorus of
-`G` (i.e. such that `rad(Centr_G(Q)) = Q`). For `Centr_G(Q)` to be a Levi subgroup of a parabolic subgroup of `G`, it
-is necessary and sufficient that `Centr_G(Q) = Centr_G(Q_{spl})`, that is, `Lie(G)^Q = Lie(G)^{Q_{spl}}`.*
+**Corollary 6.9.** *Let `S` be a connected semi-local scheme, `G` an `S`-reductive group, `Q` a critical subtorus of `G`
+(i.e. such that `rad(Centr_G(Q)) = Q`). For `Centr_G(Q)` to be a Levi subgroup of a parabolic subgroup of `G`, it is
+necessary and sufficient that `Centr_G(Q) = Centr_G(Q_{spl})`, that is, `Lie(G)^Q = Lie(G)^{Q_{spl}}`.*
 
 <!-- label: III.XXVI.6.9 -->
 
@@ -2530,8 +2556,8 @@ there exists a locally direct-factor monomorphism `O_S → E_n`, hence a closed 
 `G_{a, S} = W(O_S) ↪ W(E_n) ≃ U_n`, which yields (iii) at once.
 
 **Remark 6.12.1.** *When `S` is the spectrum of a field of characteristic 0, it follows from the Jacobson–Morozov
-theorem that (iii) ⇒ (ii bis). The preceding four conditions are then equivalent ("Godement's criterion",
-cf. [BT65], 8.5).[^XXVI-1]*
+theorem that (iii) ⇒ (ii bis). The preceding four conditions are then equivalent ("Godement's criterion", cf. [BT65],
+8.5).[^XXVI-1]*
 
 <!-- label: III.XXVI.6.12.1 -->
 
@@ -2542,8 +2568,8 @@ anisotropic *if `G` contains no split subtorus not reduced to `e`.*
 
 <!-- label: III.XXVI.6.13 -->
 
-**Corollary 6.14.** *Let `S` be a connected semi-local scheme. For the `S`-reductive group `G` to be anisotropic, it
-is necessary and sufficient that it have no parabolic subgroup `P ≠ G`, and that its radical be anisotropic.*
+**Corollary 6.14.** *Let `S` be a connected semi-local scheme. For the `S`-reductive group `G` to be anisotropic, it is
+necessary and sufficient that it have no parabolic subgroup `P ≠ G`, and that its radical be anisotropic.*
 
 <!-- label: III.XXVI.6.14 -->
 
@@ -2564,13 +2590,15 @@ tori are conjugate by an element of `G(S)`.*
 Let `Q` be a maximal split subtorus of `G`.[^N.D.E-XXVI-32] Then, by 6.2, `L = Centr_G(Q)` is a Levi subgroup of a
 parabolic subgroup `P` of `G`, and since `Q ⊂ rad(Centr_G(Q))_{spl}`, the maximality of `Q` entails
 `Q = rad(Centr_G(Q))_{spl}`. By 6.11, `L` is a minimal element of the set of Levi subgroups of parabolic
+
 <!-- original page 502 -->
+
 subgroups of `G`, hence `P` is a minimal parabolic subgroup of `G` by 1.20. It then follows from 5.7 and 5.5 (iv) that
 two subtori such as `Q` are conjugate by a section of `G(S)`. The conjugacy of the `Q` and of the pairs `(P, L)` then
 entails the first assertion of 6.16.
 
-**Corollary 6.17.** *Let `S` be a connected semi-local scheme, `P` and `P'` two minimal parabolic subgroups in
-standard position (4.5.1.1). Then `P ∩ P'` contains a common Levi subgroup of `P` and `P'`.*
+**Corollary 6.17.** *Let `S` be a connected semi-local scheme, `P` and `P'` two minimal parabolic subgroups in standard
+position (4.5.1.1). Then `P ∩ P'` contains a common Levi subgroup of `P` and `P'`.*
 
 <!-- label: III.XXVI.6.17 -->
 
@@ -2702,13 +2730,13 @@ Lie(H_{−α}) = Lie(L) ⊕ ⨁_{γ ∈ −ℕα ∩ R} Lie(G)^γ.
 
 <!-- original page 506 -->
 
-`L_α` is a reductive subgroup of `G`, `H_α` and `H_{−α}` are parabolic subgroups of it with Levi subgroup `L`, and
-`H_α` and `H_{−α}` are opposite relative to `L` (cf. 6.1 (ii)).
+`L_α` is a reductive subgroup of `G`, `H_α` and `H_{−α}` are parabolic subgroups of it with Levi subgroup `L`, and `H_α`
+and `H_{−α}` are opposite relative to `L` (cf. 6.1 (ii)).
 
-By 7.2, there therefore exists `s_α ∈ Norm_{L_α}(Q)(S) / L(S) ⊂ W` such that `s_α(H_α) = H_{−α}`. One has
-`s_α(α) = −α` (because `α` (resp. `−α`) is the common divisor of the elements of `R` occurring in `H_α` (resp.
-`H_{−α}`)), and one has `s_α^2 = id` (since `s_α^2(H_α)` and `H_α` are both opposite to `H_{−α}` relative to `L`). One
-has therefore constructed an `s_α ∈ W` satisfying the following properties:
+By 7.2, there therefore exists `s_α ∈ Norm_{L_α}(Q)(S) / L(S) ⊂ W` such that `s_α(H_α) = H_{−α}`. One has `s_α(α) = −α`
+(because `α` (resp. `−α`) is the common divisor of the elements of `R` occurring in `H_α` (resp. `H_{−α}`)), and one has
+`s_α^2 = id` (since `s_α^2(H_α)` and `H_α` are both opposite to `H_{−α}` relative to `L`). One has therefore constructed
+an `s_α ∈ W` satisfying the following properties:
 
 ```text
 (x)     s_α(α) = −α,    s_α^2 = id;
@@ -2736,15 +2764,17 @@ splittable relative to a maximal torus `T_1` of `L`. Let then `(G_1, T_1, M_1, R
 monomorphism `Q → T_1` identifies `M` with a quotient of `M_1`; let `p : M_1 → M` be the canonical map.
 
 The image of `R_1` under `p` consists, possibly with the inclusion of zero, of the roots of `G_1` with respect to `Q`
+
 <!-- original page 507 -->
-(hence of the elements of `R` that are integer multiples of `α`); one therefore has `p(R_1) ⊂ ℤα`. By (xx), there
-exists an element of `Norm_{G_1}(L)(S)` that induces `s_α` on `Q`. By Exp. XXII, 5.10.10, there therefore exists a
-section `w ∈ (W_1)_S(S)` that induces `s_α` on `Q` (one denotes by `W_1` the Weyl group of the root datum
-`(M_1, R_1, …)`). Possibly after restricting `S`, one may therefore assume that there exists `w ∈ W_1` inducing `s_α`
-on `Q`, hence satisfying `p(w(m_1)) = s_α(p(m_1))` for every `m_1 ∈ M_1`. But, by definition of `W_1`, `w` is a product
-of reflections with respect to elements of `R_1`, hence `w(m_1) − m_1` is a linear combination with integer
-coefficients of elements of `R_1`. It follows that `s_α(p(m_1)) − p(m_1)` is a linear combination with integer
-coefficients of the elements of `p(R_1) ⊂ ℤα`, hence an integer multiple of `α`, as was to be proved.
+
+(hence of the elements of `R` that are integer multiples of `α`); one therefore has `p(R_1) ⊂ ℤα`. By (xx), there exists
+an element of `Norm_{G_1}(L)(S)` that induces `s_α` on `Q`. By Exp. XXII, 5.10.10, there therefore exists a section
+`w ∈ (W_1)_S(S)` that induces `s_α` on `Q` (one denotes by `W_1` the Weyl group of the root datum `(M_1, R_1, …)`).
+Possibly after restricting `S`, one may therefore assume that there exists `w ∈ W_1` inducing `s_α` on `Q`, hence
+satisfying `p(w(m_1)) = s_α(p(m_1))` for every `m_1 ∈ M_1`. But, by definition of `W_1`, `w` is a product of reflections
+with respect to elements of `R_1`, hence `w(m_1) − m_1` is a linear combination with integer coefficients of elements of
+`R_1`. It follows that `s_α(p(m_1)) − p(m_1)` is a linear combination with integer coefficients of the elements of
+`p(R_1) ⊂ ℤα`, hence an integer multiple of `α`, as was to be proved.
 
 ### 7.4.4.
 
@@ -2756,9 +2786,9 @@ One may therefore define an element `α^* ∈ M^*` by[^N.D.E-XXVI-34]
 α^*(m) α = m − s_α(m).
 ```
 
-By (x), one has `(α^*, α) = 2`; on the other hand, it follows from (xxx) that for every pair `(α, α') ∈ R × R`, one
-has `s_α(α') ∈ R` and `s_α(α'^*) = s_α(α')^*`, which proves (cf. Exp. XXI, 1.1) that the constructed map `α ↦ α^*`
-indeed defines a root datum on `(M, M^*)`.
+By (x), one has `(α^*, α) = 2`; on the other hand, it follows from (xxx) that for every pair `(α, α') ∈ R × R`, one has
+`s_α(α') ∈ R` and `s_α(α'^*) = s_α(α')^*`, which proves (cf. Exp. XXI, 1.1) that the constructed map `α ↦ α^*` indeed
+defines a root datum on `(M, M^*)`.
 
 ### 7.4.5.
 
@@ -2767,16 +2797,18 @@ indeed defines a root datum on `(M, M^*)`.
 Let `W'` be the Weyl group of this root datum (the group of transformations of `M` generated by the `s_α`); one has
 `W' ⊂ W`.
 
-Let on the other hand `⩾` be a total order relation on the free abelian group `M`; set
-`R^+ = { α ∈ R | α ⩾ 0 }`. One knows that `R^+` is a system of positive roots of `R`. Let `w ∈ W`, represented by an
-`n ∈ Norm_G(L)(S) = Norm_G(Q)(S)`. Set `P = H_{R^+}`
+Let on the other hand `⩾` be a total order relation on the free abelian group `M`; set `R^+ = { α ∈ R | α ⩾ 0 }`. One
+knows that `R^+` is a system of positive roots of `R`. Let `w ∈ W`, represented by an `n ∈ Norm_G(L)(S) = Norm_G(Q)(S)`.
+Set `P = H_{R^+}`
+
 <!-- original page 508 -->
+
 (notation of 6.1); by *loc. cit.*, `P` is a parabolic subgroup of `G` with Levi subgroup `L`. One obviously has
 `int(n) P = H_{w(R^+)}`. It then follows from 7.3 that `w(R^+) = R^+` entails `w = e`. As the group `W'` acts
 transitively on the systems of positive roots of `R` (Exp. XXI, 3.3.7) and the stabilizer in `W` of `R^+` is the
-identity, one concludes immediately that `W = W'`. One also concludes that `W = W'` acts in a simply transitive way
-both on the set of systems of positive roots of `R` and on the set of parabolic subgroups of `G` with Levi group `L`,
-which entails the last assertion of 7.4. QED.
+identity, one concludes immediately that `W = W'`. One also concludes that `W = W'` acts in a simply transitive way both
+on the set of systems of positive roots of `R` and on the set of parabolic subgroups of `G` with Levi group `L`, which
+entails the last assertion of 7.4. QED.
 
 ### 7.5.
 
@@ -2798,11 +2830,11 @@ Norm_G(P) ∩ Norm_G(L) = P ∩ Norm_G(L) = L = Centr_G(Q).
 
 The isomorphism `Q ⥲ Q_1` induced by `int(g)` is therefore independent of `g`.
 
-Let `R` and `R_1` be the root data defined thanks to 7.4 in `Hom_{S-gr.}(Q, G_{m, S})` and
-`Hom_{S-gr.}(Q_1, G_{m, S})`, and let `R^+` and `R_1^+` be the systems of positive roots corresponding to `P` and
-`P_1`. The canonical isomorphism `Q ⥲ Q_1` defined above transforms `(R, R^+)` into `(R_1, R_1^+)`. One immediately
-deduces that one may define the *pinned relative root datum*[^N.D.E-XXVI-35] of `G` over `S`, by identifying the
-various `(R, R^+)` by means of the transitive system of isomorphisms described above.
+Let `R` and `R_1` be the root data defined thanks to 7.4 in `Hom_{S-gr.}(Q, G_{m, S})` and `Hom_{S-gr.}(Q_1, G_{m, S})`,
+and let `R^+` and `R_1^+` be the systems of positive roots corresponding to `P` and `P_1`. The canonical isomorphism
+`Q ⥲ Q_1` defined above transforms `(R, R^+)` into `(R_1, R_1^+)`. One immediately deduces that one may define the
+*pinned relative root datum*[^N.D.E-XXVI-35] of `G` over `S`, by identifying the various `(R, R^+)` by means of the
+transitive system of isomorphisms described above.
 
 From now on, we shall denote `(M, M^*, R, R^*, R^+) = R(G/S)` this pinned root datum; for each pair `P ⊃ Q` as above,
 one therefore has a canonical isomorphism `M ⥲ Hom_{S-gr.}(Q, G_{m, S})` transforming `R` (resp. `R^+`) into the set of
@@ -2812,9 +2844,9 @@ roots of `G` (resp. of `P`) relative to `Q`, and `W(R)` into `W_G(Q)(S)`.
 
 <!-- label: III.XXVI.7.6 -->
 
-Let still `Q` be a maximal split torus of `G`, `P` a (minimal) parabolic subgroup of `G` with Levi group
-`Centr_G(Q)`, `(M, M^*, R, R^*, R^+)` the corresponding pinned root datum (7.4), and `Δ` the set of simple roots of
-`R^+`. For every `A ⊂ Δ`, let `R_A ⊂ R` be the set
+Let still `Q` be a maximal split torus of `G`, `P` a (minimal) parabolic subgroup of `G` with Levi group `Centr_G(Q)`,
+`(M, M^*, R, R^*, R^+)` the corresponding pinned root datum (7.4), and `Δ` the set of simple roots of `R^+`. For every
+`A ⊂ Δ`, let `R_A ⊂ R` be the set
 
 ```text
 R_A = R^+ ∪ (ℤA ∩ R^−)
@@ -2822,15 +2854,17 @@ R_A = R^+ ∪ (ℤA ∩ R^−)
 
 consisting of positive roots and negative roots that are linear combinations of elements of `A`. It is a closed set
 (Exp. XXI, 3.1.4) of roots, and every closed set containing `R^+` is uniquely of this form (Exp. XXI, 3.3.10). By 6.1,
+
 <!-- original page 510 -->
+
 there exists a unique subgroup `P_A` of `G`, smooth and with connected fibers, containing `Centr_G(Q)` and such that
 
 ```text
 Lie(P_A) = Lie(G)^0 ⊕ ⨁_{α ∈ R_A} Lie(G)^α.
 ```
 
-It then follows at once from 6.1, from the conjugacy of minimal parabolics, and from the fact that the set of roots of
-a parabolic subgroup of `G` containing `Q` is closed (which is deduced at once from 1.4 by splitting), that:
+It then follows at once from 6.1, from the conjugacy of minimal parabolics, and from the fact that the set of roots of a
+parabolic subgroup of `G` containing `Q` is closed (which is deduced at once from 1.4 by splitting), that:
 
 **Proposition 7.7.** *(i) The map `A ↦ P_A` is a bijection of the set of subsets of `Δ` onto the set of parabolic
 subgroups of `G` containing `P`. This bijection preserves the natural order relations of inclusion.*
@@ -2851,12 +2885,12 @@ f : (M, M^*, R, R^*, R^+) ⥲ (M, M^*, R, R^*, R^+).
 
 <!-- TRANSLATOR NOTE: The source writes f as an automorphism of (M, M^*, R, R^*, R^+) with itself; presumably the identifications are over different bases or models. -->
 
-The set `Δ` of simple roots of `R^+` is transformed into the set `Δ` of simple roots of `R^+`, hence every subset `A`
-of `Δ` into a subset `f(A) ⊂ Δ`.
+The set `Δ` of simple roots of `R^+` is transformed into the set `Δ` of simple roots of `R^+`, hence every subset `A` of
+`Δ` into a subset `f(A) ⊂ Δ`.
 
 **Definition 7.9.0.**[^N.D.E-XXVI-36] *Let `H` be an arbitrary parabolic subgroup of `G`. By 7.7 (ii), it is conjugate
-to a unique `P_A`. Let us denote `t_r(H) = f(A) ⊂ Δ`. One verifies at once using the conjugacy theorems that `t_r(H)`
-is independent of the choice of the pair `P ⊃ Q`. One says that it is the* relative type *of `H`.*
+to a unique `P_A`. Let us denote `t_r(H) = f(A) ⊂ Δ`. One verifies at once using the conjugacy theorems that `t_r(H)` is
+independent of the choice of the pair `P ⊃ Q`. One says that it is the* relative type *of `H`.*
 
 <!-- original page 511 -->
 
@@ -2866,8 +2900,8 @@ is independent of the choice of the pair `P ⊃ Q`. One says that it is the* rel
 of parabolic subgroups of `G`, and the set of subsets of `Δ`.*
 
 *(ii) Let `H` be a parabolic subgroup of `G`, `P` a minimal parabolic subgroup contained in `H`, `Q` the maximal central
-split torus of a Levi subgroup of `P`, `Δ` the set of simple roots of `P` relative to `Q`, and `f : Δ ⥲ Δ` the
-canonical isomorphism. Then, for every `α ∈ Δ`, one has the equivalence:*
+split torus of a Levi subgroup of `P`, `Δ` the set of simple roots of `P` relative to `Q`, and `f : Δ ⥲ Δ` the canonical
+isomorphism. Then, for every `α ∈ Δ`, one has the equivalence:*
 
 ```text
 f(α) ∈ t_r(H)  ⇔  Lie(H)^{−α} ≠ 0
@@ -2889,7 +2923,9 @@ t_r(H) ⊂ t_r(H')  ⇔  t(H) ⊂ t(H')
 <!-- label: III.XXVI.7.10 -->
 
 One can study the relative positions of two minimal parabolic subgroups; the results are as follows (one refers to
+
 <!-- original page 512 -->
+
 4.5.2 for the notation `t_2(P, P_1)`):
 
 (1) If `P, P_1, P', P'_1` are four minimal parabolic subgroups of `G`, then `t_2(P, P_1) = t_2(P', P'_1)` (i.e.
@@ -2934,13 +2970,10 @@ thereby exhibiting a partition of `E(S)` into double cosets modulo `U(S)`, index
 (4) If `S` is the spectrum of a field, then `E(S) = G(S)`, and one recovers [BT65], 5.15.
 
 **Counterexamples 7.11.** *Let `S = Spec(ℤ/4ℤ)`, `G = SL_{2, S}`. Let `B` be the standard Borel subgroup formed of
-matrices `(a b; c d)` with `c = 0`. Let `g = ( 1; −2 1)` ∈ G(S)` [scil.: `g = (1, 1; −2, 1)`]; set
-`B' = int(g) B`. Then `B(S) = B'(S)`, and `B ∩ B'` does not contain a maximal torus[^N.D.E-XXVI-37]. This shows on the
-one hand that two distinct minimal parabolic subgroups may have the same group of sections, and on the other hand that
-there exists no general criterion allowing one to recognize whether two minimal parabolic subgroups `P` and `P'` are in
-standard position, using only the groups `P(S)` and `P'(S)`. In particular, the part `E(S)` of `G(S)` does not seem to
-be definable using only the situation `{G(S), P(S), Norm_G(L)(S)}` (in the preceding case, this part is defined by
-`c ≠ 2`[^N.D.E-XXVI-38]).*
+matrices `(a b; c d)` with `c = 0`. Let `g = ( 1; −2 1)` ∈ G(S)`[scil.:`g = (1, 1; −2, 1)`]; set`B' = int(g)
+B`. Then`B(S) = B'(S)`, and`B ∩
+B'`does not contain a maximal torus[^N.D.E-XXVI-37]. This shows on the one hand that two distinct minimal parabolic subgroups may have the same group of sections, and on the other hand that there exists no general criterion allowing one to recognize whether two minimal parabolic subgroups`P`and`P'`are in standard position, using only the groups`P(S)`and`P'(S)`. In particular, the part`E(S)`of`G(S)`does not seem to be definable using only the situation`{G(S),
+P(S), Norm_G(L)(S)}`(in the preceding case, this part is defined by`c ≠ 2\`[^N.D.E-XXVI-38]).*
 
 <!-- label: III.XXVI.7.11 -->
 
@@ -2981,10 +3014,10 @@ immediately derives that
 R_H ⊂ u(R'_{H_{S'}}) ⊂ R_H ∪ {0}.
 ```
 
-Taking `H = G`, one sees first that `R ⊂ u(R') ⊂ R ∪ {0}`; taking then for `H` a minimal parabolic subgroup `P` of
-Levi subgroup `L`, one sees that `R'_{H_{S'}}` contains a system of positive roots of `R'`, hence (7.4) that there
-exists a minimal parabolic subgroup `P'` of `G_{S'}` of Levi subgroup `L'` contained in `P_{S'}`. One has therefore
-constructed a diagram
+Taking `H = G`, one sees first that `R ⊂ u(R') ⊂ R ∪ {0}`; taking then for `H` a minimal parabolic subgroup `P` of Levi
+subgroup `L`, one sees that `R'_{H_{S'}}` contains a system of positive roots of `R'`, hence (7.4) that there exists a
+minimal parabolic subgroup `P'` of `G_{S'}` of Levi subgroup `L'` contained in `P_{S'}`. One has therefore constructed a
+diagram
 
 ```text
 Q_{S'}   ⊂   L_{S'}   ⊂   P_{S'}
@@ -2993,19 +3026,21 @@ Q_{S'}   ⊂   L_{S'}   ⊂   P_{S'}
 ```
 
 If `R^+` (resp. `Δ`) is the system of positive roots (resp. simple) of `R` defined by `P`,
+
 <!-- original page 515 -->
+
 and if one defines similarly `R'^+` and `Δ'`, one easily verifies that
 
 ```text
 R^+ ⊂ u(R'^+) ⊂ R^+ ∪ {0},        Δ ⊂ u(Δ') ⊂ Δ ∪ {0}.
 ```
 
-Let now `w ∈ W ≃ Norm_G(Q)(S) / Centr_G(Q)(S)`, and `n ∈ Norm_G(Q)(S)` a representative of `w`. One has
-`int(n) Q = Q` hence `int(n) L = L`, hence `int(n) L_{S'} = L_{S'}`. Then `Q'` and `int(n) Q'` are two maximal split
-tori of `L_{S'}`, hence are conjugate by a section `x ∈ L(S')`, and one has `int(n x) Q' = Q'`, hence
-`n x ∈ Norm_{G_{S'}}(Q')(S')`. Let `w'` be the image of `n' = n x` in `W' ≃ Norm_{G_{S'}}(Q')(S') /
-Centr_{G_{S'}}(Q')(S')`. It is clear that the operation of `w'` on `M'` is compatible with the projection
-`u : M' → M` and that the induced operation on `M` coincides with that defined by `w`.
+Let now `w ∈ W ≃ Norm_G(Q)(S) / Centr_G(Q)(S)`, and `n ∈ Norm_G(Q)(S)` a representative of `w`. One has `int(n) Q = Q`
+hence `int(n) L = L`, hence `int(n) L_{S'} = L_{S'}`. Then `Q'` and `int(n) Q'` are two maximal split tori of `L_{S'}`,
+hence are conjugate by a section `x ∈ L(S')`, and one has `int(n x) Q' = Q'`, hence `n x ∈ Norm_{G_{S'}}(Q')(S')`. Let
+`w'` be the image of `n' = n x` in `W' ≃ Norm_{G_{S'}}(Q')(S') / Centr_{G_{S'}}(Q')(S')`. It is clear that the operation
+of `w'` on `M'` is compatible with the projection `u : M' → M` and that the induced operation on `M` coincides with that
+defined by `w`.
 
 Using now the definition of relative root data and the conjugacy theorems, one proves without difficulty:
 
@@ -3047,8 +3082,8 @@ t_r(H_{S'}) = (u^{−1}(t_r(H) ∪ {0})) ∩ Δ' = { α' ∈ Δ' | u(α') ∈ t_
 **Remark 7.14.** *If `G` is splittable over `S`, its maximal split tori are maximal tori, and the relative notions
 introduced here then coincide with the absolute notions already introduced. The preceding theorem therefore gives a
 description of the relative root datum `R(G/S)` and of the relative type `t_r`, via the absolute root datum and the
-absolute type of the group `G_{S'}`, `S'` being chosen in such a way that `G_{S'}` is splittable
-(cf. Exp. XXIV, 4.4.1). We refer to [BT65], 6.12 et seq. for this description.*
+absolute type of the group `G_{S'}`, `S'` being chosen in such a way that `G_{S'}` is splittable (cf. Exp. XXIV, 4.4.1).
+We refer to [BT65], 6.12 et seq. for this description.*
 
 <!-- label: III.XXVI.7.14 -->
 
@@ -3059,19 +3094,18 @@ absolute type of the group `G_{S'}`, `S'` being chosen in such a way that `G_{S'
 <!-- original page 517 -->
 
 Let `S` be a Henselian local scheme, `s_0` its closed point, `S_0` the spectrum of the residue field of `s_0`,
-identified with a closed subscheme of `S`; for every object `X` above `S`, let us denote by `X_0` the object above
-`S_0` deduced from `X` by base change. Let finally `G` be an `S`-reductive group. For every parabolic subgroup `P̄` of
-`G`, `P̄_0` is a parabolic subgroup of `G_0`; conversely, for every parabolic subgroup `P` of `G_0`, there exists a
-parabolic subgroup `P̄` of `G` such that `P̄_0 = P` (this follows from Hensel's lemma and from the fact that `Par(G)` is
-a smooth `S`-scheme); in particular (cf. 5.7), a parabolic subgroup `P̄` of `G` is minimal if and only if `P̄_0` is
-minimal. Such a subgroup `P̄` of `G` being chosen, an analogous reasoning shows that the maximal split subtori of `P̄_0`
-are of the form `T_0`, where `T` is a maximal split subtorus of `P̄`. It follows without difficulty that the relative
-root data of `G` over `S` and of `G_0` over `S_0` are canonically isomorphic, so that the theory of parabolic subgroups
-of `G` reduces to that of parabolic subgroups of `G_0`.
+identified with a closed subscheme of `S`; for every object `X` above `S`, let us denote by `X_0` the object above `S_0`
+deduced from `X` by base change. Let finally `G` be an `S`-reductive group. For every parabolic subgroup `P̄` of `G`,
+`P̄_0` is a parabolic subgroup of `G_0`; conversely, for every parabolic subgroup `P` of `G_0`, there exists a parabolic
+subgroup `P̄` of `G` such that `P̄_0 = P` (this follows from Hensel's lemma and from the fact that `Par(G)` is a smooth
+`S`-scheme); in particular (cf. 5.7), a parabolic subgroup `P̄` of `G` is minimal if and only if `P̄_0` is minimal. Such
+a subgroup `P̄` of `G` being chosen, an analogous reasoning shows that the maximal split subtori of `P̄_0` are of the
+form `T_0`, where `T` is a maximal split subtorus of `P̄`. It follows without difficulty that the relative root data of
+`G` over `S` and of `G_0` over `S_0` are canonically isomorphic, so that the theory of parabolic subgroups of `G`
+reduces to that of parabolic subgroups of `G_0`.
 
-Let us remark, moreover, that every `S_0`-reductive group is of the form `G_0` (Exp. XXIV, Prop. 1.21), which
-conversely allows one to reduce the study of parabolic subgroups of an `S_0`-reductive group to the corresponding study
-over `S`.
+Let us remark, moreover, that every `S_0`-reductive group is of the form `G_0` (Exp. XXIV, Prop. 1.21), which conversely
+allows one to reduce the study of parabolic subgroups of an `S_0`-reductive group to the corresponding study over `S`.
 
 ## Bibliography
 
@@ -3080,122 +3114,14 @@ over `S`.
 [BT71] A. Borel, J. Tits, *Éléments unipotents et sous-groupes paraboliques de groupes réductifs. I*, Invent. Math.
 **12** (1971), 95–104.
 
-[Ch05] C. Chevalley, *Classification des groupes algébriques semi-simples* (with the collaboration of P. Cartier,
-A. Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
+[Ch05] C. Chevalley, *Classification des groupes algébriques semi-simples* (with the collaboration of P. Cartier, A.
+Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [DG70] M. Demazure, P. Gabriel, *Groupes algébriques*, Masson & North-Holland, 1970.
 
 [Gi71] J. Giraud, *Cohomologie non abélienne*, Springer-Verlag, 1971.
 
 ## Footnotes
-
-[^XXVI-1]: This is more generally true when `S` is the spectrum of a perfect field (Tits).[^N.D.E-XXVI-31]
-
-[^N.D.E-XXVI-0]: *N.D.E.* Version of 13/10/2024.
-
-[^N.D.E-XXVI-1]: *N.D.E.* Since the Levi subgroups of `P` form a torsor under `rad^u(P)` (1.9), this entails, when `S`
-    is semi-local, that `P` has a Levi subgroup and hence a maximal torus (2.4).
-
-[^N.D.E-XXVI-2]: *N.D.E.* The terminology "trivial torus" has been replaced by that of "split torus".
-
-[^N.D.E-XXVI-3]: *N.D.E.* "Parabolic subgroup" has been replaced by "subgroup of type (RC)", as in Exp. XXII, 5.11.4,
-    because it will be useful later on (4.5.1, 6.17) to be able to apply this statement to `P ∩ P'`, when `P, P'` are
-    two parabolic subgroups such that `P ∩ P'` is of type (RC).
-
-[^N.D.E-XXVI-4]: *N.D.E.* cf. N.D.E. (3).
-
-[^N.D.E-XXVI-5]: *N.D.E.* `Δ(P)` has been corrected to `Δ − Δ(P)`.
-
-[^N.D.E-XXVI-6]: *N.D.E.* cf. XIX 1.4.
-
-[^N.D.E-XXVI-7]: *N.D.E.* `a_1 + · · · + a_p` has been corrected to `b_1 + · · · + b_q`.
-
-[^N.D.E-XXVI-8]: *N.D.E.* cf. SGA 1, VIII 1.3, 1.9 and 1.10.
-
-[^N.D.E-XXVI-9]: *N.D.E.* Corollary 2.11 has been added; it will be used in 4.5.1 and 6.17.
-
-[^N.D.E-XXVI-10]: *N.D.E.* One recalls (cf. *loc. cit.*) that `H_c = H_c(G)` denotes the functor of subgroups of `G` of
-    type (RC), `Cℓ_c = Cℓ_c(G)` the functor of "conjugacy classes" of such subgroups, and that `cℓ : H_c → Cℓ_c` is the
-    canonical projection.
-
-[^N.D.E-XXVI-11]: *N.D.E.* "Critical torus" has been replaced here by "C-critical torus", cf. *loc. cit.*. In the
-    sequel, we shall simply write "critical torus" instead of "C-critical torus".
-
-[^N.D.E-XXVI-12]: *N.D.E.* cf. 3.3, N.D.E. (10) for the notations `H_c` and `Cℓ_c`.
-
-[^N.D.E-XXVI-13]: *N.D.E.* `LT` has been changed to `CT`.
-
-[^N.D.E-XXVI-14]: *N.D.E.* i.e. the parabolic subgroups
-    `P = ((* * * *), (0 * * *), (0 0 * *), (0 0 0 *))` and
-    `P' = ((* * * *), (0 * * *), (0 * * *), (0 0 0 *))` of `GL_4` are not isomorphic (because
-    `rad^u(P) ≄ rad^u(P')`), but their Levi subgroups
-    `L = ((* * 0 0), (* * 0 0), (0 0 * 0), (0 0 0 *))` and
-    `L' = ((* 0 0 0), (0 * * 0), (0 * * 0), (0 0 0 *))` are conjugate by the element `((0 0 1 0), (0 1 0 0),
-    (1 0 0 0), (0 0 0 1))`.
-
-[^N.D.E-XXVI-15]: *N.D.E.* The numbering of the original has been preserved: there is no §3.19.
-
-[^N.D.E-XXVI-16]: *N.D.E.* Point (ii) has been added; it will be useful in 4.5.1.
-
-[^N.D.E-XXVI-17]: *N.D.E.* In view of the details added in 4.5.1, the original has been modified here (which stated "we
-    shall not use this fact").
-
-[^N.D.E-XXVI-18]: *N.D.E.* "Relatively dense" has been replaced by "universally schematically dense over `S`", cf. EGA
-    IV₃, Def. 11.10.8.
-
-[^N.D.E-XXVI-19]: *N.D.E.* cf. EGA IV₃, 11.10.10.
-
-[^N.D.E-XXVI-20]: *N.D.E.* "Of order 2" has been replaced by "of order `⩽ 2`" because `s_G` may be trivial (for
-    example, if `G` is of type `A_1`, `B_n`, `C_n`, …).
-
-[^N.D.E-XXVI-21]: *N.D.E.* "Relatively dense" has been replaced by "universally schematically dense over `S`", cf. EGA
-    IV₃, Def. 11.10.8.
-
-[^N.D.E-XXVI-22]: *N.D.E.* Recall that the involution `s` was defined in 4.3.1.
-
-[^N.D.E-XXVI-23]: *N.D.E.* The proof of the equivalence of these conditions has been added (as well as condition (v),
-    used implicitly in 6.17 of the original); consequently, §4.5.1 has been transformed into Proposition 4.5.1 plus
-    Definition 4.5.1.1.
-
-[^N.D.E-XXVI-24]: *N.D.E.* see N.D.E. (23). Moreover, for an example of parabolic subgroups `P, Q` that are not in
-    standard position, see 7.11 below.
-
-[^N.D.E-XXVI-25]: *N.D.E.* `t^{−1}(t(P), t)` has been corrected to `q^{−1}(t(P), t)` and, lower down, `Par_t(G)` to
-    `Par_t(G; P)` (twice).
-
-[^N.D.E-XXVI-26]: *N.D.E.* See also [DG70], §III.5, 7.4.
-
-[^N.D.E-XXVI-27]: *N.D.E.* "Relatively dense" has been replaced by "universally schematically dense over `S`", cf. EGA
-    IV₃, Def. 11.10.8.
-
-[^N.D.E-XXVI-28]: *N.D.E.* See [Gi71], §III.3.
-
-[^N.D.E-XXVI-29]: *N.D.E.* Multiplicative notation has been adopted, i.e. "their sum `T' + T''`" has been replaced by
-    "their product `T' · T''`".
-
-[^N.D.E-XXVI-30]: *N.D.E.* Since `S` is assumed semi-local and connected.
-
-[^N.D.E-XXVI-31]: *N.D.E.* This is Corollary 3.7 of the article [BT71].
-
-[^N.D.E-XXVI-32]: *N.D.E.* The following sentence has been spelled out.
-
-[^N.D.E-XXVI-33]: *N.D.E.* `α^*(m)` has been corrected to `α^*(m) α`.
-
-[^N.D.E-XXVI-34]: *N.D.E.* `α^*(m)` has been corrected to `α^*(m) α`.
-
-[^N.D.E-XXVI-35]: *N.D.E.* Recall (Exp. XXIII 1.5) that a pinned root datum is a root datum endowed with the choice of
-    a system of positive roots (or of simple roots).
-
-[^N.D.E-XXVI-36]: *N.D.E.* The numbering 7.9.0 has been added to highlight the definition of "relative type".
-
-[^N.D.E-XXVI-37]: *N.D.E.* Indeed, `B'` is the subgroup of `G` defined by the equation `c = 2(a + b)`; then `B ∩ B'` is
-    not flat over `S`, hence does not contain a maximal torus, by 4.5.1.
-
-[^N.D.E-XXVI-38]: *N.D.E.* More generally, for every `S`-scheme `S'`, `E(S')` is defined by the condition: "`c` is
-    zero or invertible".
-
-[^N.D.E-XXVI-39]: *N.D.E.* The references that follow have been added to this reference, which appears in the
-    original.
 
 <!-- LEDGER DELTA — Exposé XXVI — for consolidation in Phase 3
 | French | English | Note |
@@ -3238,6 +3164,104 @@ A. Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 | critère de Godement | Godement's criterion | Remark 6.12.1. |
 -->
 
+[^N.D.E-XXVI-0]: *N.D.E.* Version of 13/10/2024.
 
+[^N.D.E-XXVI-1]: *N.D.E.* Since the Levi subgroups of `P` form a torsor under `rad^u(P)` (1.9), this entails, when `S`
+    is semi-local, that `P` has a Levi subgroup and hence a maximal torus (2.4).
 
+[^N.D.E-XXVI-2]: *N.D.E.* The terminology "trivial torus" has been replaced by that of "split torus".
 
+[^N.D.E-XXVI-3]: *N.D.E.* "Parabolic subgroup" has been replaced by "subgroup of type (RC)", as in Exp. XXII, 5.11.4,
+    because it will be useful later on (4.5.1, 6.17) to be able to apply this statement to `P ∩ P'`, when
+    `P, P'` are two parabolic subgroups such that `P ∩ P'` is of type (RC).
+
+[^N.D.E-XXVI-4]: *N.D.E.* cf. N.D.E. (3).
+
+[^N.D.E-XXVI-5]: *N.D.E.* `Δ(P)` has been corrected to `Δ − Δ(P)`.
+
+[^N.D.E-XXVI-6]: *N.D.E.* cf. XIX 1.4.
+
+[^N.D.E-XXVI-8]: *N.D.E.* cf. SGA 1, VIII 1.3, 1.9 and 1.10.
+
+[^N.D.E-XXVI-9]: *N.D.E.* Corollary 2.11 has been added; it will be used in 4.5.1 and 6.17.
+
+[^N.D.E-XXVI-10]: *N.D.E.* One recalls (cf. *loc. cit.*) that `H_c = H_c(G)` denotes the functor of subgroups of `G` of
+    type (RC), `Cℓ_c = Cℓ_c(G)` the functor of "conjugacy classes" of such subgroups, and that
+    `cℓ : H_c → Cℓ_c` is the canonical projection.
+
+[^N.D.E-XXVI-11]: *N.D.E.* "Critical torus" has been replaced here by "C-critical torus", cf. *loc. cit.*. In the
+    sequel, we shall simply write "critical torus" instead of "C-critical torus".
+
+[^N.D.E-XXVI-12]: *N.D.E.* cf. 3.3, N.D.E. (10) for the notations `H_c` and `Cℓ_c`.
+
+[^N.D.E-XXVI-13]: *N.D.E.* `LT` has been changed to `CT`.
+
+[^N.D.E-XXVI-14]: *N.D.E.* i.e. the parabolic subgroups `P = ((* * * *), (0 * * *), (0 0 * *), (0 0 0 *))` and
+    `P' = ((* * * *), (0 * * *), (0 * * *), (0 0 0 *))` of `GL_4` are not isomorphic (because
+    `rad^u(P) ≄ rad^u(P')`), but their Levi subgroups `L = ((* * 0 0), (* * 0 0), (0 0 * 0), (0 0 0 *))`
+    and `L' = ((* 0 0 0), (0 * * 0), (0 * * 0), (0 0 0 *))` are conjugate by the element
+    `((0 0 1 0), (0 1 0 0), (1 0 0 0), (0 0 0 1))`.
+
+[^N.D.E-XXVI-15]: *N.D.E.* The numbering of the original has been preserved: there is no §3.19.
+
+[^N.D.E-XXVI-16]: *N.D.E.* Point (ii) has been added; it will be useful in 4.5.1.
+
+[^N.D.E-XXVI-17]: *N.D.E.* In view of the details added in 4.5.1, the original has been modified here (which stated "we
+    shall not use this fact").
+
+[^N.D.E-XXVI-18]: *N.D.E.* "Relatively dense" has been replaced by "universally schematically dense over `S`", cf. EGA
+    IV₃, Def. 11.10.8.
+
+[^N.D.E-XXVI-19]: *N.D.E.* cf. EGA IV₃, 11.10.10.
+
+[^N.D.E-XXVI-20]: *N.D.E.* "Of order 2" has been replaced by "of order `⩽ 2`" because `s_G` may be trivial (for example,
+    if `G` is of type `A_1`, `B_n`, `C_n`, …).
+
+[^N.D.E-XXVI-21]: *N.D.E.* "Relatively dense" has been replaced by "universally schematically dense over `S`", cf. EGA
+    IV₃, Def. 11.10.8.
+
+[^N.D.E-XXVI-22]: *N.D.E.* Recall that the involution `s` was defined in 4.3.1.
+
+[^N.D.E-XXVI-23]: *N.D.E.* The proof of the equivalence of these conditions has been added (as well as condition (v),
+    used implicitly in 6.17 of the original); consequently, §4.5.1 has been transformed into Proposition
+    4.5.1 plus Definition 4.5.1.1.
+
+[^N.D.E-XXVI-24]: *N.D.E.* see N.D.E. (23). Moreover, for an example of parabolic subgroups `P, Q` that are not in
+    standard position, see 7.11 below.
+
+[^N.D.E-XXVI-25]: *N.D.E.* `t^{−1}(t(P), t)` has been corrected to `q^{−1}(t(P), t)` and, lower down, `Par_t(G)` to
+    `Par_t(G; P)` (twice).
+
+[^N.D.E-XXVI-26]: *N.D.E.* See also [DG70], §III.5, 7.4.
+
+[^N.D.E-XXVI-27]: *N.D.E.* "Relatively dense" has been replaced by "universally schematically dense over `S`", cf. EGA
+    IV₃, Def. 11.10.8.
+
+[^N.D.E-XXVI-28]: *N.D.E.* See [Gi71], §III.3.
+
+[^N.D.E-XXVI-29]: *N.D.E.* Multiplicative notation has been adopted, i.e. "their sum `T' + T''`" has been replaced by
+    "their product `T' · T''`".
+
+[^N.D.E-XXVI-30]: *N.D.E.* Since `S` is assumed semi-local and connected.
+
+[^XXVI-1]: This is more generally true when `S` is the spectrum of a perfect field (Tits).[^N.D.E-XXVI-31]
+
+[^N.D.E-XXVI-32]: *N.D.E.* The following sentence has been spelled out.
+
+[^N.D.E-XXVI-33]: *N.D.E.* `α^*(m)` has been corrected to `α^*(m) α`.
+
+[^N.D.E-XXVI-34]: *N.D.E.* `α^*(m)` has been corrected to `α^*(m) α`.
+
+[^N.D.E-XXVI-35]: *N.D.E.* Recall (Exp. XXIII 1.5) that a pinned root datum is a root datum endowed with the choice of a
+    system of positive roots (or of simple roots).
+
+[^N.D.E-XXVI-36]: *N.D.E.* The numbering 7.9.0 has been added to highlight the definition of "relative type".
+
+[^N.D.E-XXVI-38]: *N.D.E.* More generally, for every `S`-scheme `S'`, `E(S')` is defined by the condition: "`c` is zero
+    or invertible".
+
+[^N.D.E-XXVI-39]: *N.D.E.* The references that follow have been added to this reference, which appears in the original.
+
+[^N.D.E-XXVI-31]: *N.D.E.* This is Corollary 3.7 of the article [BT71].
+
+[^N.D.E-XXVI-7]: *N.D.E.* `a_1 + · · · + a_p` has been corrected to `b_1 + · · · + b_q`.

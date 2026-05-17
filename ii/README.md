@@ -11,8 +11,8 @@ of Mme Michèle Raynaud (1967). Revised reprint, IHÉS, Bures-sur-Yvette, April 
 This volume develops the theory of local cohomology of coherent sheaves on noetherian schemes and applies it to prove
 local and global theorems of Lefschetz type — for the fundamental group, the Picard group, and projective algebraic
 schemes — through a systematic interplay between local results and global ones. Exposés I–II set up the formalism of
-cohomology with supports `H^i_Y(X, F)`; III relates it to the classical notion of depth; IV–V develop local duality
-and dualizing modules in the style later subsumed by Hartshorne's *Residues and Duality*; VI–VIII prove the central
+cohomology with supports `H^i_Y(X, F)`; III relates it to the classical notion of depth; IV–V develop local duality and
+dualizing modules in the style later subsumed by Hartshorne's *Residues and Duality*; VI–VIII prove the central
 finiteness theorem for `H^i_Y(F)`; IX uses it to obtain comparison and existence theorems in formal geometry, parallel
 to those of EGA III for proper morphisms; X–XII apply these to Lefschetz-type theorems for `π₁`, `Pic`, and projective
 schemes; XIII surveys open problems; and Raynaud's XIV recasts the Lefschetz theorems in étale cohomology, drawing on
@@ -52,15 +52,15 @@ conventions (e.g. `SGA 4 IV 3.8`).
 
 ## Editorial conventions
 
-- **Terminology**. Exposés I–XIII keep the historical SGA/EGA distinction between *prescheme* (`préschéma`) and
-    *scheme* (`schéma`, in the older sense of separated prescheme). Exposé XIV, added in 1967 by Raynaud, explicitly
-    adopts the modern usage in which *scheme* means what was previously called *prescheme*, and *separated scheme*
-    means what was previously called *scheme*; her opening footnote announces this. The translation honors that
-    per-Exposé split; a translator note at the head of Exposé XIV recalls it.
+- **Terminology**. Exposés I–XIII keep the historical SGA/EGA distinction between *prescheme* (`préschéma`) and *scheme*
+    (`schéma`, in the older sense of separated prescheme). Exposé XIV, added in 1967 by Raynaud, explicitly adopts the
+    modern usage in which *scheme* means what was previously called *prescheme*, and *separated scheme* means what was
+    previously called *scheme*; her opening footnote announces this. The translation honors that per-Exposé split; a
+    translator note at the head of Exposé XIV recalls it.
 
 - **Editor footnotes (N.D.E.)**. The 2005 LaTeX edition by Yves Laszlo *et al.* added footnotes (*Notes de l'éditeur*,
-    abbreviated *N.D.E.*) recording corrections, updates, and the current status of questions raised in the original.
-    In this translation, original Grothendieck-era footnotes use slugs like `[^I-3-1]`, while editor footnotes use
+    abbreviated *N.D.E.*) recording corrections, updates, and the current status of questions raised in the original. In
+    this translation, original Grothendieck-era footnotes use slugs like `[^I-3-1]`, while editor footnotes use
     `[^N.D.E-IV-2]` so the two are visibly distinct.
 
 - **Page marks**. HTML comments `<!-- original page N -->` mark the start of page `N` in the 1968 IHÉS edition, whose

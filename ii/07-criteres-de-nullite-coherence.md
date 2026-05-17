@@ -81,9 +81,8 @@ lim_{→ k} ℋom(F/𝓙^{k+1}F, ℋ^n_Y(G)) → ℋom(F, ℋ^n_Y(G))
 ```
 
 is an isomorphism when `Z ∩ Supp F ⊂ Y`. Now `X` can be covered by noetherian affine open sets; one is thus reduced to
-the case where `X` is noetherian affine. Then `F(X)` is a finitely generated `𝒪_X(X)`-Module and
-`Supp ℋ^n_Y(G) ⊂ Y`. Hence every homomorphism `u: F(X) → ℋ^n_Y(G)(X)` is annihilated by a power of `𝓘`, and therefore
-by a power of `𝓙`. QED.
+the case where `X` is noetherian affine. Then `F(X)` is a finitely generated `𝒪_X(X)`-Module and `Supp ℋ^n_Y(G) ⊂ Y`.
+Hence every homomorphism `u: F(X) → ℋ^n_Y(G)(X)` is annihilated by a power of `𝓘`, and therefore by a power of `𝓙`. QED.
 
 **Proposition.**
 
@@ -93,6 +92,7 @@ Let `X` be a locally noetherian prescheme, `Y` a closed subset of `X`, `G` a qua
 integer. For any closed subsets `Z` and `S` of `X` such that `Z ∩ S = Y`, the following conditions are equivalent:
 
 1. <!-- label: VII.1.2.i --> `ℋ^i_Y(G) = 0` for `i < n`;
+
 1. <!-- label: VII.1.2.ii --> there exists a coherent `𝒪_X`-Module `F`, of support `S`, such that
 
     ```text
@@ -100,6 +100,7 @@ integer. For any closed subsets `Z` and `S` of `X` such that `Z ∩ S = Y`, the 
     ```
 
 1. <!-- label: VII.1.2.iii --> for every coherent `𝒪_X`-Module `F` with support contained in `S` (i.e.
+
     `Supp F ∩ Z = Supp F ∩ Y`), one has
 
     ```text
@@ -107,6 +108,7 @@ integer. For any closed subsets `Z` and `S` of `X` such that `Z ∩ S = Y`, the 
     ```
 
     <!-- original page 79 -->
+
 1. <!-- label: VII.1.2.iv --> for every coherent `𝒪_X`-Module `F`, one has
 
     ```text
@@ -134,8 +136,11 @@ isomorphisms
 Hence:
 
 - (i) ⇒ (iv), by taking `Z' = Y` in (1.1);
+
 - (iv) ⇒ (iii), by taking `Z' = Z` in (1.1);
+
 - (iii) ⇒ (ii), by taking `F = 𝒪_S`;
+
 - (ii) ⇒ (i), by taking `Z' = Z` in (1.1); this gives `ℋom(F, ℋ^{q−1}_Y(G)) = 0`. One then remarks that
 
     <!-- original page 63 -->
@@ -158,8 +163,8 @@ Let `X` be a prescheme, let `P` be a coherent `𝒪_X`-Module, and let `H` be a 
 
 Then `H = 0`.
 
-It suffices to prove the lemma when `X` is affine, since the affine open sets form a base of the topology of `X` and
-the hypotheses are preserved by restriction to an open set.
+It suffices to prove the lemma when `X` is affine, since the affine open sets form a base of the topology of `X` and the
+hypotheses are preserved by restriction to an open set.
 
 <!-- original page 80 -->
 
@@ -184,8 +189,7 @@ To complete the proof of the proposition, it remains to observe that (iv) allows
 
 Let `G` be a coherent Cohen-Macaulay `𝒪_X`-Module, and let `n ∈ ℤ`. The conditions of 1.2 are equivalent to:
 
-5. <!-- label: VII.1.2.v -->
-
+1. <!-- label: VII.1.2.v -->
     ```text
     codim(Y ∩ Supp G, Supp G) ⩾ n.
     ```
@@ -309,10 +313,10 @@ To prove (1), one first remarks that
 ℰxt^i_Y(F, G) ≅ lim_{→ k} ℰxt^i(F/𝓙^k F, G),
 ```
 
-where `𝓙` is the ideal of definition of `Y`. On the other hand, it follows from Theorem 4.2.2 of (A. Grothendieck,
-"Sur quelques points d'algèbre homologique", *Tôhoku Mathematical Journal* **9** (1957), pp. 119–221) that the Ext
-sheaves commute with the formation of stalks, at least when `X` is a locally noetherian prescheme and the first
-argument is coherent; since the same is true of direct limits, one finds isomorphisms
+where `𝓙` is the ideal of definition of `Y`. On the other hand, it follows from Theorem 4.2.2 of (A. Grothendieck, "Sur
+quelques points d'algèbre homologique", *Tôhoku Mathematical Journal* **9** (1957), pp. 119–221) that the Ext sheaves
+commute with the formation of stalks, at least when `X` is a locally noetherian prescheme and the first argument is
+coherent; since the same is true of direct limits, one finds isomorphisms
 
 ```text
 (ℰxt^i_Y(F, G))_x ≅ lim_{→ k} Ext^i_{𝒪_{X,x}}((F/𝓙^k F)_x, G_x)
@@ -364,8 +368,8 @@ Let `X` be a locally noetherian regular prescheme, `Y` a closed subset of `X`, a
 
 <!-- original page 66 -->
 
-The conclusion is local and the hypotheses are preserved by restriction to an open set. Now `P` is closed and so
-locally noetherian, hence locally connected; we may therefore assume `X` affine and noetherian, and `P` connected. Set
+The conclusion is local and the hypotheses are preserved by restriction to an open set. Now `P` is closed and so locally
+noetherian, hence locally connected; we may therefore assume `X` affine and noetherian, and `P` connected. Set
 `D(P) = [a, b[`, which is legitimate by the preceding lemma. If `n > b`, we conclude by 2.1; if `n < a`, then
 `n < dim 𝒪_{X,x} = prof 𝒪_{X,x}` for every `x ∈ P`, and we conclude by 1.7.
 
@@ -375,30 +379,30 @@ almost certainly the closure intersection that appears in §1, e.g. `P = Supp F 
 here. The proof below works for any closed `P ⊂ Y ∩ Supp F` on which the dimension function is bounded by an interval
 `[a, b[`. -->
 
-[^VII-2-1]: Cf. EGA 0_IV 17.3.1.
-
 ## Translation ledger delta
 
-| French                              | English                                | Note                                                                                  |
-| ----------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------- |
-| critères de nullité                 | vanishing criteria                     | Title-level. Per task spec.                                                           |
-| conditions de cohérence             | coherence conditions                   | Title-level. Per task spec.                                                           |
-| `Ext^i_Y(F, G)` (underlined)        | `ℰxt^i_Y(F, G)`                        | Sheafified Ext, per the script-E convention pinned in Exposé VI.                      |
-| `Ext^i_Z(F, G)` (non-underlined)    | `Ext^i_Z(X; F, G)`                     | Global Ext (when displayed with the ambient `X`); unchanged.                          |
-| `Hom` (underlined)                  | `ℋom`                                  | Sheaf-Hom, parallel to the `ℰxt` convention.                                          |
-| `H^i_Y` (underlined)                | `ℋ^i_Y`                                | Sheafified local cohomology, matching the glossary entry.                             |
-| `Γ_Y(F)` (underlined)               | `Γ_Y(F)`                               | Sheafified sections-with-support; rendered without underline per the SGA 2 glossary's note on `Γ_Z`. |
-| `∂-foncteur`                        | `∂`-functor                            | Standard.                                                                             |
-| profondeur (`prof`)                 | depth (`prof`)                         | Standard SGA 2 usage; symbol `prof` kept.                                             |
-| anneau de Cohen-Macaulay            | Cohen-Macaulay (ring / module)         | Standard.                                                                             |
-| dimension cohomologique globale     | global cohomological dimension         | Per source.                                                                           |
-| limite inductive                    | direct limit                           | Modern English; matches glossary policy for SGA 2.                                    |
-| Tôhoku                              | *Tôhoku*                               | Italicized journal title; accent restored.                                            |
-| il est licite de                    | it is legitimate to                    | "Legitimate" reads better than "permitted" in this register.                          |
-| quelles que soient `Z` et `S`       | for any closed subsets `Z` and `S`     | Re-articulated as English universal quantifier.                                       |
-| C.Q.F.D.                            | QED                                    | Standard.                                                                             |
-| en vertu de                         | by                                     | "By" suffices for a citation tag.                                                     |
-| compte tenu de                      | (not occurring)                        | —                                                                                     |
-| il en résulte                       | it follows                             | Standard.                                                                             |
-| toujours d'après                    | still by                               | Standard.                                                                             |
-| `7→`, `−→`, `∼=`                    | `↦`, `→`, `≅`                          | OCR repair, per the SGA 2 glossary.                                                   |
+| French                           | English                            | Note                                                                                                 |
+| -------------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| critères de nullité              | vanishing criteria                 | Title-level. Per task spec.                                                                          |
+| conditions de cohérence          | coherence conditions               | Title-level. Per task spec.                                                                          |
+| `Ext^i_Y(F, G)` (underlined)     | `ℰxt^i_Y(F, G)`                    | Sheafified Ext, per the script-E convention pinned in Exposé VI.                                     |
+| `Ext^i_Z(F, G)` (non-underlined) | `Ext^i_Z(X; F, G)`                 | Global Ext (when displayed with the ambient `X`); unchanged.                                         |
+| `Hom` (underlined)               | `ℋom`                              | Sheaf-Hom, parallel to the `ℰxt` convention.                                                         |
+| `H^i_Y` (underlined)             | `ℋ^i_Y`                            | Sheafified local cohomology, matching the glossary entry.                                            |
+| `Γ_Y(F)` (underlined)            | `Γ_Y(F)`                           | Sheafified sections-with-support; rendered without underline per the SGA 2 glossary's note on `Γ_Z`. |
+| `∂-foncteur`                     | `∂`-functor                        | Standard.                                                                                            |
+| profondeur (`prof`)              | depth (`prof`)                     | Standard SGA 2 usage; symbol `prof` kept.                                                            |
+| anneau de Cohen-Macaulay         | Cohen-Macaulay (ring / module)     | Standard.                                                                                            |
+| dimension cohomologique globale  | global cohomological dimension     | Per source.                                                                                          |
+| limite inductive                 | direct limit                       | Modern English; matches glossary policy for SGA 2.                                                   |
+| Tôhoku                           | *Tôhoku*                           | Italicized journal title; accent restored.                                                           |
+| il est licite de                 | it is legitimate to                | "Legitimate" reads better than "permitted" in this register.                                         |
+| quelles que soient `Z` et `S`    | for any closed subsets `Z` and `S` | Re-articulated as English universal quantifier.                                                      |
+| C.Q.F.D.                         | QED                                | Standard.                                                                                            |
+| en vertu de                      | by                                 | "By" suffices for a citation tag.                                                                    |
+| compte tenu de                   | (not occurring)                    | —                                                                                                    |
+| il en résulte                    | it follows                         | Standard.                                                                                            |
+| toujours d'après                 | still by                           | Standard.                                                                                            |
+| `7→`, `−→`, `∼=`                 | `↦`, `→`, `≅`                      | OCR repair, per the SGA 2 glossary.                                                                  |
+
+[^VII-2-1]: Cf. EGA 0_IV 17.3.1.

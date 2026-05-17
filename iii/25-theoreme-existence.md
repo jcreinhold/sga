@@ -7,8 +7,8 @@
 <!-- original page 269 -->
 
 [^N.D.E-XXV-0] For the sake of completeness, we give in this Exposé a proof of the existence theorem for split groups.
-Like Chevalley's original proof ("Sur certains schémas de groupes semi-simples", *Séminaire Bourbaki*, May 1961, no. 219),
-it rests on the existence of complex semisimple algebraic groups of all possible types. The principle of a more
+Like Chevalley's original proof ("Sur certains schémas de groupes semi-simples", *Séminaire Bourbaki*, May 1961, no.
+219), it rests on the existence of complex semisimple algebraic groups of all possible types. The principle of a more
 satisfactory proof, establishing directly the existence of a simply connected split semisimple `ℤ`-group corresponding
 to a given Cartan matrix, was given by Cartier (unpublished).[^N.D.E-XXV-1] Let us point out, however, that the
 difficulty is not to give an explicit construction of a group scheme, but to verify that the group thus constructed
@@ -53,16 +53,16 @@ On the other hand, under the conditions of 1.3, the group scheme `G` is of const
 hence of type `R(G_k)`; by Exp. XXIII, 5.9, it follows that the validity of 1.3 for a given group `G_k` entails the
 existence of a split `ℤ`-group of type `R(G_k)`.[^N.D.E-XXV-3]
 
-To prove 1.2, and hence 1.1, it therefore suffices to prove 1.3 when `k` is of characteristic zero (for example
-`k = ℂ`) and `G_k` is simply connected (and in particular semisimple), as well as:
+To prove 1.2, and hence 1.1, it therefore suffices to prove 1.3 when `k` is of characteristic zero (for example `k = ℂ`)
+and `G_k` is simply connected (and in particular semisimple), as well as:
 
 **Proposition 1.4.** *For every simply connected reduced root datum `R`, there exists a semisimple algebraic `ℂ`-group
 of type `R`.*
 
 <!-- label: III.XXV.1.4 -->
 
-One may prove 1.4 in the following way. One knows first that there exists a complex semisimple Lie algebra `g` of
-type `R`, cf. for example N. Jacobson, *Lie Algebras*, ch. VII, Th. 5.[^N.D.E-XXV-4] Then `G = Aut(g)⁰` is a semisimple
+One may prove 1.4 in the following way. One knows first that there exists a complex semisimple Lie algebra `g` of type
+`R`, cf. for example N. Jacobson, *Lie Algebras*, ch. VII, Th. 5.[^N.D.E-XXV-4] Then `G = Aut(g)⁰` is a semisimple
 algebraic `ℂ`-group of type `ad(R)`.[^N.D.E-XXV-5] By *Bible*, § 23.1, Prop. 1, one deduces from this the existence of a
 semisimple `ℂ`-group of type `R`.
 
@@ -90,8 +90,8 @@ Let us choose, once and for all, a splitting of `G_k`, denoted
 ```
 
 (cf. Exp. XXII, 1.13), a system of simple roots `Δ` of `R` (defining the system of positive roots `R⁺`), a Chevalley
-system `(X_{α,k})_{α∈R}` of `G_k` (Exp. XXIII, 6.1 and 6.2) satisfying the following supplementary condition (cf. XX 2.6):
-for every `α ∈ R`, one has
+system `(X_{α,k})_{α∈R}` of `G_k` (Exp. XXIII, 6.1 and 6.2) satisfying the following supplementary condition (cf. XX
+2.6): for every `α ∈ R`, one has
 
 ```text
 X_{α,k} X_{−α,k} = 1.
@@ -238,10 +238,9 @@ If we now take any order on `R⁺`, the morphism
 ```
 
 defined by the product in `U` is still an isomorphism. Indeed, since both sides are flat `ℤ`-schemes of finite
-presentation, it suffices to verify the assertion on geometric fibers; one is then reduced to Lazard's theory
-(*Bible*, § 13.1, Prop. 1): one considers `U` as a group with operators `T`, and one uses the fact that the `U_α` are
-pairwise non-isomorphic as groups with operators (since the characters `α ∈ R⁺` of `T` are pairwise distinct on each
-fiber).
+presentation, it suffices to verify the assertion on geometric fibers; one is then reduced to Lazard's theory (*Bible*,
+§ 13.1, Prop. 1): one considers `U` as a group with operators `T`, and one uses the fact that the `U_α` are pairwise
+non-isomorphic as groups with operators (since the characters `α ∈ R⁺` of `T` are pairwise distinct on each fiber).
 
 ### 2.6.
 
@@ -300,8 +299,8 @@ into `U_{s_α(β)}`.*
 
 <!-- original page 273 (cont., page 416 of original) -->
 
-By virtue of the definition of a Chevalley system (Exp. XXIII, 6.1), there exists for each `β ∈ R` an integer
-`e_β = ±1` such that
+By virtue of the definition of a Chevalley system (Exp. XXIII, 6.1), there exists for each `β ∈ R` an integer `e_β = ±1`
+such that
 
 ```text
 int(w_{α,k}) p_{β,k}(x) = p_{s_α(β),k}(e_β x)
@@ -468,8 +467,8 @@ The verification of (i) is immediate (by 2.8 (ii)). To verify the condition in (
 h′(h(u), e, h(v′)) = u v′ = v′′ t′′ u′′
 ```
 
-when `u ∈ U(S)`, `v ∈ U⁻(S)`, `S → k`, by virtue of 2.8 (iii) and (ii). One constructs `σ` similarly: if `(v, t, u)` is a
-section of `Ω`, `h(u⁻¹)` is a section of `U⁻`,
+when `u ∈ U(S)`, `v ∈ U⁻(S)`, `S → k`, by virtue of 2.8 (iii) and (ii). One constructs `σ` similarly: if `(v, t, u)` is
+a section of `Ω`, `h(u⁻¹)` is a section of `U⁻`,
 
 <!-- original page 276 -->
 
@@ -582,9 +581,9 @@ the character
 ```
 
 the previous decomposition of `Lie(G)` is exactly the decomposition under the adjoint action of `T`. The roots of `G_K`
-with respect to `T_K` are therefore the `α ∈ R`. Apply Exp. XIX, 1.13. Let `T_α` be the maximal torus of
-`Ker(α) ⊂ T_K`, and let `Z_α = Centr_G(T_α)`; it suffices for us to prove that each `Z_α` is reductive. Now
-`Z_α ∩ Ω_K` is none other than
+with respect to `T_K` are therefore the `α ∈ R`. Apply Exp. XIX, 1.13. Let `T_α` be the maximal torus of `Ker(α) ⊂ T_K`,
+and let `Z_α = Centr_G(T_α)`; it suffices for us to prove that each `Z_α` is reductive. Now `Z_α ∩ Ω_K` is none other
+than
 
 ```text
 ∏_{β∈R⁻, β|_{T_α} = e} U_{β,K} · T_K · ∏_{β∈R⁺, β|_{T_α} = e} U_{β,K};
@@ -603,8 +602,8 @@ which follows at once from 2.11.
 
 It follows from 3.2 and 3.3 that the proof will be complete if we prove:
 
-**Lemma 3.4.** *If `S` is a locally noetherian scheme of dimension `≤ 1`, and if `G` is a smooth `S`-group of finite type
-with affine connected semisimple fibers, then `G` is affine (and therefore semisimple).*
+**Lemma 3.4.** *If `S` is a locally noetherian scheme of dimension `≤ 1`, and if `G` is a smooth `S`-group of finite
+type with affine connected semisimple fibers, then `G` is affine (and therefore semisimple).*
 
 <!-- label: III.XXV.3.4 -->
 
@@ -719,73 +718,6 @@ Math. I.H.É.S. **31** (1966), 21–58.
 
 ## Footnotes
 
-[^N.D.E-XXV-0]: N.D.E.: Version of 13/10/2024.
-
-[^N.D.E-XXV-1]: N.D.E.: Such a principle was also sketched by B. Kostant [Ko66]; a complete proof, using quantum
-    groups, has been given recently by G. Lusztig [Lu09].
-
-[^N.D.E-XXV-2]: N.D.E.: Let us also point out that the work [BT84] of F. Bruhat and J. Tits contains a variant of
-    Chevalley's construction (*loc. cit.*, 2.2.3–2.2.5 and § 3.2), which yields in particular a smooth affine `ℤ`-group
-    `G` with connected fibers, possessing a split maximal torus, and whose generic fiber is a reductive `ℚ`-group of
-    type `R`; the fact that the geometric fibers of `G` are reductive follows from the study of the unipotent radical of
-    a special fiber carried out in *loc. cit.*, 4.6.12 and 4.6.15 (valid for more general `G`, associated with a valued
-    root datum), but it is simpler to deduce it from the description of `g = Lie(G)`, from Exp. XIX 1.12 (iii), and from
-    the existence of the elements `w_α(X)` of Exp. XX 3.1 (iv) (cf. [BT84], 3.2.1).
-
-[^N.D.E-XXV-3]: N.D.E.: In fact, Exp. XXIII, 5.9 is not necessary because the present Exposé constructs, for every
-    semisimple `ℚ`-group `G_ℚ`, a semisimple `ℤ`-group `G` of the same type as `G_ℚ` and equipped with a split maximal
-    torus `T`; hence, by Exp. XXII 2.2, `G` is split.
-
-[^N.D.E-XXV-4]: N.D.E.: Let `Δ` be a base of `R` and `g̃` the complex Lie algebra generated by generators
-    `(e_α, f_α, h_α)_{α∈Δ}` subject to the relations `[h_α, h_β] = 0`, `[e_α, f_β] = h_α` if `β = α` and `= 0` otherwise,
-    `[h_α, e_β] = (α*, β) e_β` and `[h_α, f_β] = −(α*, β) f_β`. In *loc. cit.*, `g` is defined as the quotient of `g̃` by
-    the intersection of the kernels of the finite-dimensional irreducible representations of `g̃`; in [Se66], § VI.5,
-    Th. 9 (see also [BLie], VIII, § 4.3, Th. 1) it is shown that `g` is the quotient of `g̃` by the relations
-    `ad(e_α)^{1−(α*, β)}(e_β) = 0` and `ad(f_α)^{1−(α*, β)}(f_β) = 0`. For an explicit description of the structure
-    constants (in particular the choice of signs), see Exp. XXIII 6.5 and 6.7 as well as [Ti66], § 4, Th. 1 and (for
-    types A, D, E) [Sp98], 10.2.5.
-
-[^N.D.E-XXV-5]: N.D.E.: One may suppose `R` irreducible, hence `g` simple. By a general argument, one knows that
-    `Lie(G)` is the complex Lie algebra of derivations of `g` (cf. [DG70], § II.4, Prop. 2.3); but these are all inner
-    (cf. [BLie], I § 6.1, Cor. 3 of Prop. 1), hence `Lie(G) = g`; consequently `G` has no invariant subgroup of
-    dimension `> 0`, hence `G` is semisimple. Its root system is then the same as that of `g`; moreover, the center of
-    `G` acts simultaneously trivially and faithfully on `g`, hence is trivial, hence `G` is adjoint.
-
-[^N.D.E-XXV-6]: N.D.E.: We have added the flatness hypothesis, which had been omitted.
-
-[^N.D.E-XXV-7]: N.D.E.: cf. EGA IV_3, 8.10.5 (viii).
-
-[^N.D.E-XXV-8]: N.D.E.: Indeed, if `S = Spec(k)` (`k` a field), then `f` is the composite of the projection
-    `p : G → G/Ker(f)` and a closed immersion `i`, and since `Ker(f)` is finite over `k`, `p` is finite (VI_B 9.2).
-
-[^N.D.E-XXV-9]: N.D.E.: Indeed, the irreducible components `S_1, …, S_r` of `S` are complete integral noetherian local
-    schemes, hence, by a theorem of Nagata (cf. EGA 0_IV, 23.1.5) the normalization `S̃_i` is finite over `S_i`, and
-    therefore `S̃` is finite over `S`. Then, by a theorem of Chevalley (cf. EGA II, 6.7.1), if `f ×_S S̃` is an affine
-    morphism, then so is `f`.
-
-[^N.D.E-XXV-10]: N.D.E.: The following sentence has been added.
-
-[^N.D.E-XXV-11]: N.D.E.: When `G` is not assumed smooth over `S`, one may proceed as follows. Let `h_0` be a rational
-    point of `H⁰_s` and `g_0` a rational point of `G⁰_s` such that `f(g_0) = h_0`. By VI_B 5.6.1, there exists a
-    commutative diagram
-
-    ```text
-                       g
-              S′′ ────────▶ G
-              │ ╲           │
-              π   ╲ φ       │
-              │     ╲       │
-              ▼       ▼     ▼
-              S′ ─── w ───▶ S
-    ```
-
-    where `w` is étale and surjective, `π` finite and surjective, and `φ⁻¹(s)` is formed of a single point `s′′` such
-    that `g(s′′) = g_0`. Then the morphism `G_{S′′} → H_{S′′}` is affine above a neighborhood of `h_0 y_i`, and the same
-    holds for `G_{S′} → H_{S′}` (EGA II, 6.7.1), and then for `G → H` by faithfully flat descent
-    (EGA IV_2, 2.7.1 (xiii)). Hence `h_0 y_i ∈ V`, and it follows that `V` contains `H_s(s)`, and therefore `H_s`.
-
-[^N.D.E-XXV-12]: N.D.E.: Additional references cited in this Exposé.
-
 <!-- LEDGER DELTA — Exposé XXV — for consolidation in Phase 3
 | French | English | Note |
 | ------ | ------- | ---- |
@@ -812,3 +744,72 @@ Math. I.H.É.S. **31** (1966), 21–58.
 | déployé / déployable | split / splittable | Per glossary. |
 | donnée radicielle réduite épinglée | pinned reduced root datum | Per glossary. |
 -->
+
+[^N.D.E-XXV-0]: N.D.E.: Version of 13/10/2024.
+
+[^N.D.E-XXV-1]: N.D.E.: Such a principle was also sketched by B. Kostant [Ko66]; a complete proof, using quantum groups,
+    has been given recently by G. Lusztig [Lu09].
+
+[^N.D.E-XXV-2]: N.D.E.: Let us also point out that the work [BT84] of F. Bruhat and J. Tits contains a variant of
+    Chevalley's construction (*loc. cit.*, 2.2.3–2.2.5 and § 3.2), which yields in particular a smooth
+    affine `ℤ`-group `G` with connected fibers, possessing a split maximal torus, and whose generic fiber is
+    a reductive `ℚ`-group of type `R`; the fact that the geometric fibers of `G` are reductive follows from
+    the study of the unipotent radical of a special fiber carried out in *loc. cit.*, 4.6.12 and 4.6.15
+    (valid for more general `G`, associated with a valued root datum), but it is simpler to deduce it from
+    the description of `g = Lie(G)`, from Exp. XIX 1.12 (iii), and from the existence of the elements
+    `w_α(X)` of Exp. XX 3.1 (iv) (cf. [BT84], 3.2.1).
+
+[^N.D.E-XXV-3]: N.D.E.: In fact, Exp. XXIII, 5.9 is not necessary because the present Exposé constructs, for every
+    semisimple `ℚ`-group `G_ℚ`, a semisimple `ℤ`-group `G` of the same type as `G_ℚ` and equipped with a
+    split maximal torus `T`; hence, by Exp. XXII 2.2, `G` is split.
+
+[^N.D.E-XXV-4]: N.D.E.: Let `Δ` be a base of `R` and `g̃` the complex Lie algebra generated by generators
+    `(e_α, f_α, h_α)_{α∈Δ}` subject to the relations `[h_α, h_β] = 0`, `[e_α, f_β] = h_α` if `β = α` and
+    `= 0` otherwise, `[h_α, e_β] = (α*, β) e_β` and `[h_α, f_β] = −(α*, β) f_β`. In *loc. cit.*, `g` is
+    defined as the quotient of `g̃` by the intersection of the kernels of the finite-dimensional irreducible
+    representations of `g̃`; in [Se66], § VI.5, Th. 9 (see also [BLie], VIII, § 4.3, Th. 1) it is shown that
+    `g` is the quotient of `g̃` by the relations `ad(e_α)^{1−(α*, β)}(e_β) = 0` and
+    `ad(f_α)^{1−(α*, β)}(f_β) = 0`. For an explicit description of the structure constants (in particular
+    the choice of signs), see Exp. XXIII 6.5 and 6.7 as well as [Ti66], § 4, Th. 1 and (for types A, D, E)
+    [Sp98], 10.2.5.
+
+[^N.D.E-XXV-5]: N.D.E.: One may suppose `R` irreducible, hence `g` simple. By a general argument, one knows that
+    `Lie(G)` is the complex Lie algebra of derivations of `g` (cf. [DG70], § II.4, Prop. 2.3); but these are
+    all inner (cf. [BLie], I § 6.1, Cor. 3 of Prop. 1), hence `Lie(G) = g`; consequently `G` has no
+    invariant subgroup of dimension `> 0`, hence `G` is semisimple. Its root system is then the same as that
+    of `g`; moreover, the center of `G` acts simultaneously trivially and faithfully on `g`, hence is
+    trivial, hence `G` is adjoint.
+
+[^N.D.E-XXV-6]: N.D.E.: We have added the flatness hypothesis, which had been omitted.
+
+[^N.D.E-XXV-7]: N.D.E.: cf. EGA IV_3, 8.10.5 (viii).
+
+[^N.D.E-XXV-8]: N.D.E.: Indeed, if `S = Spec(k)` (`k` a field), then `f` is the composite of the projection
+    `p : G → G/Ker(f)` and a closed immersion `i`, and since `Ker(f)` is finite over `k`, `p` is finite
+    (VI_B 9.2).
+
+[^N.D.E-XXV-9]: N.D.E.: Indeed, the irreducible components `S_1, …, S_r` of `S` are complete integral noetherian local
+    schemes, hence, by a theorem of Nagata (cf. EGA 0_IV, 23.1.5) the normalization `S̃_i` is finite over
+    `S_i`, and therefore `S̃` is finite over `S`. Then, by a theorem of Chevalley (cf. EGA II, 6.7.1), if
+    `f ×_S S̃` is an affine morphism, then so is `f`.
+
+[^N.D.E-XXV-10]: N.D.E.: The following sentence has been added.
+
+[^N.D.E-XXV-11]: N.D.E.: When `G` is not assumed smooth over `S`, one may proceed as follows. Let `h_0` be a rational
+    point of `H⁰_s` and `g_0` a rational point of `G⁰_s` such that `f(g_0) = h_0`. By VI_B 5.6.1, there
+    exists a commutative diagram
+
+    ```text
+                       g
+              S′′ ────────▶ G
+              │ ╲           │
+              π   ╲ φ       │
+              │     ╲       │
+              ▼       ▼     ▼
+              S′ ─── w ───▶ S
+    ```
+
+    where `w` is étale and surjective, `π` finite and surjective, and `φ⁻¹(s)` is formed of a single point `s′′` such
+    that `g(s′′) = g_0`. Then the morphism `G_{S′′} → H_{S′′}` is affine above a neighborhood of `h_0 y_i`, and the same
+    holds for `G_{S′} → H_{S′}` (EGA II, 6.7.1), and then for `G → H` by faithfully flat descent (EGA IV_2, 2.7.1
+    (xiii)). Hence `h_0 y_i ∈ V`, and it follows that `V` contains `H_s(s)`, and therefore `H_s`.

@@ -24,7 +24,8 @@ Homˢ(F•, G•) = ∏ₖ Hom(Fₖ, Gₖ₊ₛ).
 
 <!-- label: eq:V.1.2 -->
 
-Let `F•` (resp. `G•`) be a complex, and let `d₁` (resp. `d₂`) be its differential; then for `h ∈ Homˢ(F•, G•)` one sets[^V-1-1]
+Let `F•` (resp. `G•`) be a complex, and let `d₁` (resp. `d₂`) be its differential; then for `h ∈ Homˢ(F•, G•)` one
+sets[^V-1-1]
 
 ```text
 d(h) = h ∘ d₁ + (−1)^{s+1} d₂ ∘ h.
@@ -32,7 +33,8 @@ d(h) = h ∘ d₁ + (−1)^{s+1} d₂ ∘ h.
 
 <!-- label: eq:V.1.3 -->
 
-One verifies trivially that `d ∘ d = 0`, hence that `Hom•(F•, G•)` equipped with `d` is a complex. The cohomology group of this complex is written
+One verifies trivially that `d ∘ d = 0`, hence that `Hom•(F•, G•)` equipped with `d` is a complex. The cohomology group
+of this complex is written
 
 ```text
 H•(F•, G•).
@@ -60,9 +62,12 @@ is an exact δ-functor on the category of complexes `G•` that are injective in
 
 <!-- label: V.1.2 -->
 
-The cycles of `Hom•(F•, G•)` are the homomorphisms from `F•` into `G•` that commute or anticommute with the differentials, according to degree. The boundaries of `Hom•(F•, G•)` are the homomorphisms from `F•` into `G•` that are homotopic to zero.
+The cycles of `Hom•(F•, G•)` are the homomorphisms from `F•` into `G•` that commute or anticommute with the
+differentials, according to degree. The boundaries of `Hom•(F•, G•)` are the homomorphisms from `F•` into `G•` that are
+homotopic to zero.
 
-Let `A` be a ring, let `M` (resp. `N`) be an `A`-module, and let `R(M)` (resp. `R(N)`) be an injective resolution of `M` (resp. `N`). Then there exists a canonical isomorphism[^V-1-2]
+Let `A` be a ring, let `M` (resp. `N`) be an `A`-module, and let `R(M)` (resp. `R(N)`) be an injective resolution of `M`
+(resp. `N`). Then there exists a canonical isomorphism[^V-1-2]
 
 ```text
 Hˢ(R(M), R(N)) ≅ Extˢ(M, N).
@@ -76,7 +81,8 @@ Indeed, let `i: M → R(M)` be the canonical augmentation, and let `h ∈ Homˢ(
 h ↦ h⁰ ∘ i
 ```
 
-from `Homˢ(R(M), R(N))` into `Hom(M, R(N)ˢ)`. The family `(tₛ)_{s⩾0}` defines a homomorphism of (ordinary) complexes[^V-1-3]
+from `Homˢ(R(M), R(N))` into `Hom(M, R(N)ˢ)`. The family `(tₛ)_{s⩾0}` defines a homomorphism of (ordinary)
+complexes[^V-1-3]
 
 ```text
 t: Hom•(R(M), R(N)) → Hom•(M, R(N)),
@@ -126,7 +132,8 @@ deduced from (6) and (5).
 
 <!-- original page 49 -->
 
-Let `P` be a third `A`-module, and let `R(P)` be an injective resolution of `P`; then composition of graded morphisms gives a pairing
+Let `P` be a third `A`-module, and let `R(P)` be an injective resolution of `P`; then composition of graded morphisms
+gives a pairing
 
 ```text
 Homⁱ(R(N), R(M)) × Homʲ(R(M), R(P)) → Homⁱ⁺ʲ(R(N), R(P)),
@@ -150,7 +157,8 @@ Hⁱ(R(N), R(M)) → Hom(Hʲ(R(M), R(P)), Hⁱ⁺ʲ(R(N), R(P))).
 
 <!-- label: eq:V.1.4-hom -->
 
-We shall see that (1.4) is a homomorphism of δ-functors in `M`. The exact sequences (5) and (6) give a commutative diagram:
+We shall see that (1.4) is a homomorphism of δ-functors in `M`. The exact sequences (5) and (6) give a commutative
+diagram:
 
 ```text
 Homⁱ(R(N), R(M′))   ──→   Hom(Homʲ(R(M′), R(P)), Homⁱ⁺ʲ(R(N), R(P)))
@@ -164,7 +172,9 @@ Homⁱ(R(N), R(M))    ──→   Hom(Homʲ(R(M), R(P)), Homⁱ⁺ʲ(R(N), R(P))
 Homⁱ(R(N), R(M″))   ──→   Hom(Homʲ(R(M″), R(P)), Homⁱ⁺ʲ(R(N), R(P))).
 ```
 
-Let `h ∈ Homⁱ(R(N), R(M″))` (resp. `g ∈ Homʲ(R(M′), R(P))`) be a cycle, and let `h′ ∈ Homⁱ(R(N), R(M))` (resp. `g′ ∈ Homʲ(R(M), R(P))`) be such that `p(h′) = h` (resp. `q(g′) = g`); then to say that (1.4) is a homomorphism of δ-functors in `M` is to say that
+Let `h ∈ Homⁱ(R(N), R(M″))` (resp. `g ∈ Homʲ(R(M′), R(P))`) be a cycle, and let `h′ ∈ Homⁱ(R(N), R(M))` (resp.
+`g′ ∈ Homʲ(R(M), R(P))`) be such that `p(h′) = h` (resp. `q(g′) = g`); then to say that (1.4) is a homomorphism of
+δ-functors in `M` is to say that
 
 ```text
 g ∘ dh′ − dg′ ∘ h
@@ -216,7 +226,10 @@ Extⁱ(N, M) → Hom(Extʲ(M, P), Extⁱ⁺ʲ(N, P)).
 
 <!-- label: V.2 -->
 
-Let `A` be a regular local ring of dimension `r`, let `𝔪` be the maximal ideal of `A`, and let `M` be a finitely generated `A`-module. One sets `Hⁱ(M) = Hⁱ_𝔪(M)` (hence `Hⁱ(M) = lim→ Extⁱ(A/𝔪ᵏ, M)`). One has seen (IV 5.4) that `I = Hʳ(A)` is a dualizing module for `A`; denote by `D` the associated dualizing functor. In (1.5) setting `N = A/𝔪ᵏ`, `P = A`, one obtains a homomorphism of δ-functors in `M`
+Let `A` be a regular local ring of dimension `r`, let `𝔪` be the maximal ideal of `A`, and let `M` be a finitely
+generated `A`-module. One sets `Hⁱ(M) = Hⁱ_𝔪(M)` (hence `Hⁱ(M) = lim→ Extⁱ(A/𝔪ᵏ, M)`). One has seen (IV 5.4) that
+`I = Hʳ(A)` is a dualizing module for `A`; denote by `D` the associated dualizing functor. In (1.5) setting `N = A/𝔪ᵏ`,
+`P = A`, one obtains a homomorphism of δ-functors in `M`
 
 ```text
 φₖ: Extⁱ(A/𝔪ᵏ, M) → Hom(Extʳ⁻ⁱ(M, A), Extʳ(A/𝔪ᵏ, A)).
@@ -238,13 +251,19 @@ Passing to the direct limit over `k`, one finds a homomorphism of δ-functors
 
 The functorial homomorphism `φ` above is an isomorphism.
 
-*Proof.* If `i > r`, the right-hand side of (14) is trivially zero, and the left-hand side is zero because `Hⁱ(M) = lim→_k Extⁱ(A/𝔪ᵏ, M)`, and this holds for each `Extⁱ(A/𝔪ᵏ, M)` (syzygy theorem).
+*Proof.* If `i > r`, the right-hand side of (14) is trivially zero, and the left-hand side is zero because
+`Hⁱ(M) = lim→_k Extⁱ(A/𝔪ᵏ, M)`, and this holds for each `Extⁱ(A/𝔪ᵏ, M)` (syzygy theorem).
 
-If `i = r`, by what precedes, the two functors in `M`, `Hʳ(M)` and `D(Hom(M, A))`, are right exact; since `A` is noetherian and `M` is finitely generated, it suffices to verify the isomorphism for `M = A`, which is immediate.
+If `i = r`, by what precedes, the two functors in `M`, `Hʳ(M)` and `D(Hom(M, A))`, are right exact; since `A` is
+noetherian and `M` is finitely generated, it suffices to verify the isomorphism for `M = A`, which is immediate.
 
 <!-- original page 51 -->
 
-To show that `φ` is a functorial isomorphism, it now suffices, proceeding by descending induction on `i`, to remark that every finitely generated module admits a finite presentation, and that for `i < r` the two sides of (14) are zero when `M` is finitely generated free. This is evident for the right-hand side, and since `Hⁱ` commutes with finite sums it suffices, as for the left-hand side, to show that `Hⁱ(A) = 0` for `i < r`. But this follows, since `prof(A) = r`, from (III 3.4).
+To show that `φ` is a functorial isomorphism, it now suffices, proceeding by descending induction on `i`, to remark that
+every finitely generated module admits a finite presentation, and that for `i < r` the two sides of (14) are zero when
+`M` is finitely generated free. This is evident for the right-hand side, and since `Hⁱ` commutes with finite sums it
+suffices, as for the left-hand side, to show that `Hⁱ(A) = 0` for `i < r`. But this follows, since `prof(A) = r`, from
+(III 3.4).
 
 ## 3. Application to the structure of the H^i(M)
 
@@ -254,7 +273,8 @@ To show that `φ` is a functorial isomorphism, it now suffices, proceeding by de
 
 <!-- label: V.3.1 -->
 
-Let `A` be a noetherian local ring, `D` a dualizing functor for `A`, and `M` a finitely generated `A`-module with `M ≠ 0`, of dimension `n`. Then one has:
+Let `A` be a noetherian local ring, `D` a dualizing functor for `A`, and `M` a finitely generated `A`-module with
+`M ≠ 0`, of dimension `n`. Then one has:
 
 (i) `Hⁱ(M) = 0` if `i < 0` or if `i > n`.
 
@@ -266,7 +286,8 @@ Let `A` be a noetherian local ring, `D` a dualizing functor for `A`, and `M` a f
 Ass(D(Hⁿ(M))) = {𝔭 ∈ Ass(M) | dim A/𝔭 = n}.
 ```
 
-*Proof.* Let `I` be the dualizing module associated to `D`. One knows that `Î` is a dualizing module for `Â`. On the other hand, one has
+*Proof.* Let `I` be the dualizing module associated to `D`. One knows that `Î` is a dualizing module for `Â`. On the
+other hand, one has
 
 ```text
 Hⁱ(M)^ = Hⁱ(M̂),
@@ -274,7 +295,8 @@ D(Hⁱ(M))^ = Hom(Hⁱ(M̂), Î), and
 dim M̂ = dim M;
 ```
 
-hence one may suppose `A` complete. Now, by a theorem of Cohen, every complete local ring is a quotient of a regular local ring. To reduce to that case, one needs the following lemma:
+hence one may suppose `A` complete. Now, by a theorem of Cohen, every complete local ring is a quotient of a regular
+local ring. To reduce to that case, one needs the following lemma:
 
 <!-- original page 52 -->
 
@@ -282,7 +304,10 @@ hence one may suppose `A` complete. Now, by a theorem of Cohen, every complete l
 
 <!-- label: V.3.2 -->
 
-Let `X` (resp. `Y`) be a ringed space, let `X′` (resp. `Y′`) be a closed subspace of `X` (resp. `Y`), and let `f: X → Y` be a morphism of ringed spaces such that `f⁻¹(Y′) = X′`. Let `F` be an `𝒪_X`-Module, and denote by `A` (resp. `B`) the ring `Γ(𝒪_X)` (resp. `Γ(𝒪_Y)`), and by `f: B → A` the ring homomorphism corresponding to `f`. There exists a spectral sequence of `B`-modules, with initial term
+Let `X` (resp. `Y`) be a ringed space, let `X′` (resp. `Y′`) be a closed subspace of `X` (resp. `Y`), and let `f: X → Y`
+be a morphism of ringed spaces such that `f⁻¹(Y′) = X′`. Let `F` be an `𝒪_X`-Module, and denote by `A` (resp. `B`) the
+ring `Γ(𝒪_X)` (resp. `Γ(𝒪_Y)`), and by `f: B → A` the ring homomorphism corresponding to `f`. There exists a spectral
+sequence of `B`-modules, with initial term
 
 ```text
 E₂^{p,q} = Hᵖ_{Y′}(Y, Rᵍf_*(F)),
@@ -292,7 +317,8 @@ E₂^{p,q} = Hᵖ_{Y′}(Y, Rᵍf_*(F)),
 
 abutting to the `B`-module `H•_{X′}(X, F)_[f]`.
 
-*Proof.* Let `𝒪_{Y,Y′}` be the sheaf `𝒪_Y|Y′` extended by `0` outside `Y′` (see Exp. I). One has an isomorphism of `B`-modules:
+*Proof.* Let `𝒪_{Y,Y′}` be the sheaf `𝒪_Y|Y′` extended by `0` outside `Y′` (see Exp. I). One has an isomorphism of
+`B`-modules:
 
 ```text
 Hom(𝒪_{Y,Y′}, f_*(F)) ≅ Hom(f*(𝒪_{Y,Y′}), F)_[f].
@@ -308,7 +334,9 @@ f*(𝒪_{Y,Y′}) = 𝒪_{X,X′},
 
 <!-- label: eq:V.3.17 -->
 
-and moreover if `G` is an injective `𝒪_X`-Module, then `f_*(G)` is an injective `𝒪_Y`-Module, at least if `f` is flat — a case to which one easily reduces by replacing `𝒪_X`, etc., by the constant sheaves of rings `ℤ`. Hence the spectral sequence of the composite functor
+and moreover if `G` is an injective `𝒪_X`-Module, then `f_*(G)` is an injective `𝒪_Y`-Module, at least if `f` is flat —
+a case to which one easily reduces by replacing `𝒪_X`, etc., by the constant sheaves of rings `ℤ`. Hence the spectral
+sequence of the composite functor
 
 ```text
 F ↦ Hom(𝒪_{Y,Y′}, f_*(F)),
@@ -336,7 +364,9 @@ Let now `f: B → A` be a surjective homomorphism of local rings. Let
 f: Spec(A) → Spec(B)
 ```
 
-be the corresponding morphism of affine schemes. Set `X = Spec(A)` (resp. `X′ = {𝔪_A}`), `Y = Spec(B)` (resp. `Y′ = {𝔪_B}`), and let `M` be an `A`-module and `M̃` the corresponding `𝒪_X`-Module. Since `Rᵍf_*(M̃) = 0` for `q > 0`, the spectral sequence (15) degenerates, and by (3.2) one obtains an isomorphism of `B`-modules:
+be the corresponding morphism of affine schemes. Set `X = Spec(A)` (resp. `X′ = {𝔪_A}`), `Y = Spec(B)` (resp.
+`Y′ = {𝔪_B}`), and let `M` be an `A`-module and `M̃` the corresponding `𝒪_X`-Module. Since `Rᵍf_*(M̃) = 0` for `q > 0`,
+the spectral sequence (15) degenerates, and by (3.2) one obtains an isomorphism of `B`-modules:
 
 ```text
 Hⁿ_{{𝔪_B}}(Y, f_*(M̃)) ≅ Hⁿ_{{𝔪_A}}(X, M̃)_[f],
@@ -386,15 +416,24 @@ We shall prove the equivalence of the following properties:
 
 (c) `codim(Supp(Extʲ(M, A)), X) ⩾ j`.
 
-To prove (a) ⇒ (b), let `𝔭 ∈ X` with `dim A_𝔭 < j`; then `dim A/𝔭 > r − j`, hence by (a) `Ann(Extʲ(M, A)) ⊄ 𝔭`, which entails `Extʲ(M, A)_𝔭 = 0`. Let `𝔭 ∈ Supp(Extʲ(M, A))`; then `Extʲ(M, A)_𝔭 ≠ 0`, so by (b) `dim A_𝔭 ⩾ j`. Hence `codim(Supp(Extʲ(M, A)), X) = inf{dim A_𝔭 | 𝔭 ∈ Supp(Extʲ(M, A))} ⩾ j`, that is, (b) ⇒ (c). Finally (c) implies (a) trivially.
+To prove (a) ⇒ (b), let `𝔭 ∈ X` with `dim A_𝔭 < j`; then `dim A/𝔭 > r − j`, hence by (a) `Ann(Extʲ(M, A)) ⊄ 𝔭`, which
+entails `Extʲ(M, A)_𝔭 = 0`. Let `𝔭 ∈ Supp(Extʲ(M, A))`; then `Extʲ(M, A)_𝔭 ≠ 0`, so by (b) `dim A_𝔭 ⩾ j`. Hence
+`codim(Supp(Extʲ(M, A)), X) = inf{dim A_𝔭 | 𝔭 ∈ Supp(Extʲ(M, A))} ⩾ j`, that is, (b) ⇒ (c). Finally (c) implies (a)
+trivially.
 
 Let us now prove the theorem.
 
-(i) Let `x = (x₁, …, xᵣ)` be a system of parameters for `A` such that `xᵢ ∈ Ann M` for `i = 1, …, r − n`. Let `K•((xᵏ), M)` be the Koszul complex. One sees easily that the map `Kⁱ((xᵏ), M) → Kⁱ((xᵏ′), M)` for `k < k′` is zero, if `i > n`. It follows that `Hⁱ(M) = lim→ Hⁱ((xᵏ), M) = 0` if `i > n`. On the other hand, it is trivial that `Hⁱ(M) = 0` if `i < 0`, so (i) is proved.
+(i) Let `x = (x₁, …, xᵣ)` be a system of parameters for `A` such that `xᵢ ∈ Ann M` for `i = 1, …, r − n`. Let
+`K•((xᵏ), M)` be the Koszul complex. One sees easily that the map `Kⁱ((xᵏ), M) → Kⁱ((xᵏ′), M)` for `k < k′` is zero, if
+`i > n`. It follows that `Hⁱ(M) = lim→ Hⁱ((xᵏ), M) = 0` if `i > n`. On the other hand, it is trivial that `Hⁱ(M) = 0` if
+`i < 0`, so (i) is proved.
 
-(ii) Since `A` is regular, `dim A_𝔭 < j` entails that the global homological dimension of `A_𝔭` is strictly less than `j`, and hence `Extʲ(M, A)_𝔭 = Extʲ_{A_𝔭}(M_𝔭, A_𝔭) = 0`; so one has proved (b) and consequently (a). (ii) then follows from (22) and from (a).
+(ii) Since `A` is regular, `dim A_𝔭 < j` entails that the global homological dimension of `A_𝔭` is strictly less than
+`j`, and hence `Extʲ(M, A)_𝔭 = Extʲ_{A_𝔭}(M_𝔭, A_𝔭) = 0`; so one has proved (b) and consequently (a). (ii) then follows
+from (22) and from (a).
 
-(iii) There exists a `𝔭 ∈ Supp(M)` such that `dim A_𝔭 = r − n` and such that `Supp(M_𝔭) = {𝔪_{A_𝔭}}`. Since `A_𝔭` is regular if `A` is, one finds `prof A_𝔭 = r − n`, hence
+(iii) There exists a `𝔭 ∈ Supp(M)` such that `dim A_𝔭 = r − n` and such that `Supp(M_𝔭) = {𝔪_{A_𝔭}}`. Since `A_𝔭` is
+regular if `A` is, one finds `prof A_𝔭 = r − n`, hence
 
 ```text
 Extʳ⁻ⁿ_A(M, A)_𝔭 = Extʳ⁻ⁿ_{A_𝔭}(M_𝔭, A_𝔭) ≠ 0.
@@ -422,13 +461,16 @@ hence by (ii)
 dim D(Hⁿ(M)) = n.
 ```
 
-Let now `Y = Supp(M)`. By (i) one knows that `D(Hⁿ(M′)) = Extʳ⁻ⁿ(M′, A)` is a functor in `M′`, left exact, on the category `(𝒞_Y)°`. Hence there exists an `A`-module `H` and an isomorphism of functors in `M′`:
+Let now `Y = Supp(M)`. By (i) one knows that `D(Hⁿ(M′)) = Extʳ⁻ⁿ(M′, A)` is a functor in `M′`, left exact, on the
+category `(𝒞_Y)°`. Hence there exists an `A`-module `H` and an isomorphism of functors in `M′`:
 
 ```text
 Extʳ⁻ⁿ(M′, A) = Hom(M′, H).
 ```
 
-Let `Yᵢ`, `i = 1, …, k`, be the irreducible components of `Y` of maximum dimension. We shall see that the assertion `Extʳ⁻ⁿ(M′, A) ≠ 0` is equivalent to the assertion: there exists an `i` such that `Supp M′ ⊃ Yᵢ`. Indeed, if `Supp M′ ⊃ Yᵢ`, then `dim(M′) = n`, hence `Extʳ⁻ⁿ(M′, A) ≠ 0`.
+Let `Yᵢ`, `i = 1, …, k`, be the irreducible components of `Y` of maximum dimension. We shall see that the assertion
+`Extʳ⁻ⁿ(M′, A) ≠ 0` is equivalent to the assertion: there exists an `i` such that `Supp M′ ⊃ Yᵢ`. Indeed, if
+`Supp M′ ⊃ Yᵢ`, then `dim(M′) = n`, hence `Extʳ⁻ⁿ(M′, A) ≠ 0`.
 
 If `Supp M′ ⊅ Yᵢ` for every `i = 1, …, k`, then `dim M′ < n` and
 
@@ -442,9 +484,13 @@ Since `Ass(Extʳ⁻ⁿ(M, A)) = Supp M ∩ Ass(H)`, one sees that the last asser
 
 <!-- label: V.3.3 -->
 
-Let `X = Spec(A)`, let `Y` be a closed subset of `X`, let `T: (𝒞_Y)° → Ab` be a left exact functor, and let `Yᵢ`, `i = 1, …, k`, be a family of irreducible components of `Y` such that the assertion: `T(M) = 0` is equivalent to the assertion: `∀ i, Supp M ⊅ Yᵢ`. Then `T` is representable by a module `H` such that `Ass(H) = ⋃ᵢ₌₁ᵏ {yᵢ}`, where `yᵢ` is the generic point of `Yᵢ`, `i = 1, …, k`.
+Let `X = Spec(A)`, let `Y` be a closed subset of `X`, let `T: (𝒞_Y)° → Ab` be a left exact functor, and let `Yᵢ`,
+`i = 1, …, k`, be a family of irreducible components of `Y` such that the assertion: `T(M) = 0` is equivalent to the
+assertion: `∀ i, Supp M ⊅ Yᵢ`. Then `T` is representable by a module `H` such that `Ass(H) = ⋃ᵢ₌₁ᵏ {yᵢ}`, where `yᵢ` is
+the generic point of `Yᵢ`, `i = 1, …, k`.
 
-*Proof.* Let `y ∈ Y`; one constructs an `A`-module `M(y)` such that `Supp(M(y)) = {y}`. Suppose that `y ≠ yᵢ` for every `i = 1, …, k`; then `Yᵢ ⊄ Supp(M(y))` for every `i = 1, …, k`, so `T(M(y)) = 0`. It follows that
+*Proof.* Let `y ∈ Y`; one constructs an `A`-module `M(y)` such that `Supp(M(y)) = {y}`. Suppose that `y ≠ yᵢ` for every
+`i = 1, …, k`; then `Yᵢ ⊄ Supp(M(y))` for every `i = 1, …, k`, so `T(M(y)) = 0`. It follows that
 
 ```text
 Ass(T(M(y))) = Supp(M(y)) ∩ Ass(H) = ∅,
@@ -462,11 +508,15 @@ By the first part of the proof, this implies `y ∈ Ass(H)`, whence the lemma. Q
 
 <!-- label: V.3.4 -->
 
-Let `A` be a noetherian ring, let `X = Spec(A)`, and let `Y` be a closed subset of `X` such that `X − Y` is affine; then for every irreducible component `Y_α` of `Y` one has `codim(Y_α, X) ⩽ 1`.
+Let `A` be a noetherian ring, let `X = Spec(A)`, and let `Y` be a closed subset of `X` such that `X − Y` is affine; then
+for every irreducible component `Y_α` of `Y` one has `codim(Y_α, X) ⩽ 1`.
 
-Indeed, consider `X` as a prescheme over `X`. Let `y_α ∈ Y_α` be a generic point, and consider the morphism `Spec(𝒪_{X,y_α}) → X`. The affine scheme obtained by base extension of `X` to `Spec(𝒪_{X,y_α})` is canonically isomorphic to `Spec(𝒪_{X,y_α})`.
+Indeed, consider `X` as a prescheme over `X`. Let `y_α ∈ Y_α` be a generic point, and consider the morphism
+`Spec(𝒪_{X,y_α}) → X`. The affine scheme obtained by base extension of `X` to `Spec(𝒪_{X,y_α})` is canonically
+isomorphic to `Spec(𝒪_{X,y_α})`.
 
-By (EGA I 3.2.7) one sees that if `y₀` is the unique closed point of `Y₀ = Spec(𝒪_{X,y_α})`, then `Y₀ − y₀` is affine. By (EGA III 1.3.1) one finds
+By (EGA I 3.2.7) one sees that if `y₀` is the unique closed point of `Y₀ = Spec(𝒪_{X,y_α})`, then `Y₀ − y₀` is affine.
+By (EGA III 1.3.1) one finds
 
 ```text
 Hⁱ(Y₀ − y₀, 𝒪_{Y₀}) = 0   if i > 0,
@@ -488,7 +538,8 @@ dim 𝒪_{X,y_α} ⩽ 1,
 
 hence `codim(Y_α, X) = inf_{y ∈ Y_α} dim 𝒪_{X,y} ⩽ 1`. QED
 
-Let `A` be a noetherian local ring, `𝔪` its maximal ideal, and `M` a finitely generated `A`-module. Suppose that `A` is a quotient of a regular local ring. Set `X = Spec(A)`, and for every `x ∈ X`, `𝔪_x = 𝔪A_x`.
+Let `A` be a noetherian local ring, `𝔪` its maximal ideal, and `M` a finitely generated `A`-module. Suppose that `A` is
+a quotient of a regular local ring. Set `X = Spec(A)`, and for every `x ∈ X`, `𝔪_x = 𝔪A_x`.
 
 **Proposition 3.5.**
 
@@ -552,14 +603,6 @@ for every `x ∈ X − {𝔪}`.
 
 *Proof.* Follows from (3.5) and (III 3.1).
 
-[^V-1-1]: *N.D.E.* The original sign convention was different; but it is not compatible with the convention of Exposé VIII, which seems more reasonable, since in that case the cohomology in degree `0` is the set of homotopy classes of morphisms from `F•` into `G•`. The calculations have been modified accordingly in what follows.
-
-[^V-1-2]: *N.D.E.* The strange original numbering has been preserved.
-
-[^V-1-3]: *N.D.E.* We still write `M` for the complex `M[0]` consisting of `M` placed in degree `0`.
-
-[^V-3-4]: *N.D.E.* Indeed, the point is to show that, `E` being a finitely generated `A`-module, if `D(E)` is of finite length then `E` is of finite length. Let `K` (resp. `Q`) be the kernel (resp. cokernel) of the canonical morphism `ε: E → DD(E)`. The composition of `D(ε)` and the canonical morphism `γ: D(E) → DDD(E)` is the identity of `D(E)`. Since `D(E)` is of finite length, `γ` is an isomorphism, and hence so is `D(ε)`. Since `D` is exact, it follows that `D(K)` and `D(Q)` are zero. It suffices to prove that if `M` is an `A`-module with zero dual, then `M` is zero, for one will then have `E = DD(E)` of finite length, just like `D(E)`. Indeed, let `M₀` be a finitely generated submodule of `M`. Since `D` is exact, `D(M₀)` is a quotient of `D(M)`, which is zero. Again by the exactness of `D`, one has `D(M₀/𝔪_A M₀) = 0`, and hence, by biduality, the finite-length module `M₀/𝔪_A M₀` is zero. Nakayama's lemma then ensures the vanishing of `M₀`, and finally one obtains that of `M`.
-
 <!--
 LEDGER DELTA (Exposé V):
 | French | English | Note |
@@ -601,3 +644,22 @@ LEDGER DELTA (Exposé V):
 | `[f]` (restriction-of-scalars subscript) | `_[f]` | The source brackets `[f]` indicate restriction of scalars; rendered as a subscript `_[f]`. |
 | `^` (hat / formal completion) | `Â`, `M̂`, `Î` | Hat indicates formal completion / `m`-adic completion; rendered with Unicode combining hat. |
 -->
+
+[^V-1-1]: *N.D.E.* The original sign convention was different; but it is not compatible with the convention of Exposé
+    VIII, which seems more reasonable, since in that case the cohomology in degree `0` is the set of homotopy
+    classes of morphisms from `F•` into `G•`. The calculations have been modified accordingly in what follows.
+
+[^V-1-2]: *N.D.E.* The strange original numbering has been preserved.
+
+[^V-1-3]: *N.D.E.* We still write `M` for the complex `M[0]` consisting of `M` placed in degree `0`.
+
+[^V-3-4]: *N.D.E.* Indeed, the point is to show that, `E` being a finitely generated `A`-module, if `D(E)` is of finite
+    length then `E` is of finite length. Let `K` (resp. `Q`) be the kernel (resp. cokernel) of the canonical
+    morphism `ε: E → DD(E)`. The composition of `D(ε)` and the canonical morphism `γ: D(E) → DDD(E)` is the
+    identity of `D(E)`. Since `D(E)` is of finite length, `γ` is an isomorphism, and hence so is `D(ε)`. Since `D`
+    is exact, it follows that `D(K)` and `D(Q)` are zero. It suffices to prove that if `M` is an `A`-module with
+    zero dual, then `M` is zero, for one will then have `E = DD(E)` of finite length, just like `D(E)`. Indeed,
+    let `M₀` be a finitely generated submodule of `M`. Since `D` is exact, `D(M₀)` is a quotient of `D(M)`, which
+    is zero. Again by the exactness of `D`, one has `D(M₀/𝔪_A M₀) = 0`, and hence, by biduality, the finite-length
+    module `M₀/𝔪_A M₀` is zero. Nakayama's lemma then ensures the vanishing of `M₀`, and finally one obtains that
+    of `M`.

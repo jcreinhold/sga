@@ -28,12 +28,13 @@ H¹_ét(S, G) ⊂ H¹(S, G),
 Fib(S, G) ⊂ H¹(S, G).
 ```
 
-If every principal homogeneous sheaf under `G` is representable (for example if `G` is quasi-affine over `S`, cf.
-SGA 1, VIII 7.9), then `Fib(S, G) = H¹(S, G)`.
+If every principal homogeneous sheaf under `G` is representable (for example if `G` is quasi-affine over `S`, cf. SGA 1,
+VIII 7.9), then `Fib(S, G) = H¹(S, G)`.
 
 If `S' → S` is a covering morphism for the (fpqc) topology, we write `H¹(S'/S, G)` for the kernel of the canonical map
 `H¹(S, G) → H¹(S', G_{S'})`. It is known that `H¹(S'/S, G)` can be computed simplicially (TDTE I, § A.4), which implies
-that when `S' → S` is covering for the étale topology, `H¹(S'/S, G)` is also the kernel of `H¹_ét(S, G) → H¹_ét(S', G_{S'})`.
+that when `S' → S` is covering for the étale topology, `H¹(S'/S, G)` is also the kernel of
+`H¹_ét(S, G) → H¹_ét(S', G_{S'})`.
 
 Finally, following Exp. VIII, 4.5, we call "theorem 90" the following assertion: "every principal homogeneous sheaf
 under `G_{m, S}` is representable and locally trivial", an assertion equivalent to "`H¹(S, G_{m, S}) = Pic(S)`", or
@@ -52,15 +53,15 @@ It is convenient first to make certain definitions of the preceding Exposé more
 `G` of type `R`*, or *`R`-pinning of `G`*, the datum:
 
 (i) of an isomorphism of `D_S(M)` onto a maximal torus `T` of `G` (or, what amounts to the same, of a monomorphism
-`D_S(M) → G` whose image is a maximal torus `T` of `G`), identifying `R` with a root system of `G` relative to `T`
-(Exp. XIX, 3.6) and `R*` with the corresponding set of coroots,
+`D_S(M) → G` whose image is a maximal torus `T` of `G`), identifying `R` with a root system of `G` relative to `T` (Exp.
+XIX, 3.6) and `R*` with the corresponding set of coroots,
 
 <!-- original page 217 -->
 
 (ii) for each `α ∈ Δ`, of an `X_α ∈ Γ(S, g_α)^×`.
 
-For `G` to possess an `R`-pinning, it is necessary and sufficient that it be splittable and of type `R`
-(Exp. XXII, 2.7).
+For `G` to possess an `R`-pinning, it is necessary and sufficient that it be splittable and of type `R` (Exp. XXII,
+2.7).
 
 If `u : G → G'` is an isomorphism of `S`-reductive groups, to every `R`-pinning `E` of `G` there corresponds by
 "transport of structure" an `R`-pinning `u(E)` of `G'`. If `v : R' → R` is an isomorphism of pinned root data, to every
@@ -87,9 +88,9 @@ One has an obvious contravariant functor
 ```
 
 and the principal result of the preceding Exposé (Exp. XXIII, 4.1) shows us that this is a fully faithful functor (we
-shall moreover see in the next Exposé that it is an equivalence of categories). It follows in particular that the
-group of automorphisms of `(G, R, E)` is canonically isomorphic to the group of automorphisms of the pinned root datum
-`R` (cf. Exp. XXIII, 5.5).
+shall moreover see in the next Exposé that it is an equivalence of categories). It follows in particular that the group
+of automorphisms of `(G, R, E)` is canonically isomorphic to the group of automorphisms of the pinned root datum `R`
+(cf. Exp. XXIII, 5.5).
 
 ### 1.1.
 
@@ -110,10 +111,10 @@ j : G / Centr(G) → Aut_{S-gr.}(G).
 
 The image sheaf of `j` is the sheaf of *inner automorphisms* of `G`; for an automorphism `u` of `G` to be inner, it is
 necessary and sufficient that there exist a covering family `{S_i → S}` and for each `i` a `g_i ∈ G(S_i)` such that
-`int(g_i) = u_{S_i}`. In this case, if `v` is another automorphism of `G`, one sees at once that
-`int(v) u = v u v^{-1}` is the inner automorphism defined by the family `g'_i = v(g_i)`. It follows that the image of
-`j` is normal in `Aut_{S-gr.}(G)`. The quotient group sheaf, denoted `Autext(G)`, is the sheaf of *outer automorphisms*
-of `G`. One thus has an exact sequence
+`int(g_i) = u_{S_i}`. In this case, if `v` is another automorphism of `G`, one sees at once that `int(v) u = v u v^{-1}`
+is the inner automorphism defined by the family `g'_i = v(g_i)`. It follows that the image of `j` is normal in
+`Aut_{S-gr.}(G)`. The quotient group sheaf, denoted `Autext(G)`, is the sheaf of *outer automorphisms* of `G`. One thus
+has an exact sequence
 
 ```text
 1 → G / Centr(G) → Aut_{S-gr.}(G) → Autext(G) → 1.
@@ -184,23 +185,24 @@ p ∘ a : E_S → Autext(G)
 
 Let us first show how the theorem follows from the following lemma:
 
-**Lemma 1.4.** *Under the hypotheses of (iii), `Aut_{S-gr.}(G)` is the semi-direct product `a(E_S) · ad(G)`.*[^N.D.E-XXIV-3]
+**Lemma 1.4.** *Under the hypotheses of (iii), `Aut_{S-gr.}(G)` is the semi-direct product
+`a(E_S) · ad(G)`.*[^N.D.E-XXIV-3]
 
 <!-- label: III.XXIV.1.4 -->
 
-The lemma immediately implies the theorem when `G` is splittable. Since `G` is locally splittable for the étale
-topology (Exp. XXII, 2.3), hence also for the (fppf) topology, and since the latter is "of effective descent" for the
-fibered category of twisted constant morphisms (Exp. X, 5.5), one deduces (ii) in the general case (cf. Exp. IV,
-4.6.8). To deduce (i), one notes that `ad(G)` is affine over `S`, hence the morphism `p` is affine when
-`Aut_{S-gr.}(G)` is representable, and one concludes by descent of affine schemes.[^N.D.E-XXIV-4]
+The lemma immediately implies the theorem when `G` is splittable. Since `G` is locally splittable for the étale topology
+(Exp. XXII, 2.3), hence also for the (fppf) topology, and since the latter is "of effective descent" for the fibered
+category of twisted constant morphisms (Exp. X, 5.5), one deduces (ii) in the general case (cf. Exp. IV, 4.6.8). To
+deduce (i), one notes that `ad(G)` is affine over `S`, hence the morphism `p` is affine when `Aut_{S-gr.}(G)` is
+representable, and one concludes by descent of affine schemes.[^N.D.E-XXIV-4]
 
 <!-- original page 220 -->
 
 It therefore remains only to prove 1.4. For this, it suffices to prove:
 
 **Lemma 1.5.** *If `(R, E)` and `(R', E')` are two pinnings of the `S`-reductive group `G`, there exists a unique inner
-automorphism `u` of `G` over `S` transforming one pinning into the other (i.e. such that there exists `v : R' ⥲ R`
-with `u(E) = v(E')`, cf. 1.0).*
+automorphism `u` of `G` over `S` transforming one pinning into the other (i.e. such that there exists `v : R' ⥲ R` with
+`u(E) = v(E')`, cf. 1.0).*
 
 <!-- label: III.XXIV.1.5 -->
 
@@ -227,8 +229,8 @@ It suffices to prove this locally for the (fpqc) topology. Let
 
 be the two pinnings. By conjugacy of maximal tori, one may assume `T = T'`. Up to restricting `S`, one may assume that
 the isomorphism `D_S(M) ≃ D_S(M')` comes from an isomorphism `M ≃ M'` carrying `R` onto `R'`, and one is reduced to the
-situation `T = T'`, `M = M'`, `R = R'`. Since the systems of simple roots are conjugate by the Weyl group
-(Exp. XXI, 3.3.7), one may also assume `Δ = Δ'`. There then exists for each `α ∈ Δ` a scalar `z_α ∈ G_m(S)` such that
+situation `T = T'`, `M = M'`, `R = R'`. Since the systems of simple roots are conjugate by the Weyl group (Exp. XXI,
+3.3.7), one may also assume `Δ = Δ'`. There then exists for each `α ∈ Δ` a scalar `z_α ∈ G_m(S)` such that
 `X'_α = z_α X_α`, and it suffices to construct locally for (fpqc) a section `t` of `T` such that `α(t) = z_α` for each
 `α ∈ Δ`. But the morphism `T → (G_{m, S})^Δ` with components `{α, α ∈ Δ}` is the dual of an injection `ℤ^Δ → M`, hence
 faithfully flat, which completes the proof of 1.5.2 and so of 1.3.
@@ -245,14 +247,14 @@ faithfully flat, which completes the proof of 1.5.2 and so of 1.3.
 
 <!-- label: III.XXIV.1.6 -->
 
-Indeed, since `ad(G)` is affine, flat and of finite presentation over `S`, the morphism
-`p : Aut_{S-gr.}(G) → Autext(G)` is affine, faithfully flat and of finite presentation.
+Indeed, since `ad(G)` is affine, flat and of finite presentation over `S`, the morphism `p : Aut_{S-gr.}(G) → Autext(G)`
+is affine, faithfully flat and of finite presentation.
 
 If `Autext(G)` is finite over `S`, it is affine over `S`, hence so is `Aut_{S-gr.}(G)`, which proves (ii) ⇒ (i). If
 `Aut_{S-gr.}(G)` is quasi-compact over `S`, it is of finite presentation over `S` (being in any case locally of finite
-presentation and separated over `S`); by Exp. V, 9.1, `Autext(G)` is then of finite presentation over `S`, hence
-finite, which proves (i) ⇒ (ii). Finally, to prove the equivalence of (ii) and (iii), one may assume `G` split, and
-one is reduced to Exp. XXI, 6.7.8.
+presentation and separated over `S`); by Exp. V, 9.1, `Autext(G)` is then of finite presentation over `S`, hence finite,
+which proves (i) ⇒ (ii). Finally, to prove the equivalence of (ii) and (iii), one may assume `G` split, and one is
+reduced to Exp. XXI, 6.7.8.
 
 **Corollary 1.7.** *Let `S` be a scheme and `G` an `S`-reductive group. Then `Aut_{S-gr.}(G)⁰ ≃ ad(G)`.*
 
@@ -270,8 +272,8 @@ Isom_{S-gr.}(G, H)
 <!-- label: III.XXIV.1.8 -->
 
 Indeed, let `U` be the set of points `s` of `S` such that `H_s` is reductive; this is open (Exp. XIX, 2.6); if `S'` is
-an `S`-scheme, `H_{S'}` is reductive if and only if `S' → S` factors through `U`. It follows that the canonical
-morphism `Isom_{S-gr.}(G, H) → S` factors through `U`. One may therefore assume `S = U` and one is reduced to:
+an `S`-scheme, `H_{S'}` is reductive if and only if `S' → S` factors through `U`. It follows that the canonical morphism
+`Isom_{S-gr.}(G, H) → S` factors through `U`. One may therefore assume `S = U` and one is reduced to:
 
 <!-- original page 222 -->
 
@@ -321,9 +323,9 @@ Isomext(G, G') ≃ Isomext(G', G).
 
 <!-- original page 223 -->
 
-**Remark 1.11.** If `Isomext(G, G')(S) ≠ ∅`, one says that `G` is an *inner twisted form* of `G'`; then `G'` is an
-inner twisted form of `G`; one can then reduce the structure group of `Isom_{S-gr.}(G, G')` to `ad(G)`. More
-precisely, let `u ∈ Isomext(G, G')(S)`, considered as a section `u : S → Isomext(G, G')`. Write
+**Remark 1.11.** If `Isomext(G, G')(S) ≠ ∅`, one says that `G` is an *inner twisted form* of `G'`; then `G'` is an inner
+twisted form of `G`; one can then reduce the structure group of `Isom_{S-gr.}(G, G')` to `ad(G)`. More precisely, let
+`u ∈ Isomext(G, G')(S)`, considered as a section `u : S → Isomext(G, G')`. Write
 
 ```text
 Isomint_u(G, G')
@@ -339,9 +341,8 @@ structure of principal homogeneous bundle; by extension of the structure group[^
 By Hensel's lemma (Exp. XI, 1.11), 1.8 gives at once:
 
 **Corollary 1.12.** *Let `S` be a henselian local scheme, `G` an `S`-reductive group, `G'` a smooth affine `S`-group
-with connected fibers, `s` the closed point of `S`. If `G_s` and `G'_s` are isomorphic `κ(s)`-algebraic groups, then
-`G` and `G'` are isomorphic. More precisely, every `κ(s)`-isomorphism `G_s ≃ G'_s` comes from an `S`-isomorphism
-`G ≃ G'`.*
+with connected fibers, `s` the closed point of `S`. If `G_s` and `G'_s` are isomorphic `κ(s)`-algebraic groups, then `G`
+and `G'` are isomorphic. More precisely, every `κ(s)`-isomorphism `G_s ≃ G'_s` comes from an `S`-isomorphism `G ≃ G'`.*
 
 <!-- label: III.XXIV.1.12 -->
 
@@ -362,8 +363,8 @@ most cases of the classification by Chevalley.
 <!-- original page 224 -->
 
 (ii) In fact, the conjunction of 1.13 and the uniqueness theorem over an algebraically closed field is essentially
-equivalent to the uniqueness theorem. A direct proof of 1.13 would therefore give a way to deduce the general
-uniqueness theorem from Chevalley's uniqueness theorem over a field.
+equivalent to the uniqueness theorem. A direct proof of 1.13 would therefore give a way to deduce the general uniqueness
+theorem from Chevalley's uniqueness theorem over a field.
 
 The existence of reductive groups of all types over all schemes (Exp. XXV) shows that the obstructions to lifting a
 `k`-reductive group `G` over Artinian rings with residue field `k` (which by Exp. III, 3.8 are elements of
@@ -387,9 +388,9 @@ H¹(G, k) = H²(G, k) = 0.
 
 <!-- label: III.XXIV.1.15 -->
 
-[^N.D.E-XXIV-8] Since `Hⁱ(G_{k̄}, k̄) = Hⁱ(G, k) ⊗ k̄`, one may assume `k` algebraically closed. An element of `H¹(G, k)`
-is nothing but a morphism of `k`-groups `φ : G → G_{a, k}`. Then `φ(G) = G / Ker(φ)` is a smooth, connected and
-reductive subgroup (cf. XIX 1.7) of `G_{a, k}`, hence trivial. So `H¹(G, k) = 0`.
+[^N.D.E-XXIV-8] Since `Hⁱ(G_{k̄}, k̄) = Hⁱ(G, k) ⊗ k̄`, one may assume `k` algebraically closed. An element of
+`H¹(G, k)` is nothing but a morphism of `k`-groups `φ : G → G_{a, k}`. Then `φ(G) = G / Ker(φ)` is a smooth, connected
+and reductive subgroup (cf. XIX 1.7) of `G_{a, k}`, hence trivial. So `H¹(G, k) = 0`.
 
 <!-- original page 225 -->
 
@@ -465,8 +466,8 @@ as `G` at every point of `S`).*
 G' ↦ Isom_{S-gr.}(G, G')
 ```
 
-*is an equivalence between the category of forms of `G` over `S` and the category of principal homogeneous bundles
-under `Aut_{S-gr.}(G)`.*
+*is an equivalence between the category of forms of `G` over `S` and the category of principal homogeneous bundles under
+`Aut_{S-gr.}(G)`.*
 
 <!-- original page 226 -->
 
@@ -500,8 +501,8 @@ H¹(S, Aut_{S-gr.}(G)) = H¹_ét(S, Aut_{S-gr.}(G)) = Fib(S, Aut_{S-gr.}(G)).
 A_S(R) = Aut_{S-gr.}(Ép_S(R)) = ad(Ép_S(R)) · E(R)_S.
 ```
 
-*(i) The set of isomorphism classes of `S`-reductive groups of type `R` (Exp. XXII, 2.7) is isomorphic (by
-Exp. XXIII, 5.12) to*
+*(i) The set of isomorphism classes of `S`-reductive groups of type `R` (Exp. XXII, 2.7) is isomorphic (by Exp. XXIII,
+5.12) to*
 
 ```text
 H¹(S, A_S(R)) = H¹_ét(S, A_S(R)) = Fib(S, A_S(R)).
@@ -512,8 +513,8 @@ to `H¹(S'/S, A_S(R))`.*
 
 <!-- label: III.XXIV.1.19 -->
 
-**Remark 1.20.** With the preceding notation, to every `S`-reductive group of type `R` is canonically associated a
-right principal homogeneous bundle under `A_S(R)`:
+**Remark 1.20.** With the preceding notation, to every `S`-reductive group of type `R` is canonically associated a right
+principal homogeneous bundle under `A_S(R)`:
 
 ```text
 Isom_{S-gr.}(Ép_S(R), G) = P.
@@ -548,9 +549,9 @@ canonical map
 Fib(S, H) → Fib(κ(s), H_s)
 ```
 
-is bijective (and that every element of `Fib(S, H)` has the property indicated above). Now, every finite part of `H`
-is contained in an affine open set (it is indeed trivial for a constant group, and `H` is affine above a constant
-group); one may therefore use the result proved in the appendix (8.1).
+is bijective (and that every element of `Fib(S, H)` has the property indicated above). Now, every finite part of `H` is
+contained in an affine open set (it is indeed trivial for a constant group, and `H` is affine above a constant group);
+one may therefore use the result proved in the appendix (8.1).
 
 ## 2. Automorphisms and subgroups
 
@@ -564,9 +565,10 @@ Let us introduce a notation: if `H = Aut_{S-gr.}(G)`, and if `X` is a subfunctor
 Aut_{S-gr.}(G, X) = Norm_H(X),    Aut_{S-gr.}(G, id_X) = Centr_H(X).
 ```
 
-If `Y` is a second subfunctor of `G`, one defines similarly `Aut_{S-gr.}(G, X, Y) = Aut_{S-gr.}(G, X) ∩ Aut_{S-gr.}(G, Y)`,
-and if `G'` is a second `S`-group and `X'` a subfunctor of `G'`, one writes `Isom_{S-gr.}(G, X; G', X')` for the
-subfunctor of `Isom_{S-gr.}(G, G')` defined by: for every `S' → S`,
+If `Y` is a second subfunctor of `G`, one defines similarly
+`Aut_{S-gr.}(G, X, Y) = Aut_{S-gr.}(G, X) ∩ Aut_{S-gr.}(G, Y)`, and if `G'` is a second `S`-group and `X'` a subfunctor
+of `G'`, one writes `Isom_{S-gr.}(G, X; G', X')` for the subfunctor of `Isom_{S-gr.}(G, G')` defined by: for every
+`S' → S`,
 
 ```text
 Isom_{S-gr.}(G, X; G', X')(S') = { u ∈ Isom_{S-gr.}(G, G')(S') | u(X_{S'}) = X'_{S'} }
@@ -575,8 +577,8 @@ Isom_{S-gr.}(G, X; G', X')(S') = { u ∈ Isom_{S-gr.}(G, G')(S') | u(X_{S'}) = X
 and one defines similarly `Isom_{S-gr.}(G, X, Y; G', X', Y')`, etc.[^N.D.E-XXIV-11]
 
 **Proposition 2.1.** *Let `S` be a scheme, `G` an `S`-reductive group, `T` a maximal torus of `G` (resp. `B` a Borel
-subgroup of `G`, resp. `B ⊃ T` a Killing couple of `G`). Write `T_ad` (resp. `B_ad`) for the maximal torus
-(resp. Borel subgroup) of `ad(G)` corresponding to `T` (resp. `B`):*
+subgroup of `G`, resp. `B ⊃ T` a Killing couple of `G`). Write `T_ad` (resp. `B_ad`) for the maximal torus (resp. Borel
+subgroup) of `ad(G)` corresponding to `T` (resp. `B`):*
 
 ```text
 B_ad ≃ B / Centr(G) = B / Centr(B),
@@ -669,8 +671,8 @@ H¹(S, H) = H¹_ét(S, H) = Fib(S, H).
 
 <!-- label: III.XXIV.2.3 -->
 
-**Remark 2.4.** Under the conditions of 2.2, the morphism noted set-theoretically `u ↦ u(T)` (resp. `u ↦ u(B)`,
-resp. `u ↦ (u(B), u(T))`) induces an isomorphism
+**Remark 2.4.** Under the conditions of 2.2, the morphism noted set-theoretically `u ↦ u(T)` (resp. `u ↦ u(B)`, resp.
+`u ↦ (u(B), u(T))`) induces an isomorphism
 
 ```text
 Isom_{S-gr.}(G, G') / Aut_{S-gr.}(G, T) ≃ Tor(G')
@@ -684,21 +686,21 @@ resp.    Isom_{S-gr.}(G, G') / Aut_{S-gr.}(G, B) ≃ Bor(G'),
 resp.    Isom_{S-gr.}(G, G') / Aut_{S-gr.}(G, B, T) ≃ Kil(G').
 ```
 
-The proof is immediate: it suffices to do it locally for (fpqc), so one may assume `G ≃ G'`, and one is reduced to
-Exp. XXII, 5.8.3 (iii).
+The proof is immediate: it suffices to do it locally for (fpqc), so one may assume `G ≃ G'`, and one is reduced to Exp.
+XXII, 5.8.3 (iii).
 
 <!-- label: III.XXIV.2.4 -->
 
-**Remark 2.5.** The preceding results are at once interpreted in terms of restriction of the structure group: if `G'`
-is a form of `G`, corresponding to the principal bundle `Isom_{S-gr.}(G, G')`, to give a restriction of the structure
-group of this bundle to `Aut_{S-gr.}(G, T)` amounts to giving a maximal torus `T'` of `G'`, the bijections suggested
-above being that of 2.4 on the one hand, the map `T' ↦ Isom_{S-gr.}(G, T; G', T')` on the other. Similarly for Borel
-subgroups and Killing couples.
+**Remark 2.5.** The preceding results are at once interpreted in terms of restriction of the structure group: if `G'` is
+a form of `G`, corresponding to the principal bundle `Isom_{S-gr.}(G, G')`, to give a restriction of the structure group
+of this bundle to `Aut_{S-gr.}(G, T)` amounts to giving a maximal torus `T'` of `G'`, the bijections suggested above
+being that of 2.4 on the one hand, the map `T' ↦ Isom_{S-gr.}(G, T; G', T')` on the other. Similarly for Borel subgroups
+and Killing couples.
 
 <!-- label: III.XXIV.2.5 -->
 
-**Proposition 2.6.** *Let `S` be a scheme, `G` and `G'` two `S`-reductive groups of the same type at each point,
-`T` (resp. `T'`) a maximal torus of `G` (resp. `G'`). Then `T_ad` operates freely on `Isom_{S-gr.}(G, T; G', T')`, the
+**Proposition 2.6.** *Let `S` be a scheme, `G` and `G'` two `S`-reductive groups of the same type at each point, `T`
+(resp. `T'`) a maximal torus of `G` (resp. `G'`). Then `T_ad` operates freely on `Isom_{S-gr.}(G, T; G', T')`, the
 quotient*
 
 ```text
@@ -718,26 +720,26 @@ associated to `P` is none other than `T'`.[^N.D.E-XXIV-13]*
 <!-- label: III.XXIV.2.6 -->
 
 The first part of the proposition follows at once from the preceding results. To prove the second, one notes that there
-is an obvious morphism `P ×_S T → T'` (defined by `(u, t) ↦ u(t)`); to show that after passage to the quotient by `A`
-it induces an isomorphism, one may once again assume `(G, T) ≃ (G', T')`, in which case it is immediate.
+is an obvious morphism `P ×_S T → T'` (defined by `(u, t) ↦ u(t)`); to show that after passage to the quotient by `A` it
+induces an isomorphism, one may once again assume `(G, T) ≃ (G', T')`, in which case it is immediate.
 
 In an entirely analogous way, one has:
 
-**Proposition 2.7.** *Let `S` be a scheme, `G` and `G'` two `S`-reductive groups of the same type at each point,
-`B ⊃ T` (resp. `B' ⊃ T'`) a Killing couple of `G` (resp. `G'`). If one makes `Aut_{S-gr.}(G, B, T) / T_ad ≃ Autext(G)`
-operate in the obvious way on `T`, the bundle associated to `Isomext(G, G')` is none other than `T'`.*
+**Proposition 2.7.** *Let `S` be a scheme, `G` and `G'` two `S`-reductive groups of the same type at each point, `B ⊃ T`
+(resp. `B' ⊃ T'`) a Killing couple of `G` (resp. `G'`). If one makes `Aut_{S-gr.}(G, B, T) / T_ad ≃ Autext(G)` operate
+in the obvious way on `T`, the bundle associated to `Isomext(G, G')` is none other than `T'`.*
 
 <!-- label: III.XXIV.2.7 -->
 
-**Corollary 2.8.** *Let `G` and `G'` be two `S`-reductive groups that are inner twisted forms of each other; let
-`B ⊃ T` (resp. `B' ⊃ T'`) be a Killing couple of `G` (resp. `G'`). Then `T` and `T'` are isomorphic.[^N.D.E-XXIV-14]*
+**Corollary 2.8.** *Let `G` and `G'` be two `S`-reductive groups that are inner twisted forms of each other; let `B ⊃ T`
+(resp. `B' ⊃ T'`) be a Killing couple of `G` (resp. `G'`). Then `T` and `T'` are isomorphic.[^N.D.E-XXIV-14]*
 
 <!-- label: III.XXIV.2.8 -->
 
 <!-- original page 231 -->
 
-**Remark 2.9.** It is not true in general that `B` and `B'` are isomorphic; they are however inner twisted forms of
-each other (cf. no 5).
+**Remark 2.9.** It is not true in general that `B` and `B'` are isomorphic; they are however inner twisted forms of each
+other (cf. no 5).
 
 <!-- label: III.XXIV.2.9 -->
 
@@ -829,9 +831,9 @@ and `f` is an isomorphism of `rad(G)` onto the radical of `G'`, and the category
 
 <!-- label: III.XXIV.3.1 -->
 
-Recall (Exp. XXI, 7.4.1) that a *Dynkin diagram* is a finite set endowed with the structure defined by a set of pairs
-of distinct elements (*bonds*) and a map to `{1, 2, 3}` (*lengths*). To each pinned reduced root datum `R` is
-associated a Dynkin diagram `Δ(R)`, whose underlying set is the set of simple roots.
+Recall (Exp. XXI, 7.4.1) that a *Dynkin diagram* is a finite set endowed with the structure defined by a set of pairs of
+distinct elements (*bonds*) and a map to `{1, 2, 3}` (*lengths*). To each pinned reduced root datum `R` is associated a
+Dynkin diagram `Δ(R)`, whose underlying set is the set of simple roots.
 
 ### 3.2.
 
@@ -855,13 +857,12 @@ Every descent datum on a Dynkin scheme for the étale topology is effective.
 
 We propose to associate to each `S`-reductive group `G` an `S`-Dynkin scheme. Suppose first that `G` is splittable over
 `S`; for every pinning `E` of `G`, write `Δ(E)` for the constant Dynkin scheme associated to the pinned root datum
-defined by `E`; if `E` and `E'` are two pinnings of `G`, there exists by 1.5 a unique inner automorphism of `G` over
-`S` transforming `E` into `E'`; this automorphism of `G` defines an isomorphism `a_{EE'} : Δ(E) ⥲ Δ(E')`; the
-`a_{EE'}` evidently form a transitive system, so that one may identify the `Δ(E)` (i.e. take the inductive limit); the
-result is a constant Dynkin scheme denoted `Dyn(G)`. If now `G` is an arbitrary `S`-reductive group, there exists a
-covering family for the étale topology `{S_i → S}` such that `G_{S_i}` is splittable. Arguing as previously, one
-therefore has a canonical descent datum on the `Dyn(G_{S_i})`, allowing one to construct by descent an `S`-Dynkin
-scheme `Dyn(G)`.
+defined by `E`; if `E` and `E'` are two pinnings of `G`, there exists by 1.5 a unique inner automorphism of `G` over `S`
+transforming `E` into `E'`; this automorphism of `G` defines an isomorphism `a_{EE'} : Δ(E) ⥲ Δ(E')`; the `a_{EE'}`
+evidently form a transitive system, so that one may identify the `Δ(E)` (i.e. take the inductive limit); the result is a
+constant Dynkin scheme denoted `Dyn(G)`. If now `G` is an arbitrary `S`-reductive group, there exists a covering family
+for the étale topology `{S_i → S}` such that `G_{S_i}` is splittable. Arguing as previously, one therefore has a
+canonical descent datum on the `Dyn(G_{S_i})`, allowing one to construct by descent an `S`-Dynkin scheme `Dyn(G)`.
 
 ### 3.4.
 
@@ -943,8 +944,8 @@ A_S(R) = Aut_{S-gr.}(Ép_S(R)) → Aut_{Dyn}(Δ(R)_S).
 ```
 
 The `S`-reductive group `G` corresponds (1.17) to a bundle `Isom_{S-gr.}(Ép_S(R), G)`, principal homogeneous under
-`A_S(R)`. The bundle under `Aut_{Dyn}(Δ(R)_S)` associated corresponds to a form on `S` of `Δ(R)_S`: this is `Dyn(G)`;
-in other words, this associated bundle is none other than `Isom_{Dyn}(Δ(R)_S, Dyn(G))`. In this last form, the proof is
+`A_S(R)`. The bundle under `Aut_{Dyn}(Δ(R)_S)` associated corresponds to a form on `S` of `Δ(R)_S`: this is `Dyn(G)`; in
+other words, this associated bundle is none other than `Isom_{Dyn}(Δ(R)_S, Dyn(G))`. In this last form, the proof is
 immediate.
 
 ### 3.8. Dynkin scheme and Killing couples.
@@ -958,8 +959,8 @@ i : Dyn(G) → Hom_{S-gr.}(T, G_{m, S})
 ```
 
 which identifies `Dyn(G)` with the "scheme of simple roots of `B` relative to `T`"; this morphism is defined at once by
-descent from the pinned case. Note moreover that the datum of `T` and of `i` allows one to reconstruct `B`
-("biunivocal correspondence between systems of simple roots and systems of positive roots").
+descent from the pinned case. Note moreover that the datum of `T` and of `i` allows one to reconstruct `B` ("biunivocal
+correspondence between systems of simple roots and systems of positive roots").
 
 It follows from the preceding description of `D = Dyn(G)` that there exists a canonical root of `B_D` with respect to
 `T_D`: this root `α_D` is the image under `i(D)` of the identity morphism of `D`. One thereby deduces a canonical
@@ -989,27 +990,26 @@ If `G` is an `S`-reductive group, we call *quasi-pinning of `G`* the datum:
 
 (ii) of a section `X ∈ Γ(Dyn(G), g_D)^×`.
 
-We say that an `S`-reductive group is *quasi-splittable* if it possesses a quasi-pinning. We call *quasi-pinned group*
-a reductive group equipped with a quasi-pinning.
+We say that an `S`-reductive group is *quasi-splittable* if it possesses a quasi-pinning. We call *quasi-pinned group* a
+reductive group equipped with a quasi-pinning.
 
 Let `B ⊃ T` be a Killing couple of the `S`-reductive group `G`; then `G` is quasi-pinnable relative to this Killing
-couple if and only if `g_D` possesses a non-zero section at every point, i.e. if the element of `Pic(Dyn(G))` defined
-by `g_D` is zero. Suppose in particular that `S` is semi-local; then `Dyn(G)` is also semi-local, so
-`Pic(Dyn(G)) = 0`. One deduces:
+couple if and only if `g_D` possesses a non-zero section at every point, i.e. if the element of `Pic(Dyn(G))` defined by
+`g_D` is zero. Suppose in particular that `S` is semi-local; then `Dyn(G)` is also semi-local, so `Pic(Dyn(G)) = 0`. One
+deduces:
 
 **Proposition 3.9.1.** *Let `S` be a semi-local scheme, `G` an `S`-reductive group. For `G` to be quasi-splittable, it
 is necessary and sufficient that it possess a Borel subgroup.*
 
 <!-- label: III.XXIV.3.9.1 -->
 
-[^N.D.E-XXIV-17] Indeed, `S` is affine so, by the first assertion of Exp. XXII, 5.9.7, if `G` possesses a Borel
-subgroup `B`, it also possesses a Killing couple `B ⊃ T`. Then, since `Pic(D) = 0`, `g_D` possesses a section `X`
-nowhere zero.
+[^N.D.E-XXIV-17] Indeed, `S` is affine so, by the first assertion of Exp. XXII, 5.9.7, if `G` possesses a Borel subgroup
+`B`, it also possesses a Killing couple `B ⊃ T`. Then, since `Pic(D) = 0`, `g_D` possesses a section `X` nowhere zero.
 
 Let still `A` be a semi-local ring and `S = Spec(A)`; remark now that for every `S`-reductive group `G` the morphism
-`Bor(G) → S` is surjective (since `G_s` possesses Borel subgroups, for every `s ∈ S`) and smooth and projective
-(Exp. XXII, 5.8.3), so it possesses sections after a finite surjective étale extension of the base.[^N.D.E-XXIV-18]
-One deduces:
+`Bor(G) → S` is surjective (since `G_s` possesses Borel subgroups, for every `s ∈ S`) and smooth and projective (Exp.
+XXII, 5.8.3), so it possesses sections after a finite surjective étale extension of the base.[^N.D.E-XXIV-18] One
+deduces:
 
 **Corollary 3.9.2.** *Let `S` be a semi-local scheme, `G` an `S`-reductive group. There exists an étale, finite and
 surjective morphism `S' → S` such that `G_{S'}` is quasi-splittable.*
@@ -1053,8 +1053,8 @@ of `Isom_{S-gr.}(G, G')`; the projection of `Isom_{S-gr.}(G, G')` onto `Isomext(
 (*)    Isom_{S-gr. q-ép.}(G, G') ⥲ Isomext(G, G').
 ```
 
-**Theorem 3.11.** *Let `S` be a scheme, `R` a pinned reduced root datum such that `Ép_S(R)` exists (cf. Exp. XXV),
-`E` the group of its automorphisms. Consider the three following categories:*
+**Theorem 3.11.** *Let `S` be a scheme, `R` a pinned reduced root datum such that `Ép_S(R)` exists (cf. Exp. XXV), `E`
+the group of its automorphisms. Consider the three following categories:*
 
 *(i) The category `Rev` of principal Galois coverings of `S` with group `E` (the morphisms are isomorphisms of
 `E`-bundles).*
@@ -1089,8 +1089,8 @@ It is the obvious functor: `i(G) = G`, `i(f) =` image of `f` under the isomorphi
 #### 3.11.2. The functor `qép`.
 
 Let `S'` be a principal Galois covering of `S` with group `E`. Let `(G, T, M, R, Δ, (X_α)_{α ∈ Δ})` be a pinning of
-`G = Ép_S(R)` and `(X'_α)_{α ∈ Δ}` the corresponding pinning of `G' = G_{S'} = Ép_{S'}(R)`. By Exp. XXIII 5.5 bis,
-there exists a unique morphism of groups
+`G = Ép_S(R)` and `(X'_α)_{α ∈ Δ}` the corresponding pinning of `G' = G_{S'} = Ép_{S'}(R)`. By Exp. XXIII 5.5 bis, there
+exists a unique morphism of groups
 
 ```text
 θ : E → Aut_{S-gr.}(Ép_S(R)) = A(R)(S)
@@ -1099,9 +1099,9 @@ there exists a unique morphism of groups
 <!-- original page 237 -->
 
 such that, for every `h ∈ E`, `θ(h)` induces `D_S(h)` on `T` and `Lie(θ(h))(X_α) = X_{h(α)}` for every `α ∈ Δ`. Taking
-into account the action of `E` on `S'`, one thereby obtains an action of `E` on `G'`, compatible with the action of
-`E` on `S'` and respecting the canonical quasi-pinning of `G'`.[^N.D.E-XXIV-20] Since `S' → S` is covering for the
-(fpqc) topology, it is an effective descent morphism for the fibered category of affine morphisms, and one writes
+into account the action of `E` on `S'`, one thereby obtains an action of `E` on `G'`, compatible with the action of `E`
+on `S'` and respecting the canonical quasi-pinning of `G'`.[^N.D.E-XXIV-20] Since `S' → S` is covering for the (fpqc)
+topology, it is an effective descent morphism for the fibered category of affine morphisms, and one writes
 
 ```text
 qép(S') = Q-Ép_{S'/S}(R)
@@ -1141,8 +1141,8 @@ the equality `v ∘ int(g) ∘ u ∘ int(g_0) = v ∘ u ∘ int(u^{-1}(g) g_0)`.
 Isomext(G, G')(S) → Hom_{Rev}( Isomext(Ép_S(R), G), Isomext(Ép_S(R), G') )
 ```
 
-and to show that this is a bijection, one may assume by (fpqc) descent that `G` and `G'` are pinned, in which case it
-is evident.
+and to show that this is a bijection, one may assume by (fpqc) descent that `G` and `G'` are pinned, in which case it is
+evident.
 
 <!-- original page 238 -->
 
@@ -1153,8 +1153,8 @@ obtained by twisting `Ép_S(R)` by the `E`-torsor `S_i` (cf. N.D.E. (21)), one h
 Hom_{Rev}(S_1, S_2) → Hom_{Qép}(S_1 ×^E Ép_S(R), S_2 ×^E Ép_S(R)),
 ```
 
-and to show that this is a bijection, one may assume by (fpqc) descent that `S_1` and `S_2` are trivial `E`-bundles,
-in which case it is evident.
+and to show that this is a bijection, one may assume by (fpqc) descent that `S_1` and `S_2` are trivial `E`-bundles, in
+which case it is evident.
 
 Thus the three functors of the diagram are fully faithful. Moreover, for every object `S'` of `Rev`, one has a natural
 morphism
@@ -1175,8 +1175,8 @@ Isomext(Q-Ép_{rev(H)/S}(R), H)(S) ≃ Aut_{Rev}(rev(H))
 
 functorial in `H`. In particular, the identity morphism of `rev(H)` corresponds to a "canonical" element `u_0` of
 `Isomext(Q-Ép_{rev(H)/S}(R), H)(S)`; moreover, every `u ∈ Isomext(Q-Ép_{rev(H)/S}(R), H)(S)` corresponds to an
-automorphism `φ_u` of `rev(H)`, and `qép(φ_u)` is the unique automorphism of pinned `S`-group of
-`Q-Ép_{rev(H)/S}(R)` such that `u_0 ∘ qép(φ_u) = u`. We have thus proved theorem 3.11.
+automorphism `φ_u` of `rev(H)`, and `qép(φ_u)` is the unique automorphism of pinned `S`-group of `Q-Ép_{rev(H)/S}(R)`
+such that `u_0 ∘ qép(φ_u) = u`. We have thus proved theorem 3.11.
 
 Let us develop one of the corollaries of 3.11:
 
@@ -1287,9 +1287,9 @@ H¹(S, T_ad) ⥲ Pic(Dyn(G))
 of 3.14, the class of the bundle `P` is transformed into `cℓ(g'^D) − cℓ(g_D)`. The bundle `P` is therefore trivial if
 and only if `g'^D` and `g_D` are isomorphic.
 
-If `(G, B, T)` is quasi-splittable, for example if one takes for `G` the group `G'_{q-ép.}`, with its canonical
-Killing couple, it follows that the image of the class of `P` is none other than the obstruction to the quasi-splitting
-of `G'` defined in 3.9.
+If `(G, B, T)` is quasi-splittable, for example if one takes for `G` the group `G'_{q-ép.}`, with its canonical Killing
+couple, it follows that the image of the class of `P` is none other than the obstruction to the quasi-splitting of `G'`
+defined in 3.9.
 
 ### 3.16. Symmetries
 
@@ -1299,14 +1299,14 @@ of `G'` defined in 3.9.
 
 <!-- label: III.XXIV.3.16.1 -->
 
-Let `S` be a scheme, `G` an `S`-reductive group, `B ⊃ T` a Killing couple of `G`. Write `D = Dyn(G)`. Recall
-(Exp. XXII, 5.9.1) that there exists a unique Borel subgroup `B^-` of `G` such that `B ∩ B^- = T`. If
-`X ∈ Γ(D, g_D)^×` defines a quasi-pinning of `G` relative to `(B, T)` (3.9), then `Y = −X^{-1} ∈ Γ(D, (g_D)^∨)^×`
-defines a quasi-pinning of `G` relative to `(B^-, T)`; one says that this is the *opposite quasi-pinning*.
+Let `S` be a scheme, `G` an `S`-reductive group, `B ⊃ T` a Killing couple of `G`. Write `D = Dyn(G)`. Recall (Exp. XXII,
+5.9.1) that there exists a unique Borel subgroup `B^-` of `G` such that `B ∩ B^- = T`. If `X ∈ Γ(D, g_D)^×` defines a
+quasi-pinning of `G` relative to `(B, T)` (3.9), then `Y = −X^{-1} ∈ Γ(D, (g_D)^∨)^×` defines a quasi-pinning of `G`
+relative to `(B^-, T)`; one says that this is the *opposite quasi-pinning*.
 
 If `R` is a pinned reduced root datum and if `E` is an `R`-pinning of the `S`-reductive group `G`, one defines an
-`R`-pinning `E^-` said to be *opposite to `E`* in the following way: one keeps the same maximal torus `T`, one takes
-the opposite of the isomorphism `D_S(M) ⥲ T`, and one "pins" by `Y_α = −X_α^{-1} ∈ Γ(S, g^{-α})^×`, for `α ∈ Δ`. The
+`R`-pinning `E^-` said to be *opposite to `E`* in the following way: one keeps the same maximal torus `T`, one takes the
+opposite of the isomorphism `D_S(M) ⥲ T`, and one "pins" by `Y_α = −X_α^{-1} ∈ Γ(S, g^{-α})^×`, for `α ∈ Δ`. The
 quasi-pinning underlying `E^-` is the quasi-pinning opposite to the quasi-pinning underlying `E`.
 
 **Remark.** In the notation of Exp. XIX, 3.1, if one sets
@@ -1358,8 +1358,8 @@ u_E ∈ Aut_{S-gr.}(G, T) ⊂ Aut_{S-gr.}(G)
 <!-- label: III.XXIV.3.16.2 -->
 
 *Proof.* (ii) follows from Exp. XXII, 5.5.5 (ii), then (iii) follows from 3.10, and (iv) follows from Exp. XXIII, 4.1.
-Finally to prove (i), one may assume `G` pinned. Existence follows from (iv) for example, uniqueness from the fact
-that an automorphism of `G` inducing the identity on `T` is given by a section of `T_ad` (2.11).
+Finally to prove (i), one may assume `G` pinned. Existence follows from (iv) for example, uniqueness from the fact that
+an automorphism of `G` inducing the identity on `T` is given by a section of `T_ad` (2.11).
 
 **Corollary 3.16.3.** *One has*
 
@@ -1371,8 +1371,8 @@ i_T² = w_{B, T}² = n_Q² = u_E² = e.
 
 <!-- label: III.XXIV.3.16.3 -->
 
-**Corollary 3.16.4.** *In the situation of (iii) (resp. (iv)), `n_Q` projects onto `w_{B, T}` (resp. `u_E` projects
-onto `i_T`) by the canonical morphism*
+**Corollary 3.16.4.** *In the situation of (iii) (resp. (iv)), `n_Q` projects onto `w_{B, T}` (resp. `u_E` projects onto
+`i_T`) by the canonical morphism*
 
 ```text
 Norm_{ad(G)}(T_ad) → W_{ad(G)}(T_ad) ≃ W_G(T),
@@ -1416,8 +1416,8 @@ has*
 w_{B, T} i_T = i_T w_{B, T} = s_G.
 ```
 
-*(iv) Under the conditions of 3.16.2 (iv), if one identifies `Aut_{S-gr.-ép}(G, R, E)` with `Autext(G)` (1.3 (iii)),
-one has*
+*(iv) Under the conditions of 3.16.2 (iv), if one identifies `Aut_{S-gr.-ép}(G, R, E)` with `Autext(G)` (1.3 (iii)), one
+has*
 
 ```text
 n_E u_E = u_E n_E = s_G.
@@ -1427,14 +1427,14 @@ n_E u_E = u_E n_E = s_G.
 
 *Proof.* (i) is proved without difficulty by descent. On the other hand, since `i_T` is evidently a central section of
 square `e` in `Aut_{S-gr.}(T)`, (ii) follows immediately; (iii) is a consequence of (iv) by descent. Finally, under the
-conditions of (iv), it is clear that `n_E u_E = u_E n_E` and that this automorphism of `G` respects the pinning;
-modulo the identification made, it is therefore equal to its image in `Autext(G)`; but `n_E` is inner and `u_E`
-projects onto `s_G`.
+conditions of (iv), it is clear that `n_E u_E = u_E n_E` and that this automorphism of `G` respects the pinning; modulo
+the identification made, it is therefore equal to its image in `Autext(G)`; but `n_E` is inner and `u_E` projects onto
+`s_G`.
 
 **Remark 3.16.7.** (i) One determines `s_G` explicitly in each case of the classification thanks to (iii): for each
-irreducible pinned root datum it suffices to compose the symmetry through the origin with the symmetry in the Weyl
-group (i.e. the element `w_0` of the Weyl group such that `w_0(Δ) = −Δ`). One finds the following results: one has
-`s_G = e` except for `A_n` (`n ⩾ 2`), `D_n` (`n` odd) and `E_6`, in which case `s_G` is the unique non-trivial "outer
+irreducible pinned root datum it suffices to compose the symmetry through the origin with the symmetry in the Weyl group
+(i.e. the element `w_0` of the Weyl group such that `w_0(Δ) = −Δ`). One finds the following results: one has `s_G = e`
+except for `A_n` (`n ⩾ 2`), `D_n` (`n` odd) and `E_6`, in which case `s_G` is the unique non-trivial "outer
 automorphism".
 
 (ii) The automorphism `u_E` is the one used to construct "the compact real forms" in the theory of semisimple Lie
@@ -1444,10 +1444,10 @@ algebras.
 
 <!-- original page 243 -->
 
-**Remark 3.16.8.** We defined in 3.16.1 an involution in the `S`-scheme `Q = Isomint(G_{q-ép.}, G)` of quasi-pinnings
-of `G` (cf. 3.12.1); by transport of structure from `G_{q-ép.}` to `G`, one sees at once that this involution is
-given by the action of an element of `ad(G_{q-ép.})(S)`: the element `n_0` defined (3.16.2 (iii)) by the canonical
-quasi-pinning of `G_{q-ép.}`.
+**Remark 3.16.8.** We defined in 3.16.1 an involution in the `S`-scheme `Q = Isomint(G_{q-ép.}, G)` of quasi-pinnings of
+`G` (cf. 3.12.1); by transport of structure from `G_{q-ép.}` to `G`, one sees at once that this involution is given by
+the action of an element of `ad(G_{q-ép.})(S)`: the element `n_0` defined (3.16.2 (iii)) by the canonical quasi-pinning
+of `G_{q-ép.}`.
 
 In the same way, one has defined an involution in the `S`-scheme
 
@@ -1469,16 +1469,16 @@ automorphism `u_0` of `Ép_S(R)` defined (3.16.2 (iv)) by the canonical pinning 
 <!-- label: III.XXIV.4.1 -->
 
 **Definition 4.1.1.** *Let `S` be a scheme, `G` an `S`-group scheme, `P` a principal homogeneous bundle under `G`. One
-says that `P` is* locally isotrivial *(resp.* semi-locally isotrivial*) if for every point `s ∈ S` (resp. every finite
-set `F` of points of `S` contained in an affine open set) there exist an open set `U` of `S` containing `s`
-(resp. `F`) and a finite surjective étale morphism `S' → U` such that `P_{S'}` is trivial.*
+says that `P` is* locally isotrivial *(resp.* semi-locally isotrivial\*) if for every point `s ∈ S` (resp. every finite
+set `F` of points of `S` contained in an affine open set) there exist an open set `U` of `S` containing `s` (resp. `F`)
+and a finite surjective étale morphism `S' → U` such that `P_{S'}` is trivial.\*
 
 <!-- label: III.XXIV.4.1.1 -->
 
 **Definition 4.1.2.** *Let `S` be a scheme, `G` an `S`-reductive group. One says that `G` is* locally isotrivial
-*(resp.* semi-locally isotrivial*) if for every point `s ∈ S` (resp. every finite set `F` of points of `S` contained
-in an affine open set) there exist an open set `U` of `S` containing `s` (resp. `F`) and a finite surjective étale
-morphism `S' → U` such that `G_{S'}` is splittable.*
+*(resp.* semi-locally isotrivial\*) if for every point `s ∈ S` (resp. every finite set `F` of points of `S` contained in
+an affine open set) there exist an open set `U` of `S` containing `s` (resp. `F`) and a finite surjective étale morphism
+`S' → U` such that `G_{S'}` is splittable.\*
 
 <!-- label: III.XXIV.4.1.2 -->
 
@@ -1487,10 +1487,10 @@ isotriviality.
 
 <!-- original page 244 -->
 
-(ii) Add to the conditions of 4.1.1: `G` locally of finite presentation over `S`. Then the principal bundle `P` (or
-the reductive group `G`) is locally isotrivial (resp. semi-locally isotrivial) if and only if for every `S' → S`, `S'`
-local (resp. semi-local), `P_{S'}` is isotrivial (or `G_{S'}` isotrivial), that is to say, if there exists
-`S'' → S'` finite surjective étale such that `P_{S''}` is trivial (or `G_{S''}` split).
+(ii) Add to the conditions of 4.1.1: `G` locally of finite presentation over `S`. Then the principal bundle `P` (or the
+reductive group `G`) is locally isotrivial (resp. semi-locally isotrivial) if and only if for every `S' → S`, `S'` local
+(resp. semi-local), `P_{S'}` is isotrivial (or `G_{S'}` isotrivial), that is to say, if there exists `S'' → S'` finite
+surjective étale such that `P_{S''}` is trivial (or `G_{S''}` split).
 
 (iii) In the case of tori, definition 4.1.2 coincides with that of Exp. IX, 1.1.
 
@@ -1500,11 +1500,11 @@ local (resp. semi-local), `P_{S'}` is isotrivial (or `G_{S'}` isotrivial), that 
 
 <!-- label: III.XXIV.4.1.4 -->
 
-Recall (Exp. XXII, 4.3 and 6.2) that for every reductive group `G`, we have introduced the groups `rad(G)`,
-`corad(G)` and `dér(G)`. The groups `rad(G)` and `corad(G)` are tori, which are split when `G` is split; moreover,
-there exists an isogeny `rad(G) → corad(G)`. The `S`-group `dér(G)` is semisimple, one has `G / dér(G) = corad(G)`; it
-follows that for every principal homogeneous bundle `P` under `G`, `P / dér(G)` is a principal homogeneous bundle
-under `corad(G)`. This said, one has:
+Recall (Exp. XXII, 4.3 and 6.2) that for every reductive group `G`, we have introduced the groups `rad(G)`, `corad(G)`
+and `dér(G)`. The groups `rad(G)` and `corad(G)` are tori, which are split when `G` is split; moreover, there exists an
+isogeny `rad(G) → corad(G)`. The `S`-group `dér(G)` is semisimple, one has `G / dér(G) = corad(G)`; it follows that for
+every principal homogeneous bundle `P` under `G`, `P / dér(G)` is a principal homogeneous bundle under `corad(G)`. This
+said, one has:
 
 **Theorem 4.1.5.** *Let `S` be a scheme, `G` an `S`-reductive group of constant type.*
 
@@ -1528,8 +1528,8 @@ necessary and sufficient that the `corad(G)`-principal bundle `P / dér(G)` be s
 <!-- label: III.XXIV.4.1.5 -->
 
 **Corollary 4.1.6.** *The conditions of (i) are satisfied when `G` is semisimple or when `S` is locally noetherian and
-normal (or more generally geometrically unibranch). The conditions of (ii) are satisfied when `G` is locally
-(resp. semi-locally) isotrivial.*
+normal (or more generally geometrically unibranch). The conditions of (ii) are satisfied when `G` is locally (resp.
+semi-locally) isotrivial.*
 
 <!-- label: III.XXIV.4.1.6 -->
 
@@ -1543,8 +1543,8 @@ suffices to note that by virtue of theorem 90, a principal bundle under a split 
 Let us first prove, for later reference:
 
 **Proposition 4.2.1.** *Let `S` be a scheme, `G` an `S`-reductive group, `T` a maximal torus of `G` (resp. `B` a Borel
-subgroup, resp. `B ⊃ T` a Killing couple of `G`), `P` a principal homogeneous bundle under `G`, `G'` the twisted form
-of `G` associated to `P` (via the morphism `int : G → Aut_{S-gr.}(G)`). One has canonical isomorphisms*
+subgroup, resp. `B ⊃ T` a Killing couple of `G`), `P` a principal homogeneous bundle under `G`, `G'` the twisted form of
+`G` associated to `P` (via the morphism `int : G → Aut_{S-gr.}(G)`). One has canonical isomorphisms*
 
 ```text
 P / Norm_G(T) ⥲ Tor(G'),    P / B ⥲ Bor(G'),    P / T ⥲ Kil(G').
@@ -1554,8 +1554,8 @@ P / Norm_G(T) ⥲ Tor(G'),    P / B ⥲ Bor(G'),    P / T ⥲ Kil(G').
 
 <!-- original page 245 -->
 
-By construction, `G'` is the quotient of `P ×_S G` by a certain action of `G` (`((p, g')) g = (pg, g^{-1} g' g)`);
-one therefore has a morphism `P ×_S G → G'`, that is, a morphism
+By construction, `G'` is the quotient of `P ×_S G` by a certain action of `G` (`((p, g')) g = (pg, g^{-1} g' g)`); one
+therefore has a morphism `P ×_S G → G'`, that is, a morphism
 
 ```text
 P → Hom_S(G, G'),
@@ -1574,9 +1574,9 @@ f : P → Isom_{S-gr.}(G, G'),
 P → Tor(G').
 ```
 
-To verify that this morphism induces an isomorphism `P / Norm_G(T) ⥲ Tor(G')` as announced, one may again assume
-`P = G` in which case one is reduced to Exp. XXII, 5.8.3 (iii). (In fact, *loc. cit.* should be replaced by the
-statement above.) One argues similarly for `Bor` and `Kil`.
+To verify that this morphism induces an isomorphism `P / Norm_G(T) ⥲ Tor(G')` as announced, one may again assume `P = G`
+in which case one is reduced to Exp. XXII, 5.8.3 (iii). (In fact, *loc. cit.* should be replaced by the statement
+above.) One argues similarly for `Bor` and `Kil`.
 
 **Proposition 4.2.2.** *Let `S` be a semi-local scheme, `G` an `S`-semisimple group of constant type.*
 
@@ -1606,16 +1606,16 @@ the structure group of `G` to `T`; but `T` is split, so `H¹(S, T) = 0` (theorem
 
 *an exact sequence of `S`-group schemes (for (fpqc)), `G` being semisimple of constant type. Let `P` be a principal
 homogeneous bundle under `G'`, suppose the sheaf[^N.D.E-XXIV-24] `P / G` associated representable (for example `G''`
-affine over `S`). For `P` to be locally isotrivial (resp. semi-locally isotrivial), it is necessary and sufficient
-that `P / G` be so (as bundle under `G''`).*
+affine over `S`). For `P` to be locally isotrivial (resp. semi-locally isotrivial), it is necessary and sufficient that
+`P / G` be so (as bundle under `G''`).*
 
 <!-- label: III.XXIV.4.2.4 -->
 
 <!-- original page 246 -->
 
-If `P` is trivial, `P / G` is too, which shows that the condition is necessary. Conversely, suppose `S` local
-(resp. semi-local) and `P / G` isotrivial, so trivialized by a finite surjective étale extension `S'` of `S`. Extending
-the base to `S'`, one may reduce the structure group of `P_{S'}` to `G_{S'}`. But `S'` is still semi-local and `G_{S'}`
+If `P` is trivial, `P / G` is too, which shows that the condition is necessary. Conversely, suppose `S` local (resp.
+semi-local) and `P / G` isotrivial, so trivialized by a finite surjective étale extension `S'` of `S`. Extending the
+base to `S'`, one may reduce the structure group of `P_{S'}` to `G_{S'}`. But `S'` is still semi-local and `G_{S'}`
 semisimple of constant type, so the obtained bundle is isotrivial (4.2.2).
 
 ### 4.3. Proof: general case.
@@ -1641,8 +1641,8 @@ One has (c) ⇒ (a). Let `R` be the type of `G`; one has an exact sequence
 1 → ad(Ép_S(R)) → A_S(R) → E_S → 1.
 ```
 
-Applying 4.2.4 to the bundle `P = Isom_{S-gr.}(Ép_S(R), G)` and to the associated bundle
-`rev(G) = P / ad(Ép_S(R))`, one has (c) ⇒ (a).
+Applying 4.2.4 to the bundle `P = Isom_{S-gr.}(Ép_S(R), G)` and to the associated bundle `rev(G) = P / ad(Ép_S(R))`, one
+has (c) ⇒ (a).
 
 #### 4.3.2.
 
@@ -1660,9 +1660,9 @@ principal bundle under `H` is semi-locally isotrivial; this follows at once from
 
 <!-- label: III.XXIV.4.3.3 -->
 
-One has (b') ⇒ (a). One can argue as previously (it will moreover be the same group `H` that arises). One can also
-see that (b) and (b') are equivalent: a torus isogenous to a locally split torus is also locally split
-(cf. Exp. IX, 2.11 (iii)).
+One has (b') ⇒ (a). One can argue as previously (it will moreover be the same group `H` that arises). One can also see
+that (b) and (b') are equivalent: a torus isogenous to a locally split torus is also locally split (cf. Exp. IX, 2.11
+(iii)).
 
 #### 4.3.4.
 
@@ -1690,10 +1690,10 @@ even principal Galois if `G` is of constant type) such that `T_{S'}` is conjugat
 
 <!-- original page 247 -->
 
-Indeed, one knows that `Transp_G(T_0, T)` is a principal homogeneous bundle under `Norm_G(T_0)` (cf. for example
-Exp. XI, 5.4 bis). Set `S' = Transp_G(T_0, T) / T_0`; this is a principal homogeneous bundle under `W_0`. Extending
-the base from `S` to `S'`, one can reduce the structure group of `Transp_G(T_0, T)` to `T_0`. Now `S'` is semi-local
-and `T_0` split, so `Transp_G(T_0, T)` possesses a section over `S'`.[^N.D.E-XXIV-25] QED
+Indeed, one knows that `Transp_G(T_0, T)` is a principal homogeneous bundle under `Norm_G(T_0)` (cf. for example Exp.
+XI, 5.4 bis). Set `S' = Transp_G(T_0, T) / T_0`; this is a principal homogeneous bundle under `W_0`. Extending the base
+from `S` to `S'`, one can reduce the structure group of `Transp_G(T_0, T)` to `T_0`. Now `S'` is semi-local and `T_0`
+split, so `Transp_G(T_0, T)` possesses a section over `S'`.[^N.D.E-XXIV-25] QED
 
 ### 4.4. Use of the existence of maximal tori
 
@@ -1710,9 +1710,9 @@ identified with the group of automorphisms of `R` non-pinned, cf. Exp. XXI, 6.7.
 `W`.*
 
 *(ii) Let `G` be an `S`-reductive group of type `R`; let `rev(G) = Isomext(Ép_S(R), G)` be the associated Galois
-covering of `S` with group `E`. Let `W_0` be the form of `W_S` associated to `rev(G)`. There exists a morphism
-`S' → S`, which is a principal homogeneous bundle under `W_0`, such that `G_{S'}` is quasi-splittable (i.e. possesses
-a Borel subgroup).*
+covering of `S` with group `E`. Let `W_0` be the form of `W_S` associated to `rev(G)`. There exists a morphism `S' → S`,
+which is a principal homogeneous bundle under `W_0`, such that `G_{S'}` is quasi-splittable (i.e. possesses a Borel
+subgroup).*
 
 *(iii) Every `S`-reductive group of type `R` is split by a principal Galois covering `S̃ → S` with group `A`.*
 
@@ -1745,8 +1745,7 @@ P → P/T → P / Norm_G(T)
 <!-- original page 248 -->
 
 *Then `S'` (resp. `H`) is a principal homogeneous bundle over `S` (resp. `S'`) under `W_G(T)` (resp. `T_{S'}`).
-Moreover, if one makes `W_G(T)` operate on `T` in the obvious way, the bundle associated to `S'` is isomorphic to
-`T'`.*
+Moreover, if one makes `W_G(T)` operate on `T` in the obvious way, the bundle associated to `S'` is isomorphic to `T'`.*
 
 <!-- label: III.XXIV.4.4.2 -->
 
@@ -1768,18 +1767,18 @@ Indeed, if `G'` is the form of `G` associated to `P`, then `G'` possesses a maxi
 Resuming the notation of the preceding proposition, one sees that `H¹(S', T_{S'}) = 0` (by theorem 90 for (i), by 3.14
 for (ii)). The morphism `H → S'` possesses a section, so `P_{S'}` also possesses a section over `S'`. QED
 
-Let us now prove the theorem. Assertion (i) is a particular case of the preceding corollary (take `G = Ép_S(R)`,
-endowed with its canonical split torus). Let us prove (ii). One knows (3.12) that `G` is an inner twisted form of
+Let us now prove the theorem. Assertion (i) is a particular case of the preceding corollary (take `G = Ép_S(R)`, endowed
+with its canonical split torus). Let us prove (ii). One knows (3.12) that `G` is an inner twisted form of
 
 ```text
 G_0 = Q-Ép_{rev(G)/S}(R).
 ```
 
-If `T_0` is the canonical maximal torus of `G_0`, `W_{G_0}(T_0)` is the group `W_0` described in the statement. The
-form `G` of `G_0` corresponds to a principal homogeneous bundle `P` under `ad(G_0)` (`P = Isomint(G_0, G)`). The group
+If `T_0` is the canonical maximal torus of `G_0`, `W_{G_0}(T_0)` is the group `W_0` described in the statement. The form
+`G` of `G_0` corresponds to a principal homogeneous bundle `P` under `ad(G_0)` (`P = Isomint(G_0, G)`). The group
 `W_{ad(G_0)}(T_0^{ad})` is canonically isomorphic to `W_0`, and one obtains the wanted result by applying 4.4.3 to the
-situation `(ad(G_0), T_0^{ad}, P)`, hypothesis (ii) of 4.4.3 being well verified. Let us finally prove (iii). Resume
-the notation of (ii); one has a diagram
+situation `(ad(G_0), T_0^{ad}, P)`, hypothesis (ii) of 4.4.3 being well verified. Let us finally prove (iii). Resume the
+notation of (ii); one has a diagram
 
 ```text
               rev(G)
@@ -1842,17 +1841,17 @@ r(r(e, f, h, g), h', g') = r(e, f, h g h' g^{-1}, g g'),
 
 which had to be proved.
 
-To prove now that this law is indeed a law of principal homogeneous bundle, one may assume that `E` and `F` are
-trivial, in which case one sees at once that `E ×_S F` is also a trivial bundle.
+To prove now that this law is indeed a law of principal homogeneous bundle, one may assume that `E` and `F` are trivial,
+in which case one sees at once that `E ×_S F` is also a trivial bundle.
 
 ### 4.5. Isotriviality of maximal tori of semisimple groups[^N.D.E-XXIV-26]
 
 <!-- label: III.XXIV.4.5 -->
 
-Let us bring out here the following result, contained implicitly in 2.6 (cf. the N.D.E. (13)) and which was mentioned
-at the end of Exp. IX 1.2. Recall (XXIII 5.11) that, for every scheme `S` and every reduced root datum `R`, one
-writes `Ép_S(R)` for the unique pinned `S`-group of type `R` (which exists by Exp. XXV) and `T_S(R)` its canonical
-maximal torus.
+Let us bring out here the following result, contained implicitly in 2.6 (cf. the N.D.E. (13)) and which was mentioned at
+the end of Exp. IX 1.2. Recall (XXIII 5.11) that, for every scheme `S` and every reduced root datum `R`, one writes
+`Ép_S(R)` for the unique pinned `S`-group of type `R` (which exists by Exp. XXV) and `T_S(R)` its canonical maximal
+torus.
 
 **Proposition 4.5.1.** *Let `G` be an `S`-semisimple group of constant type `R`; assume that `G` possesses a maximal
 torus `T` (which is the case if `S` is semi-local, by XIV 3.20).*
@@ -1860,8 +1859,8 @@ torus `T` (which is the case if `S` is semi-local, by XIV 3.20).*
 *(i) Then `P = Isom_{S-gr.}(Ép_S(R), T_S(R); G, T) / T_S(R)_{ad}` is a principal `S`-bundle under the finite group
 `Aut(R)`, and `T_P` is a split maximal torus of `G_P`. Consequently, `T` is isotrivial.*
 
-*(ii) Moreover, for every finite set `F` of points of `P` contained in an affine open set, there exists an open set
-`U` of `P` containing `F` such that `G_U` is split.*
+*(ii) Moreover, for every finite set `F` of points of `P` contained in an affine open set, there exists an open set `U`
+of `P` containing `F` such that `G_U` is split.*
 
 <!-- label: III.XXIV.4.5.1 -->
 
@@ -1873,12 +1872,12 @@ torus `T` (which is the case if `S` is semi-local, by XIV 3.20).*
 1 → T_S(R)_{ad} → Aut_{S-gr.}(Ép_S(R), T_S(R)) → Aut_{S-gr.}(T_S(R))
 ```
 
-induces for every `S' → S` a morphism of bundles `P_{S'} → Isom_{S'-gr.}(T_{S'}(R), T_{S'})`, so if `P_{S'}` possesses
-a section, then `T_{S'}(R)` and `T_{S'}` are isomorphic. This is in particular the case for `S' = P`.
+induces for every `S' → S` a morphism of bundles `P_{S'} → Isom_{S'-gr.}(T_{S'}(R), T_{S'})`, so if `P_{S'}` possesses a
+section, then `T_{S'}(R)` and `T_{S'}` are isomorphic. This is in particular the case for `S' = P`.
 
-Note moreover that `Aut_{S-gr.}(Ép_S(R), T_S(R)) / T_S(R)_{ad}` is none other than the constant `S`-group
-`Aut(R)_S`, and that `P` is identified with the `Aut(R)_S`-torsor `Isom(R, R̃(G, T))`, where `R̃(G, T)` denotes the
-twisted root datum associated to `(G, T)` (cf. XXII 1.10).
+Note moreover that `Aut_{S-gr.}(Ép_S(R), T_S(R)) / T_S(R)_{ad}` is none other than the constant `S`-group `Aut(R)_S`,
+and that `P` is identified with the `Aut(R)_S`-torsor `Isom(R, R̃(G, T))`, where `R̃(G, T)` denotes the twisted root
+datum associated to `(G, T)` (cf. XXII 1.10).
 
 Then (ii) follows from (i) and from 2.14, taking into account the fact that the `g_α` (`α` ranging over the roots of
 `R`) are free `O_U`-modules of rank 1 on a sufficiently small affine open set `U` containing `F`.
@@ -1896,12 +1895,12 @@ principal bundles: reduction of the structure group, twisting, etc.
 
 <!-- label: III.XXIV.5.1 -->
 
-Recall (Exp. XXI, 7.4) that a Dynkin diagram is a disjoint union of its connected components, which are Dynkin
-diagrams. Moreover, every non-empty connected Dynkin diagram corresponding to a root datum is isomorphic to one of the
-standard diagrams (`A_n`, `B_n`, ..., `G_2`) which were exhibited in Exp. XXI, 7.4.6. In the sequel, we shall be
-interested only in Dynkin diagrams whose connected components are of one of the preceding types. Let `T` be the set
-of these standard diagrams. For every Dynkin diagram `D`, let `n(t) = n_D(t)` be the number of connected components of
-`D` isomorphic to `t`, where `t ∈ T`. The *type* of `D` is by definition `∑_{t ∈ T} n_D(t) · t`.
+Recall (Exp. XXI, 7.4) that a Dynkin diagram is a disjoint union of its connected components, which are Dynkin diagrams.
+Moreover, every non-empty connected Dynkin diagram corresponding to a root datum is isomorphic to one of the standard
+diagrams (`A_n`, `B_n`, ..., `G_2`) which were exhibited in Exp. XXI, 7.4.6. In the sequel, we shall be interested only
+in Dynkin diagrams whose connected components are of one of the preceding types. Let `T` be the set of these standard
+diagrams. For every Dynkin diagram `D`, let `n(t) = n_D(t)` be the number of connected components of `D` isomorphic to
+`t`, where `t ∈ T`. The *type* of `D` is by definition `∑_{t ∈ T} n_D(t) · t`.
 
 A Dynkin diagram of type `t` is said to be *simple of type `t`*, a Dynkin diagram of type `n · t` is said to be
 *isotypic of type `t`*. Let `D_0` be the set of connected components of `D` and let
@@ -1917,7 +1916,7 @@ be the obvious map. The type of `D` is none other than `∑_{x ∈ D_0} a(x)`.
 <!-- label: III.XXIV.5.2 -->
 
 Let `S` be a scheme, `D` an `S`-Dynkin scheme (verifying the restrictive condition stated above). The cokernel of the
-pair of morphisms `L ⇒ D` (`L = `[^N.D.E-XXIV-27] scheme of bonds of `D`) is written `D_0`. This is the "scheme of
+pair of morphisms `L ⇒ D` (`L =`[^N.D.E-XXIV-27] scheme of bonds of `D`) is written `D_0`. This is the "scheme of
 connected components" of `D` (it
 
 <!-- original page 251 -->
@@ -1929,8 +1928,8 @@ constant `S`-scheme. One has a canonical morphism
 a : D_0 → T_S.
 ```
 
-For `t ∈ T`, set `a^{-1}(t) = D_{0, t}`; this is a subscheme of `D_0`, whose inverse image in `D`, written `D_t`, is
-the *isotypic component of type `t`* of the Dynkin scheme `D`. Each `D_t` is a subscheme of `D`, and one has
+For `t ∈ T`, set `a^{-1}(t) = D_{0, t}`; this is a subscheme of `D_0`, whose inverse image in `D`, written `D_t`, is the
+*isotypic component of type `t`* of the Dynkin scheme `D`. Each `D_t` is a subscheme of `D`, and one has
 
 ```text
 D = ⨿_{t ∈ T} D_t.
@@ -1942,14 +1941,14 @@ Note that the degree of `D_{0, t}` at `s ∈ S` is `n(s, t)`, if the type of `D`
 
 <!-- label: III.XXIV.5.3 -->
 
-In what follows, we shall consider only semisimple adjoint (resp. simply connected) groups. To simplify the language,
-we shall state the results for adjoint groups; all statements will remain valid if one substitutes everywhere "simply
+In what follows, we shall consider only semisimple adjoint (resp. simply connected) groups. To simplify the language, we
+shall state the results for adjoint groups; all statements will remain valid if one substitutes everywhere "simply
 connected" for "adjoint".
 
 Recall that an adjoint reduced root datum is determined up to isomorphism by the type of its Dynkin diagrams. We shall
 therefore say that an adjoint root datum `R` (resp. a semisimple adjoint group `G`) is *of type `∑ n(t) · t`* if its
-Dynkin diagrams are (resp. if its type is given by an adjoint root datum of type `∑ n(t) · t`). We shall say that `R`
-or `G` is *simple of type `t`* (resp. *isotypic of type `t`*) if its type is `t` (resp. `n · t`, `n > 0`).
+Dynkin diagrams are (resp. if its type is given by an adjoint root datum of type `∑ n(t) · t`). We shall say that `R` or
+`G` is *simple of type `t`* (resp. *isotypic of type `t`*) if its type is `t` (resp. `n · t`, `n > 0`).
 
 If `G` is a semisimple adjoint group, we shall use the symbols `Dyn_0(G)` and `Dyn_{0, t}(G)` in the sense defined in
 5.2.
@@ -1968,8 +1967,8 @@ type `t_i`. Consider the product `R = R_1 × ··· × R_n` (Exp. XXI, 6.4.1). L
 
 <!-- original page 252 -->
 
-Moreover, if `E_i` denotes the group of automorphisms of `R_i`, `E` the group of automorphisms of `R`, `D_i` (resp.
-`D`) the Dynkin diagram of `R_i` (resp. `R`), one has isomorphisms:
+Moreover, if `E_i` denotes the group of automorphisms of `R_i`, `E` the group of automorphisms of `R`, `D_i` (resp. `D`)
+the Dynkin diagram of `R_i` (resp. `R`), one has isomorphisms:
 
 ```text
 E_i ≃ Aut(D_i),    D = ⨿ D_i,    E ≃ ∏ E_i ≃ Aut(D).
@@ -1996,9 +1995,9 @@ Dyn_t(G) ≃ Dyn(G_t),    Aut_{S-gr.}(G) ≃ ∏_{t ∈ T} Aut_{S-gr.}(G_t).
 
 <!-- label: III.XXIV.5.5 -->
 
-This has indeed been proved above when `G` is split. In the general case, one may assume `G` of constant type `R`.
-Using the preceding decomposition of `A_S(R)` and 1.17, one deduces the wanted decomposition of `G`. The other results
-are then proved by descent.
+This has indeed been proved above when `G` is split. In the general case, one may assume `G` of constant type `R`. Using
+the preceding decomposition of `A_S(R)` and 1.17, one deduces the wanted decomposition of `G`. The other results are
+then proved by descent.
 
 **Remark 5.6.** More generally, if `G` and `H` are two semisimple adjoint groups, one has canonical isomorphisms as
 follows (the diagram is commutative):
@@ -2027,9 +2026,9 @@ adjoint groups. It is this study that we shall now undertake.
 <!-- label: III.XXIV.5.8 -->
 
 Let `R` be a pinned reduced adjoint simple root datum of type `t`, `I` a nonempty finite set, `R^I` the product root
-datum of copies `R_i` of `R`, for `i ∈ I`. Write `E` for the group of automorphisms of `R`, which is identified with
-the group of automorphisms of the Dynkin diagram `D` of `R`. The Dynkin diagram of `R^I` is identified with `D^I`,
-which shows that one has an exact sequence:
+datum of copies `R_i` of `R`, for `i ∈ I`. Write `E` for the group of automorphisms of `R`, which is identified with the
+group of automorphisms of the Dynkin diagram `D` of `R`. The Dynkin diagram of `R^I` is identified with `D^I`, which
+shows that one has an exact sequence:
 
 ```text
 1 → Aut(D)^I → Aut(D^I) → Aut(I) → 1,
@@ -2057,8 +2056,8 @@ with the set of connected components of `D^I`.
 If `G` is an `S`-semisimple group of type `R^I`, defining (cf. 1.17) a principal homogeneous bundle `P` under
 `A_S(R^I)`, the definition of `Dyn(G)` by descent (3.7), and that of `Dyn_0(G)` (5.2), shows that the bundle associated
 to `P` by the morphism `A_S(R^I) → Aut(I_S)` is none other than `Isom_S(I_S, Dyn_0(G))`, corresponding to the form
-`Dyn_0(G)` of `I_S`. Using again the equivalence of categories 1.17 and the preceding exact sequence, one deduces by
-a formal argument that there exists a `Dyn_0(G)`-reductive group of type `R`, say `G_0`, and an `S`-isomorphism
+`Dyn_0(G)` of `I_S`. Using again the equivalence of categories 1.17 and the preceding exact sequence, one deduces by a
+formal argument that there exists a `Dyn_0(G)`-reductive group of type `R`, say `G_0`, and an `S`-isomorphism
 `G ≃ ∏_{Dyn_0(G)/S} G_0`.
 
 **Proposition 5.9.** *Let `S` be a scheme, `G` an `S`-semisimple adjoint group isotypic of type `t`. There exist a
@@ -2089,8 +2088,9 @@ One can combine 5.5 and 5.9:
 G ≃ ∏_{t ∈ T} ∏_{D_{0, t}/S} G_{0, t} ≃ ∏_{Dyn_0(G)/S} G_0,
 ```
 
-*where each `G_{0, t}` is a `Dyn_{0, t}(G)`-simple adjoint group of type `t` (resp. where `G_0` is a `Dyn_0(G)`-semisimple
-adjoint group whose type at `x ∈ Dyn_0(G)` is `a(x) ∈ T` (the morphism `a : Dyn_0(G) → T_S` was defined in 5.2)).*
+*where each `G_{0, t}` is a `Dyn_{0, t}(G)`-simple adjoint group of type `t` (resp. where `G_0` is a
+`Dyn_0(G)`-semisimple adjoint group whose type at `x ∈ Dyn_0(G)` is `a(x) ∈ T` (the morphism `a : Dyn_0(G) → T_S` was
+defined in 5.2)).*
 
 *(ii) The preceding decompositions induce isomorphic exact sequences (written vertically), where `Aut_{S, a}(D_0)`
 denotes the scheme of automorphisms of `Dyn_0(G)` which commute with the morphism `a : Dyn_0(G) → T_S`:*
@@ -2171,18 +2171,18 @@ corresponding Borel subgroup. Then `B_u` is generated as (fppf) group sheaf by t
 <!-- label: III.XXIV.6.1 -->
 
 Let `H` be the group subsheaf of `B_u` generated by the `U_α`, `α ∈ Δ`. Let us prove `H ⊃ U_β` (`β ∈ R^+`) by induction
-on the integer `ord(β) = ord_Δ(β) > 0` (cf. Exp. XXI, 3.2.15). The assertion is verified by hypothesis for
-`ord(β) = 1`. Suppose then `ord(β) > 1` and `U_γ ⊂ H` as soon as `ord(γ) < ord(β)`. There exists `α ∈ Δ` such that
-`β − α ∈ R^+` (Exp. XXI, 3.1.1). Let `p` be the largest integer such that `β − p α = β' ∈ R^+`. One has
-`U_α, U_{β'} ⊂ H`, `β' − α ∉ R`. One is therefore reduced to proving:
+on the integer `ord(β) = ord_Δ(β) > 0` (cf. Exp. XXI, 3.2.15). The assertion is verified by hypothesis for `ord(β) = 1`.
+Suppose then `ord(β) > 1` and `U_γ ⊂ H` as soon as `ord(γ) < ord(β)`. There exists `α ∈ Δ` such that `β − α ∈ R^+` (Exp.
+XXI, 3.1.1). Let `p` be the largest integer such that `β − p α = β' ∈ R^+`. One has `U_α, U_{β'} ⊂ H`, `β' − α ∉ R`. One
+is therefore reduced to proving:
 
 **Lemma 6.2.** *Resume the notation of Exp. XXIII, 6.4. Suppose `p = 1`, that is, `β − α` not a root. If `H` is a group
 subsheaf of `B_u` such that `U_α, U_β ⊂ H`, then `U_{iα + jβ} ⊂ H` whenever `iα + jβ ∈ R`, `i > 0`, `j > 0`.*
 
 <!-- label: III.XXIV.6.2 -->
 
-Let us distinguish four cases according to the value of `q = 0, 1, 2, 3`. In the sequel `x` and `y` denote two
-arbitrary sections of `G_{a, S'}`, `S' → S`.
+Let us distinguish four cases according to the value of `q = 0, 1, 2, 3`. In the sequel `x` and `y` denote two arbitrary
+sections of `G_{a, S'}`, `S' → S`.
 
 If `q = 0`, there is nothing to prove.
 
@@ -2203,9 +2203,8 @@ F(x, y) = p_{α+β}(xy) p_{2α+β}(x²y) ∈ H(S').
 ```
 
 Since `p_{α+β}` and `p_{2α+β}` commute, one then has `F(x, 1) F(1, −x) = p_{2α+β}(x² − x)`.[^N.D.E-XXIV-28] If
-`a ∈ G_a(S)`, the equation `X² − X = a` defines a free surjective extension of `S` (this is
-`Spec O_S[X]/(X² − X − a)`); one therefore has `p_{2α+β}(a) ∈ H(S')` so `U_{2α+β} ⊂ H`, hence also `U_{α+β} ⊂ H` (since
-`F(1, a) ∈ H(S')`).
+`a ∈ G_a(S)`, the equation `X² − X = a` defines a free surjective extension of `S` (this is `Spec O_S[X]/(X² − X − a)`);
+one therefore has `p_{2α+β}(a) ∈ H(S')` so `U_{2α+β} ⊂ H`, hence also `U_{α+β} ⊂ H` (since `F(1, a) ∈ H(S')`).
 
 If `q = 3`, one similarly has
 
@@ -2266,12 +2265,12 @@ by "`H` contains `U_α` or `U_β`, and `H` is invariant under `int(U_α)` and `i
 
 <!-- label: III.XXIV.6.3 -->
 
-The assertion is local for the étale topology and one may assume `G` split: `G = (G, T, M, R)`, `B` being defined by
-the system of positive roots `R^+` of `R`. The given isomorphism `u : B ⥲ B'` induces an isomorphism of `T` onto a
-maximal torus `T'` of `B'`, hence of `G'`. The given isomorphism `T ≃ D_S(M)` gives an isomorphism `T' ≃ D_S(M)` in
-which the elements of `R^+` become the constant roots of `B'` with respect to `T'`, hence the elements of `R` the
-constant roots of `G'` with respect to `T'`. Since `G` and `G'` are semisimple, the coroots are determined by duality
-(Exp. XXI, 1.2.5), which proves that `(T', M, R)` is a splitting of `G'` such that `R(G) = R(G')`.
+The assertion is local for the étale topology and one may assume `G` split: `G = (G, T, M, R)`, `B` being defined by the
+system of positive roots `R^+` of `R`. The given isomorphism `u : B ⥲ B'` induces an isomorphism of `T` onto a maximal
+torus `T'` of `B'`, hence of `G'`. The given isomorphism `T ≃ D_S(M)` gives an isomorphism `T' ≃ D_S(M)` in which the
+elements of `R^+` become the constant roots of `B'` with respect to `T'`, hence the elements of `R` the constant roots
+of `G'` with respect to `T'`. Since `G` and `G'` are semisimple, the coroots are determined by duality (Exp. XXI,
+1.2.5), which proves that `(T', M, R)` is a splitting of `G'` such that `R(G) = R(G')`.
 
 Applying Exp. XXIII, 5.1 (uniqueness theorem), one deduces that there exists a unique isomorphism `G ⥲ G'` coinciding
 with `u` on `T` and the `U_α`, `α ∈ Δ`. By 5.1, the restriction of this isomorphism to `B` is `u`. QED
@@ -2302,15 +2301,15 @@ faithful.*
 <!-- label: III.XXIV.6.4 -->
 
 **Corollary 6.5.** *Let `S` be a scheme, `G` an `S`-semisimple group, `B` a Borel subgroup of `G`, `B'` an `S`-group
-locally isomorphic to `B` for (fpqc). Then `B'` is locally isomorphic to `B` for the local finite étale topology[^N.D.E-XXIV-30]
-and there exists an `S`-semisimple group `G'` of which `B'` is a Borel subgroup; `G'` is unique up to a unique
-isomorphism inducing the identity on `B'`.*
+locally isomorphic to `B` for (fpqc). Then `B'` is locally isomorphic to `B` for the local finite étale
+topology[^N.D.E-XXIV-30] and there exists an `S`-semisimple group `G'` of which `B'` is a Borel subgroup; `G'` is unique
+up to a unique isomorphism inducing the identity on `B'`.*
 
 <!-- label: III.XXIV.6.5 -->
 
-**Corollary 6.6.** *Let `S` be a scheme, `G` an `S`-semisimple group, `B` a Borel subgroup of `G`. Then
-`Aut_{S-gr.}(B)` is representable by an affine and smooth `S`-scheme, `Autext(B)` is representable by an étale and
-finite `S`-scheme, and the obvious morphisms induce an isomorphism of exact sequences*
+**Corollary 6.6.** *Let `S` be a scheme, `G` an `S`-semisimple group, `B` a Borel subgroup of `G`. Then `Aut_{S-gr.}(B)`
+is representable by an affine and smooth `S`-scheme, `Autext(B)` is representable by an étale and finite `S`-scheme, and
+the obvious morphisms induce an isomorphism of exact sequences*
 
 ```text
 1 → B_ad → Aut_{S-gr.}(G, B) → Autext(G) → 1
@@ -2320,8 +2319,8 @@ finite `S`-scheme, and the obvious morphisms induce an isomorphism of exact sequ
 
 <!-- label: III.XXIV.6.6 -->
 
-This follows at once from 2.1 and from the preceding results. The reader is left the task of developing the analogues
-of the results of nos 1, 2, 3, 4 in the framework above.
+This follows at once from 2.1 and from the preceding results. The reader is left the task of developing the analogues of
+the results of nos 1, 2, 3, 4 in the framework above.
 
 **Remark 6.7.** If `S` is a scheme and `B` an `S`-group, `B` can therefore be a Borel subgroup only of a unique
 semisimple group, well determined by `B`. It therefore remains to characterize the `S`-groups `B` that are Borel
@@ -2383,8 +2382,7 @@ a monomorphism.
 
 <!-- label: III.XXIV.7.1.2 -->
 
-The usual technique of relative representability[^N.D.E-XXIV-32] shows us that it suffices to prove that, given
-sections
+The usual technique of relative representability[^N.D.E-XXIV-32] shows us that it suffices to prove that, given sections
 
 ```text
 v_α, h_α ∈ H(S),    for α ∈ Δ,
@@ -2420,16 +2418,16 @@ a : T ×_S T → G_{a, S}
 
 <!-- label: III.XXIV.7.1.3 -->
 
-It is first clear that the morphism `a` is surjective, since `α : T → G_{m, S}` is. It is trivial that `a` is of
-finite presentation. Since `α` verifies (L), it suffices, to prove (i) and (ii), to show that the morphism
+It is first clear that the morphism `a` is surjective, since `α : T → G_{m, S}` is. It is trivial that `a` is of finite
+presentation. Since `α` verifies (L), it suffices, to prove (i) and (ii), to show that the morphism
 
 ```text
 u : G_{m, S}² → G_{a, S}
 ```
 
 defined set-theoretically by `u(x, y) = x + y` verifies (L). In other words, it suffices to verify that for every ring
-`A`, the ring `A[X, Y, X^{-1}, Y^{-1}]` is a free module over its subring `A[X + Y]`.[^N.D.E-XXIV-34] Now `A[X, Y]` is
-a free module with basis `{1, X}` over the subring `B = A[X + Y, XY]` (one has `X² − (X + Y) X + XY = 0`), so
+`A`, the ring `A[X, Y, X^{-1}, Y^{-1}]` is a free module over its subring `A[X + Y]`.[^N.D.E-XXIV-34] Now `A[X, Y]` is a
+free module with basis `{1, X}` over the subring `B = A[X + Y, XY]` (one has `X² − (X + Y) X + XY = 0`), so
 `A[X^{±1}, Y^{±1}] = A[X, Y]_{XY}` is free over `B_{XY} = A[X + Y, (XY)^{±1}]` with basis `{1, X}`, and free over
 `A[X + Y]` with basis the elements `(XY)^p` and `X(XY)^p`, for `p ∈ ℤ`.
 
@@ -2460,8 +2458,8 @@ f_α(a(t, t') u_α) = b(t, t')
 <!-- label: III.XXIV.7.1.4 -->
 
 If `f_α` verifies (i), one has `f_α(α(t) u_α) = int(f_T(t)) v_α`, which entails (ii) at once. Conversely, suppose (ii)
-verified and let us prove the various conditions of (i); let us first prove the last. Since `a` is covering for
-(fpqc), it suffices to prove that if `t, t', t'' ∈ T(S')`, one has
+verified and let us prove the various conditions of (i); let us first prove the last. Since `a` is covering for (fpqc),
+it suffices to prove that if `t, t', t'' ∈ T(S')`, one has
 
 ```text
 f_T(t) f_α(a(t', t'') u_α) f_T(t)^{-1} = f_α(α(t) a(t', t'') u_α);
@@ -2490,8 +2488,8 @@ One therefore has `f_α(x + x') = f_α(x) f_α(x')`, whenever `x` and `x'` are s
 
 <!-- label: III.XXIV.7.1.5 -->
 
-Let us fix provisionally an `α ∈ Δ`. The morphism `a` is faithfully flat quasi-compact, so `G_{a, S}` is identified
-with the quotient of `T ×_S T` by the equivalence relation `R` defined by `a`. Let
+Let us fix provisionally an `α ∈ Δ`. The morphism `a` is faithfully flat quasi-compact, so `G_{a, S}` is identified with
+the quotient of `T ×_S T` by the equivalence relation `R` defined by `a`. Let
 
 ```text
 R ⇉^{i_1}_{i_2} T ×_S T
@@ -2506,8 +2504,8 @@ that is, if one writes `K` for the kernel of the pair of morphisms
 R ⇉^{b ∘ i_1}_{b ∘ i_2} H,
 ```
 
-it is necessary and sufficient that `K = R`. Now `H` is assumed separated over `S`, so `K` is a closed subscheme of
-`R`. Recall, on the other hand, that `R` is essentially free over `S` (7.1.3).
+it is necessary and sufficient that `K = R`. Now `H` is assumed separated over `S`, so `K` is a closed subscheme of `R`.
+Recall, on the other hand, that `R` is essentially free over `S` (7.1.3).
 
 #### 7.1.6.
 
@@ -2517,9 +2515,9 @@ By the foregoing, if `S'` is an `S`-scheme, for there to exist over `S'` an `f_�
 (and then necessarily unique), it is necessary and sufficient that `K_{S'} = R_{S'}`, and that the morphism `f_α`
 obtained verify `f_α(u_α) = v_α`.
 
-The first condition is equivalent to the fact that `S' → S` factors through a certain closed subscheme of `S`
-(Exp. VIII, 6.4[^N.D.E-XXIV-37]); if one replaces `S` by this closed subscheme, the second condition defines once again
-a closed subscheme of `S` (equality of two sections of `H`, now `H` is assumed separated over `S`).
+The first condition is equivalent to the fact that `S' → S` factors through a certain closed subscheme of `S` (Exp.
+VIII, 6.4[^N.D.E-XXIV-37]); if one replaces `S` by this closed subscheme, the second condition defines once again a
+closed subscheme of `S` (equality of two sections of `H`, now `H` is assumed separated over `S`).
 
 Up to replacing `S` by this closed subscheme, one may therefore assume that there exists a morphism `f_α : U_α → H`
 verifying the conditions of 7.1.4 (i). Taking the intersection of the subschemes of `S` obtained for each `α ∈ Δ`, one
@@ -2546,9 +2544,9 @@ f_T ∘ int(w_α) = int(h_α) ∘ f_T.
 
 <!-- label: III.XXIV.7.1.8 -->
 
-Using now the theorem of generators and relations (Exp. XXIII, 3.5), one sees that there exists a homomorphism of
-groups `f : G → H` verifying the required conditions if and only if a certain finite set of algebraic relations between
-the sections `h_α, v_α, f_T(α^*(−1))` (`α ∈ Δ`) of `H` is satisfied:
+Using now the theorem of generators and relations (Exp. XXIII, 3.5), one sees that there exists a homomorphism of groups
+`f : G → H` verifying the required conditions if and only if a certain finite set of algebraic relations between the
+sections `h_α, v_α, f_T(α^*(−1))` (`α ∈ Δ`) of `H` is satisfied:
 
 <!-- original page 263 -->
 
@@ -2581,17 +2579,17 @@ Hom_{S-gr.}(G, H) → Hom_{S-gr.}(T, H)
 
 Indeed, one may assume `G` pinned; the structure morphism `H^{2n} → S` verifies `P` and one concludes by 7.1.2.
 
-**Corollary 7.1.10.** *Let `S` be a scheme, `G` a split `S`-reductive group, and `H` an `S`-group scheme smooth and
-with affine fibers.[^N.D.E-XXIV-39] Then the functor `Hom_{S-gr.}(G, H)` is representable by an `S`-scheme locally of
-finite presentation and separated over `S`.*
+**Corollary 7.1.10.** *Let `S` be a scheme, `G` a split `S`-reductive group, and `H` an `S`-group scheme smooth and with
+affine fibers.[^N.D.E-XXIV-39] Then the functor `Hom_{S-gr.}(G, H)` is representable by an `S`-scheme locally of finite
+presentation and separated over `S`.*
 
 <!-- label: III.XXIV.7.1.10 -->
 
 Indeed, since `H` is smooth over `S`, one can consider its neutral component `H⁰`, which has affine fibers, is smooth,
-separated and of finite presentation over `S` (Exp. VI_B, 3.10 and 5.5). Since `G` has connected fibers, one may
-replace `H` by `H⁰`. Since `G` and `H` are then of finite presentation, one may assume `S` noetherian, and one applies
-7.1.9 taking for `P` the property "of finite type". But, by Exp. XV, 8.9, one knows that `Hom_{S-gr.}(T, H)` is
-representable by a separated `S`-scheme locally of finite type.
+separated and of finite presentation over `S` (Exp. VI_B, 3.10 and 5.5). Since `G` has connected fibers, one may replace
+`H` by `H⁰`. Since `G` and `H` are then of finite presentation, one may assume `S` noetherian, and one applies 7.1.9
+taking for `P` the property "of finite type". But, by Exp. XV, 8.9, one knows that `Hom_{S-gr.}(T, H)` is representable
+by a separated `S`-scheme locally of finite type.
 
 **Remark 7.1.11.** If `H` is affine over `S`, one can replace the reference to Exp. XV by Exp. XI, 4.2.
 
@@ -2620,13 +2618,12 @@ Hom_{S-gr.}(G, H) → Hom_{S-gr.}(T, H)
 
 When `G` is splittable relative to `T`, one applies 7.1.9 taking for `P` the property (+) above. When `G` is locally
 isotrivial, for example semisimple (4.2.2), one notes that the assertion of the theorem is local for the local finite
-étale topology (indeed, the property of being quasi-projective is local for the global finite étale topology and
-ensures the effectiveness of descent for this topology, cf. SGA 1, VIII, 7.7). Finally, in the general case, one uses
-the following lemma:
+étale topology (indeed, the property of being quasi-projective is local for the global finite étale topology and ensures
+the effectiveness of descent for this topology, cf. SGA 1, VIII, 7.7). Finally, in the general case, one uses the
+following lemma:
 
-**Lemma 7.2.2.** *Let `S` be a scheme, `G` an `S`-reductive group, `T` a maximal torus of `G`, `G'` the derived group
-of `G` (Exp. XXII, 6.2), `T' = T ∩ G'` the maximal torus of `G'` corresponding to `T` (Exp. XXII, 6.2.8). Then the
-diagram*
+**Lemma 7.2.2.** *Let `S` be a scheme, `G` an `S`-reductive group, `T` a maximal torus of `G`, `G'` the derived group of
+`G` (Exp. XXII, 6.2), `T' = T ∩ G'` the maximal torus of `G'` corresponding to `T` (Exp. XXII, 6.2.8). Then the diagram*
 
 ```text
 G ← G'
@@ -2658,15 +2655,15 @@ i : G' ×_S rad(G) → G,    j : T' ×_S rad(G) → T.
 ```
 
 Let `f_{G'} : G' → H`, `f_T : T → H`, and `f_{T'} : T' → H` be morphisms of `S`-groups such that
-`f_{G'}|_{T'} = f_T|_{T'} = f_{T'}`. Let us show that there exists a unique morphism of `S`-groups `f : G → H`
-inducing `f_{G'}` and `f_T`. Let `f_{rad} = f_T|_{rad(G)}`[^N.D.E-XXIV-40] and let
+`f_{G'}|_{T'} = f_T|_{T'} = f_{T'}`. Let us show that there exists a unique morphism of `S`-groups `f : G → H` inducing
+`f_{G'}` and `f_T`. Let `f_{rad} = f_T|_{rad(G)}`[^N.D.E-XXIV-40] and let
 
 ```text
 f_1 = f_{G'} · f_{rad} : G' ×_S rad(G) → H.
 ```
 
-For `f` to exist (and it will evidently be unique), it is necessary and sufficient that `f_1` induce the identity on
-the kernel of `i`, that is, that `f_{G'}` and `f_{rad}` coincide on `K`; but the existence of `f_T` shows by the same
+For `f` to exist (and it will evidently be unique), it is necessary and sufficient that `f_1` induce the identity on the
+kernel of `i`, that is, that `f_{G'}` and `f_{rad}` coincide on `K`; but the existence of `f_T` shows by the same
 argument that `f_{T'}` and `f_{rad}` coincide on `K`. It only remains to note that `f_{G'}` and `f_{T'}` evidently
 coincide on `K ⊂ T'`.
 
@@ -2692,8 +2689,8 @@ where the right-hand side has an obvious definition.
 
 <!-- original page 265 -->
 
-**Proposition 7.3.1.** *Let `S` be a scheme of characteristic 0 (i.e. a `ℚ`-scheme), `G` an `S`-reductive group, `H`
-an `S`-group scheme smooth and quasi-projective over `S` with affine fibers.*
+**Proposition 7.3.1.** *Let `S` be a scheme of characteristic 0 (i.e. a `ℚ`-scheme), `G` an `S`-reductive group, `H` an
+`S`-group scheme smooth and quasi-projective over `S` with affine fibers.*
 
 *(i) `Hom_{S-gr.}(G, H)` is representable by a smooth and separated `S`-scheme over `S`.*
 
@@ -2709,8 +2706,8 @@ Lie : Hom_{S-gr.}(G, H) → Hom_{O_S\text{-Lie alg.}}(g, h)
 
 <!-- label: III.XXIV.7.3.1 -->
 
-**Lemma 7.3.2.** *Let `k` be a field of characteristic 0, `G` a `k`-reductive group, `V` a finite-dimensional
-`k`-vector space, `G → GL(V)` a linear representation of `G` in `V`. One has*
+**Lemma 7.3.2.** *Let `k` be a field of characteristic 0, `G` a `k`-reductive group, `V` a finite-dimensional `k`-vector
+space, `G → GL(V)` a linear representation of `G` in `V`. One has*
 
 ```text
 H⁰(G, V) = H⁰(g, V),    Hⁱ(G, V) = 0,    for i > 0.
@@ -2725,12 +2722,12 @@ easy.
 
 From this first equality it follows that `H⁰(G, V)` is an exact functor in `V` when `G` is semisimple; `g` is indeed
 then a semisimple Lie algebra and one applies [BLie], § I.6, exercise 1 (b). The assertion remains true when `G` is
-reductive; indeed, if one introduces the radical `R` of `G`[^N.D.E-XXIV-43] and the quotient `G/R` which is
-semisimple, one has `H⁰(G, V) = H⁰(G/R, H⁰(R, V))`, and `H⁰(G, −)` is composed of two exact functors. Applying then
-Exp. I, 5.3.1, one deduces `Hⁱ(G, V) = 0` for `i > 0`.
+reductive; indeed, if one introduces the radical `R` of `G`[^N.D.E-XXIV-43] and the quotient `G/R` which is semisimple,
+one has `H⁰(G, V) = H⁰(G/R, H⁰(R, V))`, and `H⁰(G, −)` is composed of two exact functors. Applying then Exp. I, 5.3.1,
+one deduces `Hⁱ(G, V) = 0` for `i > 0`.
 
-**Remark 7.3.3.** Under the preceding conditions, if `G` is semisimple, one has `H¹(g, V) = H²(g, V) = 0`,
-cf. [BLie], *loc. cit.* (b) and (d).
+**Remark 7.3.3.** Under the preceding conditions, if `G` is semisimple, one has `H¹(g, V) = H²(g, V) = 0`, cf. [BLie],
+*loc. cit.* (b) and (d).
 
 <!-- label: III.XXIV.7.3.3 -->
 
@@ -2739,9 +2736,8 @@ cf. [BLie], *loc. cit.* (b) and (d).
 <!-- label: III.XXIV.7.3.4 -->
 
 Let us now prove the proposition. Already, by 7.2.3, `Hom_{S-gr.}(G, H)` is representable by an `S`-scheme locally of
-finite presentation and separated over `S`; to show that it is smooth, it suffices to prove that it is
-infinitesimally smooth (Exp. XI, 1.8),[^N.D.E-XXIV-44] which follows from Exp. III, 2.8 (i) by 7.3.2. We have thus
-proved (i).
+finite presentation and separated over `S`; to show that it is smooth, it suffices to prove that it is infinitesimally
+smooth (Exp. XI, 1.8),[^N.D.E-XXIV-44] which follows from Exp. III, 2.8 (i) by 7.3.2. We have thus proved (i).
 
 Let us show that (ii) follows from (iii). It suffices first to prove that `Hom_{S-gr.}(G, H)` is affine over `S`; it
 will then be of finite presentation over `S`, since it is smooth over `S` by (i); in any case
@@ -2756,11 +2752,11 @@ which is an affine `S`-scheme, and the desired conclusion appears when `G` is si
 <!-- original page 266 -->
 
 In the general case, one may assume `G` split, so `G ≃ Ép_S(R)`; introducing the simply connected root datum `sc(R)`
-(Exp. XXI, 6.5.5), and using the existence theorem (Exp. XXV, 1.1), one constructs a simply connected `S`-group `G̃`
-and a central isogeny `G̃ → G`. The kernel `K` of this isogeny is a finite diagonalizable `S`-group (so a twisted
-constant `S`-group, `S` being of characteristic 0) and `Hom_{S-gr.}(K, H)` is (trivially) representable by a separated
-`S`-scheme (if `K ≃ (ℤ/nℤ)_S`, then `Hom_{S-gr.}(K, H)` is isomorphic to `Ker(H →^n H)`). One has an exact sequence of
-"pointed `S`-schemes":
+(Exp. XXI, 6.5.5), and using the existence theorem (Exp. XXV, 1.1), one constructs a simply connected `S`-group `G̃` and
+a central isogeny `G̃ → G`. The kernel `K` of this isogeny is a finite diagonalizable `S`-group (so a twisted constant
+`S`-group, `S` being of characteristic 0) and `Hom_{S-gr.}(K, H)` is (trivially) representable by a separated `S`-scheme
+(if `K ≃ (ℤ/nℤ)_S`, then `Hom_{S-gr.}(K, H)` is isomorphic to `Ker(H →^n H)`). One has an exact sequence of "pointed
+`S`-schemes":
 
 ```text
 1 → Hom_{S-gr.}(G, H) →^u Hom_{S-gr.}(G̃, H) → Hom_{S-gr.}(K, H),
@@ -2773,10 +2769,9 @@ so `u` is a closed immersion, hence `Hom_{S-gr.}(G, H)` is affine over `S`.
 <!-- label: III.XXIV.7.3.5 -->
 
 Let us finally prove (iii). Arguing as in the proof of (i) and using 7.3.3, one can show that the `S`-scheme
-`Hom_{O_S\text{-Lie alg.}}(g, h)` is smooth over `S`. To prove (iii), one may therefore assume `S = Spec(k)`, where
-`k` is an algebraically closed field of characteristic 0; it even suffices to prove that the morphism `Lie` is
-bijective on `k`-valued points and that it induces a bijection on tangent spaces at two corresponding points. Let us
-first show that
+`Hom_{O_S\text{-Lie alg.}}(g, h)` is smooth over `S`. To prove (iii), one may therefore assume `S = Spec(k)`, where `k`
+is an algebraically closed field of characteristic 0; it even suffices to prove that the morphism `Lie` is bijective on
+`k`-valued points and that it induces a bijection on tangent spaces at two corresponding points. Let us first show that
 
 ```text
 Hom_{k-gr.}(G, H) → Hom_{k\text{-Lie alg.}}(g, h)
@@ -2784,12 +2779,12 @@ Hom_{k-gr.}(G, H) → Hom_{k\text{-Lie alg.}}(g, h)
 
 is bijective.
 
-If `u : G → H` is a morphism of `k`-groups, the graph of `u` is a connected subgroup of `G ×_k H` which is determined
-by its Lie algebra which is the graph of `Lie(u)`; the map is therefore injective. Conversely, if `v : g → h` is a
-morphism of Lie algebras, the graph `k` of `v` is a Lie subalgebra of `g × h`, isomorphic to `g`. In particular, since
-`g` is its own derived algebra, the same is true of `k` and so, by a theorem of Chevalley ([Ch51], § 14, Th. 15), `k`
-is the Lie algebra of a connected subgroup `K` of `G ×_k H`.[^N.D.E-XXIV-45] Moreover, since `k ≃ g` is semisimple,
-`G` is a semisimple `k`-group. Since
+If `u : G → H` is a morphism of `k`-groups, the graph of `u` is a connected subgroup of `G ×_k H` which is determined by
+its Lie algebra which is the graph of `Lie(u)`; the map is therefore injective. Conversely, if `v : g → h` is a morphism
+of Lie algebras, the graph `k` of `v` is a Lie subalgebra of `g × h`, isomorphic to `g`. In particular, since `g` is its
+own derived algebra, the same is true of `k` and so, by a theorem of Chevalley ([Ch51], § 14, Th. 15), `k` is the Lie
+algebra of a connected subgroup `K` of `G ×_k H`.[^N.D.E-XXIV-45] Moreover, since `k ≃ g` is semisimple, `G` is a
+semisimple `k`-group. Since
 
 ```text
 dim(K) = dim(k) = dim(g) = dim(G)
@@ -2800,10 +2795,10 @@ dominant; since `G` is connected, `pr_1` is surjective; it is therefore an isoge
 `K` semisimple then, by Exp. XXI 6.2.7, `pr_1` is an isomorphism, so `K` is the graph of a morphism of `k`-groups
 `u : G → H` such that `Lie(u) = v`.
 
-Finally, let `u : G → H` be a morphism of `k`-groups. The tangent space to `Hom_{k-gr.}(G, H)` at `u` is identified
-with `Z¹(G, h)` (cf. Exp. II, 4.2; `G` operates on `h` by `Ad_H ∘ u`); similarly, one can prove that the tangent
-space to `Hom_{k\text{-Lie alg.}}(g, h)` at `Lie(u)` is identified with `Z¹(g, h)`. We must therefore prove that the
-canonical map `Z¹(G, h) → Z¹(g, h)` is bijective. Now one has a commutative diagram
+Finally, let `u : G → H` be a morphism of `k`-groups. The tangent space to `Hom_{k-gr.}(G, H)` at `u` is identified with
+`Z¹(G, h)` (cf. Exp. II, 4.2; `G` operates on `h` by `Ad_H ∘ u`); similarly, one can prove that the tangent space to
+`Hom_{k\text{-Lie alg.}}(g, h)` at `Lie(u)` is identified with `Z¹(g, h)`. We must therefore prove that the canonical
+map `Z¹(G, h) → Z¹(g, h)` is bijective. Now one has a commutative diagram
 
 ```text
 0 → h^G → h → Z¹(G, h) → H¹(G, h)
@@ -2815,9 +2810,9 @@ and by 7.3.2 and 7.3.3 one has `h^G = h^g` and `H¹(G, h) = 0 = H¹(g, h)`, when
 
 **Remark 7.3.6.** It is presumably the case that if `S` is a locally noetherian scheme, `G` an `S`-semisimple simply
 connected group, `H` an `S`-group scheme smooth, `Ĝ` and `Ĥ` their formal completions along the unit section, every
-homomorphism `Ĝ → Ĥ` comes from a unique homomorphism of `G` into `H`, which would generalize 7.3.1 (iii). When `S`
-is the spectrum of a field `k` and `H` is affine and of finite type, this follows from a theorem of Dieudonné
-([Di57], § 15, th. 4).[^N.D.E-XXIV-46]
+homomorphism `Ĝ → Ĥ` comes from a unique homomorphism of `G` into `H`, which would generalize 7.3.1 (iii). When `S` is
+the spectrum of a field `k` and `H` is affine and of finite type, this follows from a theorem of Dieudonné ([Di57], §
+15, th. 4).[^N.D.E-XXIV-46]
 
 <!-- label: III.XXIV.7.3.6 -->
 
@@ -2889,9 +2884,9 @@ f' : G_{m, S} → SL_{2, S}
 
 such that `f ∘ α^*(z) = f'(z^n)`.
 
-By the conjugacy of monomorphisms `G_{m, S} → SL_{2, S}`, one can, after an étale-covering extension of the base,
-find a section `g` of `G` such that `f ∘ α^*(z) = int(g) ∘ α^*(z^n)`. Transforming `f` by `int(g)`, one is therefore
-reduced to the case where there exists an `n ∈ ℕ` such that `f ∘ α^*(z) = α^*(z^n)`.
+By the conjugacy of monomorphisms `G_{m, S} → SL_{2, S}`, one can, after an étale-covering extension of the base, find a
+section `g` of `G` such that `f ∘ α^*(z) = int(g) ∘ α^*(z^n)`. Transforming `f` by `int(g)`, one is therefore reduced to
+the case where there exists an `n ∈ ℕ` such that `f ∘ α^*(z) = α^*(z^n)`.
 
 #### 7.4.3.
 
@@ -2910,8 +2905,8 @@ It verifies the condition
 ```
 
 If `n = 0`, it follows at once that `f ∘ p` is invariant under the homotheties of `G_{a, S}`, hence constant. If
-`n ≠ 0`, one can apply Exp. XXII, 4.1.9; `x ↦ x^n` is an endomorphism of `G_{a, S}`, there exists a `λ ∈ G_{m, S}`
-such that
+`n ≠ 0`, one can apply Exp. XXII, 4.1.9; `x ↦ x^n` is an endomorphism of `G_{a, S}`, there exists a `λ ∈ G_{m, S}` such
+that
 
 ```text
 f ∘ p(x) = p(λ x^n);
@@ -2959,16 +2954,16 @@ follows that `n` is a locally constant function on `S`.
 
 <!-- label: III.XXIV.7.4.6 -->
 
-One deduces at once that if `f` is an endomorphism of `SL_{2, S}`, then `S` decomposes canonically as a sum of open
-and closed subschemes `S_0`, `S_1`, `S_{p^n}` (where `p^n` ranges over the set of positive powers of prime numbers)
-such that:
+One deduces at once that if `f` is an endomorphism of `SL_{2, S}`, then `S` decomposes canonically as a sum of open and
+closed subschemes `S_0`, `S_1`, `S_{p^n}` (where `p^n` ranges over the set of positive powers of prime numbers) such
+that:
 
 (i) `f_{S_0}` is the zero morphism,
 
 (ii) `f_{S_1}` is an isomorphism (= an inner automorphism),
 
-(iii) `S_{p^n}` is of characteristic `p` and `f_{S_{p^n}}` decomposes uniquely in the form `φ ∘ F_p^n`, where `φ` is
-an inner automorphism and `F_p` the Frobenius endomorphism of `SL_{2, F_p}`.
+(iii) `S_{p^n}` is of characteristic `p` and `f_{S_{p^n}}` decomposes uniquely in the form `φ ∘ F_p^n`, where `φ` is an
+inner automorphism and `F_p` the Frobenius endomorphism of `SL_{2, F_p}`.
 
 #### 7.4.7.
 
@@ -3031,8 +3026,8 @@ Fib(S, G) → Fib(κ(s), G_s)
 If `K` is a finite separable extension of `κ(s)`, there exists an `S' → S` finite surjective étale such that
 `K ≃ S' ⊗_S κ(s)`.[^N.D.E-XXIV-47] If `P` is a principal homogeneous bundle under `G`, then `P` is smooth over `S`,
 hence `P_s` smooth over `κ(s)`; there therefore exists a finite separable extension `K` of `κ(s)` such that `P_K`
-possesses a section (cf. EGA IV_4, 17.15.10). Representing `K` as said above, one sees that `P_{S'}` possesses a
-section by "Hensel's lemma" (cf. EGA IV_4, 18.5.17), which proves the first part of (i).
+possesses a section (cf. EGA IV_4, 17.15.10). Representing `K` as said above, one sees that `P_{S'}` possesses a section
+by "Hensel's lemma" (cf. EGA IV_4, 18.5.17), which proves the first part of (i).
 
 Conversely, if `P` is a principal homogeneous sheaf under `G` for the étale topology, there exists an `S' → S` finite
 surjective étale that trivializes `P` (indeed every covering family of a henselian local scheme for the étale topology
@@ -3049,8 +3044,8 @@ By virtue of the descent hypothesis made on `G`, `P` is representable (SGA 1, VI
 
 The map of (ii) is injective: let `P` and `Q` be two principal homogeneous bundles under `G` trivialized by `S'`.
 Consider the `S`-group sheaf `H = Isom_{G\text{-bundles}}(P, Q)`; since `H_{S'}` is isomorphic to `G_{S'}`, `H` is
-representable, by the second hypothesis on `G`, cf. above. If `H(κ(s)) ≠ ∅`, then `H(S) ≠ ∅` by Hensel's lemma, so
-`P` and `Q` are isomorphic.
+representable, by the second hypothesis on `G`, cf. above. If `H(κ(s)) ≠ ∅`, then `H(S) ≠ ∅` by Hensel's lemma, so `P`
+and `Q` are isomorphic.
 
 #### 8.1.4.
 
@@ -3112,9 +3107,9 @@ If `T → S` is a finite surjective étale morphism that decomposes `S'`, then
 C_i ×_S T = Hom_T((S' ×_S T / T)^{i+1}, G_T)
 ```
 
-is representable by a product of `n` copies of `G_T`, where `n` is the degree of `(S'/S)^{i+1}`. Applying once more
-the hypothesis on `G`, one deduces that `C_i` is indeed representable by an `S`-scheme locally of finite presentation
-(SGA 1, VIII, *loc. cit.*).
+is representable by a product of `n` copies of `G_T`, where `n` is the degree of `(S'/S)^{i+1}`. Applying once more the
+hypothesis on `G`, one deduces that `C_i` is indeed representable by an `S`-scheme locally of finite presentation (SGA
+1, VIII, *loc. cit.*).
 
 #### 8.1.7.
 
@@ -3165,8 +3160,8 @@ proof.
 M = ∏_{S_0/S} M_0    and    Ḡ = ∏_{S_0/S} G_0
 ```
 
-be the `S`-group functors defined by `M(T) = M_0(T_0)` and `Ḡ(T) = G_0(T_0)`, where `T_0 = T ×_S S_0`. By Exp. III,
-0.9 and (0.6.2), there exists for every affine `S`-scheme `T` an exact sequence, functorial in `T`:
+be the `S`-group functors defined by `M(T) = M_0(T_0)` and `Ḡ(T) = G_0(T_0)`, where `T_0 = T ×_S S_0`. By Exp. III, 0.9
+and (0.6.2), there exists for every affine `S`-scheme `T` an exact sequence, functorial in `T`:
 
 ```text
 1 → M(T) → G(T) → Ḡ(T) → 1.
@@ -3192,9 +3187,9 @@ Hⁱ(S'/S, M) = Hⁱ(S'_0/S_0, M_0) = Hⁱ(S'_0/S_0, M_0),
 
 and one knows (TDTE I, B, Lemma 1.1) that `Hⁱ(S'_0/S_0, M_0) = 0` for `i ≠ 0`.
 
-If now `G` is not commutative, we must use the exact sequence of non-abelian cohomology. If `u ∈ Z¹(S'/S, Ḡ)`, one
-knows that the elements of `H¹(S'/S, G)` having the same image in `H¹(S'/S, Ḡ)` as the class of `u` are in the image
-of the corresponding coboundary map:
+If now `G` is not commutative, we must use the exact sequence of non-abelian cohomology. If `u ∈ Z¹(S'/S, Ḡ)`, one knows
+that the elements of `H¹(S'/S, G)` having the same image in `H¹(S'/S, Ḡ)` as the class of `u` are in the image of the
+corresponding coboundary map:
 
 ```text
 H¹(S'/S, M_u) → H¹(S'/S, G),
@@ -3219,9 +3214,9 @@ deduced functorially from the adjoint representation of `G_0`:
 ad : G_0 → Aut_{O_{S_0}}(Lie(G_0/S_0)).
 ```
 
-The element `u` (resp. `v`) therefore acts in `M_{S' ×_S S'}` via an `S'_0 ×_{S_0} S'_0`-automorphism of
-`Lie(G_0/S_0)`. Since `u` (resp. `v`) is a cocycle, this automorphism is a descent datum; write `L_u` (resp. `L_v`)
-for the quasi-coherent `O_{S_0}`-module obtained. One verifies at once that for `T → S`, one has
+The element `u` (resp. `v`) therefore acts in `M_{S' ×_S S'}` via an `S'_0 ×_{S_0} S'_0`-automorphism of `Lie(G_0/S_0)`.
+Since `u` (resp. `v`) is a cocycle, this automorphism is a descent datum; write `L_u` (resp. `L_v`) for the
+quasi-coherent `O_{S_0}`-module obtained. One verifies at once that for `T → S`, one has
 
 ```text
 M_u(T) = H⁰(T_0, L_u ⊗_{O_{S_0}} J ⊗_{O_{S_0}} O_{T_0})
@@ -3238,9 +3233,9 @@ and both are indeed zero by virtue of the result already used.
 
 **Proposition 8.2.** *Let `C` be a category possessing fibered products, equipped with a topology coarser than the
 canonical topology, `S' → S` a morphism of `C`, `G'` an `S'`-group sheaf, `G` the `S`-group sheaf `∏_{S'/S} G'`. Let
-`H¹_S(S', G') ⊂ H¹(S', G')` be the set of classes of principal homogeneous sheaves under `G'` which are trivialized by
-a sieve of `S'` obtained by base change from a suitable covering sieve of `S`. The canonical map
-`H¹(S, G) → H¹(S', G')` defined by the functor*
+`H¹_S(S', G') ⊂ H¹(S', G')` be the set of classes of principal homogeneous sheaves under `G'` which are trivialized by a
+sieve of `S'` obtained by base change from a suitable covering sieve of `S`. The canonical map `H¹(S, G) → H¹(S', G')`
+defined by the functor*
 
 ```text
 P ↦ P ×_S S'
@@ -3268,8 +3263,8 @@ One therefore has for each `S`-object `T` a functorial bijection in `T`
 H¹(T/S, G) ⥲ H¹(T'/S', G').
 ```
 
-Replacing now the unique morphism `T → S` by an arbitrary covering family of `S` and passing to the inductive limit,
-one deduces the first part of the statement. The second part is deduced without difficulty.
+Replacing now the unique morphism `T → S` by an arbitrary covering family of `S` and passing to the inductive limit, one
+deduces the first part of the statement. The second part is deduced without difficulty.
 
 **Lemma 8.3.** *Under the conditions of 8.2, the assertion `H¹_S(S', G') = H¹(S', G')` is local on `S`: suppose there
 exists a covering family `{S_i → S}` such that for every `i`, one has `H¹_{S_i}(S' ×_S S_i, G') = H¹(S' ×_S S_i, G')`.
@@ -3306,8 +3301,8 @@ H¹(S, G) ≃ H¹(S', G').
 <!-- label: III.XXIV.8.4 -->
 
 By 8.2, it suffices to show that `H¹_S(S', G') = H¹(S', G')`. By 8.3, it suffices to do this locally for the local
-finite étale topology; one may therefore assume that `S'` is a finite direct sum of copies of `S`, say `I_S`, where
-`I` is a suitable finite set. Then `G'` is given by a family `(G_i)_{i ∈ I}` of sheaves on `S` and
+finite étale topology; one may therefore assume that `S'` is a finite direct sum of copies of `S`, say `I_S`, where `I`
+is a suitable finite set. Then `G'` is given by a family `(G_i)_{i ∈ I}` of sheaves on `S` and
 
 ```text
 H¹(S', G') ≃ ∏_{i ∈ I} H¹(S, G_i).
@@ -3346,131 +3341,31 @@ On the other hand, this result becomes false if one takes a topology such as (fp
 
 <!-- original page 274 -->
 
-Similarly, 8.2 becomes false, even for the étale topology, if one suppresses in it the hypothesis that `f` is finite,
-as one sees by taking for `f` an open immersion; for example if `S = Spec(V)`, `V` a complete discrete valuation ring
-with algebraically closed residue field, `S'` being the open subset induced at the generic point, and `G'` the
-constant group `(ℤ/nℤ)_{S'}`, with `n` prime to the residue characteristic of `V`, one has `H¹(S, G) = 0`,
-`H¹(S', G') ≠ 0`. Moreover, replacing `S'` by `S ∐ S'`, one deduces an analogous example, with `S' → S` étale
-surjective, hence covering for the topology considered.
+Similarly, 8.2 becomes false, even for the étale topology, if one suppresses in it the hypothesis that `f` is finite, as
+one sees by taking for `f` an open immersion; for example if `S = Spec(V)`, `V` a complete discrete valuation ring with
+algebraically closed residue field, `S'` being the open subset induced at the generic point, and `G'` the constant group
+`(ℤ/nℤ)_{S'}`, with `n` prime to the residue characteristic of `V`, one has `H¹(S, G) = 0`, `H¹(S', G') ≠ 0`. Moreover,
+replacing `S'` by `S ∐ S'`, one deduces an analogous example, with `S' → S` étale surjective, hence covering for the
+topology considered.
 
 ## Bibliography
 
 - [BLie] N. Bourbaki, *Groupes et algèbres de Lie*, Chap. I, Hermann, 1960.
 - [Ch51] C. Chevalley, *Théorie des groupes de Lie*. t. II *Groupes algébriques*, Hermann, 1951.
-- [Di57] J. Dieudonné, Lie groups and Lie hyperalgebras over a field of characteristic `p > 0`. VI, *Amer. J. Math.* 79 (1957), no 2, 331-388.[^N.D.E-XXIV-50]
+- [Di57] J. Dieudonné, Lie groups and Lie hyperalgebras over a field of characteristic `p > 0`. VI, *Amer. J. Math.* 79
+    (1957), no 2, 331-388.[^N.D.E-XXIV-50]
 - [Bo91] A. Borel, *Linear algebraic groups*, 2nd edition, Springer-Verlag, 1991.
-- [Ch05] C. Chevalley, *Classification des groupes algébriques semi-simples* (with the collaboration of P. Cartier, A. Grothendieck, M. Lazard), *Collected Works*, vol. 3, Springer, 2005.
+- [Ch05] C. Chevalley, *Classification des groupes algébriques semi-simples* (with the collaboration of P. Cartier, A.
+    Grothendieck, M. Lazard), *Collected Works*, vol. 3, Springer, 2005.
 - [DG70] M. Demazure, P. Gabriel, *Groupes algébriques*, Masson & North-Holland, 1970.
 - [Gi71] J. Giraud, *Cohomologie non abélienne*, Springer-Verlag, 1971.
-- [Ja87] J. C. Jantzen, *Representations of Algebraic Groups*, Academic Press, 1987; 2nd edition, Amer. Math. Soc., 2003.
+- [Ja87] J. C. Jantzen, *Representations of Algebraic Groups*, Academic Press, 1987; 2nd edition, Amer. Math. Soc.,
+    2003\.
 - [Jou83] J.-P. Jouanolou, *Théorèmes de Bertini et applications*, Birkhäuser, 1983.
-- [Ta75] M. Takeuchi, On coverings and hyperalgebras of affine algebraic groups, *Trans. Amer. Math. Soc.* 211 (1975), 249-275.
+- [Ta75] M. Takeuchi, On coverings and hyperalgebras of affine algebraic groups, *Trans. Amer. Math. Soc.* 211 (1975),
+    249-275.
 
 ## Footnotes
-
-[^XXIV-8-star]: This last condition is in fact unnecessary (cf. A. Grothendieck, *Groupe de Brauer III*, in *Dix Exposés sur la cohomologie des schémas*, North-Holland, 1968, theorem 11.7 and remarks 11.8.3).
-
-[^N.D.E-XXIV-0]: N.D.E.: Version of 13/10/2024.
-
-[^N.D.E-XXIV-1]: N.D.E.: Hence `Lie(u)(X'_{v(α)}) = X_α`, for every `α ∈ R'`.
-
-[^N.D.E-XXIV-2]: N.D.E.: One recalls that `ad(G) = G / Centr(G)` denotes the adjoint group of `G`, cf. XXII 4.3.6.
-
-[^N.D.E-XXIV-3]: N.D.E.: We have replaced here and in the sequel the notation `int(G)` by `ad(G)`.
-
-[^N.D.E-XXIV-4]: N.D.E.: cf. SGA 1, VIII 2.1.
-
-[^N.D.E-XXIV-5]: N.D.E.: We have corrected `ad(G) → Autext(G)` to `ad(G) → Aut(G)`.
-
-[^N.D.E-XXIV-6]: N.D.E.: We have corrected the original, which stated (i) without assuming `G` adjoint. Following the characterization of the `Hⁱ(G, −)` as derived functors of `Hom_G(k, −)` (Exp. I, 5.3.1; see also [Ja87], I 4.16), one has `Hⁱ(G, V) = Ext^i_G(k, V)` for every `G`-module `V`; now if `char(k) = p > 0` and `G = SL_{p, k}`, then `Lie(GL_p/k)` is a non-trivial extension of `k` by `g = Lie(SL_p/k)`, so `H¹(G, g) ≠ 0`. See also the addition 1.15.1 below.
-
-[^N.D.E-XXIV-7]: N.D.E.: We have replaced "scheme" by "field".
-
-[^N.D.E-XXIV-8]: N.D.E.: Because of the correction made in 1.13, we have given another proof in the case of `H¹`. On the other hand, it follows from a theorem of G. Kempf that `Hⁱ(G, k) = 0` for every `i > 0`, cf. [Ja87], II 4.5 and 4.11.
-
-[^N.D.E-XXIV-9]: N.D.E.: We have added this corollary, drawn from remarks of O. Gabber, which makes 1.13 (i) more precise.
-
-[^N.D.E-XXIV-10]: N.D.E.: cf. XXIII, Definition 5.11.
-
-[^N.D.E-XXIV-11]: N.D.E.: We have made explicit the preceding definitions (the original indicated "One defines similarly `Aut_{S-gr.}(G, X, Y)`, ..., `Isom_{S-gr.}(G, X; G', X')`, ...").
-
-[^N.D.E-XXIV-12]: N.D.E.: cf. SGA 1, VIII 1.9.
-
-[^N.D.E-XXIV-13]: N.D.E.: Therefore, if `P` possesses a section, then `T` and `T'` are isomorphic; in particular `T_P` and `T'_P` are isomorphic. See the addition 4.5.1 where this remark is developed in the case where `G = Ép_S(R)`.
-
-[^N.D.E-XXIV-14]: N.D.E.: by 2.7, since `Isomext(G, G')` possesses a section (cf. the preceding N.D.E.).
-
-[^N.D.E-XXIV-15]: N.D.E.: Recall that `Isomint_u(G, G')` is defined in 1.11.
-
-[^N.D.E-XXIV-16]: N.D.E.: We have added the hypothesis that `S'` be connected.
-
-[^N.D.E-XXIV-17]: N.D.E.: We have detailed the reference to Exp. XXII, 5.9.7.
-
-[^N.D.E-XXIV-18]: N.D.E.: The original referred to EGA IV, § 24, which has not appeared. The point is to use "Bertini's theorem". Let us detail the argument, which was indicated to us by O. Gabber. Let `X → S` be a surjective, smooth and projective morphism; replacing `S` by a connected component, one may assume that `X/S` has constant relative dimension `d` at every point (cf. EGA IV_4, 17.10.2). One may also assume that `X` is a closed subscheme of a projective space `P^n_S = P(E)`, where `E` is a free `A`-module of rank `n + 1` (cf. EGA II, 5.3.3). Let `s_1, ..., s_r` be the closed points of `S`; by Bertini's theorem (see for example [Jou83], I 6.10), there exists an open set `U` of the product `P = P(E^*)^d`, with non-empty fibers, such that for every point `u = (f_1, ..., f_d)` of `U_{s_i}`, the intersection of `X_{κ(u)}` with the `d` hyperplanes of `P^n_{κ(u)}` defined by `u` is étale over `κ(u)`. Up to shrinking `U`, one may assume that `U` is the complement in the affine space `A^{nd}_S` of the locus of zeros `V(Q)` of a certain polynomial `Q` of degree `m > 0`. One then sees easily (by induction on the number of variables) that `V(Q)` cannot contain all rational points of `A^{nd}_{κ(s_i)}` if `|κ(s_i)| > m`. Since the morphism `A → ∏_i κ(s_i)` is surjective, one can find a monic polynomial `R ∈ A[X]` of degree `m` whose image in `κ(s_i)[X]` is irreducible if `κ(s_i)` is finite, and possesses `m` distinct roots if `κ(s_i)` is infinite. Put `A' = A[X]/(R)` and `S' = Spec(A')`; then `S' → S` is étale, finite and surjective, and the residue field at each of its closed points `s'_1, ..., s'_t` is of cardinality `⩾ 2m`. Then `U` possesses a rational point `u_i` over each closed point of `S'`, and since `A' → ∏_i κ(s_i)` is surjective, these lift to a section `u` of `P_{S'}`. Write `Z` for the intersection of `X_{S'}` with the `d` hyperplanes of `P^n_{S'}` defined by `u`, and `V` for the open set of `Z` formed by the points at which `Z` is étale over `S'`. By EGA IV_3, 11.3.8, `V` contains the fibers `Z_{s'_i}` for every `i`; since `π : Z → S'` is proper, it follows that the closed set `π(Z − V)` is empty, whence `V = Z`. Then `Z → S'` is surjective, étale and proper, hence finite, as is the composite `Z → S`, and this yields the desired section of `X → S`.
-
-[^N.D.E-XXIV-19]: N.D.E.: We have sketched in 3.11.4 the verification of the fact that the functors `i`, `rev` and `qép` are fully faithful, and that the composite `rev ∘ i ∘ qép` is isomorphic to the identity functor of `Rev`.
-
-[^N.D.E-XXIV-20]: N.D.E.: We have expanded the original in the foregoing, to show that the action of `E` on `G'` is obtained by combining the natural action of `E` on `Ép_{S'}(R)` and the given action on `S'`. The canonical Killing couple of `G'` is preserved by this action, as is the quasi-pinning given by the element `X̃'` of `Γ(Δ_{S'}, Lie(G'/S')_{Δ_{S'}})`, equal to `X'_α` on the copy of `S'` indexed by `α` (indeed, since `E` acts on `Δ_{S'}` by permutation of the copies of `S'`, one has indeed `h(X̃') = X̃'` for every `h ∈ E`).
-
-[^N.D.E-XXIV-21]: N.D.E.: see, for example, TDTE I, p. 22, Example 1. One can also describe `qép(S')` as the twist of `G = Ép_S(R)` by the `E`-torsor `S'/S`, i.e. the (fpqc) sheaf quotient of `S' ×_S G` by the right action of `E` defined by `(s', g) · h = (s' h, h^{-1}(g))`. Since `G` is affine over `S` and since `E` acts on `G` by group automorphisms, this sheaf is representable by an `S`-group `G^♯`, which is a "twisted" form of `G`, and `D^♯ = Dyn(G^♯)` is the twist of the constant Dynkin scheme `Δ_S` by the torsor `S'/S`. Since `E` normalizes `B` and `T`, one obtains likewise a pair `(B^♯, T^♯)` which is a Killing couple of `G^♯`. On the other hand, let `g = Lie(G/S)` and `g^♯ = Lie(G^♯/S)`; for every `U → S`, the sections of `g^♯` on `U` are the `E`-equivariant `S`-morphisms `U ×_S S' → W(g)`. Since `D^♯ ×_S S'` is `E`-isomorphic to `Δ × S'`, equipped with the action `(α, s') · h = (h^{-1}(α), s' h)`, one obtains that the morphism given by `(α, s') ↦ X_α` is a section of `g^♯` on `D^♯` which is a quasi-pinning, i.e. a section nowhere zero of `(g^♯ ⊗_{O_S} O_{D^♯})^{D^♯}` (cf. 3.8).
-
-[^N.D.E-XXIV-22]: N.D.E.: We have added this number.
-
-[^N.D.E-XXIV-23]: N.D.E.: We write `Isomint(G_{q-ép.}, G)` instead of `Isomint_u(G_{q-ép.}, G)` (cf. 1.11), since the pair `(G_{q-ép.}, u)` is unique up to a unique isomorphism.
-
-[^N.D.E-XXIV-24]: N.D.E.: We have replaced "bundle" by "sheaf", and then `G'` by `G''`.
-
-[^N.D.E-XXIV-25]: N.D.E.: by "theorem 90".
-
-[^N.D.E-XXIV-26]: N.D.E.: We have added this no 4.5.
-
-[^N.D.E-XXIV-27]: N.D.E.: We have replaced `R` by `L`, as in 3.2.
-
-[^N.D.E-XXIV-28]: N.D.E.: We have corrected `F(−1, x)` to `F(1, −x)`.
-
-[^N.D.E-XXIV-29]: N.D.E.: We have corrected `p_{3α+β}(a)` to `p_{2α+β}(a)`, and detailed the end of the argument.
-
-[^N.D.E-XXIV-30]: N.D.E.: denoted (étf) in Exp. IV 6.3. In other words, for every `s ∈ S` there exist an open neighborhood `U` of `s` and a finite surjective étale morphism `V → U` such that `B' ×_S V ≃ B ×_S V`.
-
-[^N.D.E-XXIV-31]: N.D.E.: One can ask whether every smooth affine `S`-group, each of whose geometric fibers is a Borel subgroup of a semisimple group, is a Borel subgroup of a semisimple `S`-group. (We have suppressed the "counter-example" given in the original, for `S =` scheme of dual numbers over a field `k`, which was erroneous, as M. Demazure pointed out to us.)
-
-[^N.D.E-XXIV-32]: N.D.E.: See for example the proof of XXII 5.8.1.
-
-[^N.D.E-XXIV-33]: N.D.E.: We have corrected `X → Y` to `Y → X`.
-
-[^N.D.E-XXIV-34]: N.D.E.: We have simplified the proof of the original.
-
-[^N.D.E-XXIV-35]: N.D.E.: In what follows, the group law of `U_α` is written additively, that is, if one writes `p_α : G_{a, S} ⥲ U_α` for the isomorphism such that `p_α(1) = u_α` and if `x = p_α(z)`, then `α(t) x` (resp. `a(t, t') u_α`) denotes `p_α(α(t) z)` (resp. `p_α(a(t, t')) = α(t) u_α + α(t') u_α`).
-
-[^N.D.E-XXIV-36]: N.D.E.: i.e. for condition (ii) of 7.1.4 to be satisfied.
-
-[^N.D.E-XXIV-37]: N.D.E.: see also the addition in Exp. VI_B, 6.2.3.
-
-[^N.D.E-XXIV-38]: N.D.E.: i.e. for every `S' → Hom_{S-gr.}(T, H)`, with `S'` representable, `Hom_{S-gr.}(G, H) ×_S S'` is representable and the morphism of `S`-schemes `Hom_{S-gr.}(G, H) ×_S S' → S'` is separated and verifies `P`.
-
-[^N.D.E-XXIV-39]: N.D.E.: We have suppressed the hypothesis that `H` be quasi-separated, which is superfluous.
-
-[^N.D.E-XXIV-40]: N.D.E.: We have replaced `f_r` by `f_{rad}`.
-
-[^N.D.E-XXIV-41]: N.D.E.: Indeed, it is clear that `V^G ⊂ V^g`. On the other hand, `H = Centr_G(V^g)` is a closed subgroup of `G`, smooth since `char(k) = 0`; by Exp. II 5.3.1, one has `Lie(H) = Centr_g(V^g) = g`, and since `H` is smooth and `G` connected this entails `H = G`, whence `V^g ⊂ V^G` (see also [DG70], § II.6, Prop. 2.1 (c)).
-
-[^N.D.E-XXIV-42]: N.D.E.: Indeed, the union of the maximal tori of `G` is dense in `G`, cf. *Bible*, § 6.5, Th. 5 (= [Ch05], § 6.6, Th. 6).
-
-[^N.D.E-XXIV-43]: N.D.E.: Note that `R` is a torus.
-
-[^N.D.E-XXIV-44]: N.D.E.: i.e. that for every `S`-scheme `S'` local artinian, with closed point `s'`, every morphism of `κ(s')`-groups `G_{s'} → H_{s'}` lifts to a morphism of `S'`-groups `G_{S'} → H_{S'}`. By Exp. III 2.8, this follows from the vanishing of `H²(G_{s'}, V)`, where `V = Lie(H_{s'}/κ(s'))`.
-
-[^N.D.E-XXIV-45]: N.D.E.: see also [Bo91], II 7.9. Moreover, we have added the sentence that follows.
-
-[^N.D.E-XXIV-46]: N.D.E.: See Exp. VII_B for the definition of the formal groups `Ĝ` and `Ĥ`. Suppose that `S = Spec(k)`, where `k` is a field. By *loc. cit.*, 2.2.1, to give a morphism of `k`-formal groups `v : Ĝ → Ĥ` is equivalent to giving a morphism of `k`-Hopf algebras `φ : Dist(G) → Dist(H)`, where `Dist(G)` denotes the algebra of distributions (at the origin) of `G`, cf. Exp. VII_A, 2.1 or [DG70], § II.4, 6.1 or [Ja87], I 7.7 (it is called the "hyperalgebra" of `G` in [Di57] and [Ta75]). Theorem 4 of [Di57] (see also [Ta75], 0.3.4 (f) and (g)) generalizes in this context the theorem of Chevalley used in 7.3.5; one thereby obtains that there exists a closed connected `k`-subgroup `K` of `G × H` such that `K̂` equals the graph of `v`; since `Dist(K) → Dist(G)` is an isomorphism, `K → G` is a finite étale morphism. One then deduces that `K` is semisimple and then, by Exp. XXI 6.2.7, that `K → G` is an isomorphism (since `G` is simply connected); see also [Ta75], 1.8 and 2.2. More generally, *loc. cit.* studies the `k`-groups `G` having the property (SC): every finite étale morphism of `k`-groups `G' → G`, with `G'` connected, is an isomorphism. Note finally that what precedes shows that every `Dist(G)`-module `V` of finite dimension is, uniquely, a `G`-module; for an extension to the case of a split reductive `k`-group `G` (or even of a Borel subgroup of `G`) see [Ja87], II 1.20 (and the references therein).
-
-[^N.D.E-XXIV-47]: N.D.E.: Note that `S'` is still local and henselian. Furthermore, we have kept the numbering of the original: there is no no 8.1.1.
-
-[^N.D.E-XXIV-48]: N.D.E.: See § V 3.1.4 of [Gi71].
-
-[^N.D.E-XXIV-49]: N.D.E.: This reference also refers to § V 3.1.4 of [Gi71].
-
-[^N.D.E-XXIV-50]: N.D.E.: We have added to these three references, figuring in the original, the following references.
 
 <!-- LEDGER DELTA — Exposé XXIV — for consolidation in Phase 3
 | French | English | Note |
@@ -3506,3 +3401,188 @@ surjective, hence covering for the topology considered.
 | algèbre de Lie semi-simple | semisimple Lie algebra | Per glossary. |
 | nombres duaux | dual numbers | Standard. |
 -->
+
+[^N.D.E-XXIV-0]: N.D.E.: Version of 13/10/2024.
+
+[^N.D.E-XXIV-1]: N.D.E.: Hence `Lie(u)(X'_{v(α)}) = X_α`, for every `α ∈ R'`.
+
+[^N.D.E-XXIV-2]: N.D.E.: One recalls that `ad(G) = G / Centr(G)` denotes the adjoint group of `G`, cf. XXII 4.3.6.
+
+[^N.D.E-XXIV-3]: N.D.E.: We have replaced here and in the sequel the notation `int(G)` by `ad(G)`.
+
+[^N.D.E-XXIV-4]: N.D.E.: cf. SGA 1, VIII 2.1.
+
+[^N.D.E-XXIV-5]: N.D.E.: We have corrected `ad(G) → Autext(G)` to `ad(G) → Aut(G)`.
+
+[^N.D.E-XXIV-6]: N.D.E.: We have corrected the original, which stated (i) without assuming `G` adjoint. Following the
+    characterization of the `Hⁱ(G, −)` as derived functors of `Hom_G(k, −)` (Exp. I, 5.3.1; see also
+    [Ja87], I 4.16), one has `Hⁱ(G, V) = Ext^i_G(k, V)` for every `G`-module `V`; now if `char(k) = p > 0`
+    and `G = SL_{p, k}`, then `Lie(GL_p/k)` is a non-trivial extension of `k` by `g = Lie(SL_p/k)`, so
+    `H¹(G, g) ≠ 0`. See also the addition 1.15.1 below.
+
+[^N.D.E-XXIV-7]: N.D.E.: We have replaced "scheme" by "field".
+
+[^N.D.E-XXIV-8]: N.D.E.: Because of the correction made in 1.13, we have given another proof in the case of `H¹`. On the
+    other hand, it follows from a theorem of G. Kempf that `Hⁱ(G, k) = 0` for every `i > 0`, cf. [Ja87], II
+    4.5 and 4.11.
+
+[^N.D.E-XXIV-9]: N.D.E.: We have added this corollary, drawn from remarks of O. Gabber, which makes 1.13 (i) more
+    precise.
+
+[^N.D.E-XXIV-10]: N.D.E.: cf. XXIII, Definition 5.11.
+
+[^N.D.E-XXIV-11]: N.D.E.: We have made explicit the preceding definitions (the original indicated "One defines similarly
+    `Aut_{S-gr.}(G, X, Y)`, ..., `Isom_{S-gr.}(G, X; G', X')`, ...").
+
+[^N.D.E-XXIV-12]: N.D.E.: cf. SGA 1, VIII 1.9.
+
+[^N.D.E-XXIV-13]: N.D.E.: Therefore, if `P` possesses a section, then `T` and `T'` are isomorphic; in particular `T_P`
+    and `T'_P` are isomorphic. See the addition 4.5.1 where this remark is developed in the case where
+    `G = Ép_S(R)`.
+
+[^N.D.E-XXIV-14]: N.D.E.: by 2.7, since `Isomext(G, G')` possesses a section (cf. the preceding N.D.E.).
+
+[^N.D.E-XXIV-15]: N.D.E.: Recall that `Isomint_u(G, G')` is defined in 1.11.
+
+[^N.D.E-XXIV-16]: N.D.E.: We have added the hypothesis that `S'` be connected.
+
+[^N.D.E-XXIV-17]: N.D.E.: We have detailed the reference to Exp. XXII, 5.9.7.
+
+[^N.D.E-XXIV-18]: N.D.E.: The original referred to EGA IV, § 24, which has not appeared. The point is to use "Bertini's
+    theorem". Let us detail the argument, which was indicated to us by O. Gabber. Let `X → S` be a
+    surjective, smooth and projective morphism; replacing `S` by a connected component, one may assume
+    that `X/S` has constant relative dimension `d` at every point (cf. EGA IV_4, 17.10.2). One may also
+    assume that `X` is a closed subscheme of a projective space `P^n_S = P(E)`, where `E` is a free
+    `A`-module of rank `n + 1` (cf. EGA II, 5.3.3). Let `s_1, ..., s_r` be the closed points of `S`; by
+    Bertini's theorem (see for example [Jou83], I 6.10), there exists an open set `U` of the product
+    `P = P(E^*)^d`, with non-empty fibers, such that for every point `u = (f_1, ..., f_d)` of `U_{s_i}`,
+    the intersection of `X_{κ(u)}` with the `d` hyperplanes of `P^n_{κ(u)}` defined by `u` is étale over
+    `κ(u)`. Up to shrinking `U`, one may assume that `U` is the complement in the affine space `A^{nd}_S`
+    of the locus of zeros `V(Q)` of a certain polynomial `Q` of degree `m > 0`. One then sees easily (by
+    induction on the number of variables) that `V(Q)` cannot contain all rational points of
+    `A^{nd}_{κ(s_i)}` if `|κ(s_i)| > m`. Since the morphism `A → ∏_i κ(s_i)` is surjective, one can find a
+    monic polynomial `R ∈ A[X]` of degree `m` whose image in `κ(s_i)[X]` is irreducible if `κ(s_i)` is
+    finite, and possesses `m` distinct roots if `κ(s_i)` is infinite. Put `A' = A[X]/(R)` and
+    `S' = Spec(A')`; then `S' → S` is étale, finite and surjective, and the residue field at each of its
+    closed points `s'_1, ..., s'_t` is of cardinality `⩾ 2m`. Then `U` possesses a rational point `u_i`
+    over each closed point of `S'`, and since `A' → ∏_i κ(s_i)` is surjective, these lift to a section `u`
+    of `P_{S'}`. Write `Z` for the intersection of `X_{S'}` with the `d` hyperplanes of `P^n_{S'}` defined
+    by `u`, and `V` for the open set of `Z` formed by the points at which `Z` is étale over `S'`. By EGA
+    IV_3, 11.3.8, `V` contains the fibers `Z_{s'_i}` for every `i`; since `π : Z → S'` is proper, it
+    follows that the closed set `π(Z − V)` is empty, whence `V = Z`. Then `Z → S'` is surjective, étale
+    and proper, hence finite, as is the composite `Z → S`, and this yields the desired section of `X → S`.
+
+[^N.D.E-XXIV-19]: N.D.E.: We have sketched in 3.11.4 the verification of the fact that the functors `i`, `rev` and `qép`
+    are fully faithful, and that the composite `rev ∘ i ∘ qép` is isomorphic to the identity functor of
+    `Rev`.
+
+[^N.D.E-XXIV-20]: N.D.E.: We have expanded the original in the foregoing, to show that the action of `E` on `G'` is
+    obtained by combining the natural action of `E` on `Ép_{S'}(R)` and the given action on `S'`. The
+    canonical Killing couple of `G'` is preserved by this action, as is the quasi-pinning given by the
+    element `X̃'` of `Γ(Δ_{S'}, Lie(G'/S')_{Δ_{S'}})`, equal to `X'_α` on the copy of `S'` indexed by `α`
+    (indeed, since `E` acts on `Δ_{S'}` by permutation of the copies of `S'`, one has indeed
+    `h(X̃') = X̃'` for every `h ∈ E`).
+
+[^N.D.E-XXIV-21]: N.D.E.: see, for example, TDTE I, p. 22, Example 1. One can also describe `qép(S')` as the twist of
+    `G = Ép_S(R)` by the `E`-torsor `S'/S`, i.e. the (fpqc) sheaf quotient of `S' ×_S G` by the right
+    action of `E` defined by `(s', g) · h = (s' h, h^{-1}(g))`. Since `G` is affine over `S` and since `E`
+    acts on `G` by group automorphisms, this sheaf is representable by an `S`-group `G^♯`, which is a
+    "twisted" form of `G`, and `D^♯ = Dyn(G^♯)` is the twist of the constant Dynkin scheme `Δ_S` by the
+    torsor `S'/S`. Since `E` normalizes `B` and `T`, one obtains likewise a pair `(B^♯, T^♯)` which is a
+    Killing couple of `G^♯`. On the other hand, let `g = Lie(G/S)` and `g^♯ = Lie(G^♯/S)`; for every
+    `U → S`, the sections of `g^♯` on `U` are the `E`-equivariant `S`-morphisms `U ×_S S' → W(g)`. Since
+    `D^♯ ×_S S'` is `E`-isomorphic to `Δ × S'`, equipped with the action
+    `(α, s') · h = (h^{-1}(α), s' h)`, one obtains that the morphism given by `(α, s') ↦ X_α` is a section
+    of `g^♯` on `D^♯` which is a quasi-pinning, i.e. a section nowhere zero of
+    `(g^♯ ⊗_{O_S} O_{D^♯})^{D^♯}` (cf. 3.8).
+
+[^N.D.E-XXIV-22]: N.D.E.: We have added this number.
+
+[^N.D.E-XXIV-24]: N.D.E.: We have replaced "bundle" by "sheaf", and then `G'` by `G''`.
+
+[^N.D.E-XXIV-25]: N.D.E.: by "theorem 90".
+
+[^N.D.E-XXIV-26]: N.D.E.: We have added this no 4.5.
+
+[^N.D.E-XXIV-27]: N.D.E.: We have replaced `R` by `L`, as in 3.2.
+
+[^N.D.E-XXIV-28]: N.D.E.: We have corrected `F(−1, x)` to `F(1, −x)`.
+
+[^N.D.E-XXIV-29]: N.D.E.: We have corrected `p_{3α+β}(a)` to `p_{2α+β}(a)`, and detailed the end of the argument.
+
+[^N.D.E-XXIV-30]: N.D.E.: denoted (étf) in Exp. IV 6.3. In other words, for every `s ∈ S` there exist an open
+    neighborhood `U` of `s` and a finite surjective étale morphism `V → U` such that `B' ×_S V ≃ B ×_S V`.
+
+[^N.D.E-XXIV-31]: N.D.E.: One can ask whether every smooth affine `S`-group, each of whose geometric fibers is a Borel
+    subgroup of a semisimple group, is a Borel subgroup of a semisimple `S`-group. (We have suppressed the
+    "counter-example" given in the original, for `S =` scheme of dual numbers over a field `k`, which was
+    erroneous, as M. Demazure pointed out to us.)
+
+[^N.D.E-XXIV-32]: N.D.E.: See for example the proof of XXII 5.8.1.
+
+[^N.D.E-XXIV-33]: N.D.E.: We have corrected `X → Y` to `Y → X`.
+
+[^N.D.E-XXIV-34]: N.D.E.: We have simplified the proof of the original.
+
+[^N.D.E-XXIV-35]: N.D.E.: In what follows, the group law of `U_α` is written additively, that is, if one writes
+    `p_α : G_{a, S} ⥲ U_α` for the isomorphism such that `p_α(1) = u_α` and if `x = p_α(z)`, then `α(t) x`
+    (resp. `a(t, t') u_α`) denotes `p_α(α(t) z)` (resp. `p_α(a(t, t')) = α(t) u_α + α(t') u_α`).
+
+[^N.D.E-XXIV-36]: N.D.E.: i.e. for condition (ii) of 7.1.4 to be satisfied.
+
+[^N.D.E-XXIV-37]: N.D.E.: see also the addition in Exp. VI_B, 6.2.3.
+
+[^N.D.E-XXIV-38]: N.D.E.: i.e. for every `S' → Hom_{S-gr.}(T, H)`, with `S'` representable, `Hom_{S-gr.}(G, H) ×_S S'`
+    is representable and the morphism of `S`-schemes `Hom_{S-gr.}(G, H) ×_S S' → S'` is separated and
+    verifies `P`.
+
+[^N.D.E-XXIV-39]: N.D.E.: We have suppressed the hypothesis that `H` be quasi-separated, which is superfluous.
+
+[^N.D.E-XXIV-40]: N.D.E.: We have replaced `f_r` by `f_{rad}`.
+
+[^N.D.E-XXIV-41]: N.D.E.: Indeed, it is clear that `V^G ⊂ V^g`. On the other hand, `H = Centr_G(V^g)` is a closed
+    subgroup of `G`, smooth since `char(k) = 0`; by Exp. II 5.3.1, one has `Lie(H) = Centr_g(V^g) = g`,
+    and since `H` is smooth and `G` connected this entails `H = G`, whence `V^g ⊂ V^G` (see also [DG70], §
+    II.6, Prop. 2.1 (c)).
+
+[^N.D.E-XXIV-42]: N.D.E.: Indeed, the union of the maximal tori of `G` is dense in `G`, cf. *Bible*, § 6.5, Th. 5 (=
+    [Ch05], § 6.6, Th. 6).
+
+[^N.D.E-XXIV-43]: N.D.E.: Note that `R` is a torus.
+
+[^N.D.E-XXIV-44]: N.D.E.: i.e. that for every `S`-scheme `S'` local artinian, with closed point `s'`, every morphism of
+    `κ(s')`-groups `G_{s'} → H_{s'}` lifts to a morphism of `S'`-groups `G_{S'} → H_{S'}`. By Exp. III
+    2.8, this follows from the vanishing of `H²(G_{s'}, V)`, where `V = Lie(H_{s'}/κ(s'))`.
+
+[^N.D.E-XXIV-45]: N.D.E.: see also [Bo91], II 7.9. Moreover, we have added the sentence that follows.
+
+[^N.D.E-XXIV-46]: N.D.E.: See Exp. VII_B for the definition of the formal groups `Ĝ` and `Ĥ`. Suppose that
+    `S = Spec(k)`, where `k` is a field. By *loc. cit.*, 2.2.1, to give a morphism of `k`-formal groups
+    `v : Ĝ → Ĥ` is equivalent to giving a morphism of `k`-Hopf algebras `φ : Dist(G) → Dist(H)`, where
+    `Dist(G)` denotes the algebra of distributions (at the origin) of `G`, cf. Exp. VII_A, 2.1 or [DG70],
+    § II.4, 6.1 or [Ja87], I 7.7 (it is called the "hyperalgebra" of `G` in [Di57] and [Ta75]). Theorem 4
+    of [Di57] (see also [Ta75], 0.3.4 (f) and (g)) generalizes in this context the theorem of Chevalley
+    used in 7.3.5; one thereby obtains that there exists a closed connected `k`-subgroup `K` of `G × H`
+    such that `K̂` equals the graph of `v`; since `Dist(K) → Dist(G)` is an isomorphism, `K → G` is a
+    finite étale morphism. One then deduces that `K` is semisimple and then, by Exp. XXI 6.2.7, that
+    `K → G` is an isomorphism (since `G` is simply connected); see also [Ta75], 1.8 and 2.2. More
+    generally, *loc. cit.* studies the `k`-groups `G` having the property (SC): every finite étale
+    morphism of `k`-groups `G' → G`, with `G'` connected, is an isomorphism. Note finally that what
+    precedes shows that every `Dist(G)`-module `V` of finite dimension is, uniquely, a `G`-module; for an
+    extension to the case of a split reductive `k`-group `G` (or even of a Borel subgroup of `G`) see
+    [Ja87], II 1.20 (and the references therein).
+
+[^XXIV-8-star]: This last condition is in fact unnecessary (cf. A. Grothendieck, *Groupe de Brauer III*, in *Dix Exposés
+    sur la cohomologie des schémas*, North-Holland, 1968, theorem 11.7 and remarks 11.8.3).
+
+[^N.D.E-XXIV-47]: N.D.E.: Note that `S'` is still local and henselian. Furthermore, we have kept the numbering of the
+    original: there is no no 8.1.1.
+
+[^N.D.E-XXIV-48]: N.D.E.: See § V 3.1.4 of [Gi71].
+
+[^N.D.E-XXIV-49]: N.D.E.: This reference also refers to § V 3.1.4 of [Gi71].
+
+[^N.D.E-XXIV-50]: N.D.E.: We have added to these three references, figuring in the original, the following references.
+
+[^N.D.E-XXIV-23]: N.D.E.: We write `Isomint(G_{q-ép.}, G)` instead of `Isomint_u(G_{q-ép.}, G)` (cf. 1.11), since the
+    pair `(G_{q-ép.}, u)` is unique up to a unique isomorphism.

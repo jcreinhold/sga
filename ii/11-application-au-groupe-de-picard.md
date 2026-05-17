@@ -23,21 +23,23 @@ on `Y`
 ```text
 0 ⟶ P_n ──u──→ O*_{X_{n+1}} ──v──→ O*_{X_n} ⟶ 1
 ```
+
 <!-- label: eq:XI.1.1 -->
 
-is exact. Let us be precise: the group structure on `P_n` is the additive structure, `u(x) = 1 + x` for every
-`x ∈ P_n`, and `v` is the homomorphism deduced from the injection `I^{n+2} → I^{n+1}`. We see that `v` is surjective by
-remarking that, for every `y ∈ Y`, `O_{X_n, y}` is a local ring, the quotient of `O_{X_{n+1}, y}` by a nilpotent ideal;
-the rest is equally trivial. From (1.1) we deduce an exact cohomology sequence:
+is exact. Let us be precise: the group structure on `P_n` is the additive structure, `u(x) = 1 + x` for every `x ∈ P_n`,
+and `v` is the homomorphism deduced from the injection `I^{n+2} → I^{n+1}`. We see that `v` is surjective by remarking
+that, for every `y ∈ Y`, `O_{X_n, y}` is a local ring, the quotient of `O_{X_{n+1}, y}` by a nilpotent ideal; the rest
+is equally trivial. From (1.1) we deduce an exact cohomology sequence:
 
 ```text
 (∗)   H¹(Y, P_n) ──u¹──→ H¹(Y, O*_{X_{n+1}}) ──v¹──→ H¹(Y, O*_{X_n}) ──d──→ H²(Y, P_n).
 ```
+
 <!-- label: eq:XI.1.star -->
 
 On the other hand, for every `n ∈ ℕ`, one knows how to identify `Pic(X_n)` with `H¹(Y, O*_{X_n})`; moreover, if `E` is
-an invertible `O_{X_{n+1}}`-Module corresponding to a cohomology class `c(E)`, the cohomology class corresponding to
-the inverse image of `E` on `X_n` is equal to `v¹(c(E))`.
+an invertible `O_{X_{n+1}}`-Module corresponding to a cohomology class `c(E)`, the cohomology class corresponding to the
+inverse image of `E` on `X_n` is equal to `v¹(c(E))`.
 
 <!-- original page 101 -->
 
@@ -60,6 +62,7 @@ sequence:
 ```text
 0 ⟶ H_0 ⊗ P_n ⟶ Hom(E_{n+1}, F_{n+1}) ⟶ Hom(E_n, F_n) ⟶ 0.
 ```
+
 <!-- label: eq:XI.1.2 -->
 
 Whence an exact cohomology sequence that we shall not write down and whose interpretation is evident; one may use this
@@ -80,6 +83,7 @@ Suppose that `Lef(X, Y)` holds; then for every open neighborhood `U` of `Y` in `
 ```text
 P(U) ⟶ P(X̂)
 ```
+
 <!-- label: eq:XI.2.1 -->
 
 is fully faithful, so that the map
@@ -87,6 +91,7 @@ is fully faithful, so that the map
 ```text
 Pic(U) ⟶ Pic(X̂)
 ```
+
 <!-- label: eq:XI.2.2 -->
 
 <!-- original page 102 -->
@@ -96,6 +101,7 @@ is injective. If `Leff(X, Y)` holds, then the map (2.3) is an isomorphism:
 ```text
 lim→_U Pic(U) ⟶ Pic(X̂).
 ```
+
 <!-- label: eq:XI.2.3 -->
 
 **Corollary.**
@@ -131,8 +137,8 @@ A definition:
 <!-- label: XI.3.1 -->
 
 Let `X` be a prescheme and let `Z` be a closed part of `X`. Set `U = X − Z`. We say that `X` is *parafactorial at the
-points of* `Z` if, for every open set `V` of `X`, the functor `P(V) → P(V ∩ U)` is an equivalence of categories. We
-also say that the pair `(X, Z)` is *parafactorial*.
+points of* `Z` if, for every open set `V` of `X`, the functor `P(V) → P(V ∩ U)` is an equivalence of categories. We also
+say that the pair `(X, Z)` is *parafactorial*.
 
 Recall that `P(Z)` denotes the category of Modules locally free of rank 1 on `Z`.
 
@@ -172,12 +178,11 @@ find:
 
 <!-- label: XI.3.5 -->
 
-Let `A` be a noetherian local ring; in order that it be parafactorial, it is necessary and sufficient that
-`prof A ⩾ 2` and `Pic(X′ − {x}) = 0`, where we have set `X′ = Spec(A)` and `x` is the unique closed point of `X′`.
+Let `A` be a noetherian local ring; in order that it be parafactorial, it is necessary and sufficient that `prof A ⩾ 2`
+and `Pic(X′ − {x}) = 0`, where we have set `X′ = Spec(A)` and `x` is the unique closed point of `X′`.
 
 Note that a local ring of dimension `⩽ 1` is never parafactorial, since its depth is `⩽ 1`. Hence "factorial" does not
-imply "parafactorial"; however, the converse holds for noetherian local rings of dimension `⩾ 2`, as we shall see
-below.
+imply "parafactorial"; however, the converse holds for noetherian local rings of dimension `⩾ 2`, as we shall see below.
 
 <!-- original page 104 -->
 
@@ -185,15 +190,15 @@ below.
 
 <!-- label: XI.3.6 -->
 
-Let `X` be a locally noetherian prescheme and let `Z` be a closed part of `X`. Let `f: X_1 → X` be a faithfully flat
-and quasi-compact morphism. Set `Z_1 = f⁻¹(Z)`. If `(X_1, Z_1)` is parafactorial, then so is `(X, Z)`.
+Let `X` be a locally noetherian prescheme and let `Z` be a closed part of `X`. Let `f: X_1 → X` be a faithfully flat and
+quasi-compact morphism. Set `Z_1 = f⁻¹(Z)`. If `(X_1, Z_1)` is parafactorial, then so is `(X, Z)`.
 
 We first remark that, if `i: (X − Z) → X` denotes the canonical immersion of `U = X − Z` into `X`, the formation of the
 direct image by `i` of a quasi-coherent `O_U`-Module commutes with the base change `f`, since the latter is flat. It is
 therefore equivalent to assume the equivalent conditions of Lemma 3.5 for `(X, Z)` or for `(X_1, Z_1)`, since `f` is a
-morphism of descent for the category of quasi-coherent sheaves. It remains to prove that, for every open set `V` of
-`X`, `Pic(V) → Pic(V ∩ U)` is surjective. We make the base change `V → X`, which changes nothing (*sic*), and we are
-reduced to the case `V = X`. We then remark that, if `L` is an invertible `O_U`-Module and if `L` admits a locally free
+morphism of descent for the category of quasi-coherent sheaves. It remains to prove that, for every open set `V` of `X`,
+`Pic(V) → Pic(V ∩ U)` is surjective. We make the base change `V → X`, which changes nothing (*sic*), and we are reduced
+to the case `V = X`. We then remark that, if `L` is an invertible `O_U`-Module and if `L` admits a locally free
 prolongation, this prolongation is isomorphic to `i_*(L)`, because of what has just been seen. It remains to prove that
 `i_*(L)` is invertible. Using once more the fact that the direct image by `i` commutes with flat base change, and that
 "locally free of rank 1" is a property that descends by faithfully flat and quasi-compact morphism, we are done.
@@ -263,13 +268,12 @@ lim→_{i ∈ I} Pic(U_i) ──≅──→ Cl(X).
 Note that b) implies that every `x ∈ X` such that `dim O_{X,x} ⩽ 1` belongs to `U_i` for every `i`. Hence the `U_i` are
 dense, and moreover the homomorphism `Z¹(U_i) → Z¹(X)` is an isomorphism, as is `K(U_i) → K(X)`. So
 `Pic(U) ⊂ Cl(U_i) ≃ Cl(X)`. To prove what is desired, it therefore suffices to show that every `D ∈ Z¹(X)` belongs to
-`Z′¹(U_i)` for a suitable `i`. It suffices to do this for irreducible positive "divisors". Let then `x ∈ X` be such
-that `dim O_{X,x} = 1`. It suffices to prove that there exists `i ∈ I` such that `{x}` is locally principal at the
-points of `U_i`. Let `I` be the largest ideal of definition of the closed set `{x}`. The set of points in whose
-neighborhood `I` is free is an open set `U`. Now `U ⊃ ⋂_{i ∈ I} U_i` by c). If we set `Y = X − U`, then
-`Y ⊂ ⋃_{i ∈ I} Y_i` with `Y_i = X − U_i`; now `Y` is closed, so admits a finite number of generic points, so is
-contained in the union of finitely many `Y_i`, hence in some `Y_j` for a `j ∈ I`, because the `U_i` form a filter base.
-Thus `U ⊃ U_j`. QED.
+`Z′¹(U_i)` for a suitable `i`. It suffices to do this for irreducible positive "divisors". Let then `x ∈ X` be such that
+`dim O_{X,x} = 1`. It suffices to prove that there exists `i ∈ I` such that `{x}` is locally principal at the points of
+`U_i`. Let `I` be the largest ideal of definition of the closed set `{x}`. The set of points in whose neighborhood `I`
+is free is an open set `U`. Now `U ⊃ ⋂_{i ∈ I} U_i` by c). If we set `Y = X − U`, then `Y ⊂ ⋃_{i ∈ I} Y_i` with
+`Y_i = X − U_i`; now `Y` is closed, so admits a finite number of generic points, so is contained in the union of
+finitely many `Y_i`, hence in some `Y_j` for a `j ∈ I`, because the `U_i` form a filter base. Thus `U ⊃ U_j`. QED.
 
 **Corollary.**
 
@@ -356,8 +360,8 @@ One knows some parafactorial rings:
 
 <!-- label: XI.3.13 -->
 
-1. (Auslander–Buchsbaum)[^N.D.E-XI-4] A regular noetherian local ring is factorial (hence parafactorial if its
-    dimension is `⩾ 2`).
+1. (Auslander–Buchsbaum)[^N.D.E-XI-4] A regular noetherian local ring is factorial (hence parafactorial if its dimension
+    is `⩾ 2`).
 1. A noetherian local ring of dimension `⩾ 4` that is a complete intersection is parafactorial.
 
 **Corollary** (Samuel conjecture)[^N.D.E-XI-5]**.**
@@ -368,18 +372,18 @@ A noetherian local ring `A` that is a complete intersection and that is factoria
 `dim A_p ⩽ 3` implies that `A_p` is factorial) is factorial.
 
 *Proof of the corollary.* We argue by induction on the dimension of `A`. If `dim A ⩽ 3`, then `A` is factorial by
-hypothesis. If `dim A > 3`, by the induction hypothesis, and remarking that a localization of a complete intersection
-is also a complete intersection, all localizations of `A` other than `A` itself are factorial. By Theorem 3.13 (ii),
-`A` is parafactorial, hence factorial by 3.10.
+hypothesis. If `dim A > 3`, by the induction hypothesis, and remarking that a localization of a complete intersection is
+also a complete intersection, all localizations of `A` other than `A` itself are factorial. By Theorem 3.13 (ii), `A` is
+parafactorial, hence factorial by 3.10.
 
 *Proof of 3.13 (i)* (following Kaplansky).[^XI-3-star5]
 
 Let `A` be a regular noetherian local ring; set `dim A = n`. If `n = 0` or `1`, the result is known. Suppose `n ⩾ 2`,
-and argue by induction on `n`: suppose `n ⩾ 2` and the theorem proved for rings of dimension `< n`. Set
-`X′ = Spec(A)` and `X = X′ − {x}`, where `x = r(A)`. The localizations of `A` other than `A` are regular and of
-dimension `< n`, hence factorial. Moreover `prof A = dim A ⩾ 2`. It therefore suffices to prove that `Pic(X) = 0`
-(Cor. 3.10). Let then `L` be an invertible `O_X`-Module; one knows that one can prolong it to a coherent
-`O_{X′}`-Module `L′`. There exists a resolution of `L′` by free `O_{X′}`-Modules:
+and argue by induction on `n`: suppose `n ⩾ 2` and the theorem proved for rings of dimension `< n`. Set `X′ = Spec(A)`
+and `X = X′ − {x}`, where `x = r(A)`. The localizations of `A` other than `A` are regular and of dimension `< n`, hence
+factorial. Moreover `prof A = dim A ⩾ 2`. It therefore suffices to prove that `Pic(X) = 0` (Cor. 3.10). Let then `L` be
+an invertible `O_X`-Module; one knows that one can prolong it to a coherent `O_{X′}`-Module `L′`. There exists a
+resolution of `L′` by free `O_{X′}`-Modules:
 
 ```text
 0 ⟵ L′ ⟵ L′_1 ⟵ ⋯ ⟵ L′_n ⟵ 0,
@@ -433,9 +437,9 @@ know thanks to (2.2) that `Pic(X) → Pic(Y)` is injective. If, moreover, `B` is
 `Pic(Y) = 0` (3.5), hence `Pic(X) = 0`; now `prof(A) ⩾ 3 + 1 ⩾ 2` since `t` is `A`-regular, so `A` will be parafactorial
 by 3.5.[^TRANSLATOR-XI-1]
 
-Let `I = (tA)^∼` be the `O_{X′}`-Module associated with the ideal `tA`. In no. 1, we set
-`P_n = (I^{n+1}/I^{n+2})|Y` for every `n ⩾ 0`. Now `t` is `A`-regular, so `P_n ≃ O_Y`. It therefore remains to prove
-that `H¹(Y, O_Y) = 0`. Now `Y = Y′ − {x}` is an open subset of `Y′`, so we have an exact sequence (I (27)):
+Let `I = (tA)^∼` be the `O_{X′}`-Module associated with the ideal `tA`. In no. 1, we set `P_n = (I^{n+1}/I^{n+2})|Y` for
+every `n ⩾ 0`. Now `t` is `A`-regular, so `P_n ≃ O_Y`. It therefore remains to prove that `H¹(Y, O_Y) = 0`. Now
+`Y = Y′ − {x}` is an open subset of `Y′`, so we have an exact sequence (I (27)):
 
 ```text
 H¹(Y′, O_{Y′}) ⟶ H¹(Y, O_Y) ⟶ H²_x(Y′, O_{Y′}),
@@ -453,22 +457,22 @@ Retaining the hypotheses of 3.16, suppose moreover that:
 1. (d) `prof A/tA ⩾ 4` (stronger than b),
 1. (e) for every `y` closed in `X` with `y ∈ Y`, the ring `O_{X,y}` is parafactorial.
 
-Then the map `Pic(X) → Pic(Y)` is an isomorphism; in particular, in order that `A` be parafactorial, it is necessary
-and sufficient that `B` be so.
+Then the map `Pic(X) → Pic(Y)` is an isomorphism; in particular, in order that `A` be parafactorial, it is necessary and
+sufficient that `B` be so.
 
 One knows (X 2.1) that a) and c) imply `Leff(X, Y)`. Moreover, by the reasoning just made, d) implies that
 `H^i(Y, P_n) = 0` for every `n ⩾ 0` and `i = 1` or `i = 2`. Furthermore, for every open neighborhood `U` of `Y` in `X`,
-the complement of `U` in `X` consists of a finite number of closed points. Thanks to e) and Theorem 3.12, we deduce
-that `Pic(X) → Pic(Y)` is an isomorphism. On the other hand, `prof A ⩾ prof B ⩾ 2`; by criterion 3.5, we deduce that
-`A` is parafactorial if and only if `B` is so.
+the complement of `U` in `X` consists of a finite number of closed points. Thanks to e) and Theorem 3.12, we deduce that
+`Pic(X) → Pic(Y)` is an isomorphism. On the other hand, `prof A ⩾ prof B ⩾ 2`; by criterion 3.5, we deduce that `A` is
+parafactorial if and only if `B` is so.
 
 Let us now prove 3.13 (ii). Let `R` be a regular noetherian local ring. Let `(t_1, …, t_k)` be an `R`-sequence. Set
-`B = R/(t_1, …, t_k)` and suppose `dim B ⩾ 4`. We must prove that `B` is parafactorial. We argue by induction on `k`.
-If `k = 0`, then `B` is regular, hence factorial by 3.13 (i), hence parafactorial by 3.10. Suppose `k ⩾ 1` and the
-theorem proved for `k′ < k`. Set `A = R/(t_1, …, t_{k−1})`, so `B = A/t_k A`. We may suppose `B` complete by 3.7. By
-the induction hypothesis, `A` is parafactorial. Let us prove that we may apply Lemma 3.17. We have supposed `B`
-complete, hence so is `A`, and therefore `A` is complete for the `t_k`-adic topology. If `x ∈ X`, and if `x` is closed
-in `X`, then `A_x` is a complete intersection of dimension `⩾ 4`, with `k′ < k`. By the induction hypothesis, `A_x` is
+`B = R/(t_1, …, t_k)` and suppose `dim B ⩾ 4`. We must prove that `B` is parafactorial. We argue by induction on `k`. If
+`k = 0`, then `B` is regular, hence factorial by 3.13 (i), hence parafactorial by 3.10. Suppose `k ⩾ 1` and the theorem
+proved for `k′ < k`. Set `A = R/(t_1, …, t_{k−1})`, so `B = A/t_k A`. We may suppose `B` complete by 3.7. By the
+induction hypothesis, `A` is parafactorial. Let us prove that we may apply Lemma 3.17. We have supposed `B` complete,
+hence so is `A`, and therefore `A` is complete for the `t_k`-adic topology. If `x ∈ X`, and if `x` is closed in `X`,
+then `A_x` is a complete intersection of dimension `⩾ 4`, with `k′ < k`. By the induction hypothesis, `A_x` is
 parafactorial, and moreover of depth `⩾ 4`. This gives a), c), and e). Moreover `dim A ⩾ 5`, whence d). QED.
 
 **Theorem.**
@@ -492,44 +496,6 @@ Pic(X) ⟶ Pic(U) ⟶ Pic(Y_p)
 are isomorphisms, where `Y_p` denotes the prescheme `(Y, O_X/I^{p+1})`.
 
 It suffices to combine 3.12 and 3.13.
-
-[^XI-3-star1]: For a more detailed study of the notion of parafactoriality, and the proof of 3.3, cf. EGA IV 21.13,
-    21.14.
-
-[^XI-3-star2]: For the generalities that follow, cf. also EGA IV 21.
-
-[^XI-3-star3]: In conformity with the terminology of EGA IV 21, we now prefer to reserve the name "divisors" for
-    "locally principal divisors" or "Cartier divisors".
-
-[^XI-3-star4]: Cf. EGA IV 5.8.6.
-
-[^XI-3-star5]: It is the proof reproduced in EGA IV 21.11.1.
-
-[^N.D.E-XI-1]: *N.D.E.* For a precise study of the link between the factoriality of `A` and that of its completion,
-    see (Heitmann R., "Characterization of completions of unique factorization domains", *Trans. Amer. Math. Soc.*
-    **337** (1993), no. 1, pp. 379–387).
-
-[^N.D.E-XI-2]: *N.D.E.* i.e. a decreasing filtered family.
-
-[^N.D.E-XI-3]: *N.D.E.* See Bourbaki, *Algèbre commutative* VII.1.4, cor. to th. 2, and VII.3.2, th. 1.
-
-[^N.D.E-XI-4]: *N.D.E.* To be compared with the following purity result, due to Gabber. Let `X` be the spectrum of a
-    regular local ring `A` of dimension 3, `a` an element of nonzero differential, i.e. `a ∈ m − m²`, and `U` the
-    complement of `V(a)`. Then a vector bundle on `U` is free (for a simple proof, see Swan R.G., "A simple proof of
-    Gabber's theorem on projective modules over a localized local ring", *Proc. Amer. Math. Soc.* **103** (1988), no. 4,
-    pp. 1025–1030). The rank-1 case is a particular case of Theorem 3.13. For purity results concerning vector bundles
-    of arbitrary rank, in either the analytic or the algebraic setting, see (Gabber O., "On purity theorems for vector
-    bundles", *Internat. Math. Res. Notices* (2002), no. 15, pp. 783–788).
-
-[^N.D.E-XI-5]: *N.D.E.* For a proof in the same vein, but more elementary, see Call F. & Lyubeznik G., "A simple proof
-    of Grothendieck's theorem on the parafactoriality of local rings", in *Commutative algebra: syzygies,
-    multiplicities, and birational algebra* (South Hadley, MA, 1992), Contemp. Math., vol. 159, American Mathematical
-    Society, Providence, RI, 1994, pp. 15–18.
-
-[^TRANSLATOR-XI-1]: <!-- TRANSLATOR NOTE: The source literally has "prof(A) = 3 + 1 ⩾ 2 car t est A-régulier". The
-    intended chain is: since `t ∈ r(A)` is `A`-regular and `A` is complete for the `t`-adic topology, `prof(A) ⩾
-    prof(A/tA) + 1 = prof(B) + 1`; using b) `prof(B) ⩾ 3` gives `prof(A) ⩾ 4`, and only `⩾ 2` is needed for the
-    application of 3.5. The translation preserves the "3 + 1" numeric form. -->
 
 <!--
 LEDGER DELTA (Exposé XI):
@@ -572,3 +538,43 @@ LEDGER DELTA (Exposé XI):
 | morphisme fidèlement plat et quasi-compact | faithfully flat and quasi-compact morphism | Standard. |
 | morphisme de descente | morphism of descent | Standard. |
 -->
+
+[^XI-3-star1]: For a more detailed study of the notion of parafactoriality, and the proof of 3.3, cf. EGA IV 21.13,
+    21.14.
+
+[^N.D.E-XI-1]: *N.D.E.* For a precise study of the link between the factoriality of `A` and that of its completion, see
+    (Heitmann R., "Characterization of completions of unique factorization domains", *Trans. Amer. Math.
+    Soc.* **337** (1993), no. 1, pp. 379–387).
+
+[^XI-3-star2]: For the generalities that follow, cf. also EGA IV 21.
+
+[^XI-3-star3]: In conformity with the terminology of EGA IV 21, we now prefer to reserve the name "divisors" for
+    "locally principal divisors" or "Cartier divisors".
+
+[^N.D.E-XI-2]: *N.D.E.* i.e. a decreasing filtered family.
+
+[^N.D.E-XI-3]: *N.D.E.* See Bourbaki, *Algèbre commutative* VII.1.4, cor. to th. 2, and VII.3.2, th. 1.
+
+[^XI-3-star4]: Cf. EGA IV 5.8.6.
+
+[^N.D.E-XI-4]: *N.D.E.* To be compared with the following purity result, due to Gabber. Let `X` be the spectrum of a
+    regular local ring `A` of dimension 3, `a` an element of nonzero differential, i.e. `a ∈ m − m²`, and `U`
+    the complement of `V(a)`. Then a vector bundle on `U` is free (for a simple proof, see Swan R.G., "A
+    simple proof of Gabber's theorem on projective modules over a localized local ring", *Proc. Amer. Math.
+    Soc.* **103** (1988), no. 4, pp. 1025–1030). The rank-1 case is a particular case of Theorem 3.13. For
+    purity results concerning vector bundles of arbitrary rank, in either the analytic or the algebraic
+    setting, see (Gabber O., "On purity theorems for vector bundles", *Internat. Math. Res. Notices* (2002),
+    no. 15, pp. 783–788).
+
+[^N.D.E-XI-5]: *N.D.E.* For a proof in the same vein, but more elementary, see Call F. & Lyubeznik G., "A simple proof
+    of Grothendieck's theorem on the parafactoriality of local rings", in *Commutative algebra: syzygies,
+    multiplicities, and birational algebra* (South Hadley, MA, 1992), Contemp. Math., vol. 159, American
+    Mathematical Society, Providence, RI, 1994, pp. 15–18.
+
+[^XI-3-star5]: It is the proof reproduced in EGA IV 21.11.1.
+
+[^TRANSLATOR-XI-1]:
+    <!-- TRANSLATOR NOTE: The source literally has "prof(A) = 3 + 1 ⩾ 2 car t est A-régulier". The
+    intended chain is: since `t ∈ r(A)` is `A`-regular and `A` is complete for the `t`-adic topology, `prof(A) ⩾
+    prof(A/tA) + 1 = prof(B) + 1`; using b) `prof(B) ⩾ 3` gives `prof(A) ⩾ 4`, and only `⩾ 2` is needed for the
+    application of 3.5. The translation preserves the "3 + 1" numeric form. -->

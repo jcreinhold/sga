@@ -14,8 +14,8 @@ III.
 Let `f: X → X′` be a separated morphism of preschemes of finite type. Suppose that `X` is locally noetherian. Let `Y′`
 be a closed subset of `X′` and let `Y = f⁻¹(Y′)`.
 
-Let `X̂` and `X̂′` be the formal completions of `X` and `X′` along `Y` and `Y′`. Let `f̂` be the morphism deduced from `f`
-by passing to the completions.
+Let `X̂` and `X̂′` be the formal completions of `X` and `X′` along `Y` and `Y′`. Let `f̂` be the morphism deduced from
+`f` by passing to the completions.
 
 ```text
     X ◀───── Y               X̂ ──j──▶  X
@@ -82,8 +82,6 @@ r_i: i*(R^i f_*(F)) → R^i f_*(F)^∧,
 
 which is an isomorphism when `R^i f_*(F)` is coherent.
 
-
-
 As is explained in EGA III 4.1.1, one has a commutative diagram:
 
 ```text
@@ -135,8 +133,8 @@ Let `U′` then be an affine open of `X′`, set
 U = f⁻¹(U′),
 ```
 
-and let `x′ ∈ I′^m(U′)`. Let `x` be the image of `x′` in `J^m(U)`. The homothety of ratio `x` on `F | U` maps `J^k F |
-U` into `J^{k+m} F | U`, whence, by functoriality, a morphism:
+and let `x′ ∈ I′^m(U′)`. Let `x` be the image of `x′` in `J^m(U)`. The homothety of ratio `x` on `F | U` maps
+`J^k F | U` into `J^{k+m} F | U`, whence, by functoriality, a morphism:
 
 ```text
 μ^i_{x′, k}(U′): H^i(U, J^k F | U) → H^i(U, J^{k+m} F | U),
@@ -168,8 +166,8 @@ is `I′`-good);
 
 <!-- original page 81 -->
 
-(2) for `i = n`, `ρ_i`, `ϕ_i`, and `ψ_i` are monomorphisms; furthermore, the filtration on `R^n f_*(F)` is `I′`-good
-and `ψ_n` is an isomorphism;
+(2) for `i = n`, `ρ_i`, `ϕ_i`, and `ψ_i` are monomorphisms; furthermore, the filtration on `R^n f_*(F)` is `I′`-good and
+`ψ_n` is an isomorphism;
 
 (3) the projective system of the `R^i f_*(F_k)` satisfies, for `i = n − 2, n − 1`, the uniform Mittag-Leffler condition,
 i.e. there exists a fixed integer `k ⩾ 0` such that, for every `p ⩾ 0` and every `p′ ⩾ p + k`, one has:
@@ -221,8 +219,8 @@ We work on `ϕ_i` and `ψ_i`, which correspond to homomorphisms of modules:
 
 <!-- original page 103 -->
 
-(a) We assume only that `H^i` is a graded `S`-module of finite type. We deduce that the filtration defined on `H^i(X,
-F)` by the modules:
+(a) We assume only that `H^i` is a graded `S`-module of finite type. We deduce that the filtration defined on
+`H^i(X, F)` by the modules:
 
 ```text
 R^i_k = ker(H^i(X, F) → H^i(X, F_k))
@@ -328,8 +326,9 @@ I^r Q^i_k = 0    for k ⩾ k₀.
 
 <!-- label: eq:IX.1.26 -->
 
-It follows that the projective system `(Q^i_k)_{k ∈ ℕ}` is essentially zero, and hence the projective system `(H^i_k)_{k
-∈ ℕ}` satisfies the uniform Mittag-Leffler condition. From the exact sequence (1.22) one deduces the exact sequence
+It follows that the projective system `(Q^i_k)_{k ∈ ℕ}` is essentially zero, and hence the projective system
+`(H^i_k)_{k ∈ ℕ}` satisfies the uniform Mittag-Leffler condition. From the exact sequence (1.22) one deduces the exact
+sequence
 
 ```text
 0 → M^i / R^i_k → H^i_k → Q^i_k → 0,
@@ -349,8 +348,8 @@ whence the exact sequence:
 
 Now the projective system `(Q^i_k)_{k ∈ ℕ}` is essentially zero, hence `t_i` is an isomorphism.
 
-(c) Let us prove that, if `H^i` is of finite type, then `ψ_i` is an isomorphism. It suffices to apply EGA 0_III
-13.3.1, taking as a basis of opens of `X` the affine opens. This is legitimate;
+(c) Let us prove that, if `H^i` is of finite type, then `ψ_i` is an isomorphism. It suffices to apply EGA 0_III 13.3.1,
+taking as a basis of opens of `X` the affine opens. This is legitimate;
 
 <!-- original page 83 -->
 
@@ -415,8 +414,8 @@ eq:IX.1.3.1 to disambiguate, following the SGA 2 numbering convention. -->
 <!-- original page 84 -->
 
 One simply notes that `H^i(X, F)` is of finite type, hence isomorphic to its completion. One obtains (1.1) by
-transcribing the diagram of Modules (1.7) into the category of `A`-modules, and replacing the left vertical by `H^i(X,
-F)`.
+transcribing the diagram of Modules (1.7) into the category of `A`-modules, and replacing the left vertical by
+`H^i(X, F)`.
 
 **Proposition.**
 
@@ -455,8 +454,8 @@ b) `prof_{T′}(F) ⩾ n + 1`,
 
 c) `A` is a quotient of a regular noetherian ring.
 
-Then, in diagram (1.1), the morphisms `ρ′_i`, `ϕ′_i`, and `ψ_i` are isomorphisms for `i < n` and monomorphisms for `i =
-n`. Moreover `ψ_n` is an isomorphism.
+Then, in diagram (1.1), the morphisms `ρ′_i`, `ϕ′_i`, and `ψ_i` are isomorphisms for `i < n` and monomorphisms for
+`i = n`. Moreover `ψ_n` is an isomorphism.
 
 <!-- original page 107 -->
 
@@ -469,12 +468,12 @@ In particular:
 
 <!-- label: IX.1.5 -->
 
-One will apply 1.4 when `A` is a local ring and `t` belongs to the radical `r(A)` of `A`. One will then take `T =
-{r(A)}`. In this case, for `n = 1`, one obtains the following statement:
+One will apply 1.4 when `A` is a local ring and `t` belongs to the radical `r(A)` of `A`. One will then take
+`T = {r(A)}`. In this case, for `n = 1`, one obtains the following statement:
 
 If `A` is noetherian, separated and complete for the `t`-adic topology, and a quotient of a regular ring (for example,
-if `A` is complete), if moreover `t` is `F`-regular and if `prof F_x ⩾ 2` for every `x ∈ Spec(A)` such that `dim A/x =
-1`, then the natural homomorphism
+if `A` is complete), if moreover `t` is `F`-regular and if `prof F_x ⩾ 2` for every `x ∈ Spec(A)` such that
+`dim A/x = 1`, then the natural homomorphism
 
 ```text
 Γ(X, F) → Γ(X̂, F̂)
@@ -583,9 +582,9 @@ in (EGA III 2, Err_III 24).
 
 [^N.D.E-IX-3]
 
-Let `A` be a noetherian adic ring and let `I` be an ideal of definition of `A`. Let `T` be a closed subset of `X′ =
-Spec(A)`. Suppose that `I` is generated by a `t ∈ A`. Take up the notation 1.31, 1.32, and 1.33. Let `F` be a coherent
-`𝒪_{X̂}`-Module. Set
+Let `A` be a noetherian adic ring and let `I` be an ideal of definition of `A`. Let `T` be a closed subset of
+`X′ = Spec(A)`. Suppose that `I` is generated by a `t ∈ A`. Take up the notation 1.31, 1.32, and 1.33. Let `F` be a
+coherent `𝒪_{X̂}`-Module. Set
 
 ```text
 F₀ = F/J F,
@@ -657,44 +656,6 @@ Then there exists a coherent `𝒪_X`-Module `F̃` such that `F̃^∧ ≃ F`.
 
 Note that here `T′` is the set of prime ideals `p` of `A` such that `dim A/p = 1`.
 
-[^IX-2-star]: This hypothesis is not essential; cf. XII, p. 118.
-
-[^N.D.E-IX-1]: *N.D.E.* In the same vein, see the article by Chow (Chow W.-L., "Formal functions on homogeneous
-    spaces", *Invent. Math.* **86** (1986), no. 1, pp. 115–130). The author proves the following result. Let `X` be an
-    algebraic variety over a field, homogeneous under an algebraic group `G`, and let `Z` be a complete subvariety of
-    `X` of dimension `> 0`. Suppose that `Z` generates `X` in the following sense: given `p ∈ Z`, let `Γ_p` be the set
-    of elements of `G` sending `p` into `Z`. One then says that `Z` generates if the group generated by the connected
-    component of `1` of `Γ_p` is the whole of `G`. In this case, every formal rational function on `X` along `Z` is
-    algebraic; compare with the results of Hironaka and Matsumura cited in editor's note (3) p. 138. In the line of the
-    techniques introduced by these authors, let us point out the very pretty algebraization result due to Gieseker
-    (Gieseker D., "On two theorems of Griffiths about embeddings with ample normal bundle", *Amer. J. Math.* **99**
-    (1977), no. 6, pp. 1137–1150, Theorems 4.1 and 4.2). Let `X` be a connected projective variety of dimension `> 0`,
-    locally a complete intersection (over an algebraically closed field). Suppose one has two embeddings of `X` into
-    smooth projective varieties `Y, W`. Then, if the formal completions of `X` in `Y` and `W` are equivalent, there
-    exists a scheme `U` containing `X` (as a closed subscheme) which embeds into `Y` and `W` as an étale neighborhood
-    of `X` in `Y` and `W`. In other words, formally equivalent entails étale-equivalent. See also the article of
-    Faltings (Faltings G., "Formale Geometrie und homogene Räume", *Invent. Math.* **64** (1981), pp. 123–165).
-
-[^N.D.E-IX-2]: *N.D.E.* By definition itself, cf. EGA I 10.12.1.
-
-[^N.D.E-IX-3]: *N.D.E.* Numerous algebraization statements have been obtained since, not to mention those cited below;
-    cf. the articles of Faltings or of Mme Raynaud cited in editor's notes (22) p. 155 and (7) p. 203 respectively. One
-    has in mind in particular the results of Artin (see notably Artin M., "Algebraization of formal moduli. I", in
-    *Global Analysis (Papers in Honor of K. Kodaira)*, Univ. Tokyo Press, Tokyo, 1969, pp. 21–71), but also the recent
-    algebraicity results for leaves of foliations; see notably Bost J.-B., "Algebraic leaves of algebraic foliations
-    over number fields", *Publ. Math. Inst. Hautes Études Sci.* **93** (2001), pp. 161–221, and Chambert-Loir A.,
-    "Théorèmes d'algébricité en géométrie diophantienne (d'après J.-B. Bost, Y. André, D. & G. Chudnovsky)", in
-    *Séminaire Bourbaki, Vol. 2000/2001*, *Astérisque*, vol. 282, Société mathématique de France, Paris, 2002, Exp.
-    886, pp. 175–209, and the references cited therein. In particular, one will find in these two articles discussions
-    of the link between algebraization questions and the theory of diophantine approximation.
-
-[^N.D.E-IX-4]: *N.D.E.* The "finiteness theorem 2.1" referenced here is the finiteness theorem of Exposé VIII (VIII
-    2.3), not the Theorem 2.1 of the present Exposé; the source's local cross-reference is to the cohomological
-    finiteness statement on which the existence theorem is built. <!-- TRANSLATOR NOTE: The source writes "théorème de
-    finitude 2.1" but the only Theorem 2.1 in the present Exposé is the existence theorem itself. The intended
-    reference is to the Exposé VIII finiteness theorem, which is the "finiteness theorem" referenced in the
-    Introduction and at the head of this Exposé. -->
-
 <!--
 LEDGER DELTA (Exposé IX):
 
@@ -723,3 +684,45 @@ LEDGER DELTA (Exposé IX):
 | À savoir | namely | Standard. |
 | D'où la conclusion | Whence the conclusion | Register supports "Whence" in proof closure. |
 -->
+
+[^N.D.E-IX-1]: *N.D.E.* In the same vein, see the article by Chow (Chow W.-L., "Formal functions on homogeneous spaces",
+    *Invent. Math.* **86** (1986), no. 1, pp. 115–130). The author proves the following result. Let `X` be an
+    algebraic variety over a field, homogeneous under an algebraic group `G`, and let `Z` be a complete
+    subvariety of `X` of dimension `> 0`. Suppose that `Z` generates `X` in the following sense: given
+    `p ∈ Z`, let `Γ_p` be the set of elements of `G` sending `p` into `Z`. One then says that `Z` generates
+    if the group generated by the connected component of `1` of `Γ_p` is the whole of `G`. In this case,
+    every formal rational function on `X` along `Z` is algebraic; compare with the results of Hironaka and
+    Matsumura cited in editor's note (3) p. 138. In the line of the techniques introduced by these authors,
+    let us point out the very pretty algebraization result due to Gieseker (Gieseker D., "On two theorems of
+    Griffiths about embeddings with ample normal bundle", *Amer. J. Math.* **99** (1977), no. 6, pp.
+    1137–1150, Theorems 4.1 and 4.2). Let `X` be a connected projective variety of dimension `> 0`, locally a
+    complete intersection (over an algebraically closed field). Suppose one has two embeddings of `X` into
+    smooth projective varieties `Y, W`. Then, if the formal completions of `X` in `Y` and `W` are equivalent,
+    there exists a scheme `U` containing `X` (as a closed subscheme) which embeds into `Y` and `W` as an
+    étale neighborhood of `X` in `Y` and `W`. In other words, formally equivalent entails étale-equivalent.
+    See also the article of Faltings (Faltings G., "Formale Geometrie und homogene Räume", *Invent. Math.*
+    **64** (1981), pp. 123–165).
+
+[^N.D.E-IX-4]: *N.D.E.* The "finiteness theorem 2.1" referenced here is the finiteness theorem of Exposé VIII (VIII
+    2.3), not the Theorem 2.1 of the present Exposé; the source's local cross-reference is to the
+    cohomological finiteness statement on which the existence theorem is built.
+        <!-- TRANSLATOR NOTE: The source writes "théorème de
+    finitude 2.1" but the only Theorem 2.1 in the present Exposé is the existence theorem itself. The intended
+    reference is to the Exposé VIII finiteness theorem, which is the "finiteness theorem" referenced in the
+    Introduction and at the head of this Exposé. -->
+
+[^IX-2-star]: This hypothesis is not essential; cf. XII, p. 118.
+
+[^N.D.E-IX-2]: *N.D.E.* By definition itself, cf. EGA I 10.12.1.
+
+[^N.D.E-IX-3]: *N.D.E.* Numerous algebraization statements have been obtained since, not to mention those cited below;
+    cf. the articles of Faltings or of Mme Raynaud cited in editor's notes (22) p. 155 and (7) p. 203
+    respectively. One has in mind in particular the results of Artin (see notably Artin M., "Algebraization
+    of formal moduli. I", in *Global Analysis (Papers in Honor of K. Kodaira)*, Univ. Tokyo Press, Tokyo,
+    1969, pp. 21–71), but also the recent algebraicity results for leaves of foliations; see notably Bost
+    J.-B., "Algebraic leaves of algebraic foliations over number fields", *Publ. Math. Inst. Hautes Études
+    Sci.* **93** (2001), pp. 161–221, and Chambert-Loir A., "Théorèmes d'algébricité en géométrie
+    diophantienne (d'après J.-B. Bost, Y. André, D. & G. Chudnovsky)", in *Séminaire Bourbaki, Vol.
+    2000/2001*, *Astérisque*, vol. 282, Société mathématique de France, Paris, 2002, Exp. 886, pp. 175–209,
+    and the references cited therein. In particular, one will find in these two articles discussions of the
+    link between algebraization questions and the theory of diophantine approximation.

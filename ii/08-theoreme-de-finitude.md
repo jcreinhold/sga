@@ -27,12 +27,11 @@ generated `A`-module of finite projective dimension. Let `F = M̃` be the `𝒪_
 E₂^{p,q} = Ext^p_Y(Ext^{-q}(M, A), A) ⇒ H^{p+q}_Y(X, F).
 ```
 
-2. There exists a spectral sequence
+1. There exists a spectral sequence
 
 ```text
 E₂^{p,q} = Ext^p_Y(Ext^{-q}(F, 𝒪_X), 𝒪_X) ⇒ H^{p+q}_Y(X, F).
 ```
-
 
 Of course, 2) is deduced from 1) by remarking that, if `M` and `N` are two finitely generated `A`-modules, and if one
 sets `F = M̃` and `G = Ñ`, then one has isomorphisms
@@ -225,9 +224,9 @@ c : L^• → P^•.
 
 This being said, it is easy to see, using the fact that `L′^•` is finitely generated projective in every dimension and
 left-bounded, that (1.5) is an injective resolution of `L^•`. Applying Proposition 1.4, one concludes that `P^•` is
-homotopy-equivalent to `I^•`, where `I^•` is the injective resolution of `M` introduced earlier (1.1). One
-deduces that the abutment of the first spectral sequence of the double complex `F Q^{••}`, which is `H^•(F P^•)`, is
-isomorphic to `R^• F(M)`.
+homotopy-equivalent to `I^•`, where `I^•` is the injective resolution of `M` introduced earlier (1.1). One deduces that
+the abutment of the first spectral sequence of the double complex `F Q^{••}`, which is `H^•(F P^•)`, is isomorphic to
+`R^• F(M)`.
 
 The initial term of the first spectral sequence of the bicomplex `F Q^{••}` is
 
@@ -268,7 +267,6 @@ source) and relative to the statement of Proposition 1.1 (whose `Ext^{-q}(M, A)`
 same way). The sign `−q` is the one consistent with both ends of the proof; this is rendered above with the `−q`
 convention. The universal isomorphism `Ext^q(M, A) ≅ H^q(L′^•)` is correct in either sign — the displayed form here is
 just the `q ↦ −q` reindexing that aligns with E₂. -->
-
 
 ## 2. The finiteness theorem
 
@@ -366,9 +364,9 @@ projective dimension of `F_x` is finite; let `d` be that integer. Let
 K = ker(L^{-d} → L^{-d+1}).
 ```
 
-The module `K_x` is free, because `d` is the projective dimension of `F_x` ([M], Ch. VI, Prop. 2.1). By
-(EGA 0_I 5.4.1 Errata), one deduces that the `𝒪_U`-Module `K̃` is free on a neighborhood `U′` of `x`, with `U′ ⊂ U`.
-Choosing `f ∈ 𝒪_X(U)` such that `x ∈ D(f) ⊂ U′`, one therefore has a projective resolution of `M_f` (with `M = F(U)`):
+The module `K_x` is free, because `d` is the projective dimension of `F_x` ([M], Ch. VI, Prop. 2.1). By (EGA 0_I 5.4.1
+Errata), one deduces that the `𝒪_U`-Module `K̃` is free on a neighborhood `U′` of `x`, with `U′ ⊂ U`. Choosing
+`f ∈ 𝒪_X(U)` such that `x ∈ D(f) ⊂ U′`, one therefore has a projective resolution of `M_f` (with `M = F(U)`):
 
 ```text
 0 → K_f → (L^{d-1})_f → ⋯ → M_f → 0,
@@ -407,8 +405,8 @@ D H^{i-c(x)}(F_x) ≅ (Ext^{d(x)-i}_{𝒪_X}(F, 𝒪_X))_x.
 
 <!-- label: eq:VIII.2.3 -->
 
-Moreover, for a module to be zero, it is necessary and sufficient that its dual be (cf. editor's note (4) on
-page 54). For every `q ∈ ℤ`, set
+Moreover, for a module to be zero, it is necessary and sufficient that its dual be (cf. editor's note (4) on page 54).
+For every `q ∈ ℤ`, set
 
 ```text
 S_q = Supp Ext^q_{𝒪_X}(F, 𝒪_X),
@@ -472,8 +470,8 @@ lemma:
 
 <!-- label: VIII.2.5 -->
 
-Let `X` be a locally noetherian prescheme and let `Y` be a closed subset of `X`. Set `U = X − Y` and suppose that `U`
-is dense in `X`. For every `y ∈ Y`, there exists `x ∈ U` "which follows it", i.e. such that
+Let `X` be a locally noetherian prescheme and let `Y` be a closed subset of `X`. Set `U = X − Y` and suppose that `U` is
+dense in `X`. For every `y ∈ Y`, there exists `x ∈ U` "which follows it", i.e. such that
 
 ```text
 y ∈ {x}̄    and    dim 𝒪_{{x}̄, y} = 1.
@@ -510,8 +508,8 @@ It remains to prove that (iii) ⇒ (ii). Let us write
 i : U → X
 ```
 
-for the canonical immersion of `U` in `X`. Taking into account the exact homology sequence of the closed subset `Y`
-(I 2.11), one sees that (iii) is equivalent to:
+for the canonical immersion of `U` in `X`. Taking into account the exact homology sequence of the closed subset `Y` (I
+2.11), one sees that (iii) is equivalent to:
 
 (iv) `R^i i_*(F|U)` is coherent for `i < n`.
 
@@ -635,8 +633,8 @@ that is not proper.
 
 Let `f : X → Y` be a morphism of preschemes. Suppose that `Y` is locally noetherian and that `f` is proper. Suppose that
 `X` is locally embeddable in a regular prescheme. Let `n ∈ ℤ`. Let `U` be an open of `X` and let `F` be a coherent
-`𝒪_U`-Module. Suppose that, for every `x ∈ U` such that `codim({x}̄ ∩ (X − U), {x}̄) = 1`, one has `prof F_x ⩾ n`.
-Then the `𝒪_Y`-Modules `R^p(f ∘ g)_*(F)` are coherent for `p < n`, where `g` is the canonical immersion of `U` in `X`.
+`𝒪_U`-Module. Suppose that, for every `x ∈ U` such that `codim({x}̄ ∩ (X − U), {x}̄) = 1`, one has `prof F_x ⩾ n`. Then
+the `𝒪_Y`-Modules `R^p(f ∘ g)_*(F)` are coherent for `p < n`, where `g` is the canonical immersion of `U` in `X`.
 
 Indeed, there exists a Leray spectral sequence whose abutment is `R^•(f ∘ g)_*(F)` and whose initial term is given by
 
@@ -679,8 +677,8 @@ c(x) = codim({x}̄ ∩ Y, {x}̄).
 (a) ⇒ (b). Indeed, let `S′` be an irreducible component of `S̄` and let `s` be its generic point. Since `F` is
 Cohen-Macaulay, one has `prof F_s = dim 𝒪_{S̄, s} = 0`. Moreover, `{s}̄ = S′`, whence the conclusion.
 
-(b) ⇒ (a). Let `x ∈ S̄` and let `S′` be an irreducible component of `S̄` such that `x ∈ S′`. Let `s` be the generic point
-of `S′`. Since `F` is Cohen-Macaulay, one knows that
+(b) ⇒ (a). Let `x ∈ S̄` and let `S′` be an irreducible component of `S̄` such that `x ∈ S′`. Let `s` be the generic
+point of `S′`. Since `F` is Cohen-Macaulay, one knows that
 
 ```text
 prof F_x = dim 𝒪_{{s}̄, x}.
@@ -703,7 +701,32 @@ QED.
 ## Bibliography
 
 1. [M] H. Cartan and S. Eilenberg, *Homological Algebra*, Princeton Math. Series vol. 19, Princeton University Press,
-   1956.
+    1956\.
+
+## Translation ledger — Exposé VIII
+
+Terms confirmed or first activated in this Exposé (consult `glossary.md` for the volume-wide list):
+
+| French                                            | English                                   | Note                                                                                                             |
+| ------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| suite spectrale de bidualité                      | biduality spectral sequence               | Title-level, §1.                                                                                                 |
+| théorème de finitude                              | finiteness theorem                        | Title of §2 and of Exposé.                                                                                       |
+| résolution injective (d'un complexe)              | injective resolution (of a complex)       | Definition VIII.1.3.                                                                                             |
+| complexe limité à gauche                          | left-bounded complex                      | Used in Proposition VIII.1.4.                                                                                    |
+| double complexe / bicomplexe                      | double complex / bicomplex                | Source uses both interchangeably; preserved.                                                                     |
+| aboutissement                                     | abutment                                  | Standard for spectral sequences.                                                                                 |
+| terme initial                                     | initial term                              | Used for `E₂` page.                                                                                              |
+| localement immergeable dans un préschéma régulier | locally embeddable in a regular prescheme | Standing hypothesis of Theorem VIII.2.1.                                                                         |
+| `c(x) = codim({x}̄ ∩ Y, {x}̄)`                      | `c(x)` as written                         | Preserved verbatim from (2.1); closures are reduced (cf. N.D.E.).                                                |
+| profondeur (`prof F_x`)                           | depth (`prof F_x`)                        | Per glossary; the source uses `prof`.                                                                            |
+| « x suit y »                                      | "`x` follows `y`"                         | Translator keeps quotation marks since the source flags it; Lemma VIII.2.5.                                      |
+| sous-faisceau quasi-cohérent                      | quasi-coherent subsheaf                   | Standard.                                                                                                        |
+| de Cohen-Macaulay (sur U !)                       | Cohen-Macaulay (on `U`!)                  | Exclamation preserved; the parenthetical insists `F` is Cohen-Macaulay on the open `U`, not on a global ambient. |
+| condition (a), (b), (c), (d)                      | condition (a), (b), (c), (d)              | Lowercase Latin letters in this Exposé (not Roman); (i)–(iv) in Corollary 2.3 stay Roman, per the source.        |
+
+Note on the `ΓZ`/`ℋ^•_Y` typographic convention: in this Exposé, sheafified local cohomology is rendered `ℋ^i_Y(F)`
+(script-H) and global sections with support remain `H^i_Y(X, F)`. The underlined section functor of the source is, when
+it appears, written `Γ_Y` in line with the volume-wide convention recorded in the introduction.
 
 [^VIII-1-1]: The reader familiar with the language of Verdier's derived categories will recognize the spectral sequence
     associated with a biduality isomorphism. Cf. SGA 6 I.
@@ -711,55 +734,31 @@ QED.
 [^VIII-1-2]: Cf. also H. Cartan and S. Eilenberg, *Homological Algebra*, Princeton Math. Series, vol. 19, Princeton
     University Press, 1956.
 
-[^VIII-2-1]: This condition can be generalized to the hypothesis of the existence locally on `X` of a "dualizing
-    complex", in the sense defined in R. Hartshorne, *Residues and duality* (cited in footnote (*) of Exp. IV
-    p. 46).
+[^N.D.E-VIII-1]: *N.D.E.* For an analogous statement, but in a somewhat more general situation, see Mme Raynaud (Raynaud
+    M., "Théorèmes de Lefschetz en cohomologie des faisceaux cohérents et en cohomologie étale. Application
+    au groupe fondamental", *Ann. Sci. Éc. Norm. Sup.* (4) **7** (1974), pp. 29–52, proposition II.2.1).
 
-[^N.D.E-VIII-1]: *N.D.E.* For an analogous statement, but in a somewhat more general situation, see Mme Raynaud
-    (Raynaud M., "Théorèmes de Lefschetz en cohomologie des faisceaux cohérents et en cohomologie étale. Application au
-    groupe fondamental", *Ann. Sci. Éc. Norm. Sup.* (4) **7** (1974), pp. 29–52, proposition II.2.1).
+[^VIII-2-1]: This condition can be generalized to the hypothesis of the existence locally on `X` of a "dualizing
+    complex", in the sense defined in R. Hartshorne, *Residues and duality* (cited in footnote (\*) of Exp. IV
+    p. 46).
 
 [^N.D.E-VIII-2]: *N.D.E.* As in Exposé V, `H^•_x(F)` denotes the local cohomology `H^•_{𝔪_x}(F_x)`.
 
-[^N.D.E-VIII-3]: *N.D.E.* Strictly speaking, this is a corollary of the proof that follows and not of the statement.
-    The implication c) ⇒ a) is tautological. The other direction is not, but follows from the proof. To be precise: as
-    below, one covers `X` by opens embeddable in regular schemes, which allows one, as explained below, to reduce to
-    `X = Spec(A)` affine regular and `F = M̃` where `M` is an `A`-module of finite projective dimension. It is shown in
-    this case that conditions a) and c) are equivalent to the dual conditions a′) and c′). One then shows that c′)
-    implies condition d) (see below) which itself implies a′). See the considerations following 2.4.
+[^N.D.E-VIII-3]: *N.D.E.* Strictly speaking, this is a corollary of the proof that follows and not of the statement. The
+    implication c) ⇒ a) is tautological. The other direction is not, but follows from the proof. To be
+    precise: as below, one covers `X` by opens embeddable in regular schemes, which allows one, as
+    explained below, to reduce to `X = Spec(A)` affine regular and `F = M̃` where `M` is an `A`-module of
+    finite projective dimension. It is shown in this case that conditions a) and c) are equivalent to the
+    dual conditions a′) and c′). One then shows that c′) implies condition d) (see below) which itself
+    implies a′). See the considerations following 2.4.
 
 [^N.D.E-VIII-4]: *N.D.E.* This condition appeared only in the body of the proof, but not in the statement of the
     corollary; since it is used in §3, we have added it.
 
 [^N.D.E-VIII-5]: *N.D.E.* In fact, a) for `X` implies a) for all the `X_j` as asserted in the original text, but to see
-    this one must read the proof that follows in detail. This implication does not seem formal at this stage. Let us
-    indeed denote by an index `J` the conjunctions of a property a), b), or c) for the `X_j`. It is proved in the proof
-    below that c_J) ⇒ a_J) (this is the chain of implications c′) ⇒ d) ⇒ a′)). Now one has tautologically a) ⇒ c), and
-    c) ⇔ c_J), whence a) ⇒ a_J).
+    this one must read the proof that follows in detail. This implication does not seem formal at this
+    stage. Let us indeed denote by an index `J` the conjunctions of a property a), b), or c) for the `X_j`.
+    It is proved in the proof below that c_J) ⇒ a_J) (this is the chain of implications c′) ⇒ d) ⇒ a′)).
+    Now one has tautologically a) ⇒ c), and c) ⇔ c_J), whence a) ⇒ a_J).
 
 [^N.D.E-VIII-6]: *N.D.E.* In all that follows, closures of points are equipped with the reduced structure.
-
-## Translation ledger — Exposé VIII
-
-Terms confirmed or first activated in this Exposé (consult `glossary.md` for the volume-wide list):
-
-| French | English | Note |
-| ------ | ------- | ---- |
-| suite spectrale de bidualité | biduality spectral sequence | Title-level, §1. |
-| théorème de finitude | finiteness theorem | Title of §2 and of Exposé. |
-| résolution injective (d'un complexe) | injective resolution (of a complex) | Definition VIII.1.3. |
-| complexe limité à gauche | left-bounded complex | Used in Proposition VIII.1.4. |
-| double complexe / bicomplexe | double complex / bicomplex | Source uses both interchangeably; preserved. |
-| aboutissement | abutment | Standard for spectral sequences. |
-| terme initial | initial term | Used for `E₂` page. |
-| localement immergeable dans un préschéma régulier | locally embeddable in a regular prescheme | Standing hypothesis of Theorem VIII.2.1. |
-| `c(x) = codim({x}̄ ∩ Y, {x}̄)` | `c(x)` as written | Preserved verbatim from (2.1); closures are reduced (cf. N.D.E.). |
-| profondeur (`prof F_x`) | depth (`prof F_x`) | Per glossary; the source uses `prof`. |
-| « x suit y » | "`x` follows `y`" | Translator keeps quotation marks since the source flags it; Lemma VIII.2.5. |
-| sous-faisceau quasi-cohérent | quasi-coherent subsheaf | Standard. |
-| de Cohen-Macaulay (sur U !) | Cohen-Macaulay (on `U`!) | Exclamation preserved; the parenthetical insists `F` is Cohen-Macaulay on the open `U`, not on a global ambient. |
-| condition (a), (b), (c), (d) | condition (a), (b), (c), (d) | Lowercase Latin letters in this Exposé (not Roman); (i)–(iv) in Corollary 2.3 stay Roman, per the source. |
-
-Note on the `ΓZ`/`ℋ^•_Y` typographic convention: in this Exposé, sheafified local cohomology is rendered `ℋ^i_Y(F)`
-(script-H) and global sections with support remain `H^i_Y(X, F)`. The underlined section functor of the source is, when
-it appears, written `Γ_Y` in line with the volume-wide convention recorded in the introduction.
