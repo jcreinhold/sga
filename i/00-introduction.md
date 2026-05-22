@@ -99,10 +99,10 @@ through SGA 7:
 - SGA 2. Local cohomology of coherent sheaves and local and global Lefschetz theorems, 1961/62.
 - SGA 3. Group schemes, 1963 and 1964, three volumes, in collaboration with M. Demazure.
 - SGA 4. Theory of topoi and étale cohomology of schemes, 1963/64, three volumes, in collaboration with M. Artin and J.
-    L. Verdier.
+  L. Verdier.
 - SGA 5. ℓ-adic cohomology and L-functions, 1964 and 1965, two volumes.
 - SGA 6. Intersection theory and the Riemann-Roch theorem, 1966/67, two volumes, in collaboration with P. Berthelot and
-    L. Illusie.
+  L. Illusie.
 - SGA 7. Local monodromy groups in algebraic geometry.
 
 Three of these partial seminars were directed in collaboration with other mathematicians, who will appear as co-authors
@@ -175,8 +175,8 @@ index.
 Massy, August 1970.
 
 [^intro-1]: As were the notes of the seminars following this one. Since this mode of distribution proved impractical and
-    insufficient in the long run, all the “Séminaire de Géométrie Algébrique du Bois-Marie” will henceforth
-    appear in book form, as the present volume does.
+    insufficient in the long run, all the “Séminaire de Géométrie Algébrique du Bois-Marie” will henceforth appear in
+    book form, as the present volume does.
 
 [^intro-2]: A more complete study is now available in the _Éléments_, Chapter IV, §§17 and 18.
 

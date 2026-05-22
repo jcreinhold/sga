@@ -11,14 +11,14 @@ This Séminaire develops the theory of group schemes over an arbitrary base pres
 (Exposés I–VII_B, Tome I) lays foundations: schematic and categorical syntax, faithfully flat quasi-compact descent,
 fibered categories and sheaves, the construction of quotient schemes, generalities on algebraic groups and group
 schemes, and the infinitesimal study of differential operators and formal groups, including the correspondence between
-height-`1` radicial group schemes and restricted `p`-Lie algebras. Part II (Exposés VIII–XXVI, Tomes II and III)
+height-`1` radicial group schemes and restricted $p$-Lie algebras. Part II (Exposés VIII–XXVI, Tomes II and III)
 develops the structure theory: groups of multiplicative type (VIII–XII); regular elements in algebraic groups and Lie
 algebras (XIII–XIV); smoothness and maximal tori (XV); groups of zero unipotent rank, unipotent algebraic groups, and
 extensions (XVI–XVII); Weil's theorem on the construction of a group from a rational law (XVIII); and, in Tome III, the
 structure theory of reductive group schemes — generalities (XIX), the rank-`1` case (XX), root data (XXI), splitting and
 subgroup structure (XXII), uniqueness of pinned groups (XXIII), automorphisms (XXIV), the existence theorem (XXV), and
 parabolic subgroups (XXVI). The Séminaire generalizes the Borel–Chevalley structure theory of affine algebraic groups to
-arbitrary base preschemes, with Chevalley's "Tôhoku" groups over `ℤ` as a guiding example.
+arbitrary base preschemes, with Chevalley's "Tôhoku" groups over $\mathbb{Z}$ as a guiding example.
 
 ## Reading order
 
@@ -37,7 +37,7 @@ Files are numbered so alphanumeric order matches reading order.
 - [Exposé V — Construction of quotient schemes (Gabriel)](05-construction-schemas-quotients.md)
 - [Exposé VI_A — Generalities on algebraic groups (Gabriel)](06A-generalites-groupes-algebriques.md)
 - [Exposé VI_B — Generalities on group schemes (Bertin)](06B-generalites-schemas-en-groupes.md)
-- [Exposé VII_A — Infinitesimal study: differential operators and `p`-Lie algebras (Gabriel)](07A-etude-infinitesimale-operateurs-differentiels.md)
+- [Exposé VII_A — Infinitesimal study: differential operators and $p$-Lie algebras (Gabriel)](07A-etude-infinitesimale-operateurs-differentiels.md)
 - [Exposé VII_B — Infinitesimal study: formal groups (Gabriel)](07B-etude-infinitesimale-groupes-formels.md)
 - [Tome I index](zz-i-index.md)
 
@@ -72,10 +72,10 @@ Files are numbered so alphanumeric order matches reading order.
 ## Reference convention
 
 Following the source's §7 convention (see the [Introduction](00-i-avertissement-introduction.md#introduction)), SGA 3 is
-cited as `(Exp. N, M.K)` where `N` is the Exposé Roman numeral and `M.K` is the decimal numbering inside that Exposé —
+cited as `(Exp. N, M.K)` where $N$ is the Exposé Roman numeral and `M.K` is the decimal numbering inside that Exposé —
 for example `(XII, 3.2)` for statement 3.2 of Exposé XII. A bare `5.7.11` refers to the proposition of that name in the
-same Exposé. The split Exposés are cited as `VI_A`, `VI_B`, `VII_A`, `VII_B` (matching the source's typeset subscript
-notation).
+same Exposé. The split Exposés are cited as `VI_A`, `VI_B`, $VII_{A}$, $VII_{B}$ (matching the source's typeset
+subscript notation).
 
 Cross-volume citations follow the source's abbreviations: `EGA X, x.y.z` for the *Éléments de Géométrie Algébrique*,
 `SGA n, X y.z` for other SGA volumes, *Bible* for the *Séminaire Chevalley* 1956/58, and TDTE for Grothendieck's
@@ -85,26 +85,26 @@ list.
 ## Editorial conventions
 
 - **Terminology.** SGA 3 retains the historical SGA/EGA distinction between *prescheme* (`préschéma`) and *scheme*
-    (`schéma`, in the older sense of separated prescheme), matching SGA 1 and SGA 2 (Exposés I–XIII). The translation
-    honors this throughout all 26 Exposés. As Grothendieck notes in the Introduction (§ 6), SGA 3 also deliberately
-    replaces the usual hypothesis "of finite type" by "of finite presentation"; the translation preserves this
-    distinction.
+  (`schéma`, in the older sense of separated prescheme), matching SGA 1 and SGA 2 (Exposés I–XIII). The translation
+  honors this throughout all 26 Exposés. As Grothendieck notes in the Introduction (§ 6), SGA 3 also deliberately
+  replaces the usual hypothesis "of finite type" by "of finite presentation"; the translation preserves this
+  distinction.
 
 - **Editor footnotes (N.D.E.).** The 2011 SMF *Documents Mathématiques* re-edition (M. Demazure, ed.) added footnotes
-    recording corrections, updates, modern references, and the current status of questions raised in the original
-    1962–1964 seminar. In this translation, original footnotes from the Séminaire authors (Demazure, Grothendieck,
-    Bertin, Gabriel, Raynaud, Artin, Serre) use slugs like `[^I-3-1]`, while editor footnotes use `[^N.D.E-I-3]` so the
-    two are visibly distinct.
+  recording corrections, updates, modern references, and the current status of questions raised in the original
+  1962–1964 seminar. In this translation, original footnotes from the Séminaire authors (Demazure, Grothendieck, Bertin,
+  Gabriel, Raynaud, Artin, Serre) use slugs like $[{}^{I}-3-1]$, while editor footnotes use $[{}^{N}.D.E-I-3]$ so the
+  two are visibly distinct.
 
-- **Page marks.** HTML comments `<!-- original page N -->` mark the start of page `N` in the 2011 SMF re-edition, whose
-    pagination is the reference for the errata sheets.
+- **Page marks.** HTML comments `<!-- original page N -->` mark the start of page $N$ in the 2011 SMF re-edition, whose
+  pagination is the reference for the errata sheets.
 
 - **Mathematics.** Mathematics is written with Unicode and wrapped in backticks where formatter mangling is a risk (most
-    identifier-rich expressions). Displayed equations use fenced ```` ```text ```` blocks, optionally pinned with
-    `<!-- label: eq:III.<Exp>.X.Y -->`.
+  identifier-rich expressions). Displayed equations use fenced ```` ```text ```` blocks, optionally pinned with
+  `<!-- label: eq:III.<Exp>.X.Y -->`.
 
 - **Split Exposés (VI and VII).** Exposés VI and VII are split into A and B parts in the source. Filenames keep the
-    split (`06A-`, `06B-`, `07A-`, `07B-`); cross-references use `VI_A`, `VI_B`, `VII_A`, `VII_B`.
+  split (`06A-`, `06B-`, `07A-`, `07B-`); cross-references use `VI_A`, `VI_B`, $VII_{A}$, $VII_{B}$.
 
 ## Provenance
 

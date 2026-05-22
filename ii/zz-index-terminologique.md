@@ -3,7 +3,7 @@
 <!-- label: II.index-terminologique -->
 
 A reference index of terminology used throughout SGA 2. Locators are of the form `<Exposé Roman>.<section>(.<sub>)` or
-`<Exposé Roman> (p. <page>)`.
+$<Expos\acute{e} Roman> (p. <page>)$.
 
 | Term                                                           | Where introduced        |
 | -------------------------------------------------------------- | ----------------------- |
@@ -33,13 +33,13 @@ A reference index of terminology used throughout SGA 2. Locators are of the form
 | étale depth                                                    | XIV.1.2                 |
 | geometrical depth of a noetherian local ring                   | XIV.5.3                 |
 | homotopical depth                                              | XIII.6, Def. 1 (p. 154) |
-| homotopical depth (with respect to `L`)                        | XIV.1.2                 |
+| homotopical depth (with respect to $L$)                        | XIV.1.2                 |
 | rectified homotopical depth                                    | XIII, Def. 2 (p. 155)   |
 | pure local ring                                                | X.3.2                   |
 | pure pair of preschemes                                        | X.3.1                   |
 | Zariski–Nagata purity theorem                                  | X.3.4                   |
 | cohomological purity theorem                                   | XIV.1.11                |
-| `M`-regular                                                    | III.2.1                 |
+| $M$-regular                                                    | III.2.1                 |
 | Samuel conjecture                                              | XI.3.14                 |
 | cohomological semi-purity theorem                              | XIV.1.10                |
 | strictly local ring                                            | XIII.6 (p. 151)         |

@@ -8,9 +8,9 @@
 
 <!-- label: II.1 -->
 
-Let `X` be a prescheme, let `Z` be a locally closed subset of the form `Z = U − V`, where `U` and `V` are two open
-subsets of `X` such that `V ⊂ U` and such that the canonical immersions `U → X`, `V → X` are quasi-compact. Then for
-every quasi-coherent Module `F` on `X`, the sheaves `ℋ^i_Z(F)` are quasi-coherent.
+Let $X$ be a prescheme, let $Z$ be a locally closed subset of the form $Z = U - V$, where $U$ and $V$ are two open
+subsets of $X$ such that $V \subset U$ and such that the canonical immersions $U \to X$, $V \to X$ are quasi-compact.
+Then for every quasi-coherent Module $F$ on $X$, the sheaves $\mathcal{H}^{i}_{Z}(F)$ are quasi-coherent.
 
 By (I 2.4),[^N.D.E-II-1] there is an exact sequence of relative cohomology
 
@@ -18,17 +18,18 @@ By (I 2.4),[^N.D.E-II-1] there is an exact sequence of relative cohomology
 ⋯ → ℋ^{i−1}_U(F) → ℋ^i_V(F) → ℋ^i_Z(F) → ℋ^i_U(F) → ℋ^{i+1}_V(F) → ⋯.
 ```
 
-By (EGA III 1.4.17), in order that the `ℋ^i_Z(F)` be quasi-coherent it therefore suffices that the `ℋ^i_U(F)` and the
-`ℋ^i_V(F)` be so. We may therefore assume that `Z` is open and that the canonical immersion `j: Z → X` is quasi-compact.
+By (EGA III 1.4.17), in order that the $\mathcal{H}^{i}_{Z}(F)$ be quasi-coherent it therefore suffices that the
+$\mathcal{H}^{i}_{U}(F)$ and the $\mathcal{H}^{i}_{V}(F)$ be so. We may therefore assume that $Z$ is open and that the
+canonical immersion $j: Z \to X$ is quasi-compact.
 
-Since `Z` is open, we have (I 2.2)[^N.D.E-II-1] a canonical isomorphism
+Since $Z$ is open, we have (I 2.2)[^N.D.E-II-1] a canonical isomorphism
 
-```text
-ℋ^i_Z(F) ≃ R^i j_*(F|Z),
-```
+$$
+\mathcal{H}^{i}_{Z}(F) \simeq R^{i} j_{*}(F|Z),
+$$
 
-but `j` is separated (EGA I 5.5.1) and quasi-compact, hence (EGA III 1.4.10) the `R^i j_*(F|Z) = ℋ^i_Z(F)` are
-quasi-coherent, which completes the proof.
+but $j$ is separated (EGA I 5.5.1) and quasi-compact, hence (EGA III 1.4.10) the
+$R^{i} j_{*}(F|Z) = \mathcal{H}^{i}_{Z}(F)$ are quasi-coherent, which completes the proof.
 
 <!-- TRANSLATOR NOTE: The OCR shows `(I 24)`, `(I 22)`, `(I 23)`, `(I 27)`. In the renumbered 1968 edition these
 correspond to the displayed exact sequence and canonical isomorphisms of Exposé I §2. The reference targets in this
@@ -40,15 +41,15 @@ section functor, per the SGA 2 glossary. -->
 
 <!-- label: II.2 -->
 
-Let `Z` be a closed subset of `X` such that the canonical immersion `X − Z → X` is quasi-compact. Then the Modules
-`ℋ^i_Z(F)` are quasi-coherent.
+Let $Z$ be a closed subset of $X$ such that the canonical immersion $X - Z \to X$ is quasi-compact. Then the Modules
+$\mathcal{H}^{i}_{Z}(F)$ are quasi-coherent.
 
 **Corollary.**
 
 <!-- label: II.3 -->
 
-If `X` is locally noetherian, then for every locally closed subset `Z` of `X` and every quasi-coherent Module `F` on
-`X`, the `ℋ^i_Z(F)` are quasi-coherent.
+If $X$ is locally noetherian, then for every locally closed subset $Z$ of $X$ and every quasi-coherent Module $F$ on
+$X$, the $\mathcal{H}^{i}_{Z}(F)$ are quasi-coherent.
 
 This follows immediately from Corollary 2 and (EGA I 6.6.4).
 
@@ -58,18 +59,18 @@ This follows immediately from Corollary 2 and (EGA I 6.6.4).
 
 <!-- original page 20 -->
 
-Suppose that `X` is the spectrum of a ring `A`, and let `U` be a quasi-compact open subset of `X`, `Y = X − U`, and `F`
-a quasi-coherent Module on `X`. There is an isomorphism of cohomological functors in `F`:
+Suppose that $X$ is the spectrum of a ring $A$, and let $U$ be a quasi-compact open subset of $X$, $Y = X - U$, and $F$
+a quasi-coherent Module on $X$. There is an isomorphism of cohomological functors in $F$:
 
-```text
-ℋ^i_Y(F) = (H^i_Y(X, F))~.
-```
+$$
+\mathcal{H}^{i}_{Y}(F) = (H^{i}_{Y}(X, F))~.
+$$
 
 <!-- label: eq:II.4.1 -->
 
 <!-- original page 20 (continued) -->
 
-In addition, one has an exact sequence functorial in `F`:
+In addition, one has an exact sequence functorial in $F$:
 
 ```text
 0 → H⁰_Y(X, F) → H⁰(X, F) → H⁰(U, F) → H¹_Y(X, F) → 0,
@@ -77,7 +78,7 @@ In addition, one has an exact sequence functorial in `F`:
 
 <!-- label: eq:II.4.2 -->
 
-and isomorphisms functorial in `F`:
+and isomorphisms functorial in $F$:
 
 ```text
 H^i_Y(X, F) ≃ H^{i−1}(U, F),    i ⩾ 2.
@@ -85,27 +86,27 @@ H^i_Y(X, F) ≃ H^{i−1}(U, F),    i ⩾ 2.
 
 <!-- label: eq:II.4.3 -->
 
-By Corollary 2, the `ℋ^i_Y(F)` are quasi-coherent; since `X` is affine, one therefore has `H^p(X, ℋ^i_Y(F)) = 0` for
-`p > 0`. The spectral sequence (I 2.3)[^N.D.E-II-1] degenerates, hence
+By Corollary 2, the $\mathcal{H}^{i}_{Y}(F)$ are quasi-coherent; since $X$ is affine, one therefore has
+$H^{p}(X, \mathcal{H}^{i}_{Y}(F)) = 0$ for $p > 0$. The spectral sequence (I 2.3)[^N.D.E-II-1] degenerates, hence
 
-```text
-H^i_Y(X, F) = Γ(ℋ^i_Y(F)).
-```
+$$
+H^{i}_{Y}(X, F) = \Gamma(\mathcal{H}^{i}_{Y}(F)).
+$$
 
 Equality (4.1) then follows from (EGA I 1.1.3.7); (4.2) and (4.3) follow from the cohomology exact sequence (I
-2.7)[^N.D.E-II-1] and from the fact that `H^i(X, F) = 0` for `i > 0`, since `X` is affine.
+2.7)[^N.D.E-II-1] and from the fact that $H^{i}(X, F) = 0$ for $i > 0$, since $X$ is affine.
 
-Under the hypotheses of 4,[^N.D.E-II-2] `U` is a finite union of affine open sets `X_f`; we can therefore find an ideal
-`I` generated by a finite number of elements `f_α` and defining `Y`, say `f = (f_α)`. With the notation of (EGA III §
-1),[^N.D.E-II-3] one has:
+Under the hypotheses of 4,[^N.D.E-II-2] $U$ is a finite union of affine open sets $X_{f}$; we can therefore find an
+ideal $I$ generated by a finite number of elements $f_{\alpha}$ and defining $Y$, say $f = (f_{\alpha})$. With the
+notation of (EGA III § 1),[^N.D.E-II-3] one has:
 
 **Proposition.**
 
 <!-- label: II.5 -->
 
-Suppose that `X` is the spectrum of a ring `A`; let `f = (f_α)` be a finite family of elements of `A`, `Y` the closed
-subset of `X` they define, `M` an `A`-module, and `F` the sheaf associated with `M`. One then has isomorphisms of
-`∂`-functors in `M`:
+Suppose that $X$ is the spectrum of a ring $A$; let $f = (f_{\alpha})$ be a finite family of elements of $A$, $Y$ the
+closed subset of $X$ they define, $M$ an $A$-module, and $F$ the sheaf associated with $M$. One then has isomorphisms of
+$\partial$-functors in $M$:
 
 ```text
 H^i((f), M) ≃ H^i_Y(X, F).
@@ -113,19 +114,20 @@ H^i((f), M) ≃ H^i_Y(X, F).
 
 <!-- label: eq:II.5.1 -->
 
-(We shall also write `H^i_J(M) = H^i_Y(X, F)`, if `Y` is the closed subset of `X = Spec A` defined by an ideal `J` of
-`A`.)
+(We shall also write $H^{i}_{J}(M) = H^{i}_{Y}(X, F)$, if $Y$ is the closed subset of $X = \operatorname{Spec} A$
+defined by an ideal $J$ of $A$.)
 
 <!-- original page 21 -->
 
-For `i = 0` and `i = 1`, one uses the exact sequences (4.2) and (EGA III 1.4.3.2); if `i ⩾ 2`, one uses (4.3) and (EGA
-III 1.4.3.1). This gives us isomorphisms functorial in `M`. One verifies that, up to a sign depending only on `i`, they
-are compatible with the boundary operator, whence the existence of the isomorphism of `∂`-functors (5.1).
+For $i = 0$ and $i = 1$, one uses the exact sequences (4.2) and (EGA III 1.4.3.2); if $i \geqslant 2$, one uses (4.3)
+and (EGA III 1.4.3.1). This gives us isomorphisms functorial in $M$. One verifies that, up to a sign depending only on
+$i$, they are compatible with the boundary operator, whence the existence of the isomorphism of $\partial$-functors
+(5.1).
 
-Now let `X` be a prescheme, `Y` a closed subset of `X`, `f: Y → X` the inclusion, and `I` a quasi-coherent ideal
-defining `Y` in `X`. Let `F` be a sheaf on `X`.
+Now let $X$ be a prescheme, $Y$ a closed subset of $X$, $f: Y \to X$ the inclusion, and $I$ a quasi-coherent ideal
+defining $Y$ in $X$. Let $F$ be a sheaf on $X$.
 
-We have seen that there exist isomorphisms of `∂`-functors in `F`
+We have seen that there exist isomorphisms of $\partial$-functors in $F$
 
 ```text
 Ext^i_{𝒪_X}(X; f_* f^{−1}(𝒪_X), F) → H^i_Y(X, F),
@@ -139,27 +141,28 @@ Ext^i_{𝒪_X}(X; f_* f^{−1}(𝒪_X), F) → H^i_Y(X, F),
 
 <!-- label: eq:II.starstar -->
 
-Let `n`, `m` be integers with `m ⩾ n ⩾ 0`; we denote by `i_{n,m}` the canonical map
-`𝒪_{Y_m} = 𝒪_X/I^{m+1} → 𝒪_X/I^{n+1} = 𝒪_{Y_n}`, and by `j_n` the map
+Let $n$, $m$ be integers with $m \geqslant n \geqslant 0$; we denote by $i_{n,m}$ the canonical map
+$\mathcal{O}_{Y_{m}} = \mathcal{O}_{X}/I^{m+1} \to \mathcal{O}_{X}/I^{n+1} = \mathcal{O}_{Y_{n}}$, and by $j_{n}$ the
+map
 
 <!-- original page 22 (anchor at top of source page 17) -->
 
-`f_* f^{−1}(𝒪_X) → 𝒪_{Y_n}`. The pairs `(𝒪_{Y_n}, i_{n,m})` form a projective system, and the `j_n` are compatible with
-the `i_{n,m}`.
+$f_{*} f^{-1}(\mathcal{O}_{X}) \to \mathcal{O}_{Y_{n}}$. The pairs $(\mathcal{O}_{Y_{n}}, i_{n,m})$ form a projective
+system, and the $j_{n}$ are compatible with the $i_{n,m}$.
 
-Applying the functor `Ext^i_{𝒪_X}(X; ·, F)`, one deduces a morphism
+Applying the functor $Ext^{i}_{\mathcal{O}_{X}}(X; \cdot, F)$, one deduces a morphism
 
 ```text
 ϕ′: lim→_n Ext^i_{𝒪_X}(X; 𝒪_{Y_n}, F) → Ext^i_{𝒪_X}(X; f_* f^{−1}(𝒪_X), F);
 ```
 
-one easily shows that this is a morphism of cohomological functors in `F`. The morphism
+one easily shows that this is a morphism of cohomological functors in $F$. The morphism
 
 ```text
 ϕ: lim→_n Ext^i_{𝒪_X}(X; 𝒪_{Y_n}, F) → H^i_Y(X, F),
 ```
 
-obtained by composing `ϕ′` with (∗), is therefore also a morphism of cohomological functors in `F`.
+obtained by composing $\varphi'$ with (∗), is therefore also a morphism of cohomological functors in $F$.
 
 <!-- original page 22 -->
 
@@ -175,10 +178,10 @@ We have in view the following theorem:
 
 <!-- label: II.6 -->
 
-a) Let `X` be a locally noetherian prescheme, `Y` a closed subset of `X` defined by a coherent Ideal `I`, and `F` a
+a) Let $X$ be a locally noetherian prescheme, $Y$ a closed subset of $X$ defined by a coherent Ideal $I$, and $F$ a
 quasi-coherent Module. Then `ϕ̲` is an isomorphism.
 
-b) If `X` is noetherian, `ϕ` is an isomorphism.
+b) If $X$ is noetherian, $\varphi$ is an isomorphism.
 
 Theorem 6 will follow from 6.a) and from:
 
@@ -186,7 +189,7 @@ Theorem 6 will follow from 6.a) and from:
 
 <!-- label: II.7 -->
 
-If the topological space underlying `X` is noetherian and if `ϕ̲` is an isomorphism, then so is `ϕ`.
+If the topological space underlying $X$ is noetherian and if `ϕ̲` is an isomorphism, then so is $\varphi$.
 
 We first prove Lemma 7. We know that there is a spectral sequence
 
@@ -204,15 +207,15 @@ H^p(X, ℰxt^q_{𝒪_X}(𝒪_{Y_n}, F)) ⇒ Ext^*_{𝒪_X}(X; 𝒪_{Y_n}, F).
 
 <!-- label: eq:II.7.2n -->
 
-It follows from the definitions of `ϕ` and `ϕ̲` that these morphisms are associated with a homomorphism `Φ` of spectral
-sequences from the direct limit of (7.2n) to (7.1). If the space underlying `X` is noetherian, then by (Godement
-4.12.1)[^II-7-godement]
+It follows from the definitions of $\varphi$ and `ϕ̲` that these morphisms are associated with a homomorphism $\Phi$ of
+spectral sequences from the direct limit of (7.2n) to (7.1). If the space underlying $X$ is noetherian, then by
+(Godement 4.12.1)[^II-7-godement]
 
 ```text
 lim→_n H^p(X, ℰxt^q_{𝒪_X}(𝒪_{Y_n}, F)) ⥲ H^p(X, lim→_n ℰxt^q_{𝒪_X}(𝒪_{Y_n}, F)),
 ```
 
-so `Φ_2` can be written as a morphism
+so $\Phi_{2}$ can be written as a morphism
 
 ```text
 H^p(X, lim→_n ℰxt^q_{𝒪_X}(𝒪_{Y_n}, F)) → H^p(X, ℋ^q_Y(F))
@@ -220,7 +223,7 @@ H^p(X, lim→_n ℰxt^q_{𝒪_X}(𝒪_{Y_n}, F)) → H^p(X, ℋ^q_Y(F))
 
 which is nothing other than the one deduced from `ϕ̲`.
 
-If `ϕ̲` is an isomorphism, then so is `Φ_2`, and consequently so is `ϕ` by (EGA 0_III
+If `ϕ̲` is an isomorphism, then so is $\Phi_{2}$, and consequently so is $\varphi$ by (EGA 0_III
 
 <!-- original page 23 -->
 
@@ -228,8 +231,8 @@ If `ϕ̲` is an isomorphism, then so is `Φ_2`, and consequently so is `ϕ` by (
 
 <!-- original page 18 -->
 
-We shall now prove 6.a); this is a local question on `X`. By Corollary 4 and (EGA I 1.3.9 and 1.3.12) we may assume that
-`X` is the spectrum of a ring `A`. It therefore suffices to show that, under the hypotheses of Theorem 6.a), the
+We shall now prove 6.a); this is a local question on $X$. By Corollary 4 and (EGA I 1.3.9 and 1.3.12) we may assume that
+$X$ is the spectrum of a ring $A$. It therefore suffices to show that, under the hypotheses of Theorem 6.a), the
 canonical homomorphism
 
 ```text
@@ -240,8 +243,9 @@ lim→_n Ext^i_A(A/I^n, M) → H^i_Y(X, M)
 
 is an isomorphism.
 
-Let `f_α` be a finite number of elements of `A` generating `I`, with `f = (f_α)`; the sequence of ideals `(f^n)` is then
-decreasing and cofinal with the sequence of `I^n`, so that (7.3) is equivalent to a morphism of `∂`-functors in `M`:
+Let $f_{\alpha}$ be a finite number of elements of $A$ generating $I$, with $f = (f_{\alpha})$; the sequence of ideals
+$(f^{n})$ is then decreasing and cofinal with the sequence of $I^{n}$, so that (7.3) is equivalent to a morphism of
+$\partial$-functors in $M$:
 
 ```text
 lim→_n Ext^i_A(A/(f^n), M) → H^i_Y(X, M).
@@ -257,7 +261,8 @@ lim→_n Hom_A(A/(f^n), M) ≃ lim→_n { m ∈ M | (f^n)m = 0 } ≃ H⁰((f), M
 
 <!-- label: eq:II.7.5 -->
 
-Since `lim→_n Ext^i_A(A/(f^n), M)` is a universal `∂`-functor in `M`, there is a unique morphism of `∂`-functors in `M`:
+Since $\lim\to_{n} Ext^{i}_{A}(A/(f^{n}), M)$ is a universal $\partial$-functor in $M$, there is a unique morphism of
+$\partial$-functors in $M$:
 
 ```text
 lim→_n Ext^i_A(A/(f^n), M) → H^i((f), M),
@@ -267,15 +272,15 @@ lim→_n Ext^i_A(A/(f^n), M) → H^i((f), M),
 
 which coincides in degree zero with (7.5).
 
-Since the composite of (7.3) and (5.1) is a morphism of `∂`-functors in `M` that coincides with (7.6) in degree 0, it
-coincides with (7.6) in every degree. Theorem 6.a) is therefore an immediate consequence of:
+Since the composite of (7.3) and (5.1) is a morphism of $\partial$-functors in $M$ that coincides with (7.6) in degree
+0, it coincides with (7.6) in every degree. Theorem 6.a) is therefore an immediate consequence of:
 
 **Lemma.**
 
 <!-- label: II.8 -->
 
-Let `A` be a noetherian ring, `I` an ideal generated by a finite system `f = (f_α)` of elements, and `M` an `A`-module.
-Then the homomorphisms (7.6) are isomorphisms.
+Let $A$ be a noetherian ring, $I$ an ideal generated by a finite system $f = (f_{\alpha})$ of elements, and $M$ an
+$A$-module. Then the homomorphisms (7.6) are isomorphisms.
 
 <!-- original page 24 -->
 
@@ -283,22 +288,22 @@ Then the homomorphisms (7.6) are isomorphisms.
 
 <!-- label: II.9 -->
 
-Let `A` be a ring, `f = (f_α)` a finite system of elements of `A`, `I` the ideal generated by `f`, and `i > 0` an
+Let $A$ be a ring, $f = (f_{\alpha})$ a finite system of elements of $A$, $I$ the ideal generated by $f$, and $i > 0$ an
 integer. The following conditions are equivalent:
 
-a) The homomorphism (7.6) is an isomorphism for every `M`.
+a) The homomorphism (7.6) is an isomorphism for every $M$.
 
-b) `H^i((f), M) = 0` for `M` injective.
+b) $H^{i}((f), M) = 0$ for $M$ injective.
 
-c) The projective system `(H^i(f^n, A)) = H_{i,n}` is essentially zero, that is: for every `n`, there exists `n′ > n`
-such that `H_{i,n′} → H_{i,n}` is zero.
+c) The projective system $(H^{i}(f^{n}, A)) = H_{i,n}$ is essentially zero, that is: for every $n$, there exists
+$n' > n$ such that $H_{i,n'} \to H_{i,n}$ is zero.
 
 a) entails b) trivially.
 
-b) entails a): indeed, b) implies that `M ↦ H^i((f), M)` is a universal cohomological functor, so (7.6) is then a
-morphism of universal cohomological functors. It is an isomorphism in degree zero, hence in every degree.
+b) entails a): indeed, b) implies that $M \mapsto H^{i}((f), M)$ is a universal cohomological functor, so (7.6) is then
+a morphism of universal cohomological functors. It is an isomorphism in degree zero, hence in every degree.
 
-c) entails b): indeed, if `M` is injective, one has for every `n`
+c) entails b): indeed, if $M$ is injective, one has for every $n$
 
 ```text
 H^i(f^n, M) = Hom(H^i(f^n, A), M) = Hom(H_{i,n}, M),
@@ -306,65 +311,66 @@ H^i(f^n, M) = Hom(H^i(f^n, A), M) = Hom(H_{i,n}, M),
 
 <!-- original page 19 -->
 
-so c) implies that for every `i` the inductive system `(H^i(f^n, M))_{n ∈ ℤ}` is essentially zero, whence b).
+so c) implies that for every $i$ the inductive system $(H^{i}(f^{n}, M))_{n \in \mathbb{Z}}$ is essentially zero, whence
+b).
 
-b) entails c). Indeed, let `n > 0`, and let `j` be a monomorphism of `H_{i,n}` into an injective module `M`. Let
-`n′ ⩾ n`, and let `j_{n′} ∈ Hom(H_{i,n′}, M)` be the composite of `j` with the transition homomorphism
-`t_{n′,n}: H_{i,n′} → H_{i,n}`. The `j_{n′}` define an element of `H^i((f), M)`, which is zero by hypothesis. There
-therefore exists `n_0` such that `j_{n′} = 0` for `n′ > n_0`. But since `j` is a monomorphism, `j_{n′} = 0` entails
-`t_{n′,n} = 0`, whence the proposition.
+b) entails c). Indeed, let $n > 0$, and let $j$ be a monomorphism of $H_{i,n}$ into an injective module $M$. Let
+$n' \geqslant n$, and let $j_{n'} \in \operatorname{Hom}(H_{i,n'}, M)$ be the composite of $j$ with the transition
+homomorphism $t_{n',n}: H_{i,n'} \to H_{i,n}$. The $j_{n'}$ define an element of $H^{i}((f), M)$, which is zero by
+hypothesis. There therefore exists $n_{0}$ such that $j_{n'} = 0$ for $n' > n_{0}$. But since $j$ is a monomorphism,
+$j_{n'} = 0$ entails $t_{n',n} = 0$, whence the proposition.
 
 **Corollary.**
 
 <!-- label: II.10 -->
 
-Suppose that the space underlying `X = Spec(A)` is noetherian. In order that the preceding conditions be satisfied for
-every finite family of elements of `A` and every `i > 0` (or equivalently: for `i = 1`), it is necessary and sufficient
-that for every injective `A`-module `M`, the sheaf `F` associated with `M` be flasque.
+Suppose that the space underlying $X = \operatorname{Spec}(A)$ is noetherian. In order that the preceding conditions be
+satisfied for every finite family of elements of $A$ and every $i > 0$ (or equivalently: for $i = 1$), it is necessary
+and sufficient that for every injective $A$-module $M$, the sheaf $F$ associated with $M$ be flasque.
 
-It is necessary: indeed, let `f = (f_α)` be a finite system of elements of `A`, let `Y` be the closed subset defined by
-`f`, and `U = X − Y`; one then has the exact sequence
+It is necessary: indeed, let $f = (f_{\alpha})$ be a finite system of elements of $A$, let $Y$ be the closed subset
+defined by $f$, and $U = X - Y$; one then has the exact sequence
 
 ```text
 H⁰(X, F) → H⁰(U, F) → H¹((f), M) → 0,
 ```
 
-and, thanks to 9.b), `H⁰(X, F) → H⁰(U, F)` is surjective.
+and, thanks to 9.b), $H^{0}(X, F) \to H^{0}(U, F)$ is surjective.
 
 <!-- original page 25 -->
 
-It is sufficient by virtue of (5.1) and of the fact that for every closed subset `Y` of `X` and every flasque sheaf `F`
-on `X`, `H^i_Y(X, F) = 0` for `i > 0`.
+It is sufficient by virtue of (5.1) and of the fact that for every closed subset $Y$ of $X$ and every flasque sheaf $F$
+on $X$, $H^{i}_{Y}(X, F) = 0$ for $i > 0$.
 
 **Lemma.**
 
 <!-- label: II.11 -->
 
-Under the hypotheses of Lemma 9, for every noetherian `A`-module `N` and every `i > 0`, the projective system
-`(H_{i,n}(N))_{n ∈ ℤ}`, where `H_{i,n}(N) = H^i(f^n, N)`, is essentially zero.
+Under the hypotheses of Lemma 9, for every noetherian $A$-module $N$ and every $i > 0$, the projective system
+$(H_{i,n}(N))_{n \in \mathbb{Z}}$, where $H_{i,n}(N) = H^{i}(f^{n}, N)$, is essentially zero.
 
-Proof by induction on the number `m` of elements of `f`.
+Proof by induction on the number $m$ of elements of $f$.
 
-If `m = 1`, `f` reduces to a single element, say `f`; then `H_{i,n}(N)` is zero for `i > 1`, and `H_{1,n}(N)` is
-canonically isomorphic to the annihilator `N_{(n)}` of `f^n` in `N`, the transition homomorphism `N_{(n′)} → N_{(n)}`,
-`n′ ⩾ n`, being multiplication by `f^{n′ − n}`. The `N_{(n)}` form an increasing sequence of submodules of `N`, and
-since `N` is noetherian there exists `n_0` such that `N_{(n)} = N_{(n_0)}` for `n ⩾ n_0`. Thus all the `N_{(n)}` are
-annihilated by `f^{n_0}`, and the transition homomorphisms `N_{(n′)} → N_{(n)}` are all zero for `n′ ⩾ n + n_0`. The
-lemma is therefore proved for `m = 1`.
+If $m = 1$, $f$ reduces to a single element, say $f$; then $H_{i,n}(N)$ is zero for $i > 1$, and $H_{1,n}(N)$ is
+canonically isomorphic to the annihilator $N_{(n)}$ of $f^{n}$ in $N$, the transition homomorphism
+$N_{(n')} \to N_{(n)}$, $n' \geqslant n$, being multiplication by $f^{n' - n}$. The $N_{(n)}$ form an increasing
+sequence of submodules of $N$, and since $N$ is noetherian there exists $n_{0}$ such that $N_{(n)} = N_{(n_{0})}$ for
+$n \geqslant n_{0}$. Thus all the $N_{(n)}$ are annihilated by $f^{n_{0}}$, and the transition homomorphisms
+$N_{(n')} \to N_{(n)}$ are all zero for $n' \geqslant n + n_{0}$. The lemma is therefore proved for $m = 1$.
 
-We now assume that `m > 1` and that the lemma is proved for integers `m′ < m`; let then `g = (f_1, …, f_{m−1})` and
-`h = f_m`.
+We now assume that $m > 1$ and that the lemma is proved for integers $m' < m$; let then $g = (f_{1}, \cdots, f_{m-1})$
+and $h = f_{m}$.
 
-For every `n > 0`, one has (EGA III 1.1.4.1) an exact sequence
+For every $n > 0$, one has (EGA III 1.1.4.1) an exact sequence
 
 ```text
 0 → H⁰(h^n, H^i(g^n, N)) → H^i(f^n, N) → H¹(h^n, H^{i−1}(g^n, N)) → 0,
 ```
 
-and, as `n` varies, a projective system of exact sequences. It follows from the induction hypotheses that for `i > 0`
-the `H^i(g^n, N)` form an essentially zero projective system, and hence so do the `H⁰(h^n, H^i(g^n, N))`, which one
-identifies with quotients of `H^i(g^n, N)`. For the right-hand terms one factors the transition morphisms from `n′` to
-`n` through
+and, as $n$ varies, a projective system of exact sequences. It follows from the induction hypotheses that for $i > 0$
+the $H^{i}(g^{n}, N)$ form an essentially zero projective system, and hence so do the $H^{0}(h^{n}, H^{i}(g^{n}, N))$,
+which one identifies with quotients of $H^{i}(g^{n}, N)$. For the right-hand terms one factors the transition morphisms
+from $n'$ to $n$ through
 
 ```text
 H¹(h^{n′}, H^{i−1}(g^{n′}, N)) → H¹(h^{n′}, H^{i−1}(g^n, N)) → H¹(h^n, H^{i−1}(g^n, N)).
@@ -372,11 +378,11 @@ H¹(h^{n′}, H^{i−1}(g^{n′}, N)) → H¹(h^{n′}, H^{i−1}(g^n, N)) → H
 
 <!-- original page 20 (source page 20) -->
 
-Since `H^{i−1}(g^n, N)` is a noetherian module, it follows from the case `m = 1` that there exists, for given `n`,
+Since $H^{i-1}(g^{n}, N)$ is a noetherian module, it follows from the case $m = 1$ that there exists, for given $n$,
 
 <!-- original page 26 -->
 
-an `n′ > n` such that the second arrow is zero. We see therefore that in this projective system of exact sequences, the
+an $n' > n$ such that the second arrow is zero. We see therefore that in this projective system of exact sequences, the
 outermost projective systems are essentially zero, and hence so is the middle projective system.
 
 We have thus proved Lemma 11, hence Lemma 8, and consequently Theorem 6.
@@ -407,13 +413,14 @@ LEDGER DELTA (Exposé II):
 -->
 
 [^N.D.E-II-1]: *N.D.E.* The references `(I 2.4)`, `(I 2.2)`, `(I 2.3)`, `(I 2.7)` are the renumbered statements of
-    Exposé I §2 in the 1968 edition; the OCR carries the older bare-number form. The reader should consult
-    the corresponding statements of Exposé I directly.
+    Exposé I §2 in the 1968 edition; the OCR carries the older bare-number form. The reader should consult the
+    corresponding statements of Exposé I directly.
 
 [^N.D.E-II-2]: *N.D.E.* For coherence and clarity, only the equations have been numbered in parentheses.
 
-[^N.D.E-II-3]: *N.D.E.* Recall that `H_•(f, M)` is the Koszul cohomology `H_•(Hom(K_•(f), M))` of `f` (EGA III 1.1.2)
-    with values in `M`, and that `H_•((f), M)` is the limit (loc. cit., 1.1.6.5) `lim→_n H_•(f^n, M)`, the
-    transition morphisms being induced by the natural morphisms `K_•(f^{n+1}) → K_•(f^n)` (loc. cit., 1.1.6).
+[^N.D.E-II-3]: *N.D.E.* Recall that $H_{\bullet}(f, M)$ is the Koszul cohomology
+    $H_{\bullet}(\operatorname{Hom}(K_{\bullet}(f), M))$ of $f$ (EGA III 1.1.2) with values in $M$, and that
+    $H_{\bullet}((f), M)$ is the limit (loc. cit., 1.1.6.5) $\lim\to_{n} H_{\bullet}(f^{n}, M)$, the transition
+    morphisms being induced by the natural morphisms $K_{\bullet}(f^{n+1}) \to K_{\bullet}(f^{n})$ (loc. cit., 1.1.6).
 
 [^II-7-godement]: Cf. the first bibliographical reference at the end of Exposé I.

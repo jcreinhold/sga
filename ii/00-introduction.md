@@ -36,13 +36,13 @@ Here is a sketch of the contents of the present volume.
 
 <!-- original page 2 -->
 
-Exposé I contains the sorites of the "cohomology with supports in `Y`", `H^•_Y(X, F)`, where `Y` is a closed subset of a
-space `X` — a cohomology that can be interpreted as a cohomology of `X` modulo the open set `X − Y`, and that is the
-abutment of a most useful "local-to-global spectral sequence" I 2.6, involving sheaves of cohomology "with supports in
-`Y`", `ℋ^•_Y(F)`.[^N.D.E-intro-3] This formalism can play, in many questions, a role of "localization" analogous to the
-one played in differential geometry by the consideration of "tubular" neighborhoods of `Y`. Exposé II studies the
-preceding notions in the case of quasi-coherent sheaves on preschemes; Exposé III gives their relation with the
-classical notion of depth (III 3.3).
+Exposé I contains the sorites of the "cohomology with supports in $Y$", $H^{\bullet}_{Y}(X, F)$, where $Y$ is a closed
+subset of a space $X$ — a cohomology that can be interpreted as a cohomology of $X$ modulo the open set $X - Y$, and
+that is the abutment of a most useful "local-to-global spectral sequence" I 2.6, involving sheaves of cohomology "with
+supports in $Y$", $\mathcal{H}^{\bullet}_{Y}(F)$.[^N.D.E-intro-3] This formalism can play, in many questions, a role of
+"localization" analogous to the one played in differential geometry by the consideration of "tubular" neighborhoods of
+$Y$. Exposé II studies the preceding notions in the case of quasi-coherent sheaves on preschemes; Exposé III gives their
+relation with the classical notion of depth (III 3.3).
 
 <!-- original page 3 -->
 
@@ -51,30 +51,30 @@ let us note that these two types of duality theorems are substantially generaliz
 footnote at the end of Exposé IV).[^N.D.E-intro-4]
 
 Exposés VI and VII give some easy technical notions, used in Exposé VIII to prove the finiteness theorem (VIII 2.3),
-which gives necessary and sufficient conditions, for a coherent sheaf `F` on a noetherian scheme `X`, in order that the
-local cohomology sheaves `ℋ^i_Y(F)` be coherent for `i ⩽ n` (or equivalently, that the sheaves `R^i f_*(F|X − Y)` be
-coherent for `i ⩽ n − 1`, where `f: X − Y → X` is the inclusion). This theorem is one of the central technical results
-of the Séminaire, and we show in Exposé IX how a theorem of this nature can be used to establish a "comparison theorem"
-and an "existence theorem" in formal geometry, by tracing and generalizing the use made in (EGA III §§ 4 and 5) of the
-finiteness theorem for a proper morphism.
+which gives necessary and sufficient conditions, for a coherent sheaf $F$ on a noetherian scheme $X$, in order that the
+local cohomology sheaves $\mathcal{H}^{i}_{Y}(F)$ be coherent for $i \leqslant n$ (or equivalently, that the sheaves
+$R^{i} f_{*}(F|X - Y)$ be coherent for $i \leqslant n - 1$, where $f: X - Y \to X$ is the inclusion). This theorem is
+one of the central technical results of the Séminaire, and we show in Exposé IX how a theorem of this nature can be used
+to establish a "comparison theorem" and an "existence theorem" in formal geometry, by tracing and generalizing the use
+made in (EGA III §§ 4 and 5) of the finiteness theorem for a proper morphism.
 
 These last results are applied in X and XI, devoted respectively to Lefschetz-type theorems for the fundamental group
 and for the Picard group.
 
 <!-- original page 4 -->
 
-These theorems consist in comparing, under certain conditions, the invariants (`π₁` or `Pic`) attached respectively to a
-scheme `X` and to a subscheme `Y` (playing the role of a hyperplane section), and in giving in particular conditions
-under which they are isomorphic. Roughly speaking, the hypotheses made serve to pass from `Y` to the formal completion
-of `X` along `Y`, and to be able to apply afterwards the results of IX to pass from there to an open neighborhood `U` of
-`Y` in `X`. To pass from `U` to `X`, one needs additional information ("purity" or "parafactoriality" type) for the
-local rings of `X` at the points of `Z = X − U`, (which is a finite discrete set in the cases envisaged). This explains
-the interaction in the proofs of Exposés X, XI, XII between local and global results, in particular in certain
-inductions. The principal results obtained in X and XI are the theorems of local nature X 3.4 (purity theorem) and XI
-3.14 (parafactoriality theorem). One should note that these theorems are proved by cohomological techniques, of
-essentially global nature. In XII one obtains, using the preceding local results, the global variants of these results
-for projective schemes over a field, or more generally over a more or less arbitrary base scheme; among the typical
-statements, let us point out XII 3.5 and XII 3.7.
+These theorems consist in comparing, under certain conditions, the invariants ($\pi_{1}$ or `Pic`) attached respectively
+to a scheme $X$ and to a subscheme $Y$ (playing the role of a hyperplane section), and in giving in particular
+conditions under which they are isomorphic. Roughly speaking, the hypotheses made serve to pass from $Y$ to the formal
+completion of $X$ along $Y$, and to be able to apply afterwards the results of IX to pass from there to an open
+neighborhood $U$ of $Y$ in $X$. To pass from $U$ to $X$, one needs additional information ("purity" or
+"parafactoriality" type) for the local rings of $X$ at the points of $Z = X - U$, (which is a finite discrete set in the
+cases envisaged). This explains the interaction in the proofs of Exposés X, XI, XII between local and global results, in
+particular in certain inductions. The principal results obtained in X and XI are the theorems of local nature X 3.4
+(purity theorem) and XI 3.14 (parafactoriality theorem). One should note that these theorems are proved by cohomological
+techniques, of essentially global nature. In XII one obtains, using the preceding local results, the global variants of
+these results for projective schemes over a field, or more generally over a more or less arbitrary base scheme; among
+the typical statements, let us point out XII 3.5 and XII 3.7.
 
 In XIII, we review some of the many problems and conjectures suggested by the results and methods of the Séminaire. The
 most interesting are perhaps those concerning the cohomological and homotopical Lefschetz-type theorems for complex
@@ -104,22 +104,20 @@ A. Grothendieck.
     unfortunately, are out of print.
 
 [^N.D.E-intro-3]: *N.D.E.* The underlined notations for the sheafified versions of functors have been preserved, the
-    calligraphic analogue of `Γ` not being clear. (In the present translation, the sheafified `ℋ^•_Y(F)`
-    is rendered with a script-H to disambiguate, and the corresponding underlined section functor is kept
-    as `ΓZ`.)
+    calligraphic analogue of $\Gamma$ not being clear. (In the present translation, the sheafified
+    $\mathcal{H}^{\bullet}_{Y}(F)$ is rendered with a script-H to disambiguate, and the corresponding underlined section
+    functor is kept as $\Gamma Z$.)
 
 [^N.D.E-intro-4]: *N.D.E.* Hartshorne's book contains sign errors and, more importantly, does not really prove the
-    compatibility of the trace with base change. Conrad has completely redone this work, proving this
-    crucial and highly non-trivial compatibility (*Grothendieck duality and base change*, Lecture Notes in
-    Math. **1750**, Springer-Verlag, Berlin, 2000). Unfortunately, errors remain (cf. two preprints:
-    Conrad B., *Clarifications and corrections to "Grothendieck duality and base change"*, and *An
-    addendum to Chapter 5 of "Grothendieck duality and base change"*). For a more concrete aspect, with
-    particular attention to the notion of residue, see the works of Lipman, in particular (Lipman J.,
-    *Dualizing sheaves, differentials and residues on algebraic varieties*, Astérisque **117**, Société
-    Mathématique de France, 1984). A categorical proof of the duality theorem, based on Brown's
-    representability theorem, has been obtained by Neeman (Neeman A., *The Grothendieck duality theorem
-    via Bousfield's techniques and Brown representability*, J. Amer. Math. Soc. **9** (1996), no. 1, pp.
-    205–236).
+    compatibility of the trace with base change. Conrad has completely redone this work, proving this crucial and highly
+    non-trivial compatibility (*Grothendieck duality and base change*, Lecture Notes in Math. **1750**, Springer-Verlag,
+    Berlin, 2000). Unfortunately, errors remain (cf. two preprints: Conrad B., *Clarifications and corrections to
+    "Grothendieck duality and base change"*, and *An addendum to Chapter 5 of "Grothendieck duality and base change"*).
+    For a more concrete aspect, with particular attention to the notion of residue, see the works of Lipman, in
+    particular (Lipman J., *Dualizing sheaves, differentials and residues on algebraic varieties*, Astérisque **117**,
+    Société Mathématique de France, 1984). A categorical proof of the duality theorem, based on Brown's representability
+    theorem, has been obtained by Neeman (Neeman A., *The Grothendieck duality theorem via Bousfield's techniques and
+    Brown representability*, J. Amer. Math. Soc. **9** (1996), no. 1, pp. 205–236).
 
 [^N.D.E-intro-5]: *N.D.E.* Essentially all the conjectures stated in XIII and XIV are now proved; see the footnotes of
     these sections for references and commentary.

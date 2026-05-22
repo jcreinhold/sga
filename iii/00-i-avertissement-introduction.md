@@ -38,12 +38,12 @@ Bures-sur-Yvette, March 1970
 On the one hand, we aim to give convenient foundations for the theory of group schemes in general. Exposés I to IV will
 provide for this purpose the indispensable preliminary exercises in schematic and categorical syntax. To obtain a
 language that "fits" geometric intuition effortlessly, and to avoid eventually unbearable circumlocutions, we always
-identify a prescheme `X` over another `S` with the functor `(Sch)°/S → (Ens)` that it represents,[^I-intro-1] and it is
-necessary to give many definitions in such a way that they apply to arbitrary functors, representable or not. Moreover,
-nearly all the functors we shall have to use will be "sheaves" (for the "faithfully flat quasi-compact topology");
-Exposé IV, which treats groups only incidentally, gives a sketch of the language of "localization" and sheaves, which
-turns out to be very convenient for questions of representability of functors as well. Above all, this Exposé will
-provide us, for questions of passage to the quotient, with the most convenient framework for what follows.
+identify a prescheme $X$ over another $S$ with the functor $(Sch)^{\circ}/S \to (Ens)$ that it represents,[^I-intro-1]
+and it is necessary to give many definitions in such a way that they apply to arbitrary functors, representable or not.
+Moreover, nearly all the functors we shall have to use will be "sheaves" (for the "faithfully flat quasi-compact
+topology"); Exposé IV, which treats groups only incidentally, gives a sketch of the language of "localization" and
+sheaves, which turns out to be very convenient for questions of representability of functors as well. Above all, this
+Exposé will provide us, for questions of passage to the quotient, with the most convenient framework for what follows.
 
 Exposé V gives some general results on the existence of quotients, taken up in Exposé VI_A in the case of the quotient
 of an algebraic group over a field (or more generally, over an Artinian ring) by a subgroup.[^I-intro-2] The latter
@@ -51,7 +51,7 @@ Exposé and Exposé VI_B which follows it also contain various elementary result
 field, used routinely thereafter.
 
 Exposé VII studies certain facts linked to the characteristic of the base field, and in particular develops with
-appropriate generality the correspondence between radicial group schemes of height 1 and restricted `p`-Lie algebras.
+appropriate generality the correspondence between radicial group schemes of height 1 and restricted $p$-Lie algebras.
 
 <!-- original page xxii -->
 
@@ -65,7 +65,7 @@ in the case of "semisimple group schemes", or more generally "reductive" ones, w
 concerned from Exposé XIX onwards. Chevalley himself had already given the construction of the "Tôhoku" groups over the
 ring of integers, a construction that will be taken up in the present seminar. The principal uniqueness
 theorem[^I-intro-3] gives a simple characterization of the "twisted" variants of these Tôhoku groups over a base
-prescheme `S`: they are the affine and smooth groups over `S` whose geometric fibers are connected semisimple groups in
+prescheme $S$: they are the affine and smooth groups over $S$ whose geometric fibers are connected semisimple groups in
 the usual sense.[^I-intro-4]
 
 **2.** As in the case of the theory known over an algebraically closed field, a crucial role is played by the sub-tori
@@ -89,7 +89,7 @@ role. These properties intervene even for the study
 
 <!-- original page xxiii -->
 
-of algebraic groups over a field `k`, in the case where the latter is not perfect, in order in particular to apply the
+of algebraic groups over a field $k$, in the case where the latter is not perfect, in order in particular to apply the
 technique of descent in the non-Galois case. Among the new results obtained in this case, let us mention the existence
 of maximal tori and Cartan subgroups in any smooth algebraic group, the rationality of the variety of maximal tori, and
 various related results (Exp. XIV[^I-intro-5]), or the correspondence between the "forms" of a semisimple group and the
@@ -122,8 +122,8 @@ noetherian. He will, however, expose himself to difficulties in cases where the 
 
 <!-- original page xxiv -->
 
-proceeds by descent from `Â` to `A`, where `Â` is the completion of a noetherian local ring `A`, since this method leads
-to the introduction of the (in general non-noetherian) ring `Â ⊗_A Â`.
+proceeds by descent from `Â` to $A$, where `Â` is the completion of a noetherian local ring $A$, since this method leads
+to the introduction of the (in general non-noetherian) ring $\hat{A} \otimes_{A} \hat{A}$.
 
 **7.** References will be made following the usual decimal system: the reference 5.7.11 refers to the proposition (or
 lemma, definition, etc.) of that name in the same Exposé; in the reference XVII 7.8 the Roman numeral indicates the
@@ -133,7 +133,7 @@ number of the Exposé. We shall use the following abbreviations for our standard
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | *Bible*      | Séminaire Chevalley, *Groupes de Lie algébriques*, 1956/58                                                                                             |
 | EGA X, x.y.z | J. Dieudonné and A. Grothendieck, *Éléments de Géométrie Algébrique*, Chap. X, statement x.y.z (or sub-paragraph x.y, etc.)                            |
-| SGA n, X y.z | *Séminaire de Géométrie Algébrique du Bois-Marie*, year `n`, statement y.z of Exposé X.                                                                |
+| SGA n, X y.z | *Séminaire de Géométrie Algébrique du Bois-Marie*, year $n$, statement y.z of Exposé X.                                                                |
 | TDTE         | A. Grothendieck, *Techniques de descente et théorèmes d'existence en Géométrie Algébrique*, Exposés in the *Séminaire Bourbaki* between 1959 and 1962. |
 
 ## Bibliography
@@ -157,21 +157,21 @@ Kirwan, 1994).
 [Se77] C. S. Seshadri, *Geometric reductivity over an arbitrary base*, Adv. Math. **26** (1977), no. 3, 225–274.
 
 [^I-intro-1]: Such a viewpoint seems to have been envisaged for the first time eight or nine years ago, in connection
-    with the theory of formal groups, by P. Cartier, who unfortunately did not take the trouble to make it
-    precise and systematic as it deserved.
+    with the theory of formal groups, by P. Cartier, who unfortunately did not take the trouble to make it precise and
+    systematic as it deserved.
 
 [^I-intro-2]: For a more thorough study of passage to the quotient, in particular by reductive groups, see the important
-    study by D. Mumford, *Geometric Invariant Theory*, Ergebnisse der Mathematik, Bd. 34, Springer, 1965. Let
-    us observe that, on an important point, the terminology of this book does not agree with ours: over a
-    field of characteristic `p > 0`, the groups that Mumford calls "reductive"[^N.D.E-I-intro-1] are the
-    smooth groups of multiplicative type in the sense of the seminar (cf. Exp. IX). One may presumably
-    consider that Mumford's acceptation of the word "reductive", which loses its meaning over a base that is
-    not a field, was adopted by him on a provisional basis and as a kind of stopgap (and this is also roughly
-    what Mumford explains, for other motives, from the second paragraph of his preface!).
+    study by D. Mumford, *Geometric Invariant Theory*, Ergebnisse der Mathematik, Bd. 34, Springer, 1965. Let us observe
+    that, on an important point, the terminology of this book does not agree with ours: over a field of characteristic
+    $p > 0$, the groups that Mumford calls "reductive"[^N.D.E-I-intro-1] are the smooth groups of multiplicative type in
+    the sense of the seminar (cf. Exp. IX). One may presumably consider that Mumford's acceptation of the word
+    "reductive", which loses its meaning over a base that is not a field, was adopted by him on a provisional basis and
+    as a kind of stopgap (and this is also roughly what Mumford explains, for other motives, from the second paragraph
+    of his preface!).
 
 [^I-intro-3]: *N.D.E.* This refers to Corollary XXIII.5.6, which is easily deduced from the uniqueness theorem for split
-    reductive groups (cf. XXIII, Th. 4.1 and Cor. 5.2), given that every semisimple `S`-group is a "twisted
-    form" (for the étale topology) of a "Tôhoku" group (cf. XXII, Cor. 2.3).
+    reductive groups (cf. XXIII, Th. 4.1 and Cor. 5.2), given that every semisimple $S$-group is a "twisted form" (for
+    the étale topology) of a "Tôhoku" group (cf. XXII, Cor. 2.3).
 
 [^I-intro-4]: This is the essential result of M. Demazure's thesis (*Schémas en groupes réductifs*, Bull. Soc. Math.
     France **93** (1965), 369–413).
@@ -181,16 +181,14 @@ Kirwan, 1994).
 [^I-intro-6]: Since the writing of this introduction, the four parts (§§ 1 to 21) of EGA IV have appeared.
 
 [^N.D.E-I-intro-1]: *N.D.E.* Concerning the quotient by a reductive group, the situation has evolved considerably since
-    A. Grothendieck wrote Note (∗∗). Indeed, for an affine algebraic group over an arbitrary field `k`,
-    the "good" notion, introduced by Mumford, is that of "geometrically reductive" group. (One says, on
-    the other hand, that `G` is "linearly reductive" if every rational representation of `G` is
-    completely reducible; but, as pointed out in Note (∗∗), this condition is too restrictive if
-    `char(k) > 0`.) By the results of M. Nagata and W. J. Haboush ([Na64], [NM64], [Ha75]), the
-    geometrically reductive `k`-groups are exactly the reductive `k`-groups in the sense of the present
-    seminar. For all this, see the subsequent editions of Mumford's book ([MF82]). Moreover, the
-    extension to the case of an arbitrary base of the notion of "geometric reductivity", and of its
-    consequences for passage to the quotient, was carried out by C. S. Seshadri ([Se77]), and additions,
-    due to M. Raynaud, are to be found in the article [CTS79] of J.-L. Colliot-Thélène and J.-J. Sansuc.
-    Finally, for more recent developments concerning passage to the quotient by an algebraic group or,
-    more generally, by a groupoid (cf. Exposé V of the present seminar), we point to the articles [Ko97]
-    and [KM97] by J. Kollár and by S. Keel and S. Mori.
+    A. Grothendieck wrote Note (∗∗). Indeed, for an affine algebraic group over an arbitrary field $k$, the "good"
+    notion, introduced by Mumford, is that of "geometrically reductive" group. (One says, on the other hand, that $G$ is
+    "linearly reductive" if every rational representation of $G$ is completely reducible; but, as pointed out in Note
+    (∗∗), this condition is too restrictive if $char(k) > 0$.) By the results of M. Nagata and W. J. Haboush ([Na64],
+    [NM64], [Ha75]), the geometrically reductive $k$-groups are exactly the reductive $k$-groups in the sense of the
+    present seminar. For all this, see the subsequent editions of Mumford's book ([MF82]). Moreover, the extension to
+    the case of an arbitrary base of the notion of "geometric reductivity", and of its consequences for passage to the
+    quotient, was carried out by C. S. Seshadri ([Se77]), and additions, due to M. Raynaud, are to be found in the
+    article [CTS79] of J.-L. Colliot-Thélène and J.-J. Sansuc. Finally, for more recent developments concerning passage
+    to the quotient by an algebraic group or, more generally, by a groupoid (cf. Exposé V of the present seminar), we
+    point to the articles [Ko97] and [KM97] by J. Kollár and by S. Keel and S. Mori.

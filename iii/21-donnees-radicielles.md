@@ -9,10 +9,11 @@
 [^N.D.E-XXI-0] This Exposé collects, in the absence of a suitable reference,[^N.D.E-XXI-1] some known results on root
 data (= "abstract" root systems), most of which will be used in what follows.
 
-**Notations.** — We denote by `Q₊` the set of positive (or zero) rational numbers; one has `ℤ ∩ Q₊ = ℕ`. Let `V` be a
-`ℚ`-vector space; if `A` (resp. `B`) is a subset of `ℚ` (resp. `V`), we denote by `A · B` the image of `A ⊗ B` under the
-morphism `ℚ ⊗ V → V`, in other words the set of linear combinations of elements of `B` with coefficients in `A`. We
-write `−B = {−1} · B`. We denote by `E − F` the set of elements of `E` that do not belong to `F`.
+**Notations.** — We denote by $Q_{+}$ the set of positive (or zero) rational numbers; one has
+$\mathbb{Z} \cap Q_{+} = \mathbb{N}$. Let $V$ be a $\mathbb{Q}$-vector space; if $A$ (resp. $B$) is a subset of
+$\mathbb{Q}$ (resp. $V$), we denote by $A \cdot B$ the image of $A \otimes B$ under the morphism
+$\mathbb{Q} \otimes V \to V$, in other words the set of linear combinations of elements of $B$ with coefficients in $A$.
+We write $-B = {-1} \cdot B$. We denote by $E - F$ the set of elements of $E$ that do not belong to $F$.
 
 ## 1. Generalities
 
@@ -22,16 +23,17 @@ write `−B = {−1} · B`. We denote by `E − F` the set of elements of `E` th
 
 <!-- label: III.XXI.1.1 -->
 
-**Definition 1.1.1.** *Let `M` and `M*` be two free `ℤ`-modules of finite type in duality. Write `V = M ⊗ ℚ`,
-`V* = M* ⊗ ℚ`; these are two `ℚ`-vector spaces in duality. We identify `M` (resp. `M*`) with a subset of `V` (resp.
-`V*`). The canonical bilinear form on `M* × M` (resp. `V* × V`) is denoted `( , )`.*
+**Definition 1.1.1.** *Let $M$ and $M*$ be two free $\mathbb{Z}$-modules of finite type in duality. Write
+$V = M \otimes \mathbb{Q}$, $V* = M* \otimes \mathbb{Q}$; these are two $\mathbb{Q}$-vector spaces in duality. We
+identify $M$ (resp. $M*$) with a subset of $V$ (resp. $V*$). The canonical bilinear form on $M* \times M$ (resp.
+$V* \times V$) is denoted $( ,)$.*
 
 <!-- label: III.XXI.1.1.1 -->
 
 <!-- original page 86 -->
 
-*Let `R` be a finite subset of `M`. Suppose we are given a map `α ↦ α*` of `R` into `M*`; the set of `α*`, for `α ∈ R`,
-is denoted `R*`. To each `α ∈ R` we associate the endomorphism `s_α` (resp. `s*_α`) of `M` and `V` (resp. `M*` and `V*`)
+*Let $R$ be a finite subset of $M$. Suppose we are given a map $\alpha \mapsto \alpha*$ of $R$ into $M*$; the set of $\alpha*$, for $\alpha \in R$,
+is denoted $R*$. To each $\alpha \in R$ we associate the endomorphism $s_{\alpha}$ (resp. $s*_{\alpha}$) of $M$ and $V$ (resp. $M*$ and $V*$)
 given by the formulas:*
 
 ```text
@@ -39,15 +41,15 @@ given by the formulas:*
 (1*)   s*_α(u) = u − (u, α)α*,   i.e.   s*_α = id − α ⊗ α*.
 ```
 
-*One says that the pair `(R, R*)` (more precisely the pair `(R, R → M*)`) is a* root datum *in `(M, M*)`, or that
-`(M, M*, R, R*)` is a* root datum, *if the following axioms are satisfied:*
+*One says that the pair $(R, R*)$ (more precisely the pair $(R, R \to M*)$) is a* root datum *in $(M, M*)$, or that
+$(M, M*, R, R*)$ is a* root datum, *if the following axioms are satisfied:*
 
 ```text
 (DR I)   For each α ∈ R, one has    (α*, α) = 2.
 (DR II)  For each α ∈ R, one has    s_α(R) ⊂ R,    s*_α(R*) ⊂ R*.
 ```
 
-*One says that `R` is the* root system *of the root datum `ℛ = (M, M*, R, R*)`. The elements of `R` (resp. `R*`) are
+*One says that $R$ is the* root system *of the root datum $\mathcal{R} = (M, M*, R, R*)$. The elements of $R$ (resp. $R*$) are
 called the* roots *(resp.* coroots\*) of the root datum.\*
 
 **Remark 1.1.2.** *Axiom (DR I) is equivalent to any of the following properties:*
@@ -69,20 +71,22 @@ R = −R,   R* = −R*,   0 ∉ R,   0 ∉ R*.
 
 <!-- original page 87 -->
 
-**Lemma 1.1.4.** *The map `R → R*` is a bijection. More generally, if `α, β ∈ R` and `(α*, x) = (β*, x)` for all
-`x ∈ R`, then `α = β`.*
+**Lemma 1.1.4.** *The map $R \to R*$ is a bijection. More generally, if $\alpha, \beta \in R$ and $(\alpha*, x) = (\beta*, x)$ for all
+$x \in R$, then $\alpha = \beta$.*
 
 <!-- label: III.XXI.1.1.4 -->
 
-*Proof.* Indeed, one then has `s_β(α) = α − 2β`, `s_α(β) = β − 2α`. One deduces at once
+*Proof.* Indeed, one then has $s_{\beta}(\alpha) = \alpha - 2\beta$, $s_{\alpha}(\beta) = \beta - 2\alpha$. One deduces
+at once
 
 ```text
 s_β s_α(α) = 2β − α = α + 2(β − α),    s_β s_α(β − α) = s_β(β − α) = β − α,
 ```
 
-whence `(s_β s_α)ⁿ(α) = α + 2n(β − α) ∈ R` by (DR II). Since `R` is finite, one has `β − α = 0`.
+whence $(s_{\beta} s_{\alpha})^{n}(\alpha) = \alpha + 2n(\beta - \alpha) \in R$ by (DR II). Since $R$ is finite, one has
+$\beta - \alpha = 0$.
 
-**Corollary 1.1.5.** *The inverse map `R* → R` defines a root datum*
+**Corollary 1.1.5.** *The inverse map $R* \to R$ defines a root datum*
 
 <!-- label: III.XXI.1.1.5 -->
 
@@ -90,51 +94,54 @@ whence `(s_β s_α)ⁿ(α) = α + 2n(β − α) ∈ R` by (DR II). Since `R` is 
 ℛ* = (M*, M, R*, R)
 ```
 
-*called the* dual *of `ℛ`.*[^N.D.E-XXI-2]
+*called the* dual *of $\mathcal{R}$.*[^N.D.E-XXI-2]
 
-**Definition 1.1.6.** *We denote by `Γ₀(R)` the subgroup of `M` generated by `R`. We denote by `V(R)` the vector
-subspace of `V` generated by `R`, that is to say `Γ₀(R) ⊗ ℚ`. Applying these definitions to `ℛ*`, one constructs
-similarly `Γ₀(R*)` and `V(R*)`.*
+**Definition 1.1.6.** *We denote by $\Gamma_{0}(R)$ the subgroup of $M$ generated by $R$. We denote by $V(R)$ the vector
+subspace of $V$ generated by $R$, that is to say $\Gamma_{0}(R) \otimes \mathbb{Q}$. Applying these definitions to
+$\mathcal{R}*$, one constructs similarly $\Gamma_{0}(R*)$ and $V(R*)$.*
 
 <!-- label: III.XXI.1.1.6 -->
 
-*One calls* reductive rank *of `ℛ` the number*
+*One calls* reductive rank *of $\mathcal{R}$ the number*
 
 ```text
 rgred(ℛ) = rank(M) = dim(V) = dim(V*) = rank(M*) = rgred(ℛ*).
 ```
 
-*One calls* semisimple rank *of `ℛ` the number*
+*One calls* semisimple rank *of $\mathcal{R}$ the number*
 
 ```text
 rgss(ℛ) = rank(R) = rank(Γ₀(R)) = dim(V(R)).
 ```
 
-*One thus has `rgss(ℛ) ⩽ rgred(ℛ)`.*
+*One thus has $rgss(\mathcal{R}) \leqslant rgred(\mathcal{R})$.*
 
-*We shall see below that `rgss(ℛ) = rgss(ℛ*)`, that is to say that `V(R)` and `V(R*)` have the same dimension.*
+*We shall see below that $rgss(\mathcal{R}) = rgss(\mathcal{R}*)$, that is to say that $V(R)$ and $V(R*)$ have the same
+dimension.*
 
 <!-- original page 88 -->
 
-**Definition 1.1.7.** *One says that `ℛ` is* semisimple *(resp.* trivial\*) if `rgss(ℛ) = rgred(ℛ)` (resp.
-`rgss(ℛ) = 0`). For `ℛ` to be trivial it is therefore necessary and sufficient that `R` be empty. The trivial root datum
-of reductive rank zero is denoted `0 = ({0}, {0}, ∅, ∅)`.\*
+**Definition 1.1.7.** *One says that $\mathcal{R}$ is* semisimple *(resp.* trivial\*) if
+$rgss(\mathcal{R}) = rgred(\mathcal{R})$ (resp. $rgss(\mathcal{R}) = 0$). For $\mathcal{R}$ to be trivial it is
+therefore necessary and sufficient that $R$ be empty. The trivial root datum of reductive rank zero is denoted
+$0 = ({0}, {0}, \emptyset, \emptyset)$.\*
 
 <!-- label: III.XXI.1.1.7 -->
 
-**Definition 1.1.8.** *We denote by `W(ℛ)` the group of transformations of `M` generated by the `s_α`, `α ∈ R`. We call
-it the* Weyl group *of `ℛ`. We write*
+**Definition 1.1.8.** *We denote by $W(\mathcal{R})$ the group of transformations of $M$ generated by the $s_{\alpha}$,
+$\alpha \in R$. We call it the* Weyl group *of $\mathcal{R}$. We write*
 
 <!-- label: III.XXI.1.1.8 -->
 
-```text
-W*(ℛ) = W(ℛ*).
-```
+$$
+W*(\mathcal{R}) = W(\mathcal{R}*).
+$$
 
-*Then `W(ℛ)` operates on `R`, `Γ₀(R)`, `V(R)`, `M` and `V`. If `w ∈ W(ℛ)` and `x ∈ M` (resp. `x ∈ V`), one has
-`wx − x ∈ Γ₀(R)` (resp. `wx − x ∈ V(R)`); this is immediate from formula (1). Likewise for `W*(ℛ)`.*
+*Then $W(\mathcal{R})$ operates on $R$, $\Gamma_{0}(R)$, $V(R)$, $M$ and $V$. If $w \in W(\mathcal{R})$ and $x \in M$
+(resp. $x \in V$), one has $wx - x \in \Gamma_{0}(R)$ (resp. $wx - x \in V(R)$); this is immediate from formula (1).
+Likewise for $W*(\mathcal{R})$.*
 
-**Lemma 1.1.9.** *For all `α ∈ R`, `x ∈ V`, `u ∈ V*`, one has*
+**Lemma 1.1.9.** *For all $\alpha \in R$, $x \in V$, $u \in V*$, one has*
 
 <!-- label: III.XXI.1.1.9 -->
 
@@ -143,38 +150,38 @@ W*(ℛ) = W(ℛ*).
 ```
 
 *Proof.* Indeed, taking the scalar product of (1) and (1\*), one finds that the left-hand side equals
-`(u, x) + (u, α)(α*, x)((α*, α) − 2) = (u, x)`.
+$(u, x) + (u, \alpha)(\alpha*, x)((\alpha*, \alpha) - 2) = (u, x)$.
 
-**Remark 1.1.10.** *If one assumes `0 ∉ R` and `0 ∉ R*`, then 1.1.9 is equivalent to (DR I).*
+**Remark 1.1.10.** *If one assumes $0 \notin R$ and $0 \notin R*$, then 1.1.9 is equivalent to (DR I).*
 
 <!-- label: III.XXI.1.1.10 -->
 
-**Corollary 1.1.11.** *Denote by `h ↦ h^∨` the isomorphism of `GL(M)` onto `GL(M*)` that associates to `h` its
-contragredient. Then formula (4) is also written*
+**Corollary 1.1.11.** *Denote by $h \mapsto h^{\vee}$ the isomorphism of $GL(M)$ onto $GL(M*)$ that associates to $h$
+its contragredient. Then formula (4) is also written*
 
 <!-- label: III.XXI.1.1.11 -->
 
-```text
-(5)    (s_α)^∨ = s*_α.
-```
+$$
+(5)    (s_{\alpha})^{\vee} = s*_{\alpha}.
+$$
 
-**Corollary 1.1.12.** *The preceding isomorphism induces an isomorphism of `W(ℛ)` onto `W*(ℛ)`.*
+**Corollary 1.1.12.** *The preceding isomorphism induces an isomorphism of $W(\mathcal{R})$ onto $W*(\mathcal{R})$.*
 
 <!-- label: III.XXI.1.1.12 -->
 
 <!-- original page 89 -->
 
-**Scholie 1.1.13.** *By virtue of the preceding result, we shall identify `W` and `W*`, and we shall regard `W` as a
-group of transformations of `R`, `R*`, `M`, `M*`, `Γ₀(R)`, `Γ₀(R*)`, `V`, `V*`, `V(R)`, `V(R*)`. We shall write `s_α`
-for `s*_α`.*
+**Scholie 1.1.13.** *By virtue of the preceding result, we shall identify $W$ and $W*$, and we shall regard $W$ as a
+group of transformations of $R$, $R*$, $M$, $M*$, $\Gamma_{0}(R)$, $\Gamma_{0}(R*)$, $V$, $V*$, $V(R)$, $V(R*)$. We
+shall write $s_{\alpha}$ for $s*_{\alpha}$.*
 
 <!-- label: III.XXI.1.1.13 -->
 
-### 1.2. The map `p`
+### 1.2. The map $p$
 
 <!-- label: III.XXI.1.2 -->
 
-**Lemma 1.2.1.** *Let `p : M → M*` (resp. `V → V*`) be the linear map defined by*
+**Lemma 1.2.1.** *Let $p : M \to M*$ (resp. $V \to V*$) be the linear map defined by*
 
 <!-- label: III.XXI.1.2.1 -->
 
@@ -182,7 +189,7 @@ for `s*_α`.*
 (6)    p(x) = Σ_{u ∈ R*} (u, x) u.
 ```
 
-*Write `ℓ(x) = (p(x), x)`. One has the following properties:*
+*Write $\ell(x) = (p(x), x)$. One has the following properties:*
 
 ```text
 (7)    ℓ(x) ⩾ 0,    ℓ(α) > 0    for α ∈ R.
@@ -194,7 +201,7 @@ for `s*_α`.*
 (10)   ℓ(α) α* = 2 p(α),    for α ∈ R.
 ```
 
-*Proof.* The first three relations are immediate.[^N.D.E-XXI-3] Let us prove the last. By (1), for `u ∈ V*`:
+*Proof.* The first three relations are immediate.[^N.D.E-XXI-3] Let us prove the last. By (1), for $u \in V*$:
 
 ```text
 (u, α)² α* = (u, α) u − (u, α) s_α(u)
@@ -204,99 +211,100 @@ for `s*_α`.*
 
 <!-- original page 90 -->
 
-Since `s_α` is a permutation of `R*` (by (DR II)), it remains only to sum over `u ∈ R*` to conclude.
+Since $s_{\alpha}$ is a permutation of $R*$ (by (DR II)), it remains only to sum over $u \in R*$ to conclude.
 
-**Scholie 1.2.2.** *Relation (10) says that `α ↦ ℓ(α) α*` is the restriction to `R` of a linear map from `M` into `M*`.
-In particular, one has*
+**Scholie 1.2.2.** *Relation (10) says that $\alpha \mapsto \ell(\alpha) \alpha*$ is the restriction to $R$ of a linear
+map from $M$ into $M*$. In particular, one has*
 
 <!-- label: III.XXI.1.2.2 -->
 
-```text
-(−α)* = −α*.
-```
+$$
+(-\alpha)* = -\alpha*.
+$$
 
-**Corollary 1.2.3.** *The map `p` induces an isomorphism of `V(R)` onto `V(R)*`.*
+**Corollary 1.2.3.** *The map $p$ induces an isomorphism of $V(R)$ onto $V(R)*$.*
 
 <!-- label: III.XXI.1.2.3 -->
 
-*Proof.* Indeed, `p` sends `V(R)` into `V(R*)`. We thus have
+*Proof.* Indeed, $p$ sends $V(R)$ into $V(R*)$. We thus have
 
-```text
-dim(V(R)) ⩾ dim(V(R*)).
-```
+$$
+\dim(V(R)) \geqslant \dim(V(R*)).
+$$
 
 Applying this inequality to the dual root datum, we deduce
 
-```text
-dim(V(R)) = dim(V(R*)),
-```
+$$
+\dim(V(R)) = \dim(V(R*)),
+$$
 
-so `p`, being surjective, is also bijective.
+so $p$, being surjective, is also bijective.
 
-**Corollary 1.2.4.** *One has `dim(V(R)) = dim(V(R*))`, hence*
+**Corollary 1.2.4.** *One has $\dim(V(R)) = \dim(V(R*))$, hence*
 
 <!-- label: III.XXI.1.2.4 -->
 
-```text
-rgss(ℛ) = rgss(ℛ*).
-```
+$$
+rgss(\mathcal{R}) = rgss(\mathcal{R}*).
+$$
 
-**Corollary 1.2.5.** *The bilinear form `(u, x)` is nondegenerate on `V(R*) × V(R)`, and so puts these `ℚ`-vector spaces
-in duality.*
+**Corollary 1.2.5.** *The bilinear form $(u, x)$ is nondegenerate on $V(R*) \times V(R)$, and so puts these
+$\mathbb{Q}$-vector spaces in duality.*
 
 <!-- label: III.XXI.1.2.5 -->
 
-*Proof.* Indeed, if `(u, x) = 0` for all `u ∈ R*`, then `p(x) = 0`.
+*Proof.* Indeed, if $(u, x) = 0$ for all $u \in R*$, then $p(x) = 0$.
 
-**Corollary 1.2.6.** *The symmetric bilinear form `(p(x), y)` is positive nondegenerate on `V(R)`.*
+**Corollary 1.2.6.** *The symmetric bilinear form `(p(x), y)` is positive nondegenerate on $V(R)$.*
 
 <!-- label: III.XXI.1.2.6 -->
 
 <!-- original page 91 -->
 
-**Corollary 1.2.7.** *`W` operates faithfully on `R` (and hence on the other sets of 1.1.13).*
+**Corollary 1.2.7.** *$W$ operates faithfully on $R$ (and hence on the other sets of 1.1.13).*
 
 <!-- label: III.XXI.1.2.7 -->
 
-*Proof.* Indeed, let `u ∈ V*`. Let `w ∈ W`; suppose that `w(α) = α` for all `α ∈ R`, and let us prove that `w(u) = u`.
-One has
+*Proof.* Indeed, let $u \in V*$. Let $w \in W$; suppose that $w(\alpha) = \alpha$ for all $\alpha \in R$, and let us
+prove that $w(u) = u$. One has
 
 ```text
 (w(u) − u, α) = (w(u), α) − (u, α) = (u, w⁻¹(α)) − (u, α) = 0.
 ```
 
-But `w(u) − u ∈ V(R*)`. If it is orthogonal to all the roots, it is zero by 1.2.5.
+But $w(u) - u \in V(R*)$. If it is orthogonal to all the roots, it is zero by 1.2.5.
 
-**Corollary 1.2.8.** *The group `W` is finite.*
+**Corollary 1.2.8.** *The group $W$ is finite.*
 
 <!-- label: III.XXI.1.2.8 -->
 
-**Proposition 1.2.9.** *The operations of `W` respect the correspondence between roots and coroots. In other words, for
-`α ∈ R` and `w ∈ W`, one has*
+**Proposition 1.2.9.** *The operations of $W$ respect the correspondence between roots and coroots. In other words, for
+$\alpha \in R$ and $w \in W$, one has*
 
 <!-- label: III.XXI.1.2.9 -->
 
-```text
-w(α*) = w(α)*.
-```
+$$
+w(\alpha*) = w(\alpha)*.
+$$
 
-*Proof.* It suffices to verify this for `w = s_β`, `β ∈ R`, that is to say to verify the formula
+*Proof.* It suffices to verify this for $w = s_{\beta}$, $\beta \in R$, that is to say to verify the formula
 
-```text
-s_β(α*) = s_β(α)*.
-```
+$$
+s_{\beta}(\alpha*) = s_{\beta}(\alpha)*.
+$$
 
-Now `ℓ(s_β(α)) · s_β(α)* / 2` equals:
+Now $\ell(s_{\beta}(\alpha)) \cdot s_{\beta}(\alpha)* / 2$ equals:
 
 ```text
 p(s_β(α)) = Σ_{u ∈ R*} (u, s_β(α)) u = Σ_{u ∈ R*} (s_β(u), α) u = Σ_{u ∈ R*} (u, α) s_β(u) = s_β(p(α));
 ```
 
-since `ℓ(s_β(α)) = ℓ(α)`, one obtains `s_β(α)* = s_β(2 p(α) / ℓ(α)) = s_β(α*)`.
+since $\ell(s_{\beta}(\alpha)) = \ell(\alpha)$, one obtains
+$s_{\beta}(\alpha)* = s_{\beta}(2 p(\alpha) / \ell(\alpha)) = s_{\beta}(\alpha*)$.
 
 <!-- original page 92 -->
 
-**Corollary 1.2.10.** *If `α ∈ R` and `w ∈ W`, one has*
+**Corollary 1.2.10.** *If $\alpha \in R$ and $w \in W$, one has*
 
 <!-- label: III.XXI.1.2.10 -->
 
@@ -304,14 +312,15 @@ since `ℓ(s_β(α)) = ℓ(α)`, one obtains `s_β(α)* = s_β(2 p(α) / ℓ(α)
 w s_α w⁻¹ = s_{w(α)}.
 ```
 
-*Proof.* Indeed, `w s_α w⁻¹(x) = x − (α*, w⁻¹(x)) w(α) = x − (w(α*), x) w(α)`, and this last term equals, by 1.2.9:
+*Proof.* Indeed, $w s_{\alpha} w^{-1}(x) = x - (\alpha*, w^{-1}(x)) w(\alpha) = x - (w(\alpha*), x) w(\alpha)$, and this
+last term equals, by 1.2.9:
 
 ```text
 x − (w(α)*, x) w(α) = s_{w(α)}(x).
 ```
 
-**Corollary 1.2.11.** *Let `R' ⊂ R`. For `(M, M*, R', R'*)` to be a root datum, it is necessary and sufficient that
-`α, β ∈ R'` imply `s_α(β) ∈ R'`.*
+**Corollary 1.2.11.** *Let $R' \subset R$. For $(M, M*, R', R'*)$ to be a root datum, it is necessary and sufficient
+that $\alpha, \beta \in R'$ imply $s_{\alpha}(\beta) \in R'$.*
 
 <!-- label: III.XXI.1.2.11 -->
 
@@ -323,16 +332,16 @@ x − (w(α)*, x) w(α) = s_{w(α)}(x).
 
 <!-- label: III.XXI.2.1 -->
 
-**Proposition 2.1.1.** *Let `α` and `β` be two roots. The following conditions are equivalent:*
+**Proposition 2.1.1.** *Let $\alpha$ and $\beta$ be two roots. The following conditions are equivalent:*
 
 <!-- label: III.XXI.2.1.1 -->
 
-*(i) There exists `k ∈ ℚ` such that `α = k β`.*
+*(i) There exists $k \in \mathbb{Q}$ such that $\alpha = k \beta$.*
 
-*(ii) `s_α = s_β`.*
+*(ii) $s_{\alpha} = s_{\beta}$.*
 
-*Moreover, under these conditions one has `α* = k⁻¹ β*`, and `k` is equal to one of the numbers `1`, `−1`, `2`, `−2`,
-`1/2`, `−1/2`.*
+*Moreover, under these conditions one has $\alpha* = k^{-1} \beta*$, and $k$ is equal to one of the numbers `1`, $-1$,
+`2`, $-2$, `1/2`, $-1/2$.*
 
 *Proof.* Suppose first (i). One has first
 
@@ -340,48 +349,52 @@ x − (w(α)*, x) w(α) = s_{w(α)}(x).
 α* = ℓ(α)⁻¹ · 2 p(α) = k⁻² ℓ(β)⁻¹ · 2 k p(β) = k⁻¹ β*.
 ```
 
-This entails at once `s_α = s_β`. Conversely, if `s_α = s_β`, then
+This entails at once $s_{\alpha} = s_{\beta}$. Conversely, if $s_{\alpha} = s_{\beta}$, then
 
 ```text
 α = s_α(−α) = s_β(−α) = (β*, α) β − α,
 ```
 
-whence `2 α = (β*, α) β`, with `(β*, α) ∈ ℤ`, so (ii) entails (i). Finally, if `α = k β`, then `α* = k⁻¹ β*`, whence
+whence $2 \alpha = (\beta*, \alpha) \beta$, with $(\beta*, \alpha) \in \mathbb{Z}$, so (ii) entails (i). Finally, if
+$\alpha = k \beta$, then $\alpha* = k^{-1} \beta*$, whence
 
 ```text
 (α*, β) = 2 k⁻¹,    (β*, α) = 2 k,
 ```
 
-so `2k` and `2k⁻¹` are integers and we are done.
+so `2k` and $2k^{-1}$ are integers and we are done.
 
 <!-- original page 93 -->
 
-**Application 2.1.2.** *The root data `ℛ` with `rgss(ℛ) = 1` are of one of the following two types:*
+**Application 2.1.2.** *The root data $\mathcal{R}$ with $rgss(\mathcal{R}) = 1$ are of one of the following two types:*
 
 <!-- label: III.XXI.2.1.2 -->
 
-*(i)* Type `A₁`: *there exists `α ∈ M` such that the roots are `α` and `−α`. The coroots are then `α*` and `−α*`.*
+*(i)* Type $A_{1}$: *there exists $\alpha \in M$ such that the roots are $\alpha$ and $-\alpha$. The coroots are then
+$\alpha*$ and $-\alpha*$.*
 
-*(ii)* Type `A₁'`: *there exists `α ∈ M` such that the roots are `α`, `−α`, `2α`, `−2α`. The coroots are then `α*`,
-`−α*`, `α*/2`, `−α*/2`.*
+*(ii)* Type $A_{1}'$: *there exists $\alpha \in M$ such that the roots are $\alpha$, $-\alpha$, $2\alpha$, $-2\alpha$.
+The coroots are then $\alpha*$, $-\alpha*$, $\alpha*/2$, $-\alpha*/2$.*
 
-**Definition 2.1.3.** *One says that `α ∈ R` is* indivisible *if `α/2 ∉ R`. One says that `ℛ` is* reduced *if every root
-is indivisible.*
+**Definition 2.1.3.** *One says that $\alpha \in R$ is* indivisible *if $\alpha/2 \notin R$. One says that $\mathcal{R}$
+is* reduced *if every root is indivisible.*
 
 <!-- label: III.XXI.2.1.3 -->
 
-*For `ℛ` to be reduced it is necessary and sufficient that `ℛ*` be so. If `α` is indivisible and if `w ∈ W`, then `w(α)`
-is indivisible.*
+*For $\mathcal{R}$ to be reduced it is necessary and sufficient that $\mathcal{R}*$ be so. If $\alpha$ is indivisible
+and if $w \in W$, then $w(\alpha)$ is indivisible.*
 
-**Definition 2.1.4.** *Let `α ∈ R`. If `α` is indivisible, set `ind(α) = α`. Otherwise, set `ind(α) = α/2`.*
+**Definition 2.1.4.** *Let $\alpha \in R$. If $\alpha$ is indivisible, set $ind(\alpha) = \alpha$. Otherwise, set
+$ind(\alpha) = \alpha/2$.*
 
 <!-- label: III.XXI.2.1.4 -->
 
-**Corollary 2.1.5.** *If `α ∈ R` is indivisible and if `k α ∈ R`, where `k ∈ ℚ`, then `k ∈ ℤ`.*
+**Corollary 2.1.5.** *If $\alpha \in R$ is indivisible and if $k \alpha \in R$, where $k \in \mathbb{Q}$, then
+$k \in \mathbb{Z}$.*
 
 <!-- label: III.XXI.2.1.5 -->
 
-**Proposition 2.1.6.** *Let `ℛ` be a root datum. Then*
+**Proposition 2.1.6.** *Let $\mathcal{R}$ be a root datum. Then*
 
 <!-- label: III.XXI.2.1.6 -->
 
@@ -391,16 +404,17 @@ ind(ℛ) = (M, M*, ind(R), ind(R)*)
 
 *is a reduced root datum, and one has*
 
-```text
-W(ind(ℛ)) = W(ℛ).
-```
+$$
+W(ind(\mathcal{R})) = W(\mathcal{R}).
+$$
 
-*Proof.* Indeed, `ind(ℛ)` is a root datum by 1.2.11, since the Weyl group permutes indivisible roots. The second
-assertion follows from 2.1.1.
+*Proof.* Indeed, $ind(\mathcal{R})$ is a root datum by 1.2.11, since the Weyl group permutes indivisible roots. The
+second assertion follows from 2.1.1.
 
 <!-- original page 94 -->
 
-**Remark 2.1.7.** *If `ℛ` is not reduced, one has `ind(R)* ≠ ind(R*)` and so `ind(ℛ*) ≠ ind(ℛ)*`.*
+**Remark 2.1.7.** *If $\mathcal{R}$ is not reduced, one has $ind(R)* \neq ind(R*)$ and so
+$ind(\mathcal{R}*) \neq ind(\mathcal{R})*$.*
 
 <!-- label: III.XXI.2.1.7 -->
 
@@ -408,7 +422,7 @@ assertion follows from 2.1.1.
 
 <!-- label: III.XXI.2.2 -->
 
-**Lemma 2.2.1.** *Let `α` and `β` be two roots. One has*
+**Lemma 2.2.1.** *Let $\alpha$ and $\beta$ be two roots. One has*
 
 <!-- label: III.XXI.2.2.1 -->
 
@@ -418,19 +432,19 @@ assertion follows from 2.1.1.
 
 *Proof.* This follows at once from 1.2.1, formulas (9) and (10).
 
-**Corollary 2.2.2.** *Let `α, β ∈ R`. The following conditions are equivalent:*
+**Corollary 2.2.2.** *Let $\alpha, \beta \in R$. The following conditions are equivalent:*
 
 <!-- label: III.XXI.2.2.2 -->
 
-*(i) `(α*, β) = 0`, (i bis) `(β*, α) = 0`,*
+*(i) $(\alpha*, \beta) = 0$, (i bis) $(\beta*, \alpha) = 0$,*
 
-*(ii) `(p(α), β) = 0`,*
+*(ii) $(p(\alpha), \beta) = 0$,*
 
-*(iii) `s_α(β) = β`, (iii bis) `s_β(α) = α`,*
+*(iii) $s_{\alpha}(\beta) = \beta$, (iii bis) $s_{\beta}(\alpha) = \alpha$,*
 
-*(iv) `s_α(β*) = β*`, (iv bis) `s_β(α*) = α*`,*
+*(iv) $s_{\alpha}(\beta*) = \beta*$, (iv bis) $s_{\beta}(\alpha*) = \alpha*$,*
 
-*(v) `s_α ≠ s_β` and `s_α` and `s_β` commute.*
+*(v) $s_{\alpha} \neq s_{\beta}$ and $s_{\alpha}$ and $s_{\beta}$ commute.*
 
 *Proof.* All the equivalences are immediate, except those involving (v). Let us show that (i) (and (i bis)) entail (v).
 One has
@@ -439,7 +453,7 @@ One has
 s_α s_β(x) = x − (β*, x) β − (α*, x) α + (β*, x) (α*, β) α.
 ```
 
-If `(α*, β) = 0`, then `(β*, α) = 0` and `s_α s_β(x) = s_β s_α(x)`.
+If $(\alpha*, \beta) = 0$, then $(\beta*, \alpha) = 0$ and $s_{\alpha} s_{\beta}(x) = s_{\beta} s_{\alpha}(x)$.
 
 Suppose conversely (v). One has
 
@@ -447,8 +461,8 @@ Suppose conversely (v). One has
 s_α = s_β s_α s_β = s_{s_β(α)}    (by 1.2.10).
 ```
 
-By 2.1, there exists `k ∈ ℚ` such that `α = k s_β(α) = k α − k (β*, α) β`. Since `s_α ≠ s_β`, `β` and `α` are not
-proportional by 2.1.1, hence `(β*, α) = 0`.
+By 2.1, there exists $k \in \mathbb{Q}$ such that $\alpha = k s_{\beta}(\alpha) = k \alpha - k (\beta*, \alpha) \beta$.
+Since $s_{\alpha} \neq s_{\beta}$, $\beta$ and $\alpha$ are not proportional by 2.1.1, hence $(\beta*, \alpha) = 0$.
 
 **Definition 2.2.3.** *Two roots satisfying the equivalent conditions of 2.2.2 are called* orthogonal.
 
@@ -456,18 +470,20 @@ proportional by 2.1.1, hence `(β*, α) = 0`.
 
 <!-- original page 95 -->
 
-**Remark 2.2.4.** *The roots `α` and `β` are orthogonal if and only if the coroots `α*` and `β*` are orthogonal.*
+**Remark 2.2.4.** *The roots $\alpha$ and $\beta$ are orthogonal if and only if the coroots $\alpha*$ and $\beta*$ are
+orthogonal.*
 
 <!-- label: III.XXI.2.2.4 -->
 
-**Lemma 2.2.5.** *If `α` and `β` are two orthogonal roots, then `α + β ∈ R` if and only if `α − β ∈ R`.*
+**Lemma 2.2.5.** *If $\alpha$ and $\beta$ are two orthogonal roots, then $\alpha + \beta \in R$ if and only if
+$\alpha - \beta \in R$.*
 
 <!-- label: III.XXI.2.2.5 -->
 
-*Proof.* Indeed, `s_β(α + β) = s_β(α) + s_β(β) = α − β`.
+*Proof.* Indeed, $s_{\beta}(\alpha + \beta) = s_{\beta}(\alpha) + s_{\beta}(\beta) = \alpha - \beta$.
 
-**Lemma 2.2.6.** *Let `α` and `β` be two non-orthogonal roots. If one defines `ℓ(γ*)` for a coroot `γ*` as `ℓ` of the
-root `γ*` of `ℛ*`, one has the relation*
+**Lemma 2.2.6.** *Let $\alpha$ and $\beta$ be two non-orthogonal roots. If one defines $\ell(\gamma*)$ for a coroot
+$\gamma*$ as $\ell$ of the root $\gamma*$ of $\mathcal{R}*$, one has the relation*
 
 <!-- label: III.XXI.2.2.6 -->
 
@@ -475,8 +491,8 @@ root `γ*` of `ℛ*`, one has the relation*
 (12)    ℓ(α) ℓ(α*) = ℓ(β) ℓ(β*).
 ```
 
-*Proof.* Indeed, multiplying formula (11) by the corresponding formula for `ℛ*`, and using the equality `(γ*)* = γ` for
-all `γ ∈ R`, one finds:
+*Proof.* Indeed, multiplying formula (11) by the corresponding formula for $\mathcal{R}*$, and using the equality
+$(\gamma*)* = \gamma$ for all $\gamma \in R$, one finds:
 
 ```text
 (β*, α) (α*, β) ℓ(α) ℓ(α*) = (β*, α) (α*, β) ℓ(β) ℓ(β*).
@@ -486,72 +502,80 @@ all `γ ∈ R`, one finds:
 
 <!-- label: III.XXI.2.3 -->
 
-**Proposition 2.3.1.** *If `α` and `β` are any two roots, one has*
+**Proposition 2.3.1.** *If $\alpha$ and $\beta$ are any two roots, one has*
 
 <!-- label: III.XXI.2.3.1 -->
 
-```text
-(13)    0 ⩽ (α*, β)(β*, α) ⩽ 4.
-```
+$$
+(13)    0 \leqslant (\alpha*, \beta)(\beta*, \alpha) \leqslant 4.
+$$
 
-*If `α` and `β` are neither proportional nor orthogonal, one has*
+*If $\alpha$ and $\beta$ are neither proportional nor orthogonal, one has*
 
-```text
-1 ⩽ (α*, β)(β*, α) ⩽ 3.
-```
+$$
+1 \leqslant (\alpha*, \beta)(\beta*, \alpha) \leqslant 3.
+$$
 
-*Proof.* Indeed, one has `4 (p(α), β)² = ℓ(α) ℓ(β) (α*, β)(β*, α)`. On the other hand, by 1.2.6 the symmetric bilinear
-form `(p(x), y)` is positive nondegenerate on `V(R)`, whence `(p(x), y)² ⩽ ℓ(x) ℓ(y)`.[^N.D.E-XXI-4]
+*Proof.* Indeed, one has $4 (p(\alpha), \beta)^{2} = \ell(\alpha) \ell(\beta) (\alpha*, \beta)(\beta*, \alpha)$. On the
+other hand, by 1.2.6 the symmetric bilinear form `(p(x), y)` is positive nondegenerate on $V(R)$, whence
+$(p(x), y)^{2} \leqslant \ell(x) \ell(y)$.[^N.D.E-XXI-4]
 
 <!-- original page 96 -->
 
-**Corollary 2.3.2.** *Let `α` and `β` be two non-orthogonal roots. If `ℓ(α) = ℓ(β)`, there exists `w ∈ W` such that
-`w(α) = β`.*
+**Corollary 2.3.2.** *Let $\alpha$ and $\beta$ be two non-orthogonal roots. If $\ell(\alpha) = \ell(\beta)$, there
+exists $w \in W$ such that $w(\alpha) = \beta$.*
 
 <!-- label: III.XXI.2.3.2 -->
 
-*Proof.* Indeed, if `α` and `β` are proportional, then since `ℓ(α) = ℓ(β)`, one has `α = β` or `α = −β`; in this case
-one takes `w = 1` or `w = s_α`. If `α` and `β` are neither proportional nor orthogonal, then by formula (11) and 2.3.1:
+*Proof.* Indeed, if $\alpha$ and $\beta$ are proportional, then since $\ell(\alpha) = \ell(\beta)$, one has
+$\alpha = \beta$ or $\alpha = -\beta$; in this case one takes $w = 1$ or $w = s_{\alpha}$. If $\alpha$ and $\beta$ are
+neither proportional nor orthogonal, then by formula (11) and 2.3.1:
 
 ```text
 (β*, α) = (α*, β) = ±1.
 ```
 
-If `(β*, α) = (α*, β) = 1`, one takes `w = s_β s_α s_β`. If `(β*, α) = (α*, β) = −1`, one takes `w = s_α s_β`.
+If $(\beta*, \alpha) = (\alpha*, \beta) = 1$, one takes $w = s_{\beta} s_{\alpha} s_{\beta}$. If
+$(\beta*, \alpha) = (\alpha*, \beta) = -1$, one takes $w = s_{\alpha} s_{\beta}$.
 
-**Corollary 2.3.3.** *If `α` and `β` are two roots, if `α ≠ β` and `(β*, α) > 0` (resp. if `α ≠ −β` and `(β*, α) < 0`),
-then `α − β` (resp. `α + β`) is a root.*
+**Corollary 2.3.3.** *If $\alpha$ and $\beta$ are two roots, if $\alpha \neq \beta$ and $(\beta*, \alpha) > 0$ (resp. if
+$\alpha \neq -\beta$ and $(\beta*, \alpha) < 0$), then $\alpha - \beta$ (resp. $\alpha + \beta$) is a root.*
 
 <!-- label: III.XXI.2.3.3 -->
 
-*Proof.* The second case is deduced from the first by changing `β` into `−β`. If `α` and `β` are proportional and
-`(β*, α) > 0`, then `β = α`, `2β = α`, or `β = 2α`. The first case is excluded. In the others, one has respectively
-`α − β = β ∈ R` or `α − β = −α ∈ R`. If `α` and `β` are not proportional, `(α*, β)` and `(β*, α)` are two strictly
-positive integers whose product is at most `3`. One of them is therefore equal to `1`. If `(β*, α) = 1`, one has
-`α − β = s_β(α) ∈ R`; if `(α*, β) = 1`, one has `α − β = −s_α(β) ∈ R`.
+*Proof.* The second case is deduced from the first by changing $\beta$ into $-\beta$. If $\alpha$ and $\beta$ are
+proportional and $(\beta*, \alpha) > 0$, then $\beta = \alpha$, $2\beta = \alpha$, or $\beta = 2\alpha$. The first case
+is excluded. In the others, one has respectively $\alpha - \beta = \beta \in R$ or $\alpha - \beta = -\alpha \in R$. If
+$\alpha$ and $\beta$ are not proportional, $(\alpha*, \beta)$ and $(\beta*, \alpha)$ are two strictly positive integers
+whose product is at most `3`. One of them is therefore equal to `1`. If $(\beta*, \alpha) = 1$, one has
+$\alpha - \beta = s_{\beta}(\alpha) \in R$; if $(\alpha*, \beta) = 1$, one has
+$\alpha - \beta = -s_{\alpha}(\beta) \in R$.
 
-**Lemma 2.3.4.** *Let `α` and `β` be two non-proportional roots. If `β − α` is not a root, then `β + k α ∈ R` for
-`k = −(α*, β)`, but not for `k = −(α*, β) + 1`.*
+**Lemma 2.3.4.** *Let $\alpha$ and $\beta$ be two non-proportional roots. If $\beta - \alpha$ is not a root, then
+$\beta + k \alpha \in R$ for $k = -(\alpha*, \beta)$, but not for $k = -(\alpha*, \beta) + 1$.*
 
 <!-- label: III.XXI.2.3.4 -->
 
-*Proof.* Indeed, `β − (α*, β) α = s_α(β) ∈ R`, but `β + (−(α*, β) + 1) α = s_α(β − α) ∉ R`.
+*Proof.* Indeed, $\beta - (\alpha*, \beta) \alpha = s_{\alpha}(\beta) \in R$, but
+$\beta + (-(\alpha*, \beta) + 1) \alpha = s_{\alpha}(\beta - \alpha) \notin R$.
 
-**Proposition 2.3.5.** *Let `α` and `β` be two non-proportional roots. The set of integers `k` such that `β + k α ∈ R`
-is an interval `[p, q]` (`p ⩽ 0`, `q ⩾ 0`), and one has `p + q = −(α*, β)`.*
+**Proposition 2.3.5.** *Let $\alpha$ and $\beta$ be two non-proportional roots. The set of integers $k$ such that
+$\beta + k \alpha \in R$ is an interval `[p, q]` ($p \leqslant 0$, $q \geqslant 0$), and one has
+$p + q = -(\alpha*, \beta)$.*
 
 <!-- label: III.XXI.2.3.5 -->
 
 <!-- original page 97 -->
 
-*Proof.* For the first assertion it suffices, for example, to prove that if `β + k α ∈ R`, `k` integer `> 0`, then
-`β + (k − 1) α ∈ R`. If `k = 1`, this is trivial. If `k ⩾ 2`, one has
+*Proof.* For the first assertion it suffices, for example, to prove that if $\beta + k \alpha \in R$, $k$ integer `> 0`,
+then $\beta + (k - 1) \alpha \in R$. If $k = 1$, this is trivial. If $k \geqslant 2$, one has
 
 ```text
 (α*, β + k α) = (α*, β) + 2k ⩾ −3 + 4 > 0,
 ```
 
-and one concludes by 2.3.3. Let then `[p, q]` be the interval in question. Applying 2.3.4 to `β + p α`, one finds
+and one concludes by 2.3.3. Let then `[p, q]` be the interval in question. Applying 2.3.4 to $\beta + p \alpha$, one
+finds
 
 ```text
 q − p = −(α*, β + p α) = −(α*, β) − 2p.
@@ -563,7 +587,7 @@ q − p = −(α*, β + p α) = −(α*, β) − 2p.
 
 <!-- label: III.XXI.2.3.6 -->
 
-**Complements 2.3.7.**[^N.D.E-XXI-6] *By 1.2.1 (9) and 1.2.6, the bilinear form on `V(R)` defined by*
+**Complements 2.3.7.**[^N.D.E-XXI-6] *By 1.2.1 (9) and 1.2.6, the bilinear form on $V(R)$ defined by*
 
 <!-- label: III.XXI.2.3.7 -->
 
@@ -571,15 +595,16 @@ q − p = −(α*, β + p α) = −(α*, β) − 2p.
 ⟨x, y⟩ = (p(x), y)
 ```
 
-*is symmetric and positive definite. By 1.2.1 (10), for any `α ∈ R` and `y ∈ V(R)`,*
+*is symmetric and positive definite. By 1.2.1 (10), for any $\alpha \in R$ and $y \in V(R)$,*
 
 ```text
 ⟨α, y⟩ = (ℓ(α)/2) (α*, y),
 ```
 
-*where `ℓ(α) = ⟨α, α⟩`. Consequently, one deduces from 2.3.3 the following corollary.*
+*where $\ell(\alpha) = \langle \alpha, \alpha\rangle$. Consequently, one deduces from 2.3.3 the following corollary.*
 
-**Corollary.** *Let `α ≠ β` in `R`. If `α − β ∉ R`, then `⟨α, β⟩ ⩽ 0`.*
+**Corollary.** *Let $\alpha \neq \beta$ in $R$. If $\alpha - \beta \notin R$, then
+$\langle \alpha, \beta\rangle \leqslant 0$.*
 
 ## 3. Simple roots, positive roots
 
@@ -589,8 +614,8 @@ q − p = −(α*, β + p α) = −(α*, β) − 2p.
 
 <!-- label: III.XXI.3.1 -->
 
-**Lemma 3.1.1.** *Let `α` and `αᵢ`, `i = 1, …, n`, be roots. Assume `α` is distinct from the `αᵢ`. If one has a
-relation*
+**Lemma 3.1.1.** *Let $\alpha$ and $\alpha_{i}$, $i = 1, \cdots, n$, be roots. Assume $\alpha$ is distinct from the
+$\alpha_{i}$. If one has a relation*
 
 <!-- label: III.XXI.3.1.1 -->
 
@@ -598,12 +623,12 @@ relation*
 α = Σᵢ qᵢ αᵢ,    qᵢ ∈ Q₊,
 ```
 
-*there exists an index `i` such that `qᵢ ≠ 0`, `(α*, αᵢ) > 0`, and `α − αᵢ ∈ R`.*
+*there exists an index $i$ such that $q_{i} \neq 0$, $(\alpha*, \alpha_{i}) > 0$, and $\alpha - \alpha_{i} \in R$.*
 
-*Proof.* Indeed, one writes `2 = (α*, α) = Σᵢ qᵢ (α*, αᵢ)`, which proves the first two assertions. The third then
-follows from 2.3.3.
+*Proof.* Indeed, one writes $2 = (\alpha*, \alpha) = \Sigma_{i} q_{i} (\alpha*, \alpha_{i})$, which proves the first two
+assertions. The third then follows from 2.3.3.
 
-**Proposition 3.1.2.** *Let `α` and `αᵢ`, `i = 1, …, n`, be roots. If*
+**Proposition 3.1.2.** *Let $\alpha$ and $\alpha_{i}$, $i = 1, \cdots, n$, be roots. If*
 
 <!-- label: III.XXI.3.1.2 -->
 
@@ -613,32 +638,33 @@ follows from 2.3.3.
 
 <!-- original page 98 -->
 
-*there exists a sequence `β₁, …, β_m` of roots taken from the `αᵢ` (not necessarily pairwise distinct) such that if one
-denotes*
+*there exists a sequence $\beta_{1}, \cdots, \beta_{m}$ of roots taken from the $\alpha_{i}$ (not necessarily pairwise
+distinct) such that if one denotes*
 
 ```text
 γ_p = Σ_{i=1}^{p} βᵢ,    p = 1, …, m,
 ```
 
-*one has `γ_p ∈ R` and `γ_m = α`.*
+*one has $\gamma_{p} \in R$ and $\gamma_{m} = \alpha$.*
 
-*Proof.* We argue by induction on the integer `Σ mᵢ = m'`. If `α` equals one of the `αᵢ`, say `α_{i₀}` (which is
-automatic if `m' = 1`), one takes `m = 1`, `β₁ = α_{i₀}`. Otherwise, one applies the previous lemma and there exists an
-index `i` such that `mᵢ ≠ 0` and `α − αᵢ` is a root. One then has `(mᵢ − 1) ∈ ℕ` and
+*Proof.* We argue by induction on the integer $\Sigma m_{i} = m'$. If $\alpha$ equals one of the $\alpha_{i}$, say
+$\alpha_{i_{0}}$ (which is automatic if $m' = 1$), one takes $m = 1$, $\beta_{1} = \alpha_{i_{0}}$. Otherwise, one
+applies the previous lemma and there exists an index $i$ such that $m_{i} \neq 0$ and $\alpha - \alpha_{i}$ is a root.
+One then has $(m_{i} - 1) \in \mathbb{N}$ and
 
 ```text
 α − αᵢ = (mᵢ − 1) αᵢ + Σ_{j ≠ i} mⱼ αⱼ.
 ```
 
-It remains only to apply the induction hypothesis to `α − αᵢ`.
+It remains only to apply the induction hypothesis to $\alpha - \alpha_{i}$.
 
-**Corollary 3.1.3.** *Let `R' ⊂ R`. The following conditions are equivalent:*
+**Corollary 3.1.3.** *Let $R' \subset R$. The following conditions are equivalent:*
 
 <!-- label: III.XXI.3.1.3 -->
 
-*(i) If `α, β ∈ R'` and `α + β ∈ R`, then `α + β ∈ R'`.*
+*(i) If $\alpha, \beta \in R'$ and $\alpha + \beta \in R$, then $\alpha + \beta \in R'$.*
 
-*(ii) `(ℕ · R') ∩ R ⊂ R'`.*
+*(ii) $(\mathbb{N} \cdot R') \cap R \subset R'$.*
 
 *Proof.* Indeed, one has clearly (ii) ⇒ (i). The converse follows at once from the proposition.
 
@@ -646,11 +672,11 @@ It remains only to apply the induction hypothesis to `α − αᵢ`.
 
 <!-- label: III.XXI.3.1.4 -->
 
-**Proposition 3.1.5.** *Let `Δ ⊂ R` be a set of roots. The following conditions are equivalent:*
+**Proposition 3.1.5.** *Let $\Delta \subset R$ be a set of roots. The following conditions are equivalent:*
 
 <!-- label: III.XXI.3.1.5 -->
 
-*(i) The elements of `Δ` are indivisible, linearly independent, and*
+*(i) The elements of $\Delta$ are indivisible, linearly independent, and*
 
 <!-- original page 99 -->
 
@@ -658,26 +684,27 @@ It remains only to apply the induction hypothesis to `α − αᵢ`.
 R ⊂ (Q₊ · Δ) ∪ (−Q₊ · Δ).
 ```
 
-*(ii) The elements of `Δ` are linearly independent and*
+*(ii) The elements of $\Delta$ are linearly independent and*
 
 ```text
 R ⊂ (ℕ · Δ) ∪ (−ℕ · Δ).
 ```
 
-*(iii) Every root is written in a unique way as a linear combination of the elements of `Δ`, with integer coefficients
-all of the same sign.*
+*(iii) Every root is written in a unique way as a linear combination of the elements of $\Delta$, with integer
+coefficients all of the same sign.*
 
-[^N.D.E-XXI-7] One has obviously (ii) ⇒ (iii). Denote by `α₁, …, α_n` the (distinct) elements of `Δ`.
+[^N.D.E-XXI-7] One has obviously (ii) ⇒ (iii). Denote by $\alpha_{1}, \cdots, \alpha_{n}$ the (distinct) elements of
+$\Delta$.
 
-*Proof of* (i) ⇒ (ii). Let `α ∈ R`. One has thus a unique expression
+*Proof of* (i) ⇒ (ii). Let $\alpha \in R$. One has thus a unique expression
 
 ```text
 ε α = Σᵢ qᵢ αᵢ    qᵢ ∈ Q₊, ε = ±1.
 ```
 
 Let us show that the `qᵢ` are integers. This is certainly true if all but one of them are zero (cf. 2.1.5). Otherwise,
-`α` is distinct from the `αᵢ` and, applying 3.1.1, one finds `i₀` such that `α' = ε α − α_{i₀} ∈ R` and `q_{i₀} ≠ 0`.
-This gives
+$\alpha$ is distinct from the $\alpha_{i}$ and, applying 3.1.1, one finds $i_{0}$ such that
+$\alpha' = \epsilon \alpha - \alpha_{i_{0}} \in R$ and $q_{i_{0}} \neq 0$. This gives
 
 ```text
 α' = (q_{i₀} − 1) α_{i₀} + Σ_{i ≠ i₀} qᵢ αᵢ.
@@ -685,48 +712,49 @@ This gives
 
 <!-- original page 100 -->
 
-Since at least one of the `qᵢ`, `i ≠ i₀`, is nonzero, (i) entails `q_{i₀} − 1 ⩾ 0`. One repeats the operation for `α'`
-and after finitely many steps one has shown that the `qᵢ` are integers.
+Since at least one of the `qᵢ`, $i \neq i_{0}$, is nonzero, (i) entails $q_{i_{0}} - 1 \geqslant 0$. One repeats the
+operation for $\alpha'$ and after finitely many steps one has shown that the `qᵢ` are integers.
 
-*Proof of* (iii) ⇒ (i). Let us show that `α₁, α₂, …, α_n` are linearly independent over `ℚ`. In the contrary case, one
-would have an equality
+*Proof of* (iii) ⇒ (i). Let us show that $\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}$ are linearly independent over
+$\mathbb{Q}$. In the contrary case, one would have an equality
 
 ```text
 x = Σ_{i ∈ I} aᵢ αᵢ = Σ_{j ∈ J} bⱼ αⱼ,
 ```
 
-where `I`, `J` are two disjoint subsets of `{1, …, n}`, at least one of them, say `I`, being nonempty, and
-`aᵢ, bⱼ ∈ ℕ*`. By Corollary 2.3.7, one has `⟨αᵢ, αⱼ⟩ ⩽ 0` if `i ∈ I` and `j ∈ J`, whence `⟨x, x⟩ ⩽ 0` and so `x = 0`.
-Let `i₀ ∈ I`; then the equalities
+where $I$, $J$ are two disjoint subsets of ${1, \cdots, n}$, at least one of them, say $I$, being nonempty, and
+$a_{i}, b_{j} \in \mathbb{N}*$. By Corollary 2.3.7, one has $\langle \alpha_{i}, \alpha_{j}\rangle \leqslant 0$ if
+$i \in I$ and $j \in J$, whence $\langle x, x\rangle \leqslant 0$ and so $x = 0$. Let $i_{0} \in I$; then the equalities
 
 ```text
 α_{i₀} = α_{i₀} + Σ_{i ∈ I} aᵢ αᵢ = α_{i₀} + Σ_{j ∈ J} bⱼ αⱼ
 ```
 
-entail (by (iii)) `aᵢ = 0 = bⱼ` for all `i`, `j`, a contradiction. This shows that the elements of `Δ` are linearly
-independent over `ℚ`; let us show they are also indivisible.
+entail (by (iii)) $a_{i} = 0 = b_{j}$ for all $i$, $j$, a contradiction. This shows that the elements of $\Delta$ are
+linearly independent over $\mathbb{Q}$; let us show they are also indivisible.
 
-So let `β ∈ Δ` be divisible. One has `β/2 ∈ R`, whence
+So let $\beta \in \Delta$ be divisible. One has $\beta/2 \in R$, whence
 
 ```text
 β/2 = ε Σ_{α ∈ Δ} m_α α,    m_α ∈ ℕ, ε = ±1,
 ```
 
-so also `β = 2 ε Σ_α m_α α`, whence by uniqueness `m_α = 0` if `α ≠ β` and `2 ε m_β = 1`, a contradiction.
+so also $\beta = 2 \epsilon \Sigma_{\alpha} m_{\alpha} \alpha$, whence by uniqueness $m_{\alpha} = 0$ if
+$\alpha \neq \beta$ and $2 \epsilon m_{\beta} = 1$, a contradiction.
 
-**Definition 3.1.6.** *A set `Δ` of roots satisfying the conditions of 3.1.5 is called a* system of simple roots, *or a*
-base of `ℛ`.
+**Definition 3.1.6.** *A set $\Delta$ of roots satisfying the conditions of 3.1.5 is called a* system of simple roots,
+*or a* base of $\mathcal{R}$.
 
 <!-- label: III.XXI.3.1.6 -->
 
-*If `w ∈ W` and if `Δ` is a system of simple roots, then `w(Δ)` is a system of simple roots.*
+*If $w \in W$ and if $\Delta$ is a system of simple roots, then $w(\Delta)$ is a system of simple roots.*
 
-**Remark 3.1.7.** *This definition involves only `R` and not `ℛ`, and in fact involves only `ind(R)`.*
+**Remark 3.1.7.** *This definition involves only $R$ and not $\mathcal{R}$, and in fact involves only $ind(R)$.*
 
 <!-- label: III.XXI.3.1.7 -->
 
-**Remark 3.1.8.** *If `Δ` is a system of simple roots, `Δ` is a basis of the free abelian group `Γ₀(R)`. One has thus
-`Card(Δ) = rgss(ℛ)`.*
+**Remark 3.1.8.** *If $\Delta$ is a system of simple roots, $\Delta$ is a basis of the free abelian group
+$\Gamma_{0}(R)$. One has thus $Card(\Delta) = rgss(\mathcal{R})$.*
 
 <!-- label: III.XXI.3.1.8 -->
 
@@ -734,29 +762,35 @@ base of `ℛ`.
 
 <!-- label: III.XXI.3.1.9 -->
 
-*(i′) The elements of `Δ` are indivisible, of number `⩽ rgss(ℛ)`, and `R ⊂ (Q₊ · Δ) ∪ (−Q₊ · Δ)`.*
+*(i′) The elements of $\Delta$ are indivisible, of number $\leqslant rgss(\mathcal{R})$, and
+$R \subset (Q_{+} \cdot \Delta) \cup (-Q_{+} \cdot \Delta)$.*
 
-*(ii′) `Card(Δ) ⩽ rgss(ℛ)` and `R ⊂ (ℕ · Δ) ∪ (−ℕ · Δ)`.*
+*(ii′) $Card(\Delta) \leqslant rgss(\mathcal{R})$ and
+$R \subset (\mathbb{N} \cdot \Delta) \cup (-\mathbb{N} \cdot \Delta)$.*
 
 <!-- original page 101 -->
 
-**Corollary 3.1.10.** *If `Δ` is a system of simple roots, then `ind(Δ*)` is a system of simple coroots (i.e. a system
-of simple roots of `ℛ*`).*
+**Corollary 3.1.10.** *If $\Delta$ is a system of simple roots, then $ind(\Delta*)$ is a system of simple coroots (i.e.
+a system of simple roots of $\mathcal{R}*$).*
 
 <!-- label: III.XXI.3.1.10 -->
 
-*Proof.* Indeed, if `β = Σ_{α ∈ Δ} a_α α` (`a_α ∈ ℕ`), then `p(β) = Σ_{α ∈ Δ} a_α p(α)`, whence, by 1.2.1 (10):
+*Proof.* Indeed, if $\beta = \Sigma_{\alpha \in \Delta} a_{\alpha} \alpha$ ($a_{\alpha} \in \mathbb{N}$), then
+$p(\beta) = \Sigma_{\alpha \in \Delta} a_{\alpha} p(\alpha)$, whence, by 1.2.1 (10):
 
 ```text
 β* = Σ_{α ∈ Δ} a_α (ℓ(α)/ℓ(β)) α*,
 ```
 
-which shows that `ind(Δ*)` satisfies (i′).
+which shows that $ind(\Delta*)$ satisfies (i′).
 
-[^N.D.E-XXI-8] By 2.1.1, if `α*` is not indivisible, then `α* = 2 u*`, where `u* ∈ ind(Δ*)` (and `u = 2α`). One deduces:
+[^N.D.E-XXI-8] By 2.1.1, if $\alpha*$ is not indivisible, then $\alpha* = 2 u*$, where $u* \in ind(\Delta*)$ (and
+$u = 2\alpha$). One deduces:
 
-**Corollary 3.1.11.** *If `Δ` is a system of simple roots and if `β = Σ_{α ∈ Δ} a_α α` (`a_α ∈ ℤ`) is the expression of
-`β` along `Δ`, then `2 a_α ℓ(α)` is divisible by `ℓ(β)` (and even by `2 ℓ(β)` if `α*` is indivisible).*
+**Corollary 3.1.11.** *If $\Delta$ is a system of simple roots and if
+$\beta = \Sigma_{\alpha \in \Delta} a_{\alpha} \alpha$ ($a_{\alpha} \in \mathbb{Z}$) is the expression of $\beta$ along
+$\Delta$, then $2 a_{\alpha} \ell(\alpha)$ is divisible by $\ell(\beta)$ (and even by $2 \ell(\beta)$ if $\alpha*$ is
+indivisible).*
 
 <!-- label: III.XXI.3.1.11 -->
 
@@ -766,24 +800,25 @@ Before continuing to state the properties of systems of simple roots, let us sho
 
 <!-- label: III.XXI.3.2 -->
 
-**Definition 3.2.1.** *A subset `R₊ ⊂ R` is called a* system of positive roots *of `R` (or of `ℛ`, cf. Remark 3.2.2) if
-it satisfies the following conditions:*
+**Definition 3.2.1.** *A subset $R_{+} \subset R$ is called a* system of positive roots *of $R$ (or of $\mathcal{R}$,
+cf. Remark 3.2.2) if it satisfies the following conditions:*
 
 <!-- label: III.XXI.3.2.1 -->
 
-*(P 1) `R₊ ∩ −R₊ = ∅`.*
+*(P 1) $R_{+} \cap -R_{+} = \emptyset$.*
 
-*(P 2) `R₊ ∪ −R₊ = R`.*
+*(P 2) $R_{+} \cup -R_{+} = R$.*
 
-*(P 3) `(Q₊ · R₊) ∩ R ⊂ R₊`.*
+*(P 3) $(Q_{+} \cdot R_{+}) \cap R \subset R_{+}$.*
 
 *In particular, such a set is closed. We shall see later (3.3.8) that in fact a closed subset satisfying (P 1) and (P 2)
-also satisfies (P 3), and hence is a system of positive roots. If `w ∈ W` and if `R₊` is a system of positive roots,
-then `w(R₊)` is a system of positive roots.*
+also satisfies (P 3), and hence is a system of positive roots. If $w \in W$ and if $R_{+}$ is a system of positive
+roots, then $w(R_{+})$ is a system of positive roots.*
 
 <!-- original page 102 -->
 
-**Remark 3.2.2.** *This definition involves only `R`. One will also say that `R₊` is a system of positive roots of `ℛ`.*
+**Remark 3.2.2.** *This definition involves only $R$. One will also say that $R_{+}$ is a system of positive roots of
+$\mathcal{R}$.*
 
 <!-- label: III.XXI.3.2.2 -->
 
@@ -791,20 +826,21 @@ then `w(R₊)` is a system of positive roots.*
 
 <!-- label: III.XXI.3.2.3 -->
 
-```text
-Card(R₊) = Card(R)/2.
-```
+$$
+Card(R_{+}) = Card(R)/2.
+$$
 
-*It follows that if `R₊` and `R'₊` are two systems of positive roots with `R₊ ⊂ R'₊`, then `R₊ = R'₊`.*
+*It follows that if $R_{+}$ and $R'_{+}$ are two systems of positive roots with $R_{+} \subset R'_{+}$, then
+$R_{+} = R'_{+}$.*
 
-**Remark 3.2.4.** *If `R₊` is a system of positive roots, `R*₊` is a system of positive coroots (i.e. a system of
-positive roots of `ℛ*`).*
+**Remark 3.2.4.** *If $R_{+}$ is a system of positive roots, $R*_{+}$ is a system of positive coroots (i.e. a system of
+positive roots of $\mathcal{R}*$).*
 
 <!-- label: III.XXI.3.2.4 -->
 
 *This follows at once from 1.1.4 and 1.2.2.*
 
-**Definition 3.2.5.** *Let `Δ` be a system of simple roots. Set*
+**Definition 3.2.5.** *Let $\Delta$ be a system of simple roots. Set*
 
 <!-- label: III.XXI.3.2.5 -->
 
@@ -812,8 +848,8 @@ positive roots of `ℛ*`).*
 P(Δ) = (Q₊ · Δ) ∩ R = (ℕ₊ · Δ) ∩ R.
 ```
 
-**Proposition 3.2.6.** *If `Δ` is a system of simple roots, `P(Δ)` is a system of positive roots. If `Δ` is a system of
-simple roots and `R₊` is a system of positive roots, one has the equivalence:*
+**Proposition 3.2.6.** *If $\Delta$ is a system of simple roots, $P(\Delta)$ is a system of positive roots. If $\Delta$
+is a system of simple roots and $R_{+}$ is a system of positive roots, one has the equivalence:*
 
 <!-- label: III.XXI.3.2.6 -->
 
@@ -821,40 +857,41 @@ simple roots and `R₊` is a system of positive roots, one has the equivalence:*
 Δ ⊂ R₊  ⟺  R₊ = P(Δ).
 ```
 
-*Proof.* The first assertion is immediate. If `Δ ⊂ R₊`, then `P(Δ) ⊂ R₊` by (P 3), so `P(Δ) = R₊` by 3.2.3. The rest is
-trivial.
+*Proof.* The first assertion is immediate. If $\Delta \subset R_{+}$, then $P(\Delta) \subset R_{+}$ by (P 3), so
+$P(\Delta) = R_{+}$ by 3.2.3. The rest is trivial.
 
-**Remark 3.2.7.** *Systems of positive roots exist: let `⩾` be a structure of totally ordered vector space on `V(R)`.
-The set of roots `⩾ 0` for this order relation is a system of positive roots.*
+**Remark 3.2.7.** *Systems of positive roots exist: let $\geqslant$ be a structure of totally ordered vector space on
+$V(R)$. The set of roots $\geqslant 0$ for this order relation is a system of positive roots.*
 
 <!-- label: III.XXI.3.2.7 -->
 
 <!-- original page 103 -->
 
-**Theorem 3.2.8.** *Let `R₊` be a system of positive roots. There exists a unique system of simple roots `𝒮(R₊)` such
-that `𝒮(R₊) ⊂ R₊`, i.e. such that `R₊ = P(𝒮(R₊))`.*
+**Theorem 3.2.8.** *Let $R_{+}$ be a system of positive roots. There exists a unique system of simple roots
+$\mathcal{S}(R_{+})$ such that $\mathcal{S}(R_{+}) \subset R_{+}$, i.e. such that $R_{+} = P(\mathcal{S}(R_{+}))$.*
 
 <!-- label: III.XXI.3.2.8 -->
 
 *Proof.* Uniqueness follows at once from:
 
-**Lemma 3.2.9.** *Let `Δ` be a system of simple roots. Then for `α ∈ P(Δ)` to belong to `Δ`, it is necessary and
-sufficient that `α` not be a sum of two elements of `P(Δ)`.*
+**Lemma 3.2.9.** *Let $\Delta$ be a system of simple roots. Then for $\alpha \in P(\Delta)$ to belong to $\Delta$, it is
+necessary and sufficient that $\alpha$ not be a sum of two elements of $P(\Delta)$.*
 
 <!-- label: III.XXI.3.2.9 -->
 
 *Proof.* This lemma follows at once from the definitions and from 3.1.2.
 
-Let us now prove the existence of `𝒮(R₊)`. Consider the set of subsets `T` of `R₊` such that `T = ind(T)` and
-`(Q₊ · T) ⊃ R₊`. This set is nonempty, since it contains `ind(R₊)`. Let `Δ` be a minimal element of this set for the
-inclusion relation. We show that `Δ` is a system of simple roots, that is to say, by 3.1.5 (i), that `Δ` is a free
-subset of `M ⊗ ℚ`.
+Let us now prove the existence of $\mathcal{S}(R_{+})$. Consider the set of subsets $T$ of $R_{+}$ such that
+$T = ind(T)$ and $(Q_{+} \cdot T) \supset R_{+}$. This set is nonempty, since it contains $ind(R_{+})$. Let $\Delta$ be
+a minimal element of this set for the inclusion relation. We show that $\Delta$ is a system of simple roots, that is to
+say, by 3.1.5 (i), that $\Delta$ is a free subset of $M \otimes \mathbb{Q}$.
 
-**Lemma 3.2.10.** *If `α, β ∈ Δ` and `q α + q' β ∈ R`, where `q, q' ∈ ℚ`, then `q q' ⩾ 0`.*
+**Lemma 3.2.10.** *If $\alpha, \beta \in \Delta$ and $q \alpha + q' \beta \in R$, where $q, q' \in \mathbb{Q}$, then
+$q q' \geqslant 0$.*
 
 <!-- label: III.XXI.3.2.10 -->
 
-*Proof.* Indeed, if `q q' < 0`, one can write (possibly exchanging `α` and `β`)
+*Proof.* Indeed, if $q q' < 0$, one can write (possibly exchanging $\alpha$ and $\beta$)
 
 ```text
 a α − b β ∈ R₊,    a, b ∈ Q*₊,
@@ -866,16 +903,16 @@ so by hypothesis there exists a relation
 a α − b β = Σ_{γ ∈ Δ} c(γ) γ,    c(γ) ∈ Q₊.
 ```
 
-If `a ⩽ c(α)`, it is written
+If $a \leqslant c(\alpha)$, it is written
 
 ```text
 −β = ((c(α) − a)/b) α + Σ_{γ ≠ α} (c(γ)/b) γ.
 ```
 
-Then this element belongs to `(Q₊ · Δ) ∩ R`, which is contained in `R₊` by (P 3). But then `β ∈ R₊ ∩ −R₊`, which
-contradicts (P 1).
+Then this element belongs to $(Q_{+} \cdot \Delta) \cap R$, which is contained in $R_{+}$ by (P 3). But then
+$\beta \in R_{+} \cap -R_{+}$, which contradicts (P 1).
 
-If, on the contrary, `a > c(α)`, one writes
+If, on the contrary, $a > c(\alpha)$, one writes
 
 ```text
 (a − c(α)) α = b β + Σ_{γ ≠ α} c(γ) γ,
@@ -883,30 +920,34 @@ If, on the contrary, `a > c(α)`, one writes
 
 <!-- original page 104 -->
 
-which proves `Δ ⊂ Q₊ · (Δ − {α})`, contrary to the minimal character of `Δ`.
+which proves $\Delta \subset Q_{+} \cdot (\Delta - {\alpha})$, contrary to the minimal character of $\Delta$.
 
-Recall (cf. 2.3.7) that the bilinear form on `V(R)` defined by `⟨x, y⟩ = (p(x), y)` is a Euclidean inner product;
-moreover, for `α ∈ R` one has `⟨α, y⟩ = ℓ(α) (α*, y) / 2`, so that `⟨α, y⟩` and `(α*, y)` have the same sign.
+Recall (cf. 2.3.7) that the bilinear form on $V(R)$ defined by $\langle x, y\rangle = (p(x), y)$ is a Euclidean inner
+product; moreover, for $\alpha \in R$ one has $\langle \alpha, y\rangle = \ell(\alpha) (\alpha*, y) / 2$, so that
+$\langle \alpha, y\rangle$ and $(\alpha*, y)$ have the same sign.
 
-**Lemma 3.2.11.** *If `α, β ∈ Δ`, then `(β*, α) ⩽ 0` and so `⟨β, α⟩ ⩽ 0`.*
+**Lemma 3.2.11.** *If $\alpha, \beta \in \Delta$, then $(\beta*, \alpha) \leqslant 0$ and so
+$\langle \beta, \alpha\rangle \leqslant 0$.*
 
 <!-- label: III.XXI.3.2.11 -->
 
-*Proof.* Indeed, `s_β(α) = α − (β*, α) β ∈ R`, whence `(β*, α) ⩽ 0` by 3.2.10.
+*Proof.* Indeed, $s_{\beta}(\alpha) = \alpha - (\beta*, \alpha) \beta \in R$, whence $(\beta*, \alpha) \leqslant 0$ by
+3.2.10.
 
-Let us now prove that `Δ` is free. In the contrary case, 3.2.11 entails, as in the proof of 3.1.5, the existence of a
-non-trivial relation
+Let us now prove that $\Delta$ is free. In the contrary case, 3.2.11 entails, as in the proof of 3.1.5, the existence of
+a non-trivial relation
 
 ```text
 Σ_{α ∈ Δ} m(α) α = 0,    m(α) ∈ ℕ,
 ```
 
-whence `−α₀ = (m(α₀) − 1) α₀ + Σ_{α ≠ α₀} m(α) α`, if `m(α₀) ⩾ 1`. Then, by (P 3), `α₀` belongs to `R₊ ∩ −R₊`,
-contradicting (P 1).
+whence $-\alpha_{0} = (m(\alpha_{0}) - 1) \alpha_{0} + \Sigma_{\alpha \neq \alpha_{0}} m(\alpha) \alpha$, if
+$m(\alpha_{0}) \geqslant 1$. Then, by (P 3), $\alpha_{0}$ belongs to $R_{+} \cap -R_{+}$, contradicting (P 1).
 
-This shows that `Δ` is a base of `ℛ` and completes the proof of Theorem 3.2.8.
+This shows that $\Delta$ is a base of $\mathcal{R}$ and completes the proof of Theorem 3.2.8.
 
-**Corollary 3.2.12.** *Let `R₊` be a system of positive roots, `Δ` a base of `ℛ`, and `w ∈ W`. One has:*
+**Corollary 3.2.12.** *Let $R_{+}$ be a system of positive roots, $\Delta$ a base of $\mathcal{R}$, and $w \in W$. One
+has:*
 
 <!-- label: III.XXI.3.2.12 -->
 
@@ -920,25 +961,28 @@ P(ind(Δ*)) = P(Δ)*,    𝒮(R*₊) = ind(𝒮(R₊)*);
 
 <!-- original page 105 -->
 
-**Definition 3.2.13.** *If one has chosen a system of simple roots `Δ`, the elements of `P(Δ)` will be called* positive.
-*If one has chosen a system of positive roots `R₊`, the elements of `𝒮(R₊)` will be called* simple.
+**Definition 3.2.13.** *If one has chosen a system of simple roots $\Delta$, the elements of $P(\Delta)$ will be called*
+positive. *If one has chosen a system of positive roots $R_{+}$, the elements of $\mathcal{S}(R_{+})$ will be called*
+simple.
 
 <!-- label: III.XXI.3.2.13 -->
 
-**Corollary 3.2.14.** *Let `R₊` be a system of positive roots. Let `α ∈ R₊`. The following conditions are equivalent:*
+**Corollary 3.2.14.** *Let $R_{+}$ be a system of positive roots. Let $\alpha \in R_{+}$. The following conditions are
+equivalent:*
 
 <!-- label: III.XXI.3.2.14 -->
 
-*(i) `α` is simple (i.e. `α ∈ 𝒮(R₊)`).*
+*(i) $\alpha$ is simple (i.e. $\alpha \in \mathcal{S}(R_{+})$).*
 
-*(ii) `α` is not a sum of two elements of `R₊`.*
+*(ii) $\alpha$ is not a sum of two elements of $R_{+}$.*
 
-*(iii) `R₊ − {α}` is closed (cf. 3.1.4).*
+*(iii) $R_{+} - {\alpha}$ is closed (cf. 3.1.4).*
 
 *Proof.* The equivalence of (i) and (ii) follows at once from 3.2.9. The equivalence of (ii) and (iii) is immediate.
 
-**Definition 3.2.15.** *Let `Δ` be a system of simple roots. The sum of the coefficients of the decomposition of a root
-`α` along `Δ` is called the* order of `α` *relative to `Δ` and is denoted `ord_Δ(α)`.*
+**Definition 3.2.15.** *Let $\Delta$ be a system of simple roots. The sum of the coefficients of the decomposition of a
+root $\alpha$ along $\Delta$ is called the* order of $\alpha$ *relative to $\Delta$ and is denoted
+$ord_{\Delta}(\alpha)$.*
 
 <!-- label: III.XXI.3.2.15 -->
 
@@ -950,8 +994,8 @@ P(ind(Δ*)) = P(Δ)*,    𝒮(R*₊) = ind(𝒮(R₊)*);
 
 <!-- original page 106 -->
 
-**Lemma 3.2.16.** *Let `Δ` be a system of simple roots and `α ∈ P(Δ)`. There exists a sequence `αᵢ ∈ Δ`, `i = 1, …, m`,
-such that*
+**Lemma 3.2.16.** *Let $\Delta$ be a system of simple roots and $\alpha \in P(\Delta)$. There exists a sequence
+$\alpha_{i} \in \Delta$, $i = 1, \cdots, m$, such that*
 
 <!-- label: III.XXI.3.2.16 -->
 
@@ -960,7 +1004,7 @@ such that*
 α₁ + α₂ + ⋯ + α_m = α.
 ```
 
-*Moreover, for every such sequence `αᵢ`, one has `m = ord_Δ(α)`.*
+*Moreover, for every such sequence $\alpha_{i}$, one has $m = ord_{\Delta}(\alpha)$.*
 
 *Proof.* Trivial by 3.1.2.
 
@@ -968,27 +1012,31 @@ such that*
 
 <!-- label: III.XXI.3.3 -->
 
-**Lemma 3.3.1.** *If `α ∈ P(Δ)`, `β ∈ Δ`, and if `α` and `β` are not proportional, then `s_β(α) ∈ P(Δ)`.*
+**Lemma 3.3.1.** *If $\alpha \in P(\Delta)$, $\beta \in \Delta$, and if $\alpha$ and $\beta$ are not proportional, then
+$s_{\beta}(\alpha) \in P(\Delta)$.*
 
 <!-- label: III.XXI.3.3.1 -->
 
-*Proof.* Indeed, `s_β(α) = α − (β*, α) β`. Since at least one simple root other than `β` appears in the decomposition of
-`α` with a nonzero (hence strictly positive) coefficient, it also appears in the decomposition of `s_β(α)` with the same
-coefficient, so `s_β(α)` is also positive.
+*Proof.* Indeed, $s_{\beta}(\alpha) = \alpha - (\beta*, \alpha) \beta$. Since at least one simple root other than
+$\beta$ appears in the decomposition of $\alpha$ with a nonzero (hence strictly positive) coefficient, it also appears
+in the decomposition of $s_{\beta}(\alpha)$ with the same coefficient, so $s_{\beta}(\alpha)$ is also positive.
 
-**Corollary 3.3.2.** *If `β ∈ Δ`, the symmetry `s_β` interchanges the elements of `P(Δ)` not proportional to `β`.*
+**Corollary 3.3.2.** *If $\beta \in \Delta$, the symmetry $s_{\beta}$ interchanges the elements of $P(\Delta)$ not
+proportional to $\beta$.*
 
 <!-- label: III.XXI.3.3.2 -->
 
-**Lemma 3.3.3.** *If `α ∈ P(Δ) − Δ`, `α` indivisible, there exists `β ∈ Δ` such that `s_β(α) ∈ P(Δ)` and
-`ord_Δ(s_β(α)) < ord_Δ(α)`.*
+**Lemma 3.3.3.** *If $\alpha \in P(\Delta) - \Delta$, $\alpha$ indivisible, there exists $\beta \in \Delta$ such that
+$s_{\beta}(\alpha) \in P(\Delta)$ and $ord_{\Delta}(s_{\beta}(\alpha)) < ord_{\Delta}(\alpha)$.*
 
 <!-- label: III.XXI.3.3.3 -->
 
-*Proof.* Indeed, by 3.1.1 there exists `β ∈ Δ` such that `(β*, α) > 0`. Since `α ∉ Δ` and is indivisible, `α` cannot be
-proportional to `β`. Hence `s_β(α) ∈ P(Δ)`, by 3.3.1, and one has `ord_Δ(s_β(α)) = ord_Δ(α) − (β*, α) < ord_Δ(α)`.
+*Proof.* Indeed, by 3.1.1 there exists $\beta \in \Delta$ such that $(\beta*, \alpha) > 0$. Since $\alpha \notin \Delta$
+and is indivisible, $\alpha$ cannot be proportional to $\beta$. Hence $s_{\beta}(\alpha) \in P(\Delta)$, by 3.3.1, and
+one has `ord_Δ(s_β(α)) = ord_Δ(α) − (β*, α) < ord_Δ(α)`.
 
-**Corollary 3.3.4.** *If `α ∈ P(Δ)` is indivisible, there exists a sequence `β_p ∈ Δ`, `p = 1, …, q`, such that*
+**Corollary 3.3.4.** *If $\alpha \in P(\Delta)$ is indivisible, there exists a sequence $\beta_{p} \in \Delta$,
+$p = 1, \cdots, q$, such that*
 
 <!-- label: III.XXI.3.3.4 -->
 
@@ -996,12 +1044,12 @@ proportional to `β`. Hence `s_β(α) ∈ P(Δ)`, by 3.3.1, and one has `ord_Δ(
 α_p = s_{β_p} ⋯ s_{β_1}(α) ∈ P(Δ)    for p = 1, …, q,
 ```
 
-*and `α_q ∈ Δ`.*
+*and $\alpha_{q} \in \Delta$.*
 
-*Proof.* This follows from 3.3.3 by induction on `ord_Δ(α)`.
+*Proof.* This follows from 3.3.3 by induction on $ord_{\Delta}(\alpha)$.
 
-**Proposition 3.3.5.** *The Weyl group is generated by the `s_α`, for `α ∈ Δ`. Every indivisible root is conjugate to a
-simple root by an element of the Weyl group.*
+**Proposition 3.3.5.** *The Weyl group is generated by the $s_{\alpha}$, for $\alpha \in \Delta$. Every indivisible root
+is conjugate to a simple root by an element of the Weyl group.*
 
 <!-- label: III.XXI.3.3.5 -->
 
@@ -1009,8 +1057,8 @@ simple root by an element of the Weyl group.*
 
 *Proof.* The second assertion follows at once from 3.3.4. The first follows from it by 1.2.10 and 2.1.1.
 
-**Proposition 3.3.6.** *Let `R₊` be a system of positive roots. Let `P' ⊂ R` satisfy (P 2) and be closed. Then there
-exists `w ∈ W` such that `w(R₊) ⊂ P'`.*
+**Proposition 3.3.6.** *Let $R_{+}$ be a system of positive roots. Let $P' \subset R$ satisfy (P 2) and be closed. Then
+there exists $w \in W$ such that $w(R_{+}) \subset P'$.*
 
 <!-- label: III.XXI.3.3.6 -->
 
@@ -1021,62 +1069,67 @@ simple roots).*
 
 <!-- label: III.XXI.3.3.7 -->
 
-**Corollary 3.3.8.** *For a subset of `R` to be a system of positive roots, it is necessary and sufficient that it
+**Corollary 3.3.8.** *For a subset of $R$ to be a system of positive roots, it is necessary and sufficient that it
 satisfy (P 1) and (P 2) and be closed.*
 
 <!-- label: III.XXI.3.3.8 -->
 
-**Corollary 3.3.9.** *If one endows `Γ₀(R)` with a structure of ordered group such that every root is `> 0` or `< 0`,
-the set of positive roots for this order structure is a system of positive roots.*
+**Corollary 3.3.9.** *If one endows $\Gamma_{0}(R)$ with a structure of ordered group such that every root is `> 0` or
+`< 0`, the set of positive roots for this order structure is a system of positive roots.*
 
 <!-- label: III.XXI.3.3.9 -->
 
-*Proof of 3.3.6.* One can find `w ∈ W` such that `Card(w(R₊) ∩ P')` is maximal, hence by replacing `R₊` by `w(R₊)` one
-may assume that
+*Proof of 3.3.6.* One can find $w \in W$ such that $Card(w(R_{+}) \cap P')$ is maximal, hence by replacing $R_{+}$ by
+$w(R_{+})$ one may assume that
 
 ```text
 (∗)    Card(R₊ ∩ P') ⩾ Card(R₊ ∩ s_α(P'))
 ```
 
-for all `α ∈ 𝒮(R₊) = Δ`. Let us show that `R₊ ⊂ P'`. Otherwise, `P'` being closed, there exists `α ∈ Δ`, `α ∉ P'`. But
-`P'` satisfying (P 2), one has then `−α ∈ P'` (so `−2α ∈ P'` if `2α` is a root). For every `β ∈ R₊ ∩ P'`, one has
-`β ≠ α`; if `2α` is not a root, then `s_α(β) ∈ R₊` (by 3.3.1), so
+for all $\alpha \in \mathcal{S}(R_{+}) = \Delta$. Let us show that $R_{+} \subset P'$. Otherwise, $P'$ being closed,
+there exists $\alpha \in \Delta$, $\alpha \notin P'$. But $P'$ satisfying (P 2), one has then $-\alpha \in P'$ (so
+$-2\alpha \in P'$ if $2\alpha$ is a root). For every $\beta \in R_{+} \cap P'$, one has $\beta \neq \alpha$; if
+$2\alpha$ is not a root, then $s_{\alpha}(\beta) \in R_{+}$ (by 3.3.1), so
 
 ```text
 s_α(R₊ ∩ P') ⊂ R₊ ∩ s_α(P');
 ```
 
-but `R₊ ∩ s_α(P')` also contains `α = s_α(−α)`, contradicting inequality (∗). If `2α` is a root, one argues similarly.
+but $R_{+} \cap s_{\alpha}(P')$ also contains $\alpha = s_{\alpha}(-\alpha)$, contradicting inequality (∗). If $2\alpha$
+is a root, one argues similarly.
 
 To study sets of roots satisfying (P 2) and closed, one is therefore reduced to the case where they contain a set of
 positive roots.
 
-**Proposition 3.3.10.** *Let `R₊` be a system of positive roots and `P'` a closed subset of `R` containing `R₊`. If one
-denotes `Δ = 𝒮(R₊)` and `Δ' = Δ ∩ −P'`, then `P'` is the union of `R₊` and the set of roots that are linear combinations
-with negative coefficients of the elements of `Δ'`.*
+**Proposition 3.3.10.** *Let $R_{+}$ be a system of positive roots and $P'$ a closed subset of $R$ containing $R_{+}$.
+If one denotes $\Delta = \mathcal{S}(R_{+})$ and $\Delta' = \Delta \cap -P'$, then $P'$ is the union of $R_{+}$ and the
+set of roots that are linear combinations with negative coefficients of the elements of $\Delta'$.*
 
 <!-- label: III.XXI.3.3.10 -->
 
 <!-- original page 108 -->
 
-*Proof.* We prove the assertion by induction on the order of a root `γ ∈ P' − R₊`. If `ord_Δ(γ) = −1`, then `−γ ∈ Δ` and
-`γ ∈ −Δ'`. If `ord_Δ(γ) < −1`, there exists, by 3.1.2, `β ∈ Δ` such that `−γ − β ∈ R`; then
+*Proof.* We prove the assertion by induction on the order of a root $\gamma \in P' - R_{+}$. If
+$ord_{\Delta}(\gamma) = -1$, then $-\gamma \in \Delta$ and $\gamma \in -\Delta'$. If $ord_{\Delta}(\gamma) < -1$, there
+exists, by 3.1.2, $\beta \in \Delta$ such that $-\gamma - \beta \in R$; then
 
 ```text
 0 < ord_Δ(−γ − β) = ord_Δ(−γ) − 1 < ord_Δ(−γ)
 ```
 
-and the first inequality shows that `−γ − β ∈ R₊`. Hence, since `R₊ ∩ −R₊ = ∅` and `γ + β` is a sum of two roots of
-`P'`, it is an element of `P' − R₊` with `ord_Δ(γ + β) > ord_Δ(γ)`. So, by the induction hypothesis, `γ + β` is a linear
-combination with negative coefficients of the elements of `Δ'`. Since `γ = (γ + β) − β`, it suffices to verify that
-`β ∈ −P'`. Now `γ ∈ P'` and `−(γ + β) ∈ R₊ ⊂ P'`, so `−β = γ − (γ + β)` belongs to `P'`.
+and the first inequality shows that $-\gamma - \beta \in R_{+}$. Hence, since $R_{+} \cap -R_{+} = \emptyset$ and
+$\gamma + \beta$ is a sum of two roots of $P'$, it is an element of $P' - R_{+}$ with
+$ord_{\Delta}(\gamma + \beta) > ord_{\Delta}(\gamma)$. So, by the induction hypothesis, $\gamma + \beta$ is a linear
+combination with negative coefficients of the elements of $\Delta'$. Since $\gamma = (\gamma + \beta) - \beta$, it
+suffices to verify that $\beta \in -P'$. Now $\gamma \in P'$ and $-(\gamma + \beta) \in R_{+} \subset P'$, so
+$-\beta = \gamma - (\gamma + \beta)$ belongs to $P'$.
 
-**Definition 3.3.10.1.**[^N.D.E-XXI-9] *One says that a subset `R'` of `R` is* symmetric *if `−R' = R'`.*
+**Definition 3.3.10.1.**[^N.D.E-XXI-9] *One says that a subset $R'$ of $R$ is* symmetric *if $-R' = R'$.*
 
 <!-- label: III.XXI.3.3.10.1 -->
 
-**Scholie 3.3.11.** *Let `P'` be a set of roots satisfying (P 2) and closed. There exists a system of simple roots `Δ`
-and a subset `Δ'` of `Δ` such that*
+**Scholie 3.3.11.** *Let $P'$ be a set of roots satisfying (P 2) and closed. There exists a system of simple roots
+$\Delta$ and a subset $\Delta'$ of $\Delta$ such that*
 
 <!-- label: III.XXI.3.3.11 -->
 
@@ -1084,38 +1137,42 @@ and a subset `Δ'` of `Δ` such that*
 P' = R ∩ (ℕ · Δ ∪ −ℕ · Δ').
 ```
 
-*If one denotes `R_{Δ'} = (ℤ · Δ') ∩ R`, which is a closed and symmetric subset of `R`, then `P'` is the disjoint union
-of `R_{Δ'}` and of the closed part of `P(Δ)` formed by the `α ∈ P(Δ) − ℕ · Δ'`, i.e. the positive roots which in the
-decomposition along `Δ` "contain at least one root of `Δ − Δ'`".*
+*If one denotes $R_{\Delta'} = (\mathbb{Z} \cdot \Delta') \cap R$, which is a closed and symmetric subset of $R$, then
+$P'$ is the disjoint union of $R_{\Delta'}$ and of the closed part of $P(\Delta)$ formed by the
+$\alpha \in P(\Delta) - \mathbb{N} \cdot \Delta'$, i.e. the positive roots which in the decomposition along $\Delta$
+"contain at least one root of $\Delta - \Delta'$".*
 
 ### 3.4. Closed and symmetric sets of roots
 
 <!-- label: III.XXI.3.4 -->
 
-**Proposition 3.4.1.** *Let `ℛ = (M, M*, R, R*)` be a root datum and `R'` a closed and symmetric subset of `R`. Then:*
+**Proposition 3.4.1.** *Let $\mathcal{R} = (M, M*, R, R*)$ be a root datum and $R'$ a closed and symmetric subset of
+$R$. Then:*
 
 <!-- label: III.XXI.3.4.1 -->
 
-*(i) `ℛ' = (M, M*, R', R'*)` is a root datum;*
+*(i) $\mathcal{R}' = (M, M*, R', R'*)$ is a root datum;*
 
 <!-- original page 109 -->
 
-*(ii) for every system of positive roots `R₊` of `R`, `R'₊ = R₊ ∩ R'` is a system of positive roots of `R'`;*
+*(ii) for every system of positive roots $R_{+}$ of $R$, $R'_{+} = R_{+} \cap R'$ is a system of positive roots of
+$R'$;*
 
-*(iii) the Weyl group `W(ℛ')` of `ℛ'` is the subgroup of `W(ℛ)` generated by the `s_α`, for `α ∈ R'`.*
+*(iii) the Weyl group $W(\mathcal{R}')$ of $\mathcal{R}'$ is the subgroup of $W(\mathcal{R})$ generated by the
+$s_{\alpha}$, for $\alpha \in R'$.*
 
 *Proof.* The first assertion is trivial by 1.2.11, the second follows from 3.3.8, the third is evident.
 
-**Corollary 3.4.2.** *Let `w ∈ W(ℛ')`. The order of `w` is the smallest integer `n > 0` such that `wⁿ(α') = α'` for
-every `α' ∈ R'`.*
+**Corollary 3.4.2.** *Let $w \in W(\mathcal{R}')$. The order of $w$ is the smallest integer $n > 0$ such that
+$w^{n}(\alpha') = \alpha'$ for every $\alpha' \in R'$.*
 
 <!-- label: III.XXI.3.4.2 -->
 
-*Proof.* It suffices to apply 1.2.7 to the root datum `ℛ'`.
+*Proof.* It suffices to apply 1.2.7 to the root datum $\mathcal{R}'$.
 
-**Corollary 3.4.3.** *Let `α` and `β` be two non-proportional roots. Let `n` be the smallest integer `> 0` such that
-`(s_α s_β)ⁿ(α) = α` and `(s_α s_β)ⁿ(β) = β`. Then the subgroup `W_{α,β}` of `W` generated by `s_α` and `s_β` is defined
-by the relations:*
+**Corollary 3.4.3.** *Let $\alpha$ and $\beta$ be two non-proportional roots. Let $n$ be the smallest integer `> 0` such
+that $(s_{\alpha} s_{\beta})^{n}(\alpha) = \alpha$ and $(s_{\alpha} s_{\beta})^{n}(\beta) = \beta$. Then the subgroup
+$W_{\alpha,\beta}$ of $W$ generated by $s_{\alpha}$ and $s_{\beta}$ is defined by the relations:*
 
 <!-- label: III.XXI.3.4.3 -->
 
@@ -1125,13 +1182,13 @@ s_α² = 1,    s_β² = 1,    (s_α s_β)ⁿ = 1.
 
 *Proof.* Taking 3.4.2 into account, it suffices to verify:
 
-**Lemma 3.4.4.** *Let `G` be the group generated by two elements `x` and `y` subject to the relations `x² = y² = 1`.
-Every normal subgroup of `G` containing neither `x` nor `y` is generated (as a normal subgroup) by an element of the
-form `(xy)ⁿ`, where `n > 0`.*
+**Lemma 3.4.4.** *Let $G$ be the group generated by two elements $x$ and $y$ subject to the relations
+$x^{2} = y^{2} = 1$. Every normal subgroup of $G$ containing neither $x$ nor $y$ is generated (as a normal subgroup) by
+an element of the form $(xy)^{n}$, where $n > 0$.*
 
 <!-- label: III.XXI.3.4.4 -->
 
-[^N.D.E-XXI-10] *Proof.* Indeed, every element of `G` is written `(xy)ⁿ`, or `(yx)ⁿ = (xy)⁻ⁿ`, or:
+[^N.D.E-XXI-10] *Proof.* Indeed, every element of $G$ is written $(xy)^{n}$, or $(yx)^{n} = (xy)^{-n}$, or:
 
 ```text
 (a)    x (yx)^{2n}    or    y (xy)^{2n+1}
@@ -1139,9 +1196,9 @@ form `(xy)ⁿ`, where `n > 0`.*
 (b)    y (xy)^{2n}    or    x (yx)^{2n+1},
 ```
 
-where `n ∈ ℕ`. Now the elements of type (a) (resp. (b)) are conjugate to `x` (resp. to `y`).
+where $n \in \mathbb{N}$. Now the elements of type (a) (resp. (b)) are conjugate to $x$ (resp. to $y$).
 
-**Remark 3.4.5.** *One computes the integer `n` immediately: if one sets*
+**Remark 3.4.5.** *One computes the integer $n$ immediately: if one sets*
 
 <!-- label: III.XXI.3.4.5 -->
 
@@ -1157,19 +1214,19 @@ where `n ∈ ℕ`. Now the elements of type (a) (resp. (b)) are conjugate to `x`
 (s_α s_β)(α) = (pq − 1) α − q β,    (s_α s_β)(β) = p α − β.
 ```
 
-*The integer `n` is therefore the order of the matrix*
+*The integer $n$ is therefore the order of the matrix*
 
 ```text
 ⎛pq − 1   p⎞
 ⎝  −q   −1⎠.
 ```
 
-*If `pq = 0`, then `p = q = 0`, by 2.2.2, whence `n = 2`. Otherwise, by 2.3.1, `pq` equals `1`, `2`, or `3`, and one
-finds, respectively, `n = 3`, `4`, or `6`.*
+*If $pq = 0$, then $p = q = 0$, by 2.2.2, whence $n = 2$. Otherwise, by 2.3.1, `pq` equals `1`, `2`, or `3`, and one
+finds, respectively, $n = 3$, `4`, or `6`.*
 
 *N.B. By writing that the order of the previous matrix is finite, one recovers inequality (13) of 2.3.1.*
 
-**Definition 3.4.6.** *Let `Δ` be a system of simple roots and `Δ' ⊂ Δ`. We write*
+**Definition 3.4.6.** *Let $\Delta$ be a system of simple roots and $\Delta' \subset \Delta$. We write*
 
 <!-- label: III.XXI.3.4.6 -->
 
@@ -1177,36 +1234,38 @@ finds, respectively, `n = 3`, `4`, or `6`.*
 R_{Δ'} = R ∩ (ℚ · Δ') = R ∩ (ℤ · Δ').
 ```
 
-**Lemma 3.4.7.** *`R_{Δ'}` is closed and symmetric, `Δ'` is a system of simple roots of the root datum
-`(M, M*, R_{Δ'}, R*_{Δ'})`, whose Weyl group is the subgroup `W_{Δ'}` of `W` generated by the `s_α`, for `α ∈ Δ'`. One
-has `Δ ∩ R_{Δ'} = Δ'`.*
+**Lemma 3.4.7.** *$R_{\Delta'}$ is closed and symmetric, $\Delta'$ is a system of simple roots of the root datum
+$(M, M*, R_{\Delta'}, R*_{\Delta'})$, whose Weyl group is the subgroup $W_{\Delta'}$ of $W$ generated by the
+$s_{\alpha}$, for $\alpha \in \Delta'$. One has $\Delta \cap R_{\Delta'} = \Delta'$.*
 
 <!-- label: III.XXI.3.4.7 -->
 
 *Proof.* Trivial.
 
-**Proposition 3.4.8.** *Let `R' ⊂ R`. The following conditions are equivalent:*
+**Proposition 3.4.8.** *Let $R' \subset R$. The following conditions are equivalent:*
 
 <!-- label: III.XXI.3.4.8 -->
 
-*(i) There exists a vector subspace `V'` of `V` (or of `V(R)`) such that `R' = R ∩ V'`.*
+*(i) There exists a vector subspace $V'$ of $V$ (or of $V(R)$) such that $R' = R \cap V'$.*
 
-*(ii) There exists a system of simple roots `Δ` of `R` and a subset `Δ'` of `Δ` such that `R' = R_{Δ'}`.*
+*(ii) There exists a system of simple roots $\Delta$ of $R$ and a subset $\Delta'$ of $\Delta$ such that
+$R' = R_{\Delta'}$.*
 
-*More precisely, under these conditions, every system of simple roots `Δ'` of `(M, M*, R', R'*)` is contained in a
-system of simple roots `Δ` of `R`, and one has `R' = R_{Δ'}`.*
+*More precisely, under these conditions, every system of simple roots $\Delta'$ of $(M, M*, R', R'*)$ is contained in a
+system of simple roots $\Delta$ of $R$, and one has $R' = R_{\Delta'}$.*
 
 <!-- original page 111 -->
 
-*Proof.* One has obviously (ii) ⇒ (i). Suppose (i) verified: then `R'` is closed and symmetric, so `(M, M*, R', R'*)` is
-a root datum. Let `Δ'` be a system of simple roots of this datum and `R'₊ = P(Δ')`. If `V' = V`, then `Δ'` is a system
-of simple roots of `ℛ` and we are done. Otherwise, there exists `x ∈ V*` such that
+*Proof.* One has obviously (ii) ⇒ (i). Suppose (i) verified: then $R'$ is closed and symmetric, so $(M, M*, R', R'*)$ is
+a root datum. Let $\Delta'$ be a system of simple roots of this datum and $R'_{+} = P(\Delta')$. If $V' = V$, then
+$\Delta'$ is a system of simple roots of $\mathcal{R}$ and we are done. Otherwise, there exists $x \in V*$ such that
 
 ```text
 (x, V') = {0},    (x, α) ≠ 0    for all α ∈ R − R'.
 ```
 
-Put `R₊(x) = {α ∈ R | (x, α) > 0}` and `R₊ = R₊(x) ∪ R'₊`. For every `α ∈ R`, one has the equivalences
+Put $R_{+}(x) = {\alpha \in R | (x, \alpha) > 0}$ and $R_{+} = R_{+}(x) \cup R'_{+}$. For every $\alpha \in R$, one has
+the equivalences
 
 ```text
 (x, α) > 0  ⟺  α ∈ R₊(x),
@@ -1214,46 +1273,50 @@ Put `R₊(x) = {α ∈ R | (x, α) > 0}` and `R₊ = R₊(x) ∪ R'₊`. For eve
 (x, α) = 0  ⟺  α ∈ R'.
 ```
 
-It follows at once from 3.3.8 that `R₊` is a system of positive roots of `R`. Put `Δ = 𝒮(R₊)`. It evidently suffices to
-prove `Δ' ⊂ Δ`. Otherwise let `α ∈ Δ' − Δ`. Then, by 3.2.14, there exist `β, γ ∈ R₊` such that `α = β + γ`. If
-`β, γ ∈ R₊(x)`, one has `α ∈ R₊(x)`, which is absurd since `(x, Δ') = 0`. If `β` or `γ`, say `β`, belongs to `R'₊`,
-then, since `R'` is symmetric and closed, `γ = α − β` belongs to `R₊ ∩ R' = R'₊`; but then `α` is not simple in `R'₊`.
+It follows at once from 3.3.8 that $R_{+}$ is a system of positive roots of $R$. Put $\Delta = \mathcal{S}(R_{+})$. It
+evidently suffices to prove $\Delta' \subset \Delta$. Otherwise let $\alpha \in \Delta' - \Delta$. Then, by 3.2.14,
+there exist $\beta, \gamma \in R_{+}$ such that $\alpha = \beta + \gamma$. If $\beta, \gamma \in R_{+}(x)$, one has
+$\alpha \in R_{+}(x)$, which is absurd since $(x, \Delta') = 0$. If $\beta$ or $\gamma$, say $\beta$, belongs to
+$R'_{+}$, then, since $R'$ is symmetric and closed, $\gamma = \alpha - \beta$ belongs to $R_{+} \cap R' = R'_{+}$; but
+then $\alpha$ is not simple in $R'_{+}$.
 
-**Lemma 3.4.9.** *Under the preceding conditions, let `α ∈ P(Δ) − R'`. For every `w ∈ W_{Δ'}`, one has
-`w(α) ∈ P(Δ) − R'`.*
+**Lemma 3.4.9.** *Under the preceding conditions, let $\alpha \in P(\Delta) - R'$. For every $w \in W_{\Delta'}$, one
+has $w(\alpha) \in P(\Delta) - R'$.*
 
 <!-- label: III.XXI.3.4.9 -->
 
 <!-- original page 112 -->
 
-*Proof.* It indeed suffices to verify this for `w = s_β`, `β ∈ Δ'`, in which case it follows from 3.3.1 and from the
-fact that `s_β(R') = R'`.
+*Proof.* It indeed suffices to verify this for $w = s_{\beta}$, $\beta \in \Delta'$, in which case it follows from 3.3.1
+and from the fact that $s_{\beta}(R') = R'$.
 
-**Lemma 3.4.10.** *Let `w ∈ W`. Under the conditions of 3.4.8, the following conditions are equivalent:*
+**Lemma 3.4.10.** *Let $w \in W$. Under the conditions of 3.4.8, the following conditions are equivalent:*
 
 <!-- label: III.XXI.3.4.10 -->
 
-*(i) `w ∈ W_{Δ'}`.*
+*(i) $w \in W_{\Delta'}$.*
 
-*(ii) For every `m ∈ M`, `w(m) − m ∈ V'`.*
+*(ii) For every $m \in M$, $w(m) - m \in V'$.*
 
-*(iii) For every `α ∈ R`, `w(α) − α ∈ V'`.*
+*(iii) For every $\alpha \in R$, $w(\alpha) - \alpha \in V'$.*
 
-*Proof.* One has obviously (i) ⇒ (ii) ⇒ (iii). Let us prove (iii) ⇒ (i). Let then `w ∈ W` be such that `w(α) − α ∈ V'`
-for all `α ∈ R`. Write `w = s_{α_n} ⋯ s_{α_1}`, with `αᵢ ∈ Δ`, and let us prove by induction on `n` that each `αᵢ ∈ Δ'`.
-One may assume that `w' = s_{α_{n−1}} ⋯ s_{α_1} ∈ W_{Δ'}`. One has then, for all `α ∈ R`,
+*Proof.* One has obviously (i) ⇒ (ii) ⇒ (iii). Let us prove (iii) ⇒ (i). Let then $w \in W$ be such that
+$w(\alpha) - \alpha \in V'$ for all $\alpha \in R$. Write $w = s_{\alpha_{n}} \cdots s_{\alpha_{1}}$, with
+$\alpha_{i} \in \Delta$, and let us prove by induction on $n$ that each $\alpha_{i} \in \Delta'$. One may assume that
+$w' = s_{\alpha_{n-1}} \cdots s_{\alpha_{1}} \in W_{\Delta'}$. One has then, for all $\alpha \in R$,
 
 ```text
 w(α) − α = w'(α) − α − (α*_n, w'(α)) α_n.
 ```
 
-Taking `α = w'⁻¹(α_n)`, one finds `2 α_n ∈ V'`, whence `α_n ∈ Δ'`, so `w = s_{α_n} w'` belongs to `W_{Δ'}`.
+Taking $\alpha = w'^{-1}(\alpha_{n})$, one finds $2 \alpha_{n} \in V'$, whence $\alpha_{n} \in \Delta'$, so
+$w = s_{\alpha_{n}} w'$ belongs to $W_{\Delta'}$.
 
 ### 3.5. Miscellaneous remarks
 
 <!-- label: III.XXI.3.5 -->
 
-**Proposition 3.5.1.** *Let `R₊` be a system of positive roots. Denote*
+**Proposition 3.5.1.** *Let $R_{+}$ be a system of positive roots. Denote*
 
 <!-- label: III.XXI.3.5.1 -->
 
@@ -1261,7 +1324,7 @@ Taking `α = w'⁻¹(α_n)`, one finds `2 α_n ∈ V'`, whence `α_n ∈ Δ'`, s
 ρ_{R₊} = (1/2) Σ_{α ∈ ind(R₊)} α.
 ```
 
-*Then `(β*, ρ_{R₊}) = 1` for every `β ∈ 𝒮(R₊)`.*
+*Then $(\beta*, \rho_{R_{+}}) = 1$ for every $\beta \in \mathcal{S}(R_{+})$.*
 
 *Proof.* Indeed, one can write
 
@@ -1269,84 +1332,92 @@ Taking `α = w'⁻¹(α_n)`, one finds `2 α_n ∈ V'`, whence `α_n ∈ Δ'`, s
 2 ρ_{R₊} = β + Σ_{α ∈ ind(R₊), α ≠ β} α,
 ```
 
-so `s_β(2 ρ_{R₊}) = 2 ρ_{R₊} − 2β`, by 3.3.2.
+so $s_{\beta}(2 \rho_{R_{+}}) = 2 \rho_{R_{+}} - 2\beta$, by 3.3.2.
 
-**Corollary 3.5.2.** *Put `ρ*_{R₊} = (1/2) Σ_{α* ∈ ind(R*₊)} α*`. Then:*
+**Corollary 3.5.2.** *Put $\rho*_{R_{+}} = (1/2) \Sigma_{\alpha* \in ind(R*_{+})} \alpha*$. Then:*
 
 <!-- label: III.XXI.3.5.2 -->
 
 <!-- original page 113 -->
 
-*(i) `(ρ*_{R₊}, α) > 0` for every `α ∈ R₊` (i.e. `ρ*_{R₊} ∈ 𝒞(R₊)`, cf. 3.6.8).*
+*(i) $(\rho*_{R_{+}}, \alpha) > 0$ for every $\alpha \in R_{+}$ (i.e. $\rho*_{R_{+}} \in \mathcal{C}(R_{+})$, cf.
+3.6.8).*
 
-*(ii) For every `α ∈ R`, one has `ord_{𝒮(R₊)}(α) = (ρ*_{R₊}, α)`.*[^N.D.E-XXI-12]
+*(ii) For every $\alpha \in R$, one has $ord_{\mathcal{S}(R_{+})}(\alpha) = (\rho*_{R_{+}}, \alpha)$.*[^N.D.E-XXI-12]
 
-**Remark 3.5.3.** *If `w ∈ W`, one has `ρ_{w(R₊)} = w(ρ_{R₊})` and `ρ*_{w(R₊)} = w(ρ*_{R₊})`.*
+**Remark 3.5.3.** *If $w \in W$, one has $\rho_{w(R_{+})} = w(\rho_{R_{+}})$ and $\rho*_{w(R_{+})} = w(\rho*_{R_{+}})$.*
 
 <!-- label: III.XXI.3.5.3 -->
 
-**Proposition 3.5.4.** *Let `α` and `γ` be two non-proportional roots, with `α` indivisible. There exists a system of
-simple roots containing `α` and a root `β` such that `γ = a α + b β`, with `a, b ∈ ℕ`.*
+**Proposition 3.5.4.** *Let $\alpha$ and $\gamma$ be two non-proportional roots, with $\alpha$ indivisible. There exists
+a system of simple roots containing $\alpha$ and a root $\beta$ such that $\gamma = a \alpha + b \beta$, with
+$a, b \in \mathbb{N}$.*
 
 <!-- label: III.XXI.3.5.4 -->
 
-*Proof.* Indeed, let us construct a basis of the vector space `V(R)` containing `α₁ = α`, `α₂ = γ`. Consider the
-lexicographic order with respect to this basis. Denoting by `R₊` the set of roots `> 0`, it is clear that `R₊` is a
-system of positive roots and[^N.D.E-XXI-13] that the smallest element of `R₊` not proportional to `α` is simple. This
-element is of the form
+*Proof.* Indeed, let us construct a basis of the vector space $V(R)$ containing $\alpha_{1} = \alpha$,
+$\alpha_{2} = \gamma$. Consider the lexicographic order with respect to this basis. Denoting by $R_{+}$ the set of roots
+`> 0`, it is clear that $R_{+}$ is a system of positive roots and[^N.D.E-XXI-13] that the smallest element of $R_{+}$
+not proportional to $\alpha$ is simple. This element is of the form
 
 ```text
 β = p α + q γ,    0 < q ⩽ 1.
 ```
 
-One thus has `γ = q⁻¹ β − q⁻¹ p α`, and since `q > 0`, one has `q⁻¹ ∈ ℕ*` and `−q⁻¹ p ∈ ℕ`.
+One thus has $\gamma = q^{-1} \beta - q^{-1} p \alpha$, and since $q > 0$, one has $q^{-1} \in \mathbb{N}*$ and
+$-q^{-1} p \in \mathbb{N}$.
 
-Let us finally make two remarks about the group `Γ₀(R)`.
+Let us finally make two remarks about the group $\Gamma_{0}(R)$.
 
-**Proposition 3.5.5.** *Let `G` be an abelian group and `f : R → G` a map satisfying the following two conditions:*
+**Proposition 3.5.5.** *Let $G$ be an abelian group and $f : R \to G$ a map satisfying the following two conditions:*
 
 <!-- label: III.XXI.3.5.5 -->
 
-*(i) If `α ∈ R`, `f(−α) = −f(α)`.*
+*(i) If $\alpha \in R$, $f(-\alpha) = -f(\alpha)$.*
 
-*(ii) If `α, β, α + β ∈ R`, `f(α + β) = f(α) + f(β)`.*
+*(ii) If $\alpha, \beta, \alpha + \beta \in R$, $f(\alpha + \beta) = f(\alpha) + f(\beta)$.*
 
-*Then there exists a unique group homomorphism `f̄ : Γ₀(R) → G` such that `f̄(α) = f(α)` for `α ∈ R`.*
+*Then there exists a unique group homomorphism $\bar{f} : \Gamma_{0}(R) \to G$ such that $\bar{f}(\alpha) = f(\alpha)$
+for $\alpha \in R$.*
 
-*Proof.* Indeed, if `Δ` is a system of simple roots of `R`, and if `β ∈ R` is written `Σ_{α ∈ Δ} a(α) α`, it follows at
-once from 3.2.16 that `f(β) = Σ_{α ∈ Δ} a(α) f(α)`. Now `Δ` is a basis of `Γ₀(R)`.
+*Proof.* Indeed, if $\Delta$ is a system of simple roots of $R$, and if $\beta \in R$ is written
+$\Sigma_{\alpha \in \Delta} a(\alpha) \alpha$, it follows at once from 3.2.16 that
+$f(\beta) = \Sigma_{\alpha \in \Delta} a(\alpha) f(\alpha)$. Now $\Delta$ is a basis of $\Gamma_{0}(R)$.
 
 <!-- original page 114 -->
 
-**Proposition 3.5.6.** *Let `Δ` be a system of simple roots. There exists on `Γ₀(R)` a structure of totally ordered
-group such that the roots `> 0` are the elements of `P(Δ)` and `α ↦ ord_Δ(α)` is an increasing function.*
+**Proposition 3.5.6.** *Let $\Delta$ be a system of simple roots. There exists on $\Gamma_{0}(R)$ a structure of totally
+ordered group such that the roots `> 0` are the elements of $P(\Delta)$ and $\alpha \mapsto ord_{\Delta}(\alpha)$ is an
+increasing function.*
 
 <!-- label: III.XXI.3.5.6 -->
 
-*Proof.* Indeed, let `α₁, α₂, …, α_n` (`n = rgss(ℛ)`) be the elements of `Δ`. For `x ∈ Γ₀(R)`, one has a decomposition
+*Proof.* Indeed, let $\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}$ ($n = rgss(\mathcal{R})$) be the elements of $\Delta$.
+For $x \in \Gamma_{0}(R)$, one has a decomposition
 
 ```text
 x = Σᵢ mᵢ(x) αᵢ.
 ```
 
-It suffices to take the lexicographic order with respect to the functions `Σ mᵢ`, `m_n`, `m_{n−1}`, …, `m₂`.
+It suffices to take the lexicographic order with respect to the functions $\Sigma m_{i}$, $m_{n}$, $m_{n-1}$, …,
+$m_{2}$.
 
 **Remark 3.5.7.** *The first roots are in order:*
 
 <!-- label: III.XXI.3.5.7 -->
 
-```text
-α₁, α₂, …, α_n;
-```
+$$
+\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n};
+$$
 
-*one then has (if these are roots) `2 α₁, α₁ + α₂, α₁ + α₃, …`.*
+*one then has (if these are roots) $2 \alpha_{1}, \alpha_{1} + \alpha_{2}, \alpha_{1} + \alpha_{3}, \cdots$.*
 
 ### 3.6. Weyl chambers
 
 <!-- label: III.XXI.3.6 -->
 
-**Lemma 3.6.1.** *Let `V` be a finite-dimensional `ℝ`-vector space.[^N.D.E-XXI-14] Let `fᵢ` be independent linear forms.
-Set*
+**Lemma 3.6.1.** *Let $V$ be a finite-dimensional $\mathbb{R}$-vector space.[^N.D.E-XXI-14] Let `fᵢ` be independent
+linear forms. Set*
 
 <!-- label: III.XXI.3.6.1 -->
 
@@ -1354,23 +1425,23 @@ Set*
 C = {x ∈ V | fᵢ(x) > 0}.
 ```
 
-*Then `C` is a maximal convex subset of `X = V − ⋃ᵢ fᵢ⁻¹(0)`.*
+*Then $C$ is a maximal convex subset of $X = V - \bigcup_{i} f^{-1}_{i}(0)$.*
 
 *Proof.* Trivial.
 
 <!-- original page 115 -->
 
-**Definition 3.6.2.** *A subset `C` of `V` describable by the procedure of 3.6.1 will be called (here) a* chamber *of
-`V`.*
+**Definition 3.6.2.** *A subset $C$ of $V$ describable by the procedure of 3.6.1 will be called (here) a* chamber *of
+$V$.*
 
 <!-- label: III.XXI.3.6.2 -->
 
-**Definition 3.6.3.** *One says that the hyperplane `H` of `V` is a* wall *of `C` if `H ∩ (C̄ − C)` contains a nonempty
-open subset of `H`.*
+**Definition 3.6.3.** *One says that the hyperplane $H$ of $V$ is a* wall *of $C$ if $H \cap (\bar{C} - C)$ contains a
+nonempty open subset of $H$.*
 
 <!-- label: III.XXI.3.6.3 -->
 
-**Remark 3.6.4.** *For a convex subset, the closure is described without appeal to the topology of `V`: it is the set of
+**Remark 3.6.4.** *For a convex subset, the closure is described without appeal to the topology of $V$: it is the set of
 endpoints of all open segments contained in the given subset.*
 
 <!-- label: III.XXI.3.6.4 -->
@@ -1383,13 +1454,14 @@ endpoints of all open segments contained in the given subset.*
 C̄ = {x ∈ V | fᵢ(x) ⩾ 0}.
 ```
 
-*The walls of `C` are the hyperplanes `fᵢ⁻¹(0)`.*
+*The walls of $C$ are the hyperplanes $f^{-1}_{i}(0)$.*
 
-*Proof.* The first assertion is clear. The second then follows from the fact that `C̄ − C ⊂ ⋃ᵢ fᵢ⁻¹(0)` and that the
-`fᵢ⁻¹(0)` are obviously walls of `C`.
+*Proof.* The first assertion is clear. The second then follows from the fact that
+$\bar{C} - C \subset \bigcup_{i} f^{-1}_{i}(0)$ and that the $f^{-1}_{i}(0)$ are obviously walls of $C$.
 
-**Proposition 3.6.6.** *Let `C` be a chamber of `V`. If `Hᵢ`, `i = 1, 2, …, n`, are the distinct walls of `C`, then for
-every system of linear forms `{uᵢ}` such that `Hᵢ = uᵢ⁻¹(0)`, there exist `εᵢ ∈ {−1, +1}` such that `C` is defined by*
+**Proposition 3.6.6.** *Let $C$ be a chamber of $V$. If `Hᵢ`, $i = 1, 2, \cdots, n$, are the distinct walls of $C$, then
+for every system of linear forms ${u_{i}}$ such that $H_{i} = u^{-1}_{i}(0)$, there exist $\epsilon_{i} \in {-1, +1}$
+such that $C$ is defined by*
 
 <!-- label: III.XXI.3.6.6 -->
 
@@ -1397,18 +1469,18 @@ every system of linear forms `{uᵢ}` such that `Hᵢ = uᵢ⁻¹(0)`, there exi
 C = {x ∈ V | εᵢ uᵢ(x) > 0}.
 ```
 
-*For every wall `H` of `C`, one has `H ∩ C = ∅` and `H ∩ C̄ = C_H`, where `C_H` is a chamber in `H`. The walls of
-`C_{H_i}` are the `Hⱼ ∩ Hᵢ`, for `j ≠ i`.*
+*For every wall $H$ of $C$, one has $H \cap C = \emptyset$ and $H \cap \bar{C} = C_{H}$, where `C_H` is a chamber in
+$H$. The walls of $C_{H_{i}}$ are the $H_{j} \cap H_{i}$, for $j \neq i$.*
 
 *Proof.* This follows trivially from the lemma.
 
-**Definition 3.6.7.** *The `C_{H_i}` are the* faces *of `C`.*
+**Definition 3.6.7.** *The $C_{H_{i}}$ are the* faces *of $C$.*
 
 <!-- label: III.XXI.3.6.7 -->
 
-Let now `ℛ = (M, M*, R, R*)` be a root datum. We put `V*_ℝ = M* ⊗ ℝ`.
+Let now $\mathcal{R} = (M, M*, R, R*)$ be a root datum. We put $V*_{\mathbb{R}} = M* \otimes \mathbb{R}$.
 
-**Definition 3.6.8.**[^N.D.E-XXI-15] *For every `α ∈ R`, set*
+**Definition 3.6.8.**[^N.D.E-XXI-15] *For every $\alpha \in R$, set*
 
 <!-- label: III.XXI.3.6.8 -->
 
@@ -1418,30 +1490,32 @@ H_α = {x ∈ V*_ℝ | (x, α) = 0}.
 
 <!-- original page 116 -->
 
-*We denote `X = V*_ℝ − ⋃_{α ∈ R} H_α`. For every `x ∈ X`, set*
+*We denote $X = V*_{\mathbb{R}} - \bigcup_{\alpha \in R} H_{\alpha}$. For every $x \in X$, set*
 
 ```text
 R₊(x) = {α ∈ R | (x, α) > 0}.
 ```
 
-*For every system of positive roots `R₊`, denote*
+*For every system of positive roots $R_{+}$, denote*
 
 ```text
 𝒞(R₊) = {x ∈ V*_ℝ | (x, α) > 0 for all α ∈ R₊}.
 ```
 
-**Proposition 3.6.9.** *(i) For every `x ∈ X`, `R₊(x)` is a system of positive roots. For every system of positive roots
-`R₊`, `𝒞(R₊)` is a chamber in `V*_ℝ`. The `𝒞(R₊)` are the maximal convex subsets of `X`.*
+**Proposition 3.6.9.** *(i) For every $x \in X$, $R_{+}(x)$ is a system of positive roots. For every system of positive
+roots $R_{+}$, $\mathcal{C}(R_{+})$ is a chamber in $V*_{\mathbb{R}}$. The $\mathcal{C}(R_{+})$ are the maximal convex
+subsets of $X$.*
 
 <!-- label: III.XXI.3.6.9 -->
 
-*(ii) Let `Δ` be a system of simple roots. One has*
+*(ii) Let $\Delta$ be a system of simple roots. One has*
 
 ```text
 𝒞(P(Δ)) = {x ∈ V*_ℝ | (x, α) > 0    for all α ∈ Δ}.
 ```
 
-*The walls of `𝒞(P(Δ))` are the hyperplanes `H_α = α⁻¹(0)`, for `α ∈ Δ`; its faces are the*
+*The walls of $\mathcal{C}(P(\Delta))$ are the hyperplanes $H_{\alpha} = \alpha^{-1}(0)$, for $\alpha \in \Delta$; its
+faces are the*
 
 ```text
 C_α = {x ∈ V*_ℝ | (x, α) = 0, (x, β) > 0 for β ∈ Δ, β ≠ α}.
@@ -1453,10 +1527,10 @@ C_α = {x ∈ V*_ℝ | (x, α) = 0, (x, β) > 0 for β ∈ Δ, β ≠ α}.
 R₊(x) = R₊  ⟺  x ∈ 𝒞(R₊).
 ```
 
-*Proof.* It is first clear that `R₊(x)` is a system of positive roots. Since `x ∈ 𝒞(R₊(x))`, the union of the `𝒞(R₊(x))`
-is `X`. Property (iii) is immediate; it follows that the `𝒞(R₊)` form a partition of `X`. The first assertion of (ii) is
-evident. It follows at once that `𝒞(R₊)` is a chamber in `V`, which proves the rest of (i). Putting `C = 𝒞(P(Δ))`, it
-remains only to remark that
+*Proof.* It is first clear that $R_{+}(x)$ is a system of positive roots. Since $x \in \mathcal{C}(R_{+}(x))$, the union
+of the $\mathcal{C}(R_{+}(x))$ is $X$. Property (iii) is immediate; it follows that the $\mathcal{C}(R_{+})$ form a
+partition of $X$. The first assertion of (ii) is evident. It follows at once that $\mathcal{C}(R_{+})$ is a chamber in
+$V$, which proves the rest of (i). Putting $C = \mathcal{C}(P(\Delta))$, it remains only to remark that
 
 ```text
 C̄ ∩ (V*_ℝ − ⋃_{α ∈ R} α⁻¹(0)) = C̄ ∩ (V*_ℝ − ⋃_{α ∈ Δ} α⁻¹(0))
@@ -1464,33 +1538,34 @@ C̄ ∩ (V*_ℝ − ⋃_{α ∈ R} α⁻¹(0)) = C̄ ∩ (V*_ℝ − ⋃_{α ∈
 
 to complete the proof of (ii) by 3.6.1.
 
-**Definition 3.6.10.** *The `𝒞(R₊)` are called the* Weyl chambers *of the root datum. On the other hand, for every Weyl
-chamber `C`, one sets `R₊(C) = R₊(x)` for any `x ∈ C`.*
+**Definition 3.6.10.** *The $\mathcal{C}(R_{+})$ are called the* Weyl chambers *of the root datum. On the other hand,
+for every Weyl chamber $C$, one sets $R_{+}(C) = R_{+}(x)$ for any $x \in C$.*
 
 <!-- label: III.XXI.3.6.10 -->
 
 <!-- original page 117 -->
 
-**Corollary 3.6.11.** *The maps `R₊ ↦ 𝒞(R₊)` and `C ↦ R₊(C)` realize a bijective correspondence between systems of
-positive roots and Weyl chambers.*
+**Corollary 3.6.11.** *The maps $R_{+} \mapsto \mathcal{C}(R_{+})$ and $C \mapsto R_{+}(C)$ realize a bijective
+correspondence between systems of positive roots and Weyl chambers.*
 
 <!-- label: III.XXI.3.6.11 -->
 
 This correspondence is invariant under the Weyl group:
 
-**Lemma 3.6.12.** *If `w ∈ W(ℛ)`, one has `𝒞(w(R₊)) = w(𝒞(R₊))`.*
+**Lemma 3.6.12.** *If $w \in W(\mathcal{R})$, one has $\mathcal{C}(w(R_{+})) = w(\mathcal{C}(R_{+}))$.*
 
 <!-- label: III.XXI.3.6.12 -->
 
-**Corollary 3.6.13.** *The correspondences `Δ ↔ R₊ ↔ C` are isomorphisms of homogeneous spaces under `W(ℛ)`.*
+**Corollary 3.6.13.** *The correspondences $\Delta \leftrightarrow R_{+} \leftrightarrow C$ are isomorphisms of
+homogeneous spaces under $W(\mathcal{R})$.*
 
 <!-- label: III.XXI.3.6.13 -->
 
 We shall see later that these homogeneous spaces are principal (5.5).
 
-**Remark 3.6.14.** *If `C` is a Weyl chamber, then `−C` is also one, called the* opposite *of `C`. There exists
-therefore a `w₀ ∈ W` (and in fact a unique one, cf. 5.5) such that `w₀(C) = −C`; one calls it the* symmetry *of the root
-datum with respect to the Weyl chamber `C` (or with respect to `R₊(C)` or `𝒮(R₊(C))`…).*
+**Remark 3.6.14.** *If $C$ is a Weyl chamber, then $-C$ is also one, called the* opposite *of $C$. There exists
+therefore a $w_{0} \in W$ (and in fact a unique one, cf. 5.5) such that $w_{0}(C) = -C$; one calls it the* symmetry *of
+the root datum with respect to the Weyl chamber $C$ (or with respect to $R_{+}(C)$ or $\mathcal{S}(R_{+}(C))$…).*
 
 <!-- label: III.XXI.3.6.14 -->
 
@@ -1498,62 +1573,63 @@ datum with respect to the Weyl chamber `C` (or with respect to `R₊(C)` or `�
 
 <!-- label: III.XXI.4 -->
 
-**4.0.**[^N.D.E-XXI-16] Let `ℛ` be a root datum of semisimple rank `2`. Let `{α, β}` be a system of simple roots. Assume
-`ℓ(α) ⩽ ℓ(β)`. One then has by 2.3.1 and 3.2.1 four possibilities:
+**4.0.**[^N.D.E-XXI-16] Let $\mathcal{R}$ be a root datum of semisimple rank `2`. Let ${\alpha, \beta}$ be a system of
+simple roots. Assume $\ell(\alpha) \leqslant \ell(\beta)$. One then has by 2.3.1 and 3.2.1 four possibilities:
 
 <!-- label: III.XXI.4.0 -->
 
 <!-- original page 84 -->
 
-| Type      | `ℓ(β)/ℓ(α)` | `ℓ(β*)/ℓ(α*)` | `(β*, α)` | `(α*, β)` |
-| --------- | ----------- | ------------- | --------- | --------- |
-| `A₁ × A₁` | −           | −             | `0`       | `0`       |
-| `A₂`      | `1`         | `1`           | `−1`      | `−1`      |
-| `B₂`      | `2`         | `1/2`         | `−1`      | `−2`      |
-| `G₂`      | `3`         | `1/3`         | `−1`      | `−3`      |
+| Type                 | $\ell(\beta)/\ell(\alpha)$ | $\ell(\beta*)/\ell(\alpha*)$ | $(\beta*, \alpha)$ | $(\alpha*, \beta)$ |
+| -------------------- | -------------------------- | ---------------------------- | ------------------ | ------------------ |
+| $A_{1} \times A_{1}$ | −                          | −                            | `0`                | `0`                |
+| $A_{2}$              | `1`                        | `1`                          | $-1$               | $-1$               |
+| $B_{2}$              | `2`                        | `1/2`                        | $-1$               | $-2$               |
+| $G_{2}$              | `3`                        | `1/3`                        | $-1$               | $-3$               |
 
 <!-- original page 118 -->
 
-It follows from 3.4.5 that the order of `s_α s_β` is respectively `2`, `3`, `4`, `6`.
+It follows from 3.4.5 that the order of $s_{\alpha} s_{\beta}$ is respectively `2`, `3`, `4`, `6`.
 
 Let us study each of these systems separately and give the list of indivisible roots.
 
-**Type `A₁ × A₁`.** The indivisible roots are `α`, `β`, `−α`, `−β`. The corresponding coroots are `α*`, `β*`, `−α*`,
-`−β*`.
+**Type $A_{1} \times A_{1}$.** The indivisible roots are $\alpha$, $\beta$, $-\alpha$, $-\beta$. The corresponding
+coroots are $\alpha*$, $\beta*$, $-\alpha*$, $-\beta*$.
 
-**Type `A₂`.** The indivisible positive roots are as follows:
+**Type $A_{2}$.** The indivisible positive roots are as follows:
 
-| root `γ`      | `α`  | `β`  | `α + β`   |
-| ------------- | ---- | ---- | --------- |
-| `ℓ(γ)/ℓ(α)`   | `1`  | `1`  | `1`       |
-| coroot `γ*`   | `α*` | `β*` | `α* + β*` |
-| `ℓ(γ*)/ℓ(β*)` | `1`  | `1`  | `1`       |
+| root $\gamma$                | $\alpha$  | $\beta$  | $\alpha + \beta$   |
+| ---------------------------- | --------- | -------- | ------------------ |
+| $\ell(\gamma)/\ell(\alpha)$  | `1`       | `1`      | `1`                |
+| coroot $\gamma*$             | $\alpha*$ | $\beta*$ | $\alpha* + \beta*$ |
+| $\ell(\gamma*)/\ell(\beta*)$ | `1`       | `1`      | `1`                |
 
-The half-sum of the indivisible positive roots is `ρ = α + β`.
+The half-sum of the indivisible positive roots is $\rho = \alpha + \beta$.
 
-**Type `B₂`.** The indivisible positive roots are as follows:
+**Type $B_{2}$.** The indivisible positive roots are as follows:
 
-| root `γ`      | `α`  | `β`  | `α + β`    | `2α + β`  |
-| ------------- | ---- | ---- | ---------- | --------- |
-| `ℓ(γ)/ℓ(α)`   | `1`  | `2`  | `1`        | `2`       |
-| coroot `γ*`   | `α*` | `β*` | `2α* + β*` | `α* + β*` |
-| `ℓ(γ*)/ℓ(β*)` | `2`  | `1`  | `2`        | `1`       |
+| root $\gamma$                | $\alpha$  | $\beta$  | $\alpha + \beta$    | $2\alpha + \beta$  |
+| ---------------------------- | --------- | -------- | ------------------- | ------------------ |
+| $\ell(\gamma)/\ell(\alpha)$  | `1`       | `2`      | `1`                 | `2`                |
+| coroot $\gamma*$             | $\alpha*$ | $\beta*$ | $2\alpha* + \beta*$ | $\alpha* + \beta*$ |
+| $\ell(\gamma*)/\ell(\beta*)$ | `2`       | `1`      | `2`                 | `1`                |
 
-The half-sum of the indivisible positive roots is `ρ = (4α + 3β)/2`.
+The half-sum of the indivisible positive roots is $\rho = (4\alpha + 3\beta)/2$.
 
-**Type `G₂`.** The indivisible positive roots are as follows:
+**Type $G_{2}$.** The indivisible positive roots are as follows:
 
-| root `γ`      | `α`  | `β`  | `α + β`    | `2α + β`    | `3α + β`  | `3α + 2β`  |
-| ------------- | ---- | ---- | ---------- | ----------- | --------- | ---------- |
-| `ℓ(γ)/ℓ(α)`   | `1`  | `3`  | `1`        | `1`         | `3`       | `3`        |
-| coroot `γ*`   | `α*` | `β*` | `α* + 3β*` | `2α* + 3β*` | `α* + β*` | `α* + 2β*` |
-| `ℓ(γ*)/ℓ(β*)` | `3`  | `1`  | `3`        | `3`         | `1`       | `1`        |
+| root $\gamma$                | $\alpha$  | $\beta$  | $\alpha + \beta$    | $2\alpha + \beta$    | $3\alpha + \beta$  | $3\alpha + 2\beta$  |
+| ---------------------------- | --------- | -------- | ------------------- | -------------------- | ------------------ | ------------------- |
+| $\ell(\gamma)/\ell(\alpha)$  | `1`       | `3`      | `1`                 | `1`                  | `3`                | `3`                 |
+| coroot $\gamma*$             | $\alpha*$ | $\beta*$ | $\alpha* + 3\beta*$ | $2\alpha* + 3\beta*$ | $\alpha* + \beta*$ | $\alpha* + 2\beta*$ |
+| $\ell(\gamma*)/\ell(\beta*)$ | `3`       | `1`      | `3`                 | `3`                  | `1`                | `1`                 |
 
 <!-- original page 119 -->
 
-The half-sum of the indivisible positive roots is `ρ = 5α + 3β`.
+The half-sum of the indivisible positive roots is $\rho = 5\alpha + 3\beta$.
 
-**Proposition 4.1.**[^XXI-4-1] *Let `n` be the order of `s_α s_β`. Set `u₀ = 0` and, for `p ∈ ℕ`,*
+**Proposition 4.1.**[^XXI-4-1] *Let $n$ be the order of $s_{\alpha} s_{\beta}$. Set $u_{0} = 0$ and, for
+$p \in \mathbb{N}$,*
 
 <!-- label: III.XXI.4.1 -->
 
@@ -1564,13 +1640,13 @@ u_{2p+2} = u_{2p+1} + (s_α s_β)^p s_α(β).
 
 *Then:*[^N.D.E-XXI-17]
 
-*(i) `u_{k+2n} = u_k`, for every `k ∈ ℕ`.*
+*(i) $u_{k+2n} = u_{k}$, for every $k \in \mathbb{N}$.*
 
-*(ii) `u₀ = 0`, `u₁ = α`, `u_{2n−1} = β`, `u_{2n} = 0`.*
+*(ii) $u_{0} = 0$, $u_{1} = \alpha$, $u_{2n-1} = \beta$, $u_{2n} = 0$.*
 
-*(iii) If `1 < k < 2n − 1`, one has `u_k = a_k α + b_k β`, with `a_k, b_k ∈ ℕ*`.*
+*(iii) If $1 < k < 2n - 1$, one has $u_{k} = a_{k} \alpha + b_{k} \beta$, with $a_{k}, b_{k} \in \mathbb{N}*$.*
 
-*Proof.* Assertion (i) follows from `(s_α s_β)ⁿ = 1` and `u_{2n} = 0`.
+*Proof.* Assertion (i) follows from $(s_{\alpha} s_{\beta})^{n} = 1$ and $u_{2n} = 0$.
 
 Let us prove (ii) and (iii). Direct computation gives, in the four cases, the following sequences of
 values:[^N.D.E-XXI-18]
@@ -1586,8 +1662,9 @@ values:[^N.D.E-XXI-18]
                                                                   4β + 4α, 2β + α, β, 0.
 ```
 
-**Lemma 4.2.** *Set `w_{2p} = (s_β s_α)^p`, `w_{2p+1} = s_α (s_β s_α)^p`, so that `w_0, …, w_{2n−1}` are the distinct
-elements of `W`. Let `u_0, …, u_{2n−1}` be the elements of `V` defined in 4.1. For every `x ∈ V*`, one has*
+**Lemma 4.2.** *Set $w_{2p} = (s_{\beta} s_{\alpha})^{p}$, $w_{2p+1} = s_{\alpha} (s_{\beta} s_{\alpha})^{p}$, so that
+$w_{0}, \cdots, w_{2n-1}$ are the distinct elements of $W$. Let $u_{0}, \cdots, u_{2n-1}$ be the elements of $V$ defined
+in 4.1. For every $x \in V*$, one has*
 
 <!-- label: III.XXI.4.2 -->
 
@@ -1597,10 +1674,10 @@ elements of `W`. Let `u_0, …, u_{2n−1}` be the elements of `V` defined in 4.
 x − w_k(x) = n_k α* + m_k β*,
 ```
 
-*with `n_k, m_k ∈ ℚ` and `n_k + m_k = (x, u_k)`.*[^N.D.E-XXI-19]
+*with $n_{k}, m_{k} \in \mathbb{Q}$ and $n_{k} + m_{k} = (x, u_{k})$.*[^N.D.E-XXI-19]
 
-*Proof.* The proof is by induction on `k`. If `k = 0`, the formula is trivially verified. Let us carry out, for example,
-the passage from `w_{2p}` to `w_{2p+1}`. One has `w_{2p+1} = s_α w_{2p}`, whence
+*Proof.* The proof is by induction on $k$. If $k = 0$, the formula is trivially verified. Let us carry out, for example,
+the passage from $w_{2p}$ to $w_{2p+1}$. One has $w_{2p+1} = s_{\alpha} w_{2p}$, whence
 
 ```text
 x − w_{2p+1}(x) = x − w_{2p}(x) + w_{2p}(x) − s_α w_{2p}(x) = n_{2p} α* + m_{2p} β* + (w_{2p}(x), α) α*.
@@ -1613,7 +1690,7 @@ n_{2p+1} + m_{2p+1} = n_{2p} + m_{2p} + ((s_β s_α)^p(x), α)
                     = (x, u_{2p}) + (x, (s_α s_β)^p(α)) = (x, u_{2p+1}).
 ```
 
-**Corollary 4.3.**[^N.D.E-XXI-20] *Let `x ∈ V*`. For every `w ∈ W`, set*
+**Corollary 4.3.**[^N.D.E-XXI-20] *Let $x \in V*$. For every $w \in W$, set*
 
 <!-- label: III.XXI.4.3 -->
 
@@ -1621,13 +1698,15 @@ n_{2p+1} + m_{2p+1} = n_{2p} + m_{2p} + ((s_β s_α)^p(x), α)
 x − w(x) = a_w α* + b_w β*.
 ```
 
-*If `(x, α) ⩾ 0` and `(x, β) ⩾ 0`, then `a_w + b_w ⩾ 0`. If moreover `(x, α) > 0` (resp. `(x, β) > 0`), then
-`a_w + b_w > 0` for `w ≠ 1, s_β` (resp. for `w ≠ 1, s_α`).*
+*If $(x, \alpha) \geqslant 0$ and $(x, \beta) \geqslant 0$, then $a_{w} + b_{w} \geqslant 0$. If moreover
+$(x, \alpha) > 0$ (resp. $(x, \beta) > 0$), then $a_{w} + b_{w} > 0$ for $w \neq 1, s_{\beta}$ (resp. for
+$w \neq 1, s_{\alpha}$).*
 
 *Proof.* This follows at once from 4.1 and 4.2.
 
-**Corollary 4.4.** *Let `ℛ` be any root datum and `Δ` a system of simple roots. Let `γ` be a positive root and `α`, `β`
-two simple roots; let `W_{α,β}` be the subgroup of `W` generated by `s_α` and `s_β`. If*
+**Corollary 4.4.** *Let $\mathcal{R}$ be any root datum and $\Delta$ a system of simple roots. Let $\gamma$ be a
+positive root and $\alpha$, $\beta$ two simple roots; let $W_{\alpha,\beta}$ be the subgroup of $W$ generated by
+$s_{\alpha}$ and $s_{\beta}$. If*
 
 <!-- label: III.XXI.4.4 -->
 
@@ -1637,71 +1716,76 @@ ord_Δ(s_α(γ)) < ord_Δ(γ),    ord_Δ(s_β(γ)) ⩽ ord_Δ(γ),
 
 <!-- original page 121 -->
 
-*then, for every `w ∈ W_{α,β}`, one has `ord_Δ(w(γ)) ⩽ ord_Δ(γ)`; moreover `ord_Δ(w(γ)) < ord_Δ(γ)` if `w ≠ 1`,
-`w ≠ s_β`.*
+*then, for every $w \in W_{\alpha,\beta}$, one has $ord_{\Delta}(w(\gamma)) \leqslant ord_{\Delta}(\gamma)$; moreover
+$ord_{\Delta}(w(\gamma)) < ord_{\Delta}(\gamma)$ if $w \neq 1$, $w \neq s_{\beta}$.*
 
-*Proof.* Indeed, consider the dual root datum `ℛ*`, then the datum `(M*, M, R'*, R')`, where `R'` is the set of roots
-which are rational linear combinations of `α` and `β`. Applying 4.3 to this datum, one finds the announced
-corollary.[^N.D.E-XXI-21]
+*Proof.* Indeed, consider the dual root datum $\mathcal{R}*$, then the datum $(M*, M, R'*, R')$, where $R'$ is the set
+of roots which are rational linear combinations of $\alpha$ and $\beta$. Applying 4.3 to this datum, one finds the
+announced corollary.[^N.D.E-XXI-21]
 
 ## 5. The Weyl group: generators and relations
 
 <!-- label: III.XXI.5 -->
 
-Let `ℛ` be a root datum. Since the Weyl group is the same for this datum and for the corresponding reduced datum, one
-may assume `ℛ` reduced to study the Weyl group.
+Let $\mathcal{R}$ be a root datum. Since the Weyl group is the same for this datum and for the corresponding reduced
+datum, one may assume $\mathcal{R}$ reduced to study the Weyl group.
 
-Let `Δ = {α₁, …, α_n}` be a system of simple roots (`n = rgss(ℛ)`). Let `n_{ij}` be the order of the element
-`s_{α_i} s_{α_j}` of `W`. In particular, one has `n_{ii} = 1`, and we saw in 3.4.2 and 3.4.3 that the subgroup `W_{ij}`
-of `W` generated by `s_{α_i}` and `s_{α_j}` was defined by the relations:
+Let $\Delta = {\alpha_{1}, \cdots, \alpha_{n}}$ be a system of simple roots ($n = rgss(\mathcal{R})$). Let $n_{ij}$ be
+the order of the element $s_{\alpha_{i}} s_{\alpha_{j}}$ of $W$. In particular, one has $n_{ii} = 1$, and we saw in
+3.4.2 and 3.4.3 that the subgroup $W_{ij}$ of $W$ generated by $s_{\alpha_{i}}$ and $s_{\alpha_{j}}$ was defined by the
+relations:
 
 ```text
 s_{α_i}² = s_{α_j}² = (s_{α_i} s_{α_j})^{n_{ij}} = 1.
 ```
 
-**Theorem 5.1.** *The group `W` is the group generated by the elements `s_{α_i}`, `i = 1, 2, …, n`, subject to the
-relations `(s_{α_i} s_{α_j})^{n_{ij}} = 1`.*
+**Theorem 5.1.** *The group $W$ is the group generated by the elements $s_{\alpha_{i}}$, $i = 1, 2, \cdots, n$, subject
+to the relations $(s_{\alpha_{i}} s_{\alpha_{j}})^{n_{ij}} = 1$.*
 
 <!-- label: III.XXI.5.1 -->
 
-*Proof.* We have already seen that the theorem is true when `n = 2`; we shall use this remark in the course of the
-proof. Introduce the group `W̃` generated by elements `T_i`, `i = 1, 2, …, n`, subject to the relations
-`(T_i T_j)^{n_{ij}} = 1`. One has in particular `n_{ii} = 1`, whence `T_i² = 1`. Let `p : W̃ → W` be the group morphism
-that sends `T_i` to `s_{α_i}`. One knows that `p` is surjective; we shall show it is injective.
+*Proof.* We have already seen that the theorem is true when $n = 2$; we shall use this remark in the course of the
+proof. Introduce the group $\tilde{W}$ generated by elements $T_{i}$, $i = 1, 2, \cdots, n$, subject to the relations
+$(T_{i} T_{j})^{n_{ij}} = 1$. One has in particular $n_{ii} = 1$, whence $T^{2}_{i} = 1$. Let $p : \tilde{W} \to W$ be
+the group morphism that sends $T_{i}$ to $s_{\alpha_{i}}$. One knows that $p$ is surjective; we shall show it is
+injective.
 
 <!-- original page 122 -->
 
-**Lemma 5.2.** *One can define in a unique manner for each `α ∈ P(Δ)` an element `T_α ∈ W̃` such that one has the
-following properties:*
+**Lemma 5.2.** *One can define in a unique manner for each $\alpha \in P(\Delta)$ an element $T_{\alpha} \in \tilde{W}$
+such that one has the following properties:*
 
 <!-- label: III.XXI.5.2 -->
 
-*(i) `p(T_α) = s_α`,*
+*(i) $p(T_{\alpha}) = s_{\alpha}$,*
 
-*(ii) `T_{α_i} = T_i`,*
+*(ii) $T_{\alpha_{i}} = T_{i}$,*
 
-*(iii) if `β` and `α` are two positive roots such that `s_{α_i}(α) = β`, then `T_i T_α T_i = T_β`.*
+*(iii) if $\beta$ and $\alpha$ are two positive roots such that $s_{\alpha_{i}}(\alpha) = \beta$, then
+$T_{i} T_{\alpha} T_{i} = T_{\beta}$.*
 
 <!-- original page 87 -->
 
 *Proof.* Remark first that it follows from 1.2.10 and 3.3.6 that (i) is a consequence of (ii) and (iii), and that (ii)
-and (iii) completely determine the `T_α`. We shall make the construction by induction on `ord_Δ(α)`. If `ord_Δ(α) = 1`,
-then `α ∈ Δ` and one sets `T_α = T_i` if `α = α_i`. Consider the hypothesis:
+and (iii) completely determine the $T_{\alpha}$. We shall make the construction by induction on $ord_{\Delta}(\alpha)$.
+If $ord_{\Delta}(\alpha) = 1$, then $\alpha \in \Delta$ and one sets $T_{\alpha} = T_{i}$ if $\alpha = \alpha_{i}$.
+Consider the hypothesis:
 
-(H_p) *there exist `T_α`, for `α ∈ P(Δ)`, `ord_Δ(α) ⩽ p`, satisfying (ii) and condition (iii) whenever `ord_Δ(α) ⩽ p`,
-`ord_Δ(β) ⩽ p`.*
+(H_p) *there exist $T_{\alpha}$, for $\alpha \in P(\Delta)$, $ord_{\Delta}(\alpha) \leqslant p$, satisfying (ii) and
+condition (iii) whenever $ord_{\Delta}(\alpha) \leqslant p$, $ord_{\Delta}(\beta) \leqslant p$.*
 
-This is verified for `p = 1`: indeed, if `α` and `s_{α_i}(α) = β` are simple, `α_i` and `α` are orthogonal, so if one
-denotes `α_j = α = β`, one has `n_{ij} = 2`, whence
+This is verified for $p = 1$: indeed, if $\alpha$ and $s_{\alpha_{i}}(\alpha) = \beta$ are simple, $\alpha_{i}$ and
+$\alpha$ are orthogonal, so if one denotes $\alpha_{j} = \alpha = \beta$, one has $n_{ij} = 2$, whence
 
 ```text
 T_i T_j T_i = T_j.
 ```
 
-Suppose `p > 1` and `(H_{p−1})` verified.
+Suppose $p > 1$ and $(H_{p-1})$ verified.
 
-*A) Construction of the `T_α` for `ord_Δ(α) ⩽ p`.* It evidently suffices to do this for `ord_Δ(α) = p`. There then
-exists `α_i ∈ Δ` such that `s_{α_i}(α) ∈ P(Δ)` and `ord_Δ(s_{α_i}(α)) < p` (3.3.3). One then sets
+*A) Construction of the $T_{\alpha}$ for $ord_{\Delta}(\alpha) \leqslant p$.* It evidently suffices to do this for
+$ord_{\Delta}(\alpha) = p$. There then exists $\alpha_{i} \in \Delta$ such that $s_{\alpha_{i}}(\alpha) \in P(\Delta)$
+and $ord_{\Delta}(s_{\alpha_{i}}(\alpha)) < p$ (3.3.3). One then sets
 
 <!-- original page 123 -->
 
@@ -1709,8 +1793,8 @@ exists `α_i ∈ Δ` such that `s_{α_i}(α) ∈ P(Δ)` and `ord_Δ(s_{α_i}(α)
 (⋆)    T_α = T_i T_{s_{α_i}(α)} T_i.
 ```
 
-Let us verify that `T_α` depends only on `α`. Let `α_j ∈ Δ` be such that `s_{α_j}(α) ∈ P(Δ)` and
-`ord_Δ(s_{α_j}(α)) < p`. Let us prove that
+Let us verify that $T_{\alpha}$ depends only on $\alpha$. Let $\alpha_{j} \in \Delta$ be such that
+$s_{\alpha_{j}}(\alpha) \in P(\Delta)$ and $ord_{\Delta}(s_{\alpha_{j}}(\alpha)) < p$. Let us prove that
 
 ```text
 (+)    T_i T_{s_{α_i}(α)} T_i = T_j T_{s_{α_j}(α)} T_j.
@@ -1718,25 +1802,28 @@ Let us verify that `T_α` depends only on `α`. Let `α_j ∈ Δ` be such that `
 
 Let us distinguish two cases.
 
-*(1)* Suppose `α` is a linear combination of `α_i` and `α_j`. Then the same is true of `s_{α_i}(α)` and `s_{α_j}(α)`,
-and by `(H_{p−1})`, `T_{s_{α_i}(α)}` and `T_{s_{α_j}(α)}` are written as words in `T_i` and `T_j`. Since the projection
-of (+) in `W` is verified, and since the theorem is true for `n = 2`, so `p` is injective on the subgroup of `W̃`
-generated by `T_i` and `T_j`, (+) is indeed verified.
+*(1)* Suppose $\alpha$ is a linear combination of $\alpha_{i}$ and $\alpha_{j}$. Then the same is true of
+$s_{\alpha_{i}}(\alpha)$ and $s_{\alpha_{j}}(\alpha)$, and by $(H_{p-1})$, $T_{s_{\alpha_{i}}(\alpha)}$ and
+$T_{s_{\alpha_{j}}(\alpha)}$ are written as words in $T_{i}$ and $T_{j}$. Since the projection of (+) in $W$ is
+verified, and since the theorem is true for $n = 2$, so $p$ is injective on the subgroup of $\tilde{W}$ generated by
+$T_{i}$ and $T_{j}$, (+) is indeed verified.
 
-*(2)* Suppose `α` is not a linear combination of `α_i` and `α_j`. Then if `w ∈ W_{α_i, α_j}`, the `w(α)` will all be
-positive (cf. 3.4.9). The relation to be verified is also written
+*(2)* Suppose $\alpha$ is not a linear combination of $\alpha_{i}$ and $\alpha_{j}$. Then if
+$w \in W_{\alpha_{i}, \alpha_{j}}$, the $w(\alpha)$ will all be positive (cf. 3.4.9). The relation to be verified is
+also written
 
 ```text
 (++)    (T_i T_j)^{n_{ij} − 1} T_{s_{α_i}(α)} (T_j T_i)^{n_{ij} − 1} = T_{s_{α_j}(α)}.
 ```
 
-Now it follows from 4.4 that the `w(α)` are all of order `< p` for `w ∈ W_{α_i, α_j}`, `w ≠ 1`. One can therefore apply
-hypothesis `(H_{p−1})` `2(n_{ij} − 1)` times, and we are done.
+Now it follows from 4.4 that the $w(\alpha)$ are all of order $< p$ for $w \in W_{\alpha_{i}, \alpha_{j}}$, $w \neq 1$.
+One can therefore apply hypothesis $(H_{p-1})$ $2(n_{ij} - 1)$ times, and we are done.
 
-*B) Verification of `(H_p)`.*[^N.D.E-XXI-22] One must verify that if `α_j ∈ Δ` and if `β = s_{α_j}(α)` satisfies
-`ord_Δ(β) ⩽ p`, then `T_j T_α T_j = T_β`. If `ord_Δ(β) < p`, this follows from what precedes (since `T_j² = 1`), so one
-may suppose `ord_Δ(β) = p = ord_Δ(α)`. In this case, `α` and `α_j` are orthogonal, so `β = α`, and it is a matter of
-seeing that one has
+*B) Verification of $(H_{p})$.*[^N.D.E-XXI-22] One must verify that if $\alpha_{j} \in \Delta$ and if
+$\beta = s_{\alpha_{j}}(\alpha)$ satisfies $ord_{\Delta}(\beta) \leqslant p$, then $T_{j} T_{\alpha} T_{j} = T_{\beta}$.
+If $ord_{\Delta}(\beta) < p$, this follows from what precedes (since $T^{2}_{j} = 1$), so one may suppose
+$ord_{\Delta}(\beta) = p = ord_{\Delta}(\alpha)$. In this case, $\alpha$ and $\alpha_{j}$ are orthogonal, so
+$\beta = \alpha$, and it is a matter of seeing that one has
 
 <!-- original page 124 -->
 
@@ -1744,21 +1831,22 @@ seeing that one has
 (†)    T_j T_α T_j = T_α.
 ```
 
-By `(⋆)` above, one has `T_α = T_i T_{s_{α_i}(α)} T_i`, so it remains only to verify the following equality:
+By $(\star)$ above, one has $T_{\alpha} = T_{i} T_{s_{\alpha_{i}}(\alpha)} T_{i}$, so it remains only to verify the
+following equality:
 
 ```text
 (+++)    T_j T_i T_{s_{α_i}(α)} T_i T_j = T_α = T_i T_{s_{α_i}(α)} T_i.
 ```
 
-Write `m = n_{ij}` and `s_i = s_{α_i}`, `s_j = s_{α_j}`. One has `T_j T_i = (T_i T_j)^{m−1}` and, by 4.4, one has
-`ord_Δ(w(α)) < p` for every `w ∈ W_{ij}` distinct from `1 = (s_i s_j)^m` and from `s_j = s_i (s_i s_j)^{m−1}`. One
-deduces, by the induction hypothesis, that
+Write $m = n_{ij}$ and $s_{i} = s_{\alpha_{i}}$, $s_{j} = s_{\alpha_{j}}$. One has $T_{j} T_{i} = (T_{i} T_{j})^{m-1}$
+and, by 4.4, one has $ord_{\Delta}(w(\alpha)) < p$ for every $w \in W_{ij}$ distinct from $1 = (s_{i} s_{j})^{m}$ and
+from $s_{j} = s_{i} (s_{i} s_{j})^{m-1}$. One deduces, by the induction hypothesis, that
 
 ```text
 T_j (T_i T_j)^{m−2} T_{s_i(α)} (T_j T_i)^{m−2} T_j = T_{s_j (s_i s_j)^{m−2} s_i(α)} = T_{s_i s_j(α)} = T_{s_i(α)}
 ```
 
-(the last equality since `s_j(α) = α`), whence finally
+(the last equality since $s_{j}(\alpha) = \alpha$), whence finally
 
 ```text
 (T_i T_j)^{m−1} T_{s_i(α)} (T_j T_i)^{m−1} = T_i T_{s_i(α)} T_i
@@ -1766,32 +1854,32 @@ T_j (T_i T_j)^{m−2} T_{s_i(α)} (T_j T_i)^{m−2} T_j = T_{s_j (s_i s_j)^{m−
 
 which proves (+++).
 
-**Lemma 5.3.** *Let `h ∈ W̃`. Write it*
+**Lemma 5.3.** *Let $h \in \tilde{W}$. Write it*
 
 <!-- label: III.XXI.5.3 -->
 
-```text
-h = T_{α_1} ⋯ T_{α_m}
-```
+$$
+h = T_{\alpha_{1}} \cdots T_{\alpha_{m}}
+$$
 
-*with the `α_i ∈ Δ`, not necessarily distinct, in such a way that `m` is minimal. Then*
+*with the $\alpha_{i} \in \Delta$, not necessarily distinct, in such a way that $m$ is minimal. Then*
 
-```text
-p(h)(α_m) ∈ −P(Δ).
-```
+$$
+p(h)(\alpha_{m}) \in -P(\Delta).
+$$
 
-*Proof.* Indeed, since `p(T_{α_m})(α_m) = s_{α_m}(α_m) = −α_m`, if `p(h)(α_m)` were positive, there would exist an index
-`k`, `1 ⩽ k ⩽ m − 1`, such that
+*Proof.* Indeed, since $p(T_{\alpha_{m}})(\alpha_{m}) = s_{\alpha_{m}}(\alpha_{m}) = -\alpha_{m}$, if $p(h)(\alpha_{m})$
+were positive, there would exist an index $k$, $1 \leqslant k \leqslant m - 1$, such that
 
 ```text
 u = s_{α_{k+1}} ⋯ s_{α_m}(α_m) = −s_{α_{k+1}} ⋯ s_{α_{m−1}}(α_m) ∈ −P(Δ),
 ```
 
-and `s_{α_k}(u) ∈ P(Δ)`. But then one has necessarily `u = −α_k` (3.3.1), whence
+and $s_{\alpha_{k}}(u) \in P(\Delta)$. But then one has necessarily $u = -\alpha_{k}$ (3.3.1), whence
 
-```text
-s_{α_{k+1}} ⋯ s_{α_{m−1}}(α_m) = α_k,
-```
+$$
+s_{\alpha_{k+1}} \cdots s_{\alpha_{m-1}}(\alpha_{m}) = \alpha_{k},
+$$
 
 which entails by (iii)
 
@@ -1799,14 +1887,15 @@ which entails by (iii)
 T_{α_k} T_{α_{k+1}} ⋯ T_{α_{m−1}} T_{α_m} = T_{α_{k+1}} ⋯ T_{α_{m−1}},
 ```
 
-and this contradicts the minimal character of `m`.
+and this contradicts the minimal character of $m$.
 
 <!-- original page 125 -->
 
-Let now `h ∈ W̃` be such that `p(h)(P(Δ)) ⊂ P(Δ)`. By Lemma 5.3, one has `p(h) = 1`, which proves Theorem 5.1 and
-moreover the
+Let now $h \in \tilde{W}$ be such that $p(h)(P(\Delta)) \subset P(\Delta)$. By Lemma 5.3, one has $p(h) = 1$, which
+proves Theorem 5.1 and moreover the
 
-**Corollary 5.4.** *If `R₊` is a system of positive roots and if `w ∈ W` is such that `w(R₊) = R₊`, then `w = 1`.*
+**Corollary 5.4.** *If $R_{+}$ is a system of positive roots and if $w \in W$ is such that $w(R_{+}) = R_{+}$, then
+$w = 1$.*
 
 <!-- label: III.XXI.5.4 -->
 
@@ -1815,30 +1904,32 @@ systems of simple roots, resp. of Weyl chambers).*
 
 <!-- label: III.XXI.5.5 -->
 
-Let us now choose a system of simple roots `Δ`. Put `R⁺ = P(Δ)`.[^N.D.E-XXI-23]
+Let us now choose a system of simple roots $\Delta$. Put $R^{+} = P(\Delta)$.[^N.D.E-XXI-23]
 
-For every pair of simple roots `(α, β) ∈ Δ × Δ`, denote by `R_{α,β}` the set of roots that are linear combinations of
-`α` and `β`. Write `R⁺_{α,β} = R⁺ ∩ R_{α,β}` and let `W_{α,β}` be the Weyl group of `R_{α,β}`, that is to say, the
-subgroup of `W` generated by `s_α` and `s_β`.
+For every pair of simple roots $(\alpha, \beta) \in \Delta \times \Delta$, denote by $R_{\alpha,\beta}$ the set of roots
+that are linear combinations of $\alpha$ and $\beta$. Write $R^{+}_{\alpha,\beta} = R^{+} \cap R_{\alpha,\beta}$ and let
+$W_{\alpha,\beta}$ be the Weyl group of $R_{\alpha,\beta}$, that is to say, the subgroup of $W$ generated by
+$s_{\alpha}$ and $s_{\beta}$.
 
-**Theorem 5.6 (Tits).** *Let `α` and `β` be two simple roots and let `w ∈ W` be such that `w(α) = β`. There exists a
-sequence of simple roots `α₀, …, α_m` and a sequence `w₀, …, w_{m−1}` of elements of `W` satisfying the following
-conditions:*
+**Theorem 5.6 (Tits).** *Let $\alpha$ and $\beta$ be two simple roots and let $w \in W$ be such that
+$w(\alpha) = \beta$. There exists a sequence of simple roots $\alpha_{0}, \cdots, \alpha_{m}$ and a sequence
+$w_{0}, \cdots, w_{m-1}$ of elements of $W$ satisfying the following conditions:*
 
 <!-- label: III.XXI.5.6 -->
 
 <!-- original page 89 -->
 
-*(i) `α₀ = α`, `α_m = β`.*
+*(i) $\alpha_{0} = \alpha$, $\alpha_{m} = \beta$.*
 
-*(ii) `w = w_{m−1} w_{m−2} ⋯ w_0`.*
+*(ii) $w = w_{m-1} w_{m-2} \cdots w_{0}$.*
 
-*(iii) `w_i(α_i) = α_{i+1}`, for `0 ⩽ i ⩽ m − 1`.*
+*(iii) $w_{i}(\alpha_{i}) = \alpha_{i+1}$, for $0 \leqslant i \leqslant m - 1$.*
 
-*(iv) For every `i`, `0 ⩽ i ⩽ m − 1`, such that `α_i ≠ α_{i+1}`, one has `w_i ∈ W_{α_i, α_{i+1}}`.*
+*(iv) For every $i$, $0 \leqslant i \leqslant m - 1$, such that $\alpha_{i} \neq \alpha_{i+1}$, one has
+$w_{i} \in W_{\alpha_{i}, \alpha_{i+1}}$.*
 
-*(v) For every `i`, `0 ⩽ i ⩽ m − 1`, such that `α_i = α_{i+1}`, there exists a simple root `β_i` such that
-`w_i ∈ W_{α_i, β_i}`.*
+*(v) For every $i$, $0 \leqslant i \leqslant m - 1$, such that $\alpha_{i} = \alpha_{i+1}$, there exists a simple root
+$\beta_{i}$ such that $w_{i} \in W_{\alpha_{i}, \beta_{i}}$.*
 
 *Proof.* Set[^N.D.E-XXI-24]
 
@@ -1848,21 +1939,22 @@ conditions:*
 M(w) = Card(R⁺ ∩ w⁻¹(−R⁺)) = Card({α ∈ R⁺ | w(α) ∈ −R⁺}).
 ```
 
-If `M(w) = 0`, then `w(R⁺) = R⁺`, so `w = 1` by 5.4 and the theorem is trivial (`m = 0`; assertions (iii) to (v) are
-empty). We argue by induction on `M(w)`. If `M(w) > 0`, there exists `β_0 ∈ Δ` such that `w(β_0) ∈ −R⁺`. Set `α_0 = α`.
-Consider the set
+If $M(w) = 0$, then $w(R^{+}) = R^{+}$, so $w = 1$ by 5.4 and the theorem is trivial ($m = 0$; assertions (iii) to (v)
+are empty). We argue by induction on $M(w)$. If $M(w) > 0$, there exists $\beta_{0} \in \Delta$ such that
+$w(\beta_{0}) \in -R^{+}$. Set $\alpha_{0} = \alpha$. Consider the set
 
 ```text
 A = w⁻¹(R⁺) ∩ R_{α_0, β_0}.
 ```
 
-This is a system of positive roots of `R_{α_0, β_0}`. There thus exists `w_0 ∈ W_{α_0, β_0}` such that
+This is a system of positive roots of $R_{\alpha_{0}, \beta_{0}}$. There thus exists
+$w_{0} \in W_{\alpha_{0}, \beta_{0}}$ such that
 
-```text
-w_0⁻¹(R⁺_{α_0, β_0}) = A.
-```
+$$
+w^{-1}_{0}(R^{+}_{\alpha_{0}, \beta_{0}}) = A.
+$$
 
-Put `w' = w w_0⁻¹`. By 3.4.9, one has at once
+Put $w' = w w^{-1}_{0}$. By 3.4.9, one has at once
 
 ```text
 R⁺ − R⁺_{α_0, β_0} = w_0(R⁺ − R⁺_{α_0, β_0}),
@@ -1880,25 +1972,28 @@ On the other hand,
 (2)    β_0 ∈ R⁺_{α_0, β_0} ∩ w⁻¹(−R⁺),
 ```
 
-and, since `w_0(R_{α_0, β_0}) = R_{α_0, β_0}`, one has `w_0(−A) = R_{α_0, β_0} ∩ w'⁻¹(−R⁺)`, whence
+and, since $w_{0}(R_{\alpha_{0}, \beta_{0}}) = R_{\alpha_{0}, \beta_{0}}$, one has
+$w_{0}(-A) = R_{\alpha_{0}, \beta_{0}} \cap w'^{-1}(-R^{+})$, whence
 
 ```text
 (2′)    R⁺_{α_0, β_0} ∩ w'⁻¹(−R⁺) = R⁺_{α_0, β_0} ∩ w_0(−A) = R⁺_{α_0, β_0} ∩ −R⁺_{α_0, β_0} = ∅.
 ```
 
-It follows from (1), (2), (2′) that `M(w') < M(w)`.
+It follows from (1), (2), (2′) that $M(w') < M(w)$.
 
-Set `α_1 = w_0(α_0)`; let us show that `α_1 ∈ Δ`, that is to say `α_0 ∈ w_0⁻¹(Δ)`. One knows that `w(α_0) ∈ Δ`, so
-`α_0 ∈ w⁻¹(Δ)`, hence also `α_0 ∈ w⁻¹(Δ) ∩ R_{α_0, β_0}`; so `α_0` is a simple root of
-`A = w⁻¹(R⁺) ∩ R_{α_0, β_0} = w_0⁻¹(R⁺_{α_0, β_0})`, hence belongs to
+Set $\alpha_{1} = w_{0}(\alpha_{0})$; let us show that $\alpha_{1} \in \Delta$, that is to say
+$\alpha_{0} \in w^{-1}_{0}(\Delta)$. One knows that $w(\alpha_{0}) \in \Delta$, so $\alpha_{0} \in w^{-1}(\Delta)$,
+hence also $\alpha_{0} \in w^{-1}(\Delta) \cap R_{\alpha_{0}, \beta_{0}}$; so $\alpha_{0}$ is a simple root of
+$A = w^{-1}(R^{+}) \cap R_{\alpha_{0}, \beta_{0}} = w^{-1}_{0}(R^{+}_{\alpha_{0}, \beta_{0}})$, hence belongs to
 
 ```text
 w_0⁻¹(Δ ∩ R⁺_{α_0, β_0}) = w_0⁻¹({α_0, β_0})
 ```
 
-(see 3.4.8). So `α_1 = w_0(α_0)` equals `α_0` or `β_0`. If `α_1 ≠ α_0`, one has `α_1 = β_0` and `w_0 ∈ W_{α_0, α_1}`.
+(see 3.4.8). So $\alpha_{1} = w_{0}(\alpha_{0})$ equals $\alpha_{0}$ or $\beta_{0}$. If $\alpha_{1} \neq \alpha_{0}$,
+one has $\alpha_{1} = \beta_{0}$ and $w_{0} \in W_{\alpha_{0}, \alpha_{1}}$.
 
-Finally, one has `β = w'(α_1)`, with `M(w') < M(w)`, and one concludes by induction.
+Finally, one has $\beta = w'(\alpha_{1})$, with $M(w') < M(w)$, and one concludes by induction.
 
 <!-- original page 90 -->
 
@@ -1912,27 +2007,29 @@ Finally, one has `β = w'(α_1)`, with `M(w') < M(w)`, and one concludes by indu
 
 <!-- label: III.XXI.6.1 -->
 
-Let `ℛ = (M, M*, R, R*)` and `ℛ' = (M', M'*, R', R'*)` be two root data. Let `f : M' → M` be a linear map and
-`ᵗf : M* → M'*` the transposed map.
+Let $\mathcal{R} = (M, M*, R, R*)$ and $\mathcal{R}' = (M', M'*, R', R'*)$ be two root data. Let $f : M' \to M$ be a
+linear map and ${}^{t}f : M* \to M'*$ the transposed map.
 
-**Definition 6.1.1.** *One says that `f` is a* morphism *from `ℛ'` to `ℛ` and writes `f : ℛ' → ℛ`, if `f` induces a
-bijection of `R'` onto `R` and `ᵗf` a bijection of `R*` onto `R'*`.*
+**Definition 6.1.1.** *One says that $f$ is a* morphism *from $\mathcal{R}'$ to $\mathcal{R}$ and writes
+$f : \mathcal{R}' \to \mathcal{R}$, if $f$ induces a bijection of $R'$ onto $R$ and `ᵗf` a bijection of $R*$ onto
+$R'*$.*
 
 <!-- label: III.XXI.6.1.1 -->
 
 Then `ᵗf` is a morphism of the dual root data:
 
-```text
-ᵗf : ℛ* ⟶ ℛ'*.
-```
+$$
+{}^{t}f : \mathcal{R}* \longrightarrow \mathcal{R}'*.
+$$
 
-One sees easily that if `f` is a morphism from `ℛ'` to `ℛ`, and if one writes `α = f(α')` for `α' ∈ R'`, one has
-`α'* = ᵗf(α*)`. Indeed, one sees immediately that if one writes `p` and `p'` for the maps of 1.2.1 respective to `ℛ` and
-`ℛ'`, one has `p' = ᵗf ∘ p ∘ f`, and the assertion sought follows at once. We leave to the reader the task of proving
-the statements that follow, which are almost all trivial.
+One sees easily that if $f$ is a morphism from $\mathcal{R}'$ to $\mathcal{R}$, and if one writes $\alpha = f(\alpha')$
+for $\alpha' \in R'$, one has $\alpha'* = {}^{t}f(\alpha*)$. Indeed, one sees immediately that if one writes $p$ and
+$p'$ for the maps of 1.2.1 respective to $\mathcal{R}$ and $\mathcal{R}'$, one has $p' = {}^{t}f \circ p \circ f$, and
+the assertion sought follows at once. We leave to the reader the task of proving the statements that follow, which are
+almost all trivial.
 
-**Proposition 6.1.2.** *Let `f : ℛ' → ℛ` be a morphism of root data. If `α' ∈ R'` and `α = f(α')`, then `α'* = ᵗf(α*)`.
-Moreover, `f` induces isomorphisms:*
+**Proposition 6.1.2.** *Let $f : \mathcal{R}' \to \mathcal{R}$ be a morphism of root data. If $\alpha' \in R'$ and
+$\alpha = f(\alpha')$, then $\alpha'* = {}^{t}f(\alpha*)$. Moreover, $f$ induces isomorphisms:*
 
 <!-- label: III.XXI.6.1.2 -->
 
@@ -1948,8 +2045,9 @@ R* ⥲ R'*,    Γ₀(R*) ⥲ Γ₀(R'*),    V(R*) ⥲ V(R'*),
 
 <!-- original page 128 -->
 
-*the last being the transpose of the corresponding morphism induced by `f`. The map `s_{α'} ↦ s_{f(α')}` extends to an
-isomorphism `W(ℛ') ⥲ W(ℛ)` compatible with the operations of these two groups on the sets of 1.1.13.*
+*the last being the transpose of the corresponding morphism induced by $f$. The map $s_{\alpha'} \mapsto s_{f(\alpha')}$
+extends to an isomorphism $W(\mathcal{R}') \xrightarrow{\sim} W(\mathcal{R})$ compatible with the operations of these
+two groups on the sets of 1.1.13.*
 
 **Proposition 6.1.3.** *The maps*
 
@@ -1959,15 +2057,16 @@ isomorphism `W(ℛ') ⥲ W(ℛ)` compatible with the operations of these two gro
 Δ' ↦ f(Δ'),    R'₊ ↦ f(R'₊),    C' ↦ (ᵗf ⊗ ℝ)⁻¹(C')
 ```
 
-*define bijective correspondences between systems of simple roots, systems of positive roots, and Weyl chambers for `ℛ'`
-and `ℛ`. These correspondences are compatible with the action of the Weyl groups and with the correspondences*
+*define bijective correspondences between systems of simple roots, systems of positive roots, and Weyl chambers for
+$\mathcal{R}'$ and $\mathcal{R}$. These correspondences are compatible with the action of the Weyl groups and with the
+correspondences*
 
-```text
-𝒮(R₊) ↔ R₊ ↔ 𝒞(R₊).
-```
+$$
+\mathcal{S}(R_{+}) \leftrightarrow R_{+} \leftrightarrow \mathcal{C}(R_{+}).
+$$
 
-**Lemma 6.1.4.** *Morphisms compose. For the morphism `f : ℛ' → ℛ` to be an isomorphism, it is necessary and sufficient
-that `f : M' → M` be bijective.*
+**Lemma 6.1.4.** *Morphisms compose. For the morphism $f : \mathcal{R}' \to \mathcal{R}$ to be an isomorphism, it is
+necessary and sufficient that $f : M' \to M$ be bijective.*
 
 <!-- label: III.XXI.6.1.4 -->
 
@@ -1975,14 +2074,14 @@ that `f : M' → M` be bijective.*
 
 <!-- label: III.XXI.6.2 -->
 
-**Definition 6.2.1.** *A morphism `f : ℛ' → ℛ` of root data is called an* isogeny *if `f : M' → M` is injective with
-finite cokernel.*
+**Definition 6.2.1.** *A morphism $f : \mathcal{R}' \to \mathcal{R}$ of root data is called an* isogeny *if
+$f : M' \to M$ is injective with finite cokernel.*
 
 <!-- label: III.XXI.6.2.1 -->
 
-*If `f` is an isogeny, then `ᵗf` is an isogeny.*
+*If $f$ is an isogeny, then `ᵗf` is an isogeny.*
 
-**Definition 6.2.2.** *Let `f : ℛ' → ℛ` be an isogeny. Set `K(f) = Coker(M' →^{f} M)`.*
+**Definition 6.2.2.** *Let $f : \mathcal{R}' \to \mathcal{R}$ be an isogeny. Set $K(f) = Coker(M' \to^{f} M)$.*
 
 <!-- label: III.XXI.6.2.2 -->
 
@@ -1990,16 +2089,16 @@ finite cokernel.*
 
 <!-- label: III.XXI.6.2.3 -->
 
-```text
-K(f) × K(ᵗf) → ℚ/ℤ,
-```
+$$
+K(f) \times K({}^{t}f) \to \mathbb{Q}/\mathbb{Z},
+$$
 
 *which puts these two finite groups in duality.*
 
 *Proof.* This is classical.
 
-**Lemma 6.2.4.** *If `f : ℛ' → ℛ` is a morphism, then `rgss(ℛ') = rgss(ℛ)`. If moreover `f` is an isogeny, one has also
-`rgred(ℛ') = rgred(ℛ)`.*
+**Lemma 6.2.4.** *If $f : \mathcal{R}' \to \mathcal{R}$ is a morphism, then $rgss(\mathcal{R}') = rgss(\mathcal{R})$. If
+moreover $f$ is an isogeny, one has also $rgred(\mathcal{R}') = rgred(\mathcal{R})$.*
 
 <!-- label: III.XXI.6.2.4 -->
 
@@ -2011,9 +2110,10 @@ K(f) × K(ᵗf) → ℚ/ℤ,
 
 <!-- label: III.XXI.6.2.5 -->
 
-*Proof.* This follows at once from the fact that `f` must induce an isomorphism of `V' = V(R')` onto `V = V(R)`.
+*Proof.* This follows at once from the fact that $f$ must induce an isomorphism of $V' = V(R')$ onto $V = V(R)$.
 
-If `ℛ'` and `ℛ` are semisimple, every isogeny `f : ℛ' → ℛ` defines a commutative diagram:
+If $\mathcal{R}'$ and $\mathcal{R}$ are semisimple, every isogeny $f : \mathcal{R}' \to \mathcal{R}$ defines a
+commutative diagram:
 
 ```text
 Γ₀(R') ⥲ Γ₀(R)
@@ -2023,30 +2123,31 @@ If `ℛ'` and `ℛ` are semisimple, every isogeny `f : ℛ' → ℛ` defines a c
        f
 ```
 
-If `M = Γ₀(R)`, then `f` is necessarily an isomorphism.
+If $M = \Gamma_{0}(R)$, then $f$ is necessarily an isomorphism.
 
-**Definition 6.2.6.** *A root datum is called* adjoint *(resp.* simply connected\*) if `M = Γ₀(R)`, resp.
-`M* = Γ₀(R*)`.\*
+**Definition 6.2.6.** *A root datum is called* adjoint *(resp.* simply connected\*) if $M = \Gamma_{0}(R)$, resp.
+$M* = \Gamma_{0}(R*)$.\*
 
 <!-- label: III.XXI.6.2.6 -->
 
-An adjoint or simply connected root datum is therefore semisimple. On the other hand, `ℛ` is adjoint (resp. simply
-connected) if and only if `ℛ*` is simply connected (resp. adjoint). By virtue of the preceding result, one has:
+An adjoint or simply connected root datum is therefore semisimple. On the other hand, $\mathcal{R}$ is adjoint (resp.
+simply connected) if and only if $\mathcal{R}*$ is simply connected (resp. adjoint). By virtue of the preceding result,
+one has:
 
-**Proposition 6.2.7.** *Let `ℛ` be a semisimple root datum. The following conditions are equivalent:*
+**Proposition 6.2.7.** *Let $\mathcal{R}$ be a semisimple root datum. The following conditions are equivalent:*
 
 <!-- label: III.XXI.6.2.7 -->
 
-*(i) `ℛ` is adjoint (resp. simply connected).*
+*(i) $\mathcal{R}$ is adjoint (resp. simply connected).*
 
-*(ii) Every isogeny `ℛ' → ℛ` (resp. `ℛ → ℛ'`) is an isomorphism.*
+*(ii) Every isogeny $\mathcal{R}' \to \mathcal{R}$ (resp. $\mathcal{R} \to \mathcal{R}'$) is an isomorphism.*
 
-**Proposition 6.2.8.** *Let `ℛ` be an adjoint (resp. simply connected) root datum. Every indivisible root (resp. coroot)
-is an indivisible element of `M` (resp. `M*`).*
+**Proposition 6.2.8.** *Let $\mathcal{R}$ be an adjoint (resp. simply connected) root datum. Every indivisible root
+(resp. coroot) is an indivisible element of $M$ (resp. $M*$).*
 
 <!-- label: III.XXI.6.2.8 -->
 
-*Proof.* Indeed, every indivisible root is part of a basis of `Γ₀(R)`, by 3.3.5.
+*Proof.* Indeed, every indivisible root is part of a basis of $\Gamma_{0}(R)$, by 3.3.5.
 
 <!-- original page 130 -->
 
@@ -2054,7 +2155,7 @@ is an indivisible element of `M` (resp. `M*`).*
 
 <!-- label: III.XXI.6.3 -->
 
-Let `ℛ` be a root datum. Set
+Let $\mathcal{R}$ be a root datum. Set
 
 ```text
 N = {x ∈ M | (α*, x) = 0 for all α* ∈ R*};
@@ -2069,31 +2170,33 @@ N* = M*/(V(R*) ∩ M*).
 N ⟶ M,    M* ⟶ N*.
 ```
 
-*They are transposes of each other and `N*` is identified with the dual of `N`.*
+*They are transposes of each other and $N*$ is identified with the dual of $N$.*
 
 *Proof.* This is immediate, taking 1.2.5 into account.
 
-**Definition 6.3.2.** *One calls* coradical *of `ℛ` and denotes by `corad(ℛ)` the trivial root datum*
+**Definition 6.3.2.** *One calls* coradical *of $\mathcal{R}$ and denotes by $corad(\mathcal{R})$ the trivial root
+datum*
 
 <!-- label: III.XXI.6.3.2 -->
 
-```text
-corad(ℛ) = (N, N*, ∅, ∅).
-```
+$$
+corad(\mathcal{R}) = (N, N*, \emptyset, \emptyset).
+$$
 
-*If one sets `ℛ_0 = (M, M*, ∅, ∅)` (this is a trivial root datum), one has therefore a morphism*
+*If one sets $\mathcal{R}_{0} = (M, M*, \emptyset, \emptyset)$ (this is a trivial root datum), one has therefore a
+morphism*
 
-```text
-corad(ℛ) ⟶ ℛ_0.
-```
+$$
+corad(\mathcal{R}) \longrightarrow \mathcal{R}_{0}.
+$$
 
-**Definition 6.3.3.** *One calls* radical *of `ℛ` and denotes by `rad(ℛ)` the trivial root datum:*
+**Definition 6.3.3.** *One calls* radical *of $\mathcal{R}$ and denotes by $rad(\mathcal{R})$ the trivial root datum:*
 
 <!-- label: III.XXI.6.3.3 -->
 
-```text
-rad(ℛ) = corad(ℛ*)*.
-```
+$$
+rad(\mathcal{R}) = corad(\mathcal{R}*)*.
+$$
 
 [^N.D.E-XXI-25]
 
@@ -2107,37 +2210,39 @@ One thus has a diagram
 
 <!-- original page 131 -->
 
-whose transpose is the corresponding diagram for `ℛ*`.
+whose transpose is the corresponding diagram for $\mathcal{R}*$.
 
-**Lemma 6.3.4.** *The canonical morphism `u : corad(ℛ) → rad(ℛ)` is an isogeny.*
+**Lemma 6.3.4.** *The canonical morphism $u : corad(\mathcal{R}) \to rad(\mathcal{R})$ is an isogeny.*
 
 <!-- label: III.XXI.6.3.4 -->
 
-**Definition 6.3.5.** *Set `N(ℛ) = K(u) = M / ((V(R) ∩ M) + ⋂_{α ∈ R} Ker(α*))`. One then has a canonical pairing*
+**Definition 6.3.5.** *Set $N(\mathcal{R}) = K(u) = M / ((V(R) \cap M) + \bigcap_{\alpha \in R} Ker(\alpha*))$. One then
+has a canonical pairing*
 
 <!-- label: III.XXI.6.3.5 -->
 
-```text
-N(ℛ) × N(ℛ*) ⟶ ℚ/ℤ.
-```
+$$
+N(\mathcal{R}) \times N(\mathcal{R}*) \longrightarrow \mathbb{Q}/\mathbb{Z}.
+$$
 
 **Lemma 6.3.6.** *One has `rgred(rad(ℛ)) = rgred(corad(ℛ)) = rgred(ℛ) − rgss(ℛ)`, and the following conditions are
 equivalent:*
 
 <!-- label: III.XXI.6.3.6 -->
 
-*(i) `ℛ` is semisimple,*
+*(i) $\mathcal{R}$ is semisimple,*
 
-*(ii) `rad(ℛ) = 0`,*
+*(ii) $rad(\mathcal{R}) = 0$,*
 
-*(iii) `corad(ℛ) = 0`.*
+*(iii) $corad(\mathcal{R}) = 0$.*
 
 ### 6.4. Products of root data
 
 <!-- label: III.XXI.6.4 -->
 
-**Definition 6.4.1.** *Let `ℛ = (M, M*, R, R*)` and `ℛ' = (M', M'*, R', R'*)` be two root data. One calls* product root
-datum *of `ℛ` and `ℛ'` and denotes by `ℛ'' = ℛ × ℛ'` the root datum `(M'', M''*, R'', R''*)` where*
+**Definition 6.4.1.** *Let $\mathcal{R} = (M, M*, R, R*)$ and $\mathcal{R}' = (M', M'*, R', R'*)$ be two root data. One
+calls* product root datum *of $\mathcal{R}$ and $\mathcal{R}'$ and denotes by
+$\mathcal{R}'' = \mathcal{R} \times \mathcal{R}'$ the root datum $(M'', M''*, R'', R''*)$ where*
 
 <!-- label: III.XXI.6.4.1 -->
 
@@ -2146,7 +2251,7 @@ M'' = M × M',                 M''* = M* × M'*,
 R'' = (R × 0) ∪ (0 × R'),     R''* = (R* × 0) ∪ (0 × R'*),
 ```
 
-*the map `α ↦ α*` being the obvious map.*
+*the map $\alpha \mapsto \alpha*$ being the obvious map.*
 
 **Proposition 6.4.2.** *Under the preceding conditions, one has canonical isomorphisms*
 
@@ -2173,17 +2278,17 @@ rgred(ℛ'') = rgred(ℛ) + rgred(ℛ'),    rgss(ℛ'') = rgss(ℛ) + rgss(ℛ')
 
 The preceding definitions extend at once to a product of several factors. One has at once:
 
-**Proposition 6.4.3.** *Let `ℛ = ℛ_1 × ℛ_2 × ⋯ × ℛ_n` be a product of root data. The following conditions are
-equivalent:*
+**Proposition 6.4.3.** *Let $\mathcal{R} = \mathcal{R}_{1} \times \mathcal{R}_{2} \times \cdots \times \mathcal{R}_{n}$
+be a product of root data. The following conditions are equivalent:*
 
 <!-- label: III.XXI.6.4.3 -->
 
-*(i) `ℛ` is semisimple (resp. simply connected, resp. adjoint, resp. reduced).*
+*(i) $\mathcal{R}$ is semisimple (resp. simply connected, resp. adjoint, resp. reduced).*
 
-*(ii) Each `ℛ_i` is semisimple (resp. simply connected, resp. adjoint, resp. reduced).*
+*(ii) Each $\mathcal{R}_{i}$ is semisimple (resp. simply connected, resp. adjoint, resp. reduced).*
 
-Let us consider the following special case: let `ℛ_0` be a trivial root datum and `ℛ_1` a semisimple root datum. One
-then has a commutative diagram
+Let us consider the following special case: let $\mathcal{R}_{0}$ be a trivial root datum and $\mathcal{R}_{1}$ a
+semisimple root datum. One then has a commutative diagram
 
 ```text
        ℛ_0 × ℛ_1
@@ -2203,12 +2308,12 @@ corad(ℛ_0 × ℛ_1) ⥲ rad(ℛ_0 × ℛ_1)
            ℛ_0.
 ```
 
-*In particular, `N(ℛ_0 × ℛ_1) = 0`.*
+*In particular, $N(\mathcal{R}_{0} \times \mathcal{R}_{1}) = 0$.*
 
 <!-- original page 94 -->
 
-We shall see later that if conversely `N(ℛ) = 0`, then the root datum `ℛ` is a product of a semisimple datum by a
-trivial datum.
+We shall see later that if conversely $N(\mathcal{R}) = 0$, then the root datum $\mathcal{R}$ is a product of a
+semisimple datum by a trivial datum.
 
 <!-- original page 133 -->
 
@@ -2216,55 +2321,56 @@ trivial datum.
 
 <!-- label: III.XXI.6.5 -->
 
-Let `ℛ = (M, M*, R, R*)` be a root datum. Let `N ⊂ M` be a subgroup containing the roots, i.e. such that
+Let $\mathcal{R} = (M, M*, R, R*)$ be a root datum. Let $N \subset M$ be a subgroup containing the roots, i.e. such that
 
-```text
-Γ₀(R) ⊂ N ⊂ M.
-```
+$$
+\Gamma_{0}(R) \subset N \subset M.
+$$
 
-The canonical linear map `i_N : N → M` gives by transposition a linear map
+The canonical linear map $i_{N} : N \to M$ gives by transposition a linear map
 
-```text
-ᵗi_N : M* ⟶ N*.
-```
+$$
+{}^{t}i_{N} : M* \longrightarrow N*.
+$$
 
-Set `R_N = R` and `R*_N = ᵗi_N(R*)`.
+Set $R_{N} = R$ and $R*_{N} = {}^{t}i_{N}(R*)$.
 
-**Lemma 6.5.1.** *`ℛ_N = (N, N*, R_N, R*_N)` is a root datum, and `i_N` a morphism.*
+**Lemma 6.5.1.** *$\mathcal{R}_{N} = (N, N*, R_{N}, R*_{N})$ is a root datum, and $i_{N}$ a morphism.*
 
 <!-- label: III.XXI.6.5.1 -->
 
-*Proof.* Let us first show that `ᵗi_N` induces an isomorphism of `R*` onto `R*_N`. If `α, β ∈ R` and
-`ᵗi_N(α*) = ᵗi_N(β*)`, one has `(α*, x) = (β*, x)` for all `x ∈ N`, in particular for `x ∈ R`, which gives `α = β` by
-1.1.4. The rest follows without difficulty.
+*Proof.* Let us first show that ${}^{t}i_{N}$ induces an isomorphism of $R*$ onto $R*_{N}$. If $\alpha, \beta \in R$ and
+${}^{t}i_{N}(\alpha*) = {}^{t}i_{N}(\beta*)$, one has $(\alpha*, x) = (\beta*, x)$ for all $x \in N$, in particular for
+$x \in R$, which gives $\alpha = \beta$ by 1.1.4. The rest follows without difficulty.
 
-**Definition 6.5.2.** *`ℛ_N` is called the* root datum induced by `ℛ` on `N`.
+**Definition 6.5.2.** *$\mathcal{R}_{N}$ is called the* root datum induced by $\mathcal{R}$ on $N$.
 
 <!-- label: III.XXI.6.5.2 -->
 
-**Lemma 6.5.3.** *Let `f : ℛ' → ℛ` be a morphism. Set `N = f(M') ⊂ M`. Then `f` factors uniquely through `i_N`.*
+**Lemma 6.5.3.** *Let $f : \mathcal{R}' \to \mathcal{R}$ be a morphism. Set $N = f(M') \subset M$. Then $f$ factors
+uniquely through $i_{N}$.*
 
 <!-- label: III.XXI.6.5.3 -->
 
-In particular, isogenies `ℛ' → ℛ`, up to isomorphism, correspond bijectively to the subgroups of finite index of
-`M/Γ₀(R)`, which makes 6.2.7 more precise.
+In particular, isogenies $\mathcal{R}' \to \mathcal{R}$, up to isomorphism, correspond bijectively to the subgroups of
+finite index of $M/\Gamma_{0}(R)$, which makes 6.2.7 more precise.
 
-Let now `N*` be a subgroup of `M*` containing `R*`. One defines the root datum *coinduced* by `ℛ` on `N*` by
+Let now $N*$ be a subgroup of $M*$ containing $R*$. One defines the root datum *coinduced* by $\mathcal{R}$ on $N*$ by
 
-```text
-ℛ^{N*} = (ℛ*_{N*})*,
-```
+$$
+\mathcal{R}^{N*} = (\mathcal{R}*_{N*})*,
+$$
 
 <!-- original page 134 -->
 
 and one has a canonical morphism:
 
-```text
-p_{N*} : ℛ ⟶ ℛ^{N*}.
-```
+$$
+p_{N*} : \mathcal{R} \longrightarrow \mathcal{R}^{N*}.
+$$
 
-**Lemma 6.5.4.** *Let `f : ℛ' ⟶ ℛ` be a morphism. There exist subgroups `N ⊂ M` and `N'* ⊂ M'*` such that `f` factors
-as*
+**Lemma 6.5.4.** *Let $f : \mathcal{R}' \longrightarrow \mathcal{R}$ be a morphism. There exist subgroups $N \subset M$
+and $N'* \subset M'*$ such that $f$ factors as*
 
 <!-- label: III.XXI.6.5.4 -->
 
@@ -2277,23 +2383,25 @@ p_{N'*}          i_N
 ℛ'^{N'*} ──⥲──→ ℛ_N,
 ```
 
-*where `f_0` is an isomorphism.*
+*where $f_{0}$ is an isomorphism.*
 
-*Proof.* Indeed, one takes `N = f(M')` as in 6.5.3. The morphism `M' → N` obtained is surjective, so its transpose is
-injective. One takes the image of the latter as `N'*`.
+*Proof.* Indeed, one takes $N = f(M')$ as in 6.5.3. The morphism $M' \to N$ obtained is surjective, so its transpose is
+injective. One takes the image of the latter as $N'*$.
 
-Let us now treat certain special cases. If one takes `N = Γ₀(R)`, one writes `ℛ_N = ad(ℛ)`. If one takes `N = V(R) ∩ M`,
-one writes `ℛ_N = ss(ℛ)`. One thus has a diagram:
+Let us now treat certain special cases. If one takes $N = \Gamma_{0}(R)$, one writes
+$\mathcal{R}_{N} = ad(\mathcal{R})$. If one takes $N = V(R) \cap M$, one writes $\mathcal{R}_{N} = ss(\mathcal{R})$. One
+thus has a diagram:
 
-```text
-ad(ℛ) ⟶ ss(ℛ) ⟶ ℛ.
-```
+$$
+ad(\mathcal{R}) \longrightarrow ss(\mathcal{R}) \longrightarrow \mathcal{R}.
+$$
 
-Set `dér(ℛ) = ss(ℛ*)*` and `sc(ℛ) = ad(ℛ*)*`; by duality, one obtains a diagram:
+Set $d\acute{e}r(\mathcal{R}) = ss(\mathcal{R}*)*$ and $sc(\mathcal{R}) = ad(\mathcal{R}*)*$; by duality, one obtains a
+diagram:
 
-```text
-ℛ ⟶ dér(ℛ) ⟶ sc(ℛ).
-```
+$$
+\mathcal{R} \longrightarrow d\acute{e}r(\mathcal{R}) \longrightarrow sc(\mathcal{R}).
+$$
 
 **Proposition 6.5.5.** *(i) In the first row of the diagram*
 
@@ -2307,24 +2415,27 @@ ad(ℛ) ⟶ ss(ℛ) ⟶ dér(ℛ) ⟶ sc(ℛ)
 
 *the four data are semisimple and the three morphisms are isogenies.*
 
-*(ii) `ad(ℛ)` is an adjoint datum, and `ℛ` is adjoint if and only if `ad(ℛ) → ℛ` is an isomorphism.*
+*(ii) $ad(\mathcal{R})$ is an adjoint datum, and $\mathcal{R}$ is adjoint if and only if
+$ad(\mathcal{R}) \to \mathcal{R}$ is an isomorphism.*
 
 <!-- original page 135 -->
 
-*(iii) `sc(ℛ)` is a simply connected datum, and `ℛ` is simply connected if and only if `ℛ → sc(ℛ)` is an isomorphism.*
+*(iii) $sc(\mathcal{R})$ is a simply connected datum, and $\mathcal{R}$ is simply connected if and only if
+$\mathcal{R} \to sc(\mathcal{R})$ is an isomorphism.*
 
 *(iv) The following conditions are equivalent:*
 
-*(a) `ℛ` is semisimple,*
+*(a) $\mathcal{R}$ is semisimple,*
 
-*(b) `ss(ℛ) → ℛ` is an isomorphism,*
+*(b) $ss(\mathcal{R}) \to \mathcal{R}$ is an isomorphism,*
 
-*(c) `ℛ → dér(ℛ)` is an isomorphism.*
+*(c) $\mathcal{R} \to d\acute{e}r(\mathcal{R})$ is an isomorphism.*
 
-Let us pause briefly on the morphism `ss(ℛ) → dér(ℛ)`. Referring to the construction of `ss(ℛ)` and `dér(ℛ)`, it is easy
-to prove the
+Let us pause briefly on the morphism $ss(\mathcal{R}) \to d\acute{e}r(\mathcal{R})$. Referring to the construction of
+$ss(\mathcal{R})$ and $d\acute{e}r(\mathcal{R})$, it is easy to prove the
 
-**Lemma 6.5.6.** *Let `h : ss(ℛ) → dér(ℛ)` be the canonical isogeny. One has `K(h) ≃ N(ℛ)`.*
+**Lemma 6.5.6.** *Let $h : ss(\mathcal{R}) \to d\acute{e}r(\mathcal{R})$ be the canonical isogeny. One has
+$K(h) \simeq N(\mathcal{R})$.*
 
 <!-- label: III.XXI.6.5.6 -->
 
@@ -2336,11 +2447,11 @@ to prove the
 N = {x ∈ M | (α*, x) = 0 for α ∈ R} × Γ₀(R);
 ```
 
-one knows that the sum is direct by 1.2.5. It follows that the root datum `ℛ_N` is identified with the product
-`ad(ℛ) × corad(ℛ)`.
+one knows that the sum is direct by 1.2.5. It follows that the root datum $\mathcal{R}_{N}$ is identified with the
+product $ad(\mathcal{R}) \times corad(\mathcal{R})$.
 
-One can do the same by replacing `Γ₀(R)` by `V(R) ∩ M`, then dualize these two constructions. One thus obtains a diagram
-of root data:
+One can do the same by replacing $\Gamma_{0}(R)$ by $V(R) \cap M$, then dualize these two constructions. One thus
+obtains a diagram of root data:
 
 ```text
 ad(ℛ) → ss(ℛ) → dér(ℛ) → sc(ℛ)
@@ -2355,7 +2466,7 @@ ad(ℛ) → ss(ℛ) → dér(ℛ) → sc(ℛ);
 which is commutative, as one verifies at once. This diagram is self-dual in an obvious sense. The horizontal morphisms
 are isogenies. The composites of the vertical arrows are the identity.
 
-**Lemma 6.5.8.** *Let `h_1` and `h_2` be the canonical isogenies:*
+**Lemma 6.5.8.** *Let $h_{1}$ and $h_{2}$ be the canonical isogenies:*
 
 <!-- label: III.XXI.6.5.8 -->
 
@@ -2363,27 +2474,27 @@ are isogenies. The composites of the vertical arrows are the identity.
 ss(ℛ) × corad(ℛ) ──h_1──→ ℛ ──h_2──→ dér(ℛ) × rad(ℛ).
 ```
 
-*One has `K(h_1) ≃ K(h_2) ≃ N(ℛ)`.*
+*One has $K(h_{1}) \simeq K(h_{2}) \simeq N(\mathcal{R})$.*
 
 *Proof.* This is trivial from the definitions.
 
-**Corollary 6.5.9.** *Let `ℛ` be a root datum. The following conditions are equivalent:*
+**Corollary 6.5.9.** *Let $\mathcal{R}$ be a root datum. The following conditions are equivalent:*
 
 <!-- label: III.XXI.6.5.9 -->
 
-*(i) `N(ℛ) = 0`, i.e. `corad(ℛ) → rad(ℛ)` is an isomorphism.*
+*(i) $N(\mathcal{R}) = 0$, i.e. $corad(\mathcal{R}) \to rad(\mathcal{R})$ is an isomorphism.*
 
-*(ii) `h : ss(ℛ) → dér(ℛ)` is an isomorphism.*
+*(ii) $h : ss(\mathcal{R}) \to d\acute{e}r(\mathcal{R})$ is an isomorphism.*
 
-*(iii) `h_1 : ss(ℛ) × corad(ℛ) → ℛ` is an isomorphism.*
+*(iii) $h_{1} : ss(\mathcal{R}) \times corad(\mathcal{R}) \to \mathcal{R}$ is an isomorphism.*
 
-*(iv) `h_2 : ℛ → dér(ℛ) × rad(ℛ)` is an isomorphism.*
+*(iv) $h_{2} : \mathcal{R} \to d\acute{e}r(\mathcal{R}) \times rad(\mathcal{R})$ is an isomorphism.*
 
-*(v) `ℛ` is the product of a semisimple datum and a trivial datum.*
+*(v) $\mathcal{R}$ is the product of a semisimple datum and a trivial datum.*
 
 Let us also state a trivial consequence of the preceding remarks:
 
-**Corollary 6.5.10.** *For every root datum `ℛ`, there exist isogenies*
+**Corollary 6.5.10.** *For every root datum $\mathcal{R}$, there exist isogenies*
 
 <!-- label: III.XXI.6.5.10 -->
 
@@ -2391,12 +2502,12 @@ Let us also state a trivial consequence of the preceding remarks:
 ad(ℛ) × ℛ_0 ⟶ ℛ ⟶ sc(ℛ) × ℛ_0,
 ```
 
-*where `ℛ_0` is "the" trivial root datum of rank `rgred(ℛ) − rgss(ℛ)`.*
+*where $\mathcal{R}_{0}$ is "the" trivial root datum of rank $rgred(\mathcal{R}) - rgss(\mathcal{R})$.*
 
 Let us finally note a result that may be useful:
 
-**Lemma 6.5.11.** *Let `ℛ` be a root datum, `Δ` a system of simple roots, `Δ'` a subset of `Δ`; consider the root datum
-(cf. 3.4.7)*
+**Lemma 6.5.11.** *Let $\mathcal{R}$ be a root datum, $\Delta$ a system of simple roots, $\Delta'$ a subset of $\Delta$;
+consider the root datum (cf. 3.4.7)*
 
 <!-- label: III.XXI.6.5.11 -->
 
@@ -2406,23 +2517,23 @@ Let us finally note a result that may be useful:
 
 <!-- original page 137 -->
 
-*(i) If `ℛ` is simply connected, then `dér(ℛ_{Δ'})` is simply connected.*
+*(i) If $\mathcal{R}$ is simply connected, then $d\acute{e}r(\mathcal{R}_{\Delta'})$ is simply connected.*
 
-*(ii) If `ℛ` is adjoint, then `ss(ℛ_{Δ'})` is adjoint.*
+*(ii) If $\mathcal{R}$ is adjoint, then $ss(\mathcal{R}_{\Delta'})$ is adjoint.*
 
 *Proof.* The two assertions are evidently equivalent by duality. The second reduces to verifying the formula:
 
-```text
-M ∩ V(R_{Δ'}) = Γ₀(R_{Δ'});
-```
+$$
+M \cap V(R_{\Delta'}) = \Gamma_{0}(R_{\Delta'});
+$$
 
-now, if `M = Γ₀(R)`, the two sides are equal to the subgroup of `M` generated by `Δ'`.
+now, if $M = \Gamma_{0}(R)$, the two sides are equal to the subgroup of $M$ generated by $\Delta'$.
 
 ### 6.6. Weights
 
 <!-- label: III.XXI.6.6 -->
 
-**Definition 6.6.1.** *Let `ℛ` be a root datum. Set[^N.D.E-XXI-26]*
+**Definition 6.6.1.** *Let $\mathcal{R}$ be a root datum. Set[^N.D.E-XXI-26]*
 
 <!-- label: III.XXI.6.6.1 -->
 
@@ -2430,49 +2541,52 @@ now, if `M = Γ₀(R)`, the two sides are equal to the subgroup of `M` generated
 Λ(ℛ) = {x ∈ V(R) | (α*, x) ∈ ℤ for all α* ∈ R*}.
 ```
 
-*The elements of `Λ(ℛ)` are called the* weights *of `ℛ`. The weights of `ℛ*` are called the* coweights *of `ℛ`.*
+*The elements of $\Lambda(\mathcal{R})$ are called the* weights *of $\mathcal{R}$. The weights of $\mathcal{R}*$ are
+called the* coweights *of $\mathcal{R}$.*
 
-One has `Γ₀(R) ⊂ Λ(ℛ)` and `Λ(ℛ)` is stable under `W(ℛ)`.
+One has $\Gamma_{0}(R) \subset \Lambda(\mathcal{R})$ and $\Lambda(\mathcal{R})$ is stable under $W(\mathcal{R})$.
 
-**Lemma 6.6.2.** *The bilinear map `V* × V → ℚ` induces a duality*
+**Lemma 6.6.2.** *The bilinear map $V* \times V \to \mathbb{Q}$ induces a duality*
 
 <!-- label: III.XXI.6.6.2 -->
 
-```text
-Γ₀(R*) × Λ(ℛ) ⟶ ℤ.
-```
+$$
+\Gamma_{0}(R*) \times \Lambda(\mathcal{R}) \longrightarrow \mathbb{Z}.
+$$
 
 *Proof.* Trivial.
 
-**Corollary 6.6.3.** *Let `Δ* = (α*₁, …, α*_n)` be a system of simple coroots. Let `p_i`, `i = 1, 2, …, n`, be the
-elements of `V(R)` defined by*
+**Corollary 6.6.3.** *Let $\Delta* = (\alpha*_{1}, \cdots, \alpha*_{n})$ be a system of simple coroots. Let $p_{i}$,
+$i = 1, 2, \cdots, n$, be the elements of $V(R)$ defined by*
 
 <!-- label: III.XXI.6.6.3 -->
 
-```text
-(α*_i, p_j) = δ_{ij},
-```
+$$
+(\alpha*_{i}, p_{j}) = \delta_{ij},
+$$
 
-*(whence `s_{α_i}(p_i) = p_i − α_i` and `s_{α_i}(p_j) = p_j` for `i ≠ j`).*[^XXI-6-1] *Then `Λ(ℛ)` is the free abelian
-group generated by the `p_i`.*
+*(whence $s_{\alpha_{i}}(p_{i}) = p_{i} - \alpha_{i}$ and $s_{\alpha_{i}}(p_{j}) = p_{j}$ for $i \neq j$).*[^XXI-6-1]
+*Then $\Lambda(\mathcal{R})$ is the free abelian group generated by the $p_{i}$.*
 
 <!-- original page 138 -->
 
-The `p_i` are called the *fundamental weights* corresponding to the system of simple coroots `Δ*`.
+The $p_{i}$ are called the *fundamental weights* corresponding to the system of simple coroots $\Delta*$.
 
-**Corollary 6.6.4.** *For every `α* ∈ Δ*`, one has therefore `(α*, Σᵢ p_i) = 1`, hence `Σᵢ p_i = ρ_{R₊}` (cf. 3.5.1),
-where `R₊ = P(ind(Δ))`.*
+**Corollary 6.6.4.** *For every $\alpha* \in \Delta*$, one has therefore $(\alpha*, \Sigma_{i} p_{i}) = 1$, hence
+$\Sigma_{i} p_{i} = \rho_{R_{+}}$ (cf. 3.5.1), where $R_{+} = P(ind(\Delta))$.*
 
 <!-- label: III.XXI.6.6.4 -->
 
-**Corollary 6.6.5.** *For every `x ∈ V(R)`, one has `x = Σᵢ (α*_i, x) p_i`.*
+**Corollary 6.6.5.** *For every $x \in V(R)$, one has $x = \Sigma_{i} (\alpha*_{i}, x) p_{i}$.*
 
 <!-- label: III.XXI.6.6.5 -->
 
-Remark that `R* ⊂ Γ₀(R*)` and `R ⊂ Λ(ℛ)`, so `(Λ(ℛ), Γ₀(R*), R, R*)` is a root datum.
+Remark that $R* \subset \Gamma_{0}(R*)$ and $R \subset \Lambda(\mathcal{R})$, so
+$(\Lambda(\mathcal{R}), \Gamma_{0}(R*), R, R*)$ is a root datum.
 
-**Corollary 6.6.6.** *The canonical morphism `Γ₀(R*) → M*` is the transpose of the morphism `x ↦ Σᵢ (α*_i, x) p_i`,
-which defines a morphism of root data, and one has a commutative diagram:*
+**Corollary 6.6.6.** *The canonical morphism $\Gamma_{0}(R*) \to M*$ is the transpose of the morphism
+$x \mapsto \Sigma_{i} (\alpha*_{i}, x) p_{i}$, which defines a morphism of root data, and one has a commutative
+diagram:*
 
 <!-- label: III.XXI.6.6.6 -->
 
@@ -2484,8 +2598,8 @@ which defines a morphism of root data, and one has a commutative diagram:*
               (Λ(ℛ), Γ₀(R*), R, R*).
 ```
 
-One thus has an explicit description of `sc(ℛ)` in terms of the weights of `ℛ`. Similarly, one finds a commutative
-diagram:
+One thus has an explicit description of $sc(\mathcal{R})$ in terms of the weights of $\mathcal{R}$. Similarly, one finds
+a commutative diagram:
 
 ```text
        ad(ℛ)
@@ -2495,54 +2609,56 @@ diagram:
        (Γ₀(R), Λ(ℛ*), R, R*).
 ```
 
-**Corollary 6.6.7.** *For `ℛ` to be simply connected, it is necessary and sufficient that `M = Λ(ℛ)`.*
+**Corollary 6.6.7.** *For $\mathcal{R}$ to be simply connected, it is necessary and sufficient that
+$M = \Lambda(\mathcal{R})$.*
 
 <!-- label: III.XXI.6.6.7 -->
 
 <!-- original page 139 -->
 
-**Remark 6.6.8.** *One has `Λ(ℛ) ∩ M = V(R) ∩ M`. For `ℛ` to be semisimple, it is therefore necessary and sufficient
-that `M ⊂ Λ(ℛ)`.*
+**Remark 6.6.8.** *One has $\Lambda(\mathcal{R}) \cap M = V(R) \cap M$. For $\mathcal{R}$ to be semisimple, it is
+therefore necessary and sufficient that $M \subset \Lambda(\mathcal{R})$.*
 
 <!-- label: III.XXI.6.6.8 -->
 
 From the results of 6.5 there also follows:
 
-**Corollary 6.6.9.** *For `ℛ` to be the product of a simply connected datum by a trivial datum, it is necessary and
-sufficient that `M ⊃ Λ(ℛ)`.*
+**Corollary 6.6.9.** *For $\mathcal{R}$ to be the product of a simply connected datum by a trivial datum, it is
+necessary and sufficient that $M \supset \Lambda(\mathcal{R})$.*
 
 <!-- label: III.XXI.6.6.9 -->
 
 Consider now the canonical isogeny
 
-```text
-f : ad(ℛ) ⟶ sc(ℛ),
-```
+$$
+f : ad(\mathcal{R}) \longrightarrow sc(\mathcal{R}),
+$$
 
-and set `Z(ℛ) = K(f)`. One has `Z(ℛ) ≃ Z(sc ℛ) ≃ Z(ad ℛ)`.
+and set $Z(\mathcal{R}) = K(f)$. One has $Z(\mathcal{R}) \simeq Z(sc \mathcal{R}) \simeq Z(ad \mathcal{R})$.
 
-**Corollary 6.6.10.** *One has a canonical isomorphism `Z(ℛ) = Λ(ℛ)/Γ₀(R)`. More precisely, one has an exact sequence of
-`W(ℛ)`-modules:*
+**Corollary 6.6.10.** *One has a canonical isomorphism $Z(\mathcal{R}) = \Lambda(\mathcal{R})/\Gamma_{0}(R)$. More
+precisely, one has an exact sequence of $W(\mathcal{R})$-modules:*
 
 <!-- label: III.XXI.6.6.10 -->
 
-```text
-0 ⟶ Γ₀(R) ⟶ Λ(ℛ) ⟶ Z(ℛ) ⟶ 0.
-```
+$$
+0 \longrightarrow \Gamma_{0}(R) \longrightarrow \Lambda(\mathcal{R}) \longrightarrow Z(\mathcal{R}) \longrightarrow 0.
+$$
 
 **Corollary 6.6.11.** *One has a canonical pairing*
 
 <!-- label: III.XXI.6.6.11 -->
 
-```text
-Z(ℛ*) × Z(ℛ) ⟶ ℚ/ℤ
-```
+$$
+Z(\mathcal{R}*) \times Z(\mathcal{R}) \longrightarrow \mathbb{Q}/\mathbb{Z}
+$$
 
 *which puts these groups in duality.*
 
-**Remark 6.6.12.** *One has `Z(ℛ × ℛ') ≃ Z(ℛ) × Z(ℛ')`. Consider in particular simply connected data `ℛ_i`,
-`i = 1, 2, …, n`, and a trivial datum `ℛ_0`. Set `ℛ = ℛ_0 × ℛ_1 × ⋯ × ℛ_n`. Let `ℛ = (M, M*, R, R*)`,
-`ℛ_0 = (M_0, M*_0, ∅, ∅)`. One has*
+**Remark 6.6.12.** *One has $Z(\mathcal{R} \times \mathcal{R}') \simeq Z(\mathcal{R}) \times Z(\mathcal{R}')$. Consider
+in particular simply connected data $\mathcal{R}_{i}$, $i = 1, 2, \cdots, n$, and a trivial datum $\mathcal{R}_{0}$. Set
+$\mathcal{R} = \mathcal{R}_{0} \times \mathcal{R}_{1} \times \cdots \times \mathcal{R}_{n}$. Let
+$\mathcal{R} = (M, M*, R, R*)$, $\mathcal{R}_{0} = (M_{0}, M*_{0}, \emptyset, \emptyset)$. One has*
 
 <!-- label: III.XXI.6.6.12 -->
 
@@ -2554,12 +2670,13 @@ M/Γ₀(R) ≃ M_0 × Z(ℛ_1) × ⋯ × Z(ℛ_n).
 
 <!-- label: III.XXI.6.7 -->
 
-An automorphism of `ℛ` is, by 6.1.4, an automorphism of `M`, say `u`, such that `u(R) = R` and `ᵗu(R*) = R*`. In
-particular, every element `w` of `W(ℛ)` defines an automorphism of `ℛ`.
+An automorphism of $\mathcal{R}$ is, by 6.1.4, an automorphism of $M$, say $u$, such that $u(R) = R$ and
+${}^{t}u(R*) = R*$. In particular, every element $w$ of $W(\mathcal{R})$ defines an automorphism of $\mathcal{R}$.
 
 <!-- original page 140 -->
 
-**Lemma 6.7.1.** *`W(ℛ)` is a normal subgroup of `Aut(ℛ)`. More precisely, if `u ∈ Aut(ℛ)` and `α ∈ R`, one has*
+**Lemma 6.7.1.** *$W(\mathcal{R})$ is a normal subgroup of $\operatorname{Aut}(\mathcal{R})$. More precisely, if
+$u \in \operatorname{Aut}(\mathcal{R})$ and $\alpha \in R$, one has*
 
 <!-- label: III.XXI.6.7.1 -->
 
@@ -2569,7 +2686,7 @@ u s_α u⁻¹ = s_{u(α)}.
 
 *Proof.* The proof is the same as that of 1.2.10.
 
-**Proposition 6.7.2.** *Let `Δ` be a system of simple roots. Set*
+**Proposition 6.7.2.** *Let $\Delta$ be a system of simple roots. Set*
 
 <!-- label: III.XXI.6.7.2 -->
 
@@ -2577,16 +2694,17 @@ u s_α u⁻¹ = s_{u(α)}.
 E_Δ(ℛ) = {u ∈ Aut(ℛ) | u(Δ) = Δ}.
 ```
 
-*Then `Aut(ℛ)` is the semidirect product of `W(ℛ)` by `E_Δ(ℛ)`.*
+*Then $\operatorname{Aut}(\mathcal{R})$ is the semidirect product of $W(\mathcal{R})$ by $E_{\Delta}(\mathcal{R})$.*
 
-*Proof.* This follows at once from the fact that `W(ℛ)` operates simply transitively on the systems of simple roots, and
-from the fact that if `Δ` is a system of simple roots of `ℛ`, then `u(Δ)` is a system of simple roots for every
-automorphism `u` of `ℛ`.
+*Proof.* This follows at once from the fact that $W(\mathcal{R})$ operates simply transitively on the systems of simple
+roots, and from the fact that if $\Delta$ is a system of simple roots of $\mathcal{R}$, then $u(\Delta)$ is a system of
+simple roots for every automorphism $u$ of $\mathcal{R}$.
 
-We shall see later a simpler description of `E_Δ(ℛ)` in the case of reduced and irreducible root data.[^N.D.E-XXI-27]
+We shall see later a simpler description of $E_{\Delta}(\mathcal{R})$ in the case of reduced and irreducible root
+data.[^N.D.E-XXI-27]
 
-**Definition 6.7.3.** *One denotes by `Aut_s(ℛ)`[^N.D.E-XXI-28] the set of `u ∈ Aut(ℛ)` such that the following diagram
-is commutative:*
+**Definition 6.7.3.** *One denotes by $\operatorname{Aut}_{s}(\mathcal{R})$[^N.D.E-XXI-28] the set of
+$u \in \operatorname{Aut}(\mathcal{R})$ such that the following diagram is commutative:*
 
 <!-- label: III.XXI.6.7.3 -->
 
@@ -2597,99 +2715,104 @@ is commutative:*
    rad(ℛ).
 ```
 
-*One writes `E_Δ^s(ℛ) = E_Δ(ℛ) ∩ Aut_s(ℛ)`.*
+*One writes $E^{s}_{\Delta}(\mathcal{R}) = E_{\Delta}(\mathcal{R}) \cap \operatorname{Aut}_{s}(\mathcal{R})$.*
 
 <!-- original page 141 -->
 
-**Remark 6.7.4.** *If `u ∈ Aut(ℛ)`, one has therefore `u ∈ Aut_s(ℛ)` if and only if `(u − id)(M) ⊂ V(R)`. In particular
-`W(ℛ) ⊂ Aut_s(ℛ)`. It follows at once:*
+**Remark 6.7.4.** *If $u \in \operatorname{Aut}(\mathcal{R})$, one has therefore
+$u \in \operatorname{Aut}_{s}(\mathcal{R})$ if and only if $(u - id)(M) \subset V(R)$. In particular
+$W(\mathcal{R}) \subset \operatorname{Aut}_{s}(\mathcal{R})$. It follows at once:*
 
 <!-- label: III.XXI.6.7.4 -->
 
-**Proposition 6.7.5.** *The group `Aut_s(ℛ)` is the semidirect product of `W(ℛ)` by `E_Δ^s(ℛ)`, for every system of
-simple roots `Δ`.*
+**Proposition 6.7.5.** *The group $\operatorname{Aut}_{s}(\mathcal{R})$ is the semidirect product of $W(\mathcal{R})$ by
+$E^{s}_{\Delta}(\mathcal{R})$, for every system of simple roots $\Delta$.*
 
 <!-- label: III.XXI.6.7.5 -->
 
-To every automorphism of `ℛ` is associated by functoriality an automorphism of `ad(ℛ)`. One thus has a canonical
-morphism
+To every automorphism of $\mathcal{R}$ is associated by functoriality an automorphism of $ad(\mathcal{R})$. One thus has
+a canonical morphism
 
-```text
-Aut(ℛ) ⟶ Aut(ad(ℛ)).
-```
+$$
+\operatorname{Aut}(\mathcal{R}) \longrightarrow \operatorname{Aut}(ad(\mathcal{R})).
+$$
 
-**Lemma 6.7.6.** *The morphism `Aut_s(ℛ) → Aut(ad(ℛ))` is injective.*
+**Lemma 6.7.6.** *The morphism $\operatorname{Aut}_{s}(\mathcal{R}) \to \operatorname{Aut}(ad(\mathcal{R}))$ is
+injective.*
 
 <!-- label: III.XXI.6.7.6 -->
 
-*Proof.* Let `u` be an automorphism of `M` such that `(u − id)(M) ⊂ V(R)` and `ᵗu(α*) = α*` for `α* ∈ R*`. For every
-`x ∈ M`, one has
+*Proof.* Let $u$ be an automorphism of $M$ such that $(u - id)(M) \subset V(R)$ and ${}^{t}u(\alpha*) = \alpha*$ for
+$\alpha* \in R*$. For every $x \in M$, one has
 
 ```text
 (α*, u(x) − x) = (ᵗu(α*) − α*, x) = 0,
 ```
 
-so `u(x) − x = 0`, by 1.2.5.
+so $u(x) - x = 0$, by 1.2.5.
 
-**Lemma 6.7.7.** *The group `Aut_s(ℛ)` is finite.*
+**Lemma 6.7.7.** *The group $\operatorname{Aut}_{s}(\mathcal{R})$ is finite.*
 
 <!-- label: III.XXI.6.7.7 -->
 
-*Proof.* Indeed, it suffices for us to prove that `Aut(ℛ)` is finite if `ℛ` is adjoint. Since `M` is then generated by
-`R`, every automorphism of `ℛ` is determined by the permutation of `R` that it defines.
+*Proof.* Indeed, it suffices for us to prove that $\operatorname{Aut}(\mathcal{R})$ is finite if $\mathcal{R}$ is
+adjoint. Since $M$ is then generated by $R$, every automorphism of $\mathcal{R}$ is determined by the permutation of $R$
+that it defines.
 
-**Remark 6.7.8.** *One sees at once that `Aut(ℛ)` (resp. `E_Δ(ℛ)`) is finite if and only if `rgred(ℛ) − rgss(ℛ) ⩽ 1`.*
+**Remark 6.7.8.** *One sees at once that $\operatorname{Aut}(\mathcal{R})$ (resp. $E_{\Delta}(\mathcal{R})$) is finite
+if and only if $rgred(\mathcal{R}) - rgss(\mathcal{R}) \leqslant 1$.*
 
 <!-- label: III.XXI.6.7.8 -->
 
-### 6.8. `p`-morphisms of reduced root data
+### 6.8. $p$-morphisms of reduced root data
 
 <!-- label: III.XXI.6.8 -->
 
 <!-- original page 142 -->
 
-In this number, `p` is an integer `> 0` fixed once and for all.
+In this number, $p$ is an integer `> 0` fixed once and for all.
 
-**Definition 6.8.1.** *Let `ℛ = (M, M*, R, R*)` and `ℛ' = (M', M'*, R', R'*)` be two reduced root data. One says that a
-group morphism*
+**Definition 6.8.1.** *Let $\mathcal{R} = (M, M*, R, R*)$ and $\mathcal{R}' = (M', M'*, R', R'*)$ be two reduced root
+data. One says that a group morphism*
 
 <!-- label: III.XXI.6.8.1 -->
 
-```text
-f : M' ⟶ M
-```
+$$
+f : M' \longrightarrow M
+$$
 
-*is a* `p`-morphism *from `ℛ'` to `ℛ`, if the following conditions are satisfied: there exist a bijection*
+*is a* $p$-morphism *from $\mathcal{R}'$ to $\mathcal{R}$, if the following conditions are satisfied: there exist a
+bijection*
 
-```text
-u : R ⥲ R'
-```
+$$
+u : R \xrightarrow{\sim} R'
+$$
 
-*and a map `q : R → {pⁿ, n ∈ ℕ}` such that:*
+*and a map $q : R \to {p^{n}, n \in \mathbb{N}}$ such that:*
 
-*(i) `f(u(α)) = q(α) α` for every `α ∈ R`.*
+*(i) $f(u(\alpha)) = q(\alpha) \alpha$ for every $\alpha \in R$.*
 
-*(ii) `ᵗf(α'*) = q(α) u(α)*` for every `α ∈ R`.*[^N.D.E-XXI-29]
+*(ii) ${}^{t}f(\alpha'*) = q(\alpha) u(\alpha)*$ for every $\alpha \in R$.*[^N.D.E-XXI-29]
 
 **Corollary 6.8.2.** *A `1`-morphism is nothing other than a morphism.*
 
 <!-- label: III.XXI.6.8.2 -->
 
-**Corollary 6.8.3.** *The transpose of a `p`-morphism is a `p`-morphism.*
+**Corollary 6.8.3.** *The transpose of a $p$-morphism is a $p$-morphism.*
 
 <!-- label: III.XXI.6.8.3 -->
 
-**Lemma 6.8.4.** *If `w ∈ W(ℛ)`, `α ∈ R`, one has `q(w(α)) = q(α)`. The map `s_α ↦ s_{u(α)}` extends to an isomorphism
-`u : W(ℛ) → W(ℛ')` such that*
+**Lemma 6.8.4.** *If $w \in W(\mathcal{R})$, $\alpha \in R$, one has $q(w(\alpha)) = q(\alpha)$. The map
+$s_{\alpha} \mapsto s_{u(\alpha)}$ extends to an isomorphism $u : W(\mathcal{R}) \to W(\mathcal{R}')$ such that*
 
 <!-- label: III.XXI.6.8.4 -->
 
-```text
-u(w(α)) = u(w)(u(α)).
-```
+$$
+u(w(\alpha)) = u(w)(u(\alpha)).
+$$
 
-*Proof.* It suffices to prove that for `α, β ∈ R`, one has `u(s_α(β)) = s_{u(α)} u(β)` and `q(s_α(β)) = q(β)`. Now one
-has successively:
+*Proof.* It suffices to prove that for $\alpha, \beta \in R$, one has $u(s_{\alpha}(\beta)) = s_{u(\alpha)} u(\beta)$
+and $q(s_{\alpha}(\beta)) = q(\beta)$. Now one has successively:
 
 ```text
 f(s_{u(α)} u(β)) = f(u(β)) − (u(α)*, u(β)) f(u(α))
@@ -2699,25 +2822,27 @@ f(s_{u(α)} u(β)) = f(u(β)) − (u(α)*, u(β)) f(u(α))
 
 <!-- original page 143 -->
 
-If `γ = u⁻¹(s_{u(α)} u(β))`, one has therefore `q(γ) γ = f(u(γ)) = q(β) s_α(β)`. The two roots `γ` and `s_α(β)` are
-therefore proportional (over `ℚ`), so equal or opposite, but `q(γ)` and `q(β)` are positive. One thus has `q(γ) = q(β)`
-and `γ = s_α(β)`.
+If $\gamma = u^{-1}(s_{u(\alpha)} u(\beta))$, one has therefore
+$q(\gamma) \gamma = f(u(\gamma)) = q(\beta) s_{\alpha}(\beta)$. The two roots $\gamma$ and $s_{\alpha}(\beta)$ are
+therefore proportional (over $\mathbb{Q}$), so equal or opposite, but $q(\gamma)$ and $q(\beta)$ are positive. One thus
+has $q(\gamma) = q(\beta)$ and $\gamma = s_{\alpha}(\beta)$.
 
-**Definition 6.8.5.** *The `q(α)` are called the* radical exponents *of `f`.*
+**Definition 6.8.5.** *The $q(\alpha)$ are called the* radical exponents *of $f$.*
 
 <!-- label: III.XXI.6.8.5 -->
 
-**Example 6.8.6.** *Let `ℛ` be a reduced root datum and `q = pⁿ` (`n ∈ ℕ`). Then the multiplication by `q : M → M`,
-`x ↦ q x` is a `p`-morphism whose radical exponents are all equal to `q` (and `u = id`); one denotes it*
+**Example 6.8.6.** *Let $\mathcal{R}$ be a reduced root datum and $q = p^{n}$ ($n \in \mathbb{N}$). Then the
+multiplication by $q : M \to M$, $x \mapsto q x$ is a $p$-morphism whose radical exponents are all equal to $q$ (and
+$u = id$); one denotes it*
 
 <!-- label: III.XXI.6.8.6 -->
 
-```text
-q : ℛ ⟶ ℛ.
-```
+$$
+q : \mathcal{R} \longrightarrow \mathcal{R}.
+$$
 
-**Proposition 6.8.7.** *In the notation of 6.8.1, `u` realizes an isomorphism of the set of systems of simple roots
-(resp. of positive roots) of `R` onto the corresponding set for `R'`.*
+**Proposition 6.8.7.** *In the notation of 6.8.1, $u$ realizes an isomorphism of the set of systems of simple roots
+(resp. of positive roots) of $R$ onto the corresponding set for $R'$.*
 
 <!-- label: III.XXI.6.8.7 -->
 
@@ -2733,36 +2858,37 @@ q : ℛ ⟶ ℛ.
 
 <!-- label: III.XXI.7.1 -->
 
-**Proposition 7.1.1.** *Let `ℛ` be a root datum, `Δ` a system of simple roots.*
+**Proposition 7.1.1.** *Let $\mathcal{R}$ be a root datum, $\Delta$ a system of simple roots.*
 
 <!-- label: III.XXI.7.1.1 -->
 
-*(i) Let `R'` and `R''` be two closed and symmetric sets of roots forming a partition of `R`. If one denotes
-`Δ' = Δ ∩ R'`, `Δ'' = Δ ∩ R''`, then `R' = R_{Δ'}`, `R'' = R_{Δ''}`, and every root of `Δ'` is orthogonal to every root
-of `Δ''`.*
+*(i) Let $R'$ and `R''` be two closed and symmetric sets of roots forming a partition of $R$. If one denotes
+$\Delta' = \Delta \cap R'$, $\Delta'' = \Delta \cap R''$, then $R' = R_{\Delta'}$, $R'' = R_{\Delta''}$, and every root
+of $\Delta'$ is orthogonal to every root of $\Delta''$.*
 
-*(ii) Let `Δ'` and `Δ''` be two subsets of `Δ` forming a partition of `Δ` and orthogonal. Then `R' = R_{Δ'}` and
-`R'' = R_{Δ''}` form a partition of `R`.*
+*(ii) Let $\Delta'$ and $\Delta''$ be two subsets of $\Delta$ forming a partition of $\Delta$ and orthogonal. Then
+$R' = R_{\Delta'}$ and $R'' = R_{\Delta''}$ form a partition of $R$.*
 
 *Proof.* Let us first prove (i).
 
-**Lemma 7.1.2.** *Under the conditions of (i), if `α`, `β`, and `α + β` are roots, they all three belong to `R'` or all
-three to `R''`.*
+**Lemma 7.1.2.** *Under the conditions of (i), if $\alpha$, $\beta$, and $\alpha + \beta$ are roots, they all three
+belong to $R'$ or all three to `R''`.*
 
 <!-- label: III.XXI.7.1.2 -->
 
-*Proof.* Suppose for example `α + β ∈ R'`. Then one cannot have `α, β ∈ R''`, since `R''` is closed; suppose therefore
-`α ∈ R'`. Then `−α ∈ R'` and `β = (β + α) − α ∈ R'`.
+*Proof.* Suppose for example $\alpha + \beta \in R'$. Then one cannot have $\alpha, \beta \in R''$, since `R''` is
+closed; suppose therefore $\alpha \in R'$. Then $-\alpha \in R'$ and $\beta = (\beta + \alpha) - \alpha \in R'$.
 
-Let us now show that `R' = R_{Δ'}` by induction on the order of a positive root `α ∈ R' ∩ P(Δ)`. If `ord_Δ(α) = 1`, then
-`α ∈ R' ∩ Δ = Δ'`. If `ord_Δ(α) > 1`, there exists `β ∈ Δ` such that `α − β ∈ R`. By the lemma, one has `β ∈ Δ'`,
-`α − β ∈ R'`, so `α − β ∈ R_{Δ'}` by induction, and finally `α = (α − β) + β ∈ R_{Δ'}`.
+Let us now show that $R' = R_{\Delta'}$ by induction on the order of a positive root $\alpha \in R' \cap P(\Delta)$. If
+$ord_{\Delta}(\alpha) = 1$, then $\alpha \in R' \cap \Delta = \Delta'$. If $ord_{\Delta}(\alpha) > 1$, there exists
+$\beta \in \Delta$ such that $\alpha - \beta \in R$. By the lemma, one has $\beta \in \Delta'$, $\alpha - \beta \in R'$,
+so $\alpha - \beta \in R_{\Delta'}$ by induction, and finally $\alpha = (\alpha - \beta) + \beta \in R_{\Delta'}$.
 
-Let us finally show that `Δ'` and `Δ''` are orthogonal. If `α ∈ Δ'` and `β ∈ Δ''`, then `(β*, α) ⩽ 0`. If `(β*, α) ≠ 0`,
-then `β + α` is a root, contrary to the lemma.
+Let us finally show that $\Delta'$ and $\Delta''$ are orthogonal. If $\alpha \in \Delta'$ and $\beta \in \Delta''$, then
+$(\beta*, \alpha) \leqslant 0$. If $(\beta*, \alpha) \neq 0$, then $\beta + \alpha$ is a root, contrary to the lemma.
 
-Let us prove (ii). If `Δ'` or `Δ''` is empty, this is immediate. Otherwise, if `R_{Δ'}` and `R_{Δ''}` do not form a
-partition of `R`, there exists a root `α` of the form
+Let us prove (ii). If $\Delta'$ or $\Delta''$ is empty, this is immediate. Otherwise, if $R_{\Delta'}$ and
+$R_{\Delta''}$ do not form a partition of $R$, there exists a root $\alpha$ of the form
 
 <!-- original page 145 -->
 
@@ -2770,50 +2896,52 @@ partition of `R`, there exists a root `α` of the form
 α = Σ_i m'_i α'_i + Σ_j m''_j α''_j,    m'_i ∈ ℤ₊, m''_j ∈ ℤ₊,
 ```
 
-where one denotes by `α'_i` (resp. `α''_j`) elements of `Δ'` (resp. `Δ''`). Applying 3.1.2, one deduces a relation of
-the form (possibly inverting `Δ'` and `Δ''`):
+where one denotes by $\alpha'_{i}$ (resp. $\alpha''_{j}$) elements of $\Delta'$ (resp. $\Delta''$). Applying 3.1.2, one
+deduces a relation of the form (possibly inverting $\Delta'$ and $\Delta''$):
 
 ```text
 δ = γ + β,    γ ∈ R_{Δ'},    β ∈ Δ'',    δ ∈ R.
 ```
 
-But since `(β*, γ) = 0`, `γ − β` is also a root by 2.2.5, which is impossible.
+But since $(\beta*, \gamma) = 0$, $\gamma - \beta$ is also a root by 2.2.5, which is impossible.
 
-**Proposition 7.1.3.** *Let `ℛ` be a root datum. The following conditions are equivalent:*
+**Proposition 7.1.3.** *Let $\mathcal{R}$ be a root datum. The following conditions are equivalent:*
 
 <!-- label: III.XXI.7.1.3 -->
 
-*(i) There exists no non-trivial partition of `R` into two closed and symmetric subsets.*
+*(i) There exists no non-trivial partition of $R$ into two closed and symmetric subsets.*
 
-*(ii) For some (resp. every) system of simple roots `Δ` of `R`, there exists no partition of `Δ` into two non-empty
-orthogonal subsets.*
+*(ii) For some (resp. every) system of simple roots $\Delta$ of $R$, there exists no partition of $\Delta$ into two
+non-empty orthogonal subsets.*
 
 <!-- original page 102 -->
 
-*(iii) The natural representation of `W(ℛ)` in `V(R)` is irreducible.*
+*(iii) The natural representation of $W(\mathcal{R})$ in $V(R)$ is irreducible.*
 
-*(iv) For every pair `(α, β)` of roots, there exists a sequence of roots `α_0, α_1, α_2, …, α_n`, with `α = α_0`,
-`α_n = β`, such that the roots `α_i` and `α_{i+1}` (`i = 0, …, n − 1`) are non-orthogonal.*
+*(iv) For every pair $(\alpha, \beta)$ of roots, there exists a sequence of roots
+$\alpha_{0}, \alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}$, with $\alpha = \alpha_{0}$, $\alpha_{n} = \beta$, such that
+the roots $\alpha_{i}$ and $\alpha_{i+1}$ ($i = 0, \cdots, n - 1$) are non-orthogonal.*
 
-*Proof.* One has (i) ⇔ (ii) by 7.1.1. One has obviously (iv) ⇒ (ii). Conversely, if (ii) is verified for `Δ`, condition
-(iv) is verified for `α, β ∈ Δ`. Now for every root, there exists a simple root not orthogonal to it (3.1.1 for
-example). On the other hand (iii) ⇒ (i): in effect, under the conditions of 7.1.1, `V(R')` is stable under `W(ℛ)`. It
-remains to prove (i) ⇒ (iii).
+*Proof.* One has (i) ⇔ (ii) by 7.1.1. One has obviously (iv) ⇒ (ii). Conversely, if (ii) is verified for $\Delta$,
+condition (iv) is verified for $\alpha, \beta \in \Delta$. Now for every root, there exists a simple root not orthogonal
+to it (3.1.1 for example). On the other hand (iii) ⇒ (i): in effect, under the conditions of 7.1.1, $V(R')$ is stable
+under $W(\mathcal{R})$. It remains to prove (i) ⇒ (iii).
 
 <!-- original page 146 -->
 
-So let `H` be a vector subspace of `V(R)`, stable under `W(ℛ)`. For every `α ∈ R`, the equation `s_α(H) = H` gives at
-once `α ∈ H`, or `α* ∈ H^⊥` (orthogonal of `H` in `V(R*)`, which is in duality with `V(R)`). If one sets
-`R' = {α ∈ R | α ∈ H}` and `R'' = {α ∈ R | α* ∈ H^⊥}`, one has realized a partition of `R` into two closed and symmetric
+So let $H$ be a vector subspace of $V(R)$, stable under $W(\mathcal{R})$. For every $\alpha \in R$, the equation
+$s_{\alpha}(H) = H$ gives at once $\alpha \in H$, or $\alpha* \in H^{\perp}$ (orthogonal of $H$ in $V(R*)$, which is in
+duality with $V(R)$). If one sets $R' = {\alpha \in R | \alpha \in H}$ and
+$R'' = {\alpha \in R | \alpha* \in H^{\perp}}$, one has realized a partition of $R$ into two closed and symmetric
 subsets.
 
 **Definition 7.1.4.** *A root datum (resp. a root system) satisfying the equivalent conditions of 7.1.3 and of
-semisimple rank `≠ 0` is called* irreducible.
+semisimple rank $\neq 0$ is called* irreducible.
 
 <!-- label: III.XXI.7.1.4 -->
 
-**Corollary 7.1.5.** *For every root datum `ℛ`, there exists a unique partition (up to order) of `R` into closed,
-symmetric, and irreducible subsets.*
+**Corollary 7.1.5.** *For every root datum $\mathcal{R}$, there exists a unique partition (up to order) of $R$ into
+closed, symmetric, and irreducible subsets.*
 
 <!-- label: III.XXI.7.1.5 -->
 
@@ -2825,12 +2953,13 @@ simply connected) root data.*
 *Proof.* It suffices to see this in the adjoint case. The assertion then follows from the fact that under the conditions
 of 7.1.1, one has
 
-```text
-Γ₀(R) = Γ₀(R') × Γ₀(R'').
-```
+$$
+\Gamma_{0}(R) = \Gamma_{0}(R') \times \Gamma_{0}(R'').
+$$
 
-**Corollary 7.1.7.** *For every root datum (resp. reduced root datum) `ℛ`, there exists an isogeny `ℛ → ℛ'`, where `ℛ'`
-is a product of a trivial root datum and of irreducible simply connected root data (resp. and reduced).*
+**Corollary 7.1.7.** *For every root datum (resp. reduced root datum) $\mathcal{R}$, there exists an isogeny
+$\mathcal{R} \to \mathcal{R}'$, where $\mathcal{R}'$ is a product of a trivial root datum and of irreducible simply
+connected root data (resp. and reduced).*
 
 <!-- label: III.XXI.7.1.7 -->
 
@@ -2840,45 +2969,48 @@ is a product of a trivial root datum and of irreducible simply connected root da
 
 <!-- original page 147 -->
 
-**Definition 7.2.1.** *Let `ℛ` be an irreducible root datum. For every `α ∈ R`, set*
+**Definition 7.2.1.** *Let $\mathcal{R}$ be an irreducible root datum. For every $\alpha \in R$, set*
 
 <!-- label: III.XXI.7.2.1 -->
 
-```text
-long(α) = ℓ(α)/ℓ(α_0),
-```
+$$
+long(\alpha) = \ell(\alpha)/\ell(\alpha_{0}),
+$$
 
-*where `α_0 ∈ R` is such that `ℓ(α_0)` is minimal; one says that `long(α)` is the* length *of `α`.*
+*where $\alpha_{0} \in R$ is such that $\ell(\alpha_{0})$ is minimal; one says that $long(\alpha)$ is the* length *of
+$\alpha$.*
 
-**Lemma 7.2.2.** *Let `ℛ` be an irreducible root datum. The Weyl group operates transitively on the set of roots of the
-same length.*
+**Lemma 7.2.2.** *Let $\mathcal{R}$ be an irreducible root datum. The Weyl group operates transitively on the set of
+roots of the same length.*
 
 <!-- label: III.XXI.7.2.2 -->
 
-*Proof.* Indeed, let `α, β ∈ R`. Since the representation of `W` on `V(R)` is irreducible, `α` cannot be orthogonal to
-all the `w(β)`, `w ∈ W`. There exists therefore `w ∈ W` with `w(β)` non-orthogonal to `α`. Now `ℓ(w(β)) = ℓ(β)`, and one
-concludes by 2.3.2.
+*Proof.* Indeed, let $\alpha, \beta \in R$. Since the representation of $W$ on $V(R)$ is irreducible, $\alpha$ cannot be
+orthogonal to all the $w(\beta)$, $w \in W$. There exists therefore $w \in W$ with $w(\beta)$ non-orthogonal to
+$\alpha$. Now $\ell(w(\beta)) = \ell(\beta)$, and one concludes by 2.3.2.
 
-**Lemma 7.2.3.** *If `ℛ` is irreducible and reduced, then `long(R)` is `{1}`, `{1, 2}`, or `{1, 3}`.*
+**Lemma 7.2.3.** *If $\mathcal{R}$ is irreducible and reduced, then $long(R)$ is `{1}`, `{1, 2}`, or `{1, 3}`.*
 
 <!-- label: III.XXI.7.2.3 -->
 
 <!-- original page 103 -->
 
-*Proof.* By virtue of the remark used above, for every `α, β ∈ R`, there always exists `w ∈ W` such that `w(β)` is not
-orthogonal to `β`. One thus has `ℓ(α)/ℓ(β) = 1, 2, 3, 1/2`, or `1/3` (by 2.3.1). One has therefore `long(α) = 1, 2`, or
-`3`, but if `long(α) = 2`, `long(β) = 3`, then `ℓ(α)/ℓ(β) = 2/3`, which is impossible.
+*Proof.* By virtue of the remark used above, for every $\alpha, \beta \in R$, there always exists $w \in W$ such that
+$w(\beta)$ is not orthogonal to $\beta$. One thus has $\ell(\alpha)/\ell(\beta) = 1, 2, 3, 1/2$, or `1/3` (by 2.3.1).
+One has therefore $long(\alpha) = 1, 2$, or `3`, but if $long(\alpha) = 2$, $long(\beta) = 3$, then
+$\ell(\alpha)/\ell(\beta) = 2/3$, which is impossible.
 
-**Remark 7.2.4.** *Reasoning similarly, one proves the following result: if `ℛ` is irreducible and not reduced with
-`rgss(ℛ) > 1`, one has `long(R) = {1, 2, 4}`. If one sets `long⁻¹(i) = R_i`, then `ind(R) = R_1 ∪ R_2`, `R_4 = 2 R_1`,
-and two non-proportional roots of `R_1` are orthogonal. Conversely, if `R` is an irreducible and reduced system such
-that `long(R) = {1, 2}`, set `long⁻¹(i) = R_i` and suppose that two non-proportional roots of `R_1` are orthogonal; then
-`R ∪ 2 R_1` is irreducible, not reduced, and `ind(R ∪ 2 R_1) = R`.*
+**Remark 7.2.4.** *Reasoning similarly, one proves the following result: if $\mathcal{R}$ is irreducible and not reduced
+with $rgss(\mathcal{R}) > 1$, one has $long(R) = {1, 2, 4}$. If one sets $long^{-1}(i) = R_{i}$, then
+$ind(R) = R_{1} \cup R_{2}$, $R_{4} = 2 R_{1}$, and two non-proportional roots of `R_1` are orthogonal. Conversely, if
+$R$ is an irreducible and reduced system such that $long(R) = {1, 2}$, set $long^{-1}(i) = R_{i}$ and suppose that two
+non-proportional roots of `R_1` are orthogonal; then $R \cup 2 R_{1}$ is irreducible, not reduced, and
+$ind(R \cup 2 R_{1}) = R$.*
 
 <!-- label: III.XXI.7.2.4 -->
 
-**Lemma 7.2.5.** *If `ℛ` is an irreducible root datum, `ℛ*` also is, and the product `long(α) long(α*)` is constant as
-`α` runs over `R`.*
+**Lemma 7.2.5.** *If $\mathcal{R}$ is an irreducible root datum, $\mathcal{R}*$ also is, and the product
+$long(\alpha) long(\alpha*)$ is constant as $\alpha$ runs over $R$.*
 
 <!-- label: III.XXI.7.2.5 -->
 
@@ -2886,26 +3018,27 @@ that `long(R) = {1, 2}`, set `long⁻¹(i) = R_i` and suppose that two non-propo
 
 *Proof.* This follows at once from 7.1.3 (iv) and 2.2.6.
 
-**Definition 7.2.6.** *Let `ℛ` be any root datum. One calls* length *of `α ∈ R` and denotes by `long(α)` the length of
-`α` in its irreducible component.*
+**Definition 7.2.6.** *Let $\mathcal{R}$ be any root datum. One calls* length *of $\alpha \in R$ and denotes by
+$long(\alpha)$ the length of $\alpha$ in its irreducible component.*
 
 <!-- label: III.XXI.7.2.6 -->
 
-**Lemma 7.2.7.** *There exists a unique group homomorphism `u : Γ₀(R) → Γ₀(R*)` such that `u(α) = long(α) α*` for
-`α ∈ R`.*
+**Lemma 7.2.7.** *There exists a unique group homomorphism $u : \Gamma_{0}(R) \to \Gamma_{0}(R*)$ such that
+$u(\alpha) = long(\alpha) \alpha*$ for $\alpha \in R$.*
 
 <!-- label: III.XXI.7.2.7 -->
 
-*Proof.* By 3.5.5, it suffices to verify that if `α, β, α + β ∈ R`, one has
+*Proof.* By 3.5.5, it suffices to verify that if $\alpha, \beta, \alpha + \beta \in R$, one has
 
 ```text
 long(α) α* + long(β) β* = long(α + β) (α + β)*.
 ```
 
-But `α`, `β`, and `α + β` are in the same irreducible component of `R` by 7.1.2, and one is reduced to 1.2.2.
+But $\alpha$, $\beta$, and $\alpha + \beta$ are in the same irreducible component of $R$ by 7.1.2, and one is reduced to
+1.2.2.
 
-**Remark 7.2.8.** *Let `u` be as in 7.2.7. For `α, β ∈ R`, one has `(u(α), β) = (u(β), α)`. Indeed, this amounts to
-seeing that*
+**Remark 7.2.8.** *Let $u$ be as in 7.2.7. For $\alpha, \beta \in R$, one has $(u(\alpha), \beta) = (u(\beta), \alpha)$.
+Indeed, this amounts to seeing that*
 
 <!-- label: III.XXI.7.2.8 -->
 
@@ -2913,29 +3046,29 @@ seeing that*
 long(α) (α*, β) = long(β) (β*, α),
 ```
 
-*which is obviously verified if `α` and `β` are orthogonal. If `α` and `β` are not orthogonal, then they are in the same
-irreducible component of `R`, and one is reduced to 1.2.1, formula (9).*
+*which is obviously verified if $\alpha$ and $\beta$ are orthogonal. If $\alpha$ and $\beta$ are not orthogonal, then
+they are in the same irreducible component of $R$, and one is reduced to 1.2.1, formula (9).*
 
-**Remark 7.2.9.** *The symmetric bilinear form `(u(x), y)` is positive nondegenerate on `Γ₀(R)`.*
+**Remark 7.2.9.** *The symmetric bilinear form `(u(x), y)` is positive nondegenerate on $\Gamma_{0}(R)$.*
 
 <!-- label: III.XXI.7.2.9 -->
 
-*Proof.* Indeed, let `R_i` be the irreducible components of `R`. One has
+*Proof.* Indeed, let $R_{i}$ be the irreducible components of $R$. One has
 
-```text
-Γ₀(R) = ∏_i Γ₀(R_i),
-```
+$$
+\Gamma_{0}(R) = \prod_{i} \Gamma_{0}(R_{i}),
+$$
 
 and the bilinear form `(u(x), y)` is the product of the forms
 
-```text
-2⁻¹ ℓ(α_i)⁻¹ (p(x), y)
-```
+$$
+2^{-1} \ell(\alpha_{i})^{-1} (p(x), y)
+$$
 
 <!-- original page 149 -->
 
-on the `Γ₀(R_i)`, where `ℓ(α_i)` is the minimum of `ℓ(α)` for `α ∈ R_i`. Now these various symmetric bilinear forms are
-positive nondegenerate (1.2.6).
+on the $\Gamma_{0}(R_{i})$, where $\ell(\alpha_{i})$ is the minimum of $\ell(\alpha)$ for $\alpha \in R_{i}$. Now these
+various symmetric bilinear forms are positive nondegenerate (1.2.6).
 
 <!-- original page 104 -->
 
@@ -2943,42 +3076,43 @@ positive nondegenerate (1.2.6).
 
 <!-- label: III.XXI.7.3 -->
 
-Let `ℛ` be a root datum. If `Δ` is a system of simple roots, one calls *Cartan matrix* of `ℛ` relative to `Δ` the square
-matrix on the index set `Δ` defined by
+Let $\mathcal{R}$ be a root datum. If $\Delta$ is a system of simple roots, one calls *Cartan matrix* of $\mathcal{R}$
+relative to $\Delta$ the square matrix on the index set $\Delta$ defined by
 
 ```text
 a_{α,β} = (α*, β),    for α, β ∈ Δ.
 ```
 
-Let us first remark that if `Δ'` is another system of simple roots and `w` an element of `W(ℛ)` such that `w(Δ) = Δ'`,
-one has
+Let us first remark that if $\Delta'$ is another system of simple roots and $w$ an element of $W(\mathcal{R})$ such that
+$w(\Delta) = \Delta'$, one has
 
 ```text
 (w(α)*, w(β)) = (α*, β),
 ```
 
-so the Cartan matrix of `ℛ` relative to `Δ'` is obtained from that relative to `Δ` by the isomorphism `Δ → Δ'` on the
-index set defined by `w`. It follows that, up to isomorphism on the index set, the Cartan matrix depends only on `ℛ`.
+so the Cartan matrix of $\mathcal{R}$ relative to $\Delta'$ is obtained from that relative to $\Delta$ by the
+isomorphism $\Delta \to \Delta'$ on the index set defined by $w$. It follows that, up to isomorphism on the index set,
+the Cartan matrix depends only on $\mathcal{R}$.
 
 **Proposition 7.3.1.** *The Cartan matrix has the following properties:*
 
 <!-- label: III.XXI.7.3.1 -->
 
-*(i) `a_{α,α} = 2`, `a_{α,β} ⩽ 0` for `α ≠ β`.*
+*(i) $a_{\alpha,\alpha} = 2$, $a_{\alpha,\beta} \leqslant 0$ for $\alpha \neq \beta$.*
 
-*(ii) `a_{α,β} = 0` entails `a_{β,α} = 0`.*
+*(ii) $a_{\alpha,\beta} = 0$ entails $a_{\beta,\alpha} = 0$.*
 
-*(iii) There exist strictly positive integers `m_α` (`= long(α)`) such that the matrix*
+*(iii) There exist strictly positive integers $m_{\alpha}$ ($= long(\alpha)$) such that the matrix*
 
-```text
-(m_α a_{α,β})
-```
+$$
+(m_{\alpha} a_{\alpha,\beta})
+$$
 
 *is symmetric, positive, and nondegenerate.*
 
 <!-- original page 150 -->
 
-*(iv) The diagonal minors of the matrix `(a_{α,β})_{α, β ∈ Δ}`, i.e. the determinants*
+*(iv) The diagonal minors of the matrix $(a_{\alpha,\beta})_{\alpha, \beta \in \Delta}$, i.e. the determinants*
 
 ```text
 det(a_{α,β})_{α, β ∈ Δ'}    for Δ' ⊂ Δ,
@@ -2986,7 +3120,8 @@ det(a_{α,β})_{α, β ∈ Δ'}    for Δ' ⊂ Δ,
 
 *are strictly positive.*
 
-*(v) One has `s_α(β) = β − a_{α,β} α` and `s_α(β*) = β* − a_{β,α} α*`.*
+*(v) One has $s_{\alpha}(\beta) = \beta - a_{\alpha,\beta} \alpha$ and
+$s_{\alpha}(\beta*) = \beta* - a_{\beta,\alpha} \alpha*$.*
 
 *Proof.* Indeed, (v) is a definition, (i) follows from 3.2.11, (ii) from 2.2.2, (iii) from 7.2.9, (iv) follows at once
 from (iii) by the relation
@@ -2995,42 +3130,44 @@ from (iii) by the relation
 det(m_α a_{α,β})_{α, β ∈ Δ'} = (∏_{α ∈ Δ'} m_α) det(a_{α,β})_{α, β ∈ Δ'}.
 ```
 
-**Proposition 7.3.2.** *Let `ℛ` and `ℛ'` be two simply connected (resp. adjoint) reduced root data, `Δ` (resp. `Δ'`) a
-system of simple roots of `ℛ` (resp. `ℛ'`), and `u : Δ → Δ'` an isomorphism such that if one denotes by `(a_{α,β})` and
-`(a'_{α',β'})` the Cartan matrices of `ℛ` and `ℛ'` relative to `Δ` and `Δ'`, one has:*
+**Proposition 7.3.2.** *Let $\mathcal{R}$ and $\mathcal{R}'$ be two simply connected (resp. adjoint) reduced root data,
+$\Delta$ (resp. $\Delta'$) a system of simple roots of $\mathcal{R}$ (resp. $\mathcal{R}'$), and
+$u : \Delta \to \Delta'$ an isomorphism such that if one denotes by $(a_{\alpha,\beta})$ and $(a'_{\alpha',\beta'})$ the
+Cartan matrices of $\mathcal{R}$ and $\mathcal{R}'$ relative to $\Delta$ and $\Delta'$, one has:*
 
 <!-- label: III.XXI.7.3.2 -->
 
-```text
-a'_{u(α), u(β)} = a_{α,β}.
-```
+$$
+a'_{u(\alpha), u(\beta)} = a_{\alpha,\beta}.
+$$
 
-*Then there exists a unique isomorphism of `ℛ` onto `ℛ'` that induces `u` on `Δ`.*
+*Then there exists a unique isomorphism of $\mathcal{R}$ onto $\mathcal{R}'$ that induces $u$ on $\Delta$.*
 
-*Proof.* It evidently suffices to make the proof in the adjoint case. Then `M = Γ₀(R)` and `M' = Γ₀(R')` are the free
-abelian groups generated by `Δ` and `Δ'`. There exists therefore a unique isomorphism of groups of `M` onto `M'` that
-induces `u` on `Δ`. Denote it also `u`. Let us show that `u(R) ⊂ R'`. Every root `α` of `R` is written
-`s_{α_1} ⋯ s_{α_n}(α_{n+1})` with `α_i ∈ Δ`. One has obviously
+*Proof.* It evidently suffices to make the proof in the adjoint case. Then $M = \Gamma_{0}(R)$ and $M' = \Gamma_{0}(R')$
+are the free abelian groups generated by $\Delta$ and $\Delta'$. There exists therefore a unique isomorphism of groups
+of $M$ onto $M'$ that induces $u$ on $\Delta$. Denote it also $u$. Let us show that $u(R) \subset R'$. Every root
+$\alpha$ of $R$ is written $s_{\alpha_{1}} \cdots s_{\alpha_{n}}(\alpha_{n+1})$ with $\alpha_{i} \in \Delta$. One has
+obviously
 
-```text
-u(α) = s_{u(α_1)} ⋯ s_{u(α_n)}(u(α_{n+1})),
-```
+$$
+u(\alpha) = s_{u(\alpha_{1})} \cdots s_{u(\alpha_{n})}(u(\alpha_{n+1})),
+$$
 
 <!-- original page 151 -->
 
-by virtue of the hypothesis on `u` and the relations (v) of 7.3.1.
+by virtue of the hypothesis on $u$ and the relations (v) of 7.3.1.
 
-It remains to prove that `ᵗu(R'*) ⊂ R*`, which follows from the fact that the elements of `M*` (resp. `M'*`) are
-determined by the duality with `R` or `Δ` (resp. `R'` or `Δ'`), by 1.2.5.
+It remains to prove that ${}^{t}u(R'*) \subset R*$, which follows from the fact that the elements of $M*$ (resp. $M'*$)
+are determined by the duality with $R$ or $\Delta$ (resp. $R'$ or $\Delta'$), by 1.2.5.
 
 **Corollary 7.3.3.** *A reduced simply connected or adjoint root datum is determined up to isomorphism by its Cartan
 matrix.*
 
 <!-- label: III.XXI.7.3.3 -->
 
-**Corollary 7.3.4.** *Let `ℛ` be a reduced simply connected (resp. adjoint) root datum, and `Δ` a system of simple
-roots. The group `E_Δ(ℛ)` is identified with the group of automorphisms of the set `Δ` that leave the Cartan matrix
-invariant.*
+**Corollary 7.3.4.** *Let $\mathcal{R}$ be a reduced simply connected (resp. adjoint) root datum, and $\Delta$ a system
+of simple roots. The group $E_{\Delta}(\mathcal{R})$ is identified with the group of automorphisms of the set $\Delta$
+that leave the Cartan matrix invariant.*
 
 <!-- label: III.XXI.7.3.4 -->
 
@@ -3044,14 +3181,14 @@ invariant.*
 <!-- label: III.XXI.7.4 -->
 
 **Definition 7.4.1.** *One calls a* Dynkin diagram structure *(the word "schéma" having been banished for obvious
-reasons) on a finite set `Δ` the data of a set of pairs of distinct elements of `Δ`, called* linked pairs, *and of a map
-from `Δ` to the set `{1, 2, 3}`. The notion of isomorphism of such structures is obvious.*
+reasons) on a finite set $\Delta$ the data of a set of pairs of distinct elements of $\Delta$, called* linked pairs,
+*and of a map from $\Delta$ to the set `{1, 2, 3}`. The notion of isomorphism of such structures is obvious.*
 
 <!-- label: III.XXI.7.4.1 -->
 
-**Definition 7.4.2.** *Let `ℛ` be a root datum and `Δ` a system of simple roots. One calls* Dynkin diagram *of `ℛ`
-relative to `Δ` the set `Δ`, two simple roots being linked if and only if they are non-orthogonal, with each root being
-assigned its length.*
+**Definition 7.4.2.** *Let $\mathcal{R}$ be a root datum and $\Delta$ a system of simple roots. One calls* Dynkin
+diagram *of $\mathcal{R}$ relative to $\Delta$ the set $\Delta$, two simple roots being linked if and only if they are
+non-orthogonal, with each root being assigned its length.*
 
 <!-- label: III.XXI.7.4.2 -->
 
@@ -3073,16 +3210,17 @@ and the relation
 long(α) a_{α,β} = long(β) a_{β,α},
 ```
 
-(with `inf long(α) = 1` in each connected component of the diagram) determine the `a_{α,β}` as a function of the
-linkages and lengths, and conversely (the details of the verification are left to the reader).
+(with $\inf long(\alpha) = 1$ in each connected component of the diagram) determine the $a_{\alpha,\beta}$ as a function
+of the linkages and lengths, and conversely (the details of the verification are left to the reader).
 
 **Corollary 7.4.4.** *A reduced simply connected or adjoint root datum is determined by its Dynkin diagram.*
 
 <!-- label: III.XXI.7.4.4 -->
 
-**Corollary 7.4.5.** *Let `ℛ` be a reduced simply connected or adjoint root datum and `Δ` a system of simple roots. The
-group `E_Δ(ℛ)` is identified with the group of automorphisms of the Dynkin diagram of `ℛ` relative to `Δ`, that is to
-say with the group of permutations of `Δ` preserving lengths and linkages.*
+**Corollary 7.4.5.** *Let $\mathcal{R}$ be a reduced simply connected or adjoint root datum and $\Delta$ a system of
+simple roots. The group $E_{\Delta}(\mathcal{R})$ is identified with the group of automorphisms of the Dynkin diagram of
+$\mathcal{R}$ relative to $\Delta$, that is to say with the group of permutations of $\Delta$ preserving lengths and
+linkages.*
 
 <!-- label: III.XXI.7.4.5 -->
 
@@ -3116,7 +3254,7 @@ finds the well-known types:*
        1 ⇛ 3                                  G₂.
 ```
 
-By 7.4.5, one finds at once the corresponding group `E_Δ(ℛ)`; one has:
+By 7.4.5, one finds at once the corresponding group $E_{\Delta}(\mathcal{R})$; one has:
 
 ```text
 E_Δ(ℛ) = {e}      for A₁, Bₙ, Cₙ, E₇, E₈, F₄, G₂.
@@ -3124,15 +3262,15 @@ E_Δ(ℛ) = ℤ/2ℤ    for Aₙ (n ⩾ 2), Dₙ (n ⩾ 5), E₆.
 E_Δ(ℛ) = S₃      for D₄.
 ```
 
-### 7.5. Complements on `p`-morphisms
+### 7.5. Complements on $p$-morphisms
 
 <!-- label: III.XXI.7.5 -->
 
-Let `f : ℛ → ℛ'` be a `p`-morphism (cf. 6.8). It is clear from the definitions that the bijection `u : R ⥲ R'`
-associated with `f` makes systems of simple roots, systems of positive roots, irreducible components (etc.) of `R` and
-`R'` correspond. Suppose therefore, for simplicity, `R` and `R'` irreducible.
+Let $f : \mathcal{R} \to \mathcal{R}'$ be a $p$-morphism (cf. 6.8). It is clear from the definitions that the bijection
+$u : R \xrightarrow{\sim} R'$ associated with $f$ makes systems of simple roots, systems of positive roots, irreducible
+components (etc.) of $R$ and $R'$ correspond. Suppose therefore, for simplicity, $R$ and $R'$ irreducible.
 
-**Lemma 7.5.1.** *If `R` and `R'` are irreducible, there exists `k ∈ ℚ` such that for every `α ∈ R`*
+**Lemma 7.5.1.** *If $R$ and $R'$ are irreducible, there exists $k \in \mathbb{Q}$ such that for every $\alpha \in R$*
 
 <!-- label: III.XXI.7.5.1 -->
 
@@ -3142,13 +3280,13 @@ k long(u(α)) = q(α)² long(α).
 
 <!-- original page 154 -->
 
-*Proof.* Indeed, one has `long(α) (α*, β) = long(β) (β*, α)` and, similarly,
+*Proof.* Indeed, one has $long(\alpha) (\alpha*, \beta) = long(\beta) (\beta*, \alpha)$ and, similarly,
 
 ```text
 long(u(α)) (u(α)*, u(β)) = long(u(β)) (u(β)*, u(α)).
 ```
 
-One deduces at once that for non-orthogonal `α` and `β`, one has
+One deduces at once that for non-orthogonal $\alpha$ and $\beta$, one has
 
 ```text
 q(α)² long(α) / long(u(α)) = q(β)² long(β) / long(u(β))
@@ -3156,10 +3294,10 @@ q(α)² long(α) / long(u(α)) = q(β)² long(β) / long(u(β))
 
 and one concludes then by 7.1.3 (iv).
 
-**Remark 7.5.2.** *It follows from 7.2.2 and 6.8.4 that `q(α)` depends only on `long(α)`. One then sees easily that if
-`q(α)` is not constant, then `q(α) long(α)` is constant, which shows that then `p = 2` or `3`. A glance at the diagrams
-of the preceding number shows that there are four possible cases (we denote by the same letter a Dynkin diagram and the
-corresponding simply connected reduced root datum):*
+**Remark 7.5.2.** *It follows from 7.2.2 and 6.8.4 that $q(\alpha)$ depends only on $long(\alpha)$. One then sees easily
+that if $q(\alpha)$ is not constant, then $q(\alpha) long(\alpha)$ is constant, which shows that then $p = 2$ or `3`. A
+glance at the diagrams of the preceding number shows that there are four possible cases (we denote by the same letter a
+Dynkin diagram and the corresponding simply connected reduced root datum):*
 
 <!-- label: III.XXI.7.5.2 -->
 
@@ -3169,32 +3307,33 @@ p = 2,    F₄ ──g──→ F₄.
 p = 3,    G₂ ──h──→ G₂.
 ```
 
-*The reader will note that `f_1 ∘ f_2`, `f_2 ∘ f_1`, `g ∘ g`, and `h ∘ h` are `p`-morphisms of the form described in
-6.8.6.*
+*The reader will note that $f_{1} \circ f_{2}$, $f_{2} \circ f_{1}$, $g \circ g$, and $h \circ h$ are $p$-morphisms of
+the form described in 6.8.6.*
 
-**7.5.3.** One sees at once from the preceding description that if `ℛ` and `ℛ'` are two reduced root data of semisimple
-rank `⩽ 2` and if one has a `p`-morphism from `ℛ'` to `ℛ`, then `ℛ` and `ℛ'` are of the same type. More precisely, one
-has the following table.
+**7.5.3.** One sees at once from the preceding description that if $\mathcal{R}$ and $\mathcal{R}'$ are two reduced root
+data of semisimple rank $\leqslant 2$ and if one has a $p$-morphism from $\mathcal{R}'$ to $\mathcal{R}$, then
+$\mathcal{R}$ and $\mathcal{R}'$ are of the same type. More precisely, one has the following table.
 
 <!-- label: III.XXI.7.5.3 -->
 
-**Notations.** Let `f : ℛ' → ℛ` be a `p`-morphism. We denote by `q` (resp. `q_1`) any positive power of `p`. We use for
-the rank-2 systems the notations of number 4 (we denote by `α, β` the simple roots, with `ℓ(α) ⩽ ℓ(β)`).
+**Notations.** Let $f : \mathcal{R}' \to \mathcal{R}$ be a $p$-morphism. We denote by $q$ (resp. $q_{1}$) any positive
+power of $p$. We use for the rank-2 systems the notations of number 4 (we denote by $\alpha, \beta$ the simple roots,
+with $\ell(\alpha) \leqslant \ell(\beta)$).
 
 <!-- original page 155 -->
 
-| Type         | `p`     | values of `f`   | values of `ᵗf`     |
-| ------------ | ------- | --------------- | ------------------ |
-| Trivial      | any     | −               | −                  |
-| `A₁`         | any     | `f(α') = q α`   | `ᵗf(α*) = q α'*`   |
-| `A₁ × A₁`    | any     | `f(α') = q α`   | `ᵗf(α*) = q α'*`   |
-|              |         | `f(β') = q_1 β` | `ᵗf(β*) = q_1 β'*` |
-| `A₂, B₂, G₂` | any     | `f(α') = q α`   | `ᵗf(α*) = q α'*`   |
-|              |         | `f(β') = q β`   | `ᵗf(β*) = q β'*`   |
-| `B₂`         | `p = 2` | `f(α') = q β`   | `ᵗf(α*) = 2 q β'*` |
-|              |         | `f(β') = 2 q α` | `ᵗf(β*) = q α'*`   |
-| `G₂`         | `p = 3` | `f(α') = q β`   | `ᵗf(α*) = 3 q β'*` |
-|              |         | `f(β') = 3 q α` | `ᵗf(β*) = q α'*`   |
+| Type                  | $p$     | values of $f$             | values of `ᵗf`                    |
+| --------------------- | ------- | ------------------------- | --------------------------------- |
+| Trivial               | any     | −                         | −                                 |
+| $A_{1}$               | any     | $f(\alpha') = q \alpha$   | ${}^{t}f(\alpha*) = q \alpha'*$   |
+| $A_{1} \times A_{1}$  | any     | $f(\alpha') = q \alpha$   | ${}^{t}f(\alpha*) = q \alpha'*$   |
+|                       |         | $f(\beta') = q_{1} \beta$ | ${}^{t}f(\beta*) = q_{1} \beta'*$ |
+| $A_{2}, B_{2}, G_{2}$ | any     | $f(\alpha') = q \alpha$   | ${}^{t}f(\alpha*) = q \alpha'*$   |
+|                       |         | $f(\beta') = q \beta$     | ${}^{t}f(\beta*) = q \beta'*$     |
+| $B_{2}$               | $p = 2$ | $f(\alpha') = q \beta$    | ${}^{t}f(\alpha*) = 2 q \beta'*$  |
+|                       |         | $f(\beta') = 2 q \alpha$  | ${}^{t}f(\beta*) = q \alpha'*$    |
+| $G_{2}$               | $p = 3$ | $f(\alpha') = q \beta$    | ${}^{t}f(\alpha*) = 3 q \beta'*$  |
+|                       |         | $f(\beta') = 3 q \alpha$  | ${}^{t}f(\beta*) = q \alpha'*$    |
 
 <!-- original page 108 -->
 
@@ -3249,21 +3388,21 @@ the rank-2 systems the notations of number 4 (we denote by `α, β` the simple r
 
 [^N.D.E-XXI-1]: N.D.E.: For the results on root systems (§§ 1–5), one may consult [BLie], Chap. VI.
 
-[^N.D.E-XXI-2]: N.D.E.: Note that `(α*)* = α`.
+[^N.D.E-XXI-2]: N.D.E.: Note that $(\alpha*)* = \alpha$.
 
 [^N.D.E-XXI-3]: N.D.E.: (8) follows from (4), (2) and (DR II).
 
-[^N.D.E-XXI-4]: N.D.E.: with equality if and only if `x` and `y` are proportional.
+[^N.D.E-XXI-4]: N.D.E.: with equality if and only if $x$ and $y$ are proportional.
 
-[^N.D.E-XXI-5]: N.D.E.: We have corrected `+ 2p` to `− 2p`.
+[^N.D.E-XXI-5]: N.D.E.: We have corrected $+ 2p$ to $- 2p$.
 
 [^N.D.E-XXI-6]: N.D.E.: We have added these complements, useful for the proof of 3.1.5.
 
 [^N.D.E-XXI-7]: N.D.E.: In what follows, we have modified the order and detailed the proof of the implication (iii) ⇒
     (i).
 
-[^N.D.E-XXI-8]: N.D.E.: We have added the following sentence, and in 3.1.11 we have replaced `4 a_α ℓ(α)` by
-    `2 a_α ℓ(α)`.
+[^N.D.E-XXI-8]: N.D.E.: We have added the following sentence, and in 3.1.11 we have replaced $4 a_{\alpha} \ell(\alpha)$
+    by $2 a_{\alpha} \ell(\alpha)$.
 
 [^N.D.E-XXI-9]: N.D.E.: We have inserted this definition here.
 
@@ -3271,14 +3410,14 @@ the rank-2 systems the notations of number 4 (we denote by `α, β` the simple r
 
 [^N.D.E-XXI-11]: N.D.E.: We have corrected the original in what follows.
 
-[^N.D.E-XXI-12]: N.D.E.: Indeed, by 3.1.5, it suffices to verify the formula for `α ∈ Δ`. Now, by 3.5.1 applied to `ℛ*`,
-    one has in this case `(ρ*_{R₊}, α) = 1 = ord_{𝒮(R₊)}(α)`.
+[^N.D.E-XXI-12]: N.D.E.: Indeed, by 3.1.5, it suffices to verify the formula for $\alpha \in \Delta$. Now, by 3.5.1
+    applied to $\mathcal{R}*$, one has in this case $(\rho*_{R_{+}}, \alpha) = 1 = ord_{\mathcal{S}(R_{+})}(\alpha)$.
 
-[^N.D.E-XXI-13]: N.D.E.: We have modified the original, to take into account the case where `2α` could be a root.
+[^N.D.E-XXI-13]: N.D.E.: We have modified the original, to take into account the case where $2\alpha$ could be a root.
 
-[^N.D.E-XXI-14]: N.D.E.: We have replaced `ℚ` by `ℝ`.
+[^N.D.E-XXI-14]: N.D.E.: We have replaced $\mathbb{Q}$ by $\mathbb{R}$.
 
-[^N.D.E-XXI-15]: N.D.E.: We have added the definition of the hyperplanes `H_α`.
+[^N.D.E-XXI-15]: N.D.E.: We have added the definition of the hyperplanes $H_{\alpha}$.
 
 [^N.D.E-XXI-16]: N.D.E.: We have added the numbering 4.0 for later references.
 
@@ -3286,39 +3425,43 @@ the rank-2 systems the notations of number 4 (we denote by `α, β` the simple r
     (see [BLie], § V.3, Th. 1). *N.D.E.: we have specified the reference and placed here this Note, which in the
     original appeared in 4.2.*
 
-[^N.D.E-XXI-17]: N.D.E.: Let `ρ` be the half-sum of the positive roots (cf. 3.5.1); if one sets, as in 4.2 below,
-    `w_0 = 1`, `w_1 = s_α`, `w_2 = s_β s_α`, `w_3 = s_α s_β s_α`, etc., then `u_k` is nothing other than
-    `ρ − w_{k−1}(ρ)`, which proves (i) since `w_{2n} = id`.
+[^N.D.E-XXI-17]: N.D.E.: Let $\rho$ be the half-sum of the positive roots (cf. 3.5.1); if one sets, as in 4.2 below,
+    $w_{0} = 1$, $w_{1} = s_{\alpha}$, $w_{2} = s_{\beta} s_{\alpha}$, $w_{3} = s_{\alpha} s_{\beta} s_{\alpha}$, etc.,
+    then $u_{k}$ is nothing other than $\rho - w_{k-1}(\rho)$, which proves (i) since $w_{2n} = id$.
 
-[^N.D.E-XXI-18]: N.D.E.: We have corrected the original, to be in agreement with the convention `ℓ(α) ⩽ ℓ(β)` of 4.0.
+[^N.D.E-XXI-18]: N.D.E.: We have corrected the original, to be in agreement with the convention
+    $\ell(\alpha) \leqslant \ell(\beta)$ of 4.0.
 
 [^N.D.E-XXI-19]: N.D.E.: Taking into account N.D.E. (17), this follows immediately from 3.5.1 and 1.1.9: one has
-    `n_k + m_k = (x − w_k(x), ρ) = (x, ρ − w_{k−1}(ρ)) = (x, u_k)`.
+    $n_{k} + m_{k} = (x - w_{k}(x), \rho) = (x, \rho - w_{k-1}(\rho)) = (x, u_{k})$.
 
 [^N.D.E-XXI-20]: N.D.E.: We have corrected the statement.
 
-[^N.D.E-XXI-21]: N.D.E.: Indeed, the hypotheses are equivalent to saying that `(γ, α*) > 0` and `(γ, β*) ⩾ 0`; then
-    `γ − w(γ)` belongs to `ℕ α + ℕ β` for every `w ∈ W_{α,β}`, and is `≠ 0` if `w ∉ {1, s_β}`.
+[^N.D.E-XXI-21]: N.D.E.: Indeed, the hypotheses are equivalent to saying that $(\gamma, \alpha*) > 0$ and
+    $(\gamma, \beta*) \geqslant 0$; then $\gamma - w(\gamma)$ belongs to $\mathbb{N} \alpha + \mathbb{N} \beta$ for
+    every $w \in W_{\alpha,\beta}$, and is $\neq 0$ if $w \notin {1, s_{\beta}}$.
 
 [^N.D.E-XXI-22]: N.D.E.: We have detailed the original in what follows.
 
-[^N.D.E-XXI-23]: N.D.E.: We have written `R⁺` here instead of `R₊`, in order to be able to write
-    `R⁺_{α,β} = R_{α,β} ∩ R⁺`.
+[^N.D.E-XXI-23]: N.D.E.: We have written $R^{+}$ here instead of $R_{+}$, in order to be able to write
+    $R^{+}_{\alpha,\beta} = R_{\alpha,\beta} \cap R^{+}$.
 
 [^N.D.E-XXI-24]: N.D.E.: In what follows, we have detailed the original, and we have corrected equality (1).
 
-[^N.D.E-XXI-25]: N.D.E.: That is, if one denotes `P = {y ∈ M* | (y, α) = 0 for all α ∈ R}` and `P* = M/(V(R) ∩ M)`, one
-    has `rad(ℛ) = (P*, P, ∅, ∅)`.
+[^N.D.E-XXI-25]: N.D.E.: That is, if one denotes $P = {y \in M* | (y, \alpha) = 0 for all \alpha \in R}$ and
+    $P* = M/(V(R) \cap M)$, one has $rad(\mathcal{R}) = (P*, P, \emptyset, \emptyset)$.
 
-[^N.D.E-XXI-26]: N.D.E.: We have replaced `Γ(ℛ)` by `Λ(ℛ)`, to avoid any risk of confusion with `Γ₀(R)`.
+[^N.D.E-XXI-26]: N.D.E.: We have replaced $\Gamma(\mathcal{R})$ by $\Lambda(\mathcal{R})$, to avoid any risk of
+    confusion with $\Gamma_{0}(R)$.
 
-[^XXI-6-1]: Warning: if the datum is not reduced, the `α_i` do not form a system of simple roots.
+[^XXI-6-1]: Warning: if the datum is not reduced, the $\alpha_{i}$ do not form a system of simple roots.
 
-[^N.D.E-XXI-27]: N.D.E.: when `ℛ` is simply connected or adjoint, see 7.4.5.
+[^N.D.E-XXI-27]: N.D.E.: when $\mathcal{R}$ is simply connected or adjoint, see 7.4.5.
 
-[^N.D.E-XXI-28]: N.D.E.: The exponent `s` is meant to suggest "semisimple".
+[^N.D.E-XXI-28]: N.D.E.: The exponent $s$ is meant to suggest "semisimple".
 
-[^N.D.E-XXI-29]: N.D.E.: Note that these two conditions entail `q(α) (u(α)*, u(β)) = q(β) (α*, β)`, for all `α, β ∈ R`.
+[^N.D.E-XXI-29]: N.D.E.: Note that these two conditions entail
+    $q(\alpha) (u(\alpha)*, u(\beta)) = q(\beta) (\alpha*, \beta)$, for all $\alpha, \beta \in R$.
 
 [^XXI-7-1]: Cf. Bourbaki, *Groupes et algèbres de Lie*, Chap. VI N° 4.2 or *Séminaire Sophus Lie*.
 

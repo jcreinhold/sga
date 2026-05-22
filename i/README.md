@@ -45,7 +45,7 @@ Files are numbered so alphanumeric order matches reading order.
 
 ## Reference convention
 
-Following the source, SGA 1 is cited as `(Exp. N, M.K)` where `N` is the Exposé Roman numeral and `M.K` is the decimal
+Following the source, SGA 1 is cited as `(Exp. N, M.K)` where $N$ is the Exposé Roman numeral and `M.K` is the decimal
 numbering inside that Exposé — for example `(V, 4.1)` for statement 4.1 of Exposé V. A bare `4.1` refers to the
 statement of that name in the same Exposé. Cross-references to other SGA volumes use the parallel form (e.g.
 `SGA 2 III, 1.2`), and citations to the *Éléments de Géométrie Algébrique* use `EGA X, x.y.z`.
@@ -53,30 +53,30 @@ statement of that name in the same Exposé. Cross-references to other SGA volume
 ## Editorial conventions
 
 - **Terminology**. SGA 1 retains the historical SGA/EGA distinction between *prescheme* (`préschéma`) and *scheme*
-    (`schéma`, in the older sense of separated prescheme); the translation honors this throughout. The Introduction
-    notes that the old term *simple morphism* was replaced during preparation by *smooth morphism*, and the translation
-    uses *smooth morphism* uniformly.
+  (`schéma`, in the older sense of separated prescheme); the translation honors this throughout. The Introduction notes
+  that the old term *simple morphism* was replaced during preparation by *smooth morphism*, and the translation uses
+  *smooth morphism* uniformly.
 
 - **Update markers `(MR)`**. The SMF re-edition incorporated several editorial updates by Michel Raynaud, delimited in
-    the source by square brackets `[ ]` and marked `(MR)`. These appear on pages X.2.14, XI.1.4, XII.5.6, XIII.2.13, and
-    footnote III.6.6.p24. The translation preserves the `(MR)` markers in place.
+  the source by square brackets `[ ]` and marked `(MR)`. These appear on pages X.2.14, XI.1.4, XII.5.6, XIII.2.13, and
+  footnote III.6.6.p24. The translation preserves the `(MR)` markers in place.
 
-- **Footnotes**. Original Séminaire footnotes use short slugs like `[^I-3-1]`. Footnotes added in the SMF re-edition are
-    reproduced verbatim where they appear in the source.
+- **Footnotes**. Original Séminaire footnotes use short slugs like $[{}^{I}-3-1]$. Footnotes added in the SMF re-edition
+  are reproduced verbatim where they appear in the source.
 
-- **Page marks**. HTML comments `<!-- original page N -->` mark the start of page `N` in the SMF re-edition, whose
-    pagination is preserved in the margin of the LaTeX source.
+- **Page marks**. HTML comments `<!-- original page N -->` mark the start of page $N$ in the SMF re-edition, whose
+  pagination is preserved in the margin of the LaTeX source.
 
 - **Mathematics**. Mathematics is written with Unicode and wrapped in backticks where formatter mangling is a risk (most
-    identifier-rich expressions). Displayed equations use fenced ```` ```text ```` blocks, optionally pinned with
-    `<!-- label: eq:N.X.Y -->`.
+  identifier-rich expressions). Displayed equations use fenced ```` ```text ```` blocks, optionally pinned with
+  `<!-- label: eq:N.X.Y -->`.
 
-- **Residue fields**. Per the SMF preface, the residue field of a point `x` is denoted `κ(x)`, and the residue field of
-    a local ring `A` is denoted `κ(A)`.
+- **Residue fields**. Per the SMF preface, the residue field of a point $x$ is denoted $\kappa(x)$, and the residue
+  field of a local ring $A$ is denoted $\kappa(A)$.
 
 ## Provenance
 
 This is a translation, not a critical edition. The authoritative text remains the French SMF *Documents Mathématiques*
-edition (arXiv `math.AG/0206203`, `orig=false` corrected variant) derived from the 1971 Springer LNM 224 typescript by
+edition (arXiv $math.AG/0206203$, $orig=false$ corrected variant) derived from the 1971 Springer LNM 224 typescript by
 the LaTeX 2e volunteer project of B. Edixhoven, with editorial updates by M. Raynaud. For any claim that matters
 mathematically, consult the source: this English version exists to make the volume readable, not to replace it.

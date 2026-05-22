@@ -9,22 +9,22 @@
 [^N.D.E-XXV-0] For the sake of completeness, we give in this Exposé a proof of the existence theorem for split groups.
 Like Chevalley's original proof ("Sur certains schémas de groupes semi-simples", *Séminaire Bourbaki*, May 1961, no.
 219), it rests on the existence of complex semisimple algebraic groups of all possible types. The principle of a more
-satisfactory proof, establishing directly the existence of a simply connected split semisimple `ℤ`-group corresponding
-to a given Cartan matrix, was given by Cartier (unpublished).[^N.D.E-XXV-1] Let us point out, however, that the
-difficulty is not to give an explicit construction of a group scheme, but to verify that the group thus constructed
-really meets the required conditions, that is, essentially, that its fibers are indeed smooth and reductive.
+satisfactory proof, establishing directly the existence of a simply connected split semisimple $\mathbb{Z}$-group
+corresponding to a given Cartan matrix, was given by Cartier (unpublished).[^N.D.E-XXV-1] Let us point out, however,
+that the difficulty is not to give an explicit construction of a group scheme, but to verify that the group thus
+constructed really meets the required conditions, that is, essentially, that its fibers are indeed smooth and reductive.
 
 ## 1. Statement of the theorem
 
 <!-- label: III.XXV.1 -->
 
-**Theorem 1.1.** *Let `S` be a non-empty scheme. The functor*
+**Theorem 1.1.** *Let $S$ be a non-empty scheme. The functor*
 
-```text
-G ↦ R(G)
-```
+$$
+G \mapsto R(G)
+$$
 
-*is an equivalence of the category of pinned `S`-reductive groups with the category of pinned reduced root data.*
+*is an equivalence of the category of pinned $S$-reductive groups with the category of pinned reduced root data.*
 
 <!-- label: III.XXV.1.1 -->
 
@@ -32,8 +32,8 @@ G ↦ R(G)
 
 By virtue of the uniqueness theorem (Exp. XXIII, 4.1), the preceding statement is equivalent to:
 
-**Corollary 1.2 (Existence of split groups).** *For every reduced root datum `R`, there exists a split reductive
-`ℤ`-group `G` such that `R(G) ≃ R`.*[^N.D.E-XXV-2]
+**Corollary 1.2 (Existence of split groups).** *For every reduced root datum $R$, there exists a split reductive
+$\mathbb{Z}$-group $G$ such that $R(G) \simeq R$.*[^N.D.E-XXV-2]
 
 <!-- label: III.XXV.1.2 -->
 
@@ -41,39 +41,40 @@ By virtue of the uniqueness theorem (Exp. XXIII, 4.1), the preceding statement i
 
 In particular:
 
-**Corollary 1.3.** *Let `k` be a field. For every splittable reductive `k`-group `G_k`, there exists a reductive
-`ℤ`-group `G` such that `G ⊗_ℤ k ≃ G_k`.*
+**Corollary 1.3.** *Let $k$ be a field. For every splittable reductive $k$-group $G_{k}$, there exists a reductive
+$\mathbb{Z}$-group $G$ such that $G \otimes_{\mathbb{Z}} k \simeq G_{k}$.*
 
 <!-- label: III.XXV.1.3 -->
 
 Conversely, let us remark first that to prove 1.2 it suffices, by Exp. XXII 4.3.1 and Exp. XXI 6.5.10, to consider the
-case where the root datum `R` is simply connected (and even irreducible if one insists, by Exp. XXI, 7.1.6).
+case where the root datum $R$ is simply connected (and even irreducible if one insists, by Exp. XXI, 7.1.6).
 
-On the other hand, under the conditions of 1.3, the group scheme `G` is of constant type (since `Spec(ℤ)` is connected),
-hence of type `R(G_k)`; by Exp. XXIII, 5.9, it follows that the validity of 1.3 for a given group `G_k` entails the
-existence of a split `ℤ`-group of type `R(G_k)`.[^N.D.E-XXV-3]
+On the other hand, under the conditions of 1.3, the group scheme $G$ is of constant type (since
+$\operatorname{Spec}(\mathbb{Z})$ is connected), hence of type $R(G_{k})$; by Exp. XXIII, 5.9, it follows that the
+validity of 1.3 for a given group $G_{k}$ entails the existence of a split $\mathbb{Z}$-group of type
+$R(G_{k})$.[^N.D.E-XXV-3]
 
-To prove 1.2, and hence 1.1, it therefore suffices to prove 1.3 when `k` is of characteristic zero (for example `k = ℂ`)
-and `G_k` is simply connected (and in particular semisimple), as well as:
+To prove 1.2, and hence 1.1, it therefore suffices to prove 1.3 when $k$ is of characteristic zero (for example
+$k = \mathbb{C}$) and $G_{k}$ is simply connected (and in particular semisimple), as well as:
 
-**Proposition 1.4.** *For every simply connected reduced root datum `R`, there exists a semisimple algebraic `ℂ`-group
-of type `R`.*
+**Proposition 1.4.** *For every simply connected reduced root datum $R$, there exists a semisimple algebraic
+$\mathbb{C}$-group of type $R$.*
 
 <!-- label: III.XXV.1.4 -->
 
-One may prove 1.4 in the following way. One knows first that there exists a complex semisimple Lie algebra `g` of type
-`R`, cf. for example N. Jacobson, *Lie Algebras*, ch. VII, Th. 5.[^N.D.E-XXV-4] Then `G = Aut(g)⁰` is a semisimple
-algebraic `ℂ`-group of type `ad(R)`.[^N.D.E-XXV-5] By *Bible*, § 23.1, Prop. 1, one deduces from this the existence of a
-semisimple `ℂ`-group of type `R`.
+One may prove 1.4 in the following way. One knows first that there exists a complex semisimple Lie algebra $g$ of type
+$R$, cf. for example N. Jacobson, *Lie Algebras*, ch. VII, Th. 5.[^N.D.E-XXV-4] Then $G = \operatorname{Aut}(g)^{0}$ is
+a semisimple algebraic $\mathbb{C}$-group of type $ad(R)$.[^N.D.E-XXV-5] By *Bible*, § 23.1, Prop. 1, one deduces from
+this the existence of a semisimple $\mathbb{C}$-group of type $R$.
 
-The rest of this Exposé is devoted to the proof of 1.3 for `k` of characteristic zero and `G_k` semisimple. It will be
-carried out in two stages: construction of a "piece of `ℤ`-group scheme" (n° 2), and study of the group obtained by
-application of the "theorem of Weil" (n° 3).
+The rest of this Exposé is devoted to the proof of 1.3 for $k$ of characteristic zero and $G_{k}$ semisimple. It will be
+carried out in two stages: construction of a "piece of $\mathbb{Z}$-group scheme" (n° 2), and study of the group
+obtained by application of the "theorem of Weil" (n° 3).
 
 <!-- original page 271 -->
 
-To avoid confusion, we shall not use in n° 2 the abbreviated notation `X_k` to denote the `k`-scheme `X ⊗_ℤ k`, where
-`X` is a `ℤ`-scheme.
+To avoid confusion, we shall not use in n° 2 the abbreviated notation $X_{k}$ to denote the $k$-scheme
+$X \otimes_{\mathbb{Z}} k$, where $X$ is a $\mathbb{Z}$-scheme.
 
 ## 2. Existence theorem: construction of a piece of group
 
@@ -83,46 +84,46 @@ To avoid confusion, we shall not use in n° 2 the abbreviated notation `X_k` to 
 
 <!-- label: III.XXV.2.1 -->
 
-Let us choose, once and for all, a splitting of `G_k`, denoted
+Let us choose, once and for all, a splitting of $G_{k}$, denoted
 
 ```text
 (G_k, T_k, M, R)
 ```
 
-(cf. Exp. XXII, 1.13), a system of simple roots `Δ` of `R` (defining the system of positive roots `R⁺`), a Chevalley
-system `(X_{α,k})_{α∈R}` of `G_k` (Exp. XXIII, 6.1 and 6.2) satisfying the following supplementary condition (cf. XX
-2.6): for every `α ∈ R`, one has
+(cf. Exp. XXII, 1.13), a system of simple roots $\Delta$ of $R$ (defining the system of positive roots $R^{+}$), a
+Chevalley system $(X_{\alpha,k})_{\alpha\in R}$ of $G_{k}$ (Exp. XXIII, 6.1 and 6.2) satisfying the following
+supplementary condition (cf. XX 2.6): for every $\alpha \in R$, one has
 
-```text
-X_{α,k} X_{−α,k} = 1.
-```
+$$
+X_{\alpha,k} X_{-\alpha,k} = 1.
+$$
 
-Finally, let us choose on the subgroup of `M` generated by `R` a total order relation compatible with the group
-structure, such that the roots `> 0` are the elements of `R⁺`. We then denote the roots
+Finally, let us choose on the subgroup of $M$ generated by $R$ a total order relation compatible with the group
+structure, such that the roots `> 0` are the elements of $R^{+}$. We then denote the roots
 
 ```text
 −α_n < −α_{n−1} < ⋯ < −α_1 < α_1 < α_2 < ⋯ < α_n.
 ```
 
-For `α ∈ R`, we denote by `U_{α,k}` the vector group corresponding to the root `α`, and by
+For $\alpha \in R$, we denote by $U_{\alpha,k}$ the vector group corresponding to the root $\alpha$, and by
 
-```text
-p_{α,k} : 𝔾_{a,k} ⥲ U_{α,k}
-```
+$$
+p_{\alpha,k} : \mathbb{G}_{a,k} \xrightarrow{\sim} U_{\alpha,k}
+$$
 
-the isomorphism of vector groups defined by `X_{α,k}`.
+the isomorphism of vector groups defined by $X_{\alpha,k}$.
 
 ### 2.2.
 
 <!-- label: III.XXV.2.2 -->
 
-The splitting of `G_k` includes in particular an isomorphism of `k`-groups
+The splitting of $G_{k}$ includes in particular an isomorphism of $k$-groups
 
-```text
-T_k ≃ D_k(M).
-```
+$$
+T_{k} \simeq D_{k}(M).
+$$
 
-Put `T = D(M)`; this is a `ℤ`-torus, and the previous isomorphism may be regarded as an isomorphism
+Put $T = D(M)$; this is a $\mathbb{Z}$-torus, and the previous isomorphism may be regarded as an isomorphism
 
 ```text
 T_k ≃ T ⊗_ℤ k.
@@ -132,30 +133,31 @@ T_k ≃ T ⊗_ℤ k.
 
 One has
 
-```text
-Hom_{ℤ-gr.}(T, 𝔾_m) = M,
-```
+$$
+\operatorname{Hom}_{\mathbb{Z}-gr.}(T, \mathbb{G}_{m}) = M,
+$$
 
-and one will regard the elements of `R ⊂ M` as characters of `T`. Likewise, one will regard the elements of `R*` as
-morphisms of `ℤ`-groups `𝔾_m → T`.
+and one will regard the elements of $R \subset M$ as characters of $T$. Likewise, one will regard the elements of $R*$
+as morphisms of $\mathbb{Z}$-groups $\mathbb{G}_{m} \to T$.
 
 ### 2.3.
 
 <!-- label: III.XXV.2.3 -->
 
-For each `α ∈ R⁺`, let `𝔾_a(α)` be a copy of the group `𝔾_a`; consider the `ℤ`-scheme
+For each $\alpha \in R^{+}$, let $\mathbb{G}_{a}(\alpha)$ be a copy of the group $\mathbb{G}_{a}$; consider the
+$\mathbb{Z}$-scheme
 
-```text
-U = 𝔾_a(α_1) × ⋯ × 𝔾_a(α_n).
-```
+$$
+U = \mathbb{G}_{a}(\alpha_{1}) \times \cdots \times \mathbb{G}_{a}(\alpha_{n}).
+$$
 
-If `U_k` denotes the unipotent part of the Borel group `B_k` of `G_k` defined by `R⁺`, denote by
+If $U_{k}$ denotes the unipotent part of the Borel group $B_{k}$ of $G_{k}$ defined by $R^{+}$, denote by
 
 ```text
 a : U ⊗_ℤ k ⥲ U_k
 ```
 
-the isomorphism of `k`-schemes defined by
+the isomorphism of $k$-schemes defined by
 
 ```text
 a(x_1, …, x_n) = p_{α_1,k}(x_1) ⋯ p_{α_n,k}(x_n).
@@ -167,52 +169,52 @@ a(x_1, …, x_n) = p_{α_1,k}(x_1) ⋯ p_{α_n,k}(x_n).
 
 <!-- original page 272 -->
 
-The group law of `U_k` translates into relations of the form
+The group law of $U_{k}$ translates into relations of the form
 
 ```text
 a(x_1, …, x_n) · a(y_1, …, y_n) = a(z_1, …, z_n),
 ```
 
-where each `z_h` (`h = 1, …, n`) is expressed as a polynomial
+where each $z_{h}$ ($h = 1, \cdots, n$) is expressed as a polynomial
 
 ```text
 z_h = x_h + y_h + Q_h(x_1, …, x_{h−1}, y_1, …, y_{h−1}),
 ```
 
-the coefficients of `Q_h` being integers (Exp. XXII, 5.5.8 and Exp. XXIII, 6.4). Moreover
-`Q_h(x_1, …, x_{h−1}, 0, …, 0) = 0`.
+the coefficients of $Q_{h}$ being integers (Exp. XXII, 5.5.8 and Exp. XXIII, 6.4). Moreover
+$Q_{h}(x_{1}, \cdots, x_{h-1}, 0, \cdots, 0) = 0$.
 
 <!-- original page 272 (cont., page 414 of original) -->
 
-Let us equip `U` with the composition law defined by the preceding formulas (which are indeed "defined over `ℤ`"). Since
-this law induces on `U_k` its group law, it is associative, and `(0)` is a unit element (indeed, the two preceding
-assertions are expressed by relations between the polynomials `Q_h`, and `ℤ → k` is injective). Let us show that this is
-a group law: if `(x_i)` is a section of `U` (over some `S`), one computes the inverse `(y_i)` of `(x_i)` by the
-recurrence formulas
+Let us equip $U$ with the composition law defined by the preceding formulas (which are indeed "defined over
+$\mathbb{Z}$"). Since this law induces on $U_{k}$ its group law, it is associative, and `(0)` is a unit element (indeed,
+the two preceding assertions are expressed by relations between the polynomials $Q_{h}$, and $\mathbb{Z} \to k$ is
+injective). Let us show that this is a group law: if $(x_{i})$ is a section of $U$ (over some $S$), one computes the
+inverse $(y_{i})$ of $(x_{i})$ by the recurrence formulas
 
 ```text
 y_i = −x_i − Q_i(x_1, …, x_{i−1}, y_1, …, y_{i−1})
 ```
 
-which are still "defined over `ℤ`".
+which are still "defined over $\mathbb{Z}$".
 
-In summary, we have constructed on `U` a group law such that the previous isomorphism `a` is an isomorphism of groups.
+In summary, we have constructed on $U$ a group law such that the previous isomorphism $a$ is an isomorphism of groups.
 
-For each `α ∈ R⁺`, consider the morphism
+For each $\alpha \in R^{+}$, consider the morphism
 
-```text
-p_α : 𝔾_a → U
-```
+$$
+p_{\alpha} : \mathbb{G}_{a} \to U
+$$
 
-defined by `p_α(x) = (x_i)` where
+defined by $p_{\alpha}(x) = (x_{i})$ where
 
 ```text
 x_i = x  if α_i = α,
 x_i = 0  if α_i ≠ α.
 ```
 
-This is a closed immersion and a group homomorphism; we denote its image by `U_α`. One has
-`(x_i) = p_{α_1}(x_1) ⋯ p_{α_n}(x_n)`, which proves that `U` is identified with the product
+This is a closed immersion and a group homomorphism; we denote its image by $U_{\alpha}$. One has
+$(x_{i}) = p_{\alpha_{1}}(x_{1}) \cdots p_{\alpha_{n}}(x_{n})$, which proves that $U$ is identified with the product
 
 ```text
 U = U_{α_1} · U_{α_2} ⋯ U_{α_n}.
@@ -222,8 +224,9 @@ U = U_{α_1} · U_{α_2} ⋯ U_{α_n}.
 
 <!-- label: III.XXV.2.5 -->
 
-Let `T = D(M)` act on each `U_α` through the character `α`; one verifies at once that this defines an action of `T` on
-the group `U`, and one can construct the semi-direct product `B = T · U`. One has a canonical isomorphism of `k`-groups
+Let $T = D(M)$ act on each $U_{\alpha}$ through the character $\alpha$; one verifies at once that this defines an action
+of $T$ on the group $U$, and one can construct the semi-direct product $B = T \cdot U$. One has a canonical isomorphism
+of $k$-groups
 
 ```text
 B ⊗_ℤ k ⥲ B_k.
@@ -231,16 +234,17 @@ B ⊗_ℤ k ⥲ B_k.
 
 <!-- original page 272 (cont., page 415 of original) -->
 
-If we now take any order on `R⁺`, the morphism
+If we now take any order on $R^{+}$, the morphism
 
-```text
-∏_{α∈R⁺} U_α → U
-```
+$$
+\prod_{\alpha\in R^{+}} U_{\alpha} \to U
+$$
 
-defined by the product in `U` is still an isomorphism. Indeed, since both sides are flat `ℤ`-schemes of finite
+defined by the product in $U$ is still an isomorphism. Indeed, since both sides are flat $\mathbb{Z}$-schemes of finite
 presentation, it suffices to verify the assertion on geometric fibers; one is then reduced to Lazard's theory (*Bible*,
-§ 13.1, Prop. 1): one considers `U` as a group with operators `T`, and one uses the fact that the `U_α` are pairwise
-non-isomorphic as groups with operators (since the characters `α ∈ R⁺` of `T` are pairwise distinct on each fiber).
+§ 13.1, Prop. 1): one considers $U$ as a group with operators $T$, and one uses the fact that the $U_{\alpha}$ are
+pairwise non-isomorphic as groups with operators (since the characters $\alpha \in R^{+}$ of $T$ are pairwise distinct
+on each fiber).
 
 ### 2.6.
 
@@ -248,7 +252,8 @@ non-isomorphic as groups with operators (since the characters `α ∈ R⁺` of `
 
 <!-- original page 273 -->
 
-Replacing `R⁺` by `R⁻ = −R⁺`, one constructs similarly the groups `U⁻`, `B⁻`, `U_α` (`α ∈ R⁻`) and the isomorphisms
+Replacing $R^{+}$ by $R^{-} = -R^{+}$, one constructs similarly the groups $U^{-}$, $B^{-}$, $U_{\alpha}$
+($\alpha \in R^{-}$) and the isomorphisms
 
 ```text
 p_α : 𝔾_a ⥲ U_α,  α ∈ R⁻.
@@ -260,63 +265,65 @@ Let us finally introduce the product scheme
 Ω = U⁻ × T × U;
 ```
 
-one has a canonical isomorphism of `k`-schemes
+one has a canonical isomorphism of $k$-schemes
 
 ```text
 Ω ⊗_ℤ k ⥲ U⁻_k ×_k T_k ×_k U_k ≃ Ω_k,
 ```
 
-where `Ω_k` is the "big cell" of `G_k` (Exp. XXII, 4.1.2).
+where $\Omega_{k}$ is the "big cell" of $G_{k}$ (Exp. XXII, 4.1.2).
 
-From now on, we identify `Ω ⊗_ℤ k` with `Ω_k` by the previous isomorphism; we regard `U⁻`, `T`, `U` as subschemes of
-`Ω`, through their unit sections. We denote by `e = ((0), e, (0))` the "unit section" of `Ω`.
+From now on, we identify $\Omega \otimes_{\mathbb{Z}} k$ with $\Omega_{k}$ by the previous isomorphism; we regard
+$U^{-}$, $T$, $U$ as subschemes of $\Omega$, through their unit sections. We denote by $e = ((0), e, (0))$ the "unit
+section" of $\Omega$.
 
-Our goal now is to put a piece-of-group law on `Ω`.
+Our goal now is to put a piece-of-group law on $\Omega$.
 
-**Lemma 2.7.** *Let `α ∈ Δ`, and let `w_{α,k}` be the element of `Norm_{G_k}(T_k)(k)` defined by `X_{α,k}` (recall that
-by definition*
+**Lemma 2.7.** *Let $\alpha \in \Delta$, and let $w_{\alpha,k}$ be the element of $Norm_{G_{k}}(T_{k})(k)$ defined by
+$X_{\alpha,k}$ (recall that by definition*
 
 ```text
 w_{α,k} = p_{−α,k}(−1) p_{α,k}(1) p_{−α,k}(−1)).
 ```
 
-*There exist an open subset `V_α` of `Ω` containing the section `e`, and a morphism*
+*There exist an open subset $V_{\alpha}$ of $\Omega$ containing the section $e$, and a morphism*
 
-```text
-h_α : V_α → Ω,
-```
+$$
+h_{\alpha} : V_{\alpha} \to \Omega,
+$$
 
 *satisfying the following conditions:*
 
-*(i) `h_α(e) = e`,*
+*(i) $h_{\alpha}(e) = e$,*
 
-*(ii) `(h_α) ⊗_ℤ k` coincides with the restriction of `int(w_{α,k})` to `V_α ⊗_ℤ k ⊂ G_k`.*
+*(ii) $(h_{\alpha}) \otimes_{\mathbb{Z}} k$ coincides with the restriction of $int(w_{\alpha,k})$ to
+$V_{\alpha} \otimes_{\mathbb{Z}} k \subset G_{k}$.*
 
-*(iii) One has `T ⊂ V_α`, and `h_α` sends `T` into `T`. For every `β ∈ R`, one has `U_β ⊂ V_α` and `h_α` sends `U_β`
-into `U_{s_α(β)}`.*
+*(iii) One has $T \subset V_{\alpha}$, and $h_{\alpha}$ sends $T$ into $T$. For every $\beta \in R$, one has
+$U_{\beta} \subset V_{\alpha}$ and $h_{\alpha}$ sends $U_{\beta}$ into $U_{s_{\alpha}(\beta)}$.*
 
 <!-- label: III.XXV.2.7 -->
 
 <!-- original page 273 (cont., page 416 of original) -->
 
-By virtue of the definition of a Chevalley system (Exp. XXIII, 6.1), there exists for each `β ∈ R` an integer `e_β = ±1`
-such that
+By virtue of the definition of a Chevalley system (Exp. XXIII, 6.1), there exists for each $\beta \in R$ an integer
+$e_{\beta} = \pm 1$ such that
 
 ```text
 int(w_{α,k}) p_{β,k}(x) = p_{s_α(β),k}(e_β x)
 ```
 
-for every `x ∈ 𝔾_a(S)`, `S → Spec(k)`.
+for every $x \in \mathbb{G}_{a}(S)$, $S \to \operatorname{Spec}(k)$.
 
-Let `S` be any scheme, and write an arbitrary element of `Ω(S)` in the form
+Let $S$ be any scheme, and write an arbitrary element of $\Omega(S)$ in the form
 
 ```text
 u = ( ∏_{β∈R⁻, β≠−α} p_β(x_β) · p_{−α}(x_{−α}),  t,  p_α(x_α) · ∏_{β∈R⁺, β≠α} p_β(x_β) ),
 ```
 
-where one has chosen some (arbitrary) order on `R⁻ − {−α}` and `R⁺ − {α}` (cf. 2.5).
+where one has chosen some (arbitrary) order on $R^{-} - {-\alpha}$ and $R^{+} - {\alpha}$ (cf. 2.5).
 
-One defines a morphism `d : Ω → Spec(ℤ)` by
+One defines a morphism $d : \Omega \to \operatorname{Spec}(\mathbb{Z})$ by
 
 ```text
 d(u) = α(t) + x_α x_{−α}.
@@ -326,14 +333,14 @@ d(u) = α(t) + x_α x_{−α}.
 
 <!-- original page 274 -->
 
-Let `V_α` be the open subset `Ω_d` (that is, the open subset of `Ω` defined by "`d(u)` invertible"); it contains `e`,
-`T`, and each `U_β`, `β ∈ R`. Let
+Let $V_{\alpha}$ be the open subset $\Omega_{d}$ (that is, the open subset of $\Omega$ defined by "$d(u)$ invertible");
+it contains $e$, $T$, and each $U_{\beta}$, $\beta \in R$. Let
 
-```text
-h_α : V_α → Ω
-```
+$$
+h_{\alpha} : V_{\alpha} \to \Omega
+$$
 
-be the morphism defined by `h_α(u) = (a(u), b(u), c(u))` where
+be the morphism defined by $h_{\alpha}(u) = (a(u), b(u), c(u))$ where
 
 ```text
 a(u) = ( ∏_{β∈R⁻, β≠−α} p_{s_α(β)}(e_β x_β) ) · p_{−α}(−x_α d(u)⁻¹),
@@ -343,11 +350,12 @@ b(u) = t · α*(d(u)),
 c(u) = p_α(−x_{−α} d(u)⁻¹) · ( ∏_{β∈R⁺, β≠α} p_{s_α(β)}(e_β x_β) ).
 ```
 
-Since `s_α` permutes the positive roots (resp. negative roots) distinct from `α` (resp. `−α`), `c(u)` (resp. `a(u)`) is
-a section of `U` (resp. `U⁻`) and the previous morphism is well-defined. It satisfies (i) and (iii) trivially. As for
-(ii), this follows at once from the definition of the `e_β`, `β ∈ R`, and from Exp. XX, 3.12.
+Since $s_{\alpha}$ permutes the positive roots (resp. negative roots) distinct from $\alpha$ (resp. $-\alpha$), $c(u)$
+(resp. $a(u)$) is a section of $U$ (resp. $U^{-}$) and the previous morphism is well-defined. It satisfies (i) and (iii)
+trivially. As for (ii), this follows at once from the definition of the $e_{\beta}$, $\beta \in R$, and from Exp. XX,
+3.12.
 
-**Lemma 2.8.** *There exist open subsets `V` and `V′` of `Ω` and morphisms*
+**Lemma 2.8.** *There exist open subsets $V$ and $V'$ of $\Omega$ and morphisms*
 
 ```text
 h : V → Ω,  h′ : V′ → Ω,
@@ -355,20 +363,21 @@ h : V → Ω,  h′ : V′ → Ω,
 
 *satisfying the following conditions:*
 
-*(i) `V` and `V′` contain `e`, and `h(e) = h′(e) = e`.*
+*(i) $V$ and $V'$ contain $e$, and $h(e) = h'(e) = e$.*
 
-*(ii) The morphism induced by `h′ ∘ h : h⁻¹(V′) → Ω` is the restriction of the identity morphism.*
+*(ii) The morphism induced by $h' \circ h : h^{-1}(V') \to \Omega$ is the restriction of the identity morphism.*
 
-*(iii) The `k`-morphisms `h ⊗_ℤ k` and `h′ ⊗_ℤ k` are the restrictions to `V ⊗_ℤ k` and `V′ ⊗_ℤ k` of automorphisms of
-the group `G_k`.*
+*(iii) The $k$-morphisms $h \otimes_{\mathbb{Z}} k$ and $h' \otimes_{\mathbb{Z}} k$ are the restrictions to
+$V \otimes_{\mathbb{Z}} k$ and $V' \otimes_{\mathbb{Z}} k$ of automorphisms of the group $G_{k}$.*
 
-*(iv) `V` and `V′` contain `U`, `T` and `U⁻`; `h` and `h′` send `U` into `U⁻`, `U⁻` into `U`, and `T` into `T`.*
+*(iv) $V$ and $V'$ contain $U$, $T$ and $U^{-}$; $h$ and $h'$ send $U$ into $U^{-}$, $U^{-}$ into $U$, and $T$ into
+$T$.*
 
 <!-- label: III.XXV.2.8 -->
 
 <!-- original page 274 (cont., page 418 of original) -->
 
-Let `w⁰` be the element of the Weyl group of `G_k` that transforms `R⁺` into `R⁻`. Write
+Let $w^{0}$ be the element of the Weyl group of $G_{k}$ that transforms $R^{+}$ into $R^{-}$. Write
 
 ```text
 w⁰ = s_{α_n} ⋯ s_{α_1},  α_i ∈ Δ
@@ -380,22 +389,22 @@ w⁰ = s_{α_n} ⋯ s_{α_1},  α_i ∈ Δ
 w_0 = w_{α_n,k} ⋯ w_{α_1,k} ∈ Norm_{G_k}(T_k)(k).
 ```
 
-Define by recursion on `i ≤ n` an open subset `V_i` of `Ω` and a morphism `h_i : V_i → Ω` by `V_0 = Ω`, `h_0 = id`, and,
-for `i = 0, …, n − 1`,
+Define by recursion on $i \leq n$ an open subset $V_{i}$ of $\Omega$ and a morphism $h_{i} : V_{i} \to \Omega$ by
+$V_{0} = \Omega$, $h_{0} = id$, and, for $i = 0, \cdots, n - 1$,
 
 ```text
 V_{i+1} = h_i⁻¹(V_{α_{i+1}}),  h_{i+1} = h_{α_{i+1}} ∘ h_i,
 ```
 
-where the notations `V_{α_j}` and `h_{α_j}` are those of 2.7.
+where the notations $V_{\alpha_{j}}$ and $h_{\alpha_{j}}$ are those of 2.7.
 
 <!-- original page 275 -->
 
-Take `V = V_n` and `h = h_n`. The conditions in (i), (iii) and (iv) bearing on `V` and `h` are indeed verified; for (i)
-and (iii) this follows at once from 2.8, for (iv) from the fact that `h ⊗_ℤ k` is the restriction of `int(w_0)` to
-`V ⊗_ℤ k`.
+Take $V = V_{n}$ and $h = h_{n}$. The conditions in (i), (iii) and (iv) bearing on $V$ and $h$ are indeed verified; for
+(i) and (iii) this follows at once from 2.8, for (iv) from the fact that $h \otimes_{\mathbb{Z}} k$ is the restriction
+of $int(w_{0})$ to $V \otimes_{\mathbb{Z}} k$.
 
-Since `(w⁰)² = 1`, one also has
+Since $(w^{0})^{2} = 1$, one also has
 
 ```text
 w⁰ = s_{α_1} ⋯ s_{α_n} = (s³_{α_1}) ⋯ (s³_{α_n}).
@@ -403,19 +412,21 @@ w⁰ = s_{α_1} ⋯ s_{α_n} = (s³_{α_1}) ⋯ (s³_{α_n}).
 
 Setting
 
-```text
-w′_0 = (w_{α_1,k})³ ⋯ (w_{α_n,k})³,
-```
+$$
+w'_{0} = (w_{\alpha_{1},k})^{3} \cdots (w_{\alpha_{n},k})^{3},
+$$
 
 <!-- original page 275 (cont., page 419 of original) -->
 
-and carrying out the same construction as above, one deduces from it an open subset `V′` and a morphism `h′` also
-satisfying (i), (iii), (iv). Moreover, `h′ ⊗_ℤ k` is the restriction of `int(w′_0)` to `V′ ⊗_ℤ k`. But for each simple
-root `α ∈ Δ`, one has `(w_{α,k})⁴ = e` (cf. Exp. XX, 3.1), hence `w′_0 · w_0 = e`, which shows that `h′ ∘ h` induces the
-identity morphism on a non-empty open subset of `Ω ⊗_ℤ k`. But since `Ω` is smooth and of finite presentation over `ℤ`,
-`Ω ⊗_ℤ k` is schematically dense in `Ω`, which proves (ii).
+and carrying out the same construction as above, one deduces from it an open subset $V'$ and a morphism $h'$ also
+satisfying (i), (iii), (iv). Moreover, $h' \otimes_{\mathbb{Z}} k$ is the restriction of $int(w'_{0})$ to
+$V' \otimes_{\mathbb{Z}} k$. But for each simple root $\alpha \in \Delta$, one has $(w_{\alpha,k})^{4} = e$ (cf. Exp.
+XX, 3.1), hence $w'_{0} \cdot w_{0} = e$, which shows that $h' \circ h$ induces the identity morphism on a non-empty
+open subset of $\Omega \otimes_{\mathbb{Z}} k$. But since $\Omega$ is smooth and of finite presentation over
+$\mathbb{Z}$, $\Omega \otimes_{\mathbb{Z}} k$ is schematically dense in $\Omega$, which proves (ii).
 
-**Proposition 2.9.** *There exist an open subset `V_1` of `Ω × Ω`, an open subset `V_2` of `Ω`, and morphisms*
+**Proposition 2.9.** *There exist an open subset `V_1` of $\Omega \times \Omega$, an open subset `V_2` of $\Omega$, and
+morphisms*
 
 ```text
 π : V_1 → Ω,  σ : V_2 → Ω,
@@ -423,29 +434,29 @@ identity morphism on a non-empty open subset of `Ω ⊗_ℤ k`. But since `Ω` i
 
 *having the following properties:*
 
-*(i) If `x ∈ Ω(S)`, then `(e, x)` and `(x, e)` are sections of `V_1`, and*
+*(i) If $x \in \Omega(S)$, then $(e, x)$ and $(x, e)$ are sections of `V_1`, and*
 
 ```text
 π(e, x) = π(x, e) = x.
 ```
 
-*(ii) `V_2` contains `e` and `σ(e) = e`.*
+*(ii) `V_2` contains $e$ and $\sigma(e) = e$.*
 
-*(iii) `π_k` and `σ_k` are the restrictions of the morphisms `G_k ×_k G_k → G_k` and `G_k → G_k` defined by the product
-(resp. the inverse).*
+*(iii) $\pi_{k}$ and $\sigma_{k}$ are the restrictions of the morphisms $G_{k} \times_{k} G_{k} \to G_{k}$ and
+$G_{k} \to G_{k}$ defined by the product (resp. the inverse).*
 
 <!-- label: III.XXV.2.9 -->
 
-*Proof.* Let `(v, t, u)` and `(v′, t′, u′)` be two sections of `Ω`. Then `h(u)` is a section of `U⁻`, `h(v′)` is a
-section of `U` by 2.8 (iv), and one can therefore regard `(h(u), e, h(v′))` as a section of `Ω`. Let `V_1` be the open
-subset of `Ω × Ω` defined by the condition:
+*Proof.* Let $(v, t, u)$ and $(v', t', u')$ be two sections of $\Omega$. Then $h(u)$ is a section of $U^{-}$, $h(v')$ is
+a section of $U$ by 2.8 (iv), and one can therefore regard $(h(u), e, h(v'))$ as a section of $\Omega$. Let `V_1` be the
+open subset of $\Omega \times \Omega$ defined by the condition:
 
 ```text
 ((v, t, u), (v′, t′, u′)) ∈ V_1(S) ⟺ (h(u), e, h(v′)) ∈ V′(S)
 ```
 
-(notation of 2.8). If `((v, t, u), (v′, t′, u′))` is a section of `V_1`, then `h′(h(u), e, h(v′))` is defined; it is a
-section of `Ω` which one can decompose:
+(notation of 2.8). If $((v, t, u), (v', t', u'))$ is a section of `V_1`, then $h'(h(u), e, h(v'))$ is defined; it is a
+section of $\Omega$ which one can decompose:
 
 <!-- original page 275 (cont., page 420 of original) -->
 
@@ -461,34 +472,35 @@ One then sets
 
 <!-- TRANSLATOR NOTE: source has `v · tv′′ t⁻¹` and `t′⁻¹ u′′ t′ · u′`; the leading `t` (resp. `t′⁻¹`) denotes conjugation, rendered here with a leading raised `ᵗ`/`t′⁻¹` to indicate the conjugation action. -->
 
-The verification of (i) is immediate (by 2.8 (ii)). To verify the condition in (iii) bearing on `π`, one sees that
+The verification of (i) is immediate (by 2.8 (ii)). To verify the condition in (iii) bearing on $\pi$, one sees that
 
 ```text
 h′(h(u), e, h(v′)) = u v′ = v′′ t′′ u′′
 ```
 
-when `u ∈ U(S)`, `v ∈ U⁻(S)`, `S → k`, by virtue of 2.8 (iii) and (ii). One constructs `σ` similarly: if `(v, t, u)` is
-a section of `Ω`, `h(u⁻¹)` is a section of `U⁻`,
+when $u \in U(S)$, $v \in U^{-}(S)$, $S \to k$, by virtue of 2.8 (iii) and (ii). One constructs $\sigma$ similarly: if
+$(v, t, u)$ is a section of $\Omega$, $h(u^{-1})$ is a section of $U^{-}$,
 
 <!-- original page 276 -->
 
-`h(v⁻¹)` is a section of `U`, `h(t⁻¹)` is a section of `T`, so `(h(u⁻¹), h(t⁻¹), h(v⁻¹))` is a section of `Ω` and one
-can define an open subset `V_2` of `Ω` by
+$h(v^{-1})$ is a section of $U$, $h(t^{-1})$ is a section of $T$, so $(h(u^{-1}), h(t^{-1}), h(v^{-1}))$ is a section of
+$\Omega$ and one can define an open subset `V_2` of $\Omega$ by
 
 ```text
 (v, t, u) ∈ V_2(S) ⟺ (h(u⁻¹), h(t⁻¹), h(v⁻¹)) ∈ V′(S)
 ```
 
-and a morphism `σ : V_2 → Ω` by
+and a morphism $\sigma : V_{2} \to \Omega$ by
 
 ```text
 σ(v, t, u) = h′(h(u⁻¹), h(t⁻¹), h(v⁻¹)).
 ```
 
-One verifies the conditions on `σ` as above.
+One verifies the conditions on $\sigma$ as above.
 
-**Corollary 2.10.** *`π` is "generically associative" and `σ` is a "generic inverse": if `x, y, z ∈ Ω(S)` and if the
-expressions below are defined (which always happens over an open subset of `Ω` containing the unit section), one has:*
+**Corollary 2.10.** *$\pi$ is "generically associative" and $\sigma$ is a "generic inverse": if $x, y, z \in \Omega(S)$
+and if the expressions below are defined (which always happens over an open subset of $\Omega$ containing the unit
+section), one has:*
 
 ```text
 π(x, π(y, z)) = π(π(x, y), z),  π(x, σ(x)) = e = π(σ(x), x).
@@ -498,13 +510,14 @@ expressions below are defined (which always happens over an open subset of `Ω` 
 
 <!-- original page 276 (cont., page 421 of original) -->
 
-Indeed, the two sides of each of these formulas define morphisms between smooth `ℤ`-schemes of finite presentation,
-which coincide on the generic fibers, by 2.10 (iii).
+Indeed, the two sides of each of these formulas define morphisms between smooth $\mathbb{Z}$-schemes of finite
+presentation, which coincide on the generic fibers, by 2.10 (iii).
 
 <!-- TRANSLATOR NOTE: source says "par 2.10 (iii)" but the reference should be to 2.9 (iii); kept as in source. -->
 
-**Corollary 2.11.** *Let `α ∈ R`. For all `S` and all `x, y ∈ 𝔾_a(S)` such that `(p_α(x), p_{−α}(y)) ∈ V_1(S)` and
-`1 + xy ∈ 𝔾_m(S)` (which defines an open subset of `𝔾²_{a,S}` containing the section `(0, 0)`), one has:*
+**Corollary 2.11.** *Let $\alpha \in R$. For all $S$ and all $x, y \in \mathbb{G}_{a}(S)$ such that
+$(p_{\alpha}(x), p_{-\alpha}(y)) \in V_{1}(S)$ and $1 + xy \in \mathbb{G}_{m}(S)$ (which defines an open subset of
+$\mathbb{G}^{2}_{a,S}$ containing the section `(0, 0)`), one has:*
 
 ```text
 π(p_α(x), p_{−α}(y)) = ( p_{−α}( y / (1 + xy) ), α*(1 + xy), p_α( x / (1 + xy) ) ).
@@ -520,8 +533,8 @@ The proof is the same as before, by Exp. XX, 2.1.
 
 To simplify language, let us pose the following definition.
 
-**Definition 3.1.** *Let `S` be a scheme and `G` an `S`-group scheme. One says that `G` is* admissible *if there exists
-an open immersion of `S`-schemes `i : Ω_S = Ω × S → G` satisfying the following conditions:*
+**Definition 3.1.** *Let $S$ be a scheme and $G$ an $S$-group scheme. One says that $G$ is* admissible *if there exists
+an open immersion of $S$-schemes $i : \Omega_{S} = \Omega \times S \to G$ satisfying the following conditions:*
 
 *(i) The diagram*
 
@@ -534,9 +547,10 @@ an open immersion of `S`-schemes `i : Ω_S = Ω × S → G` satisfying the follo
   Ω_S                                             G,
 ```
 
-*where `π_G` denotes the multiplication morphism in `G`, is commutative.*
+*where $\pi_{G}$ denotes the multiplication morphism in $G$, is commutative.*
 
-*(ii) There exists a finite set of sections `a_j ∈ Ω(S)` such that the `i(a_j) · i(Ω_S)` cover `G`.*
+*(ii) There exists a finite set of sections $a_{j} \in \Omega(S)$ such that the $i(a_{j}) \cdot i(\Omega_{S})$ cover
+$G$.*
 
 <!-- label: III.XXV.3.1 -->
 
@@ -544,8 +558,8 @@ an open immersion of `S`-schemes `i : Ω_S = Ω × S → G` satisfying the follo
 
 By Weil's "theorem" (Exp. XVIII, 3.13 (iii) and (iv)), one has:
 
-**Lemma 3.2.** *If for every scheme `S` étale and of finite type over `ℤ`, every admissible `S`-group is affine, then
-there exists an admissible affine `ℤ`-group.*
+**Lemma 3.2.** *If for every scheme $S$ étale and of finite type over $\mathbb{Z}$, every admissible $S$-group is
+affine, then there exists an admissible affine $\mathbb{Z}$-group.*
 
 <!-- label: III.XXV.3.2 -->
 
@@ -553,37 +567,37 @@ there exists an admissible affine `ℤ`-group.*
 
 Now one has:
 
-**Lemma 3.3.** *Let `S` be a scheme and `G` an admissible `S`-group. Then `G` is smooth and of finite presentation over
-`S`, with affine connected semisimple fibers.*
+**Lemma 3.3.** *Let $S$ be a scheme and $G$ an admissible $S$-group. Then $G$ is smooth and of finite presentation over
+$S$, with affine connected semisimple fibers.*
 
 <!-- label: III.XXV.3.3 -->
 
-Since `Ω_S` is smooth and of finite presentation over `S`, with connected fibers, the same holds for `G`, by condition
-(ii). To verify 3.3, one may therefore suppose that `S` is the spectrum of a field `K`. Let us identify `Ω_K` with its
-image in `G`. It is clear that `Ω_K` is the product
+Since $\Omega_{S}$ is smooth and of finite presentation over $S$, with connected fibers, the same holds for $G$, by
+condition (ii). To verify 3.3, one may therefore suppose that $S$ is the spectrum of a field $K$. Let us identify
+$\Omega_{K}$ with its image in $G$. It is clear that $\Omega_{K}$ is the product
 
 ```text
 ∏_{α∈R⁻} U_{α,K} · T_K · ∏_{α∈R⁺} U_{α,K}
 ```
 
-of the subgroups `T_K` and `U_{α,K}` (`α ∈ R`) of `G`. The Lie algebra of `G` is therefore identified with the direct
-sum
+of the subgroups `T_K` and $U_{\alpha,K}$ ($\alpha \in R$) of $G$. The Lie algebra of $G$ is therefore identified with
+the direct sum
 
-```text
-Lie(T_K) ⊕ ⨁_{α∈R} Lie(U_{α,K}).
-```
+$$
+Lie(T_{K}) \oplus \bigoplus_{\alpha\in R} Lie(U_{\alpha,K}).
+$$
 
-Since the inner automorphism defined by a section of `T_K` acts on `U_{α,K}`, and therefore on `Lie(U_{α,K})`, through
-the character
+Since the inner automorphism defined by a section of `T_K` acts on $U_{\alpha,K}$, and therefore on $Lie(U_{\alpha,K})$,
+through the character
 
 ```text
 α ∈ R ⊂ M ≃ Hom_{K-gr.}(T_K, 𝔾_{m,K}),
 ```
 
-the previous decomposition of `Lie(G)` is exactly the decomposition under the adjoint action of `T`. The roots of `G_K`
-with respect to `T_K` are therefore the `α ∈ R`. Apply Exp. XIX, 1.13. Let `T_α` be the maximal torus of `Ker(α) ⊂ T_K`,
-and let `Z_α = Centr_G(T_α)`; it suffices for us to prove that each `Z_α` is reductive. Now `Z_α ∩ Ω_K` is none other
-than
+the previous decomposition of $Lie(G)$ is exactly the decomposition under the adjoint action of $T$. The roots of `G_K`
+with respect to `T_K` are therefore the $\alpha \in R$. Apply Exp. XIX, 1.13. Let $T_{\alpha}$ be the maximal torus of
+$Ker(\alpha) \subset T_{K}$, and let $Z_{\alpha} = Centr_{G}(T_{\alpha})$; it suffices for us to prove that each
+$Z_{\alpha}$ is reductive. Now $Z_{\alpha} \cap \Omega_{K}$ is none other than
 
 ```text
 ∏_{β∈R⁻, β|_{T_α} = e} U_{β,K} · T_K · ∏_{β∈R⁺, β|_{T_α} = e} U_{β,K};
@@ -591,37 +605,39 @@ than
 
 <!-- original page 277 (cont., page 423 of original) -->
 
-but the roots vanishing on `T_α` are the rational multiples of `α`, hence `α` and `−α`; this proves
+but the roots vanishing on $T_{\alpha}$ are the rational multiples of $\alpha$, hence $\alpha$ and $-\alpha$; this
+proves
 
 ```text
 Z_α ∩ Ω_K = U_{−α,K} · T_K · U_{α,K}.
 ```
 
-To prove that `Z_α` is reductive, it suffices, by Exp. XX 3.4, to prove that `U_{α,K}` and `U_{−α,K}` do not commute,
-which follows at once from 2.11.
+To prove that $Z_{\alpha}$ is reductive, it suffices, by Exp. XX 3.4, to prove that $U_{\alpha,K}$ and $U_{-\alpha,K}$
+do not commute, which follows at once from 2.11.
 
 It follows from 3.2 and 3.3 that the proof will be complete if we prove:
 
-**Lemma 3.4.** *If `S` is a locally noetherian scheme of dimension `≤ 1`, and if `G` is a smooth `S`-group of finite
-type with affine connected semisimple fibers, then `G` is affine (and therefore semisimple).*
+**Lemma 3.4.** *If $S$ is a locally noetherian scheme of dimension $\leq 1$, and if $G$ is a smooth $S$-group of finite
+type with affine connected semisimple fibers, then $G$ is affine (and therefore semisimple).*
 
 <!-- label: III.XXV.3.4 -->
 
-**Nota.** In Exp. XVI, it was seen that 3.4 is true without hypothesis on `S`, but the proof is relatively delicate;
+**Nota.** In Exp. XVI, it was seen that 3.4 is true without hypothesis on $S$, but the proof is relatively delicate;
 since here we need only the particular case 3.4, we give a direct proof of it.
 
-Consider the Lie algebra `g` of `G`, which is a locally free `𝒪_S`-module, and the adjoint representation of `G`
+Consider the Lie algebra $g$ of $G$, which is a locally free $\mathcal{O}_{S}$-module, and the adjoint representation of
+$G$
 
-```text
-Ad : G → GL_{𝒪_S}(g).
-```
+$$
+Ad : G \to GL_{\mathcal{O}_{S}}(g).
+$$
 
 <!-- original page 278 -->
 
-To prove that `G` is affine over `S`, it suffices to prove that the morphism `Ad` is affine. Since `G` is smooth with
-connected fibers, it is separated over `S` (VI_B 5.5), so the morphism `Ad` is separated. Using a result proved in the
+To prove that $G$ is affine over $S$, it suffices to prove that the morphism `Ad` is affine. Since $G$ is smooth with
+connected fibers, it is separated over $S$ (VI_B 5.5), so the morphism `Ad` is separated. Using a result proved in the
 appendix (see 4.1), it suffices to prove that the morphism `Ad` is quasi-finite. One is thus reduced to the case where
-`S` is the spectrum of a field; in this case `G` is affine, hence semisimple, and one is reduced to Exp. XXII 5.7.14.
+$S$ is the spectrum of a field; in this case $G$ is affine, hence semisimple, and one is reduced to Exp. XXII 5.7.14.
 
 ## 4. Appendix
 
@@ -631,34 +647,34 @@ appendix (see 4.1), it suffices to prove that the morphism `Ad` is quasi-finite.
 
 We used in the course of the proof the following proposition:
 
-**Proposition 4.1.** *Let `S` be a locally noetherian scheme of dimension `≤ 1`, let `G` and `H` be two `S`-group
-schemes of finite type, and `f : G → H` a quasi-finite separated group morphism. If `G` is flat over `S`,[^N.D.E-XXV-6]
-then `f` is affine.*
+**Proposition 4.1.** *Let $S$ be a locally noetherian scheme of dimension $\leq 1$, let $G$ and $H$ be two $S$-group
+schemes of finite type, and $f : G \to H$ a quasi-finite separated group morphism. If $G$ is flat over
+$S$,[^N.D.E-XXV-6] then $f$ is affine.*
 
 <!-- label: III.XXV.4.1 -->
 
-We shall give the proof only in the case where `G` is smooth over `S`, a hypothesis which is indeed verified in the
+We shall give the proof only in the case where $G$ is smooth over $S$, a hypothesis which is indeed verified in the
 application we have made of the proposition.
 
 ### 4.2.
 
 <!-- label: III.XXV.4.2 -->
 
-By EGA II, 1.6.4, one may suppose `S` reduced. By the usual techniques of passage to the limit,[^N.D.E-XXV-7] one may
-suppose `S` local. If `dim(S) = 0`, the assertion is trivial,[^N.D.E-XXV-8] suppose `dim(S) = 1`. By faithfully flat
-descent, one may suppose that `S` is complete with algebraically closed residue field. Replacing `S` by its
-normalization `S̃` if necessary, one may (EGA II, 6.7.1 and EGA 0_IV 23.1.5) suppose `S` normal.[^N.D.E-XXV-9] One is
-therefore reduced to the case where `S` is the spectrum of a complete discrete valuation ring `A` with algebraically
-closed residue field.
+By EGA II, 1.6.4, one may suppose $S$ reduced. By the usual techniques of passage to the limit,[^N.D.E-XXV-7] one may
+suppose $S$ local. If $\dim(S) = 0$, the assertion is trivial,[^N.D.E-XXV-8] suppose $\dim(S) = 1$. By faithfully flat
+descent, one may suppose that $S$ is complete with algebraically closed residue field. Replacing $S$ by its
+normalization $\tilde{S}$ if necessary, one may (EGA II, 6.7.1 and EGA 0_IV 23.1.5) suppose $S$ normal.[^N.D.E-XXV-9]
+One is therefore reduced to the case where $S$ is the spectrum of a complete discrete valuation ring $A$ with
+algebraically closed residue field.
 
 ### 4.3.
 
 <!-- label: III.XXV.4.3 -->
 
-Let `η` (resp. `s`) be the generic (resp. closed) point of `S`. Consider the image `f_η(G_η)` of `G_η` in `H_η`. It is a
-closed subgroup scheme of `H_η`. Let `H′` be the schematic closure in `H` of `f_η(G_η)`. Since `H′ → H` is affine (it is
-a closed immersion), one may replace `H` by `H′` and so suppose `H` flat over `S` and `f_η` surjective. Since `f_η` is
-finite, and `G` and `H` are flat over `S`, one has
+Let $\eta$ (resp. $s$) be the generic (resp. closed) point of $S$. Consider the image $f_{\eta}(G_{\eta})$ of $G_{\eta}$
+in $H_{\eta}$. It is a closed subgroup scheme of $H_{\eta}$. Let $H'$ be the schematic closure in $H$ of
+$f_{\eta}(G_{\eta})$. Since $H' \to H$ is affine (it is a closed immersion), one may replace $H$ by $H'$ and so suppose
+$H$ flat over $S$ and $f_{\eta}$ surjective. Since $f_{\eta}$ is finite, and $G$ and $H$ are flat over $S$, one has
 
 ```text
 dim(G_s) = dim(G_η) = dim(H_η) = dim(H_s).
@@ -668,31 +684,31 @@ dim(G_s) = dim(G_η) = dim(H_η) = dim(H_s).
 
 <!-- label: III.XXV.4.4 -->
 
-Let `H⁰_s, …, Hⁿ_s` be the irreducible components of `H_s`, where `H⁰_s` denotes the neutral component, and let
-`z_0, …, z_n` be their generic points. Since each local ring `𝒪_{H,z_i}` is of dimension `≤ 1`, the morphism
-`G ×_H 𝒪_{H,z_i} → 𝒪_{H,z_i}` is affine because quasi-finite and separated (cf. Exp. XVI, Lemma 4.2), so `G` is affine
-over `H` in a neighborhood of `z_i`. Denoting by `V` the largest open subset of `H` such that `G|_V` is affine over `V`,
-it follows
+Let $H^{0}_{s}, \cdots, H^{n}_{s}$ be the irreducible components of $H_{s}$, where $H^{0}_{s}$ denotes the neutral
+component, and let $z_{0}, \cdots, z_{n}$ be their generic points. Since each local ring $\mathcal{O}_{H,z_{i}}$ is of
+dimension $\leq 1$, the morphism $G \times_{H} \mathcal{O}_{H,z_{i}} \to \mathcal{O}_{H,z_{i}}$ is affine because
+quasi-finite and separated (cf. Exp. XVI, Lemma 4.2), so $G$ is affine over $H$ in a neighborhood of $z_{i}$. Denoting
+by $V$ the largest open subset of $H$ such that $G|_{V}$ is affine over $V$, it follows
 
 <!-- original page 278 (cont., page 425 of original) -->
 
 <!-- original page 279 -->
 
-that `V` contains all the `z_i`,[^N.D.E-XXV-10] so contains at least one closed point `y_i ∈ Hⁱ_s` (and one has
-`κ(y_i) = κ(s)` since `κ(s)` is algebraically closed).
+that $V$ contains all the $z_{i}$,[^N.D.E-XXV-10] so contains at least one closed point $y_{i} \in H^{i}_{s}$ (and one
+has $\kappa(y_{i}) = \kappa(s)$ since $\kappa(s)$ is algebraically closed).
 
-On the other hand, `V` is obviously stable under the translation defined by any element `g ∈ G(S)`. But one has
-`dim(G_s) = dim(H_s)` and `f_s` is finite, so
+On the other hand, $V$ is obviously stable under the translation defined by any element $g \in G(S)$. But one has
+$\dim(G_{s}) = \dim(H_{s})$ and $f_{s}$ is finite, so
 
-```text
-f(s) : G⁰_s(s) → H⁰_s(s)
-```
+$$
+f(s) : G^{0}_{s}(s) \to H^{0}_{s}(s)
+$$
 
-is surjective. Since `A` is complete and `G` smooth over `S`, the canonical map `G⁰(S) → G⁰_s(s)` is surjective; since
-`H⁰_s(s)` acts transitively on each `Hⁱ_s(s)`, it follows that `V ⊃ H_s(s)`, hence (since `κ(s)` is algebraically
-closed) `V ⊃ H_s`.[^N.D.E-XXV-11]
+is surjective. Since $A$ is complete and $G$ smooth over $S$, the canonical map $G^{0}(S) \to G^{0}_{s}(s)$ is
+surjective; since $H^{0}_{s}(s)$ acts transitively on each $H^{i}_{s}(s)$, it follows that $V \supset H_{s}(s)$, hence
+(since $\kappa(s)$ is algebraically closed) $V \supset H_{s}$.[^N.D.E-XXV-11]
 
-Since one obviously has `V ⊃ H_η`, since `f_η` is finite, one therefore has `V = H`. *QED*.
+Since one obviously has $V \supset H_{\eta}$, since $f_{\eta}$ is finite, one therefore has $V = H$. *QED*.
 
 ## Bibliography
 
@@ -703,11 +719,11 @@ radicielle valuée*, Publ. Math. I.H.É.S. **60** (1984), 5–184.
 
 [DG70] M. Demazure, P. Gabriel, *Groupes algébriques*, Masson & North-Holland, 1970.
 
-[Ko66] B. Kostant, *Groups over `ℤ`*, pp. 90–98 in: *Algebraic groups and their discontinuous subgroups* (eds. A. Borel
-& G. D. Mostow), Proc. Symp. Pure Math. **IX**, Amer. Math. Soc., 1966.
+[Ko66] B. Kostant, *Groups over $\mathbb{Z}$*, pp. 90–98 in: *Algebraic groups and their discontinuous subgroups* (eds.
+A. Borel & G. D. Mostow), Proc. Symp. Pure Math. **IX**, Amer. Math. Soc., 1966.
 
-[Lu09] G. Lusztig, *Study of a `ℤ`-form of the coordinate ring of a reductive group*, J. Amer. Math. Soc. **22** (2009),
-no. 3, 739–769.
+[Lu09] G. Lusztig, *Study of a $\mathbb{Z}$-form of the coordinate ring of a reductive group*, J. Amer. Math. Soc.
+**22** (2009), no. 3, 739–769.
 
 [Se66] J.-P. Serre, *Algèbres de Lie semi-simples complexes*, Benjamin, 1966.
 
@@ -751,52 +767,52 @@ Math. I.H.É.S. **31** (1966), 21–58.
     has been given recently by G. Lusztig [Lu09].
 
 [^N.D.E-XXV-2]: N.D.E.: Let us also point out that the work [BT84] of F. Bruhat and J. Tits contains a variant of
-    Chevalley's construction (*loc. cit.*, 2.2.3–2.2.5 and § 3.2), which yields in particular a smooth
-    affine `ℤ`-group `G` with connected fibers, possessing a split maximal torus, and whose generic fiber is
-    a reductive `ℚ`-group of type `R`; the fact that the geometric fibers of `G` are reductive follows from
-    the study of the unipotent radical of a special fiber carried out in *loc. cit.*, 4.6.12 and 4.6.15
-    (valid for more general `G`, associated with a valued root datum), but it is simpler to deduce it from
-    the description of `g = Lie(G)`, from Exp. XIX 1.12 (iii), and from the existence of the elements
-    `w_α(X)` of Exp. XX 3.1 (iv) (cf. [BT84], 3.2.1).
+    Chevalley's construction (*loc. cit.*, 2.2.3–2.2.5 and § 3.2), which yields in particular a smooth affine
+    $\mathbb{Z}$-group $G$ with connected fibers, possessing a split maximal torus, and whose generic fiber is a
+    reductive $\mathbb{Q}$-group of type $R$; the fact that the geometric fibers of $G$ are reductive follows from the
+    study of the unipotent radical of a special fiber carried out in *loc. cit.*, 4.6.12 and 4.6.15 (valid for more
+    general $G$, associated with a valued root datum), but it is simpler to deduce it from the description of
+    $g = Lie(G)$, from Exp. XIX 1.12 (iii), and from the existence of the elements $w_{\alpha}(X)$ of Exp. XX 3.1 (iv)
+    (cf. [BT84], 3.2.1).
 
 [^N.D.E-XXV-3]: N.D.E.: In fact, Exp. XXIII, 5.9 is not necessary because the present Exposé constructs, for every
-    semisimple `ℚ`-group `G_ℚ`, a semisimple `ℤ`-group `G` of the same type as `G_ℚ` and equipped with a
-    split maximal torus `T`; hence, by Exp. XXII 2.2, `G` is split.
+    semisimple $\mathbb{Q}$-group $G_{\mathbb{Q}}$, a semisimple $\mathbb{Z}$-group $G$ of the same type as
+    $G_{\mathbb{Q}}$ and equipped with a split maximal torus $T$; hence, by Exp. XXII 2.2, $G$ is split.
 
-[^N.D.E-XXV-4]: N.D.E.: Let `Δ` be a base of `R` and `g̃` the complex Lie algebra generated by generators
-    `(e_α, f_α, h_α)_{α∈Δ}` subject to the relations `[h_α, h_β] = 0`, `[e_α, f_β] = h_α` if `β = α` and
-    `= 0` otherwise, `[h_α, e_β] = (α*, β) e_β` and `[h_α, f_β] = −(α*, β) f_β`. In *loc. cit.*, `g` is
-    defined as the quotient of `g̃` by the intersection of the kernels of the finite-dimensional irreducible
-    representations of `g̃`; in [Se66], § VI.5, Th. 9 (see also [BLie], VIII, § 4.3, Th. 1) it is shown that
-    `g` is the quotient of `g̃` by the relations `ad(e_α)^{1−(α*, β)}(e_β) = 0` and
-    `ad(f_α)^{1−(α*, β)}(f_β) = 0`. For an explicit description of the structure constants (in particular
-    the choice of signs), see Exp. XXIII 6.5 and 6.7 as well as [Ti66], § 4, Th. 1 and (for types A, D, E)
-    [Sp98], 10.2.5.
+[^N.D.E-XXV-4]: N.D.E.: Let $\Delta$ be a base of $R$ and $\tilde{g}$ the complex Lie algebra generated by generators
+    $(e_{\alpha}, f_{\alpha}, h_{\alpha})_{\alpha\in \Delta}$ subject to the relations $[h_{\alpha}, h_{\beta}] = 0$,
+    $[e_{\alpha}, f_{\beta}] = h_{\alpha}$ if $\beta = \alpha$ and `= 0` otherwise,
+    $[h_{\alpha}, e_{\beta}] = (\alpha*, \beta) e_{\beta}$ and $[h_{\alpha}, f_{\beta}] = -(\alpha*, \beta) f_{\beta}$.
+    In *loc. cit.*, $g$ is defined as the quotient of $\tilde{g}$ by the intersection of the kernels of the
+    finite-dimensional irreducible representations of $\tilde{g}$; in [Se66], § VI.5, Th. 9 (see also [BLie], VIII, §
+    4.3, Th. 1) it is shown that $g$ is the quotient of $\tilde{g}$ by the relations
+    $ad(e_{\alpha})^{1-(\alpha*, \beta)}(e_{\beta}) = 0$ and $ad(f_{\alpha})^{1-(\alpha*, \beta)}(f_{\beta}) = 0$. For
+    an explicit description of the structure constants (in particular the choice of signs), see Exp. XXIII 6.5 and 6.7
+    as well as [Ti66], § 4, Th. 1 and (for types A, D, E) [Sp98], 10.2.5.
 
-[^N.D.E-XXV-5]: N.D.E.: One may suppose `R` irreducible, hence `g` simple. By a general argument, one knows that
-    `Lie(G)` is the complex Lie algebra of derivations of `g` (cf. [DG70], § II.4, Prop. 2.3); but these are
-    all inner (cf. [BLie], I § 6.1, Cor. 3 of Prop. 1), hence `Lie(G) = g`; consequently `G` has no
-    invariant subgroup of dimension `> 0`, hence `G` is semisimple. Its root system is then the same as that
-    of `g`; moreover, the center of `G` acts simultaneously trivially and faithfully on `g`, hence is
-    trivial, hence `G` is adjoint.
+[^N.D.E-XXV-5]: N.D.E.: One may suppose $R$ irreducible, hence $g$ simple. By a general argument, one knows that
+    $Lie(G)$ is the complex Lie algebra of derivations of $g$ (cf. [DG70], § II.4, Prop. 2.3); but these are all inner
+    (cf. [BLie], I § 6.1, Cor. 3 of Prop. 1), hence $Lie(G) = g$; consequently $G$ has no invariant subgroup of
+    dimension `> 0`, hence $G$ is semisimple. Its root system is then the same as that of $g$; moreover, the center of
+    $G$ acts simultaneously trivially and faithfully on $g$, hence is trivial, hence $G$ is adjoint.
 
 [^N.D.E-XXV-6]: N.D.E.: We have added the flatness hypothesis, which had been omitted.
 
 [^N.D.E-XXV-7]: N.D.E.: cf. EGA IV_3, 8.10.5 (viii).
 
-[^N.D.E-XXV-8]: N.D.E.: Indeed, if `S = Spec(k)` (`k` a field), then `f` is the composite of the projection
-    `p : G → G/Ker(f)` and a closed immersion `i`, and since `Ker(f)` is finite over `k`, `p` is finite
+[^N.D.E-XXV-8]: N.D.E.: Indeed, if $S = \operatorname{Spec}(k)$ ($k$ a field), then $f$ is the composite of the
+    projection $p : G \to G/Ker(f)$ and a closed immersion $i$, and since $Ker(f)$ is finite over $k$, $p$ is finite
     (VI_B 9.2).
 
-[^N.D.E-XXV-9]: N.D.E.: Indeed, the irreducible components `S_1, …, S_r` of `S` are complete integral noetherian local
-    schemes, hence, by a theorem of Nagata (cf. EGA 0_IV, 23.1.5) the normalization `S̃_i` is finite over
-    `S_i`, and therefore `S̃` is finite over `S`. Then, by a theorem of Chevalley (cf. EGA II, 6.7.1), if
-    `f ×_S S̃` is an affine morphism, then so is `f`.
+[^N.D.E-XXV-9]: N.D.E.: Indeed, the irreducible components $S_{1}, \cdots, S_{r}$ of $S$ are complete integral
+    noetherian local schemes, hence, by a theorem of Nagata (cf. EGA 0_IV, 23.1.5) the normalization $\tilde{S}_{i}$ is
+    finite over $S_{i}$, and therefore $\tilde{S}$ is finite over $S$. Then, by a theorem of Chevalley (cf. EGA II,
+    6.7.1), if $f \times_{S} \tilde{S}$ is an affine morphism, then so is $f$.
 
 [^N.D.E-XXV-10]: N.D.E.: The following sentence has been added.
 
-[^N.D.E-XXV-11]: N.D.E.: When `G` is not assumed smooth over `S`, one may proceed as follows. Let `h_0` be a rational
-    point of `H⁰_s` and `g_0` a rational point of `G⁰_s` such that `f(g_0) = h_0`. By VI_B 5.6.1, there
+[^N.D.E-XXV-11]: N.D.E.: When $G$ is not assumed smooth over $S$, one may proceed as follows. Let $h_{0}$ be a rational
+    point of $H^{0}_{s}$ and $g_{0}$ a rational point of $G^{0}_{s}$ such that $f(g_{0}) = h_{0}$. By VI_B 5.6.1, there
     exists a commutative diagram
 
     ```text
@@ -809,7 +825,7 @@ Math. I.H.É.S. **31** (1966), 21–58.
               S′ ─── w ───▶ S
     ```
 
-    where `w` is étale and surjective, `π` finite and surjective, and `φ⁻¹(s)` is formed of a single point `s′′` such
-    that `g(s′′) = g_0`. Then the morphism `G_{S′′} → H_{S′′}` is affine above a neighborhood of `h_0 y_i`, and the same
-    holds for `G_{S′} → H_{S′}` (EGA II, 6.7.1), and then for `G → H` by faithfully flat descent (EGA IV_2, 2.7.1
-    (xiii)). Hence `h_0 y_i ∈ V`, and it follows that `V` contains `H_s(s)`, and therefore `H_s`.
+    where $w$ is étale and surjective, $\pi$ finite and surjective, and $\phi^{-1}(s)$ is formed of a single point $s''$ such
+    that $g(s'') = g_{0}$. Then the morphism $G_{S''} \to H_{S''}$ is affine above a neighborhood of $h_{0} y_{i}$, and the same
+    holds for $G_{S'} \to H_{S'}$ (EGA II, 6.7.1), and then for $G \to H$ by faithfully flat descent (EGA IV_2, 2.7.1
+    (xiii)). Hence $h_{0} y_{i} \in V$, and it follows that $V$ contains $H_{s}(s)$, and therefore $H_{s}$.

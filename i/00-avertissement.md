@@ -54,5 +54,5 @@ Bures, June 1963.
 [^foreword-4]: _Cohomologie étale des schémas_ (cited as SGA 4), to appear in this same series.
 
 [^foreword-5]: In fact, because of a change in the initially planned outline of the _Éléments_, the study of the
-    fundamental group is postponed there to a chapter later than the one just indicated. Compare the
-    introduction preceding the present Foreword.
+    fundamental group is postponed there to a chapter later than the one just indicated. Compare the introduction
+    preceding the present Foreword.
