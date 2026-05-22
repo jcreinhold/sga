@@ -1206,7 +1206,7 @@ $$
 q_{1}*(f') = q_{2}*(f'),
 $$
 
-which implies that $U'_{f}'$ is a saturated open subset of $U'$. More precisely, denoting by $Z(f')$ the set of zeros of
+which implies that ${U'_{f}}'$ is a saturated open subset of $U'$. More precisely, denoting by $Z(f')$ the set of zeros of
 a section $f'$, one finds from the properties of norms that
 
 ```text
@@ -1215,9 +1215,9 @@ Z(f′) = q₂(Z(q₁*(f))) = q₂(q₁*(Z(f))) = R(U′ − U′_f).
 
 <!-- original page 224 -->
 
-This implies that $U'_{f}' = U' - Z(f')$ is saturated, contains $R(x')$, and is contained in $U'_{f}$. Since the latter
-is affine, it follows that $U'_{f}'$ is also affine (being equal to $(U'_{f})_{f}''$, with $f'' = f'$ restricted to
-$U'_{f}'$). It is therefore a saturated affine open subset containing $R(x')$, hence $x'$, which completes the proof.
+This implies that ${U'_{f}}' = U' - Z(f')$ is saturated, contains $R(x')$, and is contained in $U'_{f}$. Since the latter
+is affine, it follows that ${U'_{f}}'$ is also affine (being equal to $(U'_{f})_{f}''$, with $f'' = f'$ restricted to
+${U'_{f}}'$). It is therefore a saturated affine open subset containing $R(x')$, hence $x'$, which completes the proof.
 
 Notice that this argument applies whenever one has an equivalence relation (or even only a pre-equivalence relation; see
 [VIII.3]) in a prescheme $X'$, finite and locally free; indeed VIII.7.6 is also a special case of the analogous result

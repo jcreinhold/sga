@@ -1037,7 +1037,7 @@ one has the analogue of Proposition 2.3.7 in the following form:
 **Proposition 2.3.8.** *Let $H \xrightarrow{i} W \xrightarrow{f} G$ be a sequence of morphisms of $C$-groups such that
 for every $S \in Ob(C)$, `(H(S), i(S))` is a kernel of $f(S) : W(S) \to G(S)$. Let $u : G \to W$ be a morphism of
 $C$-groups which is a section of $f$. Then $W$ is identified with the semidirect product of $H$ by $G$ for the operation
-of $G$ on $H$ such that if $S \in Ob(C)$, $g \in G(S)$ and $h \in H(S)$, one has $Int(u(g)) i(h) = i({}}^{g} h)$.*
+of $G$ on $H$ such that if $S \in Ob(C)$, $g \in G(S)$ and $h \in H(S)$, one has $Int(u(g)) i(h) = i({}^{g} h)$.*
 
 <!-- label: III.I.2.3.8 -->
 

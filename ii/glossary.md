@@ -178,8 +178,8 @@ the mathematics — only repair what the OCR clearly mangled, and flag anything 
     - $7\to$ is $\mapsto$.
     - $-\to$ is $\to$.
     - $\sim=$ (often broken across lines) is $\cong$.
-    - $\sim\n\to$ is $\xrightarrow{\sim}$ or $\to$ annotated with `~`; pick the rendering that matches what is being
-      claimed.
+    - `\sim\n\to` (OCR artefact, with literal newline) is $\xrightarrow{\sim}$ or $\to$ annotated with `~`; pick the
+      rendering that matches what is being claimed.
 - **OCR substitutions for accents.**
     - $Et(X)$ should be $\hat{E}t(X)$ (the étale site / category of étale objects).
     - `etale` should be `étale`.
@@ -276,17 +276,17 @@ original context. New cross-cutting terms encountered during translation:
 
 These are inherited from SGA 1's translation; deviate only if SGA 1 itself is inconsistent.
 
-- **File naming.** `00-title-preface.md`, `00-introduction.md`, $NN-<slug>.md$ for Exposés, `glossary.md`,
-  $zz-index-*.md$ for indexes.
-- **Heading hierarchy.** $# Expos\acute{e} N. <English Title>$, then `## 1. <Section Title>`, then `### <Subsection>` if
+- **File naming.** `00-title-preface.md`, `00-introduction.md`, `NN-<slug>.md` for Exposés, `glossary.md`,
+  `zz-index-*.md` for indexes.
+- **Heading hierarchy.** `# Exposé N. <English Title>`, then `## 1. <Section Title>`, then `### <Subsection>` if
   needed. The Exposé heading carries a `<!-- label: N -->` comment on the next line.
-- **Statement blocks.** $**Proposition.**$, $**Lemma.**$, $**Theorem.**$, $**Corollary.**$, $**Definition.**$,
-  $**Remark.**$, $**Example.**$ on their own line. The label `<!-- label: N.X.Y -->` follows on the next line (after a
+- **Statement blocks.** `**Proposition.**`, `**Lemma.**`, `**Theorem.**`, `**Corollary.**`, `**Definition.**`,
+  `**Remark.**`, `**Example.**` on their own line. The label `<!-- label: N.X.Y -->` follows on the next line (after a
   blank line). The body begins after another blank line.
 - **Math.** Unicode math wrapped in backticks for inline. Displayed math in fenced ```` ```text ```` blocks. Numbered
   displayed equations get a `<!-- label: eq:N.X.Y -->` comment immediately after the closing fence.
-- **Footnotes.** Markdown $[{}^{slug}]$ syntax. The footnote body goes at the end of the section (or end of file).
-  Original Grothendieck-era footnotes: $[{}^{<}exposenum>-<sec>-<n>]$ slugs (e.g. $[{}^{I}-1-1]$). Editor footnotes:
+- **Footnotes.** Markdown `[^slug]` syntax. The footnote body goes at the end of the section (or end of file).
+  Original Grothendieck-era footnotes: `[^<exposenum>-<sec>-<n>]` slugs (e.g. `[^I-1-1]`). Editor footnotes:
   $[{}^{N}.D.E-<expose>-<n>]$ (e.g. $[{}^{N}.D.E-IV-2]$).
 - **Page marks.** `<!-- original page N -->` on its own line at page boundaries.
 - **Cross-references.** Use the source's own convention: `(VIII 2.3)`, `(EGA III 4.1.5)`, `(SGA 4 IV 3.8)`.

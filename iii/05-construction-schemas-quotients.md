@@ -1933,7 +1933,7 @@ the projection onto the second factor. Following § 2.a), one has the groupoid
                   G × d₀
 ```
 
-whose cokernel, if it exists, is denoted $G\X$.
+whose cokernel, if it exists, is denoted $G\backslash X$.
 
 <!-- original page 287 -->
 
@@ -1973,7 +1973,7 @@ exists an open $U$ of $X$, dense and $G$-saturated, satisfying the following pro
 
 <!-- label: III.V.10.3.1 -->
 
-*(i) In $(Sch/S)$, the cokernel $V = G\U$ exists; moreover, the scheme $V$ is a quotient in the category of ringed
+*(i) In $(Sch/S)$, the cokernel $V = G\backslash U$ exists; moreover, the scheme $V$ is a quotient in the category of ringed
 spaces.*
 
 *(ii) $p : U \to V$ is surjective, open, and of finite presentation.*
@@ -1987,7 +1987,7 @@ spaces.*
 
 *Proof.* It is assumed that the morphism $G \times_{S} X \to X \times_{S} X$, $(g, x) \mapsto (gx, x)$, is quasi-finite.
 Theorem 8.1 therefore applies to the groupoid defined by $(X, G)$. Thus there exists a dense saturated open
-$U \subset X$ such that the quotient $G\U$ exists; it satisfies properties (i), (ii), (iii).
+$U \subset X$ such that the quotient $G\backslash U$ exists; it satisfies properties (i), (ii), (iii).
 
 <!-- original page 288 -->
 
@@ -2101,14 +2101,14 @@ $d_{i} = \bar{d}_{i} \circ p$, it follows from EGA IV_2, 2.2.13 (iii) and EGA IV
 faithfully flat and of finite presentation.
 
 **Theorem 10.4.2.**[^N.D.E-V-52] *Under the hypotheses of 10.2, suppose $F$ flat over $X$. Then there exists a dense
-saturated open $U$ of $X$ such that the (fppf) quotient $V = G\U$ is an $S$-scheme of finite type and $U \to V$ is
+saturated open $U$ of $X$ such that the (fppf) quotient $V = G\backslash U$ is an $S$-scheme of finite type and $U \to V$ is
 faithfully flat and of finite presentation.*
 
 <!-- label: III.V.10.4.2 -->
 
 <!-- original page 290 -->
 
-*Proof.* Theorem 10.4.1 shows that $G_{X}/F \cong \tilde{\Gamma}$ is representable. Then the (fppf) sheaf $G\X$
+*Proof.* Theorem 10.4.1 shows that $G_{X}/F \cong \tilde{\Gamma}$ is representable. Then the (fppf) sheaf $G\backslash X$
 identifies with the quotient sheaf of
 
 ```text
@@ -2125,13 +2125,13 @@ morphism
 ```
 
 is a monomorphism, that is, $(\bar{d}_{0}, \bar{d}_{1})$ is an equivalence pair. Consequently, theorem 8.1 applies.
-There therefore exists an open $U$ of $X$, dense and saturated, such that the (fppf) quotient $V = G\U$ is an $S$-scheme
+There therefore exists an open $U$ of $X$, dense and saturated, such that the (fppf) quotient $V = G\backslash U$ is an $S$-scheme
 of finite type, and $U \to V$ is faithfully flat and of finite presentation.
 
 Taking into account the generic flatness theorem (EGA IV_2, 6.9.3), one obtains the
 
 **Corollary 10.4.3.** *Under the hypotheses of 10.2, suppose $X$ reduced. Then there exists a dense saturated open $U$
-of $X$ such that the (fppf) quotient $G\U$ is an $S$-scheme of finite type and $U \to G\U$ is faithfully flat and of
+of $X$ such that the (fppf) quotient $G\backslash U$ is an $S$-scheme of finite type and $U \to G\backslash U$ is faithfully flat and of
 finite presentation.*
 
 <!-- label: III.V.10.4.3 -->
@@ -2420,7 +2420,7 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
     N.D.E. 44.
 
 [^N.D.E-V-50]: N.D.E.: If one assumes in addition that $G$ is a reductive $S$-group scheme and that the (free) action of
-    $G$ on $X$ is linearizable, then it is known that $G\X$ is representable and that $X \to G\X$ is a (left)
+    $G$ on $X$ is linearizable, then it is known that $G\backslash X$ is representable and that $X \to G\backslash X$ is a (left)
     $G$-torsor. This follows from results of Raynaud and Seshadri and is found in the article [CTS79] (proposition
     6.11).
 

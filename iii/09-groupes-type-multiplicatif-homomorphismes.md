@@ -1475,7 +1475,7 @@ where $\chi_{m} : G \to G_{m,k}$ is the character associated with $m$, so that (
 
 <!-- label: eq:III.IX.8.1.4 -->
 
-$Z_{i}$ denoting the set of $m \in M$ such that $a_{\im} \neq 0$. This relation may also be written
+$Z_{i}$ denoting the set of $m \in M$ such that $a_{im} \neq 0$. This relation may also be written
 
 ```text
 χ_{m' - m}(g) = 1    if m, m′ ∈ Z_i.

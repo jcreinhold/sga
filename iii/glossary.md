@@ -243,8 +243,8 @@ The 2011 SMF re-edition is modern LaTeX, so OCR is high quality. Most math symbo
   ($[{}^{N}.D.E-I-3]$, etc.) and translate the body of the note.
 - **$\ddot{\imath}$ or `ı`** (dotless i with floating diacritic) — restore to `ï`.
 - **Backslash escapes** surviving from LaTeX: `\&` → `&`, `\#` → `#`.
-- **Arrows.** $-\to$ → $\to$, $7\to$ → $\mapsto$, $\sim=$ (often broken across lines) → $\cong$, $\sim\n\to$ →
-  $\xrightarrow{\sim}$ or $\to$ annotated `~`.
+- **Arrows.** $-\to$ → $\to$, $7\to$ → $\mapsto$, $\sim=$ (often broken across lines) → $\cong$, `\sim\n\to`
+  (OCR artefact) → $\xrightarrow{\sim}$ or $\to$ annotated `~`.
 - **Greek subscripts.** $\pi 1$, `H0`, `G m` etc. should be $\pi_{1}$, $H^{0}$, $G_{m}$ (with backticks).
 - **`◦` for opposite category** drops to $o$ or `0`. Restore ${}^{\circ}$ or ${}^{\circ}$ (degree sign), matching local
   convention.
@@ -261,14 +261,14 @@ The 2011 SMF re-edition is modern LaTeX, so OCR is high quality. Most math symbo
 Inherited from SGA 1 / SGA 2. Deviate only if the SGA 1/2 corpus is itself inconsistent.
 
 - **File naming.** `00-i-errata.md`, `00-i-avertissement-introduction.md`, `00-ii-preface.md`, `00-iii-errata.md`,
-  $NN-<slug>.md$ for each Exposé (using `06A`, `06B`, `07A`, `07B` for the split Exposés), `glossary.md`, `README.md`,
+  `NN-<slug>.md` for each Exposé (using `06A`, `06B`, `07A`, `07B` for the split Exposés), `glossary.md`, `README.md`,
   `zz-i-index-notations.md`, `zz-iii-index-notations.md`, `zz-iii-index-terminologique.md`.
-- **Heading hierarchy.** $# Expos\acute{e} N. <English Title>$ (with `_A` / `_B` suffix where applicable), then numbered
+- **Heading hierarchy.** `# Exposé N. <English Title>` (with `_A` / `_B` suffix where applicable), then numbered
   `## 1. <Section Title>`, then sub-sections `### 1.1. <Subsection>`. The Exposé heading carries a
   `<!-- label: III.<Roman> -->` comment on the next line.
-- **Statement blocks.** $**Proposition.**$, $**Lemma.**$, $**Theorem.**$, $**Corollary.**$, $**Definition.**$,
-  $**Remark.**$, $**Example.**$, $**Scholie.**$ on their own line. Statement numbers go inline:
-  $**Proposition 3.1.2.** *Statement\cdots*$. The label `<!-- label: III.<Roman>.X.Y -->` follows on the next line.
+- **Statement blocks.** `**Proposition.**`, `**Lemma.**`, `**Theorem.**`, `**Corollary.**`, `**Definition.**`,
+  `**Remark.**`, `**Example.**`, `**Scholie.**` on their own line. Statement numbers go inline:
+  `**Proposition 3.1.2.** *Statement…*`. The label `<!-- label: III.<Roman>.X.Y -->` follows on the next line.
 - **Math.** Unicode math wrapped in backticks for inline. Displayed math in fenced ```` ```text ```` blocks. Numbered
   displayed equations get `<!-- label: eq:III.<Roman>.X.Y -->`.
 - **Footnotes.** Markdown $[{}^{slug}]$ syntax. Original footnotes: $[{}^{<}expos\acute{e}>-<sec>-<n>]$ (e.g.

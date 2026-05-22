@@ -6087,7 +6087,7 @@ Springer), Springer-Verlag, 1967.
     "pseudocompact vector space" (cf. [BAC], § III.2, Exercises 15 a), 19 a), and 20 d)). We have preferred to keep the
     terminology "pseudocompact" used so far.
 
-[^N.D.E-VII_B-C-36]: N.D.E.: On the one hand, we have replaced $H\G$ by $G/H$, and likewise in the proof; on the other
+[^N.D.E-VII_B-C-36]: N.D.E.: On the one hand, we have replaced $H\backslash G$ by $G/H$, and likewise in the proof; on the other
     hand, we have added condition (iii).
 
 [^N.D.E-VII_B-C-37]: N.D.E.: We have added paragraphs 5.2.1.A and 5.2.1.B.

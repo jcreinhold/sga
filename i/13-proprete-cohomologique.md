@@ -228,7 +228,7 @@ R = Q ∧^F₁ P°,
 ```
 
 where $Q$ is a torsor with group $F_{1}$ and $P^{\circ}$ is the opposite of $P$. One then has
-$R' \simeq Q' \wedge^{F}_{1}' P'^{\circ}$. Let $\Phi$ be the stack of torsors under $F$, and let $x$, $y$, respectively
+$R' \simeq Q' {\wedge^{F}_{1}}' P'^{\circ}$. Let $\Phi$ be the stack of torsors under $F$, and let $x$, $y$, respectively
 $x'$, $y'$, be the objects of the fiber category `(g*f_*Φ)_Y₁′`, respectively `(f′_*Φ′)_Y₁′`, associated with $P$, $Q$,
 respectively $P'$, $Q'$. One has the relation
 
@@ -318,7 +318,7 @@ $(f'_{*}\Phi')_{Y}''$ is isomorphic to $P''$. Let $p''$ be the class of $P''$. S
 a surjective étale morphism $Y''_{1} \to Y''$, an étale morphism $Y_{1} \to Y$, a morphism $Y''_{1} \to Y_{1}'$, and a
 torsor $P_{1}$ on $X_{1}$ with group $F_{1}$ whose inverse image $P''_{1}$ on $X''_{1}$ is isomorphic to the inverse
 image of $P''$. Using the fact that $\phi$ is fully faithful, one sees that the object $x_{1}$ of
-$(g*f_{*}\Phi)_{Y}''_{1}$ corresponding to $P''_{1}$ is endowed with a descent datum relative to $Y''_{1} \to Y''$, and
+${(g*f_{*}\Phi)_{Y}''}_{1}$ corresponding to $P''_{1}$ is endowed with a descent datum relative to $Y''_{1} \to Y''$, and
 hence comes from an element $x$ of $(g*f_{*}\Phi)_{Y}''$. Since the image of $x$ in $(f'_{*}\Phi')_{Y}''$ is $P''$, this
 proves that $\phi$ is essentially surjective and completes the proof.
 
@@ -2161,7 +2161,7 @@ $$
 is surjective, and that the specialization morphism
 
 $$
-\pi^{p}_{1}'(\bar{U}) \to \pi^{p}_{1}'(U)
+{\pi^{p}_{1}}'(\bar{U}) \to {\pi^{p}_{1}}'(U)
 $$
 
 is bijective. Finally, if x_i, y_i, σ_j are generators of π₁(Ū) such that σ_j is a generator of an inertia group

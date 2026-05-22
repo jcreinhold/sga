@@ -424,7 +424,7 @@ $Ext^{j}(M, A)_{\mathfrak{p}} = 0$;
 (c) $codim(Supp(Ext^{j}(M, A)), X) \geqslant j$.
 
 To prove (a) ⇒ (b), let $\mathfrak{p} \in X$ with $\dim A_{\mathfrak{p}} < j$; then $\dim A/\mathfrak{p} > r - j$, hence
-by (a) $Ann(Ext^{j}(M, A)) \nsubset \mathfrak{p}$, which entails $Ext^{j}(M, A)_{\mathfrak{p}} = 0$. Let
+by (a) $Ann(Ext^{j}(M, A)) \not\subset \mathfrak{p}$, which entails $Ext^{j}(M, A)_{\mathfrak{p}} = 0$. Let
 $\mathfrak{p} \in Supp(Ext^{j}(M, A))$; then $Ext^{j}(M, A)_{\mathfrak{p}} \neq 0$, so by (b)
 $\dim A_{\mathfrak{p}} \geqslant j$. Hence `codim(Supp(Extʲ(M, A)), X) = inf{dim A_𝔭 | 𝔭 ∈ Supp(Extʲ(M, A))} ⩾ j`, that
 is, (b) ⇒ (c). Finally (c) implies (a) trivially.
@@ -433,7 +433,7 @@ Let us now prove the theorem.
 
 (i) Let $x = (x_{1}, \cdots, x_{r})$ be a system of parameters for $A$ such that $x_{i} \in Ann M$ for
 $i = 1, \cdots, r - n$. Let $K\bullet((x^{k}), M)$ be the Koszul complex. One sees easily that the map
-$K^{i}((x^{k}), M) \to K^{i}((x^{k}'), M)$ for $k < k'$ is zero, if $i > n$. It follows that
+$K^{i}((x^{k}), M) \to K^{i}(({x^{k}}'), M)$ for $k < k'$ is zero, if $i > n$. It follows that
 $H^{i}(M) = \lim\to H^{i}((x^{k}), M) = 0$ if $i > n$. On the other hand, it is trivial that $H^{i}(M) = 0$ if $i < 0$,
 so (i) is proved.
 
@@ -483,7 +483,7 @@ Let `Yᵢ`, $i = 1, \cdots, k$, be the irreducible components of $Y$ of maximum 
 $Ext^{r-n}(M', A) \neq 0$ is equivalent to the assertion: there exists an $i$ such that $Supp M' \supset Y_{i}$. Indeed,
 if $Supp M' \supset Y_{i}$, then $\dim(M') = n$, hence $Ext^{r-n}(M', A) \neq 0$.
 
-If $Supp M' \nsupset Y_{i}$ for every $i = 1, \cdots, k$, then $\dim M' < n$ and
+If $Supp M' \not\supset Y_{i}$ for every $i = 1, \cdots, k$, then $\dim M' < n$ and
 
 $$
 D(H^{n}(M')) = Ext^{r-n}(M', A) = 0.
@@ -497,11 +497,11 @@ Since `Ass(Extʳ⁻ⁿ(M, A)) = Supp M ∩ Ass(H)`, one sees that the last asser
 
 Let $X = \operatorname{Spec}(A)$, let $Y$ be a closed subset of $X$, let $T: (\mathcal{C}_{Y})^{\circ} \to Ab$ be a left
 exact functor, and let `Yᵢ`, $i = 1, \cdots, k$, be a family of irreducible components of $Y$ such that the assertion:
-$T(M) = 0$ is equivalent to the assertion: $\forall i, Supp M \nsupset Y_{i}$. Then $T$ is representable by a module $H$
+$T(M) = 0$ is equivalent to the assertion: $\forall i, Supp M \not\supset Y_{i}$. Then $T$ is representable by a module $H$
 such that $Ass(H) = \bigcup^{k}_{i=1} {y_{i}}$, where `yᵢ` is the generic point of `Yᵢ`, $i = 1, \cdots, k$.
 
 *Proof.* Let $y \in Y$; one constructs an $A$-module $M(y)$ such that $Supp(M(y)) = {y}$. Suppose that $y \neq y_{i}$
-for every $i = 1, \cdots, k$; then $Y_{i} \nsubset Supp(M(y))$ for every $i = 1, \cdots, k$, so $T(M(y)) = 0$. It
+for every $i = 1, \cdots, k$; then $Y_{i} \not\subset Supp(M(y))$ for every $i = 1, \cdots, k$, so $T(M(y)) = 0$. It
 follows that
 
 ```text

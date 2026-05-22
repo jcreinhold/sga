@@ -582,7 +582,7 @@ Let us first record the pleasant corollaries.
 For $\mathcal{O}$ to be net over $A$, it is necessary and sufficient that $\mathcal{O}$ be isomorphic to the quotient of
 an analogous algebra that is étale over $A$.
 
-Indeed, take $\mathcal{O}' = B'_{\mathfrak{n}'}$, where $B' = A[t]/FA[t]$ and where $\mathfrak{n}'$ is the inverse image
+Indeed, take $\mathcal{O}' = {{B'_{\mathfrak{n}}}'}$, where $B' = A[t]/FA[t]$ and where $\mathfrak{n}'$ is the inverse image
 of $\mathfrak{n}$ in $B'$.
 
 **Corollary.**
@@ -618,7 +618,7 @@ $\mathfrak{m}$ is the maximal ideal of $A$. Let us admit for a moment the follow
 Let $A$ be a local ring, $B$ a finite algebra over $A$, $\mathfrak{n}$ a maximal ideal of $B$, and $u$ an element of $B$
 whose image in $B_{\mathfrak{n}}/\mathfrak{m}B_{\mathfrak{n}}$ generates it as an algebra over $k = A/\mathfrak{m}$, and
 which lies in every maximal ideal of $B$ distinct from $\mathfrak{n}$. Let $B' = B[u]$ and
-$\mathfrak{n}' = \mathfrak{n}B'$. Then the canonical homomorphism $B'_{\mathfrak{n}'} \to B_{\mathfrak{n}}$ is an
+$\mathfrak{n}' = \mathfrak{n}B'$. Then the canonical homomorphism ${{B'_{\mathfrak{n}}}'} \to B_{\mathfrak{n}}$ is an
 isomorphism.
 
 **Lemma.**
@@ -639,13 +639,13 @@ $f'(\xi)$ is the image of $F'(u)$, we are done.
 <!-- original page 13 -->
 
 Theorem I.7.6 now follows by combining I.7.9 and I.7.10. It remains to prove I.7.9. Put $S' = B' - \mathfrak{n}'$, so
-$B'S'^{-1} = B'_{\mathfrak{n}'}$. Similarly let $S = B - \mathfrak{n}$, so $BS^{-1} = B_{\mathfrak{n}}$. We therefore
+$B'S'^{-1} = {{B'_{\mathfrak{n}}}'}$. Similarly let $S = B - \mathfrak{n}$, so $BS^{-1} = B_{\mathfrak{n}}$. We therefore
 have a natural homomorphism $B S'^{-1} \to BS^{-1} = B_{\mathfrak{n}}$. Let us prove that it is an isomorphism, i.e.
 that the elements of $S$ are invertible in $B S'^{-1}$, i.e. that every maximal ideal $\mathfrak{p}$ of the latter does
 not meet $S$, i.e. induces $\mathfrak{n}$ on $B$.
 
-Indeed, since $B S'^{-1}$ is finite over $B'S'^{-1} = B'_{\mathfrak{n}'}$, $\mathfrak{p}$ induces the unique maximal
-ideal $\mathfrak{n}'B'_{\mathfrak{n}'}$ of $B'_{\mathfrak{n}'}$, hence induces the maximal ideal $\mathfrak{n}'$ of
+Indeed, since $B S'^{-1}$ is finite over $B'S'^{-1} = {{B'_{\mathfrak{n}}}'}$, $\mathfrak{p}$ induces the unique maximal
+ideal $\mathfrak{n}'{{B'_{\mathfrak{n}}}'}$ of ${{B'_{\mathfrak{n}}}'}$, hence induces the maximal ideal $\mathfrak{n}'$ of
 $B'$. Since $B$ is finite over $B'$, the ideal $\mathfrak{q}$ of $B$ induced by $\mathfrak{p}$, lying over
 $\mathfrak{n}'$, is necessarily maximal and does not contain $u$, hence is identical with $\mathfrak{n}$. Here we have
 just used that $u$ belongs to every maximal ideal of $B$ distinct from $\mathfrak{n}$.

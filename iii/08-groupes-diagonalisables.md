@@ -1628,7 +1628,7 @@ deduced from $u : G \to H$ by the base change $S' \to S$:*
 
 *Under these conditions, $u$ is an immersion.*
 
-It suffices to remark that, in (c), the condition that ${}_{pG}'_{0}$ be finite over $S'$ implies that ${}_{pG}'_{0}$ is
+It suffices to remark that, in (c), the condition that ${{}_{pG}'}_{0}$ be finite over $S'$ implies that ${{}_{pG}'}_{0}$ is
 finite over $\kappa(s)$, which already implies that $G'_{0} \otimes_{\kappa(s)} \overline{\kappa(s)}$ contains no
 subgroup isomorphic to the additive group, so that one is under the hypotheses of 7.5.
 

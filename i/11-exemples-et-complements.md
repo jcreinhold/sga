@@ -25,7 +25,7 @@ $$
 where $d$ is the degree of $X'$ over $X$. Since $g = 0$, we have $1 - g' = d$, which forces $d = 1$ because $g' \geq 0$;
 this proves $X' \simeq X$.
 
-When $r \geq 2$, one proceeds by induction on $r$, assuming $\mathbb{P}^{r}'$ simply connected for $r' < r$. Applying
+When $r \geq 2$, one proceeds by induction on $r$, assuming ${\mathbb{P}^{r}}'$ simply connected for $r' < r$. Applying
 this to a hyperplane of $\mathbb{P}^{r}$ and using X.2.10, it follows that $\mathbb{P}^{r}$ is simply connected. Another
 proof: by X.1.7 one has
 
@@ -508,11 +508,11 @@ $$
 $$
 
 be a sequence of morphisms of such groups. **We say that this sequence is exact if the composite $G' \to G \to G''$ is
-zero** (which allows $G$ to be regarded as a prescheme over $G''$ with right operator group $G'_{G}''$)
+zero** (which allows $G$ to be regarded as a prescheme over $G''$ with right operator group ${G'_{G}}''$)
 
 <!-- original page 297 -->
 
-**and if $G$ is a principal homogeneous bundle over $G''$ with group $G'_{G}'' = G' \times_{S} G''$**. This implies in
+**and if $G$ is a principal homogeneous bundle over $G''$ with group ${G'_{G}}'' = G' \times_{S} G''$**. This implies in
 particular that $u: G' \to G$ is a kernel of $v: G \to G''$, and a fortiori it implies exactness of
 
 $$
@@ -526,7 +526,7 @@ $$
 $$
 
 by associating to every section of $G''$ over $S$, that is, to every $S$-morphism $f: S \to G''$, the principal
-homogeneous bundle $P_{f}$ with group $G' \simeq f*(G'_{G}'')$ over $S$, inverse image of the principal homogeneous
+homogeneous bundle $P_{f}$ with group $G' \simeq f*({G'_{G}}'')$ over $S$, inverse image of the principal homogeneous
 bundle $G$ over $G''$. From the viewpoint of $S$-preschemes, this is simply the inverse image by $v: G \to G''$ of the
 subprescheme image of $S$ by the immersion $f$; the operations of $G'$ on $P_{f}$ are induced by the right operations of
 $G'$ on $G$.
@@ -575,7 +575,7 @@ that $P$ is a **locally trivial** principal homogeneous bundle. The classes of t
 subset of $H^{1}(X,G)$, in one-to-one correspondence with $H^{1}(X,\mathcal{O}_{X}(G))$, where $\mathcal{O}_{X}(G)$ is
 the ordinary sheaf of sections of $G$ over $S$; cf. [XI.2]. For these $H^{1}$ to again give rise to a cohomology exact
 sequence XI.4.5, one must plainly assume that the sequence $0 \to G' \to G \to G'' \to 0$ is exact in the reasonable
-sense for this new context, that is, that $G$ is a locally trivial bundle over $G''$ with group $G'_{G}''$. This also
+sense for this new context, that is, that $G$ is a locally trivial bundle over $G''$ with group ${G'_{G}}''$. This also
 means that $u: G' \to G$ is a kernel of $v: G \to G''$, and that $G$ admits local sections over $G''$.
 
 ### 4.8.

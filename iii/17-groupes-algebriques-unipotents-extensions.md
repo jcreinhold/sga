@@ -1627,7 +1627,7 @@ a principal homogeneous space under $Z$, and the hypothesis on $Z$ entails that 
 f) Proceeding as in 5.3.1, one sees that it suffices to consider the case $H$ étale. Suppose first $H$ diagonalizable,
 defined by the ordinary group $M$, of order $m$ prime to $p$. The data of the two lifts $H'$ and `H''` defines a
 1-cocycle of $M$ with values in $U(\bar{k})$, that is, a map $h$ from $M$ to $U(\bar{k})$ such that
-$h(mn) = h(m) \cdot {}}^{m} h(n)$ for every pair `m, n` of elements of $M$. The groups $H'$ and `H''` are conjugate by
+$h(mn) = h(m) \cdot {}^{m} h(n)$ for every pair `m, n` of elements of $M$. The groups $H'$ and `H''` are conjugate by
 an element of $U(k)$ if and only if there exists $a \in U(\bar{k})$ such that
 
 ```text
@@ -1927,7 +1927,7 @@ formula:
 ```
 
 If $h$ is a point of $H(k)$, $X$ its inverse image in $E_{a}$, $X$ is therefore a torsor under $U$ defined by the class
-of the 1-cocycle of $G$ with values in $U$, $g \mapsto a(g) - {}}^{h} a(g)$. It follows that if there exists a point $h$
+of the 1-cocycle of $G$ with values in $U$, $g \mapsto a(g) - {}^{h} a(g)$. It follows that if there exists a point $h$
 of $H(k)$ such that the preceding 1-cocycle is non-trivial,
 
 <!-- original page 598 -->

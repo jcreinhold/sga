@@ -3590,7 +3590,7 @@ coincide by 5.3.5, finishing the proof of (i).
 Let us now prove (ii); the first two assertions are simply 5.10.1 and 5.6.5. Let $U$ be a group subscheme of $H_{R'}$,
 smooth and of finite presentation, normal (hence normalized by $T$), with connected and unipotent geometric fibers; by
 5.6.12, one has, locally on $S$, $U = U_{R''}$, where $R''$ is a subset of $R'$ such that $R'' \cap -R'' = \emptyset$.
-If $U \nsubset U_{R_{2}}$, then $R'' \nsubset R_{2}$, so there exists $\alpha \in R''$ such that $-\alpha \in R'$. Then
+If $U \not\subset U_{R_{2}}$, then $R'' \not\subset R_{2}$, so there exists $\alpha \in R''$ such that $-\alpha \in R'$. Then
 $Z\alpha \subset H_{R'}$ (5.4.3), so $Z\alpha$ normalizes $U$. But $U$ contains $U\alpha$ and $Z\alpha$ possesses a
 section $w$ such that $int(w) U\alpha = U_{-\alpha}$; this entails $-\alpha \in R''$, contradicting the hypothesis
 $R'' \cap -R'' = \emptyset$.

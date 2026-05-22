@@ -693,9 +693,9 @@ compatible with the actions of $\pi_{s''}$, acting on the two sides through the 
 $q^{s''}_{i}: \pi_{s''} \to \pi_{q_{i}(s'')}$. Taking first the $s''$ of the form $\bar{s}'$, one sees that such data
 define bijections
 
-$\psi_{s'}: X'_{s_{0}'} = F_{0}'(X') \to X'_{s'}$,
+$\psi_{s'}: {{X'_{s_{0}}}'} = F_{0}'(X') \to X'_{s'}$,
 
-which allow all the $X'_{s'}$ to be identified with the same set $F_{0}'(X') = X'_{s_{0}'}$, on which all the groups
+which allow all the $X'_{s'}$ to be identified with the same set $F_{0}'(X') = {{X'_{s_{0}}}'}$, on which all the groups
 $\pi_{s'}$ will then act. With this understood, the bijections $\phi_{s''}$ correspond to bijections
 
 $g_{s''}: F_{0}'(X') \simeq F_{0}'(X')$,

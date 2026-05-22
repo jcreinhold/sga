@@ -999,7 +999,7 @@ the morphism $G^{0} \times_{\mathbb{R}} X \to X \times_{\mathbb{C}} X$ is an iso
 
 <!-- label: III.VI_A.2.6.7 -->
 
-## 3. Construction of quotients $F\G$ (for `G, F` of finite type)
+## 3. Construction of quotients $F\backslash G$ (for `G, F` of finite type)
 
 <!-- label: III.VI_A.3 -->
 
@@ -1015,7 +1015,7 @@ $\nu : G \times_{A} G \to G$ denote the multiplication morphisms and $\lambda$ t
 F ×_A G ─────────→ G ×_A G ────→ G,
 ```
 
-we recall that the *left quotient* $F\G$ of $G$ by $F$ is the cokernel of the $(Sch/A)$-groupoid $G_{*}$ described
+we recall that the *left quotient* $F\backslash G$ of $G$ by $F$ is the cokernel of the $(Sch/A)$-groupoid $G_{*}$ described
 below:
 
 ```text
@@ -1050,32 +1050,32 @@ by* $s$ (cf. 0.4).
 **Theorem 3.2.** *Let $F$ and $G$ be flat groups locally of finite type over an Artinian local ring $A$. Let
 $u : F \to G$ be a quasi-compact $A$-group homomorphism with kernel finite over $A$. Then:*[^N.D.E-VI_A-33]
 
-*(i) The left quotient $F\G$ of $G$ by $F$ exists in $(Sch/A)$, and the sequence*
+*(i) The left quotient $F\backslash G$ of $G$ by $F$ exists in $(Sch/A)$, and the sequence*
 
 ```text
               λ        p
-F ×_A G  ─────→  G  ─────→  F\G
+F ×_A G  ─────→  G  ─────→  F\backslash G
              pr_2
 ```
 
 *is exact in the category of all ringed spaces.*
 
-*(ii) The canonical morphism $p : G \to F\G$ is surjective and open, and $F\G$ is a direct sum of schemes of finite type
+*(ii) The canonical morphism $p : G \to F\backslash G$ is surjective and open, and $F\backslash G$ is a direct sum of schemes of finite type
 over $A$.*
 
-*(ii′) More precisely, $X = F\G$ is equipped with a right action of $G$ such that $p(e) \cdot g = p(g)$ for every
+*(ii′) More precisely, $X = F\backslash G$ is equipped with a right action of $G$ such that $p(e) \cdot g = p(g)$ for every
 $g \in G$; consequently, the connected components of $X$ are of finite type over $A$, irreducible, and all of dimension
 $\dim G - \dim F$.*
 
-*(iii) The canonical morphism $F \times_{A} G \to G \times_{F\G} G$ is surjective.*
+*(iii) The canonical morphism $F \times_{A} G \to G \times_{F\backslash G} G$ is surjective.*
 
 *(iv) If $u$ is a monomorphism,[^N.D.E-VI_A-34] then:*
 
-*(a) $F \times_{A} G \xrightarrow{(\lambda,pr_{2})} G \times_{F\G} G$ is an isomorphism, and $G \to F\G$ is faithfully
-flat and locally of finite presentation.* *(a′) $F\G$ represents the (fppf) quotient sheaf `F\̃G`, and $G \to F\G$ is a
-locally trivial $F$-torsor for the (fppf) topology.* *(b) $F\G$ is flat over $A$, and is smooth over $A$ if $G$ is so.*
-*(c) $u : F \to G$ is a closed immersion, and $F\G$ is separated.* *(d) If, in addition, $F$ is a normal subgroup of
-$G$, there exists on $F\G$ one and only one $A$-group structure such that $p : G \to F\G$ is a morphism of $A$-groups.*
+*(a) $F \times_{A} G \xrightarrow{(\lambda,pr_{2})} G \times_{F\backslash G} G$ is an isomorphism, and $G \to F\backslash G$ is faithfully
+flat and locally of finite presentation.* *(a′) $F\backslash G$ represents the (fppf) quotient sheaf `F\̃G`, and $G \to F\backslash G$ is a
+locally trivial $F$-torsor for the (fppf) topology.* *(b) $F\backslash G$ is flat over $A$, and is smooth over $A$ if $G$ is so.*
+*(c) $u : F \to G$ is a closed immersion, and $F\backslash G$ is separated.* *(d) If, in addition, $F$ is a normal subgroup of
+$G$, there exists on $F\backslash G$ one and only one $A$-group structure such that $p : G \to F\backslash G$ is a morphism of $A$-groups.*
 
 <!-- label: III.VI_A.3.2 -->
 
@@ -1092,7 +1092,7 @@ We shall first prove the theorem when $F$ and $G$ are of finite type over $A$.
 
 Suppose for a moment that every point of $G$ has an open saturated neighborhood $W$ such that the groupoid induced by
 $G_{*}$ on $W$ possesses a quasi-section (cf. V § 6). Then, by V 6.1, one has assertions (i), (ii), (iii) and (iv)(a),
-and $F\G$ is of finite type over $k$. Moreover, under the hypothesis of (iv), since $G \to F\G$ is faithfully flat and
+and $F\backslash G$ is of finite type over $k$. Moreover, under the hypothesis of (iv), since $G \to F\backslash G$ is faithfully flat and
 locally of finite presentation, assertion (b) follows from EGA IV, 2.2.14 and 17.7.7. On the other hand, assertion
 (iv)(a′) follows from (iv)(a), by Exp. IV, 3.4.3.1, 5.2.2 and 5.1.6. Finally, (iv)(c) will be proved in 3.2.5, and (ii′)
 and (iv)(d) will be proved in section 5.
@@ -1100,7 +1100,7 @@ and (iv)(d) will be proved in section 5.
 Let us now prove the following assertion:
 
 ```text
-(†)    every finite subset of F\G is then contained in an affine open.
+(†)    every finite subset of F\backslash G is then contained in an affine open.
 ```
 
 [^N.D.E-VI_A-35]
@@ -1110,10 +1110,10 @@ a quasi-section of the $(Sch/A')$-groupoid induced by $G_{*} \otimes_{A} A'$ on 
 is the $(Sch/A)$-groupoid induced by $G_{*}$ on $U$, then $U_{*} \otimes_{A} A'$ is identified with the
 $(Sch/A')$-groupoid induced by $G_{*} \otimes_{A} A'$ on $U \otimes_{A} A'$.[^N.D.E-VI_A-36]
 
-It follows from the proofs of Exposé V that the construction of the quotient $X = F\G$ commutes with the extension
+It follows from the proofs of Exposé V that the construction of the quotient $X = F\backslash G$ commutes with the extension
 $A \to A'$ of the base of the type considered here.[^N.D.E-VI_A-37]
 
-Let then $x_{1}, \cdots, x_{n}$ be points of $X = F\G$, which we may assume closed,[^N.D.E-VI_A-38] and
+Let then $x_{1}, \cdots, x_{n}$ be points of $X = F\backslash G$, which we may assume closed,[^N.D.E-VI_A-38] and
 $g_{1}, \cdots, g_{n}$ closed points of $G$ projecting onto $x_{1}, \cdots, x_{n}$. Let $V$ be an everywhere dense
 affine open of $X$,[^N.D.E-VI_A-39] and let $U$ be the inverse image of $V$ in $G$. By 1.2, there exists an $A$-algebra
 $A'$ that is local, finite and free over $A$, such that the points $g'_{1}, \cdots, g'_{p}$ of $G' = G \otimes_{A} A'$
@@ -1174,10 +1174,10 @@ has $U(A'') = G' \otimes_{A'} A'' = G \otimes_{A} A''$.
 
 #### 3.2.3.
 
-We are now in a position to prove the existence of $F\G$ when $F$ and $G$ are of finite type over $A$. Let $A'$ be large
+We are now in a position to prove the existence of $F\backslash G$ when $F$ and $G$ are of finite type over $A$. Let $A'$ be large
 enough over $A$ so that $U(A')$ coincides with $G \otimes_{A} A'$ (cf. 3.2.2). We shall set $A'' = A' \otimes_{A} A'$
 and, for every $A$-scheme $X$, we shall denote by $X'$ and $X''$ the fibered products $X \otimes_{A} A'$ and
-$X \otimes_{A} A''$. By 3.2.1 and 3.2.2, the quotients $F'\G'$ and $F''\G''$ exist, and one has the following
+$X \otimes_{A} A''$. By 3.2.1 and 3.2.2, the quotients $F'\backslash G'$ and $F''\backslash G''$ exist, and one has the following
 commutative diagram, in which the first two lines and columns are exact:
 
 ```text
@@ -1199,51 +1199,51 @@ commutative diagram, in which the first two lines and columns are exact:
 In this diagram, $pr'_{2}$ and $\lambda'$ (resp. $pr''_{2}$ and $\lambda''$) are obtained from $pr_{2}$ and $\lambda$ by
 obvious base changes; the morphisms $g$ and $h$ are induced by the canonical injection $A \to A'$. One denotes by $p'$
 and $p''$ the canonical morphisms; the morphisms $v_{1}, v_{2}$ and $w_{1}, w_{2}$ are induced by the two canonical
-injections of $A'$ into $A''$. Finally, since the construction of the quotient $F'\G'$ commutes with the two base
+injections of $A'$ into $A''$. Finally, since the construction of the quotient $F'\backslash G'$ commutes with the two base
 changes
 
 <!-- original page 307 -->
 
 $f_{1}, f_{2} : \operatorname{Spec} A'' \Rightarrow \operatorname{Spec} A'$, one has, writing
-$\pi' : F'\G' \to \operatorname{Spec} A'$ for the structural morphism, canonical isomorphisms, for $i = 1, 2$:
+$\pi' : F'\backslash G' \to \operatorname{Spec} A'$ for the structural morphism, canonical isomorphisms, for $i = 1, 2$:
 
 ```text
             ∼
-τ_i : F′′\G′′ ──→ (F′\G′) ×_{π′, f_i} Spec A′′,
+τ_i : F′′\backslash G′′ ──→ (F′\backslash G′) ×_{π′, f_i} Spec A′′,
 ```
 
 and the morphism $u_{i}$ is the composite of $\tau_{i}$ and the projection
-$(F'\G') \times_{\pi', f_{i}} \operatorname{Spec} A'' \to F'\G'$.
+$(F'\backslash G') \times_{\pi', f_{i}} \operatorname{Spec} A'' \to F'\backslash G'$.
 
 Now, when one has a diagram of type $(\ast)$ with the first two rows and columns exact, one verifies easily that
 $Coker(pr_{2}, \lambda)$ exists if and only if $Coker(u_{1}, u_{2})$ exists, and these two cokernels are identified. The
-existence of $F\G$ will therefore follow from that of $Coker(u_{1}, u_{2})$.
+existence of $F\backslash G$ will therefore follow from that of $Coker(u_{1}, u_{2})$.
 
-Now it follows from the compatibility of the formation of $F\G$ with the base extensions considered here (cf. N.D.E.
+Now it follows from the compatibility of the formation of $F\backslash G$ with the base extensions considered here (cf. N.D.E.
 (37) in 3.2.1, and 4.6 below) that the composite morphism
 
 ```text
                             τ_1⁻¹                          τ_2
-(F′\G′) ×_{π′, f_1} Spec A′′ ────→ F′′\G′′ ────→ (F′\G′) ×_{π′, f_2} Spec A′′
+(F′\backslash G′) ×_{π′, f_1} Spec A′′ ────→ F′′\backslash G′′ ────→ (F′\backslash G′) ×_{π′, f_2} Spec A′′
 ```
 
-is a descent datum on $F'\G'$ relative to $f : \operatorname{Spec} A' \to \operatorname{Spec} A$. By 3.2.1 (†) and SGA
+is a descent datum on $F'\backslash G'$ relative to $f : \operatorname{Spec} A' \to \operatorname{Spec} A$. By 3.2.1 (†) and SGA
 1, VIII 7.6, this descent datum is effective, that is, $Coker(u_{1}, u_{2})$ exists (one could also use directly Theorem
 4.1 of Exp. V).
 
 #### 3.2.4.
 
 To complete the proof of assertions (i), (ii), (iii) and (iv)(a) of 3.2 in the case where $F$ and $G$ are of finite type
-over $A$, it remains to study the quotient $F\G$. By V 6.1, assertions (ii), (iii) and (iv)(a) "become true" after the
+over $A$, it remains to study the quotient $F\backslash G$. By V 6.1, assertions (ii), (iii) and (iv)(a) "become true" after the
 base change $f : \operatorname{Spec} A' \to \operatorname{Spec} A$; by EGA IV_2, 2.6.1, 2.6.2 and 2.7.1, these
-assertions were therefore true before the base change. Finally, to prove the second assertion of (i), i.e. that $F\G$ is
+assertions were therefore true before the base change. Finally, to prove the second assertion of (i), i.e. that $F\backslash G$ is
 the cokernel of $(pr_{2}, \lambda)$ in the category of all ringed spaces, one need only refer to V § 6.c).
 
 <!-- original page 313 -->
 
 #### 3.2.5.
 
-[^N.D.E-VI_A-41] Let us now prove assertion (iv)(c) of 3.2, by reproducing the proof of VI_B, 9.2.1. Write $X = F\G$,
+[^N.D.E-VI_A-41] Let us now prove assertion (iv)(c) of 3.2, by reproducing the proof of VI_B, 9.2.1. Write $X = F\backslash G$,
 and $d$ for the morphism $F \times_{A} G \to G \times_{A} G$ with components $\lambda$ and $pr_{2}$.
 
 Since $u$ is a closed immersion by 2.5.2, and since $d = \sigma \circ (u \times id_{G})$, where $\sigma$ is the
@@ -1286,34 +1286,34 @@ One may now state the following variant of Theorem 3.2.
 **Theorem 3.3.2.** *Let $A$ be an Artinian local ring, $G$ an $A$-group locally of finite type, $F$ a closed subgroup of
 $G$, flat over $A$.*[^N.D.E-VI_A-43] *Then:*
 
-*(i) The (fppf) quotient sheaf $\tilde{F}\G$ is representable by an $A$-scheme $F\G$ that is separated and locally of
+*(i) The (fppf) quotient sheaf $\tilde{F}\backslash G$ is representable by an $A$-scheme $F\backslash G$ that is separated and locally of
 finite type; moreover, the sequence*
 
 ```text
             //         p
-F ×_A G ─────→  G  ─────→  F\G
+F ×_A G ─────→  G  ─────→  F\backslash G
 ```
 
 <!-- original page 318 -->
 
 *is exact in the category of all ringed spaces.*
 
-*(ii) $F \times_{A} G \xrightarrow{(\lambda,pr_{2})} G \times_{F\G} G$ is an isomorphism, and $p : G \to F\G$ is
+*(ii) $F \times_{A} G \xrightarrow{(\lambda,pr_{2})} G \times_{F\backslash G} G$ is an isomorphism, and $p : G \to F\backslash G$ is
 faithfully flat and locally of finite presentation, so that $p$ is a locally trivial $F$-torsor for the (fppf)
 topology.*
 
-*(iii) If $G$ is flat (resp. of finite type, resp. smooth) over $A$, then so is $F\G$.*
+*(iii) If $G$ is flat (resp. of finite type, resp. smooth) over $A$, then so is $F\backslash G$.*
 
-*(iv) $X = F\G$ is equipped with a right action of $G$, such that $p(e) \cdot g = p(g)$ for every $g \in G$;
+*(iv) $X = F\backslash G$ is equipped with a right action of $G$, such that $p(e) \cdot g = p(g)$ for every $g \in G$;
 consequently, the connected components of $X$ are of finite type over $A$, irreducible, and all of dimension
 $\dim G - \dim F$.*
 
-*(v) If, in addition, $F$ is a normal subgroup of $G$, there exists on $F\G$ one and only one $A$-group structure such
-that $p : G \to F\G$ is a morphism of $A$-groups.*
+*(v) If, in addition, $F$ is a normal subgroup of $G$, there exists on $F\backslash G$ one and only one $A$-group structure such
+that $p : G \to F\backslash G$ is a morphism of $A$-groups.*
 
 <!-- label: III.VI_A.3.3.2 -->
 
-Assertions (i) and (ii) follow from 3.2 and 3.3.1, and since $G \to F\G$ is faithfully flat and locally of finite
+Assertions (i) and (ii) follow from 3.2 and 3.3.1, and since $G \to F\backslash G$ is faithfully flat and locally of finite
 presentation, assertion (iii) follows from EGA IV, 2.2.14, 2.7.1 and 17.7.7. We shall prove assertions (iv) and (v) in
 section 5. Let us note immediately the following corollary.
 
@@ -1334,7 +1334,7 @@ $g \in G(S)$, $h \in H(S)$.*
 Indeed, since $p : G \to G/H$ is faithfully flat and locally of finite presentation, hence covering for the (fppf)
 topology, this follows from IV, 3.3.3.2.
 
-## 4. Construction of quotients $F\G$ (general case)
+## 4. Construction of quotients $F\backslash G$ (general case)
 
 <!-- label: III.VI_A.4 -->
 
@@ -1393,7 +1393,7 @@ led to study separately.
 
 Let us first consider the groupoid $S(G^{0})_{*}$ induced by $G_{*}$ on $S(G^{0})$. It is clear that $S(G^{0})_{*}$ is
 the groupoid with base $S(G^{0})$ defined by the homomorphism from $F$ into $S(G^{0})$ induced by $u$ (§ 3.1). The
-cokernel whose existence we wish to prove is therefore identified with $F\S(G^{0})$. Consider on the other hand the
+cokernel whose existence we wish to prove is therefore identified with $F\backslash S(G^{0})$. Consider on the other hand the
 groupoid
 
 ```text
@@ -1421,9 +1421,9 @@ if $u(F^{\beta})$ is not contained in $G^{0}$, $\lambda(F^{\beta} \times_{A} G^{
 
 It follows from what precedes that the groupoid $G^{0}_{*}$ induced by $G_{*}$ on $G^{0}$ is the groupoid with base
 $G^{0}$ defined by the homomorphism $F^{0} \to G^{0}$ induced by $u$. Since $G^{0}$, and hence $F^{0}$, are of finite
-type over $A$, then, by paragraph 4, $G^{0}_{*}$ has a cokernel which is none other than $F^{0}\G^{0}$.
+type over $A$, then, by paragraph 4, $G^{0}_{*}$ has a cokernel which is none other than $F^{0}\backslash G^{0}$.
 
-I now claim that $F^{0}\G^{0}$ is identified with $F\S(G^{0})$. Indeed, the proof is analogous to that of the first part
+I now claim that $F^{0}\backslash G^{0}$ is identified with $F\backslash S(G^{0})$. Indeed, the proof is analogous to that of the first part
 of assertion (i) of Lemma V § 6.1; consider the diagram:
 
 ```text
@@ -1432,7 +1432,7 @@ S(G⁰) ←──────────  F ×_A G⁰  ────────
 ```
 
 where $v$ is the morphism induced by $\lambda$. Since $pr_{2}$ has a section, $pr_{2}$ is a universal effective
-epimorphism, so that $F^{0}\G^{0}$ coincides with $Coker(v_{0}, v_{1})$, where
+epimorphism, so that $F^{0}\backslash G^{0}$ coincides with $Coker(v_{0}, v_{1})$, where
 
 ```text
               v′_2
@@ -1454,13 +1454,13 @@ $S(G^{0})_{*}$ by the composite morphism
 F ×_A G⁰ ─────────→ F ×_A S(G⁰) ─────────→ S(G⁰).
 ```
 
-Similarly, since $v$ is faithfully flat and quasi-compact, $F\S(G^{0})$ coincides with the cokernel of the inverse image
+Similarly, since $v$ is faithfully flat and quasi-compact, $F\backslash S(G^{0})$ coincides with the cokernel of the inverse image
 of $S(G^{0})_{*}$ by the base change $v$. Now this inverse image is isomorphic to $V_{*}$ by Exp. V, § 3.c; it follows
-that the canonical inclusion of $G^{0}_{*}$ into $S(G^{0})_{*}$ induces an isomorphism of $F^{0}\G^{0}$ onto
-$F\S(G^{0})$.
+that the canonical inclusion of $G^{0}_{*}$ into $S(G^{0})_{*}$ induces an isomorphism of $F^{0}\backslash G^{0}$ onto
+$F\backslash S(G^{0})$.
 
-We finally note that: the construction of $F\S(G^{0})$ commutes with finite locally free base changes, because the same
-holds for $F^{0}\G^{0}$ (cf. N.D.E. (37) and 4.6 below).
+We finally note that: the construction of $F\backslash S(G^{0})$ commutes with finite locally free base changes, because the same
+holds for $F^{0}\backslash G^{0}$ (cf. N.D.E. (37) and 4.6 below).
 
 ### 4.4.
 
@@ -1484,7 +1484,7 @@ $Y \otimes_{A} A'$, where $Y$ is a cokernel of $S(G^{\alpha}_{*})$.
 
 ### 4.5.
 
-We have therefore constructed $F\G$ and shown that it is a direct sum of schemes of finite type over $A$. The other
+We have therefore constructed $F\backslash G$ and shown that it is a direct sum of schemes of finite type over $A$. The other
 assertions of Theorem 3.2 reduce directly to assertions concerning the groupoids $S(G^{\alpha}_{*})$. As in V § 6, the
 second assertion of (i) follows from the first and from (ii) and (iii), so it suffices to prove (ii), (iii) and (iv)(a).
 Since $A'$ is a local, finite, free $A$-algebra, the morphism $A \to A'$ is faithfully flat and of finite presentation,
@@ -1549,11 +1549,11 @@ has "locally" quasi-sections. For every extension $T \to \operatorname{Spec} A$ 
 
 ```text
                                   //
-(F′′\G′′) ×_{Spec A} T  ─────→  (F′\G′) ×_{Spec A} T  ─────→  (F\G) ×_{Spec A} T
+(F′′\backslash G′′) ×_{Spec A} T  ─────→  (F′\backslash G′) ×_{Spec A} T  ─────→  (F\backslash G) ×_{Spec A} T
 ```
 
 deduced from the diagram $(\ast)$ of 3.2.3 is exact. If one supposes in addition $T$ flat over $\operatorname{Spec} A$,
-then $(F''\G'') \times_{\operatorname{Spec} A} T$ and $(F'\G') \times_{\operatorname{Spec} A} T$ are identified
+then $(F''\backslash G'') \times_{\operatorname{Spec} A} T$ and $(F'\backslash G') \times_{\operatorname{Spec} A} T$ are identified
 respectively, by 4.6, with the cokernels of the groupoids
 
 ```text
@@ -1561,12 +1561,12 @@ respectively, by 4.6, with the cokernels of the groupoids
 ```
 
 The diagram deduced from 3.2.3 $(\ast)$ by the base change $T \to \operatorname{Spec} A$ then shows that
-$(F\G) \times_{\operatorname{Spec} A} T$ is identified with the cokernel of $G_{*} \times_{\operatorname{Spec} A} T$. An
+$(F\backslash G) \times_{\operatorname{Spec} A} T$ is identified with the cokernel of $G_{*} \times_{\operatorname{Spec} A} T$. An
 analogous argument is valid in the general case (i.e. when $G$ and $F$ are locally of finite type over $A$). One
 therefore obtains:[^N.D.E-VI_A-48]
 
 **Proposition 4.7.1.** *Under the hypotheses of Theorem 3.2, for every flat $A$-scheme $T$,
-$(F\G) \times_{\operatorname{Spec} A} T$ is identified with the left quotient of $G \times_{\operatorname{Spec} A} T$ by
+$(F\backslash G) \times_{\operatorname{Spec} A} T$ is identified with the left quotient of $G \times_{\operatorname{Spec} A} T$ by
 $F \times_{\operatorname{Spec} A} T$.*
 
 <!-- label: III.VI_A.4.7.1 -->
@@ -1592,7 +1592,7 @@ pr_2 × G    λ × G            pr_2    λ
 
    p × G                           p
                        ρ
-   (F\G) ×_A G  ⇢ ⇢ ⇢ ⇢ ⇢ ⇢ ⇢ F\G,
+   (F\backslash G) ×_A G  ⇢ ⇢ ⇢ ⇢ ⇢ ⇢ ⇢ F\backslash G,
 ```
 
 which satisfies the equalities $pr_{2} \circ (F \times \nu) = \nu \circ (pr_{2} \times G)$ and
@@ -1600,16 +1600,16 @@ $\lambda \circ (F \times \nu) = \nu \circ (\lambda \times G)$. Moreover, since $
 vertical sequence is exact by 4.7, so that $\nu$ induces a morphism of $A$-schemes:
 
 ```text
-ρ : (F\G) ×_A G → F\G.
+ρ : (F\backslash G) ×_A G → F\backslash G.
 ```
 
-This morphism $\rho$ makes $G$ act on the right on $F\G$, as one verifies immediately; moreover, the canonical morphism
-$G \to F\G$ commutes with the right actions of $G$ on $G$ and on $F\G$.
+This morphism $\rho$ makes $G$ act on the right on $F\backslash G$, as one verifies immediately; moreover, the canonical morphism
+$G \to F\backslash G$ commutes with the right actions of $G$ on $G$ and on $F\backslash G$.
 
 [^N.D.E-VI_A-50] This proves the first assertion of point (ii′) of 3.2. By 2.5.4, one then obtains that the connected
-components of $X = F\G$ are of finite type, irreducible, and all of the same dimension. To evaluate this dimension, one
+components of $X = F\backslash G$ are of finite type, irreducible, and all of the same dimension. To evaluate this dimension, one
 may suppose $A = k$ and $k$ algebraically closed. By I, 2.3.3.1, the stabilizer of the $k$-point $p(e)$ is represented
-by the fiber $H = p^{-1}(p(e))$, and since $F\G$ is the quotient of $G$ by $F$ in the category of ringed spaces, this
+by the fiber $H = p^{-1}(p(e))$, and since $F\backslash G$ is the quotient of $G$ by $F$ in the category of ringed spaces, this
 fiber has $u(F)$ as underlying space, and since $Ker(u)$ is finite, one therefore has `dim H = dim u(F) = dim F`. By
 2.5.4 (ii), one obtains therefore that `dim X = dim G − dim F`. This proves point (ii′) of Theorem 3.2 (and hence also
 point (iv) of 3.3.2).
@@ -1617,13 +1617,13 @@ point (iv) of 3.3.2).
 ### 5.2.
 
 When the homomorphism of $A$-groups $u : F \to G$ is a monomorphism, one can recover 5.1 by using the results of Exposé
-IV. Indeed, the canonical morphism $p : G \to F\G$ is faithfully flat and open by 3.2; it is therefore covering for the
+IV. Indeed, the canonical morphism $p : G \to F\backslash G$ is faithfully flat and open by 3.2; it is therefore covering for the
 (fpqc) topology (IV 6.3.1), and one may apply corollaries IV.5.2.2 and IV.5.2.4.
 
 <!-- original page 315 -->
 
 In particular, if we assume, in addition to the hypotheses of 3.2, that $u$ is the inclusion in $G$ of a normal subgroup
-$F$, there exists on $F\G$ one and only one $A$-group structure such that the canonical morphism $p : G \to F\G$ is a
+$F$, there exists on $F\backslash G$ one and only one $A$-group structure such that the canonical morphism $p : G \to F\backslash G$ is a
 homomorphism of $A$-groups.[^N.D.E-VI_A-51] This proves point (v) of 3.3.2.
 
 ### 5.3.
@@ -1633,20 +1633,20 @@ We shall now review some statements from Exposé IV.
 #### 5.3.1.
 
 Statements IV 5.2.7 and IV 5.3.1 translate as follows. Let $F$ and $G$ be two groups locally of finite type and flat
-over $A$, $F$ being a closed normal subgroup of $G$. The maps $H \mapsto F\H$ and $H' \mapsto H' \times_{(F\G)} G$
-define a bijective correspondence between flat $A$-subgroups of $G$ containing $F$ and flat $A$-subgroups of $F\G$. In
+over $A$, $F$ being a closed normal subgroup of $G$. The maps $H \mapsto F\backslash H$ and $H' \mapsto H' \times_{(F\backslash G)} G$
+define a bijective correspondence between flat $A$-subgroups of $G$ containing $F$ and flat $A$-subgroups of $F\backslash G$. In
 this bijection, closed (resp. normal) subgroups of $G$ containing $F$ correspond to closed (resp. normal) subgroups of
-$F\G$.[^N.D.E-VI_A-52]
+$F\backslash G$.[^N.D.E-VI_A-52]
 
 #### 5.3.2.
 
 Proposition IV 5.2.9 implies the following result. Let $F$, $H$ and $G$ be groups locally of finite type and flat over
-$A$; assume $F \subset H \subset G$, with $F$ closed in $G$ and normal in $H$. Under these conditions, $F\H$ acts freely
-on the left on $F\G$, the quotient scheme `(F\H)\(F\G)` exists, and there is a canonical isomorphism of schemes with
+$A$; assume $F \subset H \subset G$, with $F$ closed in $G$ and normal in $H$. Under these conditions, $F\backslash H$ acts freely
+on the left on $F\backslash G$, the quotient scheme `(F\backslash H)\(F\backslash G)` exists, and there is a canonical isomorphism of schemes with
 operator group $G$:
 
 $$
-(F\H) \ (F\G) = H\G.
+(F\backslash H) \ (F\backslash G) = H\backslash G.
 $$
 
 #### 5.3.3.
@@ -1663,13 +1663,13 @@ monomorphism $x \mapsto (x^{-1}, x)$, and let $F \cdot H$ be the quotient `(F �
 there is a canonical isomorphism
 
 ```text
-F\(F · H) = (F ∩ H)\H.
+F\(F · H) = (F ∩ H)\backslash H.
 ```
 
 ### 5.4.
 
 [^N.D.E-VI_A-53] Let $u : G \to H$ be a quasi-compact morphism between $A$-groups locally of finite type, such that the
-kernel $N$ of $u$ is flat over $A$. In this case, by 3.3.2 and 5.2, the quotient $A$-group $C = N\G$ exists and the
+kernel $N$ of $u$ is flat over $A$. In this case, by 3.3.2 and 5.2, the quotient $A$-group $C = N\backslash G$ exists and the
 morphism $p : G \to C$ is faithfully flat and locally of finite presentation. On the other hand, by IV 5.2.6, $u$
 induces a monomorphism $v : C \to H$, which is quasi-compact (because $u$ is, and $G \to C$ is surjective; cf. EGA IV_1,
 1.1.3), hence is a closed immersion by 2.5.2. We have therefore obtained the following proposition:
@@ -1684,15 +1684,15 @@ G ───────────────→ H
   p             ↗
    \         ↗ i
     ↘     ↗
-     N\G
+     N\backslash G
 ```
 
 *where $p$ is faithfully flat, locally of finite presentation, and $i$ a closed immersion.*
 
 <!-- label: III.VI_A.5.4.1 -->
 
-Suppose in addition $G$ flat over $A$. Then, by 3.3.2, $C = N\G$ is flat over $A$, and so the quotient $X = C\H$ exists
-in $(Sch/A)$ and represents the (fppf) quotient sheaf $\tilde{C}\H$, and $q : H \to X$ is a $C$-torsor. Consequently,
+Suppose in addition $G$ flat over $A$. Then, by 3.3.2, $C = N\backslash G$ is flat over $A$, and so the quotient $X = C\backslash H$ exists
+in $(Sch/A)$ and represents the (fppf) quotient sheaf $\tilde{C}\backslash H$, and $q : H \to X$ is a $C$-torsor. Consequently,
 writing $e : \operatorname{Spec} A \to G$ for the unit section of $G$, $v$ induces an isomorphism of (fppf) sheaves
 between $\tilde{C}$ and the fibered product of $q$ and of $q \circ e : \operatorname{Spec} A \to X$, which is
 represented by a closed subscheme of $H$. Consequently, $v$ is an isomorphism of $C$ onto a closed group subscheme $K$
@@ -1700,9 +1700,9 @@ of $G$ (equal to the stabilizer of the $A$-point $q \circ e$ of $X$). (This give
 quasi-compact monomorphism $v : C \to H$ between $A$-groups locally of finite type is a closed immersion, cf. 2.5.2 and
 VI_B 1.4.2.)
 
-Suppose in addition that $C$ is a normal subgroup of $H$; in this case, the $A$-group $\bar{H} = C\H$ is the cokernel in
+Suppose in addition that $C$ is a normal subgroup of $H$; in this case, the $A$-group $\bar{H} = C\backslash H$ is the cokernel in
 the category of $A$-groups of the morphism $u : G \to H$, and $K$ is the kernel of the morphism $H \to \bar{H}$. When
-$G$ and $H$ are abelian $A$-groups, $K$ is the image of $u$ in the category of abelian $A$-groups, while $C = (Ker u)\G$
+$G$ and $H$ are abelian $A$-groups, $K$ is the image of $u$ in the category of abelian $A$-groups, while $C = (Ker u)\backslash G$
 is the coimage of $u$. Taking into account the isomorphism $C \xrightarrow{\sim} K$ just established, one
 obtains:[^N.D.E-VI_A-54]
 
@@ -1736,19 +1736,19 @@ using formal groups.
 
 Let $G$ be a group locally of finite type and flat over an Artinian local ring $A$. We know (2.3) that the connected
 component of the origin $G^{0}$ is a normal open group subscheme of $G$, hence also flat over $A$. Then, by 3.2 and 5.2,
-$G^{0}\G$ is an $A$-group scheme, flat over $A$. Moreover, since each connected component $G^{\alpha}$ of $G$ is
-saturated for the equivalence relation defined by $G^{0}$, then $G^{0}\G$ is the direct sum of the $G^{0}\G^{\alpha}$
-(cf. 4.3). In particular, the connected component of the origin in $G^{0}\G$ is none other than
-$G^{0}\G^{0} \cong \operatorname{Spec} A$, and so $G^{0}\G \to \operatorname{Spec} A$ is a local isomorphism at the
-origin. Consequently, $G^{0}\G$ is étale over $\operatorname{Spec} A$, by VI_B, 1.3.[^N.D.E-VI_A-56] One therefore
+$G^{0}\backslash G$ is an $A$-group scheme, flat over $A$. Moreover, since each connected component $G^{\alpha}$ of $G$ is
+saturated for the equivalence relation defined by $G^{0}$, then $G^{0}\backslash G$ is the direct sum of the $G^{0}\backslash G^{\alpha}$
+(cf. 4.3). In particular, the connected component of the origin in $G^{0}\backslash G$ is none other than
+$G^{0}\backslash G^{0} \cong \operatorname{Spec} A$, and so $G^{0}\backslash G \to \operatorname{Spec} A$ is a local isomorphism at the
+origin. Consequently, $G^{0}\backslash G$ is étale over $\operatorname{Spec} A$, by VI_B, 1.3.[^N.D.E-VI_A-56] One therefore
 obtains the following proposition (for point (ii), one refers to [DG70], § II.5, 1.7–1.10):
 
 **Proposition 5.5.1.** *Let $A$ be an Artinian local ring and $G$ an $A$-group locally of finite type and flat.*
 
-*(i) $G^{0}\G$ is an étale $A$-group.*
+*(i) $G^{0}\backslash G$ is an étale $A$-group.*
 
-*(ii) Consequently, if $A = k$ is an algebraically closed field, $G^{0}\G$ is a constant $k$-group, acting in a simply
-transitive way on the set of connected components of $G$; hence if $G$ is algebraic, $G^{0}\G$ is finite.*
+*(ii) Consequently, if $A = k$ is an algebraically closed field, $G^{0}\backslash G$ is a constant $k$-group, acting in a simply
+transitive way on the set of connected components of $G$; hence if $G$ is algebraic, $G^{0}\backslash G$ is finite.*
 
 <!-- label: III.VI_A.5.5.1 -->
 
@@ -1759,11 +1759,11 @@ subscheme of $G$. Moreover, the equivalence class of the origin of $G$ under the
 whole underlying space of $G$. So, by Theorem 3.2, one obtains:
 
 **Proposition 5.6.1.** *Let $k$ be a perfect field and $G$ a $k$-group locally of finite type. Then the $k$-scheme
-$G_{red}\G$ is the spectrum of a finite, local $k$-algebra with residue field $k$.*
+$G_{red}\backslash G$ is the spectrum of a finite, local $k$-algebra with residue field $k$.*
 
 <!-- label: III.VI_A.5.6.1 -->
 
-[^N.D.E-VI_A-57] Indeed, by 3.2, $G_{red}\G$ has a single point, with residue field $k$, and is a $k$-scheme of finite
+[^N.D.E-VI_A-57] Indeed, by 3.2, $G_{red}\backslash G$ has a single point, with residue field $k$, and is a $k$-scheme of finite
 type; it is therefore the spectrum of a local $k$-algebra of finite dimension (cf. EGA I, 6.4.4).
 
 **Proposition 5.6.2.** *Let $u : F \to G$ be a morphism between groups locally of finite type over a perfect field $k$.
@@ -1771,7 +1771,7 @@ The following assertions are equivalent:*
 
 *(i) $u$ is flat.*
 
-*(ii) $u^{0} : F^{0} \to G^{0}$ is dominant and the morphism $v : F_{red}\F \to G_{red}\G$ induced by $u$ is flat.*
+*(ii) $u^{0} : F^{0} \to G^{0}$ is dominant and the morphism $v : F_{red}\backslash F \to G_{red}\backslash G$ induced by $u$ is flat.*
 
 <!-- label: III.VI_A.5.6.2 -->
 
@@ -1781,11 +1781,11 @@ The following assertions are equivalent:*
 
 ```text
                 p
-F ─────────────→ F_red\F
+F ─────────────→ F_red\backslash F
 
 u                       v
         q
-G ─────────────→ G_red\G,
+G ─────────────→ G_red\backslash G,
 ```
 
 where $p$ and $q$ denote the canonical projections. By 3.2 (iv), $p$ and $q$ are faithfully flat; consequently, if $u$
@@ -1793,7 +1793,7 @@ is flat, then $q \circ u = v \circ p$ is flat, hence so is $v$.
 
 Conversely, suppose $v$ flat and $u^{0}$ dominant. Since $u^{0}$ is quasi-compact ($F^{0}$ being of finite type over $k$
 by 2.4, hence noetherian), it sends the generic point $\xi$ of $F^{0}$ to the generic point $\eta$ of $G^{0}$. Let $R$
-be the finite local $k$-algebra of which $G_{red}\G$ is the spectrum, and $\mathfrak{m}$ its maximal ideal. One has
+be the finite local $k$-algebra of which $G_{red}\backslash G$ is the spectrum, and $\mathfrak{m}$ its maximal ideal. One has
 local morphisms of local rings: $R \to O_{G,\eta} \to O_{F,\xi}$. Note that one has a cartesian square:
 
 ```text
@@ -2049,7 +2049,7 @@ Fields (Driebergen) (ed. T. A. Springer), Springer-Verlag, 1967.
 | sous-groupe radical | (not used here) | — |
 | saturé | saturated | For an equivalence relation: stable under the relation. |
 | « rendre rationnel » | "make rational" | Gabriel's metaphor, preserved with quotes. |
-| quotient à gauche `F\G` | left quotient `F\G` | Standard notation; preserve backslash. |
+| quotient à gauche `F\backslash G` | left quotient `F\backslash G` | Standard notation; preserve backslash. |
 | conoyau (du groupoïde) | cokernel (of the groupoid) | Standard. |
 | groupoïde | groupoid | Standard. |
 | quasi-section | quasi-section | Standard. |
@@ -2169,7 +2169,7 @@ Fields (Driebergen) (ed. T. A. Springer), Springer-Verlag, 1967.
 
 [^N.D.E-VI_A-34]: N.D.E.: In this case, the hypothesis that $G$ is flat may be removed, cf. subsection 3.3.
 
-[^N.D.E-VI_A-35]: N.D.E.: Let us point out here that if $A = k$ is a field, then every quasi-compact open of $F\G$ is
+[^N.D.E-VI_A-35]: N.D.E.: Let us point out here that if $A = k$ is a field, then every quasi-compact open of $F\backslash G$ is
     quasi-projective (a result due to Chow for smooth algebraic groups), cf. [Ray70], VI 2.6. By contrast, over the
     Artinian local ring $A = \mathbb{C}[\epsilon]/(\epsilon^{2})$, there exist abelian $A$-schemes $G$ that are not
     projective (loc. cit., XII 4.2).
@@ -2195,7 +2195,7 @@ Fields (Driebergen) (ed. T. A. Springer), Springer-Verlag, 1967.
 
 [^N.D.E-VI_A-42]: N.D.E.: We have added this subsection.
 
-[^N.D.E-VI_A-43]: N.D.E.: For an example where $F$ is not flat and $\tilde{F}\G$ not representable, see [DG70], § III.3,
+[^N.D.E-VI_A-43]: N.D.E.: For an example where $F$ is not flat and $\tilde{F}\backslash G$ not representable, see [DG70], § III.3,
     n° 3.3.
 
 [^N.D.E-VI_A-44]: N.D.E.: We have written $S(G^{\alpha})$ instead of $\bar{G}^{\alpha}$ for the saturation of
@@ -2218,7 +2218,7 @@ Fields (Driebergen) (ed. T. A. Springer), Springer-Verlag, 1967.
 [^N.D.E-VI_A-51]: N.D.E.: We have added the sentence that follows.
 
 [^N.D.E-VI_A-52]: N.D.E.: In addition to the aforementioned statements of Exp. IV, one uses the fact that, since
-    $G \to F\G$ is faithfully flat, an $A$-subgroup $H$ of $G$ is flat over $A$ if and only if $F\H$ is.
+    $G \to F\backslash G$ is faithfully flat, an $A$-subgroup $H$ of $G$ is flat over $A$ if and only if $F\backslash H$ is.
 
 [^N.D.E-VI_A-53]: N.D.E.: We have detailed the original in what follows; in particular, we have added Proposition 5.4.1.
 

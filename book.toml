@@ -1,0 +1,23 @@
+[book]
+authors = ["Jacob Reinhold"]
+title = "Séminaire de Géométrie Algébrique du Bois-Marie — English"
+description = "An English Markdown translation of the Grothendieck-era SGA seminars."
+language = "en"
+src = "."
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[preprocessor.katex]
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/jcreinhold/sga"
+edit-url-template = "https://github.com/jcreinhold/sga/edit/main/{path}"
+
+[output.html.search]
+enable = true
+limit-results = 25
+use-boolean-and = true

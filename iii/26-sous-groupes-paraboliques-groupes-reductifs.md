@@ -2507,7 +2507,7 @@ $$
 <!-- label: III.XXVI.6.8 -->
 
 Set $L' = Centr_{G}(Q_{spl})$; this is a reductive subgroup of $G$ containing $L$; moreover, $P' = P \cap L'$ is a
-parabolic subgroup of $L'$, of Levi subgroup $L$ (1.20). If $L' \neq L$, then $L' \nsubset P$ (since $L$ is a maximal
+parabolic subgroup of $L'$, of Levi subgroup $L$ (1.20). If $L' \neq L$, then $L' \not\subset P$ (since $L$ is a maximal
 reductive subgroup of
 
 <!-- original page 498 -->
@@ -2523,7 +2523,7 @@ Q_1 = rad(L_1) = (rad(L) ∩ G_1)^0 = (Q ∩ G_1)^0.
 
 Since `L_1` has a maximal torus `T_1` (Exp. XIV, 3.20), and the latter is isotrivial (Exp. XXIV, 4.1.5), `Q_1`, being a
 subtorus of `T_1`, is also isotrivial (Exp. IX, 2.11); since $P_{1} \neq G_{1}$, one may apply 6.7 and 6.6, and one
-therefore has $(Q_{1})_{spl} \neq e$, whence $(Q_{spl} \cap G_{1})^{0} \neq e$, hence $Q_{spl} \nsubset rad(L')$ (since
+therefore has $(Q_{1})_{spl} \neq e$, whence $(Q_{spl} \cap G_{1})^{0} \neq e$, hence $Q_{spl} \not\subset rad(L')$ (since
 $rad(L') \cap G_{1}$ is finite), which is contradictory with the definition of $L'$.
 
 **Corollary 6.9.** *Let $S$ be a connected semi-local scheme, $G$ an $S$-reductive group, $Q$ a critical subtorus of $G$

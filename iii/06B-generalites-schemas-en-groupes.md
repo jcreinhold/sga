@@ -3331,7 +3331,7 @@ $\kappa(a)$-group, so that $G_{a}$ is solvable (resp. nilpotent). ∎
 The present number is limited essentially to a reminder, in the particular case of homogeneous spaces of groups, of
 well-known general facts about passage to the quotient by flat equivalence relations (cf. Exp. IV).
 
-**Definition 9.1.** *Given a monomorphism $u : G' \to G$ of $S$-groups, one denotes by $G/G'$ (resp. $G'\G$), and calls*
+**Definition 9.1.** *Given a monomorphism $u : G' \to G$ of $S$-groups, one denotes by $G/G'$ (resp. $G'\backslash G$), and calls*
 right (resp. left) quotient sheaf of $G$ by $G'$*, the sheaf (for the (fpqc) topology) quotient of $G$ by the
 equivalence relation defined by the monomorphism:*
 

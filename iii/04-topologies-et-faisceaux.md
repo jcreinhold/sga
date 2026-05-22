@@ -654,14 +654,14 @@ $H^{\circ}$ opposite to $H$ into $\operatorname{Aut}(X)$).
 
 If $H$ acts freely on $X$, the image of $H \times X$ under the morphism of (ii) is an equivalence relation in $X$ called
 the *equivalence relation defined by the action of $H$ on $X$*. When the quotient of $X$ by this equivalence relation
-exists, it is denoted $H\X$
+exists, it is denoted $H\backslash X$
 
 <!-- original page 177 -->
 
 ($X/H$ when $H$ acts on the right). It represents the following covariant functor: if $Z$ is an object of $C$, one has
 
 ```text
-Hom(H\X, Z) = {morphisms from X into Z invariant under H}
+Hom(H\backslash X, Z) = {morphisms from X into Z invariant under H}
 ```
 
 where the morphism $f : X \to Z$ is said to be *invariant under $H$* if for every $S \in Ob C$, the corresponding
@@ -705,7 +705,7 @@ u : H \longrightarrow G.
 $$
 
 Then $H$ acts on $G$ by translations (one sets set-theoretically $hg = u(h)g$) and acts freely there if and only if $u$
-is a monomorphism. The quotient of $G$ by this action of $H$ is denoted, when it exists, $H\G$. One defines similarly a
+is a monomorphism. The quotient of $G$ by this action of $H$ is denoted, when it exists, $H\backslash G$. One defines similarly a
 right action of $H$ on $G$ and a quotient $G/H$. These quotients are functorial with respect to the groups in question;
 more precisely, one has the following lemma, stated for right quotients:
 
@@ -3314,7 +3314,7 @@ universal effective epimorphism of sheaves, it follows from 4.4.9 that $L'$ is i
 the kernel of $L \to L'$ which is obviously none other than $H \cap L$.
 
 Let us finally consider the following situation: we have a sheaf of groups $G$, a sub-sheaf of groups $K$ and a
-sub-sheaf of groups $H$ of $K$, invariant in $K$. Let us first define a (right) operation of the sheaf of groups $H\K$
+sub-sheaf of groups $H$ of $K$, invariant in $K$. Let us first define a (right) operation of the sheaf of groups $H\backslash K$
 (= $K/H$) on $G/H$. The group $K$ operates by right translations on $G$. As $H$ is invariant in $K$, this operation is
 compatible with the equivalence relation defined by the action of $H$ and therefore defines an operation of $K$ on
 $G/H$, that is, a morphism from the opposite group $K^{\circ}$ to $K$ into $\operatorname{Aut}(G/H)$. As the latter is a
