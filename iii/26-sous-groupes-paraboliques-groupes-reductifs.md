@@ -2965,10 +2965,12 @@ thereby exhibiting a partition of $E(S)$ into double cosets modulo $U(S)$, index
 (4) If $S$ is the spectrum of a field, then $E(S) = G(S)$, and one recovers [BT65], 5.15.
 
 **Counterexamples 7.11.** *Let $S = \operatorname{Spec}(\mathbb{Z}/4\mathbb{Z})$, $G = SL_{2, S}$. Let $B$ be the
-standard Borel subgroup formed of matrices `(a b; c d)` with $c = 0$. Let $g = ( 1; -2 1)$ ∈ G(S)`[scil.:` g = (1, 1; −2,
-1)`]; set` B' = int(g) B `. Then` B(S) = B'(S)`, and` B ∩
-B'`does not contain a maximal torus[^N.D.E-XXVI-37]. This shows on the one hand that two distinct minimal parabolic subgroups may have the same group of sections, and on the other hand that there exists no general criterion allowing one to recognize whether two minimal parabolic subgroups` P `and` P'`are in standard position, using only the groups` P(S)`and` P'(S)`. In particular, the part` E(S)`of` G(S)`does not seem to be definable using only the situation`{G(S),
-P(S), Norm_G(L)(S)}`(in the preceding case, this part is defined by` `c ≠ 2`[^N.D.E-XXVI-38]).*
+standard Borel subgroup formed of matrices `(a b; c d)` with $c = 0$. Let $g = ( 1; -2 1)$ ∈ G(S)`[scil.:` g = (1, 1;
+−2, 1)`]; set` B' = int(g) B `. Then` B(S) = B'(S)`, and` B ∩
+B'`does not contain a maximal torus[^N.D.E-XXVI-37]. This shows on the one hand that two distinct minimal parabolic subgroups may have the same group of sections, and on the other hand that there exists no general criterion allowing one to recognize whether two minimal parabolic subgroups`
+P `and` P'`are in standard position, using only the groups` P(S)`and` P'(S)`. In particular, the part` E(S)`of`
+G(S)`does not seem to be definable using only the situation`{G(S), P(S),
+Norm_G(L)(S)}`(in the preceding case, this part is defined by` `c ≠ 2`[^N.D.E-XXVI-38]).*
 
 <!-- label: III.XXVI.7.11 -->
 

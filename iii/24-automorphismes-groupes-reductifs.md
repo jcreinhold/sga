@@ -1188,10 +1188,10 @@ Note that the datum of the pair $(G_{q-\acute{e}p.}, u)$ allows one to define ca
 
 $$ Q = Isomint(G_{q-\acute{e}p.}, G), $$
 
-which is a principal homogeneous bundle[^N.D.E-XXIV-23] under $ad(G_{q-\acute{e}p.})$, and whose datum "is equivalent" to that of the
-inner twisted form $G$ of $G_{q-\acute{e}p.}$. Moreover, $Q$ is none other than the "scheme of quasi-pinnings of $G$", a
-definition which accounts for its structure of principal homogeneous bundle (on the left) under $ad(G)$ (3.10) — compare
-with 1.20.
+which is a principal homogeneous bundle[^N.D.E-XXIV-23] under $ad(G_{q-\acute{e}p.})$, and whose datum "is equivalent"
+to that of the inner twisted form $G$ of $G_{q-\acute{e}p.}$. Moreover, $Q$ is none other than the "scheme of
+quasi-pinnings of $G$", a definition which accounts for its structure of principal homogeneous bundle (on the left)
+under $ad(G)$ (3.10) — compare with 1.20.
 
 **Proposition 3.13.** *Let $S$ be a scheme, $G$ a semisimple adjoint (resp. simply connected) $S$-group, $B \supset T$ a
 Killing couple of $G$, $Dyn(G)$ the Dynkin $S$-scheme*

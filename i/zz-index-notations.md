@@ -3,10 +3,10 @@
 <!-- label: I.index-notations -->
 
 A reference index of notation used throughout SGA 1. Locators are given as `<Exposé Roman>.<section>(.<sub>)` or
-`<Exposé Roman> (p. <page>)` when known; the source's OCR-extracted index does not carry page locators, so the
-locator column reconstructs them from first use in the relevant Exposé. Where the OCR mangled an identifier (most
-commonly by dropping the $\pi$ prefix in $\pi_{1}(...)$ or the script-O / hat over a category), the original symbol is
-restored and the restoration noted. Unresolved cases are marked with a translator note rather than silently fixed.
+`<Exposé Roman> (p. <page>)` when known; the source's OCR-extracted index does not carry page locators, so the locator
+column reconstructs them from first use in the relevant Exposé. Where the OCR mangled an identifier (most commonly by
+dropping the $\pi$ prefix in $\pi_{1}(...)$ or the script-O / hat over a category), the original symbol is restored and
+the restoration noted. Unresolved cases are marked with a translator note rather than silently fixed.
 
 ## Sheaves of differentials and infinitesimal neighborhoods (Exposés II–III)
 
