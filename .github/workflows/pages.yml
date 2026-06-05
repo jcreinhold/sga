@@ -35,7 +35,7 @@ jobs:
 
       - uses: taiki-e/install-action@v2
         with:
-          tool: mdbook@0.5.3
+          tool: mdbook@${{ env.MDBOOK_VERSION }}
 
       - name: Check SUMMARY.md is up to date
         run: python3 scripts/generate-summary.py --check
