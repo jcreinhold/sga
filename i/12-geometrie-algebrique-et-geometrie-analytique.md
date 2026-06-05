@@ -106,7 +106,7 @@ that it is also true for every affine scheme $X$ locally of finite type over $\m
 affine and if $(X_{i})$ is a covering of $X$ by affine opens, it follows from the universal property and from a that the
 $X^{an}_{i}$ glue and thus define the analytic space $X^{an}$ associated with $X$.
 
-### 1.2.
+### 1.2
 
 <!-- label: XII.1.2 -->
 
@@ -134,7 +134,7 @@ products. But if $X$, $Y$, $Z$ are schemes locally of finite type over $\mathbb{
 \times_{Z} Y$ is the fiber product of $X$ and $Y$ over $Z$ in the category of ringed spaces in local rings that $X^{an}
 \times^{an}_{Z} Y^{an}$ satisfies the universal property characterizing $(X \times_{Z} Y)^{an}$.
 
-### 1.3.
+### 1.3
 
 <!-- label: XII.1.3 -->
 
@@ -515,7 +515,7 @@ More general results, concerning relative proper schemes over an analytic space,
 Recall that the Čech cohomology used in [XII.10, no. 12] coincides with the usual cohomology in the algebraic case as
 well as in the analytic case (EGA III 1.4.1 and [XII.5, II 5.10]).
 
-### 4.1.
+### 4.1
 
 <!-- label: XII.4.1 -->
 
@@ -751,7 +751,7 @@ XII.3.1 (iii).
 
 <!-- label: XII.5 -->
 
-### 5.0.
+### 5.0
 
 <!-- label: XII.5.0 -->
 

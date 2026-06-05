@@ -162,7 +162,7 @@ Norm_P(L) = L,        Norm_P(T) = Norm_L(T).
 
 <!-- label: III.XXVI.1.6 -->
 
-### 1.7.
+### 1.7
 
 <!-- label: III.XXVI.1.7 -->
 
@@ -393,7 +393,7 @@ $$ U_{i} / U_{i+1} \xrightarrow{\sim} W(E_{i}). $$
 
 <!-- label: III.XXVI.2.1 -->
 
-### 2.1.1.
+### 2.1.1
 
 <!-- label: III.XXVI.2.1.1 -->
 
@@ -409,10 +409,10 @@ the elements of $\Delta(P)$, and $\beta_{1}, \cdots, \beta_{q}$ the elements of 
 γ = a_1 α_1 + · · · + a_p α_p + b_1 β_1 + · · · + b_q β_q.
 ```
 
-Set
+Set[^N.D.E-XXVI-7]
 
 ```text
-a(γ) = b_1 + · · · + b_q. [^N.D.E-XXVI-7]
+a(γ) = b_1 + · · · + b_q.
 ```
 
 It follows immediately from the definitions that the following properties hold (cf. 1.12):
@@ -475,7 +475,7 @@ for the inner automorphisms defined by sections of $T$, and as $P$ is generated 
 
 (ii) the inner automorphisms defined by sections of $P$ act linearly on $U_{i} / U_{i+1} \simeq W(E_{i})$.
 
-### 2.1.2.
+### 2.1.2
 
 <!-- label: III.XXVI.2.1.2 -->
 
@@ -497,7 +497,7 @@ We have therefore proved the proposition when the pair $(G, P)$ is pinnable (par
 3.1.2, the set ${ a(\gamma) | \gamma \in R}$ is an interval of $\mathbb{Z}$, hence one cannot have $\dim(U_{i, s}) =
 \dim(U_{i+1, s})$ unless $U_{i, s} = e$).
 
-### 2.1.3.
+### 2.1.3
 
 <!-- label: III.XXVI.2.1.3 -->
 
@@ -643,7 +643,7 @@ by $H$.*
 
 <!-- label: III.XXVI.3 -->
 
-### 3.1.
+### 3.1
 
 <!-- label: III.XXVI.3.1 -->
 
@@ -657,7 +657,7 @@ descent of open and closed subschemes. One trivially has:
 Of(E_{S'}) = Of(E)_{S'},        Of(E ×_S E') = Of(E) ×_S Of(E').
 ```
 
-### 3.2.
+### 3.2
 
 <!-- label: III.XXVI.3.2 -->
 
@@ -793,7 +793,7 @@ see in §5 that the étale topology may be replaced by the Zariski topology.*
 
 <!-- label: III.XXVI.3.8.1 -->
 
-### 3.9.
+### 3.9
 
 <!-- label: III.XXVI.3.9 -->
 
@@ -871,7 +871,7 @@ $G$.*
 Indeed, $H = Centr_{G}(Q)$ is critical (Exp. XXII, 5.10.5), and one has $Norm_{G}(H) = Norm_{G}(Q)$ if $Q$ is critical
 (*loc. cit.* 5.10.8).
 
-### 3.14.
+### 3.14
 
 <!-- label: III.XXVI.3.14 -->
 
@@ -882,7 +882,7 @@ $$ u : Of(Dyn(G)) \longrightarrow C\ell_{crit} $$
 such that for every parabolic subgroup $P$ of $G$, and every Levi subgroup $L$ of $P$, one has $c\ell(L) = u(t(P))$, and
 such that this holds after every base change.
 
-### 3.15.
+### 3.15
 
 <!-- label: III.XXVI.3.15 -->
 
@@ -1010,7 +1010,7 @@ parabolic subgroup of type $t(P)$.*
 
 The proof goes exactly as in Exp. XXIV, 4.2.1.
 
-### 3.21.
+### 3.21
 
 <!-- label: III.XXVI.3.21 -->
 
@@ -1432,7 +1432,7 @@ $\bar{T}$ in $(P \cap Q)^{0}$ is a subgroup $N$ of type (R) of $G$ with solvable
 
 <!-- label: III.XXVI.4.3 -->
 
-### 4.3.1.
+### 4.3.1
 
 <!-- label: III.XXVI.4.3.1 -->
 
@@ -1749,7 +1749,7 @@ topology.*
 
 <!-- label: III.XXVI.4.5.1.1 -->
 
-### 4.5.2.
+### 4.5.2
 
 <!-- label: III.XXVI.4.5.2 -->
 
@@ -1767,7 +1767,7 @@ the following conditions are equivalent:
 One then says that the pairs $(P, Q)$ and `(P', Q')` have the same *type of mutual position*. This is a notion stable
 under base change and local for the (fpqc) topology.
 
-### 4.5.3.
+### 4.5.3
 
 <!-- label: III.XXVI.4.5.3 -->
 
@@ -1804,7 +1804,7 @@ W_P(T) \ W_G(T) / W_Q(T) ≃ q^{−1}(t(P), t(Q)).
 (The left-hand side denotes the sheaf of double cosets …). These assertions are proved without difficulty (remark in
 particular that $t^{-1}_{2}(t_{2}(P, Q)) \simeq G / (P \cap Q)$).
 
-### 4.5.4.
+### 4.5.4
 
 <!-- label: III.XXVI.4.5.4 -->
 
@@ -1825,7 +1825,7 @@ which is smooth and of finite presentation, with irreducible geometric fibers. T
 Par_{t}(G)$ is a surjective monomorphism, and may therefore be considered as a *cellular decomposition* of $Par_{t}(G)$
 (indexed by the set of connected components of $q^{-1}(t(P), t)$).
 
-### 4.5.5.
+### 4.5.5
 
 <!-- label: III.XXVI.4.5.5 -->
 
@@ -1860,7 +1860,7 @@ happens, for instance, when $G$ is split relative to $T$ and $S$ is connected), 
 decomposition of $Par_{t(Q)}(G; P)$ into open and closed subschemes, which are homogeneous spaces under $P$, smooth and
 of finite presentation over $S$, with irreducible geometric fibers.
 
-### 4.5.6.
+### 4.5.6
 
 <!-- label: III.XXVI.4.5.6 -->
 
@@ -1891,13 +1891,13 @@ rad^u(P)(S) · P' · P = G,
 
 The proof is carried out in several steps:
 
-### 5.1.1.
+### 5.1.1
 
 <!-- label: III.XXVI.5.1.1 -->
 
 It suffices to give the proof in the case where $S$ is the spectrum of a field $k$; this follows at once from 2.6.
 
-### 5.1.2.
+### 5.1.2
 
 <!-- label: III.XXVI.5.1.2 -->
 
@@ -1917,21 +1917,21 @@ that $B' \cdot B \subset P' \cdot P$, which is evident. It follows from (x) that
 
 for the pair `(B, B')`.
 
-### 5.1.3.
+### 5.1.3
 
 <!-- label: III.XXVI.5.1.3 -->
 
 The theorem is true if $k$ is algebraically closed; indeed, the condition of 5.1.2 is satisfied, and one concludes by
 Exp. XXII, 5.7.10.
 
-### 5.1.4.
+### 5.1.4
 
 <!-- label: III.XXVI.5.1.4 -->
 
 The theorem is true when $k$ is an infinite field. Indeed, $rad^{u}(P)(k)$ is dense in $rad^{u}(P)(\bar{k})$ by 2.7, and
 the theorem is true for $\bar{k}$.
 
-### 5.1.5.
+### 5.1.5
 
 <!-- label: III.XXVI.5.1.5 -->
 
@@ -1939,7 +1939,7 @@ We are therefore reduced to the case where $k$ is a finite field. Now $Bor(L)$ i
 follows from Lang's theorem (Am. J. of Maths., 78, 1956[^N.D.E-XXVI-26]) that $L$ has a Borel subgroup `B_L`. By 5.1.2,
 one may therefore assume that $P = B$ and $P' = B'$ are Borel subgroups. One writes $T = B \cap B'$.
 
-### 5.1.6.
+### 5.1.6
 
 <!-- label: III.XXVI.5.1.6 -->
 
@@ -1986,7 +1986,7 @@ which yields (1) at once.
 We are therefore reduced to the case where $G = Z$, that is, where the Galois group of $K$ over $k$ acts transitively on
 the simple roots.
 
-### 5.1.7.
+### 5.1.7
 
 <!-- label: III.XXVI.5.1.7 -->
 
@@ -1996,7 +1996,7 @@ The assertion to be proved is equivalent to the fact that $G/B$ is the union of 
 image of $B'^{u}$, an assertion that does not change if one replaces $G$ by its adjoint group (or by any group yielding
 the same adjoint group). One may therefore assume $G$ adjoint.
 
-### 5.1.8.
+### 5.1.8
 
 <!-- label: III.XXVI.5.1.8 -->
 
@@ -2019,7 +2019,7 @@ B'^u · T · B^u = ∏_{D/k} B'^u_0 · T_0 · B^u_0,
 
 and it suffices to prove the sought assertion for the triple $(G_{0}, B_{0}, T_{0})$.
 
-### 5.1.9.
+### 5.1.9
 
 <!-- label: III.XXVI.5.1.9 -->
 
@@ -2034,7 +2034,7 @@ Q-\acute{E}p_{E/\operatorname{Spec}(k)}(A_{2})$. If $E$ has a section, $G$ is sp
 Otherwise, one necessarily has $E = \operatorname{Spec}(k')$, where $k'$ is a quadratic extension of $k$. Finally, as
 one saw in 5.1.7, one may assume $G$ simply connected (i.e. that $G$ is a form of $SL_{3, k}$).
 
-### 5.1.10.
+### 5.1.10
 
 <!-- label: III.XXVI.5.1.10 -->
 
@@ -2396,7 +2396,7 @@ H^{1}(S, G)$ is injective.*
 
 <!-- label: III.XXVI.6.4 -->
 
-### 6.5.
+### 6.5
 
 <!-- label: III.XXVI.6.5 -->
 
@@ -2618,7 +2618,7 @@ subgroup of $P$ is obtained in this way.*
 In this section, $S$ will denote a non-empty connected semi-local scheme, $G$ an $S$-reductive group, $Q$ a maximal
 split subtorus of $G$, and $L$ the centralizer of $Q$ in $G$, i.e. $L = Centr_{G}(Q)$.
 
-### 7.1.
+### 7.1
 
 <!-- label: III.XXVI.7.1 -->
 
@@ -2642,7 +2642,7 @@ isomorphisms
 W ≃ W_G(Q)(S) ≃ Norm_G(L)(S) / L(S).
 ```
 
-### 7.1.1.
+### 7.1.1
 
 <!-- label: III.XXVI.7.1.1 -->
 
@@ -2658,7 +2658,7 @@ On the other hand, since $G$ is not split, the maximal split tori of $G$ are of 
 isomorphic to $G_{m, k}$. Since $Norm_{G}(Q)/L$ acts faithfully on $Q$, one has $(Norm_{G}(Q)/Q)(k) =
 \mathbb{Z}/2\mathbb{Z}$.
 
-### 7.2.
+### 7.2
 
 <!-- label: III.XXVI.7.2 -->
 
@@ -2667,7 +2667,7 @@ the conjugacy of minimal parabolic subgroups of $G$ (5.7), of that of Levi subgr
 of the equalities $P = Norm_{G}(P)$ and $Norm_{G}(L) \cap P = L$ (1.6), one obtains: the set of (minimal) parabolic
 subgroups of $G$ with Levi group $L$ is principal homogeneous under the group $W$.
 
-### 7.3.
+### 7.3
 
 <!-- label: III.XXVI.7.3 -->
 
@@ -2696,7 +2696,7 @@ Lie(P) = Lie(L) ⊕ ⨁_{α ∈ R^+} Lie(G)^α.
 
 <!-- label: III.XXVI.7.4 -->
 
-### 7.4.1.
+### 7.4.1
 
 <!-- label: III.XXVI.7.4.1 -->
 
@@ -2706,7 +2706,7 @@ $\alpha$, which shows that $s_{\alpha}$ is determined by $\alpha$; as one then h
 = m - s_{\alpha}(m)$, one sees that $\alpha^{*}$ is determined by $\alpha$, which proves the uniqueness of the map
 $\alpha \mapsto \alpha^{*}$.
 
-### 7.4.2.
+### 7.4.2
 
 <!-- label: III.XXVI.7.4.2 -->
 
@@ -2741,7 +2741,7 @@ Let us moreover remark that $s_{\alpha}$ is constructed canonically from $\alpha
 (xxx)    for every w ∈ W, one has w s_α w^{−1} = s_{w(α)}.
 ```
 
-### 7.4.3.
+### 7.4.3
 
 <!-- label: III.XXVI.7.4.3 -->
 
@@ -2770,7 +2770,7 @@ respect to elements of `R_1`, hence $w(m_{1}) - m_{1}$ is a linear combination w
 `R_1`. It follows that $s_{\alpha}(p(m_{1})) - p(m_{1})$ is a linear combination with integer coefficients of the
 elements of $p(R_{1}) \subset \mathbb{Z}\alpha$, hence an integer multiple of $\alpha$, as was to be proved.
 
-### 7.4.4.
+### 7.4.4
 
 <!-- label: III.XXVI.7.4.4 -->
 
@@ -2785,7 +2785,7 @@ By (x), one has $(\alpha^{*}, \alpha) = 2$; on the other hand, it follows from (
 which proves (cf. Exp. XXI, 1.1) that the constructed map $\alpha \mapsto \alpha^{*}$ indeed defines a root datum on
 $(M, M^{*})$.
 
-### 7.4.5.
+### 7.4.5
 
 <!-- label: III.XXVI.7.4.5 -->
 
@@ -2805,7 +2805,7 @@ concludes immediately that $W = W'$. One also concludes that $W = W'$ acts in a 
 systems of positive roots of $R$ and on the set of parabolic subgroups of $G$ with Levi group $L$, which entails the
 last assertion of 7.4. QED.
 
-### 7.5.
+### 7.5
 
 <!-- label: III.XXVI.7.5 -->
 
@@ -2837,7 +2837,7 @@ as above, one therefore has a canonical isomorphism $M \xrightarrow{\sim} \opera
 transforming $R$ (resp. $R^{+}$) into the set of roots of $G$ (resp. of $P$) relative to $Q$, and $W(R)$ into
 $W_{G}(Q)(S)$.
 
-### 7.6.
+### 7.6
 
 <!-- label: III.XXVI.7.6 -->
 
@@ -2870,7 +2870,7 @@ parabolic subgroups of $G$ containing $P$. This bijection preserves the natural 
 
 <!-- label: III.XXVI.7.7 -->
 
-### 7.8.
+### 7.8
 
 <!-- label: III.XXVI.7.8 -->
 
@@ -2913,7 +2913,7 @@ t_r(H) ⊂ t_r(H')  ⇔  t(H) ⊂ t(H')
 
 <!-- label: III.XXVI.7.9 -->
 
-### 7.10.
+### 7.10
 
 <!-- label: III.XXVI.7.10 -->
 
@@ -2965,14 +2965,14 @@ thereby exhibiting a partition of $E(S)$ into double cosets modulo $U(S)$, index
 (4) If $S$ is the spectrum of a field, then $E(S) = G(S)$, and one recovers [BT65], 5.15.
 
 **Counterexamples 7.11.** *Let $S = \operatorname{Spec}(\mathbb{Z}/4\mathbb{Z})$, $G = SL_{2, S}$. Let $B$ be the
-standard Borel subgroup formed of matrices `(a b; c d)` with $c = 0$. Let $g = ( 1; -2 1)$ ∈ G(S)`[scil.:`g = (1, 1; −2,
-1)`]; set`B' = int(g) B`. Then`B(S) = B'(S)`, and`B ∩
-B'`does not contain a maximal torus[^N.D.E-XXVI-37]. This shows on the one hand that two distinct minimal parabolic subgroups may have the same group of sections, and on the other hand that there exists no general criterion allowing one to recognize whether two minimal parabolic subgroups`P`and`P'`are in standard position, using only the groups`P(S)`and`P'(S)`. In particular, the part`E(S)`of`G(S)`does not seem to be definable using only the situation`{G(S),
-P(S), Norm_G(L)(S)}`(in the preceding case, this part is defined by`c ≠ 2\`[^N.D.E-XXVI-38]).*
+standard Borel subgroup formed of matrices `(a b; c d)` with $c = 0$. Let $g = ( 1; -2 1)$ ∈ G(S)`[scil.:` g = (1, 1; −2,
+1)`]; set` B' = int(g) B `. Then` B(S) = B'(S)`, and` B ∩
+B'`does not contain a maximal torus[^N.D.E-XXVI-37]. This shows on the one hand that two distinct minimal parabolic subgroups may have the same group of sections, and on the other hand that there exists no general criterion allowing one to recognize whether two minimal parabolic subgroups` P `and` P'`are in standard position, using only the groups` P(S)`and` P'(S)`. In particular, the part` E(S)`of` G(S)`does not seem to be definable using only the situation`{G(S),
+P(S), Norm_G(L)(S)}`(in the preceding case, this part is defined by` `c ≠ 2`[^N.D.E-XXVI-38]).*
 
 <!-- label: III.XXVI.7.11 -->
 
-### 7.12.
+### 7.12
 
 <!-- label: III.XXVI.7.12 -->
 
@@ -3074,7 +3074,7 @@ We refer to [BT65], 6.12 et seq. for this description.*
 
 <!-- label: III.XXVI.7.14 -->
 
-### 7.15.
+### 7.15
 
 <!-- label: III.XXVI.7.15 -->
 

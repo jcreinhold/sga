@@ -211,7 +211,7 @@ scheme of roots (resp. of coroots) of $G$ relative to $T$. Then $(R, R*)$ is a r
 
 The only thing that remains to be checked is that this twisted root datum is reduced. This was done in Exp. XIX 3.10.
 
-### 1.11.
+### 1.11
 
 <!-- label: III.XXII.1.11 -->
 
@@ -231,7 +231,7 @@ Hom_{S-gr.}(Gm,S, T) → Hom_{loc.const.}(S, M*).
 A character of $T$ (resp. a morphism of groups $Gm,S \to T$) will be called *constant* (relative to the given
 trivialization) if the preceding isomorphism transforms it into a constant map from $S$ to $M$ (resp. $M*$).
 
-### 1.12.
+### 1.12
 
 <!-- label: III.XXII.1.12 -->
 
@@ -286,7 +286,7 @@ $W$, … of Exp. XXI.
 *(b) If $(G, T, M, R)$ is an $S$-split group, then for every $S' \to S$, $S' \neq \emptyset$, $(G_{S'}, T_{S'}, M, R)$
 is an $S'$-split group, and $R(G, T, M, R) = R(G_{S'}, T_{S'}, M, R)$.*
 
-### 1.16.
+### 1.16
 
 <!-- label: III.XXII.1.16 -->
 
@@ -324,7 +324,7 @@ Comparing the two definitions, one finds in particular
 α(H) = (h, α) · 1 ∈ Γ(S, O_S).
 ```
 
-### 1.17.
+### 1.17
 
 <!-- label: III.XXII.1.17 -->
 
@@ -409,7 +409,7 @@ furthermore prove that every split group over $S$ already arises from a $\mathbb
 
 <!-- label: III.XXII.2.5 -->
 
-### 2.6.
+### 2.6
 
 <!-- label: III.XXII.2.6 -->
 
@@ -462,7 +462,7 @@ each $S_{t}$ is open and closed (and non-empty).*
 
 <!-- original page 118 -->
 
-### 3.1.
+### 3.1
 
 <!-- label: III.XXII.3.1 -->
 
@@ -475,7 +475,7 @@ canonical monomorphism (which is in fact an open immersion):
 
 $$ W_{G}(T) \to \operatorname{Aut}_{S-gr.}(T). $$
 
-### 3.2.
+### 3.2
 
 <!-- label: III.XXII.3.2 -->
 
@@ -488,7 +488,7 @@ In particular, if $W$ is the Weyl group of the root datum $R(G)$ (Exp. XXI 1.1.8
 
 $$ W_{S} \to \operatorname{Aut}_{S-gr.}(T). $$
 
-### 3.3.
+### 3.3
 
 <!-- label: III.XXII.3.3 -->
 
@@ -537,7 +537,7 @@ torus of an $S$-reductive group $G$ is finite over $S$ (Exp. XIX 2.5 (ii)).*[^N.
 
 <!-- label: III.XXII.3.5 -->
 
-### 3.6.
+### 3.6
 
 <!-- label: III.XXII.3.6 -->
 
@@ -558,7 +558,7 @@ This is an open and closed subscheme of $Norm_{G}(T)$, which is a principal homo
 N_{ww′} = n · N_{w′},    N_{w′w} = N_{w′} · n.
 ```
 
-### 3.7.
+### 3.7
 
 <!-- label: III.XXII.3.7 -->
 
@@ -588,7 +588,7 @@ w$.*
 
 <!-- label: III.XXII.4.1 -->
 
-#### 4.1.1.
+#### 4.1.1
 
 <!-- label: III.XXII.4.1.1 -->
 
@@ -1131,7 +1131,7 @@ We call* semisimple group associated with $G$ *the quotient $G/rad(G)$.*
 The preceding definitions are compatible with base change. If $s \in S$, $rad(G)_{s}$ is indeed the radical of $G_{s}$
 in the usual sense (Exp. XIX 1.6).
 
-#### 4.3.7.
+#### 4.3.7
 
 <!-- label: III.XXII.4.3.7 -->
 
@@ -1671,7 +1671,7 @@ most cases.*
 
 <!-- label: III.XXII.5.4 -->
 
-#### 5.4.1.
+#### 5.4.1
 
 <!-- label: III.XXII.5.4.1 -->
 
@@ -3360,7 +3360,7 @@ this condition entails (i), because $rad(H_{R'})$ is the maximal torus of $\bigc
 $Centr_{G}(rad(H_{R'}))$ is none other than $H_{R''}$ where $R''$ is the intersection of $R$ with the subspace generated
 by $R'$.
 
-#### 5.10.7.
+#### 5.10.7
 
 <!-- label: III.XXII.5.10.7 -->
 
@@ -3588,7 +3588,7 @@ B = B_{R+},    B_- = B_{R−},    U = B^u,    U_- = (B_-)^u,
 Ω = Ω_{R+} = U_- · T · U.
 ```
 
-#### 6.1.1.
+#### 6.1.1
 
 <!-- label: III.XXII.6.1.1 -->
 
@@ -3874,7 +3874,7 @@ group.*
 *(c) When $S$ is the spectrum of an algebraically closed field $k$, $d\acute{e}r(G)(k)$ is the group of commutators of
 $G(k)$ (Exp. VI_B 7.10).*
 
-#### 6.2.3.
+#### 6.2.3
 
 <!-- label: III.XXII.6.2.3 -->
 
@@ -3922,7 +3922,7 @@ rad(G) ×_S dér(G) → G,    G → corad(G) ×_S ss(G),    rad(G) → corad(G)
 
 *(iv) $rad(G) \cap d\acute{e}r(G) = e$.*
 
-#### 6.2.6.
+#### 6.2.6
 
 <!-- label: III.XXII.6.2.6 -->
 
@@ -3978,7 +3978,7 @@ $rad(G)$ is central in $G$, so $T = Centr_{G}(T) = Centr_{G}(T \cap d\acute{e}r(
 
 <!-- label: III.XXII.6.3 -->
 
-#### 6.3.1.
+#### 6.3.1
 
 <!-- label: III.XXII.6.3.1 -->
 
@@ -4006,7 +4006,7 @@ a subtorus of $corad(G)$, hence is closed in $corad(G)$ (Exp. IX 2.6).
 Consequently, every subgroup of $G$, smooth with connected fibers and containing $d\acute{e}r(G)$, is closed in
 $G$.[^N.D.E-XXII-64]
 
-#### 6.3.2.
+#### 6.3.2
 
 <!-- label: III.XXII.6.3.2 -->
 

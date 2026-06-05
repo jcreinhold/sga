@@ -1382,7 +1382,7 @@ E$. Then, 0.7 a) shows that every `Y_J`-automorphism of $Y_{J} \times_{S_{J}} E_
 
 <!-- original page 101 -->
 
-### 1.1.
+### 1.1
 
 <!-- label: III.III.1.1 -->
 
@@ -1414,7 +1414,7 @@ restriction to $C(G)$, one has a canonical isomorphism*
 H∗(G, F) ──∼──► H∗(G, F′).
 ```
 
-### 1.1.2. Cohomology and restriction of scalars.
+### 1.1.2. Cohomology and restriction of scalars
 
 <!-- label: III.III.1.1.2 -->
 
@@ -1455,7 +1455,7 @@ H∗(G, ∏_{T/S} F) ≃ H∗(G_T, F).
 
 Indeed, by the definition of cohomology, the standard complexes are canonically isomorphic.
 
-### 1.2. Lifting of group morphisms.
+### 1.2. Lifting of group morphisms
 
 <!-- label: III.III.1.2 -->
 
@@ -1686,7 +1686,7 @@ under $H^{1}(H, M)$.*
 *(iii) If $f' : H \to E$ is a morphism of groups lifting $f$, the set of transforms of $f'$ by the inner automorphisms
 defined by the elements of $\Gamma(M)$ is isomorphic to $\Gamma(M)/\Gamma(M^{H}) = \Gamma(M)/H^{0}(H, M)$.*
 
-### 1.3. Extensions of group laws.
+### 1.3. Extensions of group laws
 
 <!-- label: III.III.1.3 -->
 
@@ -1945,7 +1945,7 @@ associates to an $S$-morphism $f : Y \to X$ the $S$-morphism $f^{+} : Y \to X^{+
 isomorphisms to the `S_J`-morphism $f_{J} : Y_{J} \to X_{J}$ obtained by base change from $f$. If $M$ is commutative,
 one can apply to this situation Proposition 1.2.4.
 
-### 2.0.
+### 2.0
 
 <!-- label: III.III.2.0 -->
 

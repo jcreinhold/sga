@@ -37,7 +37,7 @@ uniform, the residue field of a point x is denoted κ(x), and the residue field 
 
 There also exists an electronic version intended to reproduce the original text.
 
-The two versions are produced from a single source file, located on the arXiv.org e-print server at $http://arxiv.org/$.
+The two versions are produced from a single source file, located on the arXiv.org e-print server at $<http://arxiv.org/$>.
 The differences between the two versions are documented in the source file.
 
 The old page numbering is incorporated in the margin; the number n indicates the beginning of page n.

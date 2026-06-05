@@ -10,7 +10,7 @@
 
 <!-- original page 484 -->
 
-### 1.1. Examples of monomorphisms of group preschemes that are not immersions.
+### 1.1. Examples of monomorphisms of group preschemes that are not immersions
 
 <!-- label: III.XVI.1.1 -->
 
@@ -116,7 +116,7 @@ rigid".*
 
 <!-- label: III.XVI.1.2 -->
 
-### 1.3. Statement of the immersion criterion.
+### 1.3. Statement of the immersion criterion
 
 <!-- label: III.XVI.1.3 -->
 

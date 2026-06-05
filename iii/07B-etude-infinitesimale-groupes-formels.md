@@ -23,7 +23,7 @@ latter, we refer the reader to the 1964/65 algebraic geometry seminar of Heidelb
 This paragraph contains a few technical preliminaries; we recall and complete in it some results from [CA] (*Des
 catégories abéliennes*, Bull. Soc. Math. France 90, 1962).
 
-### 0.1.
+### 0.1
 
 <!-- label: III.VII_B.0.1 -->
 
@@ -37,7 +37,7 @@ of these rings, each endowed with the discrete topology.
 
 A complete noetherian local ring $(A, \mathfrak{m})$ is obviously pseudocompact.[^N.D.E-VII_B-3]
 
-#### 0.1.1.
+#### 0.1.1
 
 <!-- label: III.VII_B.0.1.1 -->
 
@@ -70,7 +70,7 @@ topology; it is therefore a local ring which is pseudocompact for the inverse-li
 
 <!-- original page 479 -->
 
-#### 0.1.2.
+#### 0.1.2
 
 <!-- label: III.VII_B.0.1.2 -->
 
@@ -106,7 +106,7 @@ a formal scheme (EGA I, 10.4.2), which we shall denote $Spf(A)$. (For this forma
 quasi-compact, hence $\Upsilon(A)$ must be finite; in this case, $Spf(A)$ coincides with the definition of (EGA I,
 10.1.2)).
 
-#### 0.1.3.
+#### 0.1.3
 
 <!-- label: III.VII_B.0.1.3 -->
 
@@ -115,7 +115,7 @@ compatible with addition, multiplication, and the unit elements. Such a homomorp
 element of $A$ to a topologically nilpotent element of $B$; it therefore maps the radical $r(A)$ of $A$ into the radical
 $r(B)$ of $B$.
 
-### 0.2.
+### 0.2
 
 <!-- label: III.VII_B.0.2 -->
 
@@ -299,7 +299,7 @@ projective if and only if each $M_{i}$ is.*
 Indeed, for every $N \in Ob LF(A)$, one has $\operatorname{Hom}_{c}(\prod_{i} M_{i}, N) \simeq \bigoplus_{i}
 \operatorname{Hom}_{c}(M_{i}, N)$.
 
-#### 0.2.1.
+#### 0.2.1
 
 <!-- label: III.VII_B.0.2.1 -->
 
@@ -321,7 +321,7 @@ a family $(A_{i})$ of copies of $A$.*
 *In this case, a family $(m_{i})$ of elements of $M$ is called a* pseudobasis *of $M$ if the $A$-linear maps from
 $A_{i}$ into $M$ sending the unit element of $A_{i}$ to $m_{i}$ extend to an isomorphism of $\prod_{i} A_{i}$ onto $M$.*
 
-#### 0.2.2.
+#### 0.2.2
 
 <!-- label: III.VII_B.0.2.2 -->
 
@@ -366,7 +366,7 @@ between the category of projective pseudocompact $A$-modules and that of project
 In particular, when $A$ is a field $k$, `P ↦ P^†` is an anti-equivalence between the category of all pseudocompact
 $k$-modules (one also speaks of *linearly compact $k$-vector spaces*) and that of $k$-vector spaces.[^N.D.E-VII_B-16]
 
-### 0.3.
+### 0.3
 
 <!-- label: III.VII_B.0.3 -->
 
@@ -411,7 +411,7 @@ linear topology defined by the kernels of the canonical projections of $L \otime
 If $x$ and $y$ belong to $L$ and $M$, the image of $x \otimes_{A} y$ in $L \hat{\otimes}_{A} M$ will be denoted $x
 \hat{\otimes}_{A} y$.
 
-#### 0.3.1.
+#### 0.3.1
 
 <!-- label: III.VII_B.0.3.1 -->
 
@@ -457,7 +457,7 @@ continuous $A$-trilinear maps from $L \times M \times P$ into $N$.*
 
 <!-- label: III.VII_B.0.3.1.2 -->
 
-#### 0.3.2.
+#### 0.3.2
 
 <!-- label: III.VII_B.0.3.2 -->
 
@@ -493,7 +493,7 @@ sequence (∗) therefore yields the isomorphism:
 (A/𝔞) ⊗̂_A M ⥲ M / 𝔞̄ M.
 ```
 
-#### 0.3.3.
+#### 0.3.3
 
 <!-- label: III.VII_B.0.3.3 -->
 
@@ -509,7 +509,7 @@ canonical map of $M/\bar{\mathfrak{a}} M$ to $M''/\bar{\mathfrak{a}} M''$ is sur
 implies $M'' = 0$ by the usual Nakayama's Lemma. Consequently, every open submodule $M'$ of $M$ equals $M$, and so $M$
 is zero.[^N.D.E-VII_B-21]
 
-#### 0.3.4.
+#### 0.3.4
 
 <!-- label: III.VII_B.0.3.4 -->
 
@@ -540,7 +540,7 @@ is a subset of $I$. If $P$ denotes the direct product $\prod_{i \in J} A m_{i}$,
 $M$ is "bijective modulo $\mathfrak{m}$"; it is therefore bijective by what precedes (for another proof see [CA], §
 IV.2, Prop. 8).
 
-#### 0.3.5.
+#### 0.3.5
 
 <!-- label: III.VII_B.0.3.5 -->
 
@@ -595,7 +595,7 @@ L ⊗̂_A lim M_i ≃ lim (L ⊗̂_A M_i).
 
 *The completed tensor product therefore commutes with filtered inverse limits.*[^N.D.E-VII_B-24]
 
-#### 0.3.6.
+#### 0.3.6
 
 <!-- label: III.VII_B.0.3.6 -->
 
@@ -632,7 +632,7 @@ Hom_c(M, Q) ⥲ Hom_A(Q^†, M^†)         and        Q^† ⊗_A N ⥲ Hom_c(Q
 
 <!-- label: III.VII_B.0.3.6.A -->
 
-#### 0.3.7.
+#### 0.3.7
 
 <!-- label: III.VII_B.0.3.7 -->
 
@@ -695,7 +695,7 @@ isomorphism.[^N.D.E-VII_B-28]
 
 <!-- original page 487 -->
 
-#### 0.3.8.
+#### 0.3.8
 
 <!-- label: III.VII_B.0.3.8 -->
 
@@ -719,7 +719,7 @@ is exact. So $P$ is topologically free if and only if the functor $M \mapsto M \
 ranges over the noetherian modules. The corollary therefore follows from the equality $M \otimes_{A} P = M
 \hat{\otimes}_{A} P$ established above.
 
-### 0.4.
+### 0.4
 
 <!-- label: III.VII_B.0.4 -->
 
@@ -754,7 +754,7 @@ Indeed, every pseudocompact $A$-module of finite length is isomorphic to a quoti
 submodule of $A^{n}$), hence is a pseudocompact $k$-module. Since $M|_{k}$ is an inverse limit of such modules, it is a
 pseudocompact $k$-module.
 
-#### 0.4.1.
+#### 0.4.1
 
 <!-- label: III.VII_B.0.4.1 -->
 
@@ -770,7 +770,7 @@ underlying topological $A$-module (by 0.4, $f$ and $g$ endow $B$ and $C$ with ps
 multiplication of $B \hat{\otimes}_{A} C$ is obviously such that $(b \hat{\otimes} c)(b' \hat{\otimes} c') = (bb')
 \hat{\otimes} (cc')$ if $b, b' \in B$ and $c, c' \in C$.
 
-#### 0.4.2.
+#### 0.4.2
 
 <!-- label: III.VII_B.0.4.2 -->
 
@@ -840,7 +840,7 @@ $Alf/k$:
 
 [^N.D.E-VII_B-34]
 
-### 0.5.
+### 0.5
 
 <!-- label: III.VII_B.0.5 -->
 
@@ -937,7 +937,7 @@ one structure of profinite $\ell$-algebra such that, if $a, b \in A$ and $\lambd
 
 <!-- original page 492 -->
 
-### 1.1.
+### 1.1
 
 <!-- label: III.VII_B.1.1 -->
 
@@ -966,7 +966,7 @@ every morphism $f : Spf(B) \to Spf(A)$, whence the proposition.
 Although we shall here speak only of formal schemes of the form $Spf(A)$, we shall use the language of formal schemes
 rather than that of pseudocompact rings, in order to base our assertions on a geometric intuition.
 
-### 1.2.
+### 1.2
 
 <!-- label: III.VII_B.1.2 -->
 
@@ -1027,7 +1027,7 @@ $k$, we shall assume in some proofs that $k$ is a local pseudocompact ring.*
 
 We now give some examples while fixing our terminology.
 
-#### 1.2.1.
+#### 1.2.1
 
 <!-- label: III.VII_B.1.2.1 -->
 
@@ -1064,7 +1064,7 @@ the $O_{k}$-module $C \mapsto C \otimes_{k} M$; then $W(M)$ is flat when $M$ is 
 Moreover, the functor $M \mapsto W(M)$ has as right adjoint the functor that associates to every $O_{k}$-module $F$ the
 $k$-module $\lim_{\mathcal{l}} F(k/\mathcal{l})$, where $\mathcal{l}$ ranges over the open ideals of $k$.
 
-#### 1.2.2.
+#### 1.2.2
 
 <!-- label: III.VII_B.1.2.2 -->
 
@@ -1083,7 +1083,7 @@ is a homomorphism of $D$-algebras (resp. $D$-coalgebras, etc.).
 Note finally that, if $**F**$ and $**G**$ are two $O_{k}$-modules, $**F** \otimes_{k} **G**$ will denote the
 $O_{k}$-module $C \mapsto **F**(C) \otimes_{C} **G**(C)$.
 
-#### 1.2.3.
+#### 1.2.3
 
 <!-- label: III.VII_B.1.2.3 -->
 
@@ -1265,7 +1265,7 @@ $\delta^{C}_{i}(n^{C}_{i}) = 1$ and $\delta^{C}_{i}(n^{C}_{j}) = 0$ for $i \neq 
 basis of $**V^{f}_{k}**(N)(C)$; moreover, for every morphism $\phi : C \to D$ of $Alf/k$, $**V^{f}_{k}**(N)(\phi)$ sends
 $\delta^{C}_{i}$ to $\delta^{D}_{i}$.
 
-#### 1.2.4.
+#### 1.2.4
 
 <!-- label: III.VII_B.1.2.4 -->
 
@@ -1301,7 +1301,7 @@ $**V^{f}_{k}**(E)$, i.e., for every object $C$ of $Alf/k$, one has a canonical i
 
 In all the sequel, we identify $**V^{f}_{k}**(E)$ with the $k$-functor $**V^{f}_{k}**(E)$.
 
-#### 1.2.5.
+#### 1.2.5
 
 <!-- label: III.VII_B.1.2.5 -->
 
@@ -1333,7 +1333,7 @@ $Alf/k$, one has canonical isomorphisms:
 **V^{f,0}_k**(E)(C) ≃ Hom_{Alp/k}(k[[E]], C) ≃ Hom_c(E, r(C)).
 ```
 
-#### 1.2.6.
+#### 1.2.6
 
 <!-- label: III.VII_B.1.2.6 -->
 
@@ -1392,7 +1392,7 @@ Hom_{**S**}(T, X) ≃ lim Hom_{**S**}(T, X_i) ≃ lim Hom_{**V**}(T, X̂_i) ≃ 
 Consequently, the functor $X \mapsto \hat{X}/\hat{S}$ commutes with inverse limits when they exist in $(Sch/S)$; in
 particular, it commutes with finite inverse limits.
 
-### 1.3.
+### 1.3
 
 <!-- label: III.VII_B.1.3 -->
 
@@ -1422,7 +1422,7 @@ implies $A = K$.
 **Remark.**[^N.D.E-VII_B-55] *It follows from the proposition that every monomorphism $f : X \to Y$ of formal varieties
 is an isomorphism of $X$ onto a (necessarily closed!) formal subvariety of $Y$.*
 
-#### 1.3.1.
+#### 1.3.1
 
 <!-- label: III.VII_B.1.3.1 -->
 
@@ -1470,7 +1470,7 @@ $g' : B/\mathfrak{n} \to A/\mathfrak{n} A$ deduced from $g$ is injective. By Lem
 of $A$ as a $B$-module, say $A = B \oplus A'$; it follows that $B$ is identified with the part of $A$ formed by the $a$
 such that $a \hat{\otimes}_{B} 1 = 1 \hat{\otimes}_{B} a$.
 
-#### 1.3.2.
+#### 1.3.2
 
 <!-- label: III.VII_B.1.3.2 -->
 
@@ -1487,7 +1487,7 @@ consequently, $r'$ is deduced from $r$ by passage to the quotient. Then, since $
 \circ g$, by 0.3.4 (since $M$ is projective). Let $s$ be the inverse isomorphism of $r \circ g$; then $s \circ r$ is a
 retraction of $g$.
 
-#### 1.3.3.
+#### 1.3.3
 
 <!-- label: III.VII_B.1.3.3 -->
 
@@ -1511,7 +1511,7 @@ $P \mapsto P \hat{\otimes}_{C} A$ and $N \mapsto N \hat{\otimes}_{B} A$ are ther
 moreover faithful, the functor $P \mapsto P \hat{\otimes}_{C} B$ is exact; by 0.3.7, $B$ is therefore a projective
 pseudocompact $C$-module.
 
-#### 1.3.4.
+#### 1.3.4
 
 <!-- label: III.VII_B.1.3.4 -->
 
@@ -1561,7 +1561,7 @@ X̂ ×_Y X ≃ X̂ ×_{Ŷ} X̂.
 
 Consequently, the sequence $(\hat{\ast})$ is exact.
 
-#### 1.3.5.
+#### 1.3.5
 
 <!-- label: III.VII_B.1.3.5 -->
 
@@ -1666,7 +1666,7 @@ $k$-varieties and that of flat $O_{k}$-coalgebras.*
 
 <!-- label: III.VII_B.1.3.5.D -->
 
-#### 1.3.6.
+#### 1.3.6
 
 <!-- label: III.VII_B.1.3.6 -->
 
@@ -1886,7 +1886,7 @@ One thus obtains a filtration $**H**_{0} \subset **H**_{1} \subset \cdots$ of $*
 **Proposition.** *In order for $\sigma$ to induce an isomorphism on the underlying topological spaces, it is necessary
 and sufficient that $**H**(X)$ be the union of the $**H**_{n}$.*
 
-### 1.4. Theorem.
+### 1.4. Theorem
 
 <!-- label: III.VII_B.1.4 -->
 
@@ -1903,7 +1903,7 @@ the morphism $X_{1} \to X \times_{X/X_{1}} X$ with components $d_{0}$ and $d_{1}
 Let us first note that (ii) follows from (i), by 1.3.3 (ii). The proof of (i) occupies paragraphs 1.4.1, 1.4.2 and
 1.4.3.
 
-#### 1.4.1.
+#### 1.4.1
 
 <!-- label: III.VII_B.1.4.1 -->
 
@@ -1934,7 +1934,7 @@ class, $v$ is surjective. If $(v_{0}, v_{1})$ is the inverse image of the equiva
 induced by $(d_{0}, d_{1})$ are both identified with $Coker(v_{0}, v_{1})$. One sees then, as in the proof of V, 6.1,
 that if the conclusion of Theorem 1.4 is verified for $U$, it is also verified for $X$.
 
-#### 1.4.2.
+#### 1.4.2
 
 <!-- label: III.VII_B.1.4.2 -->
 
@@ -2016,7 +2016,7 @@ invertible:
 
 This proves Theorem 1.4, modulo Lemma 1.4.3 which follows.
 
-#### 1.4.3. Lemma.
+#### 1.4.3. Lemma
 
 <!-- label: III.VII_B.1.4.3 -->
 
@@ -2044,7 +2044,7 @@ is a direct factor of `A ⨶_k M`; since $A$ is local, it follows from the excha
 as supplement a partial product `∏_{i ∈ J} A ⨶_k M_i`, where $J$ denotes some subset of $I$. One may therefore take $V =
 \prod_{i \in J} M_{i}$.
 
-### 1.5.
+### 1.5
 
 <!-- label: III.VII_B.1.5 -->
 
@@ -2083,7 +2083,7 @@ topologically flat, then $X/X_{1}$ represents the quotient sheaf for the flat to
 
 <!-- label: III.VII_B.1.5.thm -->
 
-### 1.6.
+### 1.6
 
 <!-- label: III.VII_B.1.6 -->
 
@@ -2302,7 +2302,7 @@ there exists $n \in \mathbb{N}*$ such that `x^{p^n} ∈ K_e ⨶ L_e`, hence ever
 Note, keeping the preceding notations, that $O_{X_{e}, x}$ is not necessarily a subalgebra of $O_{X, x}$, but this is
 the case when $X$ is topologically flat over $k$, by the following proposition.
 
-#### 1.6.1.
+#### 1.6.1
 
 <!-- label: III.VII_B.1.6.1 -->
 
@@ -2359,7 +2359,7 @@ the algebra `κ(x) ⨶_k κ(y)`, since the latter is semi-simple.)
 
 <!-- original page 512 -->
 
-### 2.1.
+### 2.1
 
 <!-- label: III.VII_B.2.1 -->
 
@@ -2439,7 +2439,7 @@ satisfied). One will denote by $Grf_{/}k$ the category of $k$-formal groups.
 shall denote by $\omega_{G/k}$ the pseudocompact $k$-module $I_{A}/I^{2}_{A}$, that is, the quotient of `I_A` by the
 closed ideal generated by the products `xy`, for $x, y \in I_{A}$.*
 
-### 2.2.
+### 2.2
 
 <!-- label: III.VII_B.2.2 -->
 
@@ -2466,7 +2466,7 @@ form a group for the multiplication of the algebra $H(C)$ (cf. VII_A 3.2.2). Not
 `∆(x) = x ⊗ x` entails the equality $\epsilon(x) = \epsilon(x)^{2}$, hence also $\epsilon(x) = 1$ if $C$ is local and $x
 \neq 0$.[^N.D.E-VII_B-78]
 
-#### 2.2.1.
+#### 2.2.1
 
 <!-- label: III.VII_B.2.2.1 -->
 
@@ -2533,7 +2533,7 @@ On the other hand, let us denote $H^{com}_{flat/k}$ the full subcategory of $H_{
 over $k$ and commutative, and recall that the functor $K \mapsto O(K)$ is an anti-equivalence of the category of affine
 $k$-group schemes onto $H^{com}_{flat/k}$.
 
-#### 2.2.2.
+#### 2.2.2
 
 <!-- label: III.VII_B.2.2.2 -->
 
@@ -2585,7 +2585,7 @@ groups and that of commutative affine $k$-group schemes, which commutes with ext
 
 <!-- label: III.VII_B.2.2.2.prop -->
 
-### 2.3.
+### 2.3
 
 <!-- label: III.VII_B.2.3 -->
 
@@ -2621,7 +2621,7 @@ algebra*" of the formal group $G$.
 Of course, when $G$ is topologically flat over $k$, $\varphi_{G}$ is an isomorphism, and one recovers the structure of
 $O_{k}$-bialgebra on $H(G)$ defined in 2.2.1.
 
-#### 2.3.1. Proposition.
+#### 2.3.1. Proposition
 
 <!-- label: III.VII_B.2.3.1 -->
 
@@ -2701,7 +2701,7 @@ $\epsilon_{B} f(1) = 1$, `∆_B f(1) = f(1) ⨶ f(1)` and $f(1) \cdot f(1) = f(1
 (iii), that $f(1)$ admits $c_{B} f(1)$ as inverse in $B$; consequently $f(1) \cdot f(1) = f(1)$ entails $f(1) = 1$. So
 $f : A \to B$ is a morphism of $Alp/k$, compatible with the comultiplications of $A$ and $B$.
 
-#### 2.3.2.
+#### 2.3.2
 
 <!-- label: III.VII_B.2.3.2 -->
 
@@ -2823,7 +2823,7 @@ Finally, $\theta$ is compatible with the laws of $G$ and of $W(U)\times$ if and 
 it is clear that $(\phi \circ m_{H})(x \otimes y) = \phi(xy)$, and one sees easily that $\beta(x \otimes y) = \phi(x)
 \phi(y)$.
 
-### 2.4.
+### 2.4
 
 <!-- label: III.VII_B.2.4 -->
 
@@ -2901,7 +2901,7 @@ Indeed, the projection $B \to B/I_{B}$ corresponds to the "unit section" $e : Sp
 is identified with the fiber product $Spf(k) \times_{G/H} G$, and hence its affine algebra $A/J$ is identified with
 `(B/I_B) ⨶_B A ≃ A/AI_B`.
 
-#### 2.4.A.
+#### 2.4.A
 
 <!-- label: III.VII_B.2.4.A -->
 
@@ -2988,7 +2988,7 @@ following diagram is commutative:
    γρ'(a) = (m_A ∘ (id ⊗ τρ c_A) ∘ ∆_A)(a).
 ```
 
-#### 2.4.B.
+#### 2.4.B
 
 <!-- label: III.VII_B.2.4.B -->
 
@@ -3025,7 +3025,7 @@ In particular, if $M$ is an abstract group and if $H(Q)$ is the group algebra `k
 $k$-formal group $M_{k}$), then for every $\gamma \in M$ and $x' \in H(N)$ one has $\phi(\gamma \otimes x') = \gamma x'
 \gamma^{-1}$, and this defines an action of $M$ on $H(N)$ by Hopf algebra automorphisms.
 
-#### 2.4.1. Proposition.
+#### 2.4.1. Proposition
 
 <!-- label: III.VII_B.2.4.1 -->
 
@@ -3061,7 +3061,7 @@ flat over $k$, then $O(G/H)$ is the image of $O(K)$ in $O(G)$.*
 
 <!-- label: III.VII_B.2.4.1.cor -->
 
-#### 2.4.2.
+#### 2.4.2
 
 <!-- label: III.VII_B.2.4.2 -->
 
@@ -3084,7 +3084,7 @@ category.*[^N.D.E-VII_B-94]
 
 This follows from the theorem and the equivalence of categories 2.2.2.
 
-### 2.5.
+### 2.5
 
 <!-- label: III.VII_B.2.5 -->
 
@@ -3147,7 +3147,7 @@ topological algebra $k^{M}$, hence $H(G)$ is the group algebra `kM`, and one has
 
 <!-- label: III.VII_B.2.5.A -->
 
-#### 2.5.1.
+#### 2.5.1
 
 <!-- label: III.VII_B.2.5.1 -->
 
@@ -3197,7 +3197,7 @@ quotient $G/G^{0}$; i.e., one has an exact sequence of formal groups:*
 
 <!-- label: III.VII_B.2.5.1.cor -->
 
-#### 2.5.2.
+#### 2.5.2
 
 <!-- label: III.VII_B.2.5.2 -->
 
@@ -3240,7 +3240,7 @@ $\mu_{p,k}$, cf. [DG70], § III.6, 8.6).
 
 <!-- label: III.VII_B.2.5.2.A -->
 
-#### 2.5.3.
+#### 2.5.3
 
 <!-- label: III.VII_B.2.5.3 -->
 
@@ -3296,7 +3296,7 @@ category of $k$-group schemes of multiplicative type is anti-equivalent to the c
 
 <!-- label: III.VII_B.2.5.3.C -->
 
-### 2.6.
+### 2.6
 
 <!-- label: III.VII_B.2.6 -->
 
@@ -3367,7 +3367,7 @@ whence $\delta_{G}(xy - yx) = \varphi_{G}((xy - yx) \otimes 1 + 1 \otimes (xy - 
 This shows that the $k$-module $Lie(G)$ is identified with a Lie subalgebra of $H(G)$: we shall say that $Lie(G)$ is the
 *Lie algebra* of $G$.[^N.D.E-VII_B-108]
 
-#### 2.6.1.
+#### 2.6.1
 
 <!-- label: III.VII_B.2.6.1 -->
 
@@ -3386,7 +3386,7 @@ functor $Lie(G)$ which associates to every object $C$ of $Alf_{/}k$ the $C$-Lie 
 (with the notations of 1.2.3.B). Therefore, by Proposition 1.2.3.E, $Lie(G)$ is flat over $O_{k}$ if and only if
 $\omega_{G/k}$ is a projective pseudocompact $k$-module.
 
-#### 2.6.2.
+#### 2.6.2
 
 <!-- label: III.VII_B.2.6.2 -->
 
@@ -3441,7 +3441,7 @@ algebra. It follows that $Lie(\mathcal{G}(L))(k)$ is identified with the set of 
 `∆(x) = x ⊗ 1 + 1 ⊗ x`, i.e., to $x \in Prim U$. In particular, the map $\tau_{L} : x \mapsto 1 + dx$ is a morphism of
 $O_{k}$-Lie algebras, from $L$ to $Lie(\mathcal{G}(L))$.
 
-#### 2.6.3.
+#### 2.6.3
 
 <!-- label: III.VII_B.2.6.3 -->
 
@@ -3485,7 +3485,7 @@ Now $h$ is determined by its restriction to $L$, which is a morphism of Lie alge
 underlying $H(G)$, and the commutativity of the diagram means that $h$ sends $L$ into the part of $H(G)$ formed by the
 $x$ such that $\delta_{G}(x) = \varphi_{G}(x \otimes 1 + 1 \otimes x)$, which is none other than $Lie(G)$, cf. 2.6 c).
 
-### 2.7.
+### 2.7
 
 <!-- label: III.VII_B.2.7 -->
 
@@ -3526,7 +3526,7 @@ $\operatorname{End}_{k}(U)$, defined by `f · g = m_U ∘ (f ⊗ g) ∘ ∆_U` (
 \epsilon(u) \cdot 1_{U}$). It follows that $c$ is uniquely determined, and is also the right inverse of $id_{U}$, i.e.,
 one also has `m_U ∘ (c_U ⊗ id_U) ∘ ∆_U = η` (without supposing $U$ cocommutative).
 
-### 2.8. Unipotent group schemes over a field.
+### 2.8. Unipotent group schemes over a field
 
 <!-- label: III.VII_B.2.8 -->
 
@@ -3575,7 +3575,7 @@ of $G$, then $G$ is unipotent if and only if $D(G)$ is infinitesimal.*
 
 <!-- label: III.VII_B.2.8.1 -->
 
-### 2.9. Pointed cocommutative Hopf algebras over a field.
+### 2.9. Pointed cocommutative Hopf algebras over a field
 
 <!-- label: III.VII_B.2.9 -->
 
@@ -3656,7 +3656,7 @@ $H$ is pointed and a direct sum of its irreducible components (but not necessari
 
 Throughout Section 3, we assume that the pseudocompact ring $k$ contains the field of rational numbers $\mathbb{Q}$.
 
-### 3.1. Lemma.
+### 3.1. Lemma
 
 <!-- label: III.VII_B.3.1 -->
 
@@ -3687,7 +3687,7 @@ the sum being extended over all elements $m$ of $\mathbb{N}^{(I)}$ such that $0 
 that $0 \leqslant m_{i} \leqslant n_{i}$ for every $i$). It evidently follows that one has `∆_{U(L)}(u) = u ⊗ 1 + 1 ⊗ u`
 if and only if $u$ is a linear combination of the $x_{i}$.
 
-### 3.2.
+### 3.2
 
 <!-- label: III.VII_B.3.2 -->
 
@@ -3757,7 +3757,7 @@ algebras.*[^N.D.E-VII_B-123]
 
 <!-- label: III.VII_B.3.2.prop -->
 
-#### 3.2.1.
+#### 3.2.1
 
 <!-- label: III.VII_B.3.2.1 -->
 
@@ -3831,7 +3831,7 @@ where the $p_{j}, q_{i} \in \mathbb{N}$ verify $p_{i} + q_{i} \geqslant 1$ for $
 \Sigma^{m-1}_{i=1}(p_{i} + q_{i}) = \ell - 1$ (i.e., in the sums above, each non-zero "Lie monomial" is of total degree
 $\ell$); for a proof, see N. Jacobson, *Lie Algebras* (Interscience, 1962), § V.5, or [BLie], II § 6.4, Th. 2.
 
-### 3.3.
+### 3.3
 
 <!-- label: III.VII_B.3.3 -->
 
@@ -3936,7 +3936,7 @@ shows that `φ_0 = φ ⨶_k k_0` is invertible. Since, on the other hand, $k[[\o
 pseudocompact $k$-modules, $\phi$ is invertible by 0.3.4. (In particular, denoting $I$ the augmentation ideal of
 $k[[\omega']]$, $\phi$ induces an isomorphism from $\omega' = I/I^{2}$ onto $I_{A}/I^{2}_{A} = \omega$.)
 
-#### 3.3.1.
+#### 3.3.1
 
 <!-- label: III.VII_B.3.3.1 -->
 
@@ -3965,7 +3965,7 @@ This proves the corollary.
 We thus recover a result obtained otherwise for group schemes locally of finite presentation over an arbitrary scheme
 $S$, cf. VI_B, 1.6.
 
-#### 3.3.2.
+#### 3.3.2
 
 <!-- label: III.VII_B.3.3.2 -->
 
@@ -3982,7 +3982,7 @@ Indeed, when $G$ runs through the infinitesimal $k$-formal groups, the functor $
 by Theorem 3.3, to the identity functor of the category of infinitesimal $k$-groups. Likewise, by 3.2 (ii), the functor
 $L \mapsto Lie(**G**(L)) = Prim(U(L))$ is isomorphic to the identity functor of the category of $k$-Lie algebras.
 
-#### 3.3.3.
+#### 3.3.3
 
 <!-- label: III.VII_B.3.3.3 -->
 
@@ -4073,7 +4073,7 @@ algebras.*[^N.D.E-VII_B-C-15]
 Throughout Section 4, we denote by $p$ a prime number, by $k$ a pseudocompact ring of characteristic $p$, and by $\pi$
 the continuous endomorphism $x \mapsto x^{p}$ of $k$.
 
-### 4.1.
+### 4.1
 
 <!-- label: III.VII_B.4.1 -->
 
@@ -4089,7 +4089,7 @@ $$ Fr(X/k) : X \longrightarrow X^{(p/k)}. $$
 In what follows, we shall say that $Fr(X/k)$ is the *Frobenius morphism of $X$ relative to $k$* and we shall often write
 `Fr` instead of $Fr(X/k)$.
 
-#### 4.1.1.
+#### 4.1.1
 
 <!-- label: III.VII_B.4.1.1 -->
 
@@ -4129,7 +4129,7 @@ $\hat{X}^{(p)}/\hat{S}$ is identified with a formal subvariety of $(\hat{X}/\hat
 and only if for every closed point $s$ of $S$, $\kappa(s)$ is of finite degree over $\kappa(s)^{p}$, which is the case
 for example if $S$ is a scheme locally of finite type over a field $\kappa$ such that $[\kappa : \kappa^{p}] < +\infty$.
 
-#### 4.1.2.
+#### 4.1.2
 
 <!-- label: III.VII_B.4.1.2 -->
 
@@ -4156,7 +4156,7 @@ denotes the closed ideal of $A$ generated by the $p^{n}$-th powers of the elemen
 
 *(b) One says that $G$ is of height $\leqslant n$ if $I^{\{p^{n}\}}_{A} = 0$, that is to say if one has $Fr_{n} G = G$.*
 
-### 4.2.
+### 4.2
 
 <!-- label: III.VII_B.4.2 -->
 
@@ -4172,7 +4172,7 @@ of 2.3 and 2.6 (c). One then has
                        = (φ_G(x ⊗ 1 + 1 ⊗ x))^p = Δ_G(x)^p = Δ_G(x^p).
 ```
 
-#### 4.2.1.
+#### 4.2.1
 
 <!-- label: III.VII_B.4.2.1 -->
 
@@ -4184,7 +4184,7 @@ $k$-group functor $Spf^{*}(U_{p}(L))$ that we shall henceforth denote $**G**_{p}
 Thus, $**G**_{p}(L)(C)$ is the group of elements $z \in U_{p}(L(C))$ of augmentation `1` and such that
 $\Delta_{U_{p}(L(C))}(z) = z \otimes z$.
 
-#### 4.2.2.
+#### 4.2.2
 
 <!-- label: III.VII_B.4.2.2 -->
 
@@ -4234,7 +4234,7 @@ algebra underlying $**H**(G)$, and the commutativity of the diagram means that $
 formed by the $x$ such that $\delta_{G}(x) = \phi_{G}(x \otimes 1 + 1 \otimes x)$, which is none other than $Lie(G)$,
 cf. 2.6 (c).
 
-### 4.3.
+### 4.3
 
 <!-- label: III.VII_B.4.3 -->
 
@@ -4274,7 +4274,7 @@ U_n = {u ∈ U | Δ_U(u) − u ⊗ 1 ∈ U_{n−1} ⊗ U^+}.
 Formula $(\ast)$ then entails that $U_{n}$ is the free $C$-module having as basis the monomials $x^{m}$ such that $|m|
 \leqslant n$.
 
-#### 4.3.1.
+#### 4.3.1
 
 <!-- label: III.VII_B.4.3.1 -->
 
@@ -4326,7 +4326,7 @@ map
 
 is a functorial bijection from $L(C) \otimes_{C} {}^{p}\sqrt{0_{C}}$ onto $**G**_{p}(L)(C)$.
 
-#### 4.3.2.
+#### 4.3.2
 
 <!-- label: III.VII_B.4.3.2 -->
 
@@ -4409,7 +4409,7 @@ k[a]/(a^{3})$ and comparing the coefficients of $x^{p}$ and $x^{p+1}$ in $(\chi_
 $(U_{p}(f)(C) \circ \chi_{C})(x \otimes a)$, one obtains that $\lambda = \mu$ and $\lambda^{2} a^{2} = 0$, whence
 $\lambda = \mu = 0$.
 
-### 4.4.
+### 4.4
 
 <!-- label: III.VII_B.4.4 -->
 
@@ -4447,7 +4447,7 @@ $\omega_{G/k} = I_{A} / I^{2}_{A}$ is a projective pseudocompact $k$-module. The
 \omega_{G/k} \to I_{A}$ of the projection $I_{A} \to \omega_{G/k}$, and $\tau$ induces a continuous morphism of algebras
 $\psi : k[[\omega_{G/k}]] \to A$ that is surjective, cf. the proof of the implication (iii) ⇒ (i) in 3.3.*
 
-#### 4.4.1.
+#### 4.4.1
 
 <!-- label: III.VII_B.4.4.1 -->
 
@@ -4462,7 +4462,7 @@ Indeed, when $G$ runs through the formal groups of height $\leqslant 1$, the fun
 isomorphic to the identity functor by Theorem 4.4; likewise, we saw in 4.2.2 that the functor $L \mapsto Lie
 **G**_{p}(L)$ is isomorphic to the identity functor (see also VII_A, 5.5.3).[^N.D.E-VII_B-C-22]
 
-#### 4.4.2.
+#### 4.4.2
 
 <!-- label: III.VII_B.4.4.2 -->
 
@@ -4501,7 +4501,7 @@ $\omega_{G/k}$ is of finite dimension over $k$, is a direct limit of finite form
 
 <!-- label: III.VII_B.5 -->
 
-### 5.0.
+### 5.0
 
 <!-- label: III.VII_B.5.0 -->
 
@@ -4596,7 +4596,7 @@ analogous bijection between the set of $k$-subgroups $F$ of $G$ which are invari
 and that of subalgebras $B$ of $O(G)$ such that $\Delta(B) \subset A \otimes B$ and which are stable under the antipode
 (resp. and such that $B \to A$ is faithfully flat).
 
-### 5.1.
+### 5.1
 
 <!-- label: III.VII_B.5.1 -->
 
@@ -4648,7 +4648,7 @@ entails the last assertion of the proposition.
 
 On the other hand, it is clear that (ii) implies (i). The proof of the converse occupies paragraphs 5.1.1 to 5.1.5.
 
-#### 5.1.1.
+#### 5.1.1
 
 <!-- label: III.VII_B.5.1.1 -->
 
@@ -4679,7 +4679,7 @@ conditions (2) and (3) are consequences of (1). Indeed, if $J$ is a closed ideal
 the augmentation ideal `I_A`, hence (2) is verified, and $M = Spf(A/J)$ is a formal submonoid of $G$. Since $G$ is
 infinitesimal, it follows from 2.7 that $M$ is a formal subgroup of $G$, i.e., condition (3) is verified.
 
-#### 5.1.2.
+#### 5.1.2
 
 <!-- label: III.VII_B.5.1.2 -->
 
@@ -4773,7 +4773,7 @@ with finite coproducts, hence transforms a cogroup of $**P**$ into a cogroup of 
 *In particular, if $k$ is a field then, for every cogroup $(A, J)$ of $**C**$, $Gr_{J}(A)$ is a cogroup of
 $Alpg/k$.*[^N.D.E-VII_B-C-30]
 
-#### 5.1.3.
+#### 5.1.3
 
 <!-- label: III.VII_B.5.1.3 -->
 
@@ -4813,7 +4813,7 @@ is an isomorphism in $Alpg/k$. (N.B. This is not an isomorphism of cogroups, but
 and $(\gamma_{\rho}' \hat{\otimes} id) \circ \Delta|_{A'} = \Delta'$, where $\Delta'$ is the comultiplication of $A'$
 and $\gamma_{\rho}'$ the projection $A' \to A'$, cf. 2.4.A.)
 
-#### 5.1.4.
+#### 5.1.4
 
 <!-- label: III.VII_B.5.1.4 -->
 
@@ -4938,7 +4938,7 @@ I_B^n / I_B^{n+1} ⟶ A′_i = (B ∩ J^n)/(B ∩ J^{n+1})
 
 are surjective, and from 5.1.5 (ii) below, applied to $B'_{n} = I^{n}_{B}$ and $B_{n} = B \cap J^{n}$.
 
-#### 5.1.5.
+#### 5.1.5
 
 <!-- label: III.VII_B.5.1.5 -->
 
@@ -4965,7 +4965,7 @@ complete for the topology defined by the filtration $(B'_{n})$.*
 Indeed, (i) is Lemma 1 of [CA], § V.7 (see also [BAC], III, § 2.8), and (ii) follows from it by taking $M = B'_{n}
 \supset B'_{n+1} \supset \cdots$ and $N = B_{n} \supset B_{n+1} \supset \cdots$.
 
-### 5.2.
+### 5.2
 
 <!-- label: III.VII_B.5.2 -->
 
@@ -5023,7 +5023,7 @@ following three conditions verified:*[^N.D.E-VII_B-C-36]
 
 The proof of this theorem occupies paragraphs 5.2.1 to 5.2.5.
 
-#### 5.2.1.
+#### 5.2.1
 
 <!-- label: III.VII_B.5.2.1 -->
 
@@ -5047,7 +5047,7 @@ Such a section indeed extends into a continuous morphism $k[[\omega]] \to B$, wh
 
 thus obtained is an isomorphism.
 
-##### 5.2.1.A.
+##### 5.2.1.A
 
 <!-- label: III.VII_B.5.2.1.A -->
 
@@ -5083,7 +5083,7 @@ where $\bigoplus^{c}_{r} S_{r}$ is the direct sum of the $S_{r}$ in $PC(k)$, i.e
 below) to obtain a section $\sigma : \omega \to I$ as desired is that $\theta$ be an isomorphism. By duality (cf.
 0.2.2), this amounts to saying that the linear map `ω_∞^† → ∏_r S_r^†` is bijective.
 
-##### 5.2.1.B.
+##### 5.2.1.B
 
 <!-- label: III.VII_B.5.2.1.B -->
 
@@ -5113,7 +5113,7 @@ g(n)}$ and $x \in V_{g(n)+1}$ nonzero. Let then $j$ be the smallest integer such
 g(n) + 1, \cdots, j$, choose a supplement $F_{i}$ of $V_{i+1}$ in $V_{i}$, so that $e_{n+1} \in F_{j}$; one then sets
 $g(n + 1) = j$.
 
-##### 5.2.1.C.
+##### 5.2.1.C
 
 <!-- label: III.VII_B.5.2.1.C -->
 
@@ -5136,7 +5136,7 @@ algebra
 
 $k[[\omega]]$). The remarks above therefore imply our theorem, modulo points 5.2.2–5.2.5 below.
 
-#### 5.2.2.
+#### 5.2.2
 
 <!-- label: III.VII_B.5.2.2 -->
 
@@ -5151,7 +5151,7 @@ $B' = k[[\omega_{N/k}]] / ((x^{p}))_{x \in \omega_{N/k}}$ onto $**C**$. This imp
 of 5.2.1 induces an isomorphism of the associated graded rings of $B'$ and $B$ when one filters $B'$ and $B$ by the
 powers of the augmentation ideal. Hence $\phi$ is an isomorphism, by [CA], § V.7, Lemma 1 (see also 5.1.5).
 
-#### 5.2.3.
+#### 5.2.3
 
 <!-- label: III.VII_B.5.2.3 -->
 
@@ -5204,7 +5204,7 @@ $\phi$ is an isomorphism. One can then apply 0.3.4 to the pseudocompact ring $B'
 $B^{p}$-modules $M = B'$, $N = B$: by what precedes, $\phi_{1} = \phi \hat{\otimes}_{B^{p}} k$ is an isomorphism, and it
 follows that $\phi$ is an isomorphism. This proves 5.2 when $B$ is of finite height, modulo point 5.2.4 below.
 
-#### 5.2.4.
+#### 5.2.4
 
 <!-- label: III.VII_B.5.2.4 -->
 
@@ -5266,7 +5266,7 @@ isomorphism (1) that one has $\check{J}_{r} = ((x^{p^{r}}_{r+1}))_{x_{r+1} \in S
 and therefore, by what precedes, $\omega(r)_{n}$ is identified with $\prod^{n}_{i=1} S_{i}$ for $n = 1, \cdots, r - 1$.
 One thus obtains that the inclusion $\omega_{n} \subset \omega(r)_{n}$ is an equality, for $n = 1, \cdots, r - 1$.
 
-#### 5.2.5.
+#### 5.2.5
 
 <!-- label: III.VII_B.5.2.5 -->
 
@@ -5318,7 +5318,7 @@ $\omega$ and $\mathfrak{m}(r)$. Since $k[[{}^{r} \omega]] / ((x^{p^{n}}))_{x \in
 $B'_{r}$ and $\phi_{r} : B'_{r} \to B_{r}$ is the morphism induced by $\sigma(r)$, the result already established for
 algebras of finite height shows that $\phi_{r}$ is an isomorphism.
 
-#### 5.2.6.
+#### 5.2.6
 
 <!-- label: III.VII_B.5.2.6 -->
 
@@ -5349,7 +5349,7 @@ of $\epsilon_{n} : A_{n} \to k$ and of the structure morphism $k \to C$. (If mor
 algebra $k[[\omega'_{n}]]$, one can denote by `0` the unique morphism $A_{n} \to C$ that vanishes on $\omega'_{n}$, and
 one therefore obtains the set of sequences such that "$x_{n} = 0$" for $n$ large enough.)
 
-### 5.3.
+### 5.3
 
 <!-- label: III.VII_B.5.3 -->
 
@@ -5370,7 +5370,7 @@ $\omega_{1} \subset \omega_{2} \subset \cdots \subset \omega$ is such a filtered
 satisfying conditions (i), (ii), (iii) of 2.1; it suffices to set $\Delta_{A}(y) = y \hat{\otimes} 1 + 1 \hat{\otimes}
 y$ when $y$ is the image in $A$ of an element of $\omega$.*
 
-### 5.4.
+### 5.4
 
 <!-- label: III.VII_B.5.4 -->
 
@@ -5390,7 +5390,7 @@ Indeed, consider the infinitesimal formal groups $\hat{G} = Spf(\hat{O}_{G, e})$
 1.3.4, the completion `Â` of $A = O_{G/H, e}$ is isomorphic to $**A**(\hat{G}/\hat{H})$, and the corollary therefore
 follows from Theorem 5.2 (ii).[^N.D.E-VII_B-C-50]
 
-### 5.5. Complements.
+### 5.5. Complements
 
 <!-- label: III.VII_B.5.5 -->
 

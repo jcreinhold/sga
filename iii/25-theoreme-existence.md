@@ -78,7 +78,7 @@ To avoid confusion, we shall not use in n° 2 the abbreviated notation $X_{k}$ t
 
 <!-- label: III.XXV.2 -->
 
-### 2.1.
+### 2.1
 
 <!-- label: III.XXV.2.1 -->
 
@@ -107,7 +107,7 @@ $$ p_{\alpha,k} : \mathbb{G}_{a,k} \xrightarrow{\sim} U_{\alpha,k} $$
 
 the isomorphism of vector groups defined by $X_{\alpha,k}$.
 
-### 2.2.
+### 2.2
 
 <!-- label: III.XXV.2.2 -->
 
@@ -130,7 +130,7 @@ $$ \operatorname{Hom}_{\mathbb{Z}-gr.}(T, \mathbb{G}_{m}) = M, $$
 and one will regard the elements of $R \subset M$ as characters of $T$. Likewise, one will regard the elements of $R*$
 as morphisms of $\mathbb{Z}$-groups $\mathbb{G}_{m} \to T$.
 
-### 2.3.
+### 2.3
 
 <!-- label: III.XXV.2.3 -->
 
@@ -151,7 +151,7 @@ the isomorphism of $k$-schemes defined by
 a(x_1, …, x_n) = p_{α_1,k}(x_1) ⋯ p_{α_n,k}(x_n).
 ```
 
-### 2.4.
+### 2.4
 
 <!-- label: III.XXV.2.4 -->
 
@@ -206,7 +206,7 @@ p_{\alpha_{1}}(x_{1}) \cdots p_{\alpha_{n}}(x_{n})$, which proves that $U$ is id
 U = U_{α_1} · U_{α_2} ⋯ U_{α_n}.
 ```
 
-### 2.5.
+### 2.5
 
 <!-- label: III.XXV.2.5 -->
 
@@ -230,7 +230,7 @@ presentation, it suffices to verify the assertion on geometric fibers; one is th
 pairwise non-isomorphic as groups with operators (since the characters $\alpha \in R^{+}$ of $T$ are pairwise distinct
 on each fiber).
 
-### 2.6.
+### 2.6
 
 <!-- label: III.XXV.2.6 -->
 
@@ -630,7 +630,7 @@ $S$,[^N.D.E-XXV-6] then $f$ is affine.*
 We shall give the proof only in the case where $G$ is smooth over $S$, a hypothesis which is indeed verified in the
 application we have made of the proposition.
 
-### 4.2.
+### 4.2
 
 <!-- label: III.XXV.4.2 -->
 
@@ -641,7 +641,7 @@ normalization $\tilde{S}$ if necessary, one may (EGA II, 6.7.1 and EGA 0_IV 23.1
 One is therefore reduced to the case where $S$ is the spectrum of a complete discrete valuation ring $A$ with
 algebraically closed residue field.
 
-### 4.3.
+### 4.3
 
 <!-- label: III.XXV.4.3 -->
 
@@ -654,7 +654,7 @@ $H$ flat over $S$ and $f_{\eta}$ surjective. Since $f_{\eta}$ is finite, and $G$
 dim(G_s) = dim(G_η) = dim(H_η) = dim(H_s).
 ```
 
-### 4.4.
+### 4.4
 
 <!-- label: III.XXV.4.4 -->
 

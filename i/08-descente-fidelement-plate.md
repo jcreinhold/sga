@@ -601,7 +601,7 @@ taking $Y'$ to be the sum scheme of the spectra of the local rings of the points
 to be an irreducible algebraic curve and $Z$ to be the subset of $Y$ consisting of the generic point, its inverse image
 in $Y'$ is open, while $Z$ is not open.
 
-### 4.10.
+### 4.10
 
 <!-- label: VIII.4.10 -->
 

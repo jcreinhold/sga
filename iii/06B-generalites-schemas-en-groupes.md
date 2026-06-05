@@ -15,7 +15,7 @@ results, commonly used, concerning group schemes.[^VI_B-0-1]
 
 <!-- label: III.VI_B.1 -->
 
-### 1.1.
+### 1.1
 
 Let $A$ be an Artinian local ring, $G$ and $H$ two $A$-groups[^N.D.E-VI_B-2], and $u : G \to H$ a morphism of
 $A$-groups. Then $u$ induces a morphism of groups $u(A) : G(A) \to H(A)$.[^N.D.E-VI_B-3] Since $H(A)$ acts on $H$ by
@@ -357,7 +357,7 @@ unit point $e$, and hence smooth over $k$ by 1.3.1. ∎
 
 <!-- label: III.VI_B.2 -->
 
-### 2.0.
+### 2.0
 
 In all that follows, $S$ will denote an arbitrary scheme; an $S$-group scheme will be called an $S$-*group*. Given an
 $S$-group $G$, we shall denote by $\epsilon$ the unit section, by $c : G \to G$ the inversion morphism, and by `µ` the
@@ -778,7 +778,7 @@ $\epsilon|_{U}$ is an isomorphism of $U$ onto $G|_{U}$. ∎
 
 <!-- label: III.VI_B.3 -->
 
-### 3.0.
+### 3.0
 
 Given a part $A$ (resp. $B$) of an $S$-scheme $X$ (resp. $Y$), by abuse of notation, $A \times_{S} B$ will denote the
 part of $X \times_{S} Y$ formed by the points whose first projection lies in $A$ and second in $B$.
@@ -1302,7 +1302,7 @@ and universally open over $S$. Then $G$ is separated and of finite presentation 
 Indeed, by 3.6 and 5.4, $G$ is quasi-compact and separated over $S$, and since $G$ is locally of finite presentation
 over $S$, it is therefore of finite presentation over $S$. ∎
 
-### 5.6. Proof of Theorem 5.3.
+### 5.6. Proof of Theorem 5.3
 
 Before establishing 5.3, let us prove a few lemmas.
 
@@ -1732,7 +1732,7 @@ open group subscheme of $G$, separated over $S$.*
 
 <!-- label: III.VI_B.5.7.2 -->
 
-### 5.8. Complements.
+### 5.8. Complements
 
 [^N.D.E-VI_B-47] Let us begin by recalling Proposition (VI_A, 2.6.6):
 
@@ -2446,7 +2446,7 @@ and every $T$-automorphism of groups $a$ of `G_T`, $a \circ u(T)$ factor through
 
 <!-- label: III.VI_B.6.8 -->
 
-### 6.9.
+### 6.9
 
 [^N.D.E-VI_B-67] In [RG71], I 3.3.3, the authors introduce the geometric notion of pure $S$-scheme, which is local on
 $S$ for the étale topology; we refer to loc. cit. for the precise definition. Let us simply point out the following:
@@ -3058,7 +3058,7 @@ Indeed, it suffices to apply 7.9 (iii), 7.8 and 7.6.
 
 <!-- label: III.VI_B.8 -->
 
-### 8.1.
+### 8.1
 
 Let $\mathcal{C}$ be a category equipped with a topology $T$ (cf. IV § 4). For every presheaf $P$ on $\mathcal{C}$, we
 denote by $P^{\flat}$ the associated sheaf.
@@ -3499,7 +3499,7 @@ $G/G'$ is representable in the following particular cases:*
 
 <!-- label: III.VI_B.10 -->
 
-### 10.0.
+### 10.0
 
 Let us recall the essential result of EGA IV₃, § 8.8. Suppose given the following situation: `S_0` a quasi-compact and
 quasi-separated scheme, $I$ a filtered increasing preordered set, $(A_{i})_{i \in I}$ an inductive system of
@@ -3527,7 +3527,7 @@ $\mathcal{D}_{i}$ in the category of $S_{i}$-schemes of finite presentation, suc
 up to isomorphism from the diagram $\mathcal{D}_{i}$ by base change $S \to S_{i}$. One can even find $i$ and
 $\mathcal{D}_{i}$ such that every cartesian square of $\mathcal{D}$ comes from a cartesian square of $\mathcal{D}_{i}$.
 
-### 10.1.
+### 10.1
 
 Moreover, a great number of common properties for a morphism, stable under base change, possess the following property:
 
@@ -3665,7 +3665,7 @@ connected, i.e. has geometrically connected fibers (VI_A 2.1.1), hence, by EGA I
 $i$, one may suppose that the structural morphism $H_{i} \to S$ is connected. Then, by 3.10.1, the underlying space of
 $H_{i}$ is none other than $(G_{i})^{0}$, and hence $H_{i}$ represents $(G_{i})^{0}$. ∎
 
-### 10.10.
+### 10.10
 
 Let us recall two very useful particular cases of the situation stated in 10.0 (cf. EGA IV₃, 8.1.2 a) and c)):
 
@@ -3818,7 +3818,7 @@ every $s \in S'$. On the other hand, since $D_{\eta} = H_{\eta}$ and since $D$ a
 $S'$, then, by EGA IV₃, 8.8.2.5, there exists a non-empty open $S''$ of $S'$ such that $D|_{S''} = H|_{S''}$. For every
 $s \in S''$, one has therefore $H_{s} = D_{s} = (H_{s}, H_{s})$ (resp. $H_{s} = D_{s} = (G_{s}, H_{s})$). ∎
 
-### 10.14.
+### 10.14
 
 Statements 10.2 and 10.3 concerning the category of $S$-groups of finite presentation extend to the category of pairs
 formed by an $S$-group of finite presentation and an $S$-scheme of finite presentation with operator group $G$. To be
@@ -3881,7 +3881,7 @@ covering morphisms for the (fppf) topology recalled in 10.1.[^N.D.E-VI_B-103]
 
 <!-- label: III.VI_B.11 -->
 
-### 11.0. Reminders.
+### 11.0. Reminders
 
 [^N.D.E-VI_B-C-104] Let $q : X \to S$ be a quasi-compact and quasi-separated morphism of schemes (cf. EGA IV₁, 1.1 &
 1.2), and let $F$ be a quasi-coherent `O_X`-module. Recall that $q_{*}(F)$ is a quasi-coherent `O_S`-module (EGA I,
@@ -4013,7 +4013,7 @@ $S$-schemes $\phi' : G_{af} \to H$ such that $\phi = \phi' \circ \tau_{G}$.*
 
 <!-- label: III.VI_B.11.3.1 -->
 
-### 11.4.
+### 11.4
 
 [^N.D.E-VI_B-C-108] Let $E$ and $F$ be two quasi-coherent `O_S`-modules. Consider the $S$-functor
 $\operatorname{Hom}_{O_{S}}(W(E), W(F))$ (cf. I, 3.1.4), i.e. for every $S$-scheme $f : X \to S$,
@@ -4053,7 +4053,7 @@ Hom_{O_S}(W(E ′), W(E))(X) = Hom_{O_S}(E ′, E ⊗_{O_S} 𝒜(X)).
 Indeed, the second assertion follows from 11.4 and the first; this latter follows from EGA II, 1.4.7 in case (a), and
 from 11.0 (b) in case (b).[^N.D.E-VI_B-C-109] ∎
 
-### 11.6.
+### 11.6
 
 [^N.D.E-VI_B-C-110] Let $G$ be an $S$-group and $E$ a quasi-coherent `O_S`-module. To give $E$ a $G$-`O_S`-module
 structure (i.e. an `O_S`-linear action of $G$ on $W(E)$, cf. I 4.7.1) is equivalent to giving a morphism of $S$-functors
@@ -5061,7 +5061,7 @@ A_{i}$ and $C = \lim C_{i}$, it follows from Lemma 11.17.1 that $A$ is faithfull
 faithfully flat morphism. Since this morphism is affine, it is quasi-compact, hence covering for the (fpqc) topology.
 This completes the proof of Theorem 11.17. ∎
 
-### 11.18. Complements.
+### 11.18. Complements
 
 [^N.D.E-VI_B-C-134] Moreover, one deduces from 11.17 (and from its proof) the following results, taken from [DG70], III
 § 3.7. Let $k$ be a field. We begin with the following lemma (cf. [An73], 2.3.3.2), which will be useful later (cf.

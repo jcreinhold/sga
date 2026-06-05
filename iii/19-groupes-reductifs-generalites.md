@@ -864,10 +864,10 @@ T --α--> G_{m,S} ----> Aut_{S-gr.}(P).
 $L$ an `O_S`-module. Let*
 
 ```text
-p : W(L) → G          [^N.D.E-XIX-35]
+p : W(L) → G
 ```
 
-*be a morphism of $S$-group functors. One says that $p$ is* normalized by $T$ with multiplier $\alpha$ *if it satisfies
+*be a morphism of $S$-group functors[^N.D.E-XIX-35]. One says that $p$ is* normalized by $T$ with multiplier $\alpha$ *if it satisfies
 the following equivalent conditions:*
 
 *(i) $p$ is a morphism of objects with group of operators $T$, if one makes $T$ operate on $W(L)$ by $\alpha$ and on $G$

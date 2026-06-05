@@ -238,9 +238,9 @@ The 2011 SMF re-edition is modern LaTeX, so OCR is high quality. Most math symbo
   their indices. Recover from context.
 - **`Cb` instead of `Ĉ`.** Hat on category symbol drops. Restore.
 - **$(\ast)$ / $(\ast\ast)$ / $(\ast\ast\ast)$ for original footnote markers.** Render as
-  $[{}^{<}expos\acute{e}>-<sec>-<n>]$ slugs ($[{}^{I}-1-1]$, $[{}^{I}-1-2]$, …).
-- **`(N)` for N.D.E. footnote markers** (small Arabic digit in parentheses). Render as $[{}^{N}.D.E-<expos\acute{e}>-N]$
-  ($[{}^{N}.D.E-I-3]$, etc.) and translate the body of the note.
+  `[^<exposé>-<sec>-<n>]` slugs (`[^I-1-1]`, `[^I-1-2]`, …).
+- **`(N)` for N.D.E. footnote markers** (small Arabic digit in parentheses). Render as `[^N.D.E-<exposé>-<n>]`
+  (`[^N.D.E-I-3]`, etc.) and translate the body of the note.
 - **$\ddot{\imath}$ or `ı`** (dotless i with floating diacritic) — restore to `ï`.
 - **Backslash escapes** surviving from LaTeX: `\&` → `&`, `\#` → `#`.
 - **Arrows.** $-\to$ → $\to$, $7\to$ → $\mapsto$, $\sim=$ (often broken across lines) → $\cong$, `\sim\n\to` (OCR
@@ -253,8 +253,8 @@ The 2011 SMF re-edition is modern LaTeX, so OCR is high quality. Most math symbo
   coinage, in which case keep them as quotation marks in the translation too.
 - **Hat across line break** for formal completions: $Et( b / X)$ → $\hat{E}t(\hat{X})$. Same as SGA 2.
 - **Math run-ons.** Restore displayed equations as fenced ```` ```text ```` blocks.
-- **Embedded N.D.E. footnotes.** Source convention is $(N) N.D.E. : <text>$ at page bottom. Recover the whole footnote
-  (which may span lines) and translate as $[{}^{N}.D.E-<expos\acute{e}>-N]$.
+- **Embedded N.D.E. footnotes.** Source convention is `(N) N.D.E. : <text>` at page bottom. Recover the whole footnote
+  (which may span lines) and translate as `[^N.D.E-<exposé>-<n>]`.
 
 ## Style anchors (non-negotiable for cross-volume consistency)
 
@@ -271,8 +271,8 @@ Inherited from SGA 1 / SGA 2. Deviate only if the SGA 1/2 corpus is itself incon
   `**Proposition 3.1.2.** *Statement…*`. The label `<!-- label: III.<Roman>.X.Y -->` follows on the next line.
 - **Math.** Unicode math wrapped in backticks for inline. Displayed math in fenced ```` ```text ```` blocks. Numbered
   displayed equations get `<!-- label: eq:III.<Roman>.X.Y -->`.
-- **Footnotes.** Markdown $[{}^{slug}]$ syntax. Original footnotes: $[{}^{<}expos\acute{e}>-<sec>-<n>]$ (e.g.
-  $[{}^{I}-1-1]$). Editor footnotes: $[{}^{N}.D.E-<expos\acute{e}>-<n>]$ (e.g. $[{}^{N}.D.E-I-3]$).
+- **Footnotes.** Markdown `[^slug]` syntax. Original footnotes: `[^<exposé>-<sec>-<n>]` (e.g.
+  `[^I-1-1]`). Editor footnotes: `[^N.D.E-<exposé>-<n>]` (e.g. `[^N.D.E-I-3]`).
 - **Page marks.** `<!-- original page N -->` at page boundaries (page numbers from the 2011 re-edition).
 - **Cross-references.** Source's own convention: $(VI_{B}, 5.3)$, `(EGA III, 4.1.5)`, `(SGA 1, IV 3.8)`, `(Bible, XIV)`.
 - **Bibliographies.** Each Exposé's own bibliography section is preserved as `## Bibliography`, entries as a numbered

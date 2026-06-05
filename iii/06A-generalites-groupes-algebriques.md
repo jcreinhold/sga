@@ -17,7 +17,7 @@ finite type over $A$.
 
 <!-- label: III.VI_A.0 -->
 
-### 0.1.
+### 0.1
 
 Let us first consider a group scheme $G$ over an arbitrary scheme $S$. We call *multiplication* the structural morphism
 `µ : G ×_S G → G`, and *inversion* the morphism $c : G \to G$ defined by the equalities $c(T)(x) = x^{-1}$ (with $T$ a
@@ -33,7 +33,7 @@ and hence `µ` are flat morphisms; when $G$ is smooth over $S$, $pr_{2}$ and hen
 
 <!-- original page 288 -->
 
-### 0.2.
+### 0.2
 
 We assume from now on that $S$ is the spectrum of an Artinian local ring $A$ with residue field $k$. We denote by
 $(Sch/k)_{red}$ the category of reduced schemes over $k$. For every scheme $X$ over $A$, the reduced scheme $X_{red}$ is
@@ -68,7 +68,7 @@ We shall encounter groups of $(Sch/k)_{red}$ in what follows whenever we deal wi
 $U$ of an $A$-group $G$ such that $U \cdot U = U$ and $U^{-1} = U$: indeed, the reduced subscheme of $G$ defined by $U$
 is then a group of $(Sch/k)_{red}$.
 
-### 0.3.
+### 0.3
 
 An $A$-group $G$ is always separated, since the unit section $e : \operatorname{Spec} A \to G$ is a closed immersion.
 Indeed, let $x$ be the unique point of $\operatorname{Spec} A$ and $\eta$ the structural morphism $G \to
@@ -91,7 +91,7 @@ G ×_S G ─────────→ G
 
 <!-- original page 295 -->
 
-### 0.4.
+### 0.4
 
 [^N.D.E-VI_A-6] Let $G$ be an $A$-scheme. We shall say that a point $g$ of $G$ is *strictly rational over* $A$ if there
 exists an $A$-morphism $s : \operatorname{Spec} A \to G$ sending the unique point of $\operatorname{Spec} A$ to $g$,
@@ -171,7 +171,7 @@ u$. One concludes, as in the proof of 0.5, that $g$ belongs to $H \cdot H = H$, 
 We shall first see that, if $G$ is locally of finite type and flat over $A$, one can "make strictly rational any closed
 point of $G$" by means of a finite, flat extension of the base.
 
-### 1.1.
+### 1.1
 
 Unless explicit mention is made to the contrary, we assume from now on that $G$ is an $A$-group locally of finite type.
 When $A$ is a field $k$, we shall obtain in Exposé VII_B very precise results on the local rings of $G$.[^N.D.E-VI_A-10]
@@ -238,7 +238,7 @@ B_i ⊗_{A_1} A′ ↠ B′_i ⊗_{A_1} A′ ↠ A′,
 the second induced by the multiplication map $B'_{i} \otimes_{A_{1}} B'_{i} \twoheadrightarrow B'_{i}$. Consequently,
 $A'$ answers the question.
 
-### 1.3.
+### 1.3
 
 Let $e$ denote the unit element (or origin) of $G$, i.e. the image of the unique point of $\operatorname{Spec} A$ by the
 unit section $\operatorname{Spec} A \to G$. By definition itself, $e$ is strictly rational over $A$.
@@ -315,7 +315,7 @@ hyperplane $H$ of $\bar{k}^{4}$ with equation $\alpha dV + dX - dU - \alpha dY =
 
 <!-- original page 296 -->
 
-### 2.1.
+### 2.1
 
 Let us first consider an arbitrary $A$-group $G$, and let $G'$ be the connected component of the origin $e$ of $G$. This
 connected component is evidently closed, so that we may identify it with the reduced closed subscheme of $G$ having $G'$
@@ -402,14 +402,14 @@ There exists then an open neighborhood $U$ of $x$ such that $a$ and the $\xi^{\a
 \phi^{\alpha}(\tilde{a}) = 1$ on $U$ shows that $\tilde{a}_{y} \neq 0$ for every $y \in U$. ("The support of a
 projective module is open.")
 
-### 2.2.
+### 2.2
 
 The notations being still those of 2.1, it is clear that $G'$ is a reduced $k$-scheme. Lemma 2.1.2 shows that $G'
 \times_{k} G'$ is connected, so that $(G' \times_{k} G')_{red}$ is the reduced subscheme of $G \times_{A} G$ having as
 underlying space the connected component of the origin. In particular, the multiplication morphism `µ : G ×_A G → G`
 induces a morphism `µ′ : (G′ ×_k G′)_red → G′` that makes $G'$ a group in $(Sch/k)_{red}$.
 
-### 2.2.bis.
+### 2.2.bis
 
 [^N.D.E-VI_A-20] One recalls (cf. Exp. V) that, if $P$ is a scheme, one writes $P$ for the underlying topological space
 of $P$. Now one defines a sub-$A$-functor $G^{0}$ of $G$ by setting, for every $A$-scheme $S$,
@@ -429,7 +429,7 @@ by $G$ on this open set, which is therefore a group subscheme of $G$; we shall a
 with the notations of 2.1, one has $G' = (G^{0})_{red}$ and the topological spaces $G'$ and $G^{0}$
 coincide.[^N.D.E-VI_A-21]
 
-### 2.3.
+### 2.3
 
 In accordance with our conventions of 1.1, we again assume from now on that $G$ is locally of finite type over $A$. Then
 $G$ is locally noetherian, hence locally connected,[^N.D.E-VI_A-22] hence: every connected component of $G$ is open.
@@ -504,7 +504,7 @@ Finally, we have seen above that $C \otimes_{k} k'$ is a disjoint union of finit
 $C$ has the same dimension as $G^{0}$. (Moreover, by EGA IV_2, 5.2.1, one has $\dim_{g} G = \dim G^{0}$ for every point
 $g \in G$.)
 
-### 2.5.
+### 2.5
 
 This paragraph has been added. The results that follow appear in Exp. VI_B, but could (or should) have figured in VI_A,
 and it is useful to have them available from now on, in order to make precise Theorem 3.2 below.
@@ -728,7 +728,7 @@ quasi-compact, hence of finite type over $k$ (since $X$ is locally of finite typ
 Finally, since dimension is invariant under extension of the base field (cf. EGA IV_2, 4.1.4), $\dim C = \dim C'$, and
 since all the irreducible components of $X'$ have the same dimension, the same holds for those of $X$.
 
-### 2.6. Complements.
+### 2.6. Complements
 
 This paragraph has been added, drawn from [Per75] II, §§ 1–2, with complements due to O. Gabber.[^N.D.E-VI_A-31] This
 shows that the preceding results are valid for any group scheme $G$ over a field $k$. (This will be used in sections 5,
@@ -995,7 +995,7 @@ X \to X \times_{\mathbb{R}} X$ is not surjective. (But one has $L = \mathbb{C}$ 
 
 <!-- original page 302 -->
 
-### 3.1.
+### 3.1
 
 Let $A$ be an Artinian local ring and $u : F \to G$ a homomorphism of $A$-groups. If `µ : F ×_A F → F` and $\nu : G
 \times_{A} G \to G$ denote the multiplication morphisms and $\lambda$ the composite morphism
@@ -1035,7 +1035,7 @@ automorphisms $r_{s}$, $id_{F} \times_{A} r_{s}$ and $id_{F} \times_{A} id_{F} \
 again write $r_{s}$ for this automorphism of $G_{*}$, and we shall say that $r_{s}$ is the *right translation defined
 by* $s$ (cf. 0.4).
 
-### 3.2. Theorem.
+### 3.2. Theorem
 
 **Theorem 3.2.** *Let $F$ and $G$ be flat groups locally of finite type over an Artinian local ring $A$. Let $u : F \to
 G$ be a quasi-compact $A$-group homomorphism with kernel finite over $A$. Then:*[^N.D.E-VI_A-33]
@@ -1079,7 +1079,7 @@ is local, finite and free over `A_1`.
 
 We shall first prove the theorem when $F$ and $G$ are of finite type over $A$.
 
-#### 3.2.1.
+#### 3.2.1
 
 Suppose for a moment that every point of $G$ has an open saturated neighborhood $W$ such that the groupoid induced by
 $G_{*}$ on $W$ possesses a quasi-section (cf. V § 6). Then, by V 6.1, one has assertions (i), (ii), (iii) and (iv)(a),
@@ -1138,7 +1138,7 @@ consequently, one may apply the reasoning of Exp. V, 5.b (drawn from the proof o
 that $x'_{1}, \cdots, x'_{p}$ are contained in an affine saturated open $W'$ contained in the affine open $V' \cdot x$.
 The image of $W'$ in $X$ then contains $x_{1}, \cdots, x_{n}$ and is an affine open of $X$, by V, 4.1 (ii).
 
-#### 3.2.2.
+#### 3.2.2
 
 For every $A$-algebra $A'$ that is local, finite and free over $A$, let us now write $U(A')$ for the set of points of $G
 \otimes_{A} A'$ having an open saturated neighborhood $W$ such that the groupoid induced by $G_{*} \otimes_{A} A'$ on
@@ -1163,7 +1163,7 @@ dim(G′ − U(A′)) < dim(G − U(A)).
 The induction hypothesis then implies the existence of an algebra $A''$ local, finite and free over $A'$ such that one
 has $U(A'') = G' \otimes_{A'} A'' = G \otimes_{A} A''$.
 
-#### 3.2.3.
+#### 3.2.3
 
 We are now in a position to prove the existence of $F\backslash G$ when $F$ and $G$ are of finite type over $A$. Let
 $A'$ be large enough over $A$ so that $U(A')$ coincides with $G \otimes_{A} A'$ (cf. 3.2.2). We shall set $A'' = A'
@@ -1222,7 +1222,7 @@ is a descent datum on $F'\backslash G'$ relative to $f : \operatorname{Spec} A' 
 and SGA 1, VIII 7.6, this descent datum is effective, that is, $Coker(u_{1}, u_{2})$ exists (one could also use directly
 Theorem 4.1 of Exp. V).
 
-#### 3.2.4.
+#### 3.2.4
 
 To complete the proof of assertions (i), (ii), (iii) and (iv)(a) of 3.2 in the case where $F$ and $G$ are of finite type
 over $A$, it remains to study the quotient $F\backslash G$. By V 6.1, assertions (ii), (iii) and (iv)(a) "become true"
@@ -1233,7 +1233,7 @@ $F\backslash G$ is the cokernel of $(pr_{2}, \lambda)$ in the category of all ri
 
 <!-- original page 313 -->
 
-#### 3.2.5.
+#### 3.2.5
 
 [^N.D.E-VI_A-41] Let us now prove assertion (iv)(c) of 3.2, by reproducing the proof of VI_B, 9.2.1. Write $X =
 F\backslash G$, and $d$ for the morphism $F \times_{A} G \to G \times_{A} G$ with components $\lambda$ and $pr_{2}$.
@@ -1254,7 +1254,7 @@ F ×_A G ────────────→ G ×_A G
 and $p$, hence also $p \times p$, is faithfully flat and locally of finite presentation. So, by (fppf) descent, since
 $d$ is a closed immersion, the same holds for $\Delta_{X}$, i.e. $X$ is separated.
 
-### 3.3.
+### 3.3
 
 [^N.D.E-VI_A-42] In Theorem 3.2, the hypothesis that $G$ be flat can be removed when $u : F \to G$ is a monomorphism.
 This generalization is mentioned in Remark 9.3 b) of Exp. VI_B, and also in [Ray67a], Example a) i), p. 82. The proof,
@@ -1334,7 +1334,7 @@ topology, this follows from IV, 3.3.3.2.
 
 We now assume the hypotheses of Theorem 3.2 to be satisfied, $F$ and $G$ not necessarily being of finite type over $A$.
 
-### 4.1.
+### 4.1
 
 Let us first consider a connected component $G^{\alpha}$ of $G$ and show that the saturation
 $S(G^{\alpha})$[^N.D.E-VI_A-44] of $G^{\alpha}$ for the equivalence relation defined by the groupoid $G_{*}$ is an
@@ -1353,7 +1353,7 @@ this case, $S(G^{\alpha})$ is the union of the images of $G^{\alpha}$ under the 
 $x$ runs through the closed points of $F$; the assertion follows therefore from the fact that these images are connected
 components of $G$.
 
-### 4.2.
+### 4.2
 
 Let us in particular take $G^{\alpha}$ to be the connected component $G^{0}$ of the origin of $G$. Then $S(G^{0})$
 obviously contains the image of $F$ under $u$, which is none other than the equivalence class of the origin. On the
@@ -1374,7 +1374,7 @@ relation defined by the homomorphism $u \otimes_{A} \bar{k}$); if $G^{\gamma}$ a
 components of $S(G^{0})$, $G^{\gamma} \times_{A} G^{\delta}$ is connected and its image under $\nu$ meets the image of
 $F$; consequently, $u(G^{\gamma} \times_{A} G^{\delta})$ is contained in a connected component of $G$ meeting $u(F)$.
 
-### 4.3.
+### 4.3
 
 It follows from what precedes that the groupoid $G_{*}$ with base $G$ defined by $u$ is the direct sum of the groupoids
 $S(G^{\alpha})_{*}$ induced by $G_{*}$ on the various open-and-closed parts of $G$ of the form $S(G^{\alpha})$. The
@@ -1452,7 +1452,7 @@ $F^{0}\backslash G^{0}$ onto $F\backslash S(G^{0})$.
 We finally note that: the construction of $F\backslash S(G^{0})$ commutes with finite locally free base changes, because
 the same holds for $F^{0}\backslash G^{0}$ (cf. N.D.E. (37) and 4.6 below).
 
-### 4.4.
+### 4.4
 
 It remains to construct the cokernel of the groupoid $S(G^{\alpha})_{*}$ when $G^{\alpha}$ is an arbitrary connected
 component of $G$. If $A'$ is a large enough local, finite, free $A$-algebra (cf. 3.2), $G^{\alpha} \otimes_{A} A'$ is
@@ -1472,7 +1472,7 @@ construction of this cokernel commutes with finite locally free extensions
 of the base (cf. N.D.E. (37) and 4.6 below). One thus sees, as in 3.2.3, that this cokernel is of the form $Y
 \otimes_{A} A'$, where $Y$ is a cokernel of $S(G^{\alpha}_{*})$.
 
-### 4.5.
+### 4.5
 
 We have therefore constructed $F\backslash G$ and shown that it is a direct sum of schemes of finite type over $A$. The
 other assertions of Theorem 3.2 reduce directly to assertions concerning the groupoids $S(G^{\alpha}_{*})$. As in V § 6,
@@ -1484,7 +1484,7 @@ of $S(G^{0}_{*}) \otimes_{A} A'$ (cf. 4.4), so that one is reduced to the groupo
 
 For this last one continues to mimic the proof established in V § 6, as one began to do in 4.3.
 
-### 4.6.
+### 4.6
 
 Let us add to conclude this paragraph some remarks concerning Lemma 6.1 and § 9.a of Exposé V: with the hypotheses and
 notations of V § 9.a, we seek a condition under which the construction of the cokernel of the $(Sch/S)$-groupoid $X_{*}$
@@ -1529,7 +1529,7 @@ $X_{*}$ has locally quasi-sections.*
 
 <!-- label: III.VI_A.4.6.1 -->
 
-### 4.7.
+### 4.7
 
 Let us now consider the case of the groupoid $G_{*}$ of Theorem 3.2 when one provisionally assumes $F$ and $G$ of finite
 type over $A$.
@@ -1567,7 +1567,7 @@ therefore obtains:[^N.D.E-VI_A-48]
 
 <!-- original page 314 -->
 
-### 5.1.
+### 5.1
 
 [^N.D.E-VI_A-49] We resume the notations of § 3 and the hypotheses of Theorem 3.2; one then has the following
 commutative diagram
@@ -1604,7 +1604,7 @@ of ringed spaces, this fiber has $u(F)$ as underlying space, and since $Ker(u)$ 
 `dim H = dim u(F) = dim F`. By 2.5.4 (ii), one obtains therefore that `dim X = dim G − dim F`. This proves point (ii′)
 of Theorem 3.2 (and hence also point (iv) of 3.3.2).
 
-### 5.2.
+### 5.2
 
 When the homomorphism of $A$-groups $u : F \to G$ is a monomorphism, one can recover 5.1 by using the results of Exposé
 IV. Indeed, the canonical morphism $p : G \to F\backslash G$ is faithfully flat and open by 3.2; it is therefore
@@ -1616,11 +1616,11 @@ In particular, if we assume, in addition to the hypotheses of 3.2, that $u$ is t
 $F$, there exists on $F\backslash G$ one and only one $A$-group structure such that the canonical morphism $p : G \to
 F\backslash G$ is a homomorphism of $A$-groups.[^N.D.E-VI_A-51] This proves point (v) of 3.3.2.
 
-### 5.3.
+### 5.3
 
 We shall now review some statements from Exposé IV.
 
-#### 5.3.1.
+#### 5.3.1
 
 Statements IV 5.2.7 and IV 5.3.1 translate as follows. Let $F$ and $G$ be two groups locally of finite type and flat
 over $A$, $F$ being a closed normal subgroup of $G$. The maps $H \mapsto F\backslash H$ and $H' \mapsto H'
@@ -1628,7 +1628,7 @@ over $A$, $F$ being a closed normal subgroup of $G$. The maps $H \mapsto F\backs
 $A$-subgroups of $F\backslash G$. In this bijection, closed (resp. normal) subgroups of $G$ containing $F$ correspond to
 closed (resp. normal) subgroups of $F\backslash G$.[^N.D.E-VI_A-52]
 
-#### 5.3.2.
+#### 5.3.2
 
 Proposition IV 5.2.9 implies the following result. Let $F$, $H$ and $G$ be groups locally of finite type and flat over
 $A$; assume $F \subset H \subset G$, with $F$ closed in $G$ and normal in $H$. Under these conditions, $F\backslash H$
@@ -1637,7 +1637,7 @@ canonical isomorphism of schemes with operator group $G$:
 
 $$ (F\backslash H) \ (F\backslash G) = H\backslash G. $$
 
-#### 5.3.3.
+#### 5.3.3
 
 From IV 5.2.8, finally, follows the assertion below. Let $F$, $H$ and $G$ be groups locally of finite type and flat over
 $A$; assume that $F$ is contained in, closed and normal
@@ -1651,10 +1651,10 @@ h), (y, h')) \mapsto (xhyh^{-1}, hh')$; similarly, let $u : H \cap F \to F \time
 canonical isomorphism
 
 ```text
-F\(F · H) = (F ∩ H)\backslash H.
+F\backslash(F · H) = (F ∩ H)\backslash H.
 ```
 
-### 5.4.
+### 5.4
 
 [^N.D.E-VI_A-53] Let $u : G \to H$ be a quasi-compact morphism between $A$-groups locally of finite type, such that the
 kernel $N$ of $u$ is flat over $A$. In this case, by 3.3.2 and 5.2, the quotient $A$-group $C = N\backslash G$ exists
@@ -1720,7 +1720,7 @@ using formal groups.
 
 <!-- original page 317 -->
 
-### 5.5.
+### 5.5
 
 Let $G$ be a group locally of finite type and flat over an Artinian local ring $A$. We know (2.3) that the connected
 component of the origin $G^{0}$ is a normal open group subscheme of $G$, hence also flat over $A$. Then, by 3.2 and 5.2,
@@ -1742,7 +1742,7 @@ finite.*
 
 <!-- label: III.VI_A.5.5.1 -->
 
-### 5.6.
+### 5.6
 
 Let $k$ be a perfect field and $G$ a $k$-group locally of finite type. We have seen (0.2) that $G_{red}$ is then a group
 subscheme of $G$. Moreover, the equivalence class of the origin of $G$ under the left action of $G_{red}$ on $G$ is the
@@ -2006,7 +2006,7 @@ Mém. Soc. Math. France **33** (1973), 5–79.
 **[DG70]** M. Demazure, P. Gabriel, *Groupes algébriques*, Masson & North-Holland, 1970.
 
 **[Per75]** D. Perrin, *Schémas en groupes quasi-compacts sur un corps*, Publ. Math. Orsay N° 165–75.46 (1ère partie),
-http://portail.mathdoc.fr/PMO/
+<http://portail.mathdoc.fr/PMO/>
 
 **[Per76]** D. Perrin, *Approximation des schémas en groupes, quasi-compacts sur un corps*, Bull. Soc. Math. France
 **104** (1976), 323–335.

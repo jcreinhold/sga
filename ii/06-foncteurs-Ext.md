@@ -14,7 +14,7 @@ one is the sheafified version, and is rendered `ℰxt^i_Z(F, G)`. -->
 
 <!-- label: VI.1 -->
 
-### 1.1.
+### 1.1
 
 <!-- label: VI.1.1 -->
 
@@ -49,7 +49,7 @@ Ext^•_X(X; F, G) ≃ Ext^•_V(V; F|V, G|V).
 Indeed, if $G^{\bullet}$ is an injective resolution of $G$, then $G^{\bullet}|V$ is an injective resolution of $G|V$.
 The theorem follows immediately.
 
-### 1.4.
+### 1.4
 
 <!-- label: VI.1.4 -->
 
@@ -90,7 +90,7 @@ It follows in particular from (1.4.2) that there is a $\partial$-functorial isom
 foot of page 73 and the section heading 1.5 at the top of page 74; the running
 header on page 74 is the Exposé title, which we omit. -->
 
-### 1.5.
+### 1.5
 
 <!-- label: VI.1.5 -->
 
@@ -129,7 +129,7 @@ $$ Ext^{p}_{\mathcal{O}_{X}}(X; F, \mathcal{H}^{q}_{Z}(G)). $$
 
 <!-- label: eq:VI.1.6.3 -->
 
-### 1.7.
+### 1.7
 
 <!-- label: VI.1.7 -->
 
@@ -194,7 +194,7 @@ initial term $\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(F, \mathcal{H}^{q}_{Z}(G))$. B
 $\mathcal{H}^{q}_{Z}(G)$ are quasi-coherent, and so are the $\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(F,
 \mathcal{H}^{q}_{Z}(G))$, since $F$ is coherent. The proposition follows immediately.
 
-### 2.2.
+### 2.2
 
 <!-- label: VI.2.2 -->
 

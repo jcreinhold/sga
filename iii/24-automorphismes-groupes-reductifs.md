@@ -45,7 +45,7 @@ under $G_{m, S}$ is representable and locally trivial", an assertion equivalent 
 
 <!-- label: III.XXIV.1 -->
 
-### 1.0.
+### 1.0
 
 <!-- label: III.XXIV.1.0 -->
 
@@ -93,7 +93,7 @@ shall moreover see in the next Exposé that it is an equivalence of categories).
 of automorphisms of $(G, R, E)$ is canonically isomorphic to the group of automorphisms of the pinned root datum $R$
 (cf. Exp. XXIII, 5.5).
 
-### 1.1.
+### 1.1
 
 <!-- label: III.XXIV.1.1 -->
 
@@ -123,7 +123,7 @@ automorphisms* of $G$. One thus has an exact sequence
 
 The preceding definitions are all compatible with base change. They are naturally valid in any site.
 
-### 1.2.
+### 1.2
 
 <!-- label: III.XXIV.1.2 -->
 
@@ -202,7 +202,7 @@ automorphism $u$ of $G$ over $S$ transforming one pinning into the other (i.e. s
 
 <!-- label: III.XXIV.1.5 -->
 
-#### 1.5.1. Uniqueness.
+#### 1.5.1. Uniqueness
 
 It suffices to prove that if $G$ is a pinned $S$-group and if $int(g)$ is an automorphism of pinned group ($g \in
 G(S)$), then $int(g) = id$. Now one has first $int(g) T = T$, $int(g) B = B$, so $g \in Norm_{G}(T)(S) \cap
@@ -216,7 +216,7 @@ Lie(int(g)) X_α = Ad(g) X_α = α(g) X_α
 for every $\alpha \in \Delta$. One thus has $\alpha(g) = 1$ for $\alpha \in \Delta$, so $g \in \bigcap_{\alpha \in
 \Delta} (Ker \alpha)(S) = Centr(G)(S)$ (Exp. XXII, 4.1.8). QED
 
-#### 1.5.2. Existence.
+#### 1.5.2. Existence
 
 It suffices to prove this locally for the (fpqc) topology. Let
 
@@ -819,7 +819,7 @@ $$ 1 \to ad(G) \to H \to F \to 1, $$
 
 <!-- label: III.XXIV.3 -->
 
-### 3.1.
+### 3.1
 
 <!-- label: III.XXIV.3.1 -->
 
@@ -827,7 +827,7 @@ Recall (Exp. XXI, 7.4.1) that a *Dynkin diagram* is a finite set endowed with th
 distinct elements (*bonds*) and a map to `{1, 2, 3}` (*lengths*). To each pinned reduced root datum $R$ is associated a
 Dynkin diagram $\Delta(R)$, whose underlying set is the set of simple roots.
 
-### 3.2.
+### 3.2
 
 <!-- label: III.XXIV.3.2 -->
 
@@ -843,7 +843,7 @@ Dynkin scheme associated to a Dynkin diagram.
 
 Every descent datum on a Dynkin scheme for the étale topology is effective.
 
-### 3.3.
+### 3.3
 
 <!-- label: III.XXIV.3.3 -->
 
@@ -857,7 +857,7 @@ group, there exists a covering family for the étale topology ${S_{i} \to S}$ su
 Arguing as previously, one therefore has a canonical descent datum on the $Dyn(G_{S_{i}})$, allowing one to construct by
 descent an $S$-Dynkin scheme $Dyn(G)$.
 
-### 3.4.
+### 3.4
 
 <!-- label: III.XXIV.3.4 -->
 
@@ -878,7 +878,7 @@ $$ Dyn(G) \simeq \Delta_{S}. $$
 
 (iv) If $u$ is an inner automorphism of $G$, $Dyn(u)$ is the identity automorphism of $Dyn(G)$.
 
-### 3.5.
+### 3.5
 
 <!-- label: III.XXIV.3.5 -->
 
@@ -904,7 +904,7 @@ Isomext(G, G') → Isom_{Dyn}(Dyn(G), Dyn(G'));
 
 in particular, if $G'$ is an inner twisted form of $G$ (1.11), the Dynkin schemes $Dyn(G)$ and $Dyn(G')$ are isomorphic.
 
-### 3.6.
+### 3.6
 
 <!-- label: III.XXIV.3.6 -->
 
@@ -922,7 +922,7 @@ result for pinned reduced root data (cf. Exp. XXI, 7.4.5).
 One has an analogous result for `Isom`'s; whence it follows in particular that two semisimple adjoint (resp. simply
 connected) $S$-groups are inner twisted forms of each other if and only if their Dynkin schemes are isomorphic.
 
-### 3.7.
+### 3.7
 
 <!-- label: III.XXIV.3.7 -->
 
@@ -939,7 +939,7 @@ under $A_{S}(R)$. The bundle under $\operatorname{Aut}_{Dyn}(\Delta(R)_{S})$ ass
 $\Delta(R)_{S}$: this is $Dyn(G)$; in other words, this associated bundle is none other than
 `Isom_{Dyn}(Δ(R)_S, Dyn(G))`. In this last form, the proof is immediate.
 
-### 3.8. Dynkin scheme and Killing couples.
+### 3.8. Dynkin scheme and Killing couples
 
 <!-- label: III.XXIV.3.8 -->
 
@@ -973,7 +973,7 @@ D = ⨿_{α ∈ Δ} S_α,
 where each $S_{\alpha}$ is a copy of $S$, and $g_{D}$ is then the `O_D`-module which induces $g_{\alpha}$ on
 $S_{\alpha}$, for every $\alpha \in \Delta$.
 
-### 3.9. Quasi-pinnings. Quasi-pinned groups.
+### 3.9. Quasi-pinnings. Quasi-pinned groups
 
 <!-- label: III.XXIV.3.9 -->
 
@@ -1016,7 +1016,7 @@ the "scheme of Borel subgroups containing $T$", which is finite and étale over 
 
 <!-- label: III.XXIV.3.9.3 -->
 
-### 3.10.
+### 3.10
 
 <!-- label: III.XXIV.3.10 -->
 
@@ -1074,11 +1074,11 @@ rev ╲        ╱ i
 We shall describe below these three functors, leaving to the reader the task of verifying the commutativity of the
 diagram.[^N.D.E-XXIV-19]
 
-#### 3.11.1. The functor $i$.
+#### 3.11.1. The functor $i$
 
 It is the obvious functor: $i(G) = G$, $i(f) =$ image of $f$ under the isomorphism of 3.10 (\*).
 
-#### 3.11.2. The functor `qép`.
+#### 3.11.2. The functor `qép`
 
 Let $S'$ be a principal Galois covering of $S$ with group $E$. Let $(G, T, M, R, \Delta, (X_{\alpha})_{\alpha \in
 \Delta})$ be a pinning of $G = \acute{E}p_{S}(R)$ and $(X'_{\alpha})_{\alpha \in \Delta}$ the corresponding pinning of
@@ -1100,7 +1100,7 @@ $$ q\acute{e}p(S') = Q-\acute{E}p_{S'/S}(R) $$
 
 for the quasi-pinned $S$-group obtained by Galois descent.[^N.D.E-XXIV-21]
 
-#### 3.11.3. The functor `rev`.
+#### 3.11.3. The functor `rev`
 
 Let $G$ be an $S$-reductive group of type $R$. One writes
 
@@ -1180,15 +1180,15 @@ isomorphism.*
 
 Indeed, one may assume $G$ of constant type $R$, and one takes $G_{q-\acute{e}p.} = Q-\acute{E}p_{rev(G)/S}(R)$.
 
-#### 3.12.1.
+#### 3.12.1
 
 <!-- label: III.XXIV.3.12.1 -->
 
 Note that the datum of the pair $(G_{q-\acute{e}p.}, u)$ allows one to define canonically the $S$-scheme (cf. 1.11)
 
-$$ Q = Isomint(G_{q-\acute{e}p.}, G),[{}^{N}.D.E-XXIV-23] $$
+$$ Q = Isomint(G_{q-\acute{e}p.}, G), $$
 
-which is a principal homogeneous bundle under $ad(G_{q-\acute{e}p.})$, and whose datum "is equivalent" to that of the
+which is a principal homogeneous bundle[^N.D.E-XXIV-23] under $ad(G_{q-\acute{e}p.})$, and whose datum "is equivalent" to that of the
 inner twisted form $G$ of $G_{q-\acute{e}p.}$. Moreover, $Q$ is none other than the "scheme of quasi-pinnings of $G$", a
 definition which accounts for its structure of principal homogeneous bundle (on the left) under $ad(G)$ (3.10) — compare
 with 1.20.
@@ -1285,7 +1285,7 @@ of $G'$ defined in 3.9.
 
 <!-- label: III.XXIV.3.16 -->
 
-#### 3.16.1.
+#### 3.16.1
 
 <!-- label: III.XXIV.3.16.1 -->
 
@@ -1481,7 +1481,7 @@ finite surjective étale such that $P_{S''}$ is trivial (or $G_{S''}$ split).
 
 <!-- label: III.XXIV.4.1.3 -->
 
-#### 4.1.4.
+#### 4.1.4
 
 <!-- label: III.XXIV.4.1.4 -->
 
@@ -1598,7 +1598,7 @@ semi-local) and $P / G$ isotrivial, so trivialized by a finite surjective étale
 base to $S'$, one may reduce the structure group of $P_{S'}$ to $G_{S'}$. But $S'$ is still semi-local and $G_{S'}$
 semisimple of constant type, so the obtained bundle is isotrivial (4.2.2).
 
-### 4.3. Proof: general case.
+### 4.3. Proof: general case
 
 <!-- label: III.XXIV.4.3 -->
 
@@ -1609,7 +1609,7 @@ $$ 1 \to d\acute{e}r(G) \to G \to corad(G) \to 1. $$
 Let us therefore prove (i). If $G$ is split, $rad(G)$ and $corad(G)$ are split, as is $rev(G)$; so (a) implies (b),
 (b'), and (c).
 
-#### 4.3.1.
+#### 4.3.1
 
 <!-- label: III.XXIV.4.3.1 -->
 
@@ -1620,7 +1620,7 @@ $$ 1 \to ad(\acute{E}p_{S}(R)) \to A_{S}(R) \to E_{S} \to 1. $$
 Applying 4.2.4 to the bundle $P = Isom_{S-gr.}(\acute{E}p_{S}(R), G)$ and to the associated bundle $rev(G) = P /
 ad(\acute{E}p_{S}(R))$, one has (c) ⇒ (a).
 
-#### 4.3.2.
+#### 4.3.2
 
 <!-- label: III.XXIV.4.3.2 -->
 
@@ -1632,7 +1632,7 @@ One knows (2.16) that this category is equivalent to the category of principal h
 $S$-group $H$ extension of a finite twisted constant group by a semisimple group. It suffices to prove that every
 principal bundle under $H$ is semi-locally isotrivial; this follows at once from 4.2.4.
 
-#### 4.3.3.
+#### 4.3.3
 
 <!-- label: III.XXIV.4.3.3 -->
 
@@ -1640,14 +1640,14 @@ One has (b') ⇒ (a). One can argue as previously (it will moreover be the same 
 that (b) and (b') are equivalent: a torus isogenous to a locally split torus is also locally split (cf. Exp. IX, 2.11
 (iii)).
 
-#### 4.3.4.
+#### 4.3.4
 
 <!-- label: III.XXIV.4.3.4 -->
 
 One has (d) ⇒ (a). It suffices to prove that a group of constant type possessing a split maximal torus is semi-locally
 isotrivial; this follows at once from 2.14.
 
-#### 4.3.5.
+#### 4.3.5
 
 <!-- label: III.XXIV.4.3.5 -->
 
@@ -1871,7 +1871,7 @@ adjoint (resp. simply connected) groups. So as not to overburden the exposition 
 and the details are left to the reader; in fact it is always a matter of absolutely standard proofs in the theory of
 principal bundles: reduction of the structure group, twisting, etc.
 
-### 5.1.
+### 5.1
 
 <!-- label: III.XXIV.5.1 -->
 
@@ -1889,7 +1889,7 @@ $$ a : D_{0} \to T $$
 
 be the obvious map. The type of $D$ is none other than $\sum_{x \in D_{0}} a(x)$.
 
-### 5.2.
+### 5.2
 
 <!-- label: III.XXIV.5.2 -->
 
@@ -1913,7 +1913,7 @@ D = ⨿_{t ∈ T} D_t.
 
 Note that the degree of $D_{0, t}$ at $s \in S$ is $n(s, t)$, if the type of $D$ at $s$ is $\sum_{t} n(s, t) \cdot t$.
 
-### 5.3.
+### 5.3
 
 <!-- label: III.XXIV.5.3 -->
 
@@ -1929,7 +1929,7 @@ that $R$ or $G$ is *simple of type $t$* (resp. *isotypic of type $t$*) if its ty
 If $G$ is a semisimple adjoint group, we shall use the symbols $Dyn_{0}(G)$ and $Dyn_{0, t}(G)$ in the sense defined in
 5.2.
 
-### 5.4.
+### 5.4
 
 <!-- label: III.XXIV.5.4 -->
 
@@ -1998,7 +1998,7 @@ largest reductive subgroup of $G$ invariant (and moreover characteristic) and is
 The preceding proposition allows one to reduce the study of semisimple adjoint groups to that of isotypic semisimple
 adjoint groups. It is this study that we shall now undertake.
 
-### 5.8.
+### 5.8
 
 <!-- label: III.XXIV.5.8 -->
 
@@ -2316,7 +2316,7 @@ subgroups of semisimple groups.[^N.D.E-XXIV-31]
 
 <!-- label: III.XXIV.7.1 -->
 
-#### 7.1.1.
+#### 7.1.1
 
 <!-- label: III.XXIV.7.1.1 -->
 
@@ -2458,7 +2458,7 @@ f_α(α(t) u_α) f_α(α(t') u_α) = (f_T(t) f_α(u_α) f_T(t)^{-1}) · (f_T(t')
 One therefore has $f_{\alpha}(x + x') = f_{\alpha}(x) f_{\alpha}(x')$, whenever $x$ and $x'$ are sections of the open
 subset $U^{\times}_{\alpha}$ of $U_{\alpha}$, which is schematically dense; one concludes then by Exp. XVIII, 1.4.
 
-#### 7.1.5.
+#### 7.1.5
 
 <!-- label: III.XXIV.7.1.5 -->
 
@@ -2481,7 +2481,7 @@ R ⇉^{b ∘ i_1}_{b ∘ i_2} H,
 it is necessary and sufficient that $K = R$. Now $H$ is assumed separated over $S$, so $K$ is a closed subscheme of $R$.
 Recall, on the other hand, that $R$ is essentially free over $S$ (7.1.3).
 
-#### 7.1.6.
+#### 7.1.6
 
 <!-- label: III.XXIV.7.1.6 -->
 
@@ -2497,7 +2497,7 @@ Up to replacing $S$ by this closed subscheme, one may therefore assume that ther
 U_{\alpha} \to H$ verifying the conditions of 7.1.4 (i). Taking the intersection of the subschemes of $S$ obtained for
 each $\alpha \in \Delta$, one may assume this condition verified for every $\alpha \in \Delta$.
 
-#### 7.1.7.
+#### 7.1.7
 
 <!-- label: III.XXIV.7.1.7 -->
 
@@ -2514,7 +2514,7 @@ replacing $S$ by a closed subscheme, one may assume that for every $\alpha \in \
 f_T ∘ int(w_α) = int(h_α) ∘ f_T.
 ```
 
-#### 7.1.8.
+#### 7.1.8
 
 <!-- label: III.XXIV.7.1.8 -->
 
@@ -2702,7 +2702,7 @@ I, 5.3.1, one deduces $H^{i}(G, V) = 0$ for $i > 0$.
 
 <!-- label: III.XXIV.7.3.3 -->
 
-#### 7.3.4.
+#### 7.3.4
 
 <!-- label: III.XXIV.7.3.4 -->
 
@@ -2737,7 +2737,7 @@ $S$-schemes":
 
 so $u$ is a closed immersion, hence $\operatorname{Hom}_{S-gr.}(G, H)$ is affine over $S$.
 
-#### 7.3.5.
+#### 7.3.5
 
 <!-- label: III.XXIV.7.3.5 -->
 
@@ -2800,7 +2800,7 @@ By way of example, we shall determine
 Hom_{S-gr.}(SL_{2, S}, SL_{2, S}).
 ```
 
-#### 7.4.1.
+#### 7.4.1
 
 <!-- label: III.XXIV.7.4.1 -->
 
@@ -2835,7 +2835,7 @@ w² = α^*(−1),
 (w u)³ = 1.
 ```
 
-#### 7.4.2.
+#### 7.4.2
 
 <!-- label: III.XXIV.7.4.2 -->
 
@@ -2855,7 +2855,7 @@ a section $g$ of $G$ such that $f \circ \alpha^{*}(z) = int(g) \circ \alpha^{*}(
 one is therefore reduced to the case where there exists an $n \in \mathbb{N}$ such that $f \circ \alpha^{*}(z) =
 \alpha^{*}(z^{n})$.
 
-#### 7.4.3.
+#### 7.4.3
 
 <!-- label: III.XXIV.7.4.3 -->
 
@@ -2889,7 +2889,7 @@ f ∘ α^*(z) = α^*(z^n),    f ∘ p(x) = p(x^n).
 
 <!-- original page 268 -->
 
-#### 7.4.4.
+#### 7.4.4
 
 <!-- label: III.XXIV.7.4.4 -->
 
@@ -2902,7 +2902,7 @@ f( a b ) = ( a^n b^n )
   ( c d )   ( c^n d^n ).
 ```
 
-#### 7.4.5.
+#### 7.4.5
 
 <!-- label: III.XXIV.7.4.5 -->
 
@@ -2918,7 +2918,7 @@ F_n( a b ) = ( a^n b^n )
 Note that if $f = \phi \circ F_{n}$, the integer $n$ is well determined by a fiber $f_{s}$ of $f$, for example by
 $Ker(f_{s})$. It follows that $n$ is a locally constant function on $S$.
 
-#### 7.4.6.
+#### 7.4.6
 
 <!-- label: III.XXIV.7.4.6 -->
 
@@ -2933,7 +2933,7 @@ that:
 (iii) $S_{p^{n}}$ is of characteristic $p$ and $f_{S_{p^{n}}}$ decomposes uniquely in the form $\phi \circ F^{n}_{p}$,
 where $\phi$ is an inner automorphism and $F_{p}$ the Frobenius endomorphism of $SL_{2, F_{p}}$.
 
-#### 7.4.7.
+#### 7.4.7
 
 <!-- label: III.XXIV.7.4.7 -->
 
@@ -2946,7 +2946,7 @@ In other words, $\operatorname{Hom}_{\mathbb{Z}-gr.}(SL_{2, \mathbb{Z}}, SL_{2, 
 (iii) for each prime number $p$ and each integer $n > 0$, of a scheme isomorphic to
 $\operatorname{Aut}_{F_{p}-gr.}(SL_{2, F_{p}}) \simeq ad(SL_{2, F_{p}})$.
 
-#### 7.4.8.
+#### 7.4.8
 
 <!-- label: III.XXIV.7.4.8 -->
 
@@ -2988,7 +2988,7 @@ Fib(S, G) → Fib(κ(s), G_s)
 
 <!-- label: III.XXIV.8.1 -->
 
-#### 8.1.2.
+#### 8.1.2
 
 <!-- label: III.XXIV.8.1.2 -->
 
@@ -3007,7 +3007,7 @@ By virtue of the descent hypothesis made on $G$, $P$ is representable (SGA 1, VI
 
 <!-- original page 270 -->
 
-#### 8.1.3.
+#### 8.1.3
 
 <!-- label: III.XXIV.8.1.3 -->
 
@@ -3016,7 +3016,7 @@ Consider the $S$-group sheaf `H = Isom_{G\text{-bundles}}(P, Q)`; since $H_{S'}$
 representable, by the second hypothesis on $G$, cf. above. If $H(\kappa(s)) \neq \emptyset$, then $H(S) \neq \emptyset$
 by Hensel's lemma, so $P$ and $Q$ are isomorphic.
 
-#### 8.1.4.
+#### 8.1.4
 
 <!-- label: III.XXIV.8.1.4 -->
 
@@ -3038,7 +3038,7 @@ $$ Z^{1}(S) \to Z^{1}(\kappa(s)); $$
 
 by a further application of Hensel's lemma, it suffices to prove that $Z^{1}$ is representable by a smooth $S$-scheme.
 
-#### 8.1.5.
+#### 8.1.5
 
 <!-- label: III.XXIV.8.1.5 -->
 
@@ -3062,7 +3062,7 @@ $$ C_{i} = \operatorname{Hom}_{S}((S'/S)^{i+1}, G). $$
 Since $Z^{1}$ is obtained from `C_1` and `C_2` by fibered products, it suffices to prove that $C_{i}$, $i = 1, 2$, is
 representable by an $S$-scheme locally of finite presentation.
 
-#### 8.1.6.
+#### 8.1.6
 
 <!-- label: III.XXIV.8.1.6 -->
 
@@ -3076,7 +3076,7 @@ is representable by a product of $n$ copies of `G_T`, where $n$ is the degree of
 hypothesis on $G$, one deduces that $C_{i}$ is indeed representable by an $S$-scheme locally of finite presentation (SGA
 1, VIII, *loc. cit.*).
 
-#### 8.1.7.
+#### 8.1.7
 
 <!-- label: III.XXIV.8.1.7 -->
 

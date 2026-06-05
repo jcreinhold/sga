@@ -122,7 +122,7 @@ Algebras $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$. Since $f_{*}(\mathcal{O}_{X}) 
 $f_{*}(\mathcal{B}) = \mathcal{A}$, so $\mathcal{A}$ is a sum of two Algebras, also nonzero because their unit sections
 are nonzero, namely $f_{*}(\mathcal{B}_{1})$ and $f_{*}(\mathcal{B}_{2})$.
 
-### 1.6.
+### 1.6
 
 <!-- label: X.I.6 -->
 
@@ -476,7 +476,7 @@ how to prove by purely algebraic methods, apart from the weak finiteness theorem
 Lang and Serre [X.2], seems to be the determination of the abelianized fundamental group via the Jacobian, mentioned at
 the end of IX.5.8.
 
-### 2.8.
+### 2.8
 
 <!-- label: X.2.8 -->
 

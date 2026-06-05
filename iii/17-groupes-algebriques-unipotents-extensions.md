@@ -2778,7 +2778,7 @@ $G'$ is smooth.
 
 <!-- original page 627 -->
 
-### C.1.
+### C.1
 
 <!-- label: III.XVII.C.1 -->
 
@@ -2807,7 +2807,7 @@ largest affine quotient of $G$.*
 separated over $S$. In particular, an $S$-group scheme $G$, flat, of finite type, separated, with affine generic fiber,
 is affine.*
 
-### C.3.
+### C.3
 
 <!-- label: III.XVII.C.3 -->
 
@@ -2844,7 +2844,7 @@ equivalent:*
 *(ii) For every $S$-prescheme $S'$ and for every $S'$-prescheme in groups $H'$, of finite presentation over $S'$,
 separated over $S'$, every $S'$-monomorphism $u : G_{S'} \to H'$ is an immersion.*
 
-### C.5.
+### C.5
 
 <!-- label: III.XVII.C.5 -->
 

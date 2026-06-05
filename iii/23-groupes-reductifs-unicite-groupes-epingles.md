@@ -45,7 +45,7 @@ satisfied[^N.D.E-XXIII-1]).
 
 Every split group admits a pinning; in particular, every reductive group is locally pinnable for the étale topology.
 
-### 1.2.
+### 1.2
 
 <!-- label: III.XXIII.1.2 -->
 
@@ -110,7 +110,7 @@ f(exp_α(X_α)) = exp_{d(α)}(X'_{d(α)}),    i.e.    f(u_α) = u'_{d(α)}.
 
 <!-- original page 178 source / page 179 source — heading transition -->
 
-### 1.4.
+### 1.4
 
 <!-- label: III.XXIII.1.4 -->
 
@@ -132,7 +132,7 @@ Recall (Exp. XXII, 4.2) that, for every $\alpha \in R$ and all $z \in G_{m}(S')$
 f(α^*(z)) = d(α)^*(z)^{q(α)} = d(α)^*(z^{q(α)}),    d(α)(f(t)) = α(t)^{q(α)}.
 ```
 
-### 1.5.
+### 1.5
 
 <!-- label: III.XXIII.1.5 -->
 
@@ -848,7 +848,7 @@ second too (take $n = w_{\alpha}$ and apply 2.3.2); if $\gamma \in R^{+}_{\alpha
 there exists $n \in Norm_{Z_{\alpha \beta}}(T)(S)$ such that $n(t) = \alpha$ or $\beta$; one then applies (iii) and
 conditions (5) and (6) and has proved (ii).
 
-### 2.3.6.
+### 2.3.6
 
 <!-- label: III.XXIII.2.3.6 -->
 
@@ -922,7 +922,7 @@ Ad(w'_{d(α)}) X'_{d(β)} = z^{q(β)} X'_{d(s_α(β))}.
 f(exp(x X_α)) = exp(x^{q(α)} X'_{d(α)})
 ```
 
-*for every $x \in G_{a}(S')$, \`S' → S.*
+*for every $x \in G_{a}(S')$, $S' \to S$.*
 
 *Then there exists a morphism of pinned groups $g : G \to G'$ such that $R(g) = h$.*
 
@@ -1085,7 +1085,7 @@ Indeed, by assertion (ii) of the lemma, $w_{\alpha} w_{\beta} = w_{\beta} w_{\al
 w_{\beta})^{2} = w^{2}_{\alpha} w^{2}_{\beta} = t_{\alpha} t_{\beta}$, which is (i). By assertion (ii) of the lemma, one
 has also (ii); finally, (iii) is assertion (i) of the lemma.
 
-### 3.1.3.
+### 3.1.3
 
 <!-- label: III.XXIII.3.1.3 -->
 
@@ -1126,7 +1126,7 @@ p_β(y) p_α(x) = p_α(x) p_β(y) p_{α + β}(x y).
 
 <!-- label: III.XXIII.3.2.1 -->
 
-### 3.2.2.
+### 3.2.2
 
 <!-- label: III.XXIII.3.2.2 -->
 
@@ -1161,7 +1161,7 @@ To prove (ii) and (iii), it therefore remains to show that $A = -z = 1$.
 
 <!-- original page 289 -->
 
-### 3.2.3.
+### 3.2.3
 
 <!-- label: III.XXIII.3.2.3 -->
 
@@ -1171,7 +1171,7 @@ Make $int(w_{\beta})$ act on the preceding formula (+); one obtains:
 p_{-β}(-y) p_{α + β}(x) = p_{α + β}(x) p_{-β}(-y) p_α(-A x y).            (++)
 ```
 
-### 3.2.4.
+### 3.2.4
 
 <!-- label: III.XXIII.3.2.4 -->
 
@@ -1213,7 +1213,7 @@ p_α(x) p_{α + β}(A x) = p_α(A x) p_{α + β}(x),
 
 which gives (by XXII 4.1.3) $A = 1$.
 
-### 3.2.5.
+### 3.2.5
 
 <!-- label: III.XXIII.3.2.5 -->
 
@@ -1223,7 +1223,7 @@ Now make $int(w_{\alpha})$ act on formula (+); using the fact that $A = 1$, one 
 p_{α + β}(z y) p_{-α}(-x) = p_{-α}(-x) p_{α + β}(z y) p_β(-z^{-1} x y).            (+++)
 ```
 
-### 3.2.6.
+### 3.2.6
 
 <!-- label: III.XXIII.3.2.6 -->
 
@@ -1249,7 +1249,7 @@ p_β(y) p_{α + β}(-y) = p_{α + β}(z y) p_β(-z^{-1} y),
 
 and since $p_{\beta}$ and $p_{\alpha + \beta}$ commute, this gives $z = -1$.
 
-### 3.2.7.
+### 3.2.7
 
 <!-- label: III.XXIII.3.2.7 -->
 
@@ -1341,7 +1341,7 @@ p_{α + β}(y) p_α(x) = p_α(x) p_{α + β}(y) p_{2α + β}(2 x y).
 
 <!-- label: III.XXIII.3.3.1 -->
 
-### 3.3.2.
+### 3.3.2
 
 <!-- label: III.XXIII.3.3.2 -->
 
@@ -1385,7 +1385,7 @@ p_{α + β}(y) p_α(x) = p_α(x) p_{α + β}(y) p_{2α + β}(C x y).            
 
 It is therefore necessary, in (ii) and (iii), to prove that $A = B = 1$, $C = 2$, $k = -1$.
 
-### 3.3.3.
+### 3.3.3
 
 <!-- label: III.XXIII.3.3.3 -->
 
@@ -1409,7 +1409,7 @@ Transforming (1) by $int(w_{\beta})$,
 p_{-β}(-y) p_{α + β}(x) = p_{α + β}(x) p_{-β}(-y) p_α(-A x y) p_{2α + β}(B x^2 y).       (5)
 ```
 
-### 3.3.4.
+### 3.3.4
 
 <!-- label: III.XXIII.3.3.4 -->
 
@@ -1451,7 +1451,7 @@ which gives
 A = 1,    C = 2 B.
 ```
 
-### 3.3.5.
+### 3.3.5
 
 <!-- label: III.XXIII.3.3.5 -->
 
@@ -1487,7 +1487,7 @@ whence finally
 A = 1,    B = 1,    C = 2,    k = -1.
 ```
 
-### 3.3.6.
+### 3.3.6
 
 <!-- label: III.XXIII.3.3.6 -->
 
@@ -1581,7 +1581,7 @@ p_{2α + β}(y) p_{α + β}(x) = p_{α + β}(x) p_{2α + β}(y) p_{3α + 2β}(3 
 
 <!-- label: III.XXIII.3.4.1 -->
 
-### 3.4.2.
+### 3.4.2
 
 <!-- label: III.XXIII.3.4.2 -->
 
@@ -1604,7 +1604,7 @@ Ad(w_α) X_{3α + 2β} = X_{3α + 2β},    Ad(w_β) X_{2α + β} = X_{2α + β},
 
 which completes the proof of (ii).
 
-### 3.4.3.
+### 3.4.3
 
 <!-- label: III.XXIII.3.4.3 -->
 
@@ -1625,7 +1625,7 @@ p_{2α + β}(y) p_α(x) = p_α(x) p_{2α + β}(y) p_{3α + β}(H x y),          
 p_{3α + β}(y) p_β(x) = p_β(x) p_{3α + β}(y) p_{3α + 2β}(J x y).                                                 (4)
 ```
 
-### 3.4.4.
+### 3.4.4
 
 <!-- label: III.XXIII.3.4.4 -->
 
@@ -1645,7 +1645,7 @@ p_{3α + β}(-y) p_{-α}(-x) =
     p_{-α}(-x) p_{3α + β}(-y) p_{2α + β}(A x y) p_{α + β}(-B x^2 y) p_β(C x^3 y) p_{3α + β}(D x^3 y^2).        (8)
 ```
 
-### 3.4.5.
+### 3.4.5
 
 <!-- label: III.XXIII.3.4.5 -->
 
@@ -1701,7 +1701,7 @@ which gives
 A = 1,    E = 2 B,    C + D = F + C J,    F = G.
 ```
 
-### 3.4.6.
+### 3.4.6
 
 <!-- label: III.XXIII.3.4.6 -->
 
@@ -1754,7 +1754,7 @@ Taking into account the results already obtained:
 A = B = C = 1,    E = 2,    F = G,    D + 1 = F + J,    2 D = H + J.
 ```
 
-### 3.4.7.
+### 3.4.7
 
 <!-- label: III.XXIII.3.4.7 -->
 
@@ -1780,7 +1780,7 @@ p_{3α + β}(x) p_{3α + 2β}(-J x) = p_{3α + 2β}(x) p_{3α + β}(-J x),
 
 so $J = -1$.
 
-### 3.4.8.
+### 3.4.8
 
 <!-- label: III.XXIII.3.4.8 -->
 
@@ -1815,7 +1815,7 @@ Comparing with the left member, one has at once $F = H$, whence by the previous 
 finally $F = G = H = 2 D - J = 3$, which completes the determination of the coefficients $A, \cdots, J$ and the proof of
 (iii).
 
-### 3.4.9.
+### 3.4.9
 
 <!-- label: III.XXIII.3.4.9 -->
 
@@ -1956,7 +1956,7 @@ $T$;*
 
 <!-- label: III.XXIII.3.5.2 -->
 
-### 3.5.3.
+### 3.5.3
 
 <!-- label: III.XXIII.3.5.3 -->
 
@@ -1998,14 +1998,14 @@ h(d(α)) = q(α) α    and    ^t h(α^*) = q(α) d(α)^*
 
 for every $\alpha \in R$. In particular, the semisimple ranks of $G$ and $G'$ coincide.
 
-### 4.1.1.
+### 4.1.1
 
 <!-- label: III.XXIII.4.1.1 -->
 
 Suppose $rg_{ss}(G) = rg_{ss}(G') = 0$. Then $G$ and $G'$ are tori: one has $G = T = D_{S}(M)$, $G' = T' = D_{S}(M')$
 and $h$ is simply a morphism of ordinary groups $h : M' \to M$. One then takes $f = D_{S}(h)$.
 
-### 4.1.2.
+### 4.1.2
 
 <!-- label: III.XXIII.4.1.2 -->
 
@@ -2028,7 +2028,7 @@ G_{m, S} ──α'^*──→ T' ──α'──→ G_{m, S}.
 
 One then applies Exp. XX, 4.1.
 
-### 4.1.3.
+### 4.1.3
 
 <!-- label: III.XXIII.4.1.3 -->
 
@@ -2093,7 +2093,7 @@ p_β(y) p_α(x) = p_α(x) p_β(y) p_{α + β}(x y),
 p'_{β'}(y^q) p'_{α'}(x^q) = p'_{α'}(x^q) p'_{β'}(y^q) p'_{α' + β'}(x^q y^q).
 ```
 
-### 4.1.6.
+### 4.1.6
 
 <!-- label: III.XXIII.4.1.6 -->
 
@@ -2481,7 +2481,7 @@ is always the case), one denotes it $\acute{E}p(R)$, and one has
 
 One says that $\acute{E}p(R)$ is the *Chevalley group scheme of type $R$*.
 
-### 5.12.
+### 5.12
 
 <!-- label: III.XXIII.5.12 -->
 
@@ -2682,7 +2682,7 @@ R'$ be such that $\alpha + \beta \in R$. By 6.5 and 6.4,
 and since neither 2 nor 3 are zero on $S$, this entails, by (\*), that $g_{R'}$ contains $g_{\alpha + \beta}$, hence
 $\alpha + \beta \in R'$.[^N.D.E-XXIII-16]
 
-### 6.7.
+### 6.7
 
 <!-- label: III.XXIII.6.7 -->
 

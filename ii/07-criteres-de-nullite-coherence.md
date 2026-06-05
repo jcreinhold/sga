@@ -91,15 +91,21 @@ Let $X$ be a locally noetherian prescheme, $Y$ a closed subset of $X$, $G$ a qua
 and $n$ an integer. For any closed subsets $Z$ and $S$ of $X$ such that $Z \cap S = Y$, the following conditions are
 equivalent:
 
-1. <!-- label: VII.1.2.i --> `ℋ^i_Y(G) = 0` for `i < n`;
+1. <!-- label: VII.1.2.i -->
 
-1. <!-- label: VII.1.2.ii --> there exists a coherent `𝒪_X`-Module `F`, of support `S`, such that
+    `ℋ^i_Y(G) = 0` for `i < n`;
+
+1. <!-- label: VII.1.2.ii -->
+
+    there exists a coherent `𝒪_X`-Module `F`, of support `S`, such that
 
     ```text
     ℰxt^i_Z(F, G) = 0 for i < n;
     ```
 
-1. <!-- label: VII.1.2.iii --> for every coherent `𝒪_X`-Module `F` with support contained in `S` (i.e.
+1. <!-- label: VII.1.2.iii -->
+
+    for every coherent `𝒪_X`-Module `F` with support contained in `S` (i.e.
 
     $Supp F \cap Z = Supp F \cap Y$), one has
 
@@ -109,7 +115,9 @@ equivalent:
 
     <!-- original page 79 -->
 
-1. <!-- label: VII.1.2.iv --> for every coherent `𝒪_X`-Module `F`, one has
+1. <!-- label: VII.1.2.iv -->
+
+    for every coherent `𝒪_X`-Module `F`, one has
 
     ```text
     ℰxt^i_Y(F, G) = 0 for i < n.

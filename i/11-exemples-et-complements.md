@@ -530,7 +530,7 @@ by VIII.7.7: the morphisms $S' \to S$ used are morphisms of effective descent fo
 quasi-projective over other preschemes. Be careful, however, that this second notion of principal homogeneous bundle is
 more restrictive than the first, XI.4.1.
 
-### 4.7.
+### 4.7
 
 <!-- label: XI.4.7 -->
 
@@ -543,7 +543,7 @@ sequence XI.4.5, one must plainly assume that the sequence $0 \to G' \to G \to G
 sense for this new context, that is, that $G$ is a locally trivial bundle over $G''$ with group ${G'_{G}}''$. This also
 means that $u: G' \to G$ is a kernel of $v: G \to G''$, and that $G$ admits local sections over $G''$.
 
-### 4.8.
+### 4.8
 
 <!-- label: XI.4.8 -->
 
@@ -569,7 +569,7 @@ Moreover, one shows that an exact sequence of $S$-groups defines an exact sequen
 recover and extend the exact sequence XI.4.5. \[Translator note: the source footnote refers, for a systematic study of
 this point of view, to SGA 4 I-IX.\]
 
-### 4.9.
+### 4.9
 
 <!-- label: XI.4.9 -->
 

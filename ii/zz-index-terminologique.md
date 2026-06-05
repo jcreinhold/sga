@@ -3,7 +3,7 @@
 <!-- label: II.index-terminologique -->
 
 A reference index of terminology used throughout SGA 2. Locators are of the form `<Exposé Roman>.<section>(.<sub>)` or
-$<Expos\acute{e} Roman> (p. <page>)$.
+`<Exposé Roman> (p. <page>)`.
 
 | Term                                                           | Where introduced        |
 | -------------------------------------------------------------- | ----------------------- |

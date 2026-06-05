@@ -1759,7 +1759,7 @@ The following §§ 10.2–10.4, written following indications of M. Raynaud, aim
 of an action of a group scheme. For the reader's convenience, we have begun by reproducing, in § 10.1, statements 2.1 to
 2.3 of Exp. XVI.
 
-### 10.1. Representability theorems for quotients.
+### 10.1. Representability theorems for quotients
 
 <!-- label: III.V.10.1 -->
 
@@ -1902,7 +1902,7 @@ finite presentation over $S$, and $u$ factors as:*
 
 *Proof.* One applies 10.1.2 taking $X = H$ and for $\xi$ the unit section of $H$.
 
-### 10.2. Stabilizer of the diagonal.
+### 10.2. Stabilizer of the diagonal
 
 <!-- label: III.V.10.2 -->
 
@@ -1945,7 +1945,7 @@ Recall that one says that $G$ *acts freely* on $X$ if the morphism
 
 is a monomorphism (cf. Exp. III, 3.2.1). This amounts to saying that $F$ is the trivial group scheme with base $X$.
 
-### 10.3. Case where $F$ is quasi-finite over $X$.
+### 10.3. Case where $F$ is quasi-finite over $X$
 
 <!-- label: III.V.10.3 -->
 
@@ -1980,7 +1980,7 @@ To establish (iv), recall that $G$ acts freely on $X$ if and only if $(d_{0}, d_
 that $p$ is faithfully flat and of finite presentation. Thus $U$ is a $G$-torsor with base $V$, locally trivial for the
 (fppf) topology.
 
-### 10.4. Case where $F$ is flat over $X$.
+### 10.4. Case where $F$ is flat over $X$
 
 <!-- label: III.V.10.4 -->
 

@@ -333,7 +333,7 @@ and the second term of the right-hand side is dense in $G$. Hence it suffices to
 
 <!-- original page 639 -->
 
-### 3.0.
+### 3.0
 
 <!-- label: III.XVIII.3.0 -->
 
@@ -477,7 +477,7 @@ pr₂((a × X⁰ × X⁰) ∩ W⁰) = pr₂((a × X⁰ × X⁰) ∩ W)
 it is indeed dense in $X^{0}$, as was to be shown. The other assertions of (ii) follow by symmetry, and the fact that
 condition (iii) is preserved is trivial.[^N.D.E-XVIII-11] Proposition 3.2 is proved.
 
-### 3.2.1.
+### 3.2.1
 
 <!-- label: III.XVIII.3.2.1 -->
 
@@ -538,7 +538,7 @@ a((ba)⁻¹ c) = b⁻¹ c.
 (ab)⁻¹c = b⁻¹(a⁻¹c),  (a⁻¹b)c⁻¹ = a⁻¹(bc⁻¹), (ab⁻¹)c⁻¹ = a(cb)⁻¹.
 ```
 
-### 3.2.2. Verification of the rules.
+### 3.2.2. Verification of the rules
 
 <!-- label: III.XVIII.3.2.2 -->
 
@@ -575,7 +575,7 @@ defined.
 
 <!-- original page 644 -->
 
-### 3.2.3.
+### 3.2.3
 
 <!-- label: III.XVIII.3.2.3 -->
 

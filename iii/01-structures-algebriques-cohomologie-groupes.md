@@ -18,7 +18,7 @@ shall say: let $f : C \to C'$ be the functor defined by $f(S) = \cdots$.
 
 ## 1. Generalities
 
-### 1.1.
+### 1.1
 
 Let $C$ be a category. We shall denote by `Ĉ` the category $\operatorname{Hom}(C^{\circ}, (Ens))$ of contravariant
 functors from $C$ to the category `(Ens)` of sets.[^N.D.E-I-2] There exists a canonical functor $h : C \to \hat{C}$
@@ -57,7 +57,7 @@ Hom_C(X, Y) = Hom_D(X, Y) = Hom_D̂(h′_X, h′_Y)
 
 <!-- label: III.I.1.1.1 -->
 
-### 1.2.
+### 1.2
 
 [^N.D.E-I-5] We shall say that $F$ is a *subobject* (or a *subfunctor*) of $G$ if $F(S)$ is a subset of $G(S)$ for each
 $S$.
@@ -106,7 +106,7 @@ arrow $f : S' \to S''$ of $C$ one has $F(f)(\gamma_{S''}) = \gamma_{S'}$.
 One sets $\Gamma(X) = \Gamma(hX)$ for $X \in Ob(C)$. If $C$ has a final object $e$, one therefore has an isomorphism
 $\Gamma(X) \simeq \operatorname{Hom}(e, X)$.
 
-### 1.3.
+### 1.3
 
 Let $S \in Ob(C)$. We denote by $C/S$ the category of objects of $C$ over $S$, i.e. the category whose objects are the
 arrows $f : T \to S$ of $C$, with $\operatorname{Hom}(f, f')$ being the subset of $\operatorname{Hom}(T, T')$ formed by
@@ -131,7 +131,7 @@ $\hat{C}/hS$, and one has:
 Γ(hf) ≃ Γ(hT/hS) ≃ Γ(T/S) ≃ Γ(f).
 ```
 
-### 1.4.
+### 1.4
 
 We now propose to define an equivalence of categories $\hat{C}_{/S}$ and $\hat{C}/hS$, that is, to prove that "to give a
 functor on the category of objects of $C$ over $S$ is `the same thing` as to give a functor on $C$ endowed with a
@@ -195,7 +195,7 @@ Let $G$ be a functor on $C/S$; for every object $T$ of $C$, one sets
 
 which defines a functor $\beta S(G)$ on $C$, equipped with an obvious projection onto `hS`.
 
-### 1.5.
+### 1.5
 
 The equivalence $\alpha S$ commutes with the functors $\Gamma$. In other words, if $H : F \to hS$ is an object of
 $\hat{C}/hS$ and $\alpha S(H)$ the corresponding object of $\hat{C}_{/S}$, one has
@@ -325,7 +325,7 @@ in particular
 
 $$ \Gamma(XS) \simeq \operatorname{Hom}(S, X). $$
 
-### 1.7.0.
+### 1.7.0
 
 [^N.D.E-I-13] Let $E$ be an object of `Ĉ`. Consider the category `C_E` of objects of $C$ above $E$: its objects are the
 pairs $(V, \rho)$ formed by an object $V$ of $C$ and a `Ĉ`-morphism $\rho : hV \to E$, i.e. $\rho \in E(V)$; a morphism
@@ -363,7 +363,7 @@ shows that $\phi_{E}(S)$ is surjective. On the other hand, let $\ell_{1} = (V_{1
 Hom(E, F) = lim←_{(V,ρ)∈C_E} F(V).
 ```
 
-### 1.7. Objects Hom, Isom, etc.
+### 1.7. Objects Hom, Isom, etc
 
 Let $F$ and $G$ be two objects of `Ĉ`. We shall define another object of `Ĉ` in the following way:
 
@@ -774,7 +774,7 @@ All the preceding definitions and constructions therefore transport at once to `
 involve (products, `Hom` objects, etc.) are representable. They also apply to the categories $C/S$. In that case, we
 shall write $\operatorname{Hom}_{S-Gr.}$ for $\operatorname{Hom}_{\hat{C}_{/S}-Gr.}$, etc.
 
-### 2.2.
+### 2.2
 
 More generally, if `(T)` is a species of structure on $n$ base sets defined by finite inverse limits (for example, by
 commutativities of diagrams constructed with cartesian products: structures of monoid, group, set with operators, module
@@ -1260,7 +1260,7 @@ This remark applies *mutatis mutandis* to morphisms.
 
 ### 4.3. The groups G_a and G_m. The ring O
 
-#### 4.3.1.
+#### 4.3.1
 
 Let $G_{a}$ be the functor from $(Sch)^{\circ}$ to `(Ens)` defined by
 
@@ -1280,7 +1280,7 @@ For every scheme $S$, one therefore has an $S$-group affine over $S$, denoted $G
 Δ(T) = T ⊗ 1 + 1 ⊗ T,    ε(T) = 0.
 ```
 
-#### 4.3.2.
+#### 4.3.2
 
 Let $G_{m}$ be the functor from $(Sch)^{\circ}$ to `(Ens)` defined by
 
@@ -1308,7 +1308,7 @@ For every scheme $S$, one therefore has an $S$-group affine over $S$ denoted $G_
 Δ(x) = x ⊗ x    and    ε(x) = 1,    for x ∈ ℤ.
 ```
 
-#### 4.3.3.
+#### 4.3.3
 
 Let $O$ be the functor $G_{a}$ endowed with its $\hat{Sch}$-ring structure. It is represented by the scheme
 $\operatorname{Spec} \mathbb{Z}[T]$, which we shall denote $O$ when considering it as endowed with its ring scheme
@@ -1317,7 +1317,7 @@ structure.
 For every scheme $S$, `OS = S ×_{Spec ℤ} Spec ℤ[T] = Spec(OS[T])` is therefore an $S$-ring scheme, affine over $S$.
 (Note: in EGA II 1.7.13, `OS` is denoted `S[T]`).
 
-#### 4.3.3.1.
+#### 4.3.3.1
 
 [^N.D.E-I-30] For every object $X$ of $\hat{Sch}$, $O(X) = \operatorname{Hom}(X, O)$ is endowed with a ring structure,
 functorial in $X$. In particular, if $X'$ is a scheme and one is given morphisms $x : X' \to X$ and $f : X \to O$ (i.e.
@@ -1341,7 +1341,7 @@ In this case, for every $Y \in Ob \hat{Sch}_{/X}$ (not necessarily representable
 
 ### 4.4. Diagonalizable groups
 
-#### 4.4.1.
+#### 4.4.1
 
 The construction of $G_{m}$ generalizes as follows: let $M$ be a commutative group and $M_{\mathbb{Z}}$ the group scheme
 associated to it by the procedure of 4.1. Consider the functor defined by
@@ -1369,7 +1369,7 @@ D(M)(S) = Hom_{Alg.}(ℤ[M], Γ(S, OS)) ≃ Hom_{groups}(M, Γ(S, OS)^×)
 
 by the very definition of the algebra $\mathbb{Z}[M]$.
 
-#### 4.4.2.
+#### 4.4.2
 
 For every scheme $S$ one therefore has an $S$-group scheme affine over $S$
 
@@ -1383,7 +1383,7 @@ It is associated to the `OS`-bialgebra `OS[M]`, endowed with the diagonal map an
 Δ(x) = x ⊗ x    and    ε(x) = 1,    for x ∈ M.
 ```
 
-#### 4.4.3.
+#### 4.4.3
 
 If $f : M \to N$ is a homomorphism of commutative groups, one defines in an obvious manner a morphism of $S$-groups
 
@@ -1403,7 +1403,7 @@ An $S$-group isomorphic to a group of the form $D_{S}(M)$ is said to be *diagona
 are interpreted as certain characters of $D_{S}(M)$, that is, certain elements of $\operatorname{Hom}_{S-Gr.}(D_{S}(M),
 G_{m,S})$. (Confer VIII 1).
 
-#### 4.4.4.
+#### 4.4.4
 
 Let us give some examples of diagonalizable groups. One has first
 
@@ -1697,7 +1697,7 @@ R$.
 
 <!-- label: III.I.4.7.1.2 -->
 
-#### 4.7.2.
+#### 4.7.2
 
 We suppose from now until the end of n° 4.7 that $G$ is affine over $S$.[^N.D.E-I-40] Then, by virtue of 4.6.4, the
 datum of a morphism of $S$-functors
@@ -1779,7 +1779,7 @@ abelian.*
 
 <!-- label: III.I.4.7.2.1 -->
 
-#### 4.7.3.
+#### 4.7.3
 
 Suppose now that $G$ is a diagonalizable group, that is, that $A(G)$ is the algebra of a commutative group $M$ over the
 sheaf of rings `OS`. If $F$ is an `OS`-module, one has
@@ -1921,7 +1921,7 @@ Ob(C)$ and $f \in C^{n}(G, F)(S) = C^{n}(GS, FS)$, one has*
 
 <!-- label: III.I.5.1.1 -->
 
-### 5.2.
+### 5.2
 
 [^N.D.E-I-46] Recall (cf. § 3) that `(G-O-Mod.)` is endowed with a structure of abelian category, defined "argument by
 argument"; thus,

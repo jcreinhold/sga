@@ -85,7 +85,7 @@ constructible.
 
 <!-- label: XIII.1 -->
 
-### 1.0.
+### 1.0
 
 <!-- label: XIII.1.0 -->
 
@@ -133,7 +133,7 @@ is faithful, respectively fully faithful, respectively an equivalence of categor
 If there is no possible confusion about S, in particular if S = Y, we say cohomologically proper instead of
 cohomologically proper relative to S.
 
-### 1.2.
+### 1.2
 
 <!-- label: XIII.1.2 -->
 
@@ -159,7 +159,7 @@ $$ g*f_{*}\Phi \to f'_{*}h*\Phi. $$
 Consequently, saying that (F,f) is cohomologically proper relative to S in dimension ≤ −1, respectively in dimension ≤
 0, is equivalent to saying that, for every S-scheme S′, the morphism above is injective, respectively bijective.
 
-### 1.3.
+### 1.3
 
 <!-- label: XIII.1.3 -->
 
@@ -510,7 +510,7 @@ XIII.1.6.
 
 <!-- label: XIII.1.10 -->
 
-### 1.10.1.
+### 1.10.1
 
 <!-- label: XIII.1.10.1 -->
 
@@ -530,7 +530,7 @@ One says that the diagram above is exact if the following condition is satisfied
 a. For every pair of objects x, y of Φ and every morphism f: p(x) → p(y) such that p₁(f) = p₂(f), with p₁p and p₂p
 identified by means of a, there exists a unique morphism g: x → y such that p(g) = f.
 
-### 1.10.2.
+### 1.10.2
 
 <!-- label: XIII.1.10.2 -->
 
@@ -582,13 +582,13 @@ p₁(x₁) --u→ p₂(x₁)
 
 commute.
 
-### 1.10.3.
+### 1.10.3
 
 <!-- label: XIII.1.10.3 -->
 
 One defines in the evident way the notion of a morphism of exact diagrams of fibered categories over a category E.
 
-### 1.10.4.
+### 1.10.4
 
 <!-- label: XIII.1.10.4 -->
 
@@ -978,7 +978,7 @@ for ℒ is satisfied if f is smooth, ℒ being the set of prime numbers distinct
 
 <!-- label: XIII.2 -->
 
-### 2.0.
+### 2.0
 
 <!-- label: XIII.2.0 -->
 
@@ -996,7 +996,7 @@ such that $s\pi/\pi \in U^{i}$ for every uniformizer $\pi$ of `A_L`. One then ve
 order prime to $p$ and that, for $i \geq 1$, the $H^{i}/H^{i+1}$ are $p$-groups, from which the announced result
 follows.
 
-### 2.0.1.
+### 2.0.1
 
 <!-- label: XIII.2.0.1 -->
 
@@ -1012,7 +1012,7 @@ $[L_{i}:K]$ is prime to $p$ and that $L_{i} = L'_{i}$. Conversely, if $[L_{i}:K]
 contain a nontrivial normal $p$-subgroup; hence $I_{i}$ is a cyclic group of order prime to $p$, which proves that
 $L_{i}$ is tamely ramified over $R$.
 
-### 2.0.2.
+### 2.0.2
 
 <!-- label: XIII.2.0.2 -->
 
@@ -1053,7 +1053,7 @@ uniformizer of R̃, and let R̃′ = R̃ ⊗\_R R′. Since the extension κ(R̃
 π′ in R′, one has κ(R̃′) = R′/(π̃). Consequently R̃′ is a discrete valuation ring [XIII.5, ch. I, §2, prop. 2], and hence
 L′ is a field.
 
-### 2.0.3.
+### 2.0.3
 
 <!-- label: XIII.2.0.3 -->
 
@@ -1062,7 +1062,7 @@ that the tensor product of two tamely ramified algebras is tamely ramified, that
 tamely ramified after extension of the discrete valuation ring, and that an algebra which becomes tamely ramified after
 a tamely ramified extension is tamely ramified.
 
-### 2.1.
+### 2.1
 
 <!-- label: XIII.2.1 -->
 
@@ -1074,7 +1074,7 @@ $X$ be an $S$-scheme, and let $D$ be a divisor $\geq 0$ on $X$. Recall (SGA 5 II
 with normal crossings relative to $S$** if there exists a finite family $(f_{i})_{i}\in I$ of elements of
 $\Gamma(X,\mathcal{O}_{X})$, such that $D = \sum_{i\in I} divisor(f_{i})$ and the following condition is satisfied:
 
-### 2.1.0.
+### 2.1.0
 
 <!-- label: XIII.2.1.0 -->
 
@@ -1149,7 +1149,7 @@ one has an isomorphism
 
 $$ (R^{1}_{tame} g_{*}F)_{\bar{t}} \simeq H^{1}_{tame}(\bar{U},\bar{F}). $$
 
-### 2.1.3.
+### 2.1.3
 
 <!-- label: XIII.2.1.3 -->
 
@@ -1176,7 +1176,7 @@ covering is called the **tamely ramified fundamental group** and is denoted
 
 It is evidently a quotient of the fundamental group π₁(U,a) (V.6.9).
 
-### 2.1.4.
+### 2.1.4
 
 <!-- label: XIII.2.1.4 -->
 
@@ -1214,7 +1214,7 @@ restricts to a canonical morphism
 
 $$ H^{1}_{tame}(U,F) \to H^{1}_{tame}(U,F'). $$
 
-### 2.1.5.
+### 2.1.5
 
 <!-- label: XIII.2.1.5 -->
 
@@ -1248,7 +1248,7 @@ restricts to a canonical morphism
 h*(R¹_tame g_*F) → R¹_tame g′_*F′.
 ```
 
-### 2.1.6.
+### 2.1.6
 
 <!-- label: XIII.2.1.6 -->
 
@@ -1279,7 +1279,7 @@ H¹\*tame(U,F). The fact that the image of H¹_tame(U,F) in H⁰(X,R¹i**F) is c
 once from the definition of R¹\*tame i\*\*F. This proves the existence of the first exact sequence, and the second is
 deduced from it by localization.
 
-### 2.2.
+### 2.2
 
 <!-- label: XIII.2.2 -->
 
@@ -1318,7 +1318,7 @@ $$ G_{x}|U_{2} \to H|U_{2}. $$
 One says that the element x is tamely ramified on X relative to S if it is so as an element of G_x endowed with the
 isomorphism above.
 
-### 2.2.1.
+### 2.2.1
 
 <!-- label: XIII.2.2.1 -->
 
@@ -1350,7 +1350,7 @@ $$ g^{tame}_{*} \Phi, $$
 is the full subcategory of $g_{*}\Phi$ whose objects over a scheme $T'$ étale over $T$ are the elements of
 $(g^{tame}_{*} \Phi)_{T}'$. It is clear that $g^{tame}_{*} \Phi$ is a substack of $g_{*}\Phi$.
 
-### 2.2.2.
+### 2.2.2
 
 <!-- label: XIII.2.2.2 -->
 
@@ -1457,7 +1457,7 @@ over S.
 
 **Proof of XIII.2.4 1.**
 
-### 2.4.1.
+### 2.4.1
 
 <!-- label: XIII.2.4.1 -->
 
@@ -1477,7 +1477,7 @@ identifies with the natural isomorphism
 
 $$ k*f*G \simeq f'*G'. $$
 
-### 2.4.2.
+### 2.4.2
 
 <!-- label: XIII.2.4.2 -->
 
@@ -1509,7 +1509,7 @@ Notice that if moreover F is a sheaf of groups and if P is a torsor on Ū with 
 follows from the preceding proof and from XIII.2.2 that (^P F̄,ī) is cohomologically proper relative to S in dimension ≤
 0.
 
-### 2.4.3.
+### 2.4.3
 
 <!-- label: XIII.2.4.3 -->
 
@@ -1837,7 +1837,7 @@ to S in dimension ≤ 1.
 The corollary follows from XIII.2.8 and from the fact that $R^{1}_{tame} f_{*}\mathcal{F} = R^{1}f_{*}\mathcal{F}$
 (XIII.2.3 b).
 
-### 2.10.
+### 2.10
 
 <!-- label: XIII.2.10 -->
 
@@ -2747,7 +2747,7 @@ groups.
 
 <!-- label: XIII.4 -->
 
-### 4.0.
+### 4.0
 
 <!-- label: XIII.4.0 -->
 
@@ -2955,7 +2955,7 @@ with connected separable geometric fibers, such that X is the complement in Z of
 S, ℒ being the set of prime numbers distinct from the residual characteristics of S (XIII.2.9). The hypotheses of
 XIII.4.3 are satisfied if moreover f is smooth and has a section.
 
-### 4.5.
+### 4.5
 
 <!-- label: XIII.4.5 -->
 
@@ -2975,7 +2975,7 @@ finite étale group schemes over S, denoted
 
 One then has the following properties:
 
-#### 4.5.1.
+#### 4.5.1
 
 <!-- label: XIII.4.5.1 -->
 
@@ -2986,7 +2986,7 @@ inverse image G_X of G on X, endowed with an isomorphism g\*P ≃ G, is canonica
 Hom_S(π₁^ℒ(X/S,g,s̄),G) modulo inner automorphisms of G.
 ```
 
-#### 4.5.2.
+#### 4.5.2
 
 <!-- label: XIII.4.5.2 -->
 
@@ -2999,7 +2999,7 @@ S′ ↦ Hom_S′(π₁^ℒ(X/S,g,s̄),G) modulo inner automorphisms of G.
 
 Here S′ denotes a scheme étale over S.
 
-#### 4.5.3.
+#### 4.5.3
 
 <!-- label: XIII.4.5.3 -->
 
@@ -3079,7 +3079,7 @@ On the other hand, the morphism XIII.4.6.0 defines a morphism from this exact se
 
 and it follows that the morphism XIII.4.6.0 is an isomorphism.
 
-### 4.7.
+### 4.7
 
 <!-- label: XIII.4.7 -->
 
@@ -3356,7 +3356,7 @@ whence a morphism w: W″₁ → W″₂ lifting v. The subscheme of X″ over w
 
 and closed and contains Z″₁, hence is equal to X″; this proves that V extends to X.
 
-#### 5.3.0.
+#### 5.3.0
 
 <!-- label: XIII.5.3.0 -->
 
