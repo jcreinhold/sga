@@ -57,9 +57,8 @@ defined by $(g, w) \mapsto (g, g \cdot w)$. Thus the preceding cartesian diagram
 
 where $\lambda(g, w) = (g, g \cdot w)$, hence $q(g, w) = (\bar{g}, g \cdot w)$, where `ḡ` denotes the image of $g$ under
 the canonical map $G(S') \to (G/N)(S')$. One sees finally from diagram `(✱)` that $Z \to X$ makes $Z$ into a principal
-bundle with base $X$ and group $N$ acting on the right by $(g, v) \cdot n = (gn, v)$, so that in `(✱✱)`,
-$q : G \times_{S} W \to X$ makes $G \times_{S} W$ into a principal bundle with base $X$ and group $N$ acting on the
-right by
+bundle with base $X$ and group $N$ acting on the right by $(g, v) \cdot n = (gn, v)$, so that in `(✱✱)`, $q : G
+\times_{S} W \to X$ makes $G \times_{S} W$ into a principal bundle with base $X$ and group $N$ acting on the right by
 
 ```text
 (g, w) · n = (gn, n⁻¹ · w).
@@ -94,10 +93,10 @@ In these explicit descriptions we have not used the fact that $G$, $V$, $W$ are 
 which we work is defined in terms of preschemes!). But suppose now that $N$ is representable and faithfully flat and
 quasi-compact over $S$, and that $G/N$ is representable. When $S$ is the spectrum of a field, and $G$ is of finite type
 over $k$, one knows that this hypothesis is necessarily satisfied (VIII 6 and VI_B.11.18). One then sees from the
-cartesian diagram `(✱✱)`, using the theory of faithfully flat quasi-compact descent and the fact that
-$Z \to G \times_{S} V$ is a closed immersion, that $X$ is representable (it is obtained by descent of the closed
-subprescheme $Z$ of $G \times_{S} V$ by the faithfully flat quasi-compact morphism
-$G \times_{S} V \to G/N \times_{S} V$). Hence diagram `(D)` is a diagram of morphisms of preschemes over $S$.
+cartesian diagram `(✱✱)`, using the theory of faithfully flat quasi-compact descent and the fact that $Z \to G
+\times_{S} V$ is a closed immersion, that $X$ is representable (it is obtained by descent of the closed subprescheme $Z$
+of $G \times_{S} V$ by the faithfully flat quasi-compact morphism $G \times_{S} V \to G/N \times_{S} V$). Hence diagram
+`(D)` is a diagram of morphisms of preschemes over $S$.
 
 We henceforth assume that $S$ is the spectrum of a field $k$, and that $G$, $V$, $W$ are of finite type over $k$. Let
 $\mathfrak{n}$ be the Lie algebra of $N$, so that $\dim N \leqslant rank \mathfrak{n}$, with equality if and only if $N$
@@ -183,8 +182,8 @@ We shall need the following:
 
 **Lemma 2.0.** *In order that $H = N^{0}$, it is necessary and sufficient that $(\mathfrak{g}/\mathfrak{h})^{H} = 0$
 (where the first member denotes the subspace of invariants under the action of $H$ deduced from the adjoint
-representation). When this condition is satisfied, $N$ is smooth and $\dim X = \dim G$. In any case,
-$\dim X \leqslant \dim G$, and this inequality is an equality if and only if $H$ is of finite index in $N$.*
+representation). When this condition is satisfied, $N$ is smooth and $\dim X = \dim G$. In any case, $\dim X \leqslant
+\dim G$, and this inequality is an equality if and only if $H$ is of finite index in $N$.*
 
 <!-- label: III.XIII.2.0 -->
 
@@ -208,10 +207,10 @@ with equality if and only if $\dim H = \dim N$, i.e. if and only if $H$ is of fi
 particular if $H = N^{0}$, which completes the proof of 2.0.
 
 **Theorem 2.1.** *Let $G$ be a smooth connected algebraic group over the algebraically closed field $k$, $H$ a connected
-smooth algebraic subgroup, $N$ its normalizer, $\mathfrak{g}$, $\mathfrak{h}$, $\mathfrak{n}$ the Lie algebras,
-$X = G \times^{N} H$ the scheme (fibered over $G/N$ with typical fiber $H$) introduced in section 1, $\psi : X \to G$
-the canonical morphism (whose image is also the image of $\varphi : G \times H \to G$ defined by
-$\varphi(g, h) = int(g)h = ghg^{-1}$). The following conditions are all equivalent:*
+smooth algebraic subgroup, $N$ its normalizer, $\mathfrak{g}$, $\mathfrak{h}$, $\mathfrak{n}$ the Lie algebras, $X = G
+\times^{N} H$ the scheme (fibered over $G/N$ with typical fiber $H$) introduced in section 1, $\psi : X \to G$ the
+canonical morphism (whose image is also the image of $\varphi : G \times H \to G$ defined by $\varphi(g, h) = int(g)h =
+ghg^{-1}$). The following conditions are all equivalent:*
 
 <!-- label: III.XIII.2.1 -->
 
@@ -247,12 +246,10 @@ The equivalence of (i) and (i bis) is immediate from the definitions, and is lef
 $H$ contains a Cartan subgroup $C$ of $G$, then it contains the maximal torus $T$ of $C$, which is a maximal torus of
 $G$. <!-- original page 256 --> Since $C$ is the centralizer of $T$, its Lie algebra $\mathfrak{c}$ is given by
 
-$$
-\mathfrak{c} = \mathfrak{g}^{T}
-$$
+$$ \mathfrak{c} = \mathfrak{g}^{T} $$
 
-(II, 5.2.3 (ii)). Hence as $H \supset C$, so that $\mathfrak{h} \supset \mathfrak{c}$, it follows that
-$\mathfrak{c} \subset \mathfrak{g}^{T}$, which is equivalent (by I, 4.7.3) to the relation
+(II, 5.2.3 (ii)). Hence as $H \supset C$, so that $\mathfrak{h} \supset \mathfrak{c}$, it follows that $\mathfrak{c}
+\subset \mathfrak{g}^{T}$, which is equivalent (by I, 4.7.3) to the relation
 
 ```text
 (✱)    (𝔤/𝔥)^T = 0.
@@ -299,10 +296,10 @@ that $H = N^{0}$, and a fortiori $H$ is of finite index in its normalizer. Now c
 
 Using the theorem of conjugacy of maximal tori in $H$ (XII 6.6 a)), one sees that every conjugate of $H$ containing $T$
 is a conjugate of $H$ by an element of $N(T)(k)$, so the set of conjugates of $H$ containing $T$ is in bijective
-correspondence with the set of points of $N(T)/N(T) \cap N(H)$ with values in $k$; but as $H \supset C$, one has
-$N(T) \cap H \supset C$, hence the preceding set is a quotient of $(N(T)/C)(k)$, which is a finite set, hence is finite.
-This proves (i) ⇒ (iii). Conversely, suppose (iii), i.e. $N(T)/N(T) \cap N(H)$ finite and $N(H)/H$ finite. Using again
-the conjugacy theorem in $H$, one sees again that the homomorphism
+correspondence with the set of points of $N(T)/N(T) \cap N(H)$ with values in $k$; but as $H \supset C$, one has $N(T)
+\cap H \supset C$, hence the preceding set is a quotient of $(N(T)/C)(k)$, which is a finite set, hence is finite. This
+proves (i) ⇒ (iii). Conversely, suppose (iii), i.e. $N(T)/N(T) \cap N(H)$ finite and $N(H)/H$ finite. Using again the
+conjugacy theorem in $H$, one sees again that the homomorphism
 
 ```text
 N(T) ∩ N(H)/N(T) ∩ H ─→ N(H)/H
@@ -314,19 +311,19 @@ $H \supset C$. Thus (i), (i bis), (ii), (iii) are equivalent conditions.
 
 <!-- original page 258 -->
 
-Let us prove that (ii) ⇒ (vii). One sees at once that conditions (ii) and (vii) are each invariant under an extension
-$k \to k'$ of the base field, with $k'$ algebraically closed, which allows us to assume that $k$ has infinite
-transcendence degree over its prime subfield. Then it is well known (and easily verified) that there exists an element
-$a$ of $T(k)$ such that the subgroup of $T(k)$ it generates is dense in $T$ for the Zariski topology. One easily
-concludes that $(\mathfrak{g}/\mathfrak{h})^{T} = (\mathfrak{g}/\mathfrak{h})^{ad(a)}$, and as the first member is zero
-by hypothesis, one concludes (vii).
+Let us prove that (ii) ⇒ (vii). One sees at once that conditions (ii) and (vii) are each invariant under an extension $k
+\to k'$ of the base field, with $k'$ algebraically closed, which allows us to assume that $k$ has infinite transcendence
+degree over its prime subfield. Then it is well known (and easily verified) that there exists an element $a$ of $T(k)$
+such that the subgroup of $T(k)$ it generates is dense in $T$ for the Zariski topology. One easily concludes that
+$(\mathfrak{g}/\mathfrak{h})^{T} = (\mathfrak{g}/\mathfrak{h})^{ad(a)}$, and as the first member is zero by hypothesis,
+one concludes (vii).
 
 Let us prove (vii) ⇒ (vi). This implication is contained in the following result, which sharpens 2.1:
 
 **Corollary 2.2.** *Let $G$ be a smooth algebraic group over a field $k$, $H$ a smooth algebraic subgroup, $N$ its
-normalizer in $G$, $\varphi : G \times H \to G$ the morphism defined by $\varphi(g, h) = ad(g)h = ghg^{-1}$,
-$\psi : X = G \times^{N} H \to G$ the morphism deduced from $\varphi$ by passage to the quotient (cf. section 1),
-$a \in H(k)$. The following conditions are equivalent:*
+normalizer in $G$, $\varphi : G \times H \to G$ the morphism defined by $\varphi(g, h) = ad(g)h = ghg^{-1}$, $\psi : X =
+G \times^{N} H \to G$ the morphism deduced from $\varphi$ by passage to the quotient (cf. section 1), $a \in H(k)$. The
+following conditions are equivalent:*
 
 <!-- label: III.XIII.2.2 -->
 
@@ -349,10 +346,10 @@ dϕ(ξ, η) = (id − ad(a)) · ξ + η,
 regarded as a map from $\mathfrak{g} \times \mathfrak{h}$ to $\mathfrak{g}$. <!-- original page 259 --> Surjectivity
 therefore amounts to the surjectivity of $(id - ad(a))$ on $\mathfrak{g}/\mathfrak{h}$, i.e. to (iii). Now (iii) implies
 a fortiori $(\mathfrak{g}/\mathfrak{h})^{H} = 0$, i.e. (cf. 2.0, where the connectedness hypothesis at the beginning of
-the section is unnecessary) $H^{0} = N^{0}$. From this we deduce that $N$ is smooth, and $\dim H = \dim N$, whence
-$\dim X = \dim G$. Now since $q : G \times H \to X$ is flat and $\psi \circ q = \varphi$ is smooth at $(e, a)$, it
-follows that $\psi$ is smooth at $q(e, a) = (\bar{e}, a)$, hence étale at this point by reasons of dimension. So we have
-proved (i) ⇔ (iii) ⇒ (ii); on the other hand (ii) ⇒ (i), because the smoothness of $N$ implies that of $q$. *QED*.
+the section is unnecessary) $H^{0} = N^{0}$. From this we deduce that $N$ is smooth, and $\dim H = \dim N$, whence $\dim
+X = \dim G$. Now since $q : G \times H \to X$ is flat and $\psi \circ q = \varphi$ is smooth at $(e, a)$, it follows
+that $\psi$ is smooth at $q(e, a) = (\bar{e}, a)$, hence étale at this point by reasons of dimension. So we have proved
+(i) ⇔ (iii) ⇒ (ii); on the other hand (ii) ⇒ (i), because the smoothness of $N$ implies that of $q$. *QED*.
 
 Let us finally prove (vi) ⇒ (i), which, together with the implications already established, will prove the theorem.
 Suppose first that $G$ is affine. Let $U$ be a non-empty open of $G$ such that $x \in U(k)$ implies that $x$ is
@@ -361,22 +358,17 @@ of $H$ (this is Borel's "density theorem"), it follows that one can find a conju
 assume $U \cap C \neq \emptyset$, i.e. that there exists a non-empty open $V$ in $C$ such that for every $x \in V(k)$,
 $x$ is contained in a conjugate of $H$. Write $C$ as a product
 
-$$
-C = T \cdot C_{u}
-$$
+$$ C = T \cdot C_{u} $$
 
 where $T$ is the maximal torus of $C$ (which is a maximal torus of $G$) and $C_{u}$ is the unipotent part of $C$, $T$
 being in the center of $C$ (*Bible* 6 th. 2). We can again assume that $k$ has infinite transcendence degree over its
 prime subfield, which allows us to find an element $t$ of $T(k)$ that is in the projection of $V$ onto $T$ (which is a
 non-empty open of $T$), i.e. $t \cdot C_{u} \cap V \neq \emptyset$, and such that $t$ "generates" $T$. Since every
 algebraic subgroup of $G$ containing a product $t \cdot u$ ($t \in T(k)$, $u \in C_{u}(k)$) contains the two factors
-(*Bible* 4 th. 3), it follows, with the preceding choice of $t$, <!-- original page 260 --> and taking
-$t \cdot u \in V(k)$, that there exists a conjugate of $H$ containing $t$, hence $T$. So we may already assume that one
-has
+(*Bible* 4 th. 3), it follows, with the preceding choice of $t$, <!-- original page 260 --> and taking $t \cdot u \in
+V(k)$, that there exists a conjugate of $H$ containing $t$, hence $T$. So we may already assume that one has
 
-$$
-T \subset H.
-$$
+$$ T \subset H. $$
 
 If $W$ is the open of $C_{u}$ inverse image of $V$ by $u \mapsto t \cdot u$, one sees therefore that for every element
 $x$ of $(T \cdot W)(k)$, there exists a conjugate of $H$ containing $T$ and $x$. As we have already noted, such a
@@ -389,8 +381,8 @@ f : N(T) × H → G
 defined by $f(g, h) = int(g) \cdot h = ghg^{-1}$; then the image of $f$ contains $T \cdot W$, so as $N(T)$ is a finite
 union of translates $C \cdot g_{i}$ (where $g_{i} \in N(T)(k)$) since $C$ is of finite index in $N(T)$, it follows that
 there exists a dense open $V_{0}$ of $C = T \cdot C_{u}$ which is contained in the image of $(C \cdot g_{i}) \times H$
-by $f$. Replacing $H$ by $int(g_{i}) \cdot H$ if necessary, we may assume $g_{i} = e$, i.e.
-$f(C \times H) \supset V_{0}$. So for every $u \in V_{0}(k)$, there exist $v \in C(k)$ and $h \in H(k)$ such that
+by $f$. Replacing $H$ by $int(g_{i}) \cdot H$ if necessary, we may assume $g_{i} = e$, i.e. $f(C \times H) \supset
+V_{0}$. So for every $u \in V_{0}(k)$, there exist $v \in C(k)$ and $h \in H(k)$ such that
 
 ```text
 v⁻¹ h v = u, whence vuv⁻¹ ∈ H(k),
@@ -462,9 +454,7 @@ containing $g$, and as $g \in U(k)$, their number equals $d$, which completes th
 have in fact shown that the set of conjugates of $H$ containing $T$ is a homogeneous set <!-- original page 263 -->
 under the group of rational points of
 
-$$
-W_{G}(T) = Norm_{G}(T)/Centr_{G}(T),
-$$
+$$ W_{G}(T) = Norm_{G}(T)/Centr_{G}(T), $$
 
 which proves in particular that
 
@@ -495,8 +485,8 @@ equivalent:*
 - *(iv) There exists a conjugate $H'$ of $H$ containing $g$, and one has $(\mathfrak{g}/\mathfrak{h}')^{ad(g)} = 0$,
   where $\mathfrak{h}' = Lie(H')$.*
 
-*Finally, $U$ is also the largest open of $G$ such that $\psi$ induces an isomorphism
-$\psi^{-1}(U) \xrightarrow{\sim} U$.*
+*Finally, $U$ is also the largest open of $G$ such that $\psi$ induces an isomorphism $\psi^{-1}(U) \xrightarrow{\sim}
+U$.*
 
 <!-- original page 264 -->
 
@@ -521,8 +511,8 @@ $\psi : X \to G$ be the canonical morphism.*
 ```
 
 *be the nilpotent rank of $G$. Then for every $g \in G(k)$, the multiplicity of the eigenvalue `1` in $ad(g)$ acting on
-$\mathfrak{g}$ is at least equal to $\rho$, and for it to equal $\rho$, it is necessary and sufficient that
-$g \in U(k)$.*
+$\mathfrak{g}$ is at least equal to $\rho$, and for it to equal $\rho$, it is necessary and sufficient that $g \in
+U(k)$.*
 
 *Proof.* Since condition 2.1 (i) is satisfied, one can apply 2.4 (iii) ⇒ (i), which establishes a). In *Bible* 7 (in the
 case where $G$ is affine) the points of $U(k)$ are called the *regular points* of $G(k)$, and we shall follow this
@@ -538,19 +528,17 @@ P(ad(g), t) = tⁿ + c₁(g) tⁿ⁻¹ + ⋯ + c_n(g);
 
 one sees at once (replacing $k$ by any algebra over $k$) that the $c_{i}(g)$ come from well-determined sections
 
-$$
-c_{i} \in \Gamma(G, \mathcal{O}_{G}).
-$$
+$$ c_{i} \in \Gamma(G, \mathcal{O}_{G}). $$
 
 When $g \in G(k)$ is an element contained in a Cartan subgroup (for example a regular element), which we may assume to
 be $C$, then by 2.5 (iv) one sees that $(\mathfrak{g}/\mathfrak{c})^{ad(g)} = 0$ if and only if $g$ is regular (where
 $\mathfrak{c}$ denotes the Lie algebra of $C$); on the other hand, since $C$ is nilpotent, one sees at once that
 $ad_{\mathfrak{c}}(g)$ has only the eigenvalue `1`, which proves that the multiplicity of the eigenvalue `1` in
 $ad_{\mathfrak{g}}(g)$ is $\geqslant \rho$, and equal exactly to $\dim C = \rho$ if and only if $g$ is regular. In
-particular, the polynomial above is divisible by $(t - 1)^{\rho}$. Since the relation of divisibility by
-$(t - 1)^{\rho}$ is expressed by linear relations (with integer coefficients) among the coefficients of the polynomial,
-and these relations are satisfied for $g \in U(k)$, $U$ being a dense open, it follows ($G$ being reduced) that they
-hold for all $g$; in fact one has a relation
+particular, the polynomial above is divisible by $(t - 1)^{\rho}$. Since the relation of divisibility by $(t -
+1)^{\rho}$ is expressed by linear relations (with integer coefficients) among the coefficients of the polynomial, and
+these relations are satisfied for $g \in U(k)$, $U$ being a dense open, it follows ($G$ being reduced) that they hold
+for all $g$; in fact one has a relation
 
 ```text
 (†)    tⁿ + c₁ tⁿ⁻¹ + ⋯ + c_n = (t − 1)^ρ (tⁿ⁻ρ + b₁ tⁿ⁻ρ⁻¹ + ⋯ + b_{n−ρ})
@@ -562,31 +550,26 @@ in the ring of polynomials over $\Gamma(G, \mathcal{O}_{G})$; in particular for 
 eigenvalue `1` with multiplicity at least $\rho$. Moreover, we have seen that equality holds if $g$ is regular; let us
 prove the converse. To this end, suppose first $G$ affine, and write $g$ as a product
 
-$$
-g = g_{s} g_{u}
-$$
+$$ g = g_{s} g_{u} $$
 
 of its semisimple part and its unipotent part (*Bible* 4 section 4); then <!-- original page 266 -->
 
-$$
-ad(g) = ad(g_{s}) ad(g_{u})
-$$
+$$ ad(g) = ad(g_{s}) ad(g_{u}) $$
 
 is the analogous decomposition of $ad(g)$ (loc. cit. cor. to th. 3), so $ad(g)$ and $ad(g_{s})$ have the same
 eigenvalues (counted with multiplicity); in particular the eigenvalue `1` appears with the same multiplicity in $ad(g)$
 and in $ad(g_{s})$.
 
-Moreover, by *Bible* 7 th. 2 cor. 1, $g$ is regular if and only if $g_{s}$ is. Hence to prove b), we may assume
-$g = g_{s}$, i.e. $g$ semisimple, so contained in a maximal torus by *Bible* 6 th. 5 c), and a fortiori in a Cartan
-subgroup — the case already treated. This proves b) in the case $G$ affine. In the general case, let
-$Z = Centr(G)_{red}$; then by XII 6.6 e) the Cartan subgroups of $G$ are the inverse images of those of $G' = G/Z$,
-hence $g$ is regular in $G$ if and only if its image $g'$ in $G'$ is regular in $G'$. On the other hand, since $Z$ is
-smooth, the Lie algebra $\mathfrak{g}'$ of $G'$ is none other than $\mathfrak{g}/\mathfrak{z}$, where
-$\mathfrak{z} = Lie(Z)$, and $ad(g')$ is none other than $ad(g)_{\mathfrak{g}/\mathfrak{z}}$; hence the multiplicity of
-the eigenvalue `1` in $ad(g)$ equals $d = \dim Z$ plus the multiplicity of the eigenvalue `1` in $ad(g')$, whence at
-once the first is equal to the nilpotent rank of $G$ if and only if the second is equal to the nilpotent rank of $G'$.
-Thus we are reduced to the case of $G'$; now $G'$ being affine by XII 6.1, this case has already been treated. This
-completes the proof of 2.6.
+Moreover, by *Bible* 7 th. 2 cor. 1, $g$ is regular if and only if $g_{s}$ is. Hence to prove b), we may assume $g =
+g_{s}$, i.e. $g$ semisimple, so contained in a maximal torus by *Bible* 6 th. 5 c), and a fortiori in a Cartan subgroup
+— the case already treated. This proves b) in the case $G$ affine. In the general case, let $Z = Centr(G)_{red}$; then
+by XII 6.6 e) the Cartan subgroups of $G$ are the inverse images of those of $G' = G/Z$, hence $g$ is regular in $G$ if
+and only if its image $g'$ in $G'$ is regular in $G'$. On the other hand, since $Z$ is smooth, the Lie algebra
+$\mathfrak{g}'$ of $G'$ is none other than $\mathfrak{g}/\mathfrak{z}$, where $\mathfrak{z} = Lie(Z)$, and $ad(g')$ is
+none other than $ad(g)_{\mathfrak{g}/\mathfrak{z}}$; hence the multiplicity of the eigenvalue `1` in $ad(g)$ equals $d =
+\dim Z$ plus the multiplicity of the eigenvalue `1` in $ad(g')$, whence at once the first is equal to the nilpotent rank
+of $G$ if and only if the second is equal to the nilpotent rank of $G'$. Thus we are reduced to the case of $G'$; now
+$G'$ being affine by XII 6.1, this case has already been treated. This completes the proof of 2.6.
 
 **Corollary 2.7.** *With the notation of the preceding proof,[^N.D.E-XIII-4] let*
 
@@ -596,9 +579,7 @@ b = 1 + b₁ + ⋯ + b_{n−ρ} ∈ Γ(G, 𝒪_G).
 
 *Then the open of regular points of $G$ is given by*
 
-$$
-U = G_{b}
-$$
+$$ U = G_{b} $$
 
 <!-- label: III.XIII.2.7 -->
 
@@ -628,25 +609,23 @@ groups of the same dimension, they are equal, so it amounts to the same to say t
 these two groups, which proves a).
 
 Let us prove b). Suppose first $g$ regular in $G$, let $C$ be the unique Cartan subgroup of $G$ containing $g$. Then by
-2.3 b) there exist exactly $d$ conjugates $H_{i}$ of $H$ containing $C$. Since
-$(\mathfrak{g}/\mathfrak{c})^{ad(g)} = 0$, i.e. $ad(g)$ has no eigenvalue `+1` on $\mathfrak{g}/\mathfrak{c}$, one has a
-fortiori $(\mathfrak{g}/\mathfrak{h}_{i})^{ad(g)} = 0$, hence by 2.3 c) there are exactly $d$ conjugates of $H$
-containing $g$, namely the $H_{i}$. For such an $H_{i}$, a Cartan subgroup of $H_{i}$ <!-- original page 268 -->
-containing $g$ is a Cartan subgroup of $G$ containing $g$ by a), hence equals $C$, which proves that $g$ is regular in
-$H_{i}$. Conversely, suppose that there are at most $d$ conjugates $H_{i}$ of $H$ containing $g$, and that $g$ is
-regular in one of them, which we may assume to be $H$. Let us prove that $g$ is regular in $G$. Since $g$ is regular in
-$H$, it is contained in a unique Cartan subgroup $C$ of $H$; by a) this is a Cartan subgroup of $G$. Let $C'$ be a
-Cartan subgroup of $G$ containing $g$; let us prove $C' = C$ (which will prove that $g$ is regular in $G$). Indeed, by
-2.3 b) there exist exactly $d$ conjugates of $H$ containing $C'$, and as these latter contain $g$, they are necessarily
-the $H_{i}$, hence the $H_{i}$ and in particular $H$ contain $C'$. Hence $C$, $C'$ are two Cartan subgroups of $H$ (by
-a)) that contain the same regular element $g$ of $H$, so they are equal. *QED*.
+2.3 b) there exist exactly $d$ conjugates $H_{i}$ of $H$ containing $C$. Since $(\mathfrak{g}/\mathfrak{c})^{ad(g)} =
+0$, i.e. $ad(g)$ has no eigenvalue `+1` on $\mathfrak{g}/\mathfrak{c}$, one has a fortiori
+$(\mathfrak{g}/\mathfrak{h}_{i})^{ad(g)} = 0$, hence by 2.3 c) there are exactly $d$ conjugates of $H$ containing $g$,
+namely the $H_{i}$. For such an $H_{i}$, a Cartan subgroup of $H_{i}$ <!-- original page 268 --> containing $g$ is a
+Cartan subgroup of $G$ containing $g$ by a), hence equals $C$, which proves that $g$ is regular in $H_{i}$. Conversely,
+suppose that there are at most $d$ conjugates $H_{i}$ of $H$ containing $g$, and that $g$ is regular in one of them,
+which we may assume to be $H$. Let us prove that $g$ is regular in $G$. Since $g$ is regular in $H$, it is contained in
+a unique Cartan subgroup $C$ of $H$; by a) this is a Cartan subgroup of $G$. Let $C'$ be a Cartan subgroup of $G$
+containing $g$; let us prove $C' = C$ (which will prove that $g$ is regular in $G$). Indeed, by 2.3 b) there exist
+exactly $d$ conjugates of $H$ containing $C'$, and as these latter contain $g$, they are necessarily the $H_{i}$, hence
+the $H_{i}$ and in particular $H$ contain $C'$. Hence $C$, $C'$ are two Cartan subgroups of $H$ (by a)) that contain the
+same regular element $g$ of $H$, so they are equal. *QED*.
 
 Let us prove c). Denoting by $\nu(u)$ the nullity[^N.D.E-XIII-5] of $id - u$, for an endomorphism of a
 finite-dimensional vector space, one has
 
-$$
-\nu(ad(g)_{\mathfrak{g}}) = \nu(ad(g)_{\mathfrak{h}}) + \nu(ad(g)_{\mathfrak{g}/\mathfrak{h}}),
-$$
+$$ \nu(ad(g)_{\mathfrak{g}}) = \nu(ad(g)_{\mathfrak{h}}) + \nu(ad(g)_{\mathfrak{g}/\mathfrak{h}}), $$
 
 and the two terms on the right-hand side are respectively $\geqslant$ nilpotent rank of $H$ (equal to the nilpotent rank
 $\rho$ of $G$ by a)) and $\geqslant 0$; hence one has $\nu(ad(g)_{\mathfrak{g}}) = \rho$ if and only if
@@ -731,19 +710,17 @@ X(S′) = set of pairs (C, g), C a Cartan subgroup of G_{S′} and g a section o
 
 Consider the canonical projection morphism $(C, g) \mapsto g$
 
-$$
-\psi : X \to G.
-$$
+$$ \psi : X \to G. $$
 
 One then has the:
 
-**Theorem 3.1.** *Under the preceding conditions on $G$, and with the preceding notation, let $U$ be the set of
-$g \in G$ such that $g$ is a regular element of its fiber $G_{s}$.*
+**Theorem 3.1.** *Under the preceding conditions on $G$, and with the preceding notation, let $U$ be the set of $g \in
+G$ such that $g$ is a regular element of its fiber $G_{s}$.*
 
 <!-- label: III.XIII.3.1 -->
 
-*Then $U$ is open, and it is also the largest open $U$ of $G$ such that $\psi$ induces an isomorphism
-$\psi^{-1}(U) \xrightarrow{\sim} U$.*
+*Then $U$ is open, and it is also the largest open $U$ of $G$ such that $\psi$ induces an isomorphism $\psi^{-1}(U)
+\xrightarrow{\sim} U$.*
 
 Let us first prove that $U$ is open. From the hypothesis of representability of $\mathcal{C}$ as a smooth prescheme over
 $S$, since its structural morphism is evidently surjective, one concludes at once that $G$ admits locally for the étale
@@ -768,9 +745,7 @@ P_G(t) = (t − 1)^ρ (tⁿ⁻ρ + b₁ tⁿ⁻ρ⁻¹ + ⋯ + b_{n−ρ}).
 Let $b$ be the sum of the coefficients $b_{0} = 1, b_{1}, \cdots, b_{n-\rho}$ of the second factor; then by 2.7 applied
 to the fibers of $G$, one sees that
 
-$$
-U = G_{b},
-$$
+$$ U = G_{b}, $$
 
 which indeed proves that $U$ is open.
 
@@ -781,9 +756,9 @@ $G/N$, and the morphism $\psi : X \to G$ considered here is none other than that
 then by 2.6 b). The same reasoning also shows that $U$ is the largest open of $G$ such that $\psi$ induces an
 isomorphism $\psi^{-1}(U) \to U$.
 
-**Corollary 3.2.** *Under the conditions of 3.1, let $g$ be a regular section of $G$, i.e. such that for every
-$s \in S$, $g(s)$ is a regular point of $G_{s}$. Then there exists one and only one Cartan subgroup $C$ of $G$ such that
-$g$ is a section of $C$.*
+**Corollary 3.2.** *Under the conditions of 3.1, let $g$ be a regular section of $G$, i.e. such that for every $s \in
+S$, $g(s)$ is a regular point of $G_{s}$. Then there exists one and only one Cartan subgroup $C$ of $G$ such that $g$ is
+a section of $C$.*
 
 <!-- label: III.XIII.3.2 -->
 
@@ -827,9 +802,7 @@ $\psi : X \to G$ induces a morphism $Y \to G$ whose image is set-theoretically t
 $G$ (XII 8). Finally, it follows from 3.1 that the restriction of $\psi$ to the open $Y_{reg}$ of regular points of $Y$
 induces a closed immersion
 
-$$
-Y_{reg} \to U = G_{reg}.
-$$
+$$ Y_{reg} \to U = G_{reg}. $$
 
 Making explicit the meaning of $Z = Y_{reg}$ as a functor on $S$, one finds:
 
@@ -881,11 +854,11 @@ $\varphi$ is dominant. *QED*.
 
 **Remarks 3.7.** *One will note that the reasoning shows moreover that the connected component at $(t_{0}, c_{0})$ of
 the fiber $\varphi^{-1}(\varphi(t_{0}, c_{0}))$ is isomorphic to $T$, in particular is smooth over $k$, and has the same
-dimension as the generic fiber, which implies that $\varphi$ is in fact smooth <!-- original page 276 --> at
-$(t_{0}, c_{0})$ (which one ought to be able to verify also by calculating the tangent map). It follows that under the
-conditions of 3.6 the induced morphism $Z \times_{S} C_{reg} \to G_{reg}$ (where one has set $C_{reg} = C \cap G_{reg}$)
-is a smooth morphism. One sees similarly that the analogous morphism $Z \times T_{reg} \to Z$ (where $T$ is a maximal
-torus of $G$) is smooth; more generally, for every smooth connected invariant algebraic subgroup $H$ of $C$ containing a
+dimension as the generic fiber, which implies that $\varphi$ is in fact smooth <!-- original page 276 --> at $(t_{0},
+c_{0})$ (which one ought to be able to verify also by calculating the tangent map). It follows that under the conditions
+of 3.6 the induced morphism $Z \times_{S} C_{reg} \to G_{reg}$ (where one has set $C_{reg} = C \cap G_{reg}$) is a
+smooth morphism. One sees similarly that the analogous morphism $Z \times T_{reg} \to Z$ (where $T$ is a maximal torus
+of $G$) is smooth; more generally, for every smooth connected invariant algebraic subgroup $H$ of $C$ containing a
 regular element $c_{0}$ of $G(k)$, the image of $Z \times H \to G$ is dense in that of $G \times H \to G$.*
 
 <!-- label: III.XIII.3.7 -->
@@ -942,13 +915,12 @@ is also called the *characteristic polynomial* or *Killing polynomial* of $a$ in
 P_𝔤(a, t) = tⁿ + c₁(a) tⁿ⁻¹ + ⋯ + c_n(a),
 ```
 
-where $n = rank_{k} \mathfrak{g}$, the $c_{i}(a) \in k$. Taking this polynomial also for
-$a \in \mathfrak{g} \otimes_{k} A$,[^N.D.E-XIII-8] where $A$ is any $k$-algebra, one sees that the $c_{i}(a)$ come from
-well-determined sections $c_{i}$ of the structural sheaf of $W(\mathfrak{g})$, i.e. from elements of the symmetric
-algebra $A = Sym_{k}(\mathfrak{g}^{\vee})$, where $\mathfrak{g}^{\vee}$ is the dual of the $k$-module $\mathfrak{g}$.
-(When $k$ is an infinite field, the $c_{i}$ are determined by knowing the corresponding polynomial functions
-$\mathfrak{g} \to k$, but this is no longer the case if $k$ is a finite field.) Let $r$ be the largest integer such that
-the Killing polynomial
+where $n = rank_{k} \mathfrak{g}$, the $c_{i}(a) \in k$. Taking this polynomial also for $a \in \mathfrak{g} \otimes_{k}
+A$,[^N.D.E-XIII-8] where $A$ is any $k$-algebra, one sees that the $c_{i}(a)$ come from well-determined sections $c_{i}$
+of the structural sheaf of $W(\mathfrak{g})$, i.e. from elements of the symmetric algebra $A =
+Sym_{k}(\mathfrak{g}^{\vee})$, where $\mathfrak{g}^{\vee}$ is the dual of the $k$-module $\mathfrak{g}$. (When $k$ is an
+infinite field, the $c_{i}$ are determined by knowing the corresponding polynomial functions $\mathfrak{g} \to k$, but
+this is no longer the case if $k$ is a finite field.) Let $r$ be the largest integer such that the Killing polynomial
 
 ```text
 P_𝔤(t) = tⁿ + c₁ tⁿ⁻¹ + ⋯ + c_n ∈ A[t]
@@ -975,9 +947,7 @@ rank_k Nil(a, 𝔤) ⩾ r,
 
 *with equality if and only if*
 
-$$
-c_{n-r}(a) \neq 0.
-$$
+$$ c_{n-r}(a) \neq 0. $$
 
 *In this case, $Nil(a, \mathfrak{g})$ is a nilpotent Lie algebra (and we shall see in 5.7 b) the converse, when
 $\mathfrak{g}$ is the Lie algebra of an algebraic group $G$ smooth over $k$).*
@@ -985,12 +955,12 @@ $\mathfrak{g}$ is the Lie algebra of an algebraic group $G$ smooth over $k$).*
 The first assertion is trivial, since by definition $rank_{k} Nil(a, \mathfrak{g}) =$ multiplicity of the zero root in
 $P_{\mathfrak{g}}(a, t)$. Let us prove that if $c_{n-r}(a) \neq 0$, then $Nil(a)$ is nilpotent, which also means that
 for every $x \in Nil(a)$, $ad_{Nil(a)}(x)$ is a nilpotent endomorphism. One may assume $k$ algebraically closed; then as
-$ad(a)_{\mathfrak{g}/Nil(a)}$ is injective, there exists a non-empty open $U$ of $W(Nil(a))$ such that for every
-$x \in U(k)$, $ad(x)_{\mathfrak{g}/Nil(a)}$ is injective, hence $Nil(x) \subset Nil(a)$; one may further suppose $U$
-contained in the open of points where $c_{n-r}$ does not vanish (since this open is non-empty by $c_{n-r}(a) \neq 0$),
-and then $Nil(x)$ having the same dimension as $Nil(a)$, one will have $Nil(x) = Nil(a)$. Consequently, for every
-$x \in U(k)$, $ad(x)_{Nil(a)}$ is nilpotent, and by the principle of extension of algebraic identities, this remains
-true for every $x \in Nil(a)$, hence $Nil(a)$ is nilpotent.
+$ad(a)_{\mathfrak{g}/Nil(a)}$ is injective, there exists a non-empty open $U$ of $W(Nil(a))$ such that for every $x \in
+U(k)$, $ad(x)_{\mathfrak{g}/Nil(a)}$ is injective, hence $Nil(x) \subset Nil(a)$; one may further suppose $U$ contained
+in the open of points where $c_{n-r}$ does not vanish (since this open is non-empty by $c_{n-r}(a) \neq 0$), and then
+$Nil(x)$ having the same dimension as $Nil(a)$, one will have $Nil(x) = Nil(a)$. Consequently, for every $x \in U(k)$,
+$ad(x)_{Nil(a)}$ is nilpotent, and by the principle of extension of algebraic identities, this remains true for every $x
+\in Nil(a)$, hence $Nil(a)$ is nilpotent.
 
 One says that the element $a$ of $\mathfrak{g}$ is *regular* if $c_{n-r}(a) \neq 0$, i.e. if
 $rank_{k} Nil(a, \mathfrak{g}) = r$. When $k$ is infinite, this also means that $rank_{k} Nil(a, \mathfrak{g})$ is the
@@ -1000,15 +970,14 @@ that are regular (i.e. that come from regular points of $W(\mathfrak{g})$ with v
 open, since identical to $W(\mathfrak{g})_{c_{n-r}}$ (set of points where $c_{n-r}$ is invertible).
 
 **Corollary 4.3.** *Let $a$ be a regular element of $\mathfrak{g}$, and $\mathfrak{h}$ a Lie subalgebra of
-$\mathfrak{g}$ containing $a$. Then $\mathfrak{h}$ is nilpotent if and only if
-$\mathfrak{h} \subset Nil(a, \mathfrak{g})$; in particular, $Nil(a, \mathfrak{g})$ is a maximal nilpotent subalgebra of
-$\mathfrak{g}$.*
+$\mathfrak{g}$ containing $a$. Then $\mathfrak{h}$ is nilpotent if and only if $\mathfrak{h} \subset Nil(a,
+\mathfrak{g})$; in particular, $Nil(a, \mathfrak{g})$ is a maximal nilpotent subalgebra of $\mathfrak{g}$.*
 
 <!-- label: III.XIII.4.3 -->
 
 Since $Nil(a)$ is nilpotent, the relation $\mathfrak{h} \subset Nil(a)$ indeed implies that $\mathfrak{h}$ is nilpotent;
-and conversely, if $\mathfrak{h}$ is nilpotent, it is contained in the nil-space of its element $a$, i.e.
-$\mathfrak{h} \subset Nil(a)$.
+and conversely, if $\mathfrak{h}$ is nilpotent, it is contained in the nil-space of its element $a$, i.e. $\mathfrak{h}
+\subset Nil(a)$.
 
 **Proposition 4.4.** *Suppose $k$ infinite. Let $\mathfrak{d}$ be a Lie subalgebra of $\mathfrak{g}$. Consider the
 following conditions:*
@@ -1044,8 +1013,8 @@ exists a non-zero element $v$ of $V$ annihilated by $\mathfrak{d}$.*
 <!-- label: III.XIII.4.5 -->
 
 One may suppose $k$ algebraically closed and $\mathfrak{d}$ of finite dimension. One knows then that $V$ is a direct sum
-of finitely many non-zero stable subspaces $V_{i}$ ($1 \leqslant i \leqslant n$), such that for every $i$, and every
-$x \in \mathfrak{d}$, $u(x)|V_{i}$ has a single eigenvalue $\lambda_{i}(x)$ (cf. Bourbaki, *Groupes et Algèbres de Lie*,
+of finitely many non-zero stable subspaces $V_{i}$ ($1 \leqslant i \leqslant n$), such that for every $i$, and every $x
+\in \mathfrak{d}$, $u(x)|V_{i}$ has a single eigenvalue $\lambda_{i}(x)$ (cf. Bourbaki, *Groupes et Algèbres de Lie*,
 Chap. I, §4, Exercise 22). Let $c_{i}(x)$ be the constant term of the characteristic polynomial of $u(x)|V_{i}$, so that
 $\lambda_{i}(x) = 0$ if and only if $c_{i}(x) = 0$. Then $c_{i}$ is a polynomial function on $\mathfrak{d}$, and the
 hypothesis means that $\mathfrak{d}$ is the union of the sets of zeros of the $c_{i}$. So one of the $c_{i}$ is zero,
@@ -1056,8 +1025,8 @@ annihilated by $\mathfrak{d}$. *QED*.
 One sees easily that ($k$ being always an infinite field) conditions (i) (i bis) of 4.4 are invariant under any
 extension of the base field. If they are satisfied, one will say that $\mathfrak{d}$ is a *Cartan subalgebra* of
 $\mathfrak{g}$; in the general case ($k$ not necessarily infinite) one will say that $\mathfrak{d}$ is a Cartan
-subalgebra of $\mathfrak{g}$ if it becomes a Cartan subalgebra under one (and hence any) extension of the base field
-$k \to k'$, with $k'$ infinite. This thus implies that $\mathfrak{d}$ is nilpotent and equal to its own normalizer.
+subalgebra of $\mathfrak{g}$ if it becomes a Cartan subalgebra under one (and hence any) extension of the base field $k
+\to k'$, with $k'$ infinite. This thus implies that $\mathfrak{d}$ is nilpotent and equal to its own normalizer.
 
 <!-- original page 281 -->
 
@@ -1085,9 +1054,9 @@ and sufficient that one have $u(a_{A}) \in \mathfrak{d}_{A}$.*
 
 <!-- label: III.XIII.4.7 -->
 
-The condition is trivially necessary; let us prove that it is also sufficient. If it is satisfied, then
-$\mathfrak{d}' = u(\mathfrak{d}_{A})$ is a Lie subalgebra containing $a_{A}$, and every element $b$ of which is such
-that $ad(b)_{\mathfrak{d}'}$ is nilpotent (because $\mathfrak{d}'$ is isomorphic to $\mathfrak{d}_{A}$, which has this
+The condition is trivially necessary; let us prove that it is also sufficient. If it is satisfied, then $\mathfrak{d}' =
+u(\mathfrak{d}_{A})$ is a Lie subalgebra containing $a_{A}$, and every element $b$ of which is such that
+$ad(b)_{\mathfrak{d}'}$ is nilpotent (because $\mathfrak{d}'$ is isomorphic to $\mathfrak{d}_{A}$, which has this
 property, as follows at once from the definition of "nilpotent" in Bourbaki, *Groupes et Algèbres de Lie*, Chap. I, §4,
 def. 1). Taking $b = a_{A}$, one sees that the nil-space $Nil(b, \mathfrak{g}_{A})$ contains $\mathfrak{d}'$; on the
 other hand it is equal to $\mathfrak{d}_{A}$, and as $\mathfrak{d}'$ is locally a direct factor in the module
@@ -1141,12 +1110,11 @@ $\mathfrak{g}$, with equality attained for an element "sufficiently general" of 
 if $a$ is regular in $\mathfrak{g}$. One concludes from this that one has $r = r_{0}$, and that $a$ is regular if and
 only if the two terms of the right-hand side of `(✱)` equal respectively $r_{0}$ and `0`, i.e. if and only if $a$ is
 regular in $\mathfrak{h}$ and $ad(a)_{\mathfrak{g}/\mathfrak{h}}$ is injective, which proves b), and c) follows
-trivially by taking an element $a$ in $\mathfrak{d}$ regular in $\mathfrak{g}$, so that
-$Nil(a, \mathfrak{g}) = \mathfrak{d}$. Moreover, the preceding result shows that (i) ⇒ (iii); finally (iii) ⇒ (i),
-because under (iii), an element sufficiently general $a$ of $\mathfrak{h}$ is regular in $\mathfrak{h}$ and in
-$\mathfrak{g}$, hence $Nil(a, \mathfrak{h}) \subset Nil(a, \mathfrak{g})$ are respectively Cartan subalgebras of
-$\mathfrak{h}$ and of $\mathfrak{g}$, and as they have the same rank over $k$, they are identical, which proves (i).
-This completes the proof of 4.8.
+trivially by taking an element $a$ in $\mathfrak{d}$ regular in $\mathfrak{g}$, so that $Nil(a, \mathfrak{g}) =
+\mathfrak{d}$. Moreover, the preceding result shows that (i) ⇒ (iii); finally (iii) ⇒ (i), because under (iii), an
+element sufficiently general $a$ of $\mathfrak{h}$ is regular in $\mathfrak{h}$ and in $\mathfrak{g}$, hence $Nil(a,
+\mathfrak{h}) \subset Nil(a, \mathfrak{g})$ are respectively Cartan subalgebras of $\mathfrak{h}$ and of $\mathfrak{g}$,
+and as they have the same rank over $k$, they are identical, which proves (i). This completes the proof of 4.8.
 
 ## 5. The case of the Lie algebra of a smooth algebraic group: density theorem
 
@@ -1156,15 +1124,11 @@ Let $G$ be a smooth algebraic group over the field $k$, and $\mathfrak{g}$ its L
 subalgebra of $\mathfrak{g}$. Let $G$ act on $W(\mathfrak{g})$ by the adjoint representation, and consider the subscheme
 $W(\mathfrak{h})$. The construction of section 1 leads us to introduce
 
-$$
-N = Norm_{G}(\mathfrak{h}) = Norm_{G}(W(\mathfrak{h})),
-$$
+$$ N = Norm_{G}(\mathfrak{h}) = Norm_{G}(W(\mathfrak{h})), $$
 
 which is an algebraic subgroup of $G$ (not necessarily smooth),
 
-$$
-\mathfrak{n} = Lie(N),
-$$
+$$ \mathfrak{n} = Lie(N), $$
 
 <!-- original page 284 -->
 
@@ -1229,12 +1193,12 @@ Let us first note the trivial implications:
 ```
 
 Let us prove the equivalence of conditions (i) to (iv) and that they imply (v). The implication (i) ⇒ (ii) is trivial.
-On the other hand (iii) means, when $k$ is algebraically closed, that there exists a $k$-rational point of
-$G \times W(\mathfrak{h})$ at which the tangent map to $\varphi$ is surjective, and one sees at once that this point may
-be taken of the form $(e, a)$, where $a \in \mathfrak{h}$ (up to transforming it by an operation of $G(k)$). One
-concludes that if $k$ is infinite (not necessarily algebraically closed) this condition (evidently sufficient) of
-generic smoothness is still necessary. Now the tangent map is easily calculated: identifying the tangent space to
-$W(\mathfrak{h})$ at $a$ with $\mathfrak{h}$, it is the map
+On the other hand (iii) means, when $k$ is algebraically closed, that there exists a $k$-rational point of $G \times
+W(\mathfrak{h})$ at which the tangent map to $\varphi$ is surjective, and one sees at once that this point may be taken
+of the form $(e, a)$, where $a \in \mathfrak{h}$ (up to transforming it by an operation of $G(k)$). One concludes that
+if $k$ is infinite (not necessarily algebraically closed) this condition (evidently sufficient) of generic smoothness is
+still necessary. Now the tangent map is easily calculated: identifying the tangent space to $W(\mathfrak{h})$ at $a$
+with $\mathfrak{h}$, it is the map
 
 ```text
 (ξ, x) ↦ [ξ, a] + x
@@ -1247,12 +1211,12 @@ $\psi$ is generically smooth, <!-- original page 286 --> since if $\varphi$ is s
 being flat) that $\psi$ is smooth at $q(u)$. So (ii), (iii) imply (v). Let us prove that they imply (i). For this, note
 that since $\psi$ is dominant, and the set of regular points of $\mathfrak{g}$ is open dense, it follows that
 $\mathfrak{h}$ contains regular elements of $\mathfrak{g}$, hence a "sufficiently general" element $b$ of $\mathfrak{h}$
-is regular in $\mathfrak{g}$ and satisfies $ad(b)_{\mathfrak{g}/\mathfrak{h}}$ injective, so
-$Nil(b, \mathfrak{g}) \subset \mathfrak{h}$, hence $\mathfrak{h}$ contains the Cartan subalgebra
-$\mathfrak{d} = Nil(b, \mathfrak{g})$. So (i), (ii), (iii) are equivalent; finally (i) ⇔ (iv), since we have already
-noted that if $\mathfrak{h}$ contains a Cartan subalgebra, it has the same rank as $\mathfrak{g}$ (4.6), so (i) ⇒ (iv);
-conversely, if (iv) is satisfied, then $\mathfrak{h}$ contains a regular element of $\mathfrak{g}$, and since it has the
-same rank as $\mathfrak{g}$, it contains a Cartan subalgebra by 4.6.
+is regular in $\mathfrak{g}$ and satisfies $ad(b)_{\mathfrak{g}/\mathfrak{h}}$ injective, so $Nil(b, \mathfrak{g})
+\subset \mathfrak{h}$, hence $\mathfrak{h}$ contains the Cartan subalgebra $\mathfrak{d} = Nil(b, \mathfrak{g})$. So
+(i), (ii), (iii) are equivalent; finally (i) ⇔ (iv), since we have already noted that if $\mathfrak{h}$ contains a
+Cartan subalgebra, it has the same rank as $\mathfrak{g}$ (4.6), so (i) ⇒ (iv); conversely, if (iv) is satisfied, then
+$\mathfrak{h}$ contains a regular element of $\mathfrak{g}$, and since it has the same rank as $\mathfrak{g}$, it
+contains a Cartan subalgebra by 4.6.
 
 Let us prove the equivalence of conditions (viii) to (x). Let us first remark the following facts:
 
@@ -1292,15 +1256,15 @@ $\mathfrak{h}$, so it is contained in $N$, and as $H$ is smooth and has the same
 is smooth.
 
 Let us finally prove the equivalence of conditions (xi), (xii), (xiii) and the fact that they entail (iii) (which will
-complete the establishment of our diagram of implications). One has (xi) ⇔ (xiii), since if
-$\mathfrak{n} = \mathfrak{h}$, then by 5.2 b) one has $\dim X \geqslant \dim G$, hence (xi) is then equivalent (given
-that $W(\mathfrak{g})$ is normal) to the fact that $\psi$ is generically unramified, which is equivalent also to (xiii)
-by (1.1 (ii) ⇔ (iii)), proceeding as above for the proof of (ii) ⇔ (iii). Since (xi) ⇒ (x) ⇒ (viii) by what we have
-seen, one sees that (xi) implies that $N$ is smooth, i.e. $q : G \times W(\mathfrak{h}) \to X$ is smooth, hence the
-composite $\varphi = \psi \circ q$ is generically smooth, i.e. one has (iii). Since (iii) ⇒ (i), it also follows that
-(xi) ⇒ (xii).[^N.D.E-XIII-11] Finally (xii) ⇒ (xi), since one evidently has (xii) ⇒ (i), so as one has seen (i) ⇒ (iii)
-⇒ (v), one has (xii) ⇒ (v); it follows that one has also (xii) ⇒ (ix), and as one has seen (ix) ⇒ (x), it follows that
-(xii) ⇒ ((v) and (x)), hence (xii) ⇒ (xi) since generically étale = generically smooth + generically quasi-finite.
+complete the establishment of our diagram of implications). One has (xi) ⇔ (xiii), since if $\mathfrak{n} =
+\mathfrak{h}$, then by 5.2 b) one has $\dim X \geqslant \dim G$, hence (xi) is then equivalent (given that
+$W(\mathfrak{g})$ is normal) to the fact that $\psi$ is generically unramified, which is equivalent also to (xiii) by
+(1.1 (ii) ⇔ (iii)), proceeding as above for the proof of (ii) ⇔ (iii). Since (xi) ⇒ (x) ⇒ (viii) by what we have seen,
+one sees that (xi) implies that $N$ is smooth, i.e. $q : G \times W(\mathfrak{h}) \to X$ is smooth, hence the composite
+$\varphi = \psi \circ q$ is generically smooth, i.e. one has (iii). Since (iii) ⇒ (i), it also follows that (xi) ⇒
+(xii).[^N.D.E-XIII-11] Finally (xii) ⇒ (xi), since one evidently has (xii) ⇒ (i), so as one has seen (i) ⇒ (iii) ⇒ (v),
+one has (xii) ⇒ (v); it follows that one has also (xii) ⇒ (ix), and as one has seen (ix) ⇒ (x), it follows that (xii) ⇒
+((v) and (x)), hence (xii) ⇒ (xi) since generically étale = generically smooth + generically quasi-finite.
 
 Finally, when $k$ is of characteristic 0, then (vii) ⇒ (viii), since by a theorem of Cartier, $N$ is automatically
 smooth (VI_B 1.6.1), and [(viii) and (x)] ⇒ (xi), since in characteristic zero, for a morphism of integral preschemes,
@@ -1320,10 +1284,10 @@ Norm_G(H) = Norm_G(𝔥) = N,    H = N⁰.
 
 Indeed, $H = N^{0}$ will satisfy the required conditions; on the other hand if $H$ satisfies them, then (since $H$
 normalizes its Lie algebra $\mathfrak{h}$) one has $H \subset N$, hence as this is an inclusion of smooth groups having
-the same Lie algebra, with $H$ connected, one will have $H = N^{0}$. For the identity
-$Norm_{G}(H) = Norm_{G}(\mathfrak{h})$, one may assume $k$ algebraically closed; then from what one has just seen, it
-follows immediately that the points of the two groups with values in $k$ are the same; on the other hand the inclusions
-$H \subset Norm_{G}(H) \subset N$ show that $Norm_{G}(H)$ and $N$ have the same Lie algebra, hence they are identical.
+the same Lie algebra, with $H$ connected, one will have $H = N^{0}$. For the identity $Norm_{G}(H) =
+Norm_{G}(\mathfrak{h})$, one may assume $k$ algebraically closed; then from what one has just seen, it follows
+immediately that the points of the two groups with values in $k$ are the same; on the other hand the inclusions $H
+\subset Norm_{G}(H) \subset N$ show that $Norm_{G}(H)$ and $N$ have the same Lie algebra, hence they are identical.
 
 **Corollary 5.4.** *Under the equivalent conditions (i) to (iv), let $a \in \mathfrak{h}$. Then the following conditions
 are equivalent, and are realized if $a$ is regular in $\mathfrak{g}$:*
@@ -1341,13 +1305,11 @@ Then the preceding conditions are also equivalent to the following conditions:*
 - \*(v) Denoting by $M^{0}_{a}$ the connected component of $e$ in the transporter $M_{a}$ of $a$ to $\mathfrak{h}$,
     <!-- original page 289 --> endowed with the structure induced by `M_a`, one has*
 
-$$
-H = M^{0}_{a}.
-$$
+$$ H = M^{0}_{a}. $$
 
-Evidently (i) ⇒ (ii) since $M_{a}$ is isomorphic to the fiber $\varphi^{-1}(a)$, the point $e$ corresponding to
-$(e, a)$; and one has (ii) ⇒ (i), since (ii) implies that $\varphi$ is "equidimensional" at $(e, a)$ (i.e. the dimension
-of the fiber passing through this point equals that of the generic fiber), which implies ($G \times W(\mathfrak{h})$ and
+Evidently (i) ⇒ (ii) since $M_{a}$ is isomorphic to the fiber $\varphi^{-1}(a)$, the point $e$ corresponding to $(e,
+a)$; and one has (ii) ⇒ (i), since (ii) implies that $\varphi$ is "equidimensional" at $(e, a)$ (i.e. the dimension of
+the fiber passing through this point equals that of the generic fiber), which implies ($G \times W(\mathfrak{h})$ and
 $W(\mathfrak{g})$ being regular) that it is flat at $(e, a)$, hence smooth since its fiber is at this point. The
 equivalence of (i) and (iii) has been seen in the proof of 5.1 as resulting from the simple calculation of the tangent
 map. Moreover, one has seen in 4.8 b) that "$a$ regular in $\mathfrak{g}$" ⇒ (iii). Under conditions (xi) to (xiii),
@@ -1366,9 +1328,9 @@ extension of $k$). Then $H$ contains $K$ if and only if $\mathfrak{h}$ contains 
 <!-- label: III.XIII.5.5 -->
 
 Indeed, by 5.4 (iii) ⇒ (v) one has $H = M^{0}_{a}$ (N.B. of course, this relation being invariant under extension of the
-base field, it is valid without the hypothesis that the latter be infinite!); on the other hand
-$\mathfrak{k} \subset \mathfrak{h}$ evidently implies $K \subset M_{a}$, hence as $K$ is connected,
-$K \subset M^{0}_{a}$, whence $K \subset H$. *QED*.
+base field, it is valid without the hypothesis that the latter be infinite!); on the other hand $\mathfrak{k} \subset
+\mathfrak{h}$ evidently implies $K \subset M_{a}$, hence as $K$ is connected, $K \subset M^{0}_{a}$, whence $K \subset
+H$. *QED*.
 
 <!-- original page 290 -->
 
@@ -1387,8 +1349,8 @@ other hand $H$ evidently satisfies the condition considered for $K$ in 5.5. The 
 *a) Let $\mathfrak{d}$ be a Lie subalgebra of $\mathfrak{g}$. In order that $\mathfrak{d}$ be a Cartan subalgebra, it is
 necessary and sufficient that $\mathfrak{d}$ be nilpotent and equal to its own normalizer.*
 
-*b) Let $a$ be an element of $\mathfrak{g}$; in order that $a$ be regular, it is necessary and sufficient that
-$Nil(a, \mathfrak{g})$ be nilpotent.*
+*b) Let $a$ be an element of $\mathfrak{g}$; in order that $a$ be regular, it is necessary and sufficient that $Nil(a,
+\mathfrak{g})$ be nilpotent.*
 
 Up to making an extension of the base field, one may assume $k$ infinite. Given 4.4, one is reduced for a) to proving
 that if $\mathfrak{d}$ is nilpotent and contains an element $a$ such that $ad(a)_{\mathfrak{g}/\mathfrak{d}}$ is
@@ -1426,8 +1388,8 @@ algebra. Then:*
 
 *a) The Cartan subalgebras of $\mathfrak{g}$ are conjugate.*
 
-*b) Let $\mathfrak{d}$ be a Cartan subalgebra of $\mathfrak{g}$. Then its normalizer $N$ in $G$ is smooth, and
-$D = N^{0}$ is the only smooth connected subgroup of $G$ whose Lie algebra is $\mathfrak{d}$. One has*
+*b) Let $\mathfrak{d}$ be a Cartan subalgebra of $\mathfrak{g}$. Then its normalizer $N$ in $G$ is smooth, and $D =
+N^{0}$ is the only smooth connected subgroup of $G$ whose Lie algebra is $\mathfrak{d}$. One has*
 
 ```text
 Norm_G(𝔡) = Norm_G(D) = N,    hence D = Norm_G(D)⁰.
@@ -1436,9 +1398,7 @@ Norm_G(𝔡) = Norm_G(D) = N,    hence D = Norm_G(D)⁰.
 *c) With $\mathfrak{d}$ as in b), set as in section 5: $X = G \times^{N} W(\mathfrak{d})$, and consider the canonical
 morphism*
 
-$$
-\psi : X \to W(\mathfrak{g}),
-$$
+$$ \psi : X \to W(\mathfrak{g}), $$
 
 *(whose fiber at $a \in \mathfrak{g}$ has as points with values in $k$ the set of Cartan subalgebras of $\mathfrak{g}$
 containing $a$). Then $\psi$ is a birational morphism.*
@@ -1446,9 +1406,7 @@ containing $a$). Then $\psi$ is a birational morphism.*
 *d) With the notation of c), let $U$ be the largest open of $W(\mathfrak{g})$ such that $\psi$ induces an isomorphism*
     <!-- original page 292 -->
 
-$$
-\psi^{-1}(U) \xrightarrow{\sim} U.
-$$
+$$ \psi^{-1}(U) \xrightarrow{\sim} U. $$
 
 *Then for $a \in \mathfrak{g}$, the following conditions are equivalent:*
 
@@ -1498,9 +1456,7 @@ a subgroup of type (C) of $G$, $D$ is its own connected normalizer:*
 
 <!-- label: III.XIII.6.3 -->
 
-$$
-D = Norm_{G}(D)^{0}.
-$$
+$$ D = Norm_{G}(D)^{0}. $$
 
 <!-- original page 294 -->
 

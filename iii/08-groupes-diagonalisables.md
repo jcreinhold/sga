@@ -11,20 +11,16 @@
 
 <!-- original page 1 -->
 
-Let $C$ be a category, which we identify, as is usual, with a full subcategory of
-$\hat{C} = \operatorname{Hom}(C^{\circ}, (Ens))$ (cf. Exp. I). Let $I$ be a commutative group functor, i.e. an object of
-`Ĉ` endowed with a commutative group structure (cf. I, 2.1).[^N.D.E-VIII-1] For every $X \in Ob(\hat{C})$, the object
+Let $C$ be a category, which we identify, as is usual, with a full subcategory of $\hat{C} =
+\operatorname{Hom}(C^{\circ}, (Ens))$ (cf. Exp. I). Let $I$ be a commutative group functor, i.e. an object of `Ĉ`
+endowed with a commutative group structure (cf. I, 2.1).[^N.D.E-VIII-1] For every $X \in Ob(\hat{C})$, the object
 $\operatorname{Hom}(X, I)$ carries a commutative group structure induced by that of $I$. For every group $G$ in `Ĉ`, let
 
-$$
-D(G) = \operatorname{Hom}_{gr}.(G, I)
-$$
+$$ D(G) = \operatorname{Hom}_{gr}.(G, I) $$
 
 be the subobject of $\operatorname{Hom}(G, I)$ defined, for every $S \in Ob(C)$, by
 
-$$
-(*)    D(G)(S) = \operatorname{Hom}_{S-gr.}(G_{S}, I_{S}),
-$$
+$$ (*) D(G)(S) = \operatorname{Hom}_{S-gr.}(G_{S}, I_{S}), $$
 
 <!-- label: eq:III.VIII.1.0-star -->
 
@@ -36,9 +32,9 @@ The right-hand side of `(*)` can also be interpreted as the subset of $\operator
 morphisms $G \times S \to I$ which are "multiplicative with respect to the first argument $G$". Moreover, the preceding
 formulas remain valid more generally when $S$ is an arbitrary object of `Ĉ`, not necessarily coming from $C$.
 
-If we now take for $S$ a group in `Ĉ`, which we shall denote $G'$, then in the left-hand side
-$\operatorname{Hom}(G', D(G))$ of `(*)` we can single out the subset $\operatorname{Hom}_{gr}.(G', D(G))$ consisting of
-morphisms that respect the group structures of $G'$ and $D(G)$.
+If we now take for $S$ a group in `Ĉ`, which we shall denote $G'$, then in the left-hand side $\operatorname{Hom}(G',
+D(G))$ of `(*)` we can single out the subset $\operatorname{Hom}_{gr}.(G', D(G))$ consisting of morphisms that respect
+the group structures of $G'$ and $D(G)$.
 
 <!-- original page 2 -->
 
@@ -61,14 +57,12 @@ deduces a functorial bijection
 
 <!-- label: eq:III.VIII.1.0-triplestar -->
 
-In other words, "it amounts to the same thing" to give a group homomorphism $G' \to D(G)$ or a group homomorphism
-$G \to D(G')$, both reducing in effect to the datum of a pairing $G \times G' \to I$.
+In other words, "it amounts to the same thing" to give a group homomorphism $G' \to D(G)$ or a group homomorphism $G \to
+D(G')$, both reducing in effect to the datum of a pairing $G \times G' \to I$.
 
 Applying this to the case $G' = D(G)$ and to the identity homomorphism $G' \to D(G)$, one finds a canonical homomorphism
 
-$$
-(****) G \to D(D(G)).
-$$
+$$ (****) G \to D(D(G)). $$
 
 <!-- label: eq:III.VIII.1.0-quadstar -->
 
@@ -107,8 +101,8 @@ base extension, which therefore transforms reflexive groups into reflexive group
 
 <!-- label: III.VIII.1.0.3 -->
 
-We shall be interested henceforth in the case where $C = (Sch)/S$, the category of preschemes over $S$, and
-$I = G_{m,S}$, the "multiplicative group over $S$" (cf. Exp. I). For every ordinary group $M$, we consider the $S$-group
+We shall be interested henceforth in the case where $C = (Sch)/S$, the category of preschemes over $S$, and $I =
+G_{m,S}$, the "multiplicative group over $S$" (cf. Exp. I). For every ordinary group $M$, we consider the $S$-group
 `M_S`. One sees at once that for every prescheme in groups $J$ over $S$, there is a canonical isomorphism (functorial in
 $M$ and $J$, and compatible with base extension):
 
@@ -118,9 +112,7 @@ Hom_{S-gr.}(M_S, J) = Hom_gr.(M, J(S)).
 
 Applying this to $J = I = G_{m,S}$ and to a variable $S'$ over $S$, one finds a functorial isomorphism:
 
-$$
-(1.0.4)    D(M_{S})(S') \xrightarrow{\sim} \operatorname{Hom}_{gr}.(M, G_{m}(S')).
-$$
+$$ (1.0.4) D(M_{S})(S') \xrightarrow{\sim} \operatorname{Hom}_{gr}.(M, G_{m}(S')). $$
 
 <!-- label: eq:III.VIII.1.0.4 -->
 
@@ -150,9 +142,7 @@ form `M_S`, where $M$ is an ordinary commutative group. Then $\Gamma$ is reflexi
 
 <!-- label: III.VIII.1.2 -->
 
-$$
-\Gamma \to D(D(\Gamma))
-$$
+$$ \Gamma \to D(D(\Gamma)) $$
 
 *is an isomorphism.*[^N.D.E-VIII-3] *The diagonalizable group $D(M_{S})$ is therefore also reflexive.*
 
@@ -163,18 +153,14 @@ over $S$):
 
 <!-- label: III.VIII.1.3 -->
 
-$$
-u : G \to G_{m,S}
-$$
+$$ u : G \to G_{m,S} $$
 
 *is defined by a uniquely determined section of `M_S` over $S$, i.e. by a uniquely determined locally constant map from
 $S$ to $M$.*
 
 *Proof.* Since by definition
 
-$$
-G_{m,S} = GL(1)_{S} = \operatorname{Aut}_{O_{S}-mod.}(O_{S}),
-$$
+$$ G_{m,S} = GL(1)_{S} = \operatorname{Aut}_{O_{S}-mod.}(O_{S}), $$
 
 one sees that giving a group homomorphism $G \to G_{m,S}$ is equivalent to giving on `O_S` a structure of
 $G$-`O_S`-module compatible with the natural `O_S`-module structure on `O_S` (cf. I, 4.7). By I, 4.7.3, this also
@@ -244,8 +230,8 @@ Hom_gr.(M, N)_S ⥲ Hom_{S-gr.}(D(N_S), D(M_S));
 
 *consequently $\operatorname{Hom}_{S-gr.}(D(N_{S}), D(M_{S}))$ is representable.*
 
-*b) More generally, if $G$, $H$ are locally diagonalizable, with $H$ of finite type, then
-$\operatorname{Hom}_{S-gr.}(G, H)$ is representable.*
+*b) More generally, if $G$, $H$ are locally diagonalizable, with $H$ of finite type, then $\operatorname{Hom}_{S-gr.}(G,
+H)$ is representable.*
 
 [^N.D.E-VIII-7] From 1.5 one concludes:
 
@@ -335,10 +321,10 @@ $i$. For every $Y$ over $S_{i}$, one therefore has
 (*)    F(Y) = F_i(Y) = Hom_{S_i}(Y, X ×_S S_i) = Hom_S(Y, X) = h_X(Y).
 ```
 
-Then, for $Y \to S$ arbitrary, the $Y_{i} = Y \times_{S} S_{i}$ form an open covering of $Y$; set
-$Y_{ij} = Y_{i} \times_{Y} Y_{j} = Y \times_{S} S_{ij}$. Since $F$ (resp. $h_{X}$) is a local functor by hypothesis
-(resp. because the Zariski topology is coarser than the canonical topology), $F(Y)$ and $h_{X}(Y)$ both identify, in
-view of `(*)`, with the kernel of the double arrow:
+Then, for $Y \to S$ arbitrary, the $Y_{i} = Y \times_{S} S_{i}$ form an open covering of $Y$; set $Y_{ij} = Y_{i}
+\times_{Y} Y_{j} = Y \times_{S} S_{ij}$. Since $F$ (resp. $h_{X}$) is a local functor by hypothesis (resp. because the
+Zariski topology is coarser than the canonical topology), $F(Y)$ and $h_{X}(Y)$ both identify, in view of `(*)`, with
+the kernel of the double arrow:
 
 ```text
 ∏_i F(Y_i)  ⇒  ∏_{i,j} F(Y_{ij})
@@ -350,13 +336,12 @@ This proves (i).
 
 (ii) It follows from the hypothesis that $F''_{1} = F' \times_{S'} S''_{1}$ (where $S''_{1} = S'' = S' \times_{S} S'$ is
 considered as $S'$-prescheme via the first projection) is represented by $X''_{1} = X' \times_{S'} S''_{1}$; similarly,
-$F''_{2} = F' \times_{S'} S''_{2}$ is represented by $X''_{2} = X' \times_{S'} S''_{2}$. Now
-$F''_{1} = F \times_{S} S'' = F''_{2}$, hence there exists a (unique) $S''$-isomorphism
-$c : X''_{1} \xrightarrow{\sim} X''_{2}$. Then, denoting by $q_{i}$ (resp. $p_{ji}$) the projection of
-$S''' = S' \times_{S} S' \times_{S} S'$ onto the $i$-th factor (resp. onto the factors $i$ and $j$),
-$X'''_{i} = X' \times_{S'} S'''_{i}$ (where $S'''_{i} = S'''$ considered as $S'$-prescheme via $q_{i}$), and
-$p^{*}_{ji}(c) : X'''_{i} \xrightarrow{\sim} X'''_{j}$ the isomorphism of $S'''$-preschemes deduced from $c$ by base
-change, one obtains a diagram of isomorphisms of $S'''$-preschemes:
+$F''_{2} = F' \times_{S'} S''_{2}$ is represented by $X''_{2} = X' \times_{S'} S''_{2}$. Now $F''_{1} = F \times_{S} S''
+= F''_{2}$, hence there exists a (unique) $S''$-isomorphism $c : X''_{1} \xrightarrow{\sim} X''_{2}$. Then, denoting by
+$q_{i}$ (resp. $p_{ji}$) the projection of $S''' = S' \times_{S} S' \times_{S} S'$ onto the $i$-th factor (resp. onto
+the factors $i$ and $j$), $X'''_{i} = X' \times_{S'} S'''_{i}$ (where $S'''_{i} = S'''$ considered as $S'$-prescheme via
+$q_{i}$), and $p^{*}_{ji}(c) : X'''_{i} \xrightarrow{\sim} X'''_{j}$ the isomorphism of $S'''$-preschemes deduced from
+$c$ by base change, one obtains a diagram of isomorphisms of $S'''$-preschemes:
 
 ```text
               p_{21}^*(c)
@@ -373,17 +358,17 @@ and since all these objects represent the restriction of $F$ to $S'''$, this dia
 cocycle relation $p^{*}_{32}(c) \circ p^{*}_{21}(c) = p^{*}_{31}(c)$ holds, i.e. $c$ is a descent datum on $X'$ relative
 to $S' \to S$ (cf. IV 2.1).
 
-Suppose moreover that this descent datum is effective, i.e. that there exists an $S$-prescheme $X$ such that
-$X' \simeq X \times_{S} S'$ (by SGA 1, VIII 2.1, this is the case if $X'$ is affine over $S'$[^N.D.E-VIII-10]). Then,
-for every $Y \to S'$, one has
+Suppose moreover that this descent datum is effective, i.e. that there exists an $S$-prescheme $X$ such that $X' \simeq
+X \times_{S} S'$ (by SGA 1, VIII 2.1, this is the case if $X'$ is affine over $S'$[^N.D.E-VIII-10]). Then, for every $Y
+\to S'$, one has
 
 ```text
 (**)    F(Y) = F′(Y) = Hom_{S′}(Y, X ×_S S′) = Hom_S(Y, X) = h_X(Y).
 ```
 
-Then, for $Y \to S$ arbitrary, set $Y' = Y \times_{S} S'$ and $Y'' = Y' \times_{Y} Y' \simeq Y \times_{S} S''$. Then
-$Y' \to Y$, like $S' \to S$, is faithfully flat and quasi-compact, hence an $M$-effective epimorphism (where $M$ =
-family of faithfully flat quasi-compact morphisms), i.e. the equivalence relation
+Then, for $Y \to S$ arbitrary, set $Y' = Y \times_{S} S'$ and $Y'' = Y' \times_{Y} Y' \simeq Y \times_{S} S''$. Then $Y'
+\to Y$, like $S' \to S$, is faithfully flat and quasi-compact, hence an $M$-effective epimorphism (where $M$ = family of
+faithfully flat quasi-compact morphisms), i.e. the equivalence relation
 
 ```text
 Y′ ×_Y Y′ ⇒ Y′
@@ -402,18 +387,17 @@ h_X(Y′) ⇒ h_X(Y′ ×_Y Y′).
 This proves (ii).
 
 **Corollary 1.7.3.** *Let $F$ be an (fpqc) sheaf on $(Sch)/S$. Suppose there exists an open covering $(S_{i})$ of $S$
-and, for each $i$, a faithfully flat quasi-compact morphism $S'_{i} \to S_{i}$ such that the restriction
-$F'_{i} = F \times_{S} S'_{i}$ is representable by an $S'_{i}$-prescheme $X'_{i}$ affine over $S'_{i}$. Then $F$ is
-representable by an $S$-prescheme $X$ affine over $S$ (such that $X \times_{S} S'_{i} = X'_{i}$ for every $i$).*
+and, for each $i$, a faithfully flat quasi-compact morphism $S'_{i} \to S_{i}$ such that the restriction $F'_{i} = F
+\times_{S} S'_{i}$ is representable by an $S'_{i}$-prescheme $X'_{i}$ affine over $S'_{i}$. Then $F$ is representable by
+an $S$-prescheme $X$ affine over $S$ (such that $X \times_{S} S'_{i} = X'_{i}$ for every $i$).*
 
 <!-- label: III.VIII.1.7.3 -->
 
-*If moreover each $X'_{i} \to S'_{i}$ is a closed immersion (resp. a finite étale morphism), the same holds for
-$X \to S$.*
+*If moreover each $X'_{i} \to S'_{i}$ is a closed immersion (resp. a finite étale morphism), the same holds for $X \to
+S$.*
 
-The first assertion follows from 1.7.2. For the second, it suffices to verify that each morphism
-$X \times_{S} S_{i} \to S_{i}$ is a closed immersion (resp. finite and étale), which follows from EGA IV₂, 2.7.1 (resp.
-and IV₄, 17.7.3).
+The first assertion follows from 1.7.2. For the second, it suffices to verify that each morphism $X \times_{S} S_{i} \to
+S_{i}$ is a closed immersion (resp. finite and étale), which follows from EGA IV₂, 2.7.1 (resp. and IV₄, 17.7.3).
 
 **Remark 1.7.4.** *Assertion 1.5 (b) follows, as announced, from 1.7.1 and 1.7.2 (i).*
 
@@ -434,8 +418,8 @@ diagonalizable $S$-group defined by $M$. Then:*
 
 *b) $M$ of finite type ⇔ $G$ of finite type over $S$ ⇔ $G$ of finite presentation over $S$.*
 
-*c) $M$ finite ⇔ $G$ finite over $S$ ⇔ $G$ of finite type over $S$ and annihilated by an integer $n > 0$. Then
-$deg(G/S) = Card(M)$.*
+*c) $M$ finite ⇔ $G$ finite over $S$ ⇔ $G$ of finite type over $S$ and annihilated by an integer $n > 0$. Then $deg(G/S)
+= Card(M)$.*
 
 *c′) $M$ a torsion group ⇔ $G$ integral over $S$.*
 
@@ -460,8 +444,8 @@ card(D(T)(k)) = ∏_i card μ_{n_i}(k),
 ```
 
 where $card \mu_{n_{i}}(k)$ = (number of $n_{i}$-th roots of unity in $k$) $\leqslant n_{i}$, equality being attained if
-and only if $n_{i}$ is prime to the characteristic $p$ of $k$. Hence one has $card(D(T)(k)) = n$ (where
-$n = \prod_{i} n_{i}$) if and only if all the $n_{i}$ are prime to $p$, i.e. if and only if $n$ is prime to $p$. QED.
+and only if $n_{i}$ is prime to the characteristic $p$ of $k$. Hence one has $card(D(T)(k)) = n$ (where $n = \prod_{i}
+n_{i}$) if and only if all the $n_{i}$ are prime to $p$, i.e. if and only if $n$ is prime to $p$. QED.
 
 ## 3. Exactness properties of the functor `D_S`
 
@@ -496,15 +480,11 @@ therefore $D_{S}(M')$ represents the quotient sheaf for the (fpqc) topology (cf.
 The first assertion of (i) is a trivial consequence of the definition of the functors $D_{S}(-)$; more generally, for
 any exact sequence
 
-$$
-M' \to M \to M'' \to 0
-$$
+$$ M' \to M \to M'' \to 0 $$
 
 (without zero on the left), one will have a transposed exact sequence:
 
-$$
-0 \to D_{S}(M'') \to D_{S}(M) \to D_{S}(M').
-$$
+$$ 0 \to D_{S}(M'') \to D_{S}(M) \to D_{S}(M'). $$
 
 (This is valid more generally in the context of the beginning of §1.) On the other hand, since $D_{S}(M)$ and
 $D_{S}(M')$ are affine over $S$, $u^{t}$ is necessarily an affine morphism, a fortiori quasi-compact (whatever the
@@ -607,15 +587,15 @@ Indeed, if $G = D_{S}(M)$, then ${}_{nG} = D_{S}(M/nM)$ by 3.1, and one conclude
 Let $S$ be a prescheme, and $G = D_{S}(M)$ a diagonalizable group over $S$. We propose to determine the $G$-torsors (or
 principal homogeneous $G$-bundles) on $S$, in the sense of the "faithfully flat quasi-compact topology" (cf. Exp. IV,
 5.1). Recall that a prescheme $P$ over $S$ with operator group $G$ is called a *torsor* or *principal homogeneous* if
-every point of $S$ admits an open neighborhood $U$ and a faithfully flat quasi-compact morphism $S' \to U$ such that
-$P' = P \times_{S} S'$ is, as a bundle with operators, isomorphic to $G' = G \times_{S} S'$ (acting on itself by right
+every point of $S$ admits an open neighborhood $U$ and a faithfully flat quasi-compact morphism $S' \to U$ such that $P'
+= P \times_{S} S'$ is, as a bundle with operators, isomorphic to $G' = G \times_{S} S'$ (acting on itself by right
 translations). Since $G$ is affine over $S$, it follows from SGA 1, VIII 5.6 that $P$ is necessarily affine over $S$.
 Note also that since $G$ is itself faithfully flat and quasi-compact over $S$, $P$ is principal homogeneous under $G$ if
 and only if it is "formally principal homogeneous", and if moreover it is faithfully flat and quasi-compact over $S$
 (cf. IV, 5.1.6).
 
-Recall on the other hand (Exp. I, 4.7.3) that giving an $S$-prescheme $P$ affine over $S$ with operator group
-$G = D_{S}(M)$ amounts to giving a quasi-coherent commutative $M$-graded algebra on $S$, i.e. a quasi-coherent algebra
+Recall on the other hand (Exp. I, 4.7.3) that giving an $S$-prescheme $P$ affine over $S$ with operator group $G =
+D_{S}(M)$ amounts to giving a quasi-coherent commutative $M$-graded algebra on $S$, i.e. a quasi-coherent algebra
 $\mathcal{A}$ on $S$ endowed with a direct sum decomposition (as a module):
 
 ```text
@@ -685,9 +665,7 @@ Note also that one obtains, by faithfully flat descent:
 
 <!-- label: III.VIII.4.2 -->
 
-$$
-O_{S} \to \mathcal{A}_{0}
-$$
+$$ O_{S} \to \mathcal{A}_{0} $$
 
 *is an isomorphism.*
 
@@ -731,12 +709,12 @@ $\mathbb{R}$ of reals gives a group of `1`-cohomology equal to $\mathbb{Z}/2\mat
 
 <!-- original page 13 -->
 
-[^N.D.E-VIII-14] Indeed, let $S^{1}$ be the kernel of the norm morphism
-$N : \prod_{\mathbb{C}/\mathbb{R}} G_{m,\mathbb{C}} \to G_{m,\mathbb{R}}$; this is a $\mathbb{C}/\mathbb{R}$-twisted
-form of $G_{m,\mathbb{R}}$. The equation $N(z) = -1$ in $\prod_{\mathbb{C}/\mathbb{R}}(G_{m,\mathbb{C}})$ defines an
-$S^{1}$-torsor $X$ over $\operatorname{Spec}(\mathbb{R})$, locally trivial for the étale topology, but not trivial since
-$X(\mathbb{R}) = \emptyset$. Let us show that $H^{1}_{\acute{e}}t(\mathbb{R}, S^{1}) \cong \mathbb{Z}/2\mathbb{Z}$. One
-has an exact sequence of smooth commutative $\mathbb{R}$-group schemes:
+[^N.D.E-VIII-14] Indeed, let $S^{1}$ be the kernel of the norm morphism $N : \prod_{\mathbb{C}/\mathbb{R}}
+G_{m,\mathbb{C}} \to G_{m,\mathbb{R}}$; this is a $\mathbb{C}/\mathbb{R}$-twisted form of $G_{m,\mathbb{R}}$. The
+equation $N(z) = -1$ in $\prod_{\mathbb{C}/\mathbb{R}}(G_{m,\mathbb{C}})$ defines an $S^{1}$-torsor $X$ over
+$\operatorname{Spec}(\mathbb{R})$, locally trivial for the étale topology, but not trivial since $X(\mathbb{R}) =
+\emptyset$. Let us show that $H^{1}_{\acute{e}}t(\mathbb{R}, S^{1}) \cong \mathbb{Z}/2\mathbb{Z}$. One has an exact
+sequence of smooth commutative $\mathbb{R}$-group schemes:
 
 ```text
 1 → S¹ → ∏_{ℂ/ℝ} G_{m,ℂ} → G_{m,ℝ} → 1
@@ -748,10 +726,10 @@ which gives rise to a long exact sequence of étale cohomology (or of Galois coh
 0 → S¹(ℝ) → ℂ^× -N→ ℝ^× → H¹_ét(ℝ, S¹) → H¹_ét(ℝ, ∏_{ℂ/ℝ} G_{m,ℂ}) → ⋯
 ```
 
-Now (see for example XXIV, 8.4),
-$H^{1}_{\acute{e}}t(\mathbb{R}, \prod_{\mathbb{C}/\mathbb{R}} G_{m,\mathbb{C}}) \simeq H^{1}_{\acute{e}}t(\mathbb{C}, G_{m,\mathbb{C}})$,
-and the latter is zero by 4.5 (or, here, because $\mathbb{C}$ is algebraically closed). One thus obtains an isomorphism
-$H^{1}_{\acute{e}}t(\mathbb{R}, S^{1}) \simeq \mathbb{R}^{\times}/N(\mathbb{C}^{\times}) \simeq {\pm 1}$.
+Now (see for example XXIV, 8.4), $H^{1}_{\acute{e}}t(\mathbb{R}, \prod_{\mathbb{C}/\mathbb{R}} G_{m,\mathbb{C}}) \simeq
+H^{1}_{\acute{e}}t(\mathbb{C}, G_{m,\mathbb{C}})$, and the latter is zero by 4.5 (or, here, because $\mathbb{C}$ is
+algebraically closed). One thus obtains an isomorphism $H^{1}_{\acute{e}}t(\mathbb{R}, S^{1}) \simeq
+\mathbb{R}^{\times}/N(\mathbb{C}^{\times}) \simeq {\pm 1}$.
 
 We shall need in the following § the following result:
 
@@ -763,9 +741,7 @@ We shall need in the following § the following result:
 
 *b′) For every $m$ in $M$ (it suffices: in a system of generators of $M$), one has*
 
-$$
-\mathcal{A}_{m} \cdot \mathcal{A}_{-m} = \mathcal{A}_{0}.
-$$
+$$ \mathcal{A}_{m} \cdot \mathcal{A}_{-m} = \mathcal{A}_{0}. $$
 
 The necessity being evident, taking 4.2 into account,[^N.D.E-VIII-15] we shall reduce to proving:
 
@@ -773,9 +749,7 @@ The necessity being evident, taking 4.2 into account,[^N.D.E-VIII-15] we shall r
 
 <!-- label: III.VIII.4.7 -->
 
-$$
-A_{1} \cdot A_{-1} = A_{0}.
-$$
+$$ A_{1} \cdot A_{-1} = A_{0}. $$
 
 *Then the $A_{n}$ are invertible `A_0`-modules, and for $n, n' \in \mathbb{Z}$, the homomorphism*
 
@@ -787,9 +761,7 @@ A_n ⊗_{A_0} A_{n′} → A_{n+n′}
 
 By hypothesis, there exist $f_{i} \in A_{1}$, $g_{i} \in A_{-1}$, such that
 
-$$
-(*)    \sum_{i} f_{i} g_{i} = 1.
-$$
+$$ (*) \sum_{i} f_{i} g_{i} = 1. $$
 
 As the conclusion to be established is local on $\operatorname{Spec}(A_{0})$,[^N.D.E-VIII-16] and as, by `(*)`,
 $\operatorname{Spec}(A_{0})$ is covered by the affine opens $D(f_{i} g_{i})$, one is reduced to the case where there
@@ -804,9 +776,9 @@ which completes the proof of 4.7.
 Then, under the conditions of 4.6, 4.7 already implies that the $\mathcal{A}_{m}$ ($m \in M$) are invertible. To prove
 condition 4.1 (b), one may therefore suppose that $\mathcal{A}_{m}$ and $\mathcal{A}_{m'}$ admit bases $f_{m}$ and
 $f_{m'}$, having inverses $f^{-1}_{m} \in \Gamma(\mathcal{A}_{-m})$ and $f^{-1}_{m'} \in \Gamma(\mathcal{A}_{-m'})$.
-Then the product by $f^{-1}_{m} f^{-1}_{m'} \in \Gamma(\mathcal{A}_{-m-m'})$ defines a homomorphism
-$\mathcal{A}_{m+m'} \to \mathcal{A}_{0} \simeq O_{S}$, sending the image of $f_{m} \otimes f_{m'}$ to the section `1` of
-`O_S`. In the diagram
+Then the product by $f^{-1}_{m} f^{-1}_{m'} \in \Gamma(\mathcal{A}_{-m-m'})$ defines a homomorphism $\mathcal{A}_{m+m'}
+\to \mathcal{A}_{0} \simeq O_{S}$, sending the image of $f_{m} \otimes f_{m'}$ to the section `1` of `O_S`. In the
+diagram
 
 ```text
                      w
@@ -847,9 +819,9 @@ remains to verify that one has:
 (*)    A_m · A_{−m} = A_0    for every m ∈ M.
 ```
 
-One observes moreover by a direct computation that `(*)` is equivalent to saying that
-$P \times_{S} G \to P \times_{S} P$ is a closed immersion, and not only a monomorphism (under the hypothesis that $G$
-acts freely), i.e. that the homomorphism on affine rings
+One observes moreover by a direct computation that `(*)` is equivalent to saying that $P \times_{S} G \to P \times_{S}
+P$ is a closed immersion, and not only a monomorphism (under the hypothesis that $G$ acts freely), i.e. that the
+homomorphism on affine rings
 
 <!-- original page 16 -->
 
@@ -871,9 +843,7 @@ R → R ×_{(P ×_S P)} R = R₀
 
 is an isomorphism. One has $R = \operatorname{Spec}(A(M))$ and
 
-$$
-R_{0} = \operatorname{Spec}(A(M \times M)/K)
-$$
+$$ R_{0} = \operatorname{Spec}(A(M \times M)/K) $$
 
 [^N.D.E-VIII-19] where $K$ is the ideal generated by the elements of the form
 
@@ -887,8 +857,8 @@ let $\phi : A(M \times M) \to A(M)$ be the surjective ring homomorphism defined 
 x e_{m,n} ↦ x e_{m+n}    (m, n ∈ M, x ∈ A)
 ```
 
-(where the $e_{m}$, resp. $e_{m,n} = e_{m} \otimes e_{n}$, are the elements of the canonical basis of $A(M)$, resp.
-$A(M \times M)$). Then the diagonal morphism $R \to R_{0}$ corresponds to the homomorphism
+(where the $e_{m}$, resp. $e_{m,n} = e_{m} \otimes e_{n}$, are the elements of the canonical basis of $A(M)$, resp. $A(M
+\times M)$). Then the diagonal morphism $R \to R_{0}$ corresponds to the homomorphism
 
 ```text
 φ̄ : A(M × M)/K → A(M)
@@ -896,9 +866,7 @@ $A(M \times M)$). Then the diagonal morphism $R \to R_{0}$ corresponds to the ho
 
 obtained by passing to the quotient by $K$. Now the kernel of $\phi$ is the ideal $K'$ generated by the
 
-$$
-d_{m} = e_{m,0} - e_{0,m}.
-$$
+$$ d_{m} = e_{m,0} - e_{0,m}. $$
 
 One has $K \subseteq K'$, and the hypothesis that $G$ acts freely on $P$, i.e. that $\bar{\phi}$ is an isomorphism, is
 equivalent to the equality $K' = K$, which is expressed by the relations
@@ -1031,9 +999,9 @@ $X$[^N.D.E-VIII-21]. Since it is also faithfully flat over $X$, our conclusion t
 
 **Definition 6.1.** *Let $f : X \to S$ be a morphism of preschemes. We say that $f$ is* essentially free\*, or also that
 $X$ is\* essentially free over $S$*, if one can find a covering of $S$ by affine opens $S_{i}$, for each $i$ an
-$S_{i}$-prescheme $S'_{i}$ affine and faithfully flat over $S_{i}$, and a covering $(X'_{ij})_{j}$ of
-$X'_{i} = X \times_{S} S'_{i}$ by affine opens $X'_{ij}$, such that for every $(i, j)$, the ring of $X'_{ij}$ is a free
-module over the ring of $S'_{i}$.*[^N.D.E-VIII-22]
+$S_{i}$-prescheme $S'_{i}$ affine and faithfully flat over $S_{i}$, and a covering $(X'_{ij})_{j}$ of $X'_{i} = X
+\times_{S} S'_{i}$ by affine opens $X'_{ij}$, such that for every $(i, j)$, the ring of $X'_{ij}$ is a free module over
+the ring of $S'_{i}$.*[^N.D.E-VIII-22]
 
 <!-- label: III.VIII.6.1 -->
 
@@ -1084,19 +1052,19 @@ Moreover, by SGA 1, VIII 2.1 and 5.5, faithfully flat quasi-compact morphisms ar
 category of closed immersion arrows. This allows us to restrict ourselves, with the notation of 6.1, to the case where
 $S = S'_{i}$.
 
-Let $(Z_{j})$ be a covering of $Z$ by affine opens such that $O(Z_{j})$ is a free module over $A = O(S)$, and let
-$Y_{j} = Y \cap Z_{j}$ and $F_{j} : (Sch)^{\circ}/S \to (Ens)$ be the functor defined in terms of $(Z_{j}, Y_{j})$ as
-$F$ in terms of $(Z, Y)$. It is a subfunctor of the final functor, and one evidently has $F = \bigcap_{j} F_{j}$, which
-reduces us to
+Let $(Z_{j})$ be a covering of $Z$ by affine opens such that $O(Z_{j})$ is a free module over $A = O(S)$, and let $Y_{j}
+= Y \cap Z_{j}$ and $F_{j} : (Sch)^{\circ}/S \to (Ens)$ be the functor defined in terms of $(Z_{j}, Y_{j})$ as $F$ in
+terms of $(Z, Y)$. It is a subfunctor of the final functor, and one evidently has $F = \bigcap_{j} F_{j}$, which reduces
+us to
 
 <!-- original page 19 -->
 
 proving that each $F_{j}$ is representable by a closed subscheme $T_{j}$ of $S$ (for then $F$ will be representable by
-the closed subscheme $T$ intersection of the $T_{j}$). One may therefore suppose $Z$ also affine,
-$Z = \operatorname{Spec}(B)$, where $B$ is a free $A$-module. Let $J$ be a subset of $B$ defining the subscheme $Y$ of
-$Z$, and let $K$ be the ideal in $A$ generated by the $u_{i}(J) \subseteq A$, where the $u_{i} : B \to A$ are the
-coordinate forms with respect to the chosen basis. One observes at once that $T = V(K) = \operatorname{Spec}(A/K)$
-satisfies the desired condition, which completes the proof.
+the closed subscheme $T$ intersection of the $T_{j}$). One may therefore suppose $Z$ also affine, $Z =
+\operatorname{Spec}(B)$, where $B$ is a free $A$-module. Let $J$ be a subset of $B$ defining the subscheme $Y$ of $Z$,
+and let $K$ be the ideal in $A$ generated by the $u_{i}(J) \subseteq A$, where the $u_{i} : B \to A$ are the coordinate
+forms with respect to the chosen basis. One observes at once that $T = V(K) = \operatorname{Spec}(A/K)$ satisfies the
+desired condition, which completes the proof.
 
 **Examples 6.5.** Let us give some important examples of functors that reduce to functors $\prod_{Z/S} Y/Z$ of the type
 envisaged in 6.4 and for which it is useful in the sequel to have criteria of representability. We denote by $S$ a
@@ -1129,9 +1097,7 @@ that is the subfunctor of $X$ such that $X'(T)$ is the set of $x \in X(T)$ such 
 through $Z'_{T}$. This functor $X'$ can be described as follows: set $P = X \times_{S} Y$, let $P'$ be the inverse image
 of $Z'$ by $r : P \to Z$; then one has an evident isomorphism
 
-$$
-(***)   X' \simeq \prod_{P/X} P'/P.
-$$
+$$ (***) X' \simeq \prod_{P/X} P'/P. $$
 
 One thus obtains: *if $Y$ is essentially free over $S$ and $Z'$ closed in $Z$, the subfunctor $X'$ of $X$ is
 representable by a closed subprescheme of $X$*.
@@ -1152,8 +1118,8 @@ q : X → Hom_S(Y, Z ×_S Z),
 
 or, again, a morphism $r : X \times_{S} Y \to Z \times_{S} Z$; setting $U = Z \times_{S} Z$, let $U'$ be the diagonal
 subprescheme of $Z \times_{S} Z$; then $X'$ is none other than the inverse image of the subfunctor
-$\operatorname{Hom}_{S}(Y, U') \to \operatorname{Hom}_{S}(Y, U)$ by $q$, hence can be put in the form `(***)`, with
-$P = X \times_{S} Y$ and $P'$ = inverse image of the diagonal by $r$, i.e. kernel of
+$\operatorname{Hom}_{S}(Y, U') \to \operatorname{Hom}_{S}(Y, U)$ by $q$, hence can be put in the form `(***)`, with $P =
+X \times_{S} Y$ and $P'$ = inverse image of the diagonal by $r$, i.e. kernel of
 
 <!-- original page 23 -->
 
@@ -1202,9 +1168,7 @@ invariants under $X$ is representable by a closed subprescheme of $Y$*.
 e) Constructions of the type explained in the preceding examples are especially frequent in group theory. Thus, when $G$
 is an $S$-prescheme in groups acting on the $S$-prescheme $X$:
 
-$$
-q : G \to \operatorname{Aut}_{S}(X),
-$$
+$$ q : G \to \operatorname{Aut}_{S}(X), $$
 
 the kernel of $q$ ("the subgroup of $G$ acting trivially") is a closed subscheme of $G$ provided that $X$ is essentially
 free and separated over $S$ (example (c)), and the subobject $X^{G}$ of invariants is a closed subprescheme of $X$,
@@ -1217,9 +1181,9 @@ Hence: *if $Y$ is essentially free over $S$, and $Z$ closed in $X$, then $Transp
 $G$* (example (a)).
 
 One may also consider the strict transporter of $Y$ into $Z$,[^N.D.E-VIII-28] whose points with values in a $T$ over $S$
-are the $g \in G(T)$ such that $g(Y_{T}) = Z_{T}$, which is nothing but
-$Transp_{G}(Y, Z) \cap \sigma(Transp_{G}(Z, Y))$, where $\sigma$ is the symmetry of $G$. Consequently, if $Y$ and $Z$
-are essentially free over $S$ and closed in $X$, the strict transporter of $Y$ into $Z$ is a closed subprescheme of $G$.
+are the $g \in G(T)$ such that $g(Y_{T}) = Z_{T}$, which is nothing but $Transp_{G}(Y, Z) \cap \sigma(Transp_{G}(Z,
+Y))$, where $\sigma$ is the symmetry of $G$. Consequently, if $Y$ and $Z$ are essentially free over $S$ and closed in
+$X$, the strict transporter of $Y$ into $Z$ is a closed subprescheme of $G$.
 
 An important case is that where $X = G$, with $G$ acting on itself by inner automorphisms. If $H$ is a subprescheme of
 $G$, the strict transporter of $H$ into $H$ is also called the *normalizer of $H$ in $G$*, and denoted $Norm_{G} H$.
@@ -1255,10 +1219,10 @@ also closed, the same conclusion holds for $Transp^{str}_{G}(Y, Z)$.*
 *– For every subprescheme in groups*[^N.D.E-VIII-30] *$H$ of $G$, the normalizer $Norm_{G}(H)$ is a closed subscheme of
 $G$ in groups.*
 
-**Remark 6.8.**[^N.D.E-VIII-31] *Let $A$ be a commutative ring, $M$ an $A$-module,
-$M^{\vee} = \operatorname{Hom}_{A}(M, A)$; endow the $A$-module $\operatorname{End}_{A}(M)$ with the topology of
-pointwise convergence (discrete), i.e. a basis of neighborhoods of `0` is formed by the following $A$-submodules, where
-$n \in \mathbb{N}$ and $m_{1}, \cdots, m_{n} \in M$:*
+**Remark 6.8.**[^N.D.E-VIII-31] *Let $A$ be a commutative ring, $M$ an $A$-module, $M^{\vee} = \operatorname{Hom}_{A}(M,
+A)$; endow the $A$-module $\operatorname{End}_{A}(M)$ with the topology of pointwise convergence (discrete), i.e. a
+basis of neighborhoods of `0` is formed by the following $A$-submodules, where $n \in \mathbb{N}$ and $m_{1}, \cdots,
+m_{n} \in M$:*
 
 <!-- label: III.VIII.6.8 -->
 
@@ -1266,9 +1230,8 @@ $n \in \mathbb{N}$ and $m_{1}, \cdots, m_{n} \in M$:*
 K(m_1, …, m_n) = { u ∈ End_A(M) | u(m_i) = 0  for i = 1, …, n }.
 ```
 
-*We say that $M$ is a* quasi-free $A$-module *if the image of the canonical morphism
-$\Theta : M \otimes_{A} M^{\vee} \to \operatorname{End}_{A}(M)$ contains $id_{M}$ in its closure, i.e. if the following
-condition holds:*
+*We say that $M$ is a* quasi-free $A$-module *if the image of the canonical morphism $\Theta : M \otimes_{A} M^{\vee}
+\to \operatorname{End}_{A}(M)$ contains $id_{M}$ in its closure, i.e. if the following condition holds:*
 
 ```text
 (*)  { for all m_1, …, m_n ∈ M, there exist x_1, …, x_r ∈ M and f_1, …, f_r ∈ M^∨
@@ -1283,11 +1246,11 @@ u(m_i) = ∑_{s=1}^r f_s(m_i) u(x_s) = Θ(∑_{s=1}^r u(x_s) ⊗ f_s)(m_i).)
 ```
 
 Let us note first that this property is stable under base change. Indeed, let $\phi : A \to A'$ be a morphism of rings,
-$M' = M \otimes_{A} A'$, and $m'_{1}, \cdots, m'_{n} \in M'$. Then $m'_{i} = \sum_{j} m_{ij} \otimes b_{ij}$
-($m_{ij} \in M$, $b_{ij} \in A'$); by hypothesis, there exist $x_{1}, \cdots, x_{r} \in M$ and
-$f_{1}, \cdots, f_{r} \in \operatorname{Hom}_{A}(M, A)$ such that $m_{ij} = \sum_{s} x_{s} f_{s}(m_{ij})$ for all
-`i, j`. Denote by $\phi \circ f_{s}$ the image of $f_{s}$ in
-$\operatorname{Hom}_{A}(M, A') = \operatorname{Hom}_{A'}(M', A')$; then for every $i = 1, \cdots, n$ one has:
+$M' = M \otimes_{A} A'$, and $m'_{1}, \cdots, m'_{n} \in M'$. Then $m'_{i} = \sum_{j} m_{ij} \otimes b_{ij}$ ($m_{ij}
+\in M$, $b_{ij} \in A'$); by hypothesis, there exist $x_{1}, \cdots, x_{r} \in M$ and $f_{1}, \cdots, f_{r} \in
+\operatorname{Hom}_{A}(M, A)$ such that $m_{ij} = \sum_{s} x_{s} f_{s}(m_{ij})$ for all `i, j`. Denote by $\phi \circ
+f_{s}$ the image of $f_{s}$ in $\operatorname{Hom}_{A}(M, A') = \operatorname{Hom}_{A'}(M', A')$; then for every $i = 1,
+\cdots, n$ one has:
 
 ```text
 (∑_s x_s ⊗ φ ∘ f_s)(m′_i) = ∑_{s,j} x_s ⊗ φ(f_s(m_{ij})) b_{ij} = ∑_j (∑_s x_s f_s(m_{ij})) ⊗ b_{ij} = m′_i,
@@ -1297,36 +1260,34 @@ $\operatorname{Hom}_{A}(M, A') = \operatorname{Hom}_{A'}(M', A')$; then for ever
 
 which proves that $M'$ is quasi-free over $A'$.
 
-Let us also note that every projective $A$-module $P$ is quasi-free (there exist $A$-morphisms
-$A^{(I)} -\pi\to P -\tau\to A^{(I)}$ such that $\pi \circ \tau = id_{P}$; denote by $(e_{i})$ the canonical basis of
-$A^{(I)}$ and $f_{i}$ the linear form $e^{*}_{i} \circ \tau$ on $P$; if $m_{1}, \cdots, m_{n} \in P$, there exists a
-finite subset $J$ of $I$ such that $m_{k} = \sum_{i \in J} f_{i}(m_{k}) \pi(e_{i})$ for $k = 1, \cdots, n$).
+Let us also note that every projective $A$-module $P$ is quasi-free (there exist $A$-morphisms $A^{(I)} -\pi\to P
+-\tau\to A^{(I)}$ such that $\pi \circ \tau = id_{P}$; denote by $(e_{i})$ the canonical basis of $A^{(I)}$ and $f_{i}$
+the linear form $e^{*}_{i} \circ \tau$ on $P$; if $m_{1}, \cdots, m_{n} \in P$, there exists a finite subset $J$ of $I$
+such that $m_{k} = \sum_{i \in J} f_{i}(m_{k}) \pi(e_{i})$ for $k = 1, \cdots, n$).
 
 Then, Theorem 6.4 remains valid if in the statement of Definition 6.1 the word "free" is replaced by "projective" or,
 more generally, by "quasi-free". Indeed, proceeding as in the proof of 6.4, one is reduced to proving:
 
-**Lemma 6.8.1.** *Let $M$ be a quasi-free $A$-module, $N$ a submodule, $F$ the covariant functor
-$(A-algebras) \to (Ens)$ such that $F(B) = {pt}$ if $M_{B} = (M/N)_{B}$, and $F(B) = \emptyset$ otherwise. Then there
-exists an ideal $K$ of $A$ such that $F(B) = {pt}$ if and only if the morphism $A \to B$ factors through $A/K$, i.e. one
-has a functorial isomorphism in $B$:*
+**Lemma 6.8.1.** *Let $M$ be a quasi-free $A$-module, $N$ a submodule, $F$ the covariant functor $(A-algebras) \to
+(Ens)$ such that $F(B) = {pt}$ if $M_{B} = (M/N)_{B}$, and $F(B) = \emptyset$ otherwise. Then there exists an ideal $K$
+of $A$ such that $F(B) = {pt}$ if and only if the morphism $A \to B$ factors through $A/K$, i.e. one has a functorial
+isomorphism in $B$:*
 
 <!-- label: III.VIII.6.8.1 -->
 
-$$
-F(B) \simeq \operatorname{Hom}_{A-alg.}(A/K, B).
-$$
+$$ F(B) \simeq \operatorname{Hom}_{A-alg.}(A/K, B). $$
 
 *Proof.* Let $(n_{j})$ be a system of generators of $N$, and let $F_{j}$ be the subfunctor of the final functor $e$
 ($e(B) = {pt}$ for every $B$) corresponding to the submodule $A n_{j}$. One has $F(B) = {pt}$ if and only if the image
 of each $n_{j}$ in `M_B` is zero, hence $F$ is the intersection of the functors $F_{j}$. This reduces us to the case
 where $N$ is generated by one element $n$.
 
-Let $\phi : A \to B$ be an $A$-algebra; if the image $n \otimes 1$ of $n$ in `M_B` is zero, then for every
-$f \in M^{\vee} = \operatorname{Hom}_{A}(M, A)$ one has $0 = f(n) \otimes 1 = \phi(f(n))$. On the other hand, since $M$
-is quasi-free, there exist $x_{1}, \cdots, x_{r} \in M$ and $f_{1}, \cdots, f_{r} \in M^{\vee}$ such that
-$n = \sum_{s} f_{s}(n) x_{s}$, whence $n \otimes 1 = \sum_{s} x_{s} \otimes \phi(f_{s}(n))$. It follows that
-$n \otimes 1 = 0$ if and only if $\phi$ factors through $A/K$, where $K$ is the ideal generated by the $f_{s}(n)$ for
-$s = 1, \cdots, r$. This proves the lemma.
+Let $\phi : A \to B$ be an $A$-algebra; if the image $n \otimes 1$ of $n$ in `M_B` is zero, then for every $f \in
+M^{\vee} = \operatorname{Hom}_{A}(M, A)$ one has $0 = f(n) \otimes 1 = \phi(f(n))$. On the other hand, since $M$ is
+quasi-free, there exist $x_{1}, \cdots, x_{r} \in M$ and $f_{1}, \cdots, f_{r} \in M^{\vee}$ such that $n = \sum_{s}
+f_{s}(n) x_{s}$, whence $n \otimes 1 = \sum_{s} x_{s} \otimes \phi(f_{s}(n))$. It follows that $n \otimes 1 = 0$ if and
+only if $\phi$ factors through $A/K$, where $K$ is the ideal generated by the $f_{s}(n)$ for $s = 1, \cdots, r$. This
+proves the lemma.
 
 ## 7. Appendix. On monomorphisms of preschemes in groups
 
@@ -1343,18 +1304,18 @@ over $k$ and $H$ is locally of finite type over $k$. One easily concludes that t
 supposes $S$ Artinian.[^N.D.E-VIII-33]
 
 On the other hand, it is easy to give examples of bijective monomorphisms that are not immersions, with $S$ being for
-example the affine line over a field, or the spectrum of a discrete valuation ring. One will take for example
-$H = (\mathbb{Z}/2\mathbb{Z})_{S}$, $G = G_{1} \times_{S} G_{2}$, where `G_1` is the open subgroup of $H$, the
-complement of the closed point $x$ distinct from `0` of the fiber $H_{s} \simeq \mathbb{Z}/2\mathbb{Z}$ (where $s$
-denotes a fixed closed point of $S$), and `G_2` is the closed subscheme of $H$ that is the sum of the subscheme reduced
-to the unit section, and the closed reduced subscheme defined by the closed point $x$. One easily verifies that `G_2` is
-indeed stable under the multiplication of $H$, hence is a group scheme. The immersions $G_{i} \to H$ ($i = 1, 2$) then
-define a homomorphism of $S$-groups $G = G_{1} \times G_{2} \to H$, which is obviously a bijective monomorphism (and
-moreover a local immersion), but is not an immersion. (One observes that $G$ and $H$ are reduced, $G$ having three
-disjoint irreducible components, while $H$ has only two irreducible components.) One will note that $G_{1} \to H$ also
-gives an example of an open subgroup $G$ of $H$ which is not closed (contrary to what occurs for algebraic groups over a
-field). The theory of the degeneration of elliptic curves provides further examples of this latter phenomenon, with
-moreover $H$ smooth over $S$ of relative dimension `1`, and $G$ with connected fibers.
+example the affine line over a field, or the spectrum of a discrete valuation ring. One will take for example $H =
+(\mathbb{Z}/2\mathbb{Z})_{S}$, $G = G_{1} \times_{S} G_{2}$, where `G_1` is the open subgroup of $H$, the complement of
+the closed point $x$ distinct from `0` of the fiber $H_{s} \simeq \mathbb{Z}/2\mathbb{Z}$ (where $s$ denotes a fixed
+closed point of $S$), and `G_2` is the closed subscheme of $H$ that is the sum of the subscheme reduced to the unit
+section, and the closed reduced subscheme defined by the closed point $x$. One easily verifies that `G_2` is indeed
+stable under the multiplication of $H$, hence is a group scheme. The immersions $G_{i} \to H$ ($i = 1, 2$) then define a
+homomorphism of $S$-groups $G = G_{1} \times G_{2} \to H$, which is obviously a bijective monomorphism (and moreover a
+local immersion), but is not an immersion. (One observes that $G$ and $H$ are reduced, $G$ having three disjoint
+irreducible components, while $H$ has only two irreducible components.) One will note that $G_{1} \to H$ also gives an
+example of an open subgroup $G$ of $H$ which is not closed (contrary to what occurs for algebraic groups over a field).
+The theory of the degeneration of elliptic curves provides further examples of this latter phenomenon, with moreover $H$
+smooth over $S$ of relative dimension `1`, and $G$ with connected fibers.
 
 It is possible[^VIII-7-star] on the other hand that, as soon as one assumes $G$ flat over $S$, and (say) $G$ and $H$ of
 finite presentation over $S$, a monomorphism $u : G \to H$ of $S$-groups is automatically an immersion. We shall prove a
@@ -1440,10 +1401,10 @@ an immersion.*
 When $\kappa(s)$ is of characteristic $p > 0$, we shall restrict to the case where $G$ is commutative. Then (with the
 reductions made) $H$ is also commutative, since it is the schematic closure of $H_{s_{0}}$ which is isomorphic to
 $G_{s_{0}}$, hence commutative. For every integer $n \geqslant 0$, we set $S_{n} = \operatorname{Spec}(V/m^{n+1})$
-(where $V$ is the valuation ring defining $S$ and $m$ its maximal ideal), $G_{n} = G \times_{S} S_{n}$,
-$H_{n} = H \times_{S} S_{n}$. For every integer $m > 0$, we also introduce the subgroups ${}_{mG}$ and ${}_{mH}$ of $G$
-and $H$, kernels of the $m$-th power. One defines similarly ${}_{m}(G_{n}) = ({}_{mG})_{n}$, which one denotes simply
-`_mG_n`, and likewise for $H$.
+(where $V$ is the valuation ring defining $S$ and $m$ its maximal ideal), $G_{n} = G \times_{S} S_{n}$, $H_{n} = H
+\times_{S} S_{n}$. For every integer $m > 0$, we also introduce the subgroups ${}_{mG}$ and ${}_{mH}$ of $G$ and $H$,
+kernels of the $m$-th power. One defines similarly ${}_{m}(G_{n}) = ({}_{mG})_{n}$, which one denotes simply `_mG_n`,
+and likewise for $H$.
 
 By virtue of VI_A 3.2, one can form the quotients $Q_{n} = H_{n}/G_{n}$. Then $Q_{n}$ is a commutative group scheme over
 $S_{n}$, flat over $S_{n}$, and $H_{n} \to Q_{n}$ is a faithfully flat morphism with kernel $G_{n}$. Since the formation
@@ -1458,11 +1419,11 @@ in particular the fiber $Q_{n} \times_{S_{n}} S_{0}$ is none other than $Q_{0} =
 <!-- original page 30 -->
 
 underlying set as `H_0`, then `Q_0` is set-theoretically reduced to a single point: it is a purely infinitesimal group.
-Consequently, each $Q_{n}$ is finite and flat over $S_{n}$. Hence $Q_{n}$ is defined by an algebra $C_{n}$ over
-$V_{n} = V/m^{n+1}$ which is a free module of finite type over this ring, and for $m \geqslant n$ one has
-$C_{n} = C_{m} \otimes_{V_{m}} V_{n}$, an isomorphism also respecting the diagonal map. One thus obtains a free module
-of finite type `C = lim_{←} C_n` over `V = lim_{←} V_n`, and the diagonal maps of the $C_{n}$ define a diagonal map of
-$C$, so that $Q = \operatorname{Spec}(C)$ becomes a group scheme finite and flat over $S$, such that
+Consequently, each $Q_{n}$ is finite and flat over $S_{n}$. Hence $Q_{n}$ is defined by an algebra $C_{n}$ over $V_{n} =
+V/m^{n+1}$ which is a free module of finite type over this ring, and for $m \geqslant n$ one has $C_{n} = C_{m}
+\otimes_{V_{m}} V_{n}$, an isomorphism also respecting the diagonal map. One thus obtains a free module of finite type
+`C = lim_{←} C_n` over `V = lim_{←} V_n`, and the diagonal maps of the $C_{n}$ define a diagonal map of $C$, so that $Q
+= \operatorname{Spec}(C)$ becomes a group scheme finite and flat over $S$, such that
 
 ```text
 Q ×_S S_n = Q_n
@@ -1518,10 +1479,10 @@ that one has a commutative diagram:
 ```
 
 I claim that $v_{n}$ is flat. Indeed, since $H_{n}$ and $G_{n}$ are flat over $S_{n}$, one is reduced to verifying that
-$v_{0}$ is flat (SGA 1, IV 5.9), so one may assume that $n = 0$, whence $S_{n} = \operatorname{Spec}(k)$. Since
-$p \cdot id_{G_{0}}$, and hence $p^{\nu} \cdot id_{G_{0}}$, is flat, its image is an open induced subgroup $G'_{0}$ of
-`G_0`, and since $u_{0} : G_{0} \to H_{0}$ is surjective, it follows that $v_{0}$ takes its values in $G'_{0}$, hence
-may be considered as a homomorphism into $G'_{0}$. Since its composition with $u_{0}$ is an epimorphism, it is itself an
+$v_{0}$ is flat (SGA 1, IV 5.9), so one may assume that $n = 0$, whence $S_{n} = \operatorname{Spec}(k)$. Since $p \cdot
+id_{G_{0}}$, and hence $p^{\nu} \cdot id_{G_{0}}$, is flat, its image is an open induced subgroup $G'_{0}$ of `G_0`, and
+since $u_{0} : G_{0} \to H_{0}$ is surjective, it follows that $v_{0}$ takes its values in $G'_{0}$, hence may be
+considered as a homomorphism into $G'_{0}$. Since its composition with $u_{0}$ is an epimorphism, it is itself an
 epimorphism, hence a flat homomorphism into $G'_{0}$, hence a flat homomorphism into `G_0`. Hence $v_{n}$ is flat, hence
 $Ker v_{n} = {}_{p^{\nu}}H$ is flat over $S$. QED.
 
@@ -1535,32 +1496,24 @@ that for $\nu \geqslant \nu_{1}$, the sequence*
 
 <!-- label: III.VIII.7.6 -->
 
-$$
-0 \to {}_{p^{\nu}}G \to {}_{p^{\nu}}H \to Q \to 0
-$$
+$$ 0 \to {}_{p^{\nu}}G \to {}_{p^{\nu}}H \to Q \to 0 $$
 
 *is exact.*
 
 It suffices to ensure exactness at $Q$, and for this to ensure that the homomorphism
 
-$$
-(*)    O_{Q,e} \to O_{{}_{p^{\nu}}H, e}
-$$
+$$ (*) O_{Q,e} \to O_{{}_{p^{\nu}}H, e} $$
 
 of local rings at the neutral elements is injective (N.B. recall that $Q$ is set-theoretically reduced to the element
 $e$). Now one has a natural homomorphism
 
-$$
-(**)   O_{{}_{p^{\nu}}H, e} \to O_{H,e}/m^{p^{\nu}},
-$$
+$$ (**) O_{{}_{p^{\nu}}H, e} \to O_{H,e}/m^{p^{\nu}}, $$
 
-where $m$ is the augmentation ideal (i.e. the maximal ideal) of $O_{H,e}$, as one sees by noting that
-$p^{\nu} \cdot id_{H}$ vanishes on the kernel of "the iterated Frobenius homomorphism" $F^{\nu}$; the composite of the
-homomorphisms `(*)` and `(**)` is also equal to the natural composite
+where $m$ is the augmentation ideal (i.e. the maximal ideal) of $O_{H,e}$, as one sees by noting that $p^{\nu} \cdot
+id_{H}$ vanishes on the kernel of "the iterated Frobenius homomorphism" $F^{\nu}$; the composite of the homomorphisms
+`(*)` and `(**)` is also equal to the natural composite
 
-$$
-(***)  O_{Q,e} \to O_{H,e} \to O_{H,e}/m^{p^{\nu}}.
-$$
+$$ (***) O_{Q,e} \to O_{H,e} \to O_{H,e}/m^{p^{\nu}}. $$
 
 <!-- original page 32 -->
 
@@ -1628,9 +1581,9 @@ deduced from $u : G \to H$ by the base change $S' \to S$:*
 
 *Under these conditions, $u$ is an immersion.*
 
-It suffices to remark that, in (c), the condition that ${{}_{pG}'}_{0}$ be finite over $S'$ implies that ${{}_{pG}'}_{0}$ is
-finite over $\kappa(s)$, which already implies that $G'_{0} \otimes_{\kappa(s)} \overline{\kappa(s)}$ contains no
-subgroup isomorphic to the additive group, so that one is under the hypotheses of 7.5.
+It suffices to remark that, in (c), the condition that ${{}_{pG}'}_{0}$ be finite over $S'$ implies that
+${{}_{pG}'}_{0}$ is finite over $\kappa(s)$, which already implies that $G'_{0} \otimes_{\kappa(s)}
+\overline{\kappa(s)}$ contains no subgroup isomorphic to the additive group, so that one is under the hypotheses of 7.5.
 
 <!-- original page 29 -->
 
@@ -1650,9 +1603,7 @@ no subgroup isomorphic to $G_{a}$. Let $n$ = degree $H/H^{0}$; then the homomorp
 
 <!-- label: III.VIII.7.11 -->
 
-$$
-{}_{nH} \to H/H^{0}
-$$
+$$ {}_{nH} \to H/H^{0} $$
 
 *is surjective.*
 
@@ -1836,8 +1787,8 @@ ______________________________________________________________________
 
 [^N.D.E-VIII-17]: N.D.E.: We have added the sentence that follows.
 
-[^N.D.E-VIII-18]: N.D.E.: Indeed, for every $b \in A$, $a_{m} \in A_{m}$, one has
-    $\theta(b \otimes a_{m}) = b a_{m} \otimes e_{m}$, hence the surjectivity of $\theta$ is equivalent to `(*)`.
+[^N.D.E-VIII-18]: N.D.E.: Indeed, for every $b \in A$, $a_{m} \in A_{m}$, one has $\theta(b \otimes a_{m}) = b a_{m}
+    \otimes e_{m}$, hence the surjectivity of $\theta$ is equivalent to `(*)`.
 
 [^N.D.E-VIII-19]: N.D.E.: We have denoted by $K$ the ideal denoted $J$ in the original, in order to distinguish it from
     the ideals $J_{p}$ of `A_0` appearing in `(***)`. We have also made explicit later that the relations `(**)` are
@@ -1881,8 +1832,8 @@ ______________________________________________________________________
 [^N.D.E-VIII-33]: N.D.E.: take into account the additions made in VI_B…
 
 [^VIII-7-star]: In fact, M. Raynaud has constructed a counter-example, with $G$ smooth with connected fibers, cf. XVI
-    1.1 (c). If one does not assume $G$ has connected fibers, one may take $S = \operatorname{Spec}(\mathbb{Z}_{2})$,
-    $G = (\mathbb{Z}/2\mathbb{Z})_{S}$ deprived of the non-neutral closed point, $H = (\mu_{2})_{S}$.
+    1.1 (c). If one does not assume $G$ has connected fibers, one may take $S = \operatorname{Spec}(\mathbb{Z}_{2})$, $G
+    = (\mathbb{Z}/2\mathbb{Z})_{S}$ deprived of the non-neutral closed point, $H = (\mu_{2})_{S}$.
 
 [^N.D.E-VIII-34]: N.D.E.: cf. EGA IV₃, § 8, and Exp. VI_B, § 10.
 

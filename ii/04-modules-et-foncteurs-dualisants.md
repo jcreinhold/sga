@@ -43,11 +43,8 @@ Composing with the isomorphism $M \xrightarrow{\sim} \operatorname{Hom}_{A}(A, M
 $\operatorname{Hom}_{A}(A, M) \to \operatorname{Hom}_{A}(T(M), T(A))$, one obtains the following morphisms, each deduced
 from the other in an obvious way:
 
-$$
-M \longrightarrow \operatorname{Hom}_{A}(T(M), T(A)),
-M \times T(M) \longrightarrow T(A),
-T(M) \longrightarrow \operatorname{Hom}_{A}(M, T(A)),
-$$
+$$ M \longrightarrow \operatorname{Hom}_{A}(T(M), T(A)), M \times T(M) \longrightarrow T(A), T(M) \longrightarrow
+\operatorname{Hom}_{A}(M, T(A)), $$
 
 and this defines a morphism $\phi_{T}$ of contravariant functors:
 
@@ -82,28 +79,20 @@ arbitrary inverse limits (over a preordered set, not necessarily filtered).
 If $\operatorname{Hom}(C^{\circ}, Ab)_{g}$ denotes the full subcategory of $\operatorname{Hom}(C^{\circ}, Ab)$ whose
 objects are the left exact functors, one has proved the equivalence of categories
 
-$$
-C' \xrightarrow{\sim} \operatorname{Hom}(C^{\circ}, Ab)_{g}
-$$
+$$ C' \xrightarrow{\sim} \operatorname{Hom}(C^{\circ}, Ab)_{g} $$
 
 via the quasi-inverse functors
 
-$$
-H \mapsto \operatorname{Hom}_{A}(-, H)
-$$
+$$ H \mapsto \operatorname{Hom}_{A}(-, H) $$
 
 and
 
-$$
-T \mapsto T(A).
-$$
+$$ T \mapsto T(A). $$
 
 Now let $J$ be an ideal of $A$, let $Y = V(J) \subset \operatorname{Spec} A$, and denote by `C_Y` the full subcategory
 of $C$ whose objects are the $A$-modules $M$ of finite type such that $Supp M \subset Y$. One has
 
-$$
-C_{Y} = \bigcup_{n} C^{(n)},
-$$
+$$ C_{Y} = \bigcup_{n} C^{(n)}, $$
 
 where $C^{(n)}$ is the full subcategory of `C_Y` consisting of the modules $M$ such that $J^{n} M = 0$.
 
@@ -113,8 +102,8 @@ where $C^{(n)}$ is the full subcategory of `C_Y` consisting of the modules $M$ s
 
 <!-- label: IV.1.3 -->
 
-With the same notation as above, let $T : C^{\circ}_{Y} \to Ab$ be a functor. To
-$H = \varinjlim T(A/J^{n})$[^N.D.E-IV-1] is associated a natural morphism
+With the same notation as above, let $T : C^{\circ}_{Y} \to Ab$ be a functor. To $H = \varinjlim
+T(A/J^{n})$[^N.D.E-IV-1] is associated a natural morphism
 
 ```text
 φ_T : T ⟶ Hom_A(−, H),
@@ -150,8 +139,8 @@ and
 
 b) *Equivalence of (i) and (ii).*
 
-It is clear that (i) implies (ii). Suppose (ii) holds and let $M \in Ob C^{(n)}$. We have seen that
-$T_{n}(M) \xrightarrow{\sim} \operatorname{Hom}_{A}(M, H_{n})$; hence for every integer $n' > n$ one has
+It is clear that (i) implies (ii). Suppose (ii) holds and let $M \in Ob C^{(n)}$. We have seen that $T_{n}(M)
+\xrightarrow{\sim} \operatorname{Hom}_{A}(M, H_{n})$; hence for every integer $n' > n$ one has
 
 ```text
 T(M) = T_n(M) = T_{n′}(M) = lim_→ T_n(M),
@@ -172,18 +161,14 @@ lim_→ Hom_A(M, H_n) ⥲ Hom_A(M, lim_→ H_n) = Hom_A(M, H).
 If $C'_{Y}$ denotes the category of $A$-modules with support contained in $Y$, but not necessarily of finite type, one
 again has the natural equivalence of categories
 
-$$
-C'_{Y} \xrightarrow{\sim} \operatorname{Hom}(C^{\circ}_{Y}, Ab)_{g}.
-$$
+$$ C'_{Y} \xrightarrow{\sim} \operatorname{Hom}(C^{\circ}_{Y}, Ab)_{g}. $$
 
 *Application.* — With the same notation, let
 
-$$
-T^{\bullet} : C^{\circ}_{Y} \longrightarrow Ab
-$$
+$$ T^{\bullet} : C^{\circ}_{Y} \longrightarrow Ab $$
 
-be an exact $\partial$-functor. For every $i \in \mathbb{Z}$, set $H^{i}_{n} = T^{i}(A/J^{n})$ and
-$H^{i} = \varinjlim H^{i}_{n}$.
+be an exact $\partial$-functor. For every $i \in \mathbb{Z}$, set $H^{i}_{n} = T^{i}(A/J^{n})$ and $H^{i} = \varinjlim
+H^{i}_{n}$.
 
 **Theorem.**
 
@@ -202,15 +187,13 @@ We show by induction on $n$ that (ii) implies (i). It is true for $n = i_{0}$; s
 $n$. Suppose then that $H^{i} = 0$ for every $i < n + 1$; by the induction hypothesis one has $T^{i} = 0$ for $i < n$,
 but $T^{n-1} = 0$ implies that $T^{n}$ is a left exact functor, and
 
-$$
-T^{n} \xrightarrow{\sim} \operatorname{Hom}_{A}(-, H^{n}) = 0.
-$$
+$$ T^{n} \xrightarrow{\sim} \operatorname{Hom}_{A}(-, H^{n}) = 0. $$
 
 We now show that (iii) implies (ii). It is again true for $n = i_{0}$; suppose it has been proved up to rank $n$. Let
 $M_{0}$ be an $A$-module in `C_Y` such that $Supp M_{0} = Y$ and $T^{i}(M_{0}) = 0$ for every $i < n + 1$; by the
 induction hypothesis one then has $H^{i} = 0$ for every $i < n$; it remains to show that $H^{n} = 0$. But "$H^{i} = 0$
-for every $i < n$" implies that $T^{n-1} = 0$, and therefore that
-$T^{n} \xrightarrow{\sim} \operatorname{Hom}_{A}(-, H^{n})$. One then has
+for every $i < n$" implies that $T^{n-1} = 0$, and therefore that $T^{n} \xrightarrow{\sim} \operatorname{Hom}_{A}(-,
+H^{n})$. One then has
 
 <!-- original page 47 -->
 
@@ -238,9 +221,7 @@ Y = V(J),    T : C_Y° ⟶ Ab,    H = lim_→ T(A/J^n),
 
 where we assume that $T$ is a left exact functor, whence
 
-$$
-T(M) \xrightarrow{\sim} \operatorname{Hom}_{A}(M, H).
-$$
+$$ T(M) \xrightarrow{\sim} \operatorname{Hom}_{A}(M, H). $$
 
 **Proposition.**
 
@@ -256,8 +237,8 @@ functor $\operatorname{Hom}_{A}(-, H)$ is an exact functor, then $H$ is injectiv
 to show that $H$ is injective it suffices to prove that every homomorphism $f : N \to H$ whose source is an $A$-module
 $N$ of finite type, a submodule of an $A$-module $M$ of finite type, extends to a homomorphism $\bar{f} : M \to H$.
 
-The definition of $H$ and the fact that $N$ is of finite type imply that there exists an integer $n$ such that
-$J^{n} \cdot f(N) = 0$. Endow $M$ and $N$ with the $J$-adic topology. The $J$-adic topology of $N$ is equivalent to the
+The definition of $H$ and the fact that $N$ is of finite type imply that there exists an integer $n$ such that $J^{n}
+\cdot f(N) = 0$. Endow $M$ and $N$ with the $J$-adic topology. The $J$-adic topology of $N$ is equivalent to the
 topology induced by the $J$-adic topology of $M$ (Krull's theorem). There therefore exists $V = J^{k} \cdot M$ such that
 
 ```text
@@ -314,9 +295,7 @@ is then an isomorphism. The result follows, since $\operatorname{Hom}_{A}(-, K)$
 
 Let, as above,
 
-$$
-T : C^{\circ}_{Y} \longrightarrow Ab;
-$$
+$$ T : C^{\circ}_{Y} \longrightarrow Ab; $$
 
 we now assume that $T$ is left exact and that one has the factorization
 
@@ -339,9 +318,7 @@ M ⟶ Hom_A(Hom_A(M, H), H)
 
 defines a morphism
 
-$$
-M \longrightarrow T \circ T(M).
-$$
+$$ M \longrightarrow T \circ T(M). $$
 
 <!-- original page 49 -->
 
@@ -354,8 +331,8 @@ following conditions are equivalent:
 
 1. $T$ is left exact and, for every $M \in Ob C_{Y}$, $T(M)$ is of finite type and $M \to T \circ T(M)$ is an
    isomorphism.
-1. $T$ is exact and, for every residue field $k$ associated to a maximal ideal containing $J$, one has
-   $T(k) \xrightarrow{\sim} k$.
+1. $T$ is exact and, for every residue field $k$ associated to a maximal ideal containing $J$, one has $T(k)
+   \xrightarrow{\sim} k$.
 1. One has $T \xrightarrow{\sim} \operatorname{Hom}_{A}(-, H)$ with $H$ injective, and, for every $k$ as in (ii), one
    has $\operatorname{Hom}_{A}(k, H) \xrightarrow{\sim} k$.
 1. $T$ is exact and, for every $M \in Ob C_{Y}$, one has $long T(M) = long M$.
@@ -364,18 +341,14 @@ following conditions are equivalent:
 
 Let us show that (ii) implies (iv): first, if $M \in Ob C_{Y}$, then since $M$ is an $A/J^{n}$-module with $A/J^{n}$
 artinian, `long M` is finite. We argue by induction on the length of $M$. Condition (iv) holds when $long M = 1$,
-because then $M$ is a residue field falling under (ii). If $long M > 1$, there exists a submodule $M'$ of $M$ with
-$M' \neq 0$ and $long M' < long M$. Form the exact sequence
+because then $M$ is a residue field falling under (ii). If $long M > 1$, there exists a submodule $M'$ of $M$ with $M'
+\neq 0$ and $long M' < long M$. Form the exact sequence
 
-$$
-0 \longrightarrow M' \longrightarrow M \longrightarrow M'' \longrightarrow 0.
-$$
+$$ 0 \longrightarrow M' \longrightarrow M \longrightarrow M'' \longrightarrow 0. $$
 
 Since $T$ is exact, one has the sequence
 
-$$
-0 \longrightarrow T(M') \longrightarrow T(M) \longrightarrow T(M'') \longrightarrow 0,
-$$
+$$ 0 \longrightarrow T(M') \longrightarrow T(M) \longrightarrow T(M'') \longrightarrow 0, $$
 
 and `long T(M) = long T(M′) + long T(M′′) = long M′ + long M′′ = long M`.
 
@@ -387,26 +360,19 @@ is true. In the general case, write the commutative diagram with exact rows
 
 <!-- original page 50 -->
 
-$$
-0 \longrightarrow  M'  \longrightarrow  M  \longrightarrow  M'' \longrightarrow 0
-      \downarrow        \downarrow       \downarrow
-0 \longrightarrow T\circ T(M') \longrightarrow T\circ T(M) \longrightarrow T\circ T(M'') \longrightarrow 0,
-$$
+$$ 0 \longrightarrow M' \longrightarrow M \longrightarrow M'' \longrightarrow 0 \downarrow \downarrow \downarrow 0
+\longrightarrow T\circ T(M') \longrightarrow T\circ T(M) \longrightarrow T\circ T(M'') \longrightarrow 0, $$
 
 where $M'$ is a submodule of $M$ with $M' \neq 0$ and $long M' < long M$. By the induction hypothesis the outer arrows
 are isomorphisms, hence
 
-$$
-M \longrightarrow T \circ T(M)
-$$
+$$ M \longrightarrow T \circ T(M) $$
 
 is an isomorphism.
 
 (i) ⇒ (ii): Let
 
-$$
-0 \longrightarrow M' \longrightarrow M \longrightarrow M'' \longrightarrow 0
-$$
+$$ 0 \longrightarrow M' \longrightarrow M \longrightarrow M'' \longrightarrow 0 $$
 
 be an exact sequence of $A$-modules in `C_Y`, and let $Q$ be the cokernel of $T(M) \to T(M')$. Applying $T$ to the exact
 sequence
@@ -417,19 +383,15 @@ sequence
 
 one obtains
 
-$$
-0 \longrightarrow T(Q) \longrightarrow T\circ T(M') \longrightarrow T\circ T(M)
-                \uparrow          \uparrow
-                \cong          \cong
-                M'    \longrightarrow    M
-$$
+$$ 0 \longrightarrow T(Q) \longrightarrow T\circ T(M') \longrightarrow T\circ T(M) \uparrow \uparrow \cong \cong M'
+\longrightarrow M $$
 
 hence $T(Q) = 0$ and $Q \xrightarrow{\sim} T(T(Q)) = 0$.
 
 <!-- original page 51 -->
 
-On the other hand, let $k$ be a residue field, $k = A/\mathfrak{m}$, $J \subset \mathfrak{m}$. One must show that
-$T(k) \xrightarrow{\sim} k$. For this it suffices to note that $T(k)$ is a $k$-vector space. One then deduces
+On the other hand, let $k$ be a residue field, $k = A/\mathfrak{m}$, $J \subset \mathfrak{m}$. One must show that $T(k)
+\xrightarrow{\sim} k$. For this it suffices to note that $T(k)$ is a $k$-vector space. One then deduces
 
 ```text
 T(k) ≃ k ⊕ V,
@@ -438,9 +400,8 @@ T(T(k)) ≃ T(k) ⊕ T(V) ≃ k ⊕ V ⊕ T(V) ≃ k,
 
 whence $V = 0$.
 
-Finally, let us show that (iv) implies (iii): it suffices to show that $T(k) \xrightarrow{\sim} k$. Now
-$long T(k) = long k = 1$, so $T(k) = k'$ is a residue field, and `Supp k′ = Supp Hom_A(k, H) ⊂ Supp k`. Hence
-$k \simeq k'$.
+Finally, let us show that (iv) implies (iii): it suffices to show that $T(k) \xrightarrow{\sim} k$. Now $long T(k) =
+long k = 1$, so $T(k) = k'$ is a residue field, and `Supp k′ = Supp Hom_A(k, H) ⊂ Supp k`. Hence $k \simeq k'$.
 
 **Remark.**
 
@@ -460,13 +421,11 @@ One can show that condition (iv) is equivalent to the condition
 
 Let $A$ be a noetherian local ring with maximal ideal $\mathfrak{m}$. A *dualizing functor* for $A$ is any functor
 
-$$
-T : C^{\circ}_{\mathfrak{m}} \longrightarrow Ab,
-$$
+$$ T : C^{\circ}_{\mathfrak{m}} \longrightarrow Ab, $$
 
 where we write $C_{\mathfrak{m}}$ in place of `C_Y` for $Y = V(\mathfrak{m})$, which satisfies the equivalent conditions
-of Proposition 3.1. An $A$-module $I$ is said to be *dualizing* for $A$ if the functor
-$M \mapsto \operatorname{Hom}_{A}(M, I)$ is dualizing.
+of Proposition 3.1. An $A$-module $I$ is said to be *dualizing* for $A$ if the functor $M \mapsto
+\operatorname{Hom}_{A}(M, I)$ is dualizing.
 
 Definition 4.1 can be generalized to the case where $A$ is no longer assumed to be a local ring.
 
@@ -478,9 +437,7 @@ Let $A$ be a noetherian ring, and let $\bar{C}$ be the full subcategory of $C$ c
 length. A *dualizing functor* is any $A$-linear functor $T$ from $\bar{C}^{\circ}$ to $\bar{C}$ which is exact and such
 that the morphism of functors
 
-$$
-id \longrightarrow T \circ T
-$$
+$$ id \longrightarrow T \circ T $$
 
 is an isomorphism.
 
@@ -500,15 +457,11 @@ module for $B$.
 
 *Proof.* — Let
 
-$$
-R : C_{\mathfrak{m}_{B}} \longrightarrow C_{\mathfrak{m}_{A}}
-$$
+$$ R : C_{\mathfrak{m}_{B}} \longrightarrow C_{\mathfrak{m}_{A}} $$
 
 be the restriction-of-scalars functor; it is exact. Let $T$ be a dualizing functor for $A$,
 
-$$
-T : C_{\mathfrak{m}_{A}} \longrightarrow Ab;
-$$
+$$ T : C_{\mathfrak{m}_{A}} \longrightarrow Ab; $$
 
 it is exact and, for every $M \in Ob C_{\mathfrak{m}_{A}}$, the natural morphism $M \to T \circ T(M)$ is an isomorphism;
 hence $T \circ R$ is a dualizing functor for $B$. If $I$ represents $T$, then by the classical formula
@@ -535,9 +488,9 @@ I ⥲ Î = I ⊗_A Â.
 *Proof.* — Let $I_{n}$ denote the annihilator of $\mathfrak{m}^{n}$ in $I$, where $\mathfrak{m}$ is the maximal ideal of
 $A$. To say that $I$ is locally artinian is to say that $I$ is the direct limit of the $I_{n}$ and that these are of
 finite length. Now the tensor product commutes with direct limits, so one is reduced to the case where $I$ is artinian.
-In this case $I$ is annihilated by some power of the maximal ideal, say $\mathfrak{m}^{k}$; therefore for
-$p \geqslant k$ one has $I \xrightarrow{\sim} I \otimes_{A} A/\mathfrak{m}^{p}$, and hence
-$I \xrightarrow{\sim} I \otimes_{A} \hat{A}$, since $A$ is noetherian and $I$ is of finite type.
+In this case $I$ is annihilated by some power of the maximal ideal, say $\mathfrak{m}^{k}$; therefore for $p \geqslant
+k$ one has $I \xrightarrow{\sim} I \otimes_{A} A/\mathfrak{m}^{p}$, and hence $I \xrightarrow{\sim} I \otimes_{A}
+\hat{A}$, since $A$ is noetherian and $I$ is of finite type.
 
 It follows that the restriction-of-scalars functor from `Â` to $A$ and the extension-of-scalars functor induce
 quasi-inverse equivalences between the category of locally artinian `Â`-modules and the category of locally artinian
@@ -608,15 +561,11 @@ Hom_A(k, I) ↪ Hom_A(A, I) ≃ I,
 
 one obtains the inclusion
 
-$$
-k \hookrightarrow I.
-$$
+$$ k \hookrightarrow I. $$
 
 Let us show that $I$ is an injective envelope of $k$. Let $J$ be an injective module such that
 
-$$
-k \subset J \subset I.
-$$
+$$ k \subset J \subset I. $$
 
 Since $J$ is injective, there exists an injective $A$-submodule $J'$ of $I$ such that $I = J \oplus J'$. We show that
 $\operatorname{Hom}_{A}(k, J') = 0$. One has
@@ -638,12 +587,10 @@ finite length; since $I$ is the direct limit of the modules $\operatorname{Hom}(
 Conversely, let $I$ be an injective envelope of $k$. To see that $I$ is a dualizing module, it suffices, by 2.1 and 3.1
 (ii), to show that $V = \operatorname{Hom}_{A}(k, I)$ is isomorphic to $k$. Now one has the double inclusion
 
-$$
-k \subset V \subset I;
-$$
+$$ k \subset V \subset I; $$
 
-$V$ is a vector space over $k$ that decomposes as the direct sum of $k$ and a vector subspace $V'$ of $I$ such that
-$V' \cap k = 0$. Now $I$ is an essential extension of $k$, hence $V' = 0$ and $V = k$.
+$V$ is a vector space over $k$ that decomposes as the direct sum of $k$ and a vector subspace $V'$ of $I$ such that $V'
+\cap k = 0$. Now $I$ is an essential extension of $k$, hence $V' = 0$ and $V = k$.
 
 **Corollary.**
 
@@ -654,9 +601,7 @@ Let $A$ be a noetherian local ring; every dualizing module for $A$ is locally ar
 *Proof.* — Let $I$ be a dualizing module; it is an injective envelope of $k$. Using the notation and the result of
 Corollary 2.2, one has
 
-$$
-k \subset H^{0}_{\mathfrak{m}}(I) \subset I,
-$$
+$$ k \subset H^{0}_{\mathfrak{m}}(I) \subset I, $$
 
 and $H^{0}_{\mathfrak{m}}(I)$ is injective. One deduces that $I = H^{0}_{\mathfrak{m}}(I)$, and hence that $I$ is
 locally artinian.[^N.D.E-IV-5]
@@ -691,12 +636,12 @@ In particular:
 
 and so on.
 
-Let $A$ be a noetherian local ring, let $\mathcal{D}_{A}$ be the category of $A$-modules $M$ such that, for every
-$n \in \mathbb{N}$, $M_{n} = M/\mathfrak{m}^{n+1}M$ is of finite length and such that $M = \varprojlim M_{n}$, and let
-`Â` be the completion of $A$. The restriction-of-scalars functor and the completion functor are quasi-inverse
-equivalences between $\mathcal{D}_{A}$ and $\mathcal{D}_{\hat{A}}$, which commute up to isomorphism with the formation
-of the underlying abelian groups of the modules considered. Let $\mathcal{C}_{A}$ denote the category of locally
-artinian $A$-modules with socle of finite dimension.
+Let $A$ be a noetherian local ring, let $\mathcal{D}_{A}$ be the category of $A$-modules $M$ such that, for every $n \in
+\mathbb{N}$, $M_{n} = M/\mathfrak{m}^{n+1}M$ is of finite length and such that $M = \varprojlim M_{n}$, and let `Â` be
+the completion of $A$. The restriction-of-scalars functor and the completion functor are quasi-inverse equivalences
+between $\mathcal{D}_{A}$ and $\mathcal{D}_{\hat{A}}$, which commute up to isomorphism with the formation of the
+underlying abelian groups of the modules considered. Let $\mathcal{C}_{A}$ denote the category of locally artinian
+$A$-modules with socle of finite dimension.
 
 **Proposition.**
 
@@ -772,9 +717,7 @@ Let $A$ be a local ring with residue field $k$. Let $k_{0}$ be a subfield of $A$
 with $[k : k_{0}] = d$. Every $A$-module of finite length can be viewed as a $k_{0}$-vector space of finite dimension
 equal to $d \cdot long(M)$. The functor $T$:
 
-$$
-M \longrightarrow \operatorname{Hom}_{k_{0}}(M, k_{0})
-$$
+$$ M \longrightarrow \operatorname{Hom}_{k_{0}}(M, k_{0}) $$
 
 is then exact and preserves length, hence is dualizing for $A$. The associated dualizing module is therefore
 
@@ -810,9 +753,7 @@ $Ext^{n}_{A}(-, A)$ is exact, and moreover $Ext^{n}_{A}(k, A) \simeq k$; it foll
 
 If $A$ is a regular noetherian local ring of dimension $n$, the functor
 
-$$
-M \longrightarrow Ext^{n}_{A}(M, A)
-$$
+$$ M \longrightarrow Ext^{n}_{A}(M, A) $$
 
 is dualizing. The associated dualizing module is
 
@@ -833,17 +774,13 @@ field of representatives, say $K$. If one chooses a system of parameters $(x_{1}
 construct an isomorphism between $A$ and the ring of formal power series $K[[T_{1}, \cdots, T_{n}]]$; whence, as we
 shall now see, an explicit isomorphism between the two dualizing modules
 
-$$
-v : H^{n}_{\mathfrak{m}}(A) \longrightarrow A'.
-$$
+$$ v : H^{n}_{\mathfrak{m}}(A) \longrightarrow A'. $$
 
 One can find an intrinsic interpretation of this isomorphism using the module $\Omega^{n} = \Omega^{n}(A/K)$ of
 completed relative differentials of maximal degree. Indeed, it is known that $\Omega^{n}$ admits a basis consisting of
 the element $dx_{1} \wedge dx_{2} \cdots \wedge dx_{n}$. Whence an isomorphism
 
-$$
-u : H^{n}_{\mathfrak{m}}(\Omega^{n}) \longrightarrow H^{n}_{\mathfrak{m}}(A).
-$$
+$$ u : H^{n}_{\mathfrak{m}}(\Omega^{n}) \longrightarrow H^{n}_{\mathfrak{m}}(A). $$
 
 A remarkable fact is then that the composite
 
@@ -878,13 +815,11 @@ is multiplication by $x^{s}_{1} x^{s}_{2} \cdots x^{s}_{n}$, so
 u_{r, r+s}(e^r_{a₁,…,a_n}) = e^{r+s}_{a₁+s, …, a_n+s}.
 ```
 
-Note that giving an $A$-homomorphism $w$ from an $A$-module $M$ to $A'$ is equivalent to giving a $K$-linear form
-$w' : M \to K$ that is continuous on submodules of finite type. In the case $M = H^{n}_{\mathfrak{m}}(\Omega^{n})$, the
+Note that giving an $A$-homomorphism $w$ from an $A$-module $M$ to $A'$ is equivalent to giving a $K$-linear form $w' :
+M \to K$ that is continuous on submodules of finite type. In the case $M = H^{n}_{\mathfrak{m}}(\Omega^{n})$, the
 definition of $w$ is therefore equivalent to that of a linear form
 
-$$
-\rho : H^{n}_{\mathfrak{m}}(\Omega^{n}) \longrightarrow K,
-$$
+$$ \rho : H^{n}_{\mathfrak{m}}(\Omega^{n}) \longrightarrow K, $$
 
 called the *residue form*.[^IV-5-2] To construct $\rho$, it suffices to define forms $\rho_{r} : I_{r} \to K$ that fit
 together, and one will take
@@ -921,12 +856,11 @@ together, and one will take
 
 [^N.D.E-IV-1]: *N.D.E.* The definition of $H$ is implicit in the original text.
 
-[^N.D.E-IV-2]: *N.D.E.* Here one must understand by "the completion of $I$" the tensor product
-    $\hat{I} = I \otimes_{A} \hat{A}$ (cf. Lemma 4.5), namely $I$ endowed with its canonical `Â`-module structure, and
-    not the $\mathfrak{m}$-adic completion. For example, if $p$ is a prime number and $A = \hat{A} = \mathbb{Z}_{p}$ is
-    the ring of $p$-adic integers, then the injective envelope of the residue field $k = \mathbb{Z}/p\mathbb{Z}$ is the
-    discrete $\mathbb{Z}_{p}$-module $\mathbb{Q}_{p}/\mathbb{Z}_{p}$, whose completion for the $p$-adic topology is
-    zero.
+[^N.D.E-IV-2]: *N.D.E.* Here one must understand by "the completion of $I$" the tensor product $\hat{I} = I \otimes_{A}
+    \hat{A}$ (cf. Lemma 4.5), namely $I$ endowed with its canonical `Â`-module structure, and not the
+    $\mathfrak{m}$-adic completion. For example, if $p$ is a prime number and $A = \hat{A} = \mathbb{Z}_{p}$ is the ring
+    of $p$-adic integers, then the injective envelope of the residue field $k = \mathbb{Z}/p\mathbb{Z}$ is the discrete
+    $\mathbb{Z}_{p}$-module $\mathbb{Q}_{p}/\mathbb{Z}_{p}$, whose completion for the $p$-adic topology is zero.
 
 [^N.D.E-IV-3]: *N.D.E.* See Cohen I.S., "On the structure and ideal theory of complete local rings", *Trans. Amer. Math.
     Soc.* **59** (1946), pp. 54–106.
@@ -944,9 +878,8 @@ together, and one will take
 [^N.D.E-IV-5]: *N.D.E.* As already observed, one may also simply remark that $I$ is the direct limit of the modules
     $\operatorname{Hom}_{A}(A/\mathfrak{m}^{n}, I)$.
 
-[^IV-5-1]: Let $A$ be a ring, $J$ an ideal of $A$, $M$ an $A$-module, $i \in \mathbb{Z}$; one then sets
-    $H^{i}_{J}(M) = H^{i}_{Y}(X, \tilde{F})$, where $X = \operatorname{Spec}(A)$, $Y = V(J)$ and
-    $\tilde{F} = \tilde{M}$.
+[^IV-5-1]: Let $A$ be a ring, $J$ an ideal of $A$, $M$ an $A$-module, $i \in \mathbb{Z}$; one then sets $H^{i}_{J}(M) =
+    H^{i}_{Y}(X, \tilde{F})$, where $X = \operatorname{Spec}(A)$, $Y = V(J)$ and $\tilde{F} = \tilde{M}$.
 
 [^IV-5-2]: For a more detailed study of the notion of residue, cf. R. Hartshorne, *Residues and Duality*, Lect. Notes in
     Math., vol. 20, Springer, 1966.

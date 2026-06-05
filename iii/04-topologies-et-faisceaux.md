@@ -81,8 +81,8 @@ T ×_S T ⇉_{pr₁,pr₂} T —u→ S
 ```
 
 *is exact, i.e. if $u$ makes $S$ into a cokernel of $(pr_{1}, pr_{2})$. One says that $u$ is a* universal effective
-epimorphism *if for every morphism $S' \to S$, the fiber product $T' = T \times_{S} S'$ exists, and the morphism
-$u' : T' \to S'$ is an effective epimorphism.*
+epimorphism *if for every morphism $S' \to S$, the fiber product $T' = T \times_{S} S'$ exists, and the morphism $u' :
+T' \to S'$ is an effective epimorphism.*
 
 <!-- label: III.IV.1.3 -->
 
@@ -136,8 +136,8 @@ be such, and this is also necessary if one supposes that $S$ is a squarable obje
 Immediate proof left to the reader. One uses the hypothesis "$S$ squarable" in order to interpret the $C$-morphisms from
 an object $Y$ of $C/S$ into an object $Z$ of $C$ as the $C/S$-morphisms from $Y$ into $Z \times S$.
 
-**Lemma 1.7.** *With the notation of 1.4: `u, v` effective epimorphisms and $v$ universal epimorphism
-$\Longrightarrow uv$ effective epimorphism.*
+**Lemma 1.7.** *With the notation of 1.4: `u, v` effective epimorphisms and $v$ universal epimorphism $\Longrightarrow
+uv$ effective epimorphism.*
 
 <!-- label: III.IV.1.7 -->
 
@@ -176,9 +176,9 @@ U ⇇ U ×_S T ⇇ U ×_S T ×_S T
 U ×_S U ⇇ U ×_S U ×_S T ⇇ U ×_S U ×_S T ×_S T.
 ```
 
-Columns 1, 2, 3 are exact by virtue of the hypothesis "`uv` universal effective epimorphism", row 2 is exact, since
-$U \times_{S} T \to U$ is an effective epimorphism (because it has a section over $U$), and the same holds for row 3
-(same reason). An evident diagram-chase then shows that row 1 is exact, i.e. $u$ is an effective epimorphism. As the
+Columns 1, 2, 3 are exact by virtue of the hypothesis "`uv` universal effective epimorphism", row 2 is exact, since $U
+\times_{S} T \to U$ is an effective epimorphism (because it has a section over $U$), and the same holds for row 3 (same
+reason). An evident diagram-chase then shows that row 1 is exact, i.e. $u$ is an effective epimorphism. As the
 hypotheses made are invariant under any change of base $S' \to S$, it follows that $u$ is in fact a universal effective
 epimorphism.
 
@@ -224,8 +224,8 @@ epimorphism" or "universal and effective epimorphism", or simply by "epimorphism
 
 In the proof of 1.8 we used the following result, which deserves to be made explicit:
 
-**Proposition 1.12.** *Let $u : T \to S$ be a morphism that admits a section. Then $u$ is an epimorphism, and if
-$T \times_{S} T$ exists, it is an effective epimorphism, and a universal effective epimorphism if moreover $u$ is
+**Proposition 1.12.** *Let $u : T \to S$ be a morphism that admits a section. Then $u$ is an epimorphism, and if $T
+\times_{S} T$ exists, it is an effective epimorphism, and a universal effective epimorphism if moreover $u$ is
 squarable.*
 
 <!-- label: III.IV.1.12 -->
@@ -255,22 +255,20 @@ $S$-morphism $T' \to T$ defining a map
 ```
 
 Fix $T$ and $T'$ in $C/S$. A well-known calculation shows that if there exists an $S$-morphism from $T'$ into $T$, the
-corresponding map (+) is in fact independent of the choice of this morphism,[^N.D.E-IV-6] so that
-$\check{H}^{0}(T/S, F)$ may be regarded as a functor on the category associated to the set $Ob C/S$ preordered by the
-relation of "domination" ($T'$ dominates $T$ if there exists an $S$-morphism from $T'$ into $T$). In particular, if $T$
-and $T'$ are isomorphic in this latter category, i.e. if each dominates the other, then (+) is an isomorphism of sets.
-This applies in particular to the case where $T'$ is the final object of $C/S$, i.e. essentially $S$ itself; in any case
-$T$ dominates $T' = S$, and the converse is true precisely if $T/S$ has a section. This establishes 1.12 in the
-strengthened form announced.
+corresponding map (+) is in fact independent of the choice of this morphism,[^N.D.E-IV-6] so that $\check{H}^{0}(T/S,
+F)$ may be regarded as a functor on the category associated to the set $Ob C/S$ preordered by the relation of
+"domination" ($T'$ dominates $T$ if there exists an $S$-morphism from $T'$ into $T$). In particular, if $T$ and $T'$ are
+isomorphic in this latter category, i.e. if each dominates the other, then (+) is an isomorphism of sets. This applies
+in particular to the case where $T'$ is the final object of $C/S$, i.e. essentially $S$ itself; in any case $T$
+dominates $T' = S$, and the converse is true precisely if $T/S$ has a section. This establishes 1.12 in the strengthened
+form announced.
 
 **Remark 1.13.** *For various applications, the notions introduced in the present Exposé, and the results stated, must
 be developed more generally relative to a family of morphisms $u_{i} : T_{i} \to S$ with the same target (instead of a
 single morphism $u : T \to S$). Thus, such a family will be said to be* epimorphic *if for every object $X$ of $C$, the
 corresponding map*
 
-$$
-X(S) \to \prod_{i} X(T_{i})
-$$
+$$ X(S) \to \prod_{i} X(T_{i}) $$
 
 *is injective, and one introduces in the same way the notion of an* effective epimorphic *family and the "universal"
 variants of these notions. We shall admit, if need be, in what follows, that the results of the present Exposé extend to
@@ -302,19 +300,15 @@ is exact only if $u$ is an isomorphism, as follows immediately from the definiti
 
 Let us recall the following definitions:
 
-**Definition 2.1.** *Let $f : S' \to S$ be a morphism such that $S'' = S' \times_{S} S'$ exists, and let
-$u' : X' \to S'$ be an object over $S'$. One calls* gluing datum *on $X'/S'$, relative to $f$, an $S''$-isomorphism*
+**Definition 2.1.** *Let $f : S' \to S$ be a morphism such that $S'' = S' \times_{S} S'$ exists, and let $u' : X' \to
+S'$ be an object over $S'$. One calls* gluing datum *on $X'/S'$, relative to $f$, an $S''$-isomorphism*
 
-$$
-c : X''_{1} \xrightarrow{\sim} X''_{2}
-$$
+$$ c : X''_{1} \xrightarrow{\sim} X''_{2} $$
 
-*where $X''_{i}$ ($i = 1, 2$) denotes the inverse image (supposed to exist) of $X'/S'$ under the projection
-$pr_{i} : S'' \to S'$. One says that the gluing datum $c$ is a* descent datum *if it satisfies the "cocycle condition"*
+*where $X''_{i}$ ($i = 1, 2$) denotes the inverse image (supposed to exist) of $X'/S'$ under the projection $pr_{i} :
+S'' \to S'$. One says that the gluing datum $c$ is a* descent datum *if it satisfies the "cocycle condition"*
 
-$$
-pr*_{3},_{1}(c) = pr*_{3},_{2}(c) pr*_{2},_{1}(c)
-$$
+$$ pr*_{3},_{1}(c) = pr*_{3},_{2}(c) pr*_{2},_{1}(c) $$
 
 <!-- label: III.IV.2.1 -->
 
@@ -323,8 +317,8 @@ $$
 *where $pr_{i},_{j}$ ($1 \leq j < i \leq 3$) are the canonical projections from $S''' = S' \times_{S} S' \times_{S} S'$
 into $S''$ (N.B. one now supposes that $S'''$ also exists), where $pr*_{i},_{j}(c)$ is the inverse image of $c$,
 considered as an $S'''$-morphism from $X'''_{j}$ into $X'''_{i}$, and where for every integer $k$ between 1 and 3,
-$X'''_{k}$ denotes the inverse image (supposed to exist) of $X'/S'$ under the projection of index $k$,
-$q_{k} : S''' \to S'$.*
+$X'''_{k}$ denotes the inverse image (supposed to exist) of $X'/S'$ under the projection of index $k$, $q_{k} : S''' \to
+S'$.*
 
 In the second part of the definition, we have therefore used identifications and abuses of writing in current
 use,[^N.D.E-IV-8] which experience proves to be harmless, but which it is evidently fitting to avoid in a rigorous
@@ -337,9 +331,9 @@ Let $f : S' \to S$ still be a morphism such that $S'' = S' \times_{S} S'$ exists
 that $X' = X \times_{S} S'$ and $X'' = X \times_{S} S''$ exist; then the inverse images of $X'$ under `prᵢ` ($i = 1, 2$)
 exist and are canonically isomorphic, and consequently $X'/S'$ is endowed with a canonical gluing datum relative to $f$.
 When $S'''$ and $X''' = X \times_{S} S'''$ exist, this is even a descent datum. If $Y$ is another object over $S$,
-satisfying the same conditions as $X/S$, then for every $S$-morphism $X \to Y$, the corresponding $S'$-morphism
-$X' \to Y'$ is "compatible with the canonical gluing data" on $X', Y'$. If in particular $S' \to S$ is a squarable
-morphism, then
+satisfying the same conditions as $X/S$, then for every $S$-morphism $X \to Y$, the corresponding $S'$-morphism $X' \to
+Y'$ is "compatible with the canonical gluing data" on $X', Y'$. If in particular $S' \to S$ is a squarable morphism,
+then
 
 ```text
 X ⟼ X′ = X ×_S S′
@@ -437,9 +431,9 @@ $X' \to Y'$ is automatically compatible with the gluing data, hence comes from a
 proof holds more generally when one has two objects `X, Y` over $S$, with $Y \to S$ a monomorphism, and one asks whether
 the morphism $X \to S$ factors through $Y$: it suffices that $X' \to S'$ factor through $Y'$.
 
-**Corollary 2.5.** *Let $f : S' \to S$ be a universal effective epimorphism and $g : S \to T$ a morphism such that
-$S \times_{T} S$ exists. Suppose that $S'' = S' \times_{S} S'$ is also a fiber product of $S'$ with itself over $T$,
-i.e. $S' \times_{S} S' \xrightarrow{\sim} S' \times_{T} S'$. Then $g : S \to T$ is a monomorphism (and conversely, of
+**Corollary 2.5.** *Let $f : S' \to S$ be a universal effective epimorphism and $g : S \to T$ a morphism such that $S
+\times_{T} S$ exists. Suppose that $S'' = S' \times_{S} S'$ is also a fiber product of $S'$ with itself over $T$, i.e.
+$S' \times_{S} S' \xrightarrow{\sim} S' \times_{T} S'$. Then $g : S \to T$ is a monomorphism (and conversely, of
 course).*
 
 <!-- label: III.IV.2.5 -->
@@ -547,9 +541,7 @@ that are not already quotients in $C$.
 **Definition 3.1.4.** *If $X$ (resp. $X'$) is an object of $C$ equipped with an equivalence relation $R$ (resp. $R'$), a
 morphism*
 
-$$
-u : X \to X'
-$$
+$$ u : X \to X' $$
 
 *is said to be* compatible with $R$ and $R'$ *if the following equivalent conditions are satisfied:*
 
@@ -570,11 +562,7 @@ X × X → X′ × X′.
 By the universal property of $X/R$, there then exists (when the quotients $X/R$ and $X'/R'$ exist) a unique morphism $v$
 making commutative the diagram
 
-$$
-X   \xrightarrow{p}  X/R
-\downarrow u         \downarrow v
-X'  \xrightarrow{p'} X'/R'.
-$$
+$$ X \xrightarrow{p} X/R \downarrow u \downarrow v X' \xrightarrow{p'} X'/R'. $$
 
 <!-- original page 175 -->
 
@@ -605,21 +593,17 @@ $R_{X'}$.*
 
 <!-- label: III.IV.3.1.6 -->
 
-The morphism $X' \to X$ is compatible with $R'$ and $R$; one thus has, when the quotients exist, a morphism
-$X'/R' \to X/R$ (3.1.4). If $X'$ is a subobject of $X$, we shall see later that in certain cases one can prove that
-$X'/R' \to X/R$ is a monomorphism, hence identifies $X'/R'$ with a subobject of $X/R$. When this is so, the inverse
-image of this subobject in $X$ will be a subobject of $X$ containing $X'$ and stable under $R$: the *saturation* of $X'$
-for the equivalence relation $R$.
+The morphism $X' \to X$ is compatible with $R'$ and $R$; one thus has, when the quotients exist, a morphism $X'/R' \to
+X/R$ (3.1.4). If $X'$ is a subobject of $X$, we shall see later that in certain cases one can prove that $X'/R' \to X/R$
+is a monomorphism, hence identifies $X'/R'$ with a subobject of $X/R$. When this is so, the inverse image of this
+subobject in $X$ will be a subobject of $X$ containing $X'$ and stable under $R$: the *saturation* of $X'$ for the
+equivalence relation $R$.
 
 <!-- original page 176 -->
 
 **Proposition 3.1.7.** *If the subobject $Y$ of $X$ is stable under $R$, one has two cartesian squares, for $i = 1, 2$:*
 
-$$
-R_{Y}   \to  R
-\downarrow p_{i}     \downarrow p_{i}
-Y     \to  X.
-$$
+$$ R_{Y} \to R \downarrow p_{i} \downarrow p_{i} Y \to X. $$
 
 <!-- label: III.IV.3.1.7 -->
 
@@ -684,9 +668,7 @@ H × X   →   X.
 
 *Under these conditions, $f$ defines a morphism of `Ĉ`-groups*
 
-$$
-H \longrightarrow \operatorname{Aut}(Y)
-$$
+$$ H \longrightarrow \operatorname{Aut}(Y) $$
 
 *and the equivalence relation defined in $Y$ by this action of $H$ is none other than the equivalence relation induced
 in $Y$ by the equivalence relation defined in $X$ by the action of $H$.*
@@ -700,21 +682,17 @@ will be called the *action induced in $Y$ by the given action of $H$ on $X$*.
 
 Let us now consider the following situation: $H$ and $G$ are two $C$-groups and one is given a morphism of groups
 
-$$
-u : H \longrightarrow G.
-$$
+$$ u : H \longrightarrow G. $$
 
 Then $H$ acts on $G$ by translations (one sets set-theoretically $hg = u(h)g$) and acts freely there if and only if $u$
-is a monomorphism. The quotient of $G$ by this action of $H$ is denoted, when it exists, $H\backslash G$. One defines similarly a
-right action of $H$ on $G$ and a quotient $G/H$. These quotients are functorial with respect to the groups in question;
-more precisely, one has the following lemma, stated for right quotients:
+is a monomorphism. The quotient of $G$ by this action of $H$ is denoted, when it exists, $H\backslash G$. One defines
+similarly a right action of $H$ on $G$ and a quotient $G/H$. These quotients are functorial with respect to the groups
+in question; more precisely, one has the following lemma, stated for right quotients:
 
 **Lemma 3.2.3.** *Let $u : H \to G$ and $u' : H' \to G'$ be two monomorphisms of $C$-groups. Suppose given a morphism of
 $C$-groups*
 
-$$
-f : G \longrightarrow G'.
-$$
+$$ f : G \longrightarrow G'. $$
 
 *The following conditions are equivalent:*
 
@@ -725,20 +703,12 @@ $$
 *(iii) There exists a morphism $g : H \to H'$, necessarily unique and multiplicative, such that the following diagram is
 commutative*
 
-$$
-H  \xrightarrow{g}  H'
-\downarrow u        \downarrow u'
-G  \xrightarrow{f}  G'.
-$$
+$$ H \xrightarrow{g} H' \downarrow u \downarrow u' G \xrightarrow{f} G'. $$
 
 *Under these conditions, if the quotients $G/H$ and $G'/H'$ exist, there exists a unique morphism $\bar{f}$ making
 commutative the diagram*
 
-$$
-G   \xrightarrow{f}   G'
-\downarrow p          \downarrow p'
-G/H \xrightarrow{\bar{f}}  G'/H'.
-$$
+$$ G \xrightarrow{f} G' \downarrow p \downarrow p' G/H \xrightarrow{\bar{f}} G'/H'. $$
 
 <!-- label: III.IV.3.2.3 -->
 
@@ -792,10 +762,10 @@ relations in $X$ and effective quotients of $X$ (i.e. equivalence classes of eff
 
 <!-- label: III.IV.3.3.2.1 -->
 
-**Definition 3.3.3.** *One says that the equivalence relation $R$ in $X$ is* universally effective *if the quotient
-$Y = X/R$ exists, and if, for every $Y' \to Y$, the fiber products $X' = X \times_{Y} Y'$ and $R' = R \times_{Y} Y'$
-exist and $R'$ is a fiber square of $X'$ over $Y'$. It amounts to the same to say that $R$ is effective and that
-$p : X \to X/R$ is a universal effective epimorphism.*
+**Definition 3.3.3.** *One says that the equivalence relation $R$ in $X$ is* universally effective *if the quotient $Y =
+X/R$ exists, and if, for every $Y' \to Y$, the fiber products $X' = X \times_{Y} Y'$ and $R' = R \times_{Y} Y'$ exist
+and $R'$ is a fiber square of $X'$ over $Y'$. It amounts to the same to say that $R$ is effective and that $p : X \to
+X/R$ is a universal effective epimorphism.*
 
 <!-- label: III.IV.3.3.3 -->
 
@@ -807,10 +777,10 @@ effective equivalence relations in $X$ and universal effective quotients of $X$.
 **Remark 3.3.3.2.**[^N.D.E-IV-14] *Suppose that $C$ is the category of $S$-schemes and let $\mathbb{A}^{1}$ denote the
 affine space of dimension 1 over $S$. Let $R \subset X \times_{S} X$ be a universal effective equivalence relation and
 $p : X \to Y$ the quotient. Then, for every open $U$ of $Y$, $O(U) = \operatorname{Hom}_{S}(U, \mathbb{A}^{1}_{S})$ is
-the set of elements $\phi$ of $O(p^{-1}(U)) = \operatorname{Hom}_{S}(p^{-1}(U), \mathbb{A}^{1}_{S})$ such that
-$\phi \circ pr_{1} = \phi \circ pr_{2}$. In particular, if $R$ is given by the action of a group $H$ acting freely on
-the right on $X$ (cf. 3.2.1), then $O(U)$ is the set of $\phi \in O(p^{-1}(U))$ such that $\phi(xh) = \phi(x)$, for
-every $S' \to S$ and $x \in X(S')$, $h \in H(S')$.*
+the set of elements $\phi$ of $O(p^{-1}(U)) = \operatorname{Hom}_{S}(p^{-1}(U), \mathbb{A}^{1}_{S})$ such that $\phi
+\circ pr_{1} = \phi \circ pr_{2}$. In particular, if $R$ is given by the action of a group $H$ acting freely on the
+right on $X$ (cf. 3.2.1), then $O(U)$ is the set of $\phi \in O(p^{-1}(U))$ such that $\phi(xh) = \phi(x)$, for every
+$S' \to S$ and $x \in X(S')$, $h \in H(S')$.*
 
 <!-- label: III.IV.3.3.3.2 -->
 
@@ -902,19 +872,15 @@ relations in $X$ and `(M)`-effective quotients of $X$.*
 
 Let us prove point (i). Since $R$ is `(M)`-effective, one has a cartesian square
 
-$$
-R   \xrightarrow{p_{2}}  X
-\downarrow p_{1}          \downarrow p
-X   \xrightarrow{p}   X/R,
-$$
+$$ R \xrightarrow{p_{2}} X \downarrow p_{1} \downarrow p X \xrightarrow{p} X/R, $$
 
 <!-- original page 194 -->
 
 and $p \in (M)$. Then, by 3.4.1 (a), $p_{1}$ and $p_{2}$ belong to `(M)`, hence $R$ is of type `(M)`.
 
 Set $Y = X/R$ and let $Y' \to Y$ be an arbitrary morphism. By 3.4.1 (a), the fiber products $X' = X \times_{Y} Y'$ and
-$R' = R \times_{Y} Y'$ exist and the morphisms $X' \to Y'$ and $p'_{i} : R' \to X'$ belong to `(M)`. Finally, since
-$R = X \times_{Y} X$, one obtains, by associativity of the fiber product:
+$R' = R \times_{Y} Y'$ exist and the morphisms $X' \to Y'$ and $p'_{i} : R' \to X'$ belong to `(M)`. Finally, since $R =
+X \times_{Y} X$, one obtains, by associativity of the fiber product:
 
 ```text
 R′ = X ×_Y X ×_Y Y′ = X′ ×_{Y′} X′.
@@ -931,9 +897,9 @@ exists and $pr_{2} : H \times_{S} X \to X$ is an element of `(M)`. One says that
 the equivalence relation defined in $X$ by this action is `(M)`-effective.
 
 **Proposition 3.4.5 ((M)-effectivity and base change).** *Let $R$ be an `(M)`-effective equivalence relation in $X$ over
-$S$. Set $Y = X/R$. Let $S' \to S$ be a change of base such that $Y' = Y \times_{S} S'$ exists. Then
-$X' = X \times_{S} S'$ exists, $R' = R \times_{S} S'$ is an `(M)`-effective equivalence relation in $X'$ over $S'$ and
-$X'/R' \simeq (X/R)'$.*
+$S$. Set $Y = X/R$. Let $S' \to S$ be a change of base such that $Y' = Y \times_{S} S'$ exists. Then $X' = X \times_{S}
+S'$ exists, $R' = R \times_{S} S'$ is an `(M)`-effective equivalence relation in $X'$ over $S'$ and $X'/R' \simeq
+(X/R)'$.*
 
 <!-- label: III.IV.3.4.5 -->
 
@@ -942,8 +908,8 @@ representable. By associativity of the product, $R'$ is the equivalence relation
 morphism $X' \to Y'$ which is an element of `(M)`, whence the conclusion.
 
 **Proposition 3.4.6 ((M)-effectivity and cartesian products).** *Let $R$ (resp. $R'$) be an `(M)`-effective equivalence
-relation in $X$ (resp. $X'$) over $S$. If $(X/R) \times_{S} (X'/R')$ exists, then $X \times_{S} X'$ exists,
-$R \times_{S} R'$ is an `(M)`-effective equivalence relation in $X \times_{S} X'$ over $S$ and*
+relation in $X$ (resp. $X'$) over $S$. If $(X/R) \times_{S} (X'/R')$ exists, then $X \times_{S} X'$ exists, $R
+\times_{S} R'$ is an `(M)`-effective equivalence relation in $X \times_{S} X'$ over $S$ and*
 
 ```text
 (X ×_S X′)/(R ×_S R′) ≃ (X/R) ×_S (X′/R′).
@@ -1065,8 +1031,8 @@ respects more convenient than the one by covering families of [MA]), are due to 
 
 ### 4.1. Sieves
 
-**Definition 4.1.1.** *One calls a* sieve *of the category $C$ a subfunctor $C$ of the final functor
-$e : C^{\circ} \to (Ens)$.*
+**Definition 4.1.1.** *One calls a* sieve *of the category $C$ a subfunctor $C$ of the final functor $e : C^{\circ} \to
+(Ens)$.*
 
 <!-- label: III.IV.4.1.1 -->
 
@@ -1122,8 +1088,8 @@ $I$ the image of the family ${F_{i} \to F}$; for every*
 
 <!-- original page 198 -->
 
-*morphism $G \to F$ of `Ĉ`, the image of the family of morphisms ${F_{i} \times_{F} G \to G}$ is the subfunctor
-$I \times_{F} G$ of $G$.*
+*morphism $G \to F$ of `Ĉ`, the image of the family of morphisms ${F_{i} \times_{F} G \to G}$ is the subfunctor $I
+\times_{F} G$ of $G$.*
 
 <!-- label: III.IV.4.1.3 -->
 
@@ -1135,11 +1101,7 @@ says that $E$ is a* base *of $C$. Every sieve $C$ has a base, for example the se
 We propose to describe the set $\operatorname{Hom}(C, F)$, where $C$ is a sieve of $C$ and $F$ an object of `Ĉ`, using a
 base ${S_{i}}$ of $C$. For each pair $(i, j)$, one has a diagram in `Ĉ`:
 
-$$
-S_{i} \times S_{j} \to S_{i}
-\downarrow           \downarrow
-S_{j}      \to  e,
-$$
+$$ S_{i} \times S_{j} \to S_{i} \downarrow \downarrow S_{j} \to e, $$
 
 whence a diagram of sets
 
@@ -1190,9 +1152,7 @@ Hom(C, F) ⥲ Ker(∏ᵢ F(Sᵢ) ⇉ ∏_{i,j} F(Sᵢ × Sⱼ)).
 **Remark 4.1.6.** *Let $R$ be a sieve of $C$; denote by $\bar{R}$ the full subcategory of $C$ whose set of objects is
 $E(R)$ and by*
 
-$$
-i_{R} : \bar{R} \longrightarrow C
-$$
+$$ i_{R} : \bar{R} \longrightarrow C $$
 
 *the inclusion functor. One has an isomorphism, functorial in $F \in Ob \hat{C}$,*
 
@@ -1247,8 +1207,8 @@ is representable, $R \times_{F} T$, which is a sieve of $T$, is covering. By vir
 compatible with the preceding one. One will also say that $R \in J(F)$ is a *refinement* of $F$. One verifies
 immediately that the preceding axioms entail the following properties:
 
-(T′ 0) If $F \supset G$ are two objects of `Ĉ`, and if for every $S \in Ob C$ and every morphism $S \to F$,
-$G \times_{F} S \in J(S)$, then $G \in J(F)$.
+(T′ 0) If $F \supset G$ are two objects of `Ĉ`, and if for every $S \in Ob C$ and every morphism $S \to F$, $G
+\times_{F} S \in J(S)$, then $G \in J(F)$.
 
 (T′ 1) If $G \in J(F)$, and if $H \to F$ is a morphism of `Ĉ`, then $G \times_{F} H \in J(H)$.
 
@@ -1270,9 +1230,8 @@ From (T′ 1), (T′ 2) and (T′ 3)[^N.D.E-IV-21] results the following propert
 
 The set $J(F)$, ordered by the relation $\supset$, is therefore filtered; this remark will be useful later.
 
-**4.2.2.** One says that the topology defined by $J$ is *finer* than the topology defined by $J'$ if for every
-$S \in Ob C$, $J(S) \supset J'(S)$ (it amounts to the same to say that for every $F \in Ob \hat{C}$,
-$J(F) \supset J'(F)$).
+**4.2.2.** One says that the topology defined by $J$ is *finer* than the topology defined by $J'$ if for every $S \in Ob
+C$, $J(S) \supset J'(S)$ (it amounts to the same to say that for every $F \in Ob \hat{C}$, $J(F) \supset J'(F)$).
 
 Every set of topologies on $C$ has a greatest lower bound: let $I$ be an indexing set, and for each $i \in I$, let
 `S ⟼ Jᵢ(S)` be a topology on $C$. Set $J(S) = \bigcap_{i\in I} J_{i}(S)$; it is immediate that one has thus defined a
@@ -1311,9 +1270,9 @@ for each $j$ there exists an $i$ such that $G_{j} \to F$ factors through $F_{i} 
 
 Note that (C 2) and (C 3) also entail:
 
-(C 5) If ${F_{i} \to F}$ is a family of morphisms with target $F$ such that there exists a covering family
-${G_{j} \to F}$ such that for every $j$ the family ${F_{i} \times_{F} G_{j} \to G_{j}}$ is covering, then the family
-${F_{i} \to F}$ is covering ("a locally covering family is covering").
+(C 5) If ${F_{i} \to F}$ is a family of morphisms with target $F$ such that there exists a covering family ${G_{j} \to
+F}$ such that for every $j$ the family ${F_{i} \times_{F} G_{j} \to G_{j}}$ is covering, then the family ${F_{i} \to F}$
+is covering ("a locally covering family is covering").
 
 **4.2.4.** Conversely, let $C$ be a category having fiber products and let us give ourselves, for each $S \in Ob C$, a
 set of families of morphisms of $C$ with target $S$, said to be *covering families*, the datum satisfying axioms (C 1)
@@ -1357,19 +1316,18 @@ $J_{R}(S)$ is cofinal in $J(S)$: every refinement of $S$ contains a sieve define
 
 <!-- original page 194 -->
 
-For every $S$, let $J'(S)$ be the set of sieves of $S$ containing a sieve of $J_{R}(S)$. One evidently has
-$J'(S) \subset J(S)$. To show that $J(S) = J'(S)$, it suffices to show that the $J'(S)$ make a topology on $C$, that is,
-that they satisfy axioms (T 1) through (T 4). Now (T 1), (T 3), (T 4) are evidently satisfied. It remains to verify (T
+For every $S$, let $J'(S)$ be the set of sieves of $S$ containing a sieve of $J_{R}(S)$. One evidently has $J'(S)
+\subset J(S)$. To show that $J(S) = J'(S)$, it suffices to show that the $J'(S)$ make a topology on $C$, that is, that
+they satisfy axioms (T 1) through (T 4). Now (T 1), (T 3), (T 4) are evidently satisfied. It remains to verify (T
 2).[^N.D.E-IV-23]
 
-So let $U$ be an element of $J'(S)$ and $C$ a sieve of $S$; one supposes that for every $T \to U$, the sieve
-$C \times_{S} T$ is in $J'(T)$ and one must prove that $C \in J'(S)$. By definition of $J'$, $U$ contains a refinement
-$U'$ defined by a family ${S_{i} \to S} \in R(S)$. Since one has verified (T 3), it suffices to prove that
-$U' \cap C \in J'(S)$, so one may suppose that $U = U'$. By hypothesis, for every $i$,
-$C \times_{S} S_{i} \in J'(S_{i})$; there therefore exists, for each $i$, a covering family
-${T_{ij} \to S_{i}} \in R(S_{i})$ such that $T_{ij} \to S_{i}$ factors through $C \times_{S} S_{i} \to S_{i}$. The
-morphism $T_{ij} \to S$ therefore factors through $C \to S$, which shows that $C$ contains the sieve defined by the
-composite family ${T_{ij} \to S}$, and one has finished by (P 2).
+So let $U$ be an element of $J'(S)$ and $C$ a sieve of $S$; one supposes that for every $T \to U$, the sieve $C
+\times_{S} T$ is in $J'(T)$ and one must prove that $C \in J'(S)$. By definition of $J'$, $U$ contains a refinement $U'$
+defined by a family ${S_{i} \to S} \in R(S)$. Since one has verified (T 3), it suffices to prove that $U' \cap C \in
+J'(S)$, so one may suppose that $U = U'$. By hypothesis, for every $i$, $C \times_{S} S_{i} \in J'(S_{i})$; there
+therefore exists, for each $i$, a covering family ${T_{ij} \to S_{i}} \in R(S_{i})$ such that $T_{ij} \to S_{i}$ factors
+through $C \times_{S} S_{i} \to S_{i}$. The morphism $T_{ij} \to S$ therefore factors through $C \to S$, which shows
+that $C$ contains the sieve defined by the composite family ${T_{ij} \to S}$, and one has finished by (P 2).
 
 The axioms (P 1) through (P 3) are those of [MA]. Given the practical interest of pretopologies, we shall interpret each
 important result with the aid of a pretopology defining the given topology.
@@ -1381,9 +1339,9 @@ satisfying (P 1), (P 3) and Proposition 4.2.6. This presents itself in particula
 <!-- label: III.IV.4.2.7 -->
 
 **Definition 4.2.8.** *Let $C$ be equipped with a topology, and let $S$ be an object of $C$. Let $P(S')$ be a relation
-involving an argument $S' \in Ob C/S$. Suppose that $\operatorname{Hom}(S'', S') \neq \emptyset$ entails
-$P(S') \Rightarrow P(S'')$. One says that $P$ is true* locally on $S$ *for the topology under consideration, if the
-following equivalent conditions are satisfied:*
+involving an argument $S' \in Ob C/S$. Suppose that $\operatorname{Hom}(S'', S') \neq \emptyset$ entails $P(S')
+\Rightarrow P(S'')$. One says that $P$ is true* locally on $S$ *for the topology under consideration, if the following
+equivalent conditions are satisfied:*
 
 *(i) The set of $S' \to S$ such that $P(S')$ is true is a refinement of $S$.*
 
@@ -1401,8 +1359,8 @@ exists a covering family ${S_{i} \to S}$ such that for every $i$, $f \times_{S} 
 
 <!-- original page 203 -->
 
-*is an isomorphism. It amounts to the same to require that there exist a refinement $R$ of $S$ such that for every
-$T \to R$, $X(T) \to Y(T)$ is an isomorphism.*
+*is an isomorphism. It amounts to the same to require that there exist a refinement $R$ of $S$ such that for every $T
+\to R$, $X(T) \to Y(T)$ is an isomorphism.*
 
 <!-- label: III.IV.4.2.9 -->
 
@@ -1448,8 +1406,8 @@ R ×_H S —j_S→ S
 
 Since $P$ is separated, one deduces $uf = vf$. This being true for every representable $S$, one has $u = v$.
 
-Suppose now that $P$ is a sheaf. Let $g : R \to P$; let us show that it factors through $H$. For every $f : S \to H$,
-$S \in Ob C$, $g \circ f_{R} : R \times_{H} S \to P$ factors
+Suppose now that $P$ is a sheaf. Let $g : R \to P$; let us show that it factors through $H$. For every $f : S \to H$, $S
+\in Ob C$, $g \circ f_{R} : R \times_{H} S \to P$ factors
 
 <!-- original page 204 -->
 
@@ -1504,9 +1462,7 @@ satisfying (P 1) (for example defining a pretopology). Let $P$ be a presheaf on 
 sheaf) for the topology generated by $R$, it is necessary and sufficient that for every $S \in Ob C$ and every family
 ${S_{i} \to S} \in R(S)$, the map*
 
-$$
-P(S) \longrightarrow \prod_{i} P(S_{i})
-$$
+$$ P(S) \longrightarrow \prod_{i} P(S_{i}) $$
 
 *be injective, (resp. the diagram*
 
@@ -1584,21 +1540,17 @@ z_R : Hom(R, P) → Hom(S, LP).
 
 **Lemma 4.3.10.** *(i) For every refinement $R$ of $S$ and every $u : R \to P$, the diagram*
 
-$$
-P  \xrightarrow{\ell_{P}}  LP
-\uparrow u           \uparrow z_{R}(u)
-R  \xrightarrow{i_{R}}  S
-$$
+$$ P \xrightarrow{\ell_{P}} LP \uparrow u \uparrow z_{R}(u) R \xrightarrow{i_{R}} S $$
 
 *is commutative.*
 
-*(ii) For every morphism $v : S \to LP$, there exists a refinement $R$ of $S$ and a morphism $u : R \to P$ with
-$v = z_{R}(u)$.*
+*(ii) For every morphism $v : S \to LP$, there exists a refinement $R$ of $S$ and a morphism $u : R \to P$ with $v =
+z_{R}(u)$.*
 
 <!-- original page 199 -->
 
-*(iii) Let $Q$ be a functor and $u, v : Q \to P$ such that $\ell_{P} u = \ell_{P} v$. Then the kernel of the pair
-$(u, v)$ is a refinement of $Q$.*
+*(iii) Let $Q$ be a functor and $u, v : Q \to P$ such that $\ell_{P} u = \ell_{P} v$. Then the kernel of the pair $(u,
+v)$ is a refinement of $Q$.*
 
 *(iv) Let $u : R \to P$ and $u' : R' \to P$; for $z_{R}(u) = z_{R'}(u')$, it is necessary and sufficient that there
 exist a refinement $R'' \subset R \cap R'$ of $S$ such that $u$ and $u'$ coincide on $R''$.*
@@ -1631,15 +1583,11 @@ One verifies finally that `P ⟼ LP` defines a functor
 
 <!-- original page 200 -->
 
-$$
-L : \hat{C} \longrightarrow \hat{C}
-$$
+$$ L : \hat{C} \longrightarrow \hat{C} $$
 
 and `P ⟼ ℓ_P` a morphism of functors
 
-$$
-\ell : Id_{\hat{C}} \longrightarrow L.
-$$
+$$ \ell : Id_{\hat{C}} \longrightarrow L. $$
 
 Let us now state the essential result:
 
@@ -1706,8 +1654,8 @@ loc. cit. (iii) shows that $u$ and $v$ coincide on a refinement of $S$, hence co
 shows that $P \to LP$ is a monomorphism; as it is covering by (i), one obtains that $P$ is a refinement of `LP`.
 
 Let us finally show that `LP` is a sheaf. As we already know by (i) that it is a separated presheaf, it suffices to see
-that for every $S \in Ob C$, every refinement $R$ of $S$ and every morphism $h : R \to LP$, there exists a morphism
-$u : S \to LP$ with $u i_{R} = h$. Now $R' = P \times_{LP} R$ is a refinement of $R$, since $P$ is a refinement of `LP`,
+that for every $S \in Ob C$, every refinement $R$ of $S$ and every morphism $h : R \to LP$, there exists a morphism $u :
+S \to LP$ with $u i_{R} = h$. Now $R' = P \times_{LP} R$ is a refinement of $R$, since $P$ is a refinement of `LP`,
 hence $R'$ is
 
 <!-- original page 202 -->
@@ -1758,11 +1706,7 @@ Denote by $i$ the inclusion functor $\tilde{C} \to \hat{C}$. From Proposition 4.
 **Theorem 4.3.14.** *There exists a unique functor $a : \hat{C} \to \tilde{C}$ such that the following diagram is
 commutative*
 
-$$
-\hat{C}  \xrightarrow{L}  \hat{C}
-\downarrow a         \downarrow L
-\tilde{C}  \xrightarrow{i}  \hat{C},
-$$
+$$ \hat{C} \xrightarrow{L} \hat{C} \downarrow a \downarrow L \tilde{C} \xrightarrow{i} \hat{C}, $$
 
 <!-- original page 210 -->
 
@@ -1808,9 +1752,7 @@ Hom_{Ĉ-gr.}(P, i(F)) ≃ Hom_{C̃-gr.}(a(P), F).
 into $V$. To define sheaves with values in $V$, we must first recall the definition of the inverse limit of a functor.
 If $R$ and $V$ are two categories, and
 
-$$
-F : R^{\circ} \longrightarrow V
-$$
+$$ F : R^{\circ} \longrightarrow V $$
 
 a contravariant functor from $R$ to $V$, one denotes by $\lim\leftarrow F$ the object of $\hat{V}$ defined as follows:
 
@@ -1841,9 +1783,7 @@ Definition 4.3.1 generalizes to the
 **Definition 4.3.18.** *The presheaf $P$ on $C$ with values in $V$ is said to be* separated *(resp.* a sheaf\*), if for
 every $S \in Ob C$ and every $R \in J(S)$, the canonical morphism of $\hat{V}$\*
 
-$$
-P(S) \longrightarrow \lim\leftarrow_{R} P
-$$
+$$ P(S) \longrightarrow \lim\leftarrow_{R} P $$
 
 *is a monomorphism (resp. an isomorphism).*
 
@@ -1983,12 +1923,12 @@ Y′    →    V.
 
 <!-- label: III.IV.4.4.5 -->
 
-(i) Set $X = \coprod_{i} X_{i}$. Let $S \in Ob C$ and $\tau : R \hookrightarrow S$ a refinement of $S$, and let
-$x_{1}, x_{2}$ be two elements of $X(S)$ such that $x_{1} \circ \tau = x_{2} \circ \tau$; there exist indices `i, j`
-such that $x_{1} \in X_{i}(S)$ and $x_{2} \in X_{j}(S)$. Since $R \neq R_{\emptyset}$, there exists a morphism
-$\phi : T \to R$, with $T \in Ob C$. Then, $x_{1} \circ \tau \circ \phi = x_{2} \circ \tau \circ \phi$, and since $X(T)$
-is the disjoint union of the $X_{k}(T)$, this entails $i = j$. Then, since `Xᵢ` is separated and a subobject of $X$, the
-map $X_{i}(S) \to X_{i}(R) \to X(R)$ is injective, and therefore $x_{1} = x_{2}$. This proves that $X$ is separated.
+(i) Set $X = \coprod_{i} X_{i}$. Let $S \in Ob C$ and $\tau : R \hookrightarrow S$ a refinement of $S$, and let $x_{1},
+x_{2}$ be two elements of $X(S)$ such that $x_{1} \circ \tau = x_{2} \circ \tau$; there exist indices `i, j` such that
+$x_{1} \in X_{i}(S)$ and $x_{2} \in X_{j}(S)$. Since $R \neq R_{\emptyset}$, there exists a morphism $\phi : T \to R$,
+with $T \in Ob C$. Then, $x_{1} \circ \tau \circ \phi = x_{2} \circ \tau \circ \phi$, and since $X(T)$ is the disjoint
+union of the $X_{k}(T)$, this entails $i = j$. Then, since `Xᵢ` is separated and a subobject of $X$, the map $X_{i}(S)
+\to X_{i}(R) \to X(R)$ is injective, and therefore $x_{1} = x_{2}$. This proves that $X$ is separated.
 
 Let us prove (iii). Consider the morphisms $i : Y \to V$ and $j : Y' \to V$, and let $K$ be the kernel of:
 
@@ -2003,8 +1943,8 @@ $Y'(S)$); denote by $Z(S)$ (resp. $Z'(S)$) the complement. Then
 
 <!-- original page 214 -->
 
-$V(S)$ is identified with the disjoint union of $Z(S)$, $Z'(S)$ and $X(S)$, and one easily sees that the maps
-$i(S) : Y(S) \to V(S)$ and $j(S) : Y'(S) \to V(S)$ are injective, and that the map
+$V(S)$ is identified with the disjoint union of $Z(S)$, $Z'(S)$ and $X(S)$, and one easily sees that the maps $i(S) :
+Y(S) \to V(S)$ and $j(S) : Y'(S) \to V(S)$ are injective, and that the map
 
 ```text
 (u × u′)(S) : X(S) ⟶ K(S)
@@ -2014,30 +1954,24 @@ is bijective. Consequently, $i$ and $j$ are monomorphisms, and $u \times u' : X 
 
 Set $U = Y \coprod Y'$, and let $\tau : R \hookrightarrow S$ be a refinement of $S$; one has a commutative diagram:
 
-$$
-U(S)  \xrightarrow{U(\tau)}  U(R)
-\downarrow                  \downarrow
-V(S)  \xrightarrow{V(\tau)}  V(R).
-$$
+$$ U(S) \xrightarrow{U(\tau)} U(R) \downarrow \downarrow V(S) \xrightarrow{V(\tau)} V(R). $$
 
 Let $v_{1}, v_{2} \in V(S)$ whose images in $V(R)$ coincide. By the definition of $V$, $v_{1}, v_{2}$ lift to elements
 $y_{1}, y_{2}$ of $U(S)$; denote by $z_{1}, z_{2}$ their images in $U(R)$. Then $z_{1}, z_{2}$ have the same image in
 $V(R)$.
 
 Since $i : Y \to V$ and $j : Y' \to V$ are monomorphisms, the maps $Y(R) \to V(R)$ and $Y'(R) \to V(R)$ are injective.
-Therefore, since $Y$ and $Y'$ are separated, if $y_{1}$ and $y_{2}$ both belong to $Y(S)$ or to $Y'(S)$, then
-$y_{1} = y_{2}$. Otherwise, one may suppose that $y_{1} \in Y(S)$ and $y_{2} \in Y'(S)$, whence $z_{1} \in Y(R)$ and
-$z_{2} \in Y'(R)$. But then, since $i \circ z_{1} = j \circ z_{2}$, the morphism
-$z_{1} \boxtimes z_{2} : R \to Y \times Y'$ factors through $K = X$. Moreover, since $X(R) = X(S)$ (because $X$ is a
-sheaf), there exists $x \in X(S)$ such that $u(x) \circ \tau = z_{1} = y_{1} \circ \tau$ and
-$u'(x) \circ \tau = z_{2} = y_{2} \circ \tau$, whence, since $Y$ and $Y'$ are separated, $u(x) = y_{1}$ and
-$u'(x) = y_{2}$, and therefore $v_{1} = v_{2}$. This proves that $V$ is separated.
+Therefore, since $Y$ and $Y'$ are separated, if $y_{1}$ and $y_{2}$ both belong to $Y(S)$ or to $Y'(S)$, then $y_{1} =
+y_{2}$. Otherwise, one may suppose that $y_{1} \in Y(S)$ and $y_{2} \in Y'(S)$, whence $z_{1} \in Y(R)$ and $z_{2} \in
+Y'(R)$. But then, since $i \circ z_{1} = j \circ z_{2}$, the morphism $z_{1} \boxtimes z_{2} : R \to Y \times Y'$
+factors through $K = X$. Moreover, since $X(R) = X(S)$ (because $X$ is a sheaf), there exists $x \in X(S)$ such that
+$u(x) \circ \tau = z_{1} = y_{1} \circ \tau$ and $u'(x) \circ \tau = z_{2} = y_{2} \circ \tau$, whence, since $Y$ and
+$Y'$ are separated, $u(x) = y_{1}$ and $u'(x) = y_{2}$, and therefore $v_{1} = v_{2}$. This proves that $V$ is
+separated.
 
 Let us prove (ii). Let us first remark that the morphism of presheaves
 
-$$
-X \xrightarrow{u\boxtimes v} K,
-$$
+$$ X \xrightarrow{u\boxtimes v} K, $$
 
 where $K$ denotes the kernel of the pair of morphisms $w \circ pr_{i} : Y \times Y \to Z$, is an isomorphism. Indeed,
 for every $T \in Ob C$, $X(T)$ is an equivalence relation in $Y(T)$, so that the diagram
@@ -2048,16 +1982,16 @@ X(T) —u⊠v→ Y(T) × Y(T) ⇉_{w∘pr₁, w∘pr₂} Z(T)
 
 is exact in the category of sets.
 
-Let now $S \in Ob C$ and $g_{1}, g_{2} : S \to Z$ be two morphisms that coincide on a refinement
-$\tau : R \hookrightarrow S$ of $S$. Since $S \in Ob C$, one has $Z(S) = Y(S)/X(S)$,
+Let now $S \in Ob C$ and $g_{1}, g_{2} : S \to Z$ be two morphisms that coincide on a refinement $\tau : R
+\hookrightarrow S$ of $S$. Since $S \in Ob C$, one has $Z(S) = Y(S)/X(S)$,
 
 <!-- original page 208 -->
 
 by construction of $Z$, and therefore there exist morphisms $f_{1}, f_{2} : S \to Y$ such that $w f_{i} = g_{i}$.
 
 Then, $w f_{1} \tau = w f_{2} \tau$ and therefore, by what precedes, there exists a morphism $\phi : R \to X$ such that
-$u \phi = f_{1} \tau$ and $v \phi = f_{2} \tau$. Since $X$ is a sheaf, there exists $\psi : S \to X$ such that
-$\phi = \psi \tau$, and therefore one has in $Y(R)$ the equalities:
+$u \phi = f_{1} \tau$ and $v \phi = f_{2} \tau$. Since $X$ is a sheaf, there exists $\psi : S \to X$ such that $\phi =
+\psi \tau$, and therefore one has in $Y(R)$ the equalities:
 
 ```text
 u ψ τ = f₁ τ ,    v ψ τ = f₂ τ.
@@ -2085,11 +2019,11 @@ $G \subset F$ be the presheaf image. Then the following diagram in `Ĉ` is exact
 
 <!-- label: III.IV.4.4.6 -->
 
-(i) Let $H$ be a presheaf. The map $f*$ which to a morphism $\phi : G \to H$ associates the family of morphisms
-$\phi \circ f_{i} : F_{i} \to H$ is injective, since for every $S \in Ob C$, $\phi(S)$ is determined by the
-$(\phi \circ f_{i})(S)$, since the family $f_{i}(S) : F_{i}(S) \to G(S)$ is surjective. It is clear that the image of
-$f*$ is contained in $Ker(p, q)$. Conversely, let $\phi_{i} : F_{i} \to H$ be a family of morphisms such that, for every
-`i, j`, the diagram below is commutative:
+(i) Let $H$ be a presheaf. The map $f*$ which to a morphism $\phi : G \to H$ associates the family of morphisms $\phi
+\circ f_{i} : F_{i} \to H$ is injective, since for every $S \in Ob C$, $\phi(S)$ is determined by the $(\phi \circ
+f_{i})(S)$, since the family $f_{i}(S) : F_{i}(S) \to G(S)$ is surjective. It is clear that the image of $f*$ is
+contained in $Ker(p, q)$. Conversely, let $\phi_{i} : F_{i} \to H$ be a family of morphisms such that, for every `i, j`,
+the diagram below is commutative:
 
 ```text
 Fᵢ ×_G Fⱼ → Fⱼ
@@ -2106,8 +2040,8 @@ covering family is effective epimorphic. So let ${F_{i} \to F}$ be a covering fa
 $G$ be the presheaf image of this family. Since the family is covering, so is the monomorphism $G \hookrightarrow F$,
 hence, by 4.3.12, one has $a(G) = F$.
 
-On the other hand, since $G \hookrightarrow F$ is a monomorphism, the fiber products $F_{i} \times_{G} F_{j}$ and
-$F_{i} \times_{F} F_{j}$ are the same. Hence, by (i), the following diagram of sets is exact, for every presheaf $H$:
+On the other hand, since $G \hookrightarrow F$ is a monomorphism, the fiber products $F_{i} \times_{G} F_{j}$ and $F_{i}
+\times_{F} F_{j}$ are the same. Hence, by (i), the following diagram of sets is exact, for every presheaf $H$:
 
 ```text
 (∗∗)   Hom(G, H) ⟶ ∏ᵢ Hom(Fᵢ, H) ⇉_{p, q} ∏_{i,j} Hom(Fᵢ ×_F Fⱼ, H).
@@ -2194,17 +2128,13 @@ $R$ a sieve of $S$, and let $y \in P(S)/Q(S)$ whose image in $(P/Q)(R)$ is the i
 Now, by hypothesis, the morphism $P(S) \to P(R)$ (resp. $Q(S) \to Q(R)$) is injective (resp. an isomorphism), and in the
 commutative diagram below, the top row is exact:
 
-$$
-1 \to Q(S) \to P(S) \to P(S)/Q(S) \to 1
-    \downarrow \wr    \downarrow        \downarrow
-1 \to Q(R) \to P(R) \to (P/Q)(R).
-$$
+$$ 1 \to Q(S) \to P(S) \to P(S)/Q(S) \to 1 \downarrow \wr \downarrow \downarrow 1 \to Q(R) \to P(R) \to (P/Q)(R). $$
 
 The result will follow from this, if one shows that the bottom row is exact. Let $f : R \to P$ whose image in $(P/Q)(R)$
-is the identity, and let $\phi : T \to R$ with $T \in Ob C$. Then $f \circ \phi$ is the identity of
-$(P/Q)(T) = P(T)/Q(T)$, i.e. $f \circ \phi \in Q(T)$. Therefore, `φ ⟼ f ∘ φ` is a functorial map $R(T) \to Q(T)$, hence
-defines a morphism of functors $\pi : R \to Q$ such that $\pi(id_{R}) = f$, whence $f \in Q(R)$. This proves the
-exactness of the bottom row, and the lemma is proved.
+is the identity, and let $\phi : T \to R$ with $T \in Ob C$. Then $f \circ \phi$ is the identity of $(P/Q)(T) =
+P(T)/Q(T)$, i.e. $f \circ \phi \in Q(T)$. Therefore, `φ ⟼ f ∘ φ` is a functorial map $R(T) \to Q(T)$, hence defines a
+morphism of functors $\pi : R \to Q$ such that $\pi(id_{R}) = f$, whence $f \in Q(R)$. This proves the exactness of the
+bottom row, and the lemma is proved.
 
 **Lemma 4.4.8.2.** *Let $H \subset G$ be presheaves of groups on $C$.*
 
@@ -2214,13 +2144,13 @@ exactness of the bottom row, and the lemma is proved.
 
 <!-- label: III.IV.4.4.8.2 -->
 
-Let $S \in Ob C$; it must be shown (cf. I 2.3.6) that $L(H)(S)$ is normal (resp. central) in $L(G)(S)$. Let
-$h \in L(H)(S)$ and $g \in L(G)(S)$; there exist a sieve $R$ of $S$ and elements $h' \in H(R)$, $g' \in G(R)$, such that
-$h = z_{R}(h')$ and $g = z_{R}(g')$ (notation of 4.3.10). Since $z_{R}$ is a morphism of groups, one has
-$g h g^{-1} h^{-1} = z_{R}(g' h' g'^{-1} h'^{-1})$.
+Let $S \in Ob C$; it must be shown (cf. I 2.3.6) that $L(H)(S)$ is normal (resp. central) in $L(G)(S)$. Let $h \in
+L(H)(S)$ and $g \in L(G)(S)$; there exist a sieve $R$ of $S$ and elements $h' \in H(R)$, $g' \in G(R)$, such that $h =
+z_{R}(h')$ and $g = z_{R}(g')$ (notation of 4.3.10). Since $z_{R}$ is a morphism of groups, one has $g h g^{-1} h^{-1} =
+z_{R}(g' h' g'^{-1} h'^{-1})$.
 
-In case (i), one has $g' h' g'^{-1} h'^{-1} \in H(R)$, whence $g h g^{-1} h^{-1} \in LH(S)$; in case (ii),
-$g' h' g'^{-1} h'^{-1} = 1$ and therefore $g h g^{-1} h^{-1} = 1$.
+In case (i), one has $g' h' g'^{-1} h'^{-1} \in H(R)$, whence $g h g^{-1} h^{-1} \in LH(S)$; in case (ii), $g' h'
+g'^{-1} h'^{-1} = 1$ and therefore $g h g^{-1} h^{-1} = 1$.
 
 <!-- original page 218 -->
 
@@ -2235,11 +2165,11 @@ i(X)/i(R) : S ⟼ X(S)/R(S)
 
 <!-- label: III.IV.4.4.9 -->
 
-Let $X/R$ be the sheaf quotient of $X$ by $R$, which exists by 4.4.1 (ii): $X/R = a(i(X)/i(R))$. We must show that
-$X \to X/R$ is a universal effective epimorphism, and that the morphism $f : R \to X \times_{X/R} X$ is an isomorphism.
-The first assertion has already been proved (4.4.3). As for $f$, it comes by application of the functor $a$ from the
-morphism $i(R) \to i(X) \times_{i(X/R)} i(X)$ or, since $i(X)/i(R)$ is separated (4.4.5 (ii)) so that
-$i(X)/i(R) \to i(X/R)$ is a monomorphism, from the canonical morphism $i(R) \to i(X) \times_{i(X)/i(R)} i(X)$.
+Let $X/R$ be the sheaf quotient of $X$ by $R$, which exists by 4.4.1 (ii): $X/R = a(i(X)/i(R))$. We must show that $X
+\to X/R$ is a universal effective epimorphism, and that the morphism $f : R \to X \times_{X/R} X$ is an isomorphism. The
+first assertion has already been proved (4.4.3). As for $f$, it comes by application of the functor $a$ from the
+morphism $i(R) \to i(X) \times_{i(X/R)} i(X)$ or, since $i(X)/i(R)$ is separated (4.4.5 (ii)) so that $i(X)/i(R) \to
+i(X/R)$ is a monomorphism, from the canonical morphism $i(R) \to i(X) \times_{i(X)/i(R)} i(X)$.
 
 One is therefore reduced to proving the same assertion in the category of presheaves. But $i(X)/i(R)$ is the presheaf
 `S ⟼ X(S)/R(S)` and one is reduced to proving the analogous assertion in the category of sets, where it is immediate.
@@ -2249,39 +2179,27 @@ relation induced in $Y$ by $R$. Then the canonical morphism (3.1.6)*
 
 <!-- original page 211 -->
 
-$$
-Y/R_{Y} \longrightarrow X/R
-$$
+$$ Y/R_{Y} \longrightarrow X/R $$
 
 *is a monomorphism: it identifies $Y/R_{Y}$ with a subsheaf of $X/R$, which is the* sheaf image *of the composite
 morphism*
 
-$$
-Y \longrightarrow X \longrightarrow X/R.
-$$
+$$ Y \longrightarrow X \longrightarrow X/R. $$
 
 <!-- label: III.IV.4.4.10 -->
 
 The morphism of presheaves
 
-$$
-i(Y)/i(R_{Y}) = i(Y)/i(R)_{i(Y)} \longrightarrow i(X)/i(R)
-$$
+$$ i(Y)/i(R_{Y}) = i(Y)/i(R)_{i(Y)} \longrightarrow i(X)/i(R) $$
 
 is a monomorphism. Since the functor $a$ is left exact (4.3.16), it transforms monomorphisms into monomorphisms, and
 therefore
 
-$$
-Y/R_{Y} \longrightarrow X/R
-$$
+$$ Y/R_{Y} \longrightarrow X/R $$
 
 is a monomorphism. The last assertion follows from the commutative diagram
 
-$$
-Y     \to   X
-\downarrow           \downarrow
-Y/R_{Y} \to X/R,
-$$
+$$ Y \to X \downarrow \downarrow Y/R_{Y} \to X/R, $$
 
 and the fact that $Y \to Y/R_{Y}$ is covering.
 
@@ -2290,9 +2208,9 @@ By virtue of this proposition, we shall always identify $Y/R_{Y}$ with a subshea
 <!-- original page 219 -->
 
 **Proposition 4.4.11.** *Let $R$ be a $\tilde{C}$-equivalence relation in the sheaf $X$. For every subsheaf $Y$ of $X$
-stable under $R$, denote by $Y'$ the quotient $Y/R_{Y}$ considered as a subsheaf of $X' = X/R$. Then
-$Y = Y' \times_{X'} X$, and the maps `Y ⟼ Y/R_Y` and `Y′ ⟼ Y′ ×_{X′} X` realize a bijective correspondence between the
-set of subsheaves $Y$ of $X$ stable under $R$ and the set of subsheaves $Y'$ of $X'$.*
+stable under $R$, denote by $Y'$ the quotient $Y/R_{Y}$ considered as a subsheaf of $X' = X/R$. Then $Y = Y' \times_{X'}
+X$, and the maps `Y ⟼ Y/R_Y` and `Y′ ⟼ Y′ ×_{X′} X` realize a bijective correspondence between the set of subsheaves $Y$
+of $X$ stable under $R$ and the set of subsheaves $Y'$ of $X'$.*
 
 <!-- label: III.IV.4.4.11 -->
 
@@ -2302,23 +2220,15 @@ If $Y'$ is a subsheaf of $X'$, then $Y' \times_{X'} X$ is a subsheaf of $X$ stab
 
 under $R$.[^N.D.E-IV-39] If $Y'$ is obtained by passage to the quotient from a subsheaf $Y$ of $X$, then $Y$ is a
 subobject of $Y' \times_{X'} X$. It therefore suffices to show that if one has two subsheaves $Y$ and $Y_{1}$ of $X$,
-stable under $R$, $Y_{1}$ containing $Y$, and if the quotients $Y/R_{Y}$ and $Y_{1}/R_{Y_{1}}$ are identical, then
-$Y = Y_{1}$. One is evidently reduced to proving the same assertion in the case where $Y_{1} = X$. Denoting then by $P$
+stable under $R$, $Y_{1}$ containing $Y$, and if the quotients $Y/R_{Y}$ and $Y_{1}/R_{Y_{1}}$ are identical, then $Y =
+Y_{1}$. One is evidently reduced to proving the same assertion in the case where $Y_{1} = X$. Denoting then by $P$
 (resp. $Q$) the presheaf $i(X)/i(R)$ (resp. $i(Y)/i(R_{Y})$), the diagram
 
-$$
-X  \to  P
-\uparrow       \uparrow
-Y  \to  Q
-$$
+$$ X \to P \uparrow \uparrow Y \to Q $$
 
 is cartesian. Since one has a commutative diagram
 
-$$
-P  \to  a(P)
-\uparrow       \uparrow
-Q  \to  a(Q),
-$$
+$$ P \to a(P) \uparrow \uparrow Q \to a(Q), $$
 
 and since $Q \hookrightarrow a(Q)$ is covering (4.3.11), the monomorphism $Q \hookrightarrow P$ is covering, hence $Q$
 is a refinement of $P$. By base change, $Y$ is a refinement of $X$. Since $X$ and $Y$ are sheaves, this entails (4.3.12)
@@ -2346,8 +2256,8 @@ If $T$ is defined by a pretopology $S \mapsto R(S)$, these conditions are furthe
 
 (iv) Every family belonging to $R(S)$ is universal effective epimorphic.
 
-In the case where these conditions are satisfied, the canonical functor $C \to \hat{C}$ factors through a functor
-$j_{C} = j : C \to \tilde{C}$ (we shall also write $j(S) = \tilde{S}$[^N.D.E-IV-40]).
+In the case where these conditions are satisfied, the canonical functor $C \to \hat{C}$ factors through a functor $j_{C}
+= j : C \to \tilde{C}$ (we shall also write $j(S) = \tilde{S}$[^N.D.E-IV-40]).
 
 **Proposition 4.5.1.** *The functor $j : C \to \tilde{C}$ is fully faithful and commutes with arbitrary inverse limits.
 It is in particular left exact and therefore preserves the algebraic structures defined by finite inverse limits.*
@@ -2375,9 +2285,7 @@ of $C/S$. This being said, the map $T \mapsto J(T)$ defines a topology on $C/S$ 
 given topology. With the definitions of [AS], 2.3, it is the coarsest of the topologies on $C/S$ for which the canonical
 functor
 
-$$
-i_{S} : C/S \longrightarrow C
-$$
+$$ i_{S} : C/S \longrightarrow C $$
 
 <!-- original page 214 -->
 
@@ -2389,8 +2297,8 @@ is a comorphism[^N.D.E-IV-41]. One will note that the identifications
 
 respect the topologies by definition.
 
-**Proposition 4.5.2.** *Let $S$ be a representable sheaf on $C$ and $F \to S$ a morphism of `Ĉ`. In order for
-$S' \mapsto \operatorname{Hom}_{S}(S', F)$ to be a separated presheaf (resp. a sheaf) on $C/S$, it is necessary and
+**Proposition 4.5.2.** *Let $S$ be a representable sheaf on $C$ and $F \to S$ a morphism of `Ĉ`. In order for $S'
+\mapsto \operatorname{Hom}_{S}(S', F)$ to be a separated presheaf (resp. a sheaf) on $C/S$, it is necessary and
 sufficient that $F$ be a separated presheaf (resp. a sheaf) on $C$.*
 
 <!-- label: III.IV.4.5.2 -->
@@ -2428,9 +2336,7 @@ coarser than the canonical topology of $C/S$.*
 **Corollary 4.5.4.** *Suppose the given topology on $C$ is coarser than the canonical topology. For every $S \in Ob C$,
 one has an equivalence of categories*
 
-$$
-\tilde{C}/\tilde{S} \xrightarrow{\sim} \tilde{C}/S.
-$$
+$$ \tilde{C}/\tilde{S} \xrightarrow{\sim} \tilde{C}/S. $$
 
 *The following diagrams are commutative up to isomorphism (all unlabelled arrows being equivalences):*
 
@@ -2455,9 +2361,8 @@ $$
 
 <!-- original page 215 -->
 
-The commutativity of the first two squares results from the definition of the equivalence
-$\tilde{C}/\tilde{S} \to \tilde{C}/S$. To prove the commutativity of the last, one must see that the following square is
-commutative:
+The commutativity of the first two squares results from the definition of the equivalence $\tilde{C}/\tilde{S} \to
+\tilde{C}/S$. To prove the commutativity of the last, one must see that the following square is commutative:
 
 ```text
        L′
@@ -2518,8 +2423,8 @@ resp. an isomorphism) is a refinement of $S$.*
 
 *If the given topology is defined by a pretopology $R$, these conditions are further equivalent to the following:*
 
-*(iv) For each $S \in Ob C$, there exists a covering family ${S_{i} \to S} \in R(S)$ such that for every $i$,
-$F_{S_{i}} \to G_{S_{i}}$ is a monomorphism (resp. an epimorphism, resp. an isomorphism).*
+*(iv) For each $S \in Ob C$, there exists a covering family ${S_{i} \to S} \in R(S)$ such that for every $i$, $F_{S_{i}}
+\to G_{S_{i}}$ is a monomorphism (resp. an epimorphism, resp. an isomorphism).*
 
 *If the category $C$ has a final object $e$, one may content oneself with taking $S = e$ in conditions (ii), (iii), and
 (iv).*
@@ -2546,11 +2451,10 @@ Hom(C, F) ────────────→ Hom(C, G)
 <!-- original page 218 -->
 
 then shows that $f(S)$ is injective (resp. bijective). Suppose finally that $f : F \to G$ is locally an epimorphism and
-let $H \subset G$ be its image. For each $S \to G$, $H \times_{G} S$ is the image of
-$f \times_{G} S : F \times_{G} S \to S$. To show that $f$ is an epimorphism, one must show that $H$ is a refinement of
-$G$, that is, that $H \times_{G} S$ is a refinement of $S$ for each $S$. But since this is so after every base change
-$T \to S$ of a refinement of $S$ (since $f \times_{G} S$ is locally covering), $H \times_{G} S$ is indeed a refinement
-of $S$ (Axiom (T 2)).
+let $H \subset G$ be its image. For each $S \to G$, $H \times_{G} S$ is the image of $f \times_{G} S : F \times_{G} S
+\to S$. To show that $f$ is an epimorphism, one must show that $H$ is a refinement of $G$, that is, that $H \times_{G}
+S$ is a refinement of $S$ for each $S$. But since this is so after every base change $T \to S$ of a refinement of $S$
+(since $f \times_{G} S$ is locally covering), $H \times_{G} S$ is indeed a refinement of $S$ (Axiom (T 2)).
 
 **Corollary 4.5.8.** *Let $F$ and $G$ be two sheaves over $S$ and $f : F \to G$ an $S$-morphism. In order for $f$ to be
 a monomorphism, resp. an epimorphism, resp. an isomorphism, it is necessary and sufficient that it be so locally on
@@ -2653,15 +2557,14 @@ R × Y ⇒ X × Y ──→ Q × Y
 
 <!-- original page 225 -->
 
-where the square is cartesian. It is immediate by 4.4.11 that $Z$ is a sub-$Y$-sheaf of $X \times Y$, stable under
-$R \times Y$, whose quotient is $Y$, and that, conversely, every $Z$ of this type comes from a unique section of
-$Q \times Y$ over $Y$. Taking first $Y$ representable, one extracts an isomorphism $Q \simeq F$. Taking next $Y$
-arbitrary, one extracts the announced form of $\operatorname{Hom}(Y, F)$. Considering finally the canonical morphism
-$X \to Q$, one sees at once that it corresponds to the sub-$X$-sheaf $R$ of $X \times X$, which completes the proof.
+where the square is cartesian. It is immediate by 4.4.11 that $Z$ is a sub-$Y$-sheaf of $X \times Y$, stable under $R
+\times Y$, whose quotient is $Y$, and that, conversely, every $Z$ of this type comes from a unique section of $Q \times
+Y$ over $Y$. Taking first $Y$ representable, one extracts an isomorphism $Q \simeq F$. Taking next $Y$ arbitrary, one
+extracts the announced form of $\operatorname{Hom}(Y, F)$. Considering finally the canonical morphism $X \to Q$, one
+sees at once that it corresponds to the sub-$X$-sheaf $R$ of $X \times X$, which completes the proof.
 
-**Corollary 4.6.2.** *Let $G$ be an arbitrary subfunctor of $F$ such that
-$\operatorname{Hom}(X, G) \subset \operatorname{Hom}(X, F)$ contains $R$. Then the canonical morphism $p : X \to F$
-factors through $G$.*
+**Corollary 4.6.2.** *Let $G$ be an arbitrary subfunctor of $F$ such that $\operatorname{Hom}(X, G) \subset
+\operatorname{Hom}(X, F)$ contains $R$. Then the canonical morphism $p : X \to F$ factors through $G$.*
 
 <!-- label: III.IV.4.6.2 -->
 
@@ -2683,8 +2586,8 @@ completeness.
 
 (d_T) Every element of `(M)` is covering.[^N.D.E-IV-44]
 
-(e_T) Let $f : X \to Y$ be a morphism of $C$. If there exists a refinement $R$ of $Y$ such that for every $Y' \to R$,
-$X \times_{Y} Y' \to Y'$ is an element of `(M)`, then $f$ is an element of `(M)`.
+(e_T) Let $f : X \to Y$ be a morphism of $C$. If there exists a refinement $R$ of $Y$ such that for every $Y' \to R$, $X
+\times_{Y} Y' \to Y'$ is an element of `(M)`, then $f$ is an element of `(M)`.
 
 <!-- original page 221 -->
 
@@ -2713,9 +2616,7 @@ so, $\tilde{X}/\tilde{R}$ is represented by the quotient $X/R$.*
 Suppose first that $R$ is `(M)`-effective and denote $Y = X/R$. The canonical morphism $p : X \to Y$ is an element of
 `(M)`, hence covering by (d_T). The corresponding morphism
 
-$$
-\tilde{p} : \tilde{X} \longrightarrow \tilde{X}/\tilde{R}
-$$
+$$ \tilde{p} : \tilde{X} \longrightarrow \tilde{X}/\tilde{R} $$
 
 is therefore a universal effective epimorphism of $\tilde{C}$ (4.4.3), hence identifies $\tilde{X}/\tilde{R}$ with the
 quotient of $\tilde{X}$ by the equivalence relation $R'$ defined in $\tilde{X}$ by $\tilde{p}$. As the canonical functor
@@ -2788,9 +2689,9 @@ with the sheaf-quotient of $X$ by $R$.*
 *Under these conditions, $F = F_{0} = X/R$.*
 
 *(iii) Let `(N)` be a family of morphisms stable under base change, such that for every covering family ${S_{i} \to S}$
-and every family ${T_{i} \to S_{i}}$ of morphisms of `(N)`, every descent datum on the $T_{i}$ relative to
-${S_{i} \to S}$ is effective. Suppose $X$ squarable (cf. 1.6.0) and the morphism $R \to X \times X$ an element of `(N)`.
-Then $F_{0} = F$.*
+and every family ${T_{i} \to S_{i}}$ of morphisms of `(N)`, every descent datum on the $T_{i}$ relative to ${S_{i} \to
+S}$ is effective. Suppose $X$ squarable (cf. 1.6.0) and the morphism $R \to X \times X$ an element of `(N)`. Then $F_{0}
+= F$.*
 
 *Proof.* (i) has already been proved (4.6.1).
 
@@ -2801,8 +2702,8 @@ an element of $F_{0}(S')$ for every $S' \to S$. As $R \in F(X)$ belongs to $F_{0
 $F_{0} = F$.
 
 Now suppose c) verified and let $Q$ be an object of $C$ representing $X/R$. Then the morphism $X \to Q$ is an element of
-`(M)` and, for every $S \in Ob C$ and every $Z \in F(S)$, the diagram (∗) of 4.6.1 shows that
-$Z = S \times_{Q \times S} X \times S$ is representable, and $Z \to S$ belongs to `(M)`, hence $Z \in F_{0}(S)$.
+`(M)` and, for every $S \in Ob C$ and every $Z \in F(S)$, the diagram (∗) of 4.6.1 shows that $Z = S \times_{Q \times S}
+X \times S$ is representable, and $Z \to S$ belongs to `(M)`, hence $Z \in F_{0}(S)$.
 
 (iii) Let $f \in \operatorname{Hom}(S, F)$ correspond to $Z \in F(S)$. We must show that $f$ factors through `F_0`, that
 is, that $Z$ is representable. This is clear first if $f$ factors through $X$, by virtue of:
@@ -2824,8 +2725,8 @@ by the two cartesian squares*
 
 This lemma follows at once from the description of the morphism $X \to F$.
 
-Let us return to the proof of the theorem. If $f$ factors through $X$, then $Z$ is representable and, as
-$R \to X \times X$ is an element of `(N)`, the same holds for $Z \to X_{S}$.
+Let us return to the proof of the theorem. If $f$ factors through $X$, then $Z$ is representable and, as $R \to X \times
+X$ is an element of `(N)`, the same holds for $Z \to X_{S}$.
 
 In general, $f$ does not necessarily factor through $X$; but since $X \to F$ is covering (4.4.3), there exists by 4.4.8
 (vii) a covering family ${S_{i} \to S}$ and for each $i$ a morphism $S_{i} \to X$ making commutative the diagram
@@ -2840,9 +2741,9 @@ S_i ──→ S .
 <!-- original page 228 -->
 
 By what precedes, the morphism $f_{i} : S_{i} \to F$ defined by the preceding diagram belongs to
-$\operatorname{Hom}(S_{i}, F_{0})$ and corresponds to the sub-sheaf $Z \times_{S} S_{i}$ of $X_{S_{i}}$. The morphism
-$Z \times_{S} S_{i} \to X_{S_{i}}$ is an element of `(N)` and the family $X_{S_{i}} \to X_{S}$ covering. It therefore
-only remains to establish:
+$\operatorname{Hom}(S_{i}, F_{0})$ and corresponds to the sub-sheaf $Z \times_{S} S_{i}$ of $X_{S_{i}}$. The morphism $Z
+\times_{S} S_{i} \to X_{S_{i}}$ is an element of `(N)` and the family $X_{S_{i}} \to X_{S}$ covering. It therefore only
+remains to establish:
 
 **Proposition 4.6.8.** *Let ${S_{i} \to S}$ be a covering family and $Z$ a sheaf above $S$. Suppose that for each $i$,
 the $S_{i}$-functor $Z \times_{S} S_{i}$ is representable by an object $T_{i}$. Then the family of $T_{i}$ is equipped
@@ -2856,9 +2757,9 @@ descent family in $\tilde{C}$ (2.3). If $Z$ is representable by the object $T$, 
 a sheaf) is isomorphic to $Z \times_{S} S_{i}$, hence the descent datum on the $T_{i}$ is effective and the (unique)
 descended object is isomorphic to $Z$. Conversely, suppose that the canonical descent datum on the $T_{i}$ is effective
 and let $T$ be the descended object. Since the family ${S_{i} \to S}$ is a descent family in $\tilde{C}$, there exists
-an $S$-morphism $T \to Z$ which by base extension to each $S_{i}$ recovers the canonical morphism
-$T_{i} \to Z \times_{S} S_{i}$. This morphism is locally an isomorphism; as $T$ and $Z$ are sheaves, it follows from
-4.5.8 that it is an isomorphism.
+an $S$-morphism $T \to Z$ which by base extension to each $S_{i}$ recovers the canonical morphism $T_{i} \to Z
+\times_{S} S_{i}$. This morphism is locally an isomorphism; as $T$ and $Z$ are sheaves, it follows from 4.5.8 that it is
+an isomorphism.
 
 <!-- original page 225 -->
 
@@ -2873,14 +2774,14 @@ Hom(X/R, F) ⟶ Hom(X, F)
 *identifies the first set with the part of the second consisting of the morphisms compatible with $R$.*
 
 **Corollary 4.6.10.** *Let $T '$ be a topology coarser than $T$, for which the morphisms of `(M)` are covering. Under
-the conditions of 4.6.6 (iii), $X/R$ is also the sheaf-quotient of $X$ by $R$ in every intermediate topology between
-$T '$ and the canonical topology.*
+the conditions of 4.6.6 (iii), $X/R$ is also the sheaf-quotient of $X$ by $R$ in every intermediate topology between $T
+'$ and the canonical topology.*
 
 <!-- label: III.IV.4.6.10 -->
 
 **Remark 4.6.11.** *If in the statement of 4.6.6 (iii), one furthermore assumes that, under the hypotheses of the text,
-if one denotes $T$ the descended object, the morphism $T \to S$ is an element of `(N)`, then the inclusion morphisms
-$Z \hookrightarrow X_{S}$ are also elements of `(N)`, as follows at once from the construction of $Z$ by descent.*
+if one denotes $T$ the descended object, the morphism $T \to S$ is an element of `(N)`, then the inclusion morphisms $Z
+\hookrightarrow X_{S}$ are also elements of `(N)`, as follows at once from the construction of $Z$ by descent.*
 
 <!-- label: III.IV.4.6.11 -->
 
@@ -2982,12 +2883,12 @@ of morphisms verifying (a) and (f_M).*
 <!-- original page 229 -->
 
 *For every sub-object $Y$ of $X$, stable under $R$ and such that $Y \to X$ belongs to `(N)`, the equivalence relation
-induced in $Y$ by $R$ is `(M)`-effective and the quotient $Y/R_{Y} = Y'$ is a sub-object of $X' = X/R$ such that
-$Y' \to X'$ belongs to `(N)`.*
+induced in $Y$ by $R$ is `(M)`-effective and the quotient $Y/R_{Y} = Y'$ is a sub-object of $X' = X/R$ such that $Y' \to
+X'$ belongs to `(N)`.*
 
 *The map $Y \mapsto Y'$ is a bijection between the set of sub-objects $Y$ of $X$, stable under $R$, such that $Y \to X$
-belongs to `(N)`, and the set of sub-objects $Y'$ of $X'$ such that $Y' \to X'$ belongs to `(N)`. The inverse map is
-$Y' \mapsto Y' \times_{X'} X$.*
+belongs to `(N)`, and the set of sub-objects $Y'$ of $X'$ such that $Y' \to X'$ belongs to `(N)`. The inverse map is $Y'
+\mapsto Y' \times_{X'} X$.*
 
 *Proof.* As $R$ is `(M)`-effective, the morphism $X \to X'$ belongs to `(M)`. Let $Y'$ be a sub-object of $X'$ such that
 the canonical morphism $Y' \to X'$ belongs to `(N)`. Then, the sub-object $Y = Y' \times_{X'} X$ of $X$ is stable under
@@ -3002,9 +2903,9 @@ family `(N)` verifies the axiom (f_M).
 
 <!-- original page 231 -->
 
-**Corollary 4.7.3.** *Let $X \in Ob C$ and $R$ an `(M)`-effective equivalence relation in $X$; assume moreover that
-$R \to X \times X$ belongs to `(N)`, where `(N)` verifies (a) and (f_T). Then, for every $Y$ as in 4.7.2,
-$R_{Y} \to Y \times Y$ also belongs to `(N)` and therefore, by 4.7.1, one has:*
+**Corollary 4.7.3.** *Let $X \in Ob C$ and $R$ an `(M)`-effective equivalence relation in $X$; assume moreover that $R
+\to X \times X$ belongs to `(N)`, where `(N)` verifies (a) and (f_T). Then, for every $Y$ as in 4.7.2, $R_{Y} \to Y
+\times Y$ also belongs to `(N)` and therefore, by 4.7.1, one has:*
 
 <!-- label: III.IV.4.7.3 -->
 
@@ -3045,9 +2946,7 @@ with operator group $H$) to $H$ on which $H$ operates by translations.*
 
 <!-- label: III.IV.5.1.2 -->
 
-$$
-\Gamma(X) \xrightarrow{\sim} Isom_{H-obj.}(H, X)
-$$
+$$ \Gamma(X) \xrightarrow{\sim} Isom_{H-obj.}(H, X) $$
 
 *of principal homogeneous sets under $\Gamma(H)$.*
 
@@ -3058,9 +2957,7 @@ assertion is immediate, by reduction to the set-theoretic case.
 
 <!-- label: III.IV.5.1.3 -->
 
-$$
-X \xrightarrow{\sim} Isom_{H-obj.}(H, X).
-$$
+$$ X \xrightarrow{\sim} Isom_{H-obj.}(H, X). $$
 
 **Corollary 5.1.4.** *In order for an object with operator group to be trivial, it is necessary and sufficient that it
 be formally principal homogeneous and possess a section.*
@@ -3100,14 +2997,14 @@ trivial, that is, $P \times_{S} S'$ is trivial under $H \times_{S} S'$.*
 *(iv) $H$ operates freely on $P$, in an `(M)`-effective manner, and the quotient $P/H$ is isomorphic to $S$.*
 
 Let us first remark that (ii) and (iv) are equivalent, taking into account that, in either case, $P \to S$ is an element
-of `(M)`, hence squarable, which ensures the representability of the fibered products $H \times_{S} P$ and
-$P \times_{S} P$. It is clear that (ii) entails (iii), as one can take $P$ itself as $S'$, the hypothesis that $P$ is
-formally principal homogeneous entailing that $P \times_{S} P$ is trivial under $H \times_{S} P$ (5.1.4), since it has a
-section (the diagonal section). It is clear that (iii) entails (i), since ${S' \to S}$ is a covering family, by axiom
-(d_T). It therefore remains to show that (i) entails (ii). The morphism of sheaves $P \times_{S} H \to P \times_{S} P$
-is locally an isomorphism, hence an isomorphism (4.5.8); $P$ is therefore formally principal homogeneous. The structural
-morphism $P \to S$ is locally isomorphic to the structural morphism $H \to S$ which is an element of `(M)`. It is
-therefore itself an element of `(M)` by (e_T).
+of `(M)`, hence squarable, which ensures the representability of the fibered products $H \times_{S} P$ and $P \times_{S}
+P$. It is clear that (ii) entails (iii), as one can take $P$ itself as $S'$, the hypothesis that $P$ is formally
+principal homogeneous entailing that $P \times_{S} P$ is trivial under $H \times_{S} P$ (5.1.4), since it has a section
+(the diagonal section). It is clear that (iii) entails (i), since ${S' \to S}$ is a covering family, by axiom (d_T). It
+therefore remains to show that (i) entails (ii). The morphism of sheaves $P \times_{S} H \to P \times_{S} P$ is locally
+an isomorphism, hence an isomorphism (4.5.8); $P$ is therefore formally principal homogeneous. The structural morphism
+$P \to S$ is locally isomorphic to the structural morphism $H \to S$ which is an element of `(M)`. It is therefore
+itself an element of `(M)` by (e_T).
 
 <!-- original page 232 -->
 
@@ -3139,8 +3036,8 @@ H_Y ×_Y X ⥲ H ×_S X.
 The proposition follows from this remark and from the equivalence (iv) ⇔ (i) above.
 
 **Corollary 5.1.7.1.**[^N.D.E-IV-51] *Let $C$ be a category having a final object, stable under fibered products, and
-equipped with a topology $T$ coarser than the canonical topology. Let $f : G \to H$ be a morphism of $C$-groups, and
-$K = Ker(f)$. Assume $f$ covering for the topology $T$.*
+equipped with a topology $T$ coarser than the canonical topology. Let $f : G \to H$ be a morphism of $C$-groups, and $K
+= Ker(f)$. Assume $f$ covering for the topology $T$.*
 
 <!-- label: III.IV.5.1.7.1 -->
 
@@ -3148,17 +3045,17 @@ $K = Ker(f)$. Assume $f$ covering for the topology $T$.*
 $K$-torsor above $H$".)*
 
 Indeed, as $f$ is covering, it is a universal effective epimorphism (4.4.3), hence by 3.3.3.1, $H$ is the quotient of
-$G$ by the equivalence relation $R(f) = G \times_{H} G$. On the other hand, the morphism
-$G \times K \to G \times_{H} G$, $(g, k) \mapsto (g, gk)$ is an isomorphism of objects with operator group
-$K_{G} = G \times_{H} K_{H}$ (its inverse being given by $(g, g') \mapsto (g, g^{-1} g')$). Hence, on the one hand,
-$R(f)$ is the equivalence relation defined by $K$; on the other hand, since the morphism $f : G \to H$ is covering, $f$
-is a `K_H`-torsor, by 5.1.6 (ii) (or directly by definition 5.1.5 (ii)).
+$G$ by the equivalence relation $R(f) = G \times_{H} G$. On the other hand, the morphism $G \times K \to G \times_{H}
+G$, $(g, k) \mapsto (g, gk)$ is an isomorphism of objects with operator group $K_{G} = G \times_{H} K_{H}$ (its inverse
+being given by $(g, g') \mapsto (g, g^{-1} g')$). Hence, on the one hand, $R(f)$ is the equivalence relation defined by
+$K$; on the other hand, since the morphism $f : G \to H$ is covering, $f$ is a `K_H`-torsor, by 5.1.6 (ii) (or directly
+by definition 5.1.5 (ii)).
 
 We can now make Theorem 4.6.6 more precise in the case of passage to the quotient by an operator group:
 
 **Proposition 5.1.8.** *Under the hypotheses of 5.1.7, let `F_0` denote the functor over $S$ defined as follows: for
-each $S' \to S$, $F_{0}(S')$ is the set of representable sub-$S'$-functors $Z$ of $X \times_{S} S'$, stable under
-$H \times_{S} S'$ and being principal homogeneous bundles under this $S'$-group for the induced action (3.2.2).*
+each $S' \to S$, $F_{0}(S')$ is the set of representable sub-$S'$-functors $Z$ of $X \times_{S} S'$, stable under $H
+\times_{S} S'$ and being principal homogeneous bundles under this $S'$-group for the induced action (3.2.2).*
 
 <!-- label: III.IV.5.1.8 -->
 
@@ -3171,11 +3068,11 @@ $H \times_{S} S'$ and being principal homogeneous bundles under this $S'$-group 
 
 *Under these conditions, one has $F_{0} = X/H$.*
 
-*(ii) Let `(N)` be a family of morphisms, stable under base change, such that for every covering family
-${S'_{i} \to S'}$ and every family ${T_{i} \to S'_{i}}$ of morphisms of `(N)`, every descent datum on the $T_{i}$
-relative to ${S'_{i} \to S'}$ is effective. Assume the morphism $X \times_{S} H \to X \times_{S} X$ is an element of
-`(N)` and $X$ squarable. Then the element $p$ of $\operatorname{Hom}(X, F_{0})$ corresponding to the sub-object
-$X \times_{S} H$ of $X \times_{S} X$ identifies `F_0` with the sheaf-quotient $X/H$.*
+*(ii) Let `(N)` be a family of morphisms, stable under base change, such that for every covering family ${S'_{i} \to
+S'}$ and every family ${T_{i} \to S'_{i}}$ of morphisms of `(N)`, every descent datum on the $T_{i}$ relative to
+${S'_{i} \to S'}$ is effective. Assume the morphism $X \times_{S} H \to X \times_{S} X$ is an element of `(N)` and $X$
+squarable. Then the element $p$ of $\operatorname{Hom}(X, F_{0})$ corresponding to the sub-object $X \times_{S} H$ of $X
+\times_{S} X$ identifies `F_0` with the sheaf-quotient $X/H$.*
 
 <!-- original page 234 -->
 
@@ -3190,9 +3087,7 @@ $G/H$ a unique structure of object with operator group $G$ such that the canonic
 
 <!-- label: III.IV.5.2.1 -->
 
-$$
-p : G \longrightarrow G/H
-$$
+$$ p : G \longrightarrow G/H $$
 
 *is a morphism of objects with operator group $G$. This structure is functorial with respect to the pair $(G, H)$: if
 one has a commutative diagram*
@@ -3209,9 +3104,7 @@ H′ ──→ G′ ,
 
 Indeed, the sheaf $G/H$ is the sheaf associated with the presheaf
 
-$$
-i(G)/i(H) : S \mapsto G(S)/H(S);
-$$
+$$ i(G)/i(H) : S \mapsto G(S)/H(S); $$
 
 as the functor $a$ is left exact, it transforms objects with operator groups into objects with operator group. As the
 presheaf $i(G)/i(H)$ is equipped with a structure of object with operator groups $i(G)$, then $G/H = a(i(G)/i(H))$ is
@@ -3308,18 +3201,19 @@ the image of $L$ in $G/H$ is identified with*
 (L · H)/H ≃ L/(H ∩ L).
 ```
 
-Indeed, let $L'$ denote the sheaf image of $L$ in $G/H$. It is a sub-sheaf of groups of $G/H$ corresponding to
-$L \cdot H$ in the correspondence of the preceding proposition. As the morphism $L \to L'$ is covering, hence a
-universal effective epimorphism of sheaves, it follows from 4.4.9 that $L'$ is identified with the quotient of $L$ by
-the kernel of $L \to L'$ which is obviously none other than $H \cap L$.
+Indeed, let $L'$ denote the sheaf image of $L$ in $G/H$. It is a sub-sheaf of groups of $G/H$ corresponding to $L \cdot
+H$ in the correspondence of the preceding proposition. As the morphism $L \to L'$ is covering, hence a universal
+effective epimorphism of sheaves, it follows from 4.4.9 that $L'$ is identified with the quotient of $L$ by the kernel
+of $L \to L'$ which is obviously none other than $H \cap L$.
 
 Let us finally consider the following situation: we have a sheaf of groups $G$, a sub-sheaf of groups $K$ and a
-sub-sheaf of groups $H$ of $K$, invariant in $K$. Let us first define a (right) operation of the sheaf of groups $H\backslash K$
-(= $K/H$) on $G/H$. The group $K$ operates by right translations on $G$. As $H$ is invariant in $K$, this operation is
-compatible with the equivalence relation defined by the action of $H$ and therefore defines an operation of $K$ on
-$G/H$, that is, a morphism from the opposite group $K^{\circ}$ to $K$ into $\operatorname{Aut}(G/H)$. As the latter is a
-sheaf (4.5.13) and this morphism is trivial on $H$, it factors through $K/H$ and defines the sought operation. As the
-right and left operations of $G$ on itself commute, the operations of $G$ and $K/H$ on $G/H$ commute.
+sub-sheaf of groups $H$ of $K$, invariant in $K$. Let us first define a (right) operation of the sheaf of groups
+$H\backslash K$ (= $K/H$) on $G/H$. The group $K$ operates by right translations on $G$. As $H$ is invariant in $K$,
+this operation is compatible with the equivalence relation defined by the action of $H$ and therefore defines an
+operation of $K$ on $G/H$, that is, a morphism from the opposite group $K^{\circ}$ to $K$ into
+$\operatorname{Aut}(G/H)$. As the latter is a sheaf (4.5.13) and this morphism is trivial on $H$, it factors through
+$K/H$ and defines the sought operation. As the right and left operations of $G$ on itself commute, the operations of $G$
+and $K/H$ on $G/H$ commute.
 
 <!-- original page 237 -->
 
@@ -3328,18 +3222,14 @@ canonical isomorphism of sheaves with operator group $G$*
 
 <!-- label: III.IV.5.2.9 -->
 
-$$
-(G/H)/(K/H) \simeq G/K.
-$$
+$$ (G/H)/(K/H) \simeq G/K. $$
 
 *When $K$ is invariant in $G$, in which case $K/H$ is invariant in $G/H$ (5.2.7), this isomorphism respects the group
 structures of the two sides.*
 
 One has an isomorphism of presheaves
 
-$$
-(i(G)/i(H)) / (i(K)/i(H)) \xrightarrow{\sim} i(G)/i(K),
-$$
+$$ (i(G)/i(H)) / (i(K)/i(H)) \xrightarrow{\sim} i(G)/i(K), $$
 
 which respects the structures of objects with operator group $i(G)$. The announced result is obtained by applying the
 functor $a$ to this relation.
@@ -3359,9 +3249,7 @@ commutes with that of $G$. The following conditions are equivalent:*
 
 *Under these conditions, one has an isomorphism of objects[^N.D.E-IV-53] with operator group $G$:*
 
-$$
-(G/H)/(K/H) \simeq G/K.
-$$
+$$ (G/H)/(K/H) \simeq G/K. $$
 
 ### 5.3. Use of effectivity criteria: Noether's theorem[^N.D.E-IV-54]
 
@@ -3377,13 +3265,12 @@ Putting together 5.2.7 and 4.7.2, one obtains:
 in $K$ in an `(M)`-effective manner and the quotient $K/H = K'$ is a sub-$C$-group of $G/H = G'$ such that the morphism
 $K' \to G'$ belongs to `(N)`.*
 
-*The map $K \mapsto K'$ is a bijection between the set of sub-$C$-groups $K$ of $G$, containing $H$ and such that
-$K \to G$ belongs to `(N)`, and the set of sub-$C$-groups $K'$ of $G'$ such that $K' \to G'$ belongs to `(N)`. The
-inverse map is $K' \mapsto K \times_{G'} G$. In this correspondence, the invariant subgroups of $G$ and $G'$
-correspond.*
+*The map $K \mapsto K'$ is a bijection between the set of sub-$C$-groups $K$ of $G$, containing $H$ and such that $K \to
+G$ belongs to `(N)`, and the set of sub-$C$-groups $K'$ of $G'$ such that $K' \to G'$ belongs to `(N)`. The inverse map
+is $K' \mapsto K \times_{G'} G$. In this correspondence, the invariant subgroups of $G$ and $G'$ correspond.*
 
-**Corollary 5.3.2.** *If $H \to G$ is an element of `(N)`, then $C$ has a final object $e$ and the unit section
-$e \to G/H$ is an element of `(N)`.[^N.D.E-IV-55]*
+**Corollary 5.3.2.** *If $H \to G$ is an element of `(N)`, then $C$ has a final object $e$ and the unit section $e \to
+G/H$ is an element of `(N)`.[^N.D.E-IV-55]*
 
 <!-- label: III.IV.5.3.2 -->
 
@@ -3424,10 +3311,10 @@ the topology generated by $P$ and $P'$ (cf. 4.2.5.0) and suppose the three condi
 <!-- label: III.IV.6.2.1 -->
 
 *(a) If ${S_{i} \to S} \in P'$ (hence $S_{i}, S \in Ob C '$) and if $T \to S$ is a morphism of $C '$, then the fibered
-products $S_{i} \times_{S} T$ (in $C$) exist and the family ${S_{i} \times_{S} T \to T}$ belongs to $P'$ (hence
-$S_{i} \times_{S} T \in Ob C '$). (Remark: this condition entails that $P'$ is stable under base change in $C '$, but is
-not equivalent to it, since it further supposes that the inclusion functor from $C '$ to $C$ commutes with certain
-fibered products).*
+products $S_{i} \times_{S} T$ (in $C$) exist and the family ${S_{i} \times_{S} T \to T}$ belongs to $P'$ (hence $S_{i}
+\times_{S} T \in Ob C '$). (Remark: this condition entails that $P'$ is stable under base change in $C '$, but is not
+equivalent to it, since it further supposes that the inclusion functor from $C '$ to $C$ commutes with certain fibered
+products).*
 
 <!-- original page 240 -->
 
@@ -3566,9 +3453,9 @@ sieve $R \times_{S} T$ of $T$ is of the desired form.
 ```
 
 Let $T_{i} = S_{i} \times_{S} T$. The family ${T_{i} \to T}$ belongs to $P$ (by (P 1)). Applying (b), one constructs
-${U_{ik} \to T_{i}} \in P$, with the $U_{ik} \in Ob C '$. By hypothesis (condition (P 2) on $P$), one has
-${U_{ik} \to T} \in P$. By (a), $U_{ik} \times_{S_{i}} S_{ij} = U_{ikj}$ is an object of $C '$ and for each `ik`,
-${U_{ikj} \to U_{ik}} \in P'$. Then, the commutative diagram below
+${U_{ik} \to T_{i}} \in P$, with the $U_{ik} \in Ob C '$. By hypothesis (condition (P 2) on $P$), one has ${U_{ik} \to
+T} \in P$. By (a), $U_{ik} \times_{S_{i}} S_{ij} = U_{ikj}$ is an object of $C '$ and for each `ik`, ${U_{ikj} \to
+U_{ik}} \in P'$. Then, the commutative diagram below
 
 ```text
 R ←──────── U_{ikj}
@@ -3599,9 +3486,7 @@ that the morphism*
 
 <!-- label: III.IV.6.2.3 -->
 
-$$
-F(S) \longrightarrow \prod_{i} F(S_{i})
-$$
+$$ F(S) \longrightarrow \prod_{i} F(S_{i}) $$
 
 *be injective (resp. that the diagram*
 
@@ -3683,9 +3568,9 @@ As $P'_{1} \supset P'_{2} \supset P'_{3} \supset P'_{4}$, one has
 ```
 
 **Proposition 6.3.1.** *(i) In order for the sieve $R$ of $S$ to be covering for $T_{i}$, $1 \leq i \leq 3$, it is
-necessary and sufficient that there exist a covering $(S_{p})$ of $S$ by affine opens and for each $p$ a family
-${S_{pq} \to S_{p}}$ element of $P'_{i}$, the $S_{pq}$ being affine, such that each morphism ${S_{pq} \to S}$ factors
-through $R$.[^N.D.E-IV-58]*
+necessary and sufficient that there exist a covering $(S_{p})$ of $S$ by affine opens and for each $p$ a family ${S_{pq}
+\to S_{p}}$ element of $P'_{i}$, the $S_{pq}$ being affine, such that each morphism ${S_{pq} \to S}$ factors through
+$R$.[^N.D.E-IV-58]*
 
 <!-- label: III.IV.6.3.1 -->
 
@@ -3730,8 +3615,8 @@ Let us now consider the case where the morphisms $f_{i} : S_{i} \to S$ are flat 
 every $s \in S$, there exists, by (the proof of) EGA IV_4, 17.16.2, an affine subscheme $X(s)$ of a certain $S_{i}$,
 such that $s \in f_{i}(X(s))$ and that the morphism $g_{i} : X(s) \to S$, restriction of $f_{i}$, is flat, of finite
 presentation, and quasi-finite. Then, $g_{i}(X(s))$ is an open neighborhood $U(s)$ of $s$ (EGA IV_2, 2.4.6), and, $S$
-being affine, it is covered by a finite number of such opens $U(s_{j})$, `j = 1, ..., n`. Consequently,
-$X' = \bigsqcup_{j} X(s_{j})$ is affine, and the morphism $X' \to S$ is surjective, flat, of finite presentation, and
+being affine, it is covered by a finite number of such opens $U(s_{j})$, `j = 1, ..., n`. Consequently, $X' =
+\bigsqcup_{j} X(s_{j})$ is affine, and the morphism $X' \to S$ is surjective, flat, of finite presentation, and
 quasi-finite, hence belongs to $P'_{2}$.[^N.D.E-IV-60] This completes the proof of (iv).
 
 Let us prove (v). Let ${S_{i} \to S}$ be a finite faithfully flat and quasi-compact family. Let $T_{j}$ be a covering of
@@ -3801,8 +3686,8 @@ VIII 4.4; for (N′), this is loc. cit., 1.9. For (N″) one argues as in loc. c
 These results allow one to apply to the present situation the general results of 4.7.1, 4.7.2, 5.1.8, 5.3.1, etc. Let us
 state one as an example, the first.
 
-**Corollary 6.4.3.** *(= 4.7.1 + 4.6.10).* *Let $X$ be a scheme and $R$ an equivalence relation in $X$. Suppose that
-$R \to X$ is faithfully flat and quasi-compact and that $R \to X \times X$ is a closed immersion (resp. open, resp.
+**Corollary 6.4.3.** *(= 4.7.1 + 4.6.10).* *Let $X$ be a scheme and $R$ an equivalence relation in $X$. Suppose that $R
+\to X$ is faithfully flat and quasi-compact and that $R \to X \times X$ is a closed immersion (resp. open, resp.
 quasi-compact, resp. quasi-compact open). Then the sheaf-quotient $X/R$ is the same for the topology (fpqc) and for the
 canonical topology, and for each scheme $S$, one has*
 
@@ -3896,8 +3781,8 @@ the topology $T$) *if the following equivalent conditions are satisfied:*
 *(i) the morphism $\Phi : G \times_{S} X \to X \times_{S} X$ is an epimorphism in the category of sheaves for the
 topology $T$,*
 
-*(ii) for every $T \to S$, and $x, y \in X(T)$, there exists a morphism $T' \to T$ covering for the topology $T$, and
-$g \in G(T')$, such that $y_{T'} = g \cdot x_{T'}$.*
+*(ii) for every $T \to S$, and $x, y \in X(T)$, there exists a morphism $T' \to T$ covering for the topology $T$, and $g
+\in G(T')$, such that $y_{T'} = g \cdot x_{T'}$.*
 
 **Remark 6.7.2.** *Condition (i) implies, in particular, that $\Phi$ is a universal effective epimorphism in $(Sch/S)$
 (cf. 4.4.3). This entails, as one easily sees, that $\Phi$ is surjective (cf. 1.3, N.D.E. (3)).*
@@ -3989,11 +3874,11 @@ induces an isomorphism $a(G/H) \xrightarrow{\sim} X$. One has therefore proved t
 such that $X \to S$ admits a section $\sigma$, then $X$ represents the sheaf quotient $G/H$, where $H = G \times_{X} S$
 is the stabilizer of $\sigma$.
 
-In the general case, there exists by hypothesis a covering family ${S_{i} \to S}$ such that each morphism
-$X_{i} = X \times_{S} S_{i} \to S_{i}$ has a section $\sigma_{i}$. Set $G_{i} = G \times_{S} S_{i}$; then the morphism
-$\Phi_{i} : G_{i} \times_{S_{i}} X_{i} \to X_{i} \times_{S_{i}} X_{i}$ deduced from $\Phi$ by the base change
-$S_{i} \to S$ is again covering. Hence, by what precedes, $X_{i} \cong G_{i}/H_{i}$, where $H_{i}$ is the stabilizer in
-$G_{i}$ of $\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii).
+In the general case, there exists by hypothesis a covering family ${S_{i} \to S}$ such that each morphism $X_{i} = X
+\times_{S} S_{i} \to S_{i}$ has a section $\sigma_{i}$. Set $G_{i} = G \times_{S} S_{i}$; then the morphism $\Phi_{i} :
+G_{i} \times_{S_{i}} X_{i} \to X_{i} \times_{S_{i}} X_{i}$ deduced from $\Phi$ by the base change $S_{i} \to S$ is again
+covering. Hence, by what precedes, $X_{i} \cong G_{i}/H_{i}$, where $H_{i}$ is the stabilizer in $G_{i}$ of
+$\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii).
 
 <!-- original page 249 -->
 
@@ -4094,8 +3979,8 @@ $G_{i}$ of $\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii
 
 [^N.D.E-IV-3]: N.D.E.: For example, if $C = (Sch)$ is the category of schemes, one sees easily that every universal
     epimorphism is surjective. Let $T = \coprod_{p prime} \operatorname{Spec}(F_{p})$ and $S = \operatorname{Spec}(Z)$;
-    then the morphism $u : T \to S$ is an epimorphism that is not universal. On the other hand, one sees that
-    $T \times_{S} T$ is identified with $T$, so that the two projections `T ×_S T ⇉ T` coincide; since $id_{T}$ does not
+    then the morphism $u : T \to S$ is an epimorphism that is not universal. On the other hand, one sees that $T
+    \times_{S} T$ is identified with $T$, so that the two projections `T ×_S T ⇉ T` coincide; since $id_{T}$ does not
     descend to a morphism $S \to T$, this shows that $u$ is not an effective epimorphism.
 
 [^N.D.E-IV-4]: N.D.E.: The numbering 1.4.0 has been added for later references.
@@ -4181,10 +4066,9 @@ $G_{i}$ of $\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii
     the definition that if $Q \to P$ is a monomorphism, the same holds for $LP \to LQ$; hence $L$ "preserves
     monomorphisms" (see also 4.3.16 for a more general result: $L$ "commutes with finite inverse limits").
 
-[^N.D.E-IV-27]: N.D.E.: Denote by $p$ the projection $R' \to R$. Since $i_{R}$ is a monomorphism, one has
-    $p = g i_{R'}$. Let $g'$ be the section of $i_{R'}$ defined by $g$; then $p g' = g$ and therefore
-    $p g' i_{R'} = g i_{R'} = p$; this entails $g' i_{R'} = id_{R'}$ and therefore $i_{R'} : R' \to T$ is an
-    isomorphism, with inverse $g'$.
+[^N.D.E-IV-27]: N.D.E.: Denote by $p$ the projection $R' \to R$. Since $i_{R}$ is a monomorphism, one has $p = g
+    i_{R'}$. Let $g'$ be the section of $i_{R'}$ defined by $g$; then $p g' = g$ and therefore $p g' i_{R'} = g i_{R'} =
+    p$; this entails $g' i_{R'} = id_{R'}$ and therefore $i_{R'} : R' \to T$ is an isomorphism, with inverse $g'$.
 
 [^N.D.E-IV-28]: N.D.E.: The statement of the corollary and its proof have been detailed.
 
@@ -4197,14 +4081,14 @@ $G_{i}$ of $\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii
 
 [^N.D.E-IV-32]: N.D.E.: Point (i) of Lemma 4.4.5 has been corrected, and the proof of the three points detailed.
 
-[^N.D.E-IV-33]: N.D.E.: In general, the direct sum of two sheaves `F, G` is not a sheaf. Indeed, let
-    $S_{1}, S_{2} \in Ob C$; suppose that the direct sum $S = S_{1} \coprod S_{2}$ exists in $C$ and that the fiber
-    product $S_{1} \times_{S} S_{2}$ is an initial object $\emptyset$ of $C$ (cf. I, 1.8). Let $R$ be the sieve of $S$
-    with base ${S_{1}, S_{2}}$; then $(F \coprod G)(R)$ is the disjoint union of $F(S) \coprod G(S)$ and of
-    $F(S_{i}) \times G(S_{j})$ for $i \neq j$, hence $F \coprod G$ is not a sheaf in general. On the other hand, if $C$
-    is the category with a single object $S$ and $id_{S}$ as sole morphism, equipped with the topology defined by
-    $J(S) = {R_{\emptyset}, S}$, then the only separated presheaves are $R_{\emptyset}$ and $X = h_{S}$ (which is a
-    sheaf), and $X \coprod X$ is not separated.
+[^N.D.E-IV-33]: N.D.E.: In general, the direct sum of two sheaves `F, G` is not a sheaf. Indeed, let $S_{1}, S_{2} \in
+    Ob C$; suppose that the direct sum $S = S_{1} \coprod S_{2}$ exists in $C$ and that the fiber product $S_{1}
+    \times_{S} S_{2}$ is an initial object $\emptyset$ of $C$ (cf. I, 1.8). Let $R$ be the sieve of $S$ with base
+    ${S_{1}, S_{2}}$; then $(F \coprod G)(R)$ is the disjoint union of $F(S) \coprod G(S)$ and of $F(S_{i}) \times
+    G(S_{j})$ for $i \neq j$, hence $F \coprod G$ is not a sheaf in general. On the other hand, if $C$ is the category
+    with a single object $S$ and $id_{S}$ as sole morphism, equipped with the topology defined by $J(S) =
+    {R_{\emptyset}, S}$, then the only separated presheaves are $R_{\emptyset}$ and $X = h_{S}$ (which is a sheaf), and
+    $X \coprod X$ is not separated.
 
 [^N.D.E-IV-34]: N.D.E.: The statement of the lemma and its proof have been detailed.
 
@@ -4222,8 +4106,8 @@ $G_{i}$ of $\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii
 
 [^N.D.E-IV-40]: N.D.E.: and we shall also write $h_{S} = \hat{S}$, cf. the first commutative diagram of 4.5.4.
 
-[^N.D.E-IV-41]: N.D.E.: i.e., such that for every object $T \to S$ of $C/S$, every covering sieve $R'$ of
-    $i_{S}(T \to S) = T$, considered as a sieve of $(T \to S) \in Ob C/S$, is covering.
+[^N.D.E-IV-41]: N.D.E.: i.e., such that for every object $T \to S$ of $C/S$, every covering sieve $R'$ of $i_{S}(T \to
+    S) = T$, considered as a sieve of $(T \to S) \in Ob C/S$, is covering.
 
 [^N.D.E-IV-42]: N.D.E.: We have expanded the original in what follows.
 
@@ -4264,9 +4148,9 @@ $G_{i}$ of $\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii
     be affine and $f : X \to S$ a surjective flat morphism locally of finite presentation; then there exists a morphism
     $S' \to S$ faithfully flat, of finite presentation, quasi-finite, with $S'$ affine, and an $S$-morphism $S' \to X$.
 
-[^N.D.E-IV-58]: N.D.E.: By hypothesis, each family ${S_{pq} \to S} \in P'_{i}$ is finite, hence
-    $S'_{p} = \bigsqcup_{q} S_{pq}$ is affine and the family can therefore be replaced by the morphism
-    $S'_{p} \to S_{p}$, which still belongs to $P'_{i}$.
+[^N.D.E-IV-58]: N.D.E.: By hypothesis, each family ${S_{pq} \to S} \in P'_{i}$ is finite, hence $S'_{p} = \bigsqcup_{q}
+    S_{pq}$ is affine and the family can therefore be replaced by the morphism $S'_{p} \to S_{p}$, which still belongs
+    to $P'_{i}$.
 
 [^N.D.E-IV-59]: N.D.E.: We have simplified what follows, taking advantage of the fact that $S$ is henceforth assumed
     affine.
@@ -4298,12 +4182,11 @@ $G_{i}$ of $\sigma_{i}$. This completes the proof of the implication (i) ⇒ (ii
 
 [^N.D.E-IV-68]: N.D.E.: We have added this reference.
 
-[^N.D.E-IV-43]: N.D.E.: $R \times S$ denotes the equivalence relation in $X \times S$ defined by
-    $R \times S_{diagonal} \subset X \times X \times S \times S$, and `R_Z` is the equivalence relation it induces in
-    $Z$ (cf. 3.1.6).
+[^N.D.E-IV-43]: N.D.E.: $R \times S$ denotes the equivalence relation in $X \times S$ defined by $R \times S_{diagonal}
+    \subset X \times X \times S \times S$, and `R_Z` is the equivalence relation it induces in $Z$ (cf. 3.1.6).
 
-[^N.D.E-IV-63]: N.D.E.: Recall that a subscheme $Z$ of a scheme $T$ is said to be *retrocompact* if the immersion
-    $Z \hookrightarrow T$ is quasi-compact, cf. EGA 0_III, 9.1.1.
+[^N.D.E-IV-63]: N.D.E.: Recall that a subscheme $Z$ of a scheme $T$ is said to be *retrocompact* if the immersion $Z
+    \hookrightarrow T$ is quasi-compact, cf. EGA 0_III, 9.1.1.
 
 [^N.D.E-IV-64]: N.D.E.: Recall (cf. 4.4.2) that the chaotic topology is the coarsest topology, defined by $J(S) = {S}$
     for every $S \in Ob C$.

@@ -28,12 +28,12 @@ $p$ for the structural morphism of $X$ into $S$.
 
 <!-- label: III.VII_A.1.1 -->
 
-Let $u : Y \to X$ be a morphism of $S$-schemes and endow the direct image $u_{*}(O_{Y})$ of the structure sheaf of $Y$ with
-the `O_X`-module structure induced by $u$. The sheaf $H = \operatorname{Hom}_{p^{-1}_{X}(O_{S})}(O_{X}, u_{*}(O_{Y}))$ of $p^{-1}_{X}(O_{S})$-module
-homomorphisms <!-- original page 413 --> from `O_X` into $u_{*}(O_{Y})$ is therefore naturally equipped with a structure of
-`O_X`-bimodule: if $U$ is an open of $X$, $f$ and $d$ sections of `O_X` and $H$ on $U$, then `fd` and `df` are
-respectively the morphisms $g \mapsto f d(g)$ and $g \mapsto d(fg)$ from `O_X` into $u_{*}(O_{Y})$. We shall henceforth write
-`(ad f)(d)` in place of $fd - df$.
+Let $u : Y \to X$ be a morphism of $S$-schemes and endow the direct image $u_{*}(O_{Y})$ of the structure sheaf of $Y$
+with the `O_X`-module structure induced by $u$. The sheaf $H = \operatorname{Hom}_{p^{-1}_{X}(O_{S})}(O_{X},
+u_{*}(O_{Y}))$ of $p^{-1}_{X}(O_{S})$-module homomorphisms <!-- original page 413 --> from `O_X` into $u_{*}(O_{Y})$ is
+therefore naturally equipped with a structure of `O_X`-bimodule: if $U$ is an open of $X$, $f$ and $d$ sections of `O_X`
+and $H$ on $U$, then `fd` and `df` are respectively the morphisms $g \mapsto f d(g)$ and $g \mapsto d(fg)$ from `O_X`
+into $u_{*}(O_{Y})$. We shall henceforth write `(ad f)(d)` in place of $fd - df$.
 
 **Definition 1.1.1.** *An $S$-deviation of order $\leqslant n$ is by definition a pair $D = (u, d)$ consisting of a
 morphism of $S$-schemes $u : Y \to X$ and a morphism of $p^{-1}_{X}(O_{S})$-modules $d : O_{X} \to u_{*}(O_{Y})$ such
@@ -58,16 +58,16 @@ $y$ in $Y$ satisfying the following conditions:*
 
 *a) $u(V) \subset U$;*
 
-*b) if $v : V \to U$ is the morphism induced by $u$, there is an integer $n$ such that the morphism
-$O_{U} \to v_{*}(O_{V})$ induced by $d$ is an $S$-deviation of $v$ of order $\leqslant n$.*[^N.D.E-VII_A-3]
+*b) if $v : V \to U$ is the morphism induced by $u$, there is an integer $n$ such that the morphism $O_{U} \to
+v_{*}(O_{V})$ induced by $d$ is an $S$-deviation of $v$ of order $\leqslant n$.*[^N.D.E-VII_A-3]
 
 <!-- label: III.VII_A.1.1.2 -->
 
 If $d$ is an $S$-deviation of $u$, we also say that the pair $D = (u, d)$ is an $S$-deviation and it will happen that we
 write $Y \xrightarrow{D} X$ or $Y \xrightarrow{d} X$ (over $u$).
 
-When $d$ is the algebra homomorphism $u^{\natural} : O_{X} \to u_{*}(O_{Y})$ corresponding to the morphism
-$u : Y \to X$, we shall also write $u$ in place of $D$.
+When $d$ is the algebra homomorphism $u^{\natural} : O_{X} \to u_{*}(O_{Y})$ corresponding to the morphism $u : Y \to
+X$, we shall also write $u$ in place of $D$.
 
 **Remarks 1.1.3.**[^N.D.E-VII_A-4] Let $D\acute{e}v(u)$ (resp. $D\acute{e}v_{\leqslant n}(u)$) be the set of
 $S$-deviations of $u$ (resp. $S$-deviations of $u$ of order $\leqslant n$). It is equipped with a natural structure of
@@ -106,8 +106,8 @@ When $U$ ranges over the opens of $X$, the composed maps
 Γ(U, O_X) ─d(U)→ Γ(u^{-1} U, O_Y) ─e(u^{-1} U)→ Γ(v^{-1} u^{-1} U, O_Z)
 ```
 
-define an $S$-deviation of `uv` which we shall denote `de`; <!-- original page 414 --> when $d$ is of order
-$\leqslant m$ and $e$ of order $\leqslant n$, `de` is of order $\leqslant m + n$. We shall also write
+define an $S$-deviation of `uv` which we shall denote `de`; <!-- original page 414 --> when $d$ is of order $\leqslant
+m$ and $e$ of order $\leqslant n$, `de` is of order $\leqslant m + n$. We shall also write
 
 ```text
 (†)                              D ∘ E = (uv, de)
@@ -202,8 +202,8 @@ v_X │  u×v        v_Y │
 X × Z  ←─────────  Y × Z
 ```
 
-and we shall denote by $d \times e$ (the *product* of $d$ and $e$) the $S$-deviation of $u \times v$ equal to
-$d_{T} e_{Y} = e_{X} d_{Z}$ (with the convention `(†)` above), i.e., for every open $U$ of $X \times T$, if we denote
+and we shall denote by $d \times e$ (the *product* of $d$ and $e$) the $S$-deviation of $u \times v$ equal to $d_{T}
+e_{Y} = e_{X} d_{Z}$ (with the convention `(†)` above), i.e., for every open $U$ of $X \times T$, if we denote
 
 <!-- original page 447 --> by `W` the open `v_Y^{-1} u_T^{-1} U = u_Z^{-1} v_X^{-1} U`, one has a commutative diagram:
 
@@ -229,8 +229,8 @@ If one sets $D = (u, d)$ and $E = (v, e)$, we shall also write $D \times E = (u 
 Hom_{p_X^{-1}(O_S)}(O_X, u_*(O_Y)) ⥲ Hom_{p_Y^{-1}(O_S)}(u^{-1}(O_X), O_Y)
 ```
 
-associates with every morphism of $p^{-1}(O_{S})$-modules $d : O_{X} \to u_{*}(O_{Y})$ the morphism
-$d' = \epsilon \circ u^{-1}(d)$, where $\epsilon$ is the canonical morphism $u^{-1} u_{*}(O_{Y}) \to O_{Y}$.
+associates with every morphism of $p^{-1}(O_{S})$-modules $d : O_{X} \to u_{*}(O_{Y})$ the morphism $d' = \epsilon \circ
+u^{-1}(d)$, where $\epsilon$ is the canonical morphism $u^{-1} u_{*}(O_{Y}) \to O_{Y}$.
 
 Let us write $J_{u}$ (resp. $I_{u}$) for the kernel of the algebra homomorphism $u^{\natural} : O_{X} \to u_{*}(O_{Y})$
 (resp. $u^{\natural'} : u^{-1}(O_{X}) \to O_{Y}$), and let $d : O_{X} \to u_{*}(O_{Y})$ be a morphism of
@@ -247,17 +247,15 @@ where $f_{I}$ denotes the product of the $f_{i}$, for $i \in I$. It follows that
 vanishes on the ideal $J^{n+1}_{u}$.
 
 Suppose now $Y$ equal to $S$; then $u : S \to X$ is a section of $p : X \to S$, hence is an immersion (cf. EGA I,
-5.3.13). Then, on the one hand, $\epsilon : u^{-1} u_{*} O_{S} \to O_{S}$ is an isomorphism, so that
-$u^{-1}(J_{u}) = I_{u}$. On the other hand, one has an isomorphism:
+5.3.13). Then, on the one hand, $\epsilon : u^{-1} u_{*} O_{S} \to O_{S}$ is an isomorphism, so that $u^{-1}(J_{u}) =
+I_{u}$. On the other hand, one has an isomorphism:
 
-$$
-(\star)                         u^{-1}(O_{X}) \simeq O_{S} \oplus I_{u}.
-$$
+$$ (\star) u^{-1}(O_{X}) \simeq O_{S} \oplus I_{u}. $$
 
 Suppose that $d$ vanishes on $J^{n+1}_{u}$. Then $d' = \epsilon \circ u^{-1}(d)$ vanishes on $I^{n+1}_{u}$ and hence
-$d'$ satisfies the analogues $(\ast\ast'_{n})$ and $(\ast'_{n})$ of $(\ast\ast_{n})$ and $(\ast_{n})$, when
-$f_{0}, \cdots, f_{n} \in I_{u}(u^{-1}(U))$. Moreover, since $(ad a)(\phi) = 0$ for every $a \in O_{S}(u^{-1}(U))$ and
-every morphism of $O_{u^{-1}(U)}$-modules $\phi : u^{-1}(O_{U}) \to O_{u^{-1}(U)}$, one deduces from $(\star)$ that $d'$
+$d'$ satisfies the analogues $(\ast\ast'_{n})$ and $(\ast'_{n})$ of $(\ast\ast_{n})$ and $(\ast_{n})$, when $f_{0},
+\cdots, f_{n} \in I_{u}(u^{-1}(U))$. Moreover, since $(ad a)(\phi) = 0$ for every $a \in O_{S}(u^{-1}(U))$ and every
+morphism of $O_{u^{-1}(U)}$-modules $\phi : u^{-1}(O_{U}) \to O_{u^{-1}(U)}$, one deduces from $(\star)$ that $d'$
 satisfies the analogue $(\ast'_{n})$ of $(\ast_{n})$. It follows that $d$ satisfies $(\ast_{n})$. Consequently, one has
 obtained:
 
@@ -274,8 +272,8 @@ Y ──diag.→ Y × Y ──d_Y→ Y × X (over u_Y)
 
 a $Y$-deviation of $\Gamma_{u}$ of order $\leqslant n$ which we shall denote $\Gamma_{d}$ (the graph of $d$).
 
-Conversely, to every $Y$-deviation $e$ of $\Gamma_{u}$ one associates the composed $S$-deviation
-$e_{X} = pr_{2} \circ e$:
+Conversely, to every $Y$-deviation $e$ of $\Gamma_{u}$ one associates the composed $S$-deviation $e_{X} = pr_{2} \circ
+e$:
 
 ```text
 Y ──e→ Y × X ──pr₂→ X (over Γ_u).
@@ -313,9 +311,7 @@ Hom_{O_Y}((Γ_u)^{-1}(O_{Y × X}) / I_{Γ_u}^{n+1}, O_Y).
 $\phi : u^{-1}(O_{X}) \to O_{S}$ admits a section, which we shall denote simply $g \mapsto g \cdot 1$, so that, with the
 notations of 1.3, one has an isomorphism of `O_S`-modules:
 
-$$
-(\star)                     u^{-1}(O_{X}) \simeq O_{S} \oplus I_{u},
-$$
+$$ (\star) u^{-1}(O_{X}) \simeq O_{S} \oplus I_{u}, $$
 
 and for every section $f$ of $u^{-1}(O_{X})$, $f - \phi(f) \cdot 1$ is a section of $I_{u}$.
 
@@ -334,12 +330,10 @@ thus obtains:
 **Lemma.** *The $S$-derivations of $u$ are exactly the $S$-deviations of $u$ of order `1` which vanish on the unit
 section of `O_X`; they correspond to the $O_{S}(S)$-module*
 
-$$
-\operatorname{Hom}_{O_{S}}(I_{u} / I^{2}_{u}, O_{S}),
-$$
+$$ \operatorname{Hom}_{O_{S}}(I_{u} / I^{2}_{u}, O_{S}), $$
 
-*and one has an isomorphism of $O_{S}(S)$-modules
-$D\acute{e}v_{\leqslant 1}(u) \simeq O_{S}(S) \oplus D\acute{e}r_{S}(u)$.*
+*and one has an isomorphism of $O_{S}(S)$-modules $D\acute{e}v_{\leqslant 1}(u) \simeq O_{S}(S) \oplus
+D\acute{e}r_{S}(u)$.*
 
 Returning to the general case, one deduces, with the notations of 1.3,
 
@@ -438,8 +432,8 @@ It is clear that one can construct $d'$ from `d''` as follows: the square
 ```
 
 is cartesian, which allows us to identify $X$ with $S \times_{X} (X \times X)$, $u$ with `S ×_X ∆`, hence
-$u^{*}(P^{m}_{X/S})$ with $u^{-1}(O_{X}) / I^{m+1}_{u}$. One thus identifies $u^{*}(d'')$ with a morphism
-$u^{-1}(O_{X}) / I^{m+1}_{u} \to O_{S}$, which is none other than $d'$.
+$u^{*}(P^{m}_{X/S})$ with $u^{-1}(O_{X}) / I^{m+1}_{u}$. One thus identifies $u^{*}(d'')$ with a morphism $u^{-1}(O_{X})
+/ I^{m+1}_{u} \to O_{S}$, which is none other than $d'$.
 
 ### 1.5.
 
@@ -465,8 +459,8 @@ Lie(Aut X) := Lie(Aut X)(S)
 ```
 
 onto the $\Gamma(O_{S})$-Lie algebra of $p^{-1}(O_{S})$-derivations of `O_X`. The inverse isomorphism associates with
-every derivation $D$ the automorphism of $I_{S} \times X$ corresponding to the automorphism
-$a + bt \mapsto a + (Da + b)t$ of $O_{X}[T]/(T^{2})$.
+every derivation $D$ the automorphism of $I_{S} \times X$ corresponding to the automorphism $a + bt \mapsto a + (Da +
+b)t$ of $O_{X}[T]/(T^{2})$.
 
 ## 2. Invariant differential operators on group schemes
 
@@ -483,9 +477,9 @@ Let $G$ be an $S$-group scheme; we denote by $\epsilon$ or $\epsilon_{G} : S \to
 **Definition.** *Let $U(G)$ be the $\Gamma(O_{S})$-module of $S$-deviations of $\epsilon_{G}$ (or $S$-deviations of the
 origin) (cf. 1.1).*
 
-*If $d$ and $e$ are two elements of $U(G)$, $d \times e$ is an $S$-deviation of
-$\epsilon \times \epsilon : S \simeq S \times S \to G \times G$. The image of $d \times e$ by the multiplication
-morphism $m : G \times G \to G$ (cf. 1.2) will be called the product of $d$ and $e$ and will be denoted $d \cdot e$.*
+*If $d$ and $e$ are two elements of $U(G)$, $d \times e$ is an $S$-deviation of $\epsilon \times \epsilon : S \simeq S
+\times S \to G \times G$. The image of $d \times e$ by the multiplication morphism $m : G \times G \to G$ (cf. 1.2) will
+be called the product of $d$ and $e$ and will be denoted $d \cdot e$.*
 
 *The $\Gamma(O_{S})$-module $U(G)$ is thus equipped with a structure of associative $\Gamma(O_{S})$-algebra having
 $\epsilon_{G}$ as unit element (1.1). We shall say that $U(G)$ is the* infinitesimal algebra *of $G$.*[^N.D.E-VII_A-16]
@@ -498,21 +492,21 @@ moreover, according to 1.1.3, this is a sheaf. We shall denote it $\mathcal{U}(G
 infinitesimal algebras of $G$*.
 
 The algebra $U(G)$ is also a covariant functor in $G$. Indeed, if $u : G \to H$ is a homomorphism of $S$-groups and $d$
-an $S$-deviation of $\epsilon_{G}$, the image of $d$ by $u$ is an element $U(u)(d) = ud$ of $U(H)$. The map
-$U(u) : U(G) \to U(H)$ thus defined is obviously a homomorphism of $\Gamma(O_{S})$-algebras. One defines similarly a
-homomorphism $\mathcal{U}(u)$ from $\mathcal{U}(G)$ to $\mathcal{U}(H)$.
+an $S$-deviation of $\epsilon_{G}$, the image of $d$ by $u$ is an element $U(u)(d) = ud$ of $U(H)$. The map $U(u) : U(G)
+\to U(H)$ thus defined is obviously a homomorphism of $\Gamma(O_{S})$-algebras. One defines similarly a homomorphism
+$\mathcal{U}(u)$ from $\mathcal{U}(G)$ to $\mathcal{U}(H)$.
 
 ### 2.2.
 
 <!-- label: III.VII_A.2.2 -->
 
 Let $d$ be an element of $U(G)$, i.e., an $S$-deviation of the origin of $G$. Consider the $S$-deviation $d \times G$ of
-$\epsilon \times G : G \simeq S \times G \to G \times G$ obtained from $d$ by base change (1.2.2); the image of
-$d \times G$ by the multiplication morphism $m : G \times G \to G$ is an $S$-deviation of
-$m \circ (\epsilon \times id_{G}) = id_{G}$, i.e., an element of $Dif_{G/S}$, which we shall denote $d_{G}$.
+$\epsilon \times G : G \simeq S \times G \to G \times G$ obtained from $d$ by base change (1.2.2); the image of $d
+\times G$ by the multiplication morphism $m : G \times G \to G$ is an $S$-deviation of $m \circ (\epsilon \times id_{G})
+= id_{G}$, i.e., an element of $Dif_{G/S}$, which we shall denote $d_{G}$.
 
-The map $d \mapsto d_{G}$ is obviously $\Gamma(O_{S})$-linear and the "commutative" diagram below shows that one has
-$(e \cdot d)_{G} = d_{G} \cdot e_{G}$:[^N.D.E-VII_A-17] <!-- original page 420 -->
+The map $d \mapsto d_{G}$ is obviously $\Gamma(O_{S})$-linear and the "commutative" diagram below shows that one has $(e
+\cdot d)_{G} = d_{G} \cdot e_{G}$:[^N.D.E-VII_A-17] <!-- original page 420 -->
 
 ```text
                                  m × G
@@ -531,8 +525,8 @@ $(e \cdot d)_{G} = d_{G} \cdot e_{G}$:[^N.D.E-VII_A-17] <!-- original page 420 -
 ```
 
 The commutativity of the two bottom triangles follows from the definition of $d_{G}$ and $e_{G}$; on the other hand, the
-composed $S$-deviation of $e \times G$ and $G \times d \times G$ is $(e \times d) \times G$ (cf. 1.2.2), its image by
-$m \times G$ is $(e \cdot d) \times G$, and the image of the latter by $m$ is therefore equal to $(e \cdot d)_{G}$.
+composed $S$-deviation of $e \times G$ and $G \times d \times G$ is $(e \times d) \times G$ (cf. 1.2.2), its image by $m
+\times G$ is $(e \cdot d) \times G$, and the image of the latter by $m$ is therefore equal to $(e \cdot d)_{G}$.
 
 One thus obtains an anti-homomorphism $U(G) \to Dif_{G/S}$ of $\Gamma(O_{S})$-algebras, called *right
 translation*.[^N.D.E-VII_A-18]
@@ -558,8 +552,8 @@ $S$-deviation of $id_{G}$, i.e., an element of $Dif_{X/S}$; we shall denote:
 D^g = g_G^{-1} D g_G.
 ```
 
-We shall say that $D$ is *right-invariant* if, for every base change $t : T \to S$ and every section
-$g : T \to G \times T$, one has $(D_{T})^{g} = D_{T}$.
+We shall say that $D$ is *right-invariant* if, for every base change $t : T \to S$ and every section $g : T \to G \times
+T$, one has $(D_{T})^{g} = D_{T}$.
 
 **Lemma.** *For every differential operator $D$ of $G$ over $S$, the following assertions are equivalent (where $m$ is
 the multiplication morphism of $G$):*
@@ -572,8 +566,8 @@ the multiplication morphism of $G$):*
 
 (ii) ⇒ (i): since the condition (ii) is stable under base change, it suffices to show that (ii) entails the equality
 $D^{g} = D$ for every section $g : S \to G$. Let $h$ be the morphism $G \times g : G \simeq G \times S \to G \times G$,
-so that $m \circ h$ is the right translation $g_{G}$. The equality $D^{g} = D$ is equivalent to the equality
-$g_{G} \circ D = D \circ g_{G}$, and this follows from the commutative diagram:
+so that $m \circ h$ is the right translation $g_{G}$. The equality $D^{g} = D$ is equivalent to the equality $g_{G}
+\circ D = D \circ g_{G}$, and this follows from the commutative diagram:
 
 ```text
                     m                     h
@@ -671,13 +665,12 @@ Conversely, let $d$ be an $S$-deviation of the origin. One then has a commutativ
 
 <!-- original page 423 -->
 
-whence it follows that $d = m(G \times \epsilon) d = m(d \times G) \epsilon = (d_{G})_{0}$. *A fortiori*, the map
-$d \mapsto d_{G}$ is injective. This proves the theorem.
+whence it follows that $d = m(G \times \epsilon) d = m(d \times G) \epsilon = (d_{G})_{0}$. *A fortiori*, the map $d
+\mapsto d_{G}$ is injective. This proves the theorem.
 
-When $S$ varies, Theorem 2.4 obviously implies that the right translation
-$\mathcal{U}(G) \to p_{*}(\mathcal{D}if_{G/S})$ is an anti-isomorphism of `O_S`-algebras of $\mathcal{U}(G)$ onto the
-sheaf of `O_S`-algebras $p_{*}(\mathcal{D}if_{G/S})^{G}$, which to every open $U$ of $S$ associates
-$Dif^{G_{U}}_{G_{U} / U}$.
+When $S$ varies, Theorem 2.4 obviously implies that the right translation $\mathcal{U}(G) \to
+p_{*}(\mathcal{D}if_{G/S})$ is an anti-isomorphism of `O_S`-algebras of $\mathcal{U}(G)$ onto the sheaf of
+`O_S`-algebras $p_{*}(\mathcal{D}if_{G/S})^{G}$, which to every open $U$ of $S$ associates $Dif^{G_{U}}_{G_{U} / U}$.
 
 ### 2.4.1. Remark.
 
@@ -704,17 +697,13 @@ For every integer $n \geqslant 1$, set $p^{n}_{G/S} = \epsilon^{-1}(O_{G}) / I^{
 the notations).[^N.D.E-VII_A-21] Since the square formed by the morphisms $\epsilon$, $\eta$, `∆` and $p$ is cartesian,
 `∆^{-1}(η')` induces an isomorphism of `O_G`-modules:
 
-$$
-p^{*}(p^{n}_{G/S}) \xrightarrow{\sim} P^{n}_{G/S}.
-$$
+$$ p^{*}(p^{n}_{G/S}) \xrightarrow{\sim} P^{n}_{G/S}. $$
 
 The differential operators of $G$ over $S$ of order $\leqslant n$ therefore correspond bijectively to the morphisms of
 `O_G`-modules $p^{*}(p^{n}_{G/S}) \longrightarrow O_{G}$, i.e., to the morphisms <!-- original page 424 --> of
 `O_S`-modules
 
-$$
-p^{n}_{G/S} \longrightarrow p_{*}(O_{G}).
-$$
+$$ p^{n}_{G/S} \longrightarrow p_{*}(O_{G}). $$
 
 In this bijection, the right-invariant differential operators correspond to the composed arrows
 
@@ -744,15 +733,13 @@ $\sigma x$. Moreover, according to 1.2.1, the map $\alpha : x \mapsto \sigma x$ 
 from $Lie(G)$ onto the submodule $D\acute{e}r(\epsilon_{G})$ of $U(G)$ formed by the $S$-derivations of $\epsilon_{G}$.
 We shall see that $\alpha$ is a morphism of Lie algebras.[^N.D.E-VII_A-24] Let
 
-$$
-\rho' : U(G) \longrightarrow Dif_{G/S}
-$$
+$$ \rho' : U(G) \longrightarrow Dif_{G/S} $$
 
 be the algebra morphism which to an $S$-deviation $d$ of $\epsilon_{G}$ associates the left-invariant differential
 operator ${}_{G} d \in Dif_{G/S}$, cf. 2.2, N.D.E. (17).
 
-Let $\rho : G \to \operatorname{Aut}_{S}(G)$ be the homomorphism of group functors which to an $S$-morphism
-$g : T \to G$ associates the right translation of `G_T` by $g$, i.e. the morphism:
+Let $\rho : G \to \operatorname{Aut}_{S}(G)$ be the homomorphism of group functors which to an $S$-morphism $g : T \to
+G$ associates the right translation of `G_T` by $g$, i.e. the morphism:
 
 ```text
 G_T ≃ T ×_T G_T ──G_T × g→ G_T ×_T G_T ──m_T→ G_T.
@@ -881,8 +868,8 @@ the *category of `O_S`-coalgebras*.
 <!-- label: III.VII_A.3.1.0 -->
 
 [^N.D.E-VII_A-27] This category has finite products: the final object is the `O_S`-module `O_S`, the comultiplication
-being the identity; the product of two coalgebras `(𝒰, ∆_𝒰)` and `(𝒱, ∆_𝒱)` is the tensor product
-$\mathcal{U} \otimes_{O_{S}} \mathcal{V}$, the comultiplication being the composed morphism
+being the identity; the product of two coalgebras `(𝒰, ∆_𝒰)` and `(𝒱, ∆_𝒱)` is the tensor product $\mathcal{U}
+\otimes_{O_{S}} \mathcal{V}$, the comultiplication being the composed morphism
 
 ```text
 𝒰 ⊗ 𝒱 ──∆_𝒰 ⊗ ∆_𝒱→ 𝒰 ⊗ 𝒰 ⊗ 𝒱 ⊗ 𝒱 ──id_𝒰 ⊗ σ ⊗ id_𝒱→ 𝒰 ⊗ 𝒱 ⊗ 𝒰 ⊗ 𝒱
@@ -890,9 +877,9 @@ $\mathcal{U} \otimes_{O_{S}} \mathcal{V}$, the comultiplication being the compos
 
 where $\sigma(a \otimes b) = b \otimes a$; the canonical projections of $\mathcal{U} \otimes \mathcal{V}$ onto the
 factors $\mathcal{U}$ and $\mathcal{V}$ are the morphisms $id_{\mathcal{U}} \otimes \epsilon_{\mathcal{V}}$ and
-$\epsilon_{\mathcal{U}} \otimes id_{\mathcal{V}}$,[^N.D.E-VII_A-28] and the "diagonal morphism"
-$\mathcal{U} \to \mathcal{U} \otimes \mathcal{U}$ (corresponding to the pair of morphisms
-$(id_{\mathcal{U}}, id_{\mathcal{U}})$) is none other than the comultiplication `∆_𝒰`.
+$\epsilon_{\mathcal{U}} \otimes id_{\mathcal{V}}$,[^N.D.E-VII_A-28] and the "diagonal morphism" $\mathcal{U} \to
+\mathcal{U} \otimes \mathcal{U}$ (corresponding to the pair of morphisms $(id_{\mathcal{U}}, id_{\mathcal{U}})$) is none
+other than the comultiplication `∆_𝒰`.
 
 ### 3.1.1.
 
@@ -900,13 +887,11 @@ $(id_{\mathcal{U}}, id_{\mathcal{U}})$) is none other than the comultiplication 
 
 Let $\mathcal{A}$ be a commutative `O_S`-algebra, locally free and of finite type as an `O_S`-module. If we set
 
-$$
-\mathcal{A}^{*} = \operatorname{Hom}_{O_{S}-Mod.}(\mathcal{A}, O_{S}),
-$$
+$$ \mathcal{A}^{*} = \operatorname{Hom}_{O_{S}-Mod.}(\mathcal{A}, O_{S}), $$
 
-the canonical morphism $\phi$ from $\mathcal{A}^{*} \otimes_{O_{S}} \mathcal{A}^{*}$ into
-$(\mathcal{A} \otimes_{O_{S}} \mathcal{A})^{*}$ is invertible. If $m : \mathcal{A} \otimes \mathcal{A} \to \mathcal{A}$
-is the morphism defining the multiplication of $\mathcal{A}$, one obtains by composition a diagonal morphism
+the canonical morphism $\phi$ from $\mathcal{A}^{*} \otimes_{O_{S}} \mathcal{A}^{*}$ into $(\mathcal{A} \otimes_{O_{S}}
+\mathcal{A})^{*}$ is invertible. If $m : \mathcal{A} \otimes \mathcal{A} \to \mathcal{A}$ is the morphism defining the
+multiplication of $\mathcal{A}$, one obtains by composition a diagonal morphism
 
 ```text
 ∆_{𝒜^*} : 𝒜^* ──m^*→ (𝒜 ⊗ 𝒜)^* ──φ^{-1}→ 𝒜^* ⊗ 𝒜^*.
@@ -933,9 +918,9 @@ Spec^* 𝒰 : (Sch/S)° ⟶ (Ens).
 ```
 
 Note indeed that, for every $S$-scheme $q : T \to S$, $q^{*}(\mathcal{U} \otimes_{O_{S}} \mathcal{U})$ is identified
-with $q^{*}(\mathcal{U}) \otimes_{O_{T}} q^{*}(\mathcal{U})$, so that `q^*(∆_𝒰)` makes
-$\mathcal{U}_{T} = q^{*}(\mathcal{U})$ into an `O_T`-coalgebra; we can therefore set by definition and with an obvious
-abuse of notation:[^N.D.E-VII_A-29]
+with $q^{*}(\mathcal{U}) \otimes_{O_{T}} q^{*}(\mathcal{U})$, so that `q^*(∆_𝒰)` makes $\mathcal{U}_{T} =
+q^{*}(\mathcal{U})$ into an `O_T`-coalgebra; we can therefore set by definition and with an obvious abuse of
+notation:[^N.D.E-VII_A-29]
 
 ```text
 (Spec^* 𝒰)(T) = { x ∈ Γ(T, 𝒰_T) | ε_{𝒰_T}(x) = 1 and ∆_{𝒰_T}(x) = x ⊗ x }.
@@ -943,9 +928,9 @@ abuse of notation:[^N.D.E-VII_A-29]
 
 <!-- original page 458 -->
 
-The sections $x$ of $\mathcal{U}_{T}$ obviously correspond to the morphisms of `O_T`-modules
-$\xi : O_{T} \to \mathcal{U}_{T}$; the conditions $\epsilon(x) = 1$ and `∆(x) = x ⊗ x` simply express that $\xi$ is a
-morphism of coalgebras. One therefore also has:
+The sections $x$ of $\mathcal{U}_{T}$ obviously correspond to the morphisms of `O_T`-modules $\xi : O_{T} \to
+\mathcal{U}_{T}$; the conditions $\epsilon(x) = 1$ and `∆(x) = x ⊗ x` simply express that $\xi$ is a morphism of
+coalgebras. One therefore also has:
 
 ```text
 (Spec^* 𝒰)(T) = Hom_{O_T-coalg.}(O_T, 𝒰_T).
@@ -954,8 +939,8 @@ morphism of coalgebras. One therefore also has:
 In particular, one has the following proposition:[^N.D.E-VII_A-30]
 
 **Proposition 3.1.2.1.** *Let $\mathcal{A}$ be a commutative `O_S`-algebra which is locally free of finite type as an
-`O_S`-module. Then the $S$-functor $\operatorname{Spec}^{*} \mathcal{A}^{*}$ is represented by
-$\operatorname{Spec} \mathcal{A}$.*
+`O_S`-module. Then the $S$-functor $\operatorname{Spec}^{*} \mathcal{A}^{*}$ is represented by $\operatorname{Spec}
+\mathcal{A}$.*
 
 <!-- label: III.VII_A.3.1.2.1 -->
 
@@ -970,11 +955,10 @@ Indeed, for every $S$-scheme $T$, one has canonical isomorphisms:
 <!-- label: III.VII_A.3.2 -->
 
 An `O_S`-*coalgebra in groups* (i.e., a group in the category of `O_S`-coalgebras) consists of the data of an
-`O_S`-coalgebra `(𝒰, ∆_𝒰)` and three morphisms of `O_S`-coalgebras
-$m_{\mathcal{U}} : \mathcal{U} \otimes \mathcal{U} \to \mathcal{U}$, $\eta_{\mathcal{U}} : O_{S} \to \mathcal{U}$ and
-$c_{\mathcal{U}} : \mathcal{U} \to \mathcal{U}$ satisfying the conditions (ii)*, (iii)* and (vi) below; on the other
-hand, the fact that $m_{\mathcal{U}}$ is a morphism of cogebras translates into the commutativity of diagrams (iv) and
-(v)
+`O_S`-coalgebra `(𝒰, ∆_𝒰)` and three morphisms of `O_S`-coalgebras $m_{\mathcal{U}} : \mathcal{U} \otimes \mathcal{U}
+\to \mathcal{U}$, $\eta_{\mathcal{U}} : O_{S} \to \mathcal{U}$ and $c_{\mathcal{U}} : \mathcal{U} \to \mathcal{U}$
+satisfying the conditions (ii)*, (iii)* and (vi) below; on the other hand, the fact that $m_{\mathcal{U}}$ is a morphism
+of cogebras translates into the commutativity of diagrams (iv) and (v)
 
 <!-- original page 429 --> below:
 
@@ -1060,10 +1044,10 @@ $\mathcal{U}$ onto the opposite algebra $\mathcal{U}^{\circ}$.
 <!-- label: III.VII_A.3.2.2 -->
 
 Since the functor $\mathcal{U} \mapsto \operatorname{Spec}^{*} \mathcal{U}$ commutes with finite products, it transforms
-a group coalgebra into a group $S$-functor; and indeed, for every $S$-scheme $T$, the elements
-$x \in \Gamma(T, \mathcal{U}_{T})$ belonging to $(\operatorname{Spec}^{*} \mathcal{U})(T)$ form a group under the
-multiplication of the algebra $\Gamma(T, \mathcal{U}_{T})$; the inverse of $x$ is none other than $c_{\mathcal{U}}(x)$.
-According to 3.1.2.1, one has:
+a group coalgebra into a group $S$-functor; and indeed, for every $S$-scheme $T$, the elements $x \in \Gamma(T,
+\mathcal{U}_{T})$ belonging to $(\operatorname{Spec}^{*} \mathcal{U})(T)$ form a group under the multiplication of the
+algebra $\Gamma(T, \mathcal{U}_{T})$; the inverse of $x$ is none other than $c_{\mathcal{U}}(x)$. According to 3.1.2.1,
+one has:
 
 **Scholium 3.2.2.1.**[^N.D.E-VII_A-32] *Let $\mathcal{U}$ be an `O_S`-coalgebra in groups, finite and locally free as an
 `O_S`-module. Then the group $S$-functor $\operatorname{Spec}^{*} \mathcal{U}$ is represented by the $S$-group, finite
@@ -1095,11 +1079,11 @@ antipode.[^N.D.E-VII_A-33]
 
 <!-- label: III.VII_A.3.2.3 -->
 
-[^N.D.E-VII_A-34] Let $\mathcal{U}$ be an `O_S`-coalgebra in groups. We shall see that the group $S$-functor
-$G = \operatorname{Spec}^{*} \mathcal{U}$ is *very good*, in the sense of II, 4.6 and 4.10.
+[^N.D.E-VII_A-34] Let $\mathcal{U}$ be an `O_S`-coalgebra in groups. We shall see that the group $S$-functor $G =
+\operatorname{Spec}^{*} \mathcal{U}$ is *very good*, in the sense of II, 4.6 and 4.10.
 
-Let $M$ be a free `O_S`-module of rank $r$, and let $T \to S$ be an $S$-scheme. Since
-$I_{T}(M) = \operatorname{Spec}(O_{T} \oplus M_{T})$, so that $\pi : I_{T}(M) \to T$ is affine, one has
+Let $M$ be a free `O_S`-module of rank $r$, and let $T \to S$ be an $S$-scheme. Since $I_{T}(M) =
+\operatorname{Spec}(O_{T} \oplus M_{T})$, so that $\pi : I_{T}(M) \to T$ is affine, one has
 
 ```text
 π_*(𝒰_{I_T(M)}) = 𝒰_T ⊗_{O_T} π_*(O_{I_T(M)}) = 𝒰_T ⊗_{O_T} (O_T ⊕ M_T),
@@ -1111,8 +1095,8 @@ and so
 (1)    Γ(I_T(M), 𝒰_{I_T(M)}) ≃ Γ(T, 𝒰_T) ⊗_{O(T)} (O(T) ⊕ Γ(T, M_T)).
 ```
 
-Let $(d_{1}, \cdots, d_{r})$ be a basis of $M$. Then an element $u_{0} + \sum_{i} u_{i} d_{i}$ of
-$\Gamma(I_{T}(M), \mathcal{U}_{I_{T}(M)})$ belongs to $G(I_{T}(M))$ if and only if one has:
+Let $(d_{1}, \cdots, d_{r})$ be a basis of $M$. Then an element $u_{0} + \sum_{i} u_{i} d_{i}$ of $\Gamma(I_{T}(M),
+\mathcal{U}_{I_{T}(M)})$ belongs to $G(I_{T}(M))$ if and only if one has:
 
 ```text
 1 = ε(u_0 + ∑_i u_i d_i) = ε(u_0) + ∑_i ε(u_i) d_i,
@@ -1131,9 +1115,9 @@ that is to say:
        { ε(u_i) = 0,  ∆(u_i) = u_i ⊗ u_0 + u_0 ⊗ u_i,  for i = 1, …, r.
 ```
 
-Moreover, the morphism $G(I_{T}(M)) \to G(T)$ corresponding to the zero section of $I_{T}(M) \to T$ is given by
-$u_{0} + \sum_{i} u_{i} d_{i} \mapsto u_{0}$. From this, combined with (1) and (2), one deduces that, if $N$ is a second
-free `O_S`-module of finite rank, the diagram of sets
+Moreover, the morphism $G(I_{T}(M)) \to G(T)$ corresponding to the zero section of $I_{T}(M) \to T$ is given by $u_{0} +
+\sum_{i} u_{i} d_{i} \mapsto u_{0}$. From this, combined with (1) and (2), one deduces that, if $N$ is a second free
+`O_S`-module of finite rank, the diagram of sets
 
 ```text
        G(I_T(M ⊕ N))          ─────→  G(I_T(N))
@@ -1180,10 +1164,10 @@ So $G$ is a good group $S$-functor (cf. II, Déf. 4.6), and according to II, 4.7
 `O_S`-bilinear "Lie bracket" satisfying the Jacobi identity. It remains to show that $G$ is very good, i.e., that the
 "bracket" on `(Lie G)(T)` satisfies $[u, u] = 0$ for every $u \in (Lie G)(T)$ (cf. II, 4.10).
 
-Let `u, v` be two elements of `(Lie G)(T)`, i.e., two primitive elements of $\Gamma(T, \mathcal{U}_{T})$. Set
-$I = \operatorname{Spec} O_{S}[d]/(d^{2})$ and $I' = \operatorname{Spec} O_{S}[d']/(d'^{2})$. Since the composition law
-of $G(I \times I')$ is induced by the multiplication of the algebra $\mathcal{U}_{I \times I'}$, one has in
-$G(I \times I')$ the equality:
+Let `u, v` be two elements of `(Lie G)(T)`, i.e., two primitive elements of $\Gamma(T, \mathcal{U}_{T})$. Set $I =
+\operatorname{Spec} O_{S}[d]/(d^{2})$ and $I' = \operatorname{Spec} O_{S}[d']/(d'^{2})$. Since the composition law of
+$G(I \times I')$ is induced by the multiplication of the algebra $\mathcal{U}_{I \times I'}$, one has in $G(I \times
+I')$ the equality:
 
 ```text
 (1 + ud)(1 + vd')(1 + ud)^{-1}(1 + vd')^{-1} = (1 + ud)(1 + vd')(1 − ud)(1 − vd')
@@ -1198,14 +1182,13 @@ According to the description of the bracket `[u, v]` given before Prop. 4.8 of E
 [u, v] = uv − vu,
 ```
 
-where the right-hand term is the commutator of $u$ and $v$ in the algebra $\Gamma(T, \mathcal{U}_{T})$, whence
-$[u, u] = 0$. One has thus obtained the following proposition:[^N.D.E-VII_A-37]
+where the right-hand term is the commutator of $u$ and $v$ in the algebra $\Gamma(T, \mathcal{U}_{T})$, whence $[u, u] =
+0$. One has thus obtained the following proposition:[^N.D.E-VII_A-37]
 
-**Proposition.** *Let $\mathcal{U}$ be an `O_S`-coalgebra in groups. The group $S$-functor
-$G = \operatorname{Spec}^{*} \mathcal{U}$ is very good, and one has an isomorphism
-$Lie G \simeq Prim \mathcal{W}(\mathcal{U})$ of `O_S`-Lie algebras, where $Prim \mathcal{W}(\mathcal{U})$ denotes the
-functor which to every $T \to S$ associates the $O(T)$-Lie algebra formed by the primitive elements of
-$\mathcal{W}(\mathcal{U})(T) = \Gamma(T, \mathcal{U}_{T})$.*
+**Proposition.** *Let $\mathcal{U}$ be an `O_S`-coalgebra in groups. The group $S$-functor $G = \operatorname{Spec}^{*}
+\mathcal{U}$ is very good, and one has an isomorphism $Lie G \simeq Prim \mathcal{W}(\mathcal{U})$ of `O_S`-Lie
+algebras, where $Prim \mathcal{W}(\mathcal{U})$ denotes the functor which to every $T \to S$ associates the $O(T)$-Lie
+algebra formed by the primitive elements of $\mathcal{W}(\mathcal{U})(T) = \Gamma(T, \mathcal{U}_{T})$.*
 
 ### 3.3.
 
@@ -1291,8 +1274,8 @@ likewise take advantage of the isomorphism from $\operatorname{Hom}(h_{X}, F)$ o
 these two sets whenever $X$ is an $\mathbb{F}_{p}$-scheme and $F$ an object of $(Sch/\mathbb{F}_{p})^{\wedge}$.
 
 **Notations 4.0.**[^N.D.E-VII_A-39] *If $T$ is an $\mathbb{F}_{p}$-scheme, a $T$-functor is a morphism $q : F \to T$ of
-$(Sch/\mathbb{F}_{p})^{\wedge}$ having $T$ as target; for every $T$-scheme $r : X \to T$, the set of $T$-morphisms
-$X \to F$, i.e., of $\mathbb{F}_{p}$-morphisms $s : X \to F$ such that $q \circ s = r$, will then be denoted $q(r)$,
+$(Sch/\mathbb{F}_{p})^{\wedge}$ having $T$ as target; for every $T$-scheme $r : X \to T$, the set of $T$-morphisms $X
+\to F$, i.e., of $\mathbb{F}_{p}$-morphisms $s : X \to F$ such that $q \circ s = r$, will then be denoted $q(r)$,
 $q(X/T)$, $F(r)$ or $F(X/T)$ (or even $F(X)$ when no confusion will be possible with $\operatorname{Hom}(h_{X}, F)$).*
 
 <!-- label: III.VII_A.4.0 -->
@@ -1338,8 +1321,8 @@ The commutative square
               S  ──────────→  S
 ```
 
-induces an $S$-morphism, denoted $Fr(X/S)$ (or simply `Fr`), from $X$ into $X^{(p/S)}$ such that
-$fr(X) = pr_{X} \circ Fr(X/S)$:
+induces an $S$-morphism, denoted $Fr(X/S)$ (or simply `Fr`), from $X$ into $X^{(p/S)}$ such that $fr(X) = pr_{X} \circ
+Fr(X/S)$:
 
 ```text
               X
@@ -1354,8 +1337,8 @@ $fr(X) = pr_{X} \circ Fr(X/S)$:
               S       S       ─────→     S.
 ```
 
-We shall say that $Fr(X/S)$ is the *Frobenius morphism of $X$ relative to $S$*; it is clear that the map
-$Fr : X \mapsto Fr(X/S)$ is a functorial homomorphism.
+We shall say that $Fr(X/S)$ is the *Frobenius morphism of $X$ relative to $S$*; it is clear that the map $Fr : X \mapsto
+Fr(X/S)$ is a functorial homomorphism.
 
 [^N.D.E-VII_A-42] Let $r : T \to S$ be an $S$-scheme. For every $\phi \in X(r) = \operatorname{Hom}_{S}(T, X)$ (cf.
 4.0), one has a commutative diagram:
@@ -1414,9 +1397,7 @@ $\operatorname{Spec}(O / \mathcal{I}^{{p}})$.
 Since $t \circ fr(T) = fr(S) \circ t$, then $(X_{T})^{(p/T)}$ is identified with the inverse image of $X^{(p/S)}$ by
 $t$; in other words, one has a canonical isomorphism:
 
-$$
-X^{(p/T)}_{T}  \xrightarrow{\sim}  (X^{(p/S)})_{T}.
-$$
+$$ X^{(p/T)}_{T} \xrightarrow{\sim} (X^{(p/S)})_{T}. $$
 
 It is clear that, in this identification, $Fr(X_{T} / T)$ is identified with the inverse image $Fr(X/S)_{T}$ of
 $Fr(X/S)$.
@@ -1438,9 +1419,7 @@ $Fr(E_{T} / T) \simeq id_{E_{T}}$.
 The functor $X \mapsto X^{(p/S)}$ obviously commutes with products; it therefore transforms an $S$-group $G$ into an
 $S$-group $G^{(p/S)}$; moreover, since `Fr` is a functorial homomorphism, then
 
-$$
-Fr(G/S) : G \longrightarrow G^{(p/S)}
-$$
+$$ Fr(G/S) : G \longrightarrow G^{(p/S)} $$
 
 is a homomorphism of $S$-groups. We shall denote `Fr G` its kernel.
 
@@ -1457,8 +1436,8 @@ Now, when $T$ is the scheme `I_R` of dual numbers over an $S$-scheme $R$, $fr(I_
 I_R  ──can.→  R  ──fr(R)→  R  ──s→  I_R,
 ```
 
-where $s$ is the zero section. It follows that $(Fr G)(I_{R})$ contains the kernel $Lie(G/S)(R)$ of the morphism
-$G(s) : G(I_{R}) \to G(R)$, and that one therefore has: $Lie(G/S) = Lie(Fr G / S)$.
+where $s$ is the zero section. It follows that $(Fr G)(I_{R})$ contains the kernel $Lie(G/S)(R)$ of the morphism $G(s) :
+G(I_{R}) \to G(R)$, and that one therefore has: $Lie(G/S) = Lie(Fr G / S)$.
 
 ### 4.1.3.
 
@@ -1517,9 +1496,7 @@ equal to $\mathbb{Z}$, one has $D_{S}(M) = \mathbb{G}_{m, S}$, so that:
 b) Consider now a scheme $S$ of characteristic $p$ and a sheaf of modules $\mathcal{E}$ on $S$. According to I 4.6.2,
 one has a canonical isomorphism
 
-$$
-\mathcal{W}(\mathcal{E})^{(p)} \simeq \mathcal{W}(\mathcal{E}^{(p)}),
-$$
+$$ \mathcal{W}(\mathcal{E})^{(p)} \simeq \mathcal{W}(\mathcal{E}^{(p)}), $$
 
 where $\mathcal{E}^{(p)}$ is the inverse image of $\mathcal{E}$ by $fr(S)$. For every $S$-scheme $\pi : T \to S$, the
 map <!-- original page 438 --> $Fr(\mathcal{W}(\mathcal{E}))(\pi)$ is determined, according to 4.1 `(†)`, by the
@@ -1540,20 +1517,20 @@ In particular, if $\mathcal{E}$ is equal to `O_S`, $\mathcal{W}(\mathcal{E})$ is
 $\mathbb{G}_{a, S}$. In this case, one has $\mathcal{E}^{(p)} = \mathcal{E} = O_{S}$ and the Frobenius morphism
 $Fr(\mathbb{G}_{a, S}/S)$ sends $x \in \Gamma(T, O_{T})$ to $x^{p}$. So:
 
-> $Fr \mathbb{G}_{a, S}$ is the $S$-group $\alpha_{p, S}$ which to every $S$-scheme $T$ associates the group:
-> ${ x \in \Gamma(T, O_{T}) | x^{p} = 0}$.
+> $Fr \mathbb{G}_{a, S}$ is the $S$-group $\alpha_{p, S}$ which to every $S$-scheme $T$ associates the group: ${ x \in
+> \Gamma(T, O_{T}) | x^{p} = 0}$.
 
-c) One would see similarly that, for every quasi-coherent `O_S`-algebra $\mathcal{A}$,
-$(\operatorname{Spec} \mathcal{A})^{(p)}$ is identified with the spectrum $\operatorname{Spec} \mathcal{A}^{(p)}$ of the
-inverse image of $\mathcal{A}$ by $fr(S)$. If $\pi$ denotes the endomorphism $x \mapsto x^{p}$ of the sheaf of rings
-`O_S`, one has therefore
+c) One would see similarly that, for every quasi-coherent `O_S`-algebra $\mathcal{A}$, $(\operatorname{Spec}
+\mathcal{A})^{(p)}$ is identified with the spectrum $\operatorname{Spec} \mathcal{A}^{(p)}$ of the inverse image of
+$\mathcal{A}$ by $fr(S)$. If $\pi$ denotes the endomorphism $x \mapsto x^{p}$ of the sheaf of rings `O_S`, one has
+therefore
 
 ```text
 𝒜^{(p)} = 𝒜 ⊗_π O_S    [^N.D.E-VII_A-44]
 ```
 
-and $Fr((\operatorname{Spec} \mathcal{A})/S)$ is induced by the morphism of `O_S`-algebras
-$\mathcal{A} \otimes_{\pi} O_{S} \to \mathcal{A}$ defined by $a \otimes_{\pi} x \mapsto a^{p} x$.
+and $Fr((\operatorname{Spec} \mathcal{A})/S)$ is induced by the morphism of `O_S`-algebras $\mathcal{A} \otimes_{\pi}
+O_{S} \to \mathcal{A}$ defined by $a \otimes_{\pi} x \mapsto a^{p} x$.
 
 For every quasi-coherent `O_S`-module $\mathcal{E}$, finally, one has canonical isomorphisms
 
@@ -1659,8 +1636,8 @@ homomorphism.
 <!-- label: III.VII_A.4.2.1 -->
 
 The schemes $X^{[p/S]}$ and $X^{(p/S)}$ are obviously related: let $V$ be an affine open of $S$ with affine ring $R$ and
-$U$ an affine open of $X$ above $V$; let $A$ be the affine algebra of $U$. If $\pi$ denotes the endomorphism
-$x \mapsto x^{p}$ of $R$, then $U^{(p/S)}$ has $A \otimes_{\pi} R$ as affine algebra. One verifies moreover that the map
+$U$ an affine open of $X$ above $V$; let $A$ be the affine algebra of $U$. If $\pi$ denotes the endomorphism $x \mapsto
+x^{p}$ of $R$, then $U^{(p/S)}$ has $A \otimes_{\pi} R$ as affine algebra. One verifies moreover that the map
 
 ```text
 a ⊗_π λ ↦ (λ a ⊗ ··· ⊗ a    mod    N(⨂^p_R A))
@@ -1681,9 +1658,9 @@ latter induces a morphism $\phi(U) : U^{[p/S]} \to U^{(p/S)}$ such that $\phi(U)
 ```
 
 For example, if $X$ is the subscheme of $S$ defined by a quasi-coherent ideal $\mathcal{I}$, $F^{[p]}(X/S)$ is
-identified with the identity morphism of $X$, so that $\phi(X)$ is the canonical immersion of
-$\operatorname{Spec}(O_{S} / \mathcal{I})$ into $\operatorname{Spec}(O_{S} / \mathcal{I}^{{p}})$. One thus sees that
-$\phi(X)$ is not an isomorphism in general.
+identified with the identity morphism of $X$, so that $\phi(X)$ is the canonical immersion of $\operatorname{Spec}(O_{S}
+/ \mathcal{I})$ into $\operatorname{Spec}(O_{S} / \mathcal{I}^{{p}})$. One thus sees that $\phi(X)$ is not an
+isomorphism in general.
 
 However, when $M$ is a free $R$-module, it is clear that the map
 
@@ -1702,10 +1679,10 @@ limit of free modules (Lazard[^VII_A-4-1] [^N.D.E-VII_A-47]). It follows that
 
 <!-- original page 471 -->
 
-Consider finally an $S$-group scheme $G$ in abelian groups. Then the composed morphism
-$\mu(G) : U_{p}(G) \hookrightarrow G^{p_{S}} \to G$, which is defined by the multiplication, factors through $V_{p}(G)$,
-i.e., there exists a morphism $\nu(G) : V_{p}(G) \to G$ such that $\nu(G) \circ q'(G) = \mu(G)$, so that one has the
-following commutative diagram:
+Consider finally an $S$-group scheme $G$ in abelian groups. Then the composed morphism $\mu(G) : U_{p}(G)
+\hookrightarrow G^{p_{S}} \to G$, which is defined by the multiplication, factors through $V_{p}(G)$, i.e., there exists
+a morphism $\nu(G) : V_{p}(G) \to G$ such that $\nu(G) \circ q'(G) = \mu(G)$, so that one has the following commutative
+diagram:
 
 ```text
                           μ(G)                δ(G)
@@ -1727,9 +1704,7 @@ following commutative diagram:
 
 When $G$ is $S$-flat, $\phi(G)$ is an isomorphism and one can define a morphism (called the *Verschiebung*)
 
-$$
-Ver(G/S) : G^{(p/S)} \longrightarrow G
-$$
+$$ Ver(G/S) : G^{(p/S)} \longrightarrow G $$
 
 by means of the formula $Ver(G/S) = \nu(G) \circ i(G) \circ \phi(G)^{-1}$. When $G$ ranges over $S$-flat group schemes
 in abelian groups, the map $Ver : G \mapsto Ver(G/S)$ is obviously a functorial homomorphism; consequently, $Ver(G/S)$
@@ -1803,9 +1778,9 @@ algebra of $G$ and $\pi$ the endomorphism of the sheaf of rings `O_S` which send
 $x^{p}$.[^N.D.E-VII_A-49] We denote by $\Sigma^{p} \mathcal{A}$ the subalgebra of $\bigotimes^{p}_{O_{S}} \mathcal{A}$
 formed by the sections invariant under the action of the symmetric group, by $i(\mathcal{A})$ the inclusion of
 $\Sigma^{p} \mathcal{A}$ into the tensor product. Let `∆_p(𝒜) : 𝒜 → ⨂^p_{O_S} 𝒜` be the morphism obtained by iterating
-the diagonal morphism of the coalgebra $\mathcal{A}$ (it corresponds to the morphism of multiplication
-$U_{p}(G) = G^{p_{S}} \to G$); according to the beginning of paragraph 4.3, `∆_p(𝒜)` factors through
-$\Sigma^{p} \mathcal{A}$, i.e., it induces a morphism
+the diagonal morphism of the coalgebra $\mathcal{A}$ (it corresponds to the morphism of multiplication $U_{p}(G) =
+G^{p_{S}} \to G$); according to the beginning of paragraph 4.3, `∆_p(𝒜)` factors through $\Sigma^{p} \mathcal{A}$, i.e.,
+it induces a morphism
 
 ```text
 a(𝒜) : 𝒜 ⟶ Σ^p 𝒜
@@ -1818,9 +1793,7 @@ $q(\mathcal{A}) : \bigotimes^{p}_{O_{S}} \mathcal{A} \to S^{p}(\mathcal{A})$ the
 multiplication $m_{p}(\mathcal{A}) : \bigotimes^{p}_{O_{S}} \mathcal{A} \to \mathcal{A}$ factors through
 $S^{p}(\mathcal{A})$, i.e., it induces a map
 
-$$
-b(\mathcal{A}) : S^{p}(\mathcal{A}) \longrightarrow \mathcal{A}
-$$
+$$ b(\mathcal{A}) : S^{p}(\mathcal{A}) \longrightarrow \mathcal{A} $$
 
 such that $b(\mathcal{A}) \circ q(\mathcal{A}) = m_{p}(\mathcal{A})$.
 
@@ -1882,8 +1855,8 @@ Let us first recall some results from the *Séminaire Sophus Lie*.[^N.D.E-VII_A-
 <!-- label: III.VII_A.5.1 -->
 
 Let $p$ be a prime number, $R$ a commutative ring of characteristic $p$ and $A$ an associative $R$-algebra, but not
-necessarily commutative. If $a$ and $b$ are two elements of $A$, we set $[a, b] = ab - ba$ and
-$a \cdot b = L_{a}(b) = R_{b}(a)$. One then has:
+necessarily commutative. If $a$ and $b$ are two elements of $A$, we set $[a, b] = ab - ba$ and $a \cdot b = L_{a}(b) =
+R_{b}(a)$. One then has:
 
 ```text
 (ad x^p)(y) = [x^p, y] = (L_x^p − R_x^p)(y) = (L_x − R_x)^p(y) = (ad x)^p(y)
@@ -1924,9 +1897,8 @@ obviously equals
 <!-- original page 446 -->
 
 where $\rho$ ranges over the permutations of $p - 1$ letters. Now $(-1)^{s} (p-1 choose s) = 1$ in $\mathbb{F}_{p}$,
-since in $\mathbb{F}_{p}[x]$ ($x$ an indeterminate) one has:
-$(x - 1)^{p} = x^{p} - 1 = (x - 1)(x^{p-1} + \cdot\cdot\cdot + 1)$ and therefore
-$(x - 1)^{p-1} = x^{p-1} + \cdot\cdot\cdot + 1$. This proves $(\ast)$.
+since in $\mathbb{F}_{p}[x]$ ($x$ an indeterminate) one has: $(x - 1)^{p} = x^{p} - 1 = (x - 1)(x^{p-1} +
+\cdot\cdot\cdot + 1)$ and therefore $(x - 1)^{p-1} = x^{p-1} + \cdot\cdot\cdot + 1$. This proves $(\ast)$.
 
 On the other hand, if $x_{0}$ and $x_{1}$ are two elements of $A$, one has
 
@@ -1966,13 +1938,13 @@ $\mathfrak{g}$ makes $\mathfrak{g}$ a *restricted $p$-Lie algebra* over $R$ if t
 
 (i) $ad x^{(p)} = (ad x)^{p}$, for $x \in \mathfrak{g}$
 
-(ii)
-$(x_{0} + x_{1})^{(p)} = x^{(p)}_{0} + x^{(p)}_{1} - \sum_{0 < r < p} \sum_{t} (1/r) [x_{t(1)} x_{t(2)} \cdot\cdot\cdot x_{t(p-1)}, x_{1}] \cdot\cdot\cdot$
+(ii) $(x_{0} + x_{1})^{(p)} = x^{(p)}_{0} + x^{(p)}_{1} - \sum_{0 < r < p} \sum_{t} (1/r) [x_{t(1)} x_{t(2)}
+\cdot\cdot\cdot x_{t(p-1)}, x_{1}] \cdot\cdot\cdot$
 
 <!-- original page 447 -->
 
-where $t$ ranges over the maps $[1, p-1] \to {0, 1}$ taking the value `0` exactly $r$ times
-($x_{0}, x_{1} \in \mathfrak{g}$). The map $x \mapsto x^{(p)}$ will then be called the "*symbolic $p$-th power*".
+where $t$ ranges over the maps $[1, p-1] \to {0, 1}$ taking the value `0` exactly $r$ times ($x_{0}, x_{1} \in
+\mathfrak{g}$). The map $x \mapsto x^{(p)}$ will then be called the "*symbolic $p$-th power*".
 
 For example, if $A$ is an associative $R$-algebra, we saw in 5.1 that one obtains a $p$-Lie algebra, which we shall
 denote $A_{Lie}$, by taking the $R$-module underlying $A$ and setting, for $x, y \in A$,
@@ -1998,20 +1970,20 @@ Leibniz's formula
 D^n(st) = ∑_{i=0}^n (n choose i) (D^i s)(D^{n−i} t)
 ```
 
-shows that $D^{p}$ is again a derivation of $X$ over $S$, taking into account the equality
-$(p choose i) \equiv 0 (mod p)$ for $i \neq 0, p$. It follows that:
+shows that $D^{p}$ is again a derivation of $X$ over $S$, taking into account the equality $(p choose i) \equiv 0 (mod
+p)$ for $i \neq 0, p$. It follows that:
 
-> The algebra $D\acute{e}r_{X/S}$ of derivations of $X$ over $S$ is a sub-$p$-Lie algebra of the
-> $\Gamma(S, O_{S})$-algebra of differential operators of $X$ over $S$.
+> The algebra $D\acute{e}r_{X/S}$ of derivations of $X$ over $S$ is a sub-$p$-Lie algebra of the $\Gamma(S,
+> O_{S})$-algebra of differential operators of $X$ over $S$.
 
 #### 5.2.1.
 
 <!-- label: III.VII_A.5.2.1 -->
 
 If $\mathfrak{g}$ and $\mathfrak{h}$ are two $p$-Lie algebras, a *homomorphism* $h : \mathfrak{g} \to \mathfrak{h}$ is
-an $R$-linear map from $\mathfrak{g}$ into $\mathfrak{h}$ such that $h([x, y]) = [h(x), h(y)]$ and
-$h(x^{(p)}) = h(x)^{(p)}$ if $x, y \in \mathfrak{g}$. The composition of two homomorphisms is again a homomorphism, so
-that we may speak of the *category of $p$-Lie algebras* over $R$.
+an $R$-linear map from $\mathfrak{g}$ into $\mathfrak{h}$ such that $h([x, y]) = [h(x), h(y)]$ and $h(x^{(p)}) =
+h(x)^{(p)}$ if $x, y \in \mathfrak{g}$. The composition of two homomorphisms is again a homomorphism, so that we may
+speak of the *category of $p$-Lie algebras* over $R$.
 
 If $(X, R)$ is a ringed space, we shall say that an $R$-module $\mathfrak{g}$ is equipped with a structure of $p$-Lie
 algebra over $R$ if, for every open $U$, $\Gamma(U, \mathfrak{g})$ is equipped with a structure of $p$-Lie algebra over
@@ -2023,13 +1995,13 @@ $\Gamma(U, R)$ <!-- original page 448 --> and if the restrictions are homomorphi
 
 We are now interested in the left adjoint functor to the functor $A \mapsto A_{Lie}$ of 5.2. Let $\mathfrak{g}$ be a
 $p$-Lie algebra over the ring $R$ of characteristic $p$, $U(\mathfrak{g})$ the enveloping algebra of the Lie algebra
-underlying $\mathfrak{g}$ (cf. [BLie], I § 2.1) and $i_{\mathfrak{g}}$ (or simply $i$) the canonical map
-$\mathfrak{g} \to U(\mathfrak{g})$.
+underlying $\mathfrak{g}$ (cf. [BLie], I § 2.1) and $i_{\mathfrak{g}}$ (or simply $i$) the canonical map $\mathfrak{g}
+\to U(\mathfrak{g})$.
 
-Let $A$ be a unital associative $R$-algebra. One knows that, for every Lie algebra homomorphism
-$\phi : \mathfrak{g} \to A_{Lie}$ there exists a unique homomorphism of unital $R$-algebras
-$\psi : U(\mathfrak{g}) \to A$ such that $\psi \circ i = \phi$. Moreover, $\phi$ is a $p$-Lie algebra homomorphism if
-and only if $\psi$ vanishes on the elements $i(x)^{p} - i(x^{(p)})$, when $x$ ranges over $\mathfrak{g}$.
+Let $A$ be a unital associative $R$-algebra. One knows that, for every Lie algebra homomorphism $\phi : \mathfrak{g} \to
+A_{Lie}$ there exists a unique homomorphism of unital $R$-algebras $\psi : U(\mathfrak{g}) \to A$ such that $\psi \circ
+i = \phi$. Moreover, $\phi$ is a $p$-Lie algebra homomorphism if and only if $\psi$ vanishes on the elements $i(x)^{p} -
+i(x^{(p)})$, when $x$ ranges over $\mathfrak{g}$.
 
 **Definition.** *One denotes by $U^{R}_{p}(\mathfrak{g})$ or simply $U_{p}(\mathfrak{g})$ the quotient of
 $U(\mathfrak{g})$ by the two-sided ideal generated by the elements $i(x)^{p} - i(x^{(p)})$, and $j_{\mathfrak{g}}$ (or
@@ -2039,10 +2011,10 @@ enveloping algebra *of $\mathfrak{g}$.*
 
 According to what precedes, one has the
 
-**Proposition.** *For every unital associative $R$-algebra and every $p$-Lie algebra morphism
-$\phi : \mathfrak{g} \to A_{Lie}$, there exists a unique homomorphism of unital algebras
-$\psi : U_{p}(\mathfrak{g}) \to A$ such that $\psi \circ j = \phi$. In other words, the functor
-$\mathfrak{g} \mapsto U_{p}(\mathfrak{g})$ is left adjoint to the forgetful functor $A \mapsto A_{Lie}$.*
+**Proposition.** *For every unital associative $R$-algebra and every $p$-Lie algebra morphism $\phi : \mathfrak{g} \to
+A_{Lie}$, there exists a unique homomorphism of unital algebras $\psi : U_{p}(\mathfrak{g}) \to A$ such that $\psi \circ
+j = \phi$. In other words, the functor $\mathfrak{g} \mapsto U_{p}(\mathfrak{g})$ is left adjoint to the forgetful
+functor $A \mapsto A_{Lie}$.*
 
 #### 5.3.1.
 
@@ -2084,12 +2056,12 @@ Indeed, if $\mathfrak{g}$ is equipped with a structure of $p$-Lie algebra $x \ma
 and (0), (ii), the $y_{\alpha} = x^{(p)}_{\alpha}$ satisfy $ad y_{\alpha} = (ad x_{\alpha})^{p}$, and determine the
 $p$-Lie algebra structure.
 
-Let us prove the converse. Since $\mathfrak{g}$ is a free $R$-module, the canonical map
-$i : \mathfrak{g} \to U(\mathfrak{g})$ is injective, according to the Poincaré–Birkhoff–Witt theorem (cf. [BLie], I §
-2.7), so one can identify $\mathfrak{g}$ with an $R$-submodule of $U(\mathfrak{g})$. Suppose that $(y_{\alpha})$ is a
-family of elements of $\mathfrak{g}$ such that $ad y_{\alpha} = (ad x_{\alpha})^{p}$. Let $\pi$ be the map
-$r \mapsto r^{p}$ from $R$ into $R$, and let $\mathfrak{g} \otimes_{\pi} R$ be the $R$-Lie algebra obtained by extension
-of scalars $\pi : R \to R$.[^N.D.E-VII_A-54]
+Let us prove the converse. Since $\mathfrak{g}$ is a free $R$-module, the canonical map $i : \mathfrak{g} \to
+U(\mathfrak{g})$ is injective, according to the Poincaré–Birkhoff–Witt theorem (cf. [BLie], I § 2.7), so one can
+identify $\mathfrak{g}$ with an $R$-submodule of $U(\mathfrak{g})$. Suppose that $(y_{\alpha})$ is a family of elements
+of $\mathfrak{g}$ such that $ad y_{\alpha} = (ad x_{\alpha})^{p}$. Let $\pi$ be the map $r \mapsto r^{p}$ from $R$ into
+$R$, and let $\mathfrak{g} \otimes_{\pi} R$ be the $R$-Lie algebra obtained by extension of scalars $\pi : R \to
+R$.[^N.D.E-VII_A-54]
 
 There then exists an $R$-linear map $\gamma$ from $\mathfrak{g} \otimes_{\pi} R$ into $U(\mathfrak{g})$ which sends
 $x_{\alpha} \otimes_{\pi} 1$ to $x^{p}_{\alpha} - y_{\alpha}$; moreover, since one has, for every $x \in \mathfrak{g}$,
@@ -2113,8 +2085,8 @@ deduces from 5.1 (ii) (by induction on the number of indices $\alpha$ such that 
 x^p − ∑_α λ_α^p x_α^p ∈ 𝔤;
 ```
 
-denoting this element by $z$, one then has $x^{(p)} = \sum \lambda^{p}_{\alpha} y_{\alpha} + z$ and therefore
-$x^{(p)} \in \mathfrak{g}$.
+denoting this element by $z$, one then has $x^{(p)} = \sum \lambda^{p}_{\alpha} y_{\alpha} + z$ and therefore $x^{(p)}
+\in \mathfrak{g}$.
 
 It is clear that the map $x \mapsto x^{(p)}$ satisfies $(\lambda x)^{(p)} = \lambda^{p} x^{(p)}$. Moreover, since
 $\gamma(x \otimes_{\pi} 1)$ is central, then $ad x^{(p)} = ad x^{p}$ and therefore, according to Jacobson's first
@@ -2193,9 +2165,7 @@ The uniqueness of the $p$-Lie algebra structure defined by $(\ast)$ being clear,
 $\mathfrak{g}$ is free with basis $(x_{\alpha})$ there exists, according to 5.3.2, one and only one $p$-Lie algebra
 structure on the Lie algebra $R' \otimes_{R} \mathfrak{g}$ such that
 
-$$
-(1 \otimes x_{\alpha})^{(p)} = 1 \otimes x^{(p)}_{\alpha};
-$$
+$$ (1 \otimes x_{\alpha})^{(p)} = 1 \otimes x^{(p)}_{\alpha}; $$
 
 this structure is the one we seek.
 
@@ -2270,14 +2240,14 @@ homomorphism $\epsilon_{\mathfrak{g}} : U_{p}(\mathfrak{g}) \to R$ called the *a
 b) Now take for $\mathfrak{h}$ the algebra $\mathfrak{g}^{\circ}$ opposite to $\mathfrak{g}$, i.e.,
 $\mathfrak{g}^{\circ}$ has the same underlying module as $\mathfrak{g}$, the same symbolic $p$-th power, the bracket of
 two elements in $\mathfrak{g}^{\circ}$ being the opposite of the bracket in $\mathfrak{g}$. It is clear that we can
-identify $U_{p}(\mathfrak{g}^{\circ})$ with the algebra opposite to $U_{p}(\mathfrak{g})$. Moreover, the isomorphism
-$x \mapsto -x$ of $\mathfrak{g}$ onto $\mathfrak{g}^{\circ}$ induces an isomorphism $c_{\mathfrak{g}}$ of
+identify $U_{p}(\mathfrak{g}^{\circ})$ with the algebra opposite to $U_{p}(\mathfrak{g})$. Moreover, the isomorphism $x
+\mapsto -x$ of $\mathfrak{g}$ onto $\mathfrak{g}^{\circ}$ induces an isomorphism $c_{\mathfrak{g}}$ of
 $U_{p}(\mathfrak{g})$ onto $U_{p}(\mathfrak{g}^{\circ}) \simeq U_{p}(\mathfrak{g})^{\circ}$. One says that
 $c_{\mathfrak{g}}$ is the *antipode* of $U_{p}(\mathfrak{g})$.
 
 c) Let finally $\mathfrak{f}$ and $\mathfrak{g}$ be two $p$-Lie algebras and $\mathfrak{h}$ the $p$-Lie algebra product
-$\mathfrak{f} \times \mathfrak{g}$ which has as underlying $R$-module the direct product
-$\mathfrak{f} \times \mathfrak{g}$, the bracket and the symbolic $p$-th power being defined by the formulas
+$\mathfrak{f} \times \mathfrak{g}$ which has as underlying $R$-module the direct product $\mathfrak{f} \times
+\mathfrak{g}$, the bracket and the symbolic $p$-th power being defined by the formulas
 
 ```text
 [(x, y), (x', y')] = ([x, x'], [y, y'])    and    (x, y)^{(p)} = (x^{(p)}, y^{(p)}).
@@ -2294,19 +2264,18 @@ h_1 : x ↦ i_𝔣(x) ⊗ 1    and    h_2 : y ↦ 1 ⊗ i_𝔤(y)
 ```
 
 induce a homomorphism $h_{1} + h_{2}$ from $\mathfrak{f} \times \mathfrak{g}$ into the $p$-Lie algebra underlying
-$U_{p}(\mathfrak{f}) \otimes U_{p}(\mathfrak{g})$. It follows from the universal characters of
-$\mathfrak{f} \times \mathfrak{g}$ and of the restricted enveloping algebras that $h_{1} + h_{2}$ extends to an
-isomorphism:
+$U_{p}(\mathfrak{f}) \otimes U_{p}(\mathfrak{g})$. It follows from the universal characters of $\mathfrak{f} \times
+\mathfrak{g}$ and of the restricted enveloping algebras that $h_{1} + h_{2}$ extends to an isomorphism:
 
 ```text
 φ : U_p(𝔣 × 𝔤) ⥲ U_p(𝔣) ⊗ U_p(𝔤).
 ```
 
 **Definition.** *If $\mathfrak{f} = \mathfrak{g}$, the diagonal map $\delta : x \mapsto (x, x)$ of $\mathfrak{g}$ into
-$\mathfrak{g} \times \mathfrak{g}$ induces a homomorphism of $U_{p}(\mathfrak{g})$ into
-$U_{p}(\mathfrak{g} \times \mathfrak{g})$. We shall denote by `∆_𝔤` the composition of this homomorphism with the
-isomorphism
-$\phi : U_{p}(\mathfrak{g} \times \mathfrak{g}) \xrightarrow{\sim} U_{p}(\mathfrak{g}) \otimes U_{p}(\mathfrak{g})$.*[^N.D.E-VII_A-55]
+$\mathfrak{g} \times \mathfrak{g}$ induces a homomorphism of $U_{p}(\mathfrak{g})$ into $U_{p}(\mathfrak{g} \times
+\mathfrak{g})$. We shall denote by `∆_𝔤` the composition of this homomorphism with the isomorphism $\phi :
+U_{p}(\mathfrak{g} \times \mathfrak{g}) \xrightarrow{\sim} U_{p}(\mathfrak{g}) \otimes
+U_{p}(\mathfrak{g})$.*[^N.D.E-VII_A-55]
 
 One then sees easily that `∆_𝔤` and the multiplication of the algebra $U_{p}(\mathfrak{g})$ make $U_{p}(\mathfrak{g})$
 an $R$-coalgebra in groups (cf. 3.2) which has $\epsilon_{\mathfrak{g}}$ as augmentation and $c_{\mathfrak{g}}$ as
@@ -2338,31 +2307,26 @@ $V$ ranges over the opens of $S$, the composed maps
 ```
 
 define a morphism $\mathcal{L} \to Prim \mathcal{U}_{p}(\mathcal{L})$, which we shall again denote $j$ or
-$j_{\mathcal{L}}$, and this defines further a morphism of `O_S`-$p$-Lie algebras
-$\mathcal{W}(\mathcal{L}) \to Prim \mathcal{W}(\mathcal{U}_{p}(\mathcal{L}))$ (cf. 3.2.3).
+$j_{\mathcal{L}}$, and this defines further a morphism of `O_S`-$p$-Lie algebras $\mathcal{W}(\mathcal{L}) \to Prim
+\mathcal{W}(\mathcal{U}_{p}(\mathcal{L}))$ (cf. 3.2.3).
 
 **Proposition 5.5.1.** *Let $\mathcal{L}$ be an `O_S`-$p$-Lie algebra, locally free as an `O_S`-module. Then
 $j_{\mathcal{L}}$ induces an isomorphism of `O_S`-$p$-Lie algebras:*
 
 <!-- label: III.VII_A.5.5.1 -->
 
-$$
-\mathcal{W}(\mathcal{L}) \xrightarrow{\sim} Prim \mathcal{W}(\mathcal{U}_{p}(\mathcal{L})).
-$$
+$$ \mathcal{W}(\mathcal{L}) \xrightarrow{\sim} Prim \mathcal{W}(\mathcal{U}_{p}(\mathcal{L})). $$
 
-*Proof.* Let $T$ be an $S$-scheme; taking into account the identification
-$\mathcal{U}_{p}(\mathcal{L}_{T}) = \mathcal{U}_{p}(\mathcal{L})_{T}$, the task is to show that the map
-$\Gamma(T, \mathcal{L}_{T}) \to Prim \Gamma(T, \mathcal{U}_{p}(\mathcal{L}_{T}))$ is bijective. Replacing $S$ by $T$,
-one is reduced to the case where $T = S$, and it then suffices to show that the morphism of sheaves
-$j_{\mathcal{L}} : \mathcal{L} \to Prim \mathcal{U}_{p}(\mathcal{L})$ is an isomorphism. This question being local on
-$S$, we may suppose that $S$ is affine with ring $R$ and that $\mathcal{L}$ is the sheaf associated with an $R$-$p$-Lie
-algebra $L$ with basis $(x_{\alpha})$. As in 5.3.3, denote by $z_{\alpha}$ the image of $x_{\alpha}$ in $U = U_{p}(L)$
-and, for every family $n = (n_{\alpha})$ of integers between `0` and $p - 1$, zero except for a finite number of them,
-denote $z^{(n)}$ the product
+*Proof.* Let $T$ be an $S$-scheme; taking into account the identification $\mathcal{U}_{p}(\mathcal{L}_{T}) =
+\mathcal{U}_{p}(\mathcal{L})_{T}$, the task is to show that the map $\Gamma(T, \mathcal{L}_{T}) \to Prim \Gamma(T,
+\mathcal{U}_{p}(\mathcal{L}_{T}))$ is bijective. Replacing $S$ by $T$, one is reduced to the case where $T = S$, and it
+then suffices to show that the morphism of sheaves $j_{\mathcal{L}} : \mathcal{L} \to Prim \mathcal{U}_{p}(\mathcal{L})$
+is an isomorphism. This question being local on $S$, we may suppose that $S$ is affine with ring $R$ and that
+$\mathcal{L}$ is the sheaf associated with an $R$-$p$-Lie algebra $L$ with basis $(x_{\alpha})$. As in 5.3.3, denote by
+$z_{\alpha}$ the image of $x_{\alpha}$ in $U = U_{p}(L)$ and, for every family $n = (n_{\alpha})$ of integers between
+`0` and $p - 1$, zero except for a finite number of them, denote $z^{(n)}$ the product
 
-$$
-\prod_{\alpha} z^{n_{\alpha}}_{\alpha} / n_{\alpha}!
-$$
+$$ \prod_{\alpha} z^{n_{\alpha}}_{\alpha} / n_{\alpha}! $$
 
 <!-- original page 481 -->
 
@@ -2379,18 +2343,17 @@ $\alpha$. Since the $z^{(n)}$ (resp. the $z^{(n)} \otimes z^{(m)}$) form a basis
 deduces that an element $u$ of $U$ satisfies `∆(u) = u ⊗ 1 + 1 ⊗ u` if and only if $u$ is a linear combination of the
 $z_{\alpha}$. This proves 5.5.1.
 
-**Remark 5.5.2.** *Recall (cf. 3.2.2 and 3.2.3), that the group $S$-functor
-$G = \operatorname{Spec}^{*} \mathcal{U}_{p}(\mathcal{L})$ is very good and that
-$Lie(G) = Prim \mathcal{W}(\mathcal{U}_{p}(\mathcal{L}))$. The preceding proposition therefore signifies that
-$j_{\mathcal{L}}$ induces an isomorphism $\mathcal{W}(\mathcal{L}) \xrightarrow{\sim} Lie(G)$.*
+**Remark 5.5.2.** *Recall (cf. 3.2.2 and 3.2.3), that the group $S$-functor $G = \operatorname{Spec}^{*}
+\mathcal{U}_{p}(\mathcal{L})$ is very good and that $Lie(G) = Prim \mathcal{W}(\mathcal{U}_{p}(\mathcal{L}))$. The
+preceding proposition therefore signifies that $j_{\mathcal{L}}$ induces an isomorphism $\mathcal{W}(\mathcal{L})
+\xrightarrow{\sim} Lie(G)$.*
 
 <!-- label: III.VII_A.5.5.2 -->
 
 If one supposes moreover that $\mathcal{L}$ is a locally free `O_S`-module of finite rank, then
-$\mathcal{U}_{p}(\mathcal{L})$ is finite locally free over `O_S`, according to 5.3.3, so
-$\operatorname{Spec}^{*} \mathcal{U}_{p}(\mathcal{L})$ is represented by the $S$-group
-$\mathfrak{G}_{p}(\mathcal{L}) = \operatorname{Spec} \mathcal{U}_{p}(\mathcal{L})^{*}$ (cf. 3.2.2.1), and one obtains
-the following more precise proposition:
+$\mathcal{U}_{p}(\mathcal{L})$ is finite locally free over `O_S`, according to 5.3.3, so $\operatorname{Spec}^{*}
+\mathcal{U}_{p}(\mathcal{L})$ is represented by the $S$-group $\mathfrak{G}_{p}(\mathcal{L}) = \operatorname{Spec}
+\mathcal{U}_{p}(\mathcal{L})^{*}$ (cf. 3.2.2.1), and one obtains the following more precise proposition:
 
 **Proposition 5.5.3.** *Let $\mathcal{L}$ be an `O_S`-$p$-Lie algebra, locally free of finite rank as an `O_S`-module,
 let $\mathcal{A} = \mathcal{U}_{p}(\mathcal{L})^{*}$ and let $G = \mathfrak{G}_{p}(\mathcal{L})$ be the affine $S$-group
@@ -2409,9 +2372,7 @@ hence is a locally free `O_S`-module of finite rank (and one has $\omega^{*}_{G/
 unit section and the augmentation of $\mathcal{U} = \mathcal{U}_{p}(\mathcal{L})$, by $\eta_{\mathcal{A}}$ and
 $\epsilon_{\mathcal{A}}$ those of $\mathcal{A}$, and $\mathcal{J} = Ker \epsilon_{\mathcal{U}}$. Then one has:
 
-$$
-(1)                  \mathcal{U} = \eta_{\mathcal{U}}(O_{S}) \oplus \mathcal{J}.
-$$
+$$ (1) \mathcal{U} = \eta_{\mathcal{U}}(O_{S}) \oplus \mathcal{J}. $$
 
 Let $\delta$ be the morphism defined by the diagram below, where $\tau$ and $\pi$ denote the inclusion and the
 projection deduced from the decomposition (1):
@@ -2441,9 +2402,7 @@ $\mathcal{J} \otimes \mathcal{J}$. It follows that $(\ast)$ gives by duality the
 
 Now the decomposition (1) corresponds by duality to the decomposition:
 
-$$
-(2)                  \mathcal{A} = \eta_{\mathcal{A}}(O_{S}) \oplus \mathcal{I}
-$$
+$$ (2) \mathcal{A} = \eta_{\mathcal{A}}(O_{S}) \oplus \mathcal{I} $$
 
 and the transpose of `∆` is the multiplication $m_{\mathcal{A}} : \mathcal{A} \otimes \mathcal{A} \to \mathcal{A}$.
 Since $\mathcal{I}$ is an ideal of $\mathcal{A}$, $m_{\mathcal{A}}$ sends $\mathcal{I} \otimes \mathcal{I}$ into
@@ -2469,10 +2428,9 @@ proposition follows.
 <!-- original page 454 -->
 
 Let $S$ be a scheme of characteristic $p > 0$. In paragraph 5.5 we associated with every quasi-coherent `O_S`-$p$-Lie
-algebra $\mathcal{L}$ a group $S$-functor
-$\mathfrak{G}_{p}(\mathcal{L}) = \operatorname{Spec}^{*} \mathcal{U}_{p}(\mathcal{L})$. We shall now see that, for every
-$S$-group scheme $G$, the `O_S`-Lie algebra $Lie(G/S)$ defined in II 4.11 is naturally equipped with a structure of
-`O_S`-$p$-Lie algebra.
+algebra $\mathcal{L}$ a group $S$-functor $\mathfrak{G}_{p}(\mathcal{L}) = \operatorname{Spec}^{*}
+\mathcal{U}_{p}(\mathcal{L})$. We shall now see that, for every $S$-group scheme $G$, the `O_S`-Lie algebra $Lie(G/S)$
+defined in II 4.11 is naturally equipped with a structure of `O_S`-$p$-Lie algebra.
 
 ### 6.1.
 
@@ -2483,8 +2441,8 @@ $Dif_{G/S}$ by means of the injections $\alpha$ and $\beta$ of 2.5; $Lie(\operat
 identified with the $\Gamma(O_{S})$-Lie algebra of $S$-derivations of `O_G`. According to 5.2, this latter is a
 sub-$p$-Lie algebra of $Dif_{G/S}$.
 
-On the other hand, the image of $L = Lie(G/S)(S)$ by the injective algebra morphism $\ell : U(G) \to Dif_{G/S}$,
-$d \mapsto {}_{G} d$, is formed by the left-invariant derivations (cf. 2.2, N.D.E. (17), 2.4 and 2.5). If $x$ belongs to
+On the other hand, the image of $L = Lie(G/S)(S)$ by the injective algebra morphism $\ell : U(G) \to Dif_{G/S}$, $d
+\mapsto {}_{G} d$, is formed by the left-invariant derivations (cf. 2.2, N.D.E. (17), 2.4 and 2.5). If $x$ belongs to
 $L$, $\ell(x)^{p}$ is none other than $\ell(x^{p})$, according to loc. cit. Since $\ell(x)^{p}$ is again a derivation,
 one sees that $x^{p}$ belongs to $Lie(G/S)(S)$. Therefore:[^N.D.E-VII_A-57]
 
@@ -2514,48 +2472,45 @@ representable. For this, we shall first give another definition of the symbolic 
 $S$-group scheme $G$.
 
 Let $D$ be a derivation of $G$ at the origin;[^N.D.E-VII_A-58] according to 1.2.1, $D$ is the composition of the
-$S$-derivation $\delta = (\tau, \partial_{t})$ of the zero section $\tau : S \to I_{S}$, and a morphism
-$x : I_{S} \to G$ such that $x \circ \tau = \epsilon$ (i.e. $x \in Lie(G/S)(S)$). According to the definition we gave in
-2.1, $D^{p}$ is the following composed deviation:
+$S$-derivation $\delta = (\tau, \partial_{t})$ of the zero section $\tau : S \to I_{S}$, and a morphism $x : I_{S} \to
+G$ such that $x \circ \tau = \epsilon$ (i.e. $x \in Lie(G/S)(S)$). According to the definition we gave in 2.1, $D^{p}$
+is the following composed deviation:
 
 ```text
 S ≃ S × S × ··· × S ──δ × ··· × δ→ I_S × ··· × I_S ──x × ··· × x→ G × ··· × G ──m^{(p)}→ G
 ```
 
-($p$ copies), where $m^{(p)}$ is the morphism induced by the multiplication $m : G \times G \to G$. Since
-$I_{S} \times \cdot\cdot\cdot \times I_{S}$ is affine over $S$ and has as affine algebra
-$B = O_{S}[d_{1}, \cdots, d_{p}] / (d^{2}_{1}, \cdots, d^{2}_{p})$, the deviation
-$\delta \times \cdot\cdot\cdot \times \delta$ is defined by the morphism of `O_S`-modules
+($p$ copies), where $m^{(p)}$ is the morphism induced by the multiplication $m : G \times G \to G$. Since $I_{S} \times
+\cdot\cdot\cdot \times I_{S}$ is affine over $S$ and has as affine algebra $B = O_{S}[d_{1}, \cdots, d_{p}] /
+(d^{2}_{1}, \cdots, d^{2}_{p})$, the deviation $\delta \times \cdot\cdot\cdot \times \delta$ is defined by the morphism
+of `O_S`-modules
 
-$$
-\phi : B \longrightarrow O_{S}
-$$
+$$ \phi : B \longrightarrow O_{S} $$
 
-which sends to `1` the monomial $d_{1} d_{2} \cdot\cdot\cdot d_{p}$, and to `0` the other monomials
-$d_{i_{1}} \cdot\cdot\cdot d_{i_{r}}$, for $0 \leqslant r < p$. On the other hand, if $pr_{i}$ denotes the projection of
+which sends to `1` the monomial $d_{1} d_{2} \cdot\cdot\cdot d_{p}$, and to `0` the other monomials $d_{i_{1}}
+\cdot\cdot\cdot d_{i_{r}}$, for $0 \leqslant r < p$. On the other hand, if $pr_{i}$ denotes the projection of
 $I^{p}_{S}$ onto the $i$-th factor and if $x_{i}$ is the image in $G(I^{p}_{S})$ of $x$ by $G(pr_{i})$, then the
-composed morphism $m^{(p)} \circ (x \times \cdot\cdot\cdot \times x)$ is none other than the product
-$x_{1} x_{2} \cdot\cdot\cdot x_{p}$. Consequently, $D^{p}$ is also the following composed deviation:
+composed morphism $m^{(p)} \circ (x \times \cdot\cdot\cdot \times x)$ is none other than the product $x_{1} x_{2}
+\cdot\cdot\cdot x_{p}$. Consequently, $D^{p}$ is also the following composed deviation:
 
 ```text
 S ──δ × ··· × δ→ I_S × ··· × I_S ──x_1 x_2 ··· x_p→ G.
 ```
 
 This description allows us to re-prove that $D^{p}$ is a derivation of $G$ at the origin. <!-- original page 456 -->
-Indeed, since $G$ is a very good group (II 4.11), the images $G(pr_{1})(x)$ and $G(pr_{2})(x)$ of $x$ in
-$G(I_{S} \times I_{S})$ commute with each other. It follows that the elements $x_{i}$ of $G(I^{p}_{S})$ commute pairwise
-and therefore, for every permutation $\gamma$ of the factors of $I^{p}_{S}$, one has
-$(x_{1} \cdot\cdot\cdot x_{p}) \circ \gamma = x_{1} \cdot\cdot\cdot x_{p}$; it follows that
-$x_{1} \cdot\cdot\cdot x_{p}$ factors through the canonical projection of $I^{p}_{S}$ into the symmetric product
-$\Sigma^{p} I_{S}$ (cf. 4.2).
+Indeed, since $G$ is a very good group (II 4.11), the images $G(pr_{1})(x)$ and $G(pr_{2})(x)$ of $x$ in $G(I_{S} \times
+I_{S})$ commute with each other. It follows that the elements $x_{i}$ of $G(I^{p}_{S})$ commute pairwise and therefore,
+for every permutation $\gamma$ of the factors of $I^{p}_{S}$, one has $(x_{1} \cdot\cdot\cdot x_{p}) \circ \gamma =
+x_{1} \cdot\cdot\cdot x_{p}$; it follows that $x_{1} \cdot\cdot\cdot x_{p}$ factors through the canonical projection of
+$I^{p}_{S}$ into the symmetric product $\Sigma^{p} I_{S}$ (cf. 4.2).
 
 The symmetric product $\Sigma^{p} I_{S}$ has as affine algebra the subalgebra $A$ of $B$ which has as basis over `O_S`
 the elementary symmetric functions $1 = \sigma_{0}, \sigma_{1}, \cdots, \sigma_{p}$ of $d_{1}, \cdots, d_{p}$. Denote by
 $\kappa$ the inclusion $A \hookrightarrow B$ and $\pi$ the morphism of `O_S`-algebras $A \to O_{S}[t]/(t^{2})$ which
-annihilates $\sigma_{1}, \cdots, \sigma_{p-1}$ and sends $\sigma_{p}$ to $t$; then one has
-$\phi \circ \kappa = \partial_{t} \circ \pi$ (recall that $\partial_{t} : O_{S}[t]/(t^{2}) \to O_{S}$ is the morphism of
-`O_S`-modules which annihilates `1` and sends $t$ to `1`). Consequently, denoting by $i$ the closed immersion
-$I_{S} \hookrightarrow \Sigma^{p} I_{S}$ defined by $\pi$, one has a commutative diagram:
+annihilates $\sigma_{1}, \cdots, \sigma_{p-1}$ and sends $\sigma_{p}$ to $t$; then one has $\phi \circ \kappa =
+\partial_{t} \circ \pi$ (recall that $\partial_{t} : O_{S}[t]/(t^{2}) \to O_{S}$ is the morphism of `O_S`-modules which
+annihilates `1` and sends $t$ to `1`). Consequently, denoting by $i$ the closed immersion $I_{S} \hookrightarrow
+\Sigma^{p} I_{S}$ defined by $\pi$, one has a commutative diagram:
 
 ```text
                               D^p
@@ -2573,8 +2528,8 @@ which shows that $D^{p}$ is of the form $y \circ \delta$, so is indeed a derivat
 <!-- label: III.VII_A.6.3 -->
 
 Let $\mathfrak{S}_{p}$ be the symmetric group of order $p$ and $I^{p}_{S} \times \mathfrak{S}_{p}$ the direct sum of a
-family of copies of $I^{p}_{S}$ indexed by $\mathfrak{S}_{p}$. We denote by
-$\pi : I^{p}_{S} \times \mathfrak{S}_{p} \to I^{p}_{S}$ the canonical projection and
+family of copies of $I^{p}_{S}$ indexed by $\mathfrak{S}_{p}$. We denote by $\pi : I^{p}_{S} \times \mathfrak{S}_{p} \to
+I^{p}_{S}$ the canonical projection and
 
 ```text
 μ : I_S^p × 𝔖_p ⟶ I_S^p
@@ -2602,8 +2557,8 @@ projective limit of functors satisfying (F) also satisfies (F); if $Y$ satisfies
 $S$-functor, $\operatorname{Hom}_{S}(X, Y)$ satisfies (F).
 
 Let $X$ be a very good group (II 4.10) satisfying condition (F). Denoting by $x : I_{S} \to X$ a morphism which extends
-the unit section of $X$ and resuming the notations of 6.2, one sees as above that
-$x_{1} \cdot\cdot\cdot x_{p} : I^{p}_{S} \to X$ factors through $\Sigma^{p} I_{S}$:
+the unit section of $X$ and resuming the notations of 6.2, one sees as above that $x_{1} \cdot\cdot\cdot x_{p} :
+I^{p}_{S} \to X$ factors through $\Sigma^{p} I_{S}$:
 
 ```text
        I_S^p  ──x_1 ··· x_p→  X
@@ -2642,9 +2597,7 @@ Here are some examples:
 Let $M$ be an "abstract" abelian group and $D_{S}(M)$ the diagonalizable $S$-group of type $M$ (I 4.4.2). For every
 $S$-scheme $T$, one has therefore
 
-$$
-D_{S}(M)(T) = \operatorname{Hom}_{(Ab)}(M, O(T)^{\times}).
-$$
+$$ D_{S}(M)(T) = \operatorname{Hom}_{(Ab)}(M, O(T)^{\times}). $$
 
 Let $x$ be an element of $Lie(D_{S}(M)/S)(S)$, i.e., a homomorphism of abelian groups
 
@@ -2665,9 +2618,7 @@ This expression indeed belongs to $O(\Sigma^{p} I_{S})$. Projecting this into $O
 $\sigma_{1}, \cdots, \sigma_{p-1}$ and sending $\sigma_{p}$ to $d$, one sees that $x^{(p)}$ is the following
 homomorphism from $M$ into $\Gamma(S, O_{S} + d O_{S})^{\times}$:
 
-$$
-m \mapsto 1 + d \xi(m)^{p}.
-$$
+$$ m \mapsto 1 + d \xi(m)^{p}. $$
 
 In summary, if one identifies $Lie(D_{S}(M)/S)(S)$ with $\operatorname{Hom}_{(Ab)}(M, O(S))$ as in II 5.1, the symbolic
 $p$-th power associates with $\xi$ the homomorphism $\xi^{(p)} : m \mapsto \xi(m)^{p}$.
@@ -2795,9 +2746,9 @@ the augmentation ideal of $\mathcal{A}$ is locally nilpotent.*
 $\mathfrak{G}_{p}(\mathcal{L})$ be the affine $S$-group $\operatorname{Spec} \mathcal{U}_{p}(\mathcal{L})$. According to
 5.5, one knows that $\mathcal{L}$ is identified with $Lie \mathfrak{G}_{p}(\mathcal{L})$.
 
-Consider now a very good group $S$-functor $G$ satisfying condition (F) of 6.3 and let
-$\phi : \mathfrak{G}_{p}(\mathcal{L}) \to G$ be a morphism of group $S$-functors. According to 6.3, the morphism of
-`O_S`-Lie algebras `Lie φ : Lie 𝔊_p(ℒ) → Lie G` is compatible with the symbolic $p$-th power. If we denote by
+Consider now a very good group $S$-functor $G$ satisfying condition (F) of 6.3 and let $\phi :
+\mathfrak{G}_{p}(\mathcal{L}) \to G$ be a morphism of group $S$-functors. According to 6.3, the morphism of `O_S`-Lie
+algebras `Lie φ : Lie 𝔊_p(ℒ) → Lie G` is compatible with the symbolic $p$-th power. If we denote by
 $\operatorname{Hom}_{p}(\mathcal{L}, Lie G)$ the set of `O_S`-Lie algebra morphisms which are compatible with the
 symbolic $p$-th power, one therefore has a map <!-- original page 462 -->
 
@@ -2821,37 +2772,33 @@ Hom_{S-gr.}(𝔊_p(ℒ), G) ⟶ Hom_p(ℒ, Lie G)
 
 *(ii) $G$ is of the form $\operatorname{Aut}_{S} X$, where $X$ is an $S$-scheme;*
 
-*(iii) $G$ is of one of the forms $\mathcal{W}(\mathcal{F})$ or
-$\operatorname{Aut}_{O_{S}-mod} \mathcal{W}(\mathcal{F})$, where $\mathcal{F}$ denotes a quasi-coherent `O_S`-module.*
+*(iii) $G$ is of one of the forms $\mathcal{W}(\mathcal{F})$ or $\operatorname{Aut}_{O_{S}-mod}
+\mathcal{W}(\mathcal{F})$, where $\mathcal{F}$ denotes a quasi-coherent `O_S`-module.*
 
 The proof of the theorem rests on the following lemma:
 
-**Lemma.** *If $\mathcal{L}$ is a finite locally free `O_S`-$p$-Lie algebra, the $S$-group
-$G = \mathfrak{G}_{p}(\mathcal{L})$ is annihilated by the Frobenius morphism $Fr : G \to G^{(p)}$. In particular, $G$ is
+**Lemma.** *If $\mathcal{L}$ is a finite locally free `O_S`-$p$-Lie algebra, the $S$-group $G =
+\mathfrak{G}_{p}(\mathcal{L})$ is annihilated by the Frobenius morphism $Fr : G \to G^{(p)}$. In particular, $G$ is
 infinitesimal.*
 
-[^N.D.E-VII_A-64] Let in fact $\mathcal{U}$ be the restricted enveloping algebra of $\mathcal{L}$,
-$\mathcal{A} = \mathcal{U}^{*}$ the affine algebra of $G$, and $\mathcal{I} = Ker \epsilon_{\mathcal{A}}$ the
-augmentation ideal of $\mathcal{A}$. One has
+[^N.D.E-VII_A-64] Let in fact $\mathcal{U}$ be the restricted enveloping algebra of $\mathcal{L}$, $\mathcal{A} =
+\mathcal{U}^{*}$ the affine algebra of $G$, and $\mathcal{I} = Ker \epsilon_{\mathcal{A}}$ the augmentation ideal of
+$\mathcal{A}$. One has
 
-$$
-(1)                      \mathcal{A} = \mathcal{I} \oplus \eta_{\mathcal{A}}(O_{S}),
-$$
+$$ (1) \mathcal{A} = \mathcal{I} \oplus \eta_{\mathcal{A}}(O_{S}), $$
 
 where $\eta_{\mathcal{A}}$ denotes the unit section of $\mathcal{A}$, and since $\epsilon_{\mathcal{A}}$ (resp.
 $\eta_{\mathcal{A}}$) is the transpose of $\eta_{\mathcal{U}}$ (resp. $\epsilon_{\mathcal{U}}$), this decomposition
 corresponds by duality to the decomposition
 
-$$
-(2)                      \mathcal{U} = \mathcal{J} \oplus \eta_{\mathcal{U}}(O_{S}),
-$$
+$$ (2) \mathcal{U} = \mathcal{J} \oplus \eta_{\mathcal{U}}(O_{S}), $$
 
 where $\mathcal{J}$ is the augmentation ideal of $\mathcal{U}$; one therefore has $\mathcal{J} = \mathcal{I}^{*}$.
 
 Let $\pi$ denote the endomorphism $x \mapsto x^{p}$ of `O_S`. We must show that the morphism $Fr : G \to G^{(p)}$
-factors through the unit section of $G^{(p)}$, which is equivalent to saying (cf. 4.1.4 (c)) that the morphism
-$\Phi : a \otimes_{\pi} x \mapsto a^{p} x$ from $\mathcal{I} \otimes_{\pi} O_{S}$ into $\mathcal{A}$ is zero. Since
-$\mathcal{A}$ is finite locally free over `O_S`, it suffices to see that the transposed morphism ${}^{t} \Phi$ is zero.
+factors through the unit section of $G^{(p)}$, which is equivalent to saying (cf. 4.1.4 (c)) that the morphism $\Phi : a
+\otimes_{\pi} x \mapsto a^{p} x$ from $\mathcal{I} \otimes_{\pi} O_{S}$ into $\mathcal{A}$ is zero. Since $\mathcal{A}$
+is finite locally free over `O_S`, it suffices to see that the transposed morphism ${}^{t} \Phi$ is zero.
 
 Now $\Phi$ is none other than the following composition
 
@@ -2861,10 +2808,10 @@ Now $\Phi$ is none other than the following composition
 
 where $\tau$ is deduced from the inclusion $\mathcal{I} \hookrightarrow \mathcal{A}$, and $b(\mathcal{A})$ and
 $j(\mathcal{A})$ are defined as in 4.3.3 (i.e. $b(\mathcal{A})$ is induced by the multiplication of $\mathcal{A}$ and
-$j(\mathcal{A})$ sends $a \otimes_{\pi} 1$ to the image of $a \otimes \cdot\cdot\cdot \otimes a$ in
-$S^{p} \mathcal{A}$). Since the `O_S`-dual module of $S^{p} \mathcal{A}$ is none other than the submodule
-$\Sigma^{p} \mathcal{U}$ of $\bigotimes^{p} \mathcal{U}$ formed by the sections invariant under the action of the
-symmetric group of order $p$, one sees that ${}^{t} \Phi$ is the following composed morphism:
+$j(\mathcal{A})$ sends $a \otimes_{\pi} 1$ to the image of $a \otimes \cdot\cdot\cdot \otimes a$ in $S^{p}
+\mathcal{A}$). Since the `O_S`-dual module of $S^{p} \mathcal{A}$ is none other than the submodule $\Sigma^{p}
+\mathcal{U}$ of $\bigotimes^{p} \mathcal{U}$ formed by the sections invariant under the action of the symmetric group of
+order $p$, one sees that ${}^{t} \Phi$ is the following composed morphism:
 
 <!-- original page 463 -->
 
@@ -2905,9 +2852,7 @@ must be the identity. Since $(H \times X)_{red}$ is identified with $X_{red}$, o
 identity on the associated reduced schemes. In particular, $\mu$ induces an action of $H$ on each open of $X$, and one
 therefore obtains, for every open $U$ of $X$, affine over $S$, a morphism of unital associative algebras:
 
-$$
-\mathcal{A}(U) \longrightarrow \mathcal{A}(H) \otimes \mathcal{A}(U)
-$$
+$$ \mathcal{A}(U) \longrightarrow \mathcal{A}(H) \otimes \mathcal{A}(U) $$
 
 making $\mathcal{A}(U)$ an $\mathcal{A}(H)$-comodule on the left, in such a way that the restriction maps
 $\mathcal{A}(U) \to \mathcal{A}(U')$, for $U' \subset U$, are comodule morphisms. Conversely, every datum of this type
@@ -2944,9 +2889,8 @@ making $\mathcal{C}$ an $\mathcal{A}$-comodule on the left. We shall denote by $
 ```
 
 where $\gamma$ is the "contraction" of $\mathcal{A}^{*} \otimes_{O_{S}} \mathcal{A}$ into `O_S`. Since $\mathcal{A}$ is
-finite locally free over `O_S`, one knows that the map
-$\lambda \mapsto (\gamma \otimes \mathcal{C})(\mathcal{U} \otimes \lambda)$ is a bijection from
-$\operatorname{Hom}_{O_{S}}(\mathcal{C}, \mathcal{A} \otimes \mathcal{C})$ onto
+finite locally free over `O_S`, one knows that the map $\lambda \mapsto (\gamma \otimes \mathcal{C})(\mathcal{U} \otimes
+\lambda)$ is a bijection from $\operatorname{Hom}_{O_{S}}(\mathcal{C}, \mathcal{A} \otimes \mathcal{C})$ onto
 $\operatorname{Hom}_{O_{S}}(\mathcal{U} \otimes \mathcal{C}, \mathcal{C})$. Moreover, one sees easily that the condition
 that $\lambda$ define a structure of $\mathcal{A}$-comodule on the left (resp. be a morphism of unital associative
 algebras) is equivalent, by duality, to the condition that $\alpha$ be a representation of $\mathcal{U}$ in
@@ -2962,9 +2906,9 @@ $u(xy) = u(x) y + x u(y)$, i.e. that $\alpha(u)$ is an `O_S`-derivation of $\mat
 
 <!-- original page 465 --> of 7.2 follows. Indeed, every morphism `φ` from `𝔊_p = 𝔊_p(ℒ)` into `Aut X` defines a
 
-homomorphism of $p$-Lie algebras $Lie \phi$ from $\mathcal{L} = Lie \mathfrak{G}_{p}$ into
-$\pi_{*}(D\acute{e}r_{O_{S}} O_{X})$, and conversely every datum of this type comes, according to what precedes, from a
-unique action $\mu : G \times X \to X$.
+homomorphism of $p$-Lie algebras $Lie \phi$ from $\mathcal{L} = Lie \mathfrak{G}_{p}$ into $\pi_{*}(D\acute{e}r_{O_{S}}
+O_{X})$, and conversely every datum of this type comes, according to what precedes, from a unique action $\mu : G \times
+X \to X$.
 
 #### 7.2.2.
 
@@ -3003,10 +2947,10 @@ top horizontal arrow is also invertible. This proves 7.2 (i).
 <!-- original page 466 -->
 
 Consider now the case where $G = \operatorname{Aut}_{O_{S}-mod.} \mathcal{W}(\mathcal{F})$.[^N.D.E-VII_A-66] Set
-$\mathcal{U} = \mathcal{U}_{p}(\mathcal{L})$, $\mathcal{A} = \mathcal{U}^{*}$ and
-$H = \mathfrak{G}_{p}(\mathcal{L}) = \operatorname{Spec} \mathcal{A}$. Since $H$ is affine over $S$ then, according to
-VI_B 11.6.1, a morphism of $S$-groups from $H$ into $\operatorname{Aut}_{O_{S}-mod.} \mathcal{W}(\mathcal{F})$ is the
-same thing as a structure of $\mathcal{A}$-comodule on the right
+$\mathcal{U} = \mathcal{U}_{p}(\mathcal{L})$, $\mathcal{A} = \mathcal{U}^{*}$ and $H = \mathfrak{G}_{p}(\mathcal{L}) =
+\operatorname{Spec} \mathcal{A}$. Since $H$ is affine over $S$ then, according to VI_B 11.6.1, a morphism of $S$-groups
+from $H$ into $\operatorname{Aut}_{O_{S}-mod.} \mathcal{W}(\mathcal{F})$ is the same thing as a structure of
+$\mathcal{A}$-comodule on the right
 
 ```text
 μ : ℱ ⟶ ℱ ⊗ 𝒜.
@@ -3014,14 +2958,12 @@ same thing as a structure of $\mathcal{A}$-comodule on the right
 
 Moreover, since $\mathcal{A}$ is finite locally free over `O_S`, this is equivalent to the datum of a representation
 
-$$
-\alpha : \mathcal{U} \longrightarrow \operatorname{End}_{O_{S}}(\mathcal{F})
-$$
+$$ \alpha : \mathcal{U} \longrightarrow \operatorname{End}_{O_{S}}(\mathcal{F}) $$
 
-of $\mathcal{U}$ in $\mathcal{F}$. Finally, according to the universal property of
-$\mathcal{U} = \mathcal{U}_{p}(\mathcal{L})$, to give such a morphism $\alpha$ is equivalent to giving its restriction
-$\rho$ to $\mathcal{L}$ (identified with its image in $\mathcal{U}$), which is a $p$-Lie algebra morphism from
-$\mathcal{L}$ into $\operatorname{End}_{O_{S}}(\mathcal{F})$.
+of $\mathcal{U}$ in $\mathcal{F}$. Finally, according to the universal property of $\mathcal{U} =
+\mathcal{U}_{p}(\mathcal{L})$, to give such a morphism $\alpha$ is equivalent to giving its restriction $\rho$ to
+$\mathcal{L}$ (identified with its image in $\mathcal{U}$), which is a $p$-Lie algebra morphism from $\mathcal{L}$ into
+$\operatorname{End}_{O_{S}}(\mathcal{F})$.
 
 [^N.D.E-VII_A-67] Finally, consider the case where $G = \mathcal{W}(\mathcal{F})$, keeping the preceding notations.
 First, to give a morphism of $S$-functors $\phi : H \to \mathcal{W}(\mathcal{F})$ is equivalent to giving an element
@@ -3039,9 +2981,9 @@ $\mathcal{J}$ is the augmentation ideal of $\mathcal{U}$, whence
 (1)                  Hom_{S-gr.}(H, 𝒲(ℱ)) = Hom_{O_S}(𝒥 / 𝒥², ℱ).
 ```
 
-On the other hand, consider the quasi-coherent sheaf $[\mathcal{L}, \mathcal{L}]$, image of the morphism
-$\mathcal{L} \otimes \mathcal{L} \to \mathcal{L}$, $x \otimes y \mapsto [x, y]$; for every affine open $V$ of $S$, one
-has $[\mathcal{L}, \mathcal{L}](V) = [\mathcal{L}(V), \mathcal{L}(V)]$. Then one has an exact sequence
+On the other hand, consider the quasi-coherent sheaf $[\mathcal{L}, \mathcal{L}]$, image of the morphism $\mathcal{L}
+\otimes \mathcal{L} \to \mathcal{L}$, $x \otimes y \mapsto [x, y]$; for every affine open $V$ of $S$, one has
+$[\mathcal{L}, \mathcal{L}](V) = [\mathcal{L}(V), \mathcal{L}(V)]$. Then one has an exact sequence
 
 ```text
 (†)        0  ⟶  [ℒ, ℒ]  ⟶  ℒ  ──π→  𝒥 / 𝒥²  ⟶  0,
@@ -3052,11 +2994,11 @@ $\mathcal{J} \to \mathcal{J} / \mathcal{J}^{2}$.
 
 Indeed, the question being local on $S$, we may suppose that $S$ is affine with ring $R$ and that $L = \mathcal{L}(S)$
 is free with basis $(x_{1}, \cdots, x_{r})$. Identifying $L$ with its image in $U = U_{p}(L)$, let $K$ be the
-sub-$R$-module of $U$ direct sum of `[L, L]` and the submodule with basis the monomials
-$x^{n_{1}}_{1} \cdot\cdot\cdot x^{n_{r}}_{r}$ such that $n_{1} + \cdot\cdot\cdot + n_{r} \geqslant 2$; one then verifies
-that $K$ is a two-sided ideal of $U$. Since $K$ is contained in $J^{2}$ (where $J$ is the augmentation ideal of $U$) and
-contains all the products $x_{i} x_{j}$ (which generate $J^{2}$), one deduces that $K = J^{2}$, whence
-$J^{2} \cap L = [L, L]$ and one has the exact sequence `(†)`.
+sub-$R$-module of $U$ direct sum of `[L, L]` and the submodule with basis the monomials $x^{n_{1}}_{1} \cdot\cdot\cdot
+x^{n_{r}}_{r}$ such that $n_{1} + \cdot\cdot\cdot + n_{r} \geqslant 2$; one then verifies that $K$ is a two-sided ideal
+of $U$. Since $K$ is contained in $J^{2}$ (where $J$ is the augmentation ideal of $U$) and contains all the products
+$x_{i} x_{j}$ (which generate $J^{2}$), one deduces that $K = J^{2}$, whence $J^{2} \cap L = [L, L]$ and one has the
+exact sequence `(†)`.
 
 On the other hand, one knows from 6.4.2 that $Lie \mathcal{W}(\mathcal{F})$ is none other than
 $\mathcal{W}(\mathcal{F})$, the Lie bracket and the symbolic $p$-th power being zero. From this and from what precedes
@@ -3072,8 +3014,8 @@ and this, combined with (1), completes the proof of Theorem 7.2.
 
 <!-- label: III.VII_A.7.3 -->
 
-*If $\mathcal{L}$ is a finite locally free `O_S`-$p$-Lie algebra, the morphism
-$j_{\mathcal{L}} : \mathcal{L} \to Lie \mathfrak{G}_{p}(\mathcal{L})$ of 5.5 is invertible.*
+*If $\mathcal{L}$ is a finite locally free `O_S`-$p$-Lie algebra, the morphism $j_{\mathcal{L}} : \mathcal{L} \to Lie
+\mathfrak{G}_{p}(\mathcal{L})$ of 5.5 is invertible.*
 
 <!-- original page 467 -->
 
@@ -3092,16 +3034,15 @@ identified, according to 2.5 and 1.3.1, with the morphisms of `O_S`-modules from
 which vanish on the unit section of $\epsilon^{-1}_{G}(O_{G})$ and on $\mathcal{I}'^{2}$. One thus recovers the
 canonical isomorphism of $Lie(G/S)(S)$ onto $\operatorname{Hom}_{O_{S}}(\mathcal{I}' / \mathcal{I}'^{2}, O_{S})$ of II,
 3.3 and 4.11.4.[^N.D.E-VII_A-69] We shall set $\omega_{G/S} = \mathcal{I}' / \mathcal{I}'^{2}$ as in loc. cit., so that
-the sheaf $Lie(G/S)$ is identified with
-$\omega^{*}_{G/S} = \operatorname{Hom}_{O_{S}}(\omega_{G/S}, O_{S})$.[^N.D.E-VII_A-70] Moreover, if
-$G = \mathfrak{G}_{p}(\mathcal{L})$, where $\mathcal{L}$ is a finite locally free `O_S`-$p$-Lie algebra, one saw in
-5.5.3 that $\omega_{G/S} = \mathcal{L}^{*}$.
+the sheaf $Lie(G/S)$ is identified with $\omega^{*}_{G/S} = \operatorname{Hom}_{O_{S}}(\omega_{G/S},
+O_{S})$.[^N.D.E-VII_A-70] Moreover, if $G = \mathfrak{G}_{p}(\mathcal{L})$, where $\mathcal{L}$ is a finite locally free
+`O_S`-$p$-Lie algebra, one saw in 5.5.3 that $\omega_{G/S} = \mathcal{L}^{*}$.
 
 **Theorem.** *If $G$ is a group scheme over a scheme $S$ of characteristic $p > 0$, the following assertions are
 equivalent:*
 
-*(i) There exists a finite locally free `O_S`-$p$-Lie algebra $\mathcal{L}$ such that
-$G \simeq \mathfrak{G}_{p}(\mathcal{L})$.*
+*(i) There exists a finite locally free `O_S`-$p$-Lie algebra $\mathcal{L}$ such that $G \simeq
+\mathfrak{G}_{p}(\mathcal{L})$.*
 
 *(i') The `O_S`-$p$-Lie algebra $Lie(G)$ is finite locally free and $G \simeq \mathfrak{G}_{p}(Lie(G))$.*
 
@@ -3123,13 +3064,13 @@ $p$-th powers of the sections of $\omega_{G/S}$.*
 
 The equivalence (i) ⇔ (i') follows from 5.5.3 (i), the implications (ii) ⇒ (iii) ⇒ (iii') are clear, and one has (i) ⇒
 (iv) since $\mathfrak{G}_{p}(\mathcal{L})$ is finite locally free and of height $\leqslant 1$, according to 5.5.2 and
-Lemma 7.2. Let us show that (i) entails (ii). Denote by $\mathcal{I}$ the augmentation ideal of
-$\mathcal{A} = \mathcal{U}_{p}(\mathcal{L})^{*}$. One has already seen in 5.5.3 (ii) that
-$\omega_{G/S} = \mathcal{I} / \mathcal{I}^{2}$ is identified with $\mathcal{L}^{*}$, hence is finite locally free.
+Lemma 7.2. Let us show that (i) entails (ii). Denote by $\mathcal{I}$ the augmentation ideal of $\mathcal{A} =
+\mathcal{U}_{p}(\mathcal{L})^{*}$. One has already seen in 5.5.3 (ii) that $\omega_{G/S} = \mathcal{I} /
+\mathcal{I}^{2}$ is identified with $\mathcal{L}^{*}$, hence is finite locally free.
 
-Now suppose $S$ affine. There is then a section $\sigma : \omega_{G/S} \to \mathcal{I}$ of the projection
-$\mathcal{I} \to \mathcal{I} / \mathcal{I}^{2}$; it induces an algebra morphism
-$\sigma' : S_{O_{S}}(\omega_{G/S}) \to \mathcal{A}$ and, according to Lemma 7.2, $\sigma'$ factors into a morphism
+Now suppose $S$ affine. There is then a section $\sigma : \omega_{G/S} \to \mathcal{I}$ of the projection $\mathcal{I}
+\to \mathcal{I} / \mathcal{I}^{2}$; it induces an algebra morphism $\sigma' : S_{O_{S}}(\omega_{G/S}) \to \mathcal{A}$
+and, according to Lemma 7.2, $\sigma'$ factors into a morphism
 
 ```text
 φ : S_{O_S}(ω_{G/S}) / K ⟶ 𝒜,
@@ -3152,12 +3093,12 @@ hence $\mathcal{A}(G)$ is an `O_S`-module of finite presentation (cf. EGA IV₁,
 augmentation ideal of $\mathcal{A}$; since $\mathcal{A} = \eta_{\mathcal{A}}(O_{S}) \oplus \mathcal{I}$ (where
 $\eta_{\mathcal{A}}$ is the unit section of $\mathcal{A}$), $\mathcal{I}$ is an `O_S`-module of finite presentation, and
 so is $\omega_{G} = \mathcal{I} / \mathcal{I}^{2}$. When one supposes $G$ of height $\leqslant 1$ and locally of finite
-type over $S$, one obtains similarly that $\mathcal{A}(G)$, $\mathcal{I}$ and
-$\omega_{G} = \mathcal{I} / \mathcal{I}^{2}$ are `O_S`-modules of finite type.
+type over $S$, one obtains similarly that $\mathcal{A}(G)$, $\mathcal{I}$ and $\omega_{G} = \mathcal{I} /
+\mathcal{I}^{2}$ are `O_S`-modules of finite type.
 
-So, under hypothesis (iii'), one obtains that $\omega_{G/S}$ is finite locally free over `O_S`, as is
-$\mathcal{L} = Lie(G/S) = \omega^{*}_{G/S}$. Let then $\mathcal{B} = \mathcal{U}_{p}(\mathcal{L})^{*}$ and
-$H = \mathfrak{G}_{p}(\mathcal{L}) = \operatorname{Spec} \mathcal{B}$. According to Theorem 7.2, the identity map of
+So, under hypothesis (iii'), one obtains that $\omega_{G/S}$ is finite locally free over `O_S`, as is $\mathcal{L} =
+Lie(G/S) = \omega^{*}_{G/S}$. Let then $\mathcal{B} = \mathcal{U}_{p}(\mathcal{L})^{*}$ and $H =
+\mathfrak{G}_{p}(\mathcal{L}) = \operatorname{Spec} \mathcal{B}$. According to Theorem 7.2, the identity map of
 $\mathcal{L}$ corresponds to a group morphism from $H = \mathfrak{G}_{p}(\mathcal{L})$ to $G$, hence to a morphism of
 `O_S`-algebras $\theta : \mathcal{A} \to \mathcal{B}$. The task is to show that $\theta$, which induces by definition an
 isomorphism of $\omega_{G/S}$ onto $\omega_{H/S}$, is an isomorphism.
@@ -3185,44 +3126,41 @@ is an isomorphism. The same therefore holds for $\theta$. This proves that (iii'
 
 <!-- label: III.VII_A.7.4.3 -->
 
-[^N.D.E-VII_A-73] Let us finally show that (iv) entails (iii). It suffices to show that $\omega_{G/S}$ is locally free, so
-one may suppose $S$ affine with ring $R$. As remarked at the beginning of 7.4.2, hypothesis (iv) then entails that
-$G = \operatorname{Spec} A$, for an $R$-algebra $A$ which is an $R$-module of finite presentation, as is $\omega_{G/A} = I / I^{2}$ (where $I$
-is the augmentation ideal of $A$). Since one supposes moreover that $G$ is flat over $S$, then $A$ is a finite locally
-free $R$-module (cf. [BAC] II, § 5.2, Th. 1 and cor. 2) and, according to loc. cit., to show that $\omega_{G/A}$ is locally
-free of finite rank, it suffices to show that $(\omega_{G/A})_{\mathfrak{m}}$ is flat for every maximal ideal $\mathfrak{m}$ of $R$. So one may
-suppose $R$ local <!-- original page 494 --> and $A$ free of rank $n + 1$, hence $I$ free of rank $n$. Let $\mathfrak{m}$ be the
-maximal ideal of $R$ and $k = R / \mathfrak{m}$.
+[^N.D.E-VII_A-73] Let us finally show that (iv) entails (iii). It suffices to show that $\omega_{G/S}$ is locally free,
+so one may suppose $S$ affine with ring $R$. As remarked at the beginning of 7.4.2, hypothesis (iv) then entails that $G
+= \operatorname{Spec} A$, for an $R$-algebra $A$ which is an $R$-module of finite presentation, as is $\omega_{G/A} = I
+/ I^{2}$ (where $I$ is the augmentation ideal of $A$). Since one supposes moreover that $G$ is flat over $S$, then $A$
+is a finite locally free $R$-module (cf. [BAC] II, § 5.2, Th. 1 and cor. 2) and, according to loc. cit., to show that
+$\omega_{G/A}$ is locally free of finite rank, it suffices to show that $(\omega_{G/A})_{\mathfrak{m}}$ is flat for
+every maximal ideal $\mathfrak{m}$ of $R$. So one may suppose $R$ local <!-- original page 494 --> and $A$ free of rank
+$n + 1$, hence $I$ free of rank $n$. Let $\mathfrak{m}$ be the maximal ideal of $R$ and $k = R / \mathfrak{m}$.
 
 Denote by $I_{k}$ the augmentation ideal of $A_{k}$ and $r$ the dimension of $\omega_{G_{k} / k} = I_{k} / I^{2}_{k}$.
 Let $(e_{1}, \cdots, e_{n})$ be a basis of $I_{k}$ such that $(e_{r+1}, \cdots, e_{n})$ is a basis of $I^{2}_{k}$, and
-let $x_{1}, \cdots, x_{n}$ be elements of $I$ lifting the $e_{i}$. According to Nakayama's lemma,
-$(x_{1}, \cdots, x_{n})$ is a basis of $I$ over $R$. Let $N$ be the sub-$R$-module of $I$ with basis
-$(x_{1}, \cdots, x_{r})$ and let $B$ be the quotient of the symmetric algebra of $N$ by the ideal generated by the
-elements $x^{p}$, for $x \in N$. Since every element of $I$ has $p$-th power zero, one obtains a morphism of
-$R$-algebras
+let $x_{1}, \cdots, x_{n}$ be elements of $I$ lifting the $e_{i}$. According to Nakayama's lemma, $(x_{1}, \cdots,
+x_{n})$ is a basis of $I$ over $R$. Let $N$ be the sub-$R$-module of $I$ with basis $(x_{1}, \cdots, x_{r})$ and let $B$
+be the quotient of the symmetric algebra of $N$ by the ideal generated by the elements $x^{p}$, for $x \in N$. Since
+every element of $I$ has $p$-th power zero, one obtains a morphism of $R$-algebras
 
-$$
-\psi : B \longrightarrow A.
-$$
+$$ \psi : B \longrightarrow A. $$
 
-According to 7.4.2, $\psi \otimes k$ is an isomorphism. It follows that $Coker \psi = 0$ and that, denoting
-$K = Ker \psi$, the morphism $\tau : K \otimes k \to B \otimes k$ is zero. But since $\psi$ is surjective and $A$ is
-flat over $R$, then $\tau$ is also injective, whence $K \otimes k = 0$. On the other hand, since $A$ is an $R$-module of
-finite presentation, $K$ is an $R$-module of finite type (cf. [BAC] I, § 2.8, Lemma 9), whence $K = 0$ by Nakayama. So
-$\psi$ is an isomorphism of $R$-algebras, and since $\psi^{-1}(I)$ contains the augmentation ideal $J$ of $B$, it
-follows that $\psi^{-1}(I) = J$, and therefore $\psi^{-1}$ induces an isomorphism of $R$-modules from $I / I^{2}$ onto
-$J / J^{2} = N$. This proves that $\omega_{G/S}$ is finite locally free, whence the implication (iv) ⇒ (iii). This
-completes the proof of Theorem 7.4.
+According to 7.4.2, $\psi \otimes k$ is an isomorphism. It follows that $Coker \psi = 0$ and that, denoting $K = Ker
+\psi$, the morphism $\tau : K \otimes k \to B \otimes k$ is zero. But since $\psi$ is surjective and $A$ is flat over
+$R$, then $\tau$ is also injective, whence $K \otimes k = 0$. On the other hand, since $A$ is an $R$-module of finite
+presentation, $K$ is an $R$-module of finite type (cf. [BAC] I, § 2.8, Lemma 9), whence $K = 0$ by Nakayama. So $\psi$
+is an isomorphism of $R$-algebras, and since $\psi^{-1}(I)$ contains the augmentation ideal $J$ of $B$, it follows that
+$\psi^{-1}(I) = J$, and therefore $\psi^{-1}$ induces an isomorphism of $R$-modules from $I / I^{2}$ onto $J / J^{2} =
+N$. This proves that $\omega_{G/S}$ is finite locally free, whence the implication (iv) ⇒ (iii). This completes the
+proof of Theorem 7.4.
 
 ### Remark 7.5.
 
 <!-- label: III.VII_A.7.5 -->
 
-[^N.D.E-VII_A-74] It obviously follows from Theorems 7.2 and 7.4 that the functors $G \mapsto Lie(G)$ and
-$\mathcal{L} \mapsto \mathfrak{G}_{p}(\mathcal{L})$ induce equivalences, quasi-inverses of each other, between the
-category of $S$-groups locally of finite presentation and flat, of height $\leqslant 1$, and the full subcategory of
-that of `O_S`-$p$-Lie algebras formed by the finite locally free `O_S`-$p$-Lie algebras.
+[^N.D.E-VII_A-74] It obviously follows from Theorems 7.2 and 7.4 that the functors $G \mapsto Lie(G)$ and $\mathcal{L}
+\mapsto \mathfrak{G}_{p}(\mathcal{L})$ induce equivalences, quasi-inverses of each other, between the category of
+$S$-groups locally of finite presentation and flat, of height $\leqslant 1$, and the full subcategory of that of
+`O_S`-$p$-Lie algebras formed by the finite locally free `O_S`-$p$-Lie algebras.
 
 ## 8. The case of a base field
 
@@ -3234,9 +3172,9 @@ that of `O_S`-$p$-Lie algebras formed by the finite locally free `O_S`-$p$-Lie a
 
 <!-- label: III.VII_A.8.1 -->
 
-Let us now summarize the results obtained in the case where $S$ is the spectrum of a field $k$ of characteristic
-$p > 0$. Let us then say that a $k$-group scheme is *algebraic* if the underlying scheme is of finite type over $k$. In
-this case, according to Theorem 7.2, one obtains:[^N.D.E-VII_A-75]
+Let us now summarize the results obtained in the case where $S$ is the spectrum of a field $k$ of characteristic $p >
+0$. Let us then say that a $k$-group scheme is *algebraic* if the underlying scheme is of finite type over $k$. In this
+case, according to Theorem 7.2, one obtains:[^N.D.E-VII_A-75]
 
 #### Theorem 8.1.1.
 
@@ -3257,11 +3195,11 @@ equivalences, quasi-inverses of each other, between the category of $p$-Lie alge
 that of algebraic $k$-groups of height $\leqslant 1$.*
 
 Then, since $\mathfrak{G}_{p}$ is a left adjoint functor, it commutes with inductive limits,[^N.D.E-VII_A-76] hence in
-particular with the formation of cokernels. On the other hand, if one has two morphisms $\phi : G \to H$ and
-$\phi' : G' \to H$ between algebraic $k$-groups of height $\leqslant 1$, then the fibered product $G \times_{H} G'$ is
-again an algebraic $k$-group of height $\leqslant 1$ (since the morphism $Fr : G \to G^{(p)}$ commutes with fibered
-products). So the inclusion of the category of algebraic $k$-groups of height $\leqslant 1$ into that of all algebraic
-$k$-groups commutes with fibered products, hence in particular with the formation of kernels. From this one deduces the:
+particular with the formation of cokernels. On the other hand, if one has two morphisms $\phi : G \to H$ and $\phi' : G'
+\to H$ between algebraic $k$-groups of height $\leqslant 1$, then the fibered product $G \times_{H} G'$ is again an
+algebraic $k$-group of height $\leqslant 1$ (since the morphism $Fr : G \to G^{(p)}$ commutes with fibered products). So
+the inclusion of the category of algebraic $k$-groups of height $\leqslant 1$ into that of all algebraic $k$-groups
+commutes with fibered products, hence in particular with the formation of kernels. From this one deduces the:
 
 #### Corollary 8.1.3.
 
@@ -3279,10 +3217,9 @@ $\mathcal{L}_{0} = Ker \pi$ in $\mathcal{L}_{1}$, one has an exact sequence of a
 
 Indeed, according to what precedes, $\mathfrak{G}_{p}(i)$ induces an isomorphism of $\mathfrak{G}_{p}(\mathcal{L}_{0})$
 onto $Ker(\mathfrak{G}_{p}(\pi))$ (this kernel being the same in the category of all algebraic $k$-groups $H$ or in that
-of $H$ of height $\leqslant 1$), and
-$\mathfrak{G}_{p}(\pi) : \mathfrak{G}_{p}(\mathcal{L}_{1}) \to \mathfrak{G}_{p}(\mathcal{L}_{2})$ identifies
-$\mathfrak{G}_{p}(\mathcal{L}_{2})$ with the quotient of $\mathfrak{G}_{p}(\mathcal{L}_{1})$ by
-$\mathfrak{G}_{p}(\mathcal{L}_{0})$ in the category of algebraic $k$-groups.
+of $H$ of height $\leqslant 1$), and $\mathfrak{G}_{p}(\pi) : \mathfrak{G}_{p}(\mathcal{L}_{1}) \to
+\mathfrak{G}_{p}(\mathcal{L}_{2})$ identifies $\mathfrak{G}_{p}(\mathcal{L}_{2})$ with the quotient of
+$\mathfrak{G}_{p}(\mathcal{L}_{1})$ by $\mathfrak{G}_{p}(\mathcal{L}_{0})$ in the category of algebraic $k$-groups.
 
 #### Remark 8.1.4.
 
@@ -3368,8 +3305,7 @@ Since the construction of $G / (Fr^{n} G)$ commutes with extension of the base f
 suppose $k$ perfect. In this case, $G_{red}$ is a $k$-group locally of finite type (cf. VI_A 0.2) and one has the
 following commutative and exact diagram, where one has denoted by $H$ the $k$-scheme $G_{red} \ G$:
 
-$$
-       1  \longrightarrow  G_{red}  \longrightarrow  G  \longrightarrow  H
+$$ 1 \longrightarrow G_{red} \longrightarrow G \longrightarrow H
 
               Fr^{n}(G_{red}/k)    Fr^{n}(G/k)     Fr^{n}(H/k)
                                                               
@@ -3454,8 +3390,8 @@ induces an automorphism of $A$.
 
 If $G$ is of height $\leqslant r$ and if we suppose our assertion proved for groups of height $\leqslant r - 1$, denote
 by $B$, $A$ and $A'$ the affine algebras of `Fr G`, $G$ and `G' = Fr G \ G`, and $n_{B}$, $n_{A}$ and $n_{A'}$ the
-endomorphisms of $B$, $A$ and $A'$ which are induced by $n_{Fr G}$, $n_{G}$ and $n_{G'}$.[^N.D.E-VII_A-83] Let
-$I' = I \cap A'$ be the maximal ideal of $A'$, since one has a cartesian square
+endomorphisms of $B$, $A$ and $A'$ which are induced by $n_{Fr G}$, $n_{G}$ and $n_{G'}$.[^N.D.E-VII_A-83] Let $I' = I
+\cap A'$ be the maximal ideal of $A'$, since one has a cartesian square
 
 ```text
               Fr G  ────────→  G
@@ -3531,8 +3467,8 @@ subgroups $Fr^{n} G$ then form a composition series of $G$, whose quotients are 
 
 This reduces us to the case where $G$ is of height $\leqslant 1$. Let then $A$ (resp. $L$) be the affine algebra (resp.
 the Lie algebra) of $G$ and $U = U_{p}(L)$. According to 7.4, one has $G = \mathfrak{G}_{p}(L)$ whence $A = U^{*}$; so
-if $\dim_{k} L = r$, the rank of $G$ over $k$ is $p^{r}$ (cf. 5.3.3). We shall therefore study the morphism
-$p_{G} : G \to G$ defined by raising to the $p$-th power; it induces an endomorphism $p_{A}$ of $A$ and, by duality, an
+if $\dim_{k} L = r$, the rank of $G$ over $k$ is $p^{r}$ (cf. 5.3.3). We shall therefore study the morphism $p_{G} : G
+\to G$ defined by raising to the $p$-th power; it induces an endomorphism $p_{A}$ of $A$ and, by duality, an
 endomorphism $p_{U}$ of $U$.
 
 Let $I$ be the augmentation ideal of $A$; we shall show that $p_{A}(I) \subset I^{p}$. Supposing this established, one
@@ -3540,9 +3476,7 @@ will therefore have $p^{r}_{A}(I) \subset I^{p^{r}}$. On the other hand, one kno
 generated by $r$ elements of $p$-th power zero). Since $p^{r} > r(p - 1)$, it follows that $p^{r}_{A}(I) = 0$, so
 $p^{r}_{G}$ is the zero morphism. It therefore remains to show the assertion:
 
-$$
-(\ast)                          p_{A}(I) \subset I^{p}.
-$$
+$$ (\ast) p_{A}(I) \subset I^{p}. $$
 
 For every integer $s \geqslant 1$, we shall denote $m^{s-1}_{A} : A^{\otimes s} \to A$ (resp. `∆_U^{s-1} : U → U^{⊗s}`)
 the map induced by the multiplication $m_{A}$ of $A$ (resp. the comultiplication `∆_U` of $U$). Then $p_{A}$ is equal to
@@ -3579,9 +3513,7 @@ $u \in U$ such that `∆_U^{s-1}(u)` vanishes on $I^{\otimes s}$, i.e., denoting
 sends $P_{p-1}$ into $I^{\perp} = k 1_{U}$. Since $p_{U}(1_{U}) = 1_{U}$, it suffices to show the assertion below, where
 $P^{+}_{p-1}$ denotes $J \cap P_{p-1}$:
 
-$$
-(\ast\ast)                          p_{U}(P^{+}_{p-1}) = 0.
-$$
+$$ (\ast\ast) p_{U}(P^{+}_{p-1}) = 0. $$
 
 On the other hand, one shows easily, by induction on $s$, that $P^{+}_{s-1}$ is the vector subspace of $U$ generated by
 the products $x_{1} \cdot\cdot\cdot x_{t}$, with $1 \leqslant t \leqslant s - 1$ and $x_{i} \in L$ (cf. VII_B <!-- original page 501 --> 4.3). Now, if
@@ -3591,23 +3523,19 @@ $x_{1}, x_{2}, \cdots, x_{t}$ are elements of $L$, one has:
 p_U(x_1 x_2 ··· x_t) = m_U^{p-1}( ∏_{j=1}^t ∑_{i=1}^p 1 ⊗ ··· ⊗ x_j ⊗ ··· ⊗ 1 )    (x_j in position i)
 ```
 
-It is clear that the expression
-$\prod_{j} \sum_{i} 1 \otimes \cdot\cdot\cdot \otimes x_{j} \otimes \cdot\cdot\cdot \otimes 1$ is a sum of $p^{t}$ terms
-$x_{h}$ indexed by the maps $h$ from ${1, \cdots, t}$ into ${1, \cdots, p}$.[^N.D.E-VII_A-86] Such a map $h$ defines an
-ordered partition $p_{h}$ of ${1, \cdots, t}$ into at most $p$ parts. Indeed, denote $i_{1} < \cdot\cdot\cdot < i_{r}$
-the elements of the image of $h$ and, for $s = 1, \cdots, r$, set $I_{s} = h^{-1}(i_{s})$ and
-$x_{I_{s}} = \prod_{j \in I_{s}} x_{j}$, the product being taken in increasing order. Then $h$ corresponds to the
-$p$-tensor
+It is clear that the expression $\prod_{j} \sum_{i} 1 \otimes \cdot\cdot\cdot \otimes x_{j} \otimes \cdot\cdot\cdot
+\otimes 1$ is a sum of $p^{t}$ terms $x_{h}$ indexed by the maps $h$ from ${1, \cdots, t}$ into ${1, \cdots,
+p}$.[^N.D.E-VII_A-86] Such a map $h$ defines an ordered partition $p_{h}$ of ${1, \cdots, t}$ into at most $p$ parts.
+Indeed, denote $i_{1} < \cdot\cdot\cdot < i_{r}$ the elements of the image of $h$ and, for $s = 1, \cdots, r$, set
+$I_{s} = h^{-1}(i_{s})$ and $x_{I_{s}} = \prod_{j \in I_{s}} x_{j}$, the product being taken in increasing order. Then
+$h$ corresponds to the $p$-tensor
 
-$$
-1 \otimes \cdot\cdot\cdot \otimes x_{I_{1}} \otimes \cdot\cdot\cdot \otimes x_{I_{r}} \otimes \cdot\cdot\cdot \otimes 1
-$$
+$$ 1 \otimes \cdot\cdot\cdot \otimes x_{I_{1}} \otimes \cdot\cdot\cdot \otimes x_{I_{r}} \otimes \cdot\cdot\cdot \otimes
+1 $$
 
 (where each $x_{I_{s}}$ is in position $i_{s}$), and its image by $m^{p}_{U}$ is the product:
 
-$$
-x_{I_{1}} \otimes \cdot\cdot\cdot \otimes x_{I_{r}}
-$$
+$$ x_{I_{1}} \otimes \cdot\cdot\cdot \otimes x_{I_{r}} $$
 
 which depends only on the ordered partition $p = (I_{1}, \cdots, I_{r})$, and which one will denote $x_{p}$. For $p$
 fixed, $x_{p}$ is obtained for all choices of $i_{1} < \cdot\cdot\cdot < i_{r}$ in ${1, \cdots, p}$, and one therefore
@@ -3628,14 +3556,14 @@ completes the proof of 8.5.
 
 <!-- label: III.VII_A.8.5.2 -->
 
-[^N.D.E-VII_A-87] *Let $S$ be a reduced scheme and $G$ a finite locally free $S$-group of rank $n$. Then
-$n_{G} : G \to G$ is the zero morphism of $G$.*
+[^N.D.E-VII_A-87] *Let $S$ be a reduced scheme and $G$ a finite locally free $S$-group of rank $n$. Then $n_{G} : G \to
+G$ is the zero morphism of $G$.*
 
 Indeed, let $S'$ be the sum of the $\operatorname{Spec} O_{S, \eta}$, for $\eta$ ranging over the maximal points of $S$.
-Since $S$ is reduced, the morphism $S' \to S$ is schematically dominant, and the same holds for the morphism
-$f : G_{S'} \to G$, since $G$ is finite locally free over $S$ (cf. EGA IV₃, 11.10.5). Since $G \to S$ is affine, hence
-separated, the locus of coincidence of $n_{G}$ and the zero morphism is a closed subscheme of $G$, and it majorizes $f$
-according to 8.5, hence equals $G$, i.e. $n_{G}$ is the zero morphism.
+Since $S$ is reduced, the morphism $S' \to S$ is schematically dominant, and the same holds for the morphism $f : G_{S'}
+\to G$, since $G$ is finite locally free over $S$ (cf. EGA IV₃, 11.10.5). Since $G \to S$ is affine, hence separated,
+the locus of coincidence of $n_{G}$ and the zero morphism is a closed subscheme of $G$, and it majorizes $f$ according
+to 8.5, hence equals $G$, i.e. $n_{G}$ is the zero morphism.
 
 #### Remark 8.5.3.
 
@@ -3691,9 +3619,9 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
     Moreover, let us point out that for the content of sections 1 and 2, one may also consult [DG70], § II.4, nos 5–6;
     see also [Ja03], § I.7.
 
-[^N.D.E-VII_A-2]: One sees easily that this is equivalent to saying that, for every $x \in X$ and
-    $f_{0}, \cdots, f_{n}, g \in O_{X,x}$, one has $(ad f_{0})(ad f_{1}) \cdot\cdot\cdot (ad f_{n})(d_{x})(g) = 0$. On
-    the other hand, recall that the adjunction isomorphism
+[^N.D.E-VII_A-2]: One sees easily that this is equivalent to saying that, for every $x \in X$ and $f_{0}, \cdots, f_{n},
+    g \in O_{X,x}$, one has $(ad f_{0})(ad f_{1}) \cdot\cdot\cdot (ad f_{n})(d_{x})(g) = 0$. On the other hand, recall
+    that the adjunction isomorphism
 
     ```text
     θ : Hom_{p_X^{-1}(O_S)}(O_X, u_*(O_Y)) ⥲ Hom_{p_Y^{-1}(O_S)}(u^{-1}(O_X), O_Y)
@@ -3740,9 +3668,8 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
 
 [^N.D.E-VII_A-10]: This paragraph has been expanded with respect to the original; see also N.D.E. (2) in 1.1.1.
 
-[^N.D.E-VII_A-11]: If $\lambda, f$ are local sections of `O_Y` and `O_X`, one has
-    $(\Gamma_{e_{X}})(\lambda \otimes f) = \lambda \cdot e(1 \otimes g)$, and this equals $e(\lambda \otimes g)$ since
-    $e$ is `O_Y`-linear.
+[^N.D.E-VII_A-11]: If $\lambda, f$ are local sections of `O_Y` and `O_X`, one has $(\Gamma_{e_{X}})(\lambda \otimes f) =
+    \lambda \cdot e(1 \otimes g)$, and this equals $e(\lambda \otimes g)$ since $e$ is `O_Y`-linear.
 
 [^N.D.E-VII_A-12]: This paragraph has been added.
 
@@ -3757,12 +3684,12 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
 [^N.D.E-VII_A-16]: One now says "the algebra of distributions" (at the origin) of $G$, cf. [DG70], § II.4, 6.1 and
     [Ja03], I 7.7.
 
-[^N.D.E-VII_A-17]: We have corrected the original, replacing in the diagram $d \times G \times G$ by
-    $G \times d \times G$, so that the composition on the left side of the triangle is $(e \times d) \times G$, and so
-    that the map $d \mapsto d_{G}$ is an anti-isomorphism of $U(G)$ onto the right-invariant differential operators (cf.
-    2.3, 2.4 below); on the other hand, by defining ${}_{G} d$ as the image under $m$ of $G \times d$, one would obtain
-    similarly an isomorphism of $U(G)$ onto the left-invariant differential operators (cf. [DG70], § II.4, Th. 6.5). We
-    have corrected 2.4 and 2.5 accordingly.
+[^N.D.E-VII_A-17]: We have corrected the original, replacing in the diagram $d \times G \times G$ by $G \times d \times
+    G$, so that the composition on the left side of the triangle is $(e \times d) \times G$, and so that the map $d
+    \mapsto d_{G}$ is an anti-isomorphism of $U(G)$ onto the right-invariant differential operators (cf. 2.3, 2.4
+    below); on the other hand, by defining ${}_{G} d$ as the image under $m$ of $G \times d$, one would obtain similarly
+    an isomorphism of $U(G)$ onto the left-invariant differential operators (cf. [DG70], § II.4, Th. 6.5). We have
+    corrected 2.4 and 2.5 accordingly.
 
 [^N.D.E-VII_A-18]: It would be preferable to call this a *left action*. Indeed, let for example $d$ be an $S$-derivation
     of the origin; according to 1.2.1, $d$ is the composition of the $S$-derivation $(\tau, \partial_{t}) : S \to I_{S}$
@@ -3777,8 +3704,8 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
 [^N.D.E-VII_A-21]: In what follows, we have corrected the original, which referred to the square formed by the morphisms
     $p$, $p$, $\eta$, and $pr_{1}$, instead of $\epsilon$, $\eta$, `∆` and $p$.
 
-[^N.D.E-VII_A-22]: In this paragraph, we have modified the order, beginning by defining the map
-    $\alpha : Lie(G) \to U(G)$, and we have corrected the original as indicated in N.D.E. (17).
+[^N.D.E-VII_A-22]: In this paragraph, we have modified the order, beginning by defining the map $\alpha : Lie(G) \to
+    U(G)$, and we have corrected the original as indicated in N.D.E. (17).
 
 [^N.D.E-VII_A-23]: In this Exposé, if $G$ (resp. $X$) is an $S$-group scheme (resp. an $S$-scheme), the "Lie algebra"
     $Lie(G)$ (resp. $Lie(\operatorname{Aut} X)$) denotes, with the notations of Exposé II, $Lie(G/S)(S)$ (resp.
@@ -3786,10 +3713,10 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
 
 [^N.D.E-VII_A-24]: See also II, 4.11.
 
-[^N.D.E-VII_A-25]: There are examples of Lie algebras $\mathfrak{g}$ over a ring $A$, such that the map
-    $\mathfrak{g} \to U(\mathfrak{g})$ is not injective, cf. [BLie], § I.2, Ex. 9. The above result shows (since
-    $\alpha$ factors through $Lie(G) \to U(Lie(G)) \to U(G)$) that this cannot happen for "algebraic" Lie algebras,
-    i.e., of the form $Lie(G)$, where $G$ is an $A$-group scheme.
+[^N.D.E-VII_A-25]: There are examples of Lie algebras $\mathfrak{g}$ over a ring $A$, such that the map $\mathfrak{g}
+    \to U(\mathfrak{g})$ is not injective, cf. [BLie], § I.2, Ex. 9. The above result shows (since $\alpha$ factors
+    through $Lie(G) \to U(Lie(G)) \to U(G)$) that this cannot happen for "algebraic" Lie algebras, i.e., of the form
+    $Lie(G)$, where $G$ is an $A$-group scheme.
 
 [^N.D.E-VII_A-26]: One also says "cogebra", cf. [BAlg], III § 11.1. On the other hand, one will note that in this Exposé
     (as well as in VII_B), we place ourselves in the category of cocommutative coalgebras (i.e., those satisfying
@@ -3799,11 +3726,11 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
 
 [^N.D.E-VII_A-28]: The following has been added. Let us also recall that, to show that $\mathcal{U} \otimes \mathcal{V}$
     is indeed the product of $\mathcal{U}$ and $\mathcal{V}$ in the category of cocommutative `O_S`-cogebras, one
-    verifies that if one has an arbitrary `O_S`-cogebra $\mathcal{E}$ and morphisms of cogebras
-    $f : \mathcal{E} \to \mathcal{U}$ and $g : \mathcal{E} \to \mathcal{V}$, then every morphism of cogebras
-    $\phi : \mathcal{E} \to \mathcal{U} \otimes \mathcal{V}$ such that $pr_{\mathcal{U}} \circ \phi = f$ and
-    $pr_{\mathcal{V}} \circ \phi = g$ is necessarily equal to `(f ⊗ g) ∘ ∆_ℰ`, and this is a morphism of cogebras if and
-    only if it equals `(g ⊗ f) ∘ ∆_ℰ`.
+    verifies that if one has an arbitrary `O_S`-cogebra $\mathcal{E}$ and morphisms of cogebras $f : \mathcal{E} \to
+    \mathcal{U}$ and $g : \mathcal{E} \to \mathcal{V}$, then every morphism of cogebras $\phi : \mathcal{E} \to
+    \mathcal{U} \otimes \mathcal{V}$ such that $pr_{\mathcal{U}} \circ \phi = f$ and $pr_{\mathcal{V}} \circ \phi = g$
+    is necessarily equal to `(f ⊗ g) ∘ ∆_ℰ`, and this is a morphism of cogebras if and only if it equals
+    `(g ⊗ f) ∘ ∆_ℰ`.
 
 [^N.D.E-VII_A-29]: For every $x \otimes y \in \Gamma(T, \mathcal{U}_{T}) \otimes_{O(T)} \Gamma(T, \mathcal{U}_{T})$, its
     image in $\Gamma(T, \mathcal{U}_{T} \otimes_{O_{T}} \mathcal{U}_{T})$ is again denoted $x \otimes y$.
@@ -3870,8 +3797,8 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
 
 [^N.D.E-VII_A-53]: In this paragraph, we have modified the order, first stating the result, then detailing the proof.
 
-[^N.D.E-VII_A-54]: i.e., $x r \otimes_{\pi} 1 = x \otimes_{\pi} r^{p}$ and
-    $r \cdot (x \otimes_{\pi} 1) = x \otimes_{\pi} r$, for $x \in \mathfrak{g}$, $r \in R$.
+[^N.D.E-VII_A-54]: i.e., $x r \otimes_{\pi} 1 = x \otimes_{\pi} r^{p}$ and $r \cdot (x \otimes_{\pi} 1) = x
+    \otimes_{\pi} r$, for $x \in \mathfrak{g}$, $r \in R$.
 
 [^N.D.E-VII_A-55]: i.e. `∆_𝔤(x) = x ⊗ 1 + 1 ⊗ x` for every $x \in \mathfrak{g}$; in particular, the comultiplication
     `∆_𝔤` is indeed cocommutative …
@@ -3961,6 +3888,6 @@ locally free $S$-group of rank $n$ over an arbitrary base $S$, then $n_{G} = 0$.
 
 [^N.D.E-VII_A-87]: We have added this corollary, signaled in Exp. VIII, Remark 7.3.1.
 
-[^N.D.E-VII_A-44]: $\mathcal{A} \otimes_{\pi} O_{S}$ denotes the `O_S`-algebra obtained by extension of scalars
-    $\pi : O_{S} \to O_{S}$, i.e., one has: $ax \otimes_{\pi} 1 = a \otimes_{\pi} x^{p}$, and
-    $x \cdot (a \otimes_{\pi} 1) = a \otimes_{\pi} x$.
+[^N.D.E-VII_A-44]: $\mathcal{A} \otimes_{\pi} O_{S}$ denotes the `O_S`-algebra obtained by extension of scalars $\pi :
+    O_{S} \to O_{S}$, i.e., one has: $ax \otimes_{\pi} 1 = a \otimes_{\pi} x^{p}$, and $x \cdot (a \otimes_{\pi} 1) = a
+    \otimes_{\pi} x$.

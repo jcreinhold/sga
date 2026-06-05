@@ -26,17 +26,17 @@ equivalence relation.
 <!-- original page 633 -->
 
 Let $X/S$ be a relative prescheme and $U \subseteq X$ an open subset. We say that $U$ is *schematically dense in $X$
-relatively to $S$*, or that $U \hookrightarrow X$ is *relatively schematically dense*, if for every base change
-$S' \to S$ the open subset $U \times_{S} S'$ is schematically dense in $X \times_{S} S'$. For the definition and
-properties of this notion we refer to Exp. IX, § 4.[^XVIII-1-1]
+relatively to $S$*, or that $U \hookrightarrow X$ is *relatively schematically dense*, if for every base change $S' \to
+S$ the open subset $U \times_{S} S'$ is schematically dense in $X \times_{S} S'$. For the definition and properties of
+this notion we refer to Exp. IX, § 4.[^XVIII-1-1]
 
 **Proposition 1.1.** *(i) A finite intersection, as well as a union of a non-empty family of opens that are
 schematically dense relatively to $S$, is schematically dense relatively to $S$.*
 
 <!-- label: III.XVIII.1.1 -->
 
-*(ii) If $U \subseteq X$ is schematically dense relatively to $S$ and if $S \to T$ is a morphism, then
-$U_{T} \subseteq X_{T}$ is schematically dense relatively to $T$.*
+*(ii) If $U \subseteq X$ is schematically dense relatively to $S$ and if $S \to T$ is a morphism, then $U_{T} \subseteq
+X_{T}$ is schematically dense relatively to $T$.*
 
 *(iii) Let $U \subseteq V \subseteq X$ be open immersions. For $U$ to be schematically dense in $X$ relatively to $S$,
 it is necessary and sufficient that it be so in $V$ and that $V$ be so in $X$.*
@@ -80,11 +80,10 @@ by a closed immersion.[^N.D.E-XVIII-2]*
 subprescheme $Ker(f, g)$ of $X$ is set-theoretically equal to $X$, hence closed; and since it majorizes $U$, it is equal
 to $X$, i.e. $f = g$. Case (ii) is proved as in *loc. cit.*[^N.D.E-XVIII-3]
 
-**Definition 1.5.**[^XVIII-1-2] *Let $X$ be a prescheme over $S$ and $Y$ a presheaf over $S$. By a* rational map
-$f : X \dashrightarrow Y$ over $S$ *we mean an equivalence class of morphisms $f : U \to Y$ over $S$, where $U$ is an
-open of $X$ that is schematically dense relatively to $S$, and where one sets $(f : U \to Y) \sim (f' : U' \to Y)$ if
-and only if there exists an open $U'' \subseteq U' \cap U$, schematically dense relatively to $S$, such that $f = f'$ on
-`U''`.*
+**Definition 1.5.**[^XVIII-1-2] *Let $X$ be a prescheme over $S$ and $Y$ a presheaf over $S$. By a* rational map $f : X
+\dashrightarrow Y$ over $S$ *we mean an equivalence class of morphisms $f : U \to Y$ over $S$, where $U$ is an open of
+$X$ that is schematically dense relatively to $S$, and where one sets $(f : U \to Y) \sim (f' : U' \to Y)$ if and only
+if there exists an open $U'' \subseteq U' \cap U$, schematically dense relatively to $S$, such that $f = f'$ on `U''`.*
 
 <!-- label: III.XVIII.1.5 -->
 
@@ -115,24 +114,24 @@ Dom(f') = Dom(f) ×_S S'.
 ```
 
 *Proof.* Set $U = Dom(f)$. It is clear that $V' = Dom(f')$ contains $U \times_{S} S'$. Let $V$ be the image of $V'$,
-which is an open of $X$ because $X' \to X$ is open. We must show that $V = U$, that is, we must find a morphism
-$V \to Y$ that represents $f$. Set $S'' = S' \times_{S} S'$, and
+which is an open of $X$ because $X' \to X$ is open. We must show that $V = U$, that is, we must find a morphism $V \to
+Y$ that represents $f$. Set $S'' = S' \times_{S} S'$, and
 
 ```text
 X'' = X ×_S S'',   U'' = U ×_S S'',   V'' = V' ×_V V'.
 ```
 
 Then `U''` is schematically dense in `X''` relatively to `S''`, hence `U''` is schematically dense in `V''` relatively
-to $S$, since $U'' \subseteq V'' \subseteq X''$. The restriction of $f' : V' \to Y'$ to $U'$ is deduced from
-$f : U \to Y$ by base change. The two morphisms $V'' \to Y$ deduced from $g$ by base change are equal on `U''`, hence
-are equal. Now since $V' \to V$ is flat and locally of finite presentation, it is fppf-covering (Exp. IV 6.3), and one
-finds the morphism $V \to Y$ by descent.
+to $S$, since $U'' \subseteq V'' \subseteq X''$. The restriction of $f' : V' \to Y'$ to $U'$ is deduced from $f : U \to
+Y$ by base change. The two morphisms $V'' \to Y$ deduced from $g$ by base change are equal on `U''`, hence are equal.
+Now since $V' \to V$ is flat and locally of finite presentation, it is fppf-covering (Exp. IV 6.3), and one finds the
+morphism $V \to Y$ by descent.
 
 We shall make frequent use of the following triviality:
 
 **Proposition 1.7.** *Let $X/S$ be faithfully flat, locally of finite presentation, and let $U \subseteq X$ be a
-relatively schematically dense open. Then there exists a base change $S' \to S$ which is fppf-covering, and a section
-$x \in X(S')$ which is contained in $U(S')$.*
+relatively schematically dense open. Then there exists a base change $S' \to S$ which is fppf-covering, and a section $x
+\in X(S')$ which is contained in $U(S')$.*
 
 <!-- label: III.XVIII.1.7 -->
 
@@ -161,8 +160,8 @@ homomorphism $f : G \to H$ is determined by its restriction to $U$.*
 
 <!-- label: III.XVIII.2.2 -->
 
-Indeed, since $G$ is flat over $S$, the composition law on $G$ is a flat morphism (VI_B.9.2.xi), and it follows that
-$U \times_{S} U \to G$ is faithfully flat and locally of finite presentation, hence fppf-covering, hence an epimorphism.
+Indeed, since $G$ is flat over $S$, the composition law on $G$ is a flat morphism (VI_B.9.2.xi), and it follows that $U
+\times_{S} U \to G$ is faithfully flat and locally of finite presentation, hence fppf-covering, hence an epimorphism.
 
 **Proposition 2.3.** *Let $G$ be a group prescheme locally of finite presentation and flat over $S$, $U \subseteq G$ a
 relatively schematically dense open, and $H$ a sheaf of groups for the fppf topology. Write $m_{G}$ for the
@@ -203,15 +202,15 @@ and the three factors are deduced from $U \subseteq G$ by an obvious base change
 the assertion by 1.1.
 
 To construct a morphism $\bar{f} : G \to H$, it suffices, since $U \times_{S} U \to G$ is fppf-covering, to find a
-morphism from $U \times_{S} U$ to $H$ such that the two morphisms induced on
-$(U \times_{S} U) \times_{G} (U \times_{S} U)$ are the same.
+morphism from $U \times_{S} U$ to $H$ such that the two morphisms induced on $(U \times_{S} U) \times_{G} (U \times_{S}
+U)$ are the same.
 
 <!-- original page 637 -->
 
-We take $m_{H} \circ (f \times f) : U \times_{S} U \to H$. We must verify that whenever we have sections
-$a, b, c, d \in U(S')$, $S' \to S$ arbitrary, such that $ab = cd$, we also have $f(a)f(b) = f(c)f(d)$. By hypothesis,
-this is true if $(a, b)$ and $(c, d)$ are contained in $V(S')$, since in that case $f(a)f(b) = f(ab)$ and
-$f(c)f(d) = f(cd)$. Therefore it is true whenever $(a, b, c, d) \in (V \times_{G} V)(S')$.
+We take $m_{H} \circ (f \times f) : U \times_{S} U \to H$. We must verify that whenever we have sections $a, b, c, d \in
+U(S')$, $S' \to S$ arbitrary, such that $ab = cd$, we also have $f(a)f(b) = f(c)f(d)$. By hypothesis, this is true if
+$(a, b)$ and $(c, d)$ are contained in $V(S')$, since in that case $f(a)f(b) = f(ab)$ and $f(c)f(d) = f(cd)$. Therefore
+it is true whenever $(a, b, c, d) \in (V \times_{G} V)(S')$.
 
 I claim that $V \times_{G} V$ is an open of $(U \times_{S} U) \times_{G} (U \times_{S} U)$ schematically dense
 relatively to $S$. This will complete the proof in cases (i) and (ii) by 1.4, the facts that the morphism $\bar{f}$ so
@@ -223,11 +222,11 @@ Indeed, we write
 V ×_G V = (V ×_G (G ×_S G)) ∩ ((G ×_S G) ×_G V).
 ```
 
-By symmetry and 1.1, it suffices to verify that $V \times_{G} (G \times_{S} G)$ is relatively schematically dense in
-$(G \times_{S} G) \times_{G} (G \times_{S} G)$. But this last prescheme is $S$-isomorphic to
-$G \times_{S} G \times_{S} G$, the morphism being given by $(a, b, c, d) \mapsto (a, b, c)$. Thus what must be shown is
-that $V \times_{S} G$ is schematically dense in $G \times_{S} G \times_{S} G$ relatively to $S$, which is a consequence
-of the fact that $V$ is relatively schematically dense in $G \times_{S} G$.
+By symmetry and 1.1, it suffices to verify that $V \times_{G} (G \times_{S} G)$ is relatively schematically dense in $(G
+\times_{S} G) \times_{G} (G \times_{S} G)$. But this last prescheme is $S$-isomorphic to $G \times_{S} G \times_{S} G$,
+the morphism being given by $(a, b, c, d) \mapsto (a, b, c)$. Thus what must be shown is that $V \times_{S} G$ is
+schematically dense in $G \times_{S} G \times_{S} G$ relatively to $S$, which is a consequence of the fact that $V$ is
+relatively schematically dense in $G \times_{S} G$.
 
 It remains to treat case (iii). To prove $f(a)f(b) = f(c)f(d)$, it is permitted to make an fppf-covering base change.
 Suppose we have a section $x \in G(S')$, $S' \to S$ fppf-covering, such that $(b, x)$, `(a, bx)`, $(d, x)$, `(c, dx)`
@@ -279,10 +278,7 @@ f̄(a) = f(ax⁻¹)f(x),   f̄(b) = f(by⁻¹)f(y),   f̄(ab) = f(aby⁻¹)f(y).
 
 Moreover,
 
-$$
-\bar{f}(a)\bar{f}(b) = f(ax^{-1})f(x)f(by^{-1})f(y) = f(ax^{-1})f(xby^{-1})f(y)
-        = f(aby^{-1})f(y) = \bar{f}(ab),
-$$
+$$ \bar{f}(a)\bar{f}(b) = f(ax^{-1})f(x)f(by^{-1})f(y) = f(ax^{-1})f(xby^{-1})f(y) = f(aby^{-1})f(y) = \bar{f}(ab), $$
 
 whence multiplicativity.
 
@@ -328,9 +324,8 @@ is irreducible and "without embedded components" (cf. VI_A, 1.1.1). Now
 pr₂((a ×_S U⁰) ∩ V⁰) = pr₂((a ×_S U⁰) ∩ V) ∩ pr₂((a ×_S U⁰) ∩ m_G⁻¹(U⁰))
 ```
 
-and the second term of the right-hand side is dense in $G$. Hence it suffices to show that
-$pr_{2}((a \times_{S} U^{0}) \cap V)$ is dense in $G$, that is, non-empty, which is clear because
-$a \in U^{0} = pr_{1} V$.
+and the second term of the right-hand side is dense in $G$. Hence it suffices to show that $pr_{2}((a \times_{S} U^{0})
+\cap V)$ is dense in $G$, that is, non-empty, which is clear because $a \in U^{0} = pr_{1} V$.
 
 ## 3. Construction of a group from a rational law
 
@@ -345,9 +340,7 @@ $a \in U^{0} = pr_{1} V$.
 We are given a prescheme $X/S$ and a rational map $X \times_{S} X \dashrightarrow X$ over $S$, and we seek a group $G/S$
 and a birational map relatively to $S$[^N.D.E-XVIII-8]
 
-$$
-X \dashrightarrow G
-$$
+$$ X \dashrightarrow G $$
 
 that commutes with the composition laws. We treat only the case where $X/S$ satisfies the following hypothesis:
 
@@ -360,8 +353,8 @@ that commutes with the composition laws. We treat only the case where $X/S$ sati
 
 We shall often suppress the symbol $S$ in fiber products.
 
-Let $X/S$ be a prescheme with the properties `(♦)` above, and let $W$ be a subprescheme of finite presentation of
-$X \times X \times X$ having the following property:
+Let $X/S$ be a prescheme with the properties `(♦)` above, and let $W$ be a subprescheme of finite presentation of $X
+\times X \times X$ having the following property:
 
 ```text
 (∗)   The three morphisms W → X × X given by the projections of X³ onto X²
@@ -382,10 +375,9 @@ this terminology to products of several factors as well.*
 
 <!-- label: III.XVIII.3.0.1 -->
 
-**Remark 3.0.2.** *Let us note immediately the following fact: by (i), $W$ defines a rational map
-$X^{2} \dashrightarrow X$ over $S$ (the one given by $(a, b) \mapsto ab$). It may well happen that this rational map has
-a domain of definition larger than $pr_{12} W$. Nevertheless, we say that `ab` is defined only if
-$(a, b) \in pr_{12} W(S')$.*
+**Remark 3.0.2.** *Let us note immediately the following fact: by (i), $W$ defines a rational map $X^{2} \dashrightarrow
+X$ over $S$ (the one given by $(a, b) \mapsto ab$). It may well happen that this rational map has a domain of definition
+larger than $pr_{12} W$. Nevertheless, we say that `ab` is defined only if $(a, b) \in pr_{12} W(S')$.*
 
 <!-- label: III.XVIII.3.0.2 -->
 
@@ -452,12 +444,12 @@ dense in $W$. Similarly, the other terms of the right-hand side are relatively s
 consequently $W^{0}$ is relatively schematically dense in $W$. Hence $pr_{ij} W^{0}$ is relatively schematically dense
 in $pr_{ij} W$, hence in $X \times X$, hence in $X^{0} \times X^{0}$.
 
-To verify condition (ii), let $a \in X^{0}(S')$ and write $S_{0} = S$. We must show that, for example,
-$pr_{2}((a \times X^{0} \times X^{0}) \cap W^{0})$ is schematically dense in $X^{0}$ relatively to $S$. By 1.3, it
-suffices to verify this fiber by fiber, that is, it suffices to treat the case where $S$ is the spectrum of a field, and
-in that case it suffices to verify that the open is non-empty, because the fibers of $X/S$ are irreducible and "without
-embedded components". Since $pr_{2}((a \times X \times X) \cap W)$ is non-empty (as $a$ is a section of $X^{0}$), this
-open is dense in $X$. One has
+To verify condition (ii), let $a \in X^{0}(S')$ and write $S_{0} = S$. We must show that, for example, $pr_{2}((a \times
+X^{0} \times X^{0}) \cap W^{0})$ is schematically dense in $X^{0}$ relatively to $S$. By 1.3, it suffices to verify this
+fiber by fiber, that is, it suffices to treat the case where $S$ is the spectrum of a field, and in that case it
+suffices to verify that the open is non-empty, because the fibers of $X/S$ are irreducible and "without embedded
+components". Since $pr_{2}((a \times X \times X) \cap W)$ is non-empty (as $a$ is a section of $X^{0}$), this open is
+dense in $X$. One has
 
 ```text
 pr₂((a × X × X) ∩ W) = pr₂((a × X) ∩ pr₁₂ W).
@@ -472,9 +464,8 @@ pr₂((a × X) ∩ pr₁₂ W) ∩ X⁰ = pr₂((a × X⁰) ∩ pr₁₂ W) = pr
 is dense in $X$, hence in $X^{0}$.
 
 Similarly, $pr_{3}((a \times X \times X^{0}) \cap W)$ is dense in $X$, hence in $pr_{3}((a \times X \times X) \cap W)$,
-i.e. $(a \times X \times X^{0}) \cap W$ is dense in $(a \times X \times X) \cap W$, i.e.
-$pr_{2}((a \times X \times X^{0}) \cap W)$ is dense in $pr_{2}((a \times X \times X) \cap W)$, hence dense in $X$, hence
-dense in $X^{0}$.
+i.e. $(a \times X \times X^{0}) \cap W$ is dense in $(a \times X \times X) \cap W$, i.e. $pr_{2}((a \times X \times
+X^{0}) \cap W)$ is dense in $pr_{2}((a \times X \times X) \cap W)$, hence dense in $X$, hence dense in $X^{0}$.
 
 Now since
 
@@ -573,9 +564,9 @@ equal to $c$ by Rule 2, and equal to the left-hand member by associativity (cf. 
 the desired equality is true if this multiplication by $b$ is defined.
 
 Now fix $a$ and $b$. Then Rule 1 implies that $b(a((ba)^{-1} c))$ is well defined for $c$ "in" an open $U$ of $X$
-relatively schematically dense; hence on this relatively schematically dense open the two rational maps
-$c \mapsto b^{-1} c$ and $c \mapsto a((ba)^{-1} c)$ are equal. By 1.4, they are equal on every common domain of
-definition, whence the desired result.
+relatively schematically dense; hence on this relatively schematically dense open the two rational maps $c \mapsto
+b^{-1} c$ and $c \mapsto a((ba)^{-1} c)$ are equal. By 1.4, they are equal on every common domain of definition, whence
+the desired result.
 
 (5) The same kind of argument as the preceding. For example one verifies $(ab^{-1})c^{-1} = a(cb)^{-1}$ as follows. If
 right multiplication by $c$ is defined on the right-hand side, one has equality by Rule 4. Since it suffices to verify
@@ -588,9 +579,9 @@ defined.
 
 <!-- label: III.XVIII.3.2.3 -->
 
-Consider now the relation $R$ on $X \times X$ obtained by setting, for $a, b, a', b' \in X(S')$,
-$(a, b) \sim (a', b') mod R(S')$ if and only if there exists $S' \to S$ fppf-covering and a section $x \in X(S')$ such
-that `(xa)b` and `(xa')b'` are defined and equal. Then $R$ is an equivalence relation.
+Consider now the relation $R$ on $X \times X$ obtained by setting, for $a, b, a', b' \in X(S')$, $(a, b) \sim (a', b')
+mod R(S')$ if and only if there exists $S' \to S$ fppf-covering and a section $x \in X(S')$ such that `(xa)b` and
+`(xa')b'` are defined and equal. Then $R$ is an equivalence relation.
 
 Indeed, this relation is evidently symmetric. By Rule 1, the product `(xa)b` is defined if $x$ is "in" a suitable
 relatively schematically dense open. Hence 1.7 asserts that there exists $S' \to S$ fppf-covering and an $x \in X(S')$
@@ -622,16 +613,16 @@ given by $z \mapsto (za)b$ and $z \mapsto (za')b'$ are equal, whence $(ya)b = (y
 
 <!-- original page 645 -->
 
-**Lemma 3.4.** *Consider the rational map $\phi : X^{3} \dashrightarrow X$ over $S$ defined by
-$(a, b, c) \mapsto c^{-1}(ab)$. Let $U$ be the domain of definition of $\phi$ and consider the graph $\Gamma$ of the
-morphism $f : U \to X$ induced by $\phi$, which is a subscheme of $X^{4}$. Then a section $(a, b, c, d) \in X^{4}(S)$ is
-in $\Gamma(S)$ if and only if $(a, b) \sim (c, d)$.*
+**Lemma 3.4.** *Consider the rational map $\phi : X^{3} \dashrightarrow X$ over $S$ defined by $(a, b, c) \mapsto
+c^{-1}(ab)$. Let $U$ be the domain of definition of $\phi$ and consider the graph $\Gamma$ of the morphism $f : U \to X$
+induced by $\phi$, which is a subscheme of $X^{4}$. Then a section $(a, b, c, d) \in X^{4}(S)$ is in $\Gamma(S)$ if and
+only if $(a, b) \sim (c, d)$.*
 
 <!-- label: III.XVIII.3.4 -->
 
-*Proof.* Note first that the rational map $\phi$ is the same as the one given by the formula
-$(a, b, c) \mapsto (xc)^{-1}((xa)b)$ for an arbitrary section $x \in X(S)$. This is the same as saying that one has
-$c^{-1}(ab) = (xc)^{-1}((xa)b)$ whenever both sides are defined. We leave the verification to the reader.
+*Proof.* Note first that the rational map $\phi$ is the same as the one given by the formula $(a, b, c) \mapsto
+(xc)^{-1}((xa)b)$ for an arbitrary section $x \in X(S)$. This is the same as saying that one has $c^{-1}(ab) =
+(xc)^{-1}((xa)b)$ whenever both sides are defined. We leave the verification to the reader.
 
 We show then that the map $\phi$ is defined at a section $(a, b, c) \in X^{3}(S)$ if and only if there exists $d$ with
 $(a, b) \sim (c, d)$, and that one then has $d = \phi(a, b, c)$. Indeed, suppose that $(a, b) \sim (c, d)$. To verify
@@ -665,20 +656,20 @@ for, say, the étale topology. We may therefore suppose `S''` strictly local, i.
 separably closed residue field. Moreover, by applying (1.6) and the usual passage-to-the-limit standard arguments, we
 reduce to the case $S$ strictly local and $S'' \to S$ local. Suppose we have a section $x \in X(S)$ such that over `S''`
 the products `(xa)b` and `(xc)d` are defined. This will imply that $(xc)^{-1}((xa)b)$ is defined, and equal to $d$. Now
-there exists an open $V$ of $X^{3}$ relatively sch. dense such that $(xc)^{-1}((xa)b)$ is defined if and only if
-$(a, b, c) \in V(S'')$, and one has $V \subseteq U$. Hence $(a, b, c, d) \in \Gamma(S'')$ if such an $x$ exists. By
-(1.6) it is permitted to make a base change $S' \to S$ fppf-covering to find such an $x$. Since $S$ is strictly local,
-one can[^XVIII-3-2] find an $S' \to S$ faithfully flat, local, and finite and a section $x \in X(S')$ which "passes
-through" an arbitrary closed point of the closed fiber of $X/S$. Now to say that `(xa)b` and `(xc)d` are defined means
-that over `S''`, $x$ lies in a certain relatively sch. dense open, which is verified on the closed fiber of $X_{S''}$.
-Hence it works.
+there exists an open $V$ of $X^{3}$ relatively sch. dense such that $(xc)^{-1}((xa)b)$ is defined if and only if $(a, b,
+c) \in V(S'')$, and one has $V \subseteq U$. Hence $(a, b, c, d) \in \Gamma(S'')$ if such an $x$ exists. By (1.6) it is
+permitted to make a base change $S' \to S$ fppf-covering to find such an $x$. Since $S$ is strictly local, one
+can[^XVIII-3-2] find an $S' \to S$ faithfully flat, local, and finite and a section $x \in X(S')$ which "passes through"
+an arbitrary closed point of the closed fiber of $X/S$. Now to say that `(xa)b` and `(xc)d` are defined means that over
+`S''`, $x$ lies in a certain relatively sch. dense open, which is verified on the closed fiber of $X_{S''}$. Hence it
+works.
 
 <!-- original page 647 -->
 
 Let now $G$ be the quotient of $X^{2}$ by $R$ as a sheaf for the fppf topology. We shall define a composition law on $G$
-as follows. Let $(g, g') \in G(S')$ be represented by a section `((a, b), (c, d))` of $X^{2} \times X^{2}(S'')$,
-$S'' \to S'$ fppf-covering. Suppose moreover that $X$ admits a section $x$ over `S''` such that $a(b(cx))$ and $x^{-1}d$
-are defined, which is permitted by Rule 1 and (1.7), and we call `gg'` the class in $G(S')$ represented by the section
+as follows. Let $(g, g') \in G(S')$ be represented by a section `((a, b), (c, d))` of $X^{2} \times X^{2}(S'')$, $S''
+\to S'$ fppf-covering. Suppose moreover that $X$ admits a section $x$ over `S''` such that $a(b(cx))$ and $x^{-1}d$ are
+defined, which is permitted by Rule 1 and (1.7), and we call `gg'` the class in $G(S')$ represented by the section
 $(a(b(cx)), x^{-1}d)$ of $X^{2}(S'')$.
 
 Let us verify that `gg'` does not depend on the choice of the section $x$ and the representative `((a, b), (c, d))`.
@@ -691,17 +682,12 @@ defined. We may suppose that all are sections over `S''`. We must show that
 
 that is, that for a suitable section $z \in X(S''')$, $S''' \to S''$ suitably fppf-covering,
 
-$$
-(z(a(b(cx))))(x^{-1}d) = (z(a'(b'(c'x'))))(x'^{-1}d').
-$$
+$$ (z(a(b(cx))))(x^{-1}d) = (z(a'(b'(c'x'))))(x'^{-1}d'). $$
 
 Whenever all the products are defined, one has
 
-$$
-(z(a(b(cx))))(x^{-1}d) = ((za)(b(cx)))(x^{-1}d) =
-                    = (((za)b)(cx))(x^{-1}d) = ((((za)b)c)x)(x^{-1}d) =
-                    = (((za)b)c)(x(x^{-1}d)) = (((za)b)c)d,
-$$
+$$ (z(a(b(cx))))(x^{-1}d) = ((za)(b(cx)))(x^{-1}d) = = (((za)b)(cx))(x^{-1}d) = ((((za)b)c)x)(x^{-1}d) = =
+(((za)b)c)(x(x^{-1}d)) = (((za)b)c)d, $$
 
 and the same identities are true with the primes. Now by Rule 1 and (1.7) there exists such a $z$. One must therefore
 show that
@@ -710,8 +696,8 @@ show that
 (((za)b)c)d = (((za')b')c')d'.
 ```
 
-But $(za)b = (za')b'$ because $(a, b) \sim (a', b')$ (3.3) and one has the desired equality because
-$(c, d) \sim (c', d')$.
+But $(za)b = (za')b'$ because $(a, b) \sim (a', b')$ (3.3) and one has the desired equality because $(c, d) \sim (c',
+d')$.
 
 <!-- original page 648 -->
 
@@ -760,25 +746,24 @@ $S$-isomorphic to $X$) into $G$ given by $c \times X \hookrightarrow X \times X 
 
 <!-- original page 649 -->
 
-*(ii) Let ${c_{i}}$, $i \in I$, be sections of $X(S)$, let $Z = \sqcup_{i} c_{i} \times X$, and call
-$R^{0} \Rightarrow Z$ the equivalence relation induced on $Z$ by the obvious morphism $Z \to X^{2}$. Then $R^{0}$ is a
-"gluing" of the $c_{i} \times X \simeq X$.*
+*(ii) Let ${c_{i}}$, $i \in I$, be sections of $X(S)$, let $Z = \sqcup_{i} c_{i} \times X$, and call $R^{0} \Rightarrow
+Z$ the equivalence relation induced on $Z$ by the obvious morphism $Z \to X^{2}$. Then $R^{0}$ is a "gluing" of the
+$c_{i} \times X \simeq X$.*
 
 *Proof.*
 
-(i) For two sections $(c, a)$ and `(c, a')` of $(c \times X)(S')$ to have the same image in $G$, one must have
-$(c, a) \sim (c, a')$, that is, $(xc)a \sim (xc)a'$ for a suitable $x \in X(S'')$, $S'' \to S'$ fppf-covering, whence
-$a = a'$ by Rule 3.
+(i) For two sections $(c, a)$ and `(c, a')` of $(c \times X)(S')$ to have the same image in $G$, one must have $(c, a)
+\sim (c, a')$, that is, $(xc)a \sim (xc)a'$ for a suitable $x \in X(S'')$, $S'' \to S'$ fppf-covering, whence $a = a'$
+by Rule 3.
 
 (ii) Let $c_{i}$, $c_{j}$ be two sections and consider the birational map $\psi_{ji}$ of $X$ to itself over $S$ given by
-the formula $x \mapsto c^{-1}_{j}(c_{i} x)$. This is the same map as the one given by
-$x \mapsto (yc_{j})^{-1}((yc_{i})x)$, for $y \in X(S)$, as one easily sees. Moreover, one verifies that $\phi_{ji}$ is
-defined at $b \in X(S')$ if and only if there exists $b'$ such that $(c_{i}, b) \sim (c_{j}, b')$, and then
-$b' = \phi_{ji}(b)$. Let $U_{ji}$ be the domain of definition over $S$ of $\phi_{ji}$. It remains to show that this
-domain of definition is universal, i.e. that if $b \in X(S'')$, $S'' \to S$ arbitrary, and if $\phi_{ji}$ is defined at
-$b$, then $b \in U_{ji}(S'')$. It comes to the same to show that if $b, b' \in X(S'')$ are such that
-$(c_{i}, b) \sim (c_{j}, b')$, then $b \in U_{ji}(S'')$. We leave the verification of this fact, which is analogous to
-that of (3.5), to the reader.
+the formula $x \mapsto c^{-1}_{j}(c_{i} x)$. This is the same map as the one given by $x \mapsto
+(yc_{j})^{-1}((yc_{i})x)$, for $y \in X(S)$, as one easily sees. Moreover, one verifies that $\phi_{ji}$ is defined at
+$b \in X(S')$ if and only if there exists $b'$ such that $(c_{i}, b) \sim (c_{j}, b')$, and then $b' = \phi_{ji}(b)$.
+Let $U_{ji}$ be the domain of definition over $S$ of $\phi_{ji}$. It remains to show that this domain of definition is
+universal, i.e. that if $b \in X(S'')$, $S'' \to S$ arbitrary, and if $\phi_{ji}$ is defined at $b$, then $b \in
+U_{ji}(S'')$. It comes to the same to show that if $b, b' \in X(S'')$ are such that $(c_{i}, b) \sim (c_{j}, b')$, then
+$b \in U_{ji}(S'')$. We leave the verification of this fact, which is analogous to that of (3.5), to the reader.
 
 **Lemma 3.9.** *Suppose that ${c_{i}}$, $i \in I$, are sections of $X(S)$ such that $\sqcup_{i} c_{i} \times X \to G$ is
 surjective as a morphism of sheaves. Then $G$ is representable and flat, of finite presentation over $S$, and the
@@ -786,21 +771,21 @@ structural morphism $X^{2} \to G$ is flat and of finite presentation.*
 
 <!-- label: III.XVIII.3.9 -->
 
-*Proof.* The fact that $G$ is representable is an immediate consequence of (3.8), and it follows that
-$\sqcup_{i} c_{i} \times X \to G$ is an open covering. To show that $X^{2} \to G$ is flat, it suffices to do so locally,
-hence to show that the rational map $X^{2} \dashrightarrow c_{i} \times X$ induces a flat morphism on its domain of
-definition. Now this rational map is given by $(a, b) \mapsto (c_{i}, ((xc_{i})^{-1}(xa))b)$, $x$ an arbitrary section,
-and if it is defined at $(a, b) \in X^{2}(S')$, one can find $S'' \to S'$ fppf-covering and a section $x \in X(S'')$
-such that $((xc_{i})^{-1}(xa))b$ is defined. One sees easily that this is therefore a flat morphism.
+*Proof.* The fact that $G$ is representable is an immediate consequence of (3.8), and it follows that $\sqcup_{i} c_{i}
+\times X \to G$ is an open covering. To show that $X^{2} \to G$ is flat, it suffices to do so locally, hence to show
+that the rational map $X^{2} \dashrightarrow c_{i} \times X$ induces a flat morphism on its domain of definition. Now
+this rational map is given by $(a, b) \mapsto (c_{i}, ((xc_{i})^{-1}(xa))b)$, $x$ an arbitrary section, and if it is
+defined at $(a, b) \in X^{2}(S')$, one can find $S'' \to S'$ fppf-covering and a section $x \in X(S'')$ such that
+$((xc_{i})^{-1}(xa))b$ is defined. One sees easily that this is therefore a flat morphism.
 
 <!-- original page 650 -->
 
 It similarly follows that it is locally of finite presentation, hence fppf-covering. Now by construction, the relation
-$R$ is effective. Hence by (3.5), the morphism $X^{2} \to G$ becomes of finite presentation after the base change
-$G \leftarrow X^{2}$, which is fppf-covering; hence $X^{2} \to G$ is of finite presentation. Let us show that $G \to S$
-is flat and of finite presentation. It is flat and locally of finite presentation since $G$ is covered by the
-$c_{i} \times X \simeq X$. Now $X^{2}/S$ is quasi-compact, and $X^{2} \to G$ is surjective. This shows that $G/S$ is
-quasi-compact. To show that $G \to S$ is quasi-separated, note that one has the following cartesian diagram
+$R$ is effective. Hence by (3.5), the morphism $X^{2} \to G$ becomes of finite presentation after the base change $G
+\leftarrow X^{2}$, which is fppf-covering; hence $X^{2} \to G$ is of finite presentation. Let us show that $G \to S$ is
+flat and of finite presentation. It is flat and locally of finite presentation since $G$ is covered by the $c_{i} \times
+X \simeq X$. Now $X^{2}/S$ is quasi-compact, and $X^{2} \to G$ is surjective. This shows that $G/S$ is quasi-compact. To
+show that $G \to S$ is quasi-separated, note that one has the following cartesian diagram
 
 ```text
               α
@@ -822,11 +807,11 @@ as a morphism of fppf-sheaves, it suffices that the following condition be satis
 *For each $S' \to S$ and $(a, b) \in X^{2}(S')$, there exist an open covering ${S'_{\nu}}$, $\nu \in N$, of $S'$ and a
 function $N \to I$ ($\nu \mapsto i(\nu)$) such that $(c^{-1}_{i(\nu)} a)b$ is defined on $S'_{\nu}$.*
 
-*Proof.* Let $S'' \to S$ be arbitrary, and $g \in G(S'')$. Choose $S' \to S''$ fppf-covering and a section
-$(a, b) \in X^{2}(S')$ representing $g$. Take the open covering ${S'_{\nu}}$ of $S'$ that exists by the hypothesis of
-the lemma. Then on each $S'_{\nu}$ one has $(a, b) \sim (c_{i(\nu)}, (c^{-1}_{i(\nu)} a)b)$, hence $g$ is represented by
-a section of $[c_{i(\nu)} \times X](S')$ on $S'_{\nu}$, which proves surjectivity, because the family of morphisms
-${S'_{\nu} \to S''}$ is fppf-covering.
+*Proof.* Let $S'' \to S$ be arbitrary, and $g \in G(S'')$. Choose $S' \to S''$ fppf-covering and a section $(a, b) \in
+X^{2}(S')$ representing $g$. Take the open covering ${S'_{\nu}}$ of $S'$ that exists by the hypothesis of the lemma.
+Then on each $S'_{\nu}$ one has $(a, b) \sim (c_{i(\nu)}, (c^{-1}_{i(\nu)} a)b)$, hence $g$ is represented by a section
+of $[c_{i(\nu)} \times X](S')$ on $S'_{\nu}$, which proves surjectivity, because the family of morphisms ${S'_{\nu} \to
+S''}$ is fppf-covering.
 
 **Lemma 3.11.** *Let $Y/S$ be a prescheme of finite presentation, and let ${a_{i}}$, $i \in I$, be sections of $Y(S)$.
 Let $s_{0}, s_{1}$ be points of $S$ such that $s_{0}$ is a specialization of $s_{1}$, and $Y_{j}$ the fiber of $Y/S$ at
@@ -843,22 +828,22 @@ such that $s'_{j} \mapsto s_{j}$ and $s'_{0}$ is a specialization of $s'_{1}$. O
 <!-- original page 386 (continuing) -->
 
 therefore (EGA II 7.1.4) reduced to the case where $S$ is the spectrum of a valuation ring $A$, $s_{0}$ the closed point
-of $S$, and $s_{1}$ the generic point of $S$. Now let $V$ be the closure of $C_{1}$ in $Y$. It is clear that
-$C_{0} \subseteq V$, and so the lemma is a consequence of the "well-known" fact that an irreducible closed subprescheme
-$V$ of a prescheme $Y/S$ of finite presentation satisfies $\dim V \times_{S} s_{1} \geqslant \dim V \times_{S} s_{0}$ if
-$S$ is the spectrum of a valuation ring and if $V \times_{S} s_{1} \neq \emptyset$ (EGA IV 13.1.6).
+of $S$, and $s_{1}$ the generic point of $S$. Now let $V$ be the closure of $C_{1}$ in $Y$. It is clear that $C_{0}
+\subseteq V$, and so the lemma is a consequence of the "well-known" fact that an irreducible closed subprescheme $V$ of
+a prescheme $Y/S$ of finite presentation satisfies $\dim V \times_{S} s_{1} \geqslant \dim V \times_{S} s_{0}$ if $S$ is
+the spectrum of a valuation ring and if $V \times_{S} s_{1} \neq \emptyset$ (EGA IV 13.1.6).
 
-**Lemma 3.12.** *Suppose that $S$ is the spectrum of a local ring with closed point $s_{0}$, and let ${c_{i}}$,
-$i \in I$, be sections such that the closure $C_{0}$ of the set ${c_{i}(s) \cap X_{0}}$ in the closed fiber $X_{0}$ is
-of dimension equal to $\dim X_{0} = n$. Then the condition of Lemma 3.9 is satisfied.*
+**Lemma 3.12.** *Suppose that $S$ is the spectrum of a local ring with closed point $s_{0}$, and let ${c_{i}}$, $i \in
+I$, be sections such that the closure $C_{0}$ of the set ${c_{i}(s) \cap X_{0}}$ in the closed fiber $X_{0}$ is of
+dimension equal to $\dim X_{0} = n$. Then the condition of Lemma 3.9 is satisfied.*
 
 <!-- label: III.XVIII.3.12 -->
 
 *Proof.* Note first that the fibers of $X/S$ all have the same dimension $n$, which results from EGA IV 12.1.1 (i) and
-from the fact that $X$ has a rational composition law. Lemma (3.11) therefore implies that for each morphism
-$S_{1} \to S$ with $S_{1}$ the spectrum of a field, the dimension of the closure of the set ${c_{i} \times_{S} S_{1}}$
-in $X_{S_{1}}$ is equal to $n$. Let us verify the condition of (3.10). Let $(a, b) \in X^{2}(S')$. For $(c^{-1}_{i} a)b$
-to be defined, it is necessary and sufficient that $c_{i}$ be contained in a certain open $U \subseteq X_{S'}$ which is
+from the fact that $X$ has a rational composition law. Lemma (3.11) therefore implies that for each morphism $S_{1} \to
+S$ with $S_{1}$ the spectrum of a field, the dimension of the closure of the set ${c_{i} \times_{S} S_{1}}$ in
+$X_{S_{1}}$ is equal to $n$. Let us verify the condition of (3.10). Let $(a, b) \in X^{2}(S')$. For $(c^{-1}_{i} a)b$ to
+be defined, it is necessary and sufficient that $c_{i}$ be contained in a certain open $U \subseteq X_{S'}$ which is
 sch. dense relatively to $S'$ (Rule 1). We must show that this is true for a suitable $i$, locally on $S'$. It therefore
 suffices to treat the case where $S'$ is the spectrum of a local ring, and then the fact that $c_{i} \in U(S')$ is
 verified on the closed fiber. We are thus reduced to the case $S' = \operatorname{Spec} k$, $k$ a field. Now with the
@@ -866,8 +851,8 @@ notations above, take $S' = S_{1}$.
 
 <!-- original page 652 -->
 
-One has $\dim C_{1} = \dim X_{S_{1}}$, and $U$ is relatively sch. dense in $X_{S_{1}}$. Hence
-$U \cap C_{1} \neq \emptyset$, whence $U \cap {c_{p} \times_{S} S_{1}} \neq \emptyset$, and we are done.
+One has $\dim C_{1} = \dim X_{S_{1}}$, and $U$ is relatively sch. dense in $X_{S_{1}}$. Hence $U \cap C_{1} \neq
+\emptyset$, whence $U \cap {c_{p} \times_{S} S_{1}} \neq \emptyset$, and we are done.
 
 The proof of the theorem is now easy. Note first the following consequence of the finiteness of Lemma (3.9): if
 ${A_{i}}$ is an inductive system of rings over $S$, if $\tilde{A} = \lim A_{i}$, and if the hypotheses of (3.9) are

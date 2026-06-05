@@ -76,8 +76,8 @@ $I$, $Y = Supp(A/I) = {p \in X, p \supset I}$.
 
 <!-- label: III.2.1 -->
 
-Suppose that $A$ is noetherian and that the modules $M$ and $N$ are finitely generated. Suppose moreover that
-$Supp N = Y$. Then the following assertions are equivalent:
+Suppose that $A$ is noetherian and that the modules $M$ and $N$ are finitely generated. Suppose moreover that $Supp N =
+Y$. Then the following assertions are equivalent:
 
 1. $\operatorname{Hom}_{A}(N, M) = 0$.
 1. $Supp N \cap Ass M = \emptyset$.
@@ -141,8 +141,8 @@ Ext^i_A(N, M) = 0 for i ⩽ n.
 ```
 
 b) If moreover $A$ is noetherian, $M$ is finitely generated, and there exists a finitely generated $A$-module $N$ such
-that $Supp N = V(I)$ and $Ext^{i}_{A}(N, M) = 0$ for $i \leqslant n$, then there exists a sequence
-$f_{1}, \cdots, f_{n+1}$ of elements of $I$ that is $M$-regular.
+that $Supp N = V(I)$ and $Ext^{i}_{A}(N, M) = 0$ for $i \leqslant n$, then there exists a sequence $f_{1}, \cdots,
+f_{n+1}$ of elements of $I$ that is $M$-regular.
 
 Let us prove a) first, by induction. If $n < 0$ the statement is empty.
 
@@ -292,8 +292,8 @@ necessary and sufficient that $Supp M \cap V(I) \neq \emptyset$.
 If $A$ is a semi-local ring, let $r(A)$ be its radical and $k = A/r(A)$ its residue ring. The interesting notion of
 depth is obtained by taking for $I$ the radical of $A$. We shall therefore agree to write simply `prof M` for the
 $r(A)$-depth of an $A$-module $M$. One recovers in this case the notion of *homological codimension* (cf. Serre, op.
-cit. note [^N.D.E-III-1], p. 21), denoted $codh_{A} M$, defined as the infimum of integers $i$ such that
-$Ext^{i}_{A}(k, M) \neq 0$; indeed $Supp k = V(r(A))$.
+cit. note [^N.D.E-III-1], p. 21), denoted $codh_{A} M$, defined as the infimum of integers $i$ such that $Ext^{i}_{A}(k,
+M) \neq 0$; indeed $Supp k = V(r(A))$.
 
 **Proposition.**
 
@@ -330,8 +330,8 @@ lies in $pA_{p}$, the maximal ideal of $A_{p}$; and $g$ is $M_{p}$-regular, as f
 <!-- label: eq:III.2.3 -->
 
 where $g'$ denotes multiplication by $g$ on $M_{p}$. This exact sequence also gives that $(M/f M)_{p}$ is isomorphic to
-$M_{p}/gM_{p}$; applying Corollary 2.5 to $M$ and to $M_{p}$, one deduces, by induction, that
-$prof_{I} M \leqslant \nu(M)$, where one has set, for every $M$:
+$M_{p}/gM_{p}$; applying Corollary 2.5 to $M$ and to $M_{p}$, one deduces, by induction, that $prof_{I} M \leqslant
+\nu(M)$, where one has set, for every $M$:
 
 <!-- original page 34 -->
 
@@ -460,8 +460,8 @@ $\mathcal{O}_{X}$-module. The conditions of Lemma 3.1 are equivalent to each of 
     ```
 
 If $X$ is affine, all the work has been done (cf. Proposition 2.4) to establish the equivalence of the three conditions
-of Proposition 3.3. These conditions are local, except for the implication (v) ⇒ (vi); but in that case one may take
-$G = \mathcal{O}_{Y}$ and invoke Proposition 2.4 again. It therefore suffices to prove (i) ⇒ (vi) and (v) ⇒ (i).
+of Proposition 3.3. These conditions are local, except for the implication (v) ⇒ (vi); but in that case one may take $G
+= \mathcal{O}_{Y}$ and invoke Proposition 2.4 again. It therefore suffices to prove (i) ⇒ (vi) and (v) ⇒ (i).
 
 Let $J$ be the ideal of $Y$: it is a coherent sheaf of ideals. Set $\mathcal{O}^{m}_{Y} = \mathcal{O}_{X}/J^{m+1}$: this
 is a coherent $\mathcal{O}_{X}$-module whose support is equal to $Y$, and one knows (Theorem II 6.b) that
@@ -532,12 +532,10 @@ The following conditions are equivalent:
 
 <!-- label: III.3.6 -->
 
-Let $X$ be a locally noetherian prescheme, $Y$ a closed subprescheme of $X$. Suppose that, for every $x \in Y$,
-$prof \mathcal{O}_{X,x} \geqslant 2$; then the natural map
+Let $X$ be a locally noetherian prescheme, $Y$ a closed subprescheme of $X$. Suppose that, for every $x \in Y$, $prof
+\mathcal{O}_{X,x} \geqslant 2$; then the natural map
 
-$$
-\pi_{0}(X) \longrightarrow \pi_{0}(X - Y)
-$$
+$$ \pi_{0}(X) \longrightarrow \pi_{0}(X - Y) $$
 
 is bijective.
 
@@ -593,16 +591,16 @@ to $\mathcal{F}$. The following conditions are equivalent:
 
 1. For every $Y \in \mathcal{F}$, $X - Y$ is connected.
 1. If $X'$ and $X''$ are two distinct irreducible components of $X$, there exists a sequence of irreducible components
-   of $X$, $X_{0}, X_{1}, \cdots, X_{n}$, such that $X' = X_{0}$, $X'' = X_{n}$ and, for each $i$ with
-   $1 \leqslant i < n$, $X_{i} \cap X_{i+1} \notin \mathcal{F}$.
+   of $X$, $X_{0}, X_{1}, \cdots, X_{n}$, such that $X' = X_{0}$, $X'' = X_{n}$ and, for each $i$ with $1 \leqslant i <
+   n$, $X_{i} \cap X_{i+1} \notin \mathcal{F}$.
 
 (ii) ⇒ (i). Let $Y \in \mathcal{F}$; we must show that the open set $U = X - Y$ is connected. Now, if $U'$ and $U''$ are
-two irreducible components of $U$, there exist two irreducible components $X'$ and $X''$ of $X$ such that
-$X' \cap U = U'$ and $X'' \cap U = U''$. Let $X_{0}, \cdots, X_{n}$ be a sequence of irreducible components of $X$
-having the property invoked above; if one sets $U_{i} = X_{i} \cap U$ for $0 \leqslant i \leqslant n$, the $U_{i}$ are
-irreducible components of $U$, and moreover $U_{i} \cap U_{i+1}$ is nonempty for $0 \leqslant i < n$, since otherwise
-$X_{i} \cap X_{i+1} \subset Y$ would be an element of $\mathcal{F}$, contrary to the choice of the sequence of the
-$X_{i}$. This entails that $U$ is connected.
+two irreducible components of $U$, there exist two irreducible components $X'$ and $X''$ of $X$ such that $X' \cap U =
+U'$ and $X'' \cap U = U''$. Let $X_{0}, \cdots, X_{n}$ be a sequence of irreducible components of $X$ having the
+property invoked above; if one sets $U_{i} = X_{i} \cap U$ for $0 \leqslant i \leqslant n$, the $U_{i}$ are irreducible
+components of $U$, and moreover $U_{i} \cap U_{i+1}$ is nonempty for $0 \leqslant i < n$, since otherwise $X_{i} \cap
+X_{i+1} \subset Y$ would be an element of $\mathcal{F}$, contrary to the choice of the sequence of the $X_{i}$. This
+entails that $U$ is connected.
 
 <!-- original page 40 -->
 
@@ -612,11 +610,11 @@ is locally noetherian; moreover the $X' \cap X''$ are closed, so $Y$ is closed. 
 $\mathcal{F}$, so $Y \in \mathcal{F}$. Hence $U = X - Y$ is connected. Let $X'$ and $X''$ be two distinct irreducible
 components of $X$, and let $U'$ and $U''$ be their traces on $U$, which are nonempty by construction of $Y$. These are
 irreducible components of $U$; but $U$ is connected, so, $U$ being locally noetherian, there exists a sequence of
-irreducible components $U_{0}, \cdots, U_{n}$ of $U$ such that $U_{0} = U'$, $U_{n} = U''$,
-$U_{i} \cap U_{i+1} \neq \emptyset$, and $U_{i} \cap U_{i+1} \neq U_{i}$ for $0 \leqslant i < n$. Let
-$X_{0}, \cdots, X_{n}$ be the sequence of irreducible components of $X$ such that $X_{i} \cap U = U_{i}$; if
-$X_{i} \cap X_{i+1} \in \mathcal{F}$, then by the construction of $\mathcal{F}$ one would have
-$U_{i} \cap U_{i+1} = \emptyset$ or $U_{i} = U_{i+1}$, which is impossible by the choice of the $U_{i}$. QED
+irreducible components $U_{0}, \cdots, U_{n}$ of $U$ such that $U_{0} = U'$, $U_{n} = U''$, $U_{i} \cap U_{i+1} \neq
+\emptyset$, and $U_{i} \cap U_{i+1} \neq U_{i}$ for $0 \leqslant i < n$. Let $X_{0}, \cdots, X_{n}$ be the sequence of
+irreducible components of $X$ such that $X_{i} \cap U = U_{i}$; if $X_{i} \cap X_{i+1} \in \mathcal{F}$, then by the
+construction of $\mathcal{F}$ one would have $U_{i} \cap U_{i+1} = \emptyset$ or $U_{i} = U_{i+1}$, which is impossible
+by the choice of the $U_{i}$. QED
 
 **Corollary.**
 
@@ -628,9 +626,9 @@ Let $A$ be a noetherian local ring. Suppose that for every prime ideal $p$ of $A
 (dim A_p ⩾ 2) ⟹ (prof A_p ⩾ 2).
 ```
 
-Suppose moreover that $A$ satisfies the chain condition.[^III-3-1] Then, for every minimal prime ideal $p$ of $A$,
-$\dim A/p = \dim A$, or equivalently, all the irreducible components of $\operatorname{Spec} A$ have the same dimension:
-that of $A$.
+Suppose moreover that $A$ satisfies the chain condition.[^III-3-1] Then, for every minimal prime ideal $p$ of $A$, $\dim
+A/p = \dim A$, or equivalently, all the irreducible components of $\operatorname{Spec} A$ have the same dimension: that
+of $A$.
 
 If $X'$ and $X''$ are two irreducible components of $X$, one joins them by a chain having the properties enumerated in
 Corollary 3.7; it then suffices to show that two successive components have the same dimension, which follows from the
@@ -643,11 +641,11 @@ second hypothesis.
 <!-- original page 41 -->
 
 Let $X$ be the union of two complementary linear subspaces, of respective dimensions 2 and 3, in a vector space of
-dimension 5; more precisely, let $X = \operatorname{Spec} A$, with $A = B/p \cap q$, where
-$B = k[X_{1}, \cdots, X_{5}]$, $p$ is the ideal generated by $X_{1}, X_{2}, X_{3}$ and $q$ the ideal generated by `X_4`
-and `X_5`. Then $X$ can be disconnected by the intersection point $x$ of the two linear subspaces, so the depth of
-$\mathcal{O}_{X,x}$ is equal to 1, since it cannot be $\geqslant 2$ by Theorem 3.6. Another reason: the
-equidimensionality conclusion of the previous corollary fails.
+dimension 5; more precisely, let $X = \operatorname{Spec} A$, with $A = B/p \cap q$, where $B = k[X_{1}, \cdots,
+X_{5}]$, $p$ is the ideal generated by $X_{1}, X_{2}, X_{3}$ and $q$ the ideal generated by `X_4` and `X_5`. Then $X$
+can be disconnected by the intersection point $x$ of the two linear subspaces, so the depth of $\mathcal{O}_{X,x}$ is
+equal to 1, since it cannot be $\geqslant 2$ by Theorem 3.6. Another reason: the equidimensionality conclusion of the
+previous corollary fails.
 
 More generally, taking a union $X$ of two linear subspaces of dimensions $p, q \geqslant 2$ in a vector space of
 dimension $p + q$, for no embedding of $X$ in a regular scheme is $X$ even set-theoretically a complete intersection at
@@ -683,10 +681,9 @@ This cohomological condition is, however, not sufficient, as the next example sh
 <!-- label: III.3.13 -->
 
 Let $X = \operatorname{Spec}(A)$, where $A$ is a normal noetherian local ring of dimension 2. Let $Y$ be a curve in $X$.
-One can show that the complement of the curve is an affine open, so[^N.D.E-III-3]
-$H^{i}_{Y}(\mathcal{O}_{X}) \cong H^{i-1}_{X-Y}(\mathcal{O}_{X}) = 0$ for $i > 1$, since
-$H^{i-1}(X - Y, \mathcal{O}_{X}) = 0$. Nevertheless, one can construct a curve that is not described by a single
-equation.
+One can show that the complement of the curve is an affine open, so[^N.D.E-III-3] $H^{i}_{Y}(\mathcal{O}_{X}) \cong
+H^{i-1}_{X-Y}(\mathcal{O}_{X}) = 0$ for $i > 1$, since $H^{i-1}(X - Y, \mathcal{O}_{X}) = 0$. Nevertheless, one can
+construct a curve that is not described by a single equation.
 
 We shall seek[^III-3-2] conditions for the $H^{i}_{Y}(X, F)$ to be coherent for a given $i$, which is not the case in
 general, as obvious examples show — for instance $H^{n}_{m}(A)$ for $A$ a noetherian local ring of dimension $n > 0$;

@@ -44,15 +44,11 @@ $X^{an}$ is the analytic space associated with $X$.
 If $|X^{an}|$ is the underlying set of $X^{an}$, $\phi$ induces a bijection from $|X^{an}|$ to the set $X(\mathbb{C})$
 of points of $X$ with values in $\mathbb{C}$. Moreover, for each point $x$ of $X^{an}$, the morphism
 
-$$
-\phi_{x}: \mathcal{O}_{X},\phi(x) \to \mathcal{O}^{an}_{X},x,
-$$
+$$ \phi_{x}: \mathcal{O}_{X},\phi(x) \to \mathcal{O}^{an}_{X},x, $$
 
 which is necessarily local, gives after passage to completions an isomorphism
 
-$$
-\hat{\phi}_{x}: \hat{\mathcal{O}}_{X},\phi(x) \simeq \hat{\mathcal{O}}^{an}_{X},x.
-$$
+$$ \hat{\phi}_{x}: \hat{\mathcal{O}}_{X},\phi(x) \simeq \hat{\mathcal{O}}^{an}_{X},x. $$
 
 In particular the morphism $\phi$ is flat.
 
@@ -81,25 +77,21 @@ For every point $x$ of $X^{an}$, the morphism $\phi_{x}$ is none other than the 
 
 induced by $\psi_{x}$. Its completion
 
-$$
-\hat{\mathcal{O}}_{Y},\psi(x) / I_{\psi}(x) \cdot \hat{\mathcal{O}}_{Y},\psi(x)
-  \to \hat{\mathcal{O}}^{an}_{Y},x / I_{\psi}(x) \cdot \hat{\mathcal{O}}^{an}_{Y},x
-$$
+$$ \hat{\mathcal{O}}_{Y},\psi(x) / I_{\psi}(x) \cdot \hat{\mathcal{O}}_{Y},\psi(x) \to \hat{\mathcal{O}}^{an}_{Y},x /
+I_{\psi}(x) \cdot \hat{\mathcal{O}}^{an}_{Y},x $$
 
 is an isomorphism, since $\hat{\psi}_{x}$ is one; this proves a.
 
-b. If one has two $\mathbb{C}$-schemes $X_{1}$, $X_{2}$, such that $X^{an}_{1}$ and $X^{an}_{2}$ exist, then
-$(X_{1} \times X_{2})^{an}$ also exists. Indeed, let $\phi_{1}: X^{an}_{1} \to X_{1}$ and
-$\phi_{2}: X^{an}_{2} \to X_{2}$ be the canonical morphisms, and let $p_{1}$, $p_{2}$ be the two projections from
-$X^{an}_{1} \times X^{an}_{2}$. It follows formally from EGA I 1.8.1 that $X_{1} \times X_{2}$ is the product of $X_{1}$
-and $X_{2}$ in the category of ringed spaces in local rings. Consequently the morphisms $\phi_{1} \cdot p_{1}$ and
-$\phi_{2} \cdot p_{2}$ define a
+b. If one has two $\mathbb{C}$-schemes $X_{1}$, $X_{2}$, such that $X^{an}_{1}$ and $X^{an}_{2}$ exist, then $(X_{1}
+\times X_{2})^{an}$ also exists. Indeed, let $\phi_{1}: X^{an}_{1} \to X_{1}$ and $\phi_{2}: X^{an}_{2} \to X_{2}$ be
+the canonical morphisms, and let $p_{1}$, $p_{2}$ be the two projections from $X^{an}_{1} \times X^{an}_{2}$. It follows
+formally from EGA I 1.8.1 that $X_{1} \times X_{2}$ is the product of $X_{1}$ and $X_{2}$ in the category of ringed
+spaces in local rings. Consequently the morphisms $\phi_{1} \cdot p_{1}$ and $\phi_{2} \cdot p_{2}$ define a
 
 <!-- original page 314 -->
 
-morphism $\phi: X^{an}_{1} \times X^{an}_{2} \to X_{1} \times X_{2}$, and the pair
-$(X^{an}_{1} \times X^{an}_{2}, \phi)$ represents the functor
-$\mathcal{X} \mapsto \operatorname{Hom}_{\mathbb{C}}(\mathcal{X}, X_{1} \times X_{2})$.
+morphism $\phi: X^{an}_{1} \times X^{an}_{2} \to X_{1} \times X_{2}$, and the pair $(X^{an}_{1} \times X^{an}_{2},
+\phi)$ represents the functor $\mathcal{X} \mapsto \operatorname{Hom}_{\mathbb{C}}(\mathcal{X}, X_{1} \times X_{2})$.
 
 c. If $\mathcal{E}^{1}$ denotes affine space of dimension 1, that is, the topological space $\mathbb{C}$ endowed with the sheaf of holomorphic
 functions, the functor $\mathcal{X} \mapsto \operatorname{Hom}_{\mathbb{C}}(\mathcal{X},E^{1}_{\mathbb{C}})$ is representable by $\mathcal{E}^{1}$, the canonical morphism $\phi: \mathcal{E}^{1} \to E^{1}_{\mathbb{C}}$ being the
@@ -118,9 +110,9 @@ $X^{an}_{i}$ glue and thus define the analytic space $X^{an}$ associated with $X
 
 <!-- label: XII.1.2 -->
 
-Let $f: X \to Y$ be a morphism of $\mathbb{C}$-schemes locally of finite type. If $\phi: X^{an} \to X$ and
-$\psi: Y^{an} \to Y$ are the canonical morphisms, it follows from the universal property of $Y^{an}$ that there exists a
-unique morphism $f^{an}: X^{an} \to Y^{an}$ such that the diagram
+Let $f: X \to Y$ be a morphism of $\mathbb{C}$-schemes locally of finite type. If $\phi: X^{an} \to X$ and $\psi: Y^{an}
+\to Y$ are the canonical morphisms, it follows from the universal property of $Y^{an}$ that there exists a unique
+morphism $f^{an}: X^{an} \to Y^{an}$ such that the diagram
 
 ```text
 X^an → X
@@ -138,20 +130,20 @@ commutative. We have therefore defined a functor $\Phi$ from the category of $\m
 to the category of analytic spaces.
 
 The functor $\Phi$ commutes with finite projective limits. Indeed it is enough to see that $\Phi$ commutes with fiber
-products. But if $X$, $Y$, $Z$ are schemes locally of finite type over $\mathbb{C}$, it follows from the fact that
-$X \times_{Z} Y$ is the fiber product of $X$ and $Y$ over $Z$ in the category of ringed spaces in local rings that
-$X^{an} \times^{an}_{Z} Y^{an}$ satisfies the universal property characterizing $(X \times_{Z} Y)^{an}$.
+products. But if $X$, $Y$, $Z$ are schemes locally of finite type over $\mathbb{C}$, it follows from the fact that $X
+\times_{Z} Y$ is the fiber product of $X$ and $Y$ over $Z$ in the category of ringed spaces in local rings that $X^{an}
+\times^{an}_{Z} Y^{an}$ satisfies the universal property characterizing $(X \times_{Z} Y)^{an}$.
 
 ### 1.3.
 
 <!-- label: XII.1.3 -->
 
-Let $X$ be a $\mathbb{C}$-scheme locally of finite type, let $X^{an}$ be the associated analytic space, and let
-$\phi: X^{an} \to X$ be the canonical morphism. If $F$ is an $\mathcal{O}_{X}$-module, the inverse image
-$\phi*F = F^{an}$ is a sheaf of modules over $\mathcal{O}^{an}_{X}$. This defines a functor from the category of
-$\mathcal{O}_{X}$-modules to the category of modules on $X^{an}$. This functor commutes with inductive limits (EGA 0
-4.3.2). Since the sheaf $\mathcal{O}^{an}_{X}$ is coherent [XII.4, no. 18, §2, th. 2], it sends coherent sheaves to
-coherent sheaves (EGA 0 5.3.11). Moreover:
+Let $X$ be a $\mathbb{C}$-scheme locally of finite type, let $X^{an}$ be the associated analytic space, and let $\phi:
+X^{an} \to X$ be the canonical morphism. If $F$ is an $\mathcal{O}_{X}$-module, the inverse image $\phi*F = F^{an}$ is a
+sheaf of modules over $\mathcal{O}^{an}_{X}$. This defines a functor from the category of $\mathcal{O}_{X}$-modules to
+the category of modules on $X^{an}$. This functor commutes with inductive limits (EGA 0 4.3.2). Since the sheaf
+$\mathcal{O}^{an}_{X}$ is coherent [XII.4, no. 18, §2, th. 2], it sends coherent sheaves to coherent sheaves (EGA 0
+5.3.11). Moreover:
 
 **Subproposition.**
 
@@ -218,9 +210,7 @@ local ring $\mathcal{O}_{X},\phi(x)$, respectively $\mathcal{O}^{an}_{X},x$, has
 excellent local ring has property $P$ can be detected after passage to the completion, the proposition follows from the
 isomorphisms
 
-$$
-\hat{\mathcal{O}}_{X},\phi(x) \simeq \hat{\mathcal{O}}^{an}_{X},x
-$$
+$$ \hat{\mathcal{O}}_{X},\phi(x) \simeq \hat{\mathcal{O}}^{an}_{X},x $$
 
 in cases (ii) through (vii). The same holds in case (viii), taking into account the relations
 
@@ -237,17 +227,15 @@ where $x \in X^{an}$. This completes the proof.
 Let $X$ be a $\mathbb{C}$-scheme locally of finite type, let $\phi: X^{an} \to X$ be the canonical morphism, and let $T$
 be a locally constructible subset of $X$. Then one has the relation
 
-$$
-\phi^{-1}(closure(T)) = closure(\phi^{-1}(T)).
-$$
+$$ \phi^{-1}(closure(T)) = closure(\phi^{-1}(T)). $$
 
 We may suppose that $T$ is a dense open subset of $X$. Let $H$ be the reduced closed subscheme of $X$ whose underlying
 space is $X - T$. The associated space $H^{an}$ is a closed analytic subspace of $X^{an}$ whose underlying space is
 $X^{an} - \phi^{-1}(T)$. We must show that every point $x$ of $H^{an}$ belongs to $closure(\phi^{-1}(T))$. But at such a
 point $x$, the germ of analytic space $(X^{an},x)$ contains the subgerm $(H^{an},x)$, and this is defined by a
 non-nilpotent ideal of $\mathcal{O}^{an}_{X},x$. It then follows from the Nullstellensatz [XII.4, no. 19, §4, cor. 3]
-that every open neighborhood of $x$ contains points of $X^{an}$ which do not belong to $H^{an}$. This proves that
-$x \in closure(\phi^{-1}(T))$.
+that every open neighborhood of $x$ contains points of $X^{an}$ which do not belong to $H^{an}$. This proves that $x \in
+closure(\phi^{-1}(T))$.
 
 **Corollary.**
 
@@ -279,9 +267,9 @@ Conversely suppose $X$ is connected, respectively irreducible, and let us show t
 restrict to the case where $X$ is irreducible. Indeed, suppose $X$ is connected. Given a point $x$ of $X$, the set of
 points $y \in X$ for which there exists a finite sequence of irreducible closed subschemes $X_{1}, \cdots, X_{n}$ of
 $X$, with $x \in X_{1}$, $y \in X_{n}$, and $X_{i} \cap X_{i+1} \neq \emptyset$ for $1 \leq i \leq n - 1$, is both open
-and closed, hence equal to all of $X$. For a sequence $X_{1}, \cdots, X_{n}$ as above, one also has
-$X^{an}_{i} \cap X^{an}_{i+1} \neq \emptyset$ for $1 \leq i \leq n - 1$; if the $X^{an}_{i}$ are known to be connected,
-then $X^{an}$ is connected as well.
+and closed, hence equal to all of $X$. For a sequence $X_{1}, \cdots, X_{n}$ as above, one also has $X^{an}_{i} \cap
+X^{an}_{i+1} \neq \emptyset$ for $1 \leq i \leq n - 1$; if the $X^{an}_{i}$ are known to be connected, then $X^{an}$ is
+connected as well.
 
 From now on
 
@@ -299,15 +287,13 @@ irreducible, then $X^{an}$ is irreducible as well.
 From now on suppose $X$ is affine normal. Since the local rings of $X^{an}$ are integral domains, saying that $X^{an}$
 is irreducible is equivalent to saying that it is connected. Indeed, if $\mathcal{F}$ is a closed analytic subset of
 $X^{an}$, the set of points $x$ of $X^{an}$ at which $codim_{x}(\mathcal{F},X^{an}) = 0$ is a closed analytic subset of
-$X^{an}$ [XII.4, no. 20 A, cor. 1] which is also open. If $X^{an}$ is connected, this proves that, whenever
-$\mathcal{F} \neq X^{an}$, $\mathcal{F}$ is rare; hence $X^{an}$ is irreducible. We are thus reduced to showing that
-$X^{an}$ is connected.
+$X^{an}$ [XII.4, no. 20 A, cor. 1] which is also open. If $X^{an}$ is connected, this proves that, whenever $\mathcal{F}
+\neq X^{an}$, $\mathcal{F}$ is rare; hence $X^{an}$ is irreducible. We are thus reduced to showing that $X^{an}$ is
+connected.
 
 Let
 
-$$
-i: X \to P
-$$
+$$ i: X \to P $$
 
 be a compactification of $X$, where $P$ is a normal projective $\mathbb{C}$-scheme and $i$ is a dominant open immersion.
 It then follows from [XII.10, no. 12, th. 1] that $P^{an}$ is connected. Since $X^{an}$ is obtained by removing from
@@ -338,9 +324,7 @@ $\mathcal{X}$ is connected.
 
 Let $X$ be a $\mathbb{C}$-scheme locally of finite type. The morphism
 
-$$
-\pi_{0}(X^{an}) \to \pi_{0}(X)
-$$
+$$ \pi_{0}(X^{an}) \to \pi_{0}(X) $$
 
 induced by the canonical morphism $X^{an} \to X$ is bijective.
 
@@ -371,13 +355,13 @@ the morphism deduced from $f$ on the associated analytic spaces. Let $P$ be the 
 
 Then $f$ has property $P$ if and only if $f^{an}$ has property $P$.
 
-Let $\phi: X^{an} \to X$ and $\psi: Y^{an} \to Y$ be the canonical morphisms. Let $x$ be a point of $X^{an}$, and put
-$y = f^{an}(x)$. The morphisms $\mathcal{O}^{an}_{Y},y \to \mathcal{O}^{an}_{X},x$ and
-$\mathcal{O}_{Y},\psi(y) \to \mathcal{O}_{X},\phi(x)$ deduced from $f^{an}$ and $f$ give the same morphism after passage
-to completions (XII.1.1). By [XII.2, ch. 3, §5, prop. 4], respectively EGA IV 17.4.4, it is therefore equivalent to say
-that $f^{an}$ satisfies property (i), respectively (ii), and to say that $f$ satisfies (i), respectively (ii), at every
-closed point of $X$. Since the set of points of $X$ where (i), respectively (ii), holds is open (EGA IV 11.1.1 and I
-3.3), this proves (i) and (ii), hence also (iii).
+Let $\phi: X^{an} \to X$ and $\psi: Y^{an} \to Y$ be the canonical morphisms. Let $x$ be a point of $X^{an}$, and put $y
+= f^{an}(x)$. The morphisms $\mathcal{O}^{an}_{Y},y \to \mathcal{O}^{an}_{X},x$ and $\mathcal{O}_{Y},\psi(y) \to
+\mathcal{O}_{X},\phi(x)$ deduced from $f^{an}$ and $f$ give the same morphism after passage to completions (XII.1.1). By
+[XII.2, ch. 3, §5, prop. 4], respectively EGA IV 17.4.4, it is therefore equivalent to say that $f^{an}$ satisfies
+property (i), respectively (ii), and to say that $f$ satisfies (i), respectively (ii), at every closed point of $X$.
+Since the set of points of $X$ where (i), respectively (ii), holds is open (EGA IV 11.1.1 and I 3.3), this proves (i)
+and (ii), hence also (iii).
 
 Let $P$ be property (iv), respectively (v), respectively (vi). Taking XII.2.1 ((v), (vi), (vii)) into account, it is
 equivalent to say that the geometric fibers of $f^{an}$ at the various points $y$ of $Y^{an}$ are regular, respectively
@@ -458,9 +442,9 @@ Since
 
 <!-- original page 324 -->
 
-$T = f(X)$ is a locally constructible subset of $Y$ (EGA IV 1.8.4), one has, by XII.2.2,
-$\bar{T}^{an} = closure(f^{an}(X^{an}))$. It follows that $i^{an}(X^{an})$ is open in $\bar{T}^{an}$, hence that $i(X)$
-is open in $\bar{T}$. Consider the canonical factorization of $i$
+$T = f(X)$ is a locally constructible subset of $Y$ (EGA IV 1.8.4), one has, by XII.2.2, $\bar{T}^{an} =
+closure(f^{an}(X^{an}))$. It follows that $i^{an}(X^{an})$ is open in $\bar{T}^{an}$, hence that $i(X)$ is open in
+$\bar{T}$. Consider the canonical factorization of $i$
 
 ```text
 X --i₁→ i(X) --i₂→ T̄.
@@ -473,9 +457,7 @@ $i_{1}$, and hence also $f$, is an immersion.
 we may suppose $Y$ affine. By Chow’s lemma (EGA II 5.6.1), one can find a projective $Y$-scheme $X'$ and a projective
 surjective morphism
 
-$$
-g: X' \to X.
-$$
+$$ g: X' \to X. $$
 
 The morphism $(fg)^{an} = f^{an} g^{an}$ is projective, hence proper; $g^{an}$ is surjective; and it follows from \[XII.1, ch.
 1, §10\] that $f^{an}$ is proper.
@@ -491,9 +473,7 @@ f_(Y′) = h: X ×_Y Y′ → Y′
 will also be closed since $h^{an}$ is proper. Let $T$ be a closed subset of $X$. The set $f(T)$ is locally
 constructible, and one has
 
-$$
-f^{an}(\phi^{-1}(T)) = \psi^{-1}(f(T)).
-$$
+$$ f^{an}(\phi^{-1}(T)) = \psi^{-1}(f(T)). $$
 
 Since
 
@@ -501,9 +481,7 @@ Since
 
 $f^{an}$ is proper, $\psi^{-1}(f(T))$ is a closed subset of $Y^{an}$, and therefore it follows from XII.2.2 that
 
-$$
-\psi^{-1}(closure(f(T))) = \psi^{-1}(f(T)).
-$$
+$$ \psi^{-1}(closure(f(T))) = \psi^{-1}(f(T)). $$
 
 This implies $f(T) = closure(f(T))$, that is, $f$ is closed; hence $f$ is proper.
 
@@ -520,9 +498,9 @@ not imply that $f$ is one. Indeed, if $f$ is étale, $f^{an}$ is étale and henc
 §1\], but this need not be true of $f$.
 
 b. The statement XII.3.2 is not true if $f$ is not assumed of finite type. For example, $f^{an}$ can be a closed
-immersion without $f$ being one. It is enough to take $X$ to be the sum of $\mathbb{Z}$ copies of
-$\operatorname{Spec} \mathbb{C}$, $Y$ to be the affine line, and $f$ the morphism obtained by sending the points of $X$
-to distinct points of $Y$ forming a discrete subset.
+immersion without $f$ being one. It is enough to take $X$ to be the sum of $\mathbb{Z}$ copies of $\operatorname{Spec}
+\mathbb{C}$, $Y$ to be the affine line, and $f$ the morphism obtained by sending the points of $X$ to distinct points of
+$Y$ forming a discrete subset.
 
 ## 4. Cohomological Comparison Theorems and Existence Theorems
 
@@ -562,9 +540,7 @@ spectral sequences. With the composite $k \cdot j \cdot i$ there is associated a
 
 <!-- label: eq:XII.4.1.1 -->
 
-$$
-(4.1.1)   \theta_{p}: (R^{p}f_{*}F)^{an} \to R^{p}f^{an}_{*}(F^{an}).
-$$
+$$ (4.1.1) \theta_{p}: (R^{p}f_{*}F)^{an} \to R^{p}f^{an}_{*}(F^{an}). $$
 
 **Theorem.**
 
@@ -577,15 +553,13 @@ Let
 $f: X \to Y$ be a proper morphism of $\mathbb{C}$-schemes locally of finite type, and let $F$ be a coherent
 $\mathcal{O}_{X}$-module. Then, for every integer $p \geq 0$, the morphism (4.1.1)
 
-$$
-\theta_{p}: (R^{p}f_{*}F)^{an} \to R^{p}f^{an}_{*}(F^{an})
-$$
+$$ \theta_{p}: (R^{p}f_{*}F)^{an} \to R^{p}f^{an}_{*}(F^{an}) $$
 
 is an isomorphism.
 
 1. **The case where $f$ is projective.** The proof is analogous to that of [XII.10, no. 13]. Let us recall it briefly.
-   One reduces to the case where $X$ is a projective space of type $\mathbb{P}^{r}_{Y}$ over $Y$. Let
-   $\mathcal{Y} = Y^{an}$ and $\mathcal{P} = \mathbb{P}^{r}_{\mathcal{Y}}$. One first proves that
+   One reduces to the case where $X$ is a projective space of type $\mathbb{P}^{r}_{Y}$ over $Y$. Let $\mathcal{Y} =
+   Y^{an}$ and $\mathcal{P} = \mathbb{P}^{r}_{\mathcal{Y}}$. One first proves that
 
 ```text
 f_*^an 𝒪_𝓟 = 𝒪_𝓨,     Rᵖf_*^an(𝒪_𝓟) = 0 for p > 0.
@@ -593,12 +567,10 @@ f_*^an 𝒪_𝓟 = 𝒪_𝓨,     Rᵖf_*^an(𝒪_𝓟) = 0 for p > 0.
 
 To verify the preceding relations, one may reduce to the case where $\mathcal{Y}$ is a ball $\mathcal{B}$ in an affine
 space $\mathcal{E}^{n}$. One considers the “standard covering” ${\mathcal{U}_{i}}$ of $\mathcal{P}$ by $r + 1$ open
-subsets isomorphic to $\mathcal{B} \times \mathcal{E}^{r}$. Since these opens are Stein, one has, for every integer
-$p \geq 0$, isomorphisms
+subsets isomorphic to $\mathcal{B} \times \mathcal{E}^{r}$. Since these opens are Stein, one has, for every integer $p
+\geq 0$, isomorphisms
 
-$$
-H^{p}({\mathcal{U}_{i}},\mathcal{O}_{\mathcal{P}}) \simeq H^{p}(\mathcal{P},\mathcal{O}_{\mathcal{P}}).
-$$
+$$ H^{p}({\mathcal{U}_{i}},\mathcal{O}_{\mathcal{P}}) \simeq H^{p}(\mathcal{P},\mathcal{O}_{\mathcal{P}}). $$
 
 One can then express the sections of the structural sheaf $\mathcal{O}_{\mathcal{P}}$ on the opens $\mathcal{U}_{i}$ and
 on their intersections in terms of Laurent series. An easy calculation proves that
@@ -633,35 +605,26 @@ To verify the third condition, one may restrict to the case where $X$ is an irre
 We could have supposed $Y$ noetherian from the beginning. By Chow’s lemma (EGA II 5.6.1), one can find a projective
 $Y$-scheme $X'$ and a projective surjective morphism $g: X' \to X$. On the other hand, there exists an integer $n$ such
 that $R^{p}g_{*}(\mathcal{O}_{X}'(n)) = 0$ for all $p > 0$ and such that the canonical morphism
-$g*g_{*}(\mathcal{O}_{X}'(n)) \to \mathcal{O}_{X}'(n)$ is surjective (EGA III 2.2.1). If one puts
-$F = g_{*}(\mathcal{O}_{X}'(n))$, the sheaf $F$ answers the question. Indeed $F_{x} \neq 0$; moreover, the Leray
-spectral sequence
+$g*g_{*}(\mathcal{O}_{X}'(n)) \to \mathcal{O}_{X}'(n)$ is surjective (EGA III 2.2.1). If one puts $F =
+g_{*}(\mathcal{O}_{X}'(n))$, the sheaf $F$ answers the question. Indeed $F_{x} \neq 0$; moreover, the Leray spectral
+sequence
 
-$$
-R^{p}f_{*}(R^{qg}_{*}(\mathcal{O}_{X}'(n))) \Rightarrow R^{p+q}(f\cdot g)_{*}(\mathcal{O}_{X}'(n))
-$$
+$$ R^{p}f_{*}(R^{qg}_{*}(\mathcal{O}_{X}'(n))) \Rightarrow R^{p+q}(f\cdot g)_{*}(\mathcal{O}_{X}'(n)) $$
 
 is degenerate, so one has an isomorphism
 
-$$
-R^{p}f_{*}F \simeq R^{p}(f\cdot g)_{*}(\mathcal{O}_{X}'(n)).
-$$
+$$ R^{p}f_{*}F \simeq R^{p}(f\cdot g)_{*}(\mathcal{O}_{X}'(n)). $$
 
 <!-- original page 329 -->
 
 As in the algebraic case, one has a canonical isomorphism
 
-$$
-R^{p}f^{an}_{*} F^{an} \simeq R^{p}(f\cdot g)^{an}_{*}(\mathcal{O}_{X}'(n)^{an}),
-$$
+$$ R^{p}f^{an}_{*} F^{an} \simeq R^{p}(f\cdot g)^{an}_{*}(\mathcal{O}_{X}'(n)^{an}), $$
 
 and the diagram
 
-$$
-(R^{p}f_{*}F)^{an}  \simeq  (R^{p}(f\cdot g)_{*}(\mathcal{O}_{X}'(n)))^{an}
-      \downarrow \theta_{p}                \downarrow \psi_{p}
-R^{p}f^{an}_{*} F^{an} \simeq R^{p}(f\cdot g)^{an}_{*}(\mathcal{O}_{X}'(n)^{an})
-$$
+$$ (R^{p}f_{*}F)^{an} \simeq (R^{p}(f\cdot g)_{*}(\mathcal{O}_{X}'(n)))^{an} \downarrow \theta_{p} \downarrow \psi_{p}
+R^{p}f^{an}_{*} F^{an} \simeq R^{p}(f\cdot g)^{an}_{*}(\mathcal{O}_{X}'(n)^{an}) $$
 
 is commutative. By 1, $\psi_{p}$ is an isomorphism; hence $\theta_{p}$ is also an isomorphism. This completes the proof.
 
@@ -669,12 +632,10 @@ is commutative. By 1, $\psi_{p}$ is an isomorphism; hence $\theta_{p}$ is also a
 
 <!-- label: XII.4.3 -->
 
-Let $X$ be a proper $\mathbb{C}$-scheme, and let $F$ be a coherent $\mathcal{O}_{X}$-module. Then, for every integer
-$p \geq 0$, the canonical morphism
+Let $X$ be a proper $\mathbb{C}$-scheme, and let $F$ be a coherent $\mathcal{O}_{X}$-module. Then, for every integer $p
+\geq 0$, the canonical morphism
 
-$$
-H^{p}(X,F) \to H^{p}(X^{an},F^{an})
-$$
+$$ H^{p}(X,F) \to H^{p}(X^{an},F^{an}) $$
 
 is an isomorphism.
 
@@ -717,13 +678,12 @@ the coherent sheaves defined by requiring the sequence
 0 → 𝓚 → 𝓕 → f_*^an f^an*𝓕 → 𝓛 → 0
 ```
 
-to be exact. Since $X'$ is projective, there exists a coherent $\mathcal{O}_{X}'$-module $F'$ such that
-$F'^{an} \simeq f^{an}*\mathcal{F}$. From XII.4.2 one then deduces an isomorphism
-$(f_{*}F')^{an} \simeq f^{an}_{*} f^{an}*\mathcal{F}$. Since $\mathcal{K}|U^{an}$ and $\mathcal{L}|U^{an}$ are zero,
-there exist coherent $\mathcal{O}_{X}$-modules $K$ and $L$ such that $K^{an} \simeq \mathcal{K}$ and
-$L^{an} \simeq \mathcal{L}$. By 1, the morphism $f^{an}_{*} f^{an}*\mathcal{F} \to \mathcal{L}$ comes from a unique
-morphism $f_{*}F' \to L$. Let $I = Ker(f_{*}F' \to L)$. The sheaf $\mathcal{F}$ is then an extension of $I^{an}$ by
-$K^{an}$, and it remains only to see that this extension comes
+to be exact. Since $X'$ is projective, there exists a coherent $\mathcal{O}_{X}'$-module $F'$ such that $F'^{an} \simeq
+f^{an}*\mathcal{F}$. From XII.4.2 one then deduces an isomorphism $(f_{*}F')^{an} \simeq f^{an}_{*} f^{an}*\mathcal{F}$.
+Since $\mathcal{K}|U^{an}$ and $\mathcal{L}|U^{an}$ are zero, there exist coherent $\mathcal{O}_{X}$-modules $K$ and $L$
+such that $K^{an} \simeq \mathcal{K}$ and $L^{an} \simeq \mathcal{L}$. By 1, the morphism $f^{an}_{*} f^{an}*\mathcal{F}
+\to \mathcal{L}$ comes from a unique morphism $f_{*}F' \to L$. Let $I = Ker(f_{*}F' \to L)$. The sheaf $\mathcal{F}$ is
+then an extension of $I^{an}$ by $K^{an}$, and it remains only to see that this extension comes
 
 <!-- original page 331 -->
 
@@ -761,9 +721,7 @@ The functor which associates $X^{an}$ to every proper $\mathbb{C}$-scheme $X$ is
 
 We must show that, if $X$ and $Y$ are two proper $\mathbb{C}$-schemes, the canonical map
 
-$$
-\operatorname{Hom}_{\mathbb{C}}(X,Y) \to \operatorname{Hom}(X^{an},Y^{an})
-$$
+$$ \operatorname{Hom}_{\mathbb{C}}(X,Y) \to \operatorname{Hom}(X^{an},Y^{an}) $$
 
 is bijective. But to give a morphism from $X$ to $Y$, respectively from $X^{an}$ to $Y^{an}$, is equivalent to giving
 its graph, that is, a closed subscheme $Z$ of $X \times Y$, respectively a closed analytic subspace $\mathcal{Z}$ of
@@ -772,8 +730,8 @@ $X^{an} \times Y^{an} \to X^{an}$ to $\mathcal{Z}$, is
 
 <!-- original page 332 -->
 
-an isomorphism. Since giving a closed subscheme of $X \times Y$, respectively a closed analytic subspace of
-$X^{an} \times Y^{an}$, is equivalent to giving a coherent sheaf of ideals on $\mathcal{O}_{X\times Y}$, respectively on
+an isomorphism. Since giving a closed subscheme of $X \times Y$, respectively a closed analytic subspace of $X^{an}
+\times Y^{an}$, is equivalent to giving a coherent sheaf of ideals on $\mathcal{O}_{X\times Y}$, respectively on
 $\mathcal{O}_{X^{an}\times Y^{an}}$, the corollary follows from XII.4.4.
 
 **Corollary.**
@@ -817,9 +775,7 @@ from the category of finite étale coverings of $X$ to the category of finite é
 
 <!-- label: eq:XII.5.* -->
 
-$$
-(*)   \operatorname{Hom}_{X}(X',X'') \to \operatorname{Hom}^{an}_{X}(X'^{an},X''^{an})
-$$
+$$ (*) \operatorname{Hom}_{X}(X',X'') \to \operatorname{Hom}^{an}_{X}(X'^{an},X''^{an}) $$
 
 is bijective. We may suppose $X'$ connected. To give an $X$-morphism from $X'$ to $X''$ is equivalent to giving a
 connected component $X_{i}$ of $X' \times_{X} X''$ such that the morphism $X_{i} \to X'$ induced by the first projection
@@ -828,8 +784,8 @@ components of $X'^{an} \times_{X^{an}} X''^{an}$ (XII.2.6), and since a morphism
 only if $X^{an}_{i} \to X'^{an}$ is one, this proves the bijectivity of `(*)`.
 
 1. **The functor $\Psi$ is essentially surjective.** Let $\mathcal{X}'$ be a finite étale covering of $X^{an}$, and let
-   us prove that there exists an étale covering $X'$ of $X$ such that one has an isomorphism
-   $X'^{an} \simeq \mathcal{X}'$. In view of 1, the question is local on $X$, so we may suppose $X$ affine.
+   us prove that there exists an étale covering $X'$ of $X$ such that one has an isomorphism $X'^{an} \simeq
+   \mathcal{X}'$. In view of 1, the question is local on $X$, so we may suppose $X$ affine.
 
 a. **Reduction to the case where $X$ is normal.** We may suppose $X$ reduced. Indeed, suppose the theorem proved for
 $X_{red}$. The functor which associates to a finite étale covering $X'$ of $X$ the finite étale covering $X'^{an}_{red}$
@@ -843,11 +799,11 @@ We
 
 may suppose $X$ normal. Indeed, let $\tilde{X}$ be the normalization of $X$, and let $p: \tilde{X} \to X$ be the
 canonical morphism. Since $p$ is finite, $p$ is a morphism of effective descent for the category of étale coverings
-(IX.4.7). Supposing the theorem proved for $\tilde{X}$, put
-$\tilde{\mathcal{X}}' = \mathcal{X}' \times_{X^{an}} \tilde{X}^{an}$. There exists an étale covering $\tilde{X}'$ of
-$\tilde{X}$ and an isomorphism $\tilde{X}'^{an} \simeq \tilde{\mathcal{X}}'$. It then follows from 1 that the natural
-descent datum on $\tilde{\mathcal{X}}'$ lifts to a descent datum on $\tilde{X}'$ relative to $\tilde{X} \to X$. This
-proves the existence of an étale covering $X'$ of $X$ such that one has an isomorphism
+(IX.4.7). Supposing the theorem proved for $\tilde{X}$, put $\tilde{\mathcal{X}}' = \mathcal{X}' \times_{X^{an}}
+\tilde{X}^{an}$. There exists an étale covering $\tilde{X}'$ of $\tilde{X}$ and an isomorphism $\tilde{X}'^{an} \simeq
+\tilde{\mathcal{X}}'$. It then follows from 1 that the natural descent datum on $\tilde{\mathcal{X}}'$ lifts to a
+descent datum on $\tilde{X}'$ relative to $\tilde{X} \to X$. This proves the existence of an étale covering $X'$ of $X$
+such that one has an isomorphism
 
 ```text
 i: X′^an ×_{X^an} X̃^an ≃ 𝓧̃′,
@@ -899,9 +855,7 @@ $U'$. The canonical morphism
 
 defines a morphism of sheaves of modules on $\operatorname{Spec} \mathcal{O}^{an}_{X},y$:
 
-$$
-\alpha_{y}: (i_{*}H)^{an}_{y} \to \mathcal{F}_{y},
-$$
+$$ \alpha_{y}: (i_{*}H)^{an}_{y} \to \mathcal{F}_{y}, $$
 
 whose restriction to
 
@@ -909,14 +863,12 @@ whose restriction to
 U_y = U_φ(y) ×_{Spec 𝒪_X,φ(y)} Spec 𝒪_X^an,y
 ```
 
-is an isomorphism. But this proves that $H|U_{y}$ is trivial, hence that $U'_{\phi}(y)$ extends to
-$\operatorname{Spec} \mathcal{O}_{X},\phi(y)$.
+is an isomorphism. But this proves that $H|U_{y}$ is trivial, hence that $U'_{\phi}(y)$ extends to $\operatorname{Spec}
+\mathcal{O}_{X},\phi(y)$.
 
 c. **The case where $X$ is affine regular.** Let
 
-$$
-j: X \to P
-$$
+$$ j: X \to P $$
 
 be a compactification of $X$, where $P$ is a projective $\mathbb{C}$-scheme and $j$ is a dominant open immersion. By the
 resolution of singularities theorem [XII.8], one can find a regular scheme $R$ and a projective morphism $r: R \to P$,
@@ -925,25 +877,22 @@ divisor with normal crossings. Let
 
 <!-- original page 336 -->
 
-$$
-k: X \to R
-$$
+$$ k: X \to R $$
 
 be the canonical immersion. We shall show that there exists a finite normal covering $\mathcal{R}'$ of $R^{an}$, in the
 sense of XII.5.0, which extends the étale covering $X'^{an}$. By Proposition XII.5.3 below, such a covering is unique;
-the problem of extending $X'^{an}$ is therefore local on $R^{an}$ near $R^{an} - X^{an}$. But each point of
-$R^{an} - X^{an}$ has an open neighborhood $\mathcal{V}$ isomorphic to a ball in an affine space $\mathcal{E}^{n}$, such
-that $\mathcal{V} - \mathcal{V} \cap X^{an}$ is defined by the vanishing of the first $p$ coordinate functions
-$z_{1}, \cdots, z_{p}$, with $0 \leq p \leq n$. The fundamental group of $\mathcal{U} = \mathcal{V} \cap X^{an}$ is
-isomorphic to $\mathbb{Z}^{p}$, and every étale covering of $\mathcal{U}$ is a quotient of a covering of the form
+the problem of extending $X'^{an}$ is therefore local on $R^{an}$ near $R^{an} - X^{an}$. But each point of $R^{an} -
+X^{an}$ has an open neighborhood $\mathcal{V}$ isomorphic to a ball in an affine space $\mathcal{E}^{n}$, such that
+$\mathcal{V} - \mathcal{V} \cap X^{an}$ is defined by the vanishing of the first $p$ coordinate functions $z_{1},
+\cdots, z_{p}$, with $0 \leq p \leq n$. The fundamental group of $\mathcal{U} = \mathcal{V} \cap X^{an}$ is isomorphic
+to $\mathbb{Z}^{p}$, and every étale covering of $\mathcal{U}$ is a quotient of a covering of the form
 
 ```text
 𝓤″ = 𝓤[T₁,…,T_p]/(T₁ⁿ¹ − z₁, …, T_pⁿᵖ − z_p),
 ```
 
-where the $n_{i}$ are integers `> 0`, by a subgroup $H$ of the Galois group
-$\mathbb{Z}/n_{1}\mathbb{Z} \times \cdots \times \mathbb{Z}/n_{p}\mathbb{Z}$ of $\mathcal{U}''$. But $\mathcal{U}''$
-extends to the regular covering
+where the $n_{i}$ are integers `> 0`, by a subgroup $H$ of the Galois group $\mathbb{Z}/n_{1}\mathbb{Z} \times \cdots
+\times \mathbb{Z}/n_{p}\mathbb{Z}$ of $\mathcal{U}''$. But $\mathcal{U}''$ extends to the regular covering
 
 ```text
 𝓥″ = 𝓥[T₁,…,T_p]/(T₁ⁿ¹ − z₁, …, T_pⁿᵖ − z_p)
@@ -980,17 +929,15 @@ subgroups of finite index. The corollary therefore follows from XII.5.1 and V.6.
 
 <!-- label: XII.5.3 -->
 
-Let $\mathcal{X}$ be a normal analytic space, and let $\mathcal{Y}$ be a closed analytic subset such that
-$\mathcal{U} = \mathcal{X} - \mathcal{Y}$ is dense in $\mathcal{X}$. Then the functor which associates to every normal
-finite covering $\mathcal{X}'$ of $\mathcal{X}$, in the sense of XII.5.0, its restriction to $\mathcal{U}$ is fully
-faithful.
+Let $\mathcal{X}$ be a normal analytic space, and let $\mathcal{Y}$ be a closed analytic subset such that $\mathcal{U} =
+\mathcal{X} - \mathcal{Y}$ is dense in $\mathcal{X}$. Then the functor which associates to every normal finite covering
+$\mathcal{X}'$ of $\mathcal{X}$, in the sense of XII.5.0, its restriction to $\mathcal{U}$ is fully faithful.
 
 Let $\mathcal{X}'$ and $\mathcal{X}''$ be two finite normal coverings of $\mathcal{X}$. We must show that the canonical
 map
 
-$$
-\operatorname{Hom}_{\mathcal{X}}(\mathcal{X}',\mathcal{X}'') \to \operatorname{Hom}_{\mathcal{U}}(\mathcal{X}'|\mathcal{U},\mathcal{X}''|\mathcal{U})
-$$
+$$ \operatorname{Hom}_{\mathcal{X}}(\mathcal{X}',\mathcal{X}'') \to
+\operatorname{Hom}_{\mathcal{U}}(\mathcal{X}'|\mathcal{U},\mathcal{X}''|\mathcal{U}) $$
 
 is bijective. Let $u$, $v$ be two $\mathcal{X}$-morphisms from $\mathcal{X}'$ to $\mathcal{X}''$ whose restrictions to
 $\mathcal{U}$ are the same, and let us prove that $u = v$. The morphisms $u$ and
@@ -1002,10 +949,10 @@ spaces. By [XII.4, no. 19, §4, cor. 5], this proves $u = v$.
 
 Let now $u$ be a $\mathcal{U}$-morphism from $\mathcal{X}'|\mathcal{U}$ to $\mathcal{X}''|\mathcal{U}$, and let us show
 that it extends to all of $\mathcal{X}'$. We may suppose $\mathcal{X}'$ regular. Indeed, since $\mathcal{X}'$ is normal,
-one can find an open subset $\mathcal{V}$ of $\mathcal{X}$ whose complement is an analytic subset of codimension
-$\geq 2$, such that $\mathcal{X}' \times_{\mathcal{X}} \mathcal{V} = \mathcal{V}'$ is regular. Let
-$\mathcal{V}'' = \mathcal{X}'' \times_{\mathcal{X}} \mathcal{V}$, and suppose the proposition proved for $\mathcal{V}$.
-Consider the commutative diagram
+one can find an open subset $\mathcal{V}$ of $\mathcal{X}$ whose complement is an analytic subset of codimension $\geq
+2$, such that $\mathcal{X}' \times_{\mathcal{X}} \mathcal{V} = \mathcal{V}'$ is regular. Let $\mathcal{V}'' =
+\mathcal{X}'' \times_{\mathcal{X}} \mathcal{V}$, and suppose the proposition proved for $\mathcal{V}$. Consider the
+commutative diagram
 
 ```text
 𝓥′  → 𝓧′
@@ -1017,23 +964,17 @@ and similarly 𝓥″ → 𝓧″ over 𝓥 → 𝓧.
 
 With $u$ there is associated a morphism of $\mathcal{O}_{\mathcal{V}}$-algebras
 
-$$
-g''_{*}\mathcal{O}_{\mathcal{V}}'' \to g'_{*}\mathcal{O}_{\mathcal{V}}',
-$$
+$$ g''_{*}\mathcal{O}_{\mathcal{V}}'' \to g'_{*}\mathcal{O}_{\mathcal{V}}', $$
 
 from which one deduces a morphism
 
-$$
-i_{*}g''_{*}\mathcal{O}_{\mathcal{V}}'' \to i_{*}g'_{*}\mathcal{O}_{\mathcal{V}}'.
-$$
+$$ i_{*}g''_{*}\mathcal{O}_{\mathcal{V}}'' \to i_{*}g'_{*}\mathcal{O}_{\mathcal{V}}'. $$
 
 Taking into account the isomorphisms $i'_{*}\mathcal{O}_{\mathcal{V}}' \simeq \mathcal{O}_{\mathcal{X}}'$ and
 $i''_{*}\mathcal{O}_{\mathcal{V}}'' \simeq \mathcal{O}_{\mathcal{X}}''$ [XII.11, no. 3, prop. 4], one deduces a morphism
 of $\mathcal{O}_{\mathcal{X}}$-algebras
 
-$$
-f''_{*}\mathcal{O}_{\mathcal{X}}'' \to f'_{*}\mathcal{O}_{\mathcal{X}}',
-$$
+$$ f''_{*}\mathcal{O}_{\mathcal{X}}'' \to f'_{*}\mathcal{O}_{\mathcal{X}}', $$
 
 hence the desired morphism $\mathcal{X}' \to \mathcal{X}''$.
 
@@ -1041,9 +982,9 @@ We
 
 <!-- original page 339 -->
 
-now suppose $\mathcal{X}'$ regular. Let $\mathcal{U}' = \mathcal{U} \times_{\mathcal{X}} \mathcal{X}'$ and
-$\mathcal{Y}' = \mathcal{X}' - \mathcal{U}'$. We regard $\mathcal{Y}'$ as a reduced analytic subspace of $\mathcal{X}'$.
-If $\mathcal{Y}'_{1}$ is the singular closed subset of $\mathcal{Y}'$, then $\dim \mathcal{Y}'_{1} < \dim \mathcal{Y}'$
+now suppose $\mathcal{X}'$ regular. Let $\mathcal{U}' = \mathcal{U} \times_{\mathcal{X}} \mathcal{X}'$ and $\mathcal{Y}'
+= \mathcal{X}' - \mathcal{U}'$. We regard $\mathcal{Y}'$ as a reduced analytic subspace of $\mathcal{X}'$. If
+$\mathcal{Y}'_{1}$ is the singular closed subset of $\mathcal{Y}'$, then $\dim \mathcal{Y}'_{1} < \dim \mathcal{Y}'$
 [XII.4, no. 20 D, th. 3]. Thus, by induction on the dimension of $\mathcal{Y}'$, one may suppose $\mathcal{Y}'$ smooth.
 Since it is enough to extend $u$ to an open neighborhood of each point of $\mathcal{Y}'$, the implicit function theorem
 lets us suppose that $\mathcal{X}'$ is a ball in an affine space $\mathcal{E}^{n}$ and that $\mathcal{Y}'$ is the closed
@@ -1057,13 +998,13 @@ p: 𝓧′ ×_𝓧 𝓧″ → 𝓧′
 
 above $\mathcal{U}'$. After restricting $\mathcal{X}'$ if necessary, one may suppose that
 $p_{*}(\mathcal{O}_{\mathcal{X}'\times_{\mathcal{XX}}''})$ is generated by elements $x_{1}, \cdots, x_{q}$ of
-$\Gamma(\mathcal{X}', p_{*}\mathcal{O}_{\mathcal{X}'\times_{\mathcal{XX}}''})$. Let
-$u_{1}, \cdots, u_{q} \in \Gamma(\mathcal{U}',\mathcal{O}_{\mathcal{X}}')$ be the images by $s$ of
-$x_{1}|\mathcal{U}', \cdots, x_{q}|\mathcal{U}'$. Saying that $s$ extends to $\mathcal{X}'$ is equivalent to saying that
-$u_{1}, \cdots, u_{q}$ extend to sections of $\Gamma(\mathcal{X}',\mathcal{O}_{\mathcal{X}}')$. But, since $f$ is
-finite, each $u_{i}$ is a Laurent series in $z_{1}, \cdots, z_{p}$ with coefficients that are convergent power series in
-$z_{p+1}, \cdots, z_{n}$, and satisfies integral-dependence relations. It follows that $u_{i}$ is bounded, hence is a
-convergent power series in $z_{1}, \cdots, z_{n}$, and therefore extends to $\mathcal{X}'$.
+$\Gamma(\mathcal{X}', p_{*}\mathcal{O}_{\mathcal{X}'\times_{\mathcal{XX}}''})$. Let $u_{1}, \cdots, u_{q} \in
+\Gamma(\mathcal{U}',\mathcal{O}_{\mathcal{X}}')$ be the images by $s$ of $x_{1}|\mathcal{U}', \cdots,
+x_{q}|\mathcal{U}'$. Saying that $s$ extends to $\mathcal{X}'$ is equivalent to saying that $u_{1}, \cdots, u_{q}$
+extend to sections of $\Gamma(\mathcal{X}',\mathcal{O}_{\mathcal{X}}')$. But, since $f$ is finite, each $u_{i}$ is a
+Laurent series in $z_{1}, \cdots, z_{p}$ with coefficients that are convergent power series in $z_{p+1}, \cdots, z_{n}$,
+and satisfies integral-dependence relations. It follows that $u_{i}$ is bounded, hence is a convergent power series in
+$z_{1}, \cdots, z_{n}$, and therefore extends to $\mathcal{X}'$.
 
 One may ask whether the functor introduced in XII.5.3 is an equivalence of categories. This question has an answer by
 the theorem of Grauert-Remmert [XII.6], for which we give below a proof using resolution of singularities. One could
@@ -1077,12 +1018,11 @@ Let
 
 <!-- original page 340 -->
 
-$\mathcal{X}$ be a normal analytic space, and let $\mathcal{Y}$ be a closed analytic subset such that
-$\mathcal{U} = \mathcal{X} - \mathcal{Y}$ is dense in $\mathcal{X}$. Let $\mathcal{U}'$ be a normal finite covering of
-$\mathcal{U}$. Suppose that there exists a rare closed analytic subset $\mathcal{S}$ of $\mathcal{X}$ such that the
-restriction of $\mathcal{U}'$ to $\mathcal{U} - \mathcal{U} \cap \mathcal{S}$ is étale. Then there exists a normal
-finite covering $\mathcal{X}'$ of $\mathcal{X}$ extending $\mathcal{U}'$, and $\mathcal{X}'$ is unique up to
-isomorphism.
+$\mathcal{X}$ be a normal analytic space, and let $\mathcal{Y}$ be a closed analytic subset such that $\mathcal{U} =
+\mathcal{X} - \mathcal{Y}$ is dense in $\mathcal{X}$. Let $\mathcal{U}'$ be a normal finite covering of $\mathcal{U}$.
+Suppose that there exists a rare closed analytic subset $\mathcal{S}$ of $\mathcal{X}$ such that the restriction of
+$\mathcal{U}'$ to $\mathcal{U} - \mathcal{U} \cap \mathcal{S}$ is étale. Then there exists a normal finite covering
+$\mathcal{X}'$ of $\mathcal{X}$ extending $\mathcal{U}'$, and $\mathcal{X}'$ is unique up to isomorphism.
 
 Uniqueness follows from XII.5.3. The problem of extending $\mathcal{U}'$ is therefore local on $\mathcal{X}$. We may
 suppose $\mathcal{U}$ regular and $\mathcal{U}'$ étale over $\mathcal{U}$. Indeed, the set of regular points of
@@ -1091,13 +1031,13 @@ $\mathcal{U}$ is a dense open subset $\mathcal{V}$ of $\mathcal{X}$ whose comple
 
 Let $y$ be a point of $\mathcal{X} - \mathcal{U}$ and let us show that one can extend $\mathcal{U}'$ to a neighborhood
 of $y$. After restricting $\mathcal{X}$ to an open neighborhood of $y$, it follows from the resolution of singularities
-theorem [XII.8] that one can find a regular analytic space $\mathcal{X}_{1}$ and a projective morphism
-$f: \mathcal{X}_{1} \to \mathcal{X}$ inducing by restriction to $\mathcal{U}$ an isomorphism
-$\mathcal{U}_{1} = f^{-1}(\mathcal{U}) \simeq \mathcal{U}$, such that $\mathcal{U}_{1}$ is the complement in
-$\mathcal{X}_{1}$ of a divisor with normal crossings. Let us show that $\mathcal{U}'$ extends to a normal finite
-covering of $\mathcal{X}_{1}$. Since the question is local on $\mathcal{X}_{1}$, one may suppose that $\mathcal{X}_{1}$
-is a ball in an affine space $\mathcal{E}^{n}$ and that $\mathcal{X}_{1} - \mathcal{U}_{1}$ is defined by the vanishing
-of the first $p$ coordinate functions $z_{1}, \cdots, z_{p}$, with $0 \leq p \leq n$.
+theorem [XII.8] that one can find a regular analytic space $\mathcal{X}_{1}$ and a projective morphism $f:
+\mathcal{X}_{1} \to \mathcal{X}$ inducing by restriction to $\mathcal{U}$ an isomorphism $\mathcal{U}_{1} =
+f^{-1}(\mathcal{U}) \simeq \mathcal{U}$, such that $\mathcal{U}_{1}$ is the complement in $\mathcal{X}_{1}$ of a divisor
+with normal crossings. Let us show that $\mathcal{U}'$ extends to a normal finite covering of $\mathcal{X}_{1}$. Since
+the question is local on $\mathcal{X}_{1}$, one may suppose that $\mathcal{X}_{1}$ is a ball in an affine space
+$\mathcal{E}^{n}$ and that $\mathcal{X}_{1} - \mathcal{U}_{1}$ is defined by the vanishing of the first $p$ coordinate
+functions $z_{1}, \cdots, z_{p}$, with $0 \leq p \leq n$.
 \[Translator note: the corrected source fixes $z_{q}$ to $z_{p}$ in this list.\] The étale covering $\mathcal{U}'$ of
 $\mathcal{U}_{1}$ is a quotient of a covering of the form
 
@@ -1127,13 +1067,11 @@ and $\mathcal{X}'$ is the desired extension of $\mathcal{U}'$.
 
 <!-- label: XII.5.5 -->
 
-In the statement XII.5.4, one cannot remove the hypothesis on the locus of points where the morphism
-$\mathcal{U}' \to \mathcal{U}$ is not étale. For example, let $\mathcal{X}$ be the unit disk in the complex plane, let
-$\mathcal{U}$ be the complement of the origin in $\mathcal{X}$, and let
+In the statement XII.5.4, one cannot remove the hypothesis on the locus of points where the morphism $\mathcal{U}' \to
+\mathcal{U}$ is not étale. For example, let $\mathcal{X}$ be the unit disk in the complex plane, let $\mathcal{U}$ be
+the complement of the origin in $\mathcal{X}$, and let
 
-$$
-\mathcal{U}' = \mathcal{U}[T]/(T^{2} - \sin(1/z)),
-$$
+$$ \mathcal{U}' = \mathcal{U}[T]/(T^{2} - \sin(1/z)), $$
 
 where $z$ is the coordinate function on $\mathcal{X}$. Then $\mathcal{U}'$ is a normal finite covering of $\mathcal{U}$
 which does not extend to $\mathcal{X}$. Indeed, suppose $\mathcal{U}'$ extended to a finite covering $\mathcal{X}'$ of

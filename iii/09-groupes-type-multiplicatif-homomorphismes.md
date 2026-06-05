@@ -20,8 +20,8 @@ morphism $S' \to U$ such that $G' = G \times_{S} S'$ is a diagonalizable $S'$-gr
 
 — *One says that $G$ is* of quasi-isotrivial multiplicative type *if it is even locally diagonalizable in the sense of
 the étale topology (IV 6.3), i.e. if in the preceding definition one can even take $S' \to U$ étale surjective, or again
-(which amounts to the same, as one sees by taking the disjoint-sum scheme of the various $S'$ attached to the various
-$s \in S$) if there exists $S' \to S$ étale and surjective such that $G' = G \times_{S} S'$ is a locally diagonalizable
+(which amounts to the same, as one sees by taking the disjoint-sum scheme of the various $S'$ attached to the various $s
+\in S$) if there exists $S' \to S$ étale and surjective such that $G' = G \times_{S} S'$ is a locally diagonalizable
 $S'$-group.*
 
 — *If one can even choose $S' \to S$ étale surjective and finite, one says that $G$ is* of isotrivial multiplicative
@@ -29,8 +29,8 @@ type.
 
 — *Finally, one says that $G$ is a* group of locally trivial *(resp.* locally isotrivial\*) multiplicative type if every
 $s \in S$ admits an open neighborhood $U$ such that $G \times_{S} U$ is a diagonalizable $U$-group (resp. a group of
-isotrivial multiplicative type, i.e. there exists an étale surjective finite morphism $S' \to U$ such that
-$G \times_{S} S'$ is a diagonalizable $S'$-group).\*
+isotrivial multiplicative type, i.e. there exists an étale surjective finite morphism $S' \to U$ such that $G \times_{S}
+S'$ is a diagonalizable $S'$-group).\*
 
 **Comments 1.2.** One will note that the five preceding notions all derive from the notion of diagonalizable group by
 the process of localization, in the sense of five different "topologies" associated with `(Sch)`.
@@ -69,21 +69,21 @@ groups of multiplicative type one will encounter in practice will doubtless be i
 shall see later that the maximal tori of semisimple group schemes are automatically isotrivial.
 
 **Definition 1.3.** *Let $S$, $G$ be as in 1.1. One says that $G$ is a* torus *if it is locally isomorphic, in the sense
-of the faithfully flat quasi-compact topology, to a group of the form $G^{r}_{m}$ (where $r$ is an integer
-$\geqslant 0$).*
+of the faithfully flat quasi-compact topology, to a group of the form $G^{r}_{m}$ (where $r$ is an integer $\geqslant
+0$).*
 
 <!-- original page 39 -->
 
 <!-- label: III.IX.1.3 -->
 
 With the notation of 1.1, this means therefore that one can choose $S'$ such that $G'$ be isomorphic to a group of the
-form $(G_{m,S'})^{r}$. One will note that the integer $r$ depends on $s \in S$: it is the dimension of the fiber
-$G_{s} = G \otimes_{S} \kappa(s)$. It is a locally constant function of $s$, as one verifies at once. There is occasion
-to generalize this remark:
+form $(G_{m,S'})^{r}$. One will note that the integer $r$ depends on $s \in S$: it is the dimension of the fiber $G_{s}
+= G \otimes_{S} \kappa(s)$. It is a locally constant function of $s$, as one verifies at once. There is occasion to
+generalize this remark:
 
 **Definition 1.4.** *Let $G$ be a diagonalizable group scheme over a field $k$, so that $G$ is isomorphic to a group
-$D_{k}(M)$, where $M$ is an ordinary commutative group, defined up to isomorphism by this condition — more precisely
-$M \simeq \operatorname{Hom}_{k-gr.}(G, G_{m,k})$ (VIII 1.3). The isomorphism class of $M$ is called the* type *of the
+$D_{k}(M)$, where $M$ is an ordinary commutative group, defined up to isomorphism by this condition — more precisely $M
+\simeq \operatorname{Hom}_{k-gr.}(G, G_{m,k})$ (VIII 1.3). The isomorphism class of $M$ is called the* type *of the
 diagonalizable group $G$; it is evidently invariant under extension of the base field.*
 
 <!-- label: III.IX.1.4 -->
@@ -141,8 +141,8 @@ concerned.
 
 <!-- original page 41 -->
 
-*b) $G$ of finite type over $S$ $\Leftrightarrow$ $G$ of finite presentation over $S$ $\Leftrightarrow$ for every
-$s \in S$, the type of $G$ at $s$ is given by a commutative group of finite type.*
+*b) $G$ of finite type over $S$ $\Leftrightarrow$ $G$ of finite presentation over $S$ $\Leftrightarrow$ for every $s \in
+S$, the type of $G$ at $s$ is given by a commutative group of finite type.*
 
 *c) $G$ finite over $S$ $\Leftrightarrow$ for every $s \in S$, the type of $G$ at $s$ is given by a finite commutative
 group $\Leftrightarrow$ (if $S$ quasi-compact) $G$ is of finite type over $S$ and is annihilated by an integer $n > 0$.*
@@ -161,8 +161,8 @@ quasi-compact morphisms (cf. SGA 1, VIII or EGA IV₂, § 2).
 
 Using VIII 3.5, one obtains likewise:
 
-**Proposition 2.2.** *Let $G$ be a group of multiplicative type and of finite type over $S$; then for every integer
-$n \neq 0$, the kernel ${}_{nG}$ of $n \cdot id_{G}$ is a group of multiplicative type, finite over $S$.*
+**Proposition 2.2.** *Let $G$ be a group of multiplicative type and of finite type over $S$; then for every integer $n
+\neq 0$, the kernel ${}_{nG}$ of $n \cdot id_{G}$ is a group of multiplicative type, finite over $S$.*
 
 <!-- label: III.IX.2.2 -->
 
@@ -176,10 +176,10 @@ the $S$-prescheme $X$ affine over $S$. Then:*
 *b) If moreover $X$ is of finite presentation (resp. of finite type) over $S$, the same holds for $Y$.*
 
 The first assertion follows from VIII 5.1, which treats the case where $G$ is diagonalizable, <!-- original page 42 -->
-and from IV 3.5.2, which allows one to reduce to that case, given that faithfully flat quasi-compact morphisms
-$S' \to S$ are morphisms of effective descent for the fibered category of affine schemes over others, i.e. for every
-$Y'$ affine over $S'$ endowed with a descent datum relative to $S' \to S$, this descent datum is effective, i.e. $Y'$
-comes from a $Y$ affine over $S$ (cf. SGA 1, VIII 2.1).
+and from IV 3.5.2, which allows one to reduce to that case, given that faithfully flat quasi-compact morphisms $S' \to
+S$ are morphisms of effective descent for the fibered category of affine schemes over others, i.e. for every $Y'$ affine
+over $S'$ endowed with a descent datum relative to $S' \to S$, this descent datum is effective, i.e. $Y'$ comes from a
+$Y$ affine over $S$ (cf. SGA 1, VIII 2.1).
 
 For the second assertion one is likewise reduced to the diagonalizable case VIII 5.8, since the finiteness conditions
 envisaged descend along faithfully flat quasi-compact morphisms (SGA 1, VIII 3.3 and 3.6[^N.D.E-IX-4]). Proceeding as in
@@ -193,8 +193,8 @@ VIII, Corollaries 5.5 to 5.7, one deduces from 2.3:
 X ×_S G ⟶ X ×_S X
 ```
 
-*is a closed immersion. For every section $\sigma$ of $X$ over $S$, the corresponding morphism $G \to X$,
-$g \mapsto \sigma \cdot g$ is a closed immersion.*
+*is a closed immersion. For every section $\sigma$ of $X$ over $S$, the corresponding morphism $G \to X$, $g \mapsto
+\sigma \cdot g$ is a closed immersion.*
 
 In particular:
 
@@ -248,8 +248,8 @@ detail is left to the reader.
 
 **Corollary 2.9.** *Let $u : G \to H$ be a homomorphism of $S$-groups of multiplicative type and of finite type. Let $U$
 be the set of points $s \in S$ such that $u_{s} : G_{s} \to H_{s}$ is a monomorphism (resp. faithfully flat, resp. an
-isomorphism). Then $U$ is both open and closed,* <!-- original page 44 --> *and the induced homomorphism
-$u_{U} : G_{U} \to H_{U}$ is a monomorphism (resp. faithfully flat, resp. an isomorphism).*
+isomorphism). Then $U$ is both open and closed,* <!-- original page 44 --> *and the induced homomorphism $u_{U} : G_{U}
+\to H_{U}$ is a monomorphism (resp. faithfully flat, resp. an isomorphism).*
 
 <!-- label: III.IX.2.9 -->
 
@@ -302,18 +302,18 @@ and $H$.*
 
 *Proof.* (i) By hypothesis $G = D_{S}(M)$, where $M$ is a commutative group of finite type. For every quotient group
 $M_{i}$ of $M$, let $H_{i} = D_{S}(M_{i})$ be the corresponding diagonalizable subgroup of $G$ (VIII 3.1). Let $S_{i}$
-be the set of $s \in S$ such that $H_{s} = (H_{i})_{s}$; by 2.10, $S_{i}$ is open and closed, and one has
-$H_{S_{i}} = (H_{i})_{S_{i}}$, hence $H_{S_{i}}$ is diagonalizable, hence so is $K_{S_{i}}$ (VIII 3.1). Evidently the
-$S_{i}$ are pairwise disjoint; we claim that they cover $S$. This follows from the fact that for every $s$, $H_{s}$ is
+be the set of $s \in S$ such that $H_{s} = (H_{i})_{s}$; by 2.10, $S_{i}$ is open and closed, and one has $H_{S_{i}} =
+(H_{i})_{S_{i}}$, hence $H_{S_{i}}$ is diagonalizable, hence so is $K_{S_{i}}$ (VIII 3.1). Evidently the $S_{i}$ are
+pairwise disjoint; we claim that they cover $S$. This follows from the fact that for every $s$, $H_{s}$ is
 diagonalizable, as a subgroup of the diagonalizable group $G_{s}$ (cf. 8.1 below[^N.D.E-IX-6]); hence $H_{s}$ is of the
 form $D_{\kappa(s)}(M_{i})$, by VIII, 1.5 and 3.2 b). Restricting to the family of non-empty $S_{i}$, the conclusion (i)
 appears.
 
 (ii) By hypothesis, there exists $S' \to S$ étale finite surjective such that $G_{S'}$ is diagonalizable. Hence every
 point of $S'$ has an open-and-closed neighborhood $U'$ such that $H_{U'}$ and $K_{U'}$ are diagonalizable. Then the
-image $U$ of $U'$ in $S$ is open and closed, and $S' \to S$ still induces an étale finite surjective morphism
-$U' \to U$; hence one sees that every <!-- original page 46 --> point $s$ of $S$ has an open-and-closed neighborhood $U$
-such that `H_U` and `K_U` are isotrivial. The conclusion (ii) follows at once.
+image $U$ of $U'$ in $S$ is open and closed, and $S' \to S$ still induces an étale finite surjective morphism $U' \to
+U$; hence one sees that every <!-- original page 46 --> point $s$ of $S$ has an open-and-closed neighborhood $U$ such
+that `H_U` and `K_U` are isotrivial. The conclusion (ii) follows at once.
 
 (iii) Follows at once from (i) and (ii) and the definitions. Note moreover that the "quasi-isotrivial" case will also
 follow from the more general fact that "finite type ⇒ quasi-isotrivial", announced in 1.2 (cf. X 4.5).
@@ -360,8 +360,8 @@ $J^{2} = 0$ and $u_{0} = v_{0}$, then there exists a $g \in G(S)$ such that $v =
 This follows from III 2.1 (ii), and from 3.1 (vanishing of $H^{1}$).
 
 **Corollary 3.3.** *Under the preliminary conditions of 3.2, suppose moreover $G$ smooth over $S$, but assume only $J$
-nilpotent (not necessarily of square zero). If there exists $g_{0} \in G_{0}(S_{0})$ such that
-$v_{0} = int(g_{0}) \circ u_{0}$, then $g_{0}$ lifts to a $g \in G(S)$ such that $v = int(g) \circ u$.*
+nilpotent (not necessarily of square zero). If there exists $g_{0} \in G_{0}(S_{0})$ such that $v_{0} = int(g_{0}) \circ
+u_{0}$, then $g_{0}$ lifts to a $g \in G(S)$ such that $v = int(g) \circ u$.*
 
 <!-- label: III.IX.3.3 -->
 
@@ -390,8 +390,8 @@ multiplicative type over $S$, $G$ a prescheme in groups smooth over $S$, $u_{0} 
 
 <!-- label: III.IX.3.6 -->
 
-*Then there exists a homomorphism $u : H \to G$ of $S$-groups which lifts $u_{0}$ (and by 3.3 any two such liftings
-$u, u'$ are conjugate by an element of $G(S)$ reducing along the unit element of $G(S_{0})$).*
+*Then there exists a homomorphism $u : H \to G$ of $S$-groups which lifts $u_{0}$ (and by 3.3 any two such liftings $u,
+u'$ are conjugate by an element of $G(S)$ reducing along the unit element of $G(S_{0})$).*
 
 This follows from III 2.1 and 2.3, and from 3.1 (vanishing of $H^{2}$ for the existence of the lift of $u_{0}$,
 vanishing of $H^{1}$ for the uniqueness up to conjugation).
@@ -401,8 +401,8 @@ applying them to the graph subgroups of the homomorphisms envisaged in 3.2 to 3.
 
 **Theorem 3.2 bis.** *Let $S$ be an affine scheme, `S_0` a subscheme defined by an ideal $J$, $G$ an $S$-prescheme in
 groups, $H, H'$ subpreschemes in groups, of multiplicative type, $G_{0}, H_{0}, H'_{0}$ the groups over `S_0` deduced by
-the base change $S_{0} \to S$. If $J^{2} = 0$ and $H_{0} = H'_{0}$, then there exists $g \in G(S)$ such that
-$H' = int(g)(H)$ and $g_{0} = e$.*
+the base change $S_{0} \to S$. If $J^{2} = 0$ and $H_{0} = H'_{0}$, then there exists $g \in G(S)$ such that $H' =
+int(g)(H)$ and $g_{0} = e$.*
 
 <!-- label: III.IX.3.2bis -->
 
@@ -418,8 +418,8 @@ commutative). Then $H_{0} = H'_{0}$ implies $H = H'$.*
 <!-- label: III.IX.3.4bis -->
 
 **Theorem 3.6 bis.** *Let $S$ be an affine scheme, `S_0` a subscheme defined by a nilpotent ideal $J$,* <!-- original
-page 49 --> *$G$ an $S$-prescheme in groups smooth over $S$, `H_0` a subprescheme in groups of
-$G_{0} = G \times_{S} S_{0}$, of multiplicative type. Then:*
+page 49 --> *$G$ an $S$-prescheme in groups smooth over $S$, `H_0` a subprescheme in groups of $G_{0} = G \times_{S}
+S_{0}$, of multiplicative type. Then:*
 
 <!-- label: III.IX.3.6bis -->
 
@@ -441,11 +441,11 @@ which reduces us to 3.2.
 For 3.6 bis, one notes that `H_0` is necessarily of finite type over `S_0`:[^N.D.E-IX-7] indeed, as a subprescheme of
 `G_0`, which is smooth over `S_0`, `H_0` is locally of finite type over `S_0`; but, by 2.1 a), `H_0` is affine over
 `S_0`, hence is of finite type over `S_0`. Then, by X 4.5, `H_0` is quasi-isotrivial, hence comes, by X 2.1, from a
-group of multiplicative type $H$ over $S$.[^N.D.E-IX-8] Then, by 3.6, there exists a homomorphism of $S$-groups
-$u : H \to G$ which lifts the immersion $H_{0} \hookrightarrow G_{0}$; since $H$ and `H_0` (resp. $G$ and `G_0`) have
-the same underlying topological space, and since, for every $h \in H$, the morphism <!-- original page 50 -->
-$O_{G,u(h)} \to O_{H,h}$ is surjective (since it is so after reduction modulo $J$, which is nilpotent), $u$ is also an
-immersion (cf. EGA I, 4.2.2).
+group of multiplicative type $H$ over $S$.[^N.D.E-IX-8] Then, by 3.6, there exists a homomorphism of $S$-groups $u : H
+\to G$ which lifts the immersion $H_{0} \hookrightarrow G_{0}$; since $H$ and `H_0` (resp. $G$ and `G_0`) have the same
+underlying topological space, and since, for every $h \in H$, the morphism <!-- original page 50 --> $O_{G,u(h)} \to
+O_{H,h}$ is surjective (since it is so after reduction modulo $J$, which is nilpotent), $u$ is also an immersion (cf.
+EGA I, 4.2.2).
 
 Finally, for every lifting $H$ of `H_0` to a flat subgroup of $G$, $H$ is necessarily of multiplicative type by X
 2.3,[^N.D.E-IX-9] which also proves assertion (b) of 3.6 bis. (The reader will verify that the results 3.2 bis to 3.6
@@ -462,13 +462,13 @@ The proof is that of III 2.4 b); one can also reduce to loc. cit. by noting that
 $G$ is diagonalizable, which is the case envisaged in loc. cit.
 
 **Corollary 3.9.** *Let $S, S_{0}$ be as above, and $u : G \to H$ a homomorphism of $S$-groups, with $G$ of
-multiplicative type and $H$ locally of finite presentation over $S$. Suppose that the homomorphism
-$u_{0} : G_{0} \to H_{0}$ deduced by base change $S_{0} \to S$ is central. Then $u$ is central.*
+multiplicative type and $H$ locally of finite presentation over $S$. Suppose that the homomorphism $u_{0} : G_{0} \to
+H_{0}$ deduced by base change $S_{0} \to S$ is central. Then $u$ is central.*
 
 <!-- label: III.IX.3.9 -->
 
-Indeed, it suffices to apply 3.8 by taking $X = H$ and making $G$ operate on $H$ by
-$(g, h) \mapsto int(u(g)) \cdot h = u(g) h u(g)^{-1}$.
+Indeed, it suffices to apply 3.8 by taking $X = H$ and making $G$ operate on $H$ by $(g, h) \mapsto int(u(g)) \cdot h =
+u(g) h u(g)^{-1}$.
 
 ## 4. The density theorem
 
@@ -477,8 +477,8 @@ the present Exposé and the two following, for passing from the infinitesimal pr
 type, which have just been developed, to the "finite" properties.
 
 **Definition 4.1.** *Let $X$ be a prescheme. A family $(Z_{i})_{i \in I}$ of subpreschemes of $X$ is said to be*
-schematically dense *if for every open $U$ of $X$, and every closed subprescheme `U_0` of $U$ which majorizes the
-$Z_{i} \cap U$, one has $U_{0} = U$.*
+schematically dense *if for every open $U$ of $X$, and every closed subprescheme `U_0` of $U$ which majorizes the $Z_{i}
+\cap U$, one has $U_{0} = U$.*
 
 <!-- label: III.IX.4.1 -->
 
@@ -489,18 +489,16 @@ One sees immediately (cf. EGA IV₃, 11.10.1) that the definition is equivalent 
 every section $f$ of `O_U` which is zero on the $Z_{i} \cap U$ is zero, which also means that the intersection of the
 kernels of the canonical homomorphisms
 
-$$
-u_{i} : O_{X} \longrightarrow (v_{i})_{*}(O_{Z_{i}})
-$$
+$$ u_{i} : O_{X} \longrightarrow (v_{i})_{*}(O_{Z_{i}}) $$
 
 is zero, where $v_{i} : Z_{i} \to X$ is the canonical immersion.[^N.D.E-IX-12] When $X$ lies over a prescheme $S$, this
 is again equivalent to saying that for every open $U$ of $X$ and every pair $(u, v)$ of morphisms from $U$ into an
 $S$-prescheme $Y$ separated over $S$ that coincide on the $Z_{i} \cap U$, one has $u = v$. (Indeed, the relation $u = v$
 is equivalent to $U_{0} = U$, where `U_0` is the inverse image of the diagonal of $Y \times_{S} Y$ by the $S$-morphism
-$X \to Y \times_{S} Y$ defined by $(u, v)$; <!-- original page 51 --> this diagonal is a closed subprescheme of
-$Y \times_{S} Y$, hence `U_0` is a closed subprescheme of $U$, majorizing the $Z_{i} \cap U$ by the hypothesis on
-$(u, v)$; hence if the family $(Z_{i})$ is schematically dense, one will have $U_{0} = U$, hence $u = v$; the converse
-implication is seen by simply taking $Y = \operatorname{Spec} O_{S}[T]$.)
+$X \to Y \times_{S} Y$ defined by $(u, v)$; <!-- original page 51 --> this diagonal is a closed subprescheme of $Y
+\times_{S} Y$, hence `U_0` is a closed subprescheme of $U$, majorizing the $Z_{i} \cap U$ by the hypothesis on $(u, v)$;
+hence if the family $(Z_{i})$ is schematically dense, one will have $U_{0} = U$, hence $u = v$; the converse implication
+is seen by simply taking $Y = \operatorname{Spec} O_{S}[T]$.)
 
 With the terminology introduced in EGA I, end of N° 9.5, to say that the subprescheme $Z$ of $X$ is schematically dense
 also means that $X$ is identical to the adherence subprescheme of $Z$ in $X$.
@@ -511,12 +509,12 @@ also means that $X$ is identical to the adherence subprescheme of $Z$ in $X$.
 
 <!-- label: III.IX.4.2 -->
 
-*Let $X_{0}, Z'_{i}$ be deduced from $X, Z_{i}$ by the base change $S_{0} \to S$. Then, if the family
-$(Z'_{i})_{i \in I}$ is schematically dense in `X_0`, the family $(Z_{i})_{i \in I}$ is so in $X$.*
+*Let $X_{0}, Z'_{i}$ be deduced from $X, Z_{i}$ by the base change $S_{0} \to S$. Then, if the family $(Z'_{i})_{i \in
+I}$ is schematically dense in `X_0`, the family $(Z_{i})_{i \in I}$ is so in $X$.*
 
-Suppose $J^{n+1} = 0$ (where $n \geqslant 0$); let us argue by induction on $n$, the assertion being trivial for
-$n = 0$. Defining $S_{m}, X_{m}, Z^{i}_{m}$ by reduction modulo $J^{m+1}$ as is customary, the induction hypothesis
-already implies that $(Z^{i}_{n-1})_{i \in I}$ is schematically dense in $X_{n-1}$. Replacing $X$ by an induced open if
+Suppose $J^{n+1} = 0$ (where $n \geqslant 0$); let us argue by induction on $n$, the assertion being trivial for $n =
+0$. Defining $S_{m}, X_{m}, Z^{i}_{m}$ by reduction modulo $J^{m+1}$ as is customary, the induction hypothesis already
+implies that $(Z^{i}_{n-1})_{i \in I}$ is schematically dense in $X_{n-1}$. Replacing $X$ by an induced open if
 necessary, we are reduced to proving that every section $f$ of `O_X` which vanishes on the $Z_{i}$ is zero.
 
 Now the section $f_{n-1}$ of $O_{X_{n-1}} = O_{X}/J^{n} O_{X}$ defined by $f$ vanishes on the $Z^{i}_{n-1}$, hence is
@@ -533,8 +531,8 @@ of:
 J^n O_{Z_i} ⥲ E ⊗_{O_{S_0}} O_{Z'_i}.
 ```
 
-By hypothesis, the $f_{i}$ are zero. Now $E$ is locally free by hypothesis, hence so is
-$F = E \otimes_{O_{S_{0}}} O_{X_{0}}$.
+By hypothesis, the $f_{i}$ are zero. Now $E$ is locally free by hypothesis, hence so is $F = E \otimes_{O_{S_{0}}}
+O_{X_{0}}$.
 
 <!-- original page 52 --> Hence `f` is a section of the locally free module `F` over `X_0`, such that for every `i` its
 
@@ -548,17 +546,16 @@ is schematically dense in $X_{s}$. Then the family $(Z_{i})_{i \in I}$ is schema
 <!-- label: III.IX.4.3 -->
 
 Replacing $X$ by an induced open if necessary, one is reduced to proving that every section $f$ of `O_X` whose
-restrictions to the $Z_{i}$ are zero is itself zero.[^N.D.E-IX-13] For this, it suffices to prove that for every
-$x \in X$, the image of $f$ in $O_{X,x}$ is zero. Denote by $m_{x}$ the maximal ideal of $O_{X,x}$, and by $m_{s}$ that
-of $O_{S,s}$, where $s$ is the image of $x$ in $S$. Since $O_{X,x}$ is noetherian, one has
-$\bigcap_{n \in \mathbb{N}} m^{n}_{x} = 0$, hence a fortiori $\bigcap_{n \in \mathbb{N}} O_{X,x} m^{n}_{s} = 0$.
+restrictions to the $Z_{i}$ are zero is itself zero.[^N.D.E-IX-13] For this, it suffices to prove that for every $x \in
+X$, the image of $f$ in $O_{X,x}$ is zero. Denote by $m_{x}$ the maximal ideal of $O_{X,x}$, and by $m_{s}$ that of
+$O_{S,s}$, where $s$ is the image of $x$ in $S$. Since $O_{X,x}$ is noetherian, one has $\bigcap_{n \in \mathbb{N}}
+m^{n}_{x} = 0$, hence a fortiori $\bigcap_{n \in \mathbb{N}} O_{X,x} m^{n}_{s} = 0$.
 
-So it suffices to show that, for every integer $n$, the section induced by $f$ on
-$X \times_{S} \operatorname{Spec}(O_{S,s}/m^{n+1}_{s})$ is zero. By hypothesis, the family of fibers
-$Z_{i,s} = Z_{i} \otimes_{O_{S,s}} \kappa(s)$ is schematically dense in the fiber
-$X_{s} = X \otimes_{O_{S,s}} \kappa(s)$. This reduces us to the case where $S$ is the spectrum of a local ring whose
-maximal ideal $J$ is nilpotent, $S_{0} = \operatorname{Spec} \kappa(s)$, and the hypotheses of 4.2 are satisfied; hence
-the conclusion.
+So it suffices to show that, for every integer $n$, the section induced by $f$ on $X \times_{S}
+\operatorname{Spec}(O_{S,s}/m^{n+1}_{s})$ is zero. By hypothesis, the family of fibers $Z_{i,s} = Z_{i}
+\otimes_{O_{S,s}} \kappa(s)$ is schematically dense in the fiber $X_{s} = X \otimes_{O_{S,s}} \kappa(s)$. This reduces
+us to the case where $S$ is the spectrum of a local ring whose maximal ideal $J$ is nilpotent, $S_{0} =
+\operatorname{Spec} \kappa(s)$, and the hypotheses of 4.2 are satisfied; hence the conclusion.
 
 **Lemma 4.4.** *Let $S$ be a locally noetherian prescheme, $X$ a locally noetherian $S$-prescheme flat over $S$,
 $(Z_{i})_{i \in I}$ a family of subpreschemes of $X$ flat over $S$. Suppose that for every $s \in S$, the family
@@ -586,13 +583,8 @@ affine, of the form $X'_{g'}$, with $g' \in B'$.
 For every sub-$A$-algebra $A''$ of $A'$, consider $S'' = \operatorname{Spec}(A'')$ and $X'', Z^{i}_{n''}$ deduced from
 $X, Z_{i}$ by the base change $S'' \to S$, giving the diagram:
 
-$$
-Z_{i} \leftarrow  Z^{i}_{n''} \leftarrow Z'_{i}
- \downarrow        \downarrow        \downarrow
- X  \leftarrow   X''   \leftarrow   X'
- \downarrow        \downarrow        \downarrow
- S  \leftarrow   S''   \leftarrow   S'.
-$$
+$$ Z_{i} \leftarrow Z^{i}_{n''} \leftarrow Z'_{i} \downarrow \downarrow \downarrow X \leftarrow X'' \leftarrow X'
+\downarrow \downarrow \downarrow S \leftarrow S'' \leftarrow S'. $$
 
 We restrict in what follows to those $A''$ which are localizations of finite-type sub-$A$-algebras $A''_{1}$ of $A'$ at
 $m' \cap A''_{1}$ (where $m'$ is the maximal ideal of $A'$), so that the homomorphisms $A \to A'' \to A'$ are local.
@@ -604,9 +596,9 @@ $g'' \in B'' = B \otimes_{A} A''$ whose image in $B'$ is $g'$.
 in $X_{s}$ is preserved by every base change $S'' \to S$; consequently, since each $S''$ is locally noetherian, if one
 replaces $S$ by an appropriate $S''$, and $X, Z_{i}$ by $X'', Z''_{i}$, the hypotheses of 4.4 will be preserved.
 
-Hence, replacing $S$ by $S''$ (and $X, Z_{i}$ by $X'', Z''_{i}$) if necessary, one may suppose that $g'$ comes from
-$g \in B$. Replacing $X$ by the open $X_{g} = U$ if necessary, one may therefore suppose $U' = X'$. One sees likewise
-that one may suppose that $f'$ comes from a section $f$ of `O_X` over $X$.
+Hence, replacing $S$ by $S''$ (and $X, Z_{i}$ by $X'', Z''_{i}$) if necessary, one may suppose that $g'$ comes from $g
+\in B$. Replacing $X$ by the open $X_{g} = U$ if necessary, one may therefore suppose $U' = X'$. One sees likewise that
+one may suppose that $f'$ comes from a section $f$ of `O_X` over $X$.
 
 Let $Y = V(f)$ be the subscheme of $X$ defined by $f$, and $Y_{i} = Z_{i} \times_{X} Y$ its intersection with $Z_{i}$,
 which is a closed subscheme of $Z_{i}$, equal to $V(f_{i})$, where $f_{i}$ is the section of $O_{Z_{i}}$ induced by $f$.
@@ -619,10 +611,10 @@ Y′ = V(f′),    Y'_i = Z'_i ×_{X′} Y′ = V(f'_i),
 and one has the analogous relations for $Y'', Y''_{i}$. The hypothesis that $f'$ vanishes on the $Z'_{i}$ is expressed
 by the relations $Y'_{i} = Z'_{i}$ for every $i$.[^N.D.E-IX-16]
 
-Let $m$ be the maximal ideal of $A$. For every integer $n \geqslant 0$, introduce the subscheme
-$S_{n} = \operatorname{Spec}(A/m^{n+1})$ of $S$, and the schemes $X_{n}, Y_{n}, Z^{i}_{n}, Y^{i}_{n}$ deduced from
-$X, Y, Z_{i}, Y_{i}$ by the base change $S_{n} \to S$. In general, for every $S$-prescheme $P$, we shall set
-$P_{n} = P \times_{S} S_{n}$.
+Let $m$ be the maximal ideal of $A$. For every integer $n \geqslant 0$, introduce the subscheme $S_{n} =
+\operatorname{Spec}(A/m^{n+1})$ of $S$, and the schemes $X_{n}, Y_{n}, Z^{i}_{n}, Y^{i}_{n}$ deduced from $X, Y, Z_{i},
+Y_{i}$ by the base change $S_{n} \to S$. In general, for every $S$-prescheme $P$, we shall set $P_{n} = P \times_{S}
+S_{n}$.
 
 <!-- original page 54 -->
 
@@ -652,45 +644,41 @@ For $i$ fixed, $m \geqslant n$ and every $S_{n}$-prescheme $P$, one has
 (Y^i_n)_P = Y_i ×_S S_n ×_{S_n} P = Y_i ×_S P = (Y^i_m)_P,
 ```
 
-and likewise $(Z^{i}_{n})_{P} = (Z^{i}_{m})_{P}$; it follows that $F^{i}_{n}$ is the restriction
-$F^{i}_{m} \times_{S_{m}} S_{n}$ of $F^{i}_{m}$ to $(Sch)/S_{n}$, whence $T^{i}_{n} = T^{i}_{m} \times_{S_{m}} S_{n}$.
-One therefore has a commutative diagram with exact rows:
+and likewise $(Z^{i}_{n})_{P} = (Z^{i}_{m})_{P}$; it follows that $F^{i}_{n}$ is the restriction $F^{i}_{m}
+\times_{S_{m}} S_{n}$ of $F^{i}_{m}$ to $(Sch)/S_{n}$, whence $T^{i}_{n} = T^{i}_{m} \times_{S_{m}} S_{n}$. One
+therefore has a commutative diagram with exact rows:
 
-$$
-0 \to K^{i}_{m} \to A_{m} \to O(T^{i}_{m}) \to 0
-        \downarrow     \downarrow        \downarrow
-0 \to K^{i}_{n} \to A_{n} \to O(T^{i}_{n}) \to 0
-$$
+$$ 0 \to K^{i}_{m} \to A_{m} \to O(T^{i}_{m}) \to 0 \downarrow \downarrow \downarrow 0 \to K^{i}_{n} \to A_{n} \to
+O(T^{i}_{n}) \to 0 $$
 
 where all the vertical arrows are surjective. This has the following consequences: on the one hand, the projective
 system $(K^{i}_{n})_{n \in \mathbb{N}}$ satisfies the Mittag-Leffler condition, hence the projective limit of the
 $O(T^{i}_{n})$ identifies with the topological ring quotient $\hat{A}/K^{i}$ (cf. EGA 0_III, § 13.2). On the other hand,
-the map $K^{i} \to K^{i}_{n}$ is surjective (cf. [BEns], III, § 7.4, Prop. 5), whence it follows that
-$K^{i}_{n} \simeq (K^{i} + m^{n+1} \hat{A})/m^{n+1} \hat{A}$ and
-$O(T^{i}_{n}) \simeq (\hat{A}/K^{i}) \otimes_{A} (A/m^{n+1})$.
+the map $K^{i} \to K^{i}_{n}$ is surjective (cf. [BEns], III, § 7.4, Prop. 5), whence it follows that $K^{i}_{n} \simeq
+(K^{i} + m^{n+1} \hat{A})/m^{n+1} \hat{A}$ and $O(T^{i}_{n}) \simeq (\hat{A}/K^{i}) \otimes_{A} (A/m^{n+1})$.
 
-In other words, $(T^{i}_{n})_{n}$ is an inductive system of affine artinian schemes, and the inductive limit
-$T^{i} = \lim_{n} T^{i}_{n}$ is a closed formal subscheme of the formal scheme $\hat{S} = Spf(\hat{A})$ (cf. EGA I, §
-10), whose reduction modulo $m^{n+1}$ is $T^{i}_{n}$.
+In other words, $(T^{i}_{n})_{n}$ is an inductive system of affine artinian schemes, and the inductive limit $T^{i} =
+\lim_{n} T^{i}_{n}$ is a closed formal subscheme of the formal scheme $\hat{S} = Spf(\hat{A})$ (cf. EGA I, § 10), whose
+reduction modulo $m^{n+1}$ is $T^{i}_{n}$.
 
 Let $T$ be the closed formal subscheme of `Ŝ` intersection of the $T^{i}$, that is, defined by $K = \sum_{i} K^{i}$.
-Since `Â` is noetherian, there exists a finite part $J$ of $I$ such that one has $K = \sum_{i \in J} K^{i}$ (i.e.
-$T = \bigcap_{i \in J} T^{i}$). Note then that for every $n$, one has $K_{n} = \sum_{i \in J} K^{i}_{n}$ where $K_{n}$
+Since `Â` is noetherian, there exists a finite part $J$ of $I$ such that one has $K = \sum_{i \in J} K^{i}$ (i.e. $T =
+\bigcap_{i \in J} T^{i}$). Note then that for every $n$, one has $K_{n} = \sum_{i \in J} K^{i}_{n}$ where $K_{n}$
 denotes the image of $K$ in $A_{n}$.
 
-Recall that $f_{i}$ denotes the image of $f \in B = O(X)$ in $O(Z_{i})$, and $f'_{i}$ its image in
-$O(Z'_{i}) = O(Z_{i}) \otimes_{A} A'$; the hypothesis $Y'_{i} = Z'_{i}$ is equivalent to the vanishing of $f'_{i}$.
-Since $O(Z_{i}) \otimes_{A} A'$ is the inductive limit of the subalgebras $O(Z_{i}) \otimes_{A} A''$ (where $A''$
-satisfies the conditions made explicit above), there exists therefore an $A''$ such that $Y''_{i} = Z''_{i}$. A priori,
-$A''$ depends on $i$, but one can find an $A''$ that works for all $i \in J$, since $J$ is finite. Set
-$S'' = \operatorname{Spec}(A'')$ and $S''_{(n)} = S'' \times_{S} S_{n}$.[^N.D.E-IX-18]
+Recall that $f_{i}$ denotes the image of $f \in B = O(X)$ in $O(Z_{i})$, and $f'_{i}$ its image in $O(Z'_{i}) = O(Z_{i})
+\otimes_{A} A'$; the hypothesis $Y'_{i} = Z'_{i}$ is equivalent to the vanishing of $f'_{i}$. Since $O(Z_{i})
+\otimes_{A} A'$ is the inductive limit of the subalgebras $O(Z_{i}) \otimes_{A} A''$ (where $A''$ satisfies the
+conditions made explicit above), there exists therefore an $A''$ such that $Y''_{i} = Z''_{i}$. A priori, $A''$ depends
+on $i$, but one can find an $A''$ that works for all $i \in J$, since $J$ is finite. Set $S'' =
+\operatorname{Spec}(A'')$ and $S''_{(n)} = S'' \times_{S} S_{n}$.[^N.D.E-IX-18]
 
-Since $Y''_{i} \times_{S''} S''_{(n)} = (Y^{i}_{n})_{S''_{(n)}}$ equals
-$Z''_{i} \times_{S''} S''_{(n)} = (Z^{i}_{n})_{S''_{(n)}}$ for every $i \in J$, it follows from the definition of the
-$T^{i}_{n}$ that $S''_{(n)} \to S_{n}$ factors through $T^{i}_{n}$ for every $i \in J$, hence also through
-$T_{n} = \bigcap_{i \in J} T^{i}_{n}$, hence also through $T^{i}_{n}$ for every $i \in I$. Denoting by $f''$ the image
-of $f$ in $B'' = B \otimes_{A} A''$, and $f''_{(n)}$ its image in $B''_{(n)} = B''/m^{n+1} B''$, this means that for
-every $n$, $f''_{(n)}$ vanishes on the $Z_{i} \times_{S} S''_{(n)}$.
+Since $Y''_{i} \times_{S''} S''_{(n)} = (Y^{i}_{n})_{S''_{(n)}}$ equals $Z''_{i} \times_{S''} S''_{(n)} =
+(Z^{i}_{n})_{S''_{(n)}}$ for every $i \in J$, it follows from the definition of the $T^{i}_{n}$ that $S''_{(n)} \to
+S_{n}$ factors through $T^{i}_{n}$ for every $i \in J$, hence also through $T_{n} = \bigcap_{i \in J} T^{i}_{n}$, hence
+also through $T^{i}_{n}$ for every $i \in I$. Denoting by $f''$ the image of $f$ in $B'' = B \otimes_{A} A''$, and
+$f''_{(n)}$ its image in $B''_{(n)} = B''/m^{n+1} B''$, this means that for every $n$, $f''_{(n)}$ vanishes on the
+$Z_{i} \times_{S} S''_{(n)}$.
 
 Since the morphisms $A \to A'' \to A'$ are local, the image $s''$ of $s'$ in $S''$ is the closed point of $S''$,
 corresponding to the maximal ideal $m''$ of $B''$, and the image of $s''$ in $S$ is $s$. Fix $n$ and denote now by
@@ -703,10 +691,9 @@ fibers
 Z_i''' = Z″_{n,i} ×_{S″_n} κ(s″) = Z_{i,s} ×_{κ(s)} κ(s″)
 ```
 
-is schematically dense in the fiber
-$X_{0}''' = X''_{n} \times_{S''_{n}} \kappa(s'') = X_{s} \times_{\kappa(s)} \kappa(s'')$. Hence
-$S''_{n}, X''_{n}, (Z''_{n,i})_{i \in I}$, and $S_{0}''' = \operatorname{Spec} \kappa(s'')$ satisfy the hypotheses of
-Lemma 4.2; it follows therefore that $f''_{n} = 0$, i.e. $f'' \in m''^{n+1} B''$, for every $n$.
+is schematically dense in the fiber $X_{0}''' = X''_{n} \times_{S''_{n}} \kappa(s'') = X_{s} \times_{\kappa(s)}
+\kappa(s'')$. Hence $S''_{n}, X''_{n}, (Z''_{n,i})_{i \in I}$, and $S_{0}''' = \operatorname{Spec} \kappa(s'')$ satisfy
+the hypotheses of Lemma 4.2; it follows therefore that $f''_{n} = 0$, i.e. $f'' \in m''^{n+1} B''$, for every $n$.
 
 Since $B$ is noetherian and $B'' = B \otimes_{A} A''$ is a localization of a finite-type $B$-algebra, $B''$ is
 noetherian, hence its local rings are separated for their usual topology. It follows that $f''$ is zero at the points
@@ -728,15 +715,15 @@ $(Z'_{i})_{i \in I}$ be so in $X'$.*
 
 <!-- label: III.IX.4.5 -->
 
-The "if" follows from 4.5.0; let us prove the "only if".[^N.D.E-IX-21] First, one may suppose
-$X = \operatorname{Spec}(B)$ affine. For every $i$, let $(Z_{ij})_{j \in J_{i}}$ be a covering of $Z_{i}$ by affine
-opens; replacing $(Z_{i})_{i \in I}$ by the family $(Z_{ij})_{(i,j) \in J}$, where $J = \coprod_{i \in I} J_{i}$, one
-may also suppose the $Z_{i}$ affine.
+The "if" follows from 4.5.0; let us prove the "only if".[^N.D.E-IX-21] First, one may suppose $X =
+\operatorname{Spec}(B)$ affine. For every $i$, let $(Z_{ij})_{j \in J_{i}}$ be a covering of $Z_{i}$ by affine opens;
+replacing $(Z_{i})_{i \in I}$ by the family $(Z_{ij})_{(i,j) \in J}$, where $J = \coprod_{i \in I} J_{i}$, one may also
+suppose the $Z_{i}$ affine.
 
 Let $g \in B' = B \otimes_{k} k'$ and $t' \in B'_{g}$ be a section of $O_{X'}$ on the affine open $U' = X'_{g}$,
 vanishing on the $Z'_{i} \cap U'$, i.e. whose image in each $(O(Z_{i}) \otimes_{k} k')_{g}$ is zero. There exists a
-finite-type sub-$k$-algebra $A$ of $k'$ such that $g \in B_{A} = B \otimes_{k} A$ <!-- original page 55 --> and
-$t' \in (B_{A})_{g}$. The map $O(Z_{i}) \otimes_{k} A \to O(Z_{i}) \otimes_{k} k'$ being injective, so is the map
+finite-type sub-$k$-algebra $A$ of $k'$ such that $g \in B_{A} = B \otimes_{k} A$ <!-- original page 55 --> and $t' \in
+(B_{A})_{g}$. The map $O(Z_{i}) \otimes_{k} A \to O(Z_{i}) \otimes_{k} k'$ being injective, so is the map
 
 ```text
 (O(Z_i) ⊗_k A)_g ⟶ (O(Z_i) ⊗_k k′)_g;
@@ -772,9 +759,9 @@ condition is of constructible nature, i.e. $E_{i}$ is a constructible part of $S
 
 [^N.D.E-IX-24] By 4.5, the inverse image of $E_{i}$ by $S_{j} \to S_{i}$ (resp. by $S \to S_{i}$) is $E_{j}$ (resp. the
 set $E$ of $s \in S$ such that $U_{s}$ is schematically dense in $X_{s}$). Moreover, by hypothesis, $E = S$, which is
-also the inverse image by each $S \to S_{i}$ of $S_{i}$. By EGA IV₃, 8.3.11, this implies that there exists
-$j \geqslant i$ such that $E_{j} = S_{j}$, i.e. such that for every $s \in S_{j}$, $(U_{j})_{s}$ is schematically dense
-in $(X_{j})_{s}$.
+also the inverse image by each $S \to S_{i}$ of $S_{i}$. By EGA IV₃, 8.3.11, this implies that there exists $j \geqslant
+i$ such that $E_{j} = S_{j}$, i.e. such that for every $s \in S_{j}$, $(U_{j})_{s}$ is schematically dense in
+$(X_{j})_{s}$.
 
 Then, by 4.4 applied to $(S_{j}, X_{j}, U_{j})$ and to the base change $S \to S_{j}$, it follows that $U$ is
 schematically dense in $X$. One will note moreover that we use 4.4 here only in the case of a family with finite index
@@ -795,10 +782,10 @@ $G$ is of the form $G_{1} \times G_{2}$, <!-- original page 57 --> with $G_{1} =
 for $n$ large multiplicatively (namely $n$ a multiple of the order of $\Gamma$) one will have `_nG = G_1 × _nG_2` since
 one will have `_nG_1 = G_1`.
 
-Applying again 4.3 to the projection $G \to G_{1}$, one is reduced to the case of `G_2`, i.e. to the case where
-$G = G^{r}_{m}$. Since $G$ is then reduced, it amounts to the same to say that $({}_{nG})_{n > 0}$ is schematically
-dense in $G$, or that the union of the ${}_{nG}$ is dense in $G$ for the ordinary topology. Since `_nG = (_nG_m)^r`, one
-is reduced to the case of $G = G_{m}$, hence $G$ irreducible of dimension `1`. Then this follows from the fact that the
+Applying again 4.3 to the projection $G \to G_{1}$, one is reduced to the case of `G_2`, i.e. to the case where $G =
+G^{r}_{m}$. Since $G$ is then reduced, it amounts to the same to say that $({}_{nG})_{n > 0}$ is schematically dense in
+$G$, or that the union of the ${}_{nG}$ is dense in $G$ for the ordinary topology. Since `_nG = (_nG_m)^r`, one is
+reduced to the case of $G = G_{m}$, hence $G$ irreducible of dimension `1`. Then this follows from the fact that the
 union of the ${}_{nG}$ (equal to the set of roots of unity in $k$) is infinite.
 
 b) General case. For every point $s$ of $S$, there exist an open neighborhood $U$ of $s$ and a faithfully flat
@@ -831,8 +818,8 @@ By 4.7, one is reduced to proving that the subprescheme $H$ is closed, or again 
 This reduces us to the case where $S$ is the spectrum <!-- original page 58 --> of a field; but then every subprescheme
 in groups of $G$ is closed (VI_B 1.4.2), whence the conclusion.
 
-**Remark 4.10.** *Under the conditions of 4.7, let $m$ be an integer `> 0` having the following properties: for every
-$s \in S$, $m$ is not a power of the characteristic of $\kappa(s)$, and if $G_{s}$ is of type $M$, the prime divisors of
+**Remark 4.10.** *Under the conditions of 4.7, let $m$ be an integer `> 0` having the following properties: for every $s
+\in S$, $m$ is not a power of the characteristic of $\kappa(s)$, and if $G_{s}$ is of type $M$, the prime divisors of
 the torsion of $M$ divide $m$. (N.B. This second condition is always satisfied if $G$ is a torus.) Then the proof given
 shows that in the statement of 4.7 and the Corollaries 4.8 and 4.9, one may restrict attention to subgroups of the form
 ${}_{(m^{r})}G$, with $r > 0$.*
@@ -862,9 +849,8 @@ of $B$. The hypothesis entails that $I$ is contained in $m^{n} B$ for every $n$;
 separated for the $m$-adic topology, whence $I = 0$.
 
 **Theorem 5.1.** *Let $u, v : H \to G$ be two homomorphisms of $S$-preschemes in groups, with $H$ of multiplicative type
-and of finite type, and $S$ locally noetherian or $G$ of finite presentation over $S$. Let $s \in S$ be such that
-$u_{s} = v_{s}$, and suppose $u_{s}$ central. Then there exists an open neighborhood $U$ of $s$ such that
-$u_{U} = v_{U}$.*
+and of finite type, and $S$ locally noetherian or $G$ of finite presentation over $S$. Let $s \in S$ be such that $u_{s}
+= v_{s}$, and suppose $u_{s}$ central. Then there exists an open neighborhood $U$ of $s$ such that $u_{U} = v_{U}$.*
 
 <!-- label: III.IX.5.1 -->
 
@@ -874,8 +860,8 @@ We distinguish the two cases:
 
 a) $S$ locally noetherian.[^N.D.E-IX-28] Let $K = Ker(u, v)$ be the inverse image of the diagonal of $G \times_{S} G$ by
 the morphism $(u, v)$; this is a subprescheme in groups of $H$. We wish to find $U$ such that $K_{U} = H_{U}$. Note
-that, since $S$ is locally noetherian and $H$ of finite type over $S$, $H$ is locally noetherian, hence the immersion
-$K \hookrightarrow H$ is of finite type (cf. EGA I, 6.3.5). Hence $K$ is of finite type over $S$, hence of finite
+that, since $S$ is locally noetherian and $H$ of finite type over $S$, $H$ is locally noetherian, hence the immersion $K
+\hookrightarrow H$ is of finite type (cf. EGA I, 6.3.5). Hence $K$ is of finite type over $S$, hence of finite
 presentation over $S$, since $S$ is locally noetherian. Consequently, by EGA IV₃, 8.8.2.4, to show that there exists an
 open neighborhood $U$ of $s$ such that $K_{U} = H_{U}$, it suffices to show that $K_{S_{0}} = H_{S_{0}}$, where `S_0` is
 the spectrum of $A = O_{S,s}$. One may therefore suppose $S$ local with closed point $s$. Replacing the noetherian local
@@ -883,10 +869,10 @@ ring $A$ by its completion `Â` if necessary, which introduces a base change $\h
 quasi-compact, one may even, if one wishes, suppose[^N.D.E-IX-29] $A$ complete.
 
 By 3.4 one has $u_{n} = v_{n}$ for every $n$, where as usual the index $n$ indicates reduction modulo $m^{n+1}$ ($m$
-being the maximal ideal of $A$). For every integer $m > 0$, denoting by ${}_{mu}, {}_{mv}$ the homomorphisms
-${}_{mH} \to G$ induced by `u, v`, one therefore also has $({}_{mu})_{n} = ({}_{mv})_{n}$. This being true for every
-$n$, and ${}_{mH}$ being finite over $S$ by 2.2, it follows that ${}_{mu} = {}_{mv}$ by 5.0. This being true for every
-$m$, one has therefore $u = v$ by 4.7.
+being the maximal ideal of $A$). For every integer $m > 0$, denoting by ${}_{mu}, {}_{mv}$ the homomorphisms ${}_{mH}
+\to G$ induced by `u, v`, one therefore also has $({}_{mu})_{n} = ({}_{mv})_{n}$. This being true for every $n$, and
+${}_{mH}$ being finite over $S$ by 2.2, it follows that ${}_{mu} = {}_{mv}$ by 5.0. This being true for every $m$, one
+has therefore $u = v$ by 4.7.
 
 b) $G$ of finite presentation.[^N.D.E-IX-30] Since $H$ is also of finite presentation over $S$, then, by EGA IV₃, 8.8.2,
 we may again suppose $S$ local with closed point $s$ and prove that then $u = v$. If $f : S' \to S$ is a faithfully flat
@@ -895,17 +881,17 @@ deduced from `u, v`, then the equality $u' = v'$ entails $u' \circ f_{H} = v' \c
 is an epimorphism. Hence, by making a faithfully flat quasi-compact extension of the base, one may suppose moreover $H$
 diagonalizable, hence of the form $D_{S}(M)$, with $M$ a commutative group of finite type.
 
-Introduce, as in the proof of 4.6, the increasing filtered family of finite-type sub-$\mathbb{Z}$-algebras $A_{i}$ of
-$A = O_{S,s}$, and $S_{i} = \operatorname{Spec}(A_{i})$.[^N.D.E-IX-30] Note that $H = D_{S}(M)$ comes, for every $i$,
-from the diagonalizable group $H_{i} = D_{S_{i}}(M)$. Since $G$ is of finite presentation over $S$, then, by EGA IV₃,
-8.8.2 (see also VI_B, 10.2 and 10.3), there exist an index $i$, a prescheme in groups $G_{i}$ of finite presentation
-over $S_{i}$, and morphisms of $S_{i}$-groups $u_{i}, v_{i} : H_{i} \to G_{i}$ from which `u, v` come by base change.
-Let $s_{i}$ be the image of $s$ in $S_{i}$ and let $\rho_{i} : H_{i} \times_{S_{i}} G_{i} \to G_{i}$ be the morphism of
-$S_{i}$-preschemes defined by $\rho_{i}(h, g) = u_{i}(h) g u_{i}(h)^{-1}$. Then, since $u_{s}$ is central,
-$\rho_{s} = \rho_{i} \times_{\kappa(s_{i})} \kappa(s)$ equals the second projection; so the same holds for $\rho_{i}$
-(since $\kappa(s_{i}) \to \kappa(s)$ is faithfully flat and quasi-compact), i.e. $(u_{i})_{s_{i}}$ is central.
-Similarly, since $u_{s} = v_{s}$ one has $(u_{i})_{s_{i}} = (v_{i})_{s_{i}}$. One can then apply a) to the situation
-over $S_{i}$, whence the announced conclusion.
+Introduce, as in the proof of 4.6, the increasing filtered family of finite-type sub-$\mathbb{Z}$-algebras $A_{i}$ of $A
+= O_{S,s}$, and $S_{i} = \operatorname{Spec}(A_{i})$.[^N.D.E-IX-30] Note that $H = D_{S}(M)$ comes, for every $i$, from
+the diagonalizable group $H_{i} = D_{S_{i}}(M)$. Since $G$ is of finite presentation over $S$, then, by EGA IV₃, 8.8.2
+(see also VI_B, 10.2 and 10.3), there exist an index $i$, a prescheme in groups $G_{i}$ of finite presentation over
+$S_{i}$, and morphisms of $S_{i}$-groups $u_{i}, v_{i} : H_{i} \to G_{i}$ from which `u, v` come by base change. Let
+$s_{i}$ be the image of $s$ in $S_{i}$ and let $\rho_{i} : H_{i} \times_{S_{i}} G_{i} \to G_{i}$ be the morphism of
+$S_{i}$-preschemes defined by $\rho_{i}(h, g) = u_{i}(h) g u_{i}(h)^{-1}$. Then, since $u_{s}$ is central, $\rho_{s} =
+\rho_{i} \times_{\kappa(s_{i})} \kappa(s)$ equals the second projection; so the same holds for $\rho_{i}$ (since
+$\kappa(s_{i}) \to \kappa(s)$ is faithfully flat and quasi-compact), i.e. $(u_{i})_{s_{i}}$ is central. Similarly, since
+$u_{s} = v_{s}$ one has $(u_{i})_{s_{i}} = (v_{i})_{s_{i}}$. One can then apply a) to the situation over $S_{i}$, whence
+the announced conclusion.
 
 **Corollary 5.2.** *Let $u : H \to G$ be a homomorphism of $S$-preschemes in groups, with $H$ of multiplicative type and
 of finite type, and $S$ locally noetherian or $G$ of finite presentation over $S$. Let $s \in S$ and suppose that
@@ -941,13 +927,13 @@ a section $g$, then $u$ is the morphism deduced from $u'$ by the base change $g 
 Since $\pi$ is a universal effective epimorphism, so is $H' \to H$, whence the uniqueness of $u$, cf. the beginning of
 the proof of 5.1 b). If $\pi$ admits a section $g$, then $u' = \pi^{*}(u)$ entails $u = g^{*} \pi^{*}(u) = g^{*}(u')$.
 
-For the existence of $u$, one is reduced, by IV 2.3, to showing that the two homomorphisms
-$u''_{1}, u''_{2} : H'' \to G''$ of $S''$-groups deduced from $u'$ by the two base changes
-$pr_{1}, pr_{2} : S'' = S' \times_{S} S' \to S'$, are identical. Now they coincide on the diagonal of $S''$; more
-precisely the inverse images of $u''_{1}$ and $u''_{2}$ by the diagonal morphism $S' \to S''$ are identical (since both
-equal $u'$).[^N.D.E-IX-34] Since $u''_{1}$ and $u''_{2}$ are central, one may apply 5.3 to the morphism
-$u''_{1} (u''_{2})^{-1}$. There exists therefore an open-and-closed part $U$ of $S''$, <!-- original page 61 -->
-containing the diagonal of $S''$, such that $u''_{1}$ and $u''_{2}$ coincide above $U$.
+For the existence of $u$, one is reduced, by IV 2.3, to showing that the two homomorphisms $u''_{1}, u''_{2} : H'' \to
+G''$ of $S''$-groups deduced from $u'$ by the two base changes $pr_{1}, pr_{2} : S'' = S' \times_{S} S' \to S'$, are
+identical. Now they coincide on the diagonal of $S''$; more precisely the inverse images of $u''_{1}$ and $u''_{2}$ by
+the diagonal morphism $S' \to S''$ are identical (since both equal $u'$).[^N.D.E-IX-34] Since $u''_{1}$ and $u''_{2}$
+are central, one may apply 5.3 to the morphism $u''_{1} (u''_{2})^{-1}$. There exists therefore an open-and-closed part
+$U$ of $S''$, <!-- original page 61 --> containing the diagonal of $S''$, such that $u''_{1}$ and $u''_{2}$ coincide
+above $U$.
 
 Now the fibers of $S'/S$ being geometrically connected, the same holds for those of $S''/S$, which are therefore a
 fortiori connected; whence it follows that $U$ (containing the diagonals of the said fibers) contains the said fibers,
@@ -960,11 +946,11 @@ subgroup of $K$.*
 <!-- label: III.IX.5.5 -->
 
 [^N.D.E-IX-36] Note first that $\pi : K \to S$ has geometrically connected fibers, since for a group scheme locally of
-finite type over a field, connected implies geometrically connected (cf. VI_A 2.4). One can then apply 5.4 by taking
-$G = H$ and $S' = K$, to the homomorphism of $K$-groups $u' : H_{K} \to H_{K}$ defined set-theoretically by
-$(h, k) \mapsto (k h k^{-1}, k)$, which is central since $H$ is commutative. The inverse image of $u'$ by the unit
-section $\epsilon : S \to K$ is the identity homomorphism of $K$, hence by 5.4 the same holds for $H_{K} \to H_{K}$;
-hence $H$ is central in $K$.
+finite type over a field, connected implies geometrically connected (cf. VI_A 2.4). One can then apply 5.4 by taking $G
+= H$ and $S' = K$, to the homomorphism of $K$-groups $u' : H_{K} \to H_{K}$ defined set-theoretically by $(h, k) \mapsto
+(k h k^{-1}, k)$, which is central since $H$ is commutative. The inverse image of $u'$ by the unit section $\epsilon : S
+\to K$ is the identity homomorphism of $K$, hence by 5.4 the same holds for $H_{K} \to H_{K}$; hence $H$ is central in
+$K$.
 
 Let us state the variants of the preceding results for central subgroups of multiplicative type. One obtains, by
 proceeding as for the preceding results (and using 3.2 bis):
@@ -1015,22 +1001,21 @@ v(h, g) = g,      w(h, g) = int(u(h)) · g = u(h) g u(h)^{-1}.
 ```
 
 Then $K$ is a sub-$G$-group of the $G$-group $H_{G} = H \times_{S} G$; we wish to show that it is equal to `H_G` itself.
-By 4.9, one is reduced to proving that it majorizes the ${}_{m}(H_{G}) = ({}_{mH}) \times_{S} G$ for every integer
-$m > 0$, which reduces us to the case where $H = {}_{mH}$, hence $H$ finite over $S$.
+By 4.9, one is reduced to proving that it majorizes the ${}_{m}(H_{G}) = ({}_{mH}) \times_{S} G$ for every integer $m >
+0$, which reduces us to the case where $H = {}_{mH}$, hence $H$ finite over $S$.
 
 Let $e$ be the unit element of the fiber $G_{s}$; then $S^{0} = \operatorname{Spec}(O_{G,e})$ is a local noetherian
-scheme ($G$ being of finite presentation over $S$ noetherian); set $S^{0}_{n} = S^{0} \times_{S} S_{n}$, where
-$S_{n} = \operatorname{Spec}(A/m^{n+1})$. Then $K_{S^{0}} = K \times_{G} S^{0}$ is a subprescheme of
-$H_{S^{0}} = H \times_{S} S^{0}$, and, <!-- original page 63 --> by 3.9, one has $K_{S^{0}_{n}} = H_{S^{0}_{n}}$ for
-every $n$.[^N.D.E-IX-38] Since $H_{S^{0}}$ is finite over $S^{0}$, one concludes from 5.0 (applied to the noetherian
-local ring $B$) that $K_{S^{0}} = H_{S^{0}}$.
+scheme ($G$ being of finite presentation over $S$ noetherian); set $S^{0}_{n} = S^{0} \times_{S} S_{n}$, where $S_{n} =
+\operatorname{Spec}(A/m^{n+1})$. Then $K_{S^{0}} = K \times_{G} S^{0}$ is a subprescheme of $H_{S^{0}} = H \times_{S}
+S^{0}$, and, <!-- original page 63 --> by 3.9, one has $K_{S^{0}_{n}} = H_{S^{0}_{n}}$ for every $n$.[^N.D.E-IX-38]
+Since $H_{S^{0}}$ is finite over $S^{0}$, one concludes from 5.0 (applied to the noetherian local ring $B$) that
+$K_{S^{0}} = H_{S^{0}}$.
 
 On the other hand, since $H \times_{S} G$ is noetherian (being of finite presentation over $S$ noetherian), the
 immersion $K \hookrightarrow H \times_{S} G$ is of finite type (cf. EGA I, 6.3.5), so that $K$ is of finite type, hence
 of finite presentation over $G$. Then the equality $K_{S^{0}} = H_{G} \times_{G} S^{0}$ entails, by EGA IV₃, 8.8.2.4,
-that there exists an open neighborhood $W$ of $e$ in $G$ such that
-$K \times_{G} W = H_{G} \times_{G} W = H \times_{S} W$. Hence $K$ majorizes the open neighborhood $V = H \times_{S} W$
-of the unit section of `G_H` over $H$.
+that there exists an open neighborhood $W$ of $e$ in $G$ such that $K \times_{G} W = H_{G} \times_{G} W = H \times_{S}
+W$. Hence $K$ majorizes the open neighborhood $V = H \times_{S} W$ of the unit section of `G_H` over $H$.
 
 For every $t \in H$, the fiber $G_{t}$ (being a $\kappa(t)$-algebraic group) is Cohen–Macaulay (VI_A, 1.1.1), hence
 without embedded components; as it is moreover connected, hence irreducible (VI_A, 2.4), it has its generic point as
@@ -1053,9 +1038,9 @@ and quasi-finite over $S$. Then there exists an integer $n > 0$ such that $n \cd
 
 <!-- original page 64 -->
 
-If $S$ is the spectrum of a field $k$, then $G$ is finite over $k$, and by VII_A 8.5, it suffices to take
-$n = deg(G/k)$. Suppose now $S = \operatorname{Spec}(A)$ local artinian; let $k$ be the residue field of $A$,
-$G_{0} = G \otimes_{A} k$, and $n_{0} = deg(G_{0}/k)$. Distinguish two cases.
+If $S$ is the spectrum of a field $k$, then $G$ is finite over $k$, and by VII_A 8.5, it suffices to take $n =
+deg(G/k)$. Suppose now $S = \operatorname{Spec}(A)$ local artinian; let $k$ be the residue field of $A$, $G_{0} = G
+\otimes_{A} k$, and $n_{0} = deg(G_{0}/k)$. Distinguish two cases.
 
 a) $k$ is of characteristic zero. Then `G_0` is separable over $k$, hence $G$ is unramified over $S$. Then the unit
 section of $G$ is an open immersion, hence ${}_{nG} = Ker(n \cdot id_{G})$ is an open subscheme of $G$; therefore in
@@ -1071,12 +1056,10 @@ of functors in groups $G \to \prod_{S_{m-1}/S} G$ (cf. III 0.1.2). Then $E$ iden
 $\operatorname{Hom}_{S-gr.}(G, K)$; in particular the abelian group law on $E$ is induced by that of $K$. Now, by III
 0.9, $K$ is the $S$-functor in groups which to every $g : T \to S$ associates the $k$-vector space
 
-$$
-\operatorname{Hom}_{O_{T_{0}}}(g^{*}_{0}(\Omega^{1}_{G_{0}/S_{0}}), m^{m} O_{T});
-$$
+$$ \operatorname{Hom}_{O_{T_{0}}}(g^{*}_{0}(\Omega^{1}_{G_{0}/S_{0}}), m^{m} O_{T}); $$
 
-one has therefore $pu = 0$ for every $u \in E$. Hence one has $pn' \cdot id_{G} = 0$, i.e.
-$p^{m} n_{0} \cdot id_{G} = 0$.
+one has therefore $pu = 0$ for every $u \in E$. Hence one has $pn' \cdot id_{G} = 0$, i.e. $p^{m} n_{0} \cdot id_{G} =
+0$.
 
 Suppose now $S$ noetherian (one reduces to this in 6.1 by the customary reduction to the noetherian case[^N.D.E-IX-40]).
 It then suffices to combine the foregoing with the
@@ -1096,18 +1079,18 @@ such that X_i ×_S S_{s,n} = X ×_S S_{s,n}.
 Since $S$ is noetherian, there exists a maximal open $U$ such that one has $X|U = X_{i}|U$ <!-- original page 65 --> for
 $i$ large; we shall show that $U = S$. In other words, we shall show that if $U \neq S$, one can find a `U_1` strictly
 larger than $U$, and an $i$ such that $X|U_{1} = X_{i}|U_{1}$. Localizing at a maximal point $s$ of $S - U$, one is
-reduced to the case where $S$ is local with closed point $s$, and $U = S - {s}$. (Indeed, if one writes
-$S^{0} = \operatorname{Spec}(O_{S,s})$ and if there exists $i$ such that $X \times_{S} S^{0} = X_{i} \times_{S} S^{0}$
+reduced to the case where $S$ is local with closed point $s$, and $U = S - {s}$. (Indeed, if one writes $S^{0} =
+\operatorname{Spec}(O_{S,s})$ and if there exists $i$ such that $X \times_{S} S^{0} = X_{i} \times_{S} S^{0}$
 then,[^N.D.E-IX-41] there exists an open neighborhood $V$ of $s$ such that $X|V = X_{i}|V$; hence taking $i$ large
 enough so that $X_{i}|U = X|U$, one will have $X|W = X_{i}|W$, where $W = U \cup V.$)
 
 Then, for $i$ large, since $X|U = X_{i}|U$, one sees that $X_{i}$ is a closed subprescheme of $X$ defined by an ideal
 $I^{(i)}$ of support contained in $X_{s} = X_{0} = X \times_{S} S_{0}$ (where $S_{n} = \operatorname{Spec}(A/m^{n+1})$,
 $S = \operatorname{Spec}(A)$). Since `X_0` is quasi-finite over `S_0`, `X_0` is a finite closed part of $X$ noetherian,
-hence $I^{(i)}$ is a module of finite length. It follows that there exists an integer $n \geqslant 0$ such that
-$I^{(i)} \cap m^{n+1} O_{X} = 0$. On the other hand, by the hypothesis in 6.2, one may suppose (by enlarging $i$ if
-necessary) that the image of $I^{(i)}$ in $O_{X_{n}} = O_{X}/m^{n+1} O_{X}$ is zero. This implies $I^{(i)} = 0$, hence
-$X_{i} = X$. QED.
+hence $I^{(i)}$ is a module of finite length. It follows that there exists an integer $n \geqslant 0$ such that $I^{(i)}
+\cap m^{n+1} O_{X} = 0$. On the other hand, by the hypothesis in 6.2, one may suppose (by enlarging $i$ if necessary)
+that the image of $I^{(i)}$ in $O_{X_{n}} = O_{X}/m^{n+1} O_{X}$ is zero. This implies $I^{(i)} = 0$, hence $X_{i} = X$.
+QED.
 
 **Lemma 6.3.** *Let $S$ be a prescheme, $K$ a prescheme in groups over $S$, locally of finite presentation, $s \in S$
 such that $K_{s}$ is quasi-finite (resp. unramified) over $\kappa(s)$ at the unit element. Then there exists an open
@@ -1116,13 +1099,13 @@ neighborhood $U$ of $s$ such that $K|U$ is locally quasi-finite (resp. unramifie
 <!-- label: III.IX.6.3 -->
 
 Let $V$ be the set of points $x$ of $K$ such that, denoting by $t$ the image of $x$ in $S$, the fiber $K_{t}$ is
-quasi-finite (resp. unramified) over $\kappa(t)$ at $x$, i.e. such that $x$ is isolated in $K_{t}$ (resp. and its local ring in
-$K_{t}$ is a separable extension of $\kappa(t)$). One knows that $V$ is open since $K$ is locally of finite presentation over
-$S$,[^N.D.E-IX-42] hence if $\epsilon$ denotes the unit section of $K$, $\epsilon^{-1}(V)$ is open. By hypothesis it contains $s$,
-hence is an open neighborhood $U$ of $s$. The latter does the trick; in other words, $t \in U$ implies that $K_{t}$ is
-locally quasi-finite (resp. unramified) over $\kappa(t)$: indeed, <!-- original page 66 --> since $K_{t}$ is a group locally of
-finite type over $\kappa(t)$, this follows from the fact that it is quasi-finite (resp. unramified) over $\kappa(t)$ at the point
-$\epsilon(t)$, cf. VI_B 1.3.
+quasi-finite (resp. unramified) over $\kappa(t)$ at $x$, i.e. such that $x$ is isolated in $K_{t}$ (resp. and its local
+ring in $K_{t}$ is a separable extension of $\kappa(t)$). One knows that $V$ is open since $K$ is locally of finite
+presentation over $S$,[^N.D.E-IX-42] hence if $\epsilon$ denotes the unit section of $K$, $\epsilon^{-1}(V)$ is open. By
+hypothesis it contains $s$, hence is an open neighborhood $U$ of $s$. The latter does the trick; in other words, $t \in
+U$ implies that $K_{t}$ is locally quasi-finite (resp. unramified) over $\kappa(t)$: indeed, <!-- original page 66 -->
+since $K_{t}$ is a group locally of finite type over $\kappa(t)$, this follows from the fact that it is quasi-finite
+(resp. unramified) over $\kappa(t)$ at the point $\epsilon(t)$, cf. VI_B 1.3.
 
 Combining 6.1 and 6.3, one finds the
 
@@ -1212,8 +1195,8 @@ H ─u'→ H/K′ ─u''→ G.
 
 Now, since $u''_{s}$ is deduced from $u_{s}$ by factoring through $H_{s} \to H_{s}/Ker(u_{s})$, then $u''_{s}$ is a
 monomorphism (IV 5.2.6), hence by 6.6 there exists an open neighborhood $U$ of $s$ such that $u''|U : (H/K')|U \to G|U$
-is a monomorphism. Hence, restricting $S$ if necessary, one sees that `u''` is a monomorphism, hence
-$Ker(u) = Ker(u') = K'$, which proves that `Ker u` is of multiplicative type.
+is a monomorphism. Hence, restricting $S$ if necessary, one sees that `u''` is a monomorphism, hence $Ker(u) = Ker(u') =
+K'$, which proves that `Ker u` is of multiplicative type.
 
 The same proof is valid if, instead of supposing $G$ of finite presentation over $S$, one supposes $S$ locally
 noetherian — at least in the case where $H$ is diagonalizable. In the case where one does not make this hypothesis on
@@ -1242,18 +1225,14 @@ groups, with $H$ of isotrivial multiplicative type, and $G$ affine.*
 
 Suppose first $H$ diagonalizable, hence of the form
 
-$$
-H = \operatorname{Spec} A^{(M)},
-$$
+$$ H = \operatorname{Spec} A^{(M)}, $$
 
-where $B = A^{(M)}$ is the algebra of the commutative group $M$ with coefficients in $A$. One also has
-$G = \operatorname{Spec}(C)$, where $C$ is an $A$-algebra equipped with a diagonal map (satisfying the well-known
-axioms). Then the homomorphisms of $S$-groups $H \to G$ correspond bijectively to the homomorphisms of $A$-algebras
-$\varphi : C \to B$ compatible with the diagonal maps, i.e. such that, for every $f \in C$,
+where $B = A^{(M)}$ is the algebra of the commutative group $M$ with coefficients in $A$. One also has $G =
+\operatorname{Spec}(C)$, where $C$ is an $A$-algebra equipped with a diagonal map (satisfying the well-known axioms).
+Then the homomorphisms of $S$-groups $H \to G$ correspond bijectively to the homomorphisms of $A$-algebras $\varphi : C
+\to B$ compatible with the diagonal maps, i.e. such that, for every $f \in C$,
 
-$$
-\Delta_{H}(\varphi(f)) = (\varphi \otimes \varphi)(\Delta_{G}(f))
-$$
+$$ \Delta_{H}(\varphi(f)) = (\varphi \otimes \varphi)(\Delta_{G}(f)) $$
 
 where $\Delta_{H}$ and $\Delta_{G}$ are the diagonal maps. One has an analogous description for the homomorphisms of
 $S_{n}$-groups $H_{n} \to G_{n}$, defined by certain homomorphisms of $A_{n}$-algebras $\varphi_{n} : C_{n} \to B_{n}$
@@ -1279,9 +1258,7 @@ Let us prove that $\theta$ is surjective: take a projective system $(\varphi_{n}
 it comes by reduction from a $\varphi$ of the first member. A priori, $(\varphi_{n})$ defines a homomorphism on the
 completed algebras
 
-$$
-\hat{\varphi} : \hat{C} \longrightarrow \hat{B},
-$$
+$$ \hat{\varphi} : \hat{C} \longrightarrow \hat{B}, $$
 
 and all that remains is to see that its composite $\Phi : C \to \hat{C} \to^{\hat{\varphi}} \hat{B}$ with the canonical homomorphism $C \to \hat{C}$ sends
 $C$ into $B$. Indeed, if this is the case, one finds a homomorphism <!-- original page 70 --> of $A$-algebras
@@ -1314,12 +1291,12 @@ C ⊗_A C ─Φ⊗Φ→ B̂ ⊗_A B̂ ⟶ B̂ ⊗̂_A B
 of $\hat{B}$ whose image under $\hat{\Delta}_{H}$ is a "decomposable" element of $\hat{B} \hat{\otimes}_{A} B$, i.e. is
 in the image of $\hat{B} \otimes_{A} \hat{B}$.
 
-Denote by $(e_{m})_{m \in M}$ the canonical basis of $A^{(M)}$ and $(e_{m,m'})$ that of
-$A^{(M \times M)} = A^{(M)} \otimes_{A} A^{(M)}$. Since $\Delta_{H}(e_{m}) = e_{m} \otimes e_{m} = e_{m,m}$ for every
-$m$, it suffices now to apply the
+Denote by $(e_{m})_{m \in M}$ the canonical basis of $A^{(M)}$ and $(e_{m,m'})$ that of $A^{(M \times M)} = A^{(M)}
+\otimes_{A} A^{(M)}$. Since $\Delta_{H}(e_{m}) = e_{m} \otimes e_{m} = e_{m,m}$ for every $m$, it suffices now to apply
+the
 
-**Lemma 7.2.** *Let $A$ be a noetherian ring, $M$ a set, $(a_{m,m'})$ a family of elements of $A$ indexed by
-$M \times M$, such that*
+**Lemma 7.2.** *Let $A$ be a noetherian ring, $M$ a set, $(a_{m,m'})$ a family of elements of $A$ indexed by $M \times
+M$, such that*
 
 <!-- label: III.IX.7.2 -->
 
@@ -1338,8 +1315,8 @@ homomorphism $A^{M} \otimes_{A} A^{M} \to A^{M \times M}$).*
 
 <!-- original page 71 -->
 
-By (i), the family $(a_{m,m'})$ is determined by knowledge of the $a_{m} = a_{m,m}$. Set, for every
-$x = (x_{n})_{n \in M} \in A^{(M)}$:
+By (i), the family $(a_{m,m'})$ is determined by knowledge of the $a_{m} = a_{m,m}$. Set, for every $x = (x_{n})_{n \in
+M} \in A^{(M)}$:
 
 ```text
 (u · x)_m = ∑_{m'} a_{m,m'} x_{m'},
@@ -1364,19 +1341,18 @@ independent) that all but finitely many of the $a_{m}$ are zero. This proves 7.2
 $H$ is diagonalizable.
 
 Let us now prove the general case of 7.1, where one supposes only $H$ isotrivial, i.e. there exists a finite étale
-surjective morphism $S' \to S$ such that $H' = H \times_{S} S'$ is diagonalizable. We shall use only the fact that
-$S' \to S$ is finite and covering (for the faithfully flat quasi-compact topology, or simply for the canonical topology
-of `(Sch)`) — thus the "étale" hypothesis could be replaced by "flat".
+surjective morphism $S' \to S$ such that $H' = H \times_{S} S'$ is diagonalizable. We shall use only the fact that $S'
+\to S$ is finite and covering (for the faithfully flat quasi-compact topology, or simply for the canonical topology of
+`(Sch)`) — thus the "étale" hypothesis could be replaced by "flat".
 
 <!-- original page 72 -->
 
-Let $S'' = S' \times_{S} S'$; introduce likewise $S'_{n}$ and
-$S''_{n} = S'' \times_{S} S_{n} = S'_{n} \times_{S_{n}} S'_{n}$, and
-$H', G', H'', G'', H'_{n}, G'_{n}, H''_{n}, G''_{n}$ deduced from $H$ and $G$ by the base changes one guesses. Note that
-$H'$ and $H''$ are now diagonalizable. Note also that $S'$ hence $S''$ is affine, and that if
-$S' = \operatorname{Spec}(A')$, $S'' = \operatorname{Spec}(A'')$, then $A'$ and $A''$ are separated and complete for the
-topology defined by $IA'$ resp. by $IA''$ (since $A'$ and $A''$ are finite over $A$). Since $S' \to S$ and
-$S'_{n} \to S_{n}$ are covering, one obtains a commutative diagram of maps of sets whose two rows are exact:
+Let $S'' = S' \times_{S} S'$; introduce likewise $S'_{n}$ and $S''_{n} = S'' \times_{S} S_{n} = S'_{n} \times_{S_{n}}
+S'_{n}$, and $H', G', H'', G'', H'_{n}, G'_{n}, H''_{n}, G''_{n}$ deduced from $H$ and $G$ by the base changes one
+guesses. Note that $H'$ and $H''$ are now diagonalizable. Note also that $S'$ hence $S''$ is affine, and that if $S' =
+\operatorname{Spec}(A')$, $S'' = \operatorname{Spec}(A'')$, then $A'$ and $A''$ are separated and complete for the
+topology defined by $IA'$ resp. by $IA''$ (since $A'$ and $A''$ are finite over $A$). Since $S' \to S$ and $S'_{n} \to
+S_{n}$ are covering, one obtains a commutative diagram of maps of sets whose two rows are exact:
 
 ```text
 Hom_{S-gr.}(H, G) ──→ Hom_{S′-gr.}(H′, G′) ⇉ Hom_{S″-gr.}(H″, G″)
@@ -1492,9 +1468,7 @@ type, and $G$ a $k$-group scheme such that one has an exact sequence*
 
 <!-- label: III.IX.8.2 -->
 
-$$
-1 \longrightarrow H \longrightarrow G \longrightarrow K \longrightarrow 1
-$$
+$$ 1 \longrightarrow H \longrightarrow G \longrightarrow K \longrightarrow 1 $$
 
 *(which entails that $G$ is of finite type over $k$).*
 
@@ -1515,33 +1489,27 @@ K ≃ D_k(M)    and    H ≃ D_k(N).
 isotrivial over $k$, i.e. there exists a finite separable extension $k'/k$ such that $G' = G \times_{k} k'$ is
 diagonalizable, so $G' = D_{k'}(E)$ for some commutative group $E$, and one has an exact sequence
 
-$$
-0 \longrightarrow D_{k'}(N) \longrightarrow D_{k'}(E) \longrightarrow D_{k'}(M) \longrightarrow 0.                                          (1)
-$$
+$$ 0 \longrightarrow D_{k'}(N) \longrightarrow D_{k'}(E) \longrightarrow D_{k'}(M) \longrightarrow 0. (1) $$
 
 <!-- label: eq:III.IX.8.2.1 -->
 
 Hence, by VIII, 3.1 and 3.2, $M$ is a subgroup of $E$ and one has an exact sequence
 
-$$
-0 \longrightarrow M \longrightarrow E \longrightarrow N \longrightarrow 0.                                                                  (2)
-$$
+$$ 0 \longrightarrow M \longrightarrow E \longrightarrow N \longrightarrow 0. (2) $$
 
 <!-- label: eq:III.IX.8.2.2 -->
 
 For a given extension `E_0` of $N$ by $M$, consider the diagonalizable $k$-group $G_{0} = D_{k}(E_{0})$; then the
 $k$-functor in groups $A$ of automorphisms of the extension
 
-$$
-1 \longrightarrow H \longrightarrow G_{0} \longrightarrow K \longrightarrow 1,                                                                (3)
-$$
+$$ 1 \longrightarrow H \longrightarrow G_{0} \longrightarrow K \longrightarrow 1, (3) $$
 
 <!-- label: eq:III.IX.8.2.3 -->
 
-i.e. the sub-functor in groups of $\operatorname{Aut}_{k-gr.}(G_{0})$ whose points on a $k$-prescheme $T$ are the
-$\phi \in \operatorname{Aut}_{T-gr.}(G_{T})$ inducing the identity on `H_T` and on `K_T`, identifies with
-$\operatorname{Hom}_{k-gr.}(K, H)$, which is, by VIII 1.5, the constant $k$-group of value
-$L = \operatorname{Hom}_{gr.}(N, M)$.
+i.e. the sub-functor in groups of $\operatorname{Aut}_{k-gr.}(G_{0})$ whose points on a $k$-prescheme $T$ are the $\phi
+\in \operatorname{Aut}_{T-gr.}(G_{T})$ inducing the identity on `H_T` and on `K_T`, identifies with
+$\operatorname{Hom}_{k-gr.}(K, H)$, which is, by VIII 1.5, the constant $k$-group of value $L =
+\operatorname{Hom}_{gr.}(N, M)$.
 
 One sees therefore that the classification of extensions $G$ of $K$ by $H$ which, over a separable closure $k_{s}$ of
 $k$, become isomorphic to the extension (3), is the same as that of the <!-- original page 76 --> $k$-torsors for the
@@ -1687,9 +1655,8 @@ arbitrary base scheme.*[^N.D.E-IX-54]
 
 [^N.D.E-IX-24]: *N.D.E.* The original has been spelled out in what follows.
 
-[^N.D.E-IX-25]: *N.D.E.* One will need in X 4.3 this result for $S$ non locally noetherian (namely,
-    $S = \operatorname{Spec}(\hat{A} \otimes_{A} \hat{A})$, where `Â` is the completion of the noetherian local ring
-    $A$).
+[^N.D.E-IX-25]: *N.D.E.* One will need in X 4.3 this result for $S$ non locally noetherian (namely, $S =
+    \operatorname{Spec}(\hat{A} \otimes_{A} \hat{A})$, where `Â` is the completion of the noetherian local ring $A$).
 
 [^N.D.E-IX-26]: *N.D.E.* "Diagonalizable" has been replaced by "of multiplicative type".
 
@@ -1709,8 +1676,8 @@ arbitrary base scheme.*[^N.D.E-IX-54]
     "universal effective epimorphism", so as to be able to apply this to the morphism $K \to S$ of 5.5; the beginning of
     the proof has been modified accordingly.
 
-[^N.D.E-IX-33]: *N.D.E.* This is the case, for example, if $S = \operatorname{Spec} k$ and
-    $S' = \operatorname{Spec} k'$, where $k$ is a field and $k'$ a radicial extension of $k$, cf. X, Prop. 1.4.
+[^N.D.E-IX-33]: *N.D.E.* This is the case, for example, if $S = \operatorname{Spec} k$ and $S' = \operatorname{Spec}
+    k'$, where $k$ is a field and $k'$ a radicial extension of $k$, cf. X, Prop. 1.4.
 
 [^N.D.E-IX-34]: *N.D.E.* The following sentence has been added.
 
@@ -1743,8 +1710,8 @@ arbitrary base scheme.*[^N.D.E-IX-54]
     denote the image of $x$.
 
 [^N.D.E-IX-43]: *N.D.E.* It in fact suffices to suppose $G$ locally of finite type over $S$; by EGA IV₄, 1.4.3 (v), this
-    entails ($H \to S$ being of finite presentation) that $H \to G$ is locally of finite presentation, hence so is
-    $K \to S$, which is deduced from it by base change.
+    entails ($H \to S$ being of finite presentation) that $H \to G$ is locally of finite presentation, hence so is $K
+    \to S$, which is deduced from it by base change.
 
 [^N.D.E-IX-44]: *N.D.E.* The numbering 6.6.1 has been added, for later references.
 
@@ -1761,9 +1728,9 @@ arbitrary base scheme.*[^N.D.E-IX-54]
 [^N.D.E-IX-50]: *N.D.E.* "Over a field $k$" has been added, being implicit in the original; on the other hand,
     "algebraic group" has been replaced by "group scheme", since $G$ is not supposed to be of finite type.
 
-[^N.D.E-IX-51]: *N.D.E.* Spell out this "passage to the limit": this uses 8.0 and also the equality
-    $G/H = \lim_{i} G_{i}/H_{i}$, cf. VI_B, proof of 11.17. To see that $H = \lim_{i} (H \cap G_{i})$, does one use the
-    fact that $H$ is closed in $G$? Using this, one can give a direct proof …
+[^N.D.E-IX-51]: *N.D.E.* Spell out this "passage to the limit": this uses 8.0 and also the equality $G/H = \lim_{i}
+    G_{i}/H_{i}$, cf. VI_B, proof of 11.17. To see that $H = \lim_{i} (H \cap G_{i})$, does one use the fact that $H$ is
+    closed in $G$? Using this, one can give a direct proof …
 
 [^N.D.E-IX-52]: *N.D.E.* It would doubtless be necessary to rewrite VI_B 11.16 in the usual, more pleasant form. In
     particular, a single $f_{i}$ suffices below …

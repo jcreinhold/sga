@@ -24,12 +24,10 @@ canonical immersion $j: Z \to X$ is quasi-compact.
 
 Since $Z$ is open, we have (I 2.2)[^N.D.E-II-1] a canonical isomorphism
 
-$$
-\mathcal{H}^{i}_{Z}(F) \simeq R^{i} j_{*}(F|Z),
-$$
+$$ \mathcal{H}^{i}_{Z}(F) \simeq R^{i} j_{*}(F|Z), $$
 
-but $j$ is separated (EGA I 5.5.1) and quasi-compact, hence (EGA III 1.4.10) the
-$R^{i} j_{*}(F|Z) = \mathcal{H}^{i}_{Z}(F)$ are quasi-coherent, which completes the proof.
+but $j$ is separated (EGA I 5.5.1) and quasi-compact, hence (EGA III 1.4.10) the $R^{i} j_{*}(F|Z) =
+\mathcal{H}^{i}_{Z}(F)$ are quasi-coherent, which completes the proof.
 
 <!-- TRANSLATOR NOTE: The OCR shows `(I 24)`, `(I 22)`, `(I 23)`, `(I 27)`. In the renumbered 1968 edition these
 correspond to the displayed exact sequence and canonical isomorphisms of Exposé I §2. The reference targets in this
@@ -62,9 +60,7 @@ This follows immediately from Corollary 2 and (EGA I 6.6.4).
 Suppose that $X$ is the spectrum of a ring $A$, and let $U$ be a quasi-compact open subset of $X$, $Y = X - U$, and $F$
 a quasi-coherent Module on $X$. There is an isomorphism of cohomological functors in $F$:
 
-$$
-\mathcal{H}^{i}_{Y}(F) = (H^{i}_{Y}(X, F))~.
-$$
+$$ \mathcal{H}^{i}_{Y}(F) = (H^{i}_{Y}(X, F))~. $$
 
 <!-- label: eq:II.4.1 -->
 
@@ -86,12 +82,10 @@ H^i_Y(X, F) ≃ H^{i−1}(U, F),    i ⩾ 2.
 
 <!-- label: eq:II.4.3 -->
 
-By Corollary 2, the $\mathcal{H}^{i}_{Y}(F)$ are quasi-coherent; since $X$ is affine, one therefore has
-$H^{p}(X, \mathcal{H}^{i}_{Y}(F)) = 0$ for $p > 0$. The spectral sequence (I 2.3)[^N.D.E-II-1] degenerates, hence
+By Corollary 2, the $\mathcal{H}^{i}_{Y}(F)$ are quasi-coherent; since $X$ is affine, one therefore has $H^{p}(X,
+\mathcal{H}^{i}_{Y}(F)) = 0$ for $p > 0$. The spectral sequence (I 2.3)[^N.D.E-II-1] degenerates, hence
 
-$$
-H^{i}_{Y}(X, F) = \Gamma(\mathcal{H}^{i}_{Y}(F)).
-$$
+$$ H^{i}_{Y}(X, F) = \Gamma(\mathcal{H}^{i}_{Y}(F)). $$
 
 Equality (4.1) then follows from (EGA I 1.1.3.7); (4.2) and (4.3) follow from the cohomology exact sequence (I
 2.7)[^N.D.E-II-1] and from the fact that $H^{i}(X, F) = 0$ for $i > 0$, since $X$ is affine.
@@ -141,9 +135,8 @@ Ext^i_{𝒪_X}(X; f_* f^{−1}(𝒪_X), F) → H^i_Y(X, F),
 
 <!-- label: eq:II.starstar -->
 
-Let $n$, $m$ be integers with $m \geqslant n \geqslant 0$; we denote by $i_{n,m}$ the canonical map
-$\mathcal{O}_{Y_{m}} = \mathcal{O}_{X}/I^{m+1} \to \mathcal{O}_{X}/I^{n+1} = \mathcal{O}_{Y_{n}}$, and by $j_{n}$ the
-map
+Let $n$, $m$ be integers with $m \geqslant n \geqslant 0$; we denote by $i_{n,m}$ the canonical map $\mathcal{O}_{Y_{m}}
+= \mathcal{O}_{X}/I^{m+1} \to \mathcal{O}_{X}/I^{n+1} = \mathcal{O}_{Y_{n}}$, and by $j_{n}$ the map
 
 <!-- original page 22 (anchor at top of source page 17) -->
 
@@ -295,8 +288,8 @@ a) The homomorphism (7.6) is an isomorphism for every $M$.
 
 b) $H^{i}((f), M) = 0$ for $M$ injective.
 
-c) The projective system $(H^{i}(f^{n}, A)) = H_{i,n}$ is essentially zero, that is: for every $n$, there exists
-$n' > n$ such that $H_{i,n'} \to H_{i,n}$ is zero.
+c) The projective system $(H^{i}(f^{n}, A)) = H_{i,n}$ is essentially zero, that is: for every $n$, there exists $n' >
+n$ such that $H_{i,n'} \to H_{i,n}$ is zero.
 
 a) entails b) trivially.
 
@@ -314,8 +307,8 @@ H^i(f^n, M) = Hom(H^i(f^n, A), M) = Hom(H_{i,n}, M),
 so c) implies that for every $i$ the inductive system $(H^{i}(f^{n}, M))_{n \in \mathbb{Z}}$ is essentially zero, whence
 b).
 
-b) entails c). Indeed, let $n > 0$, and let $j$ be a monomorphism of $H_{i,n}$ into an injective module $M$. Let
-$n' \geqslant n$, and let $j_{n'} \in \operatorname{Hom}(H_{i,n'}, M)$ be the composite of $j$ with the transition
+b) entails c). Indeed, let $n > 0$, and let $j$ be a monomorphism of $H_{i,n}$ into an injective module $M$. Let $n'
+\geqslant n$, and let $j_{n'} \in \operatorname{Hom}(H_{i,n'}, M)$ be the composite of $j$ with the transition
 homomorphism $t_{n',n}: H_{i,n'} \to H_{i,n}$. The $j_{n'}$ define an element of $H^{i}((f), M)$, which is zero by
 hypothesis. There therefore exists $n_{0}$ such that $j_{n'} = 0$ for $n' > n_{0}$. But since $j$ is a monomorphism,
 $j_{n'} = 0$ entails $t_{n',n} = 0$, whence the proposition.
@@ -352,11 +345,11 @@ $(H_{i,n}(N))_{n \in \mathbb{Z}}$, where $H_{i,n}(N) = H^{i}(f^{n}, N)$, is esse
 Proof by induction on the number $m$ of elements of $f$.
 
 If $m = 1$, $f$ reduces to a single element, say $f$; then $H_{i,n}(N)$ is zero for $i > 1$, and $H_{1,n}(N)$ is
-canonically isomorphic to the annihilator $N_{(n)}$ of $f^{n}$ in $N$, the transition homomorphism
-$N_{(n')} \to N_{(n)}$, $n' \geqslant n$, being multiplication by $f^{n' - n}$. The $N_{(n)}$ form an increasing
-sequence of submodules of $N$, and since $N$ is noetherian there exists $n_{0}$ such that $N_{(n)} = N_{(n_{0})}$ for
-$n \geqslant n_{0}$. Thus all the $N_{(n)}$ are annihilated by $f^{n_{0}}$, and the transition homomorphisms
-$N_{(n')} \to N_{(n)}$ are all zero for $n' \geqslant n + n_{0}$. The lemma is therefore proved for $m = 1$.
+canonically isomorphic to the annihilator $N_{(n)}$ of $f^{n}$ in $N$, the transition homomorphism $N_{(n')} \to
+N_{(n)}$, $n' \geqslant n$, being multiplication by $f^{n' - n}$. The $N_{(n)}$ form an increasing sequence of
+submodules of $N$, and since $N$ is noetherian there exists $n_{0}$ such that $N_{(n)} = N_{(n_{0})}$ for $n \geqslant
+n_{0}$. Thus all the $N_{(n)}$ are annihilated by $f^{n_{0}}$, and the transition homomorphisms $N_{(n')} \to N_{(n)}$
+are all zero for $n' \geqslant n + n_{0}$. The lemma is therefore proved for $m = 1$.
 
 We now assume that $m > 1$ and that the lemma is proved for integers $m' < m$; let then $g = (f_{1}, \cdots, f_{m-1})$
 and $h = f_{m}$.

@@ -22,9 +22,7 @@ relative to $T$.*
 
 *(i) There exists a unique morphism of groups with operator group $T$*
 
-$$
-\exp \alpha : W(g\alpha) \to G
-$$
+$$ \exp \alpha : W(g\alpha) \to G $$
 
 *inducing on the Lie algebras the canonical morphism $g\alpha \to g$. This morphism is a closed immersion. The
 corresponding morphism*
@@ -37,10 +35,10 @@ T ·α W(gα) → G
 
 *is also a closed immersion.*
 
-*If $p\alpha : Ga,S \to G$ is a monomorphism normalized by $T$ with multiplier $\alpha$, there exists a unique
-$X\alpha \in \Gamma(S, g\alpha)\times$[^N.D.E-XXII-1] such that $p\alpha(x) = \exp \alpha(xX\alpha)$; one has
-$Lie(p\alpha)(1) = X\alpha$, and the two preceding formulas set up a bijective correspondence between
-$\Gamma(S, g\alpha)\times$ and the set of monomorphisms $Ga,S \to G$ normalized by $T$ with multiplier $\alpha$.*
+*If $p\alpha : Ga,S \to G$ is a monomorphism normalized by $T$ with multiplier $\alpha$, there exists a unique $X\alpha
+\in \Gamma(S, g\alpha)\times$[^N.D.E-XXII-1] such that $p\alpha(x) = \exp \alpha(xX\alpha)$; one has $Lie(p\alpha)(1) =
+X\alpha$, and the two preceding formulas set up a bijective correspondence between $\Gamma(S, g\alpha)\times$ and the
+set of monomorphisms $Ga,S \to G$ normalized by $T$ with multiplier $\alpha$.*
 
 *(ii) There exists a unique duality (denoted $(X, Y) \mapsto XY$)*
 
@@ -50,9 +48,7 @@ gα ⊗_{O_S} g_{-α} ⥲ O_S,
 
 *and a unique morphism of groups*
 
-$$
-\alpha* : Gm,S \to T,
-$$
+$$ \alpha* : Gm,S \to T, $$
 
 *such that formula (F) of Exp. XX 2.1 holds. One has*
 
@@ -62,9 +58,9 @@ $$
 
 *and $\alpha*$ is given by the formula of Exp. XX 2.7.*
 
-Indeed, a morphism normalized by $T$ with multiplier $\alpha$ factors necessarily through the closed subgroup
-$Z\alpha = Centr_{G}(T\alpha)$ of $G$ (cf. Exp. XIX 3.9). Now $(Z\alpha, T, \alpha)$ is an $S$-elementary system (Exp.
-XX 1.4), and one is reduced to the results of Exposé XX (1.5, 2.1, and 5.9).
+Indeed, a morphism normalized by $T$ with multiplier $\alpha$ factors necessarily through the closed subgroup $Z\alpha =
+Centr_{G}(T\alpha)$ of $G$ (cf. Exp. XIX 3.9). Now $(Z\alpha, T, \alpha)$ is an $S$-elementary system (Exp. XX 1.4), and
+one is reduced to the results of Exposé XX (1.5, 2.1, and 5.9).
 
 **Remark 1.2.** *Part (i) of Theorem 1.1 remains valid if one only assumes that $\alpha$ is a character of $T$,
 non-trivial on each fiber. Indeed, one then has a decomposition $S = S' \coprod S''$ such that $\alpha|S'$ is a root of
@@ -76,9 +72,9 @@ trivial; the general case follows immediately.*
 **Notations 1.3.** *As in Exposé XX, we denote by $U\alpha$ the image of $W(g\alpha)$; it is a closed subgroup of $G$,
 equipped canonically with a vector-space structure. We shall call it the* vector group associated with the root
 $\alpha$. *We say that $\alpha*$ is the* coroot associated with $\alpha$. *Sections $X\alpha \in \Gamma(S, g\alpha)$ and
-$X_{-\alpha} \in \Gamma(S, g_{-\alpha})$ are said to be* paired *if $X\alpha \cdot X_{-\alpha} = 1$. Then
-$X\alpha \in \Gamma(S, g\alpha)\times$ and likewise for $X_{-\alpha}$. The corresponding morphisms $p\alpha$ and
-$p_{-\alpha}$ are contragredient to one another in the sense of XX, 1.5,[^N.D.E-XXII-2] and one has*
+$X_{-\alpha} \in \Gamma(S, g_{-\alpha})$ are said to be* paired *if $X\alpha \cdot X_{-\alpha} = 1$. Then $X\alpha \in
+\Gamma(S, g\alpha)\times$ and likewise for $X_{-\alpha}$. The corresponding morphisms $p\alpha$ and $p_{-\alpha}$ are
+contragredient to one another in the sense of XX, 1.5,[^N.D.E-XXII-2] and one has*
 
 <!-- label: III.XXII.1.3 -->
 
@@ -86,9 +82,9 @@ $p_{-\alpha}$ are contragredient to one another in the sense of XX, 1.5,[^N.D.E-
 pα(x) p_{-α}(y) = p_{-α}(y / (1 + xy)) · α*(1 + xy) · pα(x / (1 + xy)).
 ```
 
-**Proposition 1.4.** *Under the conditions of 1.1, let $w \in Norm_{G}(T)(S)$. Then
-$\beta = \alpha \circ int(w)^{-1} : T \to Gm,S$ is a root of $G$ relative to $T$, $\beta* = int(w) \circ \alpha*$ is the
-corresponding coroot, and the following diagram is commutative:*
+**Proposition 1.4.** *Under the conditions of 1.1, let $w \in Norm_{G}(T)(S)$. Then $\beta = \alpha \circ int(w)^{-1} :
+T \to Gm,S$ is a root of $G$ relative to $T$, $\beta* = int(w) \circ \alpha*$ is the corresponding coroot, and the
+following diagram is commutative:*
 
 <!-- label: III.XXII.1.4 -->
 
@@ -106,9 +102,7 @@ Trivial: transport of structure.
 
 <!-- label: III.XXII.1.5 -->
 
-$$
-s\alpha(t) = t \cdot \alpha*(\alpha(t))^{-1}.
-$$
+$$ s\alpha(t) = t \cdot \alpha*(\alpha(t))^{-1}. $$
 
 *We denote by $( ,)$ the canonical pairing:*
 
@@ -116,8 +110,9 @@ $$
 Hom_{S-gr.}(Gm,S, T) × Hom_{S-gr.}(T, Gm,S) → Hom_{S-gr.}(Gm,S, Gm,S) = ℤ_S.
 ```
 
-*Then $s\alpha$ operates on $\operatorname{Hom}_{S-gr.}(T, Gm,S)$, resp. $\operatorname{Hom}_{S-gr.}(Gm,S, T)$, by the following formulas, where $\chi$ (resp.
-$u$) denotes an arbitrary section of $\operatorname{Hom}_{S-gr.}(T, Gm,S)$ (resp. of $\operatorname{Hom}_{S-gr.}(Gm,S, T)$):*
+*Then $s\alpha$ operates on $\operatorname{Hom}_{S-gr.}(T, Gm,S)$, resp. $\operatorname{Hom}_{S-gr.}(Gm,S, T)$, by the
+following formulas, where $\chi$ (resp. $u$) denotes an arbitrary section of $\operatorname{Hom}_{S-gr.}(T, Gm,S)$
+(resp. of $\operatorname{Hom}_{S-gr.}(Gm,S, T)$):*
 
 ```text
 sα(χ) = χ − (α*, χ) α,
@@ -223,10 +218,8 @@ The only thing that remains to be checked is that this twisted root datum is red
 Let $T = D_{S}(M)$ be a trivialized torus. If we denote by $M*$ the abelian group dual to $M$, we have canonical
 isomorphisms (cf. Exp. VIII 1.5):
 
-$$
-\operatorname{Hom}_{S-gr.}(T, Gm,S) \xrightarrow{\sim} M_{S},
-\operatorname{Hom}_{S-gr.}(Gm,S, T) \xrightarrow{\sim} M*_{S},
-$$
+$$ \operatorname{Hom}_{S-gr.}(T, Gm,S) \xrightarrow{\sim} M_{S}, \operatorname{Hom}_{S-gr.}(Gm,S, T) \xrightarrow{\sim}
+M*_{S}, $$
 
 hence isomorphisms of groups:
 
@@ -299,9 +292,7 @@ is an $S'$-split group, and $R(G, T, M, R) = R(G_{S'}, T_{S'}, M, R)$.*
 
 Let $T = D_{S}(M)$ be a trivialized torus. The Lie algebra $t$ of $T$ is canonically identified (Exp. II 5.1.1) with
 
-$$
-t \simeq M* \otimes O_{S}.
-$$
+$$ t \simeq M* \otimes O_{S}. $$
 
 For every morphism of groups $u : T \to Gm,S$, $Lie(u)$ is a linear form
 
@@ -309,8 +300,8 @@ For every morphism of groups $u : T \to Gm,S$, $Lie(u)$ is a linear form
 Lie(u) : t → O_S = Lie(Gm,S/S).
 ```
 
-In particular, if $u$ is defined by an element $\alpha \in M$, then $Lie(u)$ is the linear form $\alpha$ on
-$M* \otimes O_{S}$ defined by $\alpha$:
+In particular, if $u$ is defined by an element $\alpha \in M$, then $Lie(u)$ is the linear form $\alpha$ on $M* \otimes
+O_{S}$ defined by $\alpha$:
 
 ```text
 α(m ⊗ x) = (m, α) x.
@@ -325,9 +316,7 @@ H = Lie(h)(1) ∈ Γ(S, t).
 
 In particular, if $h$ is defined by an element $m \in M*$, one has
 
-$$
-H = Lie(h)(1) = m \otimes 1.
-$$
+$$ H = Lie(h)(1) = m \otimes 1. $$
 
 Comparing the two definitions, one finds in particular
 
@@ -339,8 +328,8 @@ Comparing the two definitions, one finds in particular
 
 <!-- label: III.XXII.1.17 -->
 
-These definitions apply in particular to the case where $T$ is the maximal torus of a split group. Each root
-$\alpha \in R$ defines an *infinitesimal root* $\alpha \in \operatorname{Hom}_{O_{S}}(t, O_{S})$ with
+These definitions apply in particular to the case where $T$ is the maximal torus of a split group. Each root $\alpha \in
+R$ defines an *infinitesimal root* $\alpha \in \operatorname{Hom}_{O_{S}}(t, O_{S})$ with
 
 ```text
 α(m ⊗ x) = (m, α) x.
@@ -354,15 +343,11 @@ Hα ∈ Γ(S, t),    Hα = α* ⊗ 1.
 
 For $\alpha, \beta \in R$, one has the relation
 
-$$
-\alpha(H\beta) = (\beta*, \alpha) \cdot 1,
-$$
+$$ \alpha(H\beta) = (\beta*, \alpha) \cdot 1, $$
 
 and in particular
 
-$$
-\alpha(H\alpha) = 2.
-$$
+$$ \alpha(H\alpha) = 2. $$
 
 In particular, if `2` is invertible on $S$, then $\alpha$ and $H\alpha$ are non-zero on each fiber.
 
@@ -385,8 +370,8 @@ g = ⨿_{m ∈ M} g^m.
 ```
 
 Let $R = { m \in M | m \neq 0, g^{m}(s_{0}) \neq 0}$. Shrinking $S$ if necessary (replacing it by an open neighborhood
-of $s_{0}$), we may suppose that the $g\alpha$, $\alpha \in R$, are free, and that the $g^{m}$, $m \neq 0$,
-$m \notin R$, are zero. We then have
+of $s_{0}$), we may suppose that the $g\alpha$, $\alpha \in R$, are free, and that the $g^{m}$, $m \neq 0$, $m \notin
+R$, are zero. We then have
 
 ```text
 g = t ⨿ ⨿_{α ∈ R} gα,
@@ -417,11 +402,10 @@ that `G_K` is splittable.*
 
 <!-- label: III.XXII.2.4 -->
 
-**Remark 2.5.** *Using 2.1 and the remark Exp. XIX 2.9, one immediately proves the following result: let
-$G = (G, T, M, R)$ be an $S$-split group; there exists a cover of $S$ by open sets `Uᵢ` such that each split group
-$G_{U_{i}}$ arises by base change from a split group over a noetherian ring (in fact, a finitely generated
-$\mathbb{Z}$-algebra). We will furthermore prove that every split group over $S$ already arises from a
-$\mathbb{Z}$-split group (Exp. XXV).*
+**Remark 2.5.** *Using 2.1 and the remark Exp. XIX 2.9, one immediately proves the following result: let $G = (G, T, M,
+R)$ be an $S$-split group; there exists a cover of $S$ by open sets `Uᵢ` such that each split group $G_{U_{i}}$ arises
+by base change from a split group over a noetherian ring (in fact, a finitely generated $\mathbb{Z}$-algebra). We will
+furthermore prove that every split group over $S$ already arises from a $\mathbb{Z}$-split group (Exp. XXV).*
 
 <!-- label: III.XXII.2.5 -->
 
@@ -433,16 +417,16 @@ Let $k$ be an algebraically closed field and $G$ a $k$-reductive group. One know
 splittings of $G$. Let $(G, T, M, R)$ and $(G, T', M', R')$ be two splittings of $G$; the root data $R(G, T, M, R)$ and
 $R(G, T', M', R')$ are then isomorphic.
 
-Indeed, one sees first that one can reduce to the case where $T = T'$ (because there exists $g \in G(k)$ such that
-$T' = int(g) T$, and one verifies easily that if one transports a splitting by an automorphism of $G$, one obtains a
-root datum isomorphic to the initial datum); but since $S = \operatorname{Spec}(k)$ is connected, the isomorphism
-$D_{k}(M) \xrightarrow{\sim} T \xrightarrow{\sim} D_{k}(M')$ arises from a unique isomorphism $M \simeq M'$; for the
-same reason, there is at most one system of roots of $G$ relative to $T$.
+Indeed, one sees first that one can reduce to the case where $T = T'$ (because there exists $g \in G(k)$ such that $T' =
+int(g) T$, and one verifies easily that if one transports a splitting by an automorphism of $G$, one obtains a root
+datum isomorphic to the initial datum); but since $S = \operatorname{Spec}(k)$ is connected, the isomorphism $D_{k}(M)
+\xrightarrow{\sim} T \xrightarrow{\sim} D_{k}(M')$ arises from a unique isomorphism $M \simeq M'$; for the same reason,
+there is at most one system of roots of $G$ relative to $T$.
 
 **Definition 2.6.1.**[^N.D.E-XXII-4] *If $G$ is a $k$-reductive group ($k$ an algebraically closed field), we call* type
 of $G$ *the isomorphism class of the root datum defined by an arbitrary splitting of $G$; if $G$ is a torus, of type $M$
-in the sense of Exp. IX 1.4, then the type of $G$ as reductive group is given by the trivial root datum
-$(M, M*, \emptyset, \emptyset)$.*
+in the sense of Exp. IX 1.4, then the type of $G$ as reductive group is given by the trivial root datum $(M, M*,
+\emptyset, \emptyset)$.*
 
 <!-- label: III.XXII.2.6.1 -->
 
@@ -484,16 +468,12 @@ each $S_{t}$ is open and closed (and non-empty).*
 
 Let $S$ be a scheme, $G$ an $S$-reductive group, $T$ a maximal torus of $G$. Then
 
-$$
-W_{G}(T) = Norm_{G}(T)/T
-$$
+$$ W_{G}(T) = Norm_{G}(T)/T $$
 
 is a finite étale $S$-group (Exp. XIX 2.5). The morphism $n \mapsto int(n)$ induces, by passage to the quotient, a
 canonical monomorphism (which is in fact an open immersion):
 
-$$
-W_{G}(T) \to \operatorname{Aut}_{S-gr.}(T).
-$$
+$$ W_{G}(T) \to \operatorname{Aut}_{S-gr.}(T). $$
 
 ### 3.2.
 
@@ -502,15 +482,11 @@ $$
 Suppose now that $G$ is splittable relative to $T$. Choose a splitting, say $(G, T, M, R)$. We then have a canonical
 isomorphism (Exp. VIII 1.5)
 
-$$
-\operatorname{Aut}_{S-gr.}(T) \simeq (\operatorname{Aut}_{gr.}(M))_{S}.
-$$
+$$ \operatorname{Aut}_{S-gr.}(T) \simeq (\operatorname{Aut}_{gr.}(M))_{S}. $$
 
 In particular, if $W$ is the Weyl group of the root datum $R(G)$ (Exp. XXI 1.1.8), we have a monomorphism
 
-$$
-W_{S} \to \operatorname{Aut}_{S-gr.}(T).
-$$
+$$ W_{S} \to \operatorname{Aut}_{S-gr.}(T). $$
 
 ### 3.3.
 
@@ -524,23 +500,17 @@ sα(x) = x − (α*, x) α,
 
 hence on $T$ (via the preceding morphism) by
 
-$$
-s\alpha(t) = t \cdot \alpha*(\alpha(t))^{-1}.
-$$
+$$ s\alpha(t) = t \cdot \alpha*(\alpha(t))^{-1}. $$
 
-On the other hand, since $g\alpha$ is assumed free, there exists $X \in \Gamma(S, g\alpha)\times$. Consider
-$w\alpha(X) \in Norm_{G}(T)(S)$ (Exp. XX 3.1). One has (loc. cit.)
+On the other hand, since $g\alpha$ is assumed free, there exists $X \in \Gamma(S, g\alpha)\times$. Consider $w\alpha(X)
+\in Norm_{G}(T)(S)$ (Exp. XX 3.1). One has (loc. cit.)
 
-$$
-int(w\alpha(X))(t) = s\alpha(t).
-$$
+$$ int(w\alpha(X))(t) = s\alpha(t). $$
 
 Since $W$ is generated by the $s\alpha$, $\alpha \in R$, it follows from the preceding remarks that if we regard $W$ and
 $Norm_{G}(T)(S)/T(S)$ as groups of automorphisms of $T$, we have
 
-$$
-W \subset Norm_{G}(T)(S)/T(S) \subset W_{G}(T)(S).
-$$
+$$ W \subset Norm_{G}(T)(S)/T(S) \subset W_{G}(T)(S). $$
 
 By definition of the constant group `W_S` associated with $W$ (cf. I 1.8), we thus have a commutative diagram
 
@@ -555,15 +525,12 @@ $R(G)$. Then the canonical monomorphism*
 
 <!-- label: III.XXII.3.4 -->
 
-$$
-W_{S} \to W_{G}(T) = Norm_{G}(T)/T
-$$
+$$ W_{S} \to W_{G}(T) = Norm_{G}(T)/T $$
 
 *is an isomorphism.*
 
-These are both étale groups over $S$; it therefore suffices to check that for every $s \in S$,
-$W_{S}(s) \to W_{G}(T)(s)$ is an isomorphism.[^N.D.E-XXII-6] The latter assertion follows, for example, from *Bible*, §
-11.3, th. 2.
+These are both étale groups over $S$; it therefore suffices to check that for every $s \in S$, $W_{S}(s) \to
+W_{G}(T)(s)$ is an isomorphism.[^N.D.E-XXII-6] The latter assertion follows, for example, from *Bible*, § 11.3, th. 2.
 
 **Remark 3.5.** *Using 2.3, the preceding proposition gives a new proof of the fact that the Weyl group of a maximal
 torus of an $S$-reductive group $G$ is finite over $S$ (Exp. XIX 2.5 (ii)).*[^N.D.E-XXII-7]
@@ -608,8 +575,8 @@ By 3.4 and condition (D₂) of the splitting, we deduce:
 Norm_G(T)(S) → W_G(T)(S) = Hom_{loc.cons.}(S, W)
 ```
 
-*is surjective. In particular, for every $w \in W$, there exists $n_{w} \in Norm_{G}(T)(S)$ such that
-$int(n_{w})|T = w$.*
+*is surjective. In particular, for every $w \in W$, there exists $n_{w} \in Norm_{G}(T)(S)$ such that $int(n_{w})|T =
+w$.*
 
 ## 4. Homomorphisms of split groups
 
@@ -677,8 +644,8 @@ Ga,S^N ×_S T ×_S Ga,S^N → G
 *is an open immersion whose image depends only on $R+$ (and not on the choice of the $p\alpha$ or the orderings on $R+$
 and $R-$).*
 
-**Notation 4.1.4.** *We write
-$\Omega_{R+} = \prod_{\alpha \in R-} U\alpha \cdot T \cdot \prod_{\alpha \in R+} U\alpha$.*[^N.D.E-XXII-9]
+**Notation 4.1.4.** *We write $\Omega_{R+} = \prod_{\alpha \in R-} U\alpha \cdot T \cdot \prod_{\alpha \in R+}
+U\alpha$.*[^N.D.E-XXII-9]
 
 <!-- label: III.XXII.4.1.4 -->
 
@@ -721,12 +688,12 @@ every $S'' \to S'$, is contained in all the $T(S'')$, where $T$ runs through the
 <!-- label: III.XXII.4.1.7 -->
 
 Taking into account 2.3, the first assertion follows from 4.1.6 by descent.[^N.D.E-XXII-14] Let us prove the second
-assertion. Let $H$ be "the intersection of the maximal tori of $G$" in the preceding sense. One obviously has
-$Centr(G) \subset H$.[^N.D.E-XXII-15] Then, by descent, it suffices to prove $Centr(G) = H$ in the case where $G$ is
-split. Since $H$ is contained in the intersection of the maximal tori of $G$ in the usual sense, this follows from the
-following remark: if $(G, T, M, R)$ is a splitting, $\alpha \in R$ and $X \in \Gamma(S, g\alpha)\times$, then
-$int(\exp \alpha(X))(T) \cap T = Ker(\alpha)$, as a trivial computation shows. (Cf. also Exp. XII 8.6 and 8.8 for a more
-general statement.)
+assertion. Let $H$ be "the intersection of the maximal tori of $G$" in the preceding sense. One obviously has $Centr(G)
+\subset H$.[^N.D.E-XXII-15] Then, by descent, it suffices to prove $Centr(G) = H$ in the case where $G$ is split. Since
+$H$ is contained in the intersection of the maximal tori of $G$ in the usual sense, this follows from the following
+remark: if $(G, T, M, R)$ is a splitting, $\alpha \in R$ and $X \in \Gamma(S, g\alpha)\times$, then $int(\exp
+\alpha(X))(T) \cap T = Ker(\alpha)$, as a trivial computation shows. (Cf. also Exp. XII 8.6 and 8.8 for a more general
+statement.)
 
 **Remark 4.1.8.** *In what follows, we shall systematically identify, in the split case, $T$ with $D_{S}(M)$. Then
 $Centr(G)$ is none other than $D_{S}(M/\Gamma_{0}(R))$, where $\Gamma_{0}(R)$ is the subgroup of $M$ generated by $R$
@@ -755,16 +722,13 @@ p(α₀(q) x) = int(f(q)) · p(x),
 ```
 
 *for all $q \in Q(S')$, $x \in W(L)(S')$, $S' \to S$. Suppose that $f$ separates the elements of $R$ in the following
-sense: if $\alpha, \alpha' \in R$ and $m, m' \in \mathbb{Z}$, then $m \alpha \circ f = m' \alpha' \circ f$ implies
-$m \alpha = m' \alpha'$.[^N.D.E-XXII-16] Finally, let $s \in S$ be such that $(\alpha_{0})_{s} \neq e$ and
-$p_{s} \neq e$.*
+sense: if $\alpha, \alpha' \in R$ and $m, m' \in \mathbb{Z}$, then $m \alpha \circ f = m' \alpha' \circ f$ implies $m
+\alpha = m' \alpha'$.[^N.D.E-XXII-16] Finally, let $s \in S$ be such that $(\alpha_{0})_{s} \neq e$ and $p_{s} \neq e$.*
 
 *There then exist an open set $U$ of $S$ containing $s$, an integer $q > 0$ such that $x \mapsto x^{q}$ is an
 endomorphism of `Ga,U`, a root $\alpha \in R$, and an isomorphism of `O_U`-modules*
 
-$$
-h : (L|U)^{\otimes q} \xrightarrow{\sim} g\alpha|U
-$$
+$$ h : (L|U)^{\otimes q} \xrightarrow{\sim} g\alpha|U $$
 
 *such that*
 
@@ -801,14 +765,14 @@ b(α₀(q) x)  = b(x)
 for all $x \in W(L)(S')$, $q \in Q(S')$, $S' \to S$. The second condition gives at once $b = e$.
 
 Now let $\alpha \in R$ be such that $(a\alpha)_{s} \neq e$ (we know such an $\alpha$ exists, since $p_{s}$ is supposed
-$\neq e$). Applying Exp. XIX 4.12 (a), one deduces that there exists an integer $n > 0$ such that
-$(\alpha \circ f)_{s} = (n \alpha_{0})_{s}$. Shrinking $S$, one can assume $\alpha \circ f = n \alpha_{0}$ (Exp. IX
-5.3). But then, for every $\alpha' \in R$, $\alpha' \neq \alpha$, one has $(\alpha' \circ f)_{s} \neq m \alpha_{0}$ for
-every integer $m > 0$, by virtue of the hypothesis made on $f$ (and the fact that the only roots proportional to
-$\alpha$ are $\alpha$ and $-\alpha$). Applying again Exp. XIX 4.12 (a), this time to $a\alpha'$, one deduces that
-$a\alpha'$ is zero in a neighborhood of $S$; since $R$ is finite, one may, shrinking $S$ again, suppose the $a\alpha'$
-zero for $\alpha' \in R$, $\alpha' \neq \alpha$. One then has $p = a\alpha$, and one may apply Exp. XIX 4.12 (b), then
-(c), which gives the announced result (the uniqueness assertions are obvious).
+$\neq e$). Applying Exp. XIX 4.12 (a), one deduces that there exists an integer $n > 0$ such that $(\alpha \circ f)_{s}
+= (n \alpha_{0})_{s}$. Shrinking $S$, one can assume $\alpha \circ f = n \alpha_{0}$ (Exp. IX 5.3). But then, for every
+$\alpha' \in R$, $\alpha' \neq \alpha$, one has $(\alpha' \circ f)_{s} \neq m \alpha_{0}$ for every integer $m > 0$, by
+virtue of the hypothesis made on $f$ (and the fact that the only roots proportional to $\alpha$ are $\alpha$ and
+$-\alpha$). Applying again Exp. XIX 4.12 (a), this time to $a\alpha'$, one deduces that $a\alpha'$ is zero in a
+neighborhood of $S$; since $R$ is finite, one may, shrinking $S$ again, suppose the $a\alpha'$ zero for $\alpha' \in R$,
+$\alpha' \neq \alpha$. One then has $p = a\alpha$, and one may apply Exp. XIX 4.12 (b), then (c), which gives the
+announced result (the uniqueness assertions are obvious).
 
 **Remark 4.1.10.** *The condition imposed on $f$ in 4.1.9 is satisfied in particular when $f$ is surjective (=
 faithfully flat).*
@@ -824,8 +788,8 @@ the corresponding "big cell".*
 of groups that coincide on $\Omega_{R+}$, then $f = g$.*
 
 *(ii) Let $H$ be an $S$-sheaf of groups for (fppf) and $f : \Omega_{R+} \to H$ an $S$-morphism satisfying the following
-condition: for every $S' \to S$ and every $x, y \in \Omega_{R+}(S')$ such that $xy \in \Omega_{R+}(S')$, one has
-$f(xy) = f(x) f(y)$. There then exists a (unique, by (i)) morphism of groups $\bar{f} : G \to H$ extending $f$.*
+condition: for every $S' \to S$ and every $x, y \in \Omega_{R+}(S')$ such that $xy \in \Omega_{R+}(S')$, one has $f(xy)
+= f(x) f(y)$. There then exists a (unique, by (i)) morphism of groups $\bar{f} : G \to H$ extending $f$.*
 
 Indeed, by 4.1.5, (i) (resp. (ii)) follows immediately from Exp. XVIII 2.2 (resp. 2.3 and 2.4).
 
@@ -837,9 +801,8 @@ Indeed, by 4.1.5, (i) (resp. (ii)) follows immediately from Exp. XVIII 2.2 (resp
 (†)    Ω_{R+} ∩ Zα = U_{-α} · T · Uα.
 ```
 
-[^N.D.E-XXII-18] Indeed, for every $S' \to S$, if
-$g = \prod_{\beta \in R-} p\beta(x\beta) \cdot t \cdot \prod_{\beta \in R+} p\beta(x\beta)$ is an element of
-$\Omega_{R+}(S')$ and if $t' \in T\alpha(S'')$, then
+[^N.D.E-XXII-18] Indeed, for every $S' \to S$, if $g = \prod_{\beta \in R-} p\beta(x\beta) \cdot t \cdot \prod_{\beta
+\in R+} p\beta(x\beta)$ is an element of $\Omega_{R+}(S')$ and if $t' \in T\alpha(S'')$, then
 
 ```text
 t′ g t′⁻¹ = ∏_{β ∈ R−} pβ(β(t′) xβ) · t · ∏_{β ∈ R+} pβ(β(t′) xβ)
@@ -887,15 +850,11 @@ the category of $S$-split groups to that of reduced root data (equipped with $p$
 
 *(i) For every $\alpha \in R$, there exists a unique isomorphism of `O_S`-modules*
 
-$$
-f\alpha : (g\alpha)^{\otimes q(\alpha)} \xrightarrow{\sim} g'_{d(\alpha)}
-$$
+$$ f\alpha : (g\alpha)^{\otimes q(\alpha)} \xrightarrow{\sim} g'_{d(\alpha)} $$
 
 *such that*
 
-$$
-f(\exp \alpha(X)) = \exp_{d(\alpha)}(f\alpha(X^{q(\alpha)}))
-$$
+$$ f(\exp \alpha(X)) = \exp_{d(\alpha)}(f\alpha(X^{q(\alpha)})) $$
 
 *for every $X \in W(g\alpha)(S')$, $S' \to S$.*
 
@@ -904,9 +863,7 @@ one another.*
 
 *(iii) For every $\alpha \in R$, every $Z \in W(g\alpha)*(S')$, $S' \to S$, one has*
 
-$$
-f(w\alpha(Z)) = w_{d(\alpha)}(Z^{q(\alpha)}).
-$$
+$$ f(w\alpha(Z)) = w_{d(\alpha)}(Z^{q(\alpha)}). $$
 
 By hypothesis the diagram
 
@@ -923,9 +880,9 @@ hence $Z\alpha$ into $Z'_{d(\alpha)}$. There is then nothing more to do than app
 $Z\alpha$ and $Z'_{d(\alpha)}$.
 
 **Proposition 4.2.4.** *The morphism $f$ induces a morphism $f_{N}$ of $Norm(T)$ into $Norm_{G'}(T')$, hence a morphism
-$f_{W}$ of $W_{G}(T)$ into $W_{G'}(T')$; the latter is an isomorphism. More precisely, if we denote by
-$d : W(R(G)) = W \to W' = W(R(G'))$ the isomorphism extending $s\alpha \mapsto s_{d(\alpha)}$ (Exp. XXI 6.8.4), we have
-a commutative diagram of isomorphisms:*
+$f_{W}$ of $W_{G}(T)$ into $W_{G'}(T')$; the latter is an isomorphism. More precisely, if we denote by $d : W(R(G)) = W
+\to W' = W(R(G'))$ the isomorphism extending $s\alpha \mapsto s_{d(\alpha)}$ (Exp. XXI 6.8.4), we have a commutative
+diagram of isomorphisms:*
 
 <!-- label: III.XXII.4.2.4 -->
 
@@ -965,11 +922,11 @@ If $f_{T}$ is surjective, the preceding formula shows that $f$ induces a surject
 $\Omega' = \Omega'_{d(R+)}$.[^N.D.E-XXII-20] Since the fibers of $G'$ are connected, it follows (cf. Exp. VI_A, 0.5)
 that $f$ is surjective.
 
-Let us prove (ii) and for this admit a result to be proved below (5.7.4): choose for each $w \in W$ an
-$n_{w} \in Norm_{G}(T)(S)$ representing it; then the open sets $n_{w} \Omega$ ($w \in W$) form a cover of $G$. It is
-then enough to prove that $Ker(f) \cap n_{w} \Omega \neq \emptyset$ implies $w = 1$. If $x \in \Omega(S')$, $S' \to S$
-and $f(n_{w} x) = 1$, then $f(x) = f(n_{w})^{-1}$; but $f(x) \in \Omega'(S')$ and $f(n_{w})^{-1} \in Norm_{G'}(T')(S')$.
-By 4.2.4, one is reduced to proving:
+Let us prove (ii) and for this admit a result to be proved below (5.7.4): choose for each $w \in W$ an $n_{w} \in
+Norm_{G}(T)(S)$ representing it; then the open sets $n_{w} \Omega$ ($w \in W$) form a cover of $G$. It is then enough to
+prove that $Ker(f) \cap n_{w} \Omega \neq \emptyset$ implies $w = 1$. If $x \in \Omega(S')$, $S' \to S$ and $f(n_{w} x)
+= 1$, then $f(x) = f(n_{w})^{-1}$; but $f(x) \in \Omega'(S')$ and $f(n_{w})^{-1} \in Norm_{G'}(T')(S')$. By 4.2.4, one
+is reduced to proving:
 
 **Lemma 4.2.7.** *Under the conditions of 4.1.2, one has $\Omega \cap Norm_{G}(T) = T$.*
 
@@ -1011,9 +968,9 @@ Kα = Ker(Uα → Uα^{⊗q(α)}) ≃ α_{q(α), S}.
 
 To apply this corollary, let us set:
 
-**Definition 4.2.9.** *Let $S$ be a scheme, $G$ and $G'$ two $S$-reductive groups. A morphism of $S$-groups
-$f : G \to G'$ that is faithfully flat and finite (i.e. surjective with finite kernel over $S$) is called an* isogeny.
-*If moreover $Ker(f)$ is a central subgroup of $G$, one says that $f$ is a* central isogeny.
+**Definition 4.2.9.** *Let $S$ be a scheme, $G$ and $G'$ two $S$-reductive groups. A morphism of $S$-groups $f : G \to
+G'$ that is faithfully flat and finite (i.e. surjective with finite kernel over $S$) is called an* isogeny. *If moreover
+$Ker(f)$ is a central subgroup of $G$, one says that $f$ is a* central isogeny.
 
 <!-- label: III.XXII.4.2.9 -->
 
@@ -1061,9 +1018,9 @@ groups. Let $s \in S$. The following conditions are equivalent:*
 One has obviously (iii) ⇔ (ii); (ii) ⇒ (i) follows from 4.2.11 (b) (this is where the hypothesis that $G$ and $G'$ are
 semisimple intervenes — the other implications are valid for reductive groups).
 
-Let us now prove (i) ⇒ (iii). One may suppose $G$ and $G'$ split in such a way that $f$ induces a morphism
-$f_{T} : T \to T'$ (2.3 and Exp. XIX 2.8); shrinking $S$, one may suppose that $f_{T} = D_{S}(h)$, where $h$ is a
-morphism of groups $M' \to M$. Let $\alpha \in R$, and consider the composite morphism
+Let us now prove (i) ⇒ (iii). One may suppose $G$ and $G'$ split in such a way that $f$ induces a morphism $f_{T} : T
+\to T'$ (2.3 and Exp. XIX 2.8); shrinking $S$, one may suppose that $f_{T} = D_{S}(h)$, where $h$ is a morphism of
+groups $M' \to M$. Let $\alpha \in R$, and consider the composite morphism
 
 ```text
 p : W(gα) --expα--> G --f--> G′.
@@ -1074,15 +1031,13 @@ Since $Ker(p_{s})$ is finite, $p_{s} \neq e$. On the other hand $f_{T_{s}}$ is s
 $q(\alpha)$ such that $x \mapsto x^{q(\alpha)}$ is an endomorphism of $Ga,V_{\alpha}$, and an isomorphism of
 $O_{V_{\alpha}}$-modules
 
-$$
-f\alpha : (g\alpha)^{\otimes q(\alpha)}|V_{\alpha} \xrightarrow{\sim} g'_{\alpha'}|V_{\alpha}
-$$
+$$ f\alpha : (g\alpha)^{\otimes q(\alpha)}|V_{\alpha} \xrightarrow{\sim} g'_{\alpha'}|V_{\alpha} $$
 
-such that $f(\exp \alpha(X\alpha)) = \exp_{d(\alpha)}(f\alpha(X\alpha^{q(\alpha)}))$ and
-$\alpha' \circ f_{T} = h(\alpha') = q(\alpha) \alpha$. One may replace $S$ by the intersection of the $V_{\alpha}$, for
-$\alpha \in R$. Set $\alpha' = d(\alpha)$. It is clear that $d : R \to R'$ is a bijection, because the kernel of $h$ is
-finite ($f_{T_{s}}$ being surjective). It only remains to prove that $f_{T} \circ \alpha* = q(\alpha) \alpha'*$, which
-is done by a trivial modification of the argument used in Exp. XX 3.11.
+such that $f(\exp \alpha(X\alpha)) = \exp_{d(\alpha)}(f\alpha(X\alpha^{q(\alpha)}))$ and $\alpha' \circ f_{T} =
+h(\alpha') = q(\alpha) \alpha$. One may replace $S$ by the intersection of the $V_{\alpha}$, for $\alpha \in R$. Set
+$\alpha' = d(\alpha)$. It is clear that $d : R \to R'$ is a bijection, because the kernel of $h$ is finite ($f_{T_{s}}$
+being surjective). It only remains to prove that $f_{T} \circ \alpha* = q(\alpha) \alpha'*$, which is done by a trivial
+modification of the argument used in Exp. XX 3.11.
 
 In any case, as one has seen in the course of the demonstration, one has (i) ⇒ (iii). Therefore:
 
@@ -1097,16 +1052,16 @@ splittable for the étale topology.*
 
 Let us first consider a particular case.
 
-**Proposition 4.3.1.** *Let $S$ be a scheme, $(G, T, M, R)$ an $S$-split group, $N$ a subgroup of $M$ containing $R$,
-$Q = D_{S}(M/N) \subset Centr(G)$. Then:*
+**Proposition 4.3.1.** *Let $S$ be a scheme, $(G, T, M, R)$ an $S$-split group, $N$ a subgroup of $M$ containing $R$, $Q
+= D_{S}(M/N) \subset Centr(G)$. Then:*
 
 <!-- label: III.XXII.4.3.1 -->
 
 *(i) $G' = G/Q$ is an $S$-reductive group, and $T' = T/Q$ is a maximal torus of it;*
 
-*(ii) if one identifies $T'$ with $D_{S}(N)$, then $R \subset N$ is a system of roots of $G'$ relative to $T'$,
-$(G', T', N, R)$ is a splitting of $G'$, and $R(G')$ is canonically identified with the induced root datum (Exp. XXI
-6.5) $R(G)^{N}$;*
+*(ii) if one identifies $T'$ with $D_{S}(N)$, then $R \subset N$ is a system of roots of $G'$ relative to $T'$, $(G',
+T', N, R)$ is a splitting of $G'$, and $R(G')$ is canonically identified with the induced root datum (Exp. XXI 6.5)
+$R(G)^{N}$;*
 
 *(iii) the canonical morphism $G \to G'$ is compatible with the splittings, with root exponents 1, and gives by
 functoriality the canonical morphism (loc. cit.) $R(G)^{N} \to R(G)$.*
@@ -1128,9 +1083,7 @@ It follows that, if one denotes by $g'$ the Lie algebra of $G'$ and by `ᾱ` the
 (or, which amounts to the same, defined by $\alpha \in N$ in the identification $T/Q = D_{S}(N)$), the canonical
 morphism $g \to g'$ induces for each $\alpha \in R$ an isomorphism
 
-$$
-g\alpha \xrightarrow{\sim} g'_{\bar{\alpha}}.
-$$
+$$ g\alpha \xrightarrow{\sim} g'_{\bar{\alpha}}. $$
 
 One has thus proved that $R$ is a system of roots of $G'$ relative to $T'$, and one finishes the proof without
 difficulty.
@@ -1159,8 +1112,8 @@ and the infinitesimal coroot $H\alpha$ is non-zero on every fiber).*
 
 Indeed, (i) is trivial; (ii) is checked on geometric fibers and follows immediately from Exp. XXI 6.2.8.
 
-**Proposition 4.3.5.** *(i) For the reductive group $G$ to be adjoint, it is necessary and sufficient that
-$Centr(G) = {e}_{S}$.*
+**Proposition 4.3.5.** *(i) For the reductive group $G$ to be adjoint, it is necessary and sufficient that $Centr(G) =
+{e}_{S}$.*
 
 <!-- label: III.XXII.4.3.5 -->
 
@@ -1186,15 +1139,11 @@ If $(G, T, M, R)$ is a split group, then $rad(G) = D_{S}(M/N)$, where $N = M \ca
 associated with $G$ (and similarly the adjoint group of $G$) is equipped with a canonical splitting (4.3.1) and one has
 a diagram of split groups
 
-$$
-G \to ss(G) \to ad(G)
-$$
+$$ G \to ss(G) \to ad(G) $$
 
 corresponding to the canonical diagram of root data (Exp. XXI 6.5.5)
 
-$$
-ad(R(G)) \to ss(R(G)) \to R(G).
-$$
+$$ ad(R(G)) \to ss(R(G)) \to R(G). $$
 
 **Remark 4.3.8.** *Let $(G, T, M, R)$ be an $S$-split adjoint (resp. simply connected) group, $\Delta$ a system of
 simple roots of $R$. Then the family ${\alpha}_{\alpha \in \Delta}$, resp. ${\alpha*}_{\alpha \in \Delta}$, induces an
@@ -1270,9 +1219,7 @@ tori (resp. Cartan subgroups), conjugate locally for the étale topology.*
 *(d) By Exp. XII 8.8 (c) and (d), $G$ has a reductive center $Z$ and, for every $s \in S$, with the notations of (iv),
 one has[^N.D.E-XXII-24] $Z_{s} = \bigcap_{\alpha \in R} Ker(\alpha)$, whence*
 
-$$
-\operatorname{Hom}_{s-gr.}((T/Z)_{s}, Gm,s) \simeq \Gamma_{0}(R).
-$$
+$$ \operatorname{Hom}_{s-gr.}((T/Z)_{s}, Gm,s) \simeq \Gamma_{0}(R). $$
 
 *(e) Condition (iv) holds in particular in the following two cases:*
 
@@ -1299,8 +1246,8 @@ fibers, so condition (i) holds. On the other hand, condition (ii) follows from E
 conditions (iii) and (iv).
 
 Let $G' = G/Q$, $u : G \to G'$ the canonical morphism, $T' = u(T)$ the maximal torus of $G'$ image of $T$ (cf. Exp. XII
-7.1 (e)); for each $\alpha \in R$, denote again by $\alpha$ the character of $T'$ defined by $\alpha$ (one has
-$Q \cap T \subset \bigcap_{\alpha \in R} Ker(\alpha)$ according to 5.1.2 (d)). Let us first prove:
+7.1 (e)); for each $\alpha \in R$, denote again by $\alpha$ the character of $T'$ defined by $\alpha$ (one has $Q \cap T
+\subset \bigcap_{\alpha \in R} Ker(\alpha)$ according to 5.1.2 (d)). Let us first prove:
 
 **Lemma 5.1.5.** *Under the conditions of 5.1.4, let $T = D_{S}(M)$ be a trivialized maximal torus of $G$, and suppose
 that the decomposition of $g = Lie(G)$ under $Ad(T)$ is of the form*
@@ -1332,9 +1279,8 @@ Ker(p) = Lie(Q) ⊂ Lie(Centr_G(T)) = g⁰,
 $p$ induces a monomorphism from $g\alpha$ into $g'^{\alpha}$, for every $\alpha \in R$.
 
 To prove the lemma, it suffices to do so when $S$ is the spectrum of an algebraically closed field, and by virtue of the
-preceding remarks, it then suffices to prove that $rg(g') = rg(g'^{0}) + Card(R)$. Now set $C = Centr_{G}(T)$,
-$C' = Centr_{G'}(T')$; by Exp. XII 7.1 (e), $u$ induces a faithfully flat morphism $C \to C'$ of kernel $Q$. One thus
-has
+preceding remarks, it then suffices to prove that $rg(g') = rg(g'^{0}) + Card(R)$. Now set $C = Centr_{G}(T)$, $C' =
+Centr_{G'}(T')$; by Exp. XII 7.1 (e), $u$ induces a faithfully flat morphism $C \to C'$ of kernel $Q$. One thus has
 
 ```text
 dim C′ + dim Q = dim C.
@@ -1350,9 +1296,7 @@ rg(g′) = dim G′ = dim G − dim Q
 
 which entails
 
-$$
-rg(g') = rg(g'^{0}) + Card(R),
-$$
+$$ rg(g') = rg(g'^{0}) + Card(R), $$
 
 that is, the desired relation.
 
@@ -1449,8 +1393,8 @@ $G$. Then $H$ is an $S$-group of type (RR) (resp. (RA)).*
 <!-- label: III.XXII.5.2.6 -->
 
 Indeed, (i) is clear, (ii) follows from 5.2.2 (b), (iii) and (iv) (resp. (iv′)) are to be verified when $S$ is the
-spectrum of an algebraically closed field. Then $H$ contains a maximal torus $T$ of $G$ (and hence also
-$C = Centr_{G}(T)$),[^N.D.E-XXII-28] and the assertions to be proved follow immediately from:
+spectrum of an algebraically closed field. Then $H$ contains a maximal torus $T$ of $G$ (and hence also $C =
+Centr_{G}(T)$),[^N.D.E-XXII-28] and the assertions to be proved follow immediately from:
 
 **Lemma 5.2.7.** *Let $S$ be a scheme, $G$ an $S$-group of type (RR), $T$ a maximal torus of $G$ equipped with a
 trivialization $T \simeq D_{S}(M)$, and suppose that*
@@ -1502,19 +1446,15 @@ $g \supset h$ their Lie algebras.*
 *Then $Norm_{G}(h)$ (which is representable by a closed subscheme of $G$ of finite presentation over $S$ according to
 5.3.0) is smooth over $S$ at every point of the unit section, and one has*
 
-$$
-Norm_{G}(h)^{0} = H.
-$$
+$$ Norm_{G}(h)^{0} = H. $$
 
 [^N.D.E-XXII-30] Proof. Set $N = Norm_{G}(h)$ and $n = Lie(N/S)$. One has $H \subset N$ and, by Exp. II 5.3.1, one has
 for every $s \in S$
 
-$$
-h(s) \subset n(s) = Norm_{g(s)}(h(s)).
-$$
+$$ h(s) \subset n(s) = Norm_{g(s)}(h(s)). $$
 
-Now, by 5.3.2 below, one has $h(s) = Norm_{g(s)}(h(s))$, and since $H$ is smooth over $S$, one has
-$\dim_{\kappa(s)} h(s) = \dim H_{s}$ (cf. [DG70], § II.5, Th. 2.1). One thus obtains
+Now, by 5.3.2 below, one has $h(s) = Norm_{g(s)}(h(s))$, and since $H$ is smooth over $S$, one has $\dim_{\kappa(s)}
+h(s) = \dim H_{s}$ (cf. [DG70], § II.5, Th. 2.1). One thus obtains
 
 ```text
 dim_{κ(s)} n(s) = dim_{κ(s)} h(s) = dim H_s ⩽ dim N_s
@@ -1527,16 +1467,12 @@ whence $N^{0}_{s} = H^{0}_{s} = H_{s}$ ($H$ having connected fibers). It follows
 
 <!-- label: III.XXII.5.3.2 -->
 
-$$
-Norm_{g(s)}(h(s)) = h(s).
-$$
+$$ Norm_{g(s)}(h(s)) = h(s). $$
 
 Indeed, one is reduced to the case where $S$ is the spectrum of a field, so where $h = g_{R'}$ for some $R' \subset R$.
 But one already has
 
-$$
-Transp_{g}(t, h) = h.
-$$
+$$ Transp_{g}(t, h) = h. $$
 
 Indeed, if $H \in t$ and $X \in g\alpha$, one has $[H, X] = \alpha(H) X$, where $\alpha : t \to O_{S}$ is the derived
 morphism of $\alpha$. Now condition (iv′) says precisely that $\alpha \neq 0$ for every $\alpha \in R$.
@@ -1564,8 +1500,8 @@ of the unit section.*
 
 [^N.D.E-XXII-31] Indeed, let $h$ be a Lie subalgebra of $g$ having the above properties. By 5.3.0, $H = Norm_{G}(h)^{0}$
 is a smooth $S$-group scheme. Moreover, since $C = Centr_{G}(T)$ stabilizes each $g\alpha$ and has connected fibers (XII
-6.6), one has $C \subset H$. Therefore $H$ is a subgroup of $G$ of type (R). By Exp. II 5.3.1, one has
-$Lie(H) = Norm_{g}(h)$. Finally, by the proof of 5.3.2, one has $Norm_{g}(h) = h$.
+6.6), one has $C \subset H$. Therefore $H$ is a subgroup of $G$ of type (R). By Exp. II 5.3.1, one has $Lie(H) =
+Norm_{g}(h)$. Finally, by the proof of 5.3.2, one has $Norm_{g}(h) = h$.
 
 **Corollary 5.3.5.** *Let $S$ be a scheme, $G$ an $S$-group of type (RR) (5.1.1), $T$ a maximal torus of $G$, $H$ and
 $H'$ two subgroups of type (R) of $G$, both containing $T$. Then*
@@ -1584,9 +1520,7 @@ corresponding to $T$. By Exp. XII 7.12, there exist subgroups of type (R) $H_{1}
 such that $H = u^{-1}(H_{1})$ and $H' = u^{-1}(H'_{1})$. It suffices to prove that $H_{1} = H'_{1}$. But by 5.2.7 and
 5.1.5, one has
 
-$$
-Lie(H_{1}) = Lie(H'_{1}),
-$$
+$$ Lie(H_{1}) = Lie(H'_{1}), $$
 
 and one reduces to 5.3.3.
 
@@ -1627,10 +1561,9 @@ there exists $g \in G(S)$ projecting to $g_{0}$ and such that $int(g) H = H'$. S
 for the étale topology, we may suppose that $H$ contains a maximal torus $T$ of $G$.
 
 Then $T_{0}$ is a maximal torus of $H_{0}$, hence $int(g_{0}) T_{0}$ is a maximal torus of $H'_{0}$. By Exp. IX 3.6 bis,
-there exists a torus $T'$ of $H'$ such that $T'_{0} = int(g_{0}) T_{0}$; by Exp. IX 3.3 bis, there thus exists
-$g \in G(S)$ projecting to $g_{0}$ and such that $int(g) T = T'$. Replacing $H$ by `int(g) H` if necessary, we may
-therefore suppose that $H$ and $H'$ contain the same maximal torus $T$ and that $H_{0} = H'_{0}$. But then $H = H'$ by
-5.3.7. QED.
+there exists a torus $T'$ of $H'$ such that $T'_{0} = int(g_{0}) T_{0}$; by Exp. IX 3.3 bis, there thus exists $g \in
+G(S)$ projecting to $g_{0}$ and such that $int(g) T = T'$. Replacing $H$ by `int(g) H` if necessary, we may therefore
+suppose that $H$ and $H'$ contain the same maximal torus $T$ and that $H_{0} = H'_{0}$. But then $H = H'$ by 5.3.7. QED.
 
 **Corollary 5.3.10.** *Let $G$ be an $S$-group of type (RR), $H$ a subgroup of type (R) of $G$. Then $Norm_{G}(H)$ is
 representable by a closed group subscheme of $G$, of finite presentation and smooth over $S$.*
@@ -1676,17 +1609,15 @@ Using now the conjugacy of the maximal tori in $B$ (cf. 5.1.2 (a) and 5.2.6, for
 
 <!-- label: III.XXII.5.3.14 -->
 
-**Corollary 5.3.15.** *Let $G$ be an $S$-group of type (RR). Let $T$ be a maximal torus of $G$,
-$W_{G}(T) = Norm_{G}(T)/Centr_{G}(T)$ the corresponding Weyl group (Exp. XIX 6.3). The "functor of Borel subgroups of
-$G$ containing $T$" is formally principal homogeneous under $W_{G}(T)$.*
+**Corollary 5.3.15.** *Let $G$ be an $S$-group of type (RR). Let $T$ be a maximal torus of $G$, $W_{G}(T) =
+Norm_{G}(T)/Centr_{G}(T)$ the corresponding Weyl group (Exp. XIX 6.3). The "functor of Borel subgroups of $G$ containing
+$T$" is formally principal homogeneous under $W_{G}(T)$.*
 
 <!-- label: III.XXII.5.3.15 -->
 
 This follows immediately from 5.3.14 and from the fact that if $B$ is a Borel subgroup of $G$ containing $T$, one has
 
-$$
-Norm_{G}(T) \cap B = Centr_{G}(T),
-$$
+$$ Norm_{G}(T) \cap B = Centr_{G}(T), $$
 
 cf. Exp. XIV 4.4.
 
@@ -1697,18 +1628,16 @@ morphisms are induced by the morphisms $Norm_{H}(T) \to Norm_{N}(T) \to N/H$):*
 
 <!-- label: III.XXII.5.3.16 -->
 
-$$
-1 \to W_{H}(T) \to W_{N}(T) \to N/H \to 1.
-$$
+$$ 1 \to W_{H}(T) \to W_{N}(T) \to N/H \to 1. $$
 
 The only non-trivial point is that the last arrow is an epimorphism. So let $n \in N(S')$, $S' \to S$. The two maximal
 tori $T$ and `int(n) T` of $H$ are conjugate in $H$ locally for the étale topology. There thus exists a covering family
-${S'_{i} \to S'}$ and for each $i$ an $h_{i} \in H(S'_{i})$ such that $int(h_{i}) T = int(n) T$. Hence
-$n h^{-1}_{i} \in Norm_{N}(T)$, which gives the desired result.
+${S'_{i} \to S'}$ and for each $i$ an $h_{i} \in H(S'_{i})$ such that $int(h_{i}) T = int(n) T$. Hence $n h^{-1}_{i} \in
+Norm_{N}(T)$, which gives the desired result.
 
-**Remark 5.3.17.** *One can describe $W_{N}(T)$ as follows: suppose we are reduced to the situation of 5.2.7, with
-$h = g_{R'}$. Then $W_{N}(T)$ equals $Norm_{W}(R')$, the sheaf of sections of $W = W_{G}(T)$ that, acting on $R$,
-normalize $R'$. Indeed, by 5.3.5, one has*
+**Remark 5.3.17.** *One can describe $W_{N}(T)$ as follows: suppose we are reduced to the situation of 5.2.7, with $h =
+g_{R'}$. Then $W_{N}(T)$ equals $Norm_{W}(R')$, the sheaf of sections of $W = W_{G}(T)$ that, acting on $R$, normalize
+$R'$. Indeed, by 5.3.5, one has*
 
 <!-- label: III.XXII.5.3.17 -->
 
@@ -1776,8 +1705,8 @@ Indeed, $H \cap Z\alpha$ is a subgroup of type (R) of $Z\alpha$, by 5.2.5; but a
 containing $T$ is locally equal to one of the following subgroups: $T$, $T \cdot U\alpha$, $T \cdot U_{-\alpha}$,
 $Z\alpha$, by 5.3.5.
 
-**Lemma 5.4.4.** *Under the conditions of 5.4.2, let $R+$ be a system of positive roots; choose orderings on
-$R' \cap R+$ and $R' \cap -R+$. The morphism*
+**Lemma 5.4.4.** *Under the conditions of 5.4.2, let $R+$ be a system of positive roots; choose orderings on $R' \cap
+R+$ and $R' \cap -R+$. The morphism*
 
 <!-- label: III.XXII.5.4.4 -->
 
@@ -1787,9 +1716,7 @@ $R' \cap R+$ and $R' \cap -R+$. The morphism*
 
 *induced by the product in $G$ induces an open immersion*
 
-$$
-\Omega_{R+, R'} \to H_{R'}.
-$$
+$$ \Omega_{R+, R'} \to H_{R'}. $$
 
 Indeed, by 5.4.3, this morphism factors through $H_{R'}$ and thus induces an immersion $\Omega_{R+, R'} \to H_{R'}$. One
 then argues as in 4.1.1.
@@ -1867,8 +1794,8 @@ Ad(t)(Y_n) = β(t) α(t)^n Y_n,
 ```
 
 which entails $Y_{n} \in \Gamma(S, g^{\beta+n\alpha})$. Since $\alpha$ and $\beta$ are not proportional, none of the
-$\beta + n\alpha$ is zero; one thus has $Y_{n} = 0$ for $n > q$, $Y_{n} = M\alpha,\beta,n X_{\beta+n\alpha}$ for
-$0 \leqslant n \leqslant q$, where $M\alpha,\beta,n \in Ga(S)$ is uniquely determined. Setting $x = 0$ in the formula
+$\beta + n\alpha$ is zero; one thus has $Y_{n} = 0$ for $n > q$, $Y_{n} = M\alpha,\beta,n X_{\beta+n\alpha}$ for $0
+\leqslant n \leqslant q$, where $M\alpha,\beta,n \in Ga(S)$ is uniquely determined. Setting $x = 0$ in the formula
 obtained, one finds $Y_{0} = X\beta$, which completes the proof.
 
 **Remark 5.4.10.** *Differentiating the preceding formula at $x = 0$, one finds*
@@ -1915,19 +1842,16 @@ algebraically closed field. Let $B$ be the Borel subgroup of $G$ containing $T$ 
 positive roots $R+$ (Bible, § 10.4, prop. 9); the Lie algebra of $B$ is $g_{R+}$; one therefore has $B = H_{R+}$ by
 5.3.5.
 
-Let us prove the second assertion: the morphism in the statement induces an open immersion
-$i : T \times_{S} \prod_{\alpha \in R+} U\alpha \to H_{R+}$ (5.4.4). Now $i$ is surjective (Bible, § 15.1, cor. 1 to
-prop. 1).
+Let us prove the second assertion: the morphism in the statement induces an open immersion $i : T \times_{S}
+\prod_{\alpha \in R+} U\alpha \to H_{R+}$ (5.4.4). Now $i$ is surjective (Bible, § 15.1, cor. 1 to prop. 1).
 
-**Corollary 5.5.2.** *Choose an arbitrary ordering on $R+$ and for each $\alpha \in R+$ an
-$X\alpha \in \Gamma(S, g\alpha)\times$. Let $\alpha, \beta \in R+$. For each pair
-$(i, j) \in \mathbb{N}* \times \mathbb{N}*$ such that $i\alpha + j\beta \in R$, there exists a unique section*
+**Corollary 5.5.2.** *Choose an arbitrary ordering on $R+$ and for each $\alpha \in R+$ an $X\alpha \in \Gamma(S,
+g\alpha)\times$. Let $\alpha, \beta \in R+$. For each pair $(i, j) \in \mathbb{N}* \times \mathbb{N}*$ such that
+$i\alpha + j\beta \in R$, there exists a unique section*
 
 <!-- label: III.XXII.5.5.2 -->
 
-$$
-C_{i,j,\alpha,\beta} \in \Gamma(S, O_{S})
-$$
+$$ C_{i,j,\alpha,\beta} \in \Gamma(S, O_{S}) $$
 
 *such that, for all $x, y \in Ga(S')$, $S' \to S$, one has*
 
@@ -1971,21 +1895,19 @@ aᵢⱼ (α(t)^i β(t)^j − γ(t)) = 0.
 
 If $\gamma \neq i\alpha + j\beta$, one knows (Exp. XIX 4.13) that there exists an $S' \to S$ faithfully flat
 quasi-compact and a $t \in T(S')$ such that $\alpha(t)^{i} \beta(t)^{j} - \gamma(t) = 1$. One thus has $a_{ij} = 0$ on
-$S'$, hence on $S$. If $\gamma = i\alpha + j\beta$, one sets $a_{ij} = C_{i,j,\alpha,\beta}$. Setting $x = 0$ (resp.
-$y = 0$), one finds $C_{0,1,\alpha,\beta} = 1$ (resp. $C_{1,0,\alpha,\beta} = 0$).
+$S'$, hence on $S$. If $\gamma = i\alpha + j\beta$, one sets $a_{ij} = C_{i,j,\alpha,\beta}$. Setting $x = 0$ (resp. $y
+= 0$), one finds $C_{0,1,\alpha,\beta} = 1$ (resp. $C_{1,0,\alpha,\beta} = 0$).
 
 **Remark 5.5.3.** *Differentiating at $y = 0$ and comparing with 5.4.9, one finds*
 
 <!-- label: III.XXII.5.5.3 -->
 
-$$
-C_{i,1,\alpha,\beta} = M\alpha,\beta,i.
-$$
+$$ C_{i,1,\alpha,\beta} = M\alpha,\beta,i. $$
 
 **Corollary 5.5.4.** *Let $S$ be a scheme, $G$ an $S$-reductive group, $T$ a maximal torus of $G$, $\alpha \neq \beta$
-two roots of $G$ relative to $T$ such that $\alpha + \beta$ is non-trivial on every fiber. Order the set of
-$i\alpha + j\beta$ ($i, j \in \mathbb{N}*$) in an arbitrary way. For all $i, j \in \mathbb{N}*$ such that
-$i\alpha + j\beta \in R$, there exists a unique morphism of `O_S`-modules*
+two roots of $G$ relative to $T$ such that $\alpha + \beta$ is non-trivial on every fiber. Order the set of $i\alpha +
+j\beta$ ($i, j \in \mathbb{N}*$) in an arbitrary way. For all $i, j \in \mathbb{N}*$ such that $i\alpha + j\beta \in R$,
+there exists a unique morphism of `O_S`-modules*
 
 <!-- label: III.XXII.5.5.4 -->
 
@@ -2024,8 +1946,8 @@ $R_{i}$ such that $B_{S_{i}} = B_{R_{i+}}$.*
 Indeed, (i) follows from 2.3 and 5.5.1, (ii) from (i) and 5.3.15, (iii) from (ii) and 5.5.1, (iv) from (iii) and 2.3.
 
 **Lemma 5.5.6.** *Choose on the group $\Gamma_{0}(R)$ generated by the roots a structure of totally ordered group such
-that the positive roots are the elements of $R+$ (cf. Exp. XXI 3.5.6).[^N.D.E-XXII-38] Let
-$\alpha_{1} < \cdots < \alpha_{N}$ be the elements of $R+$. Consider the isomorphism*
+that the positive roots are the elements of $R+$ (cf. Exp. XXI 3.5.6).[^N.D.E-XXII-38] Let $\alpha_{1} < \cdots <
+\alpha_{N}$ be the elements of $R+$. Consider the isomorphism*
 
 <!-- label: III.XXII.5.5.6 -->
 
@@ -2043,18 +1965,14 @@ U_{⩾i} = f(U_{αᵢ} ×_S ⋯ ×_S U_{αN}).
 
 *(ii) For $1 \leqslant i \leqslant N - 1$, $U_{\geqslant i}$ is identified with the semi-direct product*
 
-$$
-U_{\geqslant i} = U_{\alpha_{i}} \cdot U_{\geqslant i+1}.
-$$
+$$ U_{\geqslant i} = U_{\alpha_{i}} \cdot U_{\geqslant i+1}. $$
 
 *(iii) $B_{R+}$ is identified with the semi-direct product*
 
-$$
-B_{R+} = T \cdot U_{\geqslant 1}.
-$$
+$$ B_{R+} = T \cdot U_{\geqslant 1}. $$
 
-*(iv) For $1 \leqslant i \leqslant N - 1$, the inner automorphisms of $U_{\geqslant 1}$ act trivially on
-$U_{\geqslant i}/U_{\geqslant i+1}$ (which is identified with $U_{\alpha_{i}}$ by (ii)).*
+*(iv) For $1 \leqslant i \leqslant N - 1$, the inner automorphisms of $U_{\geqslant 1}$ act trivially on $U_{\geqslant
+i}/U_{\geqslant i+1}$ (which is identified with $U_{\alpha_{i}}$ by (ii)).*
 
 Let us first prove by induction on $i$ the following assertion:
 
@@ -2062,18 +1980,16 @@ Let us first prove by induction on $i$ the following assertion:
 
 The assertion is true for $i = N$; suppose it for $i + 1$ and let us prove it for $i$. One has (as schemes)
 
-$$
-U_{\geqslant i} = U_{\alpha_{i}} \cdot U_{\geqslant i+1};
-$$
+$$ U_{\geqslant i} = U_{\alpha_{i}} \cdot U_{\geqslant i+1}; $$
 
 it is clear first that $U_{\geqslant i}$ is stable under the inner automorphisms of $B_{R+}$. This is clear for
-$int(t)$, $t \in T(S)$; it suffices to verify it for $int(x)$, $x \in U\alpha(S)$, $\alpha \in R+$. Now
-$U_{\geqslant i+1}$ is supposed normal, so it suffices to see that $int(x) U_{\alpha_{i}} \subset U_{\geqslant i}$. By
-5.5.2, if $y \in U_{\alpha_{i}}(S')$, one has $y^{-1} x y x^{-1} \in U_{\geqslant i+1}(S')$, which entails
-$int(x)(y) \in U_{\geqslant i}(S')$.
+$int(t)$, $t \in T(S)$; it suffices to verify it for $int(x)$, $x \in U\alpha(S)$, $\alpha \in R+$. Now $U_{\geqslant
+i+1}$ is supposed normal, so it suffices to see that $int(x) U_{\alpha_{i}} \subset U_{\geqslant i}$. By 5.5.2, if $y
+\in U_{\alpha_{i}}(S')$, one has $y^{-1} x y x^{-1} \in U_{\geqslant i+1}(S')$, which entails $int(x)(y) \in
+U_{\geqslant i}(S')$.
 
-Let us now prove that $U_{\geqslant i}$ is a subgroup of $B_{R+}$. If $x, y \in U_{\geqslant i}(S)$, one may write
-$x = p x'$, $y = q y'$, with $p, q \in U_{\alpha_{i}}(S)$, and $x', y' \in U_{\geqslant i+1}(S)$. One has
+Let us now prove that $U_{\geqslant i}$ is a subgroup of $B_{R+}$. If $x, y \in U_{\geqslant i}(S)$, one may write $x =
+p x'$, $y = q y'$, with $p, q \in U_{\alpha_{i}}(S)$, and $x', y' \in U_{\geqslant i+1}(S)$. One has
 
 ```text
 xy = p x′ q y′ = pq(q⁻¹ x′ q) y′ ∈ U_{αᵢ}(S′) U_{⩾i+1}(S′);
@@ -2082,14 +1998,12 @@ xy = p x′ q y′ = pq(q⁻¹ x′ q) y′ ∈ U_{αᵢ}(S′) U_{⩾i+1}(S′)
 similarly $x^{-1} = p^{-1} (p x'^{-1} p^{-1}) \in U_{\alpha_{i}}(S') U_{\geqslant i+1}(S')$. We have thus proved (i) and
 (ii), as well as (iv) along the way. As for (iii), it is a trivial consequence of 5.5.1.
 
-**Lemma 5.5.7.** *With the preceding notations, choose for each $1 \leqslant i \leqslant N$ an
-$X_{i} \in \Gamma(S, g^{\alpha_{i}})\times$ and consider the isomorphism*
+**Lemma 5.5.7.** *With the preceding notations, choose for each $1 \leqslant i \leqslant N$ an $X_{i} \in \Gamma(S,
+g^{\alpha_{i}})\times$ and consider the isomorphism*
 
 <!-- label: III.XXII.5.5.7 -->
 
-$$
-a : G^{N}_{a,S} \to U_{\geqslant 1}
-$$
+$$ a : G^{N}_{a,S} \to U_{\geqslant 1} $$
 
 *defined set-theoretically by*
 
@@ -2144,17 +2058,17 @@ Q′ᵢ(x₁, …, xᵢ₋₁, y₁, …, yᵢ₋₁) = Qᵢ(x₁, …, xᵢ₋�
 
 that is, the precise form requested.
 
-Let us prove finally the assertion on the coefficients of the polynomials `Qᵢ`. Let $A$ be the subring of
-$\Gamma(S, O_{S})$ generated by the $C_{i,j,\alpha,\beta}$ ($\alpha, \beta \in R+$, $i, j \in \mathbb{N}*$). Let us
-prove by descending induction on $i$ that if $x_{1} = \cdots = x_{i-1} = 0$ and $y_{1} = \cdots = y_{i-1} = 0$, that is,
-if $a(x_{1}, \cdots, x_{N})$ and $a(y_{1}, \cdots, y_{N})$ are sections of $U_{\geqslant i}$, then the polynomials
+Let us prove finally the assertion on the coefficients of the polynomials `Qᵢ`. Let $A$ be the subring of $\Gamma(S,
+O_{S})$ generated by the $C_{i,j,\alpha,\beta}$ ($\alpha, \beta \in R+$, $i, j \in \mathbb{N}*$). Let us prove by
+descending induction on $i$ that if $x_{1} = \cdots = x_{i-1} = 0$ and $y_{1} = \cdots = y_{i-1} = 0$, that is, if
+$a(x_{1}, \cdots, x_{N})$ and $a(y_{1}, \cdots, y_{N})$ are sections of $U_{\geqslant i}$, then the polynomials
 
 ```text
 Rⱼ(xᵢ, …, x_N, yᵢ, …, y_N) = Qⱼ(x₁, …, x_N, y₁, …, y_N)
 ```
 
-have coefficients in $A$. This is trivial for $i = N$ and also for $j < i$ (because $R_{j} = 0$ for $j < i$). Let
-$i < N$, suppose the assertion verified for $i + 1$, and let us prove it for $i$ (and $j \geqslant i$). One has
+have coefficients in $A$. This is trivial for $i = N$ and also for $j < i$ (because $R_{j} = 0$ for $j < i$). Let $i <
+N$, suppose the assertion verified for $i + 1$, and let us prove it for $i$ (and $j \geqslant i$). One has
 
 ```text
 a(0, …, 0, xᵢ, …, x_N) = exp(xᵢ Xᵢ) a(0, …, 0, xᵢ₊₁, …, x_N) = exp(xᵢ Xᵢ) Zᵢ.
@@ -2178,13 +2092,11 @@ Now
 int(exp(−yᵢ Xᵢ))(Zᵢ) = int(exp(−yᵢ Yᵢ))(exp(xᵢ₊₁ Xᵢ₊₁) ⋯ exp(x_N X_N))
 ```
 
-is a product of $N - i - 1$ sections of $U_{\geqslant i+1}$ whose coefficients in the decomposition
-$U_{\geqslant i+1} = U_{\alpha_{i+1}} \cdots U_{\alpha N}$ are polynomials in `yᵢ` and $x_{i+1}$, …, $x_{N}$ with
-coefficients in $A$ (by 5.5.2). Applying the induction hypothesis, one deduces that the coefficients of
+is a product of $N - i - 1$ sections of $U_{\geqslant i+1}$ whose coefficients in the decomposition $U_{\geqslant i+1} =
+U_{\alpha_{i+1}} \cdots U_{\alpha N}$ are polynomials in `yᵢ` and $x_{i+1}$, …, $x_{N}$ with coefficients in $A$ (by
+5.5.2). Applying the induction hypothesis, one deduces that the coefficients of
 
-$$
-int(\exp(-y_{i} X_{i}))(Z_{i}) \cdot T_{i}
-$$
+$$ int(\exp(-y_{i} X_{i}))(Z_{i}) \cdot T_{i} $$
 
 are also polynomials with coefficients in $A$, which finishes the proof.
 
@@ -2194,15 +2106,11 @@ Let us remark that the preceding induction immediately gives a proof of:
 
 <!-- label: III.XXII.5.5.8 -->
 
-$$
-f_{i} : U_{\alpha_{i}} \to H,
-$$
+$$ f_{i} : U_{\alpha_{i}} \to H, $$
 
 *where $H$ is an $S$-group functor. For the morphism*
 
-$$
-f : U_{\geqslant 1} \to H
-$$
+$$ f : U_{\geqslant 1} \to H $$
 
 *defined by*
 
@@ -2250,11 +2158,7 @@ H_{R′} ∩ Norm_G(H_{R′′}) = H_{R′ ∩ R′′}.
 
 We shall prove these equivalences according to the logical scheme
 
-$$
-(iii) \Leftrightarrow (ii) \Rightarrow (vi)
-              \Rightarrow (iv) \Rightarrow (v)
-              \Rightarrow (i) \Leftrightarrow (ii).
-$$
+$$ (iii) \Leftrightarrow (ii) \Rightarrow (vi) \Rightarrow (iv) \Rightarrow (v) \Rightarrow (i) \Leftrightarrow (ii). $$
 
 One obviously has (ii) ⇒ (iii) and (vi) ⇒ (v) (take $R'' = \emptyset$). By 5.4.6, it suffices to verify (i) ⇒ (ii) on
 geometric fibers; now if $S$ is the spectrum of an algebraically closed field, $H_{R'}$ is contained in a Borel subgroup
@@ -2300,9 +2204,7 @@ u = exp(x₁ X₁) ⋯ exp(x_N X_N)
 
 *(a) If $H \in \Gamma(S, t)$, the component of `Ad(u) H` on $g^{\alpha_{m}}$ is*
 
-$$
--\alpha_{m}(H) x_{m} X_{m}.
-$$
+$$ -\alpha_{m}(H) x_{m} X_{m}. $$
 
 *(b) If $Y \in \Gamma(S, g^{-\alpha_{m}})$, the component of `Ad(u) Y` on $t$ is (with the notations of Exp. XX 2.6)*
 
@@ -2330,9 +2232,8 @@ Ad(u) H = Ad(exp(xₘ Xₘ)) H = H − αₘ(H) xₘ Xₘ,
 
 which entails the first result.
 
-Likewise denote[^N.D.E-XXII-40] $n = g^{\alpha_{1}} + \cdots + g^{\alpha N}$ and
-$u_{1} = \exp(x_{m+1} X_{m+1}) \cdots \exp(x_{N} X_{N})$. For $i > m$, one has $\alpha_{i} > \alpha_{m}$ so, by 5.4.9,
-one has, modulo $n$,
+Likewise denote[^N.D.E-XXII-40] $n = g^{\alpha_{1}} + \cdots + g^{\alpha N}$ and $u_{1} = \exp(x_{m+1} X_{m+1}) \cdots
+\exp(x_{N} X_{N})$. For $i > m$, one has $\alpha_{i} > \alpha_{m}$ so, by 5.4.9, one has, modulo $n$,
 
 ```text
 Ad(u₁) Y ≡ Y,    whence    Ad(u) Y ≡ Ad(exp(xₘ Xₘ)) Y.
@@ -2349,9 +2250,7 @@ whence the second result.
 Let us return to the proof of inclusion (x). Suppose that there exists $h \in H_{R'}(S)$, $h \notin H_{R' \cap R''}(S)$,
 such that
 
-$$
-Ad(h) t \subset g_{R''}.
-$$
+$$ Ad(h) t \subset g_{R''}. $$
 
 One may write
 
@@ -2385,8 +2284,8 @@ is closed in $G$ and $Norm_{G}(H)/H$ is representable by a separated finite éta
 
 This follows from 5.3.18 and, at one's choice, 3.5 or Exp. XIX 2.5 (ii).
 
-**Corollary 5.6.4.** *Let $(G, T, M, R)$ be a split reductive group. If $R' \subset R$ is closed and
-$R' \cap -R' = \emptyset$, then $R'$ is contained in a system of positive roots.*[^N.D.E-XXII-41]
+**Corollary 5.6.4.** *Let $(G, T, M, R)$ be a split reductive group. If $R' \subset R$ is closed and $R' \cap -R' =
+\emptyset$, then $R'$ is contained in a system of positive roots.*[^N.D.E-XXII-41]
 
 <!-- label: III.XXII.5.6.4 -->
 
@@ -2437,9 +2336,7 @@ of $R+$ (i.e. an element of $R+$ such that $R+ - {\alpha}$ is closed). Denote*
 
 <!-- label: III.XXII.5.6.8 -->
 
-$$
-U_{\hat{\alpha}} = U_{R+ - {\alpha}}.
-$$
+$$ U_{\hat{\alpha}} = U_{R+ - {\alpha}}. $$
 
 *Then*
 
@@ -2457,11 +2354,11 @@ $$
 Ω_{R+} = U_{−α̂} · U_{−α} · T · Uα · U_{α̂}.
 ```
 
-Indeed, (ii) follows from 5.6.5, and (i) from 5.6.7 (ii). Similarly, (iii) follows from 5.5.2 (indeed, if
-$\beta \in R+$, $\beta \neq \alpha$, no combination $i(-\alpha) + j\beta$, with $i, j > 0$, can be negative because
-$\beta$ contains at least one simple root $\neq \alpha$). Then (iv) follows from (i) and (iii), because
-$U_{-\alpha} \cdot T \cdot U\alpha$ is schematically dense in $Z\alpha$. Finally, the last assertion follows from (ii)
-and its analogue for $U_{R-}$.
+Indeed, (ii) follows from 5.6.5, and (i) from 5.6.7 (ii). Similarly, (iii) follows from 5.5.2 (indeed, if $\beta \in
+R+$, $\beta \neq \alpha$, no combination $i(-\alpha) + j\beta$, with $i, j > 0$, can be negative because $\beta$
+contains at least one simple root $\neq \alpha$). Then (iv) follows from (i) and (iii), because $U_{-\alpha} \cdot T
+\cdot U\alpha$ is schematically dense in $Z\alpha$. Finally, the last assertion follows from (ii) and its analogue for
+$U_{R-}$.
 
 Let us return to the general situation.
 
@@ -2470,12 +2367,10 @@ geometric fibers.*
 
 <!-- label: III.XXII.5.6.9 -->
 
-*(i) $D_{S}(H) = \operatorname{Hom}_{S-gr.}(H, Gm,S)$ is representable by a twisted constant $S$-group, whose type at
-$s \in S$ is $\mathbb{Z}^{rg_{red}(G_{s})}$. The biduality morphism (Exp. VIII § 1)*
+*(i) $D_{S}(H) = \operatorname{Hom}_{S-gr.}(H, Gm,S)$ is representable by a twisted constant $S$-group, whose type at $s
+\in S$ is $\mathbb{Z}^{rg_{red}(G_{s})}$. The biduality morphism (Exp. VIII § 1)*
 
-$$
-f : H \to D_{S}(D_{S}(H))
-$$
+$$ f : H \to D_{S}(D_{S}(H)) $$
 
 *is smooth and surjective.*
 
@@ -2485,9 +2380,9 @@ unipotent geometric fibers. We call it the* unipotent part *of $H$ and write als
 *Then $H_{u}$ is also the sheaf of commutators of $H$: every morphism of groups from $H$ to an $S$-presheaf of
 commutative groups separated for (fppf) vanishes on $H_{u}$ and thus factors through $H/H_{u} = D_{S}(D_{S}(H))$.*
 
-*(iii) If $T$ is a maximal torus of $H$, the morphism $T \to H$ induces isomorphisms
-$D_{S}(H) \xrightarrow{\sim} D_{S}(T)$ and $T \xrightarrow{\sim} D_{S}(D_{S}(H))$. Furthermore, $H$ is identified with
-the semi-direct product of $H_{u}$ by $T$.*
+*(iii) If $T$ is a maximal torus of $H$, the morphism $T \to H$ induces isomorphisms $D_{S}(H) \xrightarrow{\sim}
+D_{S}(T)$ and $T \xrightarrow{\sim} D_{S}(D_{S}(H))$. Furthermore, $H$ is identified with the semi-direct product of
+$H_{u}$ by $T$.*
 
 *(iv) In the situation of 5.6.1, if $H = H_{R'}$, then $H_{u} = U_{R'}$.*
 
@@ -2522,11 +2417,11 @@ Indeed, since $T = Centr_{G}(T)$, one has $U \cap T = U^{T}$ (invariants under $
 deduces that $U \cap T$ is smooth over $S$, but it is also radicial over $S$: for every $s \in S$, $U(s) \cap T(s)$
 consists of elements that are simultaneously unipotent and semisimple. This proves the lemma.
 
-Let us return to the proof of 5.6.9 (ii). If $U$ is a normal subgroup of $H$ as above, then the semi-direct product
-$T \cdot U$ is a subgroup of type (R) of $G$, with solvable geometric fibers. One may therefore suppose it of the form
-$H_{R''}$, with $R'' \subset R'$. It suffices to prove $U = U_{R''}$ and one is therefore reduced to the case where
-$H = T \cdot U$; but the quotient $H/U$ being commutative, $U$ is a subsheaf of the sheaf of commutators of $H$, which
-is $H_{u}$. QED.
+Let us return to the proof of 5.6.9 (ii). If $U$ is a normal subgroup of $H$ as above, then the semi-direct product $T
+\cdot U$ is a subgroup of type (R) of $G$, with solvable geometric fibers. One may therefore suppose it of the form
+$H_{R''}$, with $R'' \subset R'$. It suffices to prove $U = U_{R''}$ and one is therefore reduced to the case where $H =
+T \cdot U$; but the quotient $H/U$ being commutative, $U$ is a subsheaf of the sheaf of commutators of $H$, which is
+$H_{u}$. QED.
 
 Let us remark that we have in fact just proved:
 
@@ -2573,14 +2468,12 @@ $H_{u}$ for the law $(h, T) \mapsto int(h) T$.*[^N.D.E-XXII-45]
 Indeed, if $T$ and $T'$ are two maximal tori of $H_{S'}$, there exists a unique section $h \in H_{u}(S')$ such that
 $int(h) T = T'$. The uniqueness of $h$ follows immediately from the equality
 
-$$
-Norm_{G}(T) \cap H_{u} = e
-$$
+$$ Norm_{G}(T) \cap H_{u} = e $$
 
 (cf. for example 5.6.1); it therefore suffices to prove the existence of $h$ locally for the étale topology. By 5.2.6
-and 5.1.2 (a), one may suppose $T$ and $T'$ conjugate by a section of $H$, whence the desired conclusion since
-$H = H_{u} \cdot T$ by 5.6.9 (iii). It follows that $Tor(H)$ is a principal homogeneous sheaf under $H_{u}$, which is
-affine and smooth over $S$, which immediately entails the statement.[^N.D.E-XXII-46]
+and 5.1.2 (a), one may suppose $T$ and $T'$ conjugate by a section of $H$, whence the desired conclusion since $H =
+H_{u} \cdot T$ by 5.6.9 (iii). It follows that $Tor(H)$ is a principal homogeneous sheaf under $H_{u}$, which is affine
+and smooth over $S$, which immediately entails the statement.[^N.D.E-XXII-46]
 
 ### 5.7. Bruhat's theorem
 
@@ -2685,15 +2578,14 @@ of positive roots $R+$, $B'$ the Borel subgroup defined by $R- = -R+$.*
 *(i) (Bruhat's theorem) The schemes $B'u_{w} \cdot N_{w} \cdot B$ form, as $w$ runs through $W$, a partition of the
 underlying set of $G$.*
 
-*(ii) For each $w \in W$, let $n_{w}$ be a representative of $w$ in $Norm_{G}(T)(S)$ (3.8); then the open sets
-$n_{w} \Omega = n_{w} B'u \cdot T \cdot B^{u}$ form, as $w$ runs through $W$, a cover of $G$.*
+*(ii) For each $w \in W$, let $n_{w}$ be a representative of $w$ in $Norm_{G}(T)(S)$ (3.8); then the open sets $n_{w}
+\Omega = n_{w} B'u \cdot T \cdot B^{u}$ form, as $w$ runs through $W$, a cover of $G$.*
 
 The two assertions are verified on geometric fibers, where one concludes by 5.7.1 and 5.7.3.
 
-**Remark 5.7.5.** *(i) entails that if $S$ is the spectrum of a field, $G(S)$ is the disjoint union of the
-$B'u_{w}(S) \cdot T(S) \cdot B^{u}(S)$. The corresponding assertion for an arbitrary $S$ (even local or artinian) is
-obviously false. Note however that (ii) entails that if $S$ is local, $G(S)$ is the union of the $n_{w} \Omega(S)$. In
-fact:*
+**Remark 5.7.5.** *(i) entails that if $S$ is the spectrum of a field, $G(S)$ is the disjoint union of the $B'u_{w}(S)
+\cdot T(S) \cdot B^{u}(S)$. The corresponding assertion for an arbitrary $S$ (even local or artinian) is obviously
+false. Note however that (ii) entails that if $S$ is local, $G(S)$ is the union of the $n_{w} \Omega(S)$. In fact:*
 
 <!-- label: III.XXII.5.7.5 -->
 
@@ -2703,8 +2595,8 @@ fact:*
 
 *(i) Then $G(S)$ is generated by $T(S)$ and the $U\alpha(S)$, $\alpha \in \Delta \cup -\Delta$.*
 
-*(ii) If $G$ is simply connected (4.3.3), $G(S)$ is already generated by the $U\alpha(S)$,
-$\alpha \in \Delta \cup -\Delta$.*
+*(ii) If $G$ is simply connected (4.3.3), $G(S)$ is already generated by the $U\alpha(S)$, $\alpha \in \Delta \cup
+-\Delta$.*
 
 Indeed, let $H$ be the subgroup of $G(S)$ generated by the $U\alpha(S)$, $\alpha \in \Delta \cup -\Delta$. Let us first
 remark that $H$ contains a representative of each $s\alpha$ ($\alpha \in \Delta$) in $Norm_{G}(T)(S)$ (Exp. XX 3.1),
@@ -2753,8 +2645,8 @@ G = u_{−α} G = u_{−α} Ω ∪ uα u_{−α}⁻¹ Ω = Ω ∪ uα Ω.
 Indeed, the assertion is local for the (fpqc) topology; one may suppose $G$ split. Then $G$ admits a cover by open
 subsets isomorphic to $G^{N}_{a,S} \times_{S} G^{n}_{m,S}$, which are essentially free.
 
-**Lemma 5.7.9.** *Under the conditions of 5.7.4, let $\alpha$ be a simple root of $R+$ and
-$u\alpha \in U\times_{\alpha}(S)$. For every $v \in U_{-\alpha}(S)$, one has*
+**Lemma 5.7.9.** *Under the conditions of 5.7.4, let $\alpha$ be a simple root of $R+$ and $u\alpha \in
+U\times_{\alpha}(S)$. For every $v \in U_{-\alpha}(S)$, one has*
 
 <!-- label: III.XXII.5.7.9 -->
 
@@ -2785,9 +2677,9 @@ Now
 
 Using again 5.6.8 (iii) (for $R-$ instead of $R+$), one obtains the result.
 
-**Proposition 5.7.10.** *Under the conditions of 5.7.4, choose for each simple root $\alpha$ a
-$u\alpha \in U\times_{\alpha}(S)$. Let $U_{1}$ be the submonoid of $B^{u}(S)$ generated by the $u\alpha$. The open sets
-$u \Omega$, for $u \in U_{1}$, form a cover of $G$.*
+**Proposition 5.7.10.** *Under the conditions of 5.7.4, choose for each simple root $\alpha$ a $u\alpha \in
+U\times_{\alpha}(S)$. Let $U_{1}$ be the submonoid of $B^{u}(S)$ generated by the $u\alpha$. The open sets $u \Omega$,
+for $u \in U_{1}$, form a cover of $G$.*
 
 <!-- label: III.XXII.5.7.10 -->
 
@@ -2806,9 +2698,7 @@ R− ∩ sα(R−) = R− − {−α}
 
 *(Exp. XXI 3.3.1), and, in the notations of 5.6.8, one therefore has*
 
-$$
-B'u_{s\alpha} = U_{-\hat{\alpha}}.
-$$
+$$ B'u_{s\alpha} = U_{-\hat{\alpha}}. $$
 
 **Remark 5.7.12.** *In fact, the proof of 5.7.10 immediately gives the following statement: under the conditions of
 5.7.10, let $\Gamma$ be a submonoid of $G(S)$; for the open sets $g \Omega$ ($g \in \Gamma$) to form a cover of $G$, it
@@ -2837,9 +2727,7 @@ B′u_w = B′u ∩ int(n_w) B̃^u
 
 <!-- label: III.XXII.5.7.14 -->
 
-$$
-Ad : G \to GL_{O_{S}}(g)
-$$
+$$ Ad : G \to GL_{O_{S}}(g) $$
 
 *its adjoint representation. Then $Ker(Ad) = Centr(G)$ (in other words, the canonical homomorphism deduced from `Ad` by
 passage to the quotient:*
@@ -2852,8 +2740,8 @@ Ad : G/Centr(G) = ad(G) → GL_{O_S}(g)
 
 One may suppose $G$ split. Choose on $\Gamma_{0}(R)$ a total ordering structure compatible with the group structure and
 let $R+$ be the set of positive roots. By virtue of 5.7.4 (ii) and 4.1.6, it suffices to prove that if $n_{w}$ is a
-representative of the element $w$ of $W$, if $u \in U(S)$, $t \in T(S)$, $v \in U_{-}(S)$, and if
-$Ad(n_{w} v t u) = id$, then $w = e$, $v = e$, $u = e$. For each $m \in R \cup {0}$, set
+representative of the element $w$ of $W$, if $u \in U(S)$, $t \in T(S)$, $v \in U_{-}(S)$, and if $Ad(n_{w} v t u) =
+id$, then $w = e$, $v = e$, $u = e$. For each $m \in R \cup {0}$, set
 
 ```text
 g_{>m} = ⨿_{n > m} g^n,    g_{<m} = ⨿_{n < m} g^n.
@@ -2897,9 +2785,7 @@ representable by a quasi-projective $S$-scheme of finite presentation over $S$.*
 $G$ (and this remains valid after any base change). Thus, replacing $G$ by $G'$, one may suppose that $G$ is adjoint.
 Consider then the morphism
 
-$$
-u : H \to Grass(g)
-$$
+$$ u : H \to Grass(g) $$
 
 which associates with each subgroup of type (R) its Lie algebra (which is a sub-`O_S`-module of $g$ that is locally a
 direct factor.[^N.D.E-XXII-50]). Then $u$ is a monomorphism by 5.3.3. It suffices to prove that it is representable by
@@ -2908,8 +2794,8 @@ sub-`O_S`-module locally a direct factor $h$ of $g_{S_{1}}$, the $S' \to S_{1}$ 
 a subgroup of type (R) of $G_{S'}$ are exactly those that factor through some subscheme $\Sigma$ of finite presentation
 of $S_{1}$. Replacing $S_{1}$ by $S$, we reduce to $S_{1} = S$, and we may furthermore suppose $S$ affine; then there
 exists a noetherian affine scheme $S_{0}$ such that $G$ (resp. $h$) arises by base change from an adjoint
-$S_{0}$-reductive group $G_{0}$ (resp. a sub-`O_S`-module locally a direct factor $h_{0}$ of
-$g_{0} = Lie(G_{0}/S_{0})$). It suffices to show that there exists a subscheme $\Sigma_{0}$ of $S_{0}$ with the required
+$S_{0}$-reductive group $G_{0}$ (resp. a sub-`O_S`-module locally a direct factor $h_{0}$ of $g_{0} =
+Lie(G_{0}/S_{0})$). It suffices to show that there exists a subscheme $\Sigma_{0}$ of $S_{0}$ with the required
 properties (because one will then have $\Sigma = \Sigma_{0} \times_{S_{0}} S$). Replacing $S$ by $S_{0}$, one may
 therefore suppose $S$ affine and noetherian (note that then every subscheme of $S$ is of finite presentation over $S$).
 Finally, replacing $S$ by a sufficiently small open set, one may suppose that $g$ is free of rank $n$ and that $h$ is a
@@ -2936,18 +2822,18 @@ identified with $\epsilon*(\Omega^{1}_{N/S})$, so its formation commutes with ev
 equivalence (c′) ⇔ (a) in EGA IV₄, 17.12.1 (applied to $f : N \to S$ and $j = \epsilon$), $N_{S'} \to S'$ is smooth, of
 relative dimension $r$, at every point of $\epsilon(S')$ if and only if $n_{S'/N'} = n_{S/N} \otimes_{O_{S}} O_{S'}$ is
 locally free of rank $r$ and the morphism $\phi_{n}(S') : Sym^{n}(n_{S'/N'}) \to J^{n}_{S'}/J^{n+1}_{S'}$ is an
-isomorphism for every $n \geqslant 1$. Denote $K_{n}(S') = Ker \phi_{n}(S')$. By TDTE I, Lemma 3.6,
-$n_{S/N} \otimes_{O_{S}} O_{S'}$ is locally free of rank $r$ if and only if $S' \to S$ factors through some subscheme
-$Z$ of $S$. Replacing $S$ by $Z$, we may therefore suppose that $n_{S/N} = J/J^{2}$ is locally free of rank $r$. Then,
-for every $S' \to S$, one has $(J^{2}/J^{3}) \otimes_{O_{S}} O_{S'} = J^{2}_{S'}/J^{3}_{S'}$ and hence
-$K_{2}(S') = K_{2}(S) \otimes_{O_{S}} O_{S'}$. It follows that $\phi_{2}(S')$ is an isomorphism if and only if
-$S' \to S$ factors through the closed subscheme $S_{2}$ of $S$ defined by the ideal generated by the image of
-$Sym^{2}(n_{S/N})* \otimes K_{2}(S)$ in `O_S`. Then, over $S_{2}$, $J^{2}/J^{3}$ is isomorphic to $Sym^{2}(n_{S/N})$,
-hence locally free, and the same argument shows that $\phi_{3}(S')$ is an isomorphism if and only if $S' \to S$ factors
-through some closed subscheme $S_{3}$ of $S$, etc. One obtains thus that $N_{S'} \to S'$ is smooth, of relative
-dimension $r$, at every point of $\epsilon(S')$ if and only if $S' \to S$ factors through the closed subscheme $Z$
-intersection of the $S_{n}$. But then, for every $S' \to Z$, $Lie(N_{S'}/S')$ is locally a direct factor of rank $r$ of
-$g_{S'}$, and so the inclusion $h_{S'} \subset Lie(N_{S'}/S')$ is an equality. One then sets $H = N^{0}$.
+isomorphism for every $n \geqslant 1$. Denote $K_{n}(S') = Ker \phi_{n}(S')$. By TDTE I, Lemma 3.6, $n_{S/N}
+\otimes_{O_{S}} O_{S'}$ is locally free of rank $r$ if and only if $S' \to S$ factors through some subscheme $Z$ of $S$.
+Replacing $S$ by $Z$, we may therefore suppose that $n_{S/N} = J/J^{2}$ is locally free of rank $r$. Then, for every $S'
+\to S$, one has $(J^{2}/J^{3}) \otimes_{O_{S}} O_{S'} = J^{2}_{S'}/J^{3}_{S'}$ and hence $K_{2}(S') = K_{2}(S)
+\otimes_{O_{S}} O_{S'}$. It follows that $\phi_{2}(S')$ is an isomorphism if and only if $S' \to S$ factors through the
+closed subscheme $S_{2}$ of $S$ defined by the ideal generated by the image of $Sym^{2}(n_{S/N})* \otimes K_{2}(S)$ in
+`O_S`. Then, over $S_{2}$, $J^{2}/J^{3}$ is isomorphic to $Sym^{2}(n_{S/N})$, hence locally free, and the same argument
+shows that $\phi_{3}(S')$ is an isomorphism if and only if $S' \to S$ factors through some closed subscheme $S_{3}$ of
+$S$, etc. One obtains thus that $N_{S'} \to S'$ is smooth, of relative dimension $r$, at every point of $\epsilon(S')$
+if and only if $S' \to S$ factors through the closed subscheme $Z$ intersection of the $S_{n}$. But then, for every $S'
+\to Z$, $Lie(N_{S'}/S')$ is locally a direct factor of rank $r$ of $g_{S'}$, and so the inclusion $h_{S'} \subset
+Lie(N_{S'}/S')$ is an equality. One then sets $H = N^{0}$.
 
 Replacing $S$ by $Z$, it remains only to express that $H_{s'}$ is of the same reductive rank as $G_{s'}$ at every point
 $s' \in S'$, or, equivalently, that $H_{s}$ is of the same reductive rank as $G_{s}$ at every point $s$ of the
@@ -2966,9 +2852,7 @@ presentation over $S$ (which is in fact an open subset of $H$).*
 
 Indeed, consider the morphism
 
-$$
-f : G \to H,
-$$
+$$ f : G \to H, $$
 
 defined set-theoretically by $f(g) = int(g) H$. By 5.3.9, this morphism is smooth and of finite presentation, hence
 open. Let $V = f(G)$ equipped with its structure of open subscheme of $H$. The morphism $f : G \to V$ is covering and of
@@ -3090,10 +2974,10 @@ G → Aut_S(G/Norm_G(T)),    G → Aut_S(G/B),    G → Aut_S(G/T).
 Ker(G → Aut_S(Tor(G))) = Ker(G → Aut_S(Bor(G))) = Ker(G → Aut_S(Kil(G))) = Centr(G).
 ```
 
-It is indeed clear that $Centr(G)$ operates trivially on each of the three schemes. Conversely, the kernel of
-$G \to \operatorname{Aut}_{S}(Kil(G))$ is "the intersection of the maximal tori of $G$" in the sense of 4.1.7, hence
-equals $Centr(G)$ (loc. cit.). For $Bor(G)$, one notes that "the intersection of the Borel subgroups of $G$" is also
-"the intersection of its maximal tori" (see the following section). For $Tor(G)$, one uses Exp. XII 4.11.
+It is indeed clear that $Centr(G)$ operates trivially on each of the three schemes. Conversely, the kernel of $G \to
+\operatorname{Aut}_{S}(Kil(G))$ is "the intersection of the maximal tori of $G$" in the sense of 4.1.7, hence equals
+$Centr(G)$ (loc. cit.). For $Bor(G)$, one notes that "the intersection of the Borel subgroups of $G$" is also "the
+intersection of its maximal tori" (see the following section). For $Tor(G)$, one uses Exp. XII 4.11.
 
 ### 5.9. Properties peculiar to Borel subgroups
 
@@ -3120,8 +3004,8 @@ torus of $B$. There exists a unique Borel subgroup $B'$ of $G$, opposite to $B$ 
 By faithfully flat descent, it suffices to prove the proposition in the split case, when $B = B_{R+}$ (5.5.5 (iv)). Then
 $B_{-R+}$ is indeed opposite to $B$ (4.1.2); let us show that it is the only Borel subgroup of $G$ containing $T$ that
 is opposite to $B$. If $B'$ is a Borel subgroup of $G$ containing $T$, then $B'$ is locally on $S$ of the form
-$B_{R'+}$, where $R'+$ is another system of positive roots of $R$ (5.5.5 (iii)). If $R'+ \neq -R+$, there exists
-$\alpha \in R'+ \cap R+$, so that $U\alpha \subset B_{R+} \cap B_{R'+}$.
+$B_{R'+}$, where $R'+$ is another system of positive roots of $R$ (5.5.5 (iii)). If $R'+ \neq -R+$, there exists $\alpha
+\in R'+ \cap R+$, so that $U\alpha \subset B_{R+} \cap B_{R'+}$.
 
 **Proposition 5.9.3.** *Let $S$ be a scheme, $G$ an $S$-reductive group, $B$ a Borel subgroup of $G$.*
 
@@ -3147,9 +3031,7 @@ S′ ↦ {Borel subgroups of G_{S′} in general position relative to B_{S′}}
 
 *is representable by an open subscheme of $Bor(G)$ (5.8.3). The morphism*
 
-$$
-Opp(B) \to Tor(B)
-$$
+$$ Opp(B) \to Tor(B) $$
 
 *defined by $B' \mapsto B \cap B'$ is an isomorphism. In particular (5.6.13) the inner automorphisms of $B^{u}$ equip
 $Opp(B)$ with a structure of principal homogeneous bundle under $B^{u}$.*
@@ -3184,9 +3066,9 @@ such that $B_{s}$ and $B'_{s}$ are in general position, there exists an open sub
 
 It only remains to prove (b) ⇒ (a). By virtue of the preceding corollary, it suffices to do so when $S$ is the spectrum
 of an algebraically closed field $k$. One may suppose $G$ split relative to a maximal torus $T$ of $B$. Let $B'_{0}$ be
-the Borel subgroup opposite to $B$. Since the Borel subgroups of $G$ are conjugate under $G(k)$, there exists
-$g \in G(k)$ such that $int(g) B'_{0} = B'$. By Bruhat's theorem (5.7.4), one may write $g = b n b'$, with $b \in B(k)$,
-$b' \in B'_{0}(k)$, $n \in Norm_{G}(T)(k)$. One thus has
+the Borel subgroup opposite to $B$. Since the Borel subgroups of $G$ are conjugate under $G(k)$, there exists $g \in
+G(k)$ such that $int(g) B'_{0} = B'$. By Bruhat's theorem (5.7.4), one may write $g = b n b'$, with $b \in B(k)$, $b'
+\in B'_{0}(k)$, $n \in Norm_{G}(T)(k)$. One thus has
 
 ```text
 B′ = int(b) int(n) B′_0
@@ -3212,9 +3094,7 @@ trivially on the (sheaf) quotients $U_{i}/U_{i+1}$.*
 *(ii) For each $i \geqslant 0$, there exists a locally free `O_S`-module $E_{i}$ and an isomorphism of $S$-sheaves of
 groups*
 
-$$
-U_{i}/U_{i+1} \xrightarrow{\sim} W(E_{i}).
-$$
+$$ U_{i}/U_{i+1} \xrightarrow{\sim} W(E_{i}). $$
 
 *(iii) For every $s \in S$, $(U_{n})_{s} = e$ for $n \geqslant \dim(B^{u}_{s})$.*
 
@@ -3224,17 +3104,13 @@ for the sum of the coefficients of $\alpha$ in the basis $\Delta$ of $\Gamma_{0}
 relative to $R+$. One has $ord(\alpha) \leqslant Card(R+)$. For every $i > 0$, let $R^{(i)}$ be the set of roots of
 order $> i$; it is a closed set of positive roots, so one may construct (5.6.5)
 
-$$
-U_{i} = U_{R^{(i)}}.
-$$
+$$ U_{i} = U_{R^{(i)}}. $$
 
 If $\alpha \in R+$ and $\beta \in R^{(i)}$, then $\alpha + \beta \in R^{(i+1)}$. It follows, by 5.5.2, that each $U_{i}$
 is a normal subgroup of $B$ and that the inner automorphisms of $B^{u}$ operate trivially on $U_{i}/U_{i+1}$. This group
 is moreover identified with
 
-$$
-\prod_{ord(\alpha) = i + 1} U\alpha
-$$
+$$ \prod_{ord(\alpha) = i + 1} U\alpha $$
 
 and is thus equipped with a vector-space structure.
 
@@ -3256,15 +3132,13 @@ $U_{i} = U'_{i}$.
 
 Similarly the isomorphism of vector groups
 
-$$
-int(b) : U_{i}/U_{i+1} \xrightarrow{\sim} U'_{i}/U'_{i+1}
-$$
+$$ int(b) : U_{i}/U_{i+1} \xrightarrow{\sim} U'_{i}/U'_{i+1} $$
 
 is the identity, by virtue of what has already been proved.
 
 Let us now treat the general case. There exists a covering family for the étale topology ${S_{i} \to S}$ and for each
-$i$ a splitting $(G_{i}, T_{i}, M_{i}, R_{i})$ and a system of positive roots $R_{i+}$ of $R_{i}$ such that
-$B \times_{S} S_{i} = B_{R_{i+}}$ (5.5.5, (iii)). For each $i$, one thus has a family
+$i$ a splitting $(G_{i}, T_{i}, M_{i}, R_{i})$ and a system of positive roots $R_{i+}$ of $R_{i}$ such that $B
+\times_{S} S_{i} = B_{R_{i+}}$ (5.5.5, (iii)). For each $i$, one thus has a family
 
 ```text
 B_{S_i} = U_{i,0} ⊃ U_{i,1} ⊃ ⋯ ⊃ U_{i,j} ⊃ ⋯
@@ -3285,8 +3159,8 @@ U_{i,j} ×_{S_i} S_{ii′} = U_{i′,j} ×_{S_{i′}} S_{ii′}
 
 coincide. Now if $S_{ii'} = \emptyset$, this is trivial; if $S_{ii'} \neq \emptyset$, then one is in the situation
 studied above: $B \times_{S} S_{ii'}$ is defined by the system of positive roots $R_{i+}$ (resp. $R_{i'+}$) in the
-splitting $(G_{S_{ii'}}, T_{i} \times_{S_{i}} S_{ii'}, M_{i}, R_{i})$ (resp. in the splitting
-$(G_{S_{ii'}}, T_{i'} \times_{S_{i'}} S_{ii'}, M_{i'}, R_{i'})$).
+splitting $(G_{S_{ii'}}, T_{i} \times_{S_{i}} S_{ii'}, M_{i}, R_{i})$ (resp. in the splitting $(G_{S_{ii'}}, T_{i'}
+\times_{S_{i'}} S_{ii'}, M_{i'}, R_{i'})$).
 
 **Corollary 5.9.6.** *If $S$ is affine, $H^{1}(S, B^{u}) = e$, i.e. every principal bundle under $B^{u}$ possesses a
 section.*
@@ -3303,8 +3177,8 @@ H¹(S, U_i/U_{i+1}) = H¹(S, W(E_i)) = 0,
 
 one has $H^{1}(S, B^{u}) = 0$.
 
-**Corollary 5.9.7.** *If $S$ is affine, $B$ possesses maximal tori. If $T$ is a maximal torus of $B$, one has
-$H^{1}(S, T) = H^{1}(S, B)$.*
+**Corollary 5.9.7.** *If $S$ is affine, $B$ possesses maximal tori. If $T$ is a maximal torus of $B$, one has $H^{1}(S,
+T) = H^{1}(S, B)$.*
 
 <!-- label: III.XXII.5.9.7 -->
 
@@ -3314,9 +3188,7 @@ The first assertion follows immediately from 5.9.6 and 5.6.13; the second follow
 
 <!-- label: III.XXII.5.9.8 -->
 
-$$
-Kil(G) \to Bor(G)
-$$
+$$ Kil(G) \to Bor(G) $$
 
 *possesses sections over every affine open subset.*
 
@@ -3326,9 +3198,9 @@ $E$ such that $B^{u}$ is, as a scheme, $S$-isomorphic to $W(E)$.*
 <!-- label: III.XXII.5.9.9 -->
 
 Let us show by induction on $i$ that $B^{u}/U_{i}$ is $S$-isomorphic to $W(E_{0} \oplus \cdots \oplus E_{i-1})$. This is
-clear for $i = 0$; suppose $i \geqslant 1$. Then $B^{u}/U_{i}$ is a principal homogeneous bundle of base
-$X = B^{u}/U_{i-1}$ under the group $(U_{i-1}/U_{i})_{X}$. Since $B^{u}/U_{i-1}$ is affine, by the induction hypothesis,
-and since $U_{i-1}/U_{i} = W(E_{i-1})$, this bundle is trivial. One thus has (at least) an isomorphism of $S$-schemes
+clear for $i = 0$; suppose $i \geqslant 1$. Then $B^{u}/U_{i}$ is a principal homogeneous bundle of base $X =
+B^{u}/U_{i-1}$ under the group $(U_{i-1}/U_{i})_{X}$. Since $B^{u}/U_{i-1}$ is affine, by the induction hypothesis, and
+since $U_{i-1}/U_{i} = W(E_{i-1})$, this bundle is trivial. One thus has (at least) an isomorphism of $S$-schemes
 
 ```text
 B^u/U_i ⥲ (B^u/U_{i−1}) ×_S W(E_{i−1}) = W(E₀ ⊕ ⋯ ⊕ E_{i−1}).
@@ -3371,15 +3243,11 @@ the corresponding subgroup of $G$. The following conditions are equivalent:*
 *Moreover, under these conditions, $(H_{R'}, T, M, R')$ is a splitting of $H_{R'}$; for every system of positive roots
 $R+$ of $R$, $R'+ = R' \cap R+$ is a system of positive roots of $R'$ and*
 
-$$
-B_{R+} \cap H_{R'} = H_{R'+}
-$$
+$$ B_{R+} \cap H_{R'} = H_{R'+} $$
 
 *is a Borel subgroup of $H_{R'}$, whose unipotent part is*
 
-$$
-U_{R+} \cap H_{R'} = U_{R'+}.
-$$
+$$ U_{R+} \cap H_{R'} = U_{R'+}. $$
 
 One has obviously (i) ⇒ (ii) (it suffices to check it fiber by fiber and $R'$ is a system of roots of $H_{R'}$ relative
 to $T$). To prove (ii) ⇒ (i), one remarks by 5.4.3 that
@@ -3413,8 +3281,8 @@ finite (Exp. XIX 2.5). The other assertions are local for the étale topology an
 *(a) If $Q$ is a torus of $G$, $Centr_{G}(Q)$ is a subgroup of type (R) of $G$ with reductive fibers. If $Q \subset Q'$
 are two tori of $G$, then $Centr_{G}(Q) \supset Centr_{G}(Q')$.*
 
-*(b) If $H$ is a subgroup of type (R) of $G$ with reductive fibers, then $rad(H)$ (4.3.6) is a torus of $G$. If
-$H \subset H'$ are two subgroups of type (R) of $G$ with reductive fibers, then $rad(H) \supset rad(H')$.*
+*(b) If $H$ is a subgroup of type (R) of $G$ with reductive fibers, then $rad(H)$ (4.3.6) is a torus of $G$. If $H
+\subset H'$ are two subgroups of type (R) of $G$ with reductive fibers, then $rad(H) \supset rad(H')$.*
 
 *(c) If $Q$ is a torus of $G$, one has*
 
@@ -3499,8 +3367,8 @@ by $R'$.
 Let us summarize some of the preceding results: let $(G, T, M, R)$ be an $S$-split group, and let $\Delta$ be a system
 of simple roots of $R$ and $R+$ the corresponding system of positive roots; choose a subset $\Delta'$ of $\Delta$,
 denote $R'$ the set of elements of $R$ that are linear combinations of elements of $\Delta'$ and set $R'+ = R' \cap R+$.
-Let $T_{\Delta'}$ be the maximal torus of $\bigcap_{\alpha \in \Delta'} Ker(\alpha)$ and
-$Z_{\Delta'} = Centr_{G}(T_{\Delta'})$.
+Let $T_{\Delta'}$ be the maximal torus of $\bigcap_{\alpha \in \Delta'} Ker(\alpha)$ and $Z_{\Delta'} =
+Centr_{G}(T_{\Delta'})$.
 
 Then $Z_{\Delta'}$ is a reductive subgroup of $G$, with radical $T_{\Delta'}$; $(Z_{\Delta'}, T, M, R')$ is an $S$-split
 group; $B_{R+} \cap Z_{\Delta'}$ is the Borel subgroup of $Z_{\Delta'}$ defined by the system of positive roots $R'+$
@@ -3511,9 +3379,7 @@ centralizer. Since $Q = rad(L)$, then $Q$ is a characteristic subgroup of $L$; i
 
 <!-- label: III.XXII.5.10.8 -->
 
-$$
-Norm_{G}(L) = Norm_{G}(Q),
-$$
+$$ Norm_{G}(L) = Norm_{G}(Q), $$
 
 *hence also*
 
@@ -3532,9 +3398,7 @@ $W_{G}(Q)$ is (étale) finite over $S$.*
 
 <!-- label: III.XXII.5.10.10 -->
 
-$$
-W_{G}(T_{\Delta'}) = Norm_{G}(Z_{\Delta'})/Z_{\Delta'}.
-$$
+$$ W_{G}(T_{\Delta'}) = Norm_{G}(Z_{\Delta'})/Z_{\Delta'}. $$
 
 *It is the constant group associated with the quotient $W_{1}/W_{2}$, where $W_{1}$ is the subgroup of $W$ formed by the
 elements that normalize the subgroup of $M$ generated by $\Delta'$, and $W_{2}$ is the subgroup of $W$ generated by the
@@ -3582,18 +3446,18 @@ reductive subgroup of $H_{R'}$ containing $T$ is contained in $H_{R_{1}}$.*
 
 *(iii) One has $U_{R_{2}} \cap Norm_{G}(H_{R_{1}}) = e$.*
 
-One first has (iii) by 5.6.7 (i). The first assertion of (i) follows from 5.6.7 (ii). Since
-$U_{R_{2}} \cap H_{R_{1}} = e$ by (iii), the semi-direct product $H_{R_{1}} \cdot U_{R_{2}}$ is a subgroup of $H_{R'}$;
-but these are two subgroups of type (R) of $G$, containing $T$, and they have the same Lie algebra $g_{R'}$; they thus
-coincide by 5.3.5, finishing the proof of (i).
+One first has (iii) by 5.6.7 (i). The first assertion of (i) follows from 5.6.7 (ii). Since $U_{R_{2}} \cap H_{R_{1}} =
+e$ by (iii), the semi-direct product $H_{R_{1}} \cdot U_{R_{2}}$ is a subgroup of $H_{R'}$; but these are two subgroups
+of type (R) of $G$, containing $T$, and they have the same Lie algebra $g_{R'}$; they thus coincide by 5.3.5, finishing
+the proof of (i).
 
 Let us now prove (ii); the first two assertions are simply 5.10.1 and 5.6.5. Let $U$ be a group subscheme of $H_{R'}$,
 smooth and of finite presentation, normal (hence normalized by $T$), with connected and unipotent geometric fibers; by
 5.6.12, one has, locally on $S$, $U = U_{R''}$, where $R''$ is a subset of $R'$ such that $R'' \cap -R'' = \emptyset$.
-If $U \not\subset U_{R_{2}}$, then $R'' \not\subset R_{2}$, so there exists $\alpha \in R''$ such that $-\alpha \in R'$. Then
-$Z\alpha \subset H_{R'}$ (5.4.3), so $Z\alpha$ normalizes $U$. But $U$ contains $U\alpha$ and $Z\alpha$ possesses a
-section $w$ such that $int(w) U\alpha = U_{-\alpha}$; this entails $-\alpha \in R''$, contradicting the hypothesis
-$R'' \cap -R'' = \emptyset$.
+If $U \not\subset U_{R_{2}}$, then $R'' \not\subset R_{2}$, so there exists $\alpha \in R''$ such that $-\alpha \in R'$.
+Then $Z\alpha \subset H_{R'}$ (5.4.3), so $Z\alpha$ normalizes $U$. But $U$ contains $U\alpha$ and $Z\alpha$ possesses a
+section $w$ such that $int(w) U\alpha = U_{-\alpha}$; this entails $-\alpha \in R''$, contradicting the hypothesis $R''
+\cap -R'' = \emptyset$.
 
 Finally, if $L$ is a reductive subgroup of $H_{R'}$ containing $T$, one has locally on $S$, $L = H_{R'''}$, with $R'''$
 symmetric contained in $R'$, hence contained in $R_{1}$.
@@ -3646,9 +3510,7 @@ $G$, which is a subfunctor of the functor $H$ of 5.8.1.*
 
 *(ii) There exists a finite étale $S$-scheme $C\ell_{c}$ and a morphism*
 
-$$
-c\ell : Hc \to C\ell_{c},
-$$
+$$ c\ell : Hc \to C\ell_{c}, $$
 
 *smooth, quasi-projective, of finite presentation, surjective, with connected geometric fibers, possessing the following
 property:*
@@ -3669,9 +3531,7 @@ the quotient sheaf of `Hc` by the equivalence relation defined by conjugation.
 This entails first (iii), as well as the fact that it suffices to verify (i) and (ii) locally for the étale topology.
 One thus reduces to the situation of (iv); let us first construct a morphism
 
-$$
-f : Hc \to E_{S}.
-$$
+$$ f : Hc \to E_{S}. $$
 
 It suffices to construct an application $Hc(S) \to E_{S}(S)$ functorial in $S$; so let $H$ be a subgroup of type (RC) of
 $G$; since $H$ locally for the étale topology possesses maximal tori, and since the maximal tori of $G$ are conjugate
@@ -3683,9 +3543,9 @@ $(\eta_{i})$ arises from a section $\eta = f(H)$ of `E_S` over $S$, and that the
 For this, one is reduced to proving that $H_{R'}$ and $H_{R''}$ are conjugate locally for the étale topology if and only
 if $R'$ and $R''$ are conjugate by an element of the Weyl group $W$, which is trivial.
 
-For every $\eta \in E$, there exists an $H_{0} \in Hc(S)$ such that $f(H_{0}) = \eta$: it suffices to take
-$H_{0} = H_{R'}$ where $R'$ is a closed subset of $R$ whose image in $E$ is $\eta$. If $H \in H_{0}(S')$, $S' \to S$,
-$H$ is conjugate to $H_{0}$ locally for the étale topology if and only if $f(H) = \eta$ (as one sees immediately by the
+For every $\eta \in E$, there exists an $H_{0} \in Hc(S)$ such that $f(H_{0}) = \eta$: it suffices to take $H_{0} =
+H_{R'}$ where $R'$ is a closed subset of $R$ whose image in $E$ is $\eta$. If $H \in H_{0}(S')$, $S' \to S$, $H$ is
+conjugate to $H_{0}$ locally for the étale topology if and only if $f(H) = \eta$ (as one sees immediately by the
 preceding argument), which shows that $f^{-1}(\eta)$ is identified with the quotient $G/Norm_{G}(H_{0})$, which by 5.8.2
 is an open subset of $H$, smooth, quasi-projective of finite presentation over $S$, with connected and non-empty fibers.
 Since `E_S` is the sum of the open subschemes images of the sections corresponding to the $\eta \in E$, `Hc` is
@@ -3706,8 +3566,8 @@ introduced in 5.8.3. We will see other examples in Exp. XXVI.*
 
 <!-- label: III.XXII.5.11.7 -->
 
-**Remark 5.11.8.** *One may construct an $S$-scheme $C\ell$, of finite presentation and unramified, and a morphism
-$H \to C\ell$ smooth and surjective, with connected geometric fibers, enjoying properties analogous to 5.11.5 (ii) and
+**Remark 5.11.8.** *One may construct an $S$-scheme $C\ell$, of finite presentation and unramified, and a morphism $H
+\to C\ell$ smooth and surjective, with connected geometric fibers, enjoying properties analogous to 5.11.5 (ii) and
 (iii).*
 
 <!-- label: III.XXII.5.11.8 -->
@@ -3735,23 +3595,17 @@ B = B_{R+},    B_- = B_{R−},    U = B^u,    U_- = (B_-)^u,
 We denote by $T'$ the subtorus of $T$ "image of the family $\alpha*$, $\alpha \in R$"; in other words, $T'$ is the image
 of the morphism of groups
 
-$$
-G^{R}_{m,S} \to T
-$$
+$$ G^{R}_{m,S} \to T $$
 
 defined by $(z_{\alpha})_{\alpha \in R} \mapsto \prod_{\alpha \in R} \alpha*(z_{\alpha})$. One sees immediately that if
 $\Delta$ denotes the set of simple roots of $R+$, the morphism
 
-$$
-G^{\Delta}_{m,S} \to T'
-$$
+$$ G^{\Delta}_{m,S} \to T' $$
 
 defined in the same way is surjective with finite kernel. If we identify $T$ with $D_{S}(M)$, then $T'$ is identified
 with $D_{S}(M/N)$, where
 
-$$
-N = M \cap V(R*)^{\perp}
-$$
+$$ N = M \cap V(R*)^{\perp} $$
 
 (we denote by $V(R*)^{\perp}$ the orthogonal of $V(R*)$ in the duality between $V$ and $V*$).
 
@@ -3773,8 +3627,8 @@ M ∩ V(R*)^⊥ → M/(M ∩ V(R)),
 
 which one sees immediately to be injective with finite cokernel (cf. Exp. XXI 6.3).
 
-**Definition 6.1.3.** *One writes $\Omega' = U_{-} \cdot T' \cdot U$; it is a closed subscheme of
-$\Omega = U_{-} \cdot T \cdot U$.*
+**Definition 6.1.3.** *One writes $\Omega' = U_{-} \cdot T' \cdot U$; it is a closed subscheme of $\Omega = U_{-} \cdot
+T \cdot U$.*
 
 <!-- label: III.XXII.6.1.3 -->
 
@@ -3786,15 +3640,15 @@ $\Omega = U_{-} \cdot T \cdot U$.*
 int(w_α) Ω′ ∩ Ω ⊂ Ω′.
 ```
 
-It suffices for us to prove that if $g \in \Omega'(S)$ and $int(w_{\alpha}) g \in \Omega(S)$, then
-$int(w_{\alpha}) g \in \Omega'(S)$. By 5.6.8, write
+It suffices for us to prove that if $g \in \Omega'(S)$ and $int(w_{\alpha}) g \in \Omega(S)$, then $int(w_{\alpha}) g
+\in \Omega'(S)$. By 5.6.8, write
 
 ```text
 g = a · exp_{-α}(Y) · t · expα(X) · b,
 ```
 
-with $a \in U_{-\hat{\alpha}}(S)$, $Y \in \Gamma(S, g^{-\alpha})$, $t \in T'(S)$, $X \in \Gamma(S, g^{\alpha})$,
-$b \in U_{\hat{\alpha}}(S)$. One then has
+with $a \in U_{-\hat{\alpha}}(S)$, $Y \in \Gamma(S, g^{-\alpha})$, $t \in T'(S)$, $X \in \Gamma(S, g^{\alpha})$, $b \in
+U_{\hat{\alpha}}(S)$. One then has
 
 ```text
 int(w_α) g = int(w_α) a · int(w_α)(exp_{-α}(Y) t expα(X)) · int(w_α) b.
@@ -3837,8 +3691,8 @@ section, such that*
 int(w) Ω′ ∩ V_w ⊂ Ω′.
 ```
 
-Choose, for each simple root $\alpha$, an $n_{\alpha} \in Norm_{G}(T)(S)$ lifting $s_{\alpha}$. For every point
-$s \in S$, there exist an open subset $V$ of $S$ containing $s$, a $t \in T(V)$ and over $V$ a relation
+Choose, for each simple root $\alpha$, an $n_{\alpha} \in Norm_{G}(T)(S)$ lifting $s_{\alpha}$. For every point $s \in
+S$, there exist an open subset $V$ of $S$ containing $s$, a $t \in T(V)$ and over $V$ a relation
 
 ```text
 w = n_{α₁} ⋯ n_{α_p} t,    with the αᵢ simple.
@@ -3846,8 +3700,8 @@ w = n_{α₁} ⋯ n_{α_p} t,    with the αᵢ simple.
 
 One may obviously content oneself with making the demonstration for $V = S$; it is done by induction on $p$. If $p = 0$,
 then $w \in T(S)$ and one takes $V_{w} = G$; suppose therefore $w = n_{\alpha} \cdot w'$, $w'$ satisfying the conclusion
-of the lemma; there thus exists an open subset $V_{w'}$ of $G$, containing the unit section, such that
-$int(w') \Omega' \cap V_{w'} \subset \Omega'$. One may then write
+of the lemma; there thus exists an open subset $V_{w'}$ of $G$, containing the unit section, such that $int(w') \Omega'
+\cap V_{w'} \subset \Omega'$. One may then write
 
 ```text
 int(w) Ω′ ∩ (int(n_α) V_{w′} ∩ Ω) = int(n_α)(int(w′) Ω′ ∩ V_{w′}) ∩ Ω
@@ -3856,8 +3710,8 @@ int(w) Ω′ ∩ (int(n_α) V_{w′} ∩ Ω) = int(n_α)(int(w′) Ω′ ∩ V_{
 
 by 6.1.4. One then takes $V_{w} = int(n_{\alpha}) V_{w'} \cap \Omega$ and we are done.
 
-**Lemma 6.1.6.** *There exists an open subset $V_{0}$ of $G$, containing the unit section, such that for every
-$S' \to S$, one has*
+**Lemma 6.1.6.** *There exists an open subset $V_{0}$ of $G$, containing the unit section, such that for every $S' \to
+S$, one has*
 
 <!-- label: III.XXII.6.1.6 -->
 
@@ -3866,8 +3720,8 @@ U(S′) U_-(S′) ∩ V₀(S′) ⊂ Ω′(S′).
 ```
 
 Let $n_{0}$ be an element of $Norm_{G}(T)(S)$ lifting the symmetry $w_{0}$ of the Weyl group,[^N.D.E-XXII-60] that is,
-such that $int(n_{0}) U = U_{-}$ (cf. Exp. XXI 3.6.14); then $n^{2}_{0} \in T(S)$. Let us show that the open set
-$V_{0} = V_{n_{0}}$ of 6.1.5 answers the question. Indeed
+such that $int(n_{0}) U = U_{-}$ (cf. Exp. XXI 3.6.14); then $n^{2}_{0} \in T(S)$. Let us show that the open set $V_{0}
+= V_{n_{0}}$ of 6.1.5 answers the question. Indeed
 
 ```text
 U(S′) U_-(S′) = int(n₀)(int(n₀)⁻¹ U(S′) · int(n₀)⁻¹ U_-(S′))
@@ -3890,8 +3744,8 @@ f : Ω = U_- · T · U → T/T′
 
 *composite of the second projection and the canonical morphism of $T$ into $T/T'$. Then $f$ is "generically
 multiplicative": there exists an open subset $V$ of $\Omega \times_{S} \Omega$, containing the unit section (and hence
-relatively schematically dense, Exp. XVIII 1.3) such that for every $S' \to S$ and every $(x, y) \in V(S')$, one has
-$xy \in \Omega(S')$ and $f(xy) = f(x) f(y)$.*
+relatively schematically dense, Exp. XVIII 1.3) such that for every $S' \to S$ and every $(x, y) \in V(S')$, one has $xy
+\in \Omega(S')$ and $f(xy) = f(x) f(y)$.*
 
 Let $x$ and $y$ be two sections of $\Omega$ over $S'$. Write
 
@@ -3899,9 +3753,9 @@ Let $x$ and $y$ be two sections of $\Omega$ over $S'$. Write
 x = u t v,    y = u′ t′ v′,    with u, u′ ∈ U_-(S′), t, t′ ∈ T(S′), v, v′ ∈ U(S′).
 ```
 
-Let $V_{0}$ be the open set of 6.1.6 and $V$ the open subset of $\Omega \times_{S} \Omega$ defined by
-"$v u' \in V_{0}(S')$" (it is the inverse image of $V_{0}$ by the morphism $\Omega \times_{S} \Omega$ written
-set-theoretically $(x, y) \mapsto v u'$). Then $V$ answers the question. Indeed, for $(x, y) \in V(S')$, one has
+Let $V_{0}$ be the open set of 6.1.6 and $V$ the open subset of $\Omega \times_{S} \Omega$ defined by "$v u' \in
+V_{0}(S')$" (it is the inverse image of $V_{0}$ by the morphism $\Omega \times_{S} \Omega$ written set-theoretically
+$(x, y) \mapsto v u'$). Then $V$ answers the question. Indeed, for $(x, y) \in V(S')$, one has
 
 ```text
 xy = (u t v)(u′ t′ v′) = (u t)(v u′)(t′ v′).
@@ -3923,9 +3777,7 @@ f(xy) = f(tt′) = f(t) f(t′) = f(x) f(y).
 
 <!-- label: III.XXII.6.1.8 -->
 
-$$
-f : G \to T/T'
-$$
+$$ f : G \to T/T' $$
 
 *inducing on $T$ the canonical projection. The kernel $Ker(f)$ of $f$ is a closed group subscheme of $G$ smooth over $S$
 and with connected fibers. Every morphism of groups from $G$ to a presheaf of commutative groups on $S$, separated for
@@ -3952,30 +3804,24 @@ connected fibers, hence is smooth over $S$ by Exp. VI_B 3.10.
 
 <!-- label: III.XXII.6.2.1 -->
 
-*(i) $D_{S}(G) = \operatorname{Hom}_{S-gr.}(G, Gm,S)$ is representable by a twisted constant $S$-group, whose type at
-$s \in S$ is $\mathbb{Z}^{rg_{red}(G_{s}) - rg_{ss}(G_{s})}$.*
+*(i) $D_{S}(G) = \operatorname{Hom}_{S-gr.}(G, Gm,S)$ is representable by a twisted constant $S$-group, whose type at $s
+\in S$ is $\mathbb{Z}^{rg_{red}(G_{s}) - rg_{ss}(G_{s})}$.*
 
 *(ii) Write $corad(G) = D_{S}(D_{S}(G))$, which is therefore an $S$-torus. The biduality morphism (cf. Exp. VIII § 1)*
 
-$$
-f_{0} : G \to corad(G)
-$$
+$$ f_{0} : G \to corad(G) $$
 
 *is smooth and surjective.*
 
 *(iii) The composite morphism*
 
-$$
-rad(G) \to G \to corad(G)
-$$
+$$ rad(G) \to G \to corad(G) $$
 
 *is an isogeny (cf. 4.2.9).*
 
 *(iv) The kernel of $f_{0}$, denoted*
 
-$$
-d\acute{e}r(G) = Ker(f_{0})
-$$
+$$ d\acute{e}r(G) = Ker(f_{0}) $$
 
 *is a closed group subscheme of $G$, semisimple over $S$, called the* derived group *of $G$. If $G$ is semisimple, one
 has $d\acute{e}r(G) = G$.*
@@ -4034,10 +3880,7 @@ $G(k)$ (Exp. VI_B 7.10).*
 
 Consider now the two exact sequences
 
-$$
-1 \to rad(G) \to G \to ss(G) \to 1,
-1 \to d\acute{e}r(G) \to G \to corad(G) \to 1.
-$$
+$$ 1 \to rad(G) \to G \to ss(G) \to 1, 1 \to d\acute{e}r(G) \to G \to corad(G) \to 1. $$
 
 Since $rad(G)$ is central in $G$, the product in $G$ defines a morphism of groups
 
@@ -4083,9 +3926,9 @@ rad(G) ×_S dér(G) → G,    G → corad(G) ×_S ss(G),    rad(G) → corad(G)
 
 <!-- label: III.XXII.6.2.6 -->
 
-Let us return provisionally to the case of a split group. Let us keep the notations of 6.1. Set
-$N = M \cap V(R*)^{\perp}$. One thus has $T' = D_{S}(M/N)$. One has seen that $U_{-} \cdot T' \cdot U$ was an open
-neighborhood of the unit section of $d\acute{e}r(G)$. One thus has
+Let us return provisionally to the case of a split group. Let us keep the notations of 6.1. Set $N = M \cap
+V(R*)^{\perp}$. One thus has $T' = D_{S}(M/N)$. One has seen that $U_{-} \cdot T' \cdot U$ was an open neighborhood of
+the unit section of $d\acute{e}r(G)$. One thus has
 
 ```text
 Lie(dér(G)/S) = t′ ⨿ ⨿_{α ∈ R} g^α.
@@ -4257,9 +4100,9 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [^N.D.E-XXII-5]: We have corrected the original, which referred to 1.17.
 
-[^N.D.E-XXII-6]: Indeed, since `W_S` and $W_{G}(T) = Norm_{G}(T)/T$ are étale over $S$, the morphism
-    $f : W_{S} \to W_{G}(T) = Norm_{G}(T)/T$ is étale (EGA IV₄, 17.3.4); if furthermore each $f_{s}$ is an isomorphism,
-    then, by loc. cit., 17.9.1, $f$ is a surjective open immersion, hence an isomorphism.
+[^N.D.E-XXII-6]: Indeed, since `W_S` and $W_{G}(T) = Norm_{G}(T)/T$ are étale over $S$, the morphism $f : W_{S} \to
+    W_{G}(T) = Norm_{G}(T)/T$ is étale (EGA IV₄, 17.3.4); if furthermore each $f_{s}$ is an isomorphism, then, by loc.
+    cit., 17.9.1, $f$ is a surjective open immersion, hence an isomorphism.
 
 [^N.D.E-XXII-7]: Indeed, let $T$ be a maximal torus of $G$. The fact that $W_{G}(T)$ is finite over $S$ is local for the
     (fpqc) topology (EGA IV₂, 2.7.1), so a fortiori for the étale topology. By 2.3, one may therefore suppose that $G$
@@ -4284,12 +4127,12 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 [^N.D.E-XXII-15]: We have expanded the original in what follows.
 
 [^N.D.E-XXII-16]: Note that this is equivalent to the hypothesis: if $\alpha, \alpha' \in R$, $m, m' \in \mathbb{Z}$ and
-    if $(m \alpha \circ f)_{s} = (m' \alpha' \circ f)_{s}$ for every geometric point $s$ of $S$, then
-    $m \alpha = m' \alpha'$. In particular, this separation hypothesis is stable under base change.
+    if $(m \alpha \circ f)_{s} = (m' \alpha' \circ f)_{s}$ for every geometric point $s$ of $S$, then $m \alpha = m'
+    \alpha'$. In particular, this separation hypothesis is stable under base change.
 
 [^N.D.E-XXII-17]: Recall (cf. Exp. IV, 4.3.5) that an $S$-prefunctor $H$ is separated for a topology $T$ if for every
-    $S' \to S$ and every family of $S$-morphisms $(S'_{i} \to S')_{i \in I}$ covering for $T$, the map
-    $H(S') \to \prod_{i} H(S'_{i})$ is injective.
+    $S' \to S$ and every family of $S$-morphisms $(S'_{i} \to S')_{i \in I}$ covering for $T$, the map $H(S') \to
+    \prod_{i} H(S'_{i})$ is injective.
 
 [^N.D.E-XXII-18]: We have expanded the original in what follows.
 
@@ -4300,9 +4143,8 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 [^N.D.E-XXII-21]: Indeed, since $G$ and $G'$ are semisimple, $f_{T}$ is surjective with finite kernel, so $f$ is
     faithfully flat with finite kernel by 4.2.6 (i) and 4.2.8.
 
-[^N.D.E-XXII-22]: The content of the root $\alpha$ is the positive generator of the ideal
-    ${f(\alpha), f \in \Gamma_{0}(R)*}$ of $\mathbb{Z}$; it is the largest integer $c > 0$ such that
-    $\alpha/c \in \Gamma_{0}(R)$.
+[^N.D.E-XXII-22]: The content of the root $\alpha$ is the positive generator of the ideal ${f(\alpha), f \in
+    \Gamma_{0}(R)*}$ of $\mathbb{Z}$; it is the largest integer $c > 0$ such that $\alpha/c \in \Gamma_{0}(R)$.
 
 [^N.D.E-XXII-23]: We have added this recall.
 
@@ -4331,8 +4173,8 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 [^N.D.E-XXII-32]: Indeed, let $g \in G$, $s$ its image in $S$, $m$ the maximal ideal of $O_{G,g}$, $n$ that of
     $O_{S,s}$, and $I$ (resp. $I'$) the kernel of the morphism of $O_{G,g}$ into $O_{H,g}$ (resp. $O_{H',g}$) (the
     latter being the zero ring if $g \notin H$, resp. $g \notin H'$). Since $O_{G,g}$ is noetherian, $I$ and $I'$ are
-    closed for the $m$-adic topology, so a fortiori for the $n$-adic topology, so it suffices to show that
-    $I + n^{n} O_{G,g} = I' + n^{n} O_{G,g}$ for every $n \in \mathbb{N}$.
+    closed for the $m$-adic topology, so a fortiori for the $n$-adic topology, so it suffices to show that $I + n^{n}
+    O_{G,g} = I' + n^{n} O_{G,g}$ for every $n \in \mathbb{N}$.
 
 [^N.D.E-XXII-33]: Indeed, if $k$ is algebraically closed, all the maximal tori of $G = SL_{2},k$ are conjugate under
     $G(k)$, and all have for Lie algebra the line $k \cdot id \subset M_{2}(k)$ (which is invariant under the adjoint
@@ -4405,10 +4247,9 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [^N.D.E-XXII-56]: This is the corollary on page 18 of TDTE I.
 
-[^N.D.E-XXII-57]: Indeed, one has an exact sequence
-    $H^{1}(S, B^{u}) \to H^{1}(S, B) \xrightarrow{\pi} H^{1}(S, B/B^{u}) = H^{1}(S, T)$, see [Se64], I § 5.5, Prop. 38
-    or [Gi71], III Prop. 3.3.1. Now $H^{1}(S, T) \to H^{1}(S, B)$ is a section of $\pi$, so $\pi$ is surjective; on the
-    other hand $H^{1}(S, B^{u}) = 0$ by 5.9.6.
+[^N.D.E-XXII-57]: Indeed, one has an exact sequence $H^{1}(S, B^{u}) \to H^{1}(S, B) \xrightarrow{\pi} H^{1}(S, B/B^{u})
+    = H^{1}(S, T)$, see [Se64], I § 5.5, Prop. 38 or [Gi71], III Prop. 3.3.1. Now $H^{1}(S, T) \to H^{1}(S, B)$ is a
+    section of $\pi$, so $\pi$ is surjective; on the other hand $H^{1}(S, B^{u}) = 0$ by 5.9.6.
 
 [^N.D.E-XXII-58]: We have modified the original, introducing the terminology "C-critical torus" instead of "critical
     torus", in order to avoid confusions in later references (cf. Exp. XXVI, 3.9). We have also expanded the statement

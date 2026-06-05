@@ -190,9 +190,8 @@ the mathematics — only repair what the OCR clearly mangled, and flag anything 
   ```` ```text ```` block. - **Embedded N.D.E. footnotes.** Source convention is $(N) N.D.E. : <text>$ at the bottom of
   a page. Recover the whole footnote (which may span lines) and render it as $[{}^{N}.D.E-N]$ (or
   $[{}^{N}.D.E-<expose>-<n>]$ if multiple Exposés might collide) with its English translation in the footnote body. -
-  **Dash lead-ins.** Statement bodies preceded by `—` in the source (after `Proposition X.Y.`,
-  $Th\acute{e}or\grave{e}me X.Y.$, etc.) are rendered SGA 1-style: bold keyword on its own line, then a paragraph break,
-  then the body.
+  **Dash lead-ins.** Statement bodies preceded by `—` in the source (after `Proposition X.Y.`, $Th\acute{e}or\grave{e}me
+  X.Y.$, etc.) are rendered SGA 1-style: bold keyword on its own line, then a paragraph break, then the body.
 
 ## Cross-Exposé additions (discovered during translation)
 
@@ -278,15 +277,15 @@ These are inherited from SGA 1's translation; deviate only if SGA 1 itself is in
 
 - **File naming.** `00-title-preface.md`, `00-introduction.md`, `NN-<slug>.md` for Exposés, `glossary.md`,
   `zz-index-*.md` for indexes.
-- **Heading hierarchy.** `# Exposé N. <English Title>`, then `## 1. <Section Title>`, then `### <Subsection>` if
-  needed. The Exposé heading carries a `<!-- label: N -->` comment on the next line.
+- **Heading hierarchy.** `# Exposé N. <English Title>`, then `## 1. <Section Title>`, then `### <Subsection>` if needed.
+  The Exposé heading carries a `<!-- label: N -->` comment on the next line.
 - **Statement blocks.** `**Proposition.**`, `**Lemma.**`, `**Theorem.**`, `**Corollary.**`, `**Definition.**`,
   `**Remark.**`, `**Example.**` on their own line. The label `<!-- label: N.X.Y -->` follows on the next line (after a
   blank line). The body begins after another blank line.
 - **Math.** Unicode math wrapped in backticks for inline. Displayed math in fenced ```` ```text ```` blocks. Numbered
   displayed equations get a `<!-- label: eq:N.X.Y -->` comment immediately after the closing fence.
-- **Footnotes.** Markdown `[^slug]` syntax. The footnote body goes at the end of the section (or end of file).
-  Original Grothendieck-era footnotes: `[^<exposenum>-<sec>-<n>]` slugs (e.g. `[^I-1-1]`). Editor footnotes:
+- **Footnotes.** Markdown `[^slug]` syntax. The footnote body goes at the end of the section (or end of file). Original
+  Grothendieck-era footnotes: `[^<exposenum>-<sec>-<n>]` slugs (e.g. `[^I-1-1]`). Editor footnotes:
   $[{}^{N}.D.E-<expose>-<n>]$ (e.g. $[{}^{N}.D.E-IV-2]$).
 - **Page marks.** `<!-- original page N -->` on its own line at page boundaries.
 - **Cross-references.** Use the source's own convention: `(VIII 2.3)`, `(EGA III 4.1.5)`, `(SGA 4 IV 3.8)`.

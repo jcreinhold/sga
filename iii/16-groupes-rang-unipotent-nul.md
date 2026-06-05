@@ -14,10 +14,9 @@
 
 <!-- label: III.XVI.1.1 -->
 
-We are going to construct a prescheme $S$, two $S$-group preschemes $G$ and $H$, and an $S$-group monomorphism
-$u : G \to H$ that is not an immersion. The groups $G$ and $H$ will be of finite presentation over $S$, flat over $S$,
-and $G$ will even be smooth over $S$ (cf. Exp. VIII, paragraph and footnote (∗) preceding 7.1; see also XVII App. III,
-4).
+We are going to construct a prescheme $S$, two $S$-group preschemes $G$ and $H$, and an $S$-group monomorphism $u : G
+\to H$ that is not an immersion. The groups $G$ and $H$ will be of finite presentation over $S$, flat over $S$, and $G$
+will even be smooth over $S$ (cf. Exp. VIII, paragraph and footnote (∗) preceding 7.1; see also XVII App. III, 4).
 
 a) Take first for $S$ the spectrum of a discrete valuation ring $A$, of unequal characteristic and of residue
 characteristic equal to 2. Let $t$ be the generic point of $S$ and $s$ the closed point. Take for $G$ the open subgroup
@@ -41,8 +40,8 @@ u : G = (ℤ/2ℤ)_S ⟶ H.
 It is clear that $u$ is a monomorphism and is not an immersion. Here, Exp. VIII 7.9 does not apply, since ${}_{2}H = H$
 is not separated over $S$.
 
-c) More interesting is the following example, in which $G$ is a smooth group with connected fibers (and even
-$G = (\mathbb{G}_{a})_{S}$) (cf. Exp. VIII 7.10).
+c) More interesting is the following example, in which $G$ is a smooth group with connected fibers (and even $G =
+(\mathbb{G}_{a})_{S}$) (cf. Exp. VIII 7.10).
 
 Take for $S$ the spectrum of a discrete valuation ring $A$ of equal characteristic 2, and let $\pi$ be a uniformizer of
 $A$ and $\mathfrak{m}$ the maximal ideal of $A$.
@@ -50,9 +49,7 @@ $A$ and $\mathfrak{m}$ the maximal ideal of $A$.
 Consider the additive group $(\mathbb{G}_{a})_{S}$, the product group $(\mathbb{G}_{a} \times \mathbb{G}_{a})_{S}$ of
 ring `A[X, Y]`, and let $G_{1}$ be the closed subgroup of equation
 
-$$
-(1)    X^{2} + X - \pi Y = 0.
-$$
+$$ (1) X^{2} + X - \pi Y = 0. $$
 
 <!-- label: eq:III.XVI.1.1.1 -->
 
@@ -60,9 +57,7 @@ The group $G_{1}$ is smooth over $S$, its generic fiber is isomorphic to $(\math
 isomorphic to the product of $(\mathbb{G}_{a})_{s}$ by $(\mathbb{Z}/2\mathbb{Z})_{s}$. One may take for the factor
 $(\mathbb{Z}/2\mathbb{Z})_{s}$ the subgroup $N_{s}$ of $(G_{1})_{s}$ of equation
 
-$$
-(2)    Y = X^{2} + X = 0.
-$$
+$$ (2) Y = X^{2} + X = 0. $$
 
 <!-- label: eq:III.XVI.1.1.2 -->
 
@@ -98,8 +93,8 @@ $H_{s}$ have the same dimension (namely 1), $u_{s}$ would be a flat morphism; si
 be a flat morphism and consequently `Ker u` would be flat over $S$, which is not the case. It is clear that the
 restriction of $u$ to the connected component $G$ of $G_{1}$ is a monomorphism (the fibers of $K \cap G$ are unit
 groups, so $K \cap G$ is the unit group (Exp. VI_B 2.9)), but it is not an immersion (otherwise it would be an open
-immersion and $H_{s}$ would be smooth). <!-- original page 487 --> Here, Exp. VIII 7.9 does not apply, since
-${}_{2}G = G$ is not finite over $S$.
+immersion and $H_{s}$ would be smooth). <!-- original page 487 --> Here, Exp. VIII 7.9 does not apply, since ${}_{2}G =
+G$ is not finite over $S$.
 
 For lovers of equations, let us say that in the example above one may take for $H$ the closed subgroup of
 $(\mathbb{G}_{a} \times_{S} \mathbb{G}_{a})_{S}$ with ring $A[V, W]/(F)$, where
@@ -152,9 +147,7 @@ or $S$ is locally noetherian and $H$ locally of finite type. Then:*
 
 *b) If $H$ is separated over $S$ and if for every $S'$ over $S$ and every maximal torus $T$ of $G_{S'}$ the Weyl group*
 
-$$
-W = Norm_{G_{S'}}(T) / Centr^{0}_{G_{S'}}(T)
-$$
+$$ W = Norm_{G_{S'}}(T) / Centr^{0}_{G_{S'}}(T) $$
 
 *is representable (a condition always realized if $G$ has connected fibers (Exp. XV 7.1 (iv))) and is finite over $S$,
 then $u$ is a closed immersion.*
@@ -183,9 +176,7 @@ if necessary, we may assume $S$ affine. By Exp. VI_B § 10, there exist a noethe
 prescheme $G_{0}$ smooth over $S_{0}$ (with connected fibers in case a)), of finite type over $S_{0}$, an $S_{0}$-group
 prescheme $H_{0}$ of finite type (separated in case b)), and an $S_{0}$-group morphism
 
-$$
-u_{0} : G_{0} \longrightarrow H_{0},
-$$
+$$ u_{0} : G_{0} \longrightarrow H_{0}, $$
 
 such that $G$, $H$, $u$ are obtained from $G_{0}$, $H_{0}$, $u_{0}$ by a base extension $S \to S_{0}$. The fact that $u$
 is a monomorphism translates to $Ker u =$ unit group; we may therefore assume that $u_{0}$ is a monomorphism. Since $G$
@@ -234,9 +225,8 @@ an immersion then follows from Exp. VIII 7.9.
 
 **Lemma 1.7.** *Let $k$ be a field of characteristic $p$, $G$ an algebraic $k$-group, smooth, connected, nilpotent, of
 zero unipotent rank. Then $G$ is a commutative group, extension of an abelian variety $A$ by a torus $T$. For every
-integer $n > 0$, ${}_{n} G$ is a finite group, étale if $(n, p) = 1$, defined by a $k$-algebra of rank
-$n^{\rho_{r} + 2\rho_{ab}}$. If $(q, p) = 1$, the family of subgroups ${}_{q^{n}}G (n \in \mathbb{N})$ is schematically
-dense in $G$.*
+integer $n > 0$, ${}_{n} G$ is a finite group, étale if $(n, p) = 1$, defined by a $k$-algebra of rank $n^{\rho_{r} +
+2\rho_{ab}}$. If $(q, p) = 1$, the family of subgroups ${}_{q^{n}}G (n \in \mathbb{N})$ is schematically dense in $G$.*
 
 <!-- label: III.XVI.1.7 -->
 
@@ -299,9 +289,7 @@ restriction of $u$ to $C$ is a closed immersion. On the other hand, to prove tha
 to show that this is the case for $u|N$ (1.3 b)). Since by hypothesis $W = N/C$ is representable by a finite group
 scheme, this will follow from the following lemma, applied to the exact sequence
 
-$$
-0 \longrightarrow C \longrightarrow N \longrightarrow W \longrightarrow 1
-$$
+$$ 0 \longrightarrow C \longrightarrow N \longrightarrow W \longrightarrow 1 $$
 
 (note that a proper immersion is a closed immersion).
 
@@ -313,9 +301,7 @@ over $S$:*
 
 <!-- original page 495 -->
 
-$$
-1 \longrightarrow G' \longrightarrow G \longrightarrow G'' \longrightarrow 1.
-$$
+$$ 1 \longrightarrow G' \longrightarrow G \longrightarrow G'' \longrightarrow 1. $$
 
 *Let on the other hand $H$ be an $S$-group prescheme of finite presentation over $S$ (or locally of finite presentation
 if $S$ is locally noetherian) and $u : G \to H$ an $S$-group morphism. Then if the restriction of $u$ to $G'$ is proper,
@@ -539,9 +525,9 @@ $f$ of finite presentation. Replacing $S$ by $Y$, we may assume $X$ and $Y$ of f
 reduce to the case $S$ noetherian thanks to EGA IV 11.2.6.
 
 d) Under the hypotheses of 2.1 b), we may assume $S$, $X$, $Y$ affine, $S$ noetherian and $X$ of finite type over $S$.
-Consider $Y$ as a filtered projective limit of affine schemes $Y_{i}$ of finite type over $S$. The schemes
-$X \times_{Y_{i}} X$ form a decreasing filtered family of closed subschemes of $X \times_{S} X$, whose projective limit
-is $X \times_{Y} X$. Since $X \times_{S} X$ is noetherian, one has $X \times_{Y_{i}} X = X \times_{Y} X$ for $i$ large
+Consider $Y$ as a filtered projective limit of affine schemes $Y_{i}$ of finite type over $S$. The schemes $X
+\times_{Y_{i}} X$ form a decreasing filtered family of closed subschemes of $X \times_{S} X$, whose projective limit is
+$X \times_{Y} X$. Since $X \times_{S} X$ is noetherian, one has $X \times_{Y_{i}} X = X \times_{Y} X$ for $i$ large
 enough, so that
 
 ```text
@@ -587,10 +573,10 @@ of $\xi$, the morphism
 G ×_S H ⟶ G ×_X G,    (g, h) ↦ (g, gh)
 ```
 
-is an isomorphism. Since $H$ is flat over $S$, $G \times_{S} H$ is flat over $G$, so the first projection
-$p_{1} : G \times_{S} G \to G$ is a flat morphism. Furthermore, if $X$ is locally of finite type over $S$, $f$ is
-locally of finite presentation (EGA IV 1.4.3 v)); otherwise $S$ is assumed locally noetherian. It then suffices to apply
-2.1 to the morphism $f$.
+is an isomorphism. Since $H$ is flat over $S$, $G \times_{S} H$ is flat over $G$, so the first projection $p_{1} : G
+\times_{S} G \to G$ is a flat morphism. Furthermore, if $X$ is locally of finite type over $S$, $f$ is locally of finite
+presentation (EGA IV 1.4.3 v)); otherwise $S$ is assumed locally noetherian. It then suffices to apply 2.1 to the
+morphism $f$.
 
 It remains to see that $G/H$ is locally of finite presentation over $S$, but this follows immediately from Exp. V 9.1.
 
@@ -711,15 +697,13 @@ and a monomorphism of finite presentation is quasi-affine (EGA IV 8.11.2), hence
 affine fibers. Since $G'$ is smooth over $S$, the functor $\mathcal{T}_{G'}$ is formally smooth (Exp. XI 2.1 bis).
 Taking into account Exp. XI 4.6 and 4.3, the assertions of 3.1 c) will therefore follow from the next lemma:
 
-**Lemma 3.2.** *Let $S$ be a prescheme, $G$ and $H$ two $S$-group preschemes of finite presentation over $S$,
-$u : G \to H$ an $S$-group monomorphism, $\mathcal{T}_{G}$ (resp. $\mathcal{T}_{H}$) the functors of subtori of $G$
-(resp. of $H$) (cf. Exp. XV § 8). Then the map $T \mapsto u(T)$ defines a monomorphism (XV 8.3 c))*
+**Lemma 3.2.** *Let $S$ be a prescheme, $G$ and $H$ two $S$-group preschemes of finite presentation over $S$, $u : G \to
+H$ an $S$-group monomorphism, $\mathcal{T}_{G}$ (resp. $\mathcal{T}_{H}$) the functors of subtori of $G$ (resp. of $H$)
+(cf. Exp. XV § 8). Then the map $T \mapsto u(T)$ defines a monomorphism (XV 8.3 c))*
 
 <!-- label: III.XVI.3.2 -->
 
-$$
-\tilde{u} : \mathcal{T}_{G} \longrightarrow \mathcal{T}_{H}
-$$
+$$ \tilde{u} : \mathcal{T}_{G} \longrightarrow \mathcal{T}_{H} $$
 
 *which is representable by a closed immersion of finite presentation.*
 
@@ -736,8 +720,8 @@ of $G$ is equal to that of $Z$. Then:*
 
 <!-- label: III.XVI.3.3 -->
 
-*a) The group $G' = G/Z$ is representable, and if $S$ is quasi-compact, the canonical morphism
-$i_{n} : G' \to GL_{S}(G_{(n)})$ (cf. 3.1 b)) is an immersion for $n$ large.*
+*a) The group $G' = G/Z$ is representable, and if $S$ is quasi-compact, the canonical morphism $i_{n} : G' \to
+GL_{S}(G_{(n)})$ (cf. 3.1 b)) is an immersion for $n$ large.*
 
 *b) The group $G'$ is quasi-affine over $S$, with affine fibers, the center of $G'$ is the unit group, and $G'$ has zero
 unipotent rank.*
@@ -790,8 +774,8 @@ connected fibers, $Z$ the center of $G$. Then $Z$ is flat over $S$ in the follow
 
 **Proof of 3.4 a).** We shall prove at the same time:
 
-**Proposition 3.5.** *Under the hypotheses of 3.4 a), suppose moreover that $G$ possesses a maximal torus $T$ and let
-$C = Centr_{G}(T)$ be the Cartan subgroup of $G$ associated to $T$ (Exp. XII 7.1). Then:*
+**Proposition 3.5.** *Under the hypotheses of 3.4 a), suppose moreover that $G$ possesses a maximal torus $T$ and let $C
+= Centr_{G}(T)$ be the Cartan subgroup of $G$ associated to $T$ (Exp. XII 7.1). Then:*
 
 <!-- label: III.XVI.3.5 -->
 
@@ -800,8 +784,8 @@ $C = Centr_{G}(T)$ be the Cartan subgroup of $G$ associated to $T$ (Exp. XII 7.1
 *(ii) $C$ is commutative and equal to $T \cdot Z$.*
 
 *(iii) If the quotients $Z/Z \cap T$ and $C/T$ are representable, they are representable by abelian preschemes (i.e.
-$S$-group preschemes, smooth over $S$, whose fibers are abelian varieties) and the canonical monomorphism
-$Z/Z \cap T \to C/T$ is an isomorphism.*
+$S$-group preschemes, smooth over $S$, whose fibers are abelian varieties) and the canonical monomorphism $Z/Z \cap T
+\to C/T$ is an isomorphism.*
 
 Using the general properties of passage to the limit proved in Exp. VI_B § 10 and Exp. XV 6.2, 6.3, and 6.3 bis, we
 reduce as usual to the case <!-- original page 514 --> where $S$ is noetherian (note that the assertions of 3.4 and 3.5
@@ -830,8 +814,8 @@ is an isomorphism, it suffices to verify this when $S$ is local artinian. <!-- o
 then deduce in succession that $Z/Z \cap T$ is flat over $S$ (EGA 0_III 10.2.6), then that $i$ is flat (EGA IV 11.3.10),
 then that $i$ is an open immersion (EGA IV 17.9.1), then that $i$ is an isomorphism (since $C/T$ has connected fibers).
 
-We henceforth assume that $S$ is local artinian with closed point $s$ and that $G$ possesses a maximal torus $T$. Let
-$C = Centr_{G}(T)$. The group $C$ is a Cartan subgroup of $G$ (Exp. XII 7.1) and majorizes $Z$.
+We henceforth assume that $S$ is local artinian with closed point $s$ and that $G$ possesses a maximal torus $T$. Let $C
+= Centr_{G}(T)$. The group $C$ is a Cartan subgroup of $G$ (Exp. XII 7.1) and majorizes $Z$.
 
 The algebraic group $M_{s} = Z_{s} \cap T_{s}$ is a subgroup of multiplicative type of $G_{s}$ which is central. Since
 $T$ is smooth over $S$, $M_{s}$ lifts to a group subscheme $M$ of $T$, of multiplicative type (Exp. IX 3.6 bis) and
@@ -878,9 +862,9 @@ every maximal torus; $Z''_{s}$ is therefore a subgroup of multiplicative type of
 shall show in (Exp. XVII § 7) that there exists a finite subgroup of multiplicative type $M_{s}$ of $Z_{s}$ whose image
 in $Z_{s}/Z'_{s}$ is $Z''_{s}$ (we used this fact in the proof of 3.4 a) when $Z''_{s}$ is étale). Since $G$ is smooth
 over $S$ and $S$ is the spectrum of a complete local ring, $M_{s}$ lifts to an $S$-subgroup of multiplicative type $M$
-of $G$ (Exp. IX 3.6 bis and Exp. XV 1.6 b)) which is central (Exp. IX 5.6 a)). So $M_{t}$ is contained in
-$Z'_{t} = Z_{t}$, and since $M$ is flat, $M$ is contained in $Z'$. The group $M_{s}$ is therefore contained in $Z'_{s}$,
-but this implies that $Z''_{s}$ is the unit group, i.e. $Z_{s} = Z'_{s}$. This completes the proof of 3.4 b).
+of $G$ (Exp. IX 3.6 bis and Exp. XV 1.6 b)) which is central (Exp. IX 5.6 a)). So $M_{t}$ is contained in $Z'_{t} =
+Z_{t}$, and since $M$ is flat, $M$ is contained in $Z'$. The group $M_{s}$ is therefore contained in $Z'_{s}$, but this
+implies that $Z''_{s}$ is the unit group, i.e. $Z_{s} = Z'_{s}$. This completes the proof of 3.4 b).
 
 ### Example of a smooth group prescheme with connected fibers whose center is not flat
 
@@ -893,10 +877,10 @@ with $F = 1 - T + \pi U$, the composition law being defined by
 ```
 
 The generic fiber $G_{t}$ is therefore isomorphic to the multiplicative group $(\mathbb{G}_{m})_{t}$, while the closed
-fiber $G_{s}$ is isomorphic to the additive group $(\mathbb{G}_{a})_{s}$. The function $T$ is invertible in
-$\Gamma(G, \mathcal{O}_{G})$ and defines an $S$-group morphism $\varphi : G \to (\mathbb{G}_{m})_{S}$ which is an
-isomorphism on the generic fiber and the zero morphism on the closed fiber. The datum of $\varphi$ allows one to
-construct the semidirect product group $H = G \cdot (\mathbb{G}_{a})_{S}$ (note that $(\mathbb{G}_{m})_{S}$ acts on
+fiber $G_{s}$ is isomorphic to the additive group $(\mathbb{G}_{a})_{s}$. The function $T$ is invertible in $\Gamma(G,
+\mathcal{O}_{G})$ and defines an $S$-group morphism $\varphi : G \to (\mathbb{G}_{m})_{S}$ which is an isomorphism on
+the generic fiber and the zero morphism on the closed fiber. The datum of $\varphi$ allows one to construct the
+semidirect product group $H = G \cdot (\mathbb{G}_{a})_{S}$ (note that $(\mathbb{G}_{m})_{S}$ acts on
 $(\mathbb{G}_{a})_{S}$). The center $Z$ of $H$ is the unit group on the generic fiber and is equal to $H_{s}$ on the
 closed fiber, hence is not flat over $S$.
 
@@ -919,8 +903,8 @@ affine, connected fibers, of zero unipotent rank (Exp. XV 6.1 ter). Then:*
 *c) $G$ possesses locally for the étale topology maximal tori, and these are also Cartan subgroups of $G$. The functor
 $\mathcal{TM}_{G}$ of maximal tori of $G$ is representable by an $S$-prescheme smooth and affine over $S$.*
 
-*d) $G$ is quasi-affine over $S$. Moreover, if $T$ is a maximal torus of $G$, $N = Norm_{G} T$ its normalizer in $G$,
-$W = N/T$ the Weyl group relative to $T$, the following conditions are equivalent:*
+*d) $G$ is quasi-affine over $S$. Moreover, if $T$ is a maximal torus of $G$, $N = Norm_{G} T$ its normalizer in $G$, $W
+= N/T$ the Weyl group relative to $T$, the following conditions are equivalent:*
 
 *(i) $G$ is affine over $S$.*
 
@@ -935,11 +919,11 @@ $W = N/T$ the Weyl group relative to $T$, the following conditions are equivalen
 **Proof.** Since $G$ has affine fibers (and so abelian rank zero) and zero unipotent rank, $G$ possesses locally for the
 étale topology maximal tori (Exp. XV 8.18), and <!-- original page 520 --> every maximal torus of $G$ is evidently a
 Cartan subgroup of $G$, which proves the first part of c). To see that $Z$ is of multiplicative type, we may assume, by
-what precedes, that $G$ possesses a maximal torus $T$. Since $T$ is also a Cartan subgroup, $T$ majorizes $Z$ (since
-$T = Centr_{G}(T)$ by Exp. XII 7.1), and $Z = Z \cap T$ is of multiplicative type by 3.5 i). This proves a). Assertion
-b) is clear, given a). On the other hand the functor $\mathcal{TM}_{G}$ is isomorphic to the functor of Cartan subgroups
-of $G$ (Exp. XII 7.1), hence is smooth and affine over $S$ (3.3 c)), which completes the proof of c). It remains to
-prove d).
+what precedes, that $G$ possesses a maximal torus $T$. Since $T$ is also a Cartan subgroup, $T$ majorizes $Z$ (since $T
+= Centr_{G}(T)$ by Exp. XII 7.1), and $Z = Z \cap T$ is of multiplicative type by 3.5 i). This proves a). Assertion b)
+is clear, given a). On the other hand the functor $\mathcal{TM}_{G}$ is isomorphic to the functor of Cartan subgroups of
+$G$ (Exp. XII 7.1), hence is smooth and affine over $S$ (3.3 c)), which completes the proof of c). It remains to prove
+d).
 
 **Proof of d).** Since $G'$ is quasi-affine (3.5 b)) and $Z$ is of multiplicative type, hence affine over $S$, $G$ is
 quasi-affine (Exp. VI_B § 9).
@@ -956,8 +940,8 @@ iii) ⇔ iv). If $N$ is affine, $W = N/T$ is affine (Exp. IX 2.3) and conversely
 <!-- original page 521 -->
 
 Moreover, $N/T$ is representable by an $S$-group prescheme, étale, separated over $S$, of finite type (Exp. XV 7.1 iv)),
-hence quasi-finite over $S$. The last assertion of d) will therefore follow from the following lemma, applied with
-$X = W$ and $Y = S$:
+hence quasi-finite over $S$. The last assertion of d) will therefore follow from the following lemma, applied with $X =
+W$ and $Y = S$:
 
 **Lemma 4.2.** *Let $S$ be a locally noetherian prescheme of dimension 1, $X$ and $Y$ two $S$-preschemes locally of
 finite type over $S$, $u : X \to Y$ an $S$-morphism quasi-finite and separated. Suppose that for every point $s$ of $S$
@@ -979,8 +963,8 @@ the closed fiber $X'_{s}$. Indeed, by hypothesis <!-- original page 522 --> $X'_
 restriction of this morphism to the closed subset $(X_{2})_{s}$ is finite and its image in $(Y')_{s}$ is a closed
 subset. Since this image does not contain the closed point of the local scheme $(Y')_{s}$, $(X_{2})_{s}$ is empty. Since
 $u_{t}$ is finite, the restriction to $(X_{2})_{t} = X_{2}$ of the morphism $X'_{t} \to Y'_{t}$ is finite. Moreover, one
-has $Y'_{t} = Y'_{\pi}$, so the open immersion $Y'_{t} \to Y'$ is affine. In short, the composed morphism
-$X_{2} \to Y'_{t} \to Y'$ is affine, and it follows that the morphism $X' = X_{1} \sqcup X_{2} \to Y'$ is affine.
+has $Y'_{t} = Y'_{\pi}$, so the open immersion $Y'_{t} \to Y'$ is affine. In short, the composed morphism $X_{2} \to
+Y'_{t} \to Y'$ is affine, and it follows that the morphism $X' = X_{1} \sqcup X_{2} \to Y'$ is affine.
 
 **Corollary 4.3.** *Let $S$ be a prescheme, $G$ an $S$-group prescheme smooth and of finite presentation over $S$, with
 affine, solvable, connected fibers, of zero unipotent rank. Then $G$ is affine over $S$. If moreover the center of $G$
@@ -1106,19 +1090,19 @@ $K_{0}$.
 
 b) Let us show that $K_{0} = K$ over a neighborhood $U$ of $s$. <!-- original page 528 --> By a) we may already assume
 that $K_{0}$ is of multiplicative type, hence flat over $S$. Since `K₀_s = K_s`, the natural immersion $K_{0} \to K$ is
-then open over a neighborhood $U$ of $s$ (Exp. VI_B 2.6). If $t \in U$, the image of $K_{t}$ in the group
-$G'_{t} = G_{t}/Z_{t}$ is then an étale finite group, normal in $G'_{t}$ (since $K_{t}$ is normal in $G_{t}$), hence
-central, hence reduced to the unit group (3.3 b)). This says that $K_{t}$ is contained in $Z_{t}$, hence is equal to
-`K₀_t`, whence $K = K_{0}$ over $U$.
+then open over a neighborhood $U$ of $s$ (Exp. VI_B 2.6). If $t \in U$, the image of $K_{t}$ in the group $G'_{t} =
+G_{t}/Z_{t}$ is then an étale finite group, normal in $G'_{t}$ (since $K_{t}$ is normal in $G_{t}$), hence central,
+hence reduced to the unit group (3.3 b)). This says that $K_{t}$ is contained in $Z_{t}$, hence is equal to `K₀_t`,
+whence $K = K_{0}$ over $U$.
 
 c) The representability of $G'$ then follows from 2.3; the fact that $u'$ is an immersion is contained in 1.3 a), taking
 4.1 c) applied to $G'$ into account.
 
 **Proposition 6.4.** *Let $S$ be a prescheme, $G$ an $S$-group prescheme smooth, of finite presentation over $S$, with
 connected fibers, $s$ a point of $S$, such that $G_{s}$ is generated by its subtori (Exp. XII 8.2) (for example $G_{s}$
-affine of zero unipotent rank), $H$ an $S$-group prescheme, $u$ and $v : G \to H$ two $S$-homomorphisms such that
-$u_{s} = v_{s}$ and such that $u_{s}$ is central. Suppose moreover that $H$ is of finite presentation over $S$, or that
-$S$ is locally noetherian. Then there exists a neighborhood $U$ of $s$ such that $u|U = v|U$.*
+affine of zero unipotent rank), $H$ an $S$-group prescheme, $u$ and $v : G \to H$ two $S$-homomorphisms such that $u_{s}
+= v_{s}$ and such that $u_{s}$ is central. Suppose moreover that $H$ is of finite presentation over $S$, or that $S$ is
+locally noetherian. Then there exists a neighborhood $U$ of $s$ such that $u|U = v|U$.*
 
 <!-- label: III.XVI.6.4 -->
 
@@ -1136,9 +1120,9 @@ means that the algebraic subgroup of $G_{s}$ generated (Exp. VI_B § 7) by the $
 (composite of the immersion $T_{s} \to G_{X_{s}}$ and the canonical projection $G_{X_{s}} \to G_{s}$) is equal to
 $G_{s}$ itself. But $X_{s}$ is geometrically connected (since if $T$ is a maximal torus of $G_{s}$, $N$ its normalizer
 in $G_{s}$, $X_{s}$ is isomorphic to $G_{s}/N$), and the image of $T_{s}$ under $f$ contains the unit section of
-$G_{s}$; it then follows from Exp. VI_B 7.4 that there exist an integer $N > 0$ and an $S$-morphism
-$f^{N} : T^{N} \to G$ (where $T^{N} = T \times_{S} \cdots \times_{S} T$ ($N$ factors) and $f^{N}$ depends only on $f$
-and on the multiplication law of $G$) such that $(f^{N})_{s}$ is surjective.
+$G_{s}$; it then follows from Exp. VI_B 7.4 that there exist an integer $N > 0$ and an $S$-morphism $f^{N} : T^{N} \to
+G$ (where $T^{N} = T \times_{S} \cdots \times_{S} T$ ($N$ factors) and $f^{N}$ depends only on $f$ and on the
+multiplication law of $G$) such that $(f^{N})_{s}$ is surjective.
 
 Consider the base change $X \to S$ and the restrictions of $u_{X}$ and $v_{X}$ to the subtorus $T$ of `G_X`. By hypothesis,
 $u_{X_{s}} = v_{X_{s}}$ and $u_{X_{s}} : T_{X_{s}} \to H_{X_{s}}$ is a central homomorphism. It then follows from Exp. IX 5.1 that

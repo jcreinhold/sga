@@ -29,9 +29,7 @@ Hⁱ(X, F)′ ⥲ Ext^{r−i}(X; F, Ωʳ_{X/k}),
 
 where one sets
 
-$$
-\Omega^{r}_{X/k} = O_{P^{r}_{k}}(-r - 1).
-$$
+$$ \Omega^{r}_{X/k} = O_{P^{r}_{k}}(-r - 1). $$
 
 <!-- label: eq:XII.1.2 -->
 
@@ -71,8 +69,8 @@ To show that (1) is an isomorphism, one proceeds as in the case of the local dua
 as a functor in $F$, is right exact (since $H^{n}(X, F) = 0$ for $n > r$), and that every coherent module is isomorphic
 to a quotient of a direct sum of modules of the form $O(-m)$ with $m$ large. This reduces us, by descending induction on
 $i$, to making the verification for a sheaf of the form $O(-m)$, where it is contained in the well-known explicit
-computations (*FAC*, or *EGA* III 2.1.12). One may moreover assume $-m \leqslant -r - 1$, in which case
-$H^{i}(X, O(-m)) = 0$ for $i \neq r$.
+computations (*FAC*, or *EGA* III 2.1.12). One may moreover assume $-m \leqslant -r - 1$, in which case $H^{i}(X, O(-m))
+= 0$ for $i \neq r$.
 
 **Corollary.**
 
@@ -126,9 +124,9 @@ For given `i, F`, the following conditions are equivalent:
 1. $\mathcal{E}xt^{r-i}_{O_{X}}(F, \Omega^{r}_{X/k}) = 0$.
 1. (ii bis) $\mathcal{E}xt^{r-i}_{O_{X}}(F, O_{X}) = 0$.
 1. $H^{i}_{x}(F_{x}) = 0$ for every closed point $x$ of $X$.
-1. $H^{i+1}_{x}(\tilde{F}_{x}) = 0$ for every closed point $x$ of the punctured projecting cone
-   $\tilde{X} = \operatorname{Spec}(S) - \operatorname{Spec}(k)$ of $X$, where $\tilde{F}$ denotes the inverse image of
-   $F$ under the canonical morphism $\tilde{X} \to X$.
+1. $H^{i+1}_{x}(\tilde{F}_{x}) = 0$ for every closed point $x$ of the punctured projecting cone $\tilde{X} =
+   \operatorname{Spec}(S) - \operatorname{Spec}(k)$ of $X$, where $\tilde{F}$ denotes the inverse image of $F$ under the
+   canonical morphism $\tilde{X} \to X$.
 
 *Proof.*
 
@@ -146,14 +144,12 @@ according to which the "dual" of $\mathcal{E}xt^{r-i}_{O_{X}}(F, O_{X})_{x}$ is 
 
 (ii bis) is equivalent to the analogous relation
 
-$$
-\mathcal{E}xt^{r-i}_{O_{\tilde{X}}}(\tilde{F}, O_{\tilde{X}}) = 0
-$$
+$$ \mathcal{E}xt^{r-i}_{O_{\tilde{X}}}(\tilde{F}, O_{\tilde{X}}) = 0 $$
 
-(thanks to the fact that $\tilde{X} \to X$ is faithfully flat, so the inverse image of
-$\mathcal{E}xt^{r-i}_{O_{X}}(F, O_{X})$ is isomorphic to
-$\mathcal{E}xt^{r-i}_{O_{\tilde{X}}}(\tilde{F}, O_{\tilde{X}})$), and this last relation is equivalent to (iv) by the
-local duality theorem for the local ring $O_{\tilde{X},x}$, which is regular of dimension $r + 1$.
+(thanks to the fact that $\tilde{X} \to X$ is faithfully flat, so the inverse image of $\mathcal{E}xt^{r-i}_{O_{X}}(F,
+O_{X})$ is isomorphic to $\mathcal{E}xt^{r-i}_{O_{\tilde{X}}}(\tilde{F}, O_{\tilde{X}})$), and this last relation is
+equivalent to (iv) by the local duality theorem for the local ring $O_{\tilde{X},x}$, which is regular of dimension $r +
+1$.
 
 In particular, applying this to all $i \leqslant n$, one finds:
 
@@ -186,8 +182,8 @@ Let $f: X \to S$ be a projective morphism with $S$ noetherian, $O_{X}(1)$ an inv
 relatively to $S$, $F$ a coherent module on $X$, flat with respect to $S$, $s$ an element of $S$, $X_{s}$ the fiber of
 $X$ at $s$ (considered as a projective scheme over $k(s)$), $F_{s}$ the sheaf induced on $X_{s}$ by $F$, finally $i$ an
 integer. Suppose that for every closed point $x$ of $X_{s}$, one has $H^{i}_{x}(F_{s,x}) = 0$ (for example
-$prof(F_{s,x}) > i$). Then there exists an open neighborhood $U$ of $s$ such that the same condition is verified for
-$s' \in U$. Moreover, for such a $U$, one has
+$prof(F_{s,x}) > i$). Then there exists an open neighborhood $U$ of $s$ such that the same condition is verified for $s'
+\in U$. Moreover, for such a $U$, one has
 
 ```text
 Rⁱf_∗(F(−m)) = 0 for m large,
@@ -206,9 +202,7 @@ is finitely generated on $U$.
 Embed $X$ in some $X' = P^{r}_{S}$ so that $O_{X}(1)$ is induced by $O_{X'}(1)$ (which is possible, possibly by
 replacing $S$ by an affine neighborhood of $s$). Set[^XII-1-star2] for every integer $j$ and every $t \in S$:
 
-$$
-E^{j}(t) = Ext^{j}_{O_{X'_{t}}}(F'_{t}, O_{X'_{t}}(-r - 1)).
-$$
+$$ E^{j}(t) = Ext^{j}_{O_{X'_{t}}}(F'_{t}, O_{X'_{t}}(-r - 1)). $$
 
 <!-- label: eq:XII.1.7 -->
 
@@ -218,14 +212,12 @@ $t$, which one endows with the induced reduced structure, and a coherent module 
 flat relatively to $V$, such that for every $t' \in V$, $E^{j}(t')$ is isomorphic to the module induced by $E^{j}(V)$ on
 $X_{t'}$. To verify this assertion, setting $Z = {t}$ with its induced structure, one considers the coherent modules
 
-$$
-E^{j}(Z) = Ext^{j}_{O_{X'_{Z}}}(F_{Z}, O_{X'_{Z}}(-r - 1))
-$$
+$$ E^{j}(Z) = Ext^{j}_{O_{X'_{Z}}}(F_{Z}, O_{X'_{Z}}(-r - 1)) $$
 
 (where the subscript $Z$ means again that one induces over $Z$), and one takes for $V$ a non-empty open subset of $Z$
 such that the modules $E^{j}(Z)$ are flat over $V$: this is possible since one checks immediately that $E^{j}(Z) = 0$
-for $j$ not lying in the interval `[0, r]`, and one may apply *SGA* 1 IV 6.11. One then takes
-$E^{j}(V) = E^{j}(Z)|X_{V}$, and one verifies easily that it answers the question.
+for $j$ not lying in the interval `[0, r]`, and one may apply *SGA* 1 IV 6.11. One then takes $E^{j}(V) =
+E^{j}(Z)|X_{V}$, and one verifies easily that it answers the question.
 
 <!-- original page 113 -->
 
@@ -257,9 +249,7 @@ every integer $i$, and every $t \in S$.
 
 Let us now use the hypothesis on $F_{s}$, which is written
 
-$$
-E^{r-i}(s) = 0,
-$$
+$$ E^{r-i}(s) = 0, $$
 
 <!-- label: eq:XII.1.9 -->
 
@@ -275,9 +265,7 @@ Since $F$, hence $F(-m)$, is flat with respect to $S$, it follows by the Künnet
 (for $m$ given) the same relation (10) holds when $s$ is replaced by a $t$ near $s$, in particular for any generization
 $t$ of $s$. By virtue of (8), one will therefore have, for such a generization,
 
-$$
-E^{r-i}(t) = 0,
-$$
+$$ E^{r-i}(t) = 0, $$
 
 <!-- label: eq:XII.1.11 -->
 
@@ -333,10 +321,10 @@ It is the following theorem:
 
 Let $f: X \to S$ be a projective morphism with $S$ noetherian, $O_{X}(1)$ an invertible module on $X$, ample relatively
 to $S$, $Y$ the prescheme of zeros of a section $t$ of $O_{X}(1)$, $\mathcal{J}$ the ideal defining $Y$, $X_{n}$ the
-subprescheme of $X$ defined by $\mathcal{J}^{n+1}$, $\hat{X}$ the formal completion of $X$ along $Y$,
-$\hat{f}: \hat{X} \to S$ the composite morphism $\hat{X} \to X \to S$, $F$ a coherent module on $X$, flat relatively to
-$S$. Suppose moreover that for every $s \in S$, the module $F_{s}$ induced on the fiber $X_{s}$ is of depth $> n$ at the
-points of that fiber, and that $t$ is $F$-regular. Under these conditions:
+subprescheme of $X$ defined by $\mathcal{J}^{n+1}$, $\hat{X}$ the formal completion of $X$ along $Y$, $\hat{f}: \hat{X}
+\to S$ the composite morphism $\hat{X} \to X \to S$, $F$ a coherent module on $X$, flat relatively to $S$. Suppose
+moreover that for every $s \in S$, the module $F_{s}$ induced on the fiber $X_{s}$ is of depth $> n$ at the points of
+that fiber, and that $t$ is $F$-regular. Under these conditions:
 
 1. The canonical homomorphism
 
@@ -427,18 +415,14 @@ ample relatively to $S$, $t$ a section of this module that is `O_X`-regular, $Y$
 $\hat{X}$ the formal completion of $X$ along $Y$. Suppose that for every $s \in S$, $X_{s}$ is of depth $\geqslant 1$
 (resp. of depth $\geqslant 2$) at its closed points. Then for every open neighborhood $U$ of $Y$, the functor
 
-$$
-F \mapsto \hat{F}
-$$
+$$ F \mapsto \hat{F} $$
 
 from the category of locally free coherent modules on $U$ to the category of locally free coherent modules on $\hat{X}$
 is faithful (resp. fully faithful, i.e. the Lefschetz condition (Lef) of X 2 is verified).
 
 For two locally free modules $F$ and $G$ on $U$ introduce the module
 
-$$
-H = \operatorname{Hom}_{O_{U}}(F, G);
-$$
+$$ H = \operatorname{Hom}_{O_{U}}(F, G); $$
 
 one is reduced to proving that the canonical homomorphism
 
@@ -456,17 +440,13 @@ on $X$). Since the dual module $H' = \operatorname{Hom}(H, O_{U})$ extends to a 
 therefore isomorphic to a cokernel of a homomorphism of locally free modules on $X$, it follows by transposition that
 one may find a homomorphism
 
-$$
-u': L'^{0} \to L'^{1}
-$$
+$$ u': L'^{0} \to L'^{1} $$
 
 <!-- original page 116 -->
 
 of locally free modules on $X$, inducing a homomorphism
 
-$$
-u: L^{0} \to L^{1}
-$$
+$$ u: L^{0} \to L^{1} $$
 
 of locally free modules on $U$, such that one has an exact sequence
 
@@ -486,8 +466,8 @@ respective case, one is reduced to proving that
 H⁰(X, H′) → H⁰(U, H′)
 ```
 
-is bijective, which follows from the fact that $H'$ is of depth $\geqslant 2$ at every point of a closed subset
-$Z = X - U$ of $X$ not meeting $Y$. One therefore needs only to prove the following:
+is bijective, which follows from the fact that $H'$ is of depth $\geqslant 2$ at every point of a closed subset $Z = X -
+U$ of $X$ not meeting $Y$. One therefore needs only to prove the following:
 
 **Lemma.**
 
@@ -499,9 +479,7 @@ $\geqslant n$ at every point of $Z$.
 
 Indeed, for every $x \in X$, setting $s = f(x)$, one has
 
-$$
-prof(F_{x}) \geqslant prof(F_{s,x}),
-$$
+$$ prof(F_{x}) \geqslant prof(F_{s,x}), $$
 
 <!-- label: eq:XII.2.16 -->
 
@@ -518,8 +496,8 @@ subprescheme of $X - Y$, which is so.
 <!-- label: XII.2.6 -->
 
 Suppose that for every $s \in S$ the section $t_{s}$ of $O_{X_{s}}(1)$ induced by $t$ is $O_{X_{s}}$-regular (which
-implies, by *SGA* 1 IV 5.7, that $t$ is `O_X`-regular). Then the hypotheses made are stable under base extension
-$S' \to S$ ($S'$ locally noetherian). Hence the conclusion remains valid after any base change.
+implies, by *SGA* 1 IV 5.7, that $t$ is `O_X`-regular). Then the hypotheses made are stable under base extension $S' \to
+S$ ($S'$ locally noetherian). Hence the conclusion remains valid after any base change.
 
 ## 3. Lefschetz theory for a projective morphism: existence theorem
 
@@ -576,9 +554,7 @@ following hypotheses are also verified:
 
 Now 3.2 implies that one may find an epimorphism
 
-$$
-\hat{L} \to \mathcal{F} \to 0,
-$$
+$$ \hat{L} \to \mathcal{F} \to 0, $$
 
 <!-- label: eq:XII.3.17 -->
 
@@ -588,9 +564,7 @@ the other hand, the hypotheses a), b), c) on $f$, $t$ imply that $\hat{L}$ satis
 $\mathcal{F}$. One concludes easily that the same holds for the kernel of (17), to which one may therefore apply the
 same argument; so that $\mathcal{F}$ is represented as a cokernel of a homomorphism
 
-$$
-\hat{L}' \to \hat{L},
-$$
+$$ \hat{L}' \to \hat{L}, $$
 
 <!-- label: eq:XII.3.18 -->
 
@@ -601,8 +575,8 @@ the cokernel of $L' \to L$, and one wins.
 It remains to prove 3.2. This had been done in the seminar by a somewhat tedious expedient, consisting in interpreting
 everything in terms of cohomology on the punctured projecting cone of $X$ relative to $S$, in order to reduce to Theorem
 2.1. A more direct and more satisfactory way (although substantially the same) seems to me now the following. It
-consists in noting that in IX, no. 2 (and with the notation of that exposé), the hypothesis that the morphism
-$f: \mathcal{X} \to \mathcal{X}'$ be adic does not intervene anywhere in the proof of 2.1, via *EGA* 0_III 13.7.7; it
+consists in noting that in IX, no. 2 (and with the notation of that exposé), the hypothesis that the morphism $f:
+\mathcal{X} \to \mathcal{X}'$ be adic does not intervene anywhere in the proof of 2.1, via *EGA* 0_III 13.7.7; it
 suffices to assume in its place that $\mathcal{X}$ is also adic, and to choose two ideals of definition $\mathcal{J}$
 for $\mathcal{X}'$, $\mathcal{I}$ for $\mathcal{X}$, such that $\mathcal{J} O_{\mathcal{X}} \subset \mathcal{I}$, and to
 define $\mathcal{S} = gr_{\mathcal{J}}(O_{\mathcal{X}'})$, and to consider $gr_{\mathcal{I}}(\mathcal{F})$. In any case,
@@ -636,11 +610,10 @@ $\mathcal{F}(\cdot)_{m}$ in the category of abelian sheaves on $X_{0}$. One is a
 *EGA* 0_III 13.7.7[^XII-3-star] and moreover $H^{i}(X_{0}, gr(\mathcal{F}(\cdot)))$ is a finitely generated module on
 $gr_{\mathcal{J}}(\mathcal{S})$ for $i = 0, 1$. Indeed, since $t'$ is $\mathcal{F}$-regular, one sees at once that as a
 module on $(\mathcal{S}/t'\mathcal{S})[T]$ (of which $gr_{\mathcal{J}}(\mathcal{S})$ is a quotient), the module under
-consideration is identified with
-$H^{i}(X_{0}, \mathcal{F}_{0}(\cdot)) \otimes_{\mathcal{S}/t'\mathcal{S}} (\mathcal{S}/t'\mathcal{S})[T]$; now by virtue
-of 1.5, $H^{i}(X_{0}, \mathcal{F}_{0}(\cdot))$ is finitely generated on $\mathcal{S}$, hence on
-$\mathcal{S}/t'\mathcal{S}$, for $i = 0, 1$, which proves our assertion. Consequently one is under the conditions for
-applying 0_III 13.7.7 with $n = 1$, which proves 3.3.
+consideration is identified with $H^{i}(X_{0}, \mathcal{F}_{0}(\cdot)) \otimes_{\mathcal{S}/t'\mathcal{S}}
+(\mathcal{S}/t'\mathcal{S})[T]$; now by virtue of 1.5, $H^{i}(X_{0}, \mathcal{F}_{0}(\cdot))$ is finitely generated on
+$\mathcal{S}$, hence on $\mathcal{S}/t'\mathcal{S}$, for $i = 0, 1$, which proves our assertion. Consequently one is
+under the conditions for applying 0_III 13.7.7 with $n = 1$, which proves 3.3.
 
 This point being acquired (and assuming $S$ still affine, which is permissible for proving 3.2 (ii)) let $m_{0}$ be such
 that $m \geqslant m_{0}$ implies $Im(G_{m} \to G_{0}) = Im(G_{m_{0}} \to G_{0})$, so that both sides are also equal to
@@ -682,9 +655,9 @@ if $F$ is a coherent module on $X$ such that $\hat{F}$ is isomorphic to $\mathca
 that $F$ is locally free on a neighborhood $U$ of $X_{0}$, and $F|U$ will satisfy the required condition. But let us now
 note that by virtue of 2.5, for such an $F$, its image under the immersion $U \to X$ is coherent, and moreover is
 independent of the chosen solution $(U, F)$ (taking into account the fact that two solutions coincide in a neighborhood
-of $X_{0}$, by virtue of a)). Precisely, one may find a coherent module $F$ on $X$ and an isomorphism
-$\hat{F} \xrightarrow{\sim} \mathcal{F}$ such that $F$ is of depth $\geqslant 2$ at every point of $X$ that is closed in
-its fiber, and this determines $F$ up to a unique isomorphism. Thanks to this uniqueness property, the solutions of the
+of $X_{0}$, by virtue of a)). Precisely, one may find a coherent module $F$ on $X$ and an isomorphism $\hat{F}
+\xrightarrow{\sim} \mathcal{F}$ such that $F$ is of depth $\geqslant 2$ at every point of $X$ that is closed in its
+fiber, and this determines $F$ up to a unique isomorphism. Thanks to this uniqueness property, the solutions of the
 problem found by inducing above the affine open subsets of $S$ glue together, yielding a coherent $F$ on all of $X$ and
 an isomorphism $\hat{F} \cong \mathcal{F}$. Restricting $F$ to the open subset $U$ of points where it is free, one finds
 what one was looking for.
@@ -729,18 +702,16 @@ theory" that is the subject of the present seminar.
 
 Let $X, O_{X}(1), t, X_{0}$ be as in 3.5. Suppose that $X$ is of depth $\geqslant 2$ at its closed points, and that
 
-$$
-H^{i}(X_{0}, O_{X_{0}}(-n)) = 0
-$$
+$$ H^{i}(X_{0}, O_{X_{0}}(-n)) = 0 $$
 
 for $n > 0$ and for $i = 1$ (resp. for $i = 1$ and for $i = 2$), which implies by virtue of 1.4 that $X_{0}$ is of depth
 $\geqslant 2$ (resp. $\geqslant 3$) at its closed points, i.e. that $X$ is of depth $\geqslant 3$ (resp. $\geqslant 4$)
 at the closed points of $X_{0}$. Under these conditions, for every open neighborhood $U$ of $X_{0}$,
-$\operatorname{Pic}(U) \to \operatorname{Pic}(X_{0})$ is injective, in particular
-$\operatorname{Pic}(X) \to \operatorname{Pic}(X_{0})$ is injective (resp. `lim_U Pic(U) → Pic(X₀)` is bijective). In the
-respective case, if one assumes moreover that the local ring of $X$ at every closed point not in $X_{0}$ is
-parafactorial (3.1) (for example is regular, or more generally a complete intersection), then
-$\operatorname{Pic}(X) \to \operatorname{Pic}(X_{0})$ is bijective.
+$\operatorname{Pic}(U) \to \operatorname{Pic}(X_{0})$ is injective, in particular $\operatorname{Pic}(X) \to
+\operatorname{Pic}(X_{0})$ is injective (resp. `lim_U Pic(U) → Pic(X₀)` is bijective). In the respective case, if one
+assumes moreover that the local ring of $X$ at every closed point not in $X_{0}$ is parafactorial (3.1) (for example is
+regular, or more generally a complete intersection), then $\operatorname{Pic}(X) \to \operatorname{Pic}(X_{0})$ is
+bijective.
 
 One applies XI 3.12 and 3.13, noting that the respective hypothesis implies that the irreducible components of dimension
 $\neq 0$ of $X$ are of dimension $\geqslant 4$. One finds in particular, by applying this to the case where $X$ is a
@@ -784,10 +755,10 @@ following section.
 
 <!-- label: XII.4.1 -->
 
-Let $X$ be a locally noetherian prescheme, locally immersible in a regular scheme, $Y$ a closed part of $X$,
-$U = X - Y$, $X_{0}$ a closed subprescheme of $X$ defined by an ideal $\mathcal{J}$, $\hat{X}$ the formal completion of
-$X$ along $X_{0}$, $U_{0}$ the trace of $X_{0}$ on $U$, `Û` the formal completion of $U$ along $U_{0}$, $i: U \to X$ and
-$\hat{i}: \hat{U} \to \hat{X}$ the canonical immersions, $n$ an integer. Suppose:
+Let $X$ be a locally noetherian prescheme, locally immersible in a regular scheme, $Y$ a closed part of $X$, $U = X -
+Y$, $X_{0}$ a closed subprescheme of $X$ defined by an ideal $\mathcal{J}$, $\hat{X}$ the formal completion of $X$ along
+$X_{0}$, $U_{0}$ the trace of $X_{0}$ on $U$, `Û` the formal completion of $U$ along $U_{0}$, $i: U \to X$ and $\hat{i}:
+\hat{U} \to \hat{X}$ the canonical immersions, $n$ an integer. Suppose:
 
 - a) $X$ is normally flat along $X_{0}$ at the points of $Y \cap X_{0}$, i.e. at these points the modules
   $\mathcal{J}^{n}/\mathcal{J}^{n+1}$ on $X_{0}$ are flat, i.e. locally free.
@@ -844,9 +815,7 @@ and one has
 
 where $F' = g*F$, so that one has indeed a canonical isomorphism
 
-$$
-g_{\ast}(F') \xrightarrow{\sim} \bigoplus_{m\geqslant 0} \mathcal{J}^{m}F,
-$$
+$$ g_{\ast}(F') \xrightarrow{\sim} \bigoplus_{m\geqslant 0} \mathcal{J}^{m}F, $$
 
 since this is true at the points of $U_{0}$, due to the fact that $F$ is free there by virtue of d), and also at the
 points outside $U_{0}$, due to the fact that there one has $\mathcal{J}^{m} = O_{U}$ (so that in both cases,
@@ -863,31 +832,25 @@ Rᵖi_∗(g_∗(F′)) = Rᵖ(ig)_∗(F′) = Rᵖ(fi′)_∗(F′) = f_∗(Rᵖ
 so comparing (19) and (20), one sees that assertion (1) is equivalent to the following: $R^{p}i'_{\ast}(F')$ is a
 finitely generated module, i.e. coherent on $X'$, for every $p \leqslant n$. Now since $X$ is locally immersible in a
 regular scheme, the same holds of $X'$, which is of finite type over $X$, and one may apply the coherence criterion VIII
-2.3 to a coherent extension $F''$ of $F'$: one wants to express that $H^{p}_{Y'}(F'')$ is coherent for
-$p \leqslant n + 1$, and this is also equivalent to saying that for every $x' \in U'$ such that
+2.3 to a coherent extension $F''$ of $F'$: one wants to express that $H^{p}_{Y'}(F'')$ is coherent for $p \leqslant n +
+1$, and this is also equivalent to saying that for every $x' \in U'$ such that
 
-$$
-codim({x'} \cap Y', {x'}) = 1,
-$$
+$$ codim({x'} \cap Y', {x'}) = 1, $$
 
 <!-- label: eq:XII.4.20bis -->
 
 one has
 
-$$
-prof F'_{x'} \geqslant n + 1.
-$$
+$$ prof F'_{x'} \geqslant n + 1. $$
 
 <!-- label: eq:XII.4.21 -->
 
-Now this condition is verified at the points $x'$ where $F'$ is not free, since for such an $x'$ one has
-$x' \notin U'_{0}$ by virtue of d), so $g$ is an isomorphism there, and by virtue of d) again, $F$ is of depth
-$\geqslant n + 1$ at $g(x')$, so $F'$ is of depth $\geqslant n + 1$ at $x'$. It therefore suffices to verify condition
-(21) at the $x' \in U'$ satisfying (20 bis) and at which $F'$ is free. For this, it suffices to prove that one has
+Now this condition is verified at the points $x'$ where $F'$ is not free, since for such an $x'$ one has $x' \notin
+U'_{0}$ by virtue of d), so $g$ is an isomorphism there, and by virtue of d) again, $F$ is of depth $\geqslant n + 1$ at
+$g(x')$, so $F'$ is of depth $\geqslant n + 1$ at $x'$. It therefore suffices to verify condition (21) at the $x' \in
+U'$ satisfying (20 bis) and at which $F'$ is free. For this, it suffices to prove that one has
 
-$$
-prof O_{X',x'} \geqslant n + 1
-$$
+$$ prof O_{X',x'} \geqslant n + 1 $$
 
 <!-- label: eq:XII.4.21bis -->
 
@@ -918,14 +881,13 @@ the following:
 
 <!-- label: XII.4.2 -->
 
-Let $X$ be a locally noetherian prescheme, $X_{0}$ a closed subprescheme of $X$ defined by an ideal $\mathcal{J}$,
-$X' = \operatorname{Spec}(\bigoplus_{m\geqslant 0} \mathcal{J}^{m})$,
-$X'_{0} = \operatorname{Spec}(\bigoplus_{m\geqslant 0} \mathcal{J}^{m}/\mathcal{J}^{m+1}) = X' \times_{X} X_{0}$, $x$ a
-point of $X_{0}$ at which $X$ is normally flat along $X_{0}$, i.e. such that
-$gr_{\mathcal{J}}(O_{X}) = \bigoplus_{m\geqslant 0} \mathcal{J}^{m}/\mathcal{J}^{m+1}$ is flat there as a module on
-$X_{0}$. Then for any sequence of elements $f_{i} (1 \leqslant i \leqslant m)$ of $O_{X,x}$ whose images in
-$O_{X_{0},x}$ form an $O_{X_{0},x}$-regular sequence, and for every $x' \in X'$ above $x$, the images of the $f_{i}$ in
-$O_{X',x'}$ (resp. in $O_{X'_{0},x'}$) form respectively an $O_{X',x'}$-regular sequence (resp. an
+Let $X$ be a locally noetherian prescheme, $X_{0}$ a closed subprescheme of $X$ defined by an ideal $\mathcal{J}$, $X' =
+\operatorname{Spec}(\bigoplus_{m\geqslant 0} \mathcal{J}^{m})$, $X'_{0} = \operatorname{Spec}(\bigoplus_{m\geqslant 0}
+\mathcal{J}^{m}/\mathcal{J}^{m+1}) = X' \times_{X} X_{0}$, $x$ a point of $X_{0}$ at which $X$ is normally flat along
+$X_{0}$, i.e. such that $gr_{\mathcal{J}}(O_{X}) = \bigoplus_{m\geqslant 0} \mathcal{J}^{m}/\mathcal{J}^{m+1}$ is flat
+there as a module on $X_{0}$. Then for any sequence of elements $f_{i} (1 \leqslant i \leqslant m)$ of $O_{X,x}$ whose
+images in $O_{X_{0},x}$ form an $O_{X_{0},x}$-regular sequence, and for every $x' \in X'$ above $x$, the images of the
+$f_{i}$ in $O_{X',x'}$ (resp. in $O_{X'_{0},x'}$) form respectively an $O_{X',x'}$-regular sequence (resp. an
 $O_{X'_{0},x'}$-regular sequence); in particular one has
 
 ```text
@@ -936,12 +898,11 @@ prof O_{X′,x′} ⩾ prof O_{X₀,x},  prof O_{X′₀,x′} ⩾ prof O_{X₀,
 
 To prove this, one may assume that $X$ is local with closed point $x$, hence affine of ring $A = O_{X,x}$, $\mathcal{J}$
 being defined by an ideal $J$; and it suffices to prove that for any sequence $f_{i} (1 \leqslant i \leqslant m)$ of
-elements of $A$ whose images in $A/J$ form an $A/J$-regular sequence, the $f_{i}$ form an
-$(\bigoplus_{m\geqslant 0} J^{m})$-regular sequence and an $(\bigoplus_{m\geqslant 0} J^{m}/J^{m+1})$-regular sequence,
-i.e. for every $m$, they form a `Jᵐ`-regular sequence and a $J^{m}/J^{m+1}$-regular sequence. The second assertion is
-trivial, since $J^{m}/J^{m+1}$ is a free module on $A/J$. The first follows by looking at the $J$-adic filtration of
-`Jᵐ` and noting that, for the graded module associated with `Jᵐ` for this filtration, the sequence of the $f_{i}$ is
-regular.
+elements of $A$ whose images in $A/J$ form an $A/J$-regular sequence, the $f_{i}$ form an $(\bigoplus_{m\geqslant 0}
+J^{m})$-regular sequence and an $(\bigoplus_{m\geqslant 0} J^{m}/J^{m+1})$-regular sequence, i.e. for every $m$, they
+form a `Jᵐ`-regular sequence and a $J^{m}/J^{m+1}$-regular sequence. The second assertion is trivial, since
+$J^{m}/J^{m+1}$ is a free module on $A/J$. The first follows by looking at the $J$-adic filtration of `Jᵐ` and noting
+that, for the graded module associated with `Jᵐ` for this filtration, the sequence of the $f_{i}$ is regular.
 
 This proves 4.2 and consequently 4.1, (1).
 
@@ -1009,9 +970,9 @@ separated and complete for the $\mathcal{J}$-adic topology. Then:
 1. For every locally free coherent module $\mathcal{F}$ on `Û`, there exists a coherent module $F$ on $U$ and an
    isomorphism $\hat{F} \xrightarrow{\sim} \mathcal{F}$.
 
-In particular, if for every $x \in U$ whose closure in $U$ does not meet $U_{0}$, i.e. such that
-${x} \cap X_{0} \subset Y$, one has $prof O_{U,x} \geqslant 2$, then the pair $(U, U_{0})$ satisfies the effective
-Lefschetz condition (Leff) of Exposé X.
+In particular, if for every $x \in U$ whose closure in $U$ does not meet $U_{0}$, i.e. such that ${x} \cap X_{0} \subset
+Y$, one has $prof O_{U,x} \geqslant 2$, then the pair $(U, U_{0})$ satisfies the effective Lefschetz condition (Leff) of
+Exposé X.
 
 (For the last assertion, one proceeds as in X 2.1.)
 
@@ -1027,11 +988,11 @@ Let $A$ be a noetherian ring, $J$ an ideal of $A$ contained in the radical, $A_{
 1. $gr_{J}(A)$ is a free $A_{0}$-module.
 1. $A$ is complete for the $J$-adic topology.
 
-Let $X = \operatorname{Spec}(A)$, $X_{0} = \operatorname{Spec}(A_{0}) = V(J)$, $a$ the closed point of $X$,
-$U = X - {a}$, $U_{0} = X_{0} - {a}$, `Û` the formal completion of $U$ along $U_{0}$. Then the functor
-$F \mapsto \hat{F}$ from the category of locally free coherent modules on $U$ to the category of locally free coherent
-modules on `Û` is fully faithful. Moreover, for every locally free coherent module $\mathcal{F}$ on `Û`, there exists a
-coherent module (not necessarily locally free!) $F$ on $U$, and an isomorphism $\hat{F} \cong \mathcal{F}$.
+Let $X = \operatorname{Spec}(A)$, $X_{0} = \operatorname{Spec}(A_{0}) = V(J)$, $a$ the closed point of $X$, $U = X -
+{a}$, $U_{0} = X_{0} - {a}$, `Û` the formal completion of $U$ along $U_{0}$. Then the functor $F \mapsto \hat{F}$ from
+the category of locally free coherent modules on $U$ to the category of locally free coherent modules on `Û` is fully
+faithful. Moreover, for every locally free coherent module $\mathcal{F}$ on `Û`, there exists a coherent module (not
+necessarily locally free!) $F$ on $U$, and an isomorphism $\hat{F} \cong \mathcal{F}$.
 
 One will note that thanks to 4.3, we did not have to suppose that $A$ is a quotient of a regular ring, since the
 completion of $A$ for the $\mathfrak{r}(A)$-adic topology satisfies this condition in any case.
@@ -1090,14 +1051,13 @@ By descent, one may assume that one also has
 
 Indeed, by virtue of (i) and (ii), one has $prof(A) \geqslant 3$, hence $prof(\hat{A}) \geqslant 3$, where `Â` is the
 completion of $A$ for the $J$-adic topology, and one applies X 3.6 and XI 3.6. One is therefore under the conditions of
-4.5. Since $prof(A) \geqslant 3 \geqslant 2$, to say that $A$ is parafactorial means simply that
-$\operatorname{Pic}(U) = 0$, and by virtue of 4.6 b) it suffices for this that $\operatorname{Pic}(U_{0}) = 0$, i.e.
-that $A_{0}$ be parafactorial. To prove that $A$ is "pure" if $A_{0}$ is, one needs to prove that if $V$ is an étale
-cover of $U$, defined by an algebra $B$ on $U$, then $H^{0}(U, B)$ is a finite étale algebra over $A$. Now $A_{0}$ being
-pure, the same holds of the $A_{n}$ (which differ from it only by nilpotent elements), so for every $n$,
-$B_{n} = H^{0}(U, B_{n})$ is an étale algebra over $A/J^{n+1}$, and these algebras of course glue, so that $\lim B_{n}$
-is an étale algebra over $A$. Now by virtue of 4.5, this algebra is none other than $H^{0}(U, B)$, which establishes our
-assertion.
+4.5. Since $prof(A) \geqslant 3 \geqslant 2$, to say that $A$ is parafactorial means simply that $\operatorname{Pic}(U)
+= 0$, and by virtue of 4.6 b) it suffices for this that $\operatorname{Pic}(U_{0}) = 0$, i.e. that $A_{0}$ be
+parafactorial. To prove that $A$ is "pure" if $A_{0}$ is, one needs to prove that if $V$ is an étale cover of $U$,
+defined by an algebra $B$ on $U$, then $H^{0}(U, B)$ is a finite étale algebra over $A$. Now $A_{0}$ being pure, the
+same holds of the $A_{n}$ (which differ from it only by nilpotent elements), so for every $n$, $B_{n} = H^{0}(U, B_{n})$
+is an étale algebra over $A/J^{n+1}$, and these algebras of course glue, so that $\lim B_{n}$ is an étale algebra over
+$A$. Now by virtue of 4.5, this algebra is none other than $H^{0}(U, B)$, which establishes our assertion.
 
 **Corollary.**
 
@@ -1149,15 +1109,11 @@ change. The same holds of the depth hypotheses made in 4.9, and also of a hypoth
 locally complete intersections". It then follows, under these conditions, that 4.9 b) also implies that the functor
 morphism
 
-$$
-\operatorname{Pic}_{X/S} \to \operatorname{Pic}_{X_{n}/S}
-$$
+$$ \operatorname{Pic}_{X/S} \to \operatorname{Pic}_{X_{n}/S} $$
 
 in $Sch/S$ is an isomorphism, hence also the morphism for the relative Picard schemes, when these exist:
 
-$$
-\operatorname{Pic}_{X/S} \to \operatorname{Pic}_{X_{n}/S}.
-$$
+$$ \operatorname{Pic}_{X/S} \to \operatorname{Pic}_{X_{n}/S}. $$
 
 Even in the case where $S$ is the spectrum of an algebraically closed field, this statement is markedly more precise
 than the statement saying merely that $\operatorname{Pic}(X) \to \operatorname{Pic}(X_{n})$ is bijective.
@@ -1190,9 +1146,7 @@ coherent for $i \leqslant n$ (a hypothesis of local nature on $X$, which is veri
 
 This follows at once from the Leray spectral sequence
 
-$$
-E^{p,q}_{2} = R^{p}f_{\ast}(R^{qg}_{\ast}(F)) \Rightarrow R^{\ast }h_{\ast}(F),
-$$
+$$ E^{p,q}_{2} = R^{p}f_{\ast}(R^{qg}_{\ast}(F)) \Rightarrow R^{\ast }h_{\ast}(F), $$
 
 <!-- label: eq:XII.5.26 -->
 
@@ -1224,12 +1178,10 @@ E₂^{p,q} = ⨁_{m⩾m₀} Rᵖf_∗(R^qg_∗(F(m))) ⇒ ⨁_{m⩾m₀} R^∗h_
 
 Since one has
 
-$$
-R^{qg}_{\ast}(F(m)) \cong R^{qg}_{\ast}(F)(m),
-$$
+$$ R^{qg}_{\ast}(F(m)) \cong R^{qg}_{\ast}(F)(m), $$
 
-one sees that if the $R^{i}g_{\ast}(F)$ are coherent, $E^{p,q}_{2}$ is finitely generated on $\mathcal{S}$ for
-$q \leqslant n$, thanks to part a) of Lemma 5.3 below, which implies that the abutment is finitely generated on
+one sees that if the $R^{i}g_{\ast}(F)$ are coherent, $E^{p,q}_{2}$ is finitely generated on $\mathcal{S}$ for $q
+\leqslant n$, thanks to part a) of Lemma 5.3 below, which implies that the abutment is finitely generated on
 $\mathcal{S}$ in degree $i \leqslant n$. This proves (i) ⇒ (ii). Moreover, reasoning in the abelian category of graded
 $\mathcal{S}$-modules modulo the thick subcategory $C$ of those that are quasi-coherent of finite type, one finds by the
 preceding spectral sequence
@@ -1278,9 +1230,7 @@ generated on $\mathcal{S}$, by virtue of *loc. cit.* 3.4.4.
 ($S$ noetherian.) Suppose that $R^{i}g_{\ast}(F)$ is coherent for $i \leqslant n$; then for $i \leqslant n + 1$ and $m$
 large, one has a canonical isomorphism:
 
-$$
-R^{i}h_{\ast}(F(m)) \cong f_{\ast}(R^{i}g_{\ast}(F)(m)).
-$$
+$$ R^{i}h_{\ast}(F(m)) \cong f_{\ast}(R^{i}g_{\ast}(F)(m)). $$
 
 Indeed the spectral sequence (26) for $F(m)$ then degenerates in degree $\leqslant n$, by *EGA* III 2.2.1 (ii), whence
 at once the result (which moreover recovers the implication (ii) ⇒ (i) of 5.2).
@@ -1306,13 +1256,13 @@ for $m$ large, for instance by virtue of *EGA* III 2.2.1 (iii).
 <!-- label: XII.5.6 -->
 
 One may interpret criteria 5.2 and 5.5 by saying that the "simultaneous finiteness condition" 5.2 (ii) is expressed by
-properties of local regularity (in terms of depth, thanks to VIII 2.1) of $F$ at the points of $U$ neighboring
-$Y = X - U$, whereas the "asymptotic vanishing condition" 5.5 (i) is of a markedly stronger nature, and is expressed by
+properties of local regularity (in terms of depth, thanks to VIII 2.1) of $F$ at the points of $U$ neighboring $Y = X -
+U$, whereas the "asymptotic vanishing condition" 5.5 (i) is of a markedly stronger nature, and is expressed by
 conditions of local regularity of $g_{\ast}(F)$ at the points of $Y$ itself. It would be interesting, in order to
 generalize the Lefschetz-type theorems for projective morphisms to quasi-projective morphisms, to find local criteria on
-$X$ necessary and sufficient for the $\mathcal{S}$-modules $\bigoplus_{m\geqslant 0} R^{i}h_{\ast}(F(m))$ for
-$i \leqslant n$ to be finitely generated. When $S$ is the spectrum of a field (and doubtless more generally, when it is
-the spectrum of an artinian ring) and $Y = X - U$ is finite, one can show that it is necessary and sufficient that the
+$X$ necessary and sufficient for the $\mathcal{S}$-modules $\bigoplus_{m\geqslant 0} R^{i}h_{\ast}(F(m))$ for $i
+\leqslant n$ to be finitely generated. When $S$ is the spectrum of a field (and doubtless more generally, when it is the
+spectrum of an artinian ring) and $Y = X - U$ is finite, one can show that it is necessary and sufficient that the
 following conditions be verified:
 
 <!-- original page 131 -->
@@ -1350,8 +1300,8 @@ equivalent:
 
 Plainly (ii) ⇒ (i) and (iii) ⇒ (i), as one sees by setting $\mathcal{I} = 0$ in conditions (ii) and (iii). The reverse
 implications are obtained by applying (i) to the composite base change $S'' \to S' \to S$, where $S''$ is equal to
-$\operatorname{Spec}(\bigoplus_{m\geqslant 0} J^{m})$ resp.
-$\operatorname{Spec}(\bigoplus_{m\geqslant 0} J^{m}/J^{m+1})$.
+$\operatorname{Spec}(\bigoplus_{m\geqslant 0} J^{m})$ resp. $\operatorname{Spec}(\bigoplus_{m\geqslant 0}
+J^{m}/J^{m+1})$.
 
 The interest of this proposition is that conditions of form (ii) are those that intervene in the "algebraic-formal
 comparison theorems", whereas conditions of form (iii) intervene in the "existence theorems" that complement them, cf.
@@ -1369,8 +1319,8 @@ immersion, $h = fg: U \to S$, $F$ a quasi-coherent module on $X$, flat with resp
 change $S' \to S$ with $S'$ locally noetherian, one has $R^{i}g'_{\ast}(F')$ coherent on $X'$ for $i \leqslant n$. Then
 one has the following:
 
-1. For every base change $S' \to S$ with $S'$ locally noetherian, $R^{i}h'_{\ast}(F')$ is coherent on $S'$ for
-   $i \leqslant n$.
+1. For every base change $S' \to S$ with $S'$ locally noetherian, $R^{i}h'_{\ast}(F')$ is coherent on $S'$ for $i
+   \leqslant n$.
 
 1. For every $S' \to S$ as above, and every coherent ideal $J$ on $S'$, the graded modules
 
@@ -1409,14 +1359,14 @@ $S'' \to S'$ faithfully flat and quasi-compact such that $S''$ is locally immers
 is verified in particular if $S'$ is local. Then the conclusion of 5.8 (i) and (ii) remains valid when $F'$ is replaced
 by a module $G'$ on $U'$ such that every point of $U'$ has an open neighborhood on which $G'$ is isomorphic to a module
 of the form $F'^{n}$. Indeed, one is reduced to the case where $S'$ itself is locally immersible in a regular scheme, so
-that the same holds of $S'' = \operatorname{Spec}(\bigoplus_{m\geqslant 0} J^{m})$ and of
-$X'' = X' \times_{S'} S'' = X \times_{S} S''$, which are of finite type over it. One then applies the finiteness
-criterion VIII 2.3 to the direct images for $i \leqslant n$ of $G''$ under the immersion $U'' \to X''$, noting that they
-are satisfied by hypothesis for $F''$, hence also for $G''$, since they are expressed in terms of depth and $G''$ is
-locally isomorphic to a $F''^{n}$. The same argument shows that if $\mathcal{G}'$ is a coherent module on $\hat{U}'$
-(completion of $U'$ along the ideal $J O_{U'}$) such that $\mathcal{G}'_{0} = \mathcal{G}'/J \mathcal{G}'$ is locally of
-the form $F'^{n}_{0}$, then the conclusion of (iii) remains valid when $F'$ is replaced there by $\mathcal{G}'$. One
-thus obtains the following result, using the results of Exposé IX:
+that the same holds of $S'' = \operatorname{Spec}(\bigoplus_{m\geqslant 0} J^{m})$ and of $X'' = X' \times_{S'} S'' = X
+\times_{S} S''$, which are of finite type over it. One then applies the finiteness criterion VIII 2.3 to the direct
+images for $i \leqslant n$ of $G''$ under the immersion $U'' \to X''$, noting that they are satisfied by hypothesis for
+$F''$, hence also for $G''$, since they are expressed in terms of depth and $G''$ is locally isomorphic to a $F''^{n}$.
+The same argument shows that if $\mathcal{G}'$ is a coherent module on $\hat{U}'$ (completion of $U'$ along the ideal $J
+O_{U'}$) such that $\mathcal{G}'_{0} = \mathcal{G}'/J \mathcal{G}'$ is locally of the form $F'^{n}_{0}$, then the
+conclusion of (iii) remains valid when $F'$ is replaced there by $\mathcal{G}'$. One thus obtains the following result,
+using the results of Exposé IX:
 
 **Corollary.**
 
@@ -1457,9 +1407,9 @@ $\hat{F}$, where $F$ is coherent on $X$, whence the conclusion.
    universal finiteness condition envisaged in 5.10 to be verified. When $S$ is the spectrum of a field, it follows
    easily from *EGA* III 1.4.15 that it is necessary and sufficient that the $R^{i}g_{\ast}(F)$ ($i \leqslant n$) be
    coherent, which is expressed in terms of depth thanks to VIII 2.3. In the general case, one will note however that it
-   does not suffice to require that the preceding condition be verified for all the fibers $U_{s} \subset X_{s}$
-   ($s \in S$), even in the case where $n = 0$. Take for example $X = S$, $S$ the spectrum of a discrete valuation ring,
-   $U$ the open subset reduced to the generic point, $F = O_{U}$.
+   does not suffice to require that the preceding condition be verified for all the fibers $U_{s} \subset X_{s}$ ($s \in
+   S$), even in the case where $n = 0$. Take for example $X = S$, $S$ the spectrum of a discrete valuation ring, $U$ the
+   open subset reduced to the generic point, $F = O_{U}$.
 
 1. Here is, however, a sufficient condition ensuring that one is under the conditions of the hypothesis of 5.10: it
    suffices that $f$ be flat, and that for every $s \in S$ and every $x \in Y_{s} = X_{s} - U_{s}$, one has
@@ -1561,20 +1511,19 @@ Unresolved / flagged:
 [^XII-3-star]: Rectified as indicated in IX p. 85.
 
 [^N.D.E-XII-4]: *N.D.E.* Let us point out the spectacular connectedness result obtained since by Fulton and Hansen, in
-    the case where $S = \operatorname{Spec}(k)$ ($k$ an algebraically closed field). Let
-    $g: X \to P^{m}_{k} \times P^{m}_{k}$ be such that $\dim g(X) > m$; then the inverse image of the diagonal is
-    connected. Among other things, this allows one to generalize Corollary 4.9 when $f$ is the structural morphism of
-    the projective space $P^{m}_{k}$ over $S = \operatorname{Spec}(k)$: precisely, an irreducible subvariety $X$ of
-    $P^{m}_{k}$ of dimension $> m/2$ has trivial fundamental group! (cf. Fulton W. & Hansen J., "A connectedness theorem
-    for projective varieties, with applications to intersections and singularities of mappings", *Ann. of Math.* (2)
-    **110** (1979), no. 1, pp. 159–166). For generalizations to the case of Grassmannians or abelian varieties, see
-    Debarre O., "Théorèmes de connexité pour les produits d'espaces projectifs et les grassmanniennes", *Amer. J. Math.*
-    **118** (1996), no. 6, pp. 1347–1367 and "Théorèmes de connexité et variétés abéliennes", *Amer. J. Math.* **117**
-    (1995), no. 3, pp. 787–805. The triviality result for the fundamental group of $X$ as above was obtained
-    independently by Faltings, who proves moreover that $\operatorname{Pic}(X)$ has no torsion prime to the
-    characteristic of $k$, by methods of algebraization of formal vector bundles, more in the line of Grothendieck's
-    techniques, cf. (Faltings G., "Algebraization of some formal vector bundles", *Ann. of Math.* (2) **110** (1979),
-    no. 3, pp. 501–514).
+    the case where $S = \operatorname{Spec}(k)$ ($k$ an algebraically closed field). Let $g: X \to P^{m}_{k} \times
+    P^{m}_{k}$ be such that $\dim g(X) > m$; then the inverse image of the diagonal is connected. Among other things,
+    this allows one to generalize Corollary 4.9 when $f$ is the structural morphism of the projective space $P^{m}_{k}$
+    over $S = \operatorname{Spec}(k)$: precisely, an irreducible subvariety $X$ of $P^{m}_{k}$ of dimension $> m/2$ has
+    trivial fundamental group! (cf. Fulton W. & Hansen J., "A connectedness theorem for projective varieties, with
+    applications to intersections and singularities of mappings", *Ann. of Math.* (2) **110** (1979), no. 1, pp.
+    159–166). For generalizations to the case of Grassmannians or abelian varieties, see Debarre O., "Théorèmes de
+    connexité pour les produits d'espaces projectifs et les grassmanniennes", *Amer. J. Math.* **118** (1996), no. 6,
+    pp. 1347–1367 and "Théorèmes de connexité et variétés abéliennes", *Amer. J. Math.* **117** (1995), no. 3, pp.
+    787–805. The triviality result for the fundamental group of $X$ as above was obtained independently by Faltings, who
+    proves moreover that $\operatorname{Pic}(X)$ has no torsion prime to the characteristic of $k$, by methods of
+    algebraization of formal vector bundles, more in the line of Grothendieck's techniques, cf. (Faltings G.,
+    "Algebraization of some formal vector bundles", *Ann. of Math.* (2) **110** (1979), no. 3, pp. 501–514).
 
 [^N.D.E-XII-5]: *N.D.E.* As Raynaud has remarked, the decomposition result for the de Rham complex of Deligne and
     Illusie easily entails the vanishing of the group $H^{i}(X, L^{-1})$ (with $L$ ample on $X$ projective and smooth
@@ -1582,15 +1531,15 @@ Unresolved / flagged:
     scheme over $W_{2}(k)$ (cf. Deligne P. & Illusie L., "Relèvements modulo $p^{2}$ et décomposition du complexe de de
     Rham", *Invent. Math.* **89** (1987), no. 2, pp. 247–270); this gives a purely algebraic proof of Kodaira's result
     for projective varieties in characteristic zero. If $X$ is not liftable, it is well known that the "vanishing
-    theorem" is false; cf. the example in (Raynaud M., "Contre-exemple au 'vanishing theorem' en caractéristique
-    $p > 0$", in *C.P. Ramanujam — a tribute*, Tata Inst. Fund. Res. Studies in Math., vol. 8, Springer, Berlin–New
-    York, 1978, pp. 273–278); see also the very pretty examples in (Haboush W. & Lauritzen N., "Varieties of unseparated
+    theorem" is false; cf. the example in (Raynaud M., "Contre-exemple au 'vanishing theorem' en caractéristique $p >
+    0$", in *C.P. Ramanujam — a tribute*, Tata Inst. Fund. Res. Studies in Math., vol. 8, Springer, Berlin–New York,
+    1978, pp. 273–278); see also the very pretty examples in (Haboush W. & Lauritzen N., "Varieties of unseparated
     flags", in *Linear algebraic groups and their representations (Los Angeles, CA, 1992)*, Contemp. Math., vol. 153,
     American Mathematical Society, Providence, RI, 1993, pp. 35–57), simplified in (Lauritzen N. & Rao A.P., "Elementary
     counterexamples to Kodaira vanishing in prime characteristic", *Proc. Indian Acad. Sci. Math. Sci.* **107** (1997),
-    no. 1, pp. 21–25). On the other hand, I do not know an example where the map
-    $\operatorname{Pic}(X_{n+1}) \to \operatorname{Pic}(X_{n})$ is not surjective for $n > 1$ in positive
-    characteristic, where $X_{n}$ denotes a thickened hyperplane section of $X$ projective and smooth as above.
+    no. 1, pp. 21–25). On the other hand, I do not know an example where the map $\operatorname{Pic}(X_{n+1}) \to
+    \operatorname{Pic}(X_{n})$ is not surjective for $n > 1$ in positive characteristic, where $X_{n}$ denotes a
+    thickened hyperplane section of $X$ projective and smooth as above.
 
 [^XII-5-star]: It suffices in fact that $g$ be quasi-compact and quasi-separated (*EGA* IV 1.2.1), without conditions on
     $U$, $X$.

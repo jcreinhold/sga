@@ -49,9 +49,7 @@ Tor^A_i(M,N) = 0     for i > 0 and all N.
 Since the $Tor_{i}$ commute with inductive limits, it is enough to verify these conditions for $N$ of finite type;
 indeed, taking then a composition series of $N$ with monogenic quotients, it is enough to have
 
-$$
-Tor^{A}_{1}(M,N) = 0
-$$
+$$ Tor^{A}_{1}(M,N) = 0 $$
 
 for $N$ monogenic, i.e. of the form $A/I$, where $I$ is an ideal of $A$. Note moreover that
 
@@ -91,9 +89,7 @@ The exact sequence of Tor, plus the “commutativity” of Tor, gives:
 
 Let
 
-$$
-0 \to M' \to M \to M'' \to 0
-$$
+$$ 0 \to M' \to M \to M'' \to 0 $$
 
 be an exact sequence of $A$-modules, with $M''$ flat. Then:
 
@@ -103,12 +99,12 @@ be an exact sequence of $A$-modules, with $M''$ flat. Then:
 Thus one may say that, from the point of view of behavior under tensor products, flat modules are “as good” as free or
 projective modules; in particular, the exact sequence of IV.1.1 is “as good” as if it split.
 
-Let $S$ be a multiplicatively stable subset of $A$. Then $S^{-1}A$ is flat over $A$, because
-$S^{-1}A \otimes N = S^{-1}N$ is an exact functor in $N$. If $M$ is $A$-flat, then $S^{-1}M = S^{-1}A \otimes M$ is
-$S^{-1}A$-flat; the converse is true if $M \to S^{-1}M$ is an isomorphism, i.e. if the $s \in S$ are bijective on $M$,
-by transitivity of flatness, since $S^{-1}A$ is flat over $A$. More generally, the case of a morphism of preschemes
-$X \to Y$ and a quasi-coherent sheaf $\mathcal{F}$ on $X$ whose flatness relative to $Y$ one wants to study leads to the
-situation with two rings.
+Let $S$ be a multiplicatively stable subset of $A$. Then $S^{-1}A$ is flat over $A$, because $S^{-1}A \otimes N =
+S^{-1}N$ is an exact functor in $N$. If $M$ is $A$-flat, then $S^{-1}M = S^{-1}A \otimes M$ is $S^{-1}A$-flat; the
+converse is true if $M \to S^{-1}M$ is an isomorphism, i.e. if the $s \in S$ are bijective on $M$, by transitivity of
+flatness, since $S^{-1}A$ is flat over $A$. More generally, the case of a morphism of preschemes $X \to Y$ and a
+quasi-coherent sheaf $\mathcal{F}$ on $X$ whose flatness relative to $Y$ one wants to study leads to the situation with
+two rings.
 
 **Proposition.**
 
@@ -129,11 +125,11 @@ Indeed, there is the formula, functorial in the $A$-module $N$:
 T⁻¹M ⊗_A N = T⁻¹(M ⊗_A N),
 ```
 
-for the two sides are functorially isomorphic to $T^{-1}B \otimes_{B} M \otimes_{B} N_{(B)}$, with
-$N_{(B)} = N \otimes_{A} B$, by the associativity formulas for $\otimes$. It follows at once that if $M \otimes_{A} N$
-is exact in $N$, then the same is true of $T^{-1}M \otimes_{A} N$, as a composite of two exact functors; this gives (i).
-And (ii) follows in the same way, since to verify exactness of a sequence of $B$-modules it is enough to verify
-exactness of the localizations at all maximal ideals of $B$.
+for the two sides are functorially isomorphic to $T^{-1}B \otimes_{B} M \otimes_{B} N_{(B)}$, with $N_{(B)} = N
+\otimes_{A} B$, by the associativity formulas for $\otimes$. It follows at once that if $M \otimes_{A} N$ is exact in
+$N$, then the same is true of $T^{-1}M \otimes_{A} N$, as a composite of two exact functors; this gives (i). And (ii)
+follows in the same way, since to verify exactness of a sequence of $B$-modules it is enough to verify exactness of the
+localizations at all maximal ideals of $B$.
 
 **Proposition.**
 
@@ -156,10 +152,10 @@ zero-divisor in $M$, as required.
 
 A functor $F$ from one category to another is said to be **faithful** if, for all $X$ and $Y$, the map
 $\operatorname{Hom}(X,Y) \to \operatorname{Hom}(F(X),F(Y))$ is injective. If $F$ is an additive functor between additive
-categories, this is equivalent to saying that $F(u) = 0$ implies $u = 0$, and this implies that $F(X) = 0$ implies
-$X = 0$. For $F$ to be **faithful and exact**, it is necessary and sufficient that the following condition hold: for
-every sequence $M' \to M \to M''$ of morphisms in $\mathcal{C}$, the transformed sequence $F(M') \to F(M) \to F(M'')$ is
-exact **if and only if** the original one is exact. Or again: $F$ is exact, and $F(X) = 0$ implies $X = 0$. To speak of
+categories, this is equivalent to saying that $F(u) = 0$ implies $u = 0$, and this implies that $F(X) = 0$ implies $X =
+0$. For $F$ to be **faithful and exact**, it is necessary and sufficient that the following condition hold: for every
+sequence $M' \to M \to M''$ of morphisms in $\mathcal{C}$, the transformed sequence $F(M') \to F(M) \to F(M'')$ is exact
+**if and only if** the original one is exact. Or again: $F$ is exact, and $F(X) = 0$ implies $X = 0$. To speak of
 exactness, of course, the categories involved must be **abelian**.
 
 Suppose one has a family $(M_{i})$ of nonzero objects of $\mathcal{C}$ such that every nonzero object of $\mathcal{C}$
@@ -218,9 +214,9 @@ $A$ implies that $X \to Y = \operatorname{Spec}(A)$ is **surjective**.
 
 <!-- label: IV.2.4 -->
 
-Suppose $M$ is flat over $A$, of finite type over $B$, and $Supp M = \operatorname{Spec}(B)$, i.e.
-$M_{\mathfrak{q}} \neq 0$ for every prime ideal $\mathfrak{q}$ of $B$. Then the prime ideals $\mathfrak{q}$ of $B$
-containing $\mathfrak{p}B$ and minimal among such ideals induce $\mathfrak{p}$.
+Suppose $M$ is flat over $A$, of finite type over $B$, and $Supp M = \operatorname{Spec}(B)$, i.e. $M_{\mathfrak{q}}
+\neq 0$ for every prime ideal $\mathfrak{q}$ of $B$. Then the prime ideals $\mathfrak{q}$ of $B$ containing
+$\mathfrak{p}B$ and minimal among such ideals induce $\mathfrak{p}$.
 
 <!-- original page 92 -->
 
@@ -234,12 +230,12 @@ integral. We are reduced to the following statement.
 With $M$ as above, every minimal prime ideal $\mathfrak{q}$ of $B$ induces a prime ideal $\mathfrak{p}$ of $A$ that is
 minimal.
 
-Indeed, localizing at $\mathfrak{p}$ and $\mathfrak{q}$, we are reduced to proving that if $A$ and $B$ are local,
-$A \to B$ is local, $M$ is a nonzero $B$-module flat over $A$, and $B$ has dimension `0`, then $A$ has dimension `0`. By
-IV.2.2 and IV.2.3, every prime ideal of $A$ is induced by a prime ideal of $B$, hence by the maximal ideal of $B$, and
-therefore is the maximal ideal, as required. Geometrically, IV.2.5 means that every irreducible component of
-$X = \operatorname{Spec}(B)$ dominates some irreducible component of $Y = \operatorname{Spec}(A)$, provided there exists
-a quasi-coherent sheaf of finite type on $X$, with support $X$, and flat relative to $Y$.
+Indeed, localizing at $\mathfrak{p}$ and $\mathfrak{q}$, we are reduced to proving that if $A$ and $B$ are local, $A \to
+B$ is local, $M$ is a nonzero $B$-module flat over $A$, and $B$ has dimension `0`, then $A$ has dimension `0`. By IV.2.2
+and IV.2.3, every prime ideal of $A$ is induced by a prime ideal of $B$, hence by the maximal ideal of $B$, and
+therefore is the maximal ideal, as required. Geometrically, IV.2.5 means that every irreducible component of $X =
+\operatorname{Spec}(B)$ dominates some irreducible component of $Y = \operatorname{Spec}(A)$, provided there exists a
+quasi-coherent sheaf of finite type on $X$, with support $X$, and flat relative to $Y$.
 
 Note that in IV.2.4 we did not have to suppose $M$ faithfully flat over $A$, but then nothing guarantees the existence
 of a prime ideal containing $\mathfrak{p}B$, and hence of a minimal one among such ideals.
@@ -254,8 +250,8 @@ Let $i: A \to B$ be a homomorphism of rings. The following conditions are equiva
 1. $B$ is flat over $A$, and $\operatorname{Spec}(B) \to \operatorname{Spec}(A)$ is surjective.
 1. $B$ is flat over $A$, and every maximal ideal is induced by an ideal of $B$.
 1. $i$ is injective and `Coker i` is a flat $A$-module.
-1. The functor $M_{(B)} = M \otimes_{A} B$ in the $A$-module $M$ is exact, and the canonical functorial homomorphism
-   $M \to M_{(B)}$ is injective.
+1. The functor $M_{(B)} = M \otimes_{A} B$ in the $A$-module $M$ is exact, and the canonical functorial homomorphism $M
+   \to M_{(B)}$ is injective.
 1. For every ideal $I$ of $A$, $I \otimes_{A} B \to IB$ is an isomorphism, and the inverse image of `IB` in $A$ is equal
    to $I$.
 
@@ -278,10 +274,10 @@ M ⊗_A Â → M̂.
 ```
 
 When $M$ ranges over **modules of finite type**, the functor $M \mapsto \hat{M}$ is exact, as follows easily from
-**Krull's theorem: if $N \subset M$, then the topology of $N$ is the one induced by the topology of $M$**. Since
-$M \otimes_{A} \hat{A}$ is right exact, one easily concludes, by resolving $M$ by $L \to L' \to M$ with $L$ and $L'$
-free of finite type, that the functorial homomorphism above is an **isomorphism**, since $\hat{M}$ is also right exact,
-and consequently that $M \otimes_{A} \hat{A}$ is also an **exact** functor in $M$. Therefore:
+**Krull's theorem: if $N \subset M$, then the topology of $N$ is the one induced by the topology of $M$**. Since $M
+\otimes_{A} \hat{A}$ is right exact, one easily concludes, by resolving $M$ by $L \to L' \to M$ with $L$ and $L'$ free
+of finite type, that the functorial homomorphism above is an **isomorphism**, since $\hat{M}$ is also right exact, and
+consequently that $M \otimes_{A} \hat{A}$ is also an **exact** functor in $M$. Therefore:
 
 **Proposition.**
 
@@ -320,16 +316,13 @@ the following hypotheses:
 In order that $M$ be free over $A$, it is necessary and sufficient that $M \otimes A/I$ be free over $A/I$ and that
 $Tor^{A}_{1}(M,A/I) = 0$.
 
-This is necessary. We prove the sufficiency. Let $(e_{i})$ be a family of elements of $M$ whose image in
-$M \otimes A/I = M/IM$ defines a basis there over $A/I$; it is a finite family in case (b). Let $L$ be the free
-$A$-module constructed on the same index set. Thus there is a homomorphism $L \to M$ such that tensoring $T$ by $A/I$
-induces an isomorphism $T(L) \to T(M)$. If $Q$ is the cokernel of $L \to M$, then $T(Q) = 0$, whence $Q = 0$ by
-Nakayama, valid under either condition (a) or (b). Thus $L \to M$ is surjective. Let $R$ be its kernel. We then have an
-exact sequence
+This is necessary. We prove the sufficiency. Let $(e_{i})$ be a family of elements of $M$ whose image in $M \otimes A/I
+= M/IM$ defines a basis there over $A/I$; it is a finite family in case (b). Let $L$ be the free $A$-module constructed
+on the same index set. Thus there is a homomorphism $L \to M$ such that tensoring $T$ by $A/I$ induces an isomorphism
+$T(L) \to T(M)$. If $Q$ is the cokernel of $L \to M$, then $T(Q) = 0$, whence $Q = 0$ by Nakayama, valid under either
+condition (a) or (b). Thus $L \to M$ is surjective. Let $R$ be its kernel. We then have an exact sequence
 
-$$
-0 \to R \to L \to M \to 0,
-$$
+$$ 0 \to R \to L \to M \to 0, $$
 
 whence, since $Tor^{A}_{1}(M,A/I) = 0$, an exact sequence $0 \to T(R) \to T(L) \to T(M) \to 0$, whence $T(R) = 0$, and
 hence $R = 0$ again by Nakayama, taking into account that in case (b), $R$ is of finite type because $A$ was assumed
@@ -350,8 +343,8 @@ gr_I^0(M) ⊗_{A/I} gr_I(A) → gr_I(M)
 is an isomorphism.
 
 Indeed, if $M$ is free, this is certainly verified. Thus one must prove that if $M \otimes A/I$ is free over $A/I$ and
-the condition on the associated graded objects is verified, then $M$ is free. Resume the proof above by constructing
-$L \to M$. The hypothesis implies that this homomorphism induces an isomorphism on associated graded objects; hence its
+the condition on the associated graded objects is verified, then $M$ is free. Resume the proof above by constructing $L
+\to M$. The hypothesis implies that this homomorphism induces an isomorphism on associated graded objects; hence its
 kernel is contained in the intersection of the $I^{nL}$, and so is zero, trivially in (a), and by a well-known fact in
 (b). This proves the assertion.
 
@@ -404,9 +397,7 @@ dimension of the vector space $M \otimes_{A} k$.
 
 Let $A$ be a ring equipped with an ideal $I$, and let $M$ be an $A$-module. Suppose
 
-$$
-Tor^{A}_{1}(M,A/I^{n}) = 0     for n > 0.
-$$
+$$ Tor^{A}_{1}(M,A/I^{n}) = 0 for n > 0. $$
 
 Then the canonical surjective homomorphism
 
@@ -462,9 +453,9 @@ There is a functorial isomorphism
 M ⊗_A N = (M ⊗_A B) ⊗_B N,
 ```
 
-which expresses the left-hand side, regarded as a functor in $M$, as a composite of two functors
-$M \mapsto M \otimes_{A} B$ and $P \mapsto P \otimes_{B} N$. Since the first sends free $A$-modules to free $B$-modules,
-hence projectives to projectives, one has the spectral sequence for composite functors
+which expresses the left-hand side, regarded as a functor in $M$, as a composite of two functors $M \mapsto M
+\otimes_{A} B$ and $P \mapsto P \otimes_{B} N$. Since the first sends free $A$-modules to free $B$-modules, hence
+projectives to projectives, one has the spectral sequence for composite functors
 
 ```text
 Tor^A_n(M,N) ⇐ Tor^B_p(Tor^A_q(M,B),N),
@@ -476,8 +467,8 @@ whence an exact sequence in low degrees
 0 ← Tor^B_1(M ⊗_A B,N) ← Tor^A_1(M,N) ← Tor^A_1(M,B) ⊗_A N.
 ```
 
-If (i) holds, then from this exact sequence one concludes $Tor^{B}_{1}(M \otimes_{A} B,N) = 0$ for every $N$, i.e.
-$M \otimes_{A} B$ is $B$-flat, hence (ii). Conversely, if (ii) holds, then in the exact sequence the terms surrounding
+If (i) holds, then from this exact sequence one concludes $Tor^{B}_{1}(M \otimes_{A} B,N) = 0$ for every $N$, i.e. $M
+\otimes_{A} B$ is $B$-flat, hence (ii). Conversely, if (ii) holds, then in the exact sequence the terms surrounding
 $Tor^{A}_{1}(M,N)$ are zero, hence (i) holds.
 
 **Corollary.**
@@ -544,8 +535,8 @@ Im(M ⊗_A V′_n → M ⊗_A N′) = Ker(M ⊗_A N′ → M ⊗_A (N′/V′_n)
 ```
 
 where $V'_{n}$ runs through a countable fundamental system of neighborhoods of `0` in $N'$, endowed with its $I$-adic
-topology. By Krull's theorem, the $I$-adic topology of $N'$ is induced by that of $N$, so one may take
-$V'_{n} = N' \cap I^{nN}$. Consider then the commutative diagram
+topology. By Krull's theorem, the $I$-adic topology of $N'$ is induced by that of $N$, so one may take $V'_{n} = N' \cap
+I^{nN}$. Consider then the commutative diagram
 
 ```text
 M ⊗_A N′          →  M ⊗_A (N′/V′_n)
@@ -557,9 +548,9 @@ M ⊗_A N           →  M ⊗_A (N/I^nN).
 
 Since $N'/V'_{n}$ and $N/I^{nN}$ are annihilated by $I^{n}$, the second vertical homomorphism identifies with the one
 obtained from the **injective** homomorphism $N'/V'_{n} \to N/I^{nN}$ by tensoring over $A/I^{n}$ with the **flat**
-$A/I^{n}$-module $M \otimes_{A} A/I^{n}$; it is therefore **injective**. Consequently, the kernel of
-$M \otimes_{A} N' \to M \otimes_{A} N$ is contained in the kernel of $M \otimes_{A} N' \to M \otimes_{A} (N'/V'_{n})$,
-which is what was required.
+$A/I^{n}$-module $M \otimes_{A} A/I^{n}$; it is therefore **injective**. Consequently, the kernel of $M \otimes_{A} N'
+\to M \otimes_{A} N$ is contained in the kernel of $M \otimes_{A} N' \to M \otimes_{A} (N'/V'_{n})$, which is what was
+required.
 
 The “finiteness” condition considered for $M$ is satisfied in particular if $M$ is a module of finite type over a
 noetherian $A$-algebra $B$ such that `IB` is contained in the radical of $B$: indeed, then $M \otimes_{A} N$ is a module
@@ -586,8 +577,8 @@ is an isomorphism. 4. For every integer $n$, $M \otimes_{A} A/I^{n}$ is flat ove
 This result applies especially when $A$ and $B$ are **local** noetherian rings, $A \to B$ a local homomorphism, and $I$
 an ideal of $A$ contained in its maximal ideal; and one can immediately reduce IV.5.6 to this case. An interesting case
 is that where $A/I$ is a field, i.e. $I$ is maximal; then the condition that $M \otimes_{A} A/I$ be flat over $A/I$
-becomes superfluous. Moreover, since the $A/I^{n}$ are artinian local rings, condition (iv) means that the
-$M \otimes_{A} A/I^{n}$ are **free** over the $A/I^{n}$.
+becomes superfluous. Moreover, since the $A/I^{n}$ are artinian local rings, condition (iv) means that the $M
+\otimes_{A} A/I^{n}$ are **free** over the $A/I^{n}$.
 
 **Corollary.**
 
@@ -605,12 +596,10 @@ where $k$ denotes the residue field of $A$.
 graded objects, where it follows from a commutative square that the reader will write. Let $M''$ be its cokernel. We
 then have an exact sequence
 
-$$
-0 \to M' \to M \to M'' \to 0.
-$$
+$$ 0 \to M' \to M \to M'' \to 0. $$
 
-By the exact sequence of Tor, taking into account hypothesis (ii) and $Tor^{A}_{1}(M,k) = 0$, we get
-$Tor^{A}_{1}(M'',k) = 0$; hence $M''$ is flat over $A$ by Theorem IV.5.6.
+By the exact sequence of Tor, taking into account hypothesis (ii) and $Tor^{A}_{1}(M,k) = 0$, we get $Tor^{A}_{1}(M'',k)
+= 0$; hence $M''$ is flat over $A$ by Theorem IV.5.6.
 
 **Corollary.**
 
@@ -635,8 +624,8 @@ residue field of $A$. The following conditions are equivalent:
 1. $M$ is flat over $B$.
 1. $M$ is flat over $A$, and $M \otimes_{A} k$ is flat over $B \otimes_{A} k$.
 
-The implication (i) ⇒ (ii) is trivial. We prove (ii) ⇒ (i). Apply criterion (iii) of IV.5.6 to
-$(B,C,\mathfrak{m}B = I,M)$. Since
+The implication (i) ⇒ (ii) is trivial. We prove (ii) ⇒ (i). Apply criterion (iii) of IV.5.6 to $(B,C,\mathfrak{m}B =
+I,M)$. Since
 
 ```text
 M ⊗_B (B/I) = M ⊗_B (B ⊗_A k) = M ⊗_A k,
@@ -747,27 +736,25 @@ hypothesis that $f$ is universally open.
 Let $A$ be a noetherian integral ring, let $B$ be an $A$-algebra of finite type, and let $M$ be a $B$-module of finite
 type. Then there exists a nonzero element $f$ of $A$ such that $M_{f}$ is a free, a fortiori flat, module over $A_{f}$.
 
-Let $K$ be the field of fractions of $A$. Then $B \otimes_{A} K$ is an algebra of finite type over $K$, and
-$M \otimes_{A} K$ is a module of finite type over it. Let $n$ be the dimension of the support of this module; we argue
-by induction on $n$. If $n < 0$, i.e. if $M \otimes_{A} K = 0$, then taking a finite set of generators of $M$ over $B$,
-one sees that there exists $f \in A$ annihilating these generators, hence annihilating $M$; thus $M_{f} = 0$, and we are
+Let $K$ be the field of fractions of $A$. Then $B \otimes_{A} K$ is an algebra of finite type over $K$, and $M
+\otimes_{A} K$ is a module of finite type over it. Let $n$ be the dimension of the support of this module; we argue by
+induction on $n$. If $n < 0$, i.e. if $M \otimes_{A} K = 0$, then taking a finite set of generators of $M$ over $B$, one
+sees that there exists $f \in A$ annihilating these generators, hence annihilating $M$; thus $M_{f} = 0$, and we are
 done. Suppose $n \geq 0$. We know that the $B$-module $M$ admits a composition series whose successive quotients are
 isomorphic to modules $B/\mathfrak{p}_{i}$, with $\mathfrak{p}_{i}$ prime ideals of $B$. Since an extension of free
 modules is free, we are reduced to the case where $M$ itself is of the form $B/\mathfrak{p}$, or again identical with
 $B$, with $B$ an **integral** $A$-algebra. Applying Noether's normalization lemma to the $K$-algebra $B \otimes_{A} K$,
 one sees easily that there exists a nonzero element $f$ of $A$ such that $B_{f}$ is integral over the subring
-$A_{f}[t_{1},...,t_{n}]$, where the $t_{i}$ are indeterminates. Thus we may already suppose $B$ is integral over
-$C = A[t_{1},...,t_{n}]$; it is then a finite torsion-free $C$-module. Let $m$ be its rank. There is therefore an exact
+$A_{f}[t_{1},...,t_{n}]$, where the $t_{i}$ are indeterminates. Thus we may already suppose $B$ is integral over $C =
+A[t_{1},...,t_{n}]$; it is then a finite torsion-free $C$-module. Let $m$ be its rank. There is therefore an exact
 sequence of $C$-modules
 
-$$
-0 \to C^{m} \to B \to M' \to 0
-$$
+$$ 0 \to C^{m} \to B \to M' \to 0 $$
 
-where $M'$ is a torsion $C$-module. It follows that the Krull dimension of the $C \otimes_{A} K$-module
-$M' \otimes_{A} K$ is strictly less than the dimension $n$ of $C \otimes_{A} K$. By the induction hypothesis, after
-localizing with respect to a suitable nonzero $f$ of $A$, we may suppose that $M'$ is a free $A$-module. On the other
-hand, $C^{m}$ is a free $A$-module. Hence $B$ is then a free $A$-module, and we are done.
+where $M'$ is a torsion $C$-module. It follows that the Krull dimension of the $C \otimes_{A} K$-module $M' \otimes_{A}
+K$ is strictly less than the dimension $n$ of $C \otimes_{A} K$. By the induction hypothesis, after localizing with
+respect to a suitable nonzero $f$ of $A$, we may suppose that $M'$ is a free $A$-module. On the other hand, $C^{m}$ is a
+free $A$-module. Hence $B$ is then a free $A$-module, and we are done.
 
 **Lemma.**
 
@@ -784,9 +771,7 @@ Indeed, applying IV.6.7 to $(A/\mathfrak{q}, B/\mathfrak{q}B, M/\mathfrak{q}M)$,
 $A - \mathfrak{q}$ such that $(M/\mathfrak{q}M)_{f}$ is flat over $A/\mathfrak{q}$. On the other hand, since
 $M_{\mathfrak{p}}$ is flat over $A$, we have
 
-$$
-Tor^{A}_{1}(M,A/\mathfrak{q})_{\mathfrak{p}} = Tor^{A}_{1}(M_{\mathfrak{p}},A/\mathfrak{q}) = 0.
-$$
+$$ Tor^{A}_{1}(M,A/\mathfrak{q})_{\mathfrak{p}} = Tor^{A}_{1}(M_{\mathfrak{p}},A/\mathfrak{q}) = 0. $$
 
 Since $Tor^{A}_{1}(M,A/\mathfrak{q})$ is a $B$-module of finite type, there exists $g \in B - \mathfrak{p}$ such that
 (b) holds. Replacing $g$ by `gf`, we may then suppose that (a) also holds, which proves the corollary.

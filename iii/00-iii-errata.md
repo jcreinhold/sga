@@ -27,12 +27,12 @@ Misprints and errors in the new edition of SGA 3, Tome 3.
 
 - p. 40, 1st formula in D): $E(x)$ should be $E(x)^{-1}$. (This formula was not written in the original.)
 
-- p. 40, paragraph E): in the 3 first formulas with $\alpha(H)$ on the left, replace on the right $(1 + bx)$ by
-  $(1 + ax)$. The proof is unchanged.
+- p. 40, paragraph E): in the 3 first formulas with $\alpha(H)$ on the left, replace on the right $(1 + bx)$ by $(1 +
+  ax)$. The proof is unchanged.
 
 - p. 45, Th. 3.1 (v): the 1st formula is incorrect and $Y$ is undefined. (This error appears in the original.) One
-  should understand that $Y = zX$, with $z \in G_{m}(S')$; then by (iv) one has
-  $w_{\alpha}(Y) = w_{\alpha}(X) \alpha^{\vee}(z^{-1})$, hence $w_{\alpha}(X)^{2} = \alpha^{\vee}(-1)$ gives
+  should understand that $Y = zX$, with $z \in G_{m}(S')$; then by (iv) one has $w_{\alpha}(Y) = w_{\alpha}(X)
+  \alpha^{\vee}(z^{-1})$, hence $w_{\alpha}(X)^{2} = \alpha^{\vee}(-1)$ gives
 
     ```text
     w_α(X) w_α(Y) = α^∨(−z⁻¹).

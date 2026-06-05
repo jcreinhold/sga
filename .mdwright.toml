@@ -29,6 +29,19 @@ exclude = []
 # Project-specific additions to the `info-string-typo` allowlist. The stdlib default allowlist still applies.
 extra = []
 
+[lint.render]
+# Type: "mathjax-v3" | "katex".
+# Math renderer the `math/render-compat` rule should check against.
+renderer = "mathjax-v3"
+
+# Type: array of string.
+# Renderer packages/extensions to load on top of the renderer's default autoload set (e.g. `["mhchem", "physics"]`). Consumed by the `math/render-compat` rule.
+packages = []
+
+# Type: table.
+# User-declared macros known to be in scope, keyed by command name (no leading backslash). Each entry is either `name = arity` or `name = { arity = N }`.
+macros = {}
+
 [fmt]
 # Type: "preserve" | "mdformat".
 # Formatter style profile. `preserve` keeps mdwright's identity-oriented defaults; `mdformat` applies mdformat-compatible defaults where verified rewrites can preserve semantics. Explicit `[fmt]` keys override profile defaults.

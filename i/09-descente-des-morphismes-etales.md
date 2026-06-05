@@ -86,8 +86,8 @@ Making the evident base change, one can put IX.1.5 in the following apparently m
 
 Let $X$ and $Y$ be two $S$-preschemes, with $Y$ étale over $S$. Then the map $f \mapsto \Gamma_{f}$ associating to every
 $S$-morphism $f$ from $X$ to $Y$ the subset of $X \times_{S} Y$ underlying the graph of $f$ is a bijection from
-$\operatorname{Hom}_{S}(X,Y)$ onto the set of open subsets $\Gamma$ of $X \times_{S} Y$ such that the morphism
-$\Gamma \to X$ induced by $pr_{1}$ is **radicial** and **surjective**.
+$\operatorname{Hom}_{S}(X,Y)$ onto the set of open subsets $\Gamma$ of $X \times_{S} Y$ such that the morphism $\Gamma
+\to X$ induced by $pr_{1}$ is **radicial** and **surjective**.
 
 **Proposition.**
 
@@ -132,8 +132,8 @@ for sheaves in algebraic geometry** (EGA III 5; cf. also [IX.1], theorem 3).
 <!-- label: IX.1.10 -->
 
 Let $S$ be the spectrum of a complete noetherian local ring, let $X$ be a proper $S$-scheme, and let $X_{0}$ be the
-fiber of $X$ at the closed point of $S$, so that $X_{0}$ is a closed subscheme of $X$. Then the restriction functor
-$X' \mapsto X' \times_{X} X_{0}$ is an equivalence from the category of étale coverings of $X$ to the category of étale
+fiber of $X$ at the closed point of $S$, so that $X_{0}$ is a closed subscheme of $X$. Then the restriction functor $X'
+\mapsto X' \times_{X} X_{0}$ is an equivalence from the category of étale coverings of $X$ to the category of étale
 coverings of $X_{0}$.
 
 ## 2. Submersive and Universally Submersive Morphisms
@@ -209,9 +209,9 @@ spectrum of a discrete valuation ring, whose image in $S$ is `{s,t}`.
 <!-- original page 233 -->
 
 Notice that the image of $S''$ in $S'$ is open, because the morphism $S'' \to S'$ is a local isomorphism; moreover this
-image contains $S'_{s}$ and does not meet $S'_{t}$. It follows that the inverse image of this open subset in
-$T' = S' \times_{S} T$ is **open** and identical with the inverse image of the closed point of $T$. This shows that
-$T' \to T$ is not submersive, and hence $S' \to S$ is not universally submersive.
+image contains $S'_{s}$ and does not meet $S'_{t}$. It follows that the inverse image of this open subset in $T' = S'
+\times_{S} T$ is **open** and identical with the inverse image of the closed point of $T$. This shows that $T' \to T$ is
+not submersive, and hence $S' \to S$ is not universally submersive.
 
 **Remark.**
 
@@ -242,8 +242,8 @@ is a subset of $Z = X \times_{S} Y$. Since
 
 $Z' = Z \times_{S} S' = X' \times_{S'} Y' \to Z$
 
-is surjective (because $S' \to S$ is), this subset $\Gamma$ is known once one knows its inverse image in
-$X' \times_{S'} Y'$, which is nothing other than the underlying set of the graph of $f'$. This proves the assertion.
+is surjective (because $S' \to S$ is), this subset $\Gamma$ is known once one knows its inverse image in $X' \times_{S'}
+Y'$, which is nothing other than the underlying set of the graph of $f'$. This proves the assertion.
 
 A subset $\Gamma$ of $Z$ is the graph of an $S$-morphism $f: X \to Y$ if and only if it is open and if the morphism
 induced by $pr_{1}$ from $\Gamma$ to $X$ is radicial
@@ -344,8 +344,8 @@ directly.
 Let $g: S' \to S$ be a universally submersive morphism, let $X'$ be an $S'$-prescheme étale, separated, and of finite
 type, endowed with a descent datum relative to $g$, and let $S_{1} \to S$ be faithfully flat and quasi-compact. Let
 $S_{1}'$ and $X_{1}'$ be deduced from $S'$ and $X'$ by base change, so that $S_{1}' \to S_{1}$ is universally submersive
-and $X_{1}'$ is étale, separated, and of finite type over $S_{1}'$, endowed with a descent datum relative to
-$g_{1}: S_{1}' \to S_{1}$. Then the descent datum on $X'$ is effective if and only if the descent datum on $X_{1}'$ is
+and $X_{1}'$ is étale, separated, and of finite type over $S_{1}'$, endowed with a descent datum relative to $g_{1}:
+S_{1}' \to S_{1}$. Then the descent datum on $X'$ is effective if and only if the descent datum on $X_{1}'$ is
 effective.
 
 This follows from descent theory in categories [IX.D], taking IX.4.1 and IX.3.3 into account.
@@ -358,8 +358,8 @@ Similarly one proves:
 
 Let $g: S' \to S$ be a universally submersive morphism, let $X'$ be an $S'$-prescheme étale and endowed with a descent
 datum relative to $g$, and let $(S_{i})$ be an open covering of $S$. Then the descent datum is effective if and only if,
-for every $i$, the corresponding descent datum on $X_{i}' = X' \times_{S} S_{i}$, relative to the morphism
-$g_{i}: S_{i}' = S' \times_{S} S_{i} \to S_{i}$, is effective.
+for every $i$, the corresponding descent datum on $X_{i}' = X' \times_{S} S_{i}$, relative to the morphism $g_{i}:
+S_{i}' = S' \times_{S} S_{i} \to S_{i}$, is effective.
 
 This last result leads to a local effectivity criterion:
 
@@ -372,13 +372,13 @@ Let $g: S' \to S$ be a morphism of finite presentation (VIII.3.6) and universall
 
 <!-- original page 237 -->
 
-Then there exists an open neighborhood $U$ of $a$ such that the corresponding descent datum on
-$X_{U}' = X' \times_{S} U$ relative to
+Then there exists an open neighborhood $U$ of $a$ such that the corresponding descent datum on $X_{U}' = X' \times_{S}
+U$ relative to
 
 $g_{U}: S_{U}' = S' \times_{S} U \to S_{U} = U$
 
-is effective if and only if the corresponding descent datum on
-$X_{a}' = X' \times_{S} \operatorname{Spec}(\mathcal{O}_{a})$, relative to
+is effective if and only if the corresponding descent datum on $X_{a}' = X' \times_{S}
+\operatorname{Spec}(\mathcal{O}_{a})$, relative to
 
 $g_{a}: S_{a}' = S' \times_{S} \operatorname{Spec}(\mathcal{O}_{a}) \to S_{a} = \operatorname{Spec}(\mathcal{O}_{a})$,
 
@@ -387,7 +387,7 @@ is effective.
 Necessity is trivial; let us prove sufficiency. We have an étale prescheme of finite type $X_{a}$ over $S_{a}$, and an
 isomorphism
 
-$(*)  X_{a}' \simeq X_{a} \times_{S_{a}} S_{a}'$
+$(*) X_{a}' \simeq X_{a} \times_{S_{a}} S_{a}'$
 
 compatible with the descent data. By a standard and easy sorites on preschemes defined over an inductive limit of rings
 (here the rings $A_{f}$, where $A$ is the ring of an affine open neighborhood of $a$, and $f$ runs through the elements
@@ -405,10 +405,10 @@ This completes the proof.
 <!-- label: IX.4.5 -->
 
 Under the conditions of IX.4.4, the descent datum on $X'$ is effective if and only if, for every $a \in S$, the
-corresponding descent datum on $X_{a}'$ relative to the morphism
-$S_{a}' = S' \times_{S} \operatorname{Spec}(\mathcal{O}_{a}) \to \operatorname{Spec}(\mathcal{O}_{a})$ is effective.
-When $S$ is locally noetherian and $X'$ is separated over $S'$, one may also replace $\mathcal{O}_{a}$ by its completion
-in the preceding criterion.
+corresponding descent datum on $X_{a}'$ relative to the morphism $S_{a}' = S' \times_{S}
+\operatorname{Spec}(\mathcal{O}_{a}) \to \operatorname{Spec}(\mathcal{O}_{a})$ is effective. When $S$ is locally
+noetherian and $X'$ is separated over $S'$, one may also replace $\mathcal{O}_{a}$ by its completion in the preceding
+criterion.
 
 <!-- original page 238 -->
 
@@ -423,8 +423,8 @@ residue field $k = A/\mathfrak{m}$ of $A$, one obtains:
 
 Under the conditions of IX.4.4, suppose in addition that $X'$ is separated over $S'$ and that $S$ is locally noetherian.
 Then the descent datum on $X'$ is effective if and only if, for every prescheme $S_{1}$ over $S$ that is the spectrum of
-a complete local ring with algebraically closed residue field, the corresponding descent datum on
-$X_{1}' = X' \times_{S} S_{1}$, relative to $g_{1}: S_{1}' \to S_{1}$, is effective.
+a complete local ring with algebraically closed residue field, the corresponding descent datum on $X_{1}' = X'
+\times_{S} S_{1}$, relative to $g_{1}: S_{1}' \to S_{1}$, is effective.
 
 **Theorem.**
 
@@ -470,12 +470,11 @@ $X_{1}'$ is effective; we may therefore suppose from now on that $X'$ is étale 
 induction argument is unnecessary if one restricts statement IX.4.7 to étale coverings.
 
 Let $S_{0}$ be the spectrum of the residue field of $A$, let $S_{0}' = S' \times_{S} S_{0}$, and define $S_{0}''$,
-$S_{0}'''$ similarly from the fiber squares and cubes $S''$ and $S'''$ of $S'$ over $S$. By IX.1.8, the morphisms
-$S_{0} \to S$, $S_{0}' \to S'$, etc. induce equivalences for the categories of étale coverings of $S$ and $S_{0}$, of
-$S'$ and $S_{0}'$, etc. From the sorites of descent theory in categories [IX.D], it follows that $g: S' \to S$ is a
-morphism of effective descent for the fibered category of étale coverings if and only if the same is true of
-$g_{0}: S_{0}' \to S_{0}$. But this is indeed the case, for example as a special case of IX.4.1. This completes the
-proof.
+$S_{0}'''$ similarly from the fiber squares and cubes $S''$ and $S'''$ of $S'$ over $S$. By IX.1.8, the morphisms $S_{0}
+\to S$, $S_{0}' \to S'$, etc. induce equivalences for the categories of étale coverings of $S$ and $S_{0}$, of $S'$ and
+$S_{0}'$, etc. From the sorites of descent theory in categories [IX.D], it follows that $g: S' \to S$ is a morphism of
+effective descent for the fibered category of étale coverings if and only if the same is true of $g_{0}: S_{0}' \to
+S_{0}$. But this is indeed the case, for example as a special case of IX.4.1. This completes the proof.
 
 **Corollary.**
 
@@ -530,12 +529,12 @@ preschemes étale over $S'$.
 Since the diagonal morphisms from $S'$ into $S' \times_{S} S'$ and $S' \times_{S} S' \times_{S} S'$ are surjective
 immersions, they induce, by IX.1.9, equivalences from the categories of preschemes étale over $S' \times_{S} S'$,
 respectively $S' \times_{S} S' \times_{S} S'$, with the category of preschemes étale over $S'$. It follows from the
-descent sorites [IX.D] that every $X'$ étale over $S'$ is endowed with one and only one descent datum relative to
-$g: S' \to S$. Hence IX.3.3 implies that the inverse image functor by $g$, from preschemes étale over $S$ to preschemes
-étale over $S'$, is **fully faithful**. It remains to show that it is essentially surjective, that is, that every $X'$
-étale over $S'$ is isomorphic to the inverse image of an $X$ étale over $S$. Since the question is plainly local on $S$
-**and on** $X'$, one may suppose $S$, $S'$, and $X'$ affine. Then $X'$ is separated and of finite type over $S'$, and
-one can apply the effectivity criterion IX.4.7.
+descent sorites [IX.D] that every $X'$ étale over $S'$ is endowed with one and only one descent datum relative to $g: S'
+\to S$. Hence IX.3.3 implies that the inverse image functor by $g$, from preschemes étale over $S$ to preschemes étale
+over $S'$, is **fully faithful**. It remains to show that it is essentially surjective, that is, that every $X'$ étale
+over $S'$ is isomorphic to the inverse image of an $X$ étale over $S$. Since the question is plainly local on $S$ **and
+on** $X'$, one may suppose $S$, $S'$, and $X'$ affine. Then $X'$ is separated and of finite type over $S'$, and one can
+apply the effectivity criterion IX.4.7.
 
 **Corollary.**
 
@@ -637,8 +636,8 @@ automorphism group of this functor, that is, the fundamental group of $S'$ at th
 $\pi_{s'}$. Choose similarly geometric points underlined $s''$ and underlined $s'''$, giving fiber functors $F_{s''}''$ and
 $F_{s'''}'''$ and fundamental groups $\pi_{s''}$ and $\pi_{s'''}$. Thus
 
-$\pi_{s'}  = \pi_{1}(S', underlined s')$, $\pi_{s''}  = \pi_{1}(S'', underlined s'')$,
-$\pi_{s'''}  = \pi_{1}(S''', underlined s''')$.
+$\pi_{s'} = \pi_{1}(S', underlined s')$, $\pi_{s''} = \pi_{1}(S'', underlined s'')$, $\pi_{s'''} = \pi_{1}(S''',
+underlined s''')$.
 
 For every $s'' \in E''$, $p_{1}(underlined s'')$ lies in the same connected component as underlined $q_{1}(s'')$, so
 there is an isomorphism of fiber functors
@@ -659,8 +658,8 @@ $q^{s''}_{i}: \pi_{s''} \to \pi_{q_{i}(s'')}$, $q^{s'''}_{ij}: \pi_{s'''} \to \p
 Finally, recall that the split fibered-category structure with fibers $\mathcal{C}'$, $\mathcal{C}''$, $\mathcal{C}'''$
 also contains isomorphisms of functors
 
-$p^{*}_{21} p^{*}_{1} \simeq p^{*}_{31} p^{*}_{1}$, $p^{*}_{21} p^{*}_{2} \simeq p^{*}_{32} p^{*}_{1}$,
-$p^{*}_{31} p^{*}_{2} \simeq p^{*}_{32} p^{*}_{2}$,
+$p^{*}_{21} p^{*}_{1} \simeq p^{*}_{31} p^{*}_{1}$, $p^{*}_{21} p^{*}_{2} \simeq p^{*}_{32} p^{*}_{1}$, $p^{*}_{31}
+p^{*}_{2} \simeq p^{*}_{32} p^{*}_{2}$,
 
 deduced from isomorphisms of the two sides respectively with $u^{*}_{i}$ ($i = 1,2,3$), where $u_{i}$ are the three
 projections from $S'''$ to $S'$. Making these data explicit, one finds for every $s'''$ a well-determined element
@@ -677,8 +676,8 @@ with $s_{1}'' = q_{21}(s''')$, $s_{2}'' = q_{31}(s''')$, and the two analogous c
 The data just described allow one to reconstruct, up to equivalence of fibered categories, the fibered category with
 fibers $\mathcal{C}'$, $\mathcal{C}''$, $\mathcal{C}'''$. Hence in principle they must allow one to reconstruct
 $\mathcal{C}$ up to equivalence, and therefore its fundamental group up to isomorphism. In fact, we shall determine the
-fundamental group at the geometric point $p(underlined s_{0}')$ of $S$, that is, the automorphism group of
-$F_{s_{0}'}' \circ p^{*}$.
+fundamental group at the geometric point $p(underlined s_{0}')$ of $S$, that is, the automorphism group of $F_{s_{0}'}'
+\circ p^{*}$.
 
 An object $X'$ of $\mathcal{C}'$ is essentially the same as the data of finite sets $X'_{s'}$, for $s' \in E'$, on which
 the $\pi_{s'}$ act continuously.
@@ -689,9 +688,8 @@ A gluing datum on such an object is then the giving, for every $s'' \in E''$, of
 
 $\phi_{s''}: X'_{q_{1}(s'')} \simeq X'_{q_{2}(s'')}$
 
-compatible with the actions of $\pi_{s''}$, acting on the two sides through the homomorphisms
-$q^{s''}_{i}: \pi_{s''} \to \pi_{q_{i}(s'')}$. Taking first the $s''$ of the form $\bar{s}'$, one sees that such data
-define bijections
+compatible with the actions of $\pi_{s''}$, acting on the two sides through the homomorphisms $q^{s''}_{i}: \pi_{s''}
+\to \pi_{q_{i}(s'')}$. Taking first the $s''$ of the form $\bar{s}'$, one sees that such data define bijections
 
 $\psi_{s'}: {{X'_{s_{0}}}'} = F_{0}'(X') \to X'_{s'}$,
 
@@ -737,9 +735,8 @@ certain path classes; an $s_{0}' \in E'$; and for every $s' \in E'$ an $s'' \in 
 $s_{0}'$ and $s'$. Here $E'$, $E''$, $E'''$ denote the sets of connected components of $S'$, $S''$, $S'''$ respectively.
 Then the fundamental group of $S$ at the geometric point image of $s_{0}'$ is canonically isomorphic to the group of
 galoisian type generated by the $\pi_{s'} = \pi_{1}(S', underlined s')$, for $s' \in E'$, and generators $g_{s''}$, for
-$s'' \in E''$, subject to relations a), b), c) above, involving the elements of the groups
-$\pi_{s''} = \pi_{1}(S'', underlined s'')$ and the elements $a^{s'''}_{i}$, for $i = 1,2,3$ and $s''' \in E'''$,
-introduced above.
+$s'' \in E''$, subject to relations a), b), c) above, involving the elements of the groups $\pi_{s''} = \pi_{1}(S'',
+underlined s'')$ and the elements $a^{s'''}_{i}$, for $i = 1,2,3$ and $s''' \in E'''$, introduced above.
 
 **Corollary.**
 
@@ -774,12 +771,12 @@ set of points, which have a simple topological meaning. For example:
 
 <!-- label: IX.5.4 -->
 
-Let $g: S' \to S$ be a finite morphism of finite presentation, and let $T$ be a discrete subset of $S$. For every
-$s \in S$, let $n(s)$ be the “geometric number of points” in the fiber $g^{-1}(s)$, which can also be made explicit as
-the separable degree of $g^{-1}(s)$ over $\kappa(s)$, the sum of the separable degrees of its residue extensions.
-Suppose that for $s \in S - T$ one has $n(s) = 1$. For every $s \in T$, let $K_{s}$ be an algebraically closed extension
-of $\kappa(s)$, let $I_{s}$ be the set of geometric points of $S'$ with values in $K_{s}$ (a set with $n(s)$ elements),
-let $I_{s}'$ be the complement of one chosen point of $I_{s}$, and let $I'$ be the union of the $I_{s}'$. Suppose $S'$
+Let $g: S' \to S$ be a finite morphism of finite presentation, and let $T$ be a discrete subset of $S$. For every $s \in
+S$, let $n(s)$ be the “geometric number of points” in the fiber $g^{-1}(s)$, which can also be made explicit as the
+separable degree of $g^{-1}(s)$ over $\kappa(s)$, the sum of the separable degrees of its residue extensions. Suppose
+that for $s \in S - T$ one has $n(s) = 1$. For every $s \in T$, let $K_{s}$ be an algebraically closed extension of
+$\kappa(s)$, let $I_{s}$ be the set of geometric points of $S'$ with values in $K_{s}$ (a set with $n(s)$ elements), let
+$I_{s}'$ be the complement of one chosen point of $I_{s}$, and let $I'$ be the union of the $I_{s}'$. Suppose $S'$
 connected. Then the fundamental group of $S$ is isomorphic to the group of galoisian type generated by the fundamental
 group of $S'$ and generators $g_{i}$ for $i \in I'$, subject to no additional relation.
 
@@ -797,10 +794,10 @@ course, it is no longer necessary to suppose $S'$ connected.
 
 One proves easily that the rational curve $\mathbb{P}^{1}_{k}$ over an algebraically closed field $k$ is simply
 connected. \[Translator note: the source refers to Expos\acute{e} XI.1.1.\] Hence the fundamental group of a complete
-rational curve having exactly one double point, with $n$ analytic branches, is the free group of galoisian type on
-$n - 1$ generators. For example, in the case of an ordinary double point, one finds the fundamental group
-$\hat{\mathbb{Z}}$, as announced in I.11 a). On the other hand, the existence of a cusp (which is a “geometrically
-unibranch” point) has no influence on the fundamental group.
+rational curve having exactly one double point, with $n$ analytic branches, is the free group of galoisian type on $n -
+1$ generators. For example, in the case of an ordinary double point, one finds the fundamental group $\hat{\mathbb{Z}}$,
+as announced in I.11 a). On the other hand, the existence of a cusp (which is a “geometrically unibranch” point) has no
+influence on the fundamental group.
 
 **Corollary.**
 
@@ -865,9 +862,9 @@ Then there is a canonical exact sequence
 
 $e \to \pi_{1}(S',a') \to G \to \Gamma \to e$.
 
-Moreover, for every geometric point $b'$ of $S'$, one has an isomorphism
-$\pi_{1}(S',\Gamma;b') \to G = \pi_{1}(S',\Gamma;a')$, defined up to inner automorphism coming from $\pi_{1}(S',a')$.
-Since $\Gamma_{b'}$ maps evidently into the first group, one obtains a homomorphism
+Moreover, for every geometric point $b'$ of $S'$, one has an isomorphism $\pi_{1}(S',\Gamma;b') \to G =
+\pi_{1}(S',\Gamma;a')$, defined up to inner automorphism coming from $\pi_{1}(S',a')$. Since $\Gamma_{b'}$ maps
+evidently into the first group, one obtains a homomorphism
 
 $u_{b'}: \Gamma_{b'} \to G$,
 
@@ -1017,9 +1014,9 @@ $\operatorname{Spec}(\kappa(x)) \to \operatorname{Spec}(k)$.
 Let $f: X \to S$ be a proper and surjective morphism of finite presentation, with geometrically connected fibers; let
 $X'$ be a prescheme of finite presentation and proper over $X$; let $s$ be a point of $S$; let $F = X_{s}$ be the fiber
 of $X$ at $s$; and let $F_{1}'$ be a connected component of the fiber $F' = X'_{s}$ of $X'$ at $s$. There exists an open
-neighborhood $X_{1}'$ of $F_{1}'$ in $X'$, an $S$-scheme $S_{1}'$ étale over $S$, and an $X$-isomorphism
-$X_{1}' \simeq S_{1}' \times_{S} X$ if and only if $X'$ is étale over $X$ at the points of $F_{1}'$ and $F_{1}'$ is a
-geometrically trivial covering of $F$.
+neighborhood $X_{1}'$ of $F_{1}'$ in $X'$, an $S$-scheme $S_{1}'$ étale over $S$, and an $X$-isomorphism $X_{1}' \simeq
+S_{1}' \times_{S} X$ if and only if $X'$ is étale over $X$ at the points of $F_{1}'$ and $F_{1}'$ is a geometrically
+trivial covering of $F$.
 
 Necessity is trivial, so it remains to prove sufficiency. One reduces easily to the case where $S$ is noetherian.
 Consider the Stein factorization $X \to T \to S$ of $f$, where $T$ is the spectrum of the Algebra
@@ -1039,13 +1036,12 @@ and our assertion is contained in the following:
 
 <!-- label: IX.6.6 -->
 
-Let $f: X \to S$ be a proper morphism of locally noetherian preschemes such that
-$f_{*}(\mathcal{O}_{X}) = \mathcal{O}_{S}$, and let $X'$ be a prescheme proper over $X$. Consider the **Stein**
-factorization $X' \to S' \to S$ for $X' \to S$ and the canonical morphism $X' \to X \times_{S} S'$. Let $s$ be a point
-of $S$, and let $s'$ be a point of $S'$ above $s$, corresponding to a connected component $F_{1}'$ of the fiber $X'_{s}$
-of $X'$ at $s$. The morphism $X' \to X \times_{S} S'$ is an isomorphism above an open neighborhood $U'$ of $s'$ étale
-over $S$ if and only if $X'$ is étale over $X$ at the points of $F_{1}'$ and $F_{1}'$ is a geometrically trivial
-covering of the fiber $F = X_{s}$.
+Let $f: X \to S$ be a proper morphism of locally noetherian preschemes such that $f_{*}(\mathcal{O}_{X}) =
+\mathcal{O}_{S}$, and let $X'$ be a prescheme proper over $X$. Consider the **Stein** factorization $X' \to S' \to S$
+for $X' \to S$ and the canonical morphism $X' \to X \times_{S} S'$. Let $s$ be a point of $S$, and let $s'$ be a point
+of $S'$ above $s$, corresponding to a connected component $F_{1}'$ of the fiber $X'_{s}$ of $X'$ at $s$. The morphism
+$X' \to X \times_{S} S'$ is an isomorphism above an open neighborhood $U'$ of $s'$ étale over $S$ if and only if $X'$ is
+étale over $X$ at the points of $F_{1}'$ and $F_{1}'$ is a geometrically trivial covering of the fiber $F = X_{s}$.
 
 Necessity is again trivial; it remains to prove sufficiency. The conclusion also says that a) the morphism deduced from
 $X' \to X \times_{S} S'$ by base change $\operatorname{Spec}(\hat{O}_{s'}) \to S'$ is an isomorphism, and b) $S'$ is
@@ -1063,8 +1059,8 @@ covering of the form $X \times_{S} T$, with $T$ étale over $S$. Here again it i
 functor in IX.1.10, which follows from the fact that a formal isomorphism of coherent sheaves on $X$ comes from an
 isomorphism of those sheaves.
 
-Thus, if $T$ is defined by the finite $A$-algebra $B$, $X'$ identifies with the spectrum of the Algebra
-$\mathcal{O}_{X} \otimes_{A} B$ over $X$. Since $f_{*}(\mathcal{O}_{X}) = \mathcal{O}_{S}$, it follows at once that
+Thus, if $T$ is defined by the finite $A$-algebra $B$, $X'$ identifies with the spectrum of the Algebra $\mathcal{O}_{X}
+\otimes_{A} B$ over $X$. Since $f_{*}(\mathcal{O}_{X}) = \mathcal{O}_{S}$, it follows at once that
 $h_{*}(\mathcal{O}_{X'})$ is defined by $B$, hence the canonical homomorphism $X' \to X \times_{S} S'$ is precisely the
 isomorphism $X' \simeq X \times_{S} T$ under consideration. This completes the proof.
 
@@ -1072,15 +1068,15 @@ isomorphism $X' \simeq X \times_{S} T$ under consideration. This completes the p
 
 <!-- label: IX.6.7 -->
 
-Under the conditions of IX.6.5, there exists a prescheme $S'$ étale over $S$ and an $X$-isomorphism
-$X' \simeq X \times_{S} S'$ if and only if $X'$ is étale over $X$ and for every $s \in S$, the fiber $X'_{s}$ is a
-geometrically trivial covering of $X_{s}$.
+Under the conditions of IX.6.5, there exists a prescheme $S'$ étale over $S$ and an $X$-isomorphism $X' \simeq X
+\times_{S} S'$ if and only if $X'$ is étale over $X$ and for every $s \in S$, the fiber $X'_{s}$ is a geometrically
+trivial covering of $X_{s}$.
 
 Indeed, if this holds, $X'$ is the union of open subsets $X_{i}'$ that are isomorphic to inverse images of $S_{i}'$
 étale over $S$. One then sees easily that these $S_{i}'$ glue to an $S'$ étale over $S$, and that one obtains an
-isomorphism $X' \simeq X \times_{S} S'$. For example, one may say that the $X_{i}'$ carry descent data relative to
-$X \to S$, which necessarily glue to a descent datum on all of $X'$ relative to $X \to S$; since this datum is effective
-on the $X_{i}'$, it follows easily (by a sorites omitted in no. IX.4) that it is effective. One can also state IX.6.7 as
+isomorphism $X' \simeq X \times_{S} S'$. For example, one may say that the $X_{i}'$ carry descent data relative to $X
+\to S$, which necessarily glue to a descent datum on all of $X'$ relative to $X \to S$; since this datum is effective on
+the $X_{i}'$, it follows easily (by a sorites omitted in no. IX.4) that it is effective. One can also state IX.6.7 as
 follows:
 
 **Corollary.**
@@ -1100,9 +1096,9 @@ finite étale over $X$ that induce on each fiber $X_{s}$ a geometrically trivial
 
 <!-- label: IX.6.9 -->
 
-Let $f: X \to S$ be a proper and surjective morphism, with $S$ locally noetherian. Then $f$ factors as a morphism
-$X \to S'$ satisfying the hypothesis of IX.6.8 followed by a finite surjective morphism $S' \to S$ covered by IX.4.7.
-Thus $f$ is a composite of two morphisms that are **universal effective descent morphisms** for the fibered category of
+Let $f: X \to S$ be a proper and surjective morphism, with $S$ locally noetherian. Then $f$ factors as a morphism $X \to
+S'$ satisfying the hypothesis of IX.6.8 followed by a finite surjective morphism $S' \to S$ covered by IX.4.7. Thus $f$
+is a composite of two morphisms that are **universal effective descent morphisms** for the fibered category of
 preschemes finite étale over other preschemes. It follows that $f$ itself is a universal effective descent morphism for
 the fibered category in question. This recovers IX.4.12 by a different method.
 
@@ -1115,10 +1111,10 @@ type over $S$ and admits a section over $S$ (so $f$ is universally submersive an
 category of preschemes étale over other preschemes), even when $S$ is the spectrum of a discrete valuation ring and $X'$
 is an étale covering of $X$. To see this, start with a $Z$ proper over $S$ whose generic fiber is a nonsingular rational
 curve and whose special fiber $Z_{0}$ consists of two intersecting lines. For example, if $t$ is a uniformizer of the
-valuation ring $A$, take the closed subscheme $Z$ of $\mathbb{P}^{2}_{A}$ defined by the homogeneous equation
-$x^{2} + y^{2} + tz^{2} = 0$. Let $X$ be the complement of the singular point $a$ of $Z_{0}$ in the union
-$Z \cup \mathbb{P}^{2}_{k}$. The fibers of $X$ are $\mathbb{P}^{1}_{k}$ and $\mathbb{P}^{2}_{k} - a$, hence
-geometrically simply connected, meaning that every étale covering of such a fiber is geometrically trivial.
+valuation ring $A$, take the closed subscheme $Z$ of $\mathbb{P}^{2}_{A}$ defined by the homogeneous equation $x^{2} +
+y^{2} + tz^{2} = 0$. Let $X$ be the complement of the singular point $a$ of $Z_{0}$ in the union $Z \cup
+\mathbb{P}^{2}_{k}$. The fibers of $X$ are $\mathbb{P}^{1}_{k}$ and $\mathbb{P}^{2}_{k} - a$, hence geometrically simply
+connected, meaning that every étale covering of such a fiber is geometrically trivial.
 
 <!-- original page 259 -->
 

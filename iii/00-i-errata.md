@@ -35,9 +35,9 @@ from Exposé 4 (resp. Exposé 6B).
 
 ### 1.5. Exposé VI_B
 
-- p. 359, end of Cor. 4.4. There was a slip in N.D.E. (31): keeping the same notation, one must consider the subgroup
-  $G = \operatorname{Spec} A[X]/(\delta X)$ of the additive group over $S$, which to every $A$-algebra $R$ associates
-  the subgroup of $r \in R$ such that $\delta r = 0$. This has been corrected in the 13/10/2024 version.
+- p. 359, end of Cor. 4.4. There was a slip in N.D.E. (31): keeping the same notation, one must consider the subgroup $G
+  = \operatorname{Spec} A[X]/(\delta X)$ of the additive group over $S$, which to every $A$-algebra $R$ associates the
+  subgroup of $r \in R$ such that $\delta r = 0$. This has been corrected in the 13/10/2024 version.
 - p. 374, Th. 6.2.3: in the proof, line 2 of the 3rd paragraph, replace "free module" by "projective module".
 
 ### 1.6. Exposé VII_B

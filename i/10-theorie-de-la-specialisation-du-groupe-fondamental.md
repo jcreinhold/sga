@@ -82,13 +82,13 @@ is enough to prove that the canonical $Y$-morphism
 X′ → X ×_Y Y′
 ```
 
-is an **isomorphism**, and that $Y'$ is étale over $Y$. We already know by X.1.2 that $Y'$ is étale over $Y$, hence
-$X \times_{Y} Y'$ is étale over $X$, and therefore the morphism $X' \to X \times_{Y} Y'$ is also étale (I.4.8).
-Moreover, $Y'$ is connected as the image of $X'$, which is connected; hence $X \times_{Y} Y'$ is connected, since $X$
-has connected fibers over $Y$ (IX.3.4 and V.6.9(iii)). Thus to prove that $X' \to X \times_{Y} Y'$ is an isomorphism, it
-is enough to see that its projection degree at **one** point of $X \times_{Y} Y'$ is equal to 1. This follows easily
-from the hypothesis that $\bar{X}'_{y}$ admits a section over $\bar{X}_{y}$, either by using IX.6.6 or more simply by
-noting that it is enough to prove the existence of such a point in $X \times_{Y} Y'$ after the base change
+is an **isomorphism**, and that $Y'$ is étale over $Y$. We already know by X.1.2 that $Y'$ is étale over $Y$, hence $X
+\times_{Y} Y'$ is étale over $X$, and therefore the morphism $X' \to X \times_{Y} Y'$ is also étale (I.4.8). Moreover,
+$Y'$ is connected as the image of $X'$, which is connected; hence $X \times_{Y} Y'$ is connected, since $X$ has
+connected fibers over $Y$ (IX.3.4 and V.6.9(iii)). Thus to prove that $X' \to X \times_{Y} Y'$ is an isomorphism, it is
+enough to see that its projection degree at **one** point of $X \times_{Y} Y'$ is equal to 1. This follows easily from
+the hypothesis that $\bar{X}'_{y}$ admits a section over $\bar{X}_{y}$, either by using IX.6.6 or more simply by noting
+that it is enough to prove the existence of such a point in $X \times_{Y} Y'$ after the base change
 $\operatorname{Spec}(\kappa\bar{y}) \to Y$, where this is evident. This proves X.1.3.
 
 Taking IX.3.4 and the dictionary V.6.9 and V.6.11 into account, one can put X.1.3 in the following equivalent form:
@@ -115,9 +115,9 @@ proof is easy in the case of a **proper** morphism $f: X \to Y$ such that $f_{*}
 <!-- original page 264 -->
 
 Indeed, let $Y'$ be étale over $Y$ and suppose $X' = X \times_{Y} Y'$ is the disjoint sum of two nonempty open subsets;
-we prove that the same is true of $Y'$. One has $Y' = \operatorname{Spec}(\mathcal{A})$, hence
-$X' = \operatorname{Spec}(\mathcal{B})$, with $\mathcal{B} = \mathcal{A} \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{X}$, and
-the decomposition of $X'$ as a direct sum corresponds to a decomposition of $\mathcal{B}$ as a product of two nonzero
+we prove that the same is true of $Y'$. One has $Y' = \operatorname{Spec}(\mathcal{A})$, hence $X' =
+\operatorname{Spec}(\mathcal{B})$, with $\mathcal{B} = \mathcal{A} \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{X}$, and the
+decomposition of $X'$ as a direct sum corresponds to a decomposition of $\mathcal{B}$ as a product of two nonzero
 Algebras $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$. Since $f_{*}(\mathcal{O}_{X}) = \mathcal{O}_{Y}$, one easily concludes
 $f_{*}(\mathcal{B}) = \mathcal{A}$, so $\mathcal{A}$ is a sum of two Algebras, also nonzero because their unit sections
 are nonzero, namely $f_{*}(\mathcal{B}_{1})$ and $f_{*}(\mathcal{B}_{2})$.
@@ -159,8 +159,8 @@ homomorphism
 π₁(X ×_k Y,c) → π₁(X,a) × π₁(Y,b)
 ```
 
-deduced from the homomorphisms on fundamental groups associated with the two projections $X \times_{k} Y \to X$ and
-$X \times_{k} Y \to Y$. This homomorphism is an **isomorphism**.
+deduced from the homomorphisms on fundamental groups associated with the two projections $X \times_{k} Y \to X$ and $X
+\times_{k} Y \to Y$. This homomorphism is an **isomorphism**.
 
 First suppose $K = k$. Put $Z = X \times_{k} Y$, consider the projection $f: Z \to Y$ and the locality $y$ of the
 geometric point $b$ of $Y$, and apply X.1.4 to this situation. Notice that, after replacing $X$ by $X_{red}$ (which does
@@ -181,11 +181,10 @@ There is also the canonical exact sequence
 e → π₁(X,a) → π₁(X,a) × π₁(Y,b) → π₁(Y,b) → e,
 ```
 
-where the maps written are the canonical injection and projection. Finally, the canonical homomorphism
-$\pi_{1}(Z, c) \to \pi_{1}(X, a) \times \pi_{1}(Y, b)$, together with the identity maps on the two end terms, gives a
-homomorphism from the first exact sequence to the second. The commutativity of the resulting diagram is immediate. Since
-the homomorphisms on the end terms are isomorphisms, the same is true for the middle terms; this proves X.1.7 in this
-case.
+where the maps written are the canonical injection and projection. Finally, the canonical homomorphism $\pi_{1}(Z, c)
+\to \pi_{1}(X, a) \times \pi_{1}(Y, b)$, together with the identity maps on the two end terms, gives a homomorphism from
+the first exact sequence to the second. The commutativity of the resulting diagram is immediate. Since the homomorphisms
+on the end terms are isomorphisms, the same is true for the middle terms; this proves X.1.7 in this case.
 
 When $K$ is no longer assumed equal to $k$, one obtains only an isomorphism
 
@@ -215,10 +214,10 @@ The fact that this homomorphism is surjective is equivalent to saying that if $X
 then $X' \otimes_{k} k'$ is also connected; this follows at once from the fact that $k$ is algebraically closed, and is
 also a special case of IX.3.4. The properness hypothesis on $X$ has not yet been used.
 
-It remains to say that injectivity of the homomorphism under consideration means: **every étale covering of
-$X \otimes_{k} k'$ is isomorphic to the inverse image of an étale covering of $X$.** It is essentially sorital that one
-can find a sub-$k$-algebra $A$ of $k'$, of finite type over $k$, and an étale covering of $X \otimes_{k} A$ whose
-inverse image on $X \otimes_{k} k'$ is isomorphic to the given covering. Let $Y = \operatorname{Spec}(A)$, an integral
+It remains to say that injectivity of the homomorphism under consideration means: **every étale covering of $X
+\otimes_{k} k'$ is isomorphic to the inverse image of an étale covering of $X$.** It is essentially sorital that one can
+find a sub-$k$-algebra $A$ of $k'$, of finite type over $k$, and an étale covering of $X \otimes_{k} A$ whose inverse
+image on $X \otimes_{k} k'$ is isomorphic to the given covering. Let $Y = \operatorname{Spec}(A)$, an integral
 $k$-scheme of finite type, hence having $k$-rational points. Applying X.1.7 to the fundamental group of $X \times Y$ at
 a point $(a, b)$ rational over $k$, one finds that every connected étale covering of $X \times Y$ is isomorphic to a
 quotient of a covering $X' \times Y'$, where $X'$ and $Y'$ are Galois étale coverings of $X$ and $Y$ with groups $G$ and
@@ -227,8 +226,8 @@ $G'$, by a subgroup $H$ of $G \times G'$.
 It follows that the inverse image of this covering of $X \times Y$ on $X \times Y'$ is isomorphic to a covering of the
 form $X_{1}' \times Y'$, where $X_{1}'$ is an étale covering of $X$. If $L$ is the function field of $Y$, equal to the
 fraction field of $A$ in $k'$, the étale covering of $X \otimes_{k} L$ induced by the given covering of $X \times_{k} Y$
-is such that there exists a finite separable extension $L'$ of $L$ for which the inverse image of that covering on
-$X \otimes_{k} L'$ is isomorphic to $X_{1}' \otimes_{k} L'$. Since $k'$ is algebraically closed, one may suppose the
+is such that there exists a finite separable extension $L'$ of $L$ for which the inverse image of that covering on $X
+\otimes_{k} L'$ is isomorphic to $X_{1}' \otimes_{k} L'$. Since $k'$ is algebraically closed, one may suppose the
 extension $L'$ of $L$ is contained in $k'$. This proves that the given étale covering of $X \otimes_{k} k'$ is
 isomorphic to $X_{1}' \otimes_{k} k'$.
 
@@ -242,12 +241,12 @@ $X \times_{k} Y$ immediately implies:
 
 <!-- label: X.1.9 -->
 
-Let $k$ be an algebraically closed field, let $X$ and $Y$ be two locally noetherian preschemes over $k$, let
-$Z = X \times_{k} Y$ be their product, and let $Z'$ be an étale covering of $Z$. For every point $y \in Y$ rational over
-$k$, let $i_{y}: \operatorname{Spec}(k) \to Y$ be the associated canonical morphism, and let
-$j_{y} = id_{X} \times_{k} i_{y}$ be the corresponding morphism $X \to Z$. Finally, let $X_{y}'$ be the étale covering
-of $X$ obtained as inverse image of $Z'$ by $j_{y}$. Suppose $Y$ connected, and suppose $X$ or $Y$ proper over $k$. Then
-the coverings $X_{y}'$ of $X$ are all isomorphic.
+Let $k$ be an algebraically closed field, let $X$ and $Y$ be two locally noetherian preschemes over $k$, let $Z = X
+\times_{k} Y$ be their product, and let $Z'$ be an étale covering of $Z$. For every point $y \in Y$ rational over $k$,
+let $i_{y}: \operatorname{Spec}(k) \to Y$ be the associated canonical morphism, and let $j_{y} = id_{X} \times_{k}
+i_{y}$ be the corresponding morphism $X \to Z$. Finally, let $X_{y}'$ be the étale covering of $X$ obtained as inverse
+image of $Z'$ by $j_{y}$. Suppose $Y$ connected, and suppose $X$ or $Y$ proper over $k$. Then the coverings $X_{y}'$ of
+$X$ are all isomorphic.
 
 Figuratively, one may say that **a family of étale coverings of $X$, parametrized by a connected prescheme $Y$, is
 constant if $X$ or the parameter prescheme $Y$ is proper over $k$.**
@@ -262,9 +261,7 @@ results become false if the properness hypothesis is dropped, at least in charac
 to be the affine line $X = \operatorname{Spec}(k[t])$, it is not difficult to see that the coverings of $X$,
 parametrized by the affine line $Y = \operatorname{Spec}(k[s])$, defined by the equations
 
-$$
-x^{p} - x = st,
-$$
+$$ x^{p} - x = st, $$
 
 are étale and pairwise non-isomorphic. This contradicts X.1.9 and a fortiori X.1.7; similarly, if $s$ is regarded as a
 transcendental element over $k$ in an algebraically closed extension $K$ of $k$, one obtains an étale covering $X'$ of
@@ -284,9 +281,7 @@ Let $Y$ be the spectrum of a **complete** noetherian local ring, with residue fi
 let $X_{0} = X \otimes_{A} k$; let $a_{0}$ be a geometric point of $X_{0}$; and let $a$ be the corresponding geometric
 point of $X$. Then the canonical homomorphism
 
-$$
-\pi_{1}(X_{0},a_{0}) \to \pi_{1}(X,a)
-$$
+$$ \pi_{1}(X_{0},a_{0}) \to \pi_{1}(X,a) $$
 
 is an **isomorphism**.
 
@@ -294,8 +289,8 @@ This is only a translation, into the language of the fundamental group, of the r
 that the existence theorem for sheaves in algebraic-formal geometry enters essentially into the theory of the
 fundamental group.
 
-Now introduce an algebraic closure $\bar{k}$ of the residue field $k$, and the geometric fiber
-$\bar{X}_{0} = X_{0} \otimes_{k} \bar{k}$. We have the exact sequence (IX.6.1)
+Now introduce an algebraic closure $\bar{k}$ of the residue field $k$, and the geometric fiber $\bar{X}_{0} = X_{0}
+\otimes_{k} \bar{k}$. We have the exact sequence (IX.6.1)
 
 ```text
 e → π₁(X̄₀,ā) → π₁(X₀,a₀) → π₁(k,k̄) → e.
@@ -303,9 +298,7 @@ e → π₁(X̄₀,ā) → π₁(X₀,a₀) → π₁(k,k̄) → e.
 
 On the other hand, we have the isomorphism X.2.1 and the analogous, more elementary isomorphism
 
-$$
-\pi_{1}(k,\bar{k}) \to \pi_{1}(Y,b),
-$$
+$$ \pi_{1}(k,\bar{k}) \to \pi_{1}(Y,b), $$
 
 where $b$ is the image of $a$ in $Y$. Thus one obtains:
 
@@ -322,8 +315,8 @@ e → π₁(X̄₀,ā) → π₁(X,a₀) → π₁(Y,b₀) → e.
 ```
 
 Compare this sequence with the exact sequence X.1.4, but note that: a) no flatness or fiberwise separability hypothesis
-has had to be made for $X \to Y$; b) one has the important supplement that **the morphism
-$\pi_{1}(\bar{X}_{0}, \bar{a}_{0}) \to \pi_{1}(X, a_{0})$ is injective.**
+has had to be made for $X \to Y$; b) one has the important supplement that **the morphism $\pi_{1}(\bar{X}_{0},
+\bar{a}_{0}) \to \pi_{1}(X, a_{0})$ is injective.**
 
 This last fact will allow us to compare the fundamental group of the other
 
@@ -346,9 +339,7 @@ one obtains a canonical homomorphism, which we shall call **the specialization h
 It depends only on the chosen path class from $a_{1}$ to $a_{0}$, and is therefore **defined modulo inner automorphism
 of** $\pi_{1}(X, a_{0})$:
 
-$$
-\pi_{1}(\bar{X}_{1},\bar{a}_{1}) \to \pi_{1}(\bar{X}_{0},\bar{a}_{0}).
-$$
+$$ \pi_{1}(\bar{X}_{1},\bar{a}_{1}) \to \pi_{1}(\bar{X}_{0},\bar{a}_{0}). $$
 
 When the first row above is also exact, it follows at once that the specialization homomorphism is surjective. Thus,
 taking X.1.4 into account:
@@ -377,9 +368,7 @@ fibers of $X$ corresponding to given algebraically closed extensions of $\kappa(
 $\bar{a}_{0}$, respectively $\bar{a}_{1}$, be a geometric point of $\bar{X}_{0}$, respectively $\bar{X}_{1}$. Then one
 can define naturally a specialization homomorphism
 
-$$
-\pi_{1}(\bar{X}_{1},\bar{a}_{1}) \to \pi_{1}(\bar{X}_{0},\bar{a}_{0}),
-$$
+$$ \pi_{1}(\bar{X}_{1},\bar{a}_{1}) \to \pi_{1}(\bar{X}_{0},\bar{a}_{0}), $$
 
 defined up to inner automorphism, and it is **surjective** if $f$ is separable (X.1.1).
 
@@ -449,13 +438,11 @@ Thus the fundamental group of $X$ admits `2g` **topological** generators $s_{i},
 preceding single relation.
 
 If now $k$ has characteristic $p > 0$, let $A$ be the ring of Witt vectors built from $k$, and let $K$ be an
-algebraically closed extension of its fraction field. We saw in III.7.4 that there exists a scheme $X$ over
-$Y = \operatorname{Spec}(A)$, proper and smooth over $Y$, reducing to $X_{0}$. Applying X.2.3 to it, one obtains a
+algebraically closed extension of its fraction field. We saw in III.7.4 that there exists a scheme $X$ over $Y =
+\operatorname{Spec}(A)$, proper and smooth over $Y$, reducing to $X_{0}$. Applying X.2.3 to it, one obtains a
 **surjective** morphism
 
-$$
-\pi_{1}(X_{1}) \to \pi_{1}(X_{0}),
-$$
+$$ \pi_{1}(X_{1}) \to \pi_{1}(X_{0}), $$
 
 where $X_{1} = X \otimes_{A} K$. It is immediate (cf. EGA IV 12.2) that $X_{1}$ is smooth over $K$, connected (X.1.2),
 of dimension 1, and that its genus is equal to $g$, by invariance of the Euler-Poincaré characteristic (cf. EGA III 7).
@@ -531,15 +518,15 @@ These assertions follow from:
 
 <!-- label: X.2.11 -->
 
-Under the preceding conditions, let $X'$ be a connected étale covering of $X$, and let
-$Y' = X' \times_{X} Y = X' \times_{\mathbb{P}^{r}} H$ be the induced covering on $Y$. Then $Y'$ is connected.
+Under the preceding conditions, let $X'$ be a connected étale covering of $X$, and let $Y' = X' \times_{X} Y = X'
+\times_{\mathbb{P}^{r}} H$ be the induced covering on $Y$. Then $Y'$ is connected.
 
 Since $X$ is normal, $X'$ is normal; being connected, it is irreducible, and its image in $\mathbb{P}^{r}_{k}$ has
 dimension $\geq 2$. A well-known lemma due to Zariski, called the **Bertini theorem**, implies that if $H_{1}'$ is the
-generic hyperplane in $\mathbb{P}^{r}_{k}$, defined over an extension $K$ of $k$, then
-$X' \times_{\mathbb{P}^{r}} H_{1}$ is universally irreducible, hence universally connected over $K$. Zariski’s
-connectedness theorem (EGA III 4) then implies that for **every** hyperplane $H$, defined over any extension of $k$,
-$X' \times_{\mathbb{P}^{r}} H$ is geometrically connected. This proves X.2.11, hence X.2.9.
+generic hyperplane in $\mathbb{P}^{r}_{k}$, defined over an extension $K$ of $k$, then $X' \times_{\mathbb{P}^{r}}
+H_{1}$ is universally irreducible, hence universally connected over $K$. Zariski’s connectedness theorem (EGA III 4)
+then implies that for **every** hyperplane $H$, defined over any extension of $k$, $X' \times_{\mathbb{P}^{r}} H$ is
+geometrically connected. This proves X.2.11, hence X.2.9.
 
 **Corollary (Lang-Serre).**
 
@@ -615,10 +602,10 @@ the equivalent statement:
 <!-- label: X.3.2 -->
 
 Let $A$ be a regular noetherian local ring, and let $A \to B$ be an injective local homomorphism such that $B$ is
-normal, a localization of a finite-type $A$-algebra, and **quasi-finite** over $A$. Suppose moreover that
-$\dim A (= \dim B) \geq 2$, and that for every prime ideal $\mathfrak{p}$ of $B$ distinct from the maximal ideal, $B$ is
-étale over $A$ at $\mathfrak{p}$, that is, $B_{\mathfrak{p}}$ is étale over $A_{\mathfrak{q}}$, where
-$\mathfrak{q} = A \cap \mathfrak{p}$. Then $B$ is étale over $A$.
+normal, a localization of a finite-type $A$-algebra, and **quasi-finite** over $A$. Suppose moreover that $\dim A (=
+\dim B) \geq 2$, and that for every prime ideal $\mathfrak{p}$ of $B$ distinct from the maximal ideal, $B$ is étale over
+$A$ at $\mathfrak{p}$, that is, $B_{\mathfrak{p}}$ is étale over $A_{\mathfrak{q}}$, where $\mathfrak{q} = A \cap
+\mathfrak{p}$. Then $B$ is étale over $A$.
 
 It is not difficult to reduce this last statement to the case where $A$ is a **complete** local ring, hence where $B$ is
 **finite** over $A$. Zariski [X.5] gives a simple proof of this result, valid in the equal-characteristic case. The
@@ -631,8 +618,8 @@ terminology: cohomological codimension) $\geq 2$; hence it is an $A$-module of d
 dimension 2, it follows that $B$ is a **free module** over $A$. [Translator note: the source refers to EGA 0_IV 17.3.4.]
 It then follows from I.4.10 that the set of prime ideals $\mathfrak{q}$ of $A$ at which $B$ is ramified over $A$ is the
 subset of $\operatorname{Spec}(A)$ defined by a principal ideal (generated by the discriminant of a basis of $B$ over
-$A$). Thus it is empty if it is contained in the closed point of $\operatorname{Spec}(A)$, proving X.3.2 when
-$\dim A = 2$.
+$A$). Thus it is empty if it is contained in the closed point of $\operatorname{Spec}(A)$, proving X.3.2 when $\dim A =
+2$.
 
 We shall mainly use X.3.1 in the following equivalent form:
 
@@ -646,8 +633,8 @@ coverings of $X$ to the category of étale coverings of $U$ is an equivalence
 
 <!-- original page 277 -->
 
-of categories. In particular, if $a$ is a geometric point of $U$, the canonical homomorphism
-$\pi_{1}(U, a) \to \pi_{1}(X, a)$ is an isomorphism.
+of categories. In particular, if $a$ is a geometric point of $U$, the canonical homomorphism $\pi_{1}(U, a) \to
+\pi_{1}(X, a)$ is an isomorphism.
 
 The last assertion is plainly a consequence of the first; for the first, one may plainly suppose $X$ connected, hence
 irreducible. The normality of $X$ already implies that the functor $X' \mapsto X' \times_{X} U$ from the category of
@@ -670,16 +657,14 @@ $f$ is defined on an open subset $U$ whose complement is a closed subset of codi
 functor, defined up to isomorphism, from the category of étale coverings of $Y$ to the category of étale coverings of
 $X$; hence for every geometric point $a$ of $U$, with image $b$ in $Y$, a canonical homomorphism
 
-$$
-\pi_{1}(X,a) \to \pi_{1}(Y,b),
-$$
+$$ \pi_{1}(X,a) \to \pi_{1}(Y,b), $$
 
 <!-- original page 278 -->
 
-deduced from the canonical homomorphism $\pi_{1}(U, a) \to \pi_{1}(Y, b)$ by means of the isomorphism
-$\pi_{1}(U, a) \simeq \pi_{1}(X, a)$. When $f$ is a dominant morphism, with $X$ and $Y$ integral of function fields $K$
-and $L$, so that $K$ is an extension of $L$, and with $Y$ normal, these correspondences become more precise in terms of
-field extensions: for every finite extension $L'$ of $L$ unramified over $Y$, the $K$-algebra $K' = L' \otimes_{L} K$ is
+deduced from the canonical homomorphism $\pi_{1}(U, a) \to \pi_{1}(Y, b)$ by means of the isomorphism $\pi_{1}(U, a)
+\simeq \pi_{1}(X, a)$. When $f$ is a dominant morphism, with $X$ and $Y$ integral of function fields $K$ and $L$, so
+that $K$ is an extension of $L$, and with $Y$ normal, these correspondences become more precise in terms of field
+extensions: for every finite extension $L'$ of $L$ unramified over $Y$, the $K$-algebra $K' = L' \otimes_{L} K$ is
 unramified over $X$.
 
 In particular, these reflections show that the fundamental group of connected locally noetherian regular preschemes,
@@ -735,9 +720,9 @@ normal closure $V'$ of $V$ in $K'$.
 Indeed, let $W'$ be the normalization of $V'$ in $L'$, let $\mathfrak{m}'$ be a maximal ideal of $V'$, let
 $\mathfrak{n}'$ be a maximal ideal of $W'$ above $\mathfrak{m}'$, and let $\mathfrak{n}$ be the maximal ideal that it
 induces on the normalization $W$ of $V$ in $L$. Let $G$, $H$, $M$ be the Galois groups of $L$, $K'$, $L'$ over $K$, and
-let $G_{i}$, $H_{i}$, $M_{i}$ be the inertia groups corresponding to the chosen maximal ideals. Then $M$ embeds in
-$G \times H$ and $M_{i}$ in $G_{i} \times H_{i}$, in such a way that the projections $M \to G$ and $M \to H$, and
-$M_{i} \to G_{i}$
+let $G_{i}$, $H_{i}$, $M_{i}$ be the inertia groups corresponding to the chosen maximal ideals. Then $M$ embeds in $G
+\times H$ and $M_{i}$ in $G_{i} \times H_{i}$, in such a way that the projections $M \to G$ and $M \to H$, and $M_{i}
+\to G_{i}$
 
 <!-- original page 280 -->
 
@@ -750,9 +735,7 @@ which proves that $L'$ is unramified over $K'$ at $\mathfrak{n}'$. This proves t
 
 Place ourselves now under the conditions of X.2.4, where one has a **surjective** specialization homomorphism
 
-$$
-\pi_{1}(\bar{X}_{1},\bar{a}_{1}) \to \pi_{1}(\bar{X}_{0},\bar{a}_{0})
-$$
+$$ \pi_{1}(\bar{X}_{1},\bar{a}_{1}) \to \pi_{1}(\bar{X}_{0},\bar{a}_{0}) $$
 
 relative to a proper and separable morphism $f: X \to Y$. We want to make its kernel more precise. Proceeding as in the
 proof of X.2.4, one sees that for this question one may always suppose that $Y$ is the spectrum of a **complete discrete
@@ -792,9 +775,9 @@ $K_{s}$ such that $Z_{K''} = Z_{K'} \otimes_{K'} K''$ is isomorphic to $Z \otime
 Now, for a finite subextension $K'$ of $K_{s}$, denote by $V'$ the normalization of $V$ in $K'$. This is a complete
 discrete valuation ring with residue field $k$. The canonical morphism $X_{V'} \to X_{V}$ therefore induces an
 isomorphism on the fibers above the closed points of $Y = \operatorname{Spec}(V)$ and $Y' = \operatorname{Spec}(V')$;
-applying X.2.1 to `X_V` and $X_{V'}$, it follows that the induced homomorphism on fundamental groups
-$\pi_{1}(X_{V'}) \to \pi_{1}(X_{V})$ is an isomorphism. Equivalently, every principal covering of $X_{V'}$ is the
-inverse image of a principal covering of `X_V`, determined up to isomorphism. This implies:
+applying X.2.1 to `X_V` and $X_{V'}$, it follows that the induced homomorphism on fundamental groups $\pi_{1}(X_{V'})
+\to \pi_{1}(X_{V})$ is an isomorphism. Equivalently, every principal covering of $X_{V'}$ is the inverse image of a
+principal covering of `X_V`, determined up to isomorphism. This implies:
 
 **Lemma.**
 
@@ -831,8 +814,8 @@ Now note that if $u'$ is a uniformizer of $V'$, it is also a uniformizer of $\ma
 to the characteristic $p$ of $k$, and if one takes $K'' = K'[t]/(t^{n} - u')$, then $K''$ is a finite Galois extension
 of $K'$ and $L''$ is isomorphic to $L'[t]/(t^{n} - u')$, hence is tamely ramified over $\mathfrak{o}'$ with inertia
 group of order $n$. Suppose now that $G$ has order prime to $p$. Then $R'$ is tamely ramified over $\mathfrak{o}'$. Take
-$n$ to be a multiple prime to $p$ of the order of the inertia group of $R'$ over $\mathfrak{o}'$, for example
-$n = [G:e]$. Applying Abhyankar’s lemma X.3.6, one sees that the condition considered in X.3.7 is satisfied.
+$n$ to be a multiple prime to $p$ of the order of the inertia group of $R'$ over $\mathfrak{o}'$, for example $n =
+[G:e]$. Applying Abhyankar’s lemma X.3.6, one sees that the condition considered in X.3.7 is satisfied.
 
 This proves the following theorem:
 
@@ -844,9 +827,7 @@ Let $f: X \to Y$ be a proper and smooth morphism with geometrically connected fi
 $y_{0}$ and $y_{1}$ be two points of $Y$ such that $y_{0} \in cl({y_{1}})$, let $\bar{X}_{0}$ and $\bar{X}_{1}$ be the
 corresponding geometric fibers, and consider the specialization homomorphism of X.2.4
 
-$$
-\pi_{1}(\bar{X}_{1}) \to \pi_{1}(\bar{X}_{0}).
-$$
+$$ \pi_{1}(\bar{X}_{1}) \to \pi_{1}(\bar{X}_{0}). $$
 
 This homomorphism is surjective, and every continuous homomorphism from $\pi_{1}(\bar{X}_{1})$ to a finite group $G$ of
 order prime to the characteristic $p$ of $\kappa(y_{0})$ comes from a homomorphism from $\pi_{1}(\bar{X}_{0})$ to $G$.
@@ -867,9 +848,7 @@ $\pi_{1}(\bar{X}_{1})$. Thus, if $\pi_{1}(\bar{X}_{1})^{p}$ denotes the quotient
 preceding closed subgroup, and if $\pi_{1}(\bar{X}_{0})^{p}$ is defined similarly, then the specialization homomorphism
 induces an **isomorphism**
 
-$$
-\pi_{1}(\bar{X}_{1})^{p} \simeq \pi_{1}(\bar{X}_{0})^{p}.
-$$
+$$ \pi_{1}(\bar{X}_{1})^{p} \simeq \pi_{1}(\bar{X}_{0})^{p}. $$
 
 Notice that the proof of X.3.8 is purely algebraic. Proceeding as in X.2.6, one concludes by **transcendental methods**:
 

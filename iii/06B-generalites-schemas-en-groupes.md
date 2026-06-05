@@ -61,10 +61,10 @@ We may further assume $G$ and $H$ irreducible and of finite type and $u$ dominan
 closed, it is clear that the connected components of $G$, on the set of which $G(k)$ acts transitively, all have the
 same dimension, and that if $u^{0}$ denotes the restriction of $u$ to $G^{0}$, then $(Ker u)^{0} \subset Ker u^{0}$, and
 `dim Ker u⁰ = dim Ker u`. One sees likewise that $u$ is then of finite type over $k$. If $\eta$ denotes the generic
-point of $H$, one has `dim u⁻¹(η) = dim G − dim H` (EGA IV₃, 10.6.1 (ii)). By EGA IV₃, 9.2.3 and 9.2.6, the set of
-$y \in H$ such that $\dim u^{-1}(y) = \dim u^{-1}(\eta)$ contains a non-empty open subset $V$. Since $u$ is dominant,
-$U = u^{-1}(V)$ is then a non-empty open subset of $G$ and contains a closed point $x$ of $G$, since $G$ is a Jacobson
-scheme (EGA IV₃, 10.4.7). Then right translation $r_{x}$ is an isomorphism of `Ker u` onto $u^{-1}(u(x))$, so that:
+point of $H$, one has `dim u⁻¹(η) = dim G − dim H` (EGA IV₃, 10.6.1 (ii)). By EGA IV₃, 9.2.3 and 9.2.6, the set of $y
+\in H$ such that $\dim u^{-1}(y) = \dim u^{-1}(\eta)$ contains a non-empty open subset $V$. Since $u$ is dominant, $U =
+u^{-1}(V)$ is then a non-empty open subset of $G$ and contains a closed point $x$ of $G$, since $G$ is a Jacobson scheme
+(EGA IV₃, 10.4.7). Then right translation $r_{x}$ is an isomorphism of `Ker u` onto $u^{-1}(u(x))$, so that:
 
 ```text
 dim Ker u = dim u⁻¹(u(x)) = dim u⁻¹(η) = dim G − dim H.
@@ -190,10 +190,9 @@ denote the morphism $C \to D$ deduced from $u$. Let $k$ be the residue field of 
 change $\operatorname{Spec} k \to \operatorname{Spec} A$ is a universal homeomorphism, we may assume $A = k$. By
 hypothesis, $u'$ is dominant and, since $C$ is of finite type over $k$ (VI_A, 2.4.1) and hence noetherian, $u'$ is
 quasi-compact. By EGA IV₂, 2.3.7, $u' \otimes_{k} \bar{k}$ is again quasi-compact and dominant, where $\bar{k}$ denotes
-an algebraic closure of $k$. Then, since $C \otimes_{k} \bar{k}$ is a union of connected components of
-$G \otimes_{k} \bar{k}$, the morphism $u \otimes_{k} \bar{k} : G \otimes_{k} \bar{k} \to H \otimes_{k} \bar{k}$
-satisfies assertion (v). We are thus reduced to the case where $A = k$ is an algebraically closed field, taking into
-account EGA IV₂, 2.6.4.
+an algebraic closure of $k$. Then, since $C \otimes_{k} \bar{k}$ is a union of connected components of $G \otimes_{k}
+\bar{k}$, the morphism $u \otimes_{k} \bar{k} : G \otimes_{k} \bar{k} \to H \otimes_{k} \bar{k}$ satisfies assertion
+(v). We are thus reduced to the case where $A = k$ is an algebraically closed field, taking into account EGA IV₂, 2.6.4.
 
 In this case, we may further replace $u$ by $u_{red}$, and we are reduced to the case where $H$ is reduced. Let then
 $\xi$ (resp. $\eta$) be the generic point of $C$ (resp. $D$). Since $u'$ is quasi-compact and dominant, $u'(\xi) = \eta$
@@ -217,9 +216,9 @@ locally of finite type. The following assertions are equivalent:*
 hypotheses that $u$ is of finite type and, since $G$ is separated (VI_A, 0.3), so is $u$ (EGA I, 5.5.1). It therefore
 remains to show that assertion (ii) implies that $u$ is universally closed, so that we may assume $A$ equal to its
 residue field $k$.[^N.D.E-VI_B-12] Let $k'$ be an algebraic closure of $\kappa(h)$, $u' : G' \to H'$ the morphism
-deduced from $u$ by base change, and $h'$ a point of $H'$ above $h$; then the fiber
-$u'^{-1}(h') = u^{-1}(h) \times_{\kappa(h)} k'$ is non-empty and proper, and it suffices to show that $u'$ is proper
-(EGA IV₂, 2.6.4). We may therefore assume that $k$ is algebraically closed and $h \in H(k)$.
+deduced from $u$ by base change, and $h'$ a point of $H'$ above $h$; then the fiber $u'^{-1}(h') = u^{-1}(h)
+\times_{\kappa(h)} k'$ is non-empty and proper, and it suffices to show that $u'$ is proper (EGA IV₂, 2.6.4). We may
+therefore assume that $k$ is algebraically closed and $h \in H(k)$.
 
 <!-- original page 336 -->
 
@@ -230,13 +229,13 @@ $u^{-1}(y)$ is therefore proper over $\kappa(y)$. By EGA IV₃, 9.6.1, the set o
 proper over $\kappa(y)$ is locally constructible; since it contains no closed point, it is empty (cf. EGA IV₃, 10.3.1
 and 10.4.7).
 
-[^N.D.E-VI_B-13] Consider now the generic point $\eta$ of $H^{0}$; by what precedes, the fiber
-$u^{-1}(\eta) = G \times_{H} \operatorname{Spec} \kappa(\eta)$ is proper over $\kappa(\eta)$. On the other hand, since
-$H$ is reduced, $\kappa(\eta)$ equals $O_{H,\eta}$. Since $O_{H,\eta}$ is the direct limit of the rings $O_{H}(V)$, as
-$V$ runs through the non-empty open subsets of $H^{0}$, it follows from EGA IV₃, 8.1.2 a) and 8.10.5 (xii), that there
-exists a non-empty open subset $V$ of $H^{0}$ such that the restriction of $u$ over $V$ is proper. It is then clear that
-the $g \cdot V$, for $g \in G(k)$, form an open cover of $H$ such that, for every $g \in G(k)$, the restriction of $u$
-over the open $g \cdot V$ is proper; one deduces that $u$ is proper (cf. EGA II, 5.4.1). ∎
+[^N.D.E-VI_B-13] Consider now the generic point $\eta$ of $H^{0}$; by what precedes, the fiber $u^{-1}(\eta) = G
+\times_{H} \operatorname{Spec} \kappa(\eta)$ is proper over $\kappa(\eta)$. On the other hand, since $H$ is reduced,
+$\kappa(\eta)$ equals $O_{H,\eta}$. Since $O_{H,\eta}$ is the direct limit of the rings $O_{H}(V)$, as $V$ runs through
+the non-empty open subsets of $H^{0}$, it follows from EGA IV₃, 8.1.2 a) and 8.10.5 (xii), that there exists a non-empty
+open subset $V$ of $H^{0}$ such that the restriction of $u$ over $V$ is proper. It is then clear that the $g \cdot V$,
+for $g \in G(k)$, form an open cover of $H$ such that, for every $g \in G(k)$, the restriction of $u$ over the open $g
+\cdot V$ is proper; one deduces that $u$ is proper (cf. EGA II, 5.4.1). ∎
 
 **Corollary 1.4.1.** *Let $A$ be an Artinian local ring, and $u : G \to H$ a morphism between $A$-groups locally of
 finite type. The following assertions are equivalent:*
@@ -272,9 +271,9 @@ One is thus reduced to the case where $k$ is algebraically closed.
 
 <!-- original page 337 -->
 
-Let then $g$ be a closed point of $C$. If $u^{0} : G^{0} \to H$ is the restriction of $u$ to $G^{0}$, one has
-$u' = r_{u(g)} \circ u^{0} \circ r^{-1}_{g}$, where $r_{g}$ denotes right translation by $g$. Therefore, to show that
-$u'$ is proper, it suffices to show that $u^{0}$ is. By hypothesis, $u$ is locally quasi-finite, so the fiber `Ker u` is
+Let then $g$ be a closed point of $C$. If $u^{0} : G^{0} \to H$ is the restriction of $u$ to $G^{0}$, one has $u' =
+r_{u(g)} \circ u^{0} \circ r^{-1}_{g}$, where $r_{g}$ denotes right translation by $g$. Therefore, to show that $u'$ is
+proper, it suffices to show that $u^{0}$ is. By hypothesis, $u$ is locally quasi-finite, so the fiber `Ker u` is
 discrete (and non-empty); we have seen that $u^{0}$ is of finite type, so the fiber $Ker u^{0}$ is finite (cf. EGA II,
 6.2.2), hence proper and non-empty. Therefore $u^{0}$ is proper by 1.4. ∎
 
@@ -318,26 +317,26 @@ We shall use later the two following results, which should have appeared in Expo
 <!-- original page 338 -->
 
 [^N.D.E-VI_B-17] Assertion (i) has already been proved in (VI_A, 2.4.1), and assertion (ii) follows from it. Indeed, let
-$g$ be a point of $G$ and $C$ the connected component of $G$ containing $g$. By definition (EGA 0_IV, 14.1.2),
-$\dim_{g} G$ is the infimum of the integers $\dim U$, as $U$ runs through the open neighborhoods of $g$; one therefore
-has $\dim_{g} G = \dim U_{0}$ for some `U_0`, which one may assume contained in $C$ (since $\dim V \leq \dim U$ if
-$V \subset U$). Then, since $C$ is irreducible and of finite type over $k$ (VI_A, 2.4.1), one has
+$g$ be a point of $G$ and $C$ the connected component of $G$ containing $g$. By definition (EGA 0_IV, 14.1.2), $\dim_{g}
+G$ is the infimum of the integers $\dim U$, as $U$ runs through the open neighborhoods of $g$; one therefore has
+$\dim_{g} G = \dim U_{0}$ for some `U_0`, which one may assume contained in $C$ (since $\dim V \leq \dim U$ if $V
+\subset U$). Then, since $C$ is irreducible and of finite type over $k$ (VI_A, 2.4.1), one has
 `dim U_0 = dim C = tr.deg_k κ(ξ)`, where $\xi$ is the generic point of $C$, by EGA IV₂, 5.2.1. Hence
 `dim_g G = dim C = dim G`. ∎
 
 **Proposition 1.6.** [^N.D.E-VI_B-18] *Let $S$ be a scheme of characteristic zero and $G$ an $S$-group scheme, locally
 of finite presentation over $S$ at every point of the unit section $\epsilon(S)$. For $G$ to be smooth over $S$ at every
-point of the unit section, it is necessary and sufficient that the `O_S`-module
-$\omega_{G/S} = \epsilon*(\Omega^{1}_{G/S})$ (called the conormal module to the unit section of $G$) be locally free.*
+point of the unit section, it is necessary and sufficient that the `O_S`-module $\omega_{G/S} =
+\epsilon*(\Omega^{1}_{G/S})$ (called the conormal module to the unit section of $G$) be locally free.*
 
 <!-- label: III.VI_B.1.6 -->
 
 Recall that a scheme $S$ is said to be *of characteristic zero* if for every closed point $x$ of $S$, the field
 $\kappa(x)$ has characteristic zero.
 
-Recall also (II 4.11) that, if $\pi$ denotes the structural morphism $G \to S$, one has
-$\Omega^{1}_{G/S} = \pi*(\omega_{G/S})$, so that it comes to the same thing to say that the `O_S`-module $\omega_{G/S}$
-is locally free, or that the `O_G`-module $\Omega^{1}_{G/S}$ is locally free.
+Recall also (II 4.11) that, if $\pi$ denotes the structural morphism $G \to S$, one has $\Omega^{1}_{G/S} =
+\pi*(\omega_{G/S})$, so that it comes to the same thing to say that the `O_S`-module $\omega_{G/S}$ is locally free, or
+that the `O_G`-module $\Omega^{1}_{G/S}$ is locally free.
 
 If there exists an open neighborhood $U$ of $\epsilon(S)$ which is smooth over $S$, then, by EGA IV₄, 17.2.3,
 $\Omega^{1}_{U/S}$ is locally free of finite type, as well as $\omega_{G/S} = \epsilon*(\Omega^{1}_{U/S})$.
@@ -427,8 +426,8 @@ $W_{1} = g(W'_{1})$ is an open subset of $Y$. Set $V_{1} = f^{-1}(W_{1})$ and $V
 is clear that $V'_{1} = f'^{-1}(W'_{1})$. Since $g$ is flat and open, the morphism $W'_{1} \to W_{1} = g(W'_{1})$
 deduced from $g$ is faithfully flat and open, hence covering for the (fpqc) topology (cf. IV 6.3.1 (iv)). Since the
 morphism $V'_{1} \to W'_{1}$ deduced from $f'$ satisfies $P(u)$, the same holds for the morphism $V_{1} \to W_{1}$
-deduced from $f$; hence $W_{1} \subset W$, and $W'_{1} \subset g^{-1}(W_{1}) \subset g^{-1}(W) = W'$; therefore
-$W' = W'_{1}$. ∎
+deduced from $f$; hence $W_{1} \subset W$, and $W'_{1} \subset g^{-1}(W_{1}) \subset g^{-1}(W) = W'$; therefore $W' =
+W'_{1}$. ∎
 
 **Remark 2.1.2.** *A great many properties of a morphism are local in nature for the (fpqc) topology; let us mention the
 properties of being flat, (universally) open, (locally) of finite type, of finite presentation, quasi-finite (cf. EGA
@@ -486,11 +485,11 @@ $\pi_{G}$, or as the composition of the restriction of $u$ to $V$ and $\pi_{H}$ 
 universally open. Set $U = \pi_{V}(V)$; $U$ is then open in $S$. It suffices to show that $V$ is an open group subscheme
 of $G|_{U}$. We may therefore assume $U = S$.
 
-Set as before $G' = G \times_{S} V$, $H' = H \times_{S} V$, $V' = V \times_{S} V$ and $u' = u_{(V)}$. Then
-$\pi_{V} : V \to S$ is surjective and universally open, the same is true of $G' \to G$, so that $V'$ is the largest open
-subset of $G'$ such that the restriction of $u'$ to $V'$ is universally open, by virtue of (EGA IV₃, 14.3.4 (i) and
-(ii)). With the automorphisms $a$ and $b$ defined as before, it is then clear that $V'$ is stable under $a$, hence $V$
-is a group subscheme of $G$. ∎
+Set as before $G' = G \times_{S} V$, $H' = H \times_{S} V$, $V' = V \times_{S} V$ and $u' = u_{(V)}$. Then $\pi_{V} : V
+\to S$ is surjective and universally open, the same is true of $G' \to G$, so that $V'$ is the largest open subset of
+$G'$ such that the restriction of $u'$ to $V'$ is universally open, by virtue of (EGA IV₃, 14.3.4 (i) and (ii)). With
+the automorphisms $a$ and $b$ defined as before, it is then clear that $V'$ is stable under $a$, hence $V$ is a group
+subscheme of $G$. ∎
 
 <!-- original page 333 -->
 
@@ -500,8 +499,8 @@ group subscheme of $G|_{U}$.*
 
 <!-- label: III.VI_B.2.3 -->
 
-It suffices to apply 2.2 in the case where $H$ is the unit $S$-group and $u$ is the unique morphism of $S$-groups
-$G \to H$, since then $\pi_{H}$ is an isomorphism and $\pi_{G} = \pi_{H} \circ u$. ∎
+It suffices to apply 2.2 in the case where $H$ is the unit $S$-group and $u$ is the unique morphism of $S$-groups $G \to
+H$, since then $\pi_{H}$ is an isomorphism and $\pi_{G} = \pi_{H} \circ u$. ∎
 
 **Corollary 2.4.** *Let $G$ be an $S$-group; if there exists a neighborhood $X$ of the unit section having one (or
 several) of the following properties:*
@@ -512,17 +511,15 @@ several) of the following properties:*
 
 <!-- label: III.VI_B.2.4 -->
 
-It suffices to apply 2.3, remarking that here, with the notations of 2.2, one has $\epsilon(S) \subset V$, hence
-$U = S$. ∎
+It suffices to apply 2.3, remarking that here, with the notations of 2.2, one has $\epsilon(S) \subset V$, hence $U =
+S$. ∎
 
 **Proposition 2.5.** [^N.D.E-VI_B-20] *Let $u : G \to H$ be a morphism of $S$-groups.*
 
 *(i) Suppose that $G$ (resp. $H$) is of finite presentation and flat (resp. of finite type) over $S$ at the points of
 its unit section. Then the sets:*
 
-$$
-U_{flat} \supset U_{smooth} \supset U_{\acute{e}}t,
-$$
+$$ U_{flat} \supset U_{smooth} \supset U_{\acute{e}}t, $$
 
 *formed of the points $s \in S$ such that $u_{s}$ is flat (resp. smooth, étale), are open in $S$.*
 
@@ -534,9 +531,7 @@ is the inverse image under $\pi_{G}$ of $U_{flat}$ (resp. $U_{smooth}$, $U_{\acu
 $G$ is of finite type over $S$ at the points of the unit section (1.3.1.1)), and that $u$ is locally of finite type
 (resp. locally of finite presentation) at the points of the unit section of $G$. Then the sets:*
 
-$$
-U_{l}.q.f. \supset U_{n}.r.
-$$
+$$ U_{l}.q.f. \supset U_{n}.r. $$
 
 *formed of the $s \in S$ such that $u_{s}$ is locally quasi-finite (resp. unramified) are open in $S$.*
 
@@ -565,14 +560,14 @@ Let $x \in X$ and set $s = \pi_{X}(x)$; then by EGA IV₂, 11.3.10 (combined wit
 belongs to $W_{flat}$ (resp. $W_{smooth}$, $W_{\acute{e}}t$) if and only if $u_{s}$ is flat (resp. smooth, étale) at the
 point $x$, or, what comes to the same by 1.3, if and only if $u_{s}$ is flat (resp. smooth, étale).
 
-Consequently, for "♭ = flat, smooth or étale", one has $U_{\flat} = \epsilon^{-1}_{G}(W_{\flat})$ and
-$W_{\flat} = \pi^{-1}_{X}(U_{\flat})$. Since $W_{\flat}$ is open in $X$, hence in $G$, the first equality shows that
-$U_{\flat}$ is open in $S$.
+Consequently, for "♭ = flat, smooth or étale", one has $U_{\flat} = \epsilon^{-1}_{G}(W_{\flat})$ and $W_{\flat} =
+\pi^{-1}_{X}(U_{\flat})$. Since $W_{\flat}$ is open in $X$, hence in $G$, the first equality shows that $U_{\flat}$ is
+open in $S$.
 
 <!-- original page 335 -->
 
-The second assertion of (i) follows from what has just been seen, since then $Y = H$, $X = G$, and
-$V_{\flat} = W_{\flat} = \pi^{-1}_{G}(U_{\flat})$.
+The second assertion of (i) follows from what has just been seen, since then $Y = H$, $X = G$, and $V_{\flat} =
+W_{\flat} = \pi^{-1}_{G}(U_{\flat})$.
 
 Let us show assertion (ii). Let $V_{l}.t.f. \supset V_{l}.q.f.$ be the open subsets of $G$ formed by the points at which
 $u$ is of finite type (resp. quasi-finite). Set $X = V_{l}.t.f.$ and denote by $u_{X}$ the restriction of $u$ to $X$. By
@@ -593,8 +588,8 @@ If moreover $G$ is locally of finite type over $S$, then $X = G$, and so $V_{l}.
 $\pi_{G}$ of $U_{l}.q.f.$. This proves the first half of (ii).
 
 Consider now the open subsets $V_{l}.p.f. \supset V_{n}.r.$, formed by the points where $u$ is of finite presentation
-(resp. unramified), and suppose that $Z = V_{l}.p.f.$ contains the unit section of $G$. Let $z \in Z$; set
-$s = \pi_{Z}(z)$ and $h = u_{Z}(z)$.
+(resp. unramified), and suppose that $Z = V_{l}.p.f.$ contains the unit section of $G$. Let $z \in Z$; set $s =
+\pi_{Z}(z)$ and $h = u_{Z}(z)$.
 
 If $u$ is unramified at $z$, then, by base change, $u_{s}$ is unramified at $z$, and so, since $G_{s}$ is assumed
 locally of finite type, $u_{s}$ is unramified by 1.3.1.
@@ -684,8 +679,8 @@ The equivalences (i) ⇔ (ii) and (v) ⇔ (vi) follow from 2.5 (ii), and Reminde
 
 <!-- original page 345 -->
 
-For every $s \in S$, denote by $e_{s}$ the unit element of $H_{s}$. Then (iii) (resp. (vii)) implies that, for every
-$s \in S$,
+For every $s \in S$, denote by $e_{s}$ the unit element of $H_{s}$. Then (iii) (resp. (vii)) implies that, for every $s
+\in S$,
 
 ```text
 (Ker u)_s = Ker u_s = u_s⁻¹(e_s)
@@ -702,9 +697,9 @@ denoted `Ker u`, is the group subfunctor of $G$ defined by setting, for any morp
 (Ker u)(T) = {a ∈ G(T) | u ∘ a = ε_H ∘ f}.
 ```
 
-*By loc. cit. (or EGA I, 4.4.1), this functor is representable by the $S$-group
-$G \times_{H} S = u^{-1}(\epsilon_{H}(S))$, simply denoted `Ker u`. In particular, the structural morphism $Ker u \to S$
-is deduced from $u$ by base change.*
+*By loc. cit. (or EGA I, 4.4.1), this functor is representable by the $S$-group $G \times_{H} S =
+u^{-1}(\epsilon_{H}(S))$, simply denoted `Ker u`. In particular, the structural morphism $Ker u \to S$ is deduced from
+$u$ by base change.*
 
 <!-- label: III.VI_B.2.8.1 -->
 
@@ -725,11 +720,10 @@ $\pi$, one has a direct sum decomposition $O_{X} = O_{S} \oplus I$ of `O_S`-modu
 $I$ is evidently integral over `O_S`, hence `O_X` is integral over `O_S`, and $\pi$ is integral.
 
 Suppose now that $\pi$ is locally of finite type. Since $\pi \circ \epsilon = id_{S}$, $\epsilon$ is locally of finite
-presentation (cf. EGA IV₁, 1.4.3 (v)), hence $I$ is an ideal of finite type of `O_X` (EGA IV₁, 1.4.1). For every
-$s \in S$, one has $O_{X_{s}} = \kappa(s) \oplus I \otimes_{O_{S}} \kappa(s)$. By hypothesis, $\epsilon_{s}$ is an
-isomorphism, hence $I \otimes_{O_{S}} \kappa(s) = 0$ for every $s \in S$, hence a fortiori
-$I \otimes_{O_{X}} \kappa(x) = 0$ for every $x \in X$, which implies, by Nakayama's lemma, that $I = 0$, hence $\pi$ is
-an isomorphism. ∎
+presentation (cf. EGA IV₁, 1.4.3 (v)), hence $I$ is an ideal of finite type of `O_X` (EGA IV₁, 1.4.1). For every $s \in
+S$, one has $O_{X_{s}} = \kappa(s) \oplus I \otimes_{O_{S}} \kappa(s)$. By hypothesis, $\epsilon_{s}$ is an isomorphism,
+hence $I \otimes_{O_{S}} \kappa(s) = 0$ for every $s \in S$, hence a fortiori $I \otimes_{O_{X}} \kappa(x) = 0$ for
+every $x \in X$, which implies, by Nakayama's lemma, that $I = 0$, hence $\pi$ is an isomorphism. ∎
 
 **Lemma 2.9.1.** *Let $f : X \to Y$ be a morphism of schemes which is a homeomorphism; then $f$ is an affine
 morphism.*[^VI_B-2-9-1]
@@ -760,10 +754,9 @@ monomorphism, then a fortiori for every $y \in Y$, $f_{y}$ is a monomorphism; we
 
 By EGA I, 5.3.8, to show that $f$ is a monomorphism, it suffices to show that $\Delta_{f} : X \to X \times_{S} X$ is an
 isomorphism, or, what comes to the same, that the first projection $p : X \times_{S} X \to X$ is an isomorphism. But, if
-$f_{s}$ is a monomorphism, it likewise follows from EGA I, 5.3.8 that the first projection
-$X_{s} \times_{\kappa(s)} X_{s} \to X_{s}$ (which is identified with $p_{s}$) is an isomorphism. Now $p$ has the
-$S$-section $\Delta_{f}$, hence Lemma 2.9 affirms that if for every $s \in S$, $p_{s}$ is an isomorphism, then so is
-$p$. ∎
+$f_{s}$ is a monomorphism, it likewise follows from EGA I, 5.3.8 that the first projection $X_{s} \times_{\kappa(s)}
+X_{s} \to X_{s}$ (which is identified with $p_{s}$) is an isomorphism. Now $p$ has the $S$-section $\Delta_{f}$, hence
+Lemma 2.9 affirms that if for every $s \in S$, $p_{s}$ is an isomorphism, then so is $p$. ∎
 
 **Corollary 2.12.** *Let $G$ be an $S$-scheme having an $S$-section $\epsilon$ and such that the structural morphism
 $\pi : G \to S$ is closed. Let $s \in S$ be such that $\pi$ is of finite presentation at the point $\epsilon(s)$ and
@@ -774,11 +767,11 @@ $s$ in $S$ such that $\epsilon|_{U} : U \to G \times_{S} U$ is an isomorphism.*
 <!-- label: III.VI_B.2.12 -->
 
 Let $V$ be the set of points of $G$ where $\pi$ is unramified; it is known that $V$ is open (cf. N.D.E. (6)) and
-contains $\epsilon(s)$. Hence $W = \epsilon^{-1}(V)$ is an open subset of $S$ containing $s$, such that for every
-$t \in W$, $\pi$ is unramified at $\epsilon(t)$. Since $\pi$ is closed, so is $\pi|_{W}$, hence we may assume $W = S$.
+contains $\epsilon(s)$. Hence $W = \epsilon^{-1}(V)$ is an open subset of $S$ containing $s$, such that for every $t \in
+W$, $\pi$ is unramified at $\epsilon(t)$. Since $\pi$ is closed, so is $\pi|_{W}$, hence we may assume $W = S$.
 
-Then, by 2.7.1, $X = G - \epsilon(S)$ is a closed subset of $G$ not meeting $G_{s}$, hence, since $\pi$ is closed,
-$F = \pi(X)$ is a closed subset of $S$ not containing $s$; set $U = S - F$; then $U$ is an open subset of $S$ such that
+Then, by 2.7.1, $X = G - \epsilon(S)$ is a closed subset of $G$ not meeting $G_{s}$, hence, since $\pi$ is closed, $F =
+\pi(X)$ is a closed subset of $S$ not containing $s$; set $U = S - F$; then $U$ is an open subset of $S$ such that
 $\epsilon|_{U}$ is an isomorphism of $U$ onto $G|_{U}$. ∎
 
 ## 3. Neutral component of a group locally of finite presentation
@@ -828,9 +821,9 @@ Lie(G⁰/S)(T) = {u ∈ G⁰(I_T) | u ∘ τ = e}
               = {u ∈ G(I_T) | u ∘ τ = e and u_s((I_T)_s) ⊂ G⁰_s, ∀ s ∈ S}.
 ```
 
-*Now, for every $s \in S$, $T_{s}$ and $(I_{T})_{s} = I_{T_{s}}$ have the same underlying set, hence if
-$u \in Lie(G/S)(T)$, one has $u_{s}(I_{T_{s}}) = e_{s}$, where $e_{s}$ denotes the unit point of $G_{s}$, whence
-$u \in Lie(G^{0}/S)(T)$. So the inclusion $Lie(G^{0}/S)(T) \subset Lie(G/S)(T)$ is an equality for every $T$, whence
+*Now, for every $s \in S$, $T_{s}$ and $(I_{T})_{s} = I_{T_{s}}$ have the same underlying set, hence if $u \in
+Lie(G/S)(T)$, one has $u_{s}(I_{T_{s}}) = e_{s}$, where $e_{s}$ denotes the unit point of $G_{s}$, whence $u \in
+Lie(G^{0}/S)(T)$. So the inclusion $Lie(G^{0}/S)(T) \subset Lie(G/S)(T)$ is an equality for every $T$, whence
 $Lie(G^{0}/S) = Lie(G/S)$.*
 
 *(ii) Let $G$ and $G'$ be two $S$-functors in groups satisfying (+); then:*
@@ -859,11 +852,11 @@ i.e. the following diagram is commutative:*
 
 <!-- original page 342 -->
 
-It suffices indeed to check that, for every $s' \in S'$ with image $s$ in $S$,
-$((G \times_{S} S') \otimes_{S'} \kappa(s'))^{0} = (G_{s} \otimes_{\kappa(s)} \kappa(s'))^{0}$ equals
-$G^{0}_{s} \otimes_{\kappa(s)} \kappa(s')$; this follows from (VI_A, 2.1.2). Note, for later use in 4.2, that we have
-not used the group structure of $G_{s}$, only the fact that $G^{0}_{s}$ has a rational point, namely $\epsilon(s)$,
-hence is geometrically connected (see also EGA IV₂, 4.5.14). ∎
+It suffices indeed to check that, for every $s' \in S'$ with image $s$ in $S$, $((G \times_{S} S') \otimes_{S'}
+\kappa(s'))^{0} = (G_{s} \otimes_{\kappa(s)} \kappa(s'))^{0}$ equals $G^{0}_{s} \otimes_{\kappa(s)} \kappa(s')$; this
+follows from (VI_A, 2.1.2). Note, for later use in 4.2, that we have not used the group structure of $G_{s}$, only the
+fact that $G^{0}_{s}$ has a rational point, namely $\epsilon(s)$, hence is geometrically connected (see also EGA IV₂,
+4.5.14). ∎
 
 **Special case 3.4.** *Let $G$ be an $S$-group scheme; denote by $G^{0}$ the subset of $G$ equal to the union of the
 $G^{0}_{s}$ as $s$ runs through $S$. Then $G^{0}$ is a part of $G$ stable under the group law of $G$ (cf. 3.0), and for
@@ -887,10 +880,10 @@ The unit section $\epsilon$ being an immersion, $\epsilon(S)$ is a quasi-compact
 quasi-compact open subset $V$ of $G$ containing $\epsilon(S)$. Since $S$ is quasi-separated and $V$ quasi-compact, $V$
 is quasi-compact over $S$ (EGA IV₁, 1.2.4), so $V \times_{S} V$ is quasi-compact over $S$, hence quasi-compact. Then
 `V · V = µ(V ×_S V)` is quasi-compact. Set $V_{s} = V \cap G_{s}$ and $V^{0}_{s} = V \cap G^{0}_{s}$. Then $V^{0}_{s}$
-is an open subset of $G^{0}_{s}$, dense in $G^{0}_{s}$ since $G^{0}_{s}$ is irreducible (VI_A, 2.4), so
-$V^{0}_{s} \cdot V^{0}_{s} = G^{0}_{s}$ (VI_A, 0.5), which shows that $V_{s} \cdot V_{s} \supset G^{0}_{s}$, hence
-$V \cdot V \supset G^{0}$. Finally, since $V \cdot V$ is quasi-compact, there exists a quasi-compact open subset $U$ of
-$G$ containing $V \cdot V$ and a fortiori $G^{0}$. ∎
+is an open subset of $G^{0}_{s}$, dense in $G^{0}_{s}$ since $G^{0}_{s}$ is irreducible (VI_A, 2.4), so $V^{0}_{s} \cdot
+V^{0}_{s} = G^{0}_{s}$ (VI_A, 0.5), which shows that $V_{s} \cdot V_{s} \supset G^{0}_{s}$, hence $V \cdot V \supset
+G^{0}$. Finally, since $V \cdot V$ is quasi-compact, there exists a quasi-compact open subset $U$ of $G$ containing $V
+\cdot V$ and a fortiori $G^{0}$. ∎
 
 **Corollary 3.6.** *Let $G$ be an $S$-group with fibers locally of finite type and connected. Then $G$ is quasi-compact
 over $S$.*
@@ -914,12 +907,11 @@ constructible.*
 
 <!-- label: III.VI_B.3.7 -->
 
-*Proof.* Let us first show the first assertion. Since $\pi : G \to S$ is locally of finite presentation, given
-$s \in S$, there exists an open subset $U$ of $G$ containing $\epsilon(s)$ and an open subset $V$ of $S$ containing $s$
-such that $\pi(U) \subset V$ and such that the morphism $\pi' : U \to V$ deduced from $\pi$ is of finite presentation.
-Then $T = \epsilon^{-1}(U)$ is an open subset of $S$ and if we let $W = \pi'^{-1}(T)$ and $\pi'' = \pi'|_{W}$, then
-$\pi'' : W \to T$ is of finite presentation, and admits as section the morphism $\epsilon'' : T \to W$ deduced from
-$\epsilon$.
+*Proof.* Let us first show the first assertion. Since $\pi : G \to S$ is locally of finite presentation, given $s \in
+S$, there exists an open subset $U$ of $G$ containing $\epsilon(s)$ and an open subset $V$ of $S$ containing $s$ such
+that $\pi(U) \subset V$ and such that the morphism $\pi' : U \to V$ deduced from $\pi$ is of finite presentation. Then
+$T = \epsilon^{-1}(U)$ is an open subset of $S$ and if we let $W = \pi'^{-1}(T)$ and $\pi'' = \pi'|_{W}$, then $\pi'' :
+W \to T$ is of finite presentation, and admits as section the morphism $\epsilon'' : T \to W$ deduced from $\epsilon$.
 
 For every $t \in T$, since $G^{0}_{t}$ is irreducible (VI_A, 2.4), $W \cap G^{0}_{t}$ is dense in $G^{0}_{t}$, hence
 irreducible, hence connected: it is therefore the connected component of $\pi''^{-1}(t)$ containing $\epsilon''(t)$. It
@@ -930,9 +922,9 @@ deduced from `µ`.[^N.D.E-VI_B-25] Since $W \times_{T} W$ (resp. $\pi^{-1}(T)$) 
 of finite presentation) over $T$, `µ″` is locally of finite presentation and quasi-separated, by EGA IV₁, 1.4.3 and
 1.2.2; if moreover $\pi^{-1}(T)$ is quasi-separated over $T$, then `µ″` is quasi-compact (loc. cit. 1.2.4), hence of
 finite presentation. Since $W^{0} \times_{T} W^{0}$ is locally constructible in $W \times_{T} W$ (since $W^{0}$ is in
-$W$), it follows from Chevalley's constructibility theorem (loc. cit., 1.8.4 and 1.9.5 (viii)) that
-$G^{0} \cap \pi^{-1}(T)$ is ind-constructible in $\pi^{-1}(T)$, and is locally constructible in $\pi^{-1}(T)$ if $G$
-(and hence $\pi^{-1}(T)$) is quasi-separated over $T$. This proves assertions (i) and (iii).
+$W$), it follows from Chevalley's constructibility theorem (loc. cit., 1.8.4 and 1.9.5 (viii)) that $G^{0} \cap
+\pi^{-1}(T)$ is ind-constructible in $\pi^{-1}(T)$, and is locally constructible in $\pi^{-1}(T)$ if $G$ (and hence
+$\pi^{-1}(T)$) is quasi-separated over $T$. This proves assertions (i) and (iii).
 
 <!-- original page 344 -->
 
@@ -942,26 +934,26 @@ open $U$ is retrocompact (EGA IV₁, 1.2.7), and it suffices to show that $G^{0}
 9.1.8). Moreover, $U$ being quasi-compact, hence quasi-compact over $S$ (EGA IV₁, 1.2.4), and quasi-separated over $S$,
 the restriction of $\pi$ to $U$ is of finite presentation, so by EGA IV₃, 9.7.12, $G^{0}$ is locally constructible in
 $U$, hence constructible in $U$, since $U$ is quasi-compact and quasi-separated (EGA IV₁, 1.8.1). This proves (ii), and
-it follows that for every quasi-compact and quasi-separated open $T$ of $S$ (e.g., for every affine open of $S$),
-$G^{0} \cap \pi^{-1}(T)$ is constructible. ∎
+it follows that for every quasi-compact and quasi-separated open $T$ of $S$ (e.g., for every affine open of $S$), $G^{0}
+\cap \pi^{-1}(T)$ is constructible. ∎
 
 **Corollary 3.8.** *Let `S_0` be a quasi-compact and quasi-separated scheme, $I$ a filtered increasing preordered set,
 $(A_{i})_{i \in I}$ a direct system of commutative quasi-coherent $O_{S_{0}}$-algebras, $A = \lim A_{i}$ (direct limit),
 $S_{i} = \operatorname{Spec} A_{i}$ for $i \in I$, and $S = \operatorname{Spec} A$ (cf. EGA II, 1.3.1).*
 
-*Let $G$ be an `S_0`-group scheme locally of finite presentation. Then the canonical map
-$\lim G^{0}(S_{i}) \to G^{0}(S)$ is bijective.*
+*Let $G$ be an `S_0`-group scheme locally of finite presentation. Then the canonical map $\lim G^{0}(S_{i}) \to
+G^{0}(S)$ is bijective.*
 
 <!-- label: III.VI_B.3.8 -->
 
 Since $G$ is locally of finite presentation over `S_0`, the canonical map $\lim G(S_{i}) \to G(S)$ is bijective, by EGA
 IV₂, 8.14.2 c). It follows immediately that the canonical map $\lim G^{0}(S_{i}) \to G^{0}(S)$ is injective. Let us show
-that it is surjective. Let $g \in G^{0}(S) \subset G(S)$. There exists $i \in I$ such that $g$ factors through
-$g_{i} \in G(S_{i})$ via $S \to S_{i}$; by hypothesis, $g^{-1}(G^{0}) = S$. But, by 3.7, $G^{0}$ is ind-constructible in
-$G$, so $g^{-1}_{i}(G^{0})$ is ind-constructible in $S_{i}$. It then follows from EGA IV₂, 8.3.4, that there exists an
-index $j \geq i$ such that $g^{-1}_{j}(G^{0}) = S_{j}$, where $g_{j}$ is the map deduced from $g_{i}$ by the base change
-$S_{j} \to S_{i}$. This shows that $g_{j} \in G^{0}(S_{j})$, hence that $g$ comes from an element of
-$\lim G^{0}(S_{i})$. ∎
+that it is surjective. Let $g \in G^{0}(S) \subset G(S)$. There exists $i \in I$ such that $g$ factors through $g_{i}
+\in G(S_{i})$ via $S \to S_{i}$; by hypothesis, $g^{-1}(G^{0}) = S$. But, by 3.7, $G^{0}$ is ind-constructible in $G$,
+so $g^{-1}_{i}(G^{0})$ is ind-constructible in $S_{i}$. It then follows from EGA IV₂, 8.3.4, that there exists an index
+$j \geq i$ such that $g^{-1}_{j}(G^{0}) = S_{j}$, where $g_{j}$ is the map deduced from $g_{i}$ by the base change
+$S_{j} \to S_{i}$. This shows that $g_{j} \in G^{0}(S_{j})$, hence that $g$ comes from an element of $\lim
+G^{0}(S_{i})$. ∎
 
 **Proposition 3.9.** *Let $G$ be an $S$-group locally of finite presentation. Suppose that $G^{0}$ is representable;
 then the canonical morphism $i : G^{0} \to G$ is an open immersion; moreover, $G^{0}$ is quasi-compact over $S$.*
@@ -981,8 +973,8 @@ Finally, the last assertion follows from 3.6. ∎
 
 *(i) $G$ is smooth over $S$ at the points of the unit section.*
 
-*(ii) $G$ is flat and locally of finite presentation over $S$ at the points of the unit section, and for every
-$s \in S$, $G_{s}$ is smooth over $\kappa(s)$.*
+*(ii) $G$ is flat and locally of finite presentation over $S$ at the points of the unit section, and for every $s \in
+S$, $G_{s}$ is smooth over $\kappa(s)$.*
 
 *(iii) There exists an open group subscheme $G'$ of $G$, smooth over $S$.*
 
@@ -995,19 +987,19 @@ $s \in S$, $G_{s}$ is smooth over $\kappa(s)$.*
 It is clear that (iv) ⇒ (iii) ⇒ (i) and, by 1.3.1 and 2.4, (i) implies (ii) and (iii). Moreover, (ii) ⇒ (i) by EGA IV₄,
 17.5.1.
 
-Let us show finally that (iii) implies (iv). Lemma 3.10.1 below shows that $G'$ contains $G^{0}$, and that
-$G'^{0} = G^{0}$. It therefore suffices to show that $G^{0}$ is open in $G$, since we have already seen (3.4) that
-$G^{0}$ will then be representable by the smooth group subscheme induced by $G'$ on the open $G'^{0} = G^{0}$. We may
-therefore assume $G' = G$.
+Let us show finally that (iii) implies (iv). Lemma 3.10.1 below shows that $G'$ contains $G^{0}$, and that $G'^{0} =
+G^{0}$. It therefore suffices to show that $G^{0}$ is open in $G$, since we have already seen (3.4) that $G^{0}$ will
+then be representable by the smooth group subscheme induced by $G'$ on the open $G'^{0} = G^{0}$. We may therefore
+assume $G' = G$.
 
-To show that $G^{0}$ is open, it suffices to show that every $s \in S$ has a neighborhood $T$ in $S$ such that
-$G^{0} \cap \pi^{-1}(T)$ is open in $\pi^{-1}(T)$. Let $s \in S$. Since $G = G'$, $\pi$ is locally of finite
-presentation, so one can construct, as in the proof of 3.7, an open subset $T$ of $S$ containing $s$, and an open subset
-$W$ of $G$ containing $\epsilon(s)$, such that the morphism $\pi'' : W \to T$ deduced from $\pi$ is of finite
-presentation and admits as section the morphism $\epsilon'' : T \to W$ deduced from $\epsilon$. For every $t \in T$,
-$W \cap G^{0}_{t}$ is then the connected component of $\pi''^{-1}(t)$ containing $\epsilon''(t)$. Since $\pi$ is smooth,
-so is $\pi''$, which is therefore smooth and of finite presentation. Then, by EGA IV₃, 15.6.5, the union $W^{0}$ of the
-$W \cap G^{0}_{t}$ for $t \in T$ is open in $W$.
+To show that $G^{0}$ is open, it suffices to show that every $s \in S$ has a neighborhood $T$ in $S$ such that $G^{0}
+\cap \pi^{-1}(T)$ is open in $\pi^{-1}(T)$. Let $s \in S$. Since $G = G'$, $\pi$ is locally of finite presentation, so
+one can construct, as in the proof of 3.7, an open subset $T$ of $S$ containing $s$, and an open subset $W$ of $G$
+containing $\epsilon(s)$, such that the morphism $\pi'' : W \to T$ deduced from $\pi$ is of finite presentation and
+admits as section the morphism $\epsilon'' : T \to W$ deduced from $\epsilon$. For every $t \in T$, $W \cap G^{0}_{t}$
+is then the connected component of $\pi''^{-1}(t)$ containing $\epsilon''(t)$. Since $\pi$ is smooth, so is $\pi''$,
+which is therefore smooth and of finite presentation. Then, by EGA IV₃, 15.6.5, the union $W^{0}$ of the $W \cap
+G^{0}_{t}$ for $t \in T$ is open in $W$.
 
 On the other hand, by (VI_A, 0.5), one has $W^{0} \cdot W^{0} = G^{0} \cap \pi^{-1}(T)$, and one must show that this is
 open in $\pi^{-1}(T)$. We may therefore now assume $T = S$; it remains to show that $W^{0} \cdot W^{0}$ is open in $G$.
@@ -1068,8 +1060,8 @@ upper semicontinuous on $S$.
 <!-- original page 348 -->
 
 Suppose $G$ locally of finite presentation over $S$. To show that the function $s \mapsto \dim G_{s}$ is locally
-constructible, one sees, reasoning as above, that it suffices to show that the function
-$x \mapsto \dim_{x} \pi^{-1}(\pi(x))$ is locally constructible on $G$, which follows from EGA IV₃, 9.9.1. ∎
+constructible, one sees, reasoning as above, that it suffices to show that the function $x \mapsto \dim_{x}
+\pi^{-1}(\pi(x))$ is locally constructible on $G$, which follows from EGA IV₃, 9.9.1. ∎
 
 **Proposition 4.2.** *Let $\pi : G \to S$ be an $S$-scheme locally of finite presentation, equipped with an $S$-section
 $\epsilon$ and satisfying the following two conditions (which are satisfied if $G$ is an $S$-group, by 1.5 and (VI_A,
@@ -1090,9 +1082,9 @@ $G^{0}_{s}$.*[^N.D.E-VI_B-28]
 
 *(ii) The function $t \mapsto \dim G_{t}$ is constant in a neighborhood of $s$ in $S$.*
 
-*(iii) $G^{0}$ is "universally open over $S$ at the points of $G^{0}_{s}$", i.e., given $S' \to S$, $s' \in S'_{s}$,
-$g \in G^{0}_{s'}$ and $V$ an open neighborhood of $g$ in $G' = G_{S'}$, then $\pi(V \cap G'^{0})$ is an open
-neighborhood of $s'$ in $S'$.*[^N.D.E-VI_B-29]
+*(iii) $G^{0}$ is "universally open over $S$ at the points of $G^{0}_{s}$", i.e., given $S' \to S$, $s' \in S'_{s}$, $g
+\in G^{0}_{s'}$ and $V$ an open neighborhood of $g$ in $G' = G_{S'}$, then $\pi(V \cap G'^{0})$ is an open neighborhood
+of $s'$ in $S'$.*[^N.D.E-VI_B-29]
 
 <!-- label: III.VI_B.4.2 -->
 
@@ -1106,10 +1098,10 @@ every generization $s'$ of $s$ belongs to $T$.
 <!-- original page 349 -->
 
 Let $x$ be the generic point of $G^{0}_{s}$ and $U$ an open subset of $G$ containing $x$. Since $\pi_{G}$ is universally
-open at $\xi$, by EGA IV₃, 14.3.13, for every generization $s'$ of $s$, one has
-$\dim(U \cap G_{s'}) \geq \dim_{x}(U \cap G_{s})$. Taking hypothesis a) into account, this entails
-$\dim G_{s'} \geq \dim G_{s}$. Since the function $s \mapsto \dim G_{s}$ is upper semicontinuous by 4.1, one also has
-$\dim G_{s'} \leq \dim G_{s}$, whence $s' \in T$. This proves that (i) ⇒ (ii).
+open at $\xi$, by EGA IV₃, 14.3.13, for every generization $s'$ of $s$, one has $\dim(U \cap G_{s'}) \geq \dim_{x}(U
+\cap G_{s})$. Taking hypothesis a) into account, this entails $\dim G_{s'} \geq \dim G_{s}$. Since the function $s
+\mapsto \dim G_{s}$ is upper semicontinuous by 4.1, one also has $\dim G_{s'} \leq \dim G_{s}$, whence $s' \in T$. This
+proves that (i) ⇒ (ii).
 
 It is clear that (iii) ⇒ (i); let us show that (ii) ⇒ (iii). Since the dimension of fibers is unchanged by extension of
 the base field, and the formation of $G^{0}$ commutes with base change (cf. the proof of 3.3), one may assume $S' = S$
@@ -1124,32 +1116,30 @@ $G^{0} \cap V$ is constructible in $V$. Since $\pi : V \to S$ is of finite prese
 constructible in $S$, by Chevalley's constructibility theorem (cf. EGA IV₁, 1.8.4).
 
 Hence, by loc. cit., 1.10.1, to show that $\pi(G^{0} \cap V)$ is an open neighborhood of $s$, it suffices to show that
-for every generization $t$ of $s$, there exists a generization $\xi$ of $\eta$ belonging to $G^{0}$ (and hence to
-$G^{0} \cap V$). Now the generic point $\xi$ of $G^{0}_{t}$ is a generization of $\eta$. Indeed, $\epsilon(s)$ belongs
-to the closure $X$ of ${\xi}$ in $G$, so by Chevalley's semicontinuity theorem (cf. EGA IV₃, 13.1.3), one has
-$\dim_{\epsilon(s)} X_{s} \geq \dim_{\xi} X_{t}$; on the other hand, hypothesis (ii) entails that
-$\dim_{\xi} G^{0}_{t} = \dim_{\epsilon(s)} G_{s}$. It follows that one of the irreducible components of $X_{s}$
-containing $\epsilon(s)$ equals $G^{0}_{s}$, whence $\eta \in {\xi}^{-}$. This proves that (ii) ⇒ (iii), which proves
-the proposition. ∎
+for every generization $t$ of $s$, there exists a generization $\xi$ of $\eta$ belonging to $G^{0}$ (and hence to $G^{0}
+\cap V$). Now the generic point $\xi$ of $G^{0}_{t}$ is a generization of $\eta$. Indeed, $\epsilon(s)$ belongs to the
+closure $X$ of ${\xi}$ in $G$, so by Chevalley's semicontinuity theorem (cf. EGA IV₃, 13.1.3), one has
+$\dim_{\epsilon(s)} X_{s} \geq \dim_{\xi} X_{t}$; on the other hand, hypothesis (ii) entails that $\dim_{\xi} G^{0}_{t}
+= \dim_{\epsilon(s)} G_{s}$. It follows that one of the irreducible components of $X_{s}$ containing $\epsilon(s)$
+equals $G^{0}_{s}$, whence $\eta \in {\xi}^{-}$. This proves that (ii) ⇒ (iii), which proves the proposition. ∎
 
 [^N.D.E-VI_B-30] One can also prove the implication (ii) ⇒ (i) as follows. Since $\pi$ is locally of finite
 presentation, there exists an open subset $U$ of $G$ containing $\epsilon(s)$ and an open subset $V$ of $S$ containing
 $s$ such that $\pi(U) \subset V$ and such that the morphism $\pi' : U \to V$ deduced from $\pi$ is of finite
-presentation. Set then $T = \epsilon^{-1}(U)$ and $W = \pi'^{-1}(T) = U \cap \pi^{-1}(T)$. Then the morphism
-$\pi'' : W \to T$ deduced from $\pi'$ is of finite presentation and admits as section the morphism
-$\epsilon'' : T \to W$ deduced from $\epsilon$. Moreover, for every $t \in T$, $G^{0}_{t}$ being irreducible,
-$W \cap G^{0}_{t}$ is dense in $G^{0}_{t}$, hence irreducible, hence connected: so it is the connected component of
-$\pi''^{-1}(t)$ containing $\epsilon''(t)$.
+presentation. Set then $T = \epsilon^{-1}(U)$ and $W = \pi'^{-1}(T) = U \cap \pi^{-1}(T)$. Then the morphism $\pi'' : W
+\to T$ deduced from $\pi'$ is of finite presentation and admits as section the morphism $\epsilon'' : T \to W$ deduced
+from $\epsilon$. Moreover, for every $t \in T$, $G^{0}_{t}$ being irreducible, $W \cap G^{0}_{t}$ is dense in
+$G^{0}_{t}$, hence irreducible, hence connected: so it is the connected component of $\pi''^{-1}(t)$ containing
+$\epsilon''(t)$.
 
 <!-- original page 354 -->
 
 Since $W \cap G^{0}_{t}$ is a dense open subset of $G^{0}_{t}$, one has, by 1.5 and EGA IV₂, 5.2.1,
 `dim(W ∩ G⁰_t) = dim G⁰_t = dim G_t`, so the function $t \mapsto \dim W \cap G^{0}_{t}$ is constant in a neighborhood of
 $s$ in $T$. Let us show finally that, for every $t \in T$, $W \cap G^{0}_{t}$ is geometrically irreducible. Let $K$ be
-an extension of $\kappa(t)$; then
-$(W \cap G^{0}_{t}) \otimes_{\kappa(t)} K = (W \otimes_{\kappa(t)} K) \cap (G^{0}_{t} \otimes_{\kappa(t)} K)$ is a
-non-empty open subset of $G^{0}_{t} \otimes_{\kappa(t)} K$, hence is irreducible since $G^{0}_{t} \otimes_{\kappa(t)} K$
-is.
+an extension of $\kappa(t)$; then $(W \cap G^{0}_{t}) \otimes_{\kappa(t)} K = (W \otimes_{\kappa(t)} K) \cap (G^{0}_{t}
+\otimes_{\kappa(t)} K)$ is a non-empty open subset of $G^{0}_{t} \otimes_{\kappa(t)} K$, hence is irreducible since
+$G^{0}_{t} \otimes_{\kappa(t)} K$ is.
 
 We are then in the conditions of application of EGA IV₃, 15.6.6 (ii), which asserts that $\pi''$ (hence $\pi$) is
 universally open at the points of $W \cap G^{0}_{s}$. But, by EGA IV₃, 14.3.3.1 (ii), the subset of $G_{s}$ formed by
@@ -1187,8 +1177,8 @@ $S$.*[^N.D.E-VI_B-31]
 
 <!-- label: III.VI_B.4.4 -->
 
-*Proof.* Let us show that (i) implies (ii). For every $x \in G$, one has
-$\dim_{x} \pi^{-1}(\pi(x)) = \dim \pi^{-1}(\pi(x))$, by 1.5. Consequently, by EGA IV₄, 17.10.2, the function
+*Proof.* Let us show that (i) implies (ii). For every $x \in G$, one has $\dim_{x} \pi^{-1}(\pi(x)) = \dim
+\pi^{-1}(\pi(x))$, by 1.5. Consequently, by EGA IV₄, 17.10.2, the function
 
 ```text
 x ↦ dim_x π⁻¹(π(x)) = dim π⁻¹(π(x))
@@ -1275,17 +1265,17 @@ $X_{s}$,[^N.D.E-VI_B-35] then $X$ is quasi-compact over $S$.*
 
 <!-- label: III.VI_B.5.4 -->
 
-*Proof.* (i) Indeed, let $s \in S$ be such that $X_{s} \neq \emptyset$. Since the morphism
-$\Phi_{s} : G_{s} \times_{\kappa(s)} X_{s} \to X_{s} \times_{\kappa(s)} X_{s}$ deduced from $\Phi$ by base change is
-surjective, and $X_{s}$ is connected, $X_{s}$ is irreducible by (VI_A, 2.5.4). Hence, if $U$ is an affine open of $X$
-such that $U_{s}$ is non-empty, $U_{s}$ is dense in $X_{s}$, and the theorem applies.
+*Proof.* (i) Indeed, let $s \in S$ be such that $X_{s} \neq \emptyset$. Since the morphism $\Phi_{s} : G_{s}
+\times_{\kappa(s)} X_{s} \to X_{s} \times_{\kappa(s)} X_{s}$ deduced from $\Phi$ by base change is surjective, and
+$X_{s}$ is connected, $X_{s}$ is irreducible by (VI_A, 2.5.4). Hence, if $U$ is an affine open of $X$ such that $U_{s}$
+is non-empty, $U_{s}$ is dense in $X_{s}$, and the theorem applies.
 
 To prove (ii), one may assume $S$ affine. Then $V$ is quasi-compact and, by 3.5, there exists a quasi-compact open $U$
 of $G$ containing $G^{0}$. Let $s \in S$ be such that $X_{s} \neq \emptyset$. Then $X_{s}$ is irreducible (VI_A, 2.6.6)
-and so, since $U_{s}$ contains $G^{0}_{s}$, the morphism $U_{s} \times_{\kappa(s)} V_{s} \to X_{s}$,
-$(g, x) \mapsto gx$, is surjective (VI_A, 2.6.4). Consequently, the morphism $U \times_{S} V \to X$ is surjective, and
-so $X$ is quasi-compact (since $U$ and $V$ are); as we assumed $S$ affine, hence separated, it follows that $X$ is
-quasi-compact over $S$ (cf. EGA I, 6.6.4 (v)). ∎
+and so, since $U_{s}$ contains $G^{0}_{s}$, the morphism $U_{s} \times_{\kappa(s)} V_{s} \to X_{s}$, $(g, x) \mapsto
+gx$, is surjective (VI_A, 2.6.4). Consequently, the morphism $U \times_{S} V \to X$ is surjective, and so $X$ is
+quasi-compact (since $U$ and $V$ are); as we assumed $S$ affine, hence separated, it follows that $X$ is quasi-compact
+over $S$ (cf. EGA I, 6.6.4 (v)). ∎
 
 **Remark 5.4.1.** [^N.D.E-VI_B-36] *We shall see in the course of the proof that the conclusion of Theorem 5.3 holds if
 one makes only the hypothesis: (i′) there exists an open subscheme $U$ of $X$, separated over $S$, such that $U_{s}$ is
@@ -1297,8 +1287,8 @@ number of irreducible components, which is the case under hypothesis (ii).) On t
 
 **Theorem 5.3A (Raynaud).** *Let $G$ be an $S$-group locally of finite presentation, universally open over $S$, and with
 connected fibers. Then $G$ is separated over $S$. More generally, any $S$-scheme $X$ locally of finite presentation over
-$S$, equipped with an action of $G$ such that the morphism $\Phi : G \times_{S} X \to X \times_{S} X$,
-$(g, x) \mapsto (gx, x)$ is surjective, is separated over $S$.*
+$S$, equipped with an action of $G$ such that the morphism $\Phi : G \times_{S} X \to X \times_{S} X$, $(g, x) \mapsto
+(gx, x)$ is surjective, is separated over $S$.*
 
 <!-- label: III.VI_B.5.3.A -->
 
@@ -1316,21 +1306,21 @@ over $S$, it is therefore of finite presentation over $S$. ∎
 
 Before establishing 5.3, let us prove a few lemmas.
 
-**Lemma 5.6.0.** [^N.D.E-VI_B-38] *(i) Let $A \subset B$ be integral rings, with $B$ integral over $A$, and let
-$q \in \operatorname{Spec}(B)$ be such that $A$ is unibranch at the point $p = q \cap A$. Then the morphism
-$\pi : \operatorname{Spec}(B) \to \operatorname{Spec}(A)$ is open at the point $q$.*
+**Lemma 5.6.0.** [^N.D.E-VI_B-38] *(i) Let $A \subset B$ be integral rings, with $B$ integral over $A$, and let $q \in
+\operatorname{Spec}(B)$ be such that $A$ is unibranch at the point $p = q \cap A$. Then the morphism $\pi :
+\operatorname{Spec}(B) \to \operatorname{Spec}(A)$ is open at the point $q$.*
 
 *(ii) Let $X$, $Y$ be two irreducible preschemes, $f : X \to Y$ a dominant morphism, $x$ a point of $X$ such that $f$ is
-quasi-finite at $x$ and $y = f(x)$ is a unibranch point of $Y$. Then $f$ is open at the point $x$. In particular, if
-$Y = \operatorname{Spec}(O_{Y,y})$ is a local prescheme with closed point $y$, then $f(U) = Y$ for every neighborhood
-$U$ of $x$.*
+quasi-finite at $x$ and $y = f(x)$ is a unibranch point of $Y$. Then $f$ is open at the point $x$. In particular, if $Y
+= \operatorname{Spec}(O_{Y,y})$ is a local prescheme with closed point $y$, then $f(U) = Y$ for every neighborhood $U$
+of $x$.*
 
 <!-- label: III.VI_B.5.6.0 -->
 
 *Proof.* (i) Let $K$ (resp. $L$) be the fraction field of $A$ (resp. $B$), $A'$ the normalization of $A$, and $B'$ the
-subring of $L$ generated by $A'$ and $B$. Then $B'$ is integral over $A'$. Set $Y = \operatorname{Spec}(A)$,
-$X = \operatorname{Spec}(B)$, $Y' = \operatorname{Spec}(A')$, $X' = \operatorname{Spec}(B')$, so that one has a
-commutative diagram
+subring of $L$ generated by $A'$ and $B$. Then $B'$ is integral over $A'$. Set $Y = \operatorname{Spec}(A)$, $X =
+\operatorname{Spec}(B)$, $Y' = \operatorname{Spec}(A')$, $X' = \operatorname{Spec}(B')$, so that one has a commutative
+diagram
 
 ```text
 X′ ───── π′ ────→ Y′
@@ -1377,8 +1367,8 @@ every open containing $y$ equals $Y$. (In the case where $Y = \operatorname{Spec
 of EGA IV₃, 8.12.9, the local form of Zariski's Main Theorem, which one finds, e.g., in [Pes66], or [Ray70b], Ch. IV,
 Th. 1.) ∎
 
-**Lemma 5.6.1.0.** [^N.D.E-VI_B-39] *Let $f : X \to S$ be a morphism locally of finite presentation, $s \in S$, and
-$x \in X_{s}$. Let $n = \dim_{x}(X_{s})$ and let $q$ be the structural morphism $A^{n}_{S} \to S$.*
+**Lemma 5.6.1.0.** [^N.D.E-VI_B-39] *Let $f : X \to S$ be a morphism locally of finite presentation, $s \in S$, and $x
+\in X_{s}$. Let $n = \dim_{x}(X_{s})$ and let $q$ be the structural morphism $A^{n}_{S} \to S$.*
 
 *Suppose given a morphism $u : X \to A^{n}_{S}$ quasi-finite such that $f = q \circ u$, and suppose $f$ universally open
 at the generic point $z$ of an irreducible component $z$ of $X_{s}$, containing $x$ and of dimension $n$. Then $u$ is
@@ -1401,8 +1391,8 @@ X′ ─────────→ A^n_{S′}
 be the diagram obtained by base change, and let $s'$ be a point of $S'$ above $s$ and $x'$ a point of $X'_{s'}$ above
 $x$. Since $X'_{s'} = X_{s} \otimes_{\kappa(s)} \kappa(s')$, by lifting of generizations and invariance of dimension
 under field extension (EGA IV₂, 2.3.4 (i) and 4.1.4), $x'$ is contained in an irreducible component $z'$ of $X'_{s'}$
-whose generic point $z'$ lies above $z$, and one has $n \leq \dim z' \leq \dim_{x'} X'_{s'} \leq n$, whence
-$\dim z' = n = \dim_{x'} X'_{s'}$. Since $f$ is universally open at $x$, $f'$ is universally open at $x'$.
+whose generic point $z'$ lies above $z$, and one has $n \leq \dim z' \leq \dim_{x'} X'_{s'} \leq n$, whence $\dim z' = n
+= \dim_{x'} X'_{s'}$. Since $f$ is universally open at $x$, $f'$ is universally open at $x'$.
 
 Set $Y = A^{n}_{S}$. By EGA IV₃, 14.3.3.1 (i), to prove that $u$ is universally open at $x$, it suffices to prove that,
 for every integer $r \geq 0$ and every point $x'$ of
@@ -1431,17 +1421,15 @@ assume $S$ integral and normal.
 Now, the hypotheses on $f$ imply, by EGA IV₃, 14.3.13, that there exists an irreducible component $Z$ of $X$ containing
 $z$ (and hence $x$), dominating $S$ and such that
 
-$$
-\dim_{z}(Z_{s}) = n = \dim(Z_{\eta}),
-$$
+$$ \dim_{z}(Z_{s}) = n = \dim(Z_{\eta}), $$
 
-where $\eta$ is the generic point of $S$. Let $\xi$ be the generic point of $Z$. Since $u$, and hence also
-$u_{\eta} : Z_{\eta} \to A^{n}_{\eta}$, is quasi-finite, the closure in $A^{n}_{\eta}$ of the point
-$u_{\eta}(\xi) = u(\xi)$ is of dimension $n$, hence $u(\xi)$ is the generic point of $A^{n}_{\eta}$, which is also the
-generic point of $Y = A^{n}_{S}$. Consequently, denoting by $g$ the restriction of $u$ to $Z$, the morphism
-$g : Z \to Y$ is quasi-finite and dominant. Since $Y$ is normal, it follows from Lemma 5.6.0 that $g$ is open, so that
-$u$ is open at every point of $Z$, in particular at the point $x$. Consequently,
-$u(\operatorname{Spec} O_{X,x}) = \operatorname{Spec} O_{Y,y}$, and this completes the proof of Lemma 5.6.1.0. ∎
+where $\eta$ is the generic point of $S$. Let $\xi$ be the generic point of $Z$. Since $u$, and hence also $u_{\eta} :
+Z_{\eta} \to A^{n}_{\eta}$, is quasi-finite, the closure in $A^{n}_{\eta}$ of the point $u_{\eta}(\xi) = u(\xi)$ is of
+dimension $n$, hence $u(\xi)$ is the generic point of $A^{n}_{\eta}$, which is also the generic point of $Y =
+A^{n}_{S}$. Consequently, denoting by $g$ the restriction of $u$ to $Z$, the morphism $g : Z \to Y$ is quasi-finite and
+dominant. Since $Y$ is normal, it follows from Lemma 5.6.0 that $g$ is open, so that $u$ is open at every point of $Z$,
+in particular at the point $x$. Consequently, $u(\operatorname{Spec} O_{X,x}) = \operatorname{Spec} O_{Y,y}$, and this
+completes the proof of Lemma 5.6.1.0. ∎
 
 The following lemma advantageously replaces EGA IV₃, 14.5.10,[^N.D.E-VI_B-40] in that it is independent of noetherian
 hypotheses.
@@ -1490,11 +1478,11 @@ and $u_{0} : X_{0} \to S$ be the morphism deduced from $u$ by the base change $\
 Then $u_{0}$ is quasi-finite and of finite presentation, universally open at the point $x$, and $x$ is the unique point
 of `X_0` above $s$.
 
-Let $A'$ be the henselization of the local ring $A_{p} = O_{S,s}$, and let $S' = \operatorname{Spec}(A')$,
-$B'_{0} = B_{0} \otimes_{A} A'$, and $X'_{0} = X_{0} \times_{S} S' = \operatorname{Spec}(B'_{0})$. Then the closed point
-$s'$ of $S'$ is the unique point of $S'$ above $s$, one has $\kappa(s') = \kappa(s)$, and $X'_{0}$ has a unique point
-$x'$ above $s'$; one has $\kappa(x') = \kappa(x)$ and $x'$ is also the unique point of $X'_{0}$ above $s$ and above $x$.
-Since $A'$ is henselian, by EGA IV₄, 18.5.11, $X'_{0}$ is the disjoint sum of two open and closed parts:
+Let $A'$ be the henselization of the local ring $A_{p} = O_{S,s}$, and let $S' = \operatorname{Spec}(A')$, $B'_{0} =
+B_{0} \otimes_{A} A'$, and $X'_{0} = X_{0} \times_{S} S' = \operatorname{Spec}(B'_{0})$. Then the closed point $s'$ of
+$S'$ is the unique point of $S'$ above $s$, one has $\kappa(s') = \kappa(s)$, and $X'_{0}$ has a unique point $x'$ above
+$s'$; one has $\kappa(x') = \kappa(x)$ and $x'$ is also the unique point of $X'_{0}$ above $s$ and above $x$. Since $A'$
+is henselian, by EGA IV₄, 18.5.11, $X'_{0}$ is the disjoint sum of two open and closed parts:
 
 ```text
 (*)    X′_0 = V ⊔ W,    where V = Spec(O_{X′_0, x′});
@@ -1506,11 +1494,10 @@ $u'_{0}(V) = \operatorname{Spec}(O_{S', s}) = S'$, so that $\pi$ is surjective.
 
 This proves the desired result when $S = S'$. In the general case, $A'$ is a filtered direct limit of subalgebras
 $A_{i}$ étale over $A$, and such that $S_{i} = \operatorname{Spec}(A_{i})$ has a unique point $s_{i}$ above $s$ (and
-$\kappa(s_{i}) = \kappa(s)$). Then $B'_{0} = \lim B_{i}$, where $B_{i} = B_{0} \otimes_{A} A_{i}$. Set
-$X_{i} = \operatorname{Spec}(B_{i}) = X_{0} \times_{S} S_{i}$ and $C = O_{X'_{0}, x'}$. By (∗) above, one has
-$C \cong B'_{0} / f B'_{0}$, for some idempotent $f \in B'_{0}$, and there exist an index $i$ and $f_{i} \in B_{i}$ such
-that $f$ is the image of $f_{i}$ in $B'_{0}$. Set $C_{i} = B_{i} / f_{i} B_{i}$ and
-$V_{i} = \operatorname{Spec}(C_{i})$.
+$\kappa(s_{i}) = \kappa(s)$). Then $B'_{0} = \lim B_{i}$, where $B_{i} = B_{0} \otimes_{A} A_{i}$. Set $X_{i} =
+\operatorname{Spec}(B_{i}) = X_{0} \times_{S} S_{i}$ and $C = O_{X'_{0}, x'}$. By (∗) above, one has $C \cong B'_{0} / f
+B'_{0}$, for some idempotent $f \in B'_{0}$, and there exist an index $i$ and $f_{i} \in B_{i}$ such that $f$ is the
+image of $f_{i}$ in $B'_{0}$. Set $C_{i} = B_{i} / f_{i} B_{i}$ and $V_{i} = \operatorname{Spec}(C_{i})$.
 
 <!-- original page 361 -->
 
@@ -1568,16 +1555,16 @@ U = {g ∈ G | W contains every maximal point of π⁻¹(g)}
 *is a dense open subset of $G$. (N.B. If $g$ is a closed point of $G$ belonging to $U$, then $\pi^{-1}(g) \subset W$.)*
 
 *(ii) Suppose moreover $G$ geometrically irreducible. Let `µ : G × X → Y` be a morphism of $k$-schemes, $x$ a point of
-$X$, and $\Omega$ an open of $Y$ such that `µ_x⁻¹(Ω_{κ(x)}) ≠ ∅`, where `µ_x` denotes the morphism
-$G_{\kappa(x)} \to Y_{\kappa(x)}$, `g ↦ µ(g, x)`. Then:*
+$X$, and $\Omega$ an open of $Y$ such that `µ_x⁻¹(Ω_{κ(x)}) ≠ ∅`, where `µ_x` denotes the morphism $G_{\kappa(x)} \to
+Y_{\kappa(x)}$, `g ↦ µ(g, x)`. Then:*
 
 ```text
 U = {g ∈ G | µ sends every maximal point of g × x into Ω}
 ```
 
 *is a dense open subset of $G$, and for every closed point $g$ of $G$ belonging to $U$, one has `µ(g × x) ⊂ Ω` and hence
-`µ(g′, x) ∈ Ω_{κ(x)}` (resp. `µ(g, x′) ∈ Ω_{κ(g)}`), for every point $g' \in G_{\kappa(x)}$ above $g$ (resp.
-$x' \in X_{\kappa(g)}$ above $x$).*
+`µ(g′, x) ∈ Ω_{κ(x)}` (resp. `µ(g, x′) ∈ Ω_{κ(g)}`), for every point $g' \in G_{\kappa(x)}$ above $g$ (resp. $x' \in
+X_{\kappa(g)}$ above $x$).*
 
 *(iii) Suppose $G = H^{0}$, where $H$ is a $k$-group scheme locally of finite type, acting on a non-empty $k$-scheme $X$
 in such a way that the morphism $H \times_{S} X \to X \times_{S} X$, $(h, x) \mapsto (hx, x)$ is surjective. Let $U$ be
@@ -1618,8 +1605,8 @@ On the other hand, (iii)(a) has been proved in (VI_A, 2.6.4). Finally, if $U$ is
 $X$, then $X = G \cdot U$, hence for every $x \in X$, `µ_x⁻¹(U_{κ(x)})` is a non-empty open of $G_{\kappa(x)}$, and then
 (iii)(b) follows from (ii). ∎
 
-**Corollary 5.6.2.** *Let $S$, $G$, $X$ be as in the preliminary hypotheses of 5.3, and let $U$ be an open of $X$,
-$s \in S$, and $A$ a finite part of $X_{s}$. Suppose $U_{s}$ dense in $X_{s}$ and $X_{s}$ locally of finite type over
+**Corollary 5.6.2.** *Let $S$, $G$, $X$ be as in the preliminary hypotheses of 5.3, and let $U$ be an open of $X$, $s
+\in S$, and $A$ a finite part of $X_{s}$. Suppose $U_{s}$ dense in $X_{s}$ and $X_{s}$ locally of finite type over
 $\kappa(s)$.*[^N.D.E-VI_B-43]
 
 *Then there exists a morphism $f : S'' \to S$, composed of a finite surjective morphism $S'' \to S'$ and an étale
@@ -1632,16 +1619,16 @@ $\ell_{h}$ denotes the translation of $X_{S''} = X \times_{S} S''$ defined by th
 *Proof.* Since $X_{s}$ is locally of finite type over $\kappa(s)$, the connected components of $X_{s}$ are open, and
 irreducible (cf. (VI_A, 2.5.4)), so $U_{s}$ is dense in every irreducible component of $X_{s}$.
 
-Hence, by Lemma 5.6.2.0, there exists a closed point $g \in G^{0}_{s}$ such that
-$g \cdot a' \in U_{s} \otimes_{\kappa(s)} \kappa(g)$ for every $a' \in X_{\kappa(g)}$ above a point of $A$.
+Hence, by Lemma 5.6.2.0, there exists a closed point $g \in G^{0}_{s}$ such that $g \cdot a' \in U_{s}
+\otimes_{\kappa(s)} \kappa(g)$ for every $a' \in X_{\kappa(g)}$ above a point of $A$.
 
 <!-- original page 355 -->
 
 By Lemma 5.6.1, there exists a morphism $f : S'' \to S$, composed of a finite surjective morphism $S'' \to S'$ and an
 étale morphism $S' \to S$, and a morphism $h : S'' \to G$, such that $f^{-1}(s)$ is formed of a single point $s_{0}$,
-and such that $h(s_{0}) = g$ and $\kappa(s_{0}) = \kappa(g)$. Then, denoting by $A''$ the inverse image of $A$ in
-$X_{s} \times_{\operatorname{Spec} \kappa(s)} S''_{s} = X_{s} \otimes_{\kappa(s)} \kappa(s_{0}) = X_{s} \otimes_{\kappa(s)} \kappa(g)$,
-the translation $\ell_{h}$ of $X_{S''}$ sends $A''$ into $U_{s} \otimes_{\kappa(s)} \kappa(s_{0})$. ∎
+and such that $h(s_{0}) = g$ and $\kappa(s_{0}) = \kappa(g)$. Then, denoting by $A''$ the inverse image of $A$ in $X_{s}
+\times_{\operatorname{Spec} \kappa(s)} S''_{s} = X_{s} \otimes_{\kappa(s)} \kappa(s_{0}) = X_{s} \otimes_{\kappa(s)}
+\kappa(g)$, the translation $\ell_{h}$ of $X_{S''}$ sends $A''$ into $U_{s} \otimes_{\kappa(s)} \kappa(s_{0})$. ∎
 
 **Lemma 5.6.3.** *Let $X$ be an $S$-scheme. The following conditions are equivalent:*
 
@@ -1652,8 +1639,8 @@ the translation $\ell_{h}$ of $X_{S''}$ sends $A''$ into $U_{s} \otimes_{\kappa(
 *(iii) For every reduced $S$-scheme $T$, two $S$-morphisms $f_{1}$ and $f_{2} : T \to X$ that coincide on a dense open
 $U$ of $T$ are equal.*
 
-*(iv) For every $s \in S$ and every pair of points $x_{1}$, $x_{2}$ of $X_{s}$, there exists a morphism
-$\phi : S'' \to S' \to S$ and an open subscheme $V$ of $X_{S''}$, separated over $S''$, such that:*
+*(iv) For every $s \in S$ and every pair of points $x_{1}$, $x_{2}$ of $X_{s}$, there exists a morphism $\phi : S'' \to
+S' \to S$ and an open subscheme $V$ of $X_{S''}$, separated over $S''$, such that:*
 
 *a) $S' \to S$ is open, $S'' \to S'$ closed surjective, and $\phi^{-1}(s) \neq \emptyset$.*
 
@@ -1670,17 +1657,17 @@ over $S$.*[^N.D.E-VI_B-44]
 (iii) ⇒ (ii). Let $\sigma : T \to X_{T}$ be a section of $p : X_{T} \to T$. By EGA I, 5.3.13, $\sigma$ is an immersion,
 i.e. an isomorphism of $T$ onto a locally closed subscheme $E$ of `X_T`. To show that $E$ is closed, one may assume $T$
 and $E$ reduced. Let `Ē` be the reduced closed subscheme of `X_T` having the closure of $E$ as underlying space, so that
-$E$ is a dense open subscheme of `Ē`. Then the immersion $i : \bar{E} \hookrightarrow X_{T}$ and
-$\sigma \circ p \circ i$ coincide on $E$, hence on `Ē` by hypothesis (iii). Hence every point of `Ē` belongs to
-$\sigma(T) = E$, whence $E = \bar{E}$.
+$E$ is a dense open subscheme of `Ē`. Then the immersion $i : \bar{E} \hookrightarrow X_{T}$ and $\sigma \circ p \circ
+i$ coincide on $E$, hence on `Ē` by hypothesis (iii). Hence every point of `Ē` belongs to $\sigma(T) = E$, whence $E =
+\bar{E}$.
 
 <!-- original page 364 -->
 
-(i) ⇒ (iii). Suppose $X$ separated over $S$ and let $T$ be a reduced $S$-scheme, $f_{1}, f_{2}$ two $S$-morphisms
-$T \to X$ that coincide on a dense open $U$ of $T$, and $g$ the morphism $T \to X \times_{S} X$ with components $f_{1}$
-and $f_{2}$. Since $D = \Delta_{X/S}(X)$ is closed, its inverse image under $g$ is a closed subset of $T$ containing
-$U$, hence equal to $T$, and since $T$ is reduced, $g$ factors through $D$ (cf. EGA I, 5.2.2); consequently
-$f_{1} = p_{1} \circ g$ equals $p_{2} \circ g = f_{2}$.
+(i) ⇒ (iii). Suppose $X$ separated over $S$ and let $T$ be a reduced $S$-scheme, $f_{1}, f_{2}$ two $S$-morphisms $T \to
+X$ that coincide on a dense open $U$ of $T$, and $g$ the morphism $T \to X \times_{S} X$ with components $f_{1}$ and
+$f_{2}$. Since $D = \Delta_{X/S}(X)$ is closed, its inverse image under $g$ is a closed subset of $T$ containing $U$,
+hence equal to $T$, and since $T$ is reduced, $g$ factors through $D$ (cf. EGA I, 5.2.2); consequently $f_{1} = p_{1}
+\circ g$ equals $p_{2} \circ g = f_{2}$.
 
 (iv) ⇒ (iii). Let $T$ be a reduced $S$-scheme and $f_{1}, f_{2}$ two $S$-morphisms $T \to X$ that coincide on a dense
 open $U$. Since $T$ is reduced, to see that $f_{1} = f_{2}$, it suffices to see that $f_{1} = f_{2}$ set-theoretically.
@@ -1690,21 +1677,21 @@ then the morphisms $f_{i}|_{W} : W \to V$ coincide on the dense open $U \cap W$ 
 reduced, this entails that $f_{1}|_{W} = f_{2}|_{W}$, whence $f_{1} = f_{2}$.
 
 Let then $t \in T$ and $s$ its image in $S$; let us show that the points $x_{1} = f_{1}(t)$ and $x_{2} = f_{2}(t)$ of
-$X_{s}$ are equal. Let $\phi : S'' \to S' \to S$ and $V$ an open of $X \times_{S} S''$ as in (iv); set
-$T' = T \times_{S} S'$ and $T'' = T \times_{S} S''$ and denote by $g : T'' \to T$ and $f_{i}'' : T'' \to X_{S''}$
-($i = 1, 2$) the morphisms obtained by base change.
+$X_{s}$ are equal. Let $\phi : S'' \to S' \to S$ and $V$ an open of $X \times_{S} S''$ as in (iv); set $T' = T
+\times_{S} S'$ and $T'' = T \times_{S} S''$ and denote by $g : T'' \to T$ and $f_{i}'' : T'' \to X_{S''}$ ($i = 1, 2$)
+the morphisms obtained by base change.
 
 Since $U$ is dense in $T$ and $T' \to T$ is open, the inverse image $U'$ of $U$ in $T'$ is dense in $T'$. Let $U''$ be
 the inverse image of $U'$ in $T''$ and let $F$ be the reduced subscheme of $T''$ having $U''$ as underlying space. Since
-$T'' \to T'$ is surjective and closed, the image of $F$ contains $U'$ and is closed, hence equals $T'$. Consequently,
-$F \cap g^{-1}(t)$ contains a point $u$.
+$T'' \to T'$ is surjective and closed, the image of $F$ contains $U'$ and is closed, hence equals $T'$. Consequently, $F
+\cap g^{-1}(t)$ contains a point $u$.
 
 For $i = 1, 2$, denote by $h_{i}$ the restriction to $F$ of $f_{i}''$. Then $h_{i}(u)$ is a point of $X_{S''}$ above
 $f_{i}(t) = x_{i}$, hence belongs to $V$, since $V$ contains the inverse image of ${x_{1}, x_{2}}$ in $X_{S''}$.
 
-Then $W = h^{-1}_{1}(V) \cap h^{-1}_{2}(V)$ is an open of $F$, containing $u$, and the $S''$-morphisms
-$h_{i}|_{W} : W \to V$ coincide on the dense open $U'' \cap W$ of $W$. Since $V$ is separated over $S''$, one has
-$h_{1}|_{W} = h_{2}|_{W}$, whence $h_{1}(u) = h_{2}(u)$, and hence $f_{1}(t) = f_{2}(t)$. This proves (iv) ⇒ (iii). ∎
+Then $W = h^{-1}_{1}(V) \cap h^{-1}_{2}(V)$ is an open of $F$, containing $u$, and the $S''$-morphisms $h_{i}|_{W} : W
+\to V$ coincide on the dense open $U'' \cap W$ of $W$. Since $V$ is separated over $S''$, one has $h_{1}|_{W} =
+h_{2}|_{W}$, whence $h_{1}(u) = h_{2}(u)$, and hence $f_{1}(t) = f_{2}(t)$. This proves (iv) ⇒ (iii). ∎
 
 Theorem 5.3 then follows from 5.6.2 and the implication (iv) ⇒ (i) of 5.6.3. ∎
 
@@ -1723,9 +1710,9 @@ open of $X$, separated over $S$. Then $G^{0} \cdot U$ is an open of $X$, separat
 
 <!-- original page 365 -->
 
-*Proof.* Denote by `µ : G ×_S X → X` the action of $G$ on $X$; it is the composition of the automorphism
-$(g, x) \mapsto (g, gx)$ of $G \times_{S} X$ and the projection onto $X$. Since $G \times_{S} U$ is an open of
-$G \times_{S} X$, by 4.2 (iii), $V = G^{0} \cdot U$ is open in $X$.
+*Proof.* Denote by `µ : G ×_S X → X` the action of $G$ on $X$; it is the composition of the automorphism $(g, x) \mapsto
+(g, gx)$ of $G \times_{S} X$ and the projection onto $X$. Since $G \times_{S} U$ is an open of $G \times_{S} X$, by 4.2
+(iii), $V = G^{0} \cdot U$ is open in $X$.
 
 Then, proceeding as in the proof of 5.6.2, one deduces from the implication (iv) ⇒ (i) of 5.6.3 that $V$ is separated
 over $S$. ∎
@@ -1803,10 +1790,10 @@ homeomorphic to a countable disjoint union of copies of $C$, hence to $C$ minus 
 *For each $F$ of cardinality 2, let $C(F)$ be another copy of $C$, denote by $q_{F}$ the point `0` of $C(F)$, and choose
 a homeomorphism $\phi_{F} : C(F) - {q_{F}} \xrightarrow{\sim} C - F$; let then $X'$ be the space obtained by glueing
 each $C(F)$ to $C$ by means of $\phi_{F}$. Then $X'$ is a non-separated locally Boolean $k$-scheme. Moreover, it follows
-from the construction that every locally constant function $f : X' \to k$ is constant. Indeed, if $x, y \in C$ and
-$F = {x, y}$, every neighborhood of $q_{F}$ meets every neighborhood of $x$ or $y$, so if $f : X \to k$ is locally
-constant, one has $f(x) = f(q_{F}) = f(y)$, and if $F' = {z, t}$ with $z, t \in C$, one likewise has
-$f(q_{F'}) = f(z) = f(q_{{z, x}}) = f(x)$. Consequently, $X'$ is connected.*
+from the construction that every locally constant function $f : X' \to k$ is constant. Indeed, if $x, y \in C$ and $F =
+{x, y}$, every neighborhood of $q_{F}$ meets every neighborhood of $x$ or $y$, so if $f : X \to k$ is locally constant,
+one has $f(x) = f(q_{F}) = f(y)$, and if $F' = {z, t}$ with $z, t \in C$, one likewise has $f(q_{F'}) = f(z) = f(q_{{z,
+x}}) = f(x)$. Consequently, $X'$ is connected.*
 
 *Moreover, every point $x \in X'$ has a pointed neighborhood homeomorphic to `(C, 0)`. More precisely, fix for each $F$
 a homeomorphism of pointed topological spaces $h_{F} : (C, 0) \xrightarrow{\sim} (C(F), q_{F})$, and denote by $T$ the
@@ -1818,9 +1805,9 @@ property).*
 
 *Denote by $L$ the free group generated by the $h_{F}$ and let $G = T * L$ be the "free product" (= coproduct) of $T$
 and $L$. For every $h \in {h_{F}}_{|F|=2} \cup T$, let $\sigma(h)$ be the generator of $G$ corresponding to $h$ and let
-$S(h)$ (resp. $B(h)$) be the source (resp. target) of $h$. It is convenient to also set
-$\sigma(h^{-1}_{F}) = \sigma(h_{F})^{-1}$ and $S(h^{-1}_{F}) = B(h_{F})$ (resp. $B(h^{-1}_{F}) = S(h_{F})$), and to
-denote by $E$ the set formed by $T$, and the $h_{F}$ and $h^{-1}_{F}$.*
+$S(h)$ (resp. $B(h)$) be the source (resp. target) of $h$. It is convenient to also set $\sigma(h^{-1}_{F}) =
+\sigma(h_{F})^{-1}$ and $S(h^{-1}_{F}) = B(h_{F})$ (resp. $B(h^{-1}_{F}) = S(h_{F})$), and to denote by $E$ the set
+formed by $T$, and the $h_{F}$ and $h^{-1}_{F}$.*
 
 *On the product space $P = G \times X'$ (where $G$ is endowed with the discrete topology), consider the equivalence
 relation generated by the relations:*
@@ -1829,11 +1816,11 @@ relation generated by the relations:*
 (gσ(h), x) ∼ (g, h(x))    when x ∈ S(h)
 ```
 
-*for every $h \in E$, and let $Z$ be the quotient space. Then $Z$ is obtained from the disjoint union
-$\coprod_{g \in G} {g} \times X'$ by glueing of opens, and hence, for every open $\Omega$ of $P$, its saturate
-$\tilde{\Omega}$ is open (cf. [BTop], I § 5.1, Example 2). Explicitly, since every open of $P$ is the union of its
-intersections with the "slices" ${g} \times X'$, it suffices to consider an open of the form ${1} \times W$, where $W$
-is an open of $X'$. In this case, the saturate is the union of ${1} \times W$, and of*
+*for every $h \in E$, and let $Z$ be the quotient space. Then $Z$ is obtained from the disjoint union $\coprod_{g \in G}
+{g} \times X'$ by glueing of opens, and hence, for every open $\Omega$ of $P$, its saturate $\tilde{\Omega}$ is open
+(cf. [BTop], I § 5.1, Example 2). Explicitly, since every open of $P$ is the union of its intersections with the
+"slices" ${g} \times X'$, it suffices to consider an open of the form ${1} \times W$, where $W$ is an open of $X'$. In
+this case, the saturate is the union of ${1} \times W$, and of*
 
 ```text
 {σ(h_1)} × h_1⁻¹(W ∩ B(h_1)),    {σ(h_1) σ(h_2)} × h_2⁻¹(h_1⁻¹(W ∩ B(h_1)) ∩ B(h_2)),
@@ -1843,18 +1830,18 @@ is an open of $X'$. In this case, the saturate is the union of ${1} \times W$, a
 $\pi : P \to Z$ is open.*
 
 *Note moreover that the word $\sigma(h_{1}) \cdots \sigma(h_{n})$ is a reduced word of $G$, except if one of the $h_{i}$
-is the neutral element of $T$ or if two consecutive $h_{i}$ belong to $T$, or if $(h_{i}, h_{i+1})$ equals
-$(h_{F}, h^{-1}_{F})$ or $(h^{-1}_{F}, h_{F})$. So, if $x \in X'$ and if an element
-$\beta = (\sigma(h_{1}) \cdots \sigma(h_{n}), h^{-1}_{n} \cdots h^{-1}_{1}(x))$ belongs to ${1} \times X'$, then one may
-assume that each $h_{i}$ is a translation $t_{i}$, and in this case the equality $\sigma(t_{1} \cdots t_{n}) = 1$
-entails that $t_{1} \cdots t_{n} = 1$, and hence $\beta = (1, x)$. Since the equivalence relation is compatible with the
-action of $G$ (acting on $P = G \times X'$ by left translations on the first factor), one deduces that for every
-$g \in G$, the restriction of $\pi$ to ${g} \times X'$ is injective.*
+is the neutral element of $T$ or if two consecutive $h_{i}$ belong to $T$, or if $(h_{i}, h_{i+1})$ equals $(h_{F},
+h^{-1}_{F})$ or $(h^{-1}_{F}, h_{F})$. So, if $x \in X'$ and if an element $\beta = (\sigma(h_{1}) \cdots \sigma(h_{n}),
+h^{-1}_{n} \cdots h^{-1}_{1}(x))$ belongs to ${1} \times X'$, then one may assume that each $h_{i}$ is a translation
+$t_{i}$, and in this case the equality $\sigma(t_{1} \cdots t_{n}) = 1$ entails that $t_{1} \cdots t_{n} = 1$, and hence
+$\beta = (1, x)$. Since the equivalence relation is compatible with the action of $G$ (acting on $P = G \times X'$ by
+left translations on the first factor), one deduces that for every $g \in G$, the restriction of $\pi$ to ${g} \times
+X'$ is injective.*
 
-*Let then $z \in Z$ be arbitrary and let $(g, x) \in P$ be a representative of $z$. By what precedes,
-$U = \pi({g} \times X')$ is an open neighborhood of $z$, and the continuous map ${g} \times X' \to U$ induced by $\pi$
-is open and bijective, hence a homeomorphism. This shows that $Z$ is locally isomorphic to $X'$ (hence also to $C$), and
-is therefore still a locally Boolean $k$-scheme.*
+*Let then $z \in Z$ be arbitrary and let $(g, x) \in P$ be a representative of $z$. By what precedes, $U = \pi({g}
+\times X')$ is an open neighborhood of $z$, and the continuous map ${g} \times X' \to U$ induced by $\pi$ is open and
+bijective, hence a homeomorphism. This shows that $Z$ is locally isomorphic to $X'$ (hence also to $C$), and is
+therefore still a locally Boolean $k$-scheme.*
 
 *Finally, $G$ acts transitively on $Z$. Indeed, since every $z \in Z$ is $G$-conjugate to an element of the form
 $\pi((1, x))$, it suffices to see that every element $(1, x) \in P$ is equivalent to an element $(\sigma(h), 0)$; now if
@@ -1910,9 +1897,9 @@ Centr_G H = Centr(i) = Transp(i, i),    Norm_G H = Transpstr_G(H, H).
 
 <!-- label: III.VI_B.6.1 -->
 
-**Remark 6.1.1.** [^N.D.E-VI_B-50] It follows from the definitions that the functors $Transp(u, v)$ and
-$Transp_{G}(X, Y)$ (and hence also $Transpstr_{G}(X, Y)$) commute with base change: for every $S' \to S$, if
-$G', X', Y', u', v'$ are deduced from `G, X, Y, u, v` by base change, then
+**Remark 6.1.1.** [^N.D.E-VI_B-50] It follows from the definitions that the functors $Transp(u, v)$ and $Transp_{G}(X,
+Y)$ (and hence also $Transpstr_{G}(X, Y)$) commute with base change: for every $S' \to S$, if $G', X', Y', u', v'$ are
+deduced from `G, X, Y, u, v` by base change, then
 
 ```text
 Transp(u, v)_{S′} = Transp(u′, v′)    and    Transp(X, Y)_{S′} = Transp(X′, Y′).
@@ -1945,8 +1932,8 @@ This follows from Remark 6.1.1 and from Corollary 6.2.5 below.[^N.D.E-VI_B-52]
 
 **Definition 6.2.1.** *Let $f : X \to S$ be a morphism of schemes. One says that $f$ is* essentially free, *or that $X$
 is* essentially free over $S$, *if one can find a covering of $S$ by affine open sets $S_{i}$, for every $i$ an
-$S_{i}$-scheme $S'_{i}$ affine and faithfully flat over $S_{i}$, and a covering $(X'_{ij})_{j}$ of
-$X'_{i} = X \times_{S} S'_{i}$ by affine open sets $X'_{ij}$, such that for every $(i, j)$, the ring of $X'_{ij}$ is a
+$S_{i}$-scheme $S'_{i}$ affine and faithfully flat over $S_{i}$, and a covering $(X'_{ij})_{j}$ of $X'_{i} = X
+\times_{S} S'_{i}$ by affine open sets $X'_{ij}$, such that for every $(i, j)$, the ring of $X'_{ij}$ is a
 projective[^N.D.E-VI_B-53] module over the ring of $S'_{i}$.*
 
 <!-- label: III.VI_B.6.2.1 -->
@@ -1956,8 +1943,8 @@ Artinian.*
 
 *b) If $S$ is the spectrum of a field, every $S$-scheme is essentially free over $S$.*
 
-*c) If $X$ is essentially free over $S$, then $X' = X \times_{S} S'$ is essentially free over $S'$, for every
-$S' \to S$. The converse is true if $S' \to S$ is faithfully flat and quasi-compact.*
+*c) If $X$ is essentially free over $S$, then $X' = X \times_{S} S'$ is essentially free over $S'$, for every $S' \to
+S$. The converse is true if $S' \to S$ is faithfully flat and quasi-compact.*
 
 <!-- label: III.VI_B.6.2.2 -->
 
@@ -1996,10 +1983,10 @@ therefore also suppose $Z$ affine, $Z = \operatorname{Spec}(B)$, where $B$ is a 
 $A$-module with basis $(e_{\lambda})_{\lambda \in \Lambda}$, of which $B$ is a direct factor as an $A$-module, and let
 $\phi_{\lambda} : L \to A$ be the "coordinate" forms relative to this basis. Let $E$ be a generating set of the ideal
 $J$ of $B$ defining the subscheme $Y$ of $Z$, and let $I$ be the ideal in $A$ generated by the coordinates
-$\phi_{\lambda}(x)$, for $x \in E$. For every $A$-algebra $C$, one sees then that the morphism
-$B \otimes_{A} C \to (B/J) \otimes_{A} C$ is an isomorphism if and only if the image of $x \otimes 1$ in
-$L \otimes_{A} C$ is zero for every $x \in E$, which amounts to saying that the kernel of $A \to C$ contains the ideal
-$I$. This shows that $T = V(I) = \operatorname{Spec}(A/I)$ satisfies the desired condition, which proves (i).
+$\phi_{\lambda}(x)$, for $x \in E$. For every $A$-algebra $C$, one sees then that the morphism $B \otimes_{A} C \to
+(B/J) \otimes_{A} C$ is an isomorphism if and only if the image of $x \otimes 1$ in $L \otimes_{A} C$ is zero for every
+$x \in E$, which amounts to saying that the kernel of $A \to C$ contains the ideal $I$. This shows that $T = V(I) =
+\operatorname{Spec}(A/I)$ satisfies the desired condition, which proves (i).
 
 Moreover, if $Y \to Z$ is of finite presentation, one may take $E$ finite, and then $I$ is a finitely generated ideal of
 $A$, i.e. the closed immersion $T \to S$ is of finite presentation.
@@ -2029,9 +2016,9 @@ Hom_S(Y, Z′) → Hom_S(Y, Z)
 ```
 
 *which makes the first functor a subfunctor of the second; let $X'$ be the inverse image of this subfunctor under the
-morphism $q$. This is the subfunctor of $X$ such that $X'(T)$ is the set of $x \in X(T)$ such that
-$q(x) : Y_{T} \to Z_{T}$ factors through $Z'_{T}$. This functor $X'$ can be described as follows: set
-$P = X \times_{S} Y$, let $P'$ be the inverse image of $Z'$ under $r : P \to Z$; then one has an obvious isomorphism*
+morphism $q$. This is the subfunctor of $X$ such that $X'(T)$ is the set of $x \in X(T)$ such that $q(x) : Y_{T} \to
+Z_{T}$ factors through $Z'_{T}$. This functor $X'$ can be described as follows: set $P = X \times_{S} Y$, let $P'$ be
+the inverse image of $Z'$ under $r : P \to Z$; then one has an obvious isomorphism*
 
 ```text
 (xxx)  X′ ≃ ∏_{P/X} P′/P.
@@ -2058,8 +2045,8 @@ q : X → Hom_S(Y, Z ×_S Z),
 *or equivalently of a morphism $r : X \times_{S} Y \to Z \times_{S} Z$; set then $U = Z \times_{S} Z$, let $U'$ be the
 diagonal subscheme of $Z \times_{S} Z$. Then $X'$ is nothing but the inverse image of the subfunctor
 $\operatorname{Hom}_{S}(Y, U')$ of $\operatorname{Hom}_{S}(Y, U)$ under $q$, hence can be put in the form `(xxx)`, with
-$P = X \times_{S} Y$, and $P'$ = inverse image of the diagonal under $r$, i.e. kernel of
-$r_{1}, r_{2} : X \times_{S} Y \Rightarrow Z$. One is therefore in the conditions of (a).*
+$P = X \times_{S} Y$, and $P'$ = inverse image of the diagonal under $r$, i.e. kernel of $r_{1}, r_{2} : X \times_{S} Y
+\Rightarrow Z$. One is therefore in the conditions of (a).*
 
 *One sees consequently that: if $Y$ is essentially free over $S$ and $Z$ separated over $S$, then the subfunctor $X'$ of
 $X$ is representable by a closed subscheme of $X$.*[^N.D.E-VI_B-56] *If moreover $Z \to S$ is locally of finite type,
@@ -2093,8 +2080,8 @@ value $y$". Introducing $q'$ as in c), and the homomorphisms corresponding to $q
 q, q′ : Y ⇒ Hom_S(X, Y),
 ```
 
-*one sees that $Y'$ is precisely $Ker(q, q')$, and hence falls again under b) (with the roles of `X, Y` reversed and
-$Z = Y$).*
+*one sees that $Y'$ is precisely $Ker(q, q')$, and hence falls again under b) (with the roles of `X, Y` reversed and $Z
+= Y$).*
 
 *Consequently, if $X$ is essentially free over $S$ and $Y$ separated over $S$, then the subfunctor $Y'$ of $Y$ of the
 invariants under $X$ is representable by a closed subscheme of $Y$.*[^N.D.E-VI_B-56] *If moreover $Y \to S$ is locally
@@ -2103,9 +2090,7 @@ of finite type, then $Y' \to Y$ is of finite presentation.*
 *e) Constructions of the type made explicit in the preceding examples are particularly frequent in group theory. Thus,
 when $G$ is an $S$-group scheme acting on the $S$-scheme $X$:*
 
-$$
-q : G \to \operatorname{Aut}_{S}(X),
-$$
+$$ q : G \to \operatorname{Aut}_{S}(X), $$
 
 *the kernel of $q$ ("the subgroup of $G$ acting trivially") is a closed subscheme of $G$ provided $X$ is essentially
 free and separated over $S$ (example c)), and the subobject $X^{G}$ of invariants is a closed subscheme of $X$, provided
@@ -2118,8 +2103,8 @@ Hence: if $Y$ is essentially free over $S$, and $Z$ closed in $X$, then $Transp_
 (example a)).*
 
 *One may also consider the strict transporter of $Y$ into $Z$,*[^N.D.E-VI_B-57] *whose points with values in a $T$ over
-$S$ are those $g \in G(T)$ such that $g(Y_{T}) = Z_{T}$, which is nothing but
-$Transp_{G}(Y, Z) \cap \sigma(Transp_{G}(Z, Y))$, where $\sigma$ is the inversion morphism of $G$. Consequently,*
+$S$ are those $g \in G(T)$ such that $g(Y_{T}) = Z_{T}$, which is nothing but $Transp_{G}(Y, Z) \cap
+\sigma(Transp_{G}(Z, Y))$, where $\sigma$ is the inversion morphism of $G$. Consequently,*
 
 <!-- original page 373 -->
 
@@ -2183,11 +2168,11 @@ K ×_k S → S,    (g, x) ↦ gxg⁻¹    resp.    (g, x) ↦ x
 
 coincide after base change $\hat{S} \to S$, they coincide, i.e. $K$ acts trivially on $\mathcal{O}_{G,e}$. Now, by 6.2.4
 e), the subobject $G^{K}$ of invariants of $G$ under $K$ (which is none other than $Centr_{G}(K)$) is a closed subscheme
-of $G$, hence defined by a quasi-coherent ideal $\mathcal{I}$ of $\mathcal{O}_{G}$. As $G^{K}$ majorizes
-$S = \operatorname{Spec} \mathcal{O}_{G,e}$ and $\mathcal{I}$ is of finite type (since $G$ is noetherian), there exists
-an open neighborhood $U$ of $e$ such that $\mathcal{I}|_{U} = 0$. Then the subgroup $G^{K} = Centr_{G}(K)$ contains $U$,
-hence also $U \cdot U$, which equals $G$ since $G$ is irreducible (VI_A 0.5). Hence $Centr_{G}(K) = G$, whence
-$K \subset Z$ and therefore $Z = K$. ∎
+of $G$, hence defined by a quasi-coherent ideal $\mathcal{I}$ of $\mathcal{O}_{G}$. As $G^{K}$ majorizes $S =
+\operatorname{Spec} \mathcal{O}_{G,e}$ and $\mathcal{I}$ is of finite type (since $G$ is noetherian), there exists an
+open neighborhood $U$ of $e$ such that $\mathcal{I}|_{U} = 0$. Then the subgroup $G^{K} = Centr_{G}(K)$ contains $U$,
+hence also $U \cdot U$, which equals $G$ since $G$ is irreducible (VI_A 0.5). Hence $Centr_{G}(K) = G$, whence $K
+\subset Z$ and therefore $Z = K$. ∎
 
 **Remark 6.3.** *Let $k$ be an algebraically closed field, $G$ a $k$-group and $H$ a group subscheme of $G$; assume $G$
 and $H$ are of finite type over $k$ and reduced. Then $Norm_{G} H$ (resp. $Centr_{G} H$) is representable by a group
@@ -2196,8 +2181,8 @@ $G$ in the sense of the* Bible.
 
 <!-- label: III.VI_B.6.3 -->
 
-**Proposition 6.4.** *Let $G$ be an $S$-group and $u : X \to G$ a monomorphism of $S$-schemes. Set
-$T = Transp_{G}(X, X)$. The following conditions are equivalent:*
+**Proposition 6.4.** *Let $G$ be an $S$-group and $u : X \to G$ a monomorphism of $S$-schemes. Set $T = Transp_{G}(X,
+X)$. The following conditions are equivalent:*
 
 *(i) $T$ is a sub-$S$-functor in groups of $G$.*
 
@@ -2211,8 +2196,8 @@ $T = Transp_{G}(X, X)$. The following conditions are equivalent:*
 
 <!-- label: III.VI_B.6.4 -->
 
-The equivalence of conditions (i) and (ii) follows from the fact that, whatever the morphism $S' \to S$, whatever
-$t, t' \in T(S')$, one has $tt' \in T(S')$, and from the fact that $Transpstr_{G}(X, X) = T \cap c(T)$ (cf. 6.1 (ii)).
+The equivalence of conditions (i) and (ii) follows from the fact that, whatever the morphism $S' \to S$, whatever $t, t'
+\in T(S')$, one has $tt' \in T(S')$, and from the fact that $Transpstr_{G}(X, X) = T \cap c(T)$ (cf. 6.1 (ii)).
 
 Let us place ourselves in case a). Let $t \in T(S)$; then $int(t)$ is a monomorphism of $X$ into $X$, hence an
 $S$-automorphism of $X$ (EGA IV₄, 17.9.6), so that $t$ belongs to $Transpstr_{G}(X, X)$, whence a).
@@ -2302,21 +2287,20 @@ has*
 ∏_{X/S} Y/X = ∏_{X_n/S} Y_n/X_n,
 ```
 
-*where $X_{n}$ is the $n$-th infinitesimal neighborhood of the immersion $\epsilon : S \to X$, and
-$Y_{n} = Y \cap X_{n}$.*
+*where $X_{n}$ is the $n$-th infinitesimal neighborhood of the immersion $\epsilon : S \to X$, and $Y_{n} = Y \cap
+X_{n}$.*
 
 <!-- label: III.VI_B.6.5.3 -->
 
 When $Y$ is of finite presentation over $X$, this corollary implies 6.5.2: indeed, $X$ being smooth over $S$, $X_{n}$ is
-finite and locally free over $S$, hence a fortiori "essentially free" over $S$ (cf. 6.2.1), so
-$\prod_{X_{n}/S} Y_{n}/X_{n}$ is representable by a closed subscheme $T$ of $S$, of finite presentation over $S$, by
-6.2.3.
+finite and locally free over $S$, hence a fortiori "essentially free" over $S$ (cf. 6.2.1), so $\prod_{X_{n}/S}
+Y_{n}/X_{n}$ is representable by a closed subscheme $T$ of $S$, of finite presentation over $S$, by 6.2.3.
 
 Let us first prove 6.5.3 (and hence 6.5.2) when $S$ is noetherian. Let $T_{n} = \prod_{X_{n}/S} Y_{n}/X_{n}$; then the
 $T_{n}$ form a decreasing sequence of closed subschemes of $S$, and $S$ being noetherian, this sequence is stationary.
-Let $R = \bigcap_{n \geqslant 0} \prod_{X_{n}/S} Y_{n}/X_{n}$ be their common value for large $n$; one has obviously
-$T \subset R$, and it suffices to establish that $R \subset T$. Up to making the base change $R \to S$, one is reduced
-to the case where $R = S$, i.e. $Y_{n} = X_{n}$ for every $n$, i.e. $Y \supset X_{n}$ for every $n$, and one must then
+Let $R = \bigcap_{n \geqslant 0} \prod_{X_{n}/S} Y_{n}/X_{n}$ be their common value for large $n$; one has obviously $T
+\subset R$, and it suffices to establish that $R \subset T$. Up to making the base change $R \to S$, one is reduced to
+the case where $R = S$, i.e. $Y_{n} = X_{n}$ for every $n$, i.e. $Y \supset X_{n}$ for every $n$, and one must then
 prove that $T = S$, i.e. $Y = X$.
 
 Now $Y \supset X_{n}$ for every $n$ implies (thanks to the fact that $X$ is locally noetherian) that $Y$ is, in a
@@ -2333,15 +2317,15 @@ an open neighborhood of $s$ contained in $U$, and if $S'$ is an affine open neig
 $\epsilon^{-1}(V) \cap f(V)$, and $X' = V \cap f^{-1}(S')$, then $X'$ and $S'$ are affine opens of $X$ resp. $S$, and
 $X'/S'$ admits a section. Because of the local nature of 6.5.2 and 6.5.3 we may suppose $S = S'$. Then $X'$ is an affine
 open of $X$ containing $\epsilon(S)$. As each fiber $X_{s}$ is supposed irreducible, $X'_{s}$ is schematically dense in
-$X_{s}$, hence, by EGA IV₃, 11.10.10, $X'$ is schematically dense in $X$, and similarly, for every base change
-$S_{1} \to S$, $X' \times_{S} S_{1}$ is schematically dense in $X \times_{S} S_{1}$.
+$X_{s}$, hence, by EGA IV₃, 11.10.10, $X'$ is schematically dense in $X$, and similarly, for every base change $S_{1}
+\to S$, $X' \times_{S} S_{1}$ is schematically dense in $X \times_{S} S_{1}$.
 
-It follows that $\prod_{X/S} Y/X = \prod_{X'/S} Y'/X'$, where $Y' = Y \cap X'$. This reduces us to the case where
-$X = X'$, so one may suppose $S$ and $X$ affine. Moreover, if $X = \operatorname{Spec}(B)$ and if $J$ is the ideal of
-$B$ defining $Y$, then $J$ is a direct limit of its finitely generated sub-ideals, hence $Y$ is the intersection of
-closed subschemes $Y_{i}$ of $X$ which are of finite presentation over $X$, and consequently
-$\prod_{X/S} Y/X = \bigcap_{i} \prod_{X/S} Y_{i}/X$, which reduces us, to prove 6.5.2, to the case where $Y$ is of
-finite presentation over $X$, with $S$ and $X$ affine.
+It follows that $\prod_{X/S} Y/X = \prod_{X'/S} Y'/X'$, where $Y' = Y \cap X'$. This reduces us to the case where $X =
+X'$, so one may suppose $S$ and $X$ affine. Moreover, if $X = \operatorname{Spec}(B)$ and if $J$ is the ideal of $B$
+defining $Y$, then $J$ is a direct limit of its finitely generated sub-ideals, hence $Y$ is the intersection of closed
+subschemes $Y_{i}$ of $X$ which are of finite presentation over $X$, and consequently $\prod_{X/S} Y/X = \bigcap_{i}
+\prod_{X/S} Y_{i}/X$, which reduces us, to prove 6.5.2, to the case where $Y$ is of finite presentation over $X$, with
+$S$ and $X$ affine.
 
 But then $X$ and $Y$ over $S$ come by base change $S \to S_{0}$ from an analogous situation `X_0` and `Y_0` over `S_0`,
 with `S_0` noetherian, which reduces us to the case where $S$ is noetherian, already treated. This completes the proof
@@ -2358,15 +2342,15 @@ scheme of finite presentation over $S$, $i : Y \to X$ a monomorphism of $S$-grou
 ∏_{X/S} Y/X = ∏_{X_n/S} Y_n/X_n,
 ```
 
-*where $X_{n}$ denotes the $n$-th infinitesimal neighborhood of the unit section $\epsilon : S \to X$, and
-$Y_{n} = X_{n} \cap Y$.*
+*where $X_{n}$ denotes the $n$-th infinitesimal neighborhood of the unit section $\epsilon : S \to X$, and $Y_{n} =
+X_{n} \cap Y$.*
 
 <!-- label: III.VI_B.6.5.4 -->
 
 The proof is essentially that of 6.5.3.[^N.D.E-VI_B-65] On the one hand, $i$ is locally of finite presentation (cf. EGA
-IV₁, 1.4.3). On the other hand, the unit sections of $Y$ and of $X$ induce bijective immersions $S \to Y_{n}$ and
-$S \to X_{n}$, hence isomorphisms of $S_{red}$ with $(Y_{n})_{red}$ and $(X_{n})_{red}$. Consequently, $i_{n}$ is
-quasi-compact hence of finite type, and one has a commutative diagram:
+IV₁, 1.4.3). On the other hand, the unit sections of $Y$ and of $X$ induce bijective immersions $S \to Y_{n}$ and $S \to
+X_{n}$, hence isomorphisms of $S_{red}$ with $(Y_{n})_{red}$ and $(X_{n})_{red}$. Consequently, $i_{n}$ is quasi-compact
+hence of finite type, and one has a commutative diagram:
 
 ```text
 (Y_n)_red ──τ──→ Y_n
@@ -2381,9 +2365,9 @@ quasi-compact hence of finite type, and one has a commutative diagram:
 
 where $\sigma, \tau$ are closed immersions and $\tau$ is surjective. Since $i_{n}$ is separated (being a monomorphism),
 it follows that $i_{n}$ is proper (cf. EGA II, 5.4.3). Hence $i_{n}$ is a proper monomorphism of finite presentation,
-hence a closed immersion (cf. EGA IV₃, 8.11.5). Consequently, by virtue of 6.2.3 already used,
-$\prod_{X_{n}/S} Y_{n}/X_{n}$ is representable by a closed subscheme $T_{n}$ of $S$ of finite presentation over $S$, and
-it remains therefore to prove the last assertion of 6.5.4 in the case where one supposes moreover $S$ affine.
+hence a closed immersion (cf. EGA IV₃, 8.11.5). Consequently, by virtue of 6.2.3 already used, $\prod_{X_{n}/S}
+Y_{n}/X_{n}$ is representable by a closed subscheme $T_{n}$ of $S$ of finite presentation over $S$, and it remains
+therefore to prove the last assertion of 6.5.4 in the case where one supposes moreover $S$ affine.
 
 One reduces immediately again to the case where $S$ is noetherian, and one is reduced to proving that one has $R = T$
 (with the notations of the proof of 6.5.3), or, again, that $Y \supset X_{n}$ for every $n$ implies $Y = X$. Now the
@@ -2391,8 +2375,8 @@ hypothesis implies that $i : Y \to X$ is étale at the points of the unit sectio
 over $S$ at the points of the unit section, whence it follows that the open $U$ of points of $Y$ at which $Y$ is smooth
 over $S$ is an induced open subgroup of $Y$ (cf. 2.3). Then $\tau : U \to X$ is an étale monomorphism by virtue of 2.5,
 hence an open immersion; since the fibers of $X$ are connected and every open subgroup of an algebraic group is also
-closed, it follows that $\tau$ is a surjective open immersion, i.e. an isomorphism. Hence $U = X$ and a fortiori
-$Y = X$, which completes the proof of 6.5.4. ∎
+closed, it follows that $\tau$ is a surjective open immersion, i.e. an isomorphism. Hence $U = X$ and a fortiori $Y =
+X$, which completes the proof of 6.5.4. ∎
 
 Proceeding as in 6.2.4 e), one concludes from 6.5.4:
 
@@ -2420,13 +2404,13 @@ cit. 1.4.3.1). The case of $Norm_{G}(H)$ therefore reduces to that of the transp
 e) into account, we shall apply 6.5.4 to the group scheme $X = H_{G} = H \times_{S} G$ over the base scheme $G$, and to
 the following group subscheme $Y$.
 
-In the case of $Transp_{G}(H, K)$, we take for $Y$ the inverse image of `K_G` under the morphism of $G$-groups
-$H \times_{S} G \to G \times_{S} G$, $(h, g) \mapsto (ghg^{-1}, g)$. In the case of
+In the case of $Transp_{G}(H, K)$, we take for $Y$ the inverse image of `K_G` under the morphism of $G$-groups $H
+\times_{S} G \to G \times_{S} G$, $(h, g) \mapsto (ghg^{-1}, g)$. In the case of
 
 <!-- original page 379 -->
 
-$Centr_{G}(H)$, we take for $Y$ the inverse image of the diagonal subgroup $\Delta_{G/S}(G)_{G}$ of
-$(G \times_{S} G)_{G}$ under the morphism of $G$-groups:
+$Centr_{G}(H)$, we take for $Y$ the inverse image of the diagonal subgroup $\Delta_{G/S}(G)_{G}$ of $(G \times_{S}
+G)_{G}$ under the morphism of $G$-groups:
 
 ```text
 H ×_S G → G ×_S G ×_S G,    (h, g) ↦ (h, ghg⁻¹, g).
@@ -2436,9 +2420,9 @@ H ×_S G → G ×_S G ×_S G,    (h, g) ↦ (h, ghg⁻¹, g).
 
 **Definition 6.6.** *Let $G$ be an $S$-functor in groups, $H$ a sub-$S$-functor in groups; one says that $H$ is*
 invariant *(resp.* central\*, resp.\* characteristic\*) in $G$ if $Norm_{G} H = G$ (resp. if $Centr_{G} H = G$, resp.
-if, whatever the $S$-scheme $T$ and the automorphism $a \in \operatorname{Aut}_{T-gr.}(G_{T})$, one has
-$a(H_{T}) \subset H_{T}$), in other words, if, whatever the $S$-scheme $T$, the subgroup $H(T)$ of $G(T)$ is invariant
-in $G(T)$ (resp. central in $G(T)$, resp. invariant under every automorphism of `G_T`).\*
+if, whatever the $S$-scheme $T$ and the automorphism $a \in \operatorname{Aut}_{T-gr.}(G_{T})$, one has $a(H_{T})
+\subset H_{T}$), in other words, if, whatever the $S$-scheme $T$, the subgroup $H(T)$ of $G(T)$ is invariant in $G(T)$
+(resp. central in $G(T)$, resp. invariant under every automorphism of `G_T`).\*
 
 *N.B. If $H$ is central (resp. characteristic), then it is invariant.*
 
@@ -2451,14 +2435,14 @@ central) in $G$, it is necessary and sufficient that the morphism*
 (μ ∘ c ∘ pr_2, μ ∘ (u × id_G)) : H ×_S G → G
 ```
 
-*(defined by $(h, g) \mapsto g^{-1} h g$ whatever $g \in G(S')$ and $h \in H(S')$) factor through $u$ (resp. equal
-$u \circ pr_{1}$), and for $H$ to be characteristic in $G$, it is necessary and sufficient that for every $S$-scheme $T$
+*(defined by $(h, g) \mapsto g^{-1} h g$ whatever $g \in G(S')$ and $h \in H(S')$) factor through $u$ (resp. equal $u
+\circ pr_{1}$), and for $H$ to be characteristic in $G$, it is necessary and sufficient that for every $S$-scheme $T$
 and every $T$-automorphism of groups $a$ of `G_T`, $a \circ u(T)$ factor through $u(T)$.*
 
 <!-- label: III.VI_B.6.7 -->
 
-**Example 6.8.** *Let $G$ be an $S$-functor in groups. Then `Centr G` is characteristic and central. If, for every
-$s \in S$, $G_{s}$ is representable, then $G^{0}$ is characteristic. This follows from the definitions and from 3.3.*
+**Example 6.8.** *Let $G$ be an $S$-functor in groups. Then `Centr G` is characteristic and central. If, for every $s
+\in S$, $G_{s}$ is representable, then $G^{0}$ is characteristic. This follows from the definitions and from 3.3.*
 
 <!-- label: III.VI_B.6.8 -->
 
@@ -2529,42 +2513,42 @@ show (i) and (ii), it suffices to show that $H$ is a group subscheme of $G$, i.e
 the restriction of $\mu$ to $H \times_{k} H$ factor through the injection $H \to G$.
 
 Since $H$ is geometrically reduced, $H \times_{k} H$ is reduced, and it suffices to verify that $c(H) \subset H$ and
-that $\mu(H \times_{k} H) \subset H$ (set-theoretically). But by EGA IV₃, 11.10.6, the union of the
-$f^{n}_{(H)}(X^{n} \times_{k} H)$ is schematically dense in $H \times_{k} H$. Similarly, for every $n \geqslant 1$, the
-union of the $f^{m}_{(X^{n})}(X^{n} \times_{k} X^{m})$, for $m \geqslant 1$, is schematically dense in
-$X^{n} \times_{k} H$. Hence it suffices to show that
-$\mu(f^{n}_{(H)}(f^{m}_{(X^{n})}(X^{n} \times_{k} X^{m}))) \subset H$ and that $c(f^{n}(X^{n})) \subset H$. Now
+that $\mu(H \times_{k} H) \subset H$ (set-theoretically). But by EGA IV₃, 11.10.6, the union of the $f^{n}_{(H)}(X^{n}
+\times_{k} H)$ is schematically dense in $H \times_{k} H$. Similarly, for every $n \geqslant 1$, the union of the
+$f^{m}_{(X^{n})}(X^{n} \times_{k} X^{m})$, for $m \geqslant 1$, is schematically dense in $X^{n} \times_{k} H$. Hence it
+suffices to show that $\mu(f^{n}_{(H)}(f^{m}_{(X^{n})}(X^{n} \times_{k} X^{m}))) \subset H$ and that $c(f^{n}(X^{n}))
+\subset H$. Now
 
 ```text
 μ(f^n_{(H)} (f^m_{(X^n)} (X^n ×_k X^m))) = μ((f^n × f^m)(X^n ×_k X^m)) = f^{n+m}(X^{n+m}) ⊂ H;
 ```
 
-and, since $c(f^{1}(X^{1})) \subset f^{1}(X^{1})$, one has, whatever $n$,
-$c(f^{n}(X^{n})) \subset f^{n}(X^{n}) \subset H$. This proves (i) and (ii).
+and, since $c(f^{1}(X^{1})) \subset f^{1}(X^{1})$, one has, whatever $n$, $c(f^{n}(X^{n})) \subset f^{n}(X^{n}) \subset
+H$. This proves (i) and (ii).
 
 <!-- original page 381 -->
 
 Let us now show (iii). Let $G'$ be a closed group subscheme of `G_S` majorizing $f_{S}$; we must show that $G'$
-majorizes `H_S`, or, what amounts to the same, that $H_{S} = H_{S} \times_{G_{S}} G'$. Set
-$H'_{S} = H_{S} \times_{G_{S}} G' = G' \cap H_{S}$. Since $G'$ and `H_S` both majorize the $f^{n}_{S}$, the same is true
-of $H'_{S}$. Now (EGA IV₃, 11.10.6), since the family of $f^{n} : X^{n} \to H$ is schematically dominant, the same is
-true of the family of $f^{n}_{S} : X^{n}_{S} \to H_{S}$, so that $H'_{S}$, which majorizes each of the $f^{n}_{S}$, is
-equal to `H_S` by EGA IV₃, 11.10.1 c). This proves (iii).
+majorizes `H_S`, or, what amounts to the same, that $H_{S} = H_{S} \times_{G_{S}} G'$. Set $H'_{S} = H_{S}
+\times_{G_{S}} G' = G' \cap H_{S}$. Since $G'$ and `H_S` both majorize the $f^{n}_{S}$, the same is true of $H'_{S}$.
+Now (EGA IV₃, 11.10.6), since the family of $f^{n} : X^{n} \to H$ is schematically dominant, the same is true of the
+family of $f^{n}_{S} : X^{n}_{S} \to H_{S}$, so that $H'_{S}$, which majorizes each of the $f^{n}_{S}$, is equal to
+`H_S` by EGA IV₃, 11.10.1 c). This proves (iii).
 
 Let us show finally that `H_S` is the smallest group subscheme (not necessarily closed) of `G_S` majorizing $f_{S}$.
 
-Let $G'$ be a group subscheme of `G_S` majorizing $f_{S}$. It must likewise be shown that, if one sets
-$H'_{S} = H_{S} \times_{G_{S}} G'$, then $H'_{S} = H_{S}$. It suffices for this to show that $H'_{S}$ is closed in `H_S`
-and to apply (iii). It suffices therefore to show that `H_S` and $H'_{S}$ have the same underlying set, a fortiori it
-suffices to show that, for every $s \in S$, $H_{s}$ equals
+Let $G'$ be a group subscheme of `G_S` majorizing $f_{S}$. It must likewise be shown that, if one sets $H'_{S} = H_{S}
+\times_{G_{S}} G'$, then $H'_{S} = H_{S}$. It suffices for this to show that $H'_{S}$ is closed in `H_S` and to apply
+(iii). It suffices therefore to show that `H_S` and $H'_{S}$ have the same underlying set, a fortiori it suffices to
+show that, for every $s \in S$, $H_{s}$ equals
 
 ```text
 H′_s := H′_S ×_S κ(s) = H_s ×_{G_s} G′_s.
 ```
 
 Now, by VI_A, 0.5.2, the group sub-$\kappa(s)$-scheme $G'_{s}$ is closed in $G_{s}$. Hence $H'_{s}$ is closed in
-$H_{s}$, and then the preceding reasoning, applied to $H'_{s}$, to $H_{s}$ and to the $f^{n}_{s}$, shows that
-$H'_{s} = H_{s}$. ∎
+$H_{s}$, and then the preceding reasoning, applied to $H'_{s}$, to $H_{s}$ and to the $f^{n}_{s}$, shows that $H'_{s} =
+H_{s}$. ∎
 
 **Corollary 7.1.1.** [^N.D.E-VI_B-70] *Let $G$ be a $k$-group locally of finite type and let `A, B` be two
 sub-$k$-groups of $G$, smooth and of finite type, and $i_{A}$ (resp. $i_{B}$) the inclusion of $A$ (resp. $B$) into $G$.
@@ -2574,16 +2558,16 @@ Assume that $B$ normalizes $A$. Then $A \cdot B = \Gamma_{G}(i_{A}, i_{B})$.*
 
 Indeed, let `H = A ⋊ B` be the semidirect product of $A$ and $B$ (cf. I, 2.3.5); it is a smooth $k$-group of finite
 type. Then the group morphism $u : H \to G$, $(a, b) \mapsto ab$, is quasi-compact, hence, by 1.2, $u(H) = A \cdot B$ is
-a closed reduced subscheme of $G$, which is a group in the category $(Sch/k)_{red}$. Now, by EGA IV₃, 11.10.7,
-$A \cdot B = u(H)$ is geometrically reduced (since $H$ is), so it is a closed subgroup of $G$. Since obviously
-$A \cdot B \subset \Gamma_{G}(i_{A}, i_{B})$, the corollary follows. ∎
+a closed reduced subscheme of $G$, which is a group in the category $(Sch/k)_{red}$. Now, by EGA IV₃, 11.10.7, $A \cdot
+B = u(H)$ is geometrically reduced (since $H$ is), so it is a closed subgroup of $G$. Since obviously $A \cdot B \subset
+\Gamma_{G}(i_{A}, i_{B})$, the corollary follows. ∎
 
 **Definitions and remarks 7.2.** [^N.D.E-VI_B-71] *(i) Given a $k$-group $G$, a family $(X_{i})_{i \in I}$ of
 geometrically reduced $k$-schemes, and for each $i \in I$ a $k$-morphism $f_{i} : X_{i} \to G$, one calls* closed group
-subscheme of $G$ generated by the family $(f_{i})_{i \in I}$*, and we shall denote in this number
-$\Gamma_{G}((f_{i})_{i \in I})$, the smallest closed group subscheme of $G$ majorizing each of the $f_{i}$. If $X$ is a
-subscheme of $G$, geometrically reduced over $k$, and if $f$ is the immersion $X \hookrightarrow G$, one writes
-$\Gamma_{G}(X)$ instead of $\Gamma_{G}(f)$.*
+subscheme of $G$ generated by the family $(f_{i})_{i \in I}$*, and we shall denote in this number $\Gamma_{G}((f_{i})_{i
+\in I})$, the smallest closed group subscheme of $G$ majorizing each of the $f_{i}$. If $X$ is a subscheme of $G$,
+geometrically reduced over $k$, and if $f$ is the immersion $X \hookrightarrow G$, one writes $\Gamma_{G}(X)$ instead of
+$\Gamma_{G}(f)$.*
 
 *(i′) With the notations of 7.1 (ii), we shall sometimes set $\Gamma'_{G}(f) = \bigcup_{n \geqslant 1} f^{n}(X^{n})$.
 Note that $\Gamma'_{G}(f)$ is a subset of $G$ stable for the group law (in the sense of 3.0).*
@@ -2602,8 +2586,8 @@ injection of the reduced subscheme $E$ of $G$ into $G$.*
 subscheme" instead of "generated closed group subscheme".*
 
 *(v) Let $X$ be a geometrically reduced $k$-scheme and $f : X \to G$ a $k$-morphism. Suppose that $f(X)$ contains the
-unit element $e$ of $G$. Set $X'^{1} = X \times_{k} X$ and $f'^{1} = \mu \circ (f \times_{k} (c \circ f))$, and for
-$n > 1$,*
+unit element $e$ of $G$. Set $X'^{1} = X \times_{k} X$ and $f'^{1} = \mu \circ (f \times_{k} (c \circ f))$, and for $n >
+1$,*
 
 ```text
 X′^n = X′¹ ×_k X′^{n−1}    and    f′^n = μ ∘ (f′¹ ×_k f′^{n−1}).
@@ -2612,8 +2596,8 @@ X′^n = X′¹ ×_k X′^{n−1}    and    f′^n = μ ∘ (f′¹ ×_k f′^{n
 *Then $\Gamma_{G}(f)$ is the reduced subscheme of $G$ whose underlying space is the closure of the union of the
 $f'^{n}(X'^{n})$, for $n \geqslant 1$.*
 
-Indeed, recalling the notation of 7.1 (ii): $X^{1} = X \sqcup X$ and $X^{n} = X^{1} \times_{k} X^{n-1}$, for
-$n \geqslant 2$, one has the following inclusions, where the first follows from the hypothesis $e \in f(X)$:
+Indeed, recalling the notation of 7.1 (ii): $X^{1} = X \sqcup X$ and $X^{n} = X^{1} \times_{k} X^{n-1}$, for $n
+\geqslant 2$, one has the following inclusions, where the first follows from the hypothesis $e \in f(X)$:
 
 ```text
 f^n(X^n) ⊂ f′^n(X′^n) ⊂ f^{2n}(X^{2n}),    for every n ⩾ 1.
@@ -2641,8 +2625,8 @@ case). ∎
 
 *a) Let $A$ and $B$ be two geometrically reduced group sub-$k$-schemes of $G$. The* commutator group subscheme of $A$
 and $B$ in $G$*, denoted $(A, B)_{G}$ or simply $(A, B)$, is the closed group subscheme of $G$ generated by the morphism
-$\nu : A \times_{k} B \to G$ defined by: $(a, b) \mapsto aba^{-1}b^{-1}$, for every $k$-scheme $S$ and $a \in A(S)$,
-$b \in B(S)$.*
+$\nu : A \times_{k} B \to G$ defined by: $(a, b) \mapsto aba^{-1}b^{-1}$, for every $k$-scheme $S$ and $a \in A(S)$, $b
+\in B(S)$.*
 
 *b) Suppose $G$ geometrically reduced over $k$. The* derived group of $G$*, denoted $D(G)$,*[^N.D.E-VI_B-73] *is the
 group $(G, G)$.*
@@ -2656,8 +2640,8 @@ group $(G, G)$.*
 **Reminders 7.3.0.** [^N.D.E-VI_B-74] *Recall that if $\phi : Y \to Z$ is a morphism of $S$-schemes, the image presheaf
 $\phi(Y)$ is the $S$-functor which to every $S'$ over $S$ associates the subset $\phi(Y(S'))$ of $Z(S')$. Note that if
 $T$ is a subscheme of $Z$ and if the inclusion of presheaves $\phi(Y) \hookrightarrow Z$ factors through $T$, i.e. if
-$\phi \circ h \in T(S')$ for every $S$-morphism $h : S' \to Y$, then set-theoretically $\phi(Y) \subset T$ (take
-$h = id_{Y}$), and the converse is true if $Y$ is reduced, since in this case $\phi$ factors through $T$.*
+$\phi \circ h \in T(S')$ for every $S$-morphism $h : S' \to Y$, then set-theoretically $\phi(Y) \subset T$ (take $h =
+id_{Y}$), and the converse is true if $Y$ is reduced, since in this case $\phi$ factors through $T$.*
 
 *Recall also that, by 6.2, if $H$ is a closed group sub-$k$-scheme of $G$, then $Centr_{G} H$ and $Norm_{G} H$ are
 representable by closed group sub-$k$-schemes of $G$.*
@@ -2668,21 +2652,21 @@ representable by closed group sub-$k$-schemes of $G$.*
 
 *(i) Let $S$ be a $k$-scheme and $u$ an endomorphism of the $S$-group `G_S`.*
 
-*(a) If one has $u(f_{S}(X_{S})) \subset \Gamma_{G}(f)_{S}$ (set-theoretically), then the morphism
-$u : \Gamma_{G}(f)_{S} \to G_{S}$ factors through $\Gamma_{G}(f)_{S}$.*
+*(a) If one has $u(f_{S}(X_{S})) \subset \Gamma_{G}(f)_{S}$ (set-theoretically), then the morphism $u :
+\Gamma_{G}(f)_{S} \to G_{S}$ factors through $\Gamma_{G}(f)_{S}$.*
 
 *(b) If $u$ is an automorphism of the $S$-group `G_S` and if one has $u(f_{S}(X_{S})) = f_{S}(X_{S})$
 (set-theoretically), then $u$ induces an automorphism of $\Gamma_{G}(f)_{S}$. In particular, if an element $g \in G(S)$
 satisfies $int(g)(f_{S}(X_{S})) = f_{S}(X_{S})$ (set-theoretically), then $g \in Norm_{G_{S}}(\Gamma_{G}(f)_{S})(S)$.*
 
 *(c) If $u \circ f_{S} = f_{S}$, then the restriction of $u$ to the subgroup $\Gamma_{G}(f)_{S}$ of `G_S` is the
-identity. In particular, if an element $g \in G(S)$ satisfies $int(g)(f_{S}) = f_{S}$, then
-$g \in Centr_{G_{S}}(\Gamma_{G}(f)_{S})(S)$.*
+identity. In particular, if an element $g \in G(S)$ satisfies $int(g)(f_{S}) = f_{S}$, then $g \in
+Centr_{G_{S}}(\Gamma_{G}(f)_{S})(S)$.*
 
 *(ii) Let $H$ be a group subscheme of $G$; then $H$ centralizes (resp. normalizes) $\Gamma_{G}(f)$ if and only if, for
-every $S \to \operatorname{Spec} k$ and $h \in H(S)$, one has $int(h) \circ f_{S} = f_{S}$ (resp.
-$int(h)(f_{S}(X_{S})) \subset \Gamma_{G}(f)_{S}$), i.e. if for every $S' \to S$ and $x \in X(S')$, the elements $h_{S'}$
-and $f(x)$ of $G(S')$ commute (resp. $h_{S'} f(x) h^{-1}_{S'} \in \Gamma_{G}(f)(S')$).*
+every $S \to \operatorname{Spec} k$ and $h \in H(S)$, one has $int(h) \circ f_{S} = f_{S}$ (resp. $int(h)(f_{S}(X_{S}))
+\subset \Gamma_{G}(f)_{S}$), i.e. if for every $S' \to S$ and $x \in X(S')$, the elements $h_{S'}$ and $f(x)$ of $G(S')$
+commute (resp. $h_{S'} f(x) h^{-1}_{S'} \in \Gamma_{G}(f)(S')$).*
 
 *(iii) In particular, let $Y$ be a second geometrically reduced $k$-scheme and $\phi : Y \to G$ a $k$-morphism. Suppose
 that, whatever the $k$-scheme $S'$, for every $x \in X(S')$ and $y \in Y(S')$, the elements $\phi(y)$ and $f(x)$ of
@@ -2716,9 +2700,8 @@ $u = int(g)$.
 
 Let us prove (ii). Set $\Gamma = \Gamma_{G}(f)$ and let $i$ denote the inclusion $\Gamma \hookrightarrow G$. Then $H$ is
 contained in $N = Norm_{G}(\Gamma)$ if and only if, for every $k$-scheme $S$ and $h \in H(S)$, one has
-$int(h)(\Gamma_{S}) \subset \Gamma_{S}$ (this condition applied to $h$ and $h^{-1}$ entailing that
-$int(h)(\Gamma_{S}) = \Gamma_{S}$); and by (i)(a) this is the case if and only if
-$int(h)(f_{S}(X_{S})) \subset \Gamma_{S}$.
+$int(h)(\Gamma_{S}) \subset \Gamma_{S}$ (this condition applied to $h$ and $h^{-1}$ entailing that $int(h)(\Gamma_{S}) =
+\Gamma_{S}$); and by (i)(a) this is the case if and only if $int(h)(f_{S}(X_{S})) \subset \Gamma_{S}$.
 
 Similarly, $H$ is contained in $C = Centr_{G}(\Gamma)$ if and only if, for every $k$-scheme $S$ and $h \in H(S)$, one
 has $int(h) \circ i_{S} = i_{S}$, and by (i)(c) this is the case if and only if $int(h)(f_{S}) = f_{S}$. This proves
@@ -2727,15 +2710,15 @@ has $int(h) \circ i_{S} = i_{S}$, and by (i)(c) this is the case if and only if 
 Let us prove (iii). Taking (ii) into account, the hypothesis entails that $\phi$ factors through $C$ (resp. $N$); since
 the latter is a closed subgroup of $G$, by 6.2, it therefore contains $\Gamma_{G}(f)$, by 7.1 (i).
 
-Assertion (iv) follows from (iii), when one takes for $f$ and $\phi$ the closed immersion
-$\operatorname{Spec} k \hookrightarrow G$ defined by $g$: in this case, for every $k$-scheme $S$, $X(S)$ and $Y(S)$ have
-only one point, which is sent by $f$ (resp. $\phi$) to $g$.
+Assertion (iv) follows from (iii), when one takes for $f$ and $\phi$ the closed immersion $\operatorname{Spec} k
+\hookrightarrow G$ defined by $g$: in this case, for every $k$-scheme $S$, $X(S)$ and $Y(S)$ have only one point, which
+is sent by $f$ (resp. $\phi$) to $g$.
 
 Let us finally show (v). Let $\nu$ be the morphism $G \times G \to G$, $(g, h) \mapsto ghg^{-1}h^{-1}$ and let $\nu'$ be
 its restriction to $A \times B$; by definition (7.2.2), $(A, B) = \Gamma_{G}(\nu')$. Let $S$ be a $k$-scheme, and $u$ an
-inner automorphism (resp. an automorphism of $S$-group) of `G_S`. One has
-$u \circ \nu_{S} = \nu_{S} \circ (u \times u)$. On the other hand, the hypothesis entails that $u$ induces an
-automorphism $u_{1}$ of `A_S` (resp. $u_{2}$ of `B_S`), hence
+inner automorphism (resp. an automorphism of $S$-group) of `G_S`. One has $u \circ \nu_{S} = \nu_{S} \circ (u \times
+u)$. On the other hand, the hypothesis entails that $u$ induces an automorphism $u_{1}$ of `A_S` (resp. $u_{2}$ of
+`B_S`), hence
 
 ```text
 u(ν′_S(A_S ×_S B_S)) = ν′_S(u_1(A_S) ×_S u_2(B_S)) = ν′_S(A_S ×_S B_S).
@@ -2747,15 +2730,13 @@ Hence, by (i)(b), $u$ induces an automorphism of $(A, B)_{S}$. This proves (v). 
 reduced and geometrically connected, and $f : X \to G$ a $k$-morphism such that $f(X)$ contains the neutral element $e$
 of $G$. Then, with the notations of 7.1 (ii), there exists an integer $N$ such that one has (set-theoretically):*
 
-$$
-f^{N}(X^{N}) = \Gamma_{G}(f).
-$$
+$$ f^{N}(X^{N}) = \Gamma_{G}(f). $$
 
 <!-- label: III.VI_B.7.4 -->
 
-By 7.1 (iii) and EGA IV₂, 2.6.1, we may suppose $k$ algebraically closed. By Corollary 7.2.1, we may suppose
-$G = G^{0}$; finally, it suffices to show that there exists an integer $N$ such that one has
-$f'^{N}(X'^{N}) = \Gamma_{G}(f)$, with the notations of 7.2 (v).
+By 7.1 (iii) and EGA IV₂, 2.6.1, we may suppose $k$ algebraically closed. By Corollary 7.2.1, we may suppose $G =
+G^{0}$; finally, it suffices to show that there exists an integer $N$ such that one has $f'^{N}(X'^{N}) =
+\Gamma_{G}(f)$, with the notations of 7.2 (v).
 
 *First case.* Suppose $X$ irreducible. Then the $f'^{n}(X'^{n})$ form an increasing sequence of irreducible closed sets
 in the space $G$, which is noetherian, since $G = G^{0}$ is
@@ -2776,10 +2757,10 @@ $\Gamma_{G}(f)$ (EGA 0_IV, 9.2.3). Then, by VI_A 0.5, one has:
 whence $f'^{2m}(X'^{2m}) = \Gamma_{G}(f)$.
 
 *Second case.* Suppose $X$ has exactly two irreducible components `A_1` and `A_2`. Then, since $X$ is connected and $k$
-algebraically closed, there exists $a \in (A_{1} \cap A_{2})(k)$. Hence the four irreducible parts
-$A_{i} \times_{k} A_{j}$ ($i, j = 1, 2$) cover $X \times_{k} X$, and the image of each of them under the morphism
-$f'^{1} = \mu \circ (f \times_{k} (c \circ f))$ contains $e$. If $f'^{1}_{ij}$ denotes the restriction of $f'^{1}$ to
-the reduced subscheme $A_{i} \times_{k} A_{j}$, set
+algebraically closed, there exists $a \in (A_{1} \cap A_{2})(k)$. Hence the four irreducible parts $A_{i} \times_{k}
+A_{j}$ ($i, j = 1, 2$) cover $X \times_{k} X$, and the image of each of them under the morphism $f'^{1} = \mu \circ (f
+\times_{k} (c \circ f))$ contains $e$. If $f'^{1}_{ij}$ denotes the restriction of $f'^{1}$ to the reduced subscheme
+$A_{i} \times_{k} A_{j}$, set
 
 ```text
 Y = (A_1 ×_k A_1) ×_k (A_1 ×_k A_2) ×_k (A_2 ×_k A_2) ×_k (A_2 ×_k A_1)    and
@@ -2787,9 +2768,8 @@ g = μ ∘ (μ ∘ (f′¹_{11} ×_k f′¹_{12}) ×_k μ ∘ (f′¹_{22} ×_k 
 ```
 
 Then $Y$ is irreducible, reduced and of finite type, hence we just saw that there exists an integer $m$ such that
-$g'^{m}(Y'^{m}) = \Gamma_{G}(g)$. Now, for every $n \geqslant 1$, one has
-$f'^{n}(X'^{n}) \subset g'^{n}(Y^{n}) \subset f'^{4n}(X'^{4n})$, whence $\Gamma_{G}(f) = \Gamma_{G}(g)$ and
-$f'^{4m}(X'^{4m}) = \Gamma_{G}(f)$.
+$g'^{m}(Y'^{m}) = \Gamma_{G}(g)$. Now, for every $n \geqslant 1$, one has $f'^{n}(X'^{n}) \subset g'^{n}(Y^{n}) \subset
+f'^{4n}(X'^{4n})$, whence $\Gamma_{G}(f) = \Gamma_{G}(g)$ and $f'^{4m}(X'^{4m}) = \Gamma_{G}(f)$.
 
 *General case.* Let us argue by induction on the number of irreducible components of $X$ (this number is finite since
 $X$, being of finite type over $k$, is noetherian). Suppose the proposition proved in the case where $X$ has at most
@@ -2803,18 +2783,18 @@ Set $Z = f(A_{r})$, and let $T = Y \cup Z$, equipped with the closed reduced sub
 of $T$ into $G$. It is clear (7.2 (ii)) that $\Gamma_{G}(i) = \Gamma_{G}(f)$ and that $T$ is connected (because since
 $X$ is connected, $A_{1} \cup \cdots \cup A_{r-1}$ and $A_{r}$ have in common a point $a$, and $Y$ and $Z$ have in
 common the point $f(a)$). Moreover, $e \in T$, and $T$ has at most two irreducible components, since $Y$ and $Z$ are
-irreducible. By the induction hypothesis, there exists an integer $m$ such that one has
-$f'^{m}_{r}(X'^{m}_{r}) = \Gamma_{G}(f_{r}) = Y$. Since $X = X_{r} \cup A_{r}$ and since $Z = f(A_{r})$ is contained in
-$f'^{m}(X'^{m})$ (since $e \in f(A_{1})$), one therefore has:
+irreducible. By the induction hypothesis, there exists an integer $m$ such that one has $f'^{m}_{r}(X'^{m}_{r}) =
+\Gamma_{G}(f_{r}) = Y$. Since $X = X_{r} \cup A_{r}$ and since $Z = f(A_{r})$ is contained in $f'^{m}(X'^{m})$ (since $e
+\in f(A_{1})$), one therefore has:
 
 ```text
 f(X) ⊂ Y ∪ Z ⊂ f′^m(X′^m).
 ```
 
 On the other hand, since $T$ has at most two irreducible components, one has already seen that there exists an integer
-$p$ such that $i'^{p}(T'^{p}) = \Gamma_{G}(i) = \Gamma_{G}(f)$. Now, $T \subset f'^{m}(X'^{m})$, hence
-$f'^{mp}(X'^{mp}) = \Gamma_{G}(f)$, and one shows, as in the first case, that this last equality entails
-$f'^{2mp}(X'^{2mp}) = \Gamma_{G}(f)$. ∎
+$p$ such that $i'^{p}(T'^{p}) = \Gamma_{G}(i) = \Gamma_{G}(f)$. Now, $T \subset f'^{m}(X'^{m})$, hence $f'^{mp}(X'^{mp})
+= \Gamma_{G}(f)$, and one shows, as in the first case, that this last equality entails $f'^{2mp}(X'^{2mp}) =
+\Gamma_{G}(f)$. ∎
 
 <!-- original page 386 -->
 
@@ -2830,10 +2810,9 @@ morphism, hence $U = f(V)$ is an open of $G$; moreover, by the hypothesis, $U \c
 $s \in S$. Denote by $\phi$ the restriction to $V \times_{S} V$ of $\mu \circ (f \times_{S} f)$.
 
 It suffices to show that $\phi$ is covering for the (fppf) topology, and for this it suffices to show that $\phi$ is
-faithfully flat and of finite presentation (cf. IV, 6.3.1 (iv)). Now $\phi$ is equal to the composite
-$V \times_{S} V -\to U \times_{S} U -\to G$, where the first morphism is faithfully flat and locally of finite
-presentation, since $f|_{V}$ is. It therefore suffices to prove that the same is true of the restriction of $\mu$ to
-$U \times_{S} U$.
+faithfully flat and of finite presentation (cf. IV, 6.3.1 (iv)). Now $\phi$ is equal to the composite $V \times_{S} V
+-\to U \times_{S} U -\to G$, where the first morphism is faithfully flat and locally of finite presentation, since
+$f|_{V}$ is. It therefore suffices to prove that the same is true of the restriction of $\mu$ to $U \times_{S} U$.
 
 Now, $G \to S$ being locally of finite presentation and flat, the same is true of $\mu : G \times_{S} G \to G$ (which is
 isomorphic to the morphism deduced from $G \to S$ by the base change $G \to S$, cf. VI_A 0.1), hence also of the induced
@@ -2844,13 +2823,11 @@ follows from VI_A 0.5, since $U \cap G_{s}$ is a dense open of $G_{s}$, for ever
 The sub-presheaf in groups of $H$ generated by the image of $f$, denoted $\langle Im f\rangle$, is the sub-$S$-functor
 in groups of $H$ which to every $S$-scheme $S'$ associates the subgroup of $H(S')$ generated by $f(X(S'))$. Since each
 element of this subgroup can be written as a finite product $f(x_{1})^{\epsilon_{1}} \cdots f(x_{n})^{\epsilon_{n}}$,
-with $n \in \mathbb{N}*$, $x_{i} \in X(S')$ and $\epsilon_{i} = \pm 1$, one sees therefore that if one sets
-$X^{1} = X \sqcup X$ and defines the morphisms $f^{n} : X^{n} \to H$ as in 7.1, then $\langle Im f\rangle$ is nothing
-but the image presheaf of the morphism*
+with $n \in \mathbb{N}*$, $x_{i} \in X(S')$ and $\epsilon_{i} = \pm 1$, one sees therefore that if one sets $X^{1} = X
+\sqcup X$ and defines the morphisms $f^{n} : X^{n} \to H$ as in 7.1, then $\langle Im f\rangle$ is nothing but the image
+presheaf of the morphism*
 
-$$
-f^{\infty} : X^{\infty} \to H,
-$$
+$$ f^{\infty} : X^{\infty} \to H, $$
 
 *where $X^{\infty} = \coprod_{n \geqslant 1} X^{n}$ and $f^{\infty} : X^{\infty} \to H$ is the $S$-morphism whose
 restriction to each $X^{n}$ is $f^{n}$.*
@@ -2876,8 +2853,8 @@ equivalent:*
 surjective).*
 
 *This applies in particular in the case where $X$ is a $k$-scheme locally of finite type and geometrically reduced, $G$
-a $k$-group locally of finite type, $\phi : X \to G$ a morphism of $k$-schemes, $H = \Gamma_{G}(\phi)$, and
-$f : X \to H$ the morphism induced by $\phi$.*
+a $k$-group locally of finite type, $\phi : X \to G$ a morphism of $k$-schemes, $H = \Gamma_{G}(\phi)$, and $f : X \to
+H$ the morphism induced by $\phi$.*
 
 <!-- label: III.VI_B.7.6 -->
 
@@ -2897,9 +2874,9 @@ presentation over $S$, and $X^{\infty}$ flat over $S$, it follows from the fibre
 ```
 
 is covering for the (fppf) topology. Now, since $X^{n} \times_{S} X^{m}$ is canonically isomorphic to $X^{n+m}$, and
-that, under this isomorphism, $\mu \circ (f^{n} \times_{S} f^{m})$ corresponds to $f^{n+m}$, it is clear that
-$\mu \circ (f^{\infty} \times_{S} f^{\infty})$ factors through $f^{\infty}$, so that $f^{\infty}$ is covering for the
-(fppf) topology. This proves that (iii) ⇒ (ii), whence the equivalence of conditions (i), (ii) and (iii).
+that, under this isomorphism, $\mu \circ (f^{n} \times_{S} f^{m})$ corresponds to $f^{n+m}$, it is clear that $\mu \circ
+(f^{\infty} \times_{S} f^{\infty})$ factors through $f^{\infty}$, so that $f^{\infty}$ is covering for the (fppf)
+topology. This proves that (iii) ⇒ (ii), whence the equivalence of conditions (i), (ii) and (iii).
 
 Note moreover that, since the morphisms $X \to S$ and $H \to S$ are locally of finite presentation, the same is true of
 $f : X \to H$ (cf. EGA IV₁, 1.4.3 (v)), and as $\mu : H \times_{S} H$ is also of finite presentation (cf. VI_A, 0.1), it
@@ -2908,9 +2885,9 @@ parts of $H$.
 
 Suppose moreover $H$ quasi-compact (then $S$ is also, since $H \to S$ is surjective). Then, by EGA IV₁, 1.9.9, one
 concludes that there exists $p$ such that $f^{p}(X^{p}) = H$. As before, one then deduces, from the fact that the fibers
-of $H$ are reduced and from Lemma 7.5, that the morphism
-$\mu \circ (f^{p} \times_{S} f^{p}) : X^{p} \times_{S} X^{p} \to H$ is covering for the (fppf) topology; since this
-morphism equals $f^{2p} : X^{2p} \to H$, this concludes the proof of 7.6. ∎
+of $H$ are reduced and from Lemma 7.5, that the morphism $\mu \circ (f^{p} \times_{S} f^{p}) : X^{p} \times_{S} X^{p}
+\to H$ is covering for the (fppf) topology; since this morphism equals $f^{2p} : X^{2p} \to H$, this concludes the proof
+of 7.6. ∎
 
 **Remark 7.6.1.** *Obviously, the equivalent conditions of 7.6 imply that the sheaf $F$ considered is representable. The
 converse is false in general:*[^N.D.E-VI_B-78] *for example, if $k$ is of characteristic 0, let $G = G_{a,k}$ and let
@@ -2938,15 +2915,15 @@ $H \subset f(X)$. Set*
 Γ′ = ⋃_{n ⩾ 1} f^n(X^n),    Γ′_0 = Γ′ ∩ G(k),    H_0 = H(k)
 ```
 
-*and assume `H_0` is of finite index in $\Gamma'_{0}$. Then there exists an integer $m$ such that
-$f^{m}(X^{m}) = \Gamma_{G}(f)$ (cf. 7.6), and $\Gamma_{G}(f)$ is the union of finitely many translates of $H$.*
+*and assume `H_0` is of finite index in $\Gamma'_{0}$. Then there exists an integer $m$ such that $f^{m}(X^{m}) =
+\Gamma_{G}(f)$ (cf. 7.6), and $\Gamma_{G}(f)$ is the union of finitely many translates of $H$.*
 
 <!-- label: III.VI_B.7.7 -->
 
 For every $n \geqslant 1$, $f^{n}(X^{n})$ is an ind-constructible part of $G$ (EGA IV₁, 1.9.5 (viii)), the same is
 therefore true of $\Gamma'$, so that, since $G$ is a Jacobson scheme, $\Gamma'_{0}$ is dense in $\Gamma'$. By
-hypothesis, there exists a finite sequence $a_{1}, \cdots, a_{r}$ of points of $\Gamma'_{0}$ such that
-$\Gamma'_{0} = a_{1} H_{0} \cup \cdots \cup a_{r} H_{0}$, whence
+hypothesis, there exists a finite sequence $a_{1}, \cdots, a_{r}$ of points of $\Gamma'_{0}$ such that $\Gamma'_{0} =
+a_{1} H_{0} \cup \cdots \cup a_{r} H_{0}$, whence
 
 ```text
 Γ_G(f) = Γ′ = Γ′_0 = a_1 H_0 ∪ … ∪ a_r H_0 = a_1 H_0 ∪ … ∪ a_r H_0 = a_1 H ∪ … ∪ a_r H,
@@ -2954,9 +2931,8 @@ $\Gamma'_{0} = a_{1} H_{0} \cup \cdots \cup a_{r} H_{0}$, whence
 
 the last equality resulting from the fact that translation by $a_{i}$ is a homeomorphism of $G$ onto $G$. One has
 therefore $\Gamma_{G}(f) = a_{1} H \cup \cdots \cup a_{r} H$. On the other hand, it is clear that there exists an
-integer $p$ such that each of the $a_{i}$ ($1 \leqslant i \leqslant r$) belongs to $f^{p}(X^{p})$. Finally, since
-$H \subset f(X)$, one has, for every $i$: $a_{i} H \subset f^{p+1}(X^{p+1})$, so that
-$f^{p+1}(X^{p+1}) = \Gamma_{G}(f)$. ∎
+integer $p$ such that each of the $a_{i}$ ($1 \leqslant i \leqslant r$) belongs to $f^{p}(X^{p})$. Finally, since $H
+\subset f(X)$, one has, for every $i$: $a_{i} H \subset f^{p+1}(X^{p+1})$, so that $f^{p+1}(X^{p+1}) = \Gamma_{G}(f)$. ∎
 
 **Proposition 7.8.** *Let $G$ be a $k$-group locally of finite type, $A$ and $B$ two geometrically reduced group
 sub-$k$-schemes (hence smooth at the generic points of their irreducible components, hence smooth by 1.3) of $G$.
@@ -2989,10 +2965,10 @@ obvious notations:
 (A, B)_{k̄} = (A_{k̄}, B_{k̄}),    ((A, B)⁰)_{k̄} = (A_{k̄}, B_{k̄})⁰,    (A, B⁰)_{k̄} = (A_{k̄}, B⁰_{k̄}),    etc.
 ```
 
-Consequently, if one shows that $(A_{\bar{k}}, B_{\bar{k}})$ is of finite type over $\bar{k}$ (resp. that
-$(A_{\bar{k}}, B^{0}_{\bar{k}})$ and $(A^{0}_{\bar{k}}, B_{\bar{k}})$ are connected, and that the morphism
-$(A_{\bar{k}}, B^{0}_{\bar{k}}) \times_{\bar{k}} (A_{\bar{k}}, B^{0}_{\bar{k}}) \to (A_{\bar{k}}, B_{\bar{k}})^{0}$ is
-surjective), then the analogous assertions will be true over $k$, by EGA IV₂, 2.7.1 and 2.6.1.
+Consequently, if one shows that $(A_{\bar{k}}, B_{\bar{k}})$ is of finite type over $\bar{k}$ (resp. that $(A_{\bar{k}},
+B^{0}_{\bar{k}})$ and $(A^{0}_{\bar{k}}, B_{\bar{k}})$ are connected, and that the morphism $(A_{\bar{k}},
+B^{0}_{\bar{k}}) \times_{\bar{k}} (A_{\bar{k}}, B^{0}_{\bar{k}}) \to (A_{\bar{k}}, B_{\bar{k}})^{0}$ is surjective),
+then the analogous assertions will be true over $k$, by EGA IV₂, 2.7.1 and 2.6.1.
 
 Let then $B_{1}, \cdots, B_{p}$ be the connected components of $B$ other than the neutral component $B^{0}$ (these are
 finite in number since $B$ is supposed of finite type over $k$, hence noetherian), and in case (a), let similarly
@@ -3008,15 +2984,15 @@ $u_{i0}$) denotes the injection of $\Gamma_{G}(\nu_{0j})$ (resp. $\Gamma_{G}(\nu
 ```
 
 are connected. Moreover, one easily deduces from 7.4 and the preceding constructions that there exists an index $r$ such
-that $(A^{0}, B)$ and $(A, B^{0})$ are included in $\nu^{r}((A \times_{k} B)^{r})$. In case b), one has
-$(A, B) = (A^{0}, B)$, and we are done.
+that $(A^{0}, B)$ and $(A, B^{0})$ are included in $\nu^{r}((A \times_{k} B)^{r})$. In case b), one has $(A, B) =
+(A^{0}, B)$, and we are done.
 
 Let us now place ourselves in case (a).[^N.D.E-VI_B-80] We already know that $(A^{0}, B)$ and $(A, B^{0})$ are smooth
 and connected sub-$k$-groups of $G$, hence of finite type (cf. VI_A, 2.4). On the other hand, since $A^{0}$ is a
 characteristic subgroup of $A$ (cf. VI_A, 2.6.5), it is an invariant subgroup of $G$ and hence, by 7.3 (v), $(A^{0}, B)$
 is an invariant subgroup of $G$, and similarly for $(A, B^{0})$. Hence, by 7.1.1, the subgroup $H$ of $G$ generated by
-$(A, B^{0})$ and $(A^{0}, B)$ is none other than $(A, B^{0}) \cdot (A^{0}, B)$. In particular, one has therefore
-$H \subset \nu^{2r}((A \times_{k} B)^{2r})$.
+$(A, B^{0})$ and $(A^{0}, B)$ is none other than $(A, B^{0}) \cdot (A^{0}, B)$. In particular, one has therefore $H
+\subset \nu^{2r}((A \times_{k} B)^{2r})$.
 
 Given a part $X$ of $G$ stable for the group law (cf. 3.0), we shall denote by `X_0` the group of $k$-points of $G$
 belonging to $X$. Set $\Gamma' = \bigcup_{q \geqslant 1} \nu^{q}((A \times_{k} B)^{q})$. Then, by Proposition 7.9 below,
@@ -3029,11 +3005,11 @@ one has:
 so that $H_{0} = (A^{0}_{0}, B_{0}) \cdot (A_{0}, B^{0}_{0})$ is of finite index in $\Gamma'_{0}$ (Bible, Exp. 3,
 Appendix) since $A^{0}$ and $B^{0}$ are invariant, and $A^{0}_{0}$ (resp. $B^{0}_{0}$) is of finite index in `A_0`
 (resp. `B_0`). We are then in the conditions of Lemma 7.7: since $H \subset \nu^{2r}((A \times_{k} B)^{2r})$, there
-exists an integer $m$ such that $\nu^{2rm}((A \times_{k} B)^{2rm}) = (A, B)$, and there exists a finite sequence
-$a_{1}, \cdots, a_{n}$ of $k$-points of $G$ such that: $(A, B) = a_{1} H \cup \cdots \cup a_{n} H$. Then, since $H$ is
-of finite type over $k$, each of the $a_{i} H$ is quasi-compact, hence their union $(A, B)$ is quasi-compact, hence of
-finite type over $k$. Since $H$ is irreducible, the same is true of each of the $a_{i} H$, and since $e \in H$, it is
-clear that $H = (A, B)^{0}$. ∎
+exists an integer $m$ such that $\nu^{2rm}((A \times_{k} B)^{2rm}) = (A, B)$, and there exists a finite sequence $a_{1},
+\cdots, a_{n}$ of $k$-points of $G$ such that: $(A, B) = a_{1} H \cup \cdots \cup a_{n} H$. Then, since $H$ is of finite
+type over $k$, each of the $a_{i} H$ is quasi-compact, hence their union $(A, B)$ is quasi-compact, hence of finite type
+over $k$. Since $H$ is irreducible, the same is true of each of the $a_{i} H$, and since $e \in H$, it is clear that $H
+= (A, B)^{0}$. ∎
 
 <!-- original page 390 -->
 
@@ -3046,18 +3022,18 @@ to $A$. Then $(A \cdot B)_{0} = A_{0} \cdot B_{0}$, the second product being tak
 $\Gamma'_{G}(f) = \bigcup_{n \geqslant 1} f^{n}(X^{n})$. Then $\Gamma'_{G}(f)_{0}$ is the subgroup of $G(k)$ generated
 by $f(X)_{0}$.*
 
-*(iii) In particular, let $A$ and $B$ be two smooth group subschemes of $G$; set
-$\Gamma' = \bigcup_{n \geqslant 1} \nu^{n}(A \times_{k} B)^{n}$ (notations of 7.2.2). Then $\Gamma'_{0}$ is the group of
-commutators of $A(k)$ and $B(k)$ in $G(k)$.*
+*(iii) In particular, let $A$ and $B$ be two smooth group subschemes of $G$; set $\Gamma' = \bigcup_{n \geqslant 1}
+\nu^{n}(A \times_{k} B)^{n}$ (notations of 7.2.2). Then $\Gamma'_{0}$ is the group of commutators of $A(k)$ and $B(k)$
+in $G(k)$.*
 
 <!-- label: III.VI_B.7.9 -->
 
 Let us prove (i). It is clear that $A_{0} \cdot B_{0} \subset (A \cdot B)_{0}$. Conversely, let $z \in (A \cdot B)_{0}$.
 Then $\mu^{-1}(z)$ is a closed subset of $G \times_{k} G$, and $A \times_{k} B$ (cf. 3.0) is an ind-constructible part
-of $G \times_{k} G$, so that $\mu^{-1}(z) \cap (A \times_{k} B)$ is a non-empty ind-constructible part of
-$G \times_{k} G$; by EGA IV₃, 10.4.8, it therefore contains a rational point of $G \times_{k} G$, whose projections $x$
-and $y$ are rational points of $G$ such that $x \in A$, $y \in B$ and $x \cdot y = z$, so that
-$(A \cdot B)_{0} = A_{0} \cdot B_{0}$.
+of $G \times_{k} G$, so that $\mu^{-1}(z) \cap (A \times_{k} B)$ is a non-empty ind-constructible part of $G \times_{k}
+G$; by EGA IV₃, 10.4.8, it therefore contains a rational point of $G \times_{k} G$, whose projections $x$ and $y$ are
+rational points of $G$ such that $x \in A$, $y \in B$ and $x \cdot y = z$, so that $(A \cdot B)_{0} = A_{0} \cdot
+B_{0}$.
 
 To prove (ii), note that, $f^{n}$ being locally of finite type, $f^{n}(X^{n})$ is an ind-constructible part of $G$ (EGA
 IV₄, 1.9.5 (viii)). Assertion (i) then allows one to show by induction that, if one sets $A = f(X)_{0}$, one has:
@@ -3143,8 +3119,8 @@ Comm_T(A, B) ⥲ Comm_T(A^♭, B^♭).
 containing $A$ (resp. $B$), and it follows that $\tau$ is a monomorphism.
 
 Let us show that $\tau$ is covering. Let $S \in Ob \mathcal{C}$ and $g \in Comm(A^{\flat}, B^{\flat})(S)$. Then, there
-exists an integer $n \geqslant 1$ and, for $i = 1, \cdots, n$, elements $a'_{i} \in A^{\flat}(S)$,
-$b'_{i} \in B^{\flat}(S)$, and $\epsilon_{i} \in {\pm 1}$, such that
+exists an integer $n \geqslant 1$ and, for $i = 1, \cdots, n$, elements $a'_{i} \in A^{\flat}(S)$, $b'_{i} \in
+B^{\flat}(S)$, and $\epsilon_{i} \in {\pm 1}$, such that
 
 ```text
 g = (a′_1, b′_1)^{ε_1} ⋯ (a′_n, b′_n)^{ε_n},
@@ -3152,8 +3128,8 @@ g = (a′_1, b′_1)^{ε_1} ⋯ (a′_n, b′_n)^{ε_n},
 
 <!-- original page 392 -->
 
-where $(a, b)$ denotes the commutator $aba^{-1}b^{-1}$, and there exists a refinement $R$ of $S$ such that
-$a'_{i} \in A(R)$ and $b'_{i} \in B(R)$ for every $i$. Then $g$ is the composite morphism
+where $(a, b)$ denotes the commutator $aba^{-1}b^{-1}$, and there exists a refinement $R$ of $S$ such that $a'_{i} \in
+A(R)$ and $b'_{i} \in B(R)$ for every $i$. Then $g$ is the composite morphism
 
 ```text
 R ─(a′_1, …, b′_n)→ (A × B)^n ─Φ_{ε_1, …, ε_n}→ Comm(A, B),
@@ -3181,11 +3157,11 @@ This proves Lemma 8.1.2. ∎
 **Proposition 8.2.** *Let $\mathcal{C}$ be a category, $T$ a topology on $\mathcal{C}$, $G$ a sheaf in groups on
 $\mathcal{C}$, $n$ an integer $\geqslant 0$. The following conditions are equivalent:*
 
-*(i) If one sets $K_{0} = G$, and for $p \geqslant 1$, $K_{p} = Comm(K_{p-1}, K_{p-1})$ (resp.
-$K_{p} = Comm(G, K_{p-1})$), then $K_{n}$ is the unit presheaf in groups.*
+*(i) If one sets $K_{0} = G$, and for $p \geqslant 1$, $K_{p} = Comm(K_{p-1}, K_{p-1})$ (resp. $K_{p} = Comm(G,
+K_{p-1})$), then $K_{n}$ is the unit presheaf in groups.*
 
-*(ii) If one sets $K'_{0} = G$, and for $p \geqslant 1$, $K'_{p} = Comm_{T}(K'_{p-1}, K'_{p-1})$ (resp.
-$K'_{p} = Comm_{T}(G, K'_{p-1})$), then $K'_{n}$ is the unit sheaf in groups.*
+*(ii) If one sets $K'_{0} = G$, and for $p \geqslant 1$, $K'_{p} = Comm_{T}(K'_{p-1}, K'_{p-1})$ (resp. $K'_{p} =
+Comm_{T}(G, K'_{p-1})$), then $K'_{n}$ is the unit sheaf in groups.*
 
 *(iii) There exists a sequence $G = H_{0} \supset H_{1} \supset \cdots \supset H_{n}$ of invariant sub-sheaves of $G$,
 such that, whatever $i$, the quotient sheaf $H_{i}/H_{i+1}$ is commutative (resp. central in $G/H_{i+1}$), and $H_{n}$
@@ -3249,10 +3225,9 @@ $G$. By EGA IV₃, 11.2.6 and 8.10.5,[^N.D.E-VI_B-82] if $G$ is flat and separat
 separated over $S' = \operatorname{Spec} A'$.[^N.D.E-VI_B-83] As $G$ is of finite presentation over $S$, then (EGA IV₃,
 9.7.7) the set of $s \in S$ such that $G_{s}$ is geometrically reduced (or, equivalently, smooth over $\kappa(s)$) is
 locally constructible. Hence, by EGA IV₃, 9.3.3, one may suppose that, for every $s' \in S'$, $G'_{s'}$ is smooth over
-$\kappa(s')$. On the other hand, if $s'$ denotes the image of $s$ in $S'$, one has:
-$G'_{s'} \otimes_{\kappa(s')} \kappa(s) \simeq G_{s}$. Hence, by 8.3, for $G_{s}$ to be solvable (resp. nilpotent), it
-is necessary and sufficient that the same be true of $G'_{s'}$. We are therefore reduced to the case where $S$ is a
-noetherian affine scheme.
+$\kappa(s')$. On the other hand, if $s'$ denotes the image of $s$ in $S'$, one has: $G'_{s'} \otimes_{\kappa(s')}
+\kappa(s) \simeq G_{s}$. Hence, by 8.3, for $G_{s}$ to be solvable (resp. nilpotent), it is necessary and sufficient
+that the same be true of $G'_{s'}$. We are therefore reduced to the case where $S$ is a noetherian affine scheme.
 
 Let us show then that $T$ is constructible. By applying the criterion (EGA 0_III, 9.2.3), one sees, reasoning as before,
 that one is reduced to showing that, in the case where $S$ is noetherian and integral, either $T$ or $S - T$ contains a
@@ -3268,14 +3243,14 @@ On the other hand, by 10.12.1 and 10.13, there exists a non-empty open $S'$ of $
 
 <!-- original page 394 -->
 
-an $S'$-group of finite presentation $D$ such that for every $s \in S'$, one has $D_{s} = K^{n}_{s}$ and
-$(D_{s}, D_{s}) = D_{s}$ (resp. $(G_{s}, D_{s}) = D_{s}$). We may suppose $S' = S$. Then, whatever $s \in S$, and
-whatever $p \geqslant n$, one has $D_{s} = K^{p}_{s}$, so that $G_{s}$ is solvable (resp. nilpotent) if and only if
-$D_{s}$ is isomorphic to the unit $\kappa(s)$-group.
+an $S'$-group of finite presentation $D$ such that for every $s \in S'$, one has $D_{s} = K^{n}_{s}$ and $(D_{s}, D_{s})
+= D_{s}$ (resp. $(G_{s}, D_{s}) = D_{s}$). We may suppose $S' = S$. Then, whatever $s \in S$, and whatever $p \geqslant
+n$, one has $D_{s} = K^{p}_{s}$, so that $G_{s}$ is solvable (resp. nilpotent) if and only if $D_{s}$ is isomorphic to
+the unit $\kappa(s)$-group.
 
-But by EGA IV₃, 9.6.1 (xi), the set of $s \in S$ such that the structural morphism
-$D_{s} \to \operatorname{Spec} \kappa(s)$ is an isomorphism is constructible,[^N.D.E-VI_B-84] hence is either rare or
-contains a non-empty open of $S$. We have therefore obtained that $T$ is locally constructible.
+But by EGA IV₃, 9.6.1 (xi), the set of $s \in S$ such that the structural morphism $D_{s} \to \operatorname{Spec}
+\kappa(s)$ is an isomorphism is constructible,[^N.D.E-VI_B-84] hence is either rare or contains a non-empty open of $S$.
+We have therefore obtained that $T$ is locally constructible.
 
 Let us show that if, moreover, $G$ is flat and separated over $S$, then $T$ is closed. Since $T$ is locally
 constructible, for $T$ to be closed, it is necessary and sufficient that $T$ be stable under specialization (cf. EGA
@@ -3313,16 +3288,16 @@ $\Gamma_{G}(\nu)_{a} = \Gamma_{G_{a}}(\bar{\nu}_{a})$; and, by the induction hyp
 K^p_a ×_{κ(a)} K^p_a ⊂ (K̄^p_α)_a ×_{κ(a)} (K̄^p_α)_a    resp.    G_a ×_{κ(a)} K^p_a ⊂ G_a ×_{κ(a)} (K̄^p_α)_a,
 ```
 
-so that
-$K^{p+1}_{a} = \Gamma_{G_{a}}(\nu_{a}) \subset \Gamma_{G_{a}}(\bar{\nu}_{a}) = \Gamma_{G}(\nu)_{a} \subset (\bar{K}^{p+1}_{\alpha})_{a}$.
+so that $K^{p+1}_{a} = \Gamma_{G_{a}}(\nu_{a}) \subset \Gamma_{G_{a}}(\bar{\nu}_{a}) = \Gamma_{G}(\nu)_{a} \subset
+(\bar{K}^{p+1}_{\alpha})_{a}$.
 
 <!-- original page 395 -->
 
 But since $K^{q}_{\alpha}$ is isomorphic to the unit $\kappa(\alpha)$-group, and the unit $A$-group is flat over $A$ and
 is isomorphic to a closed subscheme of $G$ (since $G$ is separated over $A$, cf. 5.1), it follows from EGA IV₂, 2.8.5
-that the schematic closure $\bar{K}^{q}_{\alpha}$ is isomorphic to the unit $A$-group. As we just saw that
-$K^{q}_{a} \subset (\bar{K}^{q}_{\alpha})_{a}$, this entails that $K^{q}_{a}$ is isomorphic to the unit
-$\kappa(a)$-group, so that $G_{a}$ is solvable (resp. nilpotent). ∎
+that the schematic closure $\bar{K}^{q}_{\alpha}$ is isomorphic to the unit $A$-group. As we just saw that $K^{q}_{a}
+\subset (\bar{K}^{q}_{\alpha})_{a}$, this entails that $K^{q}_{a}$ is isomorphic to the unit $\kappa(a)$-group, so that
+$G_{a}$ is solvable (resp. nilpotent). ∎
 
 ## 9. Quotient sheaves
 
@@ -3331,8 +3306,8 @@ $\kappa(a)$-group, so that $G_{a}$ is solvable (resp. nilpotent). ∎
 The present number is limited essentially to a reminder, in the particular case of homogeneous spaces of groups, of
 well-known general facts about passage to the quotient by flat equivalence relations (cf. Exp. IV).
 
-**Definition 9.1.** *Given a monomorphism $u : G' \to G$ of $S$-groups, one denotes by $G/G'$ (resp. $G'\backslash G$), and calls*
-right (resp. left) quotient sheaf of $G$ by $G'$*, the sheaf (for the (fpqc) topology) quotient of $G$ by the
+**Definition 9.1.** *Given a monomorphism $u : G' \to G$ of $S$-groups, one denotes by $G/G'$ (resp. $G'\backslash G$),
+and calls* right (resp. left) quotient sheaf of $G$ by $G'$*, the sheaf (for the (fpqc) topology) quotient of $G$ by the
 equivalence relation defined by the monomorphism:*
 
 ```text
@@ -3395,8 +3370,8 @@ faithfully flat).*
 
 *In this case, for $G''$ to be flat over $S$, it is necessary and sufficient that $G$ be flat over $S$.*
 
-*(xii) For $G'$ to be flat and locally of finite presentation over $S$, it is necessary and sufficient that
-$p : G \to G''$ be faithfully flat and locally of finite presentation.*
+*(xii) For $G'$ to be flat and locally of finite presentation over $S$, it is necessary and sufficient that $p : G \to
+G''$ be faithfully flat and locally of finite presentation.*
 
 *In this case, for $G''$ to be locally of finite presentation (resp. locally of finite type, of finite type, smooth,
 étale, unramified, locally quasi-finite, quasi-finite) over $S$, it suffices that the same be true of $G$ over $S$ (and
@@ -3413,8 +3388,8 @@ $G''$.*
 
 Recall that the equivalence relation under consideration is universally effective (IV 4.4.9). Then assertions (i),
 (iii), (iv), (v) and the first assertion of (ii) follow from IV 4.4.3, 5.2.2, 5.2.4, 3.4.5 and 3.3.2 (iii). The second
-assertion of (ii) follows from the first, as the following cartesian diagram shows, since
-$(G \times_{S} G') \times_{G} S$ is isomorphic to $G'$:
+assertion of (ii) follows from the first, as the following cartesian diagram shows, since $(G \times_{S} G') \times_{G}
+S$ is isomorphic to $G'$:
 
 ```text
 G′ ─((ε ∘ π′), id_{G′})→ G ×_S G′ ─μ ∘ (id_G × u)→ G
@@ -3438,8 +3413,8 @@ that $P$ is stable under base change, since $pr_{1}$ comes from $\pi'$ by base c
 It is clear that (viii) follows from (vii), since $\pi = \pi'' \circ p$, where $\pi'' : G'' \to S$ denotes the
 structural morphism.
 
-Let us show (ix). By (i), $p$ is an epimorphism; since $G$ is reduced, $p$ factors through the immersion
-$G''_{red} \to G''$, which is therefore also an epimorphism, hence an isomorphism (IV 4.4.4).
+Let us show (ix). By (i), $p$ is an epimorphism; since $G$ is reduced, $p$ factors through the immersion $G''_{red} \to
+G''$, which is therefore also an epimorphism, hence an isomorphism (IV 4.4.4).
 
 Let us show (x). If $G''$ is separated over $S$, then $\epsilon''$ is a closed immersion, by EGA I, 5.4.6. On the other
 hand, one saw in (ii) that $\epsilon''$ is a closed immersion if and only if $u$ is. Finally, if $u$ is a closed
@@ -3454,8 +3429,8 @@ $G''_{s}$.
 
 Finally, assertion (xiii) follows from (vii), (viii), and from EGA IV₄, 17.7.5. ∎
 
-**Lemma 9.2.1.** *Let $X$ be an $S$-scheme and $R$ an equivalence relation defined on $X$ by the monomorphism
-$v : R \to X \times_{S} X$. Suppose $R$ effective. Then:*
+**Lemma 9.2.1.** *Let $X$ be an $S$-scheme and $R$ an equivalence relation defined on $X$ by the monomorphism $v : R \to
+X \times_{S} X$. Suppose $R$ effective. Then:*
 
 *(i) $v$ is an immersion, and is a closed immersion if $Y = X/R$ is separated.*
 
@@ -3464,9 +3439,9 @@ closed immersion. Then $Y = X/R$ is separated over $S$.*
 
 <!-- label: III.VI_B.9.2.1 -->
 
-Recall (IV Def. 3.3.2) that the hypothesis "$R$ effective" means that there exists a morphism of $S$-schemes
-$p : X \to Y$ such that the natural morphism $R \to X \times_{Y} X$ is an isomorphism. From this one deduces (EGA I,
-5.3.5) the following cartesian diagram:
+Recall (IV Def. 3.3.2) that the hypothesis "$R$ effective" means that there exists a morphism of $S$-schemes $p : X \to
+Y$ such that the natural morphism $R \to X \times_{Y} X$ is an isomorphism. From this one deduces (EGA I, 5.3.5) the
+following cartesian diagram:
 
 ```text
 R ────v────→ X ×_S X
@@ -3534,9 +3509,9 @@ is determined up to equivalence by the data of the categories of $S_{i}$-schemes
 between these categories $\rho_{ji} : X_{i} \mapsto X_{i} \times_{S_{i}} S_{j}$ for $i \leqslant j$, and the
 transitivity isomorphisms $\rho_{kj} \circ \rho_{ji} \xrightarrow{\sim} \rho_{ki}$.
 
-Let us be precise. Given $j \in I$, and an $S_{j}$-scheme of finite presentation $X_{j}$, we shall set, for every
-$i \in I$ such that $i \geqslant j$, $X_{i} = X_{j} \times_{S_{j}} S_{i}$, and $X = X_{j} \times_{S_{j}} S$. Then (EGA
-IV₃, 8.8.2):
+Let us be precise. Given $j \in I$, and an $S_{j}$-scheme of finite presentation $X_{j}$, we shall set, for every $i \in
+I$ such that $i \geqslant j$, $X_{i} = X_{j} \times_{S_{j}} S_{i}$, and $X = X_{j} \times_{S_{j}} S$. Then (EGA IV₃,
+8.8.2):
 
 (i) Given $j \in I$, and two $S_{j}$-schemes of finite presentation $X_{j}$ and $Y_{j}$, the canonical map
 `lim⃗_{i ⩾ j} Hom_{S_i}(X_i, Y_i) → Hom_S(X, Y)` is bijective.
@@ -3558,8 +3533,8 @@ Moreover, a great number of common properties for a morphism, stable under base 
 
 > Let $u : X \to Y$ be an $S$-morphism between $S$-schemes of finite presentation; it comes by base change from an
 > $S_{j}$-morphism $u_{j} : X_{j} \to Y_{j}$ between $S_{j}$-schemes of finite presentation, by 10.0; then, for $u$ to
-> have property $P$, it is necessary and sufficient that there exist $i \geqslant j$ such that
-> $u_{i} = u_{j} \times_{S_{j}} S_{i}$ has property $P$.
+> have property $P$, it is necessary and sufficient that there exist $i \geqslant j$ such that $u_{i} = u_{j}
+> \times_{S_{j}} S_{i}$ has property $P$.
 
 This is so in the case where $P$ is one of the following properties for a morphism: being separated, surjective,
 radicial, affine, quasi-affine, finite, quasi-finite, proper, projective, quasi-projective, an isomorphism, a
@@ -3620,18 +3595,18 @@ itself, it is central.
 
 **Proposition 10.6.** *Let $G_{j}$ be an $S_{j}$-group of finite presentation, $G'_{j}$ a group subscheme of $G_{j}$
 flat and of finite presentation over $S_{j}$. For $(G_{j} \times_{S_{j}} S)/(G'_{j} \times_{S_{j}} S)$ to be
-representable for the (fpqc) topology, it is necessary and sufficient that there exist $i \geqslant j$ such that
-$(G_{j} \times_{S_{j}} S_{i})/(G'_{j} \times_{S_{j}} S_{i})$ is so.*
+representable for the (fpqc) topology, it is necessary and sufficient that there exist $i \geqslant j$ such that $(G_{j}
+\times_{S_{j}} S_{i})/(G'_{j} \times_{S_{j}} S_{i})$ is so.*
 
 <!-- label: III.VI_B.10.6 -->
 
 This is a consequence of the following more general lemma.
 
 **Lemma 10.7.** *Let $X_{j}$ be an $S_{j}$-scheme of finite presentation, and $R_{j}$ an equivalence relation on $X_{j}$
-flat and of finite presentation.*[^N.D.E-VI_B-94] *For the quotient sheaf
-$(X_{j} \times_{S_{j}} S)/(R_{j} \times_{S_{j}} S)$ for the topology $T =$ (fppf) or (fpqc) to be representable, it is
-necessary and sufficient that there exist $i \geqslant j$, such that the quotient sheaf
-$(X_{j} \times_{S_{j}} S_{i})/(R_{j} \times_{S_{j}} S_{i})$ for the topology $T$ is so.*
+flat and of finite presentation.*[^N.D.E-VI_B-94] *For the quotient sheaf $(X_{j} \times_{S_{j}} S)/(R_{j}
+\times_{S_{j}} S)$ for the topology $T =$ (fppf) or (fpqc) to be representable, it is necessary and sufficient that
+there exist $i \geqslant j$, such that the quotient sheaf $(X_{j} \times_{S_{j}} S_{i})/(R_{j} \times_{S_{j}} S_{i})$
+for the topology $T$ is so.*
 
 <!-- label: III.VI_B.10.7 -->
 
@@ -3676,8 +3651,8 @@ faithfully flat by hypothesis, and is locally of finite presentation since $X$ a
 presentation over $S$ (EGA IV₁, 1.4.3 (v)). ∎
 
 **Lemma 10.9.** *Let $G_{j}$ be an $S_{j}$-group of finite presentation, and $G = G_{j} \times_{S_{j}} S$. For $G^{0}$
-to be representable, it is necessary and sufficient that there exist $i \geqslant j$ such that
-$(G_{i})^{0} = (G_{j} \times_{S_{j}} S_{i})^{0}$ is so.*
+to be representable, it is necessary and sufficient that there exist $i \geqslant j$ such that $(G_{i})^{0} = (G_{j}
+\times_{S_{j}} S_{i})^{0}$ is so.*
 
 <!-- label: III.VI_B.10.9 -->
 
@@ -3697,9 +3672,9 @@ Let us recall two very useful particular cases of the situation stated in 10.0 (
 <!-- original page 402 -->
 
 a) Given a point $x$ of a scheme $X$, one sets $S_{0} = \operatorname{Spec} \mathbb{Z}$ and considers the filtered
-decreasing projective system $(S_{i})_{i \in I}$ of affine open neighborhoods of $x$; then
-$S = \operatorname{Spec} \mathcal{O}_{X,x}$. In particular, if $x$ is the generic point of an integral scheme $X$, one
-finds $S = \operatorname{Spec} \kappa(x)$.
+decreasing projective system $(S_{i})_{i \in I}$ of affine open neighborhoods of $x$; then $S = \operatorname{Spec}
+\mathcal{O}_{X,x}$. In particular, if $x$ is the generic point of an integral scheme $X$, one finds $S =
+\operatorname{Spec} \kappa(x)$.
 
 b) One sets $S_{0} = \operatorname{Spec} \mathbb{Z}$, and considers the family $(A_{i})_{i \in I}$ preordered by
 inclusion of the finitely generated sub-$\mathbb{Z}$-algebras of the ring of an affine scheme $S$. Given that the
@@ -3728,14 +3703,14 @@ Centr(u′)    and    Norm_{G′} i′(Y′)
 
 <!-- label: III.VI_B.10.11 -->
 
-We shall apply the results of 10.1, first in the situation of 10.10 a), then in that of 10.10 b). Since
-$G_{\eta}, Y_{\eta}, Z_{\eta}$ are flat over the field $\kappa(\eta)$, $G_{\eta}$ is separated over $\kappa(\eta)$ (VI_A
-0.3), and $i_{\eta}, j_{\eta}$ are closed immersions, then, by 10.1, there exists an affine open
-$S' = \operatorname{Spec}(A')$ of $S$, a noetherian subring $A$ of $A'$, $A$-schemes $G_{A}, Y_{A}, Z_{A}$, flat and of
-finite presentation over $A$, and morphisms $u_{A}, v_{A}, i_{A} : Y_{A} \to G_{A}$ and $j_{A} : Z_{A} \to G_{A}$, such
-that `G_A` is an $A$-group, separated over $A$, $i_{A}$ and $j_{A}$ are closed immersions, and
-$G \times_{S} S' = G_{A} \otimes A'$, etc. As the functors considered for $S'$ are deduced by base change from the
-analogous functors for $\operatorname{Spec}(A)$, it suffices to establish the result for the latter.
+We shall apply the results of 10.1, first in the situation of 10.10 a), then in that of 10.10 b). Since $G_{\eta},
+Y_{\eta}, Z_{\eta}$ are flat over the field $\kappa(\eta)$, $G_{\eta}$ is separated over $\kappa(\eta)$ (VI_A 0.3), and
+$i_{\eta}, j_{\eta}$ are closed immersions, then, by 10.1, there exists an affine open $S' = \operatorname{Spec}(A')$ of
+$S$, a noetherian subring $A$ of $A'$, $A$-schemes $G_{A}, Y_{A}, Z_{A}$, flat and of finite presentation over $A$, and
+morphisms $u_{A}, v_{A}, i_{A} : Y_{A} \to G_{A}$ and $j_{A} : Z_{A} \to G_{A}$, such that `G_A` is an $A$-group,
+separated over $A$, $i_{A}$ and $j_{A}$ are closed immersions, and $G \times_{S} S' = G_{A} \otimes A'$, etc. As the
+functors considered for $S'$ are deduced by base change from the analogous functors for $\operatorname{Spec}(A)$, it
+suffices to establish the result for the latter.
 
 By EGA IV₂, 6.9.2, up to replacing $A$ by a localization $A_{f}$ (and hence $S'$ by the affine open $S'_{f}$), one may
 suppose that $G_{A}, Y_{A}, Z_{A}$ are essentially free over $A$ (in the sense of 6.2.1).[^N.D.E-VI_B-97] It follows
@@ -3784,11 +3759,11 @@ Let $\eta$ be the generic point of $S$; set $H_{\eta} = (A_{\eta}, B_{\eta})$. S
 smooth, then, by 7.8 in case (a), and 7.3 (v) in case (b), $H_{\eta}$ is connected (resp. invariant in $G_{\eta}$).
 
 We are in the situation of 10.0 corresponding to 10.10 (a); hence, by 10.3 and 10.1, there exists a non-empty open $S'$
-of $S$ and a sub-$S'$-group scheme $D'$ of finite presentation and closed in $G'$, such that
-$D'_{\eta} = D' \otimes_{S'} \kappa(\eta)$ equals $H_{\eta}$. Moreover, by EGA IV₃, 9.7.7 and 9.3.3, one may suppose
-that $D'$ has geometrically reduced fibers. In case (a), one may suppose, by EGA IV₃, 9.7.7 and 9.3.3 again, that $D'$
-has connected fibers, hence geometrically connected (cf. VI_A, 2.1.1). In case (b), one may suppose, by 10.4, that $D'$
-is invariant in $G'$.
+of $S$ and a sub-$S'$-group scheme $D'$ of finite presentation and closed in $G'$, such that $D'_{\eta} = D'
+\otimes_{S'} \kappa(\eta)$ equals $H_{\eta}$. Moreover, by EGA IV₃, 9.7.7 and 9.3.3, one may suppose that $D'$ has
+geometrically reduced fibers. In case (a), one may suppose, by EGA IV₃, 9.7.7 and 9.3.3 again, that $D'$ has connected
+fibers, hence geometrically connected (cf. VI_A, 2.1.1). In case (b), one may suppose, by 10.4, that $D'$ is invariant
+in $G'$.
 
 Moreover, we have seen, in the course of the proof of 7.8, that there exists an integer $n$ such that
 $\nu^{n}_{\eta}((A_{\eta} \times_{\kappa(\eta)} B_{\eta})^{n}) = D'_{\eta}$, where $\nu_{\eta}$ and $\nu^{n}_{\eta}$ are
@@ -3813,18 +3788,16 @@ morphism[^N.D.E-VI_B-98]
 is covering for the (fppf) topology. Hence, by 7.6, $D'$ represents the (fppf) sheaf associated with the presheaf of
 commutators of $A'$ and $B'$ in $G'$.
 
-Moreover, $\nu'^{n}$ induces, for every $s \in S'$, a surjective morphism
-$\nu^{n}_{s} : (A_{s} \times_{\kappa(s)} B_{s})^{n} \to D'_{s}$.[^N.D.E-VI_B-99] Then $D'_{s}$ is a closed subgroup of
-$G_{s}$ containing $\nu_{s}(A_{s} \times_{\kappa(s)} B_{s})$, hence also $(A_{s}, B_{s})$. As $\nu^{n}_{s}$ is
-surjective, $D'_{s}$ equals $(A_{s}, B_{s})$ and represents, by 7.6, the (fppf) sheaf of commutators of $A_{s}$ and
-$B_{s}$ in $G_{s}$. ∎
+Moreover, $\nu'^{n}$ induces, for every $s \in S'$, a surjective morphism $\nu^{n}_{s} : (A_{s} \times_{\kappa(s)}
+B_{s})^{n} \to D'_{s}$.[^N.D.E-VI_B-99] Then $D'_{s}$ is a closed subgroup of $G_{s}$ containing $\nu_{s}(A_{s}
+\times_{\kappa(s)} B_{s})$, hence also $(A_{s}, B_{s})$. As $\nu^{n}_{s}$ is surjective, $D'_{s}$ equals $(A_{s},
+B_{s})$ and represents, by 7.6, the (fppf) sheaf of commutators of $A_{s}$ and $B_{s}$ in $G_{s}$. ∎
 
 **Corollary 10.12.1.** [^N.D.E-VI_B-100] *Let $S$ be an integral scheme, with generic point $\eta$, and $G$ an $S$-group
-of finite presentation with smooth fibers. Set $K^{0}_{\eta} = G_{\eta}$ and
-$K^{p}_{\eta} = (K^{p-1}_{\eta}, K^{p-1}_{\eta})$ (resp. $K^{p}_{\eta} = (G, K^{p-1}_{\eta})$) for every
-$p \in \mathbb{N}*$. Fix $n \in \mathbb{N}*$. Then there exists a non-empty open $S'$ of $S$ and a group subscheme $D$
-invariant in $G|_{S'}$, of finite presentation and with smooth fibers, such that $D_{s} = K^{n}_{s}$ for every
-$s \in S'$.*
+of finite presentation with smooth fibers. Set $K^{0}_{\eta} = G_{\eta}$ and $K^{p}_{\eta} = (K^{p-1}_{\eta},
+K^{p-1}_{\eta})$ (resp. $K^{p}_{\eta} = (G, K^{p-1}_{\eta})$) for every $p \in \mathbb{N}*$. Fix $n \in \mathbb{N}*$.
+Then there exists a non-empty open $S'$ of $S$ and a group subscheme $D$ invariant in $G|_{S'}$, of finite presentation
+and with smooth fibers, such that $D_{s} = K^{n}_{s}$ for every $s \in S'$.*
 
 <!-- label: III.VI_B.10.12.1 -->
 
@@ -3853,8 +3826,8 @@ precise, in the situation recalled at the start of 10.0:
 
 (i) Let $j \in I$ and $G_{j}$ and $G'_{j}$ two $S_{j}$-groups of finite presentation, $H_{j}$ (resp. $H'_{j}$) an
 $S_{j}$-scheme of finite presentation with operator group $G_{j}$ (resp. $G'_{j}$). Set, for $i \in I$, $i \geqslant j$,
-$G_{i} = G_{j} \times_{S_{j}} S_{i}$ and $G = G_{j} \times_{S_{j}} S$, and define similarly
-$G'_{i}, G', H_{i}, H, H'_{i}$
+$G_{i} = G_{j} \times_{S_{j}} S_{i}$ and $G = G_{j} \times_{S_{j}} S$, and define similarly $G'_{i}, G', H_{i}, H,
+H'_{i}$
 
 <!-- original page 405 -->
 
@@ -3894,10 +3867,10 @@ $X \to S$ is covering for the topology $T$ (cf. IV 5.1.5 and 5.1.6 (ii)).\*
 an $S_{j}$-group and $X_{j}$ an $S_{j}$-scheme with operator group $G_{j}$. Suppose $G_{j}$ and $X_{j}$ of finite
 presentation over $S_{j}$.*
 
-*For $X = X_{j} \times_{S_{j}} S$ to be a homogeneous space (resp. a principal homogeneous bundle) under
-$G = G_{j} \times_{S_{j}} S$ for the (fppf) topology, it is necessary and sufficient that there exist an index
-$i \geqslant j$ such that $X_{i} = X_{j} \times_{S_{j}} S_{i}$ is a homogeneous space (resp. a principal homogeneous
-bundle) under $G_{i} = G_{j} \times_{S_{j}} S_{i}$.*
+*For $X = X_{j} \times_{S_{j}} S$ to be a homogeneous space (resp. a principal homogeneous bundle) under $G = G_{j}
+\times_{S_{j}} S$ for the (fppf) topology, it is necessary and sufficient that there exist an index $i \geqslant j$ such
+that $X_{i} = X_{j} \times_{S_{j}} S_{i}$ is a homogeneous space (resp. a principal homogeneous bundle) under $G_{i} =
+G_{j} \times_{S_{j}} S_{i}$.*
 
 <!-- label: III.VI_B.10.16 -->
 
@@ -3915,8 +3888,8 @@ covering morphisms for the (fppf) topology recalled in 10.1.[^N.D.E-VI_B-103]
 9.2.1). Moreover, by EGA III, 1.4.15 (completed by EGA IV₁, 1.7.21), one has point (c) below, and the proof of loc. cit.
 also gives points (a) and (b):
 
-(a) If $F$ is a filtered inductive limit of quasi-coherent submodules $F_{\alpha}$, then
-$q_{*}(F) = \lim_{\alpha} q_{*}(F_{\alpha})$.
+(a) If $F$ is a filtered inductive limit of quasi-coherent submodules $F_{\alpha}$, then $q_{*}(F) = \lim_{\alpha}
+q_{*}(F_{\alpha})$.
 
 (b) If $E$ is a flat `O_S`-module, the canonical morphism $E \otimes_{O_{S}} q_{*}(O_{X}) \to q_{*} q*(E)$ is an
 isomorphism.
@@ -3934,8 +3907,8 @@ the kernel of the morphism
 ```
 
 Point (a) follows, since each of the terms above commutes with filtered inductive limits (since the $V_{i}$ and
-$W_{ijk}$ are affine, hence quasi-compact). Let us prove (b): $E = \Gamma(U, E)$ is a flat $A$-module, and
-$\Gamma(U, q_{*} q*(E))$ is the kernel $K(E)$ of the morphism
+$W_{ijk}$ are affine, hence quasi-compact). Let us prove (b): $E = \Gamma(U, E)$ is a flat $A$-module, and $\Gamma(U,
+q_{*} q*(E))$ is the kernel $K(E)$ of the morphism
 
 ```text
 ⊕_{i=1}^n B_i ⊗_A E → ⊕_{i,j,k} C_{ijk} ⊗_A E
@@ -3945,11 +3918,11 @@ and since $E$ is flat over $A$, this kernel is identified with $K(A) \otimes_{A}
 Finally, if $U'$ is an arbitrary affine open of $S'$ above $U$, then $A' = O(U')$ is a flat $A$-algebra, and one obtains
 as above that $F(q^{-1}(U)) \otimes_{A} A' \xrightarrow{\sim} F '(q'^{-1}(U))$.
 
-**Notation.** Let $S$ be a scheme, $X$ an $S$-scheme, $f : X \to S$ the structural morphism; we set
-$\mathcal{A}(X) = f_{*}(O_{X})$.
+**Notation.** Let $S$ be a scheme, $X$ an $S$-scheme, $f : X \to S$ the structural morphism; we set $\mathcal{A}(X) =
+f_{*}(O_{X})$.
 
-**Lemma 11.1.** *Let $X$ and $Y$ be two $S$-schemes quasi-compact and quasi-separated over $S$, $f : X \to S$ and
-$g : Y \to S$ the structural morphisms. Then the canonical homomorphism*
+**Lemma 11.1.** *Let $X$ and $Y$ be two $S$-schemes quasi-compact and quasi-separated over $S$, $f : X \to S$ and $g : Y
+\to S$ the structural morphisms. Then the canonical homomorphism*
 
 ```text
 φ : 𝒜(X) ⊗_{O_S} 𝒜(Y) → 𝒜(X ×_S Y)
@@ -3965,9 +3938,8 @@ $g : Y \to S$ the structural morphisms. Then the canonical homomorphism*
 
 <!-- label: III.VI_B.11.1 -->
 
-We shall assume, in case (b), that it is $g$ which is flat and affine. Set then
-$S' = \operatorname{Spec} \mathcal{A}(X)$, $Y' = Y \times_{S} S'$, $g' = g \times_{S} S'$, and denote by $v$ the
-morphism $S' \to S$:
+We shall assume, in case (b), that it is $g$ which is flat and affine. Set then $S' = \operatorname{Spec}
+\mathcal{A}(X)$, $Y' = Y \times_{S} S'$, $g' = g \times_{S} S'$, and denote by $v$ the morphism $S' \to S$:
 
 ```text
        Y′ ───→ Y
@@ -4009,9 +3981,8 @@ In cases (b) and (c), $Y$ is flat over $S$, hence $Y'$ is flat over $S'$; applyi
 
 and one has the same equality in case (a), since in this case $p$ and $p'$ are isomorphisms.
 
-Finally, $v$ being affine, one has, by EGA II, 1.4.7,
-$v_{*}(F \otimes_{O_{S}} O_{S'}) = F \otimes_{O_{S}} \mathcal{A}(X)$ for every quasi-coherent `O_S`-module $F$. Combined
-with (2) and (1), this gives:
+Finally, $v$ being affine, one has, by EGA II, 1.4.7, $v_{*}(F \otimes_{O_{S}} O_{S'}) = F \otimes_{O_{S}}
+\mathcal{A}(X)$ for every quasi-coherent `O_S`-module $F$. Combined with (2) and (1), this gives:
 
 ```text
 𝒜(X ×_S Y) = v_* g′_* p′_*(O_{X ×_S Y}) = v_* g′_*(O_{Y′}) = v_*(𝒜(Y) ⊗_{O_S} O_{S′}) = 𝒜(Y) ⊗_{O_S} 𝒜(X).
@@ -4140,9 +4111,9 @@ $S$, the diagram below is commutative:
 
 (1)
 
-Moreover, the unit section $\epsilon : S \to G$ induces a morphism $u$ from `O_G` to
-$\epsilon_{*} \epsilon*(O_{G}) = \epsilon_{*}(O_{S})$, and the condition that $\rho$ preserves the unit elements is
-equivalent to the commutativity of the diagram:
+Moreover, the unit section $\epsilon : S \to G$ induces a morphism $u$ from `O_G` to $\epsilon_{*} \epsilon*(O_{G}) =
+\epsilon_{*}(O_{S})$, and the condition that $\rho$ preserves the unit elements is equivalent to the commutativity of
+the diagram:
 
 ```text
                 δ
@@ -4155,16 +4126,15 @@ equivalent to the commutativity of the diagram:
 
 (2)
 
-One thus sees that giving $E$ a $G$-`O_S`-module structure is equivalent to giving a morphism of `O_S`-modules
-$\delta : E \to f_{*} f*(E)$ satisfying conditions (1) and (2) above, and in this case the morphism
-$\theta : f*(E) \to f*(E)$, deduced from $\delta$ by adjunction, is an isomorphism (since it corresponds to the
-isomorphism $G \times_{S} W(E) \xrightarrow{\sim} G \times_{S} W(E)$ defined set-theoretically by
-$(g, x) \mapsto (g, gx)$; see also I, 6.5.4).
+One thus sees that giving $E$ a $G$-`O_S`-module structure is equivalent to giving a morphism of `O_S`-modules $\delta :
+E \to f_{*} f*(E)$ satisfying conditions (1) and (2) above, and in this case the morphism $\theta : f*(E) \to f*(E)$,
+deduced from $\delta$ by adjunction, is an isomorphism (since it corresponds to the isomorphism $G \times_{S} W(E)
+\xrightarrow{\sim} G \times_{S} W(E)$ defined set-theoretically by $(g, x) \mapsto (g, gx)$; see also I, 6.5.4).
 
 Suppose now that $G$ is flat, quasi-compact and quasi-separated over $S$, and that $\mathcal{A}(G)$ is a flat
-`O_S`-module; then, by 11.1 (c), the canonical morphism
-$\mathcal{A}(G) \otimes_{O_{S}} \mathcal{A}(G) \to \mathcal{A}(G \times_{S} G)$ is an isomorphism, and the morphism
-$\delta_{G} : \mathcal{A}(G) \to \mathcal{A}(G) \otimes_{O_{S}} \mathcal{A}(G)$ will be denoted by `∆`.
+`O_S`-module; then, by 11.1 (c), the canonical morphism $\mathcal{A}(G) \otimes_{O_{S}} \mathcal{A}(G) \to \mathcal{A}(G
+\times_{S} G)$ is an isomorphism, and the morphism $\delta_{G} : \mathcal{A}(G) \to \mathcal{A}(G) \otimes_{O_{S}}
+\mathcal{A}(G)$ will be denoted by `∆`.
 
 If moreover $E \otimes_{O_{S}} \mathcal{A}(G) = f_{*} f*(E)$ (which is the case, by 11.5, if $G \to S$ is affine, or if
 $E$ is flat over `O_S`), one obtains that conditions (1) and (2) are equivalent to the conditions below, which express
@@ -4218,18 +4188,17 @@ Consequently, we have obtained:
 **Proposition 11.6.1.** *Let $G$ be an $S$-group flat, quasi-compact and quasi-separated over $S$, such that
 $\mathcal{A}(G)$ is a flat `O_S`-module, and let $E$ be a quasi-coherent `O_S`-module.*
 
-*(i) It amounts to the same to give an $\mathcal{A}(G)$-comodule structure
-$\delta : E \to E \otimes_{O_{S}} \mathcal{A}(G)$ or a $G_{af}$-`O_S`-module structure on $E$ (i.e. an `O_S`-linear
-action of $G_{af}$ on $E$). By composition with the morphism of $S$-groups $G \to G_{af}$, this defines a
-$G$-`O_S`-module structure on $E$.*
+*(i) It amounts to the same to give an $\mathcal{A}(G)$-comodule structure $\delta : E \to E \otimes_{O_{S}}
+\mathcal{A}(G)$ or a $G_{af}$-`O_S`-module structure on $E$ (i.e. an `O_S`-linear action of $G_{af}$ on $E$). By
+composition with the morphism of $S$-groups $G \to G_{af}$, this defines a $G$-`O_S`-module structure on $E$.*
 
 *(ii) If moreover $E$ is flat, every `O_S`-linear action of $G$ on $E$ factors through $G_{af}$ and corresponds to a
 unique $\mathcal{A}(G)$-comodule structure on $E$.*
 
 <!-- label: III.VI_B.11.6.1 -->
 
-**Lemma 11.7.** *Let $G$ be an $S$-group flat, quasi-compact and quasi-separated over $S$, such that
-$A = \mathcal{A}(G)$ is a flat `O_S`-module. Let $E$ be a quasi-coherent `O_S`-module, $\delta : E \to E \otimes A$ an
+**Lemma 11.7.** *Let $G$ be an $S$-group flat, quasi-compact and quasi-separated over $S$, such that $A =
+\mathcal{A}(G)$ is a flat `O_S`-module. Let $E$ be a quasi-coherent `O_S`-module, $\delta : E \to E \otimes A$ an
 $A$-comodule structure, and $\rho : G \to \operatorname{Aut}_{O_{S}}(W(E))$ the action of $G$ on $E$ associated with
 it.*
 
@@ -4312,14 +4281,14 @@ projective $A$-module.[^N.D.E-VI_B-C-113] Let $c(M)$ be the image of the morphis
 *Then $c(M)$ is the smallest subcomodule of $V$ containing $M$, and is a finitely generated $A$-module if $M$ is. One
 will say that $c(M)$ is the subcomodule generated by $M$.*
 
-*Moreover, for every morphism of rings $A \to A'$, if one denotes by $M'$ the image of $M \otimes_{A} A'$ in
-$V' = V \otimes_{A} A'$, then $c(M')$ is the image of $c(M) \otimes_{A} A'$ in $V'$, hence: "the formation of $c(M)$
-commutes with base change".*
+*Moreover, for every morphism of rings $A \to A'$, if one denotes by $M'$ the image of $M \otimes_{A} A'$ in $V' = V
+\otimes_{A} A'$, then $c(M')$ is the image of $c(M) \otimes_{A} A'$ in $V'$, hence: "the formation of $c(M)$ commutes
+with base change".*
 
 <!-- label: III.VI_B.11.8 -->
 
-First, $M \subset c(M)$ by (CM 2), and if $N$ is a subcomodule of $V$ containing $M$, one has
-$\mu(M) \subset N \otimes C$ and therefore $c(M) \subset N$.
+First, $M \subset c(M)$ by (CM 2), and if $N$ is a subcomodule of $V$ containing $M$, one has $\mu(M) \subset N \otimes
+C$ and therefore $c(M) \subset N$.
 
 By hypothesis, $C$ is a direct factor of a free $A$-module $L$, with basis $(e_{i})_{i \in I}$. Denote by $\phi_{i}$ the
 restriction to $C$ of the linear form $e^{*}_{i}$, defined by $e^{*}_{i}(e_{j}) = \delta_{ij}$. Let $x \in M$. One can
@@ -4330,8 +4299,8 @@ write:
 ```
 
 where $x_{i} \in V$ and $J$ is a finite subset of $I$. Then $x_{i} = \theta(x \otimes \phi_{i})$ belongs to $c(Ax)$, and
-one therefore has $c(Ax) = \sum_{i \in J} Ax_{i}$. Since $C$ is a direct factor of $L$, say $L = C \oplus R$, whence
-$V \otimes L = (V \otimes C) \oplus (V \otimes R)$, one obtains that
+one therefore has $c(Ax) = \sum_{i \in J} Ax_{i}$. Since $C$ is a direct factor of $L$, say $L = C \oplus R$, whence $V
+\otimes L = (V \otimes C) \oplus (V \otimes R)$, one obtains that
 
 ```text
 (c(Ax) ⊗ L) ∩ (V ⊗ C) = c(Ax) ⊗ C.
@@ -4343,8 +4312,8 @@ Consequently, $\mu(x)$ can also be written in the form
 (2)      μ(x) = ∑_{j ∈ J} x_j ⊗ b_j,
 ```
 
-with $b_{j} \in C$. One can write `∆(b_j) = ∑_{i ∈ I} b_{ij} ⊗ e_i`, with $b_{ij} \in C$. Then, applying
-$\mu \otimes id$ to (1) (resp. `id ⊗ ∆` to (2)) and using the axiom (CM 1), one obtains, for every $i \in J$:
+with $b_{j} \in C$. One can write `∆(b_j) = ∑_{i ∈ I} b_{ij} ⊗ e_i`, with $b_{ij} \in C$. Then, applying $\mu \otimes
+id$ to (1) (resp. `id ⊗ ∆` to (2)) and using the axiom (CM 1), one obtains, for every $i \in J$:
 
 ```text
 μ(x_i) = ∑_{j ∈ J} x_j ⊗ b_{ij} ∈ c(Ax) ⊗ C.
@@ -4352,9 +4321,9 @@ $\mu \otimes id$ to (1) (resp. `id ⊗ ∆` to (2)) and using the axiom (CM 1), 
 
 This shows that $c(M)$ is a subcomodule of $V$, and is therefore the smallest subcomodule of $V$ containing $M$.
 
-It is clear that $c(M)$ is a finitely generated $A$-module if $M$ is: if $M = Ax_{1} + \cdots + Ax_{n}$ and
-$\mu(x_{k}) = \sum_{i} x_{ik} \otimes e_{i}$, then $c(M)$ is generated by the $x_{ik}$, for $k = 1, \cdots, n$ and $i$
-running through a finite subset of $I$.
+It is clear that $c(M)$ is a finitely generated $A$-module if $M$ is: if $M = Ax_{1} + \cdots + Ax_{n}$ and $\mu(x_{k})
+= \sum_{i} x_{ik} \otimes e_{i}$, then $c(M)$ is generated by the $x_{ik}$, for $k = 1, \cdots, n$ and $i$ running
+through a finite subset of $I$.
 
 Finally, let $A \to A'$ be a morphism of rings and let $M'$ be the image of $M \otimes A'$ in $V' = V \otimes A'$. Then
 $c(M')$ (resp. the image of $c(M) \otimes A'$ in $V'$) is the image of the morphism $\theta'$ below (resp. of the
@@ -4372,8 +4341,8 @@ $\mu(x) = \sum_{i \in J} x_{i} \otimes e_{i}$. Then
 θ′(x ⊗ ψ) = ∑_{i ∈ J} ψ(e_i) x_i
 ```
 
-is the image by $\theta' \circ \tau$ of the element $\sum_{i \in J} x \otimes \psi(e_{i}) \otimes \phi_{i}$ of
-$M \otimes A' \otimes C^{\vee}$. This proves the lemma. ∎
+is the image by $\theta' \circ \tau$ of the element $\sum_{i \in J} x \otimes \psi(e_{i}) \otimes \phi_{i}$ of $M
+\otimes A' \otimes C^{\vee}$. This proves the lemma. ∎
 
 Moreover, one has the following proposition:
 
@@ -4411,16 +4380,16 @@ formation commutes with base change.
 
 To avoid an anachronism ([RG71] being subsequent to SGA 3), let us sketch a direct proof of point (i). Since $A \to A'$
 is flat, $M' = M \otimes A'$ is an $A'$-submodule of $V' = V \otimes A'$, and, since $C'$ is a projective $A'$-module,
-$c(M')$ is the smallest subcomodule of $V'$ containing $M'$. Denote by $V' \otimes A'$ and $A' \otimes V'$ the two
-$A' \otimes A'$-comodule structures on $V'' = V' \otimes_{A'} (A' \otimes A')$ obtained by the two base changes
-$A' \Rightarrow A' \otimes A'$, $a' \mapsto a' \otimes 1$ and $a' \mapsto 1 \otimes a'$. The $A'$-comodule $V'$ is
-equipped with an isomorphism of $A' \otimes A'$-comodules $\phi : V' \otimes A' \xrightarrow{\sim} A' \otimes V'$,
-$(x \otimes a') \otimes b' \mapsto b' \otimes (x \otimes a')$, which is a descent datum, i.e. which satisfies
-$\phi_{31} = \phi_{32} \circ \phi_{21}$.
+$c(M')$ is the smallest subcomodule of $V'$ containing $M'$. Denote by $V' \otimes A'$ and $A' \otimes V'$ the two $A'
+\otimes A'$-comodule structures on $V'' = V' \otimes_{A'} (A' \otimes A')$ obtained by the two base changes $A'
+\Rightarrow A' \otimes A'$, $a' \mapsto a' \otimes 1$ and $a' \mapsto 1 \otimes a'$. The $A'$-comodule $V'$ is equipped
+with an isomorphism of $A' \otimes A'$-comodules $\phi : V' \otimes A' \xrightarrow{\sim} A' \otimes V'$, $(x \otimes
+a') \otimes b' \mapsto b' \otimes (x \otimes a')$, which is a descent datum, i.e. which satisfies $\phi_{31} = \phi_{32}
+\circ \phi_{21}$.
 
 Since $M' = M \otimes A'$, $\phi$ sends $M' \otimes A'$ onto $A' \otimes M'$, and therefore $c(M' \otimes A')$ onto
-$c(A' \otimes M')$. Since the formation of $c(M')$ commutes with base change, one has
-$c(M' \otimes A') = c(M') \otimes A'$ and $c(A' \otimes M') = A' \otimes c(M')$. One therefore has
+$c(A' \otimes M')$. Since the formation of $c(M')$ commutes with base change, one has $c(M' \otimes A') = c(M') \otimes
+A'$ and $c(A' \otimes M') = A' \otimes c(M')$. One therefore has
 
 ```text
 φ(c(M′) ⊗ A′) = A′ ⊗ c(M′)
@@ -4428,20 +4397,19 @@ $c(M' \otimes A') = c(M') \otimes A'$ and $c(A' \otimes M') = A' \otimes c(M')$.
 
 and it follows that $\phi$ equips $c(M')$ with a descent datum. By (fpqc) descent, there exists a unique subcomodule
 $t(M)$ of $V$ such that $c(M') = t(M) \otimes A'$, and $t(M)$ contains $M$ since $t(M) \otimes A'$ contains $M'$.
-Moreover, if $N$ is a subcomodule of $V$ containing $M$, then $N$ contains $t(M)$, since $N \otimes A'$ contains
-$c(M') = t(M) \otimes A'$. Hence $t(M)$ is the smallest subcomodule of $V$ containing $M$.
+Moreover, if $N$ is a subcomodule of $V$ containing $M$, then $N$ contains $t(M)$, since $N \otimes A'$ contains $c(M')
+= t(M) \otimes A'$. Hence $t(M)$ is the smallest subcomodule of $V$ containing $M$.
 
 Finally, let $A \to B$ be a morphism of rings. Let $B' = B \otimes A'$ and let `M_B` (resp. $M'_{B'}$) be the image of
-$M \otimes B$ in $V_{B} = V \otimes B$ (resp. of $M' \otimes_{A'} B'$ in $V \otimes B'$); then
-$M_{B} \otimes_{B} B' = M'_{B'}$. On the one hand, the preceding construction, applied to `C_B` and to the morphism
-$B \to B'$, gives:
+$M \otimes B$ in $V_{B} = V \otimes B$ (resp. of $M' \otimes_{A'} B'$ in $V \otimes B'$); then $M_{B} \otimes_{B} B' =
+M'_{B'}$. On the one hand, the preceding construction, applied to `C_B` and to the morphism $B \to B'$, gives:
 
 ```text
 c(M_B ⊗_B B′) = t(M_B) ⊗_B B′ = t(M_B) ⊗ A′.
 ```
 
-On the other hand, since the formation of $c(M')$ commutes with base change, $c(M'_{B'})$ is the image in
-$V' \otimes_{A'} B' = V \otimes B \otimes A'$ of
+On the other hand, since the formation of $c(M')$ commutes with base change, $c(M'_{B'})$ is the image in $V'
+\otimes_{A'} B' = V \otimes B \otimes A'$ of
 
 ```text
 c(M′) ⊗_{A′} B′ = t(M) ⊗ B ⊗ A′.
@@ -4460,12 +4428,12 @@ descends projectivity.[^N.D.E-VI_B-C-116] ∎
 
 **Proposition 11.9.** [^N.D.E-VI_B-C-117] *Let $C$ be an `O_S`-coalgebra, $E$ a $C$-comodule, $F$ an `O_S`-submodule of
 $E$, all quasi-coherent. Suppose given a covering of $S$ by affine opens $U_{\alpha} = \operatorname{Spec} A_{\alpha}$,
-and for each $\alpha$, a faithfully flat morphism of rings $A_{\alpha} \to A'_{\alpha}$ such that
-$\Gamma(U_{\alpha}, C) \otimes_{A_{\alpha}} A'_{\alpha}$ is a projective $A'_{\alpha}$-module.[^VI_B-C-11-9]*
+and for each $\alpha$, a faithfully flat morphism of rings $A_{\alpha} \to A'_{\alpha}$ such that $\Gamma(U_{\alpha}, C)
+\otimes_{A_{\alpha}} A'_{\alpha}$ is a projective $A'_{\alpha}$-module.[^VI_B-C-11-9]*
 
 *Then there exists a smallest quasi-coherent subcomodule $t(F)$ of $E$ containing $F$, and $t(F)$ is a finitely
-generated `O_S`-module if $F$ is. Moreover, for every base change $S' \to S$, if one denotes by $F '$ the image of
-$F \otimes O_{S'}$ in $E ' = E \otimes O_{S'}$, then $t(F ')$ is the image of $t(F) \otimes O_{S'}$ in $E '$, i.e. "the
+generated `O_S`-module if $F$ is. Moreover, for every base change $S' \to S$, if one denotes by $F '$ the image of $F
+\otimes O_{S'}$ in $E ' = E \otimes O_{S'}$, then $t(F ')$ is the image of $t(F) \otimes O_{S'}$ in $E '$, i.e. "the
 formation of $t(F)$ commutes with base change".*
 
 <!-- label: III.VI_B.11.9 -->
@@ -4482,8 +4450,8 @@ with base change, one has, for all $\alpha, \beta$, canonical isomorphisms of $O
 ```
 
 which satisfy the cocycle condition $\phi'_{\alpha \gamma} = \phi'_{\alpha \beta} \circ \phi'_{\beta \gamma}$, where
-$\phi'_{\alpha \gamma}$ (resp. ⋯) denotes the restriction of $\phi_{\alpha \gamma}$ (resp. ⋯) to
-$U_{\alpha} \cap U_{\beta} \cap U_{\gamma}$.
+$\phi'_{\alpha \gamma}$ (resp. ⋯) denotes the restriction of $\phi_{\alpha \gamma}$ (resp. ⋯) to $U_{\alpha} \cap
+U_{\beta} \cap U_{\gamma}$.
 
 Consequently, the $\mathcal{T}_{\alpha}$ glue together into a quasi-coherent subcomodule $t(F)$ of $E$ containing $F$.
 We leave to the reader the task of verifying that $t(F)$ is the smallest quasi-coherent subcomodule of $E$ containing
@@ -4497,18 +4465,18 @@ conditions are equivalent:*
 *(ii) There exists a covering $(U_{\alpha})$ of $S$ by affine opens such that each $\Gamma(U_{\alpha}, P)$ is a
 projective $O_{S}(U_{\alpha})$-module.*
 
-*(iii) There exists a covering $(U_{\alpha})$ of $S$ by affine opens, and faithfully flat morphisms of rings
-$A_{\alpha} = O_{S}(U_{\alpha}) \to A'_{\alpha}$, such that, for each $\alpha$,
-$\Gamma(U_{\alpha}, P) \otimes_{A_{\alpha}} A'_{\alpha}$ is a projective $A'_{\alpha}$-module.*
+*(iii) There exists a covering $(U_{\alpha})$ of $S$ by affine opens, and faithfully flat morphisms of rings $A_{\alpha}
+= O_{S}(U_{\alpha}) \to A'_{\alpha}$, such that, for each $\alpha$, $\Gamma(U_{\alpha}, P) \otimes_{A_{\alpha}}
+A'_{\alpha}$ is a projective $A'_{\alpha}$-module.*
 
 <!-- label: III.VI_B.11.9.1 -->
 
 Indeed, it is clear that (i) ⇒ (ii) ⇒ (iii). Conversely, if (iii) is satisfied, 11.8.2 implies that each
 $\Gamma(U_{\alpha}, P)$ is a projective $O_{S}(U_{\alpha})$-module, whence (ii). Finally, suppose (ii) satisfied and let
-$V = \operatorname{Spec} A$ be an arbitrary affine open; it is covered by finitely many affine opens
-$V_{1}, \cdots, V_{n}$, where each $V_{i} = \operatorname{Spec} A_{i}$ is contained in at least one $V \cap U_{\alpha}$,
-so that $\Gamma(V_{i}, P)$ is a projective $A_{i}$-module. Let $A' = A_{1} \times \cdots \times A_{n}$; then $A \to A'$
-is faithfully flat and $\Gamma(V, P) \otimes_{A} A'$ is a projective $A'$-module. Hence, by 11.8.2, $\Gamma(V, P)$ is a
+$V = \operatorname{Spec} A$ be an arbitrary affine open; it is covered by finitely many affine opens $V_{1}, \cdots,
+V_{n}$, where each $V_{i} = \operatorname{Spec} A_{i}$ is contained in at least one $V \cap U_{\alpha}$, so that
+$\Gamma(V_{i}, P)$ is a projective $A_{i}$-module. Let $A' = A_{1} \times \cdots \times A_{n}$; then $A \to A'$ is
+faithfully flat and $\Gamma(V, P) \otimes_{A} A'$ is a projective $A'$-module. Hence, by 11.8.2, $\Gamma(V, P)$ is a
 projective $A$-module.
 
 When these equivalent conditions are satisfied, one says that $P$ is a *locally projective* `O_S`-module.
@@ -4585,8 +4553,8 @@ i_α │                              │ j_α
 where $i_{\alpha}$ (resp. $j_{\alpha}$) denotes the inclusion of $E_{\alpha}$ (resp. $F_{\alpha}$) into $E$, one deduces
 that $i_{\alpha}$ factors through $j_{\alpha}$, i.e. $E_{\alpha}$ is a submodule of $F_{\alpha}$, hence is coherent.
 
-Let us finally show that $E_{\alpha}$ is $G$-stable (cf. 11.7.bis). Designate by $h : G \to S$ a second copy of
-$f : G \to S$ and consider the following commutative diagram:
+Let us finally show that $E_{\alpha}$ is $G$-stable (cf. 11.7.bis). Designate by $h : G \to S$ a second copy of $f : G
+\to S$ and consider the following commutative diagram:
 
 ```text
               q
@@ -4641,9 +4609,9 @@ O. Gabber and J.-P. Serre.
 (a) Let $(A, \mathfrak{m})$ be a discrete valuation ring, $K$ its field of fractions, and $G$ the "extension by zero"
 $A$-group of the $K$-group $(\mathbb{Z}/2\mathbb{Z})_{K}$. Then the constant group $(\mathbb{Z}/2\mathbb{Z})_{A}$, and
 hence also its subgroup $G$, acts on the free $A$-module $V$ with basis $v_{1}, v_{2}$ by exchanging $v_{1}$ and
-$v_{2}$. Then $Av_{1}$ is not a sub-$G$-module of $V$, but it is the intersection of the sub-$G$-modules
-$Av_{1} + \mathfrak{m}^{n} v_{2}$, for $n \in \mathbb{N}^{*}$. Hence there does not exist a smallest sub-$G$-module of
-$V$ containing $v_{1}$.
+$v_{2}$. Then $Av_{1}$ is not a sub-$G$-module of $V$, but it is the intersection of the sub-$G$-modules $Av_{1} +
+\mathfrak{m}^{n} v_{2}$, for $n \in \mathbb{N}^{*}$. Hence there does not exist a smallest sub-$G$-module of $V$
+containing $v_{1}$.
 
 (b) Let $A$ be an integral ring, distinct from its field of fractions $K$, and let $G$ be the flat affine $A$-group
 corresponding to the Hopf algebra
@@ -4652,8 +4620,8 @@ corresponding to the Hopf algebra
 𝒜(G) = {P ∈ K[T] | P(0) ∈ A},
 ```
 
-the comultiplication, resp. the counit and the antipode, being defined by `∆(T) = T ⊗ 1 + 1 ⊗ T`, resp.
-$\epsilon(T) = 0$ and $\tau(T) = -T$. (N.B. One thus has $G \otimes_{A} K = G_{a,K}$.)
+the comultiplication, resp. the counit and the antipode, being defined by `∆(T) = T ⊗ 1 + 1 ⊗ T`, resp. $\epsilon(T) =
+0$ and $\tau(T) = -T$. (N.B. One thus has $G \otimes_{A} K = G_{a,K}$.)
 
 Let $V$ be the free $A$-module $Av_{1} \oplus Av_{2}$ and $u$ the endomorphism of $V$ defined by $u(v_{1}) = v_{2}$,
 $u(v_{2}) = 0$, so that $u^{2} = 0$. Then $V$ is equipped with an $\mathcal{A}(G)$-comodule structure, defined by
@@ -4665,17 +4633,16 @@ $u(v_{2}) = 0$, so that $u^{2} = 0$. Then $V$ is equipped with an $\mathcal{A}(G
 The sub-$G$-modules of $V$ containing $v_{1}$ are exactly the sub-$A$-modules of the form $Av_{1} \oplus Iv_{2}$, for
 $I$ a non-zero ideal of $A$; their intersection is $Av_{1}$, which is not a sub-$G$-module. Hence there does not exist a
 smallest sub-$G$-module of $V$ containing $v_{1}$. (Note moreover that $C = A \oplus K \cdot T$ is a sub-coalgebra of
-$\mathcal{A}(G)$, flat over $A$, and that the coaction $\mu : V \to V \otimes \mathcal{A}(G)$ factors through
-$V \otimes C$, so one also obtains a counterexample for the "very simple" coalgebra $C$.)
+$\mathcal{A}(G)$, flat over $A$, and that the coaction $\mu : V \to V \otimes \mathcal{A}(G)$ factors through $V \otimes
+C$, so one also obtains a counterexample for the "very simple" coalgebra $C$.)
 
 Finally, note that the two preceding examples are particular cases of the following construction. Let $A$ be an integral
-ring, distinct from its field of fractions $K$, let $B$ be an $A$-Hopf algebra, free over $A$. Denote by
-$\epsilon : B \to A$ the augmentation of $B$ and $I = Ker(\epsilon)$ the augmentation ideal. Since
-$B = A \cdot 1 \oplus I$, one easily sees that $B' = {b \in B \otimes_{A} K | \epsilon(b) \in A}$ is a sub-Hopf algebra
-of `B_K`. If $V$ is a $B$-comodule, free with basis $(v_{1}, \cdots, v_{n})$ as $A$-module, and if
-$\mu_{V}(v_{1}) \neq v_{1} \otimes 1$, then $Av_{1}$ is not a subcomodule of $V$ but it is the intersection of the
-subcomodules $Av_{1} + I \cdot V$, for $I$ running through the non-zero ideals of $A$. Hence there does not exist a
-smallest subcomodule of $V$ containing $v_{1}$.
+ring, distinct from its field of fractions $K$, let $B$ be an $A$-Hopf algebra, free over $A$. Denote by $\epsilon : B
+\to A$ the augmentation of $B$ and $I = Ker(\epsilon)$ the augmentation ideal. Since $B = A \cdot 1 \oplus I$, one
+easily sees that $B' = {b \in B \otimes_{A} K | \epsilon(b) \in A}$ is a sub-Hopf algebra of `B_K`. If $V$ is a
+$B$-comodule, free with basis $(v_{1}, \cdots, v_{n})$ as $A$-module, and if $\mu_{V}(v_{1}) \neq v_{1} \otimes 1$, then
+$Av_{1}$ is not a subcomodule of $V$ but it is the intersection of the subcomodules $Av_{1} + I \cdot V$, for $I$
+running through the non-zero ideals of $A$. Hence there does not exist a smallest subcomodule of $V$ containing $v_{1}$.
 
 **Proposition 11.11.** *Let $G$ be an algebraic group over the field $k$. The following conditions are equivalent:*
 
@@ -4771,8 +4738,8 @@ Since the $e_{i}$ are linearly independent, it follows that
 (2)     ∀ j ∈ J,     ∆(a_j) = ∑_{ℓ ∈ J} b_{jℓ} ⊗ a_ℓ.
 ```
 
-Let then $B$ be the finitely generated $k$-subalgebra of $A$ generated by the $b_{ij}$ and the $u(b_{ij})$, for
-$i, j \in J$. It is clear that $u(B) = B$.
+Let then $B$ be the finitely generated $k$-subalgebra of $A$ generated by the $b_{ij}$ and the $u(b_{ij})$, for $i, j
+\in J$. It is clear that $u(B) = B$.
 
 Applying `∆ ⊗ id` and `id ⊗ ∆` to (2), one obtains further from (CO 1) the equalities:
 
@@ -4793,8 +4760,8 @@ Since `∆ ∘ u = (u × u) ∘ v ∘ ∆`, where $v(a \otimes b) = b \otimes a$
 ```
 
 Since `∆` is an algebra homomorphism, one deduces from (3) and (4) that `∆(B) ⊂ B ⊗_k B`. Finally, the axiom (CO 2) of
-11.8.0 (see also (HA 2) in I, 4.2) shows that $a_{j} = \sum_{i \in I} \epsilon(a_{j}) b_{ij}$ and that
-$x = \sum_{j \in J} \epsilon(e_{j}) a_{j}$, so that $x \in B$. ∎
+11.8.0 (see also (HA 2) in I, 4.2) shows that $a_{j} = \sum_{i \in I} \epsilon(a_{j}) b_{ij}$ and that $x = \sum_{j \in
+J} \epsilon(e_{j}) a_{j}$, so that $x \in B$. ∎
 
 **Proposition 11.13.** *Let $k$ be a field and $G$ an affine $k$-group with algebra $A$. Then $G$ is a projective limit
 of an increasing filtered system of finitely generated affine $k$-groups, whose transition morphisms are faithfully
@@ -4803,11 +4770,11 @@ flat.*
 <!-- label: III.VI_B.11.13 -->
 
 If $B$ and $B'$ are two finitely generated subalgebras of $A$ stable under `∆` and $u$, then so is the subalgebra
-generated by $B$ and $B'$. Hence, by Lemma 11.12, $A$ is the inductive limit of a filtered increasing family
-$(B_{i})_{i \in I}$ of finitely generated subalgebras stable under `∆` and $u$. Then each $B_{i}$, equipped with the
-restriction of $u$ and the morphism $B_{i} \to B_{i} \otimes_{k} B_{i}$ deduced from `∆`, is a Hopf algebra, hence by I
-4.2 it is the algebra of an affine $k$-group $G_{i}$, of finite type over $k$. Finally, since $A = \lim B_{i}$, one has
-$G = \lim G_{i}$ (cf. EGA IV₃ 8.2.3). The transition morphisms are faithfully flat by the following lemma:
+generated by $B$ and $B'$. Hence, by Lemma 11.12, $A$ is the inductive limit of a filtered increasing family $(B_{i})_{i
+\in I}$ of finitely generated subalgebras stable under `∆` and $u$. Then each $B_{i}$, equipped with the restriction of
+$u$ and the morphism $B_{i} \to B_{i} \otimes_{k} B_{i}$ deduced from `∆`, is a Hopf algebra, hence by I 4.2 it is the
+algebra of an affine $k$-group $G_{i}$, of finite type over $k$. Finally, since $A = \lim B_{i}$, one has $G = \lim
+G_{i}$ (cf. EGA IV₃ 8.2.3). The transition morphisms are faithfully flat by the following lemma:
 
 **Lemma 11.14.** *Let $k$ be a field, $u : G \to H$ a morphism between finitely generated affine $k$-groups, and
 $u^{\natural} : B \to A$[^N.D.E-VI_B-C-126] the corresponding morphism of $k$-algebras. For $u$ to be faithfully flat,
@@ -4823,9 +4790,8 @@ and since $u^{\natural} = p^{\natural} \circ v^{\natural}$, then $v^{\natural}$ 
 isomorphism, as is $v$, and since $p$ is faithfully flat, so is $u$. ∎
 
 **Definition 11.15.** [^N.D.E-VI_B-C-127] *Let $k$ be a field, $G$ a quasi-compact $k$-group and $V$ a $k$-vector space
-equipped with a $k$-linear action of $G$, hence with an $\mathcal{A}(G)$-comodule structure
-$\delta : V \to V \otimes \mathcal{A}(G)$, by 11.6.1. Let $v \in V$ be non-zero. The following conditions are
-equivalent:*
+equipped with a $k$-linear action of $G$, hence with an $\mathcal{A}(G)$-comodule structure $\delta : V \to V \otimes
+\mathcal{A}(G)$, by 11.6.1. Let $v \in V$ be non-zero. The following conditions are equivalent:*
 
 *(i) There exists $\lambda \in \mathcal{A}(G)$ (necessarily unique) such that $\delta(v) = v \otimes \lambda$.*
 
@@ -4834,9 +4800,9 @@ necessarily unique, such that one has in $V \otimes R$ the equality $g \cdot v =
 
 <!-- label: III.VI_B.11.15 -->
 
-Indeed, it is clear that (i) ⇒ (ii). Conversely, if (ii) is satisfied and one applies it to $R = \mathcal{A}(G)$ and
-$g = id_{\mathcal{A}(G)}$, one obtains that there exists a unique $\lambda \in \mathcal{A}(G)$ such that
-$\delta(v) = v \otimes \lambda$.
+Indeed, it is clear that (i) ⇒ (ii). Conversely, if (ii) is satisfied and one applies it to $R = \mathcal{A}(G)$ and $g
+= id_{\mathcal{A}(G)}$, one obtains that there exists a unique $\lambda \in \mathcal{A}(G)$ such that $\delta(v) = v
+\otimes \lambda$.
 
 If $v$ satisfies these conditions, one says that $v$ is a *semi-invariant vector under $G$*, and that $\lambda$ is the
 *weight* of $v$; one will also say that "$v$ is a semi-invariant of weight $\lambda$".
@@ -4870,8 +4836,8 @@ free $R$-module and one has
 U_R = {v ∈ V_R | v ∧ (e_1 ∧ ⋯ ∧ e_d) = 0}
 ```
 
-(since for $i > d$ the $e_{i} \wedge e_{1} \wedge \cdots \wedge e_{d}$ are linearly independent in
-$\bigwedge^{d+1} V_{R}$). Since $H(R)$ acts on $\bigwedge^{\bullet} V_{R}$ by
+(since for $i > d$ the $e_{i} \wedge e_{1} \wedge \cdots \wedge e_{d}$ are linearly independent in $\bigwedge^{d+1}
+V_{R}$). Since $H(R)$ acts on $\bigwedge^{\bullet} V_{R}$ by
 
 ```text
 h(x_1 ∧ ⋯ ∧ x_s) = h(x_1) ∧ ⋯ ∧ h(x_s),
@@ -4880,8 +4846,8 @@ h(x_1 ∧ ⋯ ∧ x_s) = h(x_1) ∧ ⋯ ∧ h(x_s),
 it follows that if $H(R)$ stabilizes $D_{R} = R e_{1} \wedge \cdots \wedge e_{d}$, it also stabilizes `U_R`. ∎
 
 **Theorem 11.16 (Chevalley).** *Let $k$ be a field, $G$ an algebraic affine $k$-group, $H$ a closed group subscheme of
-$G$.[^N.D.E-VI_B-C-129] Then there exist a finite-dimensional $G$-module $V$ and a line $D$ in $V$ such that
-$H = Norm_{G}(D)$, i.e. such that for every $k$-algebra $R$,*
+$G$.[^N.D.E-VI_B-C-129] Then there exist a finite-dimensional $G$-module $V$ and a line $D$ in $V$ such that $H =
+Norm_{G}(D)$, i.e. such that for every $k$-algebra $R$,*
 
 ```text
 H(R) = {g ∈ G(R) | g(D_R) = D_R}.
@@ -4894,10 +4860,10 @@ the $a_{i}$ are semi-invariant.*
 
 <!-- label: III.VI_B.11.16 -->
 
-Denote by `∆` (resp. $\epsilon$) the comultiplication (resp. the augmentation) of $A = \mathcal{A}(G)$. Then
-$H = \operatorname{Spec}(A/I)$, for some ideal $I$ of $A$, contained in $Ker \epsilon$ and such that
-`∆(I) ⊂ I ⊗ A + A ⊗ I`. Let $B = A/I$ and $\pi$ the projection $A \to B$. Consider the left action of $H$ on $A$ given
-by $(h\phi)(g) = \phi(gh)$; the corresponding $B$-comodule structure is given by:
+Denote by `∆` (resp. $\epsilon$) the comultiplication (resp. the augmentation) of $A = \mathcal{A}(G)$. Then $H =
+\operatorname{Spec}(A/I)$, for some ideal $I$ of $A$, contained in $Ker \epsilon$ and such that `∆(I) ⊂ I ⊗ A + A ⊗ I`.
+Let $B = A/I$ and $\pi$ the projection $A \to B$. Consider the left action of $H$ on $A$ given by $(h\phi)(g) =
+\phi(gh)$; the corresponding $B$-comodule structure is given by:
 
 ```text
 ∆̄ : A ──∆──→ A ⊗ A ──id_A ⊗ π──→ A ⊗ B.
@@ -4958,11 +4924,10 @@ morphism $G \times E \to V$, $(g, x) \mapsto gx$, factors through $E$.*
 
 <!-- label: III.VI_B.11.17.0 -->
 
-*Proof.* By 11.8, we know that there exists a smallest sub-$G$-module $U$ of $V$ containing $v$: if
-$\mu : V \to V \otimes \mathcal{A}(G)$ denotes the comodule structure and if one writes
-$\mu(v) = \sum^{n}_{i=1} v_{i} \otimes a_{i}$ with the $a_{i}$ linearly independent, one has
-$U = Vect(v_{1}, \cdots, v_{n})$. It is clear that $U$ contains $E$, and that the morphism $G \times U \to V$ factors
-through $U$.
+*Proof.* By 11.8, we know that there exists a smallest sub-$G$-module $U$ of $V$ containing $v$: if $\mu : V \to V
+\otimes \mathcal{A}(G)$ denotes the comodule structure and if one writes $\mu(v) = \sum^{n}_{i=1} v_{i} \otimes a_{i}$
+with the $a_{i}$ linearly independent, one has $U = Vect(v_{1}, \cdots, v_{n})$. It is clear that $U$ contains $E$, and
+that the morphism $G \times U \to V$ factors through $U$.
 
 Conversely, the inverse image of $E$ by the morphism $\mu_{v} : g \mapsto gv$ is a closed subset of $G$ which contains
 the rational points; now these are dense in $G$, since $G$ is of finite type over $k$ (cf. EGA IV₃, 10.4.8), hence
@@ -4984,8 +4949,8 @@ $\chi : N \to G_{m, k}$.
 
 Fix $h \in N(k)$. For every $g \in G(k)$, one has $hg e_{0} = g(g^{-1} h g) e_{0} = \chi(g^{-1} h g) g e_{0}$, hence
 $\chi(g^{-1} h g)$ is an eigenvalue of $h$. Hence the continuous map $\phi : G(k) \to k$, $g \mapsto \chi(g^{-1} h g)$,
-takes only finitely many values, and since $G(k)$ is irreducible (since dense in $G$), one therefore has
-$\phi(g) = \phi(e) = \chi(h)$ for every $g \in G(k)$, and so
+takes only finitely many values, and since $G(k)$ is irreducible (since dense in $G$), one therefore has $\phi(g) =
+\phi(e) = \chi(h)$ for every $g \in G(k)$, and so
 
 ```text
 χ(g⁻¹ h g) = χ(h),     ∀ g ∈ G(k), h ∈ N(k).
@@ -4997,10 +4962,10 @@ the sub-$G$-module of $V$ generated by $e_{0}$.
 By what precedes, the two morphisms $N \times E \to E$, $(h, x) \mapsto hx$ and $(h, x) \mapsto \chi(h) x$, coincide on
 the set of rational points $(N \times E)(k) = N(k) \times E(k)$, which is dense in $N \times E$. Since $N \times E$ is
 reduced (and $E$ separated), these two morphisms are therefore equal, so $N$ acts on $E$ by homotheties. Consequently,
-$N$ is contained in the kernel $K$ of the morphism $\rho : G \to GL(\operatorname{End}_{k}(E))$, defined by
-$\rho(g)(u) = g u g^{-1}$, for every $g \in G(R)$ and $u \in \operatorname{End}_{R}(E \otimes R)$ ($R$ a $k$-algebra).
-On the other hand, if $g \in K(R)$ then $g(R e_{0}) = R e_{0}$, whence $g \in N(R)$. This shows that $N = K$. Then, by
-VI_A 5.4.1, the morphism $G/N \to GL(\operatorname{End}_{k}(E))$ is a closed immersion, and hence $G/N$ is affine.
+$N$ is contained in the kernel $K$ of the morphism $\rho : G \to GL(\operatorname{End}_{k}(E))$, defined by $\rho(g)(u)
+= g u g^{-1}$, for every $g \in G(R)$ and $u \in \operatorname{End}_{R}(E \otimes R)$ ($R$ a $k$-algebra). On the other
+hand, if $g \in K(R)$ then $g(R e_{0}) = R e_{0}$, whence $g \in N(R)$. This shows that $N = K$. Then, by VI_A 5.4.1,
+the morphism $G/N \to GL(\operatorname{End}_{k}(E))$ is a closed immersion, and hence $G/N$ is affine.
 
 (b) Suppose now $G$ and $N$ reduced, $G$ not necessarily connected. Set $N' = N \cap G^{0}$; then $G^{0}/N'$ is affine
 by (a). On the other hand, $NG^{0}$ is an invariant subgroup of $G$ and $G/NG^{0}$, being a quotient of the finite
@@ -5009,9 +4974,9 @@ fibers of the morphism $G/N \to G/NG^{0}$, all isomorphic to $NG^{0}/N$, hence t
 $G/N$ is affine.
 
 (c) Suppose $G$ reduced, and $N$ arbitrary. The morphism $G \times N \to N$, $(g, h) \mapsto ghg^{-1}$, induces a
-morphism $(G \times N)_{red} \to N_{red}$; now, since $G$ is reduced and $k$ algebraically closed, one has
-$(G \times N)_{red} = G \times N_{red}$, hence $N_{red}$ is an invariant subgroup of $G$. (N.B. this fails when $G$ is
-not reduced, cf. VI_A, 0.2.)
+morphism $(G \times N)_{red} \to N_{red}$; now, since $G$ is reduced and $k$ algebraically closed, one has $(G \times
+N)_{red} = G \times N_{red}$, hence $N_{red}$ is an invariant subgroup of $G$. (N.B. this fails when $G$ is not reduced,
+cf. VI_A, 0.2.)
 
 Hence, by (a), $G' = G/N_{red}$ is affine. On the other hand, by VI_A 5.6.1, $N' = N/N_{red}$ is a finite $k$-group,
 hence by Theorem 4.1 of Exp. V, the quotient $G/N = G'/N'$ is affine.
@@ -5023,15 +4988,15 @@ $G_{red} \to G$ is:
 G_red × N′ ⇒ G_red,     where     N′ = N ∩ G_red.
 ```
 
-Since the underlying spaces are the same (and since the quotient is the quotient ringed space), the morphism
-$G_{red} / N' \to G/N$ is a homeomorphism. Since $G_{red} / N'$ is reduced (since $p : G_{red} \to G_{red}/N'$ is
-faithfully flat), it follows that $(G/N)_{red}$ is identified with $G_{red} / N'$, which is affine by (c). Since $G/N$
-is of finite type over $k$ (cf. VI_A, 3.3.2), this implies, by EGA I, 5.1.10, that $G/N$ is affine.
+Since the underlying spaces are the same (and since the quotient is the quotient ringed space), the morphism $G_{red} /
+N' \to G/N$ is a homeomorphism. Since $G_{red} / N'$ is reduced (since $p : G_{red} \to G_{red}/N'$ is faithfully flat),
+it follows that $(G/N)_{red}$ is identified with $G_{red} / N'$, which is affine by (c). Since $G/N$ is of finite type
+over $k$ (cf. VI_A, 3.3.2), this implies, by EGA I, 5.1.10, that $G/N$ is affine.
 
-Finally, for arbitrary $k$, let $\bar{k}$ be an algebraic closure of $k$. Then, by 9.2 (v),
-$(G \otimes_{k} \bar{k})/(N \otimes_{k} \bar{k})$ is isomorphic to $(G/N) \otimes_{k} \bar{k}$, hence since the former
-is affine, so is the latter, and so $G/N$ is also affine, by (fpqc) descent (cf. EGA IV₂, 2.7.1). This proves 11.17 when
-$G$ is of finite type. To extend this to the general case, we shall need the following lemma.[^N.D.E-VI_B-C-133]
+Finally, for arbitrary $k$, let $\bar{k}$ be an algebraic closure of $k$. Then, by 9.2 (v), $(G \otimes_{k} \bar{k})/(N
+\otimes_{k} \bar{k})$ is isomorphic to $(G/N) \otimes_{k} \bar{k}$, hence since the former is affine, so is the latter,
+and so $G/N$ is also affine, by (fpqc) descent (cf. EGA IV₂, 2.7.1). This proves 11.17 when $G$ is of finite type. To
+extend this to the general case, we shall need the following lemma.[^N.D.E-VI_B-C-133]
 
 **Lemma 11.17.1.** *Let $(C_{i} \to A_{i})_{i \in I}$ be a filtered inductive system of ring morphisms, all faithfully
 flat. Then $A = \lim A_{i}$ is faithfully flat over $C = \lim C_{i}$.*
@@ -5067,10 +5032,10 @@ family $(A_{i})_{i \in I}$ of finitely generated sub-Hopf algebras, hence $G$ is
 affine $k$-groups $G_{i} = \operatorname{Spec}(A_{i})$. Denote by `∆` (resp. $\tau$) the comultiplication (resp. the
 antipode) of $A$, and `∆_2 = (∆ ⊗ id_A) ∘ ∆`.
 
-For every $i$, $B_{i} = A_{i} / (J \cap A_{i})$ is a quotient Hopf algebra of $A_{i}$, hence
-$N_{i} = \operatorname{Spec}(B_{i})$ is a closed subgroup of $G_{i}$. Moreover, since $N$ is invariant in $G$, the
-morphism $G \times N \to G$ defined by $(g, n) \mapsto gng^{-1}$ factors through $N$, and this is equivalent to saying
-that the couple $(A, J)$ satisfies the following property:
+For every $i$, $B_{i} = A_{i} / (J \cap A_{i})$ is a quotient Hopf algebra of $A_{i}$, hence $N_{i} =
+\operatorname{Spec}(B_{i})$ is a closed subgroup of $G_{i}$. Moreover, since $N$ is invariant in $G$, the morphism $G
+\times N \to G$ defined by $(g, n) \mapsto gng^{-1}$ factors through $N$, and this is equivalent to saying that the
+couple $(A, J)$ satisfies the following property:
 
 ```text
 (m_{13} ∘ (∆ ⊗ τ) ∘ ∆_2)(J) ⊂ A ⊗_k J
@@ -5090,11 +5055,11 @@ $k$-groups $Q_{i}$; its projective limit $Q = \lim Q_{i}$ is the $k$-group $\ope
 ```
 
 Let us show that $Q$ represents the (fpqc) sheaf quotient of $G$ by $N$; for this, it suffices to verify that the
-morphism $G \to Q$ is covering for the (fpqc) topology (cf. IV, 3.3.2.1 and 5.1.7.1). Now, each of the morphisms
-$G_{i} \to Q_{i}$ is faithfully flat (cf. 9.2 (xi)), in other words $A_{i}$ is faithfully flat over $C_{i}$; since
-$A = \lim A_{i}$ and $C = \lim C_{i}$, it follows from Lemma 11.17.1 that $A$ is faithfully flat over $C$, so that
-$G \to Q$ is a faithfully flat morphism. Since this morphism is affine, it is quasi-compact, hence covering for the
-(fpqc) topology. This completes the proof of Theorem 11.17. ∎
+morphism $G \to Q$ is covering for the (fpqc) topology (cf. IV, 3.3.2.1 and 5.1.7.1). Now, each of the morphisms $G_{i}
+\to Q_{i}$ is faithfully flat (cf. 9.2 (xi)), in other words $A_{i}$ is faithfully flat over $C_{i}$; since $A = \lim
+A_{i}$ and $C = \lim C_{i}$, it follows from Lemma 11.17.1 that $A$ is faithfully flat over $C$, so that $G \to Q$ is a
+faithfully flat morphism. Since this morphism is affine, it is quasi-compact, hence covering for the (fpqc) topology.
+This completes the proof of Theorem 11.17. ∎
 
 ### 11.18. Complements.
 
@@ -5144,8 +5109,8 @@ morphism of $k$-groups, $N = Ker(u)$, and $\phi : A' \to A$ the morphism induced
 *(i) If $\phi$ is injective, then $u$ is faithfully flat and identifies $G'$ with $G/N$.*
 
 *(ii) One has $G/N = \operatorname{Spec}(B)$, where $B = \phi(A')$, and hence $u$ is the composite of the faithfully
-flat morphism $G \to G/N$, corresponding to the inclusion $B \hookrightarrow A$, and of the closed immersion
-$G/N \hookrightarrow G'$, which corresponds to the surjection $A' \to B$. Moreover, $N$ is defined in $G$ by the ideal
+flat morphism $G \to G/N$, corresponding to the inclusion $B \hookrightarrow A$, and of the closed immersion $G/N
+\hookrightarrow G'$, which corresponds to the surjection $A' \to B$. Moreover, $N$ is defined in $G$ by the ideal
 $AB_{+}$, where $B_{+}$ denotes the augmentation ideal of $B$.*
 
 *(iii) In particular, if $u$ is a monomorphism, it is a closed immersion.*
@@ -5154,9 +5119,9 @@ $AB_{+}$, where $B_{+}$ denotes the augmentation ideal of $B$.*
 
 *Proof.* (i) Suppose $\phi$ injective and identify $A'$ with a sub-Hopf algebra of $A$. By 11.13, $A$ is the filtered
 union of finitely generated sub-Hopf algebras $A_{i} = O(G_{i})$; denote $G'_{i} = \operatorname{Spec}(A'_{i})$, where
-$A'_{i} = A' \cap A_{i}$, and $N_{i}$ the kernel of the morphism $G_{i} \to G'_{i}$ induced by the inclusion
-$A'_{i} \hookrightarrow A_{i}$. By the preceding lemma, one has $G_{i} / N_{i} \cong G'_{i}$ and one therefore obtains,
-for every $i$, an exact sequence
+$A'_{i} = A' \cap A_{i}$, and $N_{i}$ the kernel of the morphism $G_{i} \to G'_{i}$ induced by the inclusion $A'_{i}
+\hookrightarrow A_{i}$. By the preceding lemma, one has $G_{i} / N_{i} \cong G'_{i}$ and one therefore obtains, for
+every $i$, an exact sequence
 
 ```text
                           p_i
@@ -5176,9 +5141,9 @@ represents the (fpqc) sheaf quotient of $G$ by $N$. This proves (i).
 
 In the general case, $B = \phi(A')$ is a sub-Hopf algebra of $A$; denote by $H$ the $k$-group $\operatorname{Spec}(B)$
 and $N'$ the kernel of the morphism $G \to H$ induced by the inclusion $B \hookrightarrow A$. By (i), $H$ is identified
-with $G/N'$, and $u$ is therefore the composite of the projection $G \to G/N'$ and the closed immersion
-$G/N' \hookrightarrow G'$ induced by the surjection $A' \to B$. It follows that $N' = N$. Moreover, by 9.2 (ii), one has
-a cartesian square:
+with $G/N'$, and $u$ is therefore the composite of the projection $G \to G/N'$ and the closed immersion $G/N'
+\hookrightarrow G'$ induced by the surjection $A' \to B$. It follows that $N' = N$. Moreover, by 9.2 (ii), one has a
+cartesian square:
 
 ```text
    N ────→ G
@@ -5192,8 +5157,8 @@ $N$ is defined in $G$ by the ideal $AB_{+}$. This proves (ii), and (iii) follows
 
 **Remark 11.18.3.** Let $G$ be an affine $k$-group and $N$ a normal $k$-subgroup. Since the morphism $p : G \to G/N$ is
 faithfully flat and quasi-compact, by IV 3.3.3.2, $O(G/N)$ is the subalgebra of $O(G)$ formed of functions $\phi$ which
-are right $N$-invariant, i.e. which satisfy $\phi(gh) = \phi(g)$, for every $k$-scheme $S$ and $g \in G(S)$,
-$h \in N(S)$. Denoting by $J$ the ideal of $A = O(G)$ which defines $N$, this is equivalent to saying that
+are right $N$-invariant, i.e. which satisfy $\phi(gh) = \phi(g)$, for every $k$-scheme $S$ and $g \in G(S)$, $h \in
+N(S)$. Denoting by $J$ the ideal of $A = O(G)$ which defines $N$, this is equivalent to saying that
 `∆(φ) − φ ⊗ 1 ∈ O(G) ⊗ J`, where `∆` is the comultiplication of $A$.
 
 <!-- label: III.VI_B.11.18.3 -->
@@ -5274,10 +5239,10 @@ Let us prove (iii). For an arbitrary $k$-scheme $\pi : S \to \operatorname{Spec}
     S ────→ Spec k.
 ```
 
-Since $p$ is quasi-compact and separated and $\pi$ flat, by EGA III 1.4.15 and EGA IV₁ 1.7.21, one has
-$q_{*}(O_{G_{S}}) = \pi*(O(G)) = \pi*(O(G_{af}))$, and hence, by EGA II, 1.5.2, one has $(G_{S})_{af} = (G_{af})_{S}$.
-Hence `N_S`, being the kernel of the canonical morphism $G_{S} \to (G_{S})_{af}$, is invariant under every automorphism
-of `G_S`, i.e. $N$ is a characteristic subgroup of $G$.
+Since $p$ is quasi-compact and separated and $\pi$ flat, by EGA III 1.4.15 and EGA IV₁ 1.7.21, one has $q_{*}(O_{G_{S}})
+= \pi*(O(G)) = \pi*(O(G_{af}))$, and hence, by EGA II, 1.5.2, one has $(G_{S})_{af} = (G_{af})_{S}$. Hence `N_S`, being
+the kernel of the canonical morphism $G_{S} \to (G_{S})_{af}$, is invariant under every automorphism of `G_S`, i.e. $N$
+is a characteristic subgroup of $G$.
 
 To prove (iv), set $N' = Ker(N \to N_{af})$; by (ii), this is an invariant subgroup of $G$. Since $N$ is algebraic
 (being a closed subgroup of $G$), by (i), $N/N' \cong N_{af}$; moreover, by VI_A, 3.2 and 5.3.2, one has an isomorphism
@@ -5303,8 +5268,8 @@ $k$-scheme $X = N/H$ is finite (hence affine) over $k$, by VI_A, 5.5.1 and 5.6.1
 faithfully flat, one has $O(X) \subset O(N) = k$. It follows that $N = N^{0}_{red}$, hence $N$ is smooth (VI_A 1.3.1)
 and connected.
 
-Let then $Z$ be the center of $N$. By 6.2.6, $N/Z$ is affine, and one obtains as above that $O(N/Z) = k$, whence
-$N = Z$. This proves 12.3 and completes the proof of 12.2. ∎
+Let then $Z$ be the center of $N$. By 6.2.6, $N/Z$ is affine, and one obtains as above that $O(N/Z) = k$, whence $N =
+Z$. This proves 12.3 and completes the proof of 12.2. ∎
 
 Let us also state, without proof, the following theorem. (Recall that an *abelian variety* over a field $k$ is a proper,
 smooth, and connected $k$-group scheme.)
@@ -5328,10 +5293,10 @@ that in loc. cit., "algebraic group" means smooth and connected $k$-group scheme
 (4) If one drops the hypothesis that $k$ is perfect, there still exists a smallest invariant connected affine subgroup
 $L$ (not necessarily smooth) such that $G/L$ is an abelian variety ([BLR], § 9.2, Thm. 1).
 
-(5) One may also drop the hypothesis that $G$ is smooth over $k$: indeed, by VII_A, 8.3, there exists an integer
-$n \geq 1$ such that the quotient $G' = G/(Fr^{n} G)$ is smooth; then $G'$ contains a subgroup $L'$ as in (4) above, and
-the inverse image of $L'$ in $G$ still has the same properties. Hence, for every connected algebraic group $G$ over a
-field $k$, there exists an exact sequence
+(5) One may also drop the hypothesis that $G$ is smooth over $k$: indeed, by VII_A, 8.3, there exists an integer $n \geq
+1$ such that the quotient $G' = G/(Fr^{n} G)$ is smooth; then $G'$ contains a subgroup $L'$ as in (4) above, and the
+inverse image of $L'$ in $G$ still has the same properties. Hence, for every connected algebraic group $G$ over a field
+$k$, there exists an exact sequence
 
 ```text
 1 ────→ H ────→ G ────→ A ────→ 1
@@ -5378,8 +5343,8 @@ $M_{K} / M$ is also of Tor-dimension $\leq 1$. Since one has the exact sequence 
 and by hypothesis `M_K` is flat over `A_K` hence over $A$, it follows that $M$ is flat.
 
 For completeness, let us also indicate the following simpler proof, pointed out by O. Gabber. Let $I$ be a finitely
-generated ideal of $A$; one must show that the morphism $u : M \otimes_{A} I \to M$ is injective. By hypothesis (ii),
-$u \otimes_{R} K$ is injective, hence $Ker(u)$ is an $R$-module of $\pi$-torsion. It therefore suffices to show that the
+generated ideal of $A$; one must show that the morphism $u : M \otimes_{A} I \to M$ is injective. By hypothesis (ii), $u
+\otimes_{R} K$ is injective, hence $Ker(u)$ is an $R$-module of $\pi$-torsion. It therefore suffices to show that the
 $\pi$-torsion part of $M \otimes_{A} I$ is zero; now this is a quotient of $Tor^{A}_{1}(M, I/\pi I)$, as one sees by
 tensoring with $M$ the exact sequence:
 
@@ -5405,9 +5370,8 @@ over $S$, one has an exact sequence of sheaves
 ```
 
 and so, by taking global sections, one obtains that $\mathcal{A}(X)$ is an $R$-module without $\pi$-torsion, hence
-flat.[^N.D.E-VI_B-C-138] One obtains moreover that the morphism from
-$\mathcal{A}((X_{af})_{s}) = \mathcal{A}(X)/\pi \mathcal{A}(X)$ to $\mathcal{A}(X_{s})$, induced by the morphism
-$X \to X_{af}$, is injective.
+flat.[^N.D.E-VI_B-C-138] One obtains moreover that the morphism from $\mathcal{A}((X_{af})_{s}) = \mathcal{A}(X)/\pi
+\mathcal{A}(X)$ to $\mathcal{A}(X_{s})$, induced by the morphism $X \to X_{af}$, is injective.
 
 <!-- label: III.VI_B.12.8 -->
 
@@ -5439,16 +5403,15 @@ $G_{af}$, hence $G \to G_{af}$ is a monomorphism.
 
 Finally, suppose (v) holds and let us show that $\rho : G \to G_{af}$ is an isomorphism. Replacing $S$ by one of its
 connected components, one may suppose $S$ irreducible, with generic point $\eta$. Since the formation of $G_{af}$
-commutes with flat base changes, one has $(G_{af})_{\eta} = (G_{\eta})_{af}$, and therefore the morphism
-$G_{\eta} \to (G_{\eta})_{af}$ is a monomorphism, hence a closed immersion by 12.1, hence an isomorphism since
-$O((G_{\eta})_{af}) = O(G_{\eta})$. If $S = \operatorname{Spec}(\kappa(\eta))$ we are done; one may therefore suppose
-$\dim S = 1$.
+commutes with flat base changes, one has $(G_{af})_{\eta} = (G_{\eta})_{af}$, and therefore the morphism $G_{\eta} \to
+(G_{\eta})_{af}$ is a monomorphism, hence a closed immersion by 12.1, hence an isomorphism since $O((G_{\eta})_{af}) =
+O(G_{\eta})$. If $S = \operatorname{Spec}(\kappa(\eta))$ we are done; one may therefore suppose $\dim S = 1$.
 
 Let then $s$ be a closed point of $S$; let us show that $G_{s} \to (G_{af})_{s}$ is an isomorphism and that $\rho$ is
-flat at every point of $G_{s}$. For this, one may suppose $S$ local, with closed point $s$. The morphism
-$\rho_{s} : G_{s} \to (G_{af})_{s}$ obtained by base change is a monomorphism, hence a closed immersion by 12.1, hence
-the morphism $O((G_{af})_{s}) \to O(G_{s})$, induced by $\rho_{s}$, is surjective. Now, by the preceding remark, it is
-also injective, hence it is an isomorphism. (In particular, $\rho$ is therefore surjective.)
+flat at every point of $G_{s}$. For this, one may suppose $S$ local, with closed point $s$. The morphism $\rho_{s} :
+G_{s} \to (G_{af})_{s}$ obtained by base change is a monomorphism, hence a closed immersion by 12.1, hence the morphism
+$O((G_{af})_{s}) \to O(G_{s})$, induced by $\rho_{s}$, is surjective. Now, by the preceding remark, it is also
+injective, hence it is an isomorphism. (In particular, $\rho$ is therefore surjective.)
 
 It then follows from Lemma 12.7 that $\rho : G \to G_{af}$ is faithfully flat. Since $G$ is quasi-compact over $S$ and
 $G_{af}$ separated over $S$, $\rho$ is also quasi-compact (cf. EGA I, 6.6.4). Consequently, $\rho$ is a faithfully flat
@@ -5491,15 +5454,15 @@ obtains that $\rho_{s}$ is faithfully flat, since the morphism $O((G_{af})_{s}) 
 
 Suppose now $G_{\eta}$ affine. Since $\rho_{\eta}$ coincides with the canonical morphism $G_{\eta} \to (G_{\eta})_{af}$,
 its kernel $N_{\eta}$ is the unit group. Let us show that $N$ is étale over $S$. Since $N$ is flat over $S$, it remains
-to see that $N_{s}$ is étale over $\kappa(s)$, for every point $s \neq \eta$ of $S$. There is nothing to prove if
-$S = \operatorname{Spec}(\kappa(\eta))$, so one may suppose $S = \operatorname{Spec}(R)$, where $R$ is a discrete
-valuation ring. Let $s$ be the closed point of $S$, $K$ the field of fractions of $R$, and $\pi$ a uniformizer. Let
-$x \in N_{s}$ and $U_{x}$ an affine open neighborhood of $x$ in $N$; since $N$ is flat over $S$, $U_{x} \cap N_{\eta}$
-is non-empty, hence equal to ${\epsilon(\eta)}$, where $\epsilon$ denotes the unit section. Hence $A = O(U_{x})$ is a
-flat $R$-algebra, such that $A_{K} = K$ and $\pi^{-1} \notin A$ (since $\pi$ belongs to the maximal ideal of $O_{U,x}$).
-It follows that $A = R$, and hence the projection $U_{x} \to S$ is an isomorphism. This proves that $N$ is étale over
-$S$; if moreover $G$ is separated over $S$, then the inverse isomorphism $S \to U_{x}$ equals the unit section (since
-they coincide on the dense open subset ${\eta}$ of $S = \operatorname{Spec}(R)$), hence $N$ is the unit group. The
+to see that $N_{s}$ is étale over $\kappa(s)$, for every point $s \neq \eta$ of $S$. There is nothing to prove if $S =
+\operatorname{Spec}(\kappa(\eta))$, so one may suppose $S = \operatorname{Spec}(R)$, where $R$ is a discrete valuation
+ring. Let $s$ be the closed point of $S$, $K$ the field of fractions of $R$, and $\pi$ a uniformizer. Let $x \in N_{s}$
+and $U_{x}$ an affine open neighborhood of $x$ in $N$; since $N$ is flat over $S$, $U_{x} \cap N_{\eta}$ is non-empty,
+hence equal to ${\epsilon(\eta)}$, where $\epsilon$ denotes the unit section. Hence $A = O(U_{x})$ is a flat
+$R$-algebra, such that $A_{K} = K$ and $\pi^{-1} \notin A$ (since $\pi$ belongs to the maximal ideal of $O_{U,x}$). It
+follows that $A = R$, and hence the projection $U_{x} \to S$ is an isomorphism. This proves that $N$ is étale over $S$;
+if moreover $G$ is separated over $S$, then the inverse isomorphism $S \to U_{x}$ equals the unit section (since they
+coincide on the dense open subset ${\eta}$ of $S = \operatorname{Spec}(R)$), hence $N$ is the unit group. The
 proposition is proved. ∎
 
 One obtains in particular the following corollary, two other proofs of which are found in [An73], Prop. 2.3.1 and
@@ -5511,8 +5474,8 @@ separated, flat and of finite type over $R$. If `G_K` is affine, then $G$ is aff
 <!-- label: III.VI_B.12.10.1 -->
 
 **Remarks 12.10.2.** (a) On the one hand, O. Gabber has pointed out to us examples where $G$ is a flat group of finite
-type over a discrete valuation ring, whose generic fiber is an abelian variety, and where the kernel $N$ of
-$G \to G_{af}$ is not smooth.
+type over a discrete valuation ring, whose generic fiber is an abelian variety, and where the kernel $N$ of $G \to
+G_{af}$ is not smooth.
 
 (b) On the other hand, let us point out that M. Raynaud has given an example, for $S$ the affine plane of dimension 2
 over a field $k$, of a smooth and quasi-affine $S$-group scheme, with affine and connected fibers, which is not affine
@@ -5565,12 +5528,11 @@ communicated to us by O. Gabber.
 a quasi-coherent `O_S`-submodule of finite type of $\mathcal{A}$, $\mathcal{F}**$ its bidual, and $U$ the flatness locus
 of $\mathcal{F}$, i.e. the set of points $s \in S$ such that $\mathcal{F}_{s}$ is a flat $O_{S,s}$-module.*
 
-*(i) $U$ is an open subset of $S$ and $\mathcal{F}** = j_{*} j*(\mathcal{F})$, where $j$ denotes the inclusion
-$U \hookrightarrow X$.*
+*(i) $U$ is an open subset of $S$ and $\mathcal{F}** = j_{*} j*(\mathcal{F})$, where $j$ denotes the inclusion $U
+\hookrightarrow X$.*
 
-*(ii) The canonical morphism
-$j_{*}(\mathcal{E}) \otimes_{O_{S}} \mathcal{A} \to j_{*}(\mathcal{E} \otimes_{O_{U}} j*(\mathcal{A}))$ is an
-isomorphism, for every quasi-coherent `O_U`-module $\mathcal{E}$.*
+*(ii) The canonical morphism $j_{*}(\mathcal{E}) \otimes_{O_{S}} \mathcal{A} \to j_{*}(\mathcal{E} \otimes_{O_{U}}
+j*(\mathcal{A}))$ is an isomorphism, for every quasi-coherent `O_U`-module $\mathcal{E}$.*
 
 *(iii) In particular, $\mathcal{V} = j_{*} j*(\mathcal{F})$ is a submodule of $\mathcal{A} = j_{*} j*(\mathcal{A})$, and
 the canonical morphism $\mathcal{V} \otimes_{O_{S}} \mathcal{A} \to j_{*} j*(\mathcal{F} \otimes_{O_{S}} \mathcal{A})$
@@ -5586,20 +5548,19 @@ torsion-free, so is $\mathcal{F}_{s}$,
 <!-- original page 436 -->
 
 so $U$ contains every point of codimension $\leq 1$. Consequently, by [BAC], VII, § 4.2, cor. of th. 1, one has
-$\mathcal{F}** = j_{*} j*(\mathcal{F})$, and one therefore obtains a monomorphism
-$\mathcal{F}** \to j_{*} j*(\mathcal{A})$.
+$\mathcal{F}** = j_{*} j*(\mathcal{F})$, and one therefore obtains a monomorphism $\mathcal{F}** \to j_{*}
+j*(\mathcal{A})$.
 
 The proof of (ii) is analogous to that of EGA III, 1.4.15, recalled in 11.0. On the other hand, since $S$ is normal, the
-morphism $O_{S} \to j_{*} j*(O_{S})$ is an isomorphism (cf. EGA IV₂, 5.8.6 and 5.10.5). By (ii) applied to
-$\mathcal{E} = O_{U}$, one therefore has $\mathcal{A} = j_{*} j*(\mathcal{A})$. Finally, since
-$j*(\mathcal{F} \otimes_{O_{S}} \mathcal{A}) = j*(\mathcal{F}) \otimes_{O_{U}} j*(\mathcal{A})$, the final assertion of
-(iii) follows from (ii) applied to $\mathcal{E} = j*(\mathcal{F})$. The lemma is proved. ∎
+morphism $O_{S} \to j_{*} j*(O_{S})$ is an isomorphism (cf. EGA IV₂, 5.8.6 and 5.10.5). By (ii) applied to $\mathcal{E}
+= O_{U}$, one therefore has $\mathcal{A} = j_{*} j*(\mathcal{A})$. Finally, since $j*(\mathcal{F} \otimes_{O_{S}}
+\mathcal{A}) = j*(\mathcal{F}) \otimes_{O_{U}} j*(\mathcal{A})$, the final assertion of (iii) follows from (ii) applied
+to $\mathcal{E} = j*(\mathcal{F})$. The lemma is proved. ∎
 
 Furthermore, recall that a finitely generated $R$-module $M$ is said to be *reflexive* if the canonical morphism from
 $M$ to its bidual $M**$ is an isomorphism. When $R$ is a noetherian regular ring of dimension $\leq 2$, this entails
-that $M$ is projective. Indeed, for every finitely generated $R$-module $N$, consider a resolution
-$L_{1} \to L_{0} \to N \to 0$, where `L_0` and `L_1` are finitely generated free $R$-modules; then one has an exact
-sequence
+that $M$ is projective. Indeed, for every finitely generated $R$-module $N$, consider a resolution $L_{1} \to L_{0} \to
+N \to 0$, where `L_0` and `L_1` are finitely generated free $R$-modules; then one has an exact sequence
 
 ```text
 0 ⟶ N* ⟶ L_0* ⟶ L_1* ⟶ Q ⟶ 0,
@@ -5611,9 +5572,9 @@ where $Q$ denotes the cokernel of $L_{0}* \to L_{1}*$, and since $R$ is of homol
 **Proposition 13.2.** *Let $S$ be a noetherian regular scheme of dimension $\leq 2$, $G$ an affine flat $S$-group,
 $\mathcal{A}(G)$ its affine algebra.*
 
-*(i) If $G$ is of finite type over $S$, it is isomorphic to a closed subgroup of
-$H = \operatorname{Aut}_{O_{S}}(\mathcal{V})$, for some `O_S`-module $\mathcal{V}$ locally free of finite rank. If
-moreover $S$ is affine, one may take $\mathcal{V} = O^{\oplus d}_{S}$ for some $d$, whence $H = GL_{d,S}$.*
+*(i) If $G$ is of finite type over $S$, it is isomorphic to a closed subgroup of $H =
+\operatorname{Aut}_{O_{S}}(\mathcal{V})$, for some `O_S`-module $\mathcal{V}$ locally free of finite rank. If moreover
+$S$ is affine, one may take $\mathcal{V} = O^{\oplus d}_{S}$ for some $d$, whence $H = GL_{d,S}$.*
 
 *(ii) $\mathcal{A}(G)$ is a filtered inductive limit of flat `O_S`-sub-Hopf-algebras of finite type.*
 
@@ -5623,8 +5584,8 @@ moreover $S$ is affine, one may take $\mathcal{V} = O^{\oplus d}_{S}$ for some $
 an open of $S$ extends to a coherent module on $S$ (cf. EGA I, 9.4.5), there exists a coherent `O_S`-submodule
 $\mathcal{M}$ of $\mathcal{B}$ which generates $\mathcal{B}$ as an `O_S`-algebra (loc. cit., 9.6.5). By 11.10.bis,
 $\mathcal{M}$ is contained in a coherent $G$-stable `O_S`-submodule $\mathcal{F}$. (N.B. Since $G$ is here affine over
-$S$, the proof of loc. cit. is written more simply: one may there replace $f_{*} f*(\mathcal{E})$ by
-$\mathcal{E} \otimes_{O_{S}} \mathcal{A}(G)$, etc.)
+$S$, the proof of loc. cit. is written more simply: one may there replace $f_{*} f*(\mathcal{E})$ by $\mathcal{E}
+\otimes_{O_{S}} \mathcal{A}(G)$, etc.)
 
 Let $j$ be the inclusion $U \hookrightarrow S$, where $U$ denotes the flatness locus of $\mathcal{F}$. By Lemma 13.1 and
 the remarks following it, $\mathcal{V} = j_{*} j*(\mathcal{F})$ is a locally free `O_S`-submodule of $\mathcal{A}(G)$,
@@ -5649,17 +5610,17 @@ $R$-algebra by the "matrix coefficients" $c_{ij}$ and the element $d^{-1}$, wher
 
 $d$ denotes the determinant. Let $\Delta$ (resp. $\epsilon$) be the comultiplication (resp. the augmentation) of $A$.
 For $j = 1, \cdots, n$, write $\Delta(v_{j}) = \sum^{n}_{i=1} v_{i} \otimes a_{ij}$; then $a_{ij} = \phi(c_{ij})$
-belongs to $Im(\phi)$. On the other hand, since $V$ is an $R$-submodule of $A$, one can use the identity
-$(\epsilon \otimes id_{A}) \circ \Delta = id_{A}$, which entails that $v_{j} = \sum_{i} \epsilon(v_{i}) a_{ij}$ belongs
-to $Im(\phi)$. Since $V$ contains a system of generators of $B = \Gamma(S, \mathcal{B})$, it follows that
-$B \subset Im(\phi)$.
+belongs to $Im(\phi)$. On the other hand, since $V$ is an $R$-submodule of $A$, one can use the identity $(\epsilon
+\otimes id_{A}) \circ \Delta = id_{A}$, which entails that $v_{j} = \sum_{i} \epsilon(v_{i}) a_{ij}$ belongs to
+$Im(\phi)$. Since $V$ contains a system of generators of $B = \Gamma(S, \mathcal{B})$, it follows that $B \subset
+Im(\phi)$.
 
 If $G$ is of finite type over $S$, one may take $\mathcal{B} = \mathcal{A}(G)$ and $\phi$ is then surjective, so the
 morphism of $S$-groups $G \to H = \operatorname{Aut}_{O_{S}}(\mathcal{V})$ is a closed immersion.
 
-If moreover $S$ is affine, there exists a locally free `O_S`-module $\mathcal{V}'$ of finite rank such that
-$\mathcal{V} \oplus \mathcal{V}' = O^{d}_{S}$ as `O_S`-modules. Regarding $\mathcal{V}'$ as a trivial $G$-module, one
-may replace $\mathcal{V}$ by $O^{d}_{S}$, and one thus obtains that $G$ is a closed subgroup of $GL_{d,S}$.
+If moreover $S$ is affine, there exists a locally free `O_S`-module $\mathcal{V}'$ of finite rank such that $\mathcal{V}
+\oplus \mathcal{V}' = O^{d}_{S}$ as `O_S`-modules. Regarding $\mathcal{V}'$ as a trivial $G$-module, one may replace
+$\mathcal{V}$ by $O^{d}_{S}$, and one thus obtains that $G$ is a closed subgroup of $GL_{d,S}$.
 
 Finally, let us return to the case of an arbitrary flat affine $S$-group $G$. By EGA I, 9.4.9, $\mathcal{A}(G)$ is the
 union of its coherent `O_S`-submodules $\mathcal{M}$, hence also of the `O_S`-sub-Hopf-algebras
@@ -5712,17 +5673,17 @@ $\mathcal{V}$ locally free of finite rank.*
 The proof is analogous to that of 13.2. As in loc. cit., there exists a coherent $G$-stable `O_S`-submodule
 $\mathcal{F}$ which generates $\mathcal{A} = \mathcal{A}(G)$ as an `O_S`-algebra. Replacing $S$ by one of its connected
 components, we may suppose $S$ connected. By hypothesis (RE), there exists a locally free $G$-`O_S`-module $\mathcal{E}$
-of rank $n$, and an epimorphism of $\mathcal{A}$-comodules $\pi : \mathcal{E} \to \mathcal{F}$. Set
-$H = \operatorname{Aut}_{O_{S}}(\mathcal{E})$; this is an $S$-group scheme, locally isomorphic to $GL_{n,S}$. The action
-of $G$ on $\mathcal{E}$ induces a morphism of affine $S$-groups $\rho : G \to H$, corresponding to a morphism of
-`O_S`-Hopf algebras $\phi : \mathcal{A}(H) \to \mathcal{A}(G)$. Let us show that $\rho$ is a closed immersion.
+of rank $n$, and an epimorphism of $\mathcal{A}$-comodules $\pi : \mathcal{E} \to \mathcal{F}$. Set $H =
+\operatorname{Aut}_{O_{S}}(\mathcal{E})$; this is an $S$-group scheme, locally isomorphic to $GL_{n,S}$. The action of
+$G$ on $\mathcal{E}$ induces a morphism of affine $S$-groups $\rho : G \to H$, corresponding to a morphism of `O_S`-Hopf
+algebras $\phi : \mathcal{A}(H) \to \mathcal{A}(G)$. Let us show that $\rho$ is a closed immersion.
 
 The question being local on $S$, one may suppose $S = \operatorname{Spec}(R)$ and $V = \Gamma(S, \mathcal{E})$ is a free
 $R$-module with basis $v_{1}, \cdots, v_{n}$; in this case $H \simeq GL_{n,R}$ and $B = \Gamma(S, \mathcal{A}(H))$ is
 generated as an $R$-algebra by the "matrix coefficients" $c_{ij}$ and the element $d^{-1}$, where $d$ denotes the
-determinant. Let $\Delta$ (resp. $\epsilon$) be the comultiplication (resp. the augmentation) of
-$A = \Gamma(S, \mathcal{A}(G))$, let $\mu : V \to V \otimes_{R} A$ be the $A$-comodule structure on $V$, and let
-$F = \Gamma(S, \mathcal{F})$. For $j = 1, \cdots, n$, write
+determinant. Let $\Delta$ (resp. $\epsilon$) be the comultiplication (resp. the augmentation) of $A = \Gamma(S,
+\mathcal{A}(G))$, let $\mu : V \to V \otimes_{R} A$ be the $A$-comodule structure on $V$, and let $F = \Gamma(S,
+\mathcal{F})$. For $j = 1, \cdots, n$, write
 
 ```text
 μ(v_j) = ∑_{i=1}^n v_i ⊗ a_{ij}
@@ -5743,10 +5704,10 @@ and therefore
 Hence $\phi(B)$ contains $\pi(V) = F$, which generates $A$ as an $R$-algebra, and hence $\phi$ is surjective. This shows
 that $\rho$ is a closed immersion, whence assertion (i).
 
-If moreover $S$ is affine, there exists a locally free `O_S`-module $\mathcal{V}'$ of finite rank such that
-$\mathcal{V} \oplus \mathcal{V}' = O^{d}_{S}$ as `O_S`-modules. Regarding $\mathcal{V}'$ as a trivial $G$-module, one
-may replace $\mathcal{V}$ by $O^{d}_{S}$, and one thus obtains that $G$ is a closed subgroup of $GL_{d,S}$. The
-proposition is proved. ∎
+If moreover $S$ is affine, there exists a locally free `O_S`-module $\mathcal{V}'$ of finite rank such that $\mathcal{V}
+\oplus \mathcal{V}' = O^{d}_{S}$ as `O_S`-modules. Regarding $\mathcal{V}'$ as a trivial $G$-module, one may replace
+$\mathcal{V}$ by $O^{d}_{S}$, and one thus obtains that $G$ is a closed subgroup of $GL_{d,S}$. The proposition is
+proved. ∎
 
 **Remarks 13.6.** (a) For the sake of completeness, let us briefly sketch Thomason's argument ([Th87], Th. 3.1), keeping
 the preceding notation. The $G$-equivariant epimorphism $\pi : \mathcal{E} \to \mathcal{F}$ induces a closed immersion
@@ -5758,10 +5719,10 @@ that $N$ is a closed subgroup scheme of $H$, hence affine over $S$. Moreover, $\
 
 <!-- original page 439 -->
 
-morphism of $S$-groups $\rho' : G \to N$. On the other hand, for every $S' \to S$ and $h \in N(S')$, set
-$\pi(h) = \tau(1) \cdot h$ (where `1` is the unit element of $G(S')$); this defines a morphism of $S$-schemes
-$\pi : N \to \tau(G)$, which is a retraction of $\rho'$ (when one identifies $G$ with $\tau(G)$). Since $N$ is separated
-over $S$, it follows that $\rho'$ is a closed immersion.
+morphism of $S$-groups $\rho' : G \to N$. On the other hand, for every $S' \to S$ and $h \in N(S')$, set $\pi(h) =
+\tau(1) \cdot h$ (where `1` is the unit element of $G(S')$); this defines a morphism of $S$-schemes $\pi : N \to
+\tau(G)$, which is a retraction of $\rho'$ (when one identifies $G$ with $\tau(G)$). Since $N$ is separated over $S$, it
+follows that $\rho'$ is a closed immersion.
 
 (b) It seems that the proof of [Th87], Th. 3.1 requires the hypothesis that $G$ be essentially free over $S$, which does
 not appear in loc. cit. (the author invoking in its place the fact that $H$ is essentially free). This hypothesis is
@@ -5785,8 +5746,8 @@ projective of finite type over $R$.*
 of fractions $K$. Denote by $\Delta$ (resp. $\epsilon$) the comultiplication (resp. the augmentation) of $C$ and by
 $\rho : F \to F \otimes C$ the comodule structure on $F$. Let $\pi : W \to F$ be a surjective morphism, where $W$ is a
 free $R$-module of finite rank. We endow $W \otimes C$ with the comodule structure defined by $id_{W} \otimes \Delta$,
-and similarly for $F \otimes C$. Then $\rho : F \to F \otimes C$ is a morphism of $C$-comodules, which admits
-$id_{F} \otimes \epsilon$ as a section.
+and similarly for $F \otimes C$. Then $\rho : F \to F \otimes C$ is a morphism of $C$-comodules, which admits $id_{F}
+\otimes \epsilon$ as a section.
 
 Let $W'$ be the $C$-comodule defined by the cartesian square below:
 
@@ -5800,8 +5761,8 @@ W ⊗ C ──────⟶ F ⊗ C
 
 i.e. $W'$ is identified with the kernel of the morphism $W \otimes C \to (F \otimes C)/\rho(F)$, and the projection
 $\pi' : W' \to F$, given by $x \mapsto (\pi \otimes \epsilon)(x)$, is surjective. Since $F$ is a finitely generated
-$R$-module, there exists a subcomodule $V'$ of $W'$, finitely generated over $R$, such that $\pi'(V') = F$. Since
-$W \otimes C$ is $R$-torsion-free, so is $V'$; hence, replacing $F$ by $V'$, one may assume at the outset that $F$ is
+$R$-module, there exists a subcomodule $V'$ of $W'$, finitely generated over $R$, such that $\pi'(V') = F$. Since $W
+\otimes C$ is $R$-torsion-free, so is $V'$; hence, replacing $F$ by $V'$, one may assume at the outset that $F$ is
 torsion-free.
 
 Applying the preceding construction to this new $F$, one obtains $V'$ as above. Consider then the subcomodule $V$,
@@ -5828,9 +5789,9 @@ that $V/V'$ is isomorphic to the $R$-torsion submodule $(M/V')_{tors}$ of $M/V'$
 
 Since $M$ is a projective $R$-module, there exists a projective $R$-module $P$ such that $M \oplus P$ is a free
 $R$-module $L$. Then $(M/V')_{tors} \simeq (L/V')_{tors}$. On the other hand, since $V'$ is of finite type, there exists
-a direct factor $L' \simeq R^{n}$ of $L$ such that $V' \subset L'$, and one therefore also has
-$(L/V')_{tors} \simeq (L'/V')_{tors}$, and the latter is of finite type since $(L'/V')$ is. Consequently, $V$ is a flat
-$R$-module of finite type, hence projective of finite type ($R$ being noetherian). Proposition 13.7 is proved. ∎
+a direct factor $L' \simeq R^{n}$ of $L$ such that $V' \subset L'$, and one therefore also has $(L/V')_{tors} \simeq
+(L'/V')_{tors}$, and the latter is of finite type since $(L'/V')$ is. Consequently, $V$ is a flat $R$-module of finite
+type, hence projective of finite type ($R$ being noetherian). Proposition 13.7 is proved. ∎
 
 ## Bibliography
 
@@ -5987,8 +5948,8 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 
 [^N.D.E-VI_B-15]: The hypothesis that $G$ and $H$ are locally of finite type may be removed, since according to \[Per76,
     4.2.4\]: every quasi-compact monomorphism $u : G \to H$ between group schemes over a field $k$ is a closed
-    immersion; see also [DG70, III.3.7.2 b)] for the case where $G$ and $H$ are affine (in which case every morphism
-    $G \to H$ is affine (EGA II, 1.6.2 (v)), hence quasi-compact).
+    immersion; see also [DG70, III.3.7.2 b)] for the case where $G$ and $H$ are affine (in which case every morphism $G
+    \to H$ is affine (EGA II, 1.6.2 (v)), hence quasi-compact).
 
 [^N.D.E-VI_B-16]: In this particular case, see also (VI_A, 0.5.2), valid without finiteness hypotheses.
 
@@ -6054,11 +6015,11 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 [^N.D.E-VI_B-30]: The preceding has been communicated to us by O. Gabber; we have also preserved the proof of the
     implication (ii) ⇒ (i) given in the original.
 
-[^N.D.E-VI_B-31]: One cannot do without the hypothesis that $S$ is reduced here: if $k$ is a field,
-    $S = \operatorname{Spec} A$, where $A = k[\delta]$ with $\delta^{2} = 0$, and $G$ the closed subgroup
-    $\operatorname{Spec} A[X]/(\delta X)$ of $G_{a,S}$ (which to every $A$-algebra $R$ associates the subgroup of
-    $r \in R$ such that $\delta r = 0$), then $G$ is an $S$-group satisfying (ii)–(iv), but is not flat, hence not
-    smooth, over $S$.
+[^N.D.E-VI_B-31]: One cannot do without the hypothesis that $S$ is reduced here: if $k$ is a field, $S =
+    \operatorname{Spec} A$, where $A = k[\delta]$ with $\delta^{2} = 0$, and $G$ the closed subgroup
+    $\operatorname{Spec} A[X]/(\delta X)$ of $G_{a,S}$ (which to every $A$-algebra $R$ associates the subgroup of $r \in
+    R$ such that $\delta r = 0$), then $G$ is an $S$-group satisfying (ii)–(iv), but is not flat, hence not smooth, over
+    $S$.
 
 [^N.D.E-VI_B-32]: We have expanded the original in what follows.
 
@@ -6077,9 +6038,9 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 [^N.D.E-VI_B-36]: We have added this remark, cf. N.D.E. (34).
 
 [^N.D.E-VI_B-37]: Let us point out here the following result ([Ray70a], VI 2.5): if $S$ is normal, $G$ smooth with
-    connected fibers, and if $X$ is a (fppf) homogeneous $G$-space (i.e. the morphisms $X \to S$ and
-    $G \times_{S} X \to X \times_{S} X$ are covering for the (fppf) topology), locally of finite type over $S$, then $X$
-    is locally quasi-projective over $S$. In particular, $G$ is quasi-projective over $S$. See also N.D.E. (35) in VI_A.
+    connected fibers, and if $X$ is a (fppf) homogeneous $G$-space (i.e. the morphisms $X \to S$ and $G \times_{S} X \to
+    X \times_{S} X$ are covering for the (fppf) topology), locally of finite type over $S$, then $X$ is locally
+    quasi-projective over $S$. In particular, $G$ is quasi-projective over $S$. See also N.D.E. (35) in VI_A.
 
 [^N.D.E-VI_B-38]: We have added this lemma, communicated by O. Gabber, which improves EGA IV₃, 14.4.1.2 and corrects the
     proof of loc. cit., 14.4.1.3 without modifying its hypotheses (compare with the erratum (Err_IV, 38) in EGA IV₄).
@@ -6099,11 +6060,10 @@ schemes*, Adv. Math. **65** (1987), 16–34.
     dense in every irreducible component of $X_{s}$.
 
 [^N.D.E-VI_B-44]: We have simplified the formulation of condition (iv) and added condition (iv′). On the other hand, we
-    have added the proof of the implication (i) ⇒ (iii), used in the proof of (iv) ⇒ (iii). Note moreover that if
-    $T = \operatorname{Spec} k[\epsilon, x]/(\epsilon^{2}, \epsilon x)$ ($k$ a field),
-    $X = T_{red} = \operatorname{Spec} k[x]$, then the morphisms $\phi_{\lambda} : T \to X$ defined by
-    $x \mapsto x + \lambda \epsilon$ ($\lambda \in k$) coincide on the dense open $\operatorname{Spec} B_{x}$ but are
-    not equal.
+    have added the proof of the implication (i) ⇒ (iii), used in the proof of (iv) ⇒ (iii). Note moreover that if $T =
+    \operatorname{Spec} k[\epsilon, x]/(\epsilon^{2}, \epsilon x)$ ($k$ a field), $X = T_{red} = \operatorname{Spec}
+    k[x]$, then the morphisms $\phi_{\lambda} : T \to X$ defined by $x \mapsto x + \lambda \epsilon$ ($\lambda \in k$)
+    coincide on the dense open $\operatorname{Spec} B_{x}$ but are not equal.
 
 [^N.D.E-VI_B-45]: We have reproduced this example in (VI_A, 0.3), N.D.E. (5).
 
@@ -6143,14 +6103,14 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 
 [^N.D.E-VI_B-54]: Indeed, let $(A, \mathfrak{m})$ be an Artinian local ring, $k$ its residue field, $M$ an arbitrary
     $A$-module, $(x_{i})_{i \in I}$ elements of $M$ whose images form a basis of $M/\mathfrak{m}M$ over $k$. Let $F$ be
-    the free $A$-module with basis $(e_{i})_{i \in I}$, and $\phi : F \to M$ the $A$-morphism defined by
-    $\phi(e_{i}) = x_{i}$. Then $Q = Coker \phi$ satisfies $Q = \mathfrak{m}Q$, hence, since $\mathfrak{m}$ is
-    nilpotent, $Q = 0$. Suppose moreover $M$ flat over $A$; then $K = Ker \phi$ satisfies $K \otimes_{A} k = 0$, i.e.
-    $K = \mathfrak{m}K$, hence $K = 0$.
+    the free $A$-module with basis $(e_{i})_{i \in I}$, and $\phi : F \to M$ the $A$-morphism defined by $\phi(e_{i}) =
+    x_{i}$. Then $Q = Coker \phi$ satisfies $Q = \mathfrak{m}Q$, hence, since $\mathfrak{m}$ is nilpotent, $Q = 0$.
+    Suppose moreover $M$ flat over $A$; then $K = Ker \phi$ satisfies $K \otimes_{A} k = 0$, i.e. $K = \mathfrak{m}K$,
+    hence $K = 0$.
 
-[^N.D.E-VI_B-55]: cf. Exp. II § 1, where this functor is denoted $\prod_{Z/S} Y$; for every $S' \to S$,
-    $F(S') = \Gamma(Y_{S'}/Z_{S'})$, which here equals ${id_{Z_{S'}}}$ if $Y_{S'} = Z_{S'}$, and is empty otherwise. On
-    the other hand, we have added assertion (ii), used in the proof of 6.5.3.
+[^N.D.E-VI_B-55]: cf. Exp. II § 1, where this functor is denoted $\prod_{Z/S} Y$; for every $S' \to S$, $F(S') =
+    \Gamma(Y_{S'}/Z_{S'})$, which here equals ${id_{Z_{S'}}}$ if $Y_{S'} = Z_{S'}$, and is empty otherwise. On the other
+    hand, we have added assertion (ii), used in the proof of 6.5.3.
 
 [^N.D.E-VI_B-56]: We have added the sentence that follows.
 
@@ -6251,18 +6211,18 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 
 [^N.D.E-VI_B-93]: in terms of commutative diagrams of $S$-morphisms.
 
-[^N.D.E-VI_B-94]: i.e., such that the composite
-    $R_{j} \hookrightarrow X_{j} \times_{S_{j}} X_{j} \xrightarrow{pr_{1}} X_{j}$ is flat and of finite presentation.
+[^N.D.E-VI_B-94]: i.e., such that the composite $R_{j} \hookrightarrow X_{j} \times_{S_{j}} X_{j} \xrightarrow{pr_{1}}
+    X_{j}$ is flat and of finite presentation.
 
 [^N.D.E-VI_B-95]: Note that the proof uses also case b).
 
 [^N.D.E-VI_B-96]: We have simplified the statement, and treated separately, in Corollary 10.11.1, the case of subgroups.
 
-[^N.D.E-VI_B-97]: Indeed, `G_A` being flat and of finite presentation over $A$, it is covered by affine opens
-    $G_{1}, \cdots, G_{n}$ such that each $\mathcal{O}(G_{i})$ is a flat and finitely presented $A$-algebra; then, by
-    EGA IV₂, 6.9.2, there exists $f_{i} \in A$ such that $\mathcal{O}(G_{i})_{f_{i}}$ is a free module over $A_{f_{i}}$;
-    one may then replace $\operatorname{Spec}(A)$ by the affine open $D(f)$, where $f = f_{1} \cdots f_{n}$, and one
-    does the same for `Y_A` and `Z_A`.
+[^N.D.E-VI_B-97]: Indeed, `G_A` being flat and of finite presentation over $A$, it is covered by affine opens $G_{1},
+    \cdots, G_{n}$ such that each $\mathcal{O}(G_{i})$ is a flat and finitely presented $A$-algebra; then, by EGA IV₂,
+    6.9.2, there exists $f_{i} \in A$ such that $\mathcal{O}(G_{i})_{f_{i}}$ is a free module over $A_{f_{i}}$; one may
+    then replace $\operatorname{Spec}(A)$ by the affine open $D(f)$, where $f = f_{1} \cdots f_{n}$, and one does the
+    same for `Y_A` and `Z_A`.
 
 [^N.D.E-VI_B-98]: We have corrected $n+1$ to `2n` below.
 
@@ -6280,8 +6240,8 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 [^N.D.E-VI_B-C-104]: We have added this reminders paragraph.
 
 [^N.D.E-VI_B-C-105]: Note that if $k$ is a field and if $X$ is an infinite sum of copies of $S = \operatorname{Spec} k$
-    (so that $X$ is not quasi-compact), then $\mathcal{A}(X) = k^{X}$ and the canonical morphism
-    $k^{X} \otimes k^{X} \to k^{X\times X}$ is not surjective.
+    (so that $X$ is not quasi-compact), then $\mathcal{A}(X) = k^{X}$ and the canonical morphism $k^{X} \otimes k^{X}
+    \to k^{X\times X}$ is not surjective.
 
 [^N.D.E-VI_B-C-106]: Note that if $S$ is a regular locally noetherian scheme of dimension $\leq 2$, and $X$ is a flat,
     quasi-compact and quasi-separated $S$-scheme, then $\mathcal{A}(X)$ is a flat `O_S`-module, cf. [Ray70a], VII 3.2.
@@ -6293,10 +6253,10 @@ schemes*, Adv. Math. **65** (1987), 16–34.
     $\operatorname{Hom}_{O_{S}}(V(F), V(E))$ (cf. I, 4.6.3) and simplified the original by taking into account the
     addition 11.0 (b).
 
-[^N.D.E-VI_B-C-109]: We have simplified the original, which used the isomorphism
-    $\operatorname{Hom}_{O_{S}}(W(E), W(E ')) \simeq \operatorname{Hom}_{O_{S}}(V(E '), V(E))$ then the inclusion of the
-    right-hand side into `Hom_S(V(E), V(E ′)) = Hom_{O_S}(E ′, f_* f*(Sym(E)))` and applied EGA III, 4.1.15 to
-    $V(E) = \operatorname{Spec}(Sym(E))$ to deduce 11.0 (b).
+[^N.D.E-VI_B-C-109]: We have simplified the original, which used the isomorphism $\operatorname{Hom}_{O_{S}}(W(E), W(E
+    ')) \simeq \operatorname{Hom}_{O_{S}}(V(E '), V(E))$ then the inclusion of the right-hand side into
+    `Hom_S(V(E), V(E ′)) = Hom_{O_S}(E ′, f_* f*(Sym(E)))` and applied EGA III, 4.1.15 to $V(E) =
+    \operatorname{Spec}(Sym(E))$ to deduce 11.0 (b).
 
 [^N.D.E-VI_B-C-110]: We have expanded 11.6, and highlighted the results obtained in the form of Proposition 11.6.1.
 
@@ -6362,8 +6322,8 @@ schemes*, Adv. Math. **65** (1987), 16–34.
     $\mathcal{A}(G)$.
 
 [^N.D.E-VI_B-C-130]: We have added this lemma, taken from the proof of thm. 5.6 of [DG70], § III.3 (by abuse of
-    notation, we designate by the same letter $E$ a $k$-vector space and the $k$-scheme in modules
-    $W(E) = \operatorname{Spec} S(E^{*})$).
+    notation, we designate by the same letter $E$ a $k$-vector space and the $k$-scheme in modules $W(E) =
+    \operatorname{Spec} S(E^{*})$).
 
 [^N.D.E-VI_B-C-131]: For another proof of this theorem, not using the results of VI_A, see [Ta72], Th. 5.2 (see also
     Remark 11.18.5).

@@ -11,10 +11,10 @@ I.2.
 
 <!-- label: I.1 -->
 
-Let $X$ be a prescheme over $Y$, and let $\Delta_{X/Y}$, or simply $\Delta$, denote the diagonal morphism
-$X \to X \times_{Y} X$. It is an immersion, hence a closed immersion of $X$ into an open subset $V$ of $X \times_{Y} X$.
-Let $\mathcal{I}_{X}$ be the ideal of the closed subprescheme corresponding to the diagonal in $V$. Note that if one
-wants to do things intrinsically, without assuming $X$ separated over $Y$, a hypothesis that would be farcical here, one
+Let $X$ be a prescheme over $Y$, and let $\Delta_{X/Y}$, or simply $\Delta$, denote the diagonal morphism $X \to X
+\times_{Y} X$. It is an immersion, hence a closed immersion of $X$ into an open subset $V$ of $X \times_{Y} X$. Let
+$\mathcal{I}_{X}$ be the ideal of the closed subprescheme corresponding to the diagonal in $V$. Note that if one wants
+to do things intrinsically, without assuming $X$ separated over $Y$, a hypothesis that would be farcical here, one
 should consider the set-theoretic inverse image of $\mathcal{O}_{X\times X}$ in $X$, and designate by $\mathcal{I}_{X}$
 the augmentation ideal in the latter.
 
@@ -24,9 +24,7 @@ the base $Y' \to Y$.
 
 One also introduces the sheaves
 
-$$
-\mathcal{O}_{X\times_{Y} X}/\mathcal{I}^{n+1}_{X} = \mathcal{P}^{n}_{X/Y}.
-$$
+$$ \mathcal{O}_{X\times_{Y} X}/\mathcal{I}^{n+1}_{X} = \mathcal{P}^{n}_{X/Y}. $$
 
 These are sheaves of rings on $X$, making $X$ into a prescheme that may be denoted $\Delta^{n}_{X/Y}$ and called the
 n-th infinitesimal neighborhood of $X/Y$. The sorites for this are of total triviality, although rather long;[^I-1-1] it
@@ -79,8 +77,8 @@ equivalent:
 1. $\Omega^{1}_{X/Y}$ vanishes at $x$.
 1. The diagonal morphism $\Delta_{X/Y}$ is an open immersion in a neighborhood of $x$.
 
-For the implication (i) ⇒ (ii), Nakayama immediately reduces us to the case $Y = \operatorname{Spec}(k)$,
-$X = \operatorname{Spec}(k')$, where this is well known and, moreover, trivial from the definition of separability. The
+For the implication (i) ⇒ (ii), Nakayama immediately reduces us to the case $Y = \operatorname{Spec}(k)$, $X =
+\operatorname{Spec}(k')$, where this is well known and, moreover, trivial from the definition of separability. The
 implication (ii) ⇒ (iii) follows from a pleasant and easy characterization of open immersions, using Krull. For (iii) ⇒
 (i), one is again reduced to the case where $Y = \operatorname{Spec}(k)$ and where the diagonal morphism is everywhere
 an open immersion. One must then prove that $X$ is finite with separable coordinate ring over $k$; for this, one reduces
@@ -258,9 +256,9 @@ An étale covering, respectively a net covering, of $Y$ is a $Y$-scheme $X$ that
 respectively net, over $Y$.
 
 The first condition means that $X$ is defined by a coherent sheaf $\mathcal{B}$ of algebras on $Y$. The second then
-means that $\mathcal{B}$ is locally free over $Y$, respectively says nothing at all, and that moreover, for every
-$y \in Y$, the fiber $\mathcal{B}(y) = \mathcal{B}_{y} \otimes_{\mathcal{O}_{y}} \kappa(y)$ is a separable algebra, that
-is, a finite product of finite separable extensions, over $\kappa(y)$.
+means that $\mathcal{B}$ is locally free over $Y$, respectively says nothing at all, and that moreover, for every $y \in
+Y$, the fiber $\mathcal{B}(y) = \mathcal{B}_{y} \otimes_{\mathcal{O}_{y}} \kappa(y)$ is a separable algebra, that is, a
+finite product of finite separable extensions, over $\kappa(y)$.
 
 **Proposition.**
 
@@ -306,17 +304,17 @@ different proofs, the first shorter, the second more elementary.
 1. A flat morphism is open, so we may suppose, replacing $Y$ by $f(X)$, that $f$ is a homeomorphism onto $Y$. After any
    base extension, it remains true that $f$ is flat, radicial, and surjective, hence a homeomorphism, a fortiori closed.
    Thus $f$ is proper. Therefore $f$ is finite, by Chevalley's theorem, and is defined by a coherent sheaf $\mathcal{B}$
-   of algebras. The sheaf $\mathcal{B}$ is locally free; moreover, by the hypothesis, it has rank 1 everywhere. Thus
-   $X = Y$, as required.
+   of algebras. The sheaf $\mathcal{B}$ is locally free; moreover, by the hypothesis, it has rank 1 everywhere. Thus $X
+   = Y$, as required.
 
-1. One may suppose $Y$ and $X$ affine. Moreover, one easily reduces to proving the following: if
-   $Y = \operatorname{Spec}(A)$, with $A$ local, and if $f^{-1}(y)$ is nonempty, where $y$ is the closed point of $Y$,
-   then $X = Y$. Indeed, this will imply that every $y \in f(X)$ has an open neighborhood $U$ such that $X|U = U$. We
-   have $X = \operatorname{Spec}(B)$, and we want to prove $A = B$. For this, one is reduced to proving the analogous
-   assertion after replacing $A$ by `Â` and $B$ by $B \otimes_{A} \hat{A}$, taking into account that `Â` is faithfully
-   flat over $A$. We may therefore suppose $A$ complete. Let $x$ be the point over $y$. By Corollary I.2.2,
-   $\mathcal{O}_{x}$ is finite over $A$, hence, being flat and radicial over $A$, is identical with $A$. Thus
-   $X = Y \amalg X'$, a disjoint sum. Since $X$ is radicial over $Y$, $X'$ is empty. This completes the proof.
+1. One may suppose $Y$ and $X$ affine. Moreover, one easily reduces to proving the following: if $Y =
+   \operatorname{Spec}(A)$, with $A$ local, and if $f^{-1}(y)$ is nonempty, where $y$ is the closed point of $Y$, then
+   $X = Y$. Indeed, this will imply that every $y \in f(X)$ has an open neighborhood $U$ such that $X|U = U$. We have $X
+   = \operatorname{Spec}(B)$, and we want to prove $A = B$. For this, one is reduced to proving the analogous assertion
+   after replacing $A$ by `Â` and $B$ by $B \otimes_{A} \hat{A}$, taking into account that `Â` is faithfully flat over
+   $A$. We may therefore suppose $A$ complete. Let $x$ be the point over $y$. By Corollary I.2.2, $\mathcal{O}_{x}$ is
+   finite over $A$, hence, being flat and radicial over $A$, is identical with $A$. Thus $X = Y \amalg X'$, a disjoint
+   sum. Since $X$ is radicial over $Y$, $X'$ is empty. This completes the proof.
 
 **Corollary.**
 
@@ -387,11 +385,7 @@ The following form, apparently more general, of I.5.5 is often convenient.
 
 Consider a commutative diagram
 
-$$
-Y_{0} \to X
-\downarrow    \downarrow
-Y  \to S
-$$
+$$ Y_{0} \to X \downarrow \downarrow Y \to S $$
 
 of morphisms, where $X \to S$ is étale and $Y_{0} \to Y$ is a bijective closed immersion. Then one can find a unique
 morphism $Y \to X$ making the two corresponding triangles commute.
@@ -455,10 +449,9 @@ the Main Theorem. That may be a sufficient reason to keep the present number, ev
 
 <!-- label: I.6.1 -->
 
-Let $A$ be a complete local ring, noetherian of course, with residue field $k$. For every $A$-algebra $B$, let
-$R(B) = B \otimes_{A} k$, considered as a $k$-algebra; it thus depends functorially on $B$. Then $R$ defines an
-equivalence from the category of $A$-algebras finite and étale over $A$ to the category of finite-rank separable
-algebras over $k$.
+Let $A$ be a complete local ring, noetherian of course, with residue field $k$. For every $A$-algebra $B$, let $R(B) = B
+\otimes_{A} k$, considered as a $k$-algebra; it thus depends functorially on $B$. Then $R$ defines an equivalence from
+the category of $A$-algebras finite and étale over $A$ to the category of finite-rank separable algebras over $k$.
 
 First of all, the functor in question is fully faithful, as follows from the more general fact:
 
@@ -497,9 +490,9 @@ $F(u) = 0$, where $F$ is not assumed monic, $u' = F'(u)$, where $F'$ is the deri
 ideal of $B$ not containing $u'$, and $\mathfrak{p}$ its trace on $A$. Then $B_{\mathfrak{q}}$ is net over
 $A_{\mathfrak{p}}$.
 
-In other words, putting $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(B)$, and
-$X_{u'} = \operatorname{Spec}(B_{u'})$, $X_{u'}$ is unramified over $Y$. The statement follows from the following more
-precise one.
+In other words, putting $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(B)$, and $X_{u'} =
+\operatorname{Spec}(B_{u'})$, $X_{u'}$ is unramified over $Y$. The statement follows from the following more precise
+one.
 
 **Corollary.**
 
@@ -582,8 +575,8 @@ Let us first record the pleasant corollaries.
 For $\mathcal{O}$ to be net over $A$, it is necessary and sufficient that $\mathcal{O}$ be isomorphic to the quotient of
 an analogous algebra that is étale over $A$.
 
-Indeed, take $\mathcal{O}' = {{B'_{\mathfrak{n}}}'}$, where $B' = A[t]/FA[t]$ and where $\mathfrak{n}'$ is the inverse image
-of $\mathfrak{n}$ in $B'$.
+Indeed, take $\mathcal{O}' = {{B'_{\mathfrak{n}}}'}$, where $B' = A[t]/FA[t]$ and where $\mathfrak{n}'$ is the inverse
+image of $\mathfrak{n}$ in $B'$.
 
 **Corollary.**
 
@@ -604,12 +597,12 @@ $\mathcal{O}$ are étale over $A$, the morphism $\mathcal{O}' \to \mathcal{O}$ i
 ### Proof of I.7.6
 
 This repeats a proof from Chevalley's seminar. By the Main Theorem, one will have $\mathcal{O} = B_{\mathfrak{n}}$,
-where $B$ is a finite algebra over $A$ and $\mathfrak{n}$ is a maximal ideal of $B$. Then
-$B/\mathfrak{n} = K(\mathcal{O})$ is a separable, hence monogenic, extension of $k$. If $\mathfrak{n}_{i}$,
-$1 \leq i \leq r$, are the maximal ideals of $B$ distinct from $\mathfrak{n}$, there therefore exists an element $u$ of
-$B$ that belongs to all the $\mathfrak{n}_{i}$ and whose image in $B/\mathfrak{n}$ is a generator. But
-$B/\mathfrak{n} = B_{\mathfrak{n}}/\mathfrak{n}B_{\mathfrak{n}} = B_{\mathfrak{n}}/\mathfrak{m}B_{\mathfrak{n}}$, where
-$\mathfrak{m}$ is the maximal ideal of $A$. Let us admit for a moment the following lemma.
+where $B$ is a finite algebra over $A$ and $\mathfrak{n}$ is a maximal ideal of $B$. Then $B/\mathfrak{n} =
+K(\mathcal{O})$ is a separable, hence monogenic, extension of $k$. If $\mathfrak{n}_{i}$, $1 \leq i \leq r$, are the
+maximal ideals of $B$ distinct from $\mathfrak{n}$, there therefore exists an element $u$ of $B$ that belongs to all the
+$\mathfrak{n}_{i}$ and whose image in $B/\mathfrak{n}$ is a generator. But $B/\mathfrak{n} =
+B_{\mathfrak{n}}/\mathfrak{n}B_{\mathfrak{n}} = B_{\mathfrak{n}}/\mathfrak{m}B_{\mathfrak{n}}$, where $\mathfrak{m}$ is
+the maximal ideal of $A$. Let us admit for a moment the following lemma.
 
 **Lemma.**
 
@@ -617,9 +610,8 @@ $\mathfrak{m}$ is the maximal ideal of $A$. Let us admit for a moment the follow
 
 Let $A$ be a local ring, $B$ a finite algebra over $A$, $\mathfrak{n}$ a maximal ideal of $B$, and $u$ an element of $B$
 whose image in $B_{\mathfrak{n}}/\mathfrak{m}B_{\mathfrak{n}}$ generates it as an algebra over $k = A/\mathfrak{m}$, and
-which lies in every maximal ideal of $B$ distinct from $\mathfrak{n}$. Let $B' = B[u]$ and
-$\mathfrak{n}' = \mathfrak{n}B'$. Then the canonical homomorphism ${{B'_{\mathfrak{n}}}'} \to B_{\mathfrak{n}}$ is an
-isomorphism.
+which lies in every maximal ideal of $B$ distinct from $\mathfrak{n}$. Let $B' = B[u]$ and $\mathfrak{n}' =
+\mathfrak{n}B'$. Then the canonical homomorphism ${{B'_{\mathfrak{n}}}'} \to B_{\mathfrak{n}}$ is an isomorphism.
 
 **Lemma.**
 
@@ -627,8 +619,8 @@ isomorphism.
 
 (This should have appeared as a corollary to I.7.1, before I.7.5, which it implies.) Let $B$ be a finite algebra over
 $A$ generated by an element $u$, and let $\mathfrak{n}$ be a maximal ideal of $B$ such that $B_{\mathfrak{n}}$ is
-unramified over $A$. Then there exists a monic polynomial $F \in A[t]$ such that $F(u) = 0$ and
-$F'(u) \notin \mathfrak{n}$.
+unramified over $A$. Then there exists a monic polynomial $F \in A[t]$ such that $F(u) = 0$ and $F'(u) \notin
+\mathfrak{n}$.
 
 Indeed, let $n$ be the rank of the $k$-algebra $L = B \otimes_{A} k$. By Nakayama, there exists a monic polynomial of
 degree $n$ in `A[t]` such that $F(u) = 0$. Let $f$ be the polynomial deduced from $F$ by reduction mod $\mathfrak{m}$.
@@ -639,14 +631,14 @@ $f'(\xi)$ is the image of $F'(u)$, we are done.
 <!-- original page 13 -->
 
 Theorem I.7.6 now follows by combining I.7.9 and I.7.10. It remains to prove I.7.9. Put $S' = B' - \mathfrak{n}'$, so
-$B'S'^{-1} = {{B'_{\mathfrak{n}}}'}$. Similarly let $S = B - \mathfrak{n}$, so $BS^{-1} = B_{\mathfrak{n}}$. We therefore
-have a natural homomorphism $B S'^{-1} \to BS^{-1} = B_{\mathfrak{n}}$. Let us prove that it is an isomorphism, i.e.
-that the elements of $S$ are invertible in $B S'^{-1}$, i.e. that every maximal ideal $\mathfrak{p}$ of the latter does
-not meet $S$, i.e. induces $\mathfrak{n}$ on $B$.
+$B'S'^{-1} = {{B'_{\mathfrak{n}}}'}$. Similarly let $S = B - \mathfrak{n}$, so $BS^{-1} = B_{\mathfrak{n}}$. We
+therefore have a natural homomorphism $B S'^{-1} \to BS^{-1} = B_{\mathfrak{n}}$. Let us prove that it is an
+isomorphism, i.e. that the elements of $S$ are invertible in $B S'^{-1}$, i.e. that every maximal ideal $\mathfrak{p}$
+of the latter does not meet $S$, i.e. induces $\mathfrak{n}$ on $B$.
 
 Indeed, since $B S'^{-1}$ is finite over $B'S'^{-1} = {{B'_{\mathfrak{n}}}'}$, $\mathfrak{p}$ induces the unique maximal
-ideal $\mathfrak{n}'{{B'_{\mathfrak{n}}}'}$ of ${{B'_{\mathfrak{n}}}'}$, hence induces the maximal ideal $\mathfrak{n}'$ of
-$B'$. Since $B$ is finite over $B'$, the ideal $\mathfrak{q}$ of $B$ induced by $\mathfrak{p}$, lying over
+ideal $\mathfrak{n}'{{B'_{\mathfrak{n}}}'}$ of ${{B'_{\mathfrak{n}}}'}$, hence induces the maximal ideal $\mathfrak{n}'$
+of $B'$. Since $B$ is finite over $B'$, the ideal $\mathfrak{q}$ of $B$ induced by $\mathfrak{p}$, lying over
 $\mathfrak{n}'$, is necessarily maximal and does not contain $u$, hence is identical with $\mathfrak{n}$. Here we have
 just used that $u$ belongs to every maximal ideal of $B$ distinct from $\mathfrak{n}$.
 
@@ -675,8 +667,8 @@ not coming from $\mathcal{O}$. Lemmas I.7.9 and I.7.10 should adapt without diff
 <!-- label: I.8.1 -->
 
 Let $Y$ be a prescheme, $Y_{0}$ a subprescheme, $X_{0}$ an étale $Y_{0}$-scheme, and $x$ a point of $X_{0}$. Then there
-exists an étale $Y$-scheme $X$, a neighborhood $U_{0}$ of $x$ in $X_{0}$, and a $Y_{0}$-isomorphism
-$U_{0} \cong X \times_{Y} Y_{0}$.
+exists an étale $Y$-scheme $X$, a neighborhood $U_{0}$ of $x$ in $X_{0}$, and a $Y_{0}$-isomorphism $U_{0} \cong X
+\times_{Y} Y_{0}$.
 
 Indeed, let $y$ be the projection of $x$ in $Y_{0}$. Applying I.7.6 to the étale local homomorphism $A_{0} \to B_{0}$ of
 the local rings of $y$ and $x$ in $Y_{0}$ and $X_{0}$, one finds an isomorphism
@@ -687,18 +679,18 @@ B₀ = (C₀)_{𝔫₀},     C₀ = A₀[t]/F₀A₀[t],
 
 where $F_{0}$ is a monic polynomial and $\mathfrak{n}_{0}$ is a maximal ideal of $C_{0}$ not containing the class of
 $F'_{0}(t)$ in $C_{0}$. Let $A$ be the local ring of $y$ in $Y$, let $F$ be a monic polynomial in `A[t]` giving $F_{0}$
-under the surjective homomorphism $A \to A_{0}$, by lifting the coefficients of $F_{0}$, and finally let
-$C = A[t]/FA[t]$, and let $\mathfrak{n}$ be the maximal ideal of $C$ which is the inverse image of $\mathfrak{n}_{0}$
-under the natural epimorphism $C \to C \otimes_{A} A_{0} = C_{0}$. Put $B = C_{\mathfrak{n}}$. It is immediate by
-construction and I.7.1 that $B$ is étale over $A$, and that one has an isomorphism $B \otimes_{A} A_{0} = A_{0}$.
+under the surjective homomorphism $A \to A_{0}$, by lifting the coefficients of $F_{0}$, and finally let $C =
+A[t]/FA[t]$, and let $\mathfrak{n}$ be the maximal ideal of $C$ which is the inverse image of $\mathfrak{n}_{0}$ under
+the natural epimorphism $C \to C \otimes_{A} A_{0} = C_{0}$. Put $B = C_{\mathfrak{n}}$. It is immediate by construction
+and I.7.1 that $B$ is étale over $A$, and that one has an isomorphism $B \otimes_{A} A_{0} = A_{0}$.
 
 One knows, from EGA Chapter I as indicated in the introduction, that there exists a $Y$-scheme of finite type $X$ and a
-point $z$ of $X$ over $y$ such that $\mathcal{O}_{z}$ is $A$-isomorphic to $C$. Since the latter is étale over
-$A = \mathcal{O}_{y}$, one may, by taking $X$ small enough, suppose that $X$ is étale over $Y$. Let
-$X'_{0} = X \times_{Y} Y_{0}$. Then the local ring of $z$ in $X'_{0}$ identifies with
-$\mathcal{O}_{z} \otimes_{A} A_{0} = B \otimes_{A} A_{0}$, hence is isomorphic to $B_{0}$. This isomorphism is defined
-by an isomorphism from a neighborhood $U_{0}$ of $x$ in $X_{0}$ onto a neighborhood of $z$ in $X'_{0}$, and by taking
-$X$ small enough one may suppose this neighborhood identical with $X'_{0}$. We are done.
+point $z$ of $X$ over $y$ such that $\mathcal{O}_{z}$ is $A$-isomorphic to $C$. Since the latter is étale over $A =
+\mathcal{O}_{y}$, one may, by taking $X$ small enough, suppose that $X$ is étale over $Y$. Let $X'_{0} = X \times_{Y}
+Y_{0}$. Then the local ring of $z$ in $X'_{0}$ identifies with $\mathcal{O}_{z} \otimes_{A} A_{0} = B \otimes_{A}
+A_{0}$, hence is isomorphic to $B_{0}$. This isomorphism is defined by an isomorphism from a neighborhood $U_{0}$ of $x$
+in $X_{0}$ onto a neighborhood of $z$ in $X'_{0}$, and by taking $X$ small enough one may suppose this neighborhood
+identical with $X'_{0}$. We are done.
 
 **Corollary.**
 
@@ -714,8 +706,8 @@ The proof is the same, with I.7.5 replacing I.7.6.
 
 The functor considered in I.5.5 is an equivalence of categories.
 
-By Theorem I.5.5, it remains to show that every étale $S_{0}$-scheme $X_{0}$ is isomorphic to an $S_{0}$-scheme
-$X \times_{S} S_{0}$, where $X$ is an étale $S$-scheme. The underlying topological space of $X$ must necessarily be
+By Theorem I.5.5, it remains to show that every étale $S_{0}$-scheme $X_{0}$ is isomorphic to an $S_{0}$-scheme $X
+\times_{S} S_{0}$, where $X$ is an étale $S$-scheme. The underlying topological space of $X$ must necessarily be
 identical with that of $X_{0}$, with $X_{0}$ furthermore identifying with a closed subprescheme of $X$.
 
 The problem is therefore equivalent to the following one: find on the underlying topological space $|X_{0}|$ of $X_{0}$
@@ -743,10 +735,10 @@ therefore suffices to find a solution locally, which is assured by I.8.1.
 
 <!-- label: I.8.4 -->
 
-Let $S$ be a locally noetherian formal prescheme, equipped with an ideal of definition $J$, and let
-$S_{0} = (|S|, \mathcal{O}_{S}/J)$ be the corresponding ordinary prescheme. Then the functor
-$\mathfrak{X} \mapsto \mathfrak{X} \times_{S} S_{0}$ from the category of étale coverings of $S$ to the category of
-étale coverings of $S_{0}$ is an equivalence of categories.
+Let $S$ be a locally noetherian formal prescheme, equipped with an ideal of definition $J$, and let $S_{0} = (|S|,
+\mathcal{O}_{S}/J)$ be the corresponding ordinary prescheme. Then the functor $\mathfrak{X} \mapsto \mathfrak{X}
+\times_{S} S_{0}$ from the category of étale coverings of $S$ to the category of étale coverings of $S_{0}$ is an
+equivalence of categories.
 
 Of course, by an étale covering of a formal prescheme $S$ we mean a covering of $S$, i.e. a formal prescheme over $S$
 defined by a coherent sheaf $\mathcal{B}$ of algebras, such that $\mathcal{B}$ is locally free and such that the residue
@@ -833,19 +825,18 @@ Let $f: A \to B$ be a local étale homomorphism, with $B$ isomorphic to a locali
 finite type. For $A$ to be reduced, it is necessary and sufficient that $B$ be reduced.
 
 Necessity is trivial, since $A \to B$ is injective, $B$ being faithfully flat over $A$. For sufficiency, let
-$\mathfrak{p}_{i}$ be the minimal prime ideals of $A$. By hypothesis the natural map
-$A \to \prod_{i} A/\mathfrak{p}_{i}$ is injective; tensoring with the flat $A$-module $B$, one finds that
-$B \to \prod_{i} B/\mathfrak{p}_{iB}$ is injective, and one is reduced to proving that the $B/\mathfrak{p}_{iB}$ are
-reduced. Since $B/\mathfrak{p}_{iB}$ is étale over $A/\mathfrak{p}_{i}$, one is reduced to the case where $A$ is
-integral.
+$\mathfrak{p}_{i}$ be the minimal prime ideals of $A$. By hypothesis the natural map $A \to \prod_{i}
+A/\mathfrak{p}_{i}$ is injective; tensoring with the flat $A$-module $B$, one finds that $B \to \prod_{i}
+B/\mathfrak{p}_{iB}$ is injective, and one is reduced to proving that the $B/\mathfrak{p}_{iB}$ are reduced. Since
+$B/\mathfrak{p}_{iB}$ is étale over $A/\mathfrak{p}_{i}$, one is reduced to the case where $A$ is integral.
 
-Let $K$ be its field of fractions. Since $A \to K$ is injective, the same is true, $B$ being $A$-flat, of
-$B \to B \otimes_{A} K$; we are reduced to proving that this latter ring is reduced. But $B$, being a localization of an
+Let $K$ be its field of fractions. Since $A \to K$ is injective, the same is true, $B$ being $A$-flat, of $B \to B
+\otimes_{A} K$; we are reduced to proving that this latter ring is reduced. But $B$, being a localization of an
 $A$-algebra of finite type over $A$, is the local ring of a point $x$ of a scheme $X = \operatorname{Spec}(C)$ of finite
 type and étale over $Y = \operatorname{Spec}(A)$. Thus $B \otimes_{A} K$ is a localized ring, with respect to a suitable
 multiplicatively stable set, of the ring $C \otimes_{A} K$ of $X \otimes_{A} K$. Since $X \otimes_{A} K$ is étale over
-$K$, its ring is a finite product of fields, separable extensions of $K$, and the same is therefore true of
-$B \otimes_{A} K$. This proves the assertion.
+$K$, its ring is a finite product of fields, separable extensions of $K$, and the same is therefore true of $B
+\otimes_{A} K$. This proves the assertion.
 
 **Corollary.**
 
@@ -878,17 +869,17 @@ dimension.
 <!-- original page 18 -->
 
 **Serre's Criterion.** (i) For every prime ideal $\mathfrak{p}$ of $A$ of rank 1, $A_{\mathfrak{p}}$ is normal, or
-equivalently regular. (ii) For every prime ideal $\mathfrak{p}$ of $A$ of rank $\geq 2$,
-$depth A_{\mathfrak{p}} \geq 2$.[^I-9-1]
+equivalently regular. (ii) For every prime ideal $\mathfrak{p}$ of $A$ of rank $\geq 2$, $depth A_{\mathfrak{p}} \geq
+2$.[^I-9-1]
 
 We shall admit this criterion here; it is supposed to appear in the paragraph on flat morphisms. Its principal advantage
-is that it does not suppose a priori that $A$ is reduced, nor a fortiori integral. Here, we may already suppose
-$\dim A = \dim B \neq 0$.
+is that it does not suppose a priori that $A$ is reduced, nor a fortiori integral. Here, we may already suppose $\dim A
+= \dim B \neq 0$.
 
 By the reminders at the beginning of this number, the prime ideals $\mathfrak{p}$ of $A$ of rank 1, respectively of rank
-$\geq 2$, are exactly the traces on $A$ of the prime ideals $\mathfrak{q}$ of $B$ of rank 1, respectively of rank
-$\geq 2$. Finally, if $\mathfrak{p}$ and $\mathfrak{q}$ correspond, $B_{\mathfrak{q}}$ is étale over $A_{\mathfrak{p}}$,
-hence has the same depth as $A_{\mathfrak{p}}$, and is regular if and only if $A_{\mathfrak{p}}$ is regular, by I.9.1.
+$\geq 2$, are exactly the traces on $A$ of the prime ideals $\mathfrak{q}$ of $B$ of rank 1, respectively of rank $\geq
+2$. Finally, if $\mathfrak{p}$ and $\mathfrak{q}$ correspond, $B_{\mathfrak{q}}$ is étale over $A_{\mathfrak{p}}$, hence
+has the same depth as $A_{\mathfrak{p}}$, and is regular if and only if $A_{\mathfrak{p}}$ is regular, by I.9.1.
 Applying Serre's criterion, one finds that $A$ is normal if and only if $B$ is.
 
 ### Second Proof
@@ -900,17 +891,17 @@ is normal, and therefore lies in $A$ because $B \cap K = A$, as follows from the
 $A$.
 
 Now suppose $A$ normal, and prove that $B$ is normal. By I.7.6 one has $B = B'_{\mathfrak{n}}$, where $B' = A[t]/FA[t]$,
-with $F$ and $\mathfrak{n}$ as in I.7.6. Thus $L = B \otimes_{A} K$ will be a localization of
-$B' \otimes_{A} K = K[t]/FK[t]$, and a product of fields, finite separable extensions of $K$. This latter product, as
-happens whenever one localizes an artinian ring, here $B'_{K}$ with respect to a multiplicatively stable set, is a
-direct factor of $B'_{K}$, hence corresponds to a decomposition $F = F_{1}F_{2}$ in `K[t]`, with the generator of $L$
-corresponding to $t$ already annihilated by $F_{1}$.
+with $F$ and $\mathfrak{n}$ as in I.7.6. Thus $L = B \otimes_{A} K$ will be a localization of $B' \otimes_{A} K =
+K[t]/FK[t]$, and a product of fields, finite separable extensions of $K$. This latter product, as happens whenever one
+localizes an artinian ring, here $B'_{K}$ with respect to a multiplicatively stable set, is a direct factor of $B'_{K}$,
+hence corresponds to a decomposition $F = F_{1}F_{2}$ in `K[t]`, with the generator of $L$ corresponding to $t$ already
+annihilated by $F_{1}$.
 
 But since $A$ is normal, the $F_{i}$ lie in `A[t]`, assuming them monic. Observing that $B \to L = B \otimes_{A} K$ is
 injective, since $A \to K$ is injective and $B$ is flat over $A$, it follows that one already has $F_{1}(u) = 0$, with
-$u$ the class of $t$ in $L$. If $F$ has been chosen of minimal degree, it follows that $F_{2} = 1$. Note that
-$F'(u) = F'_{1}(u)F_{2}(u) + F_{1}(u)F'_{2}(u) = F'_{1}(u)F_{2}(u)$, since $F_{1}(u) = 0$; hence $F'_{1}(u) \neq 0$
-since $F'(u) \neq 0$.
+$u$ the class of $t$ in $L$. If $F$ has been chosen of minimal degree, it follows that $F_{2} = 1$. Note that $F'(u) =
+F'_{1}(u)F_{2}(u) + F_{1}(u)F'_{2}(u) = F'_{1}(u)F_{2}(u)$, since $F_{1}(u) = 0$; hence $F'_{1}(u) \neq 0$ since $F'(u)
+\neq 0$.
 
 <!-- original page 19 -->
 
@@ -945,9 +936,7 @@ tr_{L/K}(uⁿ⁻¹/F′(u)) = 1.
 
 The determinant of the matrix
 
-$$
-(u^{j} \cdot u^{i}/F'(u))_{0\leq i,j\leq n-1}
-$$
+$$ (u^{j} \cdot u^{i}/F'(u))_{0\leq i,j\leq n-1} $$
 
 is equal to $(-1)^{n(n-1)}/^{2}$, hence is invertible in every subring $A$ of $K$.
 
@@ -957,8 +946,8 @@ is equal to $(-1)^{n(n-1)}/^{2}$, hence is invertible in every subring $A$ of $K
 
 Let $A$ be a subring of $K$, let $V$ be the $A$-module generated by the $u^{i}$, $0 \leq i \leq n - 1$, in $L$, and let
 $V'$ be the sub-$A$-module of $L$ formed by the $x \in L$ such that $tr_{L/K}(xy) \in A$ for every $y \in V$, i.e. for
-$y$ of the form $u^{i}$, $0 \leq i \leq n - 1$. Then $V'$ is the $A$-module having as basis the $u^{i}/F'(u)$,
-$0 \leq i \leq n - 1$.
+$y$ of the form $u^{i}$, $0 \leq i \leq n - 1$. Then $V'$ is the $A$-module having as basis the $u^{i}/F'(u)$, $0 \leq i
+\leq n - 1$.
 
 **Corollary.**
 
@@ -1001,11 +990,11 @@ is normal and therefore, being connected, irreducible.
 Let $U$ be the set of points where $f$ is étale. It is open, and it suffices to show that it is also closed and
 nonempty. The set $U$ contains the inverse image of the generic point of $Y$, since for an algebra over a field,
 unramified equals étale; hence, since $X$ dominates $Y$, $U$ is nonempty. If $x$ belongs to the closure of $U$, then it
-belongs to the closure of an irreducible component $U_{i}$ of $U$, hence to an irreducible component
-$X_{i} := closure(U_{i})$ of $X$ that meets $U$, and therefore dominates $Y$, since every component of $U$, being flat
-over $Y$, dominates $Y$. Consequently, if $y$ is the projection of $x$ to $Y$, $\mathcal{O}_{y} \to \mathcal{O}_{x}$ is
-injective, taking into account that $\mathcal{O}_{y}$ is integral. Since $\mathcal{O}_{y}$ is normal and
-$\mathcal{O}_{y} \to \mathcal{O}_{x}$ is net, one concludes using I.9.5(ii).
+belongs to the closure of an irreducible component $U_{i}$ of $U$, hence to an irreducible component $X_{i} :=
+closure(U_{i})$ of $X$ that meets $U$, and therefore dominates $Y$, since every component of $U$, being flat over $Y$,
+dominates $Y$. Consequently, if $y$ is the projection of $x$ to $Y$, $\mathcal{O}_{y} \to \mathcal{O}_{x}$ is injective,
+taking into account that $\mathcal{O}_{y}$ is integral. Since $\mathcal{O}_{y}$ is normal and $\mathcal{O}_{y} \to
+\mathcal{O}_{x}$ is net, one concludes using I.9.5(ii).
 
 **Corollary.**
 
@@ -1079,9 +1068,9 @@ ideals inducing the maximal ideal $\mathfrak{m}$ of $A$, are unramified, hence �
 Finally, note also that the discriminant criterion I.4.10 can also be applied in this situation. More generally, a
 variant of that criterion should be stated as follows, without a preliminary flatness condition when $X$ dominates $Y$,
 though $Y$ is still assumed locally integral: $A \to B$ and $B \to B \otimes_{A} K = L$ are injective, so $tr_{L/K}$ is
-defined, and $tr_{L/K}(xy)$ induces a fundamental bilinear form $B \times B \to A$, i.e. there exist $x_{i} \in B$,
-$1 \leq i \leq n$, with $n$ the rank of $L$ over $K$, such that `tr(x_ix_j) ∈ A` for all `i, j`, and `det(tr(x_ix_j))`
-is invertible in $A$.
+defined, and $tr_{L/K}(xy)$ induces a fundamental bilinear form $B \times B \to A$, i.e. there exist $x_{i} \in B$, $1
+\leq i \leq n$, with $n$ the rank of $L$ over $K$, such that `tr(x_ix_j) ∈ A` for all `i, j`, and `det(tr(x_ix_j))` is
+invertible in $A$.
 
 The sorites I.4.6 immediately imply the sorites of unramifiedness in the classical setting.
 
@@ -1121,9 +1110,7 @@ Under the conditions of (iii), let $L_{1}$ be a compositum of $L/K$, unramified 
 unramified over $Y'$. In the case where $Y = \operatorname{Spec}(A)$, $Y' = \operatorname{Spec}(A')$, one furthermore
 has
 
-$$
-\bar{A}' = A[\bar{A}, A'],
-$$
+$$ \bar{A}' = A[\bar{A}, A'], $$
 
 i.e. the normalized ring $\bar{A}'$ of $A'$ in $L_{1}$ is the $A$-algebra generated by $A'$ and the normalization `Ā` of
 $A$ in $L$.
@@ -1199,9 +1186,9 @@ stronger statement, most often taken as the definition of unramifiedness of a co
 Let $f: X \to Y$ be a quasi-finite separated morphism. Suppose that $Y$ is irreducible, that every component of $X$
 dominates $Y$, and that $X$ is reduced, i.e. that $\mathcal{O}_{X}$ has no nilpotent elements. Let $n$ be the degree of
 $X$ over $Y$, the sum of the degrees over the field $K$ of $Y$ of the fields $K_{i}$ of the irreducible components
-$X_{i}$ of $X$. Let $y$ be a normal point of $Y$. Then the geometric number $n(y)$ of points of $X$ over $y$ is
-$\leq n$, and equality holds if and only if there exists an open neighborhood $U$ of $y$ such that $X|U$ is an étale
-covering of $U$.
+$X_{i}$ of $X$. Let $y$ be a normal point of $Y$. Then the geometric number $n(y)$ of points of $X$ over $y$ is $\leq
+n$, and equality holds if and only if there exists an open neighborhood $U$ of $y$ such that $X|U$ is an étale covering
+of $U$.
 
 The "only if" being trivial, let us prove the "if". Let $z$ be the generic point of $Y$. We have $n(z) =$ the sum of the
 separable degrees of the $K_{i}/K$, hence $n(z) \leq n$; and by I.10.7 one has $n(y) \leq n(z) \leq n$, with equality
@@ -1218,9 +1205,9 @@ following classical statement:
 Let $A$ be a normal local ring, noetherian as always, with field $K$; let $L$ be a finite extension of $K$ of degree
 $n$, with separable degree $n_{s}$; let $B$ be a subring of $L$ finite over $A$, with field of fractions $L$; let
 $\mathfrak{m}$ be the maximal ideal of $A$, and let $n'$ be the separable degree of $B/\mathfrak{m}B$ over
-$A/\mathfrak{m}A = k$, i.e. the sum of the separable degrees of the residue extensions of this ring. One has
-$n' \leq n_{s}$ and a fortiori $n' \leq n$. This last inequality is an equality if and only if $B$ is unramified, hence
-étale, over $A$.
+$A/\mathfrak{m}A = k$, i.e. the sum of the separable degrees of the residue extensions of this ring. One has $n' \leq
+n_{s}$ and a fortiori $n' \leq n$. This last inequality is an equality if and only if $B$ is unramified, hence étale,
+over $A$.
 
 It remains only to show that $n' = n$ implies that $B$ is étale over $A$. Recall the proof when $k$ is infinite: one
 need only show that $R = B/\mathfrak{m}B$ is separable over $k$. If this were not the case, it would follow, by a known
@@ -1231,12 +1218,12 @@ $\mathfrak{m}$ a monic polynomial $F \in k[t]$, of degree $\leq n = n'$, such th
 
 <!-- original page 26 -->
 
-In the general case, where $k$ may be finite, returning to geometric language, consider
-$Y' = \operatorname{Spec}(A[t])$, which is faithfully flat over $Y$, and the generic point $y'$ of the fiber
-$\operatorname{Spec}(k[t])$ of $Y'$ over $y$. Then $X$ is net over $Y$ at $y$ if and only if
-$X' = X \times_{Y} Y' = \operatorname{Spec}(B[t])$ is net at $y'$ over $Y'$, as one checks immediately. On the other
-hand, by the choice of $y'$, its residue field is $k(t)$, hence infinite. Since $y'$ is a normal point of $Y'$, one is
-reduced to the preceding case.
+In the general case, where $k$ may be finite, returning to geometric language, consider $Y' =
+\operatorname{Spec}(A[t])$, which is faithfully flat over $Y$, and the generic point $y'$ of the fiber
+$\operatorname{Spec}(k[t])$ of $Y'$ over $y$. Then $X$ is net over $Y$ at $y$ if and only if $X' = X \times_{Y} Y' =
+\operatorname{Spec}(B[t])$ is net at $y'$ over $Y'$, as one checks immediately. On the other hand, by the choice of
+$y'$, its residue field is $k(t)$, hence infinite. Since $y'$ is a normal point of $Y'$, one is reduced to the preceding
+case.
 
 ## 11. Some Complements
 
@@ -1267,16 +1254,14 @@ hence it is a complete semilocal ring, and therefore local since it is integral.
 $L/k$ it defines is not radicial. Otherwise, one will say that $A$ is geometrically unibranch; cf. below. This will be
 the case, for example, for the ring
 
-$$
-\mathbb{R}[[s,t]]/(s^{2}+t^{2})\mathbb{R}[[s,t]],
-$$
+$$ \mathbb{R}[[s,t]]/(s^{2}+t^{2})\mathbb{R}[[s,t]], $$
 
 where $\mathbb{R}$ is the field of real numbers.
 
 Let $k'$ be a finite Galois extension of $k$ such that $L \otimes_{k} k'$ decomposes, and let $B$ be a finite étale
-algebra over $A$ corresponding to the residue extension $k'$; recall that $B$ is essentially unique. Then
-$B' = A' \otimes_{A} B$ over $B$ has residue algebra $L \otimes_{k} k'$, which is not local; hence $B'$ is not a local
-ring, and therefore, being complete, has zero divisors.
+algebra over $A$ corresponding to the residue extension $k'$; recall that $B$ is essentially unique. Then $B' = A'
+\otimes_{A} B$ over $B$ has residue algebra $L \otimes_{k} k'$, which is not local; hence $B'$ is not a local ring, and
+therefore, being complete, has zero divisors.
 
 <!-- original page 27 -->
 

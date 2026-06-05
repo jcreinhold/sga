@@ -21,9 +21,9 @@ Before beginning this construction, we must lay down a few general definitions t
 
 <!-- label: III.II.1 -->
 
-Let us resume the notations of I 1.1. We identify the category $C$ with a full subcategory of
-$\hat{C} = \operatorname{Hom}(C^{\circ}, (Ens))$ (in particular we suppress the underlines[^N.D.E-II-1] that allowed us
-to distinguish graphically an object of `Ĉ` from an object of $C$).
+Let us resume the notations of I 1.1. We identify the category $C$ with a full subcategory of $\hat{C} =
+\operatorname{Hom}(C^{\circ}, (Ens))$ (in particular we suppress the underlines[^N.D.E-II-1] that allowed us to
+distinguish graphically an object of `Ĉ` from an object of $C$).
 
 Consider the following situation: four objects of `Ĉ`, denoted `S, X, Y, Z`, the first being in fact an object of $C$,
 with $X$ and $Y$ above $Z$, and $Z$ above $S$:
@@ -140,24 +140,22 @@ one has a functorial isomorphism
 It follows that if $Y$ is a $Z$-group, resp. a $Z$-ring, etc., then $\operatorname{Hom}_{Z/S}(X, Y)$ is an $S$-group,
 resp. an $S$-ring, etc.
 
-**Remark 1.3.**[^N.D.E-II-4] Moreover, let $\pi : M \to Y$ be a $Y$-functor of `O_Y`-modules (cf. I, 4.3.3.1). Set
-$H = \operatorname{Hom}_{Z/S}(X, Y)$. Then $\operatorname{Hom}_{Z/S}(X, M)$ is equipped with a natural structure of
+**Remark 1.3.**[^N.D.E-II-4] Moreover, let $\pi : M \to Y$ be a $Y$-functor of `O_Y`-modules (cf. I, 4.3.3.1). Set $H =
+\operatorname{Hom}_{Z/S}(X, Y)$. Then $\operatorname{Hom}_{Z/S}(X, M)$ is equipped with a natural structure of
 `O_H`-module; more precisely, for every $H'$ above $H$, $\operatorname{Hom}_{H}(H', \operatorname{Hom}_{Z/S}(X, M))$ is
 equipped with a natural structure of $O(H' \times_{S} X)$-module.
 
 <!-- label: III.II.1.3 -->
 
 Indeed, denote by $m : M \times_{Y} M \to M$ and $\lambda : O_{Y} \times_{Y} M \to M$ the morphisms defining the
-structures of $Y$-(abelian) group and of `O_Y`-module. Let $H'$ be an $S$-scheme above
-$H = \operatorname{Hom}_{Z/S}(X, Y)$, i.e. one has been given a $Z$-morphism $f : X \times_{S} H' \to Y$, which
-therefore makes $X \times_{S} H'$ a $Y$-object. Then,
+structures of $Y$-(abelian) group and of `O_Y`-module. Let $H'$ be an $S$-scheme above $H = \operatorname{Hom}_{Z/S}(X,
+Y)$, i.e. one has been given a $Z$-morphism $f : X \times_{S} H' \to Y$, which therefore makes $X \times_{S} H'$ a
+$Y$-object. Then,
 
-$$
-\operatorname{Hom}_{H}(H', \operatorname{Hom}_{Z/S}(X, M))
-$$
+$$ \operatorname{Hom}_{H}(H', \operatorname{Hom}_{Z/S}(X, M)) $$
 
-is the set of $Z$-morphisms $\phi : X \times_{S} H' \to M$ such that $\pi \circ \phi = f$, i.e. of $Y$-morphisms
-$X \times_{S} H' \to M$.
+is the set of $Z$-morphisms $\phi : X \times_{S} H' \to M$ such that $\pi \circ \phi = f$, i.e. of $Y$-morphisms $X
+\times_{S} H' \to M$.
 
 <!-- original page 52 -->
 
@@ -167,14 +165,14 @@ If $\phi, \psi$ are two such morphisms, one defines $\phi + \psi$ as the $Y$-mor
 X ×_S H′ ──(φ × ψ)──→ M ×_Y M ──m──→ M
 ```
 
-and one verifies that this equips $\operatorname{Hom}_{Z/S}(X, M)$ with a structure of abelian group above
-$H = \operatorname{Hom}_{Z/S}(X, Y)$.[^N.D.E-II-5]
+and one verifies that this equips $\operatorname{Hom}_{Z/S}(X, M)$ with a structure of abelian group above $H =
+\operatorname{Hom}_{Z/S}(X, Y)$.[^N.D.E-II-5]
 
 Likewise, if $a$ is an element of $O(X \times_{S} H')$, i.e. an $S$-morphism $a : X \times_{S} H' \to O_{S}$, one
-defines $a\phi$ as the composite $\lambda \circ (a \times \phi)$, where $a \times \phi$ denotes the $Y$-morphism from
-$X \times_{S} H'$ to $O_{Y} \times_{Y} M \simeq O_{S} \times_{S} M$ with components $a$ and $\phi$; one verifies that
-this equips $\operatorname{Hom}_{H}(H', \operatorname{Hom}_{Z/S}(X, M))$ with a structure of
-$O(X \times_{S} H')$-module, functorial in the $H$-object $H'$.
+defines $a\phi$ as the composite $\lambda \circ (a \times \phi)$, where $a \times \phi$ denotes the $Y$-morphism from $X
+\times_{S} H'$ to $O_{Y} \times_{Y} M \simeq O_{S} \times_{S} M$ with components $a$ and $\phi$; one verifies that this
+equips $\operatorname{Hom}_{H}(H', \operatorname{Hom}_{Z/S}(X, M))$ with a structure of $O(X \times_{S} H')$-module,
+functorial in the $H$-object $H'$.
 
 ## 2. The schemes $I_{S}(M)$
 
@@ -190,21 +188,21 @@ $I_{S}(M)$ the $S$-scheme $\operatorname{Spec} D_{O_{S}}(M)$.*[^N.D.E-II-6]
 of dual numbers over $S$ and the scheme of dual numbers over $S$.*
 
 Then $M \mapsto I_{S}(M)$ is a contravariant functor from the category of quasi-coherent `O_S`-modules to that of
-$S$-schemes. In particular the morphisms $0 \to M$ and $M \to 0$ define respectively the structural morphism
-$\rho : I_{S}(M) \to I_{S}(0) = S$ and a section $\epsilon_{M}$ of it, which we call the *zero section*.[^N.D.E-II-7]
+$S$-schemes. In particular the morphisms $0 \to M$ and $M \to 0$ define respectively the structural morphism $\rho :
+I_{S}(M) \to I_{S}(0) = S$ and a section $\epsilon_{M}$ of it, which we call the *zero section*.[^N.D.E-II-7]
 
 <!-- original page 46 -->
 
-**2.1.1.**[^N.D.E-II-8] Since $M \mapsto I_{S}(M)$ is a contravariant functor, every
-$a \in \operatorname{End}_{O_{S}}(M)$ defines an $S$-endomorphism $a^{*}$ of $I_{S}(M)$, and one has $1^{*} = id$,
-$(ab)^{*} = b^{*} \circ a^{*}$, $0^{*} = \epsilon_{M} \circ \rho$ and $a^{*} \circ \epsilon_{M} = \epsilon_{M}$.
-Consequently, the $S$-scheme $I_{S}(M)$ is equipped with a right action of the multiplicative monoid of
-$\operatorname{End}_{O_{S}}(M)$, which commutes with the $S$-morphisms $I_{S}(M) \to I_{S}(M')$ arising from morphisms
-$M' \to M$; in particular, the operators $a^{*}$ preserve the zero section of $I_{S}(M)$.
+**2.1.1.**[^N.D.E-II-8] Since $M \mapsto I_{S}(M)$ is a contravariant functor, every $a \in
+\operatorname{End}_{O_{S}}(M)$ defines an $S$-endomorphism $a^{*}$ of $I_{S}(M)$, and one has $1^{*} = id$, $(ab)^{*} =
+b^{*} \circ a^{*}$, $0^{*} = \epsilon_{M} \circ \rho$ and $a^{*} \circ \epsilon_{M} = \epsilon_{M}$. Consequently, the
+$S$-scheme $I_{S}(M)$ is equipped with a right action of the multiplicative monoid of $\operatorname{End}_{O_{S}}(M)$,
+which commutes with the $S$-morphisms $I_{S}(M) \to I_{S}(M')$ arising from morphisms $M' \to M$; in particular, the
+operators $a^{*}$ preserve the zero section of $I_{S}(M)$.
 
-For every $a \in \operatorname{End}_{O_{S}}(M)$ and $f : S' \to S$ and $m \in I_{S}(M)(S')$, we shall write
-$m \cdot a = a^{*}(m)$; then $m \cdot 1 = m$, $(m \cdot a) \cdot b = m \cdot (ab)$, $m \cdot 0 = \epsilon_{M}(\rho(m))$
-and, if $m = \epsilon_{M}(f)$, then $m \cdot a = m$.[^N.D.E-II-9]
+For every $a \in \operatorname{End}_{O_{S}}(M)$ and $f : S' \to S$ and $m \in I_{S}(M)(S')$, we shall write $m \cdot a =
+a^{*}(m)$; then $m \cdot 1 = m$, $(m \cdot a) \cdot b = m \cdot (ab)$, $m \cdot 0 = \epsilon_{M}(\rho(m))$ and, if $m =
+\epsilon_{M}(f)$, then $m \cdot a = m$.[^N.D.E-II-9]
 
 **Remark 2.1.2.** *The formation of the $I_{S}(M)$ commutes with base extension: one has canonical isomorphisms*
 
@@ -231,21 +229,21 @@ verifying obvious conditions. For every $S$-functor $X$, one obtains by base cha
 λ_X : I_X(M) ×_S O_S ⟶ I_X(M)
 ```
 
-which makes the $S$-functor $I_{X}(M)$ into an object with monoid of operators $O(X)$: every element $a$ of
-$O(X) = \operatorname{Hom}_{S}(X, O_{S})$ defines an $X$-endomorphism
-$a^{*} = \lambda_{X} \circ (id_{I_{X}(M)} \times (a \circ pr_{X}))$ of $I_{X}(M)$; explicitly, if $x \in X(S')$ and
-$m \in I_{S}(M)(S') = I_{S'}(M)(S')$, then $a(x) = a \circ x$ belongs to $O(S')$ and one has:
+which makes the $S$-functor $I_{X}(M)$ into an object with monoid of operators $O(X)$: every element $a$ of $O(X) =
+\operatorname{Hom}_{S}(X, O_{S})$ defines an $X$-endomorphism $a^{*} = \lambda_{X} \circ (id_{I_{X}(M)} \times (a \circ
+pr_{X}))$ of $I_{X}(M)$; explicitly, if $x \in X(S')$ and $m \in I_{S}(M)(S') = I_{S'}(M)(S')$, then $a(x) = a \circ x$
+belongs to $O(S')$ and one has:
 
 ```text
 (m, x) · a = (m · a(x), x).
 ```
 
-This operation is functorial in $M$ and preserves the zero section $\epsilon_{M} : X \to I_{X}(M)$, i.e.
-$a^{*} \circ \epsilon_{M} = \epsilon_{M}$ for every $a \in O(X)$.
+This operation is functorial in $M$ and preserves the zero section $\epsilon_{M} : X \to I_{X}(M)$, i.e. $a^{*} \circ
+\epsilon_{M} = \epsilon_{M}$ for every $a \in O(X)$.
 
 Moreover, this operation is "functorial in $X$" in the following sense: if $\pi : Y \to X$ is a morphism of $S$-functors
-and $u : O(X) \to O(Y)$ the corresponding ring morphism (i.e. $u(a) = a \circ \pi \in O(Y)$ for every
-$a \in O(X) = \operatorname{Hom}_{S}(X, O_{S})$), then the following diagram is commutative:
+and $u : O(X) \to O(Y)$ the corresponding ring morphism (i.e. $u(a) = a \circ \pi \in O(Y)$ for every $a \in O(X) =
+\operatorname{Hom}_{S}(X, O_{S})$), then the following diagram is commutative:
 
 ```text
               a^*
@@ -316,9 +314,7 @@ to do it for $S' = S$, hence to verify that the following diagram of sets is car
 Now, if $x \in X(S)$, it follows from SGA 1, III 5.1[^N.D.E-II-11], that $X(\epsilon_{M})^{-1}(x)$ is isomorphic,
 functorially in $M$, to
 
-$$
-\operatorname{Hom}_{O_{S}}(x^{*}(\Omega^{1}_{X/S}), M),
-$$
+$$ \operatorname{Hom}_{O_{S}}(x^{*}(\Omega^{1}_{X/S}), M), $$
 
 where $\Omega^{1}_{X/S}$ denotes the sheaf of relative differentials of $X$ with respect to $S$. Now this latter functor
 (in $M$) evidently transforms a direct sum of `O_S`-modules into the product of the corresponding sets, whence the
@@ -355,9 +351,7 @@ $S$-functor*
 
 <!-- label: III.II.3.1 -->
 
-$$
-T_{X/S}(M) = \operatorname{Hom}_{S}(I_{S}(M), X).
-$$
+$$ T_{X/S}(M) = \operatorname{Hom}_{S}(I_{S}(M), X). $$
 
 *In particular, one calls* **tangent bundle to $X$ above $S$** *and denotes by $T_{X/S}$ the functor*[^N.D.E-II-13]
 
@@ -380,8 +374,8 @@ and a section $\tau_{0}$ of it, called the *zero section* (or *null section*).
 **Remark 3.1.1.**[^N.D.E-II-15] One should note that the projection $\pi_{M} : T_{X/S}(M) \to X$ is induced by the zero
 section $\epsilon_{M} : S \to I_{S}(M)$, while the null section $\tau_{0} : X \to T_{X/S}(M)$ is induced by the
 structural morphism $\rho : I_{S}(M) \to S$; i.e., for every point $t \in T_{X/S}(M)(S')$ (resp. $x \in X(S')$),
-corresponding to an $S$-morphism $f : S' \times_{S} I_{S}(M) \to X$ (resp. $g : S' \to X$), one has
-$\pi(t) = f \circ (id_{S'} \times \epsilon_{M})$ (resp. $\tau_{0}(x) = g \circ (id_{S'} \times \rho)$).
+corresponding to an $S$-morphism $f : S' \times_{S} I_{S}(M) \to X$ (resp. $g : S' \to X$), one has $\pi(t) = f \circ
+(id_{S'} \times \epsilon_{M})$ (resp. $\tau_{0}(x) = g \circ (id_{S'} \times \rho)$).
 
 <!-- label: III.II.3.1.1 -->
 
@@ -389,8 +383,8 @@ It follows from 3.1 that $M \mapsto T_{X/S}(M)$ is a covariant functor from the 
 type to that of functors above $X$. In particular $O(S)$ is a monoid of operators of the $X$-functor $T_{X/S}(M)$ which
 respects "functoriality in $M$".
 
-**Scholie 3.1.2.**[^N.D.E-II-15] What precedes means, in particular, the following. For every $S$-morphism
-$\phi : X' \to X$, set
+**Scholie 3.1.2.**[^N.D.E-II-15] What precedes means, in particular, the following. For every $S$-morphism $\phi : X'
+\to X$, set
 
 <!-- label: III.II.3.1.2 -->
 
@@ -398,18 +392,17 @@ $\phi : X' \to X$, set
 Σ(X′, M) = Hom_X(X′, T_{X/S}(M)).
 ```
 
-One has an action of the multiplicative monoid $\operatorname{End}_{O_{S}}(M)$ on $\Sigma(X', M)$, denoted
-$(\lambda, x) \mapsto \lambda \ast x$, such that $\lambda \ast (\mu \ast x) = (\lambda \mu) \ast x$, $1 \ast x = x$, and
-$0 \ast x = \tau_{0} \circ \phi$, where $\tau_{0}$ is the null section $X \to T_{X/S}(M)$. One has likewise an action of
+One has an action of the multiplicative monoid $\operatorname{End}_{O_{S}}(M)$ on $\Sigma(X', M)$, denoted $(\lambda, x)
+\mapsto \lambda \ast x$, such that $\lambda \ast (\mu \ast x) = (\lambda \mu) \ast x$, $1 \ast x = x$, and $0 \ast x =
+\tau_{0} \circ \phi$, where $\tau_{0}$ is the null section $X \to T_{X/S}(M)$. One has likewise an action of
 $\operatorname{End}_{O_{S}}(M \oplus M)$ on $\Sigma(X', M \oplus M)$.[^N.D.E-II-16]
 
 Moreover, let $m : M \oplus M \to M$ (resp. $\delta : M \to M \oplus M$) be the addition (resp. the diagonal map) of
-$M$, and denote by $m_{X'} : \Sigma(X', M \oplus M) \to \Sigma(X', M)$ and
-$\delta_{X'} : \Sigma(X', M) \to \Sigma(X', M \oplus M)$ the morphisms induced by $m$ and $\delta$. For
-$\lambda, \mu \in O(S)$, denote by $\ell_{\lambda}$ (resp. $\ell_{\lambda,\mu}$) multiplication by $\lambda$ in $M$
-(resp. by $(\lambda, \mu)$ in $M \oplus M$). Since $m \circ \ell_{\lambda,\lambda} = \ell_{\lambda} \circ m$ and
-$m \circ \ell_{\lambda,\mu} \circ \delta = \ell_{\lambda+\mu}$, one has, for every $z \in \Sigma(X', M \oplus M)$ and
-$x \in \Sigma(X', M)$:
+$M$, and denote by $m_{X'} : \Sigma(X', M \oplus M) \to \Sigma(X', M)$ and $\delta_{X'} : \Sigma(X', M) \to \Sigma(X', M
+\oplus M)$ the morphisms induced by $m$ and $\delta$. For $\lambda, \mu \in O(S)$, denote by $\ell_{\lambda}$ (resp.
+$\ell_{\lambda,\mu}$) multiplication by $\lambda$ in $M$ (resp. by $(\lambda, \mu)$ in $M \oplus M$). Since $m \circ
+\ell_{\lambda,\lambda} = \ell_{\lambda} \circ m$ and $m \circ \ell_{\lambda,\mu} \circ \delta = \ell_{\lambda+\mu}$, one
+has, for every $z \in \Sigma(X', M \oplus M)$ and $x \in \Sigma(X', M)$:
 
 ```text
 (†)   λ ∗ m(z) = m((λ, λ) ∗ z),    m((λ, μ) ∗ δ(x)) = (λ + μ) ∗ x.
@@ -433,8 +426,8 @@ $X$-functor $T_{X/S}(M)$ by pullback along the morphism $u : S \to X$:*
 $u$**.
 
 **Remark 3.2.1.**[^N.D.E-II-17] It follows from 3.1.1 that, for every $t : S' \to S$, $L^{u}_{X/S}(M)(S')$ is the set of
-$S$-morphisms $f : I_{S'}(M) \to X$ such that $f \circ \epsilon_{M} = u \circ t$, where
-$\epsilon_{M} : S' \to I_{S'}(M)$ is the zero section.
+$S$-morphisms $f : I_{S'}(M) \to X$ such that $f \circ \epsilon_{M} = u \circ t$, where $\epsilon_{M} : S' \to
+I_{S'}(M)$ is the zero section.
 
 <!-- label: III.II.3.2.1 -->
 
@@ -463,9 +456,7 @@ Take for example $X$ an algebraic scheme over a field $k$ and $u$ a $k$-rational
 ideal of the local ring $O_{X,u}$ and let $t$ be the $k$-vector space dual to $m/m^{2}$; it is the Zariski tangent space
 of $O_{X,u}$ at the point $u$. Then, with the notations of I 4.6.5.1, one has:
 
-$$
-L^{u}_{X/k} = V(m/m^{2}) = W(t).
-$$
+$$ L^{u}_{X/k} = V(m/m^{2}) = W(t). $$
 
 Having closed this parenthesis, let us return to the general situation. Let us remark first that $L^{u}_{X/S}(M)$ is a
 covariant functor from the category of free `O_S`-modules of finite type to that of functors above $S$. In particular
@@ -492,11 +483,10 @@ Let us show this first for $L^{u}_{X/S}(M)$. For each $S'$ above $S$, $O(S')$ ac
 $L^{u'}_{X_{S'}/S'}(M \otimes O_{S'}) = L^{u}_{X/S}(M)_{S'}$; now one verifies that this action is functorial in $S'$.
 It thus equips $L^{u}_{X/S}(M)$, as announced, with a structure of functor with operators `O_S`.
 
-For $T_{X/S}(M)$ it is a little more complicated. For each $X'$ above $X$, set
-$T_{X/S}(M)_{X'} = T_{X/S}(M) \times_{X} X'$; one must equip
-$T_{X/S}(M)_{X'}(X') = \operatorname{Hom}_{X}(X', T_{X/S}(M))$ with a structure of set with monoid of operators $O(X')$
-in a manner functorial in $X'$. For this one constructs the following diagram, where $X_{X'}$ denotes $X \times_{S} X'$
-and $f'$ denotes the section of $X_{X'}$ over $X'$ defined by $f : X' \to X$:
+For $T_{X/S}(M)$ it is a little more complicated. For each $X'$ above $X$, set $T_{X/S}(M)_{X'} = T_{X/S}(M) \times_{X}
+X'$; one must equip $T_{X/S}(M)_{X'}(X') = \operatorname{Hom}_{X}(X', T_{X/S}(M))$ with a structure of set with monoid
+of operators $O(X')$ in a manner functorial in $X'$. For this one constructs the following diagram, where $X_{X'}$
+denotes $X \times_{S} X'$ and $f'$ denotes the section of $X_{X'}$ over $X'$ defined by $f : X' \to X$:
 
 <!-- original page 58 -->
 
@@ -519,15 +509,15 @@ and $f'$ denotes the section of $X_{X'}$ over $X'$ defined by $f : X' \to X$:
 L^{f′}_{X_{X′}/X′}(M)(X′) = { X′-morphisms ψ : I_{X′}(M) → X_{X′} such that ψ ∘ ε_M = f′ },
 ```
 
-on which every $a \in O(X')$ acts via its action on $I_{X'}(M)$, i.e., with the notations of 2.1.1, one has:
-$a\psi = \psi \circ a^{*}$, i.e. for every $X'' \to X'$ and $x \in I_{X'}(M)(X'')$, $(a\psi)(x) = \psi(x \cdot a)$. One
-then verifies easily that this construction is functorial in $X'$.
+on which every $a \in O(X')$ acts via its action on $I_{X'}(M)$, i.e., with the notations of 2.1.1, one has: $a\psi =
+\psi \circ a^{*}$, i.e. for every $X'' \to X'$ and $x \in I_{X'}(M)(X'')$, $(a\psi)(x) = \psi(x \cdot a)$. One then
+verifies easily that this construction is functorial in $X'$.
 
 The isomorphisms of Proposition 3.4 are then, by construction, isomorphisms for the structures of $O_{X_{S'}}$-objects,
 resp. $O_{S'}$-objects.
 
-**Remark 3.4.2.**[^N.D.E-II-21] The action of `O_X` on $T_{X/S}(M)$ can be seen, more simply, as follows. For every
-$f : X' \to X$, one has
+**Remark 3.4.2.**[^N.D.E-II-21] The action of `O_X` on $T_{X/S}(M)$ can be seen, more simply, as follows. For every $f :
+X' \to X$, one has
 
 <!-- label: III.II.3.4.2 -->
 
@@ -537,19 +527,19 @@ Hom_X(X′, T_{X/S}(M)) = { φ ∈ Hom_S(I_{X′}(M), X) | φ ∘ ε_M = f },
 
 and one saw in 2.1.3 that $I_{X'}(M)$, considered as $S$-functor, is equipped with an action of the monoid $O(X')$ which
 preserves the zero section $\epsilon_{M} : X' \to I_{X'}(M)$. Consequently, if one denotes by $a^{*}$ the
-$X'$-endomorphism of $I_{X'}(M)$ defined by $a \in O(X')$, one has: $a\phi = \phi \circ a^{*}$, i.e., for every
-$S' \to S$ and $(m, x') \in \operatorname{Hom}_{S}(S', I_{S}(M) \times_{S} X')$,
+$X'$-endomorphism of $I_{X'}(M)$ defined by $a \in O(X')$, one has: $a\phi = \phi \circ a^{*}$, i.e., for every $S' \to
+S$ and $(m, x') \in \operatorname{Hom}_{S}(S', I_{S}(M) \times_{S} X')$,
 
 ```text
 (aφ)(m, x′) = φ(m · a(x′), x′)
 ```
 
-(note that $a^{*} \circ \epsilon_{M} = \epsilon_{M}$, whence
-$(a\phi) \circ \epsilon_{M} = \phi \circ \epsilon_{M} = f$).
+(note that $a^{*} \circ \epsilon_{M} = \epsilon_{M}$, whence $(a\phi) \circ \epsilon_{M} = \phi \circ \epsilon_{M} =
+f$).
 
 Likewise, the action of `O_S` on $L^{u}_{X/S}(M)$ can be described as follows. For every $t : S' \to S$,
-$L^{u}_{X/S}(M)(S')$ is the set of $S$-morphisms $\phi : I_{S'}(M) \to X$ such that
-$\phi \circ \epsilon_{M} = u \circ t$; for such a $\phi$ and $a \in O(S')$, one has: $a\phi = \phi \circ a^{*}$.
+$L^{u}_{X/S}(M)(S')$ is the set of $S$-morphisms $\phi : I_{S'}(M) \to X$ such that $\phi \circ \epsilon_{M} = u \circ
+t$; for such a $\phi$ and $a \in O(S')$, one has: $a\phi = \phi \circ a^{*}$.
 
 **Remark 3.4.3.**[^N.D.E-II-21] The observations of 3.1.2 hold equally for the action of `O_S` on $L^{u}_{X/S}(M)$ and
 that of `O_X` on $T_{X/S}(M)$.
@@ -575,8 +565,8 @@ sets*
 <!-- original page 52 -->
 
 **3.5.1.**[^N.D.E-II-23] It comes to the same thing to say that the functor $M \mapsto T_{X/S}(M)$ transforms direct
-sums of free `O_S`-modules of finite type into products of $X$-functors; in this case, the same holds for the functor
-$M \mapsto L^{u}_{X/S}(M) = S \times_{X} T_{X/S}(M)$, for every $u \in \Gamma(X/S)$.
+sums of free `O_S`-modules of finite type into products of $X$-functors; in this case, the same holds for the functor $M
+\mapsto L^{u}_{X/S}(M) = S \times_{X} T_{X/S}(M)$, for every $u \in \Gamma(X/S)$.
 
 Proposition 2.2 shows that every representable functor satisfies condition (E).
 
@@ -656,9 +646,7 @@ isomorphism of $S$-functors
 
 <!-- label: III.II.3.7.1 -->
 
-$$
-L^{u}_{X/S}(M) \xrightarrow{\sim} L^{f\circ u}_{X'/S}(M).
-$$
+$$ L^{u}_{X/S}(M) \xrightarrow{\sim} L^{f\circ u}_{X'/S}(M). $$
 
 In general, the cartesian square of 3.7 defines a morphism of $X$-functors:
 
@@ -690,8 +678,8 @@ This follows from Proposition 3.7 by functoriality in $M$.
 (3.8.2)   L^u_{X/S}(M) ×_S L^v_{Y/S}(M) ⥲ L^{(u,v)}_{(X×_S Y)/S}(M).
 ```
 
-[^N.D.E-II-28] The first isomorphism follows from 1.2 (∗); the second is deduced from it by the base change
-$(u, v) : S \to X \times_{S} Y$.
+[^N.D.E-II-28] The first isomorphism follows from 1.2 (∗); the second is deduced from it by the base change $(u, v) : S
+\to X \times_{S} Y$.
 
 **Remark 3.8.0.** Note that (3.8.1) can also be interpreted as an isomorphism of $X \times_{S} Y$-functors
 
@@ -713,8 +701,8 @@ kind of structure.*
 
 <!-- label: III.II.3.8-bis -->
 
-*Proof.*[^N.D.E-II-29] Suppose that $X/S$ and $Y/S$ satisfy (E). Then, by 3.5.1 and (3.8.1), so does
-$(X \times_{S} Y)/S$. Let us show that (3.8.1) is an isomorphism of $O_{X\times_{S} Y}$-modules.
+*Proof.*[^N.D.E-II-29] Suppose that $X/S$ and $Y/S$ satisfy (E). Then, by 3.5.1 and (3.8.1), so does $(X \times_{S}
+Y)/S$. Let us show that (3.8.1) is an isomorphism of $O_{X\times_{S} Y}$-modules.
 
 <!-- original page 62 -->
 
@@ -725,8 +713,8 @@ Let $(x, y) : Z \to X \times_{S} Y$ be an $S$-morphism; taking into account 3.4.
    ⟶ { θ ∈ Hom_S(I_Z(M), X ×_S Y) | θ ∘ ε_M = (x, y) }
 ```
 
-which to $(\phi, \psi)$ associates $\phi \times \psi$ is a morphism of $O(Z)$-modules. But this is clear, because if
-$a \in O(Z)$ then $a \cdot (\phi, \psi) = (\phi \circ a^{*}, \psi \circ a^{*})$ is sent to
+which to $(\phi, \psi)$ associates $\phi \times \psi$ is a morphism of $O(Z)$-modules. But this is clear, because if $a
+\in O(Z)$ then $a \cdot (\phi, \psi) = (\phi \circ a^{*}, \psi \circ a^{*})$ is sent to
 
 ```text
 (φ ∘ a^*) × (ψ ∘ a^*) = (φ × ψ) ∘ a^* = a · (φ × ψ).
@@ -736,9 +724,7 @@ Likewise, using 3.2.1, one shows that (3.8.2) is an isomorphism of `O_S`-modules
 
 **3.9.0.**[^N.D.E-II-30] If $X$ is an $S$-group and if $e : S \to X$ denotes its unit section, one writes:
 
-$$
-Lie(X/S, M) = L^{e}_{X/S}(M),
-$$
+$$ Lie(X/S, M) = L^{e}_{X/S}(M), $$
 
 i.e., $Lie(X/S, M)$ is defined by the cartesian square:
 
@@ -754,10 +740,10 @@ i.e., $Lie(X/S, M)$ is defined by the cartesian square:
 By Corollary 3.8.1, the projection $p : T_{X/S}(M) \to X$ is a morphism of $S$-groups, and it follows that $Lie(X/S, M)$
 is equipped with a structure of $S$-group, and is isomorphic via $i$ to the kernel of $p$.
 
-If, moreover, $X/S$ satisfies condition (E), we shall see in Proposition 3.9 that the $S$-group structure on
-$Lie(X/S, M)$, induced by that of $X$, coincides with the abelian group structure induced by functoriality in $M$ (cf.
-3.5.1). In fact, this result is valid under the weaker hypothesis that $X$ be an $S$-functor of monoids or, more
-generally, an $S$-functor of $H$-sets (cf. the definition below).
+If, moreover, $X/S$ satisfies condition (E), we shall see in Proposition 3.9 that the $S$-group structure on $Lie(X/S,
+M)$, induced by that of $X$, coincides with the abelian group structure induced by functoriality in $M$ (cf. 3.5.1). In
+fact, this result is valid under the weaker hypothesis that $X$ be an $S$-functor of monoids or, more generally, an
+$S$-functor of $H$-sets (cf. the definition below).
 
 **Definitions 3.9.0.1.** *a) Let us introduce the following terminology:*[^N.D.E-II-31] *an* **$H$-set** *is a set $X$
 equipped with a composition law with two-sided unit, denoted $e_{X}$ or simply $e$. If $f : X \to Y$ is a morphism of
@@ -815,8 +801,8 @@ when $C$ is the category of sets. One thus has a set $G$ and two maps $f, h : G 
 h(f(x, y), f(z, t)) = f(h(x, z), h(y, t)).
 ```
 
-One has on the other hand two elements of $G$, namely $e$ and $u$, with $f(e, x) = f(x, e) = x$,
-$h(u, x) = h(x, u) = x$. One sees first that
+One has on the other hand two elements of $G$, namely $e$ and $u$, with $f(e, x) = f(x, e) = x$, $h(u, x) = h(x, u) =
+x$. One sees first that
 
 ```text
 h(f(u, y), f(x, u)) = f(x, y) = h(f(x, u), f(u, y)).
@@ -861,12 +847,11 @@ associates `n x`.*
 
 <!-- label: III.II.3.9.4 -->
 
-Let us first remark that $n_{G}$ is not in general a morphism of groups, but it preserves the unit section
-$e : S \to G$, so the derived morphism $L(n_{G})$ indeed sends $Lie(G/S) = L^{e}_{X/S}$ into itself. If one denotes by
-$i$ the inclusion $Lie(G/S) \hookrightarrow T_{G/S}$, then $L(n_{G})$ is defined by the equality
-$i(L(n_{G})(x)) = i(x)^{n}$, for every $S' \to S$ and $x \in Lie(G/S)(S')$. Now, by 3.9, the two group laws on
-$Lie(G/S)$ (coming from condition (E) and coming from the law of $G$) coincide, i.e. one has $i(x)^{n} = i(n x)$, whence
-$L(n_{G})(x) = n x$.
+Let us first remark that $n_{G}$ is not in general a morphism of groups, but it preserves the unit section $e : S \to
+G$, so the derived morphism $L(n_{G})$ indeed sends $Lie(G/S) = L^{e}_{X/S}$ into itself. If one denotes by $i$ the
+inclusion $Lie(G/S) \hookrightarrow T_{G/S}$, then $L(n_{G})$ is defined by the equality $i(L(n_{G})(x)) = i(x)^{n}$,
+for every $S' \to S$ and $x \in Lie(G/S)(S')$. Now, by 3.9, the two group laws on $Lie(G/S)$ (coming from condition (E)
+and coming from the law of $G$) coincide, i.e. one has $i(x)^{n} = i(n x)$, whence $L(n_{G})(x) = n x$.
 
 Before drawing other consequences of Proposition 3.9, let us prove another functoriality result:
 
@@ -874,9 +859,7 @@ Before drawing other consequences of Proposition 3.9, let us prove another funct
 
 <!-- label: III.II.3.11 -->
 
-$$
-T_{\operatorname{Hom}_{Z/S}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{Z/S}(X, T_{Y/Z}(M)).
-$$
+$$ T_{\operatorname{Hom}_{Z/S}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{Z/S}(X, T_{Y/Z}(M)). $$
 
 Indeed, by definition (cf. 3.1):
 
@@ -924,9 +907,9 @@ T_{Hom_{Z/S}(X,Y)/S}(M ⊕ N) ≃
 
 so $\operatorname{Hom}_{Z/S}(X, Y)$ satisfies (E) with respect to $S$. This proves the first assertion of the corollary.
 
-Let us see the second. Denote by $H = \operatorname{Hom}_{Z/S}(X, Y)$ and give ourselves an $S$-morphism
-$\Delta : H' \to \operatorname{Hom}_{Z/S}(X, Y)$, i.e., a $Z$-morphism $\delta : H' \times_{S} X \to Y$, which therefore
-makes $H' \times_{S} X$ a $Y$-object.
+Let us see the second. Denote by $H = \operatorname{Hom}_{Z/S}(X, Y)$ and give ourselves an $S$-morphism $\Delta : H'
+\to \operatorname{Hom}_{Z/S}(X, Y)$, i.e., a $Z$-morphism $\delta : H' \times_{S} X \to Y$, which therefore makes $H'
+\times_{S} X$ a $Y$-object.
 
 On the one hand, one has a commutative diagram:
 
@@ -972,17 +955,17 @@ diagram:
    { φ ∈ Hom_Z(I_{H′ ×_S X}(M), Y) | φ ∘ ε_M = δ } ────→ Hom_Z(I_{H′ ×_S X}(M), Y) ,
 ```
 
-where the bijection (∗) is given as follows (cf. 1.1 (2) and I 1.7.1): for every $U \to S$ and
-$(m, h, x) \in \operatorname{Hom}_{S}(U, I_{S}(M) \times_{S} H' \times_{S} X)$ (so that $U$ is above $Z$ via
-$U \xrightarrow{x} X \to Z$), one has $\Phi(m, h) \in \operatorname{Hom}_{Z}(X \times_{S} U, Y)$ and
+where the bijection (∗) is given as follows (cf. 1.1 (2) and I 1.7.1): for every $U \to S$ and $(m, h, x) \in
+\operatorname{Hom}_{S}(U, I_{S}(M) \times_{S} H' \times_{S} X)$ (so that $U$ is above $Z$ via $U \xrightarrow{x} X \to
+Z$), one has $\Phi(m, h) \in \operatorname{Hom}_{Z}(X \times_{S} U, Y)$ and
 
 ```text
 (†)   φ(m, h, x) = Φ(m, h) ∘ (x × id_U) ∈ Hom_Z(U, Y).
 ```
 
 By 3.4.2 (where one replaces $X$ by $\operatorname{Hom}_{Z/S}(X, Y)$ and $X'$ by $H'$), the action of $a \in O(H')$ on
-$\Phi \in \operatorname{Hom}_{S}(I_{H'}(M), H)$ is given by: for every $U \to S$ and
-$(m, h) \in \operatorname{Hom}_{S}(U, I_{S}(M) \times_{S} H')$,
+$\Phi \in \operatorname{Hom}_{S}(I_{H'}(M), H)$ is given by: for every $U \to S$ and $(m, h) \in
+\operatorname{Hom}_{S}(U, I_{S}(M) \times_{S} H')$,
 
 ```text
 (aΦ)(m, h) = Φ(m · a(h), h).
@@ -995,10 +978,10 @@ with $\Phi$ (resp. $a\Phi$), one has, by (†),
 (2)   (aφ)(m, h, x) = Φ(m · a(h), h) ∘ (x × id_U) = φ(m · a(h), h, x).
 ```
 
-Combined with (1), this shows that the isomorphism
-$T_{H/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{Z/S}(X, T_{Y/Z}(M))$ of 3.11.1 is an isomorphism of $O(H)$-modules;
-moreover, for every $H' \to H$, the structure of $O(H')$-module on $\operatorname{Hom}_{H}(H', T_{H/S}(M))$ extends, in
-a manner functorial in $H'$, to a structure of $O(H' \times_{S} X)$-module.
+Combined with (1), this shows that the isomorphism $T_{H/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{Z/S}(X,
+T_{Y/Z}(M))$ of 3.11.1 is an isomorphism of $O(H)$-modules; moreover, for every $H' \to H$, the structure of
+$O(H')$-module on $\operatorname{Hom}_{H}(H', T_{H/S}(M))$ extends, in a manner functorial in $H'$, to a structure of
+$O(H' \times_{S} X)$-module.
 
 In particular, for $Z = S$, one obtains the following corollary.
 
@@ -1006,16 +989,14 @@ In particular, for $Z = S$, one obtains the following corollary.
 
 <!-- label: III.II.3.11.2 -->
 
-$$
-T_{\operatorname{Hom}_{S}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{S}(X, T_{Y/S}(M)).
-$$
+$$ T_{\operatorname{Hom}_{S}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{S}(X, T_{Y/S}(M)). $$
 
 *Moreover, if $Y/S$ satisfies (E), then $\operatorname{Hom}_{S}(X, Y)/S$ satisfies (E) and the preceding isomorphism
 respects the $O$-module structures above $\operatorname{Hom}_{S}(X, Y)$.*
 
-[^N.D.E-II-37] Let $u : X \to Y$ be an $S$-morphism; one identifies it with the constant morphism
-$u : S \to \operatorname{Hom}_{S}(X, Y)$ such that $u(f) = u$ for every $f : S' \to S$. One sees at once that the fiber
-product of $u$ and of $\operatorname{Hom}_{S}(X, T_{Y/S}(M)) \to \operatorname{Hom}_{S}(X, Y)$ is identified with
+[^N.D.E-II-37] Let $u : X \to Y$ be an $S$-morphism; one identifies it with the constant morphism $u : S \to
+\operatorname{Hom}_{S}(X, Y)$ such that $u(f) = u$ for every $f : S' \to S$. One sees at once that the fiber product of
+$u$ and of $\operatorname{Hom}_{S}(X, T_{Y/S}(M)) \to \operatorname{Hom}_{S}(X, Y)$ is identified with
 $\operatorname{Hom}_{Y/S}(X, T_{Y/S}(M))$, where $X$ is above $Y$ via $u$. Consequently, from the definition of
 $L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M)$ and the preceding corollary one deduces:
 
@@ -1024,9 +1005,7 @@ right-hand term $X$ is above $Y$ via $u$):*
 
 <!-- label: III.II.3.11.3 -->
 
-$$
-L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{Y/S}(X, T_{Y/S}(M)).
-$$
+$$ L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{Y/S}(X, T_{Y/S}(M)). $$
 
 [^N.D.E-II-38] *It is an isomorphism of `O_S`-modules if $Y/S$ satisfies (E).*
 
@@ -1046,9 +1025,9 @@ Lie(End_S(X)/S, M) ⥲ ∏_{X/S} T_{X/S}(M);
 
 [^N.D.E-II-38] *it is an isomorphism of `O_S`-modules if $X/S$ satisfies (E).*
 
-**Remark 3.11.5.**[^N.D.E-II-39] Suppose that $X/S$ satisfies (E). Then
-$\prod_{X/S} T_{X/S}(M) = \operatorname{Hom}_{X/S}(X, T_{X/S}(M))$ is equipped with a structure of
-$(\prod_{X/S} O_{X})$-module, i.e. for every $S' \to S$,
+**Remark 3.11.5.**[^N.D.E-II-39] Suppose that $X/S$ satisfies (E). Then $\prod_{X/S} T_{X/S}(M) =
+\operatorname{Hom}_{X/S}(X, T_{X/S}(M))$ is equipped with a structure of $(\prod_{X/S} O_{X})$-module, i.e. for every
+$S' \to S$,
 
 <!-- label: III.II.3.11.5 -->
 
@@ -1126,22 +1105,20 @@ induces, for every $u \in Isom_{S}(X, Y)$, an isomorphism*
 
 <!-- label: III.II.3.13.2 -->
 
-$$
-L^{u}_{Isom_{S}(X,Y)/S}(M) \xrightarrow{\sim} L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M).
-$$
+$$ L^{u}_{Isom_{S}(X,Y)/S}(M) \xrightarrow{\sim} L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M). $$
 
-*Proof.*[^N.D.E-II-45] One must see that
-$L^{u}_{Isom_{S}(X,Y)/S}(M)(S') \to L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M)(S')$ is a bijection, for every $S' \to S$.
-By base change (cf. 3.4), it suffices to do it for $S' = S$. In this case, $L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M)(S)$
-(resp. $L^{u}_{Isom_{S}(X,Y)/S}(M)(S)$) is the set of $I_{S}(M)$-morphisms (resp. automorphisms)
-$X_{I_{S}(M)} \to Y_{I_{S}(M)}$ which extend $u$, and one applies the preceding corollary.
+*Proof.*[^N.D.E-II-45] One must see that $L^{u}_{Isom_{S}(X,Y)/S}(M)(S') \to
+L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M)(S')$ is a bijection, for every $S' \to S$. By base change (cf. 3.4), it
+suffices to do it for $S' = S$. In this case, $L^{u}_{\operatorname{Hom}_{S}(X,Y)/S}(M)(S)$ (resp.
+$L^{u}_{Isom_{S}(X,Y)/S}(M)(S)$) is the set of $I_{S}(M)$-morphisms (resp. automorphisms) $X_{I_{S}(M)} \to
+Y_{I_{S}(M)}$ which extend $u$, and one applies the preceding corollary.
 
 <!-- original page 69 -->
 
-**Corollary 3.13.3.** *If $X/S$ satisfies (E), the monomorphism
-$\operatorname{Aut}_{S}(X) \to \operatorname{End}_{S}(X)$ induces, for every $u \in \operatorname{Aut}_{S}(X)$, an
-isomorphism $L^{u}_{\operatorname{Aut}_{S}(X)/S}(M) \xrightarrow{\sim} L^{u}_{\operatorname{End}_{S}(X)/S}(M)$. In
-particular, one has*
+**Corollary 3.13.3.** *If $X/S$ satisfies (E), the monomorphism $\operatorname{Aut}_{S}(X) \to
+\operatorname{End}_{S}(X)$ induces, for every $u \in \operatorname{Aut}_{S}(X)$, an isomorphism
+$L^{u}_{\operatorname{Aut}_{S}(X)/S}(M) \xrightarrow{\sim} L^{u}_{\operatorname{End}_{S}(X)/S}(M)$. In particular, one
+has*
 
 <!-- label: III.II.3.13.3 -->
 
@@ -1149,8 +1126,8 @@ particular, one has*
 Lie(Aut_S(X)/S, M) ⥲ Lie(End_S(X)/S, M) ⥲ ∏_{X/S} T_{X/S}(M),
 ```
 
-[^N.D.E-II-46] *so that $Lie(\operatorname{Aut}_{S}(X)/S, M)$ is equipped with a structure of
-$(\prod_{X/S} O_{X})$-module.*
+[^N.D.E-II-46] *so that $Lie(\operatorname{Aut}_{S}(X)/S, M)$ is equipped with a structure of $(\prod_{X/S}
+O_{X})$-module.*
 
 **3.14.** Suppose to conclude that $X$ is representable.[^N.D.E-II-47] In this case, one saw in 2.2.2 that the
 $X$-functor $T_{X/S}$ is representable by $V(\Omega^{1}_{X/S})$, whence bijections:
@@ -1162,17 +1139,15 @@ $X$-functor $T_{X/S}$ is representable by $V(\Omega^{1}_{X/S})$, whence bijectio
 This is also deduced from what precedes, as follows. By 3.13, $\Gamma(T_{X/S}/X)$ is identified with the set of
 infinitesimal endomorphisms of $X$ (i.e. of `I_S`-endomorphisms of $X_{I_{S}}$ inducing the identity on $X$). Now $X$
 and $X_{I_{S}}$ have the same underlying topological space, the corresponding rings of sheaves being `O_X` and
-$D_{O_{X}} = O_{X} \oplus M$, where $M = O_{X}$ is considered as ideal of square zero. Denoting by
-$\pi : D_{O_{X}} \to O_{X}$ the morphism of `O_X`-algebras that vanishes on $M$, one deduces that to give an
-infinitesimal endomorphism of $X$ is equivalent to giving a morphism of `O_S`-algebras $\phi : O_{X} \to D_{O_{X}}$ such
-that $\pi \circ \phi = id_{O_{X}}$, which is equivalent to giving an `O_S`-derivation of the sheaf of rings `O_X`.
+$D_{O_{X}} = O_{X} \oplus M$, where $M = O_{X}$ is considered as ideal of square zero. Denoting by $\pi : D_{O_{X}} \to
+O_{X}$ the morphism of `O_X`-algebras that vanishes on $M$, one deduces that to give an infinitesimal endomorphism of
+$X$ is equivalent to giving a morphism of `O_S`-algebras $\phi : O_{X} \to D_{O_{X}}$ such that $\pi \circ \phi =
+id_{O_{X}}$, which is equivalent to giving an `O_S`-derivation of the sheaf of rings `O_X`.
 
 Moreover, one sees easily that if $D, D' \in D\acute{e}r_{O_{S}}(O_{X})$ and if one denotes by $\phi_{D}$ the
 infinitesimal endomorphism corresponding to $D$, then
 
-$$
-\phi_{D+D'} = \phi_{D} \circ \phi_{D'}.
-$$
+$$ \phi_{D+D'} = \phi_{D} \circ \phi_{D'}. $$
 
 This shows that the identification
 
@@ -1185,9 +1160,7 @@ of abelian groups (and even of $O(X)$-modules)
 
 <!-- original page 59 -->
 
-$$
-\Gamma(T_{X/S}/X) \xrightarrow{\sim} D\acute{e}r_{O_{S}}(O_{X}),
-$$
+$$ \Gamma(T_{X/S}/X) \xrightarrow{\sim} D\acute{e}r_{O_{S}}(O_{X}), $$
 
 which recovers the classical interpretation of tangent vector fields in terms of derivations of the structure
 sheaf.[^N.D.E-II-48] Let us remark in passing that $\Gamma(T_{X/S}/X)$ is equal to $H^{0}(X, g_{X/S})$, where $g_{X/S}$
@@ -1218,8 +1191,8 @@ $Lie(G/S, M)$.
 Ad : G ⟶ Aut_{S-gr.}(Lie(G/S, M))
 ```
 
-*and called the* **adjoint representation** *(relative to $M$) of $G$; one has therefore by definition, for
-$x \in G(S')$ and $X \in Lie(G/S, M)(S')$:*
+*and called the* **adjoint representation** *(relative to $M$) of $G$; one has therefore by definition, for $x \in
+G(S')$ and $X \in Lie(G/S, M)(S')$:*
 
 ```text
 Ad(x) X = i^{-1}(s(x) i(X) s(x)^{-1}).
@@ -1289,10 +1262,10 @@ I, 3.2) of $G$ in the `O_S`-module $Lie(G/S, M)$.*
 
 *b) Suppose that $G/S$ satisfies (E). Then the derived morphism of the group law $\pi : G \times_{S} G \to G$ is nothing
 other than the addition law in $Lie(G/S, M)$.* (N.B. $\pi$ is not a morphism of groups, but $\pi(e, e) = e$, so the
-derived morphism $L(\pi)$ sends $T^{(e,e)}_{(G\times_{S} G)/S}(M) = Lie(G/S, M) \times_{S} Lie(G/S, M)$ into
-$Lie(G/S, M)$, cf. 3.7 and 3.8.) For every $n \in \mathbb{Z}$, one shows likewise that if one denotes by
-$n_{G} : G \to G$ the morphism of $S$-functors defined by $g \mapsto g^{n}$, then the derived morphism $L(n_{G})$ is
-multiplication by $n$ on $Lie(G/S)$, cf. 3.9.4.
+derived morphism $L(\pi)$ sends $T^{(e,e)}_{(G\times_{S} G)/S}(M) = Lie(G/S, M) \times_{S} Lie(G/S, M)$ into $Lie(G/S,
+M)$, cf. 3.7 and 3.8.) For every $n \in \mathbb{Z}$, one shows likewise that if one denotes by $n_{G} : G \to G$ the
+morphism of $S$-functors defined by $g \mapsto g^{n}$, then the derived morphism $L(n_{G})$ is multiplication by $n$ on
+$Lie(G/S)$, cf. 3.9.4.
 
 <!-- original page 61 -->
 
@@ -1312,9 +1285,7 @@ Note first that one has an isomorphism, functorial in $S'$,
 which to every $f : G_{S'} \to Lie(G_{S'}/S', M)$ associates the section $s_{f} : G_{S'} \to T_{G_{S'}/S'}(M)$ such
 that, for every $S'' \to S'$ and $g \in G(S'')$:
 
-$$
-s_{f}(g) = i(f(g)) s(g).
-$$
+$$ s_{f}(g) = i(f(g)) s(g). $$
 
 <!-- original page 72 -->
 
@@ -1332,18 +1303,14 @@ the only section of $T_{G_{S'}/S'}(M)$ making commutative the diagram
    G_{S′} ─────────→ T_{G_{S′}/S′}(M) .
 ```
 
-In particular, take for $h$ the right translation $t_{x}$ by an element $x$ of $G(S')$, i.e.,
-$h(g) = t_{x}(g) = g \cdot x$, for every $g \in G(S'')$, $S'' \to S'$. Then one has immediately
+In particular, take for $h$ the right translation $t_{x}$ by an element $x$ of $G(S')$, i.e., $h(g) = t_{x}(g) = g \cdot
+x$, for every $g \in G(S'')$, $S'' \to S'$. Then one has immediately
 
-$$
-t_{x}(s_{f}) = s_{t_{x}(f)}
-$$
+$$ t_{x}(s_{f}) = s_{t_{x}(f)} $$
 
 where $t_{x}(f)$ denotes the morphism from $G_{S'}$ into $Lie(G_{S'}/S', M)$ defined by
 
-$$
-t_{x}(f)(g) = f(g \cdot x^{-1}),
-$$
+$$ t_{x}(f)(g) = f(g \cdot x^{-1}), $$
 
 for every $g \in G(S'')$, $S'' \to S'$.
 
@@ -1353,8 +1320,8 @@ It follows that if one makes $G$ act by right translations on
 Hom_{G/S}(G, T_{G/S}(M))    and    Hom_S(G, Lie(G/S, M))
 ```
 
-in the following way: for every $S' \to S$, $x \in G(S')$, $\sigma \in \Gamma(T_{G_{S'}/S'}(M)/G_{S'})$ and
-$f \in \operatorname{Hom}_{S'}(G_{S'}, Lie(G_{S'}/S', M))$,
+in the following way: for every $S' \to S$, $x \in G(S')$, $\sigma \in \Gamma(T_{G_{S'}/S'}(M)/G_{S'})$ and $f \in
+\operatorname{Hom}_{S'}(G_{S'}, Lie(G_{S'}/S', M))$,
 
 ```text
 (σ · x)(g) = σ(g · x^{-1}) · s(x)    and    (f · x)(g) = f(g · x^{-1}),
@@ -1379,9 +1346,9 @@ formed by the sections invariant under right translation.*
 
 <!-- original page 73 -->
 
-Likewise, one makes $G$ act on the right on $\operatorname{End}_{I_{S}(M)/S}(G_{I_{S}(M)})$ as follows: for every
-$S' \to S$, $x \in G(S')$ and
-$u \in \operatorname{End}_{I_{S}(M)/S}(G_{I_{S}(M)})(S') = \operatorname{End}_{I_{S'}(M)}(G_{I_{S'}(M)})$,
+Likewise, one makes $G$ act on the right on $\operatorname{End}_{I_{S}(M)/S}(G_{I_{S}(M)})$ as follows: for every $S'
+\to S$, $x \in G(S')$ and $u \in \operatorname{End}_{I_{S}(M)/S}(G_{I_{S}(M)})(S') =
+\operatorname{End}_{I_{S'}(M)}(G_{I_{S'}(M)})$,
 
 ```text
 (u · x)(g) = u(g · x^{-1}) · x,
@@ -1389,14 +1356,12 @@ $u \in \operatorname{End}_{I_{S}(M)/S}(G_{I_{S}(M)})(S') = \operatorname{End}_{I
 
 for every $g \in G(S'')$, $S'' \to I_{S'}(M)$. Then the morphism of 3.12.1
 
-$$
-\operatorname{Hom}_{G/S}(G, T_{G/S}(M)) \longrightarrow \operatorname{End}_{I_{S}(M)/S}(G_{I_{S}(M)})
-$$
+$$ \operatorname{Hom}_{G/S}(G, T_{G/S}(M)) \longrightarrow \operatorname{End}_{I_{S}(M)/S}(G_{I_{S}(M)}) $$
 
 respects the actions of $G$ and therefore induces, for every $S' \to S$, a bijection between
 $\Gamma(T_{G_{S'}/S'}(M)/G_{S'})$ and the set of $I_{S'}(M)$-endomorphisms $u$ of $G_{I_{S'}(M)}$ which induce the
-identity on $G$ and "commute with right translations", i.e. which verify $u_{S''} \cdot x = u_{S''}$ for every
-$S'' \to S'$ and $x \in G(S'')$. One obtains therefore:
+identity on $G$ and "commute with right translations", i.e. which verify $u_{S''} \cdot x = u_{S''}$ for every $S'' \to
+S'$ and $x \in G(S'')$. One obtains therefore:
 
 **Proposition 4.1.3.**[^II-4-1] *There exists a bijection functorial in $G$ between the set $Lie(G/S, M)(S)$ and the set
 of $I_{S}(M)$-endomorphisms of $G_{I_{S}(M)}$ inducing the identity on $G$ and commuting with the right translations of
@@ -1431,14 +1396,14 @@ induce the isomorphism $\theta$ below:
 
 <!-- original page 74 -->
 
-By 1.3, if $Y$ is a $Z$-group, so is $\operatorname{Hom}_{Z}(V, Y)$ for every $V \to Z$ (in particular for
-$V = I_{Z}(M)$); explicitly, if $Z'' \to Z' \to Z$ and $\phi, \psi \in \operatorname{Hom}_{Z}(V_{Z'}, Y)$, then
-$\phi \cdot \psi$ is defined by $(\phi \cdot \psi)(v) = \phi(v) \psi(v)$, for every $v \in V_{Z'}(Z'')$.
+By 1.3, if $Y$ is a $Z$-group, so is $\operatorname{Hom}_{Z}(V, Y)$ for every $V \to Z$ (in particular for $V =
+I_{Z}(M)$); explicitly, if $Z'' \to Z' \to Z$ and $\phi, \psi \in \operatorname{Hom}_{Z}(V_{Z'}, Y)$, then $\phi \cdot
+\psi$ is defined by $(\phi \cdot \psi)(v) = \phi(v) \psi(v)$, for every $v \in V_{Z'}(Z'')$.
 
 Suppose now that $X$ and $Y$ are $Z$-groups and let us pose the following definition.
 
-**Definition 4.2.0.1.** *Let $\operatorname{Hom}_{(Z/S)-gr.}(X, Y)$ be the subfunctor of
-$\operatorname{Hom}_{Z/S}(X, Y)$ defined by: for every $S' \to S$,*
+**Definition 4.2.0.1.** *Let $\operatorname{Hom}_{(Z/S)-gr.}(X, Y)$ be the subfunctor of $\operatorname{Hom}_{Z/S}(X,
+Y)$ defined by: for every $S' \to S$,*
 
 <!-- label: III.II.4.2.0.1 -->
 
@@ -1463,9 +1428,7 @@ in $M$:*
 
 <!-- label: III.II.4.2.0.2 -->
 
-$$
-T_{\operatorname{Hom}_{(Z/S)-gr.}(X,Y)}(M) \xrightarrow{\sim} \operatorname{Hom}_{(Z/S)-gr.}(X, T_{Y/Z}(M)).
-$$
+$$ T_{\operatorname{Hom}_{(Z/S)-gr.}(X,Y)}(M) \xrightarrow{\sim} \operatorname{Hom}_{(Z/S)-gr.}(X, T_{Y/Z}(M)). $$
 
 In particular, for $Z = S$, one obtains the following corollary. Before stating it, let us remark that if $Y$ is a
 commutative $S$-group, so is $T_{Y/S}(M)$, then $H = \operatorname{Hom}_{S-gr.}(X, Y)$ and
@@ -1475,9 +1438,7 @@ $\operatorname{Hom}_{S-gr.}(X, T_{Y/S}(M))$, and finally $T_{H/S}(M)$.
 
 <!-- label: III.II.4.2.0.3 -->
 
-$$
-T_{\operatorname{Hom}_{S-gr.}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{S-gr.}(X, T_{Y/S}(M)).
-$$
+$$ T_{\operatorname{Hom}_{S-gr.}(X,Y)/S}(M) \xrightarrow{\sim} \operatorname{Hom}_{S-gr.}(X, T_{Y/S}(M)). $$
 
 *If $Y$ is commutative, these are moreover isomorphisms of abelian $S$-groups.*
 
@@ -1487,9 +1448,9 @@ $T'_{Y/S}(M)$ (resp. $Lie'(Y/S, M)$).*
 
 <!-- label: III.II.4.2.0.4 -->
 
-Consequently, if `X, Y` are `O_S`-modules, then $T'_{Y/S}(M) = \operatorname{Hom}_{S}(I_{S}(M), Y)$ and
-$H = \operatorname{Hom}_{O_{S}-mod.}(X, Y)$, then $\operatorname{Hom}_{O_{S}-mod.}(X, T'_{Y/S}(M))$ and $T'_{H/S}(M)$,
-are equipped with an `O_S`-module structure, and one obtains the:
+Consequently, if `X, Y` are `O_S`-modules, then $T'_{Y/S}(M) = \operatorname{Hom}_{S}(I_{S}(M), Y)$ and $H =
+\operatorname{Hom}_{O_{S}-mod.}(X, Y)$, then $\operatorname{Hom}_{O_{S}-mod.}(X, T'_{Y/S}(M))$ and $T'_{H/S}(M)$, are
+equipped with an `O_S`-module structure, and one obtains the:
 
 <!-- original page 75 -->
 
@@ -1502,8 +1463,8 @@ T′_{Hom_{O_S-mod.}(X,Y)/S}(M) ⥲ Hom_{O_S-mod.}(X, T′_{Y/S}(M)).
 ```
 
 **Definition 4.2.A.**[^N.D.E-II-56] *Let `X, L` be $S$-groups, with $X$ acting on $L$ by group automorphisms (cf. I
-2.3.5). One defines the subfunctor $Z^{1}_{S}(X, L)$ of $\operatorname{Hom}_{S}(X, L)$ as follows: for every
-$S' \to S$,*
+2.3.5). One defines the subfunctor $Z^{1}_{S}(X, L)$ of $\operatorname{Hom}_{S}(X, L)$ as follows: for every $S' \to
+S$,*
 
 <!-- label: III.II.4.2.A -->
 
@@ -1522,9 +1483,9 @@ Z¹_S(X, L)(S′) = { φ ∈ Hom_{S′}(X_{S′}, L_{S′}) | φ(x_1 x_2) = φ(x
 Z¹_S(X, L ×_S L′) ≃ Z¹_S(X, L) ×_S Z¹_S(X, L′).
 ```
 
-*b) If $L$ is a $G$-`O_S`-module, $Z^{1}_{S}(X, L)$ coincides with the kernel of the differential
-$\partial : \operatorname{Hom}_{S}(X, L) \to \operatorname{Hom}_{S}(X^{2}, L)$ defined in I 5.1; in particular,
-$Z^{1}_{S}(X, L)$ is in this case an `O_S`-module.*
+*b) If $L$ is a $G$-`O_S`-module, $Z^{1}_{S}(X, L)$ coincides with the kernel of the differential $\partial :
+\operatorname{Hom}_{S}(X, L) \to \operatorname{Hom}_{S}(X^{2}, L)$ defined in I 5.1; in particular, $Z^{1}_{S}(X, L)$ is
+in this case an `O_S`-module.*
 
 **4.2.** Let $u : X \to Y$ be a morphism of $S$-groups; then $L^{u}_{\operatorname{Hom}_{S-gr.}(X,Y)/S}(M)$ is described
 as follows. First, one saw in 3.11.3 that one has an isomorphism of $S$-functors, functorial in $M$:
@@ -1617,12 +1578,10 @@ One has an isomorphism of `O_S`-modules, functorial in $M$:*
 L^u_{Hom_{S-gr.}(X,Y)/S}(M) ⥲ Z¹_S(X, Lie(Y/S, M)).
 ```
 
-Moreover, when $Y/S$ satisfies (E), one deduces from 3.13.1, exactly as in the proof of 3.13.2, that for every
-$u \in Isom_{S-gr.}(X, Y)$ one has an isomorphism functorial in $M$:
+Moreover, when $Y/S$ satisfies (E), one deduces from 3.13.1, exactly as in the proof of 3.13.2, that for every $u \in
+Isom_{S-gr.}(X, Y)$ one has an isomorphism functorial in $M$:
 
-$$
-(\ast)   L^{u}_{Isom_{S-gr.}(X,Y)/S}(M) \xrightarrow{\sim} L^{u}_{\operatorname{Hom}_{S-gr.}(X,Y)/S}(M).
-$$
+$$ (\ast) L^{u}_{Isom_{S-gr.}(X,Y)/S}(M) \xrightarrow{\sim} L^{u}_{\operatorname{Hom}_{S-gr.}(X,Y)/S}(M). $$
 
 One deduces from this the following two corollaries.
 
@@ -1704,8 +1663,8 @@ Then the isomorphism of 4.3 fits into the following commutative diagram, functor
    T_{Hom_{O_S-mod.}(X,Y)/S}(M)    ⥲   Hom_{O_S-mod.}(X, T′_{Y/S}(M)).
 ```
 
-Moreover, when $Y/S$ satisfies (E), one deduces from 3.13.1, exactly as in the proof of 3.13.2, that for every
-$u \in Isom_{O_{S}-mod.}(X, Y)$, one has
+Moreover, when $Y/S$ satisfies (E), one deduces from 3.13.1, exactly as in the proof of 3.13.2, that for every $u \in
+Isom_{O_{S}-mod.}(X, Y)$, one has
 
 ```text
 (∗)   L^u_{Isom_{O_S-mod.}(X,Y)/S}(M) = L^u_{Hom_{O_S-mod.}(X,Y)/S}(M).
@@ -1742,9 +1701,7 @@ $Lie'(Y/S)$. Let us remark first that
 
 (where $W(M)$ is defined in I 4.6) and that one therefore has a canonical isomorphism
 
-$$
-(2)   d : O_{S} \xrightarrow{\sim} Lie(O_{S}/S).
-$$
+$$ (2) d : O_{S} \xrightarrow{\sim} Lie(O_{S}/S). $$
 
 <!-- original page 65 -->
 
@@ -1814,13 +1771,13 @@ also denoted $d : F \to Lie(F/S)$.
 For example, let $k$ be a field of characteristic $p > 0$, $S = \operatorname{Spec}(k)$, and let $F$ be the `O_S`-module
 which to every $S$-scheme $T$ associates $F(T) = \Gamma(T, O_{T})$ equipped with the $O(T)$-module structure obtained by
 making scalars act through the $p$-th power, i.e., $r \cdot f = r^{p} f$, for $r \in O(T)$, $f \in F(T)$. As $S$-functor
-of groups, $F$ is isomorphic to $G_{a, S}$. Therefore $F$ satisfies (E) and $Lie(F/S)$ is identified with
-$Lie(G_{a, S}/S) \cong O_{S}$. Then, the canonical morphism $d : F \to Lie(F/S)$ is, for every $T \to S$, the identity
-map $F(T) \to O(T)$: it indeed respects the abelian-group structure but not the `O_S`-module structure.
+of groups, $F$ is isomorphic to $G_{a, S}$. Therefore $F$ satisfies (E) and $Lie(F/S)$ is identified with $Lie(G_{a,
+S}/S) \cong O_{S}$. Then, the canonical morphism $d : F \to Lie(F/S)$ is, for every $T \to S$, the identity map $F(T)
+\to O(T)$: it indeed respects the abelian-group structure but not the `O_S`-module structure.
 
-**Remark 4.3.4.**[^N.D.E-II-66] One can make the morphisms (4) and (5) explicit as follows. The morphism
-$\Theta : F \otimes_{O_{S}} T_{O_{S}/S}(M) \to T'_{F/S}(M) = \operatorname{Hom}_{S}(I_{S}(M), F)$ is defined by: for
-every $S' \to S$, $\alpha \in O(I_{S'}(M))$, and $f : S' \to F$,
+**Remark 4.3.4.**[^N.D.E-II-66] One can make the morphisms (4) and (5) explicit as follows. The morphism $\Theta : F
+\otimes_{O_{S}} T_{O_{S}/S}(M) \to T'_{F/S}(M) = \operatorname{Hom}_{S}(I_{S}(M), F)$ is defined by: for every $S' \to
+S$, $\alpha \in O(I_{S'}(M))$, and $f : S' \to F$,
 
 <!-- label: III.II.4.3.4 -->
 
@@ -1840,8 +1797,8 @@ where $e$ denotes the unit section $S' \to F$. On the other hand, $Lie(O_{S}/S, 
 the augmentation $\eta : O(I_{S'}(M)) \to O(S')$, and it is therefore a question of seeing that if $f \in F(S')$ and
 $\alpha \in \Gamma(S', M)$, then $\alpha \cdot (f \circ \rho) \circ \epsilon_{M} = e$.
 
-Consider the dihomomorphism (3), in the case where $S_{2} \to S_{1}$ is the $S$-morphism
-$\epsilon_{M} : S' \to I_{S'}(M)$; one has then a commutative diagram
+Consider the dihomomorphism (3), in the case where $S_{2} \to S_{1}$ is the $S$-morphism $\epsilon_{M} : S' \to
+I_{S'}(M)$; one has then a commutative diagram
 
 ```text
                        F(ε_M)
@@ -1851,12 +1808,11 @@ $\epsilon_{M} : S' \to I_{S'}(M)$; one has then a commutative diagram
    F(I_{S′}(M)) ─────────────→ F(S′) .
 ```
 
-For every $\phi : I_{S'}(M) \to F$, one therefore has
-$(\alpha \cdot \phi) \circ \epsilon_{M} = \eta(\alpha) \cdot (\phi \circ \epsilon_{M})$, whence
-$(\alpha \cdot \phi) \circ \epsilon_{M} = e$ if $\eta(\alpha) = 0$.
+For every $\phi : I_{S'}(M) \to F$, one therefore has $(\alpha \cdot \phi) \circ \epsilon_{M} = \eta(\alpha) \cdot (\phi
+\circ \epsilon_{M})$, whence $(\alpha \cdot \phi) \circ \epsilon_{M} = e$ if $\eta(\alpha) = 0$.
 
-In particular, taking $M = t O_{S}$, one has $Lie(O_{S}/S) = t O_{S}$ and the morphism $F \to Lie'(F/S)$ is given by
-$f \mapsto t \cdot (f \circ \rho)$.
+In particular, taking $M = t O_{S}$, one has $Lie(O_{S}/S) = t O_{S}$ and the morphism $F \to Lie'(F/S)$ is given by $f
+\mapsto t \cdot (f \circ \rho)$.
 
 **Remark 4.3.5.**[^N.D.E-II-67] Let $F$ be an `O_S`-module, set $E = \operatorname{End}_{O_{S}-mod.}(F)$ and denote by
 $d_{F}$ and $d_{E}$ the morphisms of `O_S`-modules given by 4.3.2 (5):
@@ -2038,16 +1994,16 @@ $Lie(G/S)$ is a good `O_S`-module.*
 
 <!-- label: III.II.4.6 -->
 
-[^N.D.E-II-73] Note that if $F$ is a good `O_S`-module, it is a good $S$-group; indeed $F/S$ satisfies (E) and
-$Lie(F/S) \simeq F$ is a good `O_S`-module.
+[^N.D.E-II-73] Note that if $F$ is a good `O_S`-module, it is a good $S$-group; indeed $F/S$ satisfies (E) and $Lie(F/S)
+\simeq F$ is a good `O_S`-module.
 
 **Example 4.6.1.** *If $G$ is representable, it is good. Indeed, $G/S$ satisfies (E) and $Lie(G/S)$ is of the form
 $V(E)$, hence good, by 4.4.2.*
 
 <!-- label: III.II.4.6.1 -->
 
-**Lemma 4.6.2.**[^N.D.E-II-74] *Let $G$ be an $S$-functor of groups such that $G/S$ satisfies (E), and let
-$F = Lie(G/S)$. Then $F$ satisfies (E) and the morphism of abelian groups $d : F \to Lie(F/S)$ respects the `O_S`-module
+**Lemma 4.6.2.**[^N.D.E-II-74] *Let $G$ be an $S$-functor of groups such that $G/S$ satisfies (E), and let $F =
+Lie(G/S)$. Then $F$ satisfies (E) and the morphism of abelian groups $d : F \to Lie(F/S)$ respects the `O_S`-module
 structures.*
 
 <!-- label: III.II.4.6.2 -->
@@ -2104,9 +2060,9 @@ O(I_{S′}(M)) = O(S′)[t]/(t²) = O(S′) ⊕ t O(S′)
 
 and $Lie(O_{S}/S) \simeq t O_{S}$. We denote by $\rho_{t}$ the structural morphism $I_{S}(M) \to S$, which corresponds
 to the injection $u_{t} : O_{S} \hookrightarrow D_{O_{S}}(M) = O_{S} \oplus t O_{S}$. Recall (cf. 3.4.2) that, for every
-$S$-functor $X$, $F(N)(X) = Lie(G/S, N)(X)$ is the set of $S$-morphisms $\phi : I_{X}(N) \to G$ such that
-$\phi \circ \epsilon_{N} = e$, and that the action of $a \in O(X)$ is given by $a \cdot \phi = \phi \circ a^{*}$, where
-$a^{*}$ is the endomorphism of $I_{X}(N)$ associated with $a$, cf. 2.1.3.
+$S$-functor $X$, $F(N)(X) = Lie(G/S, N)(X)$ is the set of $S$-morphisms $\phi : I_{X}(N) \to G$ such that $\phi \circ
+\epsilon_{N} = e$, and that the action of $a \in O(X)$ is given by $a \cdot \phi = \phi \circ a^{*}$, where $a^{*}$ is
+the endomorphism of $I_{X}(N)$ associated with $a$, cf. 2.1.3.
 
 Consequently, by 4.3.4, the morphism $d : F(N) \xrightarrow{\sim} F(N) \otimes_{O_{S}} t O_{S} \to Lie(F(N)/S)$ is given
 by: for every $S' \to S$ and $f \in \operatorname{Hom}_{S}(S', F(N))$,
@@ -2115,9 +2071,9 @@ by: for every $S' \to S$ and $f \in \operatorname{Hom}_{S}(S', F(N))$,
 f ↦ f ⊗ t ↦ t · (f ∘ ρ_t) = f ∘ ρ_t ∘ t^*,
 ```
 
-where, in the last term, $f \circ \rho_{t} \in F(N)(I_{S'}(M))$ is considered as an $S$-morphism
-$\phi : I_{I_{S'}(M)}(N) \to G$ (such that $\phi \circ \epsilon_{N} = e$). It is a question of seeing that $d$ is a
-morphism of `O_S`-modules, i.e., that $d(a \cdot f) = u_{t}(a) \cdot d(f)$ for every $a \in O(S')$.
+where, in the last term, $f \circ \rho_{t} \in F(N)(I_{S'}(M))$ is considered as an $S$-morphism $\phi :
+I_{I_{S'}(M)}(N) \to G$ (such that $\phi \circ \epsilon_{N} = e$). It is a question of seeing that $d$ is a morphism of
+`O_S`-modules, i.e., that $d(a \cdot f) = u_{t}(a) \cdot d(f)$ for every $a \in O(S')$.
 
 Considering $f \in F(N)(S')$ as a morphism $I_{S'}(N) \to G$, one has likewise $a \cdot f = f \circ a^{*}$. On the other
 hand, by the functoriality in $X$ of the action of $O(X)$ on $I_{X}(N)$ (cf. 2.1.3), one has the commutative diagram
@@ -2152,9 +2108,7 @@ d(a · f) = f ∘ a^* ∘ ρ_t ∘ t^* = f ∘ ρ_t ∘ u_t(a)^* ∘ t^* = f ∘
 **4.7.1.**[^N.D.E-II-76] Let now $G$ be an $S$-group and $F$ a good `O_S`-module. Suppose given a linear representation
 of $G$ in $F$, that is to say (I 4.7.1), a morphism of $S$-groups
 
-$$
-\rho : G \longrightarrow \operatorname{Aut}_{O_{S}-mod.}(F).
-$$
+$$ \rho : G \longrightarrow \operatorname{Aut}_{O_{S}-mod.}(F). $$
 
 If $G/S$ satisfies (E), one deduces from 4.1.C and 4.5 a morphism of `O_S`-modules, denoted $\rho'$ or $d\rho$:
 
@@ -2193,9 +2147,9 @@ $[x, y] = 0$.*
 <!-- original page 69 -->
 
 **4.7.3.** One can give an equivalent definition of the bracket as follows: let us remark first that it suffices to do
-it for $x, y \in Lie(G/S)(S)$. Let us remark next that there is a canonical isomorphism
-$I_{S} \times_{S} I_{S} \simeq I_{I_{S}}$; to avoid confusions, let us denote by $I$ and $I'$ two copies of `I_S` and
-set $O_{I} = O_{S}[t]$, $O_{I'} = O_{S}[t']$, where $t^{2} = 0 = t'^{2}$. One has then a commutative diagram
+it for $x, y \in Lie(G/S)(S)$. Let us remark next that there is a canonical isomorphism $I_{S} \times_{S} I_{S} \simeq
+I_{I_{S}}$; to avoid confusions, let us denote by $I$ and $I'$ two copies of `I_S` and set $O_{I} = O_{S}[t]$, $O_{I'} =
+O_{S}[t']$, where $t^{2} = 0 = t'^{2}$. One has then a commutative diagram
 
 ```text
    I × I′ ──→ I′
@@ -2224,9 +2178,9 @@ follows a commutative diagram of groups (where one writes $L = Lie(G/S)$):
 
 The ninth piece of the puzzle is nothing other than $Lie(L/S)(S)$. If $G$ is good, this is $L(S)$ and one has therefore
 the following commutative diagram, where the lines and columns are exact sequences of groups, the five $L(-)$ are
-commutative,[^N.D.E-II-78] and where, taking into account the identification $L(I) = L(S) \oplus t L(S)$ (resp.
-$L(I') = L(S) \oplus t' L(S)$), the injection $L(S) \hookrightarrow L(I)$ (resp. $L(S) \hookrightarrow L(I')$) is given
-by $u \mapsto t u$ (resp. $u \mapsto t' u$):
+commutative,[^N.D.E-II-78] and where, taking into account the identification $L(I) = L(S) \oplus t L(S)$ (resp. $L(I') =
+L(S) \oplus t' L(S)$), the injection $L(S) \hookrightarrow L(I)$ (resp. $L(S) \hookrightarrow L(I')$) is given by $u
+\mapsto t u$ (resp. $u \mapsto t' u$):
 
 <!-- original page 86 -->
 
@@ -2242,9 +2196,9 @@ by $u \mapsto t u$ (resp. $u \mapsto t' u$):
 ```
 
 Now in such a diagram, if one takes two elements $x$ and $y$ as marked, and one lifts arbitrarily $x$ resp. $y$ to an
-element $\tilde{x} \in L(I)$ resp. $y' \in L(I')$, the commutator $\tilde{x} y' \tilde{x}^{-1} y'^{-1}$ in
-$G(I \times I')$ does not depend on the chosen lifts and is the image of an element $z$ as marked. The reader will
-verify that one has $z = [x, y]$.[^N.D.E-II-79]
+element $\tilde{x} \in L(I)$ resp. $y' \in L(I')$, the commutator $\tilde{x} y' \tilde{x}^{-1} y'^{-1}$ in $G(I \times
+I')$ does not depend on the chosen lifts and is the image of an element $z$ as marked. The reader will verify that one
+has $z = [x, y]$.[^N.D.E-II-79]
 
 Indeed, if one still denotes by $x$ the image of $x$ by the canonical section $L(S) \to L(I)$ (and likewise for $y$),
 then $\tilde{x} = xu$ and $y' = yv$, with $u, v \in L(S) = L(I) \cap L(I')$, and since $L(I)$ and $L(I')$ are
@@ -2290,8 +2244,8 @@ Ad(g) · Y = g ∘ Y ∘ g^{-1}    and    [X, Y] = X ∘ Y − Y ∘ X,
 *for every $S' \to S$, $g \in \operatorname{Aut}_{O_{S'}-mod.}(F_{S'})$, and
 `X, Y ∈ Lie(Aut_{O_S-mod.}(F)/S)(S′) = End_{O_{S′}-mod.}(F_{S′})`.*
 
-*Proof.*[^N.D.E-II-81] By base change, one reduces to $S' = S$, which permits one to lighten the notation. Set
-$I = I_{S}$ and $O_{I} = O_{S}[t]$ (with $t^{2} = 0$). Recall (cf. 4.5.1) that the inclusion
+*Proof.*[^N.D.E-II-81] By base change, one reduces to $S' = S$, which permits one to lighten the notation. Set $I =
+I_{S}$ and $O_{I} = O_{S}[t]$ (with $t^{2} = 0$). Recall (cf. 4.5.1) that the inclusion
 `i : End_{O_S-mod.}(F) ↪ Aut_{O_I-mod.}(F_I)` sends $Y$ to $id + t Y$. Then, by definition of $Ad(g)$ (cf. 4.1.A), one
 has:
 
@@ -2301,17 +2255,17 @@ id + t Ad(g)(Y) = g ∘ (id + t Y) ∘ g^{-1} = id + t (g ∘ Y ∘ g^{-1}),
 
 whence $Ad(g)(Y) = g \circ Y \circ g^{-1}$.
 
-Let $I'$ be a second copy of `I_S`, set $O_{I'} = O_{S}[t']$ (with $t'^{2} = 0$). Apply the results of 4.7.3 to
-$G = \operatorname{Aut}_{O_{S}-mod.}(F)$ and `L = Lie(G/S) = Aut_{O_S-mod.}(F)`. One identifies $X$ with its image under
-the canonical section $L(S) \hookrightarrow L(I)$; its image in $G(I \times I')$ is then $id + t' X$, whose inverse is
-$id - t' X$. Likewise, $Y$ lifts to $id + t Y$, whose inverse is $id - t Y$. Then, the commutator
+Let $I'$ be a second copy of `I_S`, set $O_{I'} = O_{S}[t']$ (with $t'^{2} = 0$). Apply the results of 4.7.3 to $G =
+\operatorname{Aut}_{O_{S}-mod.}(F)$ and `L = Lie(G/S) = Aut_{O_S-mod.}(F)`. One identifies $X$ with its image under the
+canonical section $L(S) \hookrightarrow L(I)$; its image in $G(I \times I')$ is then $id + t' X$, whose inverse is $id -
+t' X$. Likewise, $Y$ lifts to $id + t Y$, whose inverse is $id - t Y$. Then, the commutator
 
 ```text
 (id + t′ X) ∘ (id + t Y) ∘ (id − t′ X) ∘ (id − t Y) = id + t t′ (X ∘ Y − Y ∘ X)
 ```
 
-is the image in $G(I \times I')$ of the element $Z = X \circ Y - Y \circ X$ of $L(S)$ (indeed, $Z$ is sent to
-$t Z \in L(I)$, then to $id + t' t Z \in G(I \times I')$). By 4.7.3, this shows that $[X, Y] = X \circ Y - Y \circ X$.
+is the image in $G(I \times I')$ of the element $Z = X \circ Y - Y \circ X$ of $L(S)$ (indeed, $Z$ is sent to $t Z \in
+L(I)$, then to $id + t' t Z \in G(I \times I')$). By 4.7.3, this shows that $[X, Y] = X \circ Y - Y \circ X$.
 
 <!-- original page 71 -->
 
@@ -2631,8 +2585,8 @@ u = Σ_{i=0}^n f_i ⊗ t_i
 be an element of $F(S') \otimes_{O(S')} O(I_{S'}(M))$ such that $\phi_{1}(u)$ belongs to $F^{G}(I_{S'}(M))$. Let us show
 that the $f_{i}$ belong to $F^{G}(S')$.
 
-Let $S'' \to S'$; one can consider $S''$ as above $I_{S'}(M)$ via the zero section $\epsilon_{M}$. Then, for every
-$g \in G(S'')$, one has:
+Let $S'' \to S'$; one can consider $S''$ as above $I_{S'}(M)$ via the zero section $\epsilon_{M}$. Then, for every $g
+\in G(S'')$, one has:
 
 ```text
 u_{S″} = g · u_{S″} = Σ_{i=0}^n g · (f_i)_{S″} ⊗ (t_i)_{S″}.
@@ -2646,8 +2600,8 @@ that to every $S' \to S$ associates the set $E(S')/F(S')$ of classes $\bar{x} = 
 commutative $S$-group then $E/F$ is a commutative $S$-group.
 
 Let now $G$ be an $S$-group and $K$ a sub-$S$-group of $G$; set $E = Lie(G/S, M)$ and $F = Lie(K/S, M)$. The adjoint
-action of $K$ on $E$ stabilizes $F$, hence induces an action of $K$ on the $S$-functor $E/F$. Then, for every
-$S' \to S$, one has:
+action of $K$ on $E$ stabilizes $F$, hence induces an action of $K$ on the $S$-functor $E/F$. Then, for every $S' \to
+S$, one has:
 
 ```text
 (E/F)^K(S′) = { x̄ ∈ E(S′)/F(S′) | for every f : S″ → S′ and k ∈ K(S″),
@@ -2721,9 +2675,9 @@ To simplify the writing, let us write
 g = Lie(G/S, M),    k = Lie(K/S, M),    n = Lie(N/S, M),    z = Lie(Z/S, M).
 ```
 
-If $X \in Lie(H/S, M)(S)$, the equalities (∗) are valid for every $f : S' \to S$, since
-$f = \rho \circ \epsilon_{M} \circ f$ factors through $I_{S}(M)$ (where $\rho : I_{S}(M) \to S$ is the structural
-morphism and $\epsilon_{M} : S \to I_{S}(M)$ the zero section). One deduces that
+If $X \in Lie(H/S, M)(S)$, the equalities (∗) are valid for every $f : S' \to S$, since $f = \rho \circ \epsilon_{M}
+\circ f$ factors through $I_{S}(M)$ (where $\rho : I_{S}(M) \to S$ is the structural morphism and $\epsilon_{M} : S \to
+I_{S}(M)$ the zero section). One deduces that
 
 ```text
 n(S)/k(S) ⊂ (g/k)^K(S)    and    z(S) ⊂ g^K(S).
@@ -2753,15 +2707,14 @@ and let $h$ be the section of $\rho'$ defined by $f$. It suffices to show that, 
        resp. p^*(X) · v · p^*(X^{-1}) · v^{-1} = 1.
 ```
 
-Indeed, taking $v = \rho'^{*}(u)$ and applying $h^{*}$ to (∗∗), one obtains (∗), since $\rho' \circ h = id_{S'}$ and
-$p \circ h = f$.
+Indeed, taking $v = \rho'^{*}(u)$ and applying $h^{*}$ to (∗∗), one obtains (∗), since $\rho' \circ h = id_{S'}$ and $p
+\circ h = f$.
 
 Let us now show (∗∗); for simplicity, we shall write $X$ instead of $p^{*}(X)$. Every $v \in K(I_{S'}(M))$ is written in
-a unique manner $Y \cdot k$ where $Y \in Lie(K/S, M)(S')$ and $k \in K(S')$. The expression
-$X^{\alpha} \cdot u \cdot X^{-\alpha} \cdot u^{-1}$ then becomes
-$X^{\alpha} \cdot Y \cdot (k \cdot X^{-\alpha} \cdot k^{-1}) \cdot Y^{-1}$ which, since $Lie(G/S, M)$ is commutative, is
-written $X^{\alpha} Ad(k)(X^{-\alpha})$. Now this is a priori in $Lie(G/S, M)(S')$; taking into account Lemma 5.2.3.0,
-the condition (∗∗) for $X$ therefore becomes: for every $k \in K(S')$,
+a unique manner $Y \cdot k$ where $Y \in Lie(K/S, M)(S')$ and $k \in K(S')$. The expression $X^{\alpha} \cdot u \cdot
+X^{-\alpha} \cdot u^{-1}$ then becomes $X^{\alpha} \cdot Y \cdot (k \cdot X^{-\alpha} \cdot k^{-1}) \cdot Y^{-1}$ which,
+since $Lie(G/S, M)$ is commutative, is written $X^{\alpha} Ad(k)(X^{-\alpha})$. Now this is a priori in $Lie(G/S,
+M)(S')$; taking into account Lemma 5.2.3.0, the condition (∗∗) for $X$ therefore becomes: for every $k \in K(S')$,
 
 ```text
 ⎰ Ad(k)(X) = X,                                if H = Z;
@@ -2812,9 +2765,7 @@ so, by 5.2.2 (ii), $z \simeq g^{K}$ is also, so $Z$ (which satisfies (E) by (iii
 then $k$ is a good `O_S`-module so, by 5.2.1 (iv) and 5.2.2 (ii), so are $g/k$ and $(g/k)^{K}$. Taking into account the
 exact sequence
 
-$$
-0 \longrightarrow k \longrightarrow n \longrightarrow (g/k)^{K} \longrightarrow 0,
-$$
+$$ 0 \longrightarrow k \longrightarrow n \longrightarrow (g/k)^{K} \longrightarrow 0, $$
 
 one obtains, by 5.2.1 (iv) again, that $n$ is good. Finally, if in addition to the preceding conditions, $G$ is very
 good, i.e., if one has identically $[x, x] = 0$ for every $x \in g$, it is clear that $Z$ and $N$ are very good. This
@@ -2840,9 +2791,7 @@ proves (iii), (iv) and (v).
 
 Let $G$ be a good $S$-group acting linearly on a good `O_S`-module $F$ via
 
-$$
-\rho : G \longrightarrow \operatorname{Aut}_{O_{S}-mod.}(F).
-$$
+$$ \rho : G \longrightarrow \operatorname{Aut}_{O_{S}-mod.}(F). $$
 
 One has defined (4.7.1 and 4.8.2) a corresponding linear representation
 
@@ -2931,18 +2880,17 @@ the "free abelian monoid on the pointed set $(E, x_{0})$".
 Take then for $X$ the functor that to every scheme $S$ associates the free abelian monoid on the set $O(S)$, pointed by
 the zero element. Every morphism $f : S \to I_{\mathbb{Z}} = \operatorname{Spec}(\mathbb{Z}[\epsilon])$ corresponds to
 an element of square zero $u_{f}$ of $O(S)$, and hence defines an endomorphism of $X(S)$ by $x \mapsto x + u_{f}$ (sum
-in $MAP(O(S), 0)$). One thus obtains an endomorphism $\phi$ of
-$X_{I_{\mathbb{Z}}} = X \times_{\mathbb{Z}} I_{\mathbb{Z}}$, defined as follows. For every $f \in I_{\mathbb{Z}}(S)$ and
-$x \in X(S)$,
+in $MAP(O(S), 0)$). One thus obtains an endomorphism $\phi$ of $X_{I_{\mathbb{Z}}} = X \times_{\mathbb{Z}}
+I_{\mathbb{Z}}$, defined as follows. For every $f \in I_{\mathbb{Z}}(S)$ and $x \in X(S)$,
 
 ```text
 φ((x, f)) = (x + u_f, f).
 ```
 
 If $f_{0} : S \to I_{\mathbb{Z}}$ is the composite of the structural morphism $S \to \operatorname{Spec}(\mathbb{Z})$
-and the zero section of $I_{\mathbb{Z}}$, the corresponding element is $u_{f_{0}} = 0$, and so
-$\phi((x, f_{0})) = (x, f_{0})$, since $x + 0 = x$ in $MAP(O(S), 0)$. This shows that $\phi$ induces the identity on
-$X$; it is therefore an infinitesimal endomorphism of $X$ which is evidently not an automorphism.
+and the zero section of $I_{\mathbb{Z}}$, the corresponding element is $u_{f_{0}} = 0$, and so $\phi((x, f_{0})) = (x,
+f_{0})$, since $x + 0 = x$ in $MAP(O(S), 0)$. This shows that $\phi$ induces the identity on $X$; it is therefore an
+infinitesimal endomorphism of $X$ which is evidently not an automorphism.
 
 **6.3.** There exist modules that are not good. On the one hand, one can modify the preceding counterexample
 slightly:[^N.D.E-II-101] take for $F(S)$ the free $O(S)$-module with basis the elements of $O(S)$; then $F$ does not
@@ -2970,8 +2918,8 @@ structure. Therefore $F$ is not good (cf. 4.4.1).
 ```
 
 it is represented by $\operatorname{Spec}(k[X]/(X^{p}))$ so it is a very good $S$-group; it is also equipped with an
-`O_S`-module structure, but it is not a good `O_S`-module, because the canonical morphism
-$\alpha_{p,k} \to Lie(\alpha_{p,k}/k) = G_{a,k}$ is not bijective.
+`O_S`-module structure, but it is not a good `O_S`-module, because the canonical morphism $\alpha_{p,k} \to
+Lie(\alpha_{p,k}/k) = G_{a,k}$ is not bijective.
 
 **6.4.** Let $G$ be a group-functor on $S$. One has by definition the following implications
 
@@ -3016,8 +2964,8 @@ that $F$ is an example of a $\mathbb{Z}$-group that satisfies (E) but is not goo
 
 **6.5.1.** Let us also give the counterexamples mentioned in 5.3.1–5.3.3. Let $S$ be a scheme, $F$ the good `O_S`-module
 $O^{\oplus 2}_{S}$ equipped with the natural action of the good $S$-group $G = GL_{2,S}$, and $E$ the sub-`O_S`-module
-of $F$ formed by the pairs $(x_{1}, x_{2})$ such that $x_{2}$ is nilpotent. Set $N = Norm_{G}(E)$. Then
-$Lie(N/S) = Lie(G/S)$ while, for every $S' \to S$, one has
+of $F$ formed by the pairs $(x_{1}, x_{2})$ such that $x_{2}$ is nilpotent. Set $N = Norm_{G}(E)$. Then $Lie(N/S) =
+Lie(G/S)$ while, for every $S' \to S$, one has
 
 ```text
 Norm_{Lie(G/S)}(E)(S′) = { ⎡a b⎤ | a, b, c, x ∈ O(S′), x nilpotent },
@@ -3098,9 +3046,8 @@ that $x_{2} \in Nil(S')^{2}$).
 
 [^N.D.E-II-4]: One has added this remark, useful for Corollary 3.11.1.
 
-[^N.D.E-II-5]: Of course, if $M$ is a $Y$-group (not necessarily abelian) and if one sets
-    $\phi \cdot \psi = m \circ (\phi \times \psi)$, this makes $\operatorname{Hom}_{Z/S}(X, M)$ a group above
-    $\operatorname{Hom}_{Z/S}(X, Y)$.
+[^N.D.E-II-5]: Of course, if $M$ is a $Y$-group (not necessarily abelian) and if one sets $\phi \cdot \psi = m \circ
+    (\phi \times \psi)$, this makes $\operatorname{Hom}_{Z/S}(X, M)$ a group above $\operatorname{Hom}_{Z/S}(X, Y)$.
 
 [^N.D.E-II-6]: Note that $I_{S}(M)$ has the same underlying space as $S$.
 
@@ -3110,10 +3057,9 @@ that $x_{2} \in Nil(S')^{2}$).
 
 [^N.D.E-II-9]: In the sequel, one will be principally interested in the case where $a \in O(S)$, acting by homotheties
     on $M$. For example, if $M$ is a free `O_S`-module of rank $r$, then, for every $S' \to S$,
-    $\operatorname{Hom}_{S}(S', I_{S}(M))$ is identified with the set of $r$-tuples
-    $(\epsilon_{1}, \cdots, \epsilon_{r}) \in O(S')$ such that $\epsilon_{i} \epsilon_{j} = 0$ for all `i, j`, and one
-    has $(\epsilon_{1}, \cdots, \epsilon_{r}) \cdot a = (a \epsilon_{1}, \cdots, a \epsilon_{r})$ for every
-    $a \in O(S)$.
+    $\operatorname{Hom}_{S}(S', I_{S}(M))$ is identified with the set of $r$-tuples $(\epsilon_{1}, \cdots,
+    \epsilon_{r}) \in O(S')$ such that $\epsilon_{i} \epsilon_{j} = 0$ for all `i, j`, and one has $(\epsilon_{1},
+    \cdots, \epsilon_{r}) \cdot a = (a \epsilon_{1}, \cdots, a \epsilon_{r})$ for every $a \in O(S)$.
 
 [^N.D.E-II-10]: One has added this paragraph, which will be useful in 3.4.2 and 4.6.2.
 
@@ -3121,9 +3067,9 @@ that $x_{2} \in Nil(S')^{2}$).
 
 [^N.D.E-II-12]: Cf. N.D.E. (33) of Exp. I.
 
-[^N.D.E-II-13]: When $S = \operatorname{Spec}(k)$ and $X$ is a $k$-scheme, one has
-    $T_{X/S}(S') = \operatorname{Hom}_{S}(S' \otimes_{k} k[\epsilon], X) = X(S' \otimes_{k} k[\epsilon])$; one thus
-    recovers one of the usual definitions of the tangent bundle.
+[^N.D.E-II-13]: When $S = \operatorname{Spec}(k)$ and $X$ is a $k$-scheme, one has $T_{X/S}(S') =
+    \operatorname{Hom}_{S}(S' \otimes_{k} k[\epsilon], X) = X(S' \otimes_{k} k[\epsilon])$; one thus recovers one of the
+    usual definitions of the tangent bundle.
 
 [^N.D.E-II-14]: One has corrected "$0 \to M$ and $M \to 0$" to: "$M \to 0$ and $0 \to M$".
 
@@ -3148,11 +3094,10 @@ that $x_{2} \in Nil(S')^{2}$).
 
 [^N.D.E-II-24]: One has detailed what follows.
 
-[^N.D.E-II-25]: I.e., for every $S$-morphism $f : X' \to X$, the action of $O(X')$ on
-    $\operatorname{Hom}_{X}(X', T_{X/S}(M))$ corresponds, via the identification
-    $\operatorname{Hom}_{X}(X', T_{X/S}(M)) \simeq \operatorname{Hom}_{O_{X'}}(f^{*}(\Omega^{1}_{X/S}), M \otimes_{O_{S}} O_{X'})$,
-    to the natural action of $O(X')$ on the right-hand term; this follows from the proof of SGA 1, III 5.1 (see also the
-    addition 0.1.8 in Exp. III).
+[^N.D.E-II-25]: I.e., for every $S$-morphism $f : X' \to X$, the action of $O(X')$ on $\operatorname{Hom}_{X}(X',
+    T_{X/S}(M))$ corresponds, via the identification $\operatorname{Hom}_{X}(X', T_{X/S}(M)) \simeq
+    \operatorname{Hom}_{O_{X'}}(f^{*}(\Omega^{1}_{X/S}), M \otimes_{O_{S}} O_{X'})$, to the natural action of $O(X')$ on
+    the right-hand term; this follows from the proof of SGA 1, III 5.1 (see also the addition 0.1.8 in Exp. III).
 
 [^N.D.E-II-26]: One has added the sentence that follows.
 
@@ -3170,8 +3115,8 @@ that $x_{2} \in Nil(S')^{2}$).
 
 [^N.D.E-II-33]: Inspired by the standard proof showing that the fundamental group of an $H$-space is abelian.
 
-[^N.D.E-II-34]: $G \times G$ is equipped with the law $(G \times G) \times (G \times G) \to G \times G$,
-    $((x, z), (y, t)) \mapsto (f(x, y), f(z, t))$.
+[^N.D.E-II-34]: $G \times G$ is equipped with the law $(G \times G) \times (G \times G) \to G \times G$, $((x, z), (y,
+    t)) \mapsto (f(x, y), f(z, t))$.
 
 [^N.D.E-II-35]: One has added this corollary, which amplifies Remark 4.1.1.2 below.
 
@@ -3187,9 +3132,9 @@ that $x_{2} \in Nil(S')^{2}$).
 
 [^N.D.E-II-40]: One has simplified the original in what follows.
 
-[^N.D.E-II-41]: Via the isomorphism
-    $\operatorname{Hom}_{I_{S}(M)}(U_{I_{S}(M)}, X_{I_{S}(M)}) \simeq \operatorname{Hom}_{S}(U \times_{S} I_{S}(M), X)$,
-    this is equivalent to Remark 3.1.1. Likewise, 3.12 is equivalent to the first part of Remark 3.4.2.
+[^N.D.E-II-41]: Via the isomorphism $\operatorname{Hom}_{I_{S}(M)}(U_{I_{S}(M)}, X_{I_{S}(M)}) \simeq
+    \operatorname{Hom}_{S}(U \times_{S} I_{S}(M), X)$, this is equivalent to Remark 3.1.1. Likewise, 3.12 is equivalent
+    to the first part of Remark 3.4.2.
 
 [^N.D.E-II-42]: One has detailed the original in what follows.
 
@@ -3235,8 +3180,8 @@ that $x_{2} \in Nil(S')^{2}$).
 [^N.D.E-II-60]: One has added the sentence that follows.
 
 [^N.D.E-II-61]: Note that on the right-hand term, this is the structure defined by $(a\phi)(x) = a \cdot \phi(x)$, where
-    $a \cdot \phi(x)$ denotes the action of $a$ on $\phi(x) \in Lie(Y/S, M)$. This differs from the action
-    $(a \cdot' \phi)(x) = a \cdot' \phi(x) = \phi(ax)$, but coincides with it if $Lie(Y/S, M) = Lie'(Y/S, M)$.
+    $a \cdot \phi(x)$ denotes the action of $a$ on $\phi(x) \in Lie(Y/S, M)$. This differs from the action $(a \cdot'
+    \phi)(x) = a \cdot' \phi(x) = \phi(ax)$, but coincides with it if $Lie(Y/S, M) = Lie'(Y/S, M)$.
 
 [^N.D.E-II-62]: One has added this remark, which will be useful in 4.5.1.
 

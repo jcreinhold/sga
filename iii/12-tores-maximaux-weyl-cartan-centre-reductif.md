@@ -50,9 +50,7 @@ associated with the various maximal tori are conjugate to each other, hence have
 common dimension the *nilpotent rank of $G$*; it equals that of $G_{red}$. Let $\rho_{r}(G)$ and $\rho_{n}(G)$ denote the reductive
 and nilpotent ranks of $G$; then one has
 
-$$
-\rho_{r}(G) \leqslant \rho_{n}(G),
-$$
+$$ \rho_{r}(G) \leqslant \rho_{n}(G), $$
 
 and the difference
 
@@ -66,9 +64,7 @@ $C_{s} \times C_{u}$, where $C_{s} = T$ is the maximal torus we started with (wh
 $C$), and where $C_{u}$ is a smooth unipotent subgroup, i.e. a successive extension of groups isomorphic to $G_{a}$
 (*BIBLE* 6 th. 1 cor. 1 and 7, th. 4). One then has also, in this case:
 
-$$
-\rho_{u}(G) = \dim C_{u}.
-$$
+$$ \rho_{u}(G) = \dim C_{u}. $$
 
 **Remark 1.1.** *Besides the three notions of rank we have just made precise for an affine algebraic group, there are
 two others that are useful, namely the* semisimple rank $\rho_{s}(G)$, *which is by definition the reductive rank of the
@@ -112,10 +108,10 @@ usual definition, and that property 1.3 is stable under any base change. Note th
 
 *One should beware that a maximal torus in the sense of Definition 1.3 is indeed maximal among the subtori of $G$ (as
 follows at once from (IX, 2.9)), but that the converse cannot be valid—the base $S$ being, say, connected—unless $G$
-effectively admits a maximal torus in the sense of 1.3, which is not the case in general (even if
-$S = \operatorname{Spec}(\mathbb{Z})$ and $G$ is "semisimple"; see also 1.6). We shall see however in XIV that the
-converse holds when $S$ is artinian, or when $S$ is a local scheme and $G$ is "reductive": in this case, every torus of
-$G$ is contained in a maximal torus.*
+effectively admits a maximal torus in the sense of 1.3, which is not the case in general (even if $S =
+\operatorname{Spec}(\mathbb{Z})$ and $G$ is "semisimple"; see also 1.6). We shall see however in XIV that the converse
+holds when $S$ is artinian, or when $S$ is a local scheme and $G$ is "reductive": in this case, every torus of $G$ is
+contained in a maximal torus.*
 
 **Definition 1.5.** *Let $G$ be an algebraic group over a field $k$. The* reductive rank *(resp.* nilpotent rank\*,
 resp.\* unipotent rank\*, etc.) of $G$ is the reductive rank (resp. …) of $G_{\bar{k}}$, where $\bar{k}$ is an algebraic
@@ -166,25 +162,23 @@ $\rho_{u} = \rho_{n} - \rho_{r}$).*
 <!-- label: III.XII.1.7 -->
 
 *Proof.* a) Note that for any morphism $S' \to S$, setting $G' = G \times_{S} S'$, the functions $\rho'_{r}$ etc. on
-$S'$ defined in terms of $G'$ as $\rho_{r}$ etc. in terms of $G$ are obtained simply by composing the latter with
-$S' \to S$. When $S' \to S$ is faithfully flat quasi-compact, it follows that $\rho'$ is continuous, resp. upper
+$S'$ defined in terms of $G'$ as $\rho_{r}$ etc. in terms of $G$ are obtained simply by composing the latter with $S'
+\to S$. When $S' \to S$ is faithfully flat quasi-compact, it follows that $\rho'$ is continuous, resp. upper
 semicontinuous, resp. lower semicontinuous, if and only if $\rho$ is, the Zariski topology of $S$ being in effect a
 quotient of that of $S'$ (SGA 1, VIII 4.3). Consequently, the assertions of a) are local for the faithfully flat
-quasi-compact topology. Let then $s \in S$; we wish to show that the set $U$ of $t \in S$ such that
-$\rho_{r}(t) \geqslant \rho_{r}(s)$ (resp. $\rho_{n}(t) \leqslant \rho_{n}(s)$) is a neighborhood of $s$. By the
-principle of finite extension, there exists a finite extension $k$ of $\kappa(s)$ such that $G_{k}$ admits a maximal
-torus. There then exist an open neighborhood $U$ of $s$, and a finite surjective locally free morphism $S' \to U$ such
-that the fiber $S'_{s}$ is $\kappa(s)$-isomorphic to $\operatorname{Spec}(k)$ (cf. EGA III, 10.3.2, where the noetherian
-hypothesis is manifestly unnecessary). Since $S' \to S$ is an open morphism (SGA 1, IV 6.6), we are reduced to the case
-where $S' = S$, i.e. to the case where there exists a maximal torus $T_{s}$ in $G_{s}$. Furthermore, by (XI, 5.8 a)),
-possibly replacing $S$ by an $S'$ étale over $S$ equipped with a point $s'$ above $s$, <!-- original page 186 --> we may
-suppose that $T_{s}$ is the fiber at $s$ of a subtorus $T$ of $G$. Then for every $t \in S$,
-$\rho_{r}(t) = \rho_{r}(G_{t}) \geqslant \dim T_{t} = \dim T_{s} = \rho_{r}(G_{s}) = \rho_{r}(s)$, which proves that
-$\rho_{r}$ is lower semicontinuous. On the other hand, by (XI, 5.3), the functor
+quasi-compact topology. Let then $s \in S$; we wish to show that the set $U$ of $t \in S$ such that $\rho_{r}(t)
+\geqslant \rho_{r}(s)$ (resp. $\rho_{n}(t) \leqslant \rho_{n}(s)$) is a neighborhood of $s$. By the principle of finite
+extension, there exists a finite extension $k$ of $\kappa(s)$ such that $G_{k}$ admits a maximal torus. There then exist
+an open neighborhood $U$ of $s$, and a finite surjective locally free morphism $S' \to U$ such that the fiber $S'_{s}$
+is $\kappa(s)$-isomorphic to $\operatorname{Spec}(k)$ (cf. EGA III, 10.3.2, where the noetherian hypothesis is
+manifestly unnecessary). Since $S' \to S$ is an open morphism (SGA 1, IV 6.6), we are reduced to the case where $S' =
+S$, i.e. to the case where there exists a maximal torus $T_{s}$ in $G_{s}$. Furthermore, by (XI, 5.8 a)), possibly
+replacing $S$ by an $S'$ étale over $S$ equipped with a point $s'$ above $s$, <!-- original page 186 --> we may suppose
+that $T_{s}$ is the fiber at $s$ of a subtorus $T$ of $G$. Then for every $t \in S$, $\rho_{r}(t) = \rho_{r}(G_{t})
+\geqslant \dim T_{t} = \dim T_{s} = \rho_{r}(G_{s}) = \rho_{r}(s)$, which proves that $\rho_{r}$ is lower
+semicontinuous. On the other hand, by (XI, 5.3), the functor
 
-$$
-C = Centr_{G}(T)
-$$
+$$ C = Centr_{G}(T) $$
 
 is representable by $C = Centr_{G}(T)$,[^N.D.E-XII-2] a closed group subpreschema of $G$ smooth over $S$. So there
 exists a neighborhood $U$ of $s$ such that $t \in U$ implies $\dim C_{t} = \dim C_{s} = \rho_{n}(s)$. The upper
@@ -199,9 +193,7 @@ which is itself contained in the following purely geometric lemma:
 **Lemma 1.8.** *Let $k$ be a field, $G$ an affine smooth algebraic group over $k$, $T$ a torus in $G$, $C$ its
 centralizer; then one has*
 
-$$
-\rho_{n}(G) \leqslant \dim C.
-$$
+$$ \rho_{n}(G) \leqslant \dim C. $$
 
 <!-- label: III.XII.1.8 -->
 
@@ -231,15 +223,15 @@ function $s \mapsto \rho_{n}(s) = \dim C_{s}$ is indeed locally constant.
 The proof of 1.7 is complete. We shall refer to the conditions envisaged in 1.7 b) by saying that in this case $G$ is
 *of locally constant reductive rank*. Let us note:
 
-**Corollary 1.9.** *Let $G$ be as in 1.7, and let $s \in S$ be such that $\rho_{u}(s) = 0$, i.e.
-$\rho_{r}(s) = \rho_{n}(s)$ (i.e. the Cartan subgroups of $G_{\bar{k}}$ are tori, where $\bar{k}$ is an algebraic
-closure of $\kappa(s)$). Then there exists an open neighborhood $U$ of $s$ over which $\rho_{r}$ and $\rho_{n}$ are
-constant; in particular, for every $t \in U$, the unipotent rank $\rho_{u}(t)$ of $G_{t}$ is zero.*
+**Corollary 1.9.** *Let $G$ be as in 1.7, and let $s \in S$ be such that $\rho_{u}(s) = 0$, i.e. $\rho_{r}(s) =
+\rho_{n}(s)$ (i.e. the Cartan subgroups of $G_{\bar{k}}$ are tori, where $\bar{k}$ is an algebraic closure of
+$\kappa(s)$). Then there exists an open neighborhood $U$ of $s$ over which $\rho_{r}$ and $\rho_{n}$ are constant; in
+particular, for every $t \in U$, the unipotent rank $\rho_{u}(t)$ of $G_{t}$ is zero.*
 
 <!-- label: III.XII.1.9 -->
 
-Indeed, this follows immediately from 1.7 a) and from the inequality $\rho_{r}(t) \leqslant \rho_{n}(t)$ for every
-$t \in S$.
+Indeed, this follows immediately from 1.7 a) and from the inequality $\rho_{r}(t) \leqslant \rho_{n}(t)$ for every $t
+\in S$.
 
 Note also that we have proved, at the same time as b), the
 
@@ -247,9 +239,7 @@ Note also that we have proved, at the same time as b), the
 
 **Corollary 1.10.** *Let $G$ be as in 1.7, and suppose $G$ of locally constant reductive rank. Consider the functor*
 
-$$
-\mathcal{T} : (Sch)^{\circ} \longrightarrow (Ens),
-$$
+$$ \mathcal{T} : (Sch)^{\circ} \longrightarrow (Ens), $$
 
 *such that for every $S'$ over $S$, one has*
 
@@ -348,8 +338,8 @@ conditions:*
 
 *(i) $T$ is a maximal torus of $G$.*
 
-*(ii) $T$ is a maximal torus of $H$, and for every $s \in S$, one has equality of the reductive ranks
-$\rho_{r}(G_{s}) = \rho_{r}(H_{s})$.*
+*(ii) $T$ is a maximal torus of $H$, and for every $s \in S$, one has equality of the reductive ranks $\rho_{r}(G_{s}) =
+\rho_{r}(H_{s})$.*
 
 <!-- label: III.XII.1.17 -->
 
@@ -420,18 +410,13 @@ over $S'$.*
 neighborhood $U$ of $s$ such that $t \in U$ implies $w(t) \geqslant w(s)$, to the case where there exists a torus $R$ in
 $G$ such that $R_{s}$ is a maximal torus in $G_{s}$. Let
 
-$$
-W(R) = Norm_{G}(R)/Centr_{G}(R)
-$$
+$$ W(R) = Norm_{G}(R)/Centr_{G}(R) $$
 
-as in (XI, 5.9); this is an étale, separated, quasi-finite group prescheme over $S$. For every $t \in S$, let
-$w'(t) \in E$ be its geometric fiber at $t$. Since $R_{s}$ is a maximal torus in $G_{s}$, and the formation of `Norm`,
-`Centr`, $Norm/Centr$ is compatible with any base extension, in particular with passage to the fibers, one sees that one
-has
+as in (XI, 5.9); this is an étale, separated, quasi-finite group prescheme over $S$. For every $t \in S$, let $w'(t) \in
+E$ be its geometric fiber at $t$. Since $R_{s}$ is a maximal torus in $G_{s}$, and the formation of `Norm`, `Centr`,
+$Norm/Centr$ is compatible with any base extension, in particular with passage to the fibers, one sees that one has
 
-$$
-w(s) = w'(s);
-$$
+$$ w(s) = w'(s); $$
 
 I claim moreover that, for $t$ near $s$, one has the inequalities
 
@@ -462,11 +447,11 @@ denoting the closed point of $S$, since $G$ is étale and separated over $S$, it
 closed, finite over $S$, such that $G'_{s} = G_{s}$ (EGA II, 6.2.6), and one sees at once that $G'$ is here a subgroup
 of $G$. Moreover $G'$, being étale finite over $S = \operatorname{Spec}(V)$, with $V$ complete with algebraically closed
 residue field, is a constant group, hence of the form `A_S`, where $A = G'(\kappa(s)) = G(\kappa(s))$ has class $f(s)$.
-If $B$ is the geometric fiber of $G$ at the generic point $t$ of $S$, one has therefore a canonical monomorphism
-$A \to B$, which proves $f(s) \leqslant f(t)$. (N.B. this proof in fact proves the semicontinuity for an order relation
-on $E$ finer than the one indicated in 2.1.) The fact that $f$ is continuous at $s$ if and only if $s \mapsto card f(s)$
-is, follows from the fact that for $w, w' \in E$, the relations $w \leqslant w'$ and $card w = card w'$ imply $w = w'$.
-The fact that this condition is equivalent to the finiteness of $W$ on a neighborhood of $s$ is then independent of the
+If $B$ is the geometric fiber of $G$ at the generic point $t$ of $S$, one has therefore a canonical monomorphism $A \to
+B$, which proves $f(s) \leqslant f(t)$. (N.B. this proof in fact proves the semicontinuity for an order relation on $E$
+finer than the one indicated in 2.1.) The fact that $f$ is continuous at $s$ if and only if $s \mapsto card f(s)$ is,
+follows from the fact that for $w, w' \in E$, the relations $w \leqslant w'$ and $card w = card w'$ imply $w = w'$. The
+fact that this condition is equivalent to the finiteness of $W$ on a neighborhood of $s$ is then independent of the
 group structure <!-- original page 195 --> on $W$, and has been signaled after (XI, 5.10); its proof can moreover easily
 be carried out by the preceding arguments, using the valuative criterion of properness (EGA II, 7.3.8).
 
@@ -571,9 +556,7 @@ smooth, separated prescheme of finite type over $S$.*
 
 **Corollary 3.4.** *Under the conditions of 3.2, if $C = Centr_{G}(T)$, one has*
 
-$$
-Norm_{G}(C) = Norm_{G}(T).
-$$
+$$ Norm_{G}(C) = Norm_{G}(T). $$
 
 <!-- label: III.XII.3.4 -->
 
@@ -666,9 +649,7 @@ that it admits a largest element.
 
 When $G$ is smooth over $k$, one applies the structure theorem *BIBLE* 4 th. 4,
 
-$$
-G = G_{s} \times G_{u},
-$$
+$$ G = G_{s} \times G_{u}, $$
 
 with $G_{s}$ of multiplicative type and $G_{u}$ "unipotent", which means here that $G_{u}$ admits a composition series
 whose factors are subgroups (smooth if one insists) of $G_{a}$. (Indeed, $G_{u}/G^{0}_{u}$ is a unipotent group by
@@ -680,17 +661,13 @@ that every multiplicative-type subgroup of $G$ is contained in $G_{s}$.
 
 In the general case, consider the subgroup
 
-$$
-G_{0} = G_{red}
-$$
+$$ G_{0} = G_{red} $$
 
 of $G$, which is smooth over $k$, hence by the foregoing admits a largest <!-- original page 201 --> multiplicative-type
 subgroup `Z_0`. The multiplicative-type subgroups of $G$ containing `Z_0` correspond to multiplicative-type subgroups of
 $G^{0} = G/Z_{0}$. Now one has an exact sequence
 
-$$
-0 \longrightarrow G_{0}/Z_{0} \longrightarrow G/Z_{0} \longrightarrow G/G_{0} \longrightarrow 0,
-$$
+$$ 0 \longrightarrow G_{0}/Z_{0} \longrightarrow G/Z_{0} \longrightarrow G/G_{0} \longrightarrow 0, $$
 
 where by the foregoing, $G_{0}/Z_{0}$ has no multiplicative-type subgroup except the unit group. Since a subgroup of a
 multiplicative-type group is of multiplicative type (IX, 8), it follows that for every multiplicative-type subgroup $H$
@@ -703,8 +680,8 @@ in 7.1.1) that a commutative extension of two multiplicative-type algebraic grou
 $Z'$ is the inverse image in $G$ of a multiplicative-type subgroup of $G/Z$, then $Z'$ is of multiplicative type, hence
 $Z' = Z$ by the maximal character of $Z$, hence $Z'/Z = 0$.
 
-It now easily follows from the "principle of finite extension" that for any extension $K$ of $k$,
-$(G/Z)_{K} = G_{K}/Z_{K}$ likewise has no multiplicative-type subgroup except the unit group.
+It now easily follows from the "principle of finite extension" that for any extension $K$ of $k$, $(G/Z)_{K} =
+G_{K}/Z_{K}$ likewise has no multiplicative-type subgroup except the unit group.
 
 We can now prove that $Z$ is a reductive center of $G$. Indeed, let $u : H \to G_{S}$ be a homomorphism of $S$-groups,
 where $S$ is a prescheme over $k$ and $H$ a multiplicative-type group of finite type over $S$; we prove that $u$ factors
@@ -714,8 +691,8 @@ the case where $S$ is the spectrum of a field, and by (IX, 6.8) this then follow
 multiplicative-type subgroup other than `0`. <!-- original page 202 --> This completes the proof of 4.4. It only remains
 to give the proof of the
 
-**Lemma 4.4.1.** *Let $H$ be a multiplicative-type $S$-prescheme in groups; then every homomorphism of $S$-groups
-$u : H \to G_{a}$ is trivial.*
+**Lemma 4.4.1.** *Let $H$ be a multiplicative-type $S$-prescheme in groups; then every homomorphism of $S$-groups $u : H
+\to G_{a}$ is trivial.*
 
 <!-- label: III.XII.4.4.1 -->
 
@@ -772,14 +749,12 @@ center.*
 *c) Suppose that the reductive rank of $G$ is locally constant (cf. 1.7 b)). Then $G$ admits a reductive center $Z$. If
 $G/Z$ is representable (for example, $G$ affine over $S$), then moreover the maximal tori $T$ of $G$ (resp. the Cartan
 subgroups $C$ of $G$) and $T'$ (resp. $C'$) of $G' = G/Z$ are in bijective correspondence, to $T$ (resp. $C$)
-corresponding $T' = T/Z$ (resp. $C' = C/Z$), and to $T'$ (resp. $C'$) corresponding $T = \varphi^{-1}(T')$ (resp.
-$C = \varphi^{-1}(C')$), where $\varphi : G \to G'$ is the canonical homomorphism.*
+corresponding $T' = T/Z$ (resp. $C' = C/Z$), and to $T'$ (resp. $C'$) corresponding $T = \varphi^{-1}(T')$ (resp. $C =
+\varphi^{-1}(C')$), where $\varphi : G \to G'$ is the canonical homomorphism.*
 
 *d) Let $T$ be a maximal torus of $G$, let $g$ denote the Lie algebra of $G$, and consider the homomorphism*
 
-$$
-\theta : T \longrightarrow GL(g),
-$$
+$$ \theta : T \longrightarrow GL(g), $$
 
 *induced by the adjoint representation of $G$ (II, 4). Then the kernel of $\theta$ is a reductive center of $G$.*
 
@@ -865,9 +840,7 @@ this stated:
 **Corollary 4.8.** *Under the preceding conditions and with the preceding notations, the reductive center of $G$ is the
 intersection of the kernels of the root characters $m \in R$ on $T$. One thus has an isomorphism*
 
-$$
-Z \simeq D_{S}(N),
-$$
+$$ Z \simeq D_{S}(N), $$
 
 *where $N$ is the quotient of $M$ by the subgroup generated by $R$.*
 
@@ -913,9 +886,7 @@ connected fibers, and of zero unipotent rank, which implies* *(1.9) that*
 $\mathcal{T}$, and is smooth, separated, of finite type over $S$. Let $G$ operate on $\mathcal{T}$ via inner
 automorphisms, whence a homomorphism of group functors*
 
-$$
-u : G \longrightarrow \operatorname{Aut}_{S}(\mathcal{T}).
-$$
+$$ u : G \longrightarrow \operatorname{Aut}_{S}(\mathcal{T}). $$
 
 *Under these conditions, the following three subfunctors of $G$ are identical:*
 
@@ -970,9 +941,7 @@ and every closed subpreschema $X$ of $M$ of finite type over $S$ is affine over 
 *b) Suppose $S$ quasi-compact, and let $X$ be a closed subpreschema of $M$ of finite type over $S$. Then there exists an
 integer $n > 0$ such that for every multiple $m$ of $n$, the induced morphism*
 
-$$
-u_{m}|X : X \longrightarrow T_{m}
-$$
+$$ u_{m}|X : X \longrightarrow T_{m} $$
 
 *is a closed immersion.*
 
@@ -996,9 +965,7 @@ Let us take up again the inverse limit $T$ of the $T_{n}$ used in the proof of (
 of the $T_{m}$ being bounded, there exists an $n_{0}$ such that the $T_{n} \to T_{n_{0}}$ are étale at $t_{n}$ for every
 $n$ multiple of $n_{0}$.) The proof of *loc. cit.*, or (XI, 3.11), show that the canonical morphism
 
-$$
-u : M \longrightarrow T
-$$
+$$ u : M \longrightarrow T $$
 
 is an immersion, and induces isomorphisms on the local rings (but one will note that $u$ is not in general an open
 immersion nor a quasi-compact morphism). Let $U$ be a quasi-compact open of $M$; we shall prove that its closure in $T$
@@ -1021,8 +988,8 @@ subgroups of $G$, indexed by the integers $n > 0$, $\eta$ the generic point of $
 
 *a) If $m$ is a multiple of $n$, one has $H(n) = {}_{n} H(m)$.*
 
-*b) There exists a multiplicative-type subgroup $H_{\eta}$ of $G_{\eta}$ such that one has
-$H(n)_{\eta} = {}_{n}(H_{\eta})$ for every $n > 0$.*
+*b) There exists a multiplicative-type subgroup $H_{\eta}$ of $G_{\eta}$ such that one has $H(n)_{\eta} =
+{}_{n}(H_{\eta})$ for every $n > 0$.*
 
 *Under these conditions, there exists a multiplicative-type subgroup $H$ of $G$ such that for every $n > 0$, one has
 $H(n) = {}_{n} H$.*
@@ -1057,9 +1024,9 @@ $u_{m}|X : X \to T_{m}$ is also a closed immersion. Since we will not need this 
 of the proof.
 
 **Corollary 5.3.** *With the notations of 5.1, let $U$ be a part of $M$ both open and closed, of finite type over $S$.
-Then $U$ is affine over $S$ for the structure induced by $M$, and if $S$ is quasi-compact, there exists an integer
-$n > 0$ such that for every multiple $m$ of $n$, the induced morphism $u_{m}|U : U \to T_{m}$ is an open and closed
-immersion (i.e. an isomorphism onto an open and closed part of $T_{m}$, equipped with the induced structure).*
+Then $U$ is affine over $S$ for the structure induced by $M$, and if $S$ is quasi-compact, there exists an integer $n >
+0$ such that for every multiple $m$ of $n$, the induced morphism $u_{m}|U : U \to T_{m}$ is an open and closed immersion
+(i.e. an isomorphism onto an open and closed part of $T_{m}$, equipped with the induced structure).*
 
 <!-- label: III.XII.5.3 -->
 
@@ -1143,38 +1110,30 @@ P_n = P_n(G) = O_{G,e}/m_{G,e}^{n+1}   (n an integer ⩾ 0),
 where $m_{G,e}$ is the maximal ideal; then $G$ operates on the $P_{n}(G)$ by the adjoint representation, and if $Z_{n}$
 is the kernel of the corresponding homomorphism
 
-$$
-ad_{n} : G \longrightarrow GL(P_{n}),
-$$
+$$ ad_{n} : G \longrightarrow GL(P_{n}), $$
 
 one verifies easily (using the fact that $G$ is connected) that $Z$ is the intersection of the $Z_{n}$, hence ($G$ being
-noetherian) equal to one of the $Z_{n}$. But $ad_{n}$ defines, on passage to the quotient, a monomorphism
-$G/Z_{n} \to GL(P_{n})$, which is therefore a closed immersion, hence $G/Z_{n}$ is affine, and consequently $G/Z$ is.
+noetherian) equal to one of the $Z_{n}$. But $ad_{n}$ defines, on passage to the quotient, a monomorphism $G/Z_{n} \to
+GL(P_{n})$, which is therefore a closed immersion, hence $G/Z_{n}$ is affine, and consequently $G/Z$ is.
 
 **Lemma 6.2.** *Let $G$ be a smooth algebraic group over the field $k$, $Z$ a central algebraic subgroup, $G' = G/Z$,
 $u : G \to G'$ the canonical homomorphism, $T$ a multiplicative-type subgroup in $G$, $T' = u(T)$ the image group, $C$
 the centralizer of $T$ in $G$, $C'$ that of $T'$ in $G'$. Then one has*
 
-$$
-C'^{0} \subset u(C).
-$$
+$$ C'^{0} \subset u(C). $$
 
 <!-- label: III.XII.6.2 -->
 
 One may suppose $k$ algebraically closed. Let
 
-$$
-C_{1} = (u^{-1}(C')^{0})_{red},
-$$
+$$ C_{1} = (u^{-1}(C')^{0})_{red}, $$
 
 it suffices to prove that $C_{1} \subset C$, since $u(C_{1})$ is connected of finite index in $C'$ <!-- original page 217 -->
 hence equal set-theoretically to $C'^{0}$, hence equal to $C'^{0}$ since $C'$ and consequently $C'^{0}$ are smooth.
 
 Consider the morphism
 
-$$
-(g, t) \mapsto gtg^{-1}t^{-1}
-$$
+$$ (g, t) \mapsto gtg^{-1}t^{-1} $$
 
 from $G \times G$ to $G$; it induces a morphism
 
@@ -1185,13 +1144,11 @@ from $G \times G$ to $G$; it induces a morphism
 since the left-hand side being reduced, it suffices to see that for $g \in C_{1}(k)$, $t \in T(k)$, one has
 $gtg^{-1}t^{-1} \in Z(k)$, which comes from the fact that $g$ centralizes $T$ modulo $Z$. One sees easily (by computing
 on $k$-rational points) that $\varphi(g, t)$ is additive in $g$ and additive in $t$, hence is "bilinear"; I claim that
-(with `Z_1` smooth and `C_1` connected) this homomorphism is identically zero, which will prove indeed that
-$C_{1} \subset C$. Using the density theorem for $T$, we are reduced to the case where $T$ is finite, i.e. where there
-exists an integer $n > 0$ such that $n \cdot id_{T} = 0$. Note that $\varphi$ is defined by a group homomorphism
+(with `Z_1` smooth and `C_1` connected) this homomorphism is identically zero, which will prove indeed that $C_{1}
+\subset C$. Using the density theorem for $T$, we are reduced to the case where $T$ is finite, i.e. where there exists
+an integer $n > 0$ such that $n \cdot id_{T} = 0$. Note that $\varphi$ is defined by a group homomorphism
 
-$$
-C_{1} \longrightarrow \operatorname{Hom}_{S-gr}(T, Z_{1}),
-$$
+$$ C_{1} \longrightarrow \operatorname{Hom}_{S-gr}(T, Z_{1}), $$
 
 now `Z_1` being commutative and smooth, the right-hand side is representable by an étale algebraic group over $k$, and
 `C_1` being connected, every group homomorphism from `C_1` to the latter is zero. QED.
@@ -1209,8 +1166,8 @@ Indeed, then $C' = C'^{0}$; on the other hand $C$ obviously contains $Z$, hence 
 <!-- original page 218 -->
 
 **Lemma 6.4.** *Let $G$ be an algebraic group over the field $k$, $Z$ a central algebraic subgroup such that $G/Z = G'$
-is a torus. Then $G$ is commutative, and if $k$ is algebraically closed, there exists a torus $T$ in $G$ such that
-$u(T) = G'$, where $u$ is the canonical homomorphism $G \to G/Z = G'$.*
+is a torus. Then $G$ is commutative, and if $k$ is algebraically closed, there exists a torus $T$ in $G$ such that $u(T)
+= G'$, where $u$ is the canonical homomorphism $G \to G/Z = G'$.*
 
 <!-- label: III.XII.6.4 -->
 
@@ -1228,17 +1185,13 @@ every homomorphism from the additive group $G_{a}$ to the torus $G' = R$ or to t
 follows that the same holds for every homomorphism from $G_{a}$ to $G$, hence $G$ does not contain a subgroup isomorphic
 to $G_{a}$. By Chevalley's structure theorem already invoked, one has an exact sequence
 
-$$
-(\ast)   0 \longrightarrow T \longrightarrow G \longrightarrow A \longrightarrow 0,
-$$
+$$ (\ast) 0 \longrightarrow T \longrightarrow G \longrightarrow A \longrightarrow 0, $$
 
 where $A$ is an abelian variety, and $T$ an affine smooth connected group. Since the latter is commutative and contains
 no additive subgroup, it follows that $T$ is a torus (and it is evidently the unique maximal torus of $G$). Everything
 reduces to proving that every epimorphism
 
-$$
-u : G \longrightarrow R,
-$$
+$$ u : G \longrightarrow R, $$
 
 where $R$ is a torus, satisfies $u(T) = R$. Set
 
@@ -1246,12 +1199,10 @@ where $R$ is a torus, satisfies $u(T) = R$. Set
 Hom_gr(T, G_m) = M,   Hom_gr(R, G_m) = P,
 ```
 
-(these are finitely generated free $\mathbb{Z}$-modules which recover $T$, $R$ up to isomorphism by $T = D_{k}(M)$,
-$R = D_{k}(P)$), and let
+(these are finitely generated free $\mathbb{Z}$-modules which recover $T$, $R$ up to isomorphism by $T = D_{k}(M)$, $R =
+D_{k}(P)$), and let
 
-$$
-B = Ext^{1}_{k-gr}(A, G_{m}),
-$$
+$$ B = Ext^{1}_{k-gr}(A, G_{m}), $$
 
 ($B$ is also the set of $k$-rational points of the abelian variety dual to $A$). One evidently has
 
@@ -1261,9 +1212,7 @@ $$
 
 in particular the extension $G$ of $A$ by $T$ is given by a homomorphism
 
-$$
-\theta : M \longrightarrow B.
-$$
+$$ \theta : M \longrightarrow B. $$
 
 On the other hand the exact sequence (∗) gives the exact sequence
 
@@ -1280,9 +1229,7 @@ Hom(P, M) ⟶ Hom(P, B)
 
 deduced from $\theta : M \to B$. Setting
 
-$$
-N = Ker(\theta),
-$$
+$$ N = Ker(\theta), $$
 
 one therefore finds a canonical bijection
 
@@ -1299,13 +1246,11 @@ $\theta : M \to B = Ext^{1}(A, G_{m})$ (base field $k$ algebraically closed). Le
 corresponding torus, isomorphic to $T/U$ where $U = D_{k}(M/N)$; consider the extension $H = G/U$ of $A$ by $S$. This
 extension splits,[^N.D.E-XII-7] hence one has a unique projection of $H$ onto $S$, whence a unique homomorphism*
 
-$$
-v : G \longrightarrow S
-$$
+$$ v : G \longrightarrow S $$
 
-*extending the canonical homomorphism $T \to S$. With this stated, for every torus $R$ and every homomorphism
-$u : G \to R$, there exists a unique homomorphism $u' : S \to R$ such that $u = u'v$. In particular, one has
-$Im(u) = Im(u') = u(T)$.*
+*extending the canonical homomorphism $T \to S$. With this stated, for every torus $R$ and every homomorphism $u : G \to
+R$, there exists a unique homomorphism $u' : S \to R$ such that $u = u'v$. In particular, one has $Im(u) = Im(u') =
+u(T)$.*
 
 <!-- label: III.XII.6.5 -->
 
@@ -1330,8 +1275,8 @@ of $G$ and $C$ its centralizer, then $v(C)$ is the centralizer of $v(T)$.*
 
 <!-- original page 221 -->
 
-*e) Under the conditions of d), suppose that `Ker v` is a central subgroup of $G$; then $T \mapsto v(T)$ (resp.
-$C \mapsto v(C)$) establishes a bijective correspondence between the set of maximal tori (resp. the Cartan subgroups) of
+*e) Under the conditions of d), suppose that `Ker v` is a central subgroup of $G$; then $T \mapsto v(T)$ (resp. $C
+\mapsto v(C)$) establishes a bijective correspondence between the set of maximal tori (resp. the Cartan subgroups) of
 $G$ and the set of maximal tori (resp. Cartan subgroups) of $H$. The Cartan subgroups of $G$ contain the center of $G$
 and a fortiori `Ker v`, and are the groups of the form $v^{-1}(C')$, where $C'$ is a Cartan subgroup of $H$.*
 
@@ -1355,9 +1300,7 @@ between maximal tori of $G$ and maximal tori of $G'$.
 
 We now make
 
-$$
-Z = Centr(G)^{0}_{red},
-$$
+$$ Z = Centr(G)^{0}_{red}, $$
 
 then $G'$ is affine by 6.1. Since the maximal tori of $G'$ are then conjugate, the same holds for those of $G$, which
 proves a). <!-- original page 222 --> Moreover, for $G$ to be nilpotent, resp. have only a single maximal torus, it is
@@ -1382,25 +1325,19 @@ and since we know that the centralizer of $T$ is of finite index in its normaliz
 valid without affine hypothesis, using only the representability of the two functors in question, as was signaled in
 (XI, 6.5)), and that $C$ is smooth and connected, we conclude
 
-$$
-C = Norm_{G}(C)^{0}.
-$$
+$$ C = Norm_{G}(C)^{0}. $$
 
 Moreover, by the bijective correspondence between maximal tori and Cartan subgroups, we see that $Norm_{G}(C)$ and
 $Norm_{G}(T)$ have the same $k$-valued points, and since the latter is smooth, one has
 
-$$
-Norm_{G}(T) = Norm_{G}(C).
-$$
+$$ Norm_{G}(T) = Norm_{G}(C). $$
 
 To complete the proof of c), it remains to prove that if $C$ is a smooth nilpotent connected subgroup
     <!-- original page 223 --> of $G$ of finite index in its normalizer, then $C$ is a Cartan subgroup. Now since $Z$ is
 central, the normalizer of $C$ contains $Z$, and since $Z$ is smooth and connected, we conclude $Z \subset C$, whence
 $C = u^{-1}(C')$, where $C' = u(C)$. One then has
 
-$$
-Norm_{G}(C) = u^{-1}(Norm_{G'}(C')),
-$$
+$$ Norm_{G}(C) = u^{-1}(Norm_{G'}(C')), $$
 
 which proves that $C'$ is nilpotent connected of finite index in its normalizer, hence <!-- original page 224 --> by
 *BIBLE* 7 th. 1 it is a Cartan subgroup of $G'$, whence at once that $C$ is a Cartan subgroup of $G$.
@@ -1408,15 +1345,15 @@ which proves that $C'$ is nilpotent connected of finite index in its normalizer,
 Let us prove e): we are under the conditions of the start of the proof (setting $Ker u = Z$, $G' = H$); we have already
 seen that $T \mapsto u(T)$ is a bijective correspondence between maximal tori of $G$ and maximal tori of $G'$. Taking
 into account the bijective correspondence between maximal tori and Cartan subgroups just proved, we deduce a bijective
-correspondence between Cartan subgroups $C$ of $G$ and Cartan subgroups $C'$ of $G'$, by making correspond to
-$C = Centr_{G}(T)$ the group $C' = Centr_{G'}(T')$, where $T' = u(T)$. Since $C'$ is connected by b), it follows by 6.3
-that $C' = u(C)$, and $C = u^{-1}(C')$, which proves e).
+correspondence between Cartan subgroups $C$ of $G$ and Cartan subgroups $C'$ of $G'$, by making correspond to $C =
+Centr_{G}(T)$ the group $C' = Centr_{G'}(T')$, where $T' = u(T)$. Since $C'$ is connected by b), it follows by 6.3 that
+$C' = u(C)$, and $C = u^{-1}(C')$, which proves e).
 
 It remains to prove d). Let $T$ be a maximal torus of $G$; we prove that $v(T)$ is a maximal torus of $H$ (which, taking
 into account the conjugation theorem a), will imply that the maximal tori of $H$ are all of the form $v(T)$ as above).
 Let then $R$ be a torus in $H$ containing $v(T)$; we prove $R = v(T)$. Replacing $H$ by $R$ and $G$ by
-$v^{-1}(R)^{0}_{red}$, we may suppose $R = H$, i.e. that $H$ is a torus, and we are reduced to proving that then
-$v(T) = H$. Let again $Z = Centr(G)^{0}_{red}$, $G' = G/Z$, and $H' = H/v(Z)$:
+$v^{-1}(R)^{0}_{red}$, we may suppose $R = H$, i.e. that $H$ is a torus, and we are reduced to proving that then $v(T) =
+H$. Let again $Z = Centr(G)^{0}_{red}$, $G' = G/Z$, and $H' = H/v(Z)$:
 
 ```text
 e ⟶ Z ⟶ G ⟶^u G′ ⟶ e
@@ -1427,9 +1364,9 @@ e ⟶ v(Z) ⟶ H ⟶^{u′} H′ ⟶ e.
 We already know that $u(T)$ is a maximal torus of $G'$, and since $G'$ is affine, so $v' : G' \to H'$ is an epimorphism
 of affine smooth connected groups, $v'(u(T))$ is a maximal torus of $H'$ (*BIBLE* 7 th. 3 a)) hence equal to $H'$, i.e.
 $u'(v(T)) = H'$; hence to prove $v(T) = H$ it suffices to show that $v(T) \supset v(Z)$. Now $v(Z)$ is a smooth
-connected subgroup of $H$, hence a torus, and $v'' : Z \to v(Z)$ is an epimorphism, hence by 6.4 one has
-$v(Z) = v''(S)$, where $S$ is a torus of $Z$. Now $S$, being central in $G$, is evidently contained in the maximal torus
-$T$, whence $v(Z) \subset v(T)$. This proves assertion d) in the case of maximal tori.
+connected subgroup of $H$, hence a torus, and $v'' : Z \to v(Z)$ is an epimorphism, hence by 6.4 one has $v(Z) =
+v''(S)$, where $S$ is a torus of $Z$. Now $S$, being central in $G$, is evidently contained in the maximal torus $T$,
+whence $v(Z) \subset v(T)$. This proves assertion d) in the case of maximal tori.
 
 Taking into account the bijective correspondence between maximal tori and Cartan subgroups, it remains to prove that if
 $T$ is a maximal torus of $G$ and $C$ its centralizer, then $v(C)$ is the centralizer of $v(T)$. For this, take up again
@@ -1576,9 +1513,7 @@ subpreschema of $G$, by (XI, 6.2). Let us also note:
 **Lemma 7.3.** *Under the preceding conditions for $\ell$, $n$, $r$, for every prescheme $S''$ over $S$ and every
 maximal torus $T''$ of $G_{S''}$, one has*
 
-$$
-Centr_{G_{S''}}(T'') = Centr_{G_{S''}}({}_{n} T'').
-$$
+$$ Centr_{G_{S''}}(T'') = Centr_{G_{S''}}({}_{n} T''). $$
 
 <!-- label: III.XII.7.3 -->
 
@@ -1607,10 +1542,10 @@ subgroup of $G$; then by flat descent to the case where $G$ admits a maximal tor
 $Transp_{G}(T, C)$ is representable by a closed subpreschema of $G$ smooth over $S$. Moreover, by the hypothesis on
 $C_{s}$, the fiber of the transporter at $s$ is non-empty (taking into account the conjugation theorem 6.6 a)). This
 reduces us by faithfully flat descent to the case where this transporter admits a section over $S$, hence to the case
-where $C$ contains a maximal torus $T$ of $G$. But then $T$ is central in $C^{0}$ by (IX, 5.6 a)), hence
-$C^{0} \subset Centr_{G}(T)$, and since this is an inclusion of smooth group schemes over $S$ having the same relative
-dimension (namely, the dimension of their common fiber at $s$) and with connected fibers, it is an equality, which
-completes the proof.
+where $C$ contains a maximal torus $T$ of $G$. But then $T$ is central in $C^{0}$ by (IX, 5.6 a)), hence $C^{0} \subset
+Centr_{G}(T)$, and since this is an inclusion of smooth group schemes over $S$ having the same relative dimension
+(namely, the dimension of their common fiber at $s$) and with connected fibers, it is an equality, which completes the
+proof.
 
 d) We keep the preceding notations and hypotheses for $\ell$, $n$, $r$, and the connectedness of the fibers of $G$. Let
 $Q : (Sch)^{\circ}/S \to (Ens)$ be the functor defined by
@@ -1627,26 +1562,22 @@ T ⟼ _n T
 
 is a morphism
 
-$$
-\varphi : \mathcal{T} \longrightarrow Q,
-$$
+$$ \varphi : \mathcal{T} \longrightarrow Q, $$
 
 which is a monomorphism by 7.3. I claim that $Q$ is representable by a separated prescheme of finite presentation over
 $S$. Indeed, as we signaled in the proof of (XI, 3.12 a)), one has an isomorphism
 
-$$
-Q \simeq P_{0}/\Gamma
-$$
+$$ Q \simeq P_{0}/\Gamma $$
 
 <!-- original page 231 -->
 
 where `P_0` is the open and closed subpreschema of the prescheme $P = \operatorname{Hom}_{S-gr}(M_{S}, G)$ introduced in
-c) corresponding to the monomorphisms $M_{S'} \to G_{S'}$ (cf. IX, 6.8), and where
-$\Gamma = (\operatorname{Aut}_{gr}(M))_{S}$. The hypothesis that every finite part of a fiber $G_{s}$ is contained in an
-affine open of $G$, being stable under passage to a closed subpreschema and under cartesian products, is evidently
-inherited by $({}_{n} G)^{r}$ hence by $P$, hence by `P_0`, so that $Q$ is representable by a prescheme of finite
-presentation over $S$ (cf. V).[^N.D.E-XII-10] One sees in the same way that if $G$ is quasi-projective (resp. affine)
-over $S$, the same holds for $Q$. In any case, $Q$ is separated over $S$. Now one has the
+c) corresponding to the monomorphisms $M_{S'} \to G_{S'}$ (cf. IX, 6.8), and where $\Gamma =
+(\operatorname{Aut}_{gr}(M))_{S}$. The hypothesis that every finite part of a fiber $G_{s}$ is contained in an affine
+open of $G$, being stable under passage to a closed subpreschema and under cartesian products, is evidently inherited by
+$({}_{n} G)^{r}$ hence by $P$, hence by `P_0`, so that $Q$ is representable by a prescheme of finite presentation over
+$S$ (cf. V).[^N.D.E-XII-10] One sees in the same way that if $G$ is quasi-projective (resp. affine) over $S$, the same
+holds for $Q$. In any case, $Q$ is separated over $S$. Now one has the
 
 **Lemma 7.5.** *The homomorphism $\varphi : \mathcal{T} \to Q$ above is representable by an open immersion.*
 
@@ -1655,20 +1586,21 @@ over $S$, the same holds for $Q$. In any case, $Q$ is separated over $S$. Now on
 In other words, one must prove that if $H$ is a multiplicative-type subgroup of $G$, of type $M$, then there exists an
 open part $U$ of $S$ such that for every $S'$ over $S$, $H_{S'}$ is of the form ${}_{n} T_{S'}$, for a suitable maximal
 torus $T_{S'}$ of $G_{S'}$, if and only if $S' \to S$ factors through $U$. One may evidently suppose that the nilpotent
-rank of the fibers of $G$ is constant (since by b), it is locally constant), say $r'$. Let $C = Centr_{G}(H)$, which is a
-closed group subpreschema of $G$ smooth over $S$ (XI, 6.2). Then replacing $S$ by the open and closed part of the points
-at which $C$ is of relative dimension $r'$, we may suppose $C$ of relative dimension $r'$ everywhere. One then sees at
-once that $H$ is of the form ${}_{n} T$, for a maximal torus $T$ of $G$, if and only if $C^{0}$ admits a central maximal torus
-$T$ of relative dimension $r$ everywhere and $H = {}_{n} T$, which gives another expression of the subfunctor $U$ of $S$ we
-wish to represent (in replacing in the preceding criterion $S$ by an $S'$ over $S$). Moreover by flat descent, we may
-suppose that $G$ admits a maximal torus `T_1`. Let $R$ be the subfunctor $Transp_{G}(T_{1}, Centr_{C^{0}}(C^{0}))$ of
-$Transp_{G}(T_{1}, C)$; the latter is representable by a smooth prescheme over $S$ by (XI, 6.2), and the former is
-representable by an induced open subpreschema, as follows at once from (IX, 5.6 a)); in particular it is smooth over
-$S$. Consequently its structural morphism into $S$ is open, <!-- original page 232 --> hence its image is open, and
-replacing $S$ by the said image (equipped with the induced structure) we may suppose the structural morphism surjective.
-Then by 1.13 applied to $C^{0}$, $C^{0}$ admits a central maximal torus $T$ since it admits one locally for fpqc, which will
-evidently be of relative dimension equal to that of `T_1`, i.e. $r$. Thus, the condition to be expressed for $H$ is the
-equality $H = {}_{n} T$, which by (IX, 2.10) amounts again to taking a suitable open (and closed) part of $S$.
+rank of the fibers of $G$ is constant (since by b), it is locally constant), say $r'$. Let $C = Centr_{G}(H)$, which is
+a closed group subpreschema of $G$ smooth over $S$ (XI, 6.2). Then replacing $S$ by the open and closed part of the
+points at which $C$ is of relative dimension $r'$, we may suppose $C$ of relative dimension $r'$ everywhere. One then
+sees at once that $H$ is of the form ${}_{n} T$, for a maximal torus $T$ of $G$, if and only if $C^{0}$ admits a central
+maximal torus $T$ of relative dimension $r$ everywhere and $H = {}_{n} T$, which gives another expression of the
+subfunctor $U$ of $S$ we wish to represent (in replacing in the preceding criterion $S$ by an $S'$ over $S$). Moreover
+by flat descent, we may suppose that $G$ admits a maximal torus `T_1`. Let $R$ be the subfunctor $Transp_{G}(T_{1},
+Centr_{C^{0}}(C^{0}))$ of $Transp_{G}(T_{1}, C)$; the latter is representable by a smooth prescheme over $S$ by (XI,
+6.2), and the former is representable by an induced open subpreschema, as follows at once from (IX, 5.6 a)); in
+particular it is smooth over $S$. Consequently its structural morphism into $S$ is open, <!-- original page 232 -->
+hence its image is open, and replacing $S$ by the said image (equipped with the induced structure) we may suppose the
+structural morphism surjective. Then by 1.13 applied to $C^{0}$, $C^{0}$ admits a central maximal torus $T$ since it
+admits one locally for fpqc, which will evidently be of relative dimension equal to that of `T_1`, i.e. $r$. Thus, the
+condition to be expressed for $H$ is the equality $H = {}_{n} T$, which by (IX, 2.10) amounts again to taking a suitable
+open (and closed) part of $S$.
 
 Lemma 7.5 therefore implies that $\mathcal{T}$ is representable by a separated prescheme locally of finite presentation
 over $S$, and even of finite presentation over $S$, as one sees by taking up again the proof of 7.5 to assure oneself
@@ -1683,18 +1615,18 @@ the case where $S$ is the spectrum of a field (EGA I, 6.1.7), which one may supp
 f), which will be proved below, it suffices to prove the same assertion for $G/Centr(G)$; now this last is affine by
 6.1, so that one is under the preceding conditions. This completes the proof of d).
 
-e) By (IX, 6.8), we know that there exists a subtorus $T'$ of $G'$ such that $u$ induces a faithfully flat morphism
-$T \to T'$ (which characterizes $T'$ as the subsheaf $u(T)$ of $G'$). Let $C$ be the centralizer of $T$, $C'$ that of
-$T'$; we prove that the morphism <!-- original page 233 --> $C \to C'$ is flat, and faithfully flat if $G'$ has
-connected fibers. Since $C$, $C'$ are flat of finite presentation over $S$, one is reduced to the case of a base field
-(SGA 1, I 5.9), which one may evidently suppose algebraically closed. Moreover one may suppose $G$, $G'$ connected
-(replacing them by $G^{0}$ and $G'^{0}$ if necessary, which does not change $C^{0}$ and $C'^{0}$), and it then suffices
-to apply 6.6 d), taking into account a).
+e) By (IX, 6.8), we know that there exists a subtorus $T'$ of $G'$ such that $u$ induces a faithfully flat morphism $T
+\to T'$ (which characterizes $T'$ as the subsheaf $u(T)$ of $G'$). Let $C$ be the centralizer of $T$, $C'$ that of $T'$;
+we prove that the morphism <!-- original page 233 --> $C \to C'$ is flat, and faithfully flat if $G'$ has connected
+fibers. Since $C$, $C'$ are flat of finite presentation over $S$, one is reduced to the case of a base field (SGA 1, I
+5.9), which one may evidently suppose algebraically closed. Moreover one may suppose $G$, $G'$ connected (replacing them
+by $G^{0}$ and $G'^{0}$ if necessary, which does not change $C^{0}$ and $C'^{0}$), and it then suffices to apply 6.6 d),
+taking into account a).
 
 f) Taking into account a) and e), one may restrict to proving the assertion concerning the Cartan subgroups. Now since a
 Cartan subgroup of $G$ is the centralizer of a maximal torus, it contains the center of $G$ and a fortiori `Ker u`,
-hence is of the form $u^{-1}(C')$, where $C' = u(C)$ is the Cartan subgroup of $G'$ envisaged in e). Hence the map
-$C \mapsto u(C)$ is injective; to show that it is bijective, it suffices to see that for every Cartan subgroup $C'$ of
+hence is of the form $u^{-1}(C')$, where $C' = u(C)$ is the Cartan subgroup of $G'$ envisaged in e). Hence the map $C
+\mapsto u(C)$ is injective; to show that it is bijective, it suffices to see that for every Cartan subgroup $C'$ of
 $G'$, $u^{-1}(C')$ is a Cartan subgroup of $G$. The question being local for fpqc, we may suppose that $G$ admits a
 Cartan subgroup `C_1`, hence $u(C_{1}) = C'_{1}$ is a Cartan subgroup of $G'$, hence locally conjugate to $C'$ for fpqc
 by b), and since $u^{-1}(C'_{1}) = C_{1}$ is a Cartan subgroup of $G$, it follows that $u^{-1}(C')$ is a Cartan subgroup
@@ -1760,9 +1692,7 @@ subgroup of $G_{s}$). Then one has the following:*
 *a) $Norm_{G}(H)$ is representable by a closed subpreschema $Norm_{G}(H)$ of $G$ of finite presentation over $S$, and
 the canonical monomorphism $H \to Norm_{G}(H)$ is an open immersion; consequently $i$ is an immersion, and one has*
 
-$$
-H = Norm_{G}(H)^{0}.
-$$
+$$ H = Norm_{G}(H)^{0}. $$
 
 *b) For every Cartan subgroup $C$ of $G$, $Transp_{G}(C, H)$ is a closed subpreschema of $G$, smooth over $S$, with
 surjective structural morphism. If $C$ is the centralizer of a maximal torus $T$ of $G$, one has moreover*
@@ -1791,16 +1721,12 @@ equivalently that $(g/h)^{H} = 0$, where $g$ and $h$ are the Lie algebras of $G$
 denotes the invariants under $H$ (cf. II, 5.2.3 (i)). Now $H$ contains by hypothesis a Cartan subgroup $C$ of $G$, the
 centralizer of the maximal torus $T$ of $G$, and it suffices therefore to prove that one has
 
-$$
-(g/h)^{T} = 0,
-$$
+$$ (g/h)^{T} = 0, $$
 
 which follows, taking into account complete reducibility of the representations of $T$ (I, 4.7.3), from the analogous
 relation $(g/c)^{T}$, where $c = Lie(C)$. As for this latter, equivalent to
 
-$$
-g^{T} = c,
-$$
+$$ g^{T} = c, $$
 
 it means that the centralizer $C$ and the normalizer $N$ of $T$ have the same Lie algebra, which follows from the fact
 that $C$ is an open subgroup of $N$ (XI, 5.9). This completes the proof of a).
@@ -1867,10 +1793,10 @@ field. Then $H'$ contains a Cartan subgroup $C'$ of $G'$, hence $H$ contains the
 Cartan subgroup of $G$ by 6.6 e), hence $C$ is smooth and connected. Consequently 7.11 follows from the following lemma:
 
 **Lemma 7.13.** *Let $G$, $G'$ be two preschemata in groups flat of finite presentation over $S$, $u : G \to G'$ a group
-homomorphism which is faithfully flat, $C'$ a group subpreschema of $G'$ of finite presentation over $S$, such that
-$C = u^{-1}(C')$ is smooth over $S$ (resp. has connected fibers). Then for every group subpreschema $H'$ of $G'$ of
-finite presentation over $S$, containing $C'$, and such that $H'$ is smooth over $S$ (resp. has connected fibers), its
-inverse image $H = u^{-1}(H')$ is smooth over $S$ (resp. has connected fibers).*
+homomorphism which is faithfully flat, $C'$ a group subpreschema of $G'$ of finite presentation over $S$, such that $C =
+u^{-1}(C')$ is smooth over $S$ (resp. has connected fibers). Then for every group subpreschema $H'$ of $G'$ of finite
+presentation over $S$, containing $C'$, and such that $H'$ is smooth over $S$ (resp. has connected fibers), its inverse
+image $H = u^{-1}(H')$ is smooth over $S$ (resp. has connected fibers).*
 
 <!-- label: III.XII.7.13 -->
 
@@ -1917,9 +1843,7 @@ $\mathcal{T}$ defined in 1.10 (functor of maximal tori) is representable by a pr
 quasi-projective over $S$). Consider the canonical maximal torus $T$ of $G_{\mathcal{T}}$ ("universal maximal torus of
 $G$"), and the morphism
 
-$$
-u : T \longrightarrow G
-$$
+$$ u : T \longrightarrow G $$
 
 induced by the projection $G_{\mathcal{T}} \to G$. Then it follows at once from the definition that $G^{ss}$ is none
 other than the image of the preceding morphism. We shall conclude:
@@ -2024,9 +1948,7 @@ Introducing the functors $\mathcal{T}(S') =$ set of maximal tori of $G_{S'}$, an
 where $T'$ is a maximal torus of $G_{S'}$ and $g'$ a section of $T'$ over $S'$, one sees that $T$ is a subfunctor of
 $\mathcal{T} \times_{S} G = \mathcal{T}_{G}$, and with these notations, one may also write
 
-$$
-\mathcal{Z} = \prod_{\mathcal{T}_{G}/G} T/\mathcal{T}_{G}.
-$$
+$$ \mathcal{Z} = \prod_{\mathcal{T}_{G}/G} T/\mathcal{T}_{G}. $$
 
 Using (XI, 6.8) and 7.1 d) which ensures the representability of $\mathcal{T}$ by a smooth $S$-prescheme under certain
 conditions, one could conclude the representability of $\mathcal{Z}$ under certain conditions, which we shall however
@@ -2043,9 +1965,7 @@ center of $G_{S'}$; on the other hand, the existence of a reductive center is ev
 topology. As for the terminology "reductive center", note that $Z$ is in any case central, since evidently $\mathcal{Z}$
 is invariant under
 
-$$
-\operatorname{Aut}_{S}(G)
-$$
+$$ \operatorname{Aut}_{S}(G) $$
 
 and *a fortiori* it is an invariant subgroup of $G$, and one applies (IX, 5.5).
 
@@ -2106,18 +2026,18 @@ closed; then $G$ admits a maximal torus $T$, and by definition one will have $Z 
 multiplicative type as an algebraic subgroup of a multiplicative-type group (IX, 8). This proves that $Z$ is a reductive
 center of $G$. The fact that it is the largest central multiplicative-type subgroup of $V$ is contained in 8.7.
 
-b) The "only if" being trivial, let us prove that if $Z$ is a multiplicative-type subgroup of $G$ such that for every
-$s \in S$, $Z_{s}$ is the reductive center of $G_{s}$, <!-- original page 247 --> then $Z$ is a reductive center of $G$.
+b) The "only if" being trivial, let us prove that if $Z$ is a multiplicative-type subgroup of $G$ such that for every $s
+\in S$, $Z_{s}$ is the reductive center of $G_{s}$, <!-- original page 247 --> then $Z$ is a reductive center of $G$.
 One must first prove that $Z$ is contained in every maximal torus of $G$ (which will thus remain true after every base
 change): this is an immediate consequence of 8.7. Next, one must prove that if $g$ is a section of $G$ over $S$ such
 that for every $S'$ over $S$ and every maximal torus $T'$ of $G_{S'}$, $g_{S'}$ is a section of $T'$, then $g$ is a
-section of $Z$. Note that one could reduce as usual (taking into account that
-$\prod_{\mathcal{T}_{G}/G} T/\mathcal{T}_{G} = \mathcal{Z}_{0}$ is an fpqc sheaf that commutes with inductive limits of
-rings) to the case $S$ affine, then $S$ noetherian, and finally $S$ artinian. Then $\mathcal{T}$ is representable by a
-smooth prescheme over $S$ by 7.1 d), so proceeding as in a), one sees that $\prod_{\mathcal{T}_{G}/G} T/\mathcal{T}_{G}$
-is representable by a closed subscheme `Z_0` of $G$. We have already seen that $Z \subset Z_{0}$; on the other hand by
-hypothesis on $Z$ one has `Z_k = Z_0_k` (where $k$ is the residue field); now $Z$ being flat over $S$, it follows
-$Z = Z_{0}$, which proves that $Z$ is a reductive center of $G$. The other assertions of b) are contained in 8.7.
+section of $Z$. Note that one could reduce as usual (taking into account that $\prod_{\mathcal{T}_{G}/G}
+T/\mathcal{T}_{G} = \mathcal{Z}_{0}$ is an fpqc sheaf that commutes with inductive limits of rings) to the case $S$
+affine, then $S$ noetherian, and finally $S$ artinian. Then $\mathcal{T}$ is representable by a smooth prescheme over
+$S$ by 7.1 d), so proceeding as in a), one sees that $\prod_{\mathcal{T}_{G}/G} T/\mathcal{T}_{G}$ is representable by a
+closed subscheme `Z_0` of $G$. We have already seen that $Z \subset Z_{0}$; on the other hand by hypothesis on $Z$ one
+has `Z_k = Z_0_k` (where $k$ is the residue field); now $Z$ being flat over $S$, it follows $Z = Z_{0}$, which proves
+that $Z$ is a reductive center of $G$. The other assertions of b) are contained in 8.7.
 
 c) Reduces immediately to d).
 
@@ -2132,8 +2052,8 @@ the proof of the reverse inclusion is the same as in 4.7 d), we do not repeat it
 as $Ker(T \to GL(g))$ it is of multiplicative type (cf. for example (IX, 6.8)). To prove that it is a reductive center
 of $G$, one is reduced by b) to the case where $S$ is the spectrum of a field. Let then `Z_0` be the reductive center
 (which exists by a)); one has evidently $Z_{0} \subset T \cap Centr(G) = Z$; on the other hand since $Z$ is a central
-multiplicative-type subgroup contained in the smooth connected affine subgroup $T$, it follows from a) that
-$Z_{0} \supset Z$, hence $Z_{0} = Z$. QED.
+multiplicative-type subgroup contained in the smooth connected affine subgroup $T$, it follows from a) that $Z_{0}
+\supset Z$, hence $Z_{0} = Z$. QED.
 
 e) Under the conditions of 7.1 f) set $Z = Ker u$ and suppose that for every algebraically closed field $k$ over $S$,
 $Z_{k}$ is contained in a maximal torus of $G_{k}$. Then one verifies easily that the map $T' \mapsto u^{-1}(T')$
@@ -2213,32 +2133,28 @@ Let $\epsilon_{0}$ be a point of $X^{G}(S_{0})$ that lifts to a point of $X(S)$.
 lifting $\epsilon_{0}$ to a point of $X^{G}(S)$. Since $X$ is smooth, one knows that the liftings of $\epsilon_{0}$ to
 $X(S)$ form a principal homogeneous space, trivial for the abelian group
 
-$$
-\operatorname{Hom}_{O_{S_{0}}}(\epsilon^{*}_{0}(\Omega^{1}_{X_{0}/S_{0}}), \mathcal{I})
-$$
+$$ \operatorname{Hom}_{O_{S_{0}}}(\epsilon^{*}_{0}(\Omega^{1}_{X_{0}/S_{0}}), \mathcal{I}) $$
 
 (III, 0.2, 0.3). One sets
 
-$$
-L_{0} = \operatorname{Hom}_{O_{S_{0}}}(\epsilon^{*}_{0}(\Omega^{1}_{X_{0}/S_{0}}), \mathcal{I}),
-$$
+$$ L_{0} = \operatorname{Hom}_{O_{S_{0}}}(\epsilon^{*}_{0}(\Omega^{1}_{X_{0}/S_{0}}), \mathcal{I}), $$
 
 this is an $O_{S_{0}}$-module. Moreover, given that $\epsilon_{0}$ is fixed under $G$, `L_0` is naturally a
-`G_0`-$O_{S_{0}}$-module. One writes $\rho_{0} : G_{0} \to \operatorname{Aut}_{S_{0}}(L_{0})$ (resp.
-$\rho : G \to \operatorname{Aut}_{S}(j_{*}L_{0})$) for the associated representation.
+`G_0`-$O_{S_{0}}$-module. One writes $\rho_{0} : G_{0} \to \operatorname{Aut}_{S_{0}}(L_{0})$ (resp. $\rho : G \to
+\operatorname{Aut}_{S}(j_{*}L_{0})$) for the associated representation.
 
 **Lemma 9.4.** *There exists a certain class $c(\epsilon_{0}) \in H^{1}(G, j_{*}L_{0}) \simeq H^{1}(G_{0}, L_{0})$,
-defined canonically by $\epsilon_{0}$, such that $\epsilon_{0}$ lifts to $X^{G}(S)$ if and only if
-$c(\epsilon_{0}) = 0$.*
+defined canonically by $\epsilon_{0}$, such that $\epsilon_{0}$ lifts to $X^{G}(S)$ if and only if $c(\epsilon_{0}) =
+0$.*
 
 <!-- label: III.XII.9.4 -->
 
 <!-- original page 163 -->
 
 The adjunction $H^{1}(G, j_{*}L_{0}) \simeq H^{1}(G_{0}, L_{0})$ is that of lemma (III, 1.1.2). We work with the small
-fppf site on $S$. For every flat scheme $T$ of finite presentation over $S$, one writes $G_{T} = G \times_{S} T$,
-$X_{T} = X \times_{S} T$ for the corresponding objects over $T$. Consider the sheaf $\mathcal{A}$ on the small fppf site
-of $S$ such that, for every $T$ flat and of finite presentation over $S$, one has:
+fppf site on $S$. For every flat scheme $T$ of finite presentation over $S$, one writes $G_{T} = G \times_{S} T$, $X_{T}
+= X \times_{S} T$ for the corresponding objects over $T$. Consider the sheaf $\mathcal{A}$ on the small fppf site of $S$
+such that, for every $T$ flat and of finite presentation over $S$, one has:
 
 ```text
 𝒜(T) = {set of liftings of ε_0 ×_S T in X(T)}.
@@ -2268,9 +2184,9 @@ the 1-cocycle $z$ in $Z^{1}(G, L)$ (Exposé I, § 5).
 
 Its class $c(\epsilon_{0})$ in $H^{1}(G, j_{*}L_{0})$ does not depend on the choice of $a$. In particular, if
 $\epsilon_{0}$ lifts to $X^{G}(S)$, one has $c(\epsilon_{0}) = 0$. Conversely, if $c(\epsilon_{0}) = 0$, then there
-exists $w \in H^{0}(S, j_{*}L_{0})$ such that $z(Y)(g) = g.w_{Y} - w_{Y}$ for every $S$-prescheme $Y$ and every
-$g \in G(Y)$. Applying this to $Y = G$ and to $g^{\sharp}$, one concludes that $a - w \in X^{G}(S)$. We have thus
-established that $\epsilon_{0}$ lifts in $X^{G}(S)$ if and only if $c(\epsilon_{0}) = 0$.
+exists $w \in H^{0}(S, j_{*}L_{0})$ such that $z(Y)(g) = g.w_{Y} - w_{Y}$ for every $S$-prescheme $Y$ and every $g \in
+G(Y)$. Applying this to $Y = G$ and to $g^{\sharp}$, one concludes that $a - w \in X^{G}(S)$. We have thus established
+that $\epsilon_{0}$ lifts in $X^{G}(S)$ if and only if $c(\epsilon_{0}) = 0$.
 
 **Remark 9.5.** *In the case where $G$ is affine and flat of finite type over $S$ affine, one can refine this
 obstruction into a class $\tilde{c}(\epsilon_{0}) \in H^{1}_{G_{0}}(X_{0}, L_{0})$ where $H^{1}_{G_{0}}(X_{0}, L_{0})$
@@ -2287,9 +2203,7 @@ that $\epsilon_{0}$ lifts to $X(S)$.*
 $S$-scheme $X$. Suppose that $G$ is $S$-pure, and for every geometric point $s$ above $S$ (with algebraically closed
 residue field), one has*
 
-$$
-H^{1}(G_{s}, (\Omega^{1}_{X_{s}})*) = 0.
-$$
+$$ H^{1}(G_{s}, (\Omega^{1}_{X_{s}})*) = 0. $$
 
 *Then the functor $X^{G}$ of fixed points of $X$ under $G$ is representable by a closed subscheme of $X$ smooth over
 $S$.*
@@ -2304,29 +2218,25 @@ local ring and $I'$ an ideal of square zero of $A'$. By dévissage, one reduces 
 the maximal ideal of $A'$. In particular, if $k$ denotes the residue field of $A'$, $I'$ is a $k$-vector space.
 
 One is therefore given an element $\epsilon''_{0} \in X^{G}(S''_{0})$ which one wishes to lift to $X^{G}(S')$. One then
-writes $X_{0} = X \times_{S} S'$, $G' = G \times_{S} S'$, $X''_{0} = X \times_{S} S''_{0}$,
-$G''_{0} = G \times_{S} S''_{0}$. Given that $S'$ is affine and that `X_0` is smooth over $S'$,
-$\epsilon''_{0} \in X^{G}(S''_{0})$ lifts to $X(S')$. By Lemma 9.4, the class
+writes $X_{0} = X \times_{S} S'$, $G' = G \times_{S} S'$, $X''_{0} = X \times_{S} S''_{0}$, $G''_{0} = G \times_{S}
+S''_{0}$. Given that $S'$ is affine and that `X_0` is smooth over $S'$, $\epsilon''_{0} \in X^{G}(S''_{0})$ lifts to
+$X(S')$. By Lemma 9.4, the class
 
-$$
-c(\epsilon_{0}) \in H^{1}(G''_{0}, L''_{0})
-$$
+$$ c(\epsilon_{0}) \in H^{1}(G''_{0}, L''_{0}) $$
 
-is the obstruction to lifting $\epsilon''_{0}$ in $X^{G}(S')$, where
-$L''_{0} = \operatorname{Hom}_{O_{S''_{0}}}(\epsilon''_{0}*(\Omega^{1}_{X''_{0}/S''_{0}}), I')$. Given that $L''_{0}$ is
-a $k$-vector space, one has a canonical isomorphism
-$H^{1}(G''_{0}, L''_{0}) \simeq H^{1}(G''_{0} \times_{A''_{0}} k, L''_{0})$. It suffices to show that
-$H^{1}(G''_{0} \times_{A''_{0}} k, L''_{0}) = 0$. Writing $\bar{k}$ for an algebraic closure of $k$, one has an
-isomorphism (IX, 3.1 in the affine case, lemma 9.11 in general)
+is the obstruction to lifting $\epsilon''_{0}$ in $X^{G}(S')$, where $L''_{0} =
+\operatorname{Hom}_{O_{S''_{0}}}(\epsilon''_{0}*(\Omega^{1}_{X''_{0}/S''_{0}}), I')$. Given that $L''_{0}$ is a
+$k$-vector space, one has a canonical isomorphism $H^{1}(G''_{0}, L''_{0}) \simeq H^{1}(G''_{0} \times_{A''_{0}} k,
+L''_{0})$. It suffices to show that $H^{1}(G''_{0} \times_{A''_{0}} k, L''_{0}) = 0$. Writing $\bar{k}$ for an algebraic
+closure of $k$, one has an isomorphism (IX, 3.1 in the affine case, lemma 9.11 in general)
 
 ```text
 H¹(G″_0 ×_{A″_0} k, L″_0) ⊗_k k̄ ≃ H¹(G″_0 ×_{A″_0} k̄, L″_0 ⊗_k k̄).
 ```
 
-One then remarks that the representation $L''_{0} \otimes_{k} \bar{k}$ is a direct sum of
-$(\Omega^{1}_{X_{0} \times_{k} \bar{k}})*$. By hypothesis one has
-$H^{1}(G''_{0} \times_{k} A''_{0}, (\Omega^{1}_{X_{0} \times_{k} \bar{k}})*) = 0$, which implies
-$H^{1}(G''_{0} \times_{A''_{0}} k, L''_{0}) = 0$.
+One then remarks that the representation $L''_{0} \otimes_{k} \bar{k}$ is a direct sum of $(\Omega^{1}_{X_{0} \times_{k}
+\bar{k}})*$. By hypothesis one has $H^{1}(G''_{0} \times_{k} A''_{0}, (\Omega^{1}_{X_{0} \times_{k} \bar{k}})*) = 0$,
+which implies $H^{1}(G''_{0} \times_{A''_{0}} k, L''_{0}) = 0$.
 
 **Corollary 9.8.** *Let $G$ be a flat $S$-group scheme of finite presentation acting on a smooth $S$-scheme $X$ of
 finite presentation. Suppose that $G$ admits a composition series whose factors are of one of the following types:*
@@ -2378,8 +2288,8 @@ over the algebraically closed field $k$, this result is due independently to Fog
 
 The proof of Theorem 9.7 uses the following lemma, well known in the case of an affine group scheme (IX, 3.1).
 
-**Lemma 9.11.** *Let $G$ be a group scheme over an affine scheme $S = \operatorname{Spec}(A)$, and
-$f : S' = \operatorname{Spec}(A') \to S$ a flat morphism. Set $G' = G \times_{S} S'$. Then for every quasi-coherent
+**Lemma 9.11.** *Let $G$ be a group scheme over an affine scheme $S = \operatorname{Spec}(A)$, and $f : S' =
+\operatorname{Spec}(A') \to S$ a flat morphism. Set $G' = G \times_{S} S'$. Then for every quasi-coherent
 $G$-`O_S`-module $M$, one has canonical isomorphisms*
 
 ```text
@@ -2389,9 +2299,9 @@ H^i(G, M) ⊗_A A′ ≃ H^i(G′, M ⊗_A A′)   (i ⩾ 0).
 <!-- label: III.XII.9.11 -->
 
 Given that the chains of degree $n \geqslant 1$ for Hochschild cohomology are determined by their value at the point
-$(id, \cdots, id) \in G(G) \times \cdots \times G(G)$, one has an isomorphism of $A$-modules
-$C^{n}(G, M) \simeq \Gamma(G^{n}, M \otimes_{A} O_{G^{n}})$. The cohomology group $H^{n}(G, M)$ is the $n$-th cohomology
-group of the complex
+$(id, \cdots, id) \in G(G) \times \cdots \times G(G)$, one has an isomorphism of $A$-modules $C^{n}(G, M) \simeq
+\Gamma(G^{n}, M \otimes_{A} O_{G^{n}})$. The cohomology group $H^{n}(G, M)$ is the $n$-th cohomology group of the
+complex
 
 ```text
 L ⟶ Γ(G, M ⊗_A O_G) ⟶ Γ(G², M ⊗_A O_{G²}) ⟶ Γ(G³, M ⊗_A O_{G³}) ⟶ ⋯

@@ -243,8 +243,8 @@ The 2011 SMF re-edition is modern LaTeX, so OCR is high quality. Most math symbo
   ($[{}^{N}.D.E-I-3]$, etc.) and translate the body of the note.
 - **$\ddot{\imath}$ or `ı`** (dotless i with floating diacritic) — restore to `ï`.
 - **Backslash escapes** surviving from LaTeX: `\&` → `&`, `\#` → `#`.
-- **Arrows.** $-\to$ → $\to$, $7\to$ → $\mapsto$, $\sim=$ (often broken across lines) → $\cong$, `\sim\n\to`
-  (OCR artefact) → $\xrightarrow{\sim}$ or $\to$ annotated `~`.
+- **Arrows.** $-\to$ → $\to$, $7\to$ → $\mapsto$, $\sim=$ (often broken across lines) → $\cong$, `\sim\n\to` (OCR
+  artefact) → $\xrightarrow{\sim}$ or $\to$ annotated `~`.
 - **Greek subscripts.** $\pi 1$, `H0`, `G m` etc. should be $\pi_{1}$, $H^{0}$, $G_{m}$ (with backticks).
 - **`◦` for opposite category** drops to $o$ or `0`. Restore ${}^{\circ}$ or ${}^{\circ}$ (degree sign), matching local
   convention.

@@ -8,8 +8,6 @@ repo root. With ``--check`` the script exits non-zero if the committed
 file is stale; this is the drift gate run in CI.
 """
 
-from __future__ import annotations
-
 import argparse
 import re
 import sys

@@ -34,9 +34,7 @@ $\Phi$ is the set of closed parts of $X$ contained in $Z$. Hence one has:
 We wish to generalize this definition to the case where $Z$ is a locally closed part of $X$, hence closed in a suitable
 open part $V$ of $X$. In this case we shall set:
 
-$$
-\Gamma_{Z}(F) = \Gamma_{Z}(F|V).
-$$
+$$ \Gamma_{Z}(F) = \Gamma_{Z}(F|V). $$
 
 <!-- label: eq:I.1.3 -->
 
@@ -44,9 +42,7 @@ It must be verified that $\Gamma_{Z}(F)$ "does not depend" on the open set chose
 with $V \supset V' \supset Z$, is an open set, then the map $\rho^{V}_{V'}: F(V) \to F(V')$ maps $\Gamma_{Z}(F|V)$
 isomorphically onto $\Gamma_{Z}(F|V')$. Now
 
-$$
-\Gamma_{Z}(F|V) = \ker \rho^{V}_{V-Z},
-$$
+$$ \Gamma_{Z}(F|V) = \ker \rho^{V}_{V-Z}, $$
 
 <!-- label: eq:I.1.4 -->
 
@@ -57,13 +53,11 @@ $\Gamma_{Z}(F|V) \to \Gamma_{Z}(F|V')$.
 
 <!-- original page 7 -->
 
-Note that every open set $W$ of $Z$ is induced by an open set $U$ of $X$ in which $W$ is closed. It follows that
-$W \mapsto \Gamma_{W}(F)$ defines a presheaf on $Z$, and one verifies that this is a sheaf, which we shall denote
+Note that every open set $W$ of $Z$ is induced by an open set $U$ of $X$ in which $W$ is closed. It follows that $W
+\mapsto \Gamma_{W}(F)$ defines a presheaf on $Z$, and one verifies that this is a sheaf, which we shall denote
 $i^{!}(F)$, where $i: Z \to X$ is the canonical immersion. One finds:
 
-$$
-\Gamma_{Z}(F) = \Gamma(i^{!}(F)).
-$$
+$$ \Gamma_{Z}(F) = \Gamma(i^{!}(F)). $$
 
 <!-- label: eq:I.1.5 -->
 
@@ -105,9 +99,7 @@ U ⟼ Γ_{U∩Z}(F|U) = Γ(U ∩ Z, i^!(F))
 is a sheaf on $X$, which we shall denote $\Gamma Z(F)$; more precisely, by the preceding formula (expressing that
 $i^{!}$ commutes with restriction to open sets) one has an isomorphism
 
-$$
-\Gamma Z(F) = i_{*}(i^{!}(F))
-$$
+$$ \Gamma Z(F) = i_{*}(i^{!}(F)) $$
 
 <!-- label: eq:I.1.7 -->
 
@@ -115,9 +107,7 @@ $$
 
 by definition, one has, for every open set $U$ of $X$,
 
-$$
-\Gamma(U, \Gamma Z(F)) = \Gamma_{U\cap Z}(F|U).
-$$
+$$ \Gamma(U, \Gamma Z(F)) = \Gamma_{U\cap Z}(F|U). $$
 
 <!-- label: eq:I.1.8 -->
 
@@ -125,33 +115,24 @@ Let us note here a characteristic difference between the case where $Z$ is close
 first case, formula (8) shows us that $\Gamma Z(F)$ can be regarded as a subsheaf of $F$, and one thus has a canonical
 immersion
 
-$$
-\Gamma Z(F) \hookrightarrow F.
-$$
+$$ \Gamma Z(F) \hookrightarrow F. $$
 
 <!-- label: eq:I.1.8′ -->
 
-In the case where $Z$ is open, on the contrary, one sees from (6) that the right-hand side of (8) is
-$\Gamma(U \cap Z, F)$, so receives $\Gamma(U, F)$, hence one has a canonical homomorphism in the opposite direction from
-the previous one:
+In the case where $Z$ is open, on the contrary, one sees from (6) that the right-hand side of (8) is $\Gamma(U \cap Z,
+F)$, so receives $\Gamma(U, F)$, hence one has a canonical homomorphism in the opposite direction from the previous one:
 
-$$
-F \longrightarrow \Gamma Z(F),
-$$
+$$ F \longrightarrow \Gamma Z(F), $$
 
 <!-- label: eq:I.1.8″ -->
 
 which is moreover none other than the canonical homomorphism[^N.D.E-I-1]
 
-$$
-F \longrightarrow i_{*} i*(F),
-$$
+$$ F \longrightarrow i_{*} i*(F), $$
 
 taking into account the isomorphism
 
-$$
-\Gamma Z(F) \simeq i_{*} i*(F)
-$$
+$$ \Gamma Z(F) \simeq i_{*} i*(F) $$
 
 <!-- label: eq:I.1.6bis -->
 
@@ -163,15 +144,11 @@ Of course, for $F$ variable, $\Gamma_{Z}(F)$, $\Gamma Z(F)$, $i^{!}(F)$ may be c
 values respectively in the category of abelian groups, of abelian sheaves on $X$, and of abelian sheaves on $Z$. It is
 sometimes convenient to interpret the functor
 
-$$
-i^{!}: C_{X} \longrightarrow C_{Z}
-$$
+$$ i^{!}: C_{X} \longrightarrow C_{Z} $$
 
 as the right adjoint of a well-known functor
 
-$$
-i_{!}: C_{Z} \longrightarrow C_{X}
-$$
+$$ i_{!}: C_{Z} \longrightarrow C_{X} $$
 
 defined by the following proposition:
 
@@ -199,9 +176,7 @@ section of $i_{*}(G)$ on $U$ considered as a section of $G$ on $U \cap Z$, of ha
 nature on $U$. The sheaf $i_{!}(G)$ just defined is also known under the name: sheaf deduced from $G$ by extension by
 `0` outside $Z$, cf. [Godement]. In particular, if $Z$ is closed, one has
 
-$$
-i_{!}(G) = i_{*}(G);
-$$
+$$ i_{!}(G) = i_{*}(G); $$
 
 <!-- label: eq:I.1.9 -->
 
@@ -262,10 +237,7 @@ Taking for $G$ the constant sheaf on $Z$ defined by $\mathbb{Z}$, say $\mathbb{Z
 
 One has isomorphisms functorial in $F$:
 
-$$
-\Gamma_{Z}(F) = \operatorname{Hom}(\mathbb{Z}_{Z,X}, F),
-\Gamma Z(F)  = \mathcal{H}om(\mathbb{Z}_{Z,X}, F),
-$$
+$$ \Gamma_{Z}(F) = \operatorname{Hom}(\mathbb{Z}_{Z,X}, F), \Gamma Z(F) = \mathcal{H}om(\mathbb{Z}_{Z,X}, F), $$
 
 <!-- label: eq:I.1.12 -->
 
@@ -280,8 +252,8 @@ Suppose that $X$ is a ringed space, and equip $Z$ with the sheaf of rings $O_{Z}
 `C_X` and `C_Z` the category of Modules on $X$, resp. $Z$. Then the preceding considerations extend word for word,
 taking $F$ to be a Module on $X$ and $G$ a Module on $Z$, and interpreting accordingly statements 1.3 to 1.6.
 
-To finish these generalities, let us examine what happens when one changes the locally closed part $Z$. Let
-$Z' \subset Z$ be another locally closed part, and let
+To finish these generalities, let us examine what happens when one changes the locally closed part $Z$. Let $Z' \subset
+Z$ be another locally closed part, and let
 
 ```text
 j: Z′ ⟶ Z,   i′: Z′ ⟶ X,   i′ = i j
@@ -307,24 +279,18 @@ The first isomorphism (13) defines a functorial isomorphism
 
 Suppose now that $Z'$ is closed in $Z$, and let
 
-$$
-Z'' = Z - Z'
-$$
+$$ Z'' = Z - Z' $$
 
 be its complement in $Z$, which is open in $Z$, hence locally closed in $X$. The canonical inclusion (8′) applied to
 $i^{!}(F)$ on $Z$ equipped with $Z'$ defines, thanks to (14), an injective functorial canonical homomorphism
 
-$$
-\Gamma_{Z'}(F) \longrightarrow \Gamma_{Z}(F).
-$$
+$$ \Gamma_{Z'}(F) \longrightarrow \Gamma_{Z}(F). $$
 
 <!-- label: eq:I.1.15 -->
 
 If in (14) one replaces $Z$ by $Z''$ and uses (8″), one finds a functorial canonical homomorphism:
 
-$$
-\Gamma_{Z}(F) \longrightarrow \Gamma_{Z''}(F).
-$$
+$$ \Gamma_{Z}(F) \longrightarrow \Gamma_{Z''}(F). $$
 
 <!-- label: eq:I.1.15′ -->
 
@@ -336,9 +302,7 @@ $$
 
 Under the preceding conditions, the sequence of functorial homomorphisms
 
-$$
-0 \longrightarrow \Gamma_{Z'}(F) \longrightarrow \Gamma_{Z}(F) \longrightarrow \Gamma_{Z''}(F)
-$$
+$$ 0 \longrightarrow \Gamma_{Z'}(F) \longrightarrow \Gamma_{Z}(F) \longrightarrow \Gamma_{Z''}(F) $$
 
 <!-- label: eq:I.1.16 -->
 
@@ -351,8 +315,8 @@ $Z'$ is closed. Then $Z''$ is closed in the open set $X - Z'$, and one has a can
 Γ_{Z″}(F) ⟶ Γ(X − Z′, F),
 ```
 
-and the exactness of (16) simply means that the sections of $F$ with support in $Z'$ are those whose restriction to
-$X - Z'$ is zero.
+and the exactness of (16) simply means that the sections of $F$ with support in $Z'$ are those whose restriction to $X -
+Z'$ is zero.
 
 When $F$ is flasque, every element of $\Gamma_{Z''}(F)$, considered as a section of $F$ on $X - Z'$, can be extended to
 a section of $F$ on $X$, and the latter will evidently have its support in $Z$, which proves that the last homomorphism
@@ -364,9 +328,7 @@ in (16) is then surjective.
 
 One has a functorial exact sequence
 
-$$
-0 \longrightarrow \Gamma Z'(F) \longrightarrow \Gamma Z(F) \longrightarrow \Gamma Z''(F),
-$$
+$$ 0 \longrightarrow \Gamma Z'(F) \longrightarrow \Gamma Z(F) \longrightarrow \Gamma Z''(F), $$
 
 <!-- label: eq:I.1.16bis -->
 
@@ -377,9 +339,7 @@ us first note that if $G$ is an abelian sheaf on $Z$, inducing the sheaves $j*(G
 (where $j: Z' \to Z$ and $k: Z'' \to Z$ are the canonical injections), one has a canonical exact sequence of sheaves on
 $X$:
 
-$$
-0 \longrightarrow k*(G)_{X} \longrightarrow G_{X} \longrightarrow j*(G)_{X} \longrightarrow 0,
-$$
+$$ 0 \longrightarrow k*(G)_{X} \longrightarrow G_{X} \longrightarrow j*(G)_{X} \longrightarrow 0, $$
 
 <!-- label: eq:I.1.17 -->
 
@@ -394,9 +354,8 @@ question on $Z$, and applying the functor $i_{!}$. Taking $G = \mathbb{Z}_{Z}$, 
 
 Under the preceding conditions, one has an exact sequence of abelian sheaves on $X$:
 
-$$
-0 \longrightarrow \mathbb{Z}_{Z'',X} \longrightarrow \mathbb{Z}_{Z,X} \longrightarrow \mathbb{Z}_{Z',X} \longrightarrow 0.
-$$
+$$ 0 \longrightarrow \mathbb{Z}_{Z'',X} \longrightarrow \mathbb{Z}_{Z,X} \longrightarrow \mathbb{Z}_{Z',X}
+\longrightarrow 0. $$
 
 <!-- label: eq:I.1.18 -->
 
@@ -470,9 +429,7 @@ H^*_Z(X, F) ≃ Ext^*(X; ℤ_{Z,X}, F),
 
 <!-- label: eq:I.2.21 -->
 
-$$
-\mathcal{H}^{*}_{Z}(F) \simeq \mathcal{E}xt^{*}(\mathbb{Z}_{Z,X}, F).
-$$
+$$ \mathcal{H}^{*}_{Z}(F) \simeq \mathcal{E}xt^{*}(\mathbb{Z}_{Z,X}, F). $$
 
 <!-- label: eq:I.2.21bis -->
 
@@ -513,9 +470,7 @@ The spectral sequence of `Ext` gives the important spectral sequence:
 
 One has a spectral sequence functorial in $F$, abutting to $H^{*}_{Z}(X, F)$ and with initial term
 
-$$
-E^{p,q}_{2}(F) = H^{p}(X, \mathcal{H}^{q}_{Z}(F)).
-$$
+$$ E^{p,q}_{2}(F) = H^{p}(X, \mathcal{H}^{q}_{Z}(F)). $$
 
 <!-- label: eq:I.2.23 -->
 
@@ -532,9 +487,7 @@ Consequently, the right-hand side of (23) may be interpreted as a cohomology gro
 where $Z$ is closed in $X$, in which case the right-hand side of (23)[^N.D.E-I-3] may be interpreted as a cohomology
 group computed on $Z$:
 
-$$
-E^{p,q}_{2}(F) = H^{p}(Z, \mathcal{H}^{q}_{Z}(F)).
-$$
+$$ E^{p,q}_{2}(F) = H^{p}(Z, \mathcal{H}^{q}_{Z}(F)). $$
 
 <!-- label: eq:I.2.23bis -->
 
@@ -562,9 +515,8 @@ functorial in $F$:
 Let us recall how this exact sequence can be obtained. Let $C(F)$ be an injective resolution of $F$; then the exact
 sequence (18)[^N.D.E-I-5] gives rise to the exact sequence
 
-$$
-0 \longrightarrow \Gamma_{Z'}(C(F)) \longrightarrow \Gamma(C(F)) \longrightarrow \Gamma_{Z''}(C(F)) \longrightarrow 0,
-$$
+$$ 0 \longrightarrow \Gamma_{Z'}(C(F)) \longrightarrow \Gamma(C(F)) \longrightarrow \Gamma_{Z''}(C(F)) \longrightarrow
+0, $$
 
 <!-- label: eq:I.2.25 -->
 
@@ -602,8 +554,8 @@ Let $A$ be a closed part of $X$. Then one has an exact sequence functorial in $F
 
 This exact sequence shows that the cohomology group $H^{i}_{A}(X, F)$ plays the role of a relative cohomology group of
 $X$ mod $X - A$, with coefficients in $F$. It is on this account that it was introduced naturally in applications. By
-"sheafifying" (24) and (27), or by proceeding directly, one finds, taking into account that the sheaf associated to
-$U \mapsto H^{i}(U, F)$ is zero if $i > 0$:
+"sheafifying" (24) and (27), or by proceeding directly, one finds, taking into account that the sheaf associated to $U
+\mapsto H^{i}(U, F)$ is zero if $i > 0$:
 
 **Corollary.**
 
@@ -660,9 +612,9 @@ one has $H^{1}_{Z}(X, F) = 0$, then $F$ is flasque.
 
 Suppose that $F$ is flasque; then $F$ induces a flasque sheaf on every open set, so to prove $H^{i}_{Z}(X, F) = 0$ for
 $i > 0$, one may suppose $Z$ closed, and then the assertion follows from the exact sequence (27).[^N.D.E-I-6] One
-concludes, for every locally closed $Z$, by "sheafifying", i.e. applying 2.4, that $\mathcal{H}^{i}_{Z}(F) = 0$ for
-$i > 0$. Conversely, suppose $H^{1}_{Z}(X, F) = 0$ for every closed $Z$; then the exact sequence (27)[^N.D.E-I-7] shows
-that for every such $Z$, $H^{0}(X, F) \to H^{0}(X - Z, F)$ is surjective, which means that $F$ is flasque.
+concludes, for every locally closed $Z$, by "sheafifying", i.e. applying 2.4, that $\mathcal{H}^{i}_{Z}(F) = 0$ for $i >
+0$. Conversely, suppose $H^{1}_{Z}(X, F) = 0$ for every closed $Z$; then the exact sequence (27)[^N.D.E-I-7] shows that
+for every such $Z$, $H^{0}(X, F) \to H^{0}(X - Z, F)$ is surjective, which means that $F$ is flasque.
 
 Combining 2.6 and 2.8, we shall deduce from them:
 
@@ -715,15 +667,15 @@ H^i_{Z ∩ V}(V, F|V) = 0 for i ⩽ N,
 ```
 
 which implies 2.13 (i) thanks to 2.4. If moreover $N > 0$, hypothesis b) is superfluous. Indeed, if $N = 1$, hypothesis
-a) and (28) ensure the vanishing of $\mathcal{H}^{i}_{Z}(F) = 0$ for $i \leqslant N$. If $N > 1$, hypothesis a) for
-$i = N - 1 > 0$ and (29) ensure the vanishing of $\mathcal{H}^{i}_{Z}(F)$ for $i \leqslant N$.
+a) and (28) ensure the vanishing of $\mathcal{H}^{i}_{Z}(F) = 0$ for $i \leqslant N$. If $N > 1$, hypothesis a) for $i =
+N - 1 > 0$ and (29) ensure the vanishing of $\mathcal{H}^{i}_{Z}(F)$ for $i \leqslant N$.
 
 Taking 2.11 into account, this further proves 2.13 (i)...
 
 **Remark.**
 
-Let $Y \to X$ be a closed immersion, and suppose that locally it is of the form
-${0} \times Y \subset \mathbb{R}^{n} \times Y$. Suppose that $F$ is a locally constant sheaf on $X$; then one finds
+Let $Y \to X$ be a closed immersion, and suppose that locally it is of the form ${0} \times Y \subset \mathbb{R}^{n}
+\times Y$. Suppose that $F$ is a locally constant sheaf on $X$; then one finds
 
 ```text
 ℋ^i_Y(F) ≃ { 0            if i ≠ n,

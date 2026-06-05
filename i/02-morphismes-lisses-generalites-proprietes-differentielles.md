@@ -32,9 +32,7 @@ Y[t₁,...,t_n] ×_Y Y′ = Y′[t₁,...,t_n],
 which implies that giving a $Y$-morphism from $Y'$ to $Y[t_{1},...,t_{n}]$ is equivalent to giving $n$ sections of
 $\mathcal{O}_{Y'}$. On the other hand, one has
 
-$$
-(Y[t_{1},...,t_{n}])[t_{n+1},...,t_{m}] = Y[t_{1},...,t_{m}],
-$$
+$$ (Y[t_{1},...,t_{n}])[t_{n+1},...,t_{m}] = Y[t_{1},...,t_{m}], $$
 
 <!-- label: eq:II.1.3 -->
 
@@ -143,9 +141,7 @@ $g_{i}$, which a priori are elements of $B \otimes_{A} k = BS^{-1}$, where $S = 
 the prime ideal of $A$ corresponding to $y$, come from sections of the structural sheaf of $U$. Thus $g$ is induced by a
 morphism, still denoted $g$,
 
-$$
-g: U \to Y[t_{1},...,t_{n}],
-$$
+$$ g: U \to Y[t_{1},...,t_{n}], $$
 
 after multiplying the $g_{i}$ by a common nonzero element of $k$ if necessary. Now $U$ is flat over $Y$ by (a), as is
 $Y[t_{1},...,t_{n}]$; on the other hand, $g$ induces an étale morphism between the fibers over $y$. Hence $g$ is étale
@@ -306,26 +302,20 @@ For the definition of the sheaf $\Omega^{1}_{X/Y}$ of 1-differentials of a $Y$-p
 and $Y$ are $S$-preschemes, with structural morphism $f: X \to Y$ an $S$-morphism. Then $f$ defines a homomorphism of
 modules, compatible with $f$,
 
-$$
-f*: \Omega^{1}_{Y/S} \to \Omega^{1}_{X/S}.
-$$
+$$ f*: \Omega^{1}_{Y/S} \to \Omega^{1}_{X/S}. $$
 
 <!-- label: eq:II.4.1 -->
 
 In other words, $\Omega^{1}_{X/S}$ is contravariant in the $S$-prescheme $X$. Moreover II.4.1 is equivalent to a
 homomorphism of modules on $X$,
 
-$$
-f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S},
-$$
+$$ f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S}, $$
 
 <!-- label: eq:II.4.1bis -->
 
 also denoted $f*$ for lack of anything better, and fitting into a canonical exact sequence of module homomorphisms
 
-$$
-f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} \to \Omega^{1}_{X/Y} \to 0.
-$$
+$$ f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} \to \Omega^{1}_{X/Y} \to 0. $$
 
 <!-- label: eq:II.4.2 -->
 
@@ -347,9 +337,7 @@ transcribed as the exact sequence corresponding to a homomorphism $B \to C$ of $
 
 Let $f: X \to Y$ be a morphism of $S$-preschemes. If $f$ is unramified, respectively étale, then
 
-$$
-f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S}
-$$
+$$ f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} $$
 
 is surjective, respectively an isomorphism. The converse is true in the unramified case, if $f$ is assumed locally of
 finite type.
@@ -367,9 +355,9 @@ in which $X \times_{Y} X$ identifies with the fiber product of $Y$ and $X \times
 is unramified, $X \to X \times_{Y} X$ is an open immersion; hence the “conormal” sheaf of the composite immersion
 $\Delta_{X/S}$ of the latter with $X \times_{Y} X \to X \times_{S} X$ is isomorphic to the inverse image on $X$ of the
 conormal sheaf for the immersion $X \times_{Y} X \to X \times_{S} X$. On the other hand, since $X \to Y$ is étale, hence
-flat, $X \times_{S} X \to Y \times_{S} Y$ is flat. Thus the conormal sheaf for the immersion
-$X \times_{Y} X \to X \times_{S} X$ is isomorphic to the inverse image of the conormal sheaf for the immersion
-$Y \to Y \times_{S} Y$, i.e. the inverse image of $\Omega^{1}_{Y/S}$. The conclusion follows.
+flat, $X \times_{S} X \to Y \times_{S} Y$ is flat. Thus the conormal sheaf for the immersion $X \times_{Y} X \to X
+\times_{S} X$ is isomorphic to the inverse image of the conormal sheaf for the immersion $Y \to Y \times_{S} Y$, i.e.
+the inverse image of $\Omega^{1}_{Y/S}$. The conclusion follows.
 
 **Lemma.**
 
@@ -377,9 +365,7 @@ $Y \to Y \times_{S} Y$, i.e. the inverse image of $\Omega^{1}_{Y/S}$. The conclu
 
 Let $X = Y[t_{1},...,t_{n}]$, with $Y$ an $S$-prescheme. Then the sequence of canonical homomorphisms
 
-$$
-0 \to f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} \to \Omega^{1}_{X/Y} \to 0
-$$
+$$ 0 \to f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} \to \Omega^{1}_{X/Y} \to 0 $$
 
 is exact, and $\Omega^{1}_{X/Y}$ is free with basis $d_{X/Y}t_{i}$.
 
@@ -395,9 +381,7 @@ Let $f: X \to Y$ be a smooth morphism of $S$-preschemes. Then:
 
 1. The sequence of canonical homomorphisms
 
-$$
-0 \to f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} \to \Omega^{1}_{X/Y} \to 0
-$$
+$$ 0 \to f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} \to \Omega^{1}_{X/Y} \to 0 $$
 
 is exact. 2. $\Omega^{1}_{X/Y}$ is locally free, and its rank $n$ at $x$ is equal to the relative dimension of $f$ at
 $x$.
@@ -410,14 +394,12 @@ $x$.
 
 The homomorphism
 
-$$
-f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S}
-$$
+$$ f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} $$
 
 is injective; its image in $\Omega^{1}_{X/S}$ is locally a direct factor.
 
-Let $u: F \to G$ be a homomorphism of modules on the prescheme $X$. We say that it is **universally injective** at
-$x \in X$ if the homomorphism $F_{x} \to G_{x}$ of $\mathcal{O}_{x}$-modules is injective and remains so after tensoring
+Let $u: F \to G$ be a homomorphism of modules on the prescheme $X$. We say that it is **universally injective** at $x
+\in X$ if the homomorphism $F_{x} \to G_{x}$ of $\mathcal{O}_{x}$-modules is injective and remains so after tensoring
 with every $\mathcal{O}_{x}$-algebra, or equivalently with every $\mathcal{O}_{x}$-module. It is enough, for example,
 that there exist an open neighborhood $U$ of $x$ such that $u$ induces an isomorphism from $F|U$ onto a direct factor of
 $G|U$. This condition is also necessary when $F$ and $G$ are free, of finite type, in a neighborhood of $x$. More
@@ -451,17 +433,15 @@ image of $x$ and $y$ in $S$. Suppose that $Y$ is smooth at $y$ over $S$. The fol
 1. $f$ is smooth at $x$.
 1. $X$ is smooth over $S$ at $x$, and
 
-$$
-f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S}
-$$
+$$ f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} $$
 
 is universally injective at $x$, i.e. it is an injective homomorphism at $x$ and its cokernel $\Omega^{1}_{X/Y}$ is free
 at $x$.
 
-The necessity follows from II.1.3 (iii) and II.4.3 (i), (ii). We prove the sufficiency. Since the `d g`, with
-$g \in \mathcal{O}_{x}$, generate the module $\Omega^{1}_{X/Y}$ at $x$, one can find $g_{i}$, $1 \leq i \leq n$, such
-that the images of the $d g_{i}$ in $(\Omega^{1}_{X/Y})_{x}$ form a basis of this module. Taking $X$ small enough, we
-may suppose that the $g_{i}$ come from sections of $\mathcal{O}_{X}$, and therefore define a $Y$-morphism
+The necessity follows from II.1.3 (iii) and II.4.3 (i), (ii). We prove the sufficiency. Since the `d g`, with $g \in
+\mathcal{O}_{x}$, generate the module $\Omega^{1}_{X/Y}$ at $x$, one can find $g_{i}$, $1 \leq i \leq n$, such that the
+images of the $d g_{i}$ in $(\Omega^{1}_{X/Y})_{x}$ form a basis of this module. Taking $X$ small enough, we may suppose
+that the $g_{i}$ come from sections of $\mathcal{O}_{X}$, and therefore define a $Y$-morphism
 
 ```text
 g: X → Y′ = Y[t₁,...,t_n].
@@ -469,9 +449,7 @@ g: X → Y′ = Y[t₁,...,t_n].
 
 Using the hypothesis and Lemma II.4.2, one easily sees that the corresponding homomorphism
 
-$$
-g*(\Omega^{1}_{Y'/S}) \to \Omega^{1}_{X/S}
-$$
+$$ g*(\Omega^{1}_{Y'/S}) \to \Omega^{1}_{X/S} $$
 
 is bijective at $x$. This reduces us to proving the following statement.
 
@@ -482,9 +460,7 @@ is bijective at $x$. This reduces us to proving the following statement.
 Let $f: X \to Y$ be a morphism of smooth $S$-preschemes. In order that $f$ be étale at $x \in X$, it is necessary and
 sufficient that
 
-$$
-f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S}
-$$
+$$ f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S} $$
 
 be an isomorphism at $x$.
 
@@ -512,9 +488,9 @@ Let us point out the following special case of II.4.6.
 
 <!-- label: II.4.8 -->
 
-Let $X$ be an $S$-prescheme, let $g: X \to S[t_{1},...,t_{n}]$ be an $S$-morphism defined by sections $g_{i}$,
-$1 \leq i \leq n$, of $\mathcal{O}_{X}$, and let $x$ be a point of $X$ such that $X$ is smooth over $S$ at $x$. In order
-that $g$ be étale at $x$, it is necessary and sufficient that the $d g_{i}$, $1 \leq i \leq n$, form a basis of
+Let $X$ be an $S$-prescheme, let $g: X \to S[t_{1},...,t_{n}]$ be an $S$-morphism defined by sections $g_{i}$, $1 \leq i
+\leq n$, of $\mathcal{O}_{X}$, and let $x$ be a point of $X$ such that $X$ is smooth over $S$ at $x$. In order that $g$
+be étale at $x$, it is necessary and sufficient that the $d g_{i}$, $1 \leq i \leq n$, form a basis of
 $\Omega^{1}_{X/S}$ at $x$; equivalently, that their images in
 
 ```text
@@ -536,11 +512,10 @@ $X$. If now $X$ is an $S$-prescheme, there is a canonical exact sequence of quas
 <!-- label: eq:II.4.3 -->
 
 Its right-hand part is just II.4.2, with the roles of $X$ and $Y$ interchanged and taking into account that
-$\Omega^{1}_{Y/X} = 0$, while the homomorphism
-$\mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{Y}$ is obtained from the, in
-general nonlinear, homomorphism $g \mapsto d g$ by passing to quotients. The exactness of II.4.3 is classical and in any
-case trivial; in the affine case it is interpreted by the following exact sequence, corresponding to a surjective
-homomorphism $B \to C$ of $A$-algebras, with kernel $J$:
+$\Omega^{1}_{Y/X} = 0$, while the homomorphism $\mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S}
+\otimes_{\mathcal{O}_{X}} \mathcal{O}_{Y}$ is obtained from the, in general nonlinear, homomorphism $g \mapsto d g$ by
+passing to quotients. The exactness of II.4.3 is classical and in any case trivial; in the affine case it is interpreted
+by the following exact sequence, corresponding to a surjective homomorphism $B \to C$ of $A$-algebras, with kernel $J$:
 
 ```text
 J/J² → Ω¹_{B/A} ⊗_B C → Ω¹_{C/A} → 0,     C = B/J.
@@ -565,23 +540,18 @@ g: X → S[t₁,...,t_n] = X′,
 and finally let $p$ be an integer, $0 \leq p \leq n$. Suppose that $X$ is **smooth over $S$ at $x$**. The following
 conditions are equivalent:
 
-1. There is an open neighborhood $X_{1}$ of $x$ in $X$ such that $g|X_{1}$ is **étale** and such that
-   $Y_{1} = Y \cap X_{1}$, the trace of $Y$ on $X_{1}$, is the **inverse image** of the closed sub-prescheme
-   $Y' = S[t_{p+1},...,t_{n}]$ of $X' = S[t_{1},...,t_{n}]$; equivalently, the $g_{i}$, $1 \leq i \leq p$, generate
-   $\mathcal{J}|X_{1}$:
+1. There is an open neighborhood $X_{1}$ of $x$ in $X$ such that $g|X_{1}$ is **étale** and such that $Y_{1} = Y \cap
+   X_{1}$, the trace of $Y$ on $X_{1}$, is the **inverse image** of the closed sub-prescheme $Y' = S[t_{p+1},...,t_{n}]$
+   of $X' = S[t_{1},...,t_{n}]$; equivalently, the $g_{i}$, $1 \leq i \leq p$, generate $\mathcal{J}|X_{1}$:
 
-$$
-Y_{1}  \to  X_{1}
-\downarrow       \downarrow \acute{e}tale
-Y'  \to  X'
-$$
+$$ Y_{1} \to X_{1} \downarrow \downarrow \acute{e}tale Y' \to X' $$
 
-1. $Y$ is **smooth over $S$ at $x$**, the $g_{i}$, $1 \leq i \leq p$, define **elements of** $\mathcal{J}_{x}$, the
-   $d g_{i}(x)$, $1 \leq i \leq n$, form a **basis of** $\Omega^{1}_{X/S}(x)$ over $\kappa(x)$, and the $d g'_{i}(x)$,
-   $p + 1 \leq i \leq n$, form a **basis of** $\Omega^{1}_{Y/S}(x)$ over $\kappa(x)$, where the $g'_{i}$ denote the
+1. $Y$ is **smooth over $S$ at $x$**, the $g_{i}$, $1 \leq i \leq p$, define **elements of** $\mathcal{J}_{x}$, the $d
+   g_{i}(x)$, $1 \leq i \leq n$, form a **basis of** $\Omega^{1}_{X/S}(x)$ over $\kappa(x)$, and the $d g'_{i}(x)$, $p +
+   1 \leq i \leq n$, form a **basis of** $\Omega^{1}_{Y/S}(x)$ over $\kappa(x)$, where the $g'_{i}$ denote the
    restrictions of the $g_{i}$ to $Y$; the differentials are taken relative to $S$.
-1. The $g_{i}$, $1 \leq i \leq p$, define a **system of generators** of $\mathcal{J}_{x}$, and the $d g_{i}(x)$,
-   $1 \leq i \leq n$, form a **basis of** $\Omega^{1}_{X/S}(x)$ over $\kappa(x)$.
+1. The $g_{i}$, $1 \leq i \leq p$, define a **system of generators** of $\mathcal{J}_{x}$, and the $d g_{i}(x)$, $1 \leq
+   i \leq n$, form a **basis of** $\Omega^{1}_{X/S}(x)$ over $\kappa(x)$.
 1. $Y$ is **smooth over $S$** at $x$, the $g_{i}$, $1 \leq i \leq p$, form a **minimal system of generators of**
    $\mathcal{J}_{x}$, and the $d g'_{i}(x)$, $p + 1 \leq i \leq n$, form a **basis of** $\Omega^{1}_{Y/S}(x)$ over
    $\kappa(x)$.
@@ -589,9 +559,7 @@ $$
 Moreover, under these conditions, $\mathcal{J}/\mathcal{J}^{2}$ is a free module on $Y$ at $x$, having as **basis at
 $x$** the classes of the $g_{i}$, $1 \leq i \leq p$, and the canonical homomorphism
 
-$$
-\mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y}
-$$
+$$ \mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y} $$
 
 is **universally injective at $x$**.
 
@@ -601,16 +569,15 @@ $X$, or finally by the fact that the relative dimension of $Y$ relative to $S$ a
 
 **Proof.** Suppose first that (i) holds. Then by I.4.6 (iii), $Y_{1}$ is étale over $Y'$; hence by definition it is
 smooth over $S$ at $x$, of relative dimension $n - p$, and the same is therefore true of $Y$. It then follows from
-II.4.8 that the $d g_{i}$, $1 \leq i \leq n$, form a basis of $\Omega^{1}_{X/S}$ at $x$, and that the $d g'_{i}$,
-$p + 1 \leq i \leq n$, form a basis of $\Omega^{1}_{Y/S}$ at $x$. By the exact sequence II.4.3, it follows that the
-$g_{i}$, $1 \leq i \leq p$, are linearly independent in $\mathcal{J}/\mathcal{J}^{2}$, considered as a module on $Y$, at
-$x$. Since the $g_{i}$, $1 \leq i \leq p$, generate $\mathcal{J}_{x}$, it follows that the $g_{i}$ modulo
-$\mathcal{J}^{2}_{x}$ form a **basis of** $\mathcal{J}/\mathcal{J}^{2}$ at $x$. This implies, on the one hand, that the
-$g_{i}$, $1 \leq i \leq p$, form a **minimal** system of generators of $\mathcal{J}_{x}$, and, on the other hand, that
-the homomorphism $\mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y}$ in II.4.3 is universally
-injective at $x$, since it sends a basis of a module free at $x$ to part of a basis of a module free at $x$; note that
-these are $Y$-modules. This proves that (i) implies (ii), (iii), (iv), as well as the last assertions of Proposition
-I.4.9.
+II.4.8 that the $d g_{i}$, $1 \leq i \leq n$, form a basis of $\Omega^{1}_{X/S}$ at $x$, and that the $d g'_{i}$, $p + 1
+\leq i \leq n$, form a basis of $\Omega^{1}_{Y/S}$ at $x$. By the exact sequence II.4.3, it follows that the $g_{i}$, $1
+\leq i \leq p$, are linearly independent in $\mathcal{J}/\mathcal{J}^{2}$, considered as a module on $Y$, at $x$. Since
+the $g_{i}$, $1 \leq i \leq p$, generate $\mathcal{J}_{x}$, it follows that the $g_{i}$ modulo $\mathcal{J}^{2}_{x}$
+form a **basis of** $\mathcal{J}/\mathcal{J}^{2}$ at $x$. This implies, on the one hand, that the $g_{i}$, $1 \leq i
+\leq p$, form a **minimal** system of generators of $\mathcal{J}_{x}$, and, on the other hand, that the homomorphism
+$\mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y}$ in II.4.3 is universally injective at $x$,
+since it sends a basis of a module free at $x$ to part of a basis of a module free at $x$; note that these are
+$Y$-modules. This proves that (i) implies (ii), (iii), (iv), as well as the last assertions of Proposition I.4.9.
 
 (iii) implies (i) by Corollary I.4.8.
 
@@ -628,9 +595,7 @@ to prove that (iv) ⇒ (ii), which is immediate, taking into account that $\Omeg
 one knows that the fact that $Y$ is smooth over $S$ at $x$ implies that $\mathcal{J}/\mathcal{J}^{2}$ is free on $Y$ at
 $x$ and that the homomorphism
 
-$$
-\mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y}
-$$
+$$ \mathcal{J}/\mathcal{J}^{2} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y} $$
 
 is universally injective at $x$. This last point is included in the following theorem.
 
@@ -672,11 +637,11 @@ the same time finish the proof of I.4.9. By Theorem II.4.3 (ii), the last two te
 free modules on $Y$. Thus, since the images in $\Omega^{1}_{X/S} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{Y}$ of the
 `d g`, for $g \in \mathcal{O}_{X}$, generate this module at $x$, hence their images in $\Omega^{1}_{Y/S}$ generate the
 latter at $x$, one can find $g_{i}$, $p + 1 \leq i \leq n$, in $\mathcal{O}_{X}$ such that the $d g'_{i}$ form a basis
-of $\Omega^{1}_{Y/S}$. Then, by exactness of II.4.3, one can complete the system of the $d g_{i}$,
-$p + 1 \leq i \leq n$, to a basis of the middle term by elements of the form $d g_{i}$, $1 \leq i \leq n$, where the
-$g_{i}$, $1 \leq i \leq p$, **belong to $\mathcal{J}_{x}$**. The $g_{i}$ come from sections of $\mathcal{O}_{X}$ on a
-neighborhood of $x$ in $X$, which we may suppose equal to $X$. We are then under the conditions of II.4.8 (ii), and we
-have established that these imply condition II.4.8 (i), whence II.4.10 (ii).
+of $\Omega^{1}_{Y/S}$. Then, by exactness of II.4.3, one can complete the system of the $d g_{i}$, $p + 1 \leq i \leq
+n$, to a basis of the middle term by elements of the form $d g_{i}$, $1 \leq i \leq n$, where the $g_{i}$, $1 \leq i
+\leq p$, **belong to $\mathcal{J}_{x}$**. The $g_{i}$ come from sections of $\mathcal{O}_{X}$ on a neighborhood of $x$
+in $X$, which we may suppose equal to $X$. We are then under the conditions of II.4.8 (ii), and we have established that
+these imply condition II.4.8 (i), whence II.4.10 (ii).
 
 The implication (iii) ⇒ (ii) in II.4.10 follows at once from the implication (iii) ⇒ (i) in II.4.8. Thus (i), (ii),
 (iii) are equivalent and imply (iv). Finally, it is trivial that (iv) implies (iii), taking into account that elements
@@ -698,9 +663,9 @@ $\mathcal{J}$, $1 \leq i \leq p$. The following conditions are equivalent:
 1. The $g_{i}$ modulo $\mathcal{J}^{2}$ form a basis of $\mathcal{J}/\mathcal{J}^{2}$ at $x$.
 1. The $g_{i}$ form a minimal system of generators of $\mathcal{J}_{x}$.
 1. One can find other sections $g_{i}$, $p + 1 \leq i \leq n$, of $\mathcal{O}_{X}$ on a neighborhood $X_{1}$ of $x$,
-   defining together with the preceding ones an **étale** morphism $X_{1} \to X' = S[t_{1},...,t_{n}]$ such that
-   $Y_{1} = Y \cap X_{1}$ is the **inverse image** under $g$ of the closed sub-prescheme $Y' = S[t_{p+1},...,t_{n}]$ of
-   $X' = S[t_{1},...,t_{n}]$.
+   defining together with the preceding ones an **étale** morphism $X_{1} \to X' = S[t_{1},...,t_{n}]$ such that $Y_{1}
+   = Y \cap X_{1}$ is the **inverse image** under $g$ of the closed sub-prescheme $Y' = S[t_{p+1},...,t_{n}]$ of $X' =
+   S[t_{1},...,t_{n}]$.
 
 <!-- original page 43 -->
 
@@ -743,8 +708,8 @@ smoothness criteria II.4.10 may be applied. Here criterion (iv) gives the result
 
 Criterion (iii) of Theorem II.4.10 deserves to be called the **Jacobian criterion for smoothness**. It makes it
 possible, theoretically, to recognize whether a given $S$-prescheme $Y$ is smooth over $S$ at a point $x$ of $Y$, since
-there is always a neighborhood of $Y$ isomorphic to a sub-prescheme of a smooth $S$-prescheme $X$, for instance
-$X = S[t_{1},...,t_{n}]$. It is indeed for $X = S[t_{1},...,t_{n}]$, $S = \operatorname{Spec}(A)$, that the Jacobian
+there is always a neighborhood of $Y$ isomorphic to a sub-prescheme of a smooth $S$-prescheme $X$, for instance $X =
+S[t_{1},...,t_{n}]$. It is indeed for $X = S[t_{1},...,t_{n}]$, $S = \operatorname{Spec}(A)$, that the Jacobian
 criterion is usually stated; of course, in the classical case considered by Zariski, $A$ was a field. We leave it to the
 reader to give the statement, to which one is thus led, in terms of an ideal $J$ of $A[t_{1},...,t_{n}]$ and a prime
 ideal containing it. Let us note that at present it seems, especially since Nagata succeeded in generalizing by
@@ -760,18 +725,14 @@ Let $A$ be a noetherian ring, let $x_{i}$, $1 \leq i \leq n$, be elements of $A$
 the $x_{i}$. We say that the $x_{i}$ form a **regular system of generators** of $J$ if the canonical surjective
 homomorphism
 
-$$
-(A/J)[t_{1},...,t_{n}] \to gr^{J}(A)
-$$
+$$ (A/J)[t_{1},...,t_{n}] \to gr^{J}(A) $$
 
 defined by the $x_{i}$, where the second member denotes the graded ring associated with $A$ filtered by the powers of
 $J$, is an **isomorphism**. This condition also means that:
 
 1. The canonical surjective homomorphism
 
-$$
-S_{A/J}(J/J^{2}) \to gr^{J}(A),
-$$
+$$ S_{A/J}(J/J^{2}) \to gr^{J}(A), $$
 
 where the first member denotes the symmetric algebra of the $A/J$-module $J/J^{2}$, is an isomorphism. 2. $J/J^{2}$ is
 free and has as basis the classes of the $x_{i}$ modulo $J^{2}$.
@@ -795,9 +756,7 @@ Finally, in the case where $A$ is an algebra over a ring $B$, and where $A/J$ is
 that $J$ is the kernel of a homomorphism of $B$-algebras $A \to B$, the $x_{i}$ form a regular system of generators of
 $J$ if and only if the canonical homomorphism
 
-$$
-B[[t_{1},...,t_{n}]] \to \hat{A}
-$$
+$$ B[[t_{1},...,t_{n}]] \to \hat{A} $$
 
 defined by the $x_{i}$, where the second member denotes the separated completion $\lim A/J^{n+1}$ of $A$ for the
 topology defined by the powers of $J$, is an **isomorphism**; it is in any case **surjective**.
@@ -814,9 +773,7 @@ is equivalent to the conjunction of the following two conditions:
 
 1. The canonical surjective homomorphism
 
-$$
-S_{\mathcal{O}_{X}/\mathcal{J}}(\mathcal{J}/\mathcal{J}^{2}) \to gr^{\mathcal{J}}(\mathcal{O}_{X})
-$$
+$$ S_{\mathcal{O}_{X}/\mathcal{J}}(\mathcal{J}/\mathcal{J}^{2}) \to gr^{\mathcal{J}}(\mathcal{O}_{X}) $$
 
 is an isomorphism. 2. The sheaf of $\mathcal{O}_{X}/\mathcal{J}$-modules $\mathcal{J}/\mathcal{J}^{2}$ is locally free.
 
@@ -827,14 +784,12 @@ is isomorphic to $\mathcal{O}_{X}/\mathcal{J}$, is **regularly immersed** in $X$
 the notion of a morphism that is a **regular immersion**, respectively **regular at a point $x$**: an immersion morphism
 $Y \to X$ identifying $Y$, respectively a suitable neighborhood of $x$, with a closed sub-prescheme regularly immersed
 in an open of $X$. One should not say “regular sub-prescheme”, since that would mean that the local rings of $Y$ are
-regular. Finally, sections $x_{i}$ of $\mathcal{J}$ are called a **regular system of generators** if, for every
-$x \in X$, the corresponding elements of $\mathcal{O}_{x}$ form a regular system of generators of $\mathcal{J}_{x}$;
-this terminology is compatible with that introduced for generators of an ideal of a ring. This also means that the
-canonical surjective homomorphism
+regular. Finally, sections $x_{i}$ of $\mathcal{J}$ are called a **regular system of generators** if, for every $x \in
+X$, the corresponding elements of $\mathcal{O}_{x}$ form a regular system of generators of $\mathcal{J}_{x}$; this
+terminology is compatible with that introduced for generators of an ideal of a ring. This also means that the canonical
+surjective homomorphism
 
-$$
-\mathcal{O}_{Y}[t_{1},...,t_{n}] \to gr^{\mathcal{J}}(\mathcal{O}_{X})
-$$
+$$ \mathcal{O}_{Y}[t_{1},...,t_{n}] \to gr^{\mathcal{J}}(\mathcal{O}_{X}) $$
 
 defined by the $x_{i}$ is an isomorphism. If one knows in advance that the ideal $\mathcal{J}$ is regular, this simply
 means that at every point $x$ **of $Y$**, the $x_{i}$ define a **basis** of $\mathcal{J}/\mathcal{J}^{2}$ over
@@ -878,17 +833,15 @@ $Y$, it is necessary and sufficient that $Y$ be regularly embedded in $X$, i.e. 
 regular.
 
 **Proof.** (i) implies (ii). Apply criterion (ii) of II.4.10. Since $g: X_{1} \to X$ is **flat**, in order to show that
-the inverse image by $g$ of the sub-prescheme $Y'$ of $X'$ is regularly embedded, we are reduced to proving that
-$Y' = S[t_{p+1},...,t_{n}]$ is regularly embedded in $S[t_{1},...,t_{n}]$, which is trivial: the $t_{i}$,
-$1 \leq i \leq p$, form a regular system of generators of the ideal defining $Y'$ in $X'$.
+the inverse image by $g$ of the sub-prescheme $Y'$ of $X'$ is regularly embedded, we are reduced to proving that $Y' =
+S[t_{p+1},...,t_{n}]$ is regularly embedded in $S[t_{1},...,t_{n}]$, which is trivial: the $t_{i}$, $1 \leq i \leq p$,
+form a regular system of generators of the ideal defining $Y'$ in $X'$.
 
 (ii) implies (i). Let $g_{i}$, $1 \leq i \leq p$, be a regular system of generators of $\mathcal{J}_{x}$, and let
 $g_{i}$, $p + 1 \leq i \leq n$, be elements of $\mathcal{O}_{X,x}$ such that their images $g'_{i}$ in
 $\mathcal{O}_{Y,x}$ define an **étale** morphism
 
-$$
-Y_{1} \to Y' = S[t_{p+1},...,t_{n}]
-$$
+$$ Y_{1} \to Y' = S[t_{p+1},...,t_{n}] $$
 
 from a neighborhood $Y_{1}$ of $x$ in $Y$. The $g_{i}$, $1 \leq i \leq n$, come from sections, denoted by the same
 names, of $\mathcal{O}_{X}$ on a neighborhood $X_{1}$ of $x$, and we may suppose $X_{1} = X$ and $Y_{1} = Y$. We thereby
@@ -901,9 +854,9 @@ g: X → X′ = S[t₁,...,t_n],
 and everything comes down to showing that this morphism is **étale** at $x$. Taking $X_{1}$ small enough, we may suppose
 that the $g_{i}$, $1 \leq i \leq p$, form a regular system of generators of $\mathcal{J}$ on all of $X$. In particular,
 they generate $\mathcal{J}$, so the sub-prescheme $Y$ of $X$ identifies with the inverse image by $g$ of the
-sub-prescheme $Y'$ of $X'$. Let $x' = g(x)$. Then the fiber of $X \to X'$ at $x'$ is identical with the fiber of
-$Y \to Y'$ at $x$, hence is étale over $\kappa(x')$, and therefore $g$ is **unramified** at $x$. It remains to prove
-that $g$ is **flat** at $x$. The graded ring associated with $\mathcal{O}_{X',x'}$, filtered by the powers of
+sub-prescheme $Y'$ of $X'$. Let $x' = g(x)$. Then the fiber of $X \to X'$ at $x'$ is identical with the fiber of $Y \to
+Y'$ at $x$, hence is étale over $\kappa(x')$, and therefore $g$ is **unramified** at $x$. It remains to prove that $g$
+is **flat** at $x$. The graded ring associated with $\mathcal{O}_{X',x'}$, filtered by the powers of
 $\mathcal{J}'_{x'}$, is **free** over $\mathcal{O}_{Y',x'}$ in every degree; on the other hand, the graded ring
 associated with $\mathcal{O}_{X,x}$, filtered by the powers of $\mathcal{J}_{x} = \mathcal{J}'_{x} \mathcal{O}_{X,x}$,
 is isomorphic, under the canonical homomorphism, to the tensor product of the preceding one with $\mathcal{O}_{Y,x}$,
@@ -931,9 +884,9 @@ The following conditions are equivalent:
    $\mathcal{J}_{x}$ is isomorphic to a formal power-series algebra $\mathcal{O}_{y}[[t_{1},...,t_{n}]]$.
 1. There is an open neighborhood $U$ of $y$ such that the sheaf of algebras $\lim i*(\mathcal{O}_{X}/\mathcal{J}^{n+1})$
    on $\mathcal{O}_{Y}$ is isomorphic over $U$ to a sheaf of the form $\mathcal{O}_{Y}[[t_{1},...,t_{n}]]$.
-1. There is an open neighborhood $U$ of $y$, an open neighborhood $V$ of $x$, and finally a $Y$-morphism
-   $g: V \to U[t_{1},...,t_{n}]$, such that $g$ is étale, such that $i$ induces a section of $V$ over $U$, and such that
-   $g$ carries this section to the zero section of $U[t_{1},...,t_{n}]$ over $U$.
+1. There is an open neighborhood $U$ of $y$, an open neighborhood $V$ of $x$, and finally a $Y$-morphism $g: V \to
+   U[t_{1},...,t_{n}]$, such that $g$ is étale, such that $i$ induces a section of $V$ over $U$, and such that $g$
+   carries this section to the zero section of $U[t_{1},...,t_{n}]$ over $U$.
 
 The equivalence of (i) and (ii) is a special case of Theorem II.4.15, taking $Y = S$. The equivalence of (ii) and (iii),
 and morally of (ii) and (iii bis), was indicated in the “reminders”. As for the equivalence of (i) and (iv), it follows
@@ -972,9 +925,7 @@ say that $X$ is differentially smooth over $S$, i.e. that the diagonal morphism 
 also means that $\mathcal{P}^{\infty}_{X/S}$ is regular as a sheaf of augmented algebras toward $\mathcal{O}_{X}$, i.e.
 that $\Omega^{1}_{X/S}$ is locally free and the canonical surjective homomorphism
 
-$$
-S_{\mathcal{O}_{X}}(\Omega^{1}_{X/S}) \to gr_{*}(\mathcal{P}^{\infty}_{X/S})
-$$
+$$ S_{\mathcal{O}_{X}}(\Omega^{1}_{X/S}) \to gr_{*}(\mathcal{P}^{\infty}_{X/S}) $$
 
 is an isomorphism; or finally that every point of $X$ has an open neighborhood on which the sheaf of augmented algebras
 $\mathcal{P}^{\infty}_{X/S}$ is isomorphic to a sheaf $\mathcal{O}_{X}[[t_{1},...,t_{n}]]$.
@@ -989,13 +940,11 @@ s*(𝒫ⁿ_{X/S}) = 𝒪_X/𝒥^{n+1},    s*(𝒫^∞_{X/S}) = lim_n 𝒪_X/𝒥
 <!-- label: eq:II.4.4 -->
 
 These isomorphisms are functorial in the evident sense under base change and, taking this fact into account, again give
-a characterization of the sheaves of algebras $\mathcal{P}^{n}_{X/S}$ on $S$. If, for example,
-$S = \operatorname{Spec}(k)$, with $k$ a field, then giving a section $s$ of $X$ over $S$ is equivalent to giving a
-point $x$ of $X$ rational over $k$, and the preceding formulas mean that there is an isomorphism of $k$-algebras
+a characterization of the sheaves of algebras $\mathcal{P}^{n}_{X/S}$ on $S$. If, for example, $S =
+\operatorname{Spec}(k)$, with $k$ a field, then giving a section $s$ of $X$ over $S$ is equivalent to giving a point $x$
+of $X$ rational over $k$, and the preceding formulas mean that there is an isomorphism of $k$-algebras
 
-$$
-\mathcal{P}^{n}_{X/S}(x) = \mathcal{O}_{x}/\mathfrak{m}^{n+1}_{x}.
-$$
+$$ \mathcal{P}^{n}_{X/S}(x) = \mathcal{O}_{x}/\mathfrak{m}^{n+1}_{x}. $$
 
 <!-- label: eq:II.4.5 -->
 
@@ -1011,20 +960,18 @@ $pr_{2}: X \times_{S} X \to X$; it is in fact obtained from the preceding one by
 of the sheaf of rings $\mathcal{P}^{n}_{X/S}$, induced by the symmetry automorphism of $X \times_{S} X$. We denote by
 $d^{n}_{X/S}$, or simply $d^{n}$, the homomorphism of sheaves of rings
 
-$$
-d^{n}_{X/S}: \mathcal{O}_{X} \to \mathcal{P}^{n}_{X/S}
-$$
+$$ d^{n}_{X/S}: \mathcal{O}_{X} \to \mathcal{P}^{n}_{X/S} $$
 
 <!-- label: eq:II.4.6 -->
 
 that corresponds to this second algebra structure. Taking the isomorphism II.4.4 into account, this homomorphism
 transforms a section $f$ of $\mathcal{O}_{X}$ into a section $d^{n}(f)$ of $\mathcal{P}^{n}_{X/S}$ whose inverse image
-by a section $s$ of $X$ over $S$ identifies with the canonical image of $f$ in
-$\Gamma(X, \mathcal{O}_{X}/\mathcal{J}^{n+1})$. This justifies the name “**system of principal parts of order $n$ of
-$f$**” given to $d^{n}f$, notably in the case $S = \operatorname{Spec}(k)$ considered in formula II.4.5.
+by a section $s$ of $X$ over $S$ identifies with the canonical image of $f$ in $\Gamma(X,
+\mathcal{O}_{X}/\mathcal{J}^{n+1})$. This justifies the name “**system of principal parts of order $n$ of $f$**” given
+to $d^{n}f$, notably in the case $S = \operatorname{Spec}(k)$ considered in formula II.4.5.
 
-Finally, note that the homomorphism II.4.6 may be regarded as the **universal differential operator of order
-$\leq n$**[^ii-4-18-1] on $\mathcal{O}_{X}$, relative to the prescheme of constants $S$, provided one agrees to call a
+Finally, note that the homomorphism II.4.6 may be regarded as the **universal differential operator of order $\leq
+n$**[^ii-4-18-1] on $\mathcal{O}_{X}$, relative to the prescheme of constants $S$, provided one agrees to call a
 homomorphism of sheaves $D$ from $\mathcal{O}_{X}$ into a module $F$ a differential operator of order $\leq n$ when it
 factors as
 
@@ -1034,14 +981,14 @@ D: 𝒪_X --dⁿ→ 𝒫ⁿ_{X/S} --u→ F
 
 where $u$ is a homomorphism of $\mathcal{O}_{X}$-modules, necessarily uniquely determined by $D$. This definition agrees
 with the intuitive recursive definition: $D$ is a differential operator of order $\leq n$ if for every section $g$ of
-$\mathcal{O}_{X}$ on an open $U$ of $X$, the map $f \mapsto D(fg) - gD(f)$ is a differential operator of order
-$\leq n - 1$ on $U$. It follows that **if $X$ is differentially smooth over $S$, the sheaf of rings of differential
-operators of all orders has the familiar simple structure** from differential calculus on differentiable manifolds, and
-in particular admits locally, as an $\mathcal{O}_{X}$-module, a basis formed from the **divided powers** in commuting
-operators $\delta/\delta x_{i}$, $1 \leq i \leq n$. If $S$ is a sheaf of $\mathbb{Q}$-algebras, where $\mathbb{Q}$ is
-the field of rational numbers, it is enough to take the ordinary polynomials in the $\delta/\delta x_{i}$. In that case,
-moreover, and very exceptionally, for $X$ to be differentially smooth over $S$ it already suffices that
-$\Omega^{1}_{X/S}$ be locally free.
+$\mathcal{O}_{X}$ on an open $U$ of $X$, the map $f \mapsto D(fg) - gD(f)$ is a differential operator of order $\leq n -
+1$ on $U$. It follows that **if $X$ is differentially smooth over $S$, the sheaf of rings of differential operators of
+all orders has the familiar simple structure** from differential calculus on differentiable manifolds, and in particular
+admits locally, as an $\mathcal{O}_{X}$-module, a basis formed from the **divided powers** in commuting operators
+$\delta/\delta x_{i}$, $1 \leq i \leq n$. If $S$ is a sheaf of $\mathbb{Q}$-algebras, where $\mathbb{Q}$ is the field of
+rational numbers, it is enough to take the ordinary polynomials in the $\delta/\delta x_{i}$. In that case, moreover,
+and very exceptionally, for $X$ to be differentially smooth over $S$ it already suffices that $\Omega^{1}_{X/S}$ be
+locally free.
 
 **Remark.**
 
@@ -1097,9 +1044,7 @@ to:
 
 Indeed, (iv) ⇒ (iii) by the exact sequence
 
-$$
-\mathfrak{m}_{x}/\mathfrak{m}^{2}_{x} \to \Omega^{1}_{\mathcal{O}_{x}/k} \to \Omega^{1}_{\kappa(x)/k} \to 0
-$$
+$$ \mathfrak{m}_{x}/\mathfrak{m}^{2}_{x} \to \Omega^{1}_{\mathcal{O}_{x}/k} \to \Omega^{1}_{\kappa(x)/k} \to 0 $$
 
 <!-- label: eq:II.5.1 -->
 
@@ -1159,9 +1104,9 @@ conditions are equivalent:
 1. $K$ is a finite separable extension of a purely transcendental extension $k(t_{1},...,t_{n})$ of $k$.
 1. $\Omega^{1}_{K/k}$ is a free $K$-module of rank $n$.
 1. $\Omega^{1}_{K/k}$ is a $K$-module admitting $n$ generators.
-1. The completion $O'$ of $K \otimes_{k} K$ for the topology defined by the powers of the augmentation ideal
-   $K \otimes_{k} K \to K$ is a “regular” augmented $K$-algebra, i.e. isomorphic to a formal power-series algebra over
-   $K$. If $K$ is a field, this is equivalent to saying that $O'$ is a regular local ring.
+1. The completion $O'$ of $K \otimes_{k} K$ for the topology defined by the powers of the augmentation ideal $K
+   \otimes_{k} K \to K$ is a “regular” augmented $K$-algebra, i.e. isomorphic to a formal power-series algebra over $K$.
+   If $K$ is a field, this is equivalent to saying that $O'$ is a regular local ring.
 1. $K$ is a separable extension of $k$.
 
 Indeed, one may always regard $K$ as the local ring of the generic point of an irreducible scheme $X$ of finite type
@@ -1206,9 +1151,7 @@ $\mathcal{O}_{x}$, with $f_{i} \in \mathfrak{m}_{x}$ for $1 \leq i \leq p$. The 
 
 1. The germ at $x$ of the morphism
 
-$$
-X \to \operatorname{Spec}(k[t_{1},...,t_{n}])
-$$
+$$ X \to \operatorname{Spec}(k[t_{1},...,t_{n}]) $$
 
 defined by the $f_{i}$ is étale at $x$. 2. The $f_{i}$, $1 \leq i \leq p$, generate $\mathfrak{m}_{x}$, i.e. form a
 regular system of parameters of $\mathcal{O}_{x}$, and the classes in $\kappa(x)$ of the $f_{j}$, $p + 1 \leq j \leq n$,
@@ -1216,14 +1159,14 @@ form a separating transcendence basis; equivalently, the $d \bar{f}_{j}$, $p + 1
 $\Omega^{1}_{\kappa(x)/k}$, or again generate $\Omega^{1}_{\kappa(x)/k}$.
 
 Suppose (i) holds. It follows that the $d f_{i}(x)$ form a basis of $\Omega^{1}_{X/k}(x)$ by II.4.8; hence their images
-$d \bar{f}_{i}(x)$ in $\Omega^{1}_{\kappa(x)/k}$ generate this vector space over $k$. Since the $\bar{f}_{i}$ for
-$1 \leq i \leq p$ are zero, it follows that it suffices to take the $d \bar{f}_{i}(x)$ with $p + 1 \leq i \leq n$. Since
-the transcendence degree of $\kappa(x)$ over $k$ is $n - p$, Corollary II.5.6, criterion (iii), applied to
-$K = \kappa(x)$, then implies that $Y$ is smooth over $k$ at its generic point $x$, and that the $d \bar{f}_{i}(x)$,
-$p + 1 \leq i \leq n$, form a **basis** of $\Omega^{1}_{\kappa(x)/k}$ over $\kappa(x)$. Consequently condition (ii) of
-II.4.9 is satisfied, hence also condition (iii), and in particular the $f_{i}$, $1 \leq i \leq p$, form a system of
-generators of $\mathfrak{m}_{x}$. Since $\mathcal{O}_{x}$ has dimension $p$, they therefore form a regular system of
-parameters at $x$. This proves (ii).
+$d \bar{f}_{i}(x)$ in $\Omega^{1}_{\kappa(x)/k}$ generate this vector space over $k$. Since the $\bar{f}_{i}$ for $1
+\leq i \leq p$ are zero, it follows that it suffices to take the $d \bar{f}_{i}(x)$ with $p + 1 \leq i \leq n$. Since
+the transcendence degree of $\kappa(x)$ over $k$ is $n - p$, Corollary II.5.6, criterion (iii), applied to $K =
+\kappa(x)$, then implies that $Y$ is smooth over $k$ at its generic point $x$, and that the $d \bar{f}_{i}(x)$, $p + 1
+\leq i \leq n$, form a **basis** of $\Omega^{1}_{\kappa(x)/k}$ over $\kappa(x)$. Consequently condition (ii) of II.4.9
+is satisfied, hence also condition (iii), and in particular the $f_{i}$, $1 \leq i \leq p$, form a system of generators
+of $\mathfrak{m}_{x}$. Since $\mathcal{O}_{x}$ has dimension $p$, they therefore form a regular system of parameters at
+$x$. This proves (ii).
 
 Suppose (ii) holds. By the exact sequence II.5.1, it follows that the $d f_{i}(x)$ generate $\Omega^{1}_{X/k}$; hence
 (i) follows from Proposition II.5.1.
@@ -1233,8 +1176,8 @@ Suppose (ii) holds. By the exact sequence II.5.1, it follows that the $d f_{i}(x
 <!-- label: II.5.9 -->
 
 Let $X$ be a prescheme of finite type over the field $k$, let $x$ be a point of $X$, let $n$ be the dimension of $X$ at
-$x$, and let $p$ be the dimension of $\mathcal{O}_{x}$, i.e. the codimension of the closure $Y$ of $x$ in $X$; thus
-$n - p$ is the transcendence degree of $\kappa(x)$ over $k$. The following conditions are equivalent:
+$x$, and let $p$ be the dimension of $\mathcal{O}_{x}$, i.e. the codimension of the closure $Y$ of $x$ in $X$; thus $n -
+p$ is the transcendence degree of $\kappa(x)$ over $k$. The following conditions are equivalent:
 
 1. $\mathcal{O}_{x}$ is regular and $\kappa(x)$ is a separable extension of $k$.
 1. $X$ is smooth over $k$ at $x$, and the canonical homomorphism
@@ -1243,12 +1186,11 @@ $n - p$ is the transcendence degree of $\kappa(x)$ over $k$. The following condi
 𝔪_x/𝔪_x² → Ω¹_{𝒪_x/k} ⊗_{𝒪_x} κ(x) = Ω¹_{X/k}(x)
 ```
 
-is injective. 3. There are $f_{i} \in \mathcal{O}_{x}$, $1 \leq i \leq n$, with $f_{i} \in \mathfrak{m}_{x}$ for
-$1 \leq i \leq p$, such that the germ at $x$ of the morphism from $X$ to $\operatorname{Spec}(k[t_{1},...,t_{n}])$
-defined by the $f_{i}$ is étale at $x$; equivalently, by II.5.1, such that the $d f_{i}(x)$ generate
-$\Omega^{1}_{X/k}(x)$. 4. There are $f_{i} \in \mathcal{O}_{x}$, $1 \leq i \leq n$, such that the $f_{i}$,
-$1 \leq i \leq p$, generate $\mathfrak{m}_{x}$ and the $d f_{j}(x)$, $p + 1 \leq j \leq n$, generate
-$\Omega^{1}_{\kappa(x)/k}$ over $\kappa(x)$.
+is injective. 3. There are $f_{i} \in \mathcal{O}_{x}$, $1 \leq i \leq n$, with $f_{i} \in \mathfrak{m}_{x}$ for $1 \leq
+i \leq p$, such that the germ at $x$ of the morphism from $X$ to $\operatorname{Spec}(k[t_{1},...,t_{n}])$ defined by
+the $f_{i}$ is étale at $x$; equivalently, by II.5.1, such that the $d f_{i}(x)$ generate $\Omega^{1}_{X/k}(x)$. 4.
+There are $f_{i} \in \mathcal{O}_{x}$, $1 \leq i \leq n$, such that the $f_{i}$, $1 \leq i \leq p$, generate
+$\mathfrak{m}_{x}$ and the $d f_{j}(x)$, $p + 1 \leq j \leq n$, generate $\Omega^{1}_{\kappa(x)/k}$ over $\kappa(x)$.
 
 The equivalence of (iii) and (iv) follows from Corollary II.5.8. By II.4.9, these conditions are also equivalent to the
 fact that $X$ is smooth over $k$ at $x$ and that condition (ii) of II.4.10 is satisfied. Thus they are equivalent to the

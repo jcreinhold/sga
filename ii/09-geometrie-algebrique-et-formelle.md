@@ -129,9 +129,7 @@ H^i(f⁻¹(U′), J^k F | f⁻¹(U′)).
 
 Let $U'$ then be an affine open of $X'$, set
 
-$$
-U = f^{-1}(U'),
-$$
+$$ U = f^{-1}(U'), $$
 
 and let $x' \in I'^{m}(U')$. Let $x$ be the image of $x'$ in $J^{m}(U)$. The homothety of ratio $x$ on $F | U$ maps
 $J^{k} F | U$ into $J^{k+m} F | U$, whence, by functoriality, a morphism:
@@ -166,12 +164,12 @@ is $I'$-good);
 
 <!-- original page 81 -->
 
-(2) for $i = n$, $\rho_{i}$, $\varphi_{i}$, and $\psi_{i}$ are monomorphisms; furthermore, the filtration on
-$R^{n} f_{*}(F)$ is $I'$-good and $\psi_{n}$ is an isomorphism;
+(2) for $i = n$, $\rho_{i}$, $\varphi_{i}$, and $\psi_{i}$ are monomorphisms; furthermore, the filtration on $R^{n}
+f_{*}(F)$ is $I'$-good and $\psi_{n}$ is an isomorphism;
 
 (3) the projective system of the $R^{i} f_{*}(F_{k})$ satisfies, for $i = n - 2, n - 1$, the uniform Mittag-Leffler
-condition, i.e. there exists a fixed integer $k \geqslant 0$ such that, for every $p \geqslant 0$ and every
-$p' \geqslant p + k$, one has:
+condition, i.e. there exists a fixed integer $k \geqslant 0$ such that, for every $p \geqslant 0$ and every $p'
+\geqslant p + k$, one has:
 
 ```text
 Im[R^i f_*(F_{p′}) → R^i f_*(F_p)] = Im[R^i f_*(F_{p+k}) → R^i f_*(F_p)].
@@ -271,8 +269,8 @@ One has a commutative diagram:
 <!-- label: eq:IX.1.20 -->
 
 in which $s_{i}$ is an isomorphism; indeed, the filtration of $H^{i}(X, F)$ is $I$-good. Moreover, $t_{i}$ is a
-monomorphism; indeed, the functor `lim` is left exact, and, for every $k \geqslant 0$, the natural morphism
-$M^{i} / R^{i}_{k} \to H^{i}_{k}$ is a monomorphism, by definition of $R^{i}_{k}$.
+monomorphism; indeed, the functor `lim` is left exact, and, for every $k \geqslant 0$, the natural morphism $M^{i} /
+R^{i}_{k} \to H^{i}_{k}$ is a monomorphism, by definition of $R^{i}_{k}$.
 
 To study the surjectivity of $t_{i}$, we introduce:
 
@@ -310,17 +308,15 @@ Q^i = ⨁_{k ∈ ℕ} Q^i_k
 
 is a graded $S$-submodule of $H^{i+1}$. Moreover, for every $k \geqslant 0$, one has:
 
-$$
-I^{k+1} Q^{i}_{k} = 0,
-$$
+$$ I^{k+1} Q^{i}_{k} = 0, $$
 
 <!-- label: eq:IX.1.25 -->
 
 since $Q^{i}_{k}$ is the image of $H^{i}_{k}$.
 
 (b) We assume only that $H^{i+1}$ is of finite type, and we focus on $t_{i}$ (forgetting $s_{i}$). Since $S$ is
-noetherian, $Q^{i}$ is of finite type; since $I^{k+1} Q^{i}_{k}$ vanishes, we find that there exist an integer
-$r \geqslant 0$ and an integer $k_{0} \geqslant 0$ such that
+noetherian, $Q^{i}$ is of finite type; since $I^{k+1} Q^{i}_{k}$ vanishes, we find that there exist an integer $r
+\geqslant 0$ and an integer $k_{0} \geqslant 0$ such that
 
 ```text
 I^r Q^i_k = 0    for k ⩾ k₀.
@@ -417,8 +413,8 @@ eq:IX.1.3.1 to disambiguate, following the SGA 2 numbering convention. -->
 <!-- original page 84 -->
 
 One simply notes that $H^{i}(X, F)$ is of finite type, hence isomorphic to its completion. One obtains (1.1) by
-transcribing the diagram of Modules (1.7) into the category of $A$-modules, and replacing the left vertical by
-$H^{i}(X, F)$.
+transcribing the diagram of Modules (1.7) into the category of $A$-modules, and replacing the left vertical by $H^{i}(X,
+F)$.
 
 **Proposition.**
 
@@ -471,12 +467,12 @@ In particular:
 
 <!-- label: IX.1.5 -->
 
-One will apply 1.4 when $A$ is a local ring and $t$ belongs to the radical $r(A)$ of $A$. One will then take
-$T = {r(A)}$. In this case, for $n = 1$, one obtains the following statement:
+One will apply 1.4 when $A$ is a local ring and $t$ belongs to the radical $r(A)$ of $A$. One will then take $T =
+{r(A)}$. In this case, for $n = 1$, one obtains the following statement:
 
 If $A$ is noetherian, separated and complete for the $t$-adic topology, and a quotient of a regular ring (for example,
-if $A$ is complete), if moreover $t$ is $F$-regular and if $prof F_{x} \geqslant 2$ for every
-$x \in \operatorname{Spec}(A)$ such that $\dim A/x = 1$, then the natural homomorphism
+if $A$ is complete), if moreover $t$ is $F$-regular and if $prof F_{x} \geqslant 2$ for every $x \in
+\operatorname{Spec}(A)$ such that $\dim A/x = 1$, then the natural homomorphism
 
 ```text
 Γ(X, F) → Γ(X̂, F̂)
@@ -503,9 +499,7 @@ definition of $X'$; since $f$ is adic, $f*I' = J$ is[^N.D.E-IX-2] an ideal of de
 
 For every $n \in \mathbb{N}$, set
 
-$$
-X_{n} = (X, \mathcal{O}_{X}/J^{n+1});
-$$
+$$ X_{n} = (X, \mathcal{O}_{X}/J^{n+1}); $$
 
 <!-- label: eq:IX.2.1 -->
 
@@ -515,9 +509,7 @@ Let $F$ be a coherent $\mathcal{O}_{X}$-Module. For every $k \in \mathbb{N}$, th
 
 <!-- original page 108 -->
 
-$$
-F_{k} = F/J^{k+1} F
-$$
+$$ F_{k} = F/J^{k+1} F $$
 
 <!-- label: eq:IX.2.2 -->
 
@@ -531,9 +523,7 @@ are coherent. For every $i$, one has a homomorphism
 
 deduced by functoriality from the natural homomorphism:
 
-$$
-F \to F_{k}.
-$$
+$$ F \to F_{k}. $$
 
 <!-- label: eq:IX.2.4 -->
 
@@ -585,13 +575,11 @@ in (EGA III 2, Err_III 24).
 
 [^N.D.E-IX-3]
 
-Let $A$ be a noetherian adic ring and let $I$ be an ideal of definition of $A$. Let $T$ be a closed subset of
-$X' = \operatorname{Spec}(A)$. Suppose that $I$ is generated by a $t \in A$. Take up the notation 1.31, 1.32, and 1.33.
-Let $F$ be a coherent $\mathcal{O}_{\hat{X}}$-Module. Set
+Let $A$ be a noetherian adic ring and let $I$ be an ideal of definition of $A$. Let $T$ be a closed subset of $X' =
+\operatorname{Spec}(A)$. Suppose that $I$ is generated by a $t \in A$. Take up the notation 1.31, 1.32, and 1.33. Let
+$F$ be a coherent $\mathcal{O}_{\hat{X}}$-Module. Set
 
-$$
-F_{0} = F/J F,
-$$
+$$ F_{0} = F/J F, $$
 
 <!-- label: eq:IX.2.2.1 -->
 
@@ -609,11 +597,11 @@ Then there exists a coherent $\mathcal{O}_{X}$-Module $\tilde{F}$ such that $\ti
 altering the mathematics, we write `F̃` for the constructed `𝒪_X`-Module; in the source these are typographically the
 same letter. -->
 
-It suffices to prove that $\hat{f}_{*}(F)$ is a coherent $\mathcal{O}_{\hat{X}'}$-Module, where
-$\hat{f}: \hat{X} \to \hat{X}'$ is the morphism of formal preschemes deduced from the injection of $X$ into $X'$ by
-completion with respect to $t$. Indeed, $A$ is separated and complete for the $t$-adic topology, so there will exist an
-$A$-module $F'$ whose completion will be isomorphic to $\hat{f}_{*}(F)$. Since $X$ is an open of $X'$, one will be able
-to take $\tilde{F} = \tilde{F}' | X$.
+It suffices to prove that $\hat{f}_{*}(F)$ is a coherent $\mathcal{O}_{\hat{X}'}$-Module, where $\hat{f}: \hat{X} \to
+\hat{X}'$ is the morphism of formal preschemes deduced from the injection of $X$ into $X'$ by completion with respect to
+$t$. Indeed, $A$ is separated and complete for the $t$-adic topology, so there will exist an $A$-module $F'$ whose
+completion will be isomorphic to $\hat{f}_{*}(F)$. Since $X$ is an open of $X'$, one will be able to take $\tilde{F} =
+\tilde{F}' | X$.
 
 It remains to show that 2.1 is applicable to the morphism of formal preschemes $\hat{f}$ and to $F$. Now, by hypothesis
 (1), for every $k \in \mathbb{N}$ one has an isomorphism:

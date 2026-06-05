@@ -9,11 +9,7 @@ src = "."
 build-dir = "book"
 create-missing = false
 
-[preprocessor.katex]
-
 [output.html]
-default-theme = "rust"
-preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/jcreinhold/sga"
 edit-url-template = "https://github.com/jcreinhold/sga/edit/main/{path}"
 

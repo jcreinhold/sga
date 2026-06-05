@@ -54,20 +54,16 @@ Since $H'$ is flat over $S$ and $H' \times_{S} S_{0}$ is of finite presentation 
 of finite presentation over $S$; moreover, its fibers are smooth, so $H'$ is smooth over $S$ (EGA IV 17.5.1). Since $S$
 is affine, $u_{0}$ therefore lifts to an $S$-morphism of preschemes:
 
-$$
-u : H \longrightarrow H'.
-$$
+$$ u : H \longrightarrow H'. $$
 
-It then follows from Exp. III 2.1 and Exp. IX 3.1 that the composed morphism
-$v_{0} : H \times_{S_{0}} S \xrightarrow{\sim} H_{0} \to G_{0}$
+It then follows from Exp. III 2.1 and Exp. IX 3.1 that the composed morphism $v_{0} : H \times_{S_{0}} S
+\xrightarrow{\sim} H_{0} \to G_{0}$
 
 <!-- original page 351 -->
 
 also lifts to an $S$-morphism of groups:
 
-$$
-v : H \longrightarrow G.
-$$
+$$ v : H \longrightarrow G. $$
 
 Since $v_{0}$ is an immersion, so is $v$. The image of $H$ by $v$ is therefore a subgroup scheme of $G$, of
 multiplicative type, which lifts $H_{0}$.
@@ -177,8 +173,8 @@ morphisms $u_{n}$ define, by passage to the projective limit, a ring morphism
 
 This shows that (\*) is surjective; it is injective as soon as $A$ is separated for the $\mathfrak{m}$-adic topology.
 
-**Corollary 1.5.** *Let $A$ be a complete noetherian local ring, $\mathfrak{m}$ its maximal ideal,
-$S = \operatorname{Spec}(A)$, $S_{n} = \operatorname{Spec}(A/\mathfrak{m}^{n})$, $X$ a finite scheme over $S$ and $Y$ an
+**Corollary 1.5.** *Let $A$ be a complete noetherian local ring, $\mathfrak{m}$ its maximal ideal, $S =
+\operatorname{Spec}(A)$, $S_{n} = \operatorname{Spec}(A/\mathfrak{m}^{n})$, $X$ a finite scheme over $S$ and $Y$ an
 $S$-prescheme. Then the canonical map*
 
 ```text
@@ -190,9 +186,8 @@ Hom_S(X, Y) ⟶ lim_{←n} Hom_{Sₙ}(Xₙ, Yₙ)
 <!-- label: III.XV.1.5 -->
 
 Indeed, it follows from EGA II 6.2.5 that $X$ is a finite sum of local $S$-schemes finite over $S$. This reduces us to
-the case where $X$ itself is the spectrum of a complete noetherian local ring. But
-$\operatorname{Hom}_{S}(X, Y) = \Gamma(Z/X)$ where $Z$ is the $X$-prescheme $Y \times_{S} X$, and we apply the preceding
-proposition.
+the case where $X$ itself is the spectrum of a complete noetherian local ring. But $\operatorname{Hom}_{S}(X, Y) =
+\Gamma(Z/X)$ where $Z$ is the $X$-prescheme $Y \times_{S} X$, and we apply the preceding proposition.
 
 **Proposition 1.6.** *Let $A$, $S$, $S_{n}$ be as above, and let $G$ and $M$ be two $S$-preschemes in groups, with $M$
 finite over $S$. Then:*
@@ -214,12 +209,10 @@ Hom_{S-gr}(M, G) ⟶ lim_{←n} Hom_{Sₙ-gr}(Mₙ, Gₙ)
 *is surjective. Moreover, if $\phi(u) = \phi(u') = u_{0}$, then $u$ and $u'$ are conjugate by an element of $G(S)$
 reducing to the unit element of $G(S_{0})$.*
 
-*c) If $M$ is of multiplicative type and smooth over $S$, if $G$ is flat of finite type over $S$, and if
-$u_{0} : M_{0} \to G_{0}$ is a central homomorphism, then $u_{0}$ lifts uniquely to a homomorphism*
+*c) If $M$ is of multiplicative type and smooth over $S$, if $G$ is flat of finite type over $S$, and if $u_{0} : M_{0}
+\to G_{0}$ is a central homomorphism, then $u_{0}$ lifts uniquely to a homomorphism*
 
-$$
-u : M \longrightarrow G.
-$$
+$$ u : M \longrightarrow G. $$
 
 *Moreover $u$ is central if $G$ has connected fibers.*
 
@@ -276,9 +269,9 @@ sub-torus $T$ of $G$ such that $T \times_{S} S_{0} = T_{0}$.*
 Theorem 2.1 will be useful to us through the following two corollaries:
 
 **Corollary 2.2.** *Let $S$ be a locally noetherian prescheme, $S_{0}$ a closed subprescheme of $S$ defined by a locally
-nilpotent sheaf of ideals, $G$ an $S$-prescheme in groups of finite type, $T_{0}$ a sub-torus of
-$G_{0} = G \times_{S} S_{0}$, $q$ an integer `> 0` invertible on $S$; finally, with the integer $n$ ranging over powers
-of $q$, let $(M_{n})$ be a coherent system*
+nilpotent sheaf of ideals, $G$ an $S$-prescheme in groups of finite type, $T_{0}$ a sub-torus of $G_{0} = G \times_{S}
+S_{0}$, $q$ an integer `> 0` invertible on $S$; finally, with the integer $n$ ranging over powers of $q$, let $(M_{n})$
+be a coherent system*
 
 <!-- original page 358 -->
 
@@ -290,8 +283,8 @@ every $n$.*
 <!-- label: III.XV.2.2 -->
 
 **Corollary 2.3.** *Let $G$ be an $S$-prescheme in groups, flat and of finite presentation over $S$, $S_{0}$ a closed
-subprescheme of $S$ defined by a sheaf of ideals of finite type and locally nilpotent, $T_{0}$ a central torus of
-$G_{0} = G \times_{S} S_{0}$. Then there exists one and only one sub-torus $T$ of $G$ lifting $T_{0}$. Moreover $T$ is
+subprescheme of $S$ defined by a sheaf of ideals of finite type and locally nilpotent, $T_{0}$ a central torus of $G_{0}
+= G \times_{S} S_{0}$. Then there exists one and only one sub-torus $T$ of $G$ lifting $T_{0}$. Moreover $T$ is
 central.*
 
 <!-- label: III.XV.2.3 -->
@@ -299,9 +292,7 @@ central.*
 **Remark 2.4.** We leave to the reader the task of formulating the analogue of statements 2.1, 2.2, 2.3 in which,
 instead of lifting a sub-torus of $G_{0}$, one is given a torus $T$ over $S$ and one proposes to lift a morphism
 
-$$
-u_{0} : T_{0} \longrightarrow G_{0}
-$$
+$$ u_{0} : T_{0} \longrightarrow G_{0} $$
 
 (one reduces to the preceding cases by considering the graph of $u_{0}$).
 
@@ -350,8 +341,8 @@ family of $ens(Z_{i})$ is stationary above some non-empty open subset of $S$. No
 in $G$ (Exp. VIII 6.5 e)).
 
 To establish the last assertion of the lemma, denote by $Z$ the stationary value of the family `Zᵢ`. It is clear that
-$Centr_{G}(H)$ is a subfunctor of $Z$; let us show that $Z$ centralizes $H$. Let $E$ be the subprescheme of
-$H \times_{S} Z$ which is the kernel of the pair of morphisms:
+$Centr_{G}(H)$ is a subfunctor of $Z$; let us show that $Z$ centralizes $H$. Let $E$ be the subprescheme of $H
+\times_{S} Z$ which is the kernel of the pair of morphisms:
 
 ```text
 H ×_S Z ⇒ G
@@ -360,9 +351,9 @@ H ×_S Z ⇒ G
 ```
 
 The prescheme $E$ majorizes $H_{i} \times_{S} Z$ for every $i$. On the other hand, the `Hᵢ` are flat over $S$, so (EGA
-IV 11.10.9) for every point $s$ of $S$, the $(H_{i})_{s}$ are schematically dense in $H_{s}$ and the
-$H_{i} \times_{S} Z$ are schematically dense in $H \times_{S} Z$. Since $G_{s}$ is separated, $E_{s}$ is closed in
-$(H \times_{s} Z)_{s}$ and therefore equal to it. But then $E$ is closed in
+IV 11.10.9) for every point $s$ of $S$, the $(H_{i})_{s}$ are schematically dense in $H_{s}$ and the $H_{i} \times_{S}
+Z$ are schematically dense in $H \times_{S} Z$. Since $G_{s}$ is separated, $E_{s}$ is closed in $(H \times_{s} Z)_{s}$
+and therefore equal to it. But then $E$ is closed in
 
 <!-- original page 361 -->
 
@@ -409,8 +400,8 @@ u₀ : T ×_S S₀ ⥲ T₀,
 and it is equivalent to lift $u_{0}$ or to lift $T_{0}$. In view of uniqueness, it suffices to prove the existence of a
 lifting of $u_{0}$ after performing a faithfully flat affine extension $S' \to S$ of finite type (fpqc descent), which
 allows us to assume $T = G^{r}_{m, S}$ (Exp. X 4.5). If the restriction of $u_{0}$ to each factor $G_{m}$ lifts to an
-$S$-morphism — necessarily central — one immediately deduces a lifting of $u_{0}$. In short, we may assume
-$T_{0} = G_{m, S_{0}}$.
+$S$-morphism — necessarily central — one immediately deduces a lifting of $u_{0}$. In short, we may assume $T_{0} =
+G_{m, S_{0}}$.
 
 **b) Definition of the obstruction to the existence of a lifting of $T_{0}$.**
 
@@ -424,9 +415,7 @@ Let $U$ be an open subset of $G$ such that $T_{0}$ is closed in $U$, and let us 
 open subscheme of $G$ (resp. $G_{0}$) having $U$ as underlying space. The sheaf $\mathcal{O}_{T_{0}}$, viewed as a sheaf
 on $U$, is therefore a quotient of $\mathcal{O}_{U_{0}}$. Let $h$ be the canonical epimorphism:
 
-$$
-h : \mathcal{O}_{U_{0}} \longrightarrow \mathcal{O}_{T_{0}}.
-$$
+$$ h : \mathcal{O}_{U_{0}} \longrightarrow \mathcal{O}_{T_{0}}. $$
 
 **Lemma 2.7.** *The canonical map*
 
@@ -445,9 +434,7 @@ J ⊗_{S₀} 𝒪_{U₀} ⟶ J𝒪_U ≃ J𝒪_{U₀}.
 We must show that $\tilde{h}(K) = 0$, where $K$ is the kernel of $j_{U}$. Now for every integer $n$ equal to a power of
 $q$, we have an epimorphism
 
-$$
-h_{n} : \mathcal{O}_{T_{0}} \longrightarrow \mathcal{O}_{{}_{n}T_{0}}
-$$
+$$ h_{n} : \mathcal{O}_{T_{0}} \longrightarrow \mathcal{O}_{{}_{n}T_{0}} $$
 
 and since ${}_{n}T_{0}$ lifts to a scheme $M_{n}$ flat over $S$, the canonical morphism
 
@@ -473,16 +460,16 @@ K ──→ J ⊗_{S₀} 𝒪_{U₀} ──j_U──→ J𝒪_U ⊂ 𝒪_U
       J ⊗_{S₀} 𝒪_{ₙT₀} ──jₙ──→ J𝒪_{Mₙ} ⊂ 𝒪_{Mₙ}
 ```
 
-shows that $\tilde{h}(K)$ is contained in $Ker \tilde{h}_{n}$ for every $n$, hence is contained in
-$\bigcap_{n} Ker \tilde{h}_{n}$, and it suffices to show that this last intersection is zero. Now the sheaf
-$\mathcal{O}_{T_{0}}$ is equal to the sheaf $\mathcal{O}_{S_{0}}[\mathbb{Z}]$, the algebra of the group $\mathbb{Z}$
-with coefficients in $\mathcal{O}_{S_{0}}$, while $\mathcal{O}_{{}_{n}T_{0}}$ is the quotient algebra
+shows that $\tilde{h}(K)$ is contained in $Ker \tilde{h}_{n}$ for every $n$, hence is contained in $\bigcap_{n} Ker
+\tilde{h}_{n}$, and it suffices to show that this last intersection is zero. Now the sheaf $\mathcal{O}_{T_{0}}$ is
+equal to the sheaf $\mathcal{O}_{S_{0}}[\mathbb{Z}]$, the algebra of the group $\mathbb{Z}$ with coefficients in
+$\mathcal{O}_{S_{0}}$, while $\mathcal{O}_{{}_{n}T_{0}}$ is the quotient algebra
 $\mathcal{O}_{S_{0}}[\mathbb{Z}/n\mathbb{Z}]$.
 
 Let $a = \Sigma_{m \in \mathbb{Z}} a_{m} \otimes m$ be an element of $J \otimes_{S_{0}} \mathcal{O}_{T_{0}}$. The
 $a_{m}$ are then sections of $J$, almost all zero. Take $n$ large enough that the indices $m$ for which $a_{m}$ is
-non-zero have distinct images in $\mathbb{Z}/n\mathbb{Z}$. Then if $a \in Ker \tilde{h}_{n}$, one necessarily has
-$a = 0$. This proves that $\bigcap_{n} Ker \tilde{h}_{n} = 0$, and proves 2.7.
+non-zero have distinct images in $\mathbb{Z}/n\mathbb{Z}$. Then if $a \in Ker \tilde{h}_{n}$, one necessarily has $a =
+0$. This proves that $\bigcap_{n} Ker \tilde{h}_{n} = 0$, and proves 2.7.
 
 Let then $K_{0}$ be the kernel of $h$; consider the following diagram:
 
@@ -502,16 +489,15 @@ Let then $K_{0}$ be the kernel of $h$; consider the following diagram:
                                 0.
 ```
 
-The sheaf $\mathcal{O}_{U}$ defines an element $\Phi$ of the group
-$Ext^{1}_{\mathcal{O}_{U}}(\mathcal{O}_{U_{0}}, J\mathcal{O}_{U_{0}})$. Let $\Psi$ be the element of
+The sheaf $\mathcal{O}_{U}$ defines an element $\Phi$ of the group $Ext^{1}_{\mathcal{O}_{U}}(\mathcal{O}_{U_{0}},
+J\mathcal{O}_{U_{0}})$. Let $\Psi$ be the element of
 
 <!-- original page 365 -->
 
 $Ext^{1}_{\mathcal{O}_{U}}(K_{0}, J \otimes_{S_{0}} \mathcal{O}_{T_{0}})$ deduced from $\Phi$ by bifunctoriality of
-$Ext^{1}(\cdot, \cdot)$ through the morphisms $K_{0} \to \mathcal{O}_{U_{0}}$ and
-$i : J\mathcal{O}_{U_{0}} \to J \otimes_{S_{0}} \mathcal{O}_{T_{0}}$. It follows from Exp. III 4.1 and from the
-infinitesimal flatness criterion (cf. Exp. III 4.3) that there exists a subscheme of $U$, flat over $S$, which lifts
-$T_{0}$, if and only if $\Psi$ is zero.
+$Ext^{1}(\cdot, \cdot)$ through the morphisms $K_{0} \to \mathcal{O}_{U_{0}}$ and $i : J\mathcal{O}_{U_{0}} \to J
+\otimes_{S_{0}} \mathcal{O}_{T_{0}}$. It follows from Exp. III 4.1 and from the infinitesimal flatness criterion (cf.
+Exp. III 4.3) that there exists a subscheme of $U$, flat over $S$, which lifts $T_{0}$, if and only if $\Psi$ is zero.
 
 But note that $T_{0}$ is affine, so it suffices (Exp. III 4.5 and 4.6) to show that there locally on $U$ exists a
 subscheme flat over $S$ lifting $T_{0}$. In short, it suffices to show that the image of $\Psi$ in the sheaf
@@ -533,8 +519,8 @@ that the section $\Psi$ of $\mathcal{E}$ is zero, it suffices to see that for ev
 $\Psi$ in the fiber of $\mathcal{E}$ at the point $u$ is zero. But the formation of the $Ext^{i}(\cdot, \cdot)$ of
 coherent sheaves commutes with flat extensions of the base[^N.D.E-XV-2], so we are reduced to proving the existence of a
 lifting of $T_{0} \cap \operatorname{Spec} \mathcal{O}_{u}$ flat over $S$. Let $s$ be the projection of $u$ on $S$; we
-may then replace $S$ by $\operatorname{Spec} \mathcal{O}_{s}$ and $G$ by
-$G \times_{S} \operatorname{Spec} \mathcal{O}_{s}$.
+may then replace $S$ by $\operatorname{Spec} \mathcal{O}_{s}$ and $G$ by $G \times_{S} \operatorname{Spec}
+\mathcal{O}_{s}$.
 
 Possibly again making a faithfully flat extension, we may assume that $\mathcal{O}_{s}$ has an algebraically closed
 residue field (EGA 0_III, 10.3.1).
@@ -550,11 +536,10 @@ $G_{n}$. It is clear that if $n > n'$, one has
 ```
 
 If then $u$ is a point of $T_{0}$ projecting onto $s$, it follows from the lemma below, applied to the coherent system
-of liftings $(T_{n} \cap \operatorname{Spec} \mathcal{O}_{u})$ of
-$(T_{0})_{n} \cap \operatorname{Spec} \mathcal{O}_{u}$, that there indeed exists a lifting of
-$T_{0} \cap \operatorname{Spec} \mathcal{O}_{u}$ flat over $\mathcal{O}_{s}$. We are therefore reduced to proving that
-$\Psi$ is zero when $S = S_{n}$ is the spectrum of an artinian local ring with algebraically closed residue field, and
-to proving:
+of liftings $(T_{n} \cap \operatorname{Spec} \mathcal{O}_{u})$ of $(T_{0})_{n} \cap \operatorname{Spec}
+\mathcal{O}_{u}$, that there indeed exists a lifting of $T_{0} \cap \operatorname{Spec} \mathcal{O}_{u}$ flat over
+$\mathcal{O}_{s}$. We are therefore reduced to proving that $\Psi$ is zero when $S = S_{n}$ is the spectrum of an
+artinian local ring with algebraically closed residue field, and to proving:
 
 **Lemma 2.8.** *Let $A \to B$ be a local homomorphism of noetherian local rings, $\mathfrak{m}$ the maximal ideal of
 $A$, $J$ an ideal of square zero of $A$, $M$ a $B$-module of finite type, $A_{0} = A/J$, $B_{0} = B/JB$, $M_{0} = M/JM$,
@@ -564,8 +549,8 @@ $A_{0},_{n}$, etc., be the objects obtained by base extension*
 <!-- original page 367 -->
 
 *$A \to A/\mathfrak{m}^{n} = A_{n}$, and let $J_{n}$ be the image of $J$ in $A_{n}$. For every integer $n > 0$, let
-$N_{n}$ be a quotient $B_{n}$-module of $M_{n}$, flat over $A_{n}$, lifting $N_{0},_{n}$, and suppose that for
-$n \geqslant n'$, $N_{n}'$ is obtained from $N_{n}$ by base extension $A_{n} \to A_{n}'$. Then there exists a $B$-module
+$N_{n}$ be a quotient $B_{n}$-module of $M_{n}$, flat over $A_{n}$, lifting $N_{0},_{n}$, and suppose that for $n
+\geqslant n'$, $N_{n}'$ is obtained from $N_{n}$ by base extension $A_{n} \to A_{n}'$. Then there exists a $B$-module
 $N$, quotient of $M$, flat over $A$, lifting $N_{0}$.*
 
 <!-- label: III.XV.2.8 -->
@@ -641,12 +626,10 @@ J ⊗_{A₀} M₀ ──can.──→ JM
 ```
 
 Under these conditions, it follows from Exp. III 4.1 and Exp. III 4.3 that there exists a $B$-module quotient $N$ of
-$M$, flat over $A$, lifting $N_{0}$, if and only if a certain element $g$ of
-$E = Ext^{1}_{B}(P_{0}, J \otimes_{A_{0}} N_{0})$ is zero. More precisely, the exact sequence
+$M$, flat over $A$, lifting $N_{0}$, if and only if a certain element $g$ of $E = Ext^{1}_{B}(P_{0}, J \otimes_{A_{0}}
+N_{0})$ is zero. More precisely, the exact sequence
 
-$$
-0 \longrightarrow JM \longrightarrow M \longrightarrow M_{0} \longrightarrow 0
-$$
+$$ 0 \longrightarrow JM \longrightarrow M \longrightarrow M_{0} \longrightarrow 0 $$
 
 defines an element $f$ of $F$, where $F$ is the $B$-module $Ext^{1}_{B}(M_{0}, JM)$, and $g$ is the image of $f$
 
@@ -694,19 +677,19 @@ problem under consideration. In particular, to $g$ corresponds an $S_{0}$-automo
 leaving the obstruction $\Psi$ fixed. More precisely, $g$ defines a semi-linear automorphism of the $B_{0}$-module $E$
 (relative to the $A_{0}$-automorphism of $B_{0}$ defined by translation by $g_{0}$ in the group $T_{0}$). By reduction
 modulo $\mathfrak{m}^{r+1}_{0}$, $g$ then defines a semi-linear automorphism of `Eᵣ` (relative to the $k$-automorphism
-of $B'_{0}$ defined by translation by $g_{0} \times_{S_{0}} \operatorname{Spec}(k)$ in
-$T_{0} \times_{S_{0}} \operatorname{Spec}(k)$).
+of $B'_{0}$ defined by translation by $g_{0} \times_{S_{0}} \operatorname{Spec}(k)$ in $T_{0} \times_{S_{0}}
+\operatorname{Spec}(k)$).
 
 **Lemma 2.9.** *For every integer $r \geqslant 0$, `Eᵣ` is a locally free $B'_{0}$-module.*
 
 <!-- label: III.XV.2.9 -->
 
-Let $x$ be a point of $T_{0}$, $\kappa(x)$ its residue field, $(E_{r})_{x}$ "the fiber" of `Eᵣ` at $x$, equal to
-$E_{r} \otimes_{B'_{0}} \kappa(x)$, $\ell(x)$ the rank of $(E_{r})_{x}$ over $\kappa(x)$, $\ell$ the maximum value of
-$\ell(x)$ as $x$ ranges over the points of $T_{0}$. Let $L$ be the largest closed subscheme of
-$\operatorname{Spec} B'_{0} = G_{m, k}$ above which `Eᵣ` is locally free of rank $\ell$ (TDTE IV Lemma 3.6). Let $\beta$
-be a point of $L(k)$ (there is one, $L$ being of finite type over $k$ algebraically closed) and let $\alpha$ be a point
-of $G_{m, k}(k)$ of order equal to a power $n$ of $q$. The point $\alpha$ is therefore rational
+Let $x$ be a point of $T_{0}$, $\kappa(x)$ its residue field, $(E_{r})_{x}$ "the fiber" of `Eᵣ` at $x$, equal to $E_{r}
+\otimes_{B'_{0}} \kappa(x)$, $\ell(x)$ the rank of $(E_{r})_{x}$ over $\kappa(x)$, $\ell$ the maximum value of $\ell(x)$
+as $x$ ranges over the points of $T_{0}$. Let $L$ be the largest closed subscheme of $\operatorname{Spec} B'_{0} = G_{m,
+k}$ above which `Eᵣ` is locally free of rank $\ell$ (TDTE IV Lemma 3.6). Let $\beta$ be a point of $L(k)$ (there is one,
+$L$ being of finite type over $k$ algebraically closed) and let $\alpha$ be a point of $G_{m, k}(k)$ of order equal to a
+power $n$ of $q$. The point $\alpha$ is therefore rational
 
 <!-- original page 371 -->
 
@@ -760,9 +743,8 @@ by the exact sequence
 
 <!-- original page 372 -->
 
-$$
-0 \longrightarrow J\mathcal{O}_{G} \longrightarrow \mathcal{O}_{G} \longrightarrow \mathcal{O}_{G_{0}} \longrightarrow 0,
-$$
+$$ 0 \longrightarrow J\mathcal{O}_{G} \longrightarrow \mathcal{O}_{G} \longrightarrow \mathcal{O}_{G_{0}}
+\longrightarrow 0, $$
 
 so that $\Psi$ is the image of $\Phi$ in $\mathcal{E}$. Since ${}_{n}T_{0}$ lifts to a subscheme $M_{n}$ of $G$, flat
 over $S$, the image of $\Phi$ in the sheaf $Ext^{1}_{\mathcal{O}_{G}}(K_{0}(n), R(n))$ is zero (Exp. III 4.1); *a
@@ -780,15 +762,11 @@ Ext¹_{𝒪_G}(K₀, R) ⊗_{B₀} 𝒪_{ₙT₀} ⟶ Ext¹_{𝒪_G}(K₀, R(n))
 
 Indeed, the affine scheme $T_{0} = G_{m, S_{0}}$ has ring
 
-$$
-B_{0} = A_{0}[T, T^{-1}].
-$$
+$$ B_{0} = A_{0}[T, T^{-1}]. $$
 
 The subscheme ${}_{n}T_{0}$ is defined by the vanishing of the following section of $B_{0}$:
 
-$$
-h(n) = T^{n} - 1,
-$$
+$$ h(n) = T^{n} - 1, $$
 
 which is regular (EGA 0_IV 15.2.2) and remains regular after any base change $S'_{0} \to S_{0}$. We therefore have an
 exact sequence of sheaves:
@@ -814,9 +792,9 @@ then the exact sequence of `Ext`:
 which completes the proof of the lemma.
 
 The foregoing shows that for every integer $n$ equal to a power of $q$, the image of $\Psi$ in
-$\mathcal{E}/h(n)\mathcal{E}$ is zero. To show that $\Psi$ is zero, it suffices to see that if
-$\Psi \in \mathfrak{m}^{r}_{0} \mathcal{E}$, then $\Psi \in \mathfrak{m}^{r+1}_{0} \mathcal{E}$. Let $\bar{\Psi}$ be the
-image of $\Psi$ in `Eᵣ`. There exists an element $\Psi(n)$ of $\mathcal{E}$ such that one has
+$\mathcal{E}/h(n)\mathcal{E}$ is zero. To show that $\Psi$ is zero, it suffices to see that if $\Psi \in
+\mathfrak{m}^{r}_{0} \mathcal{E}$, then $\Psi \in \mathfrak{m}^{r+1}_{0} \mathcal{E}$. Let $\bar{\Psi}$ be the image of
+$\Psi$ in `Eᵣ`. There exists an element $\Psi(n)$ of $\mathcal{E}$ such that one has
 
 ```text
 Ψ = Ψ(n) · h(n)    (n equal to a power of q).
@@ -860,9 +838,7 @@ integer `> 0` invertible on $S$, $E$ a subset of $ens(G)$. Consider the followin
 - - b) As the integer $n$ ranges over powers of $q$, there exists a coherent family (cf. 2.2) $M_{n}$ of subgroup
     schemes of $G$, of multiplicative type, such that for every point $s$ of $S$ one has\*
 
-$$
-(M_{n})_{s} = {}_{n} T_{s}.
-$$
+$$ (M_{n})_{s} = {}_{n} T_{s}. $$
 
 - *(iii) a) As in (ii) a).*
 - - b) The set $E$ is locally closed in $ens(G)$, and the dimension of the fibers of $E$ over $S$ is locally constant.\*
@@ -900,33 +876,22 @@ b) If $S$ is not assumed normal, it is no longer true in general that (iii) ⇒ 
 geometrically unibranched and $G$ is a smooth group scheme over $S$. Indeed, consider the Borel subgroup of $SL_{2, S}$
 formed by matrices of the form
 
-$$
-( t   u)
-( 0  t^{-1}),
-$$
+$$ ( t u) ( 0 t^{-1}), $$
 
 where $S$ is the affine curve over a field $k$ with ring
 
-$$
-k[x, y]/(y^{2} - x^{3}).
-$$
+$$ k[x, y]/(y^{2} - x^{3}). $$
 
-Consider then the set $E$ obtained as follows: above the "cusp of $S$" ($x = y = 0$) we take the diagonal torus
-($u = 0$). Above the complementary open subset ($x \neq 0$) we take the torus deduced from the diagonal torus by
-conjugation by the element
+Consider then the set $E$ obtained as follows: above the "cusp of $S$" ($x = y = 0$) we take the diagonal torus ($u =
+0$). Above the complementary open subset ($x \neq 0$) we take the torus deduced from the diagonal torus by conjugation
+by the element
 
-$$
-( 1  y/x)
-( 0   1).
-$$
+$$ ( 1 y/x) ( 0 1). $$
 
 The set $E$ so obtained satisfies (iii) a); on the other hand it is closed in $G$, and the reduced subscheme having $E$
 as underlying set has equations
 
-$$
-xu + y(t - t^{-1}) = 0
-u^{2} - x(t - t^{-1})^{2} = 0.
-$$
+$$ xu + y(t - t^{-1}) = 0 u^{2} - x(t - t^{-1})^{2} = 0. $$
 
 <!-- original page 377 -->
 
@@ -982,9 +947,7 @@ irreducible subset of $G_{s}$ of dimension $r$, $E_{s}$ has the same underlying 
 $(E''_{s})^{0}$ of $E''_{s}$. Let $(E'')^{0}$ be the "connected component" of $E''$, i.e. the open subgroup of $E''$
 complementary to the union of the irreducible components of $E''_{s}$ not containing the origin. One then has
 
-$$
-E = ens[(E'')^{0}].
-$$
+$$ E = ens[(E'')^{0}]. $$
 
 Since $E$ and $E''$ are reduced, one has even $E = (E'')^{0}$. Finally $E$ is a subgroup prescheme of $G$, flat and of
 finite type over $S$, with connected fibers, hence separated (Exp. VI_B 5.2), whose generic fiber is a torus $T_{t}$,
@@ -1046,10 +1009,10 @@ underlying set of a sub-torus of $G_{k}$.*
 
 <!-- label: III.XV.3.4 -->
 
-Indeed, by fpqc descent it suffices to show that the two inverse images of $T_{k'}$ in $G_{k''}$, where
-$k'' = k' \otimes_{k} k'$, coincide. Now they have the same underlying space, namely the inverse image of $E$. If
-$T_{k'}$ is central, the lemma is a consequence of Exp. IX 5.1 bis. If $k$ is perfect, $k''$ is reduced and the two
-inverse images of $T_{k'}$, being smooth over $k''$, are reduced, hence coincide.
+Indeed, by fpqc descent it suffices to show that the two inverse images of $T_{k'}$ in $G_{k''}$, where $k'' = k'
+\otimes_{k} k'$, coincide. Now they have the same underlying space, namely the inverse image of $E$. If $T_{k'}$ is
+central, the lemma is a consequence of Exp. IX 5.1 bis. If $k$ is perfect, $k''$ is reduced and the two inverse images
+of $T_{k'}$, being smooth over $k''$, are reduced, hence coincide.
 
 **Remark 3.5.** It follows from the preceding lemma that in the statement of 3.1 (iv), property (iv) a) is a consequence
 of (iv) b) in the two following cases:
@@ -1075,8 +1038,8 @@ Hᵢ ×_{Sᵢ} S ⥲ H.
 
 Since $H$ is of finite type over $S$, $H$ is in fact of finite presentation over $S$ (Exp. IX 2.1 b)); there therefore
 exist an index $\ell$ and an $S_{\ell}$-group scheme $H_{\ell}$ such that $H_{\ell} \times_{S_{\ell}} S$ is isomorphic
-to $H$ (Exp. VI_B 10). Setting $H_{i} = H_{\ell} \times_{S_{\ell}} S_{i}$, one therefore has
-$H \cong H_{i} \times_{S_{i}} S$ for every $i \geqslant \ell$.
+to $H$ (Exp. VI_B 10). Setting $H_{i} = H_{\ell} \times_{S_{\ell}} S_{i}$, one therefore has $H \cong H_{i}
+\times_{S_{i}} S$ for every $i \geqslant \ell$.
 
 Since $H$ is of finite type over $S$, $H$ is quasi-isotrivial (Exp. X 4.5), hence trivialized by an étale surjective
 morphism $S' \to S$. Using the quasi-compactness of $S$, one easily sees that there exist a covering of $S$ by a finite
@@ -1084,9 +1047,9 @@ number of affine open subsets $S_{\alpha}$, and for every $\alpha$ an étale, su
 $S'_{\alpha} \to S_{\alpha}$ trivializing $H|S_{\alpha}$. This covering $(S_{\alpha})$ of $S$ then comes from a covering
 $(S_{i, \alpha})$ of `Sᵢ` for $i$ large enough (EGA IV 8). Possibly replacing `Sᵢ` by $S_{i, \alpha}$ and $S$ by
 $S_{\alpha}$, we may therefore assume that $H$ is trivialized by an étale surjective morphism $S' \to S$ of finite
-presentation. For $i$ large enough, there then exist a prescheme $S'_{i}$, an étale surjective morphism
-$S'_{i} \to S_{i}$ of finite presentation, and an $S$-isomorphism $S'_{i} \times_{S_{i}} S \to S'$ (EGA IV 17.16). Set
-then for $j$ large enough:
+presentation. For $i$ large enough, there then exist a prescheme $S'_{i}$, an étale surjective morphism $S'_{i} \to
+S_{i}$ of finite presentation, and an $S$-isomorphism $S'_{i} \times_{S_{i}} S \to S'$ (EGA IV 17.16). Set then for $j$
+large enough:
 
 ```text
 S′_j = S′ᵢ ×_{Sᵢ} S_j,    H′_j = H_j ×_{S_j} S′_j,    H′ = H ×_S S′.
@@ -1096,9 +1059,7 @@ Given the choice of $S'$, there exist a finitely generated abelian group $M$ and
 $D_{S'}(M) \xrightarrow{\sim} H'$. Since the $S'_{i}$ are quasi-compact and $S' = \lim S'_{i}$, it follows from Exp.
 VI_B 10 that there exist an index $j$ and an $S'_{j}$-isomorphism of group schemes
 
-$$
-D_{S'_{j}}(M) \xrightarrow{\sim} H'_{j}.
-$$
+$$ D_{S'_{j}}(M) \xrightarrow{\sim} H'_{j}. $$
 
 But this says that $H_{j}$ is a quasi-isotrivial group of multiplicative type.
 
@@ -1115,11 +1076,11 @@ that there exists a locally closed subset `Eᵢ` of `Gᵢ` such that $E = E_{i} 
 $j > i$, let $G_{j} = G_{i} \times_{S_{i}} S_{j}$ and $E_{j} = E_{i} \times_{S_{i}} S_{j}$, and let $Q_{j}$ be the set
 of points $s$ of $S_{j}$ such that $(E_{j})_{s}$ is the underlying set of a central sub-torus of $(G_{j})_{s}$.
 
-It follows from 3.4 that $Q_{k} = u^{-1}_{jk}(Q_{j})$ for $k \geqslant j$, and by hypothesis
-$ens(S) = u^{-1}_{j}(Q_{j})$ for $j \geqslant i$. Moreover, I claim that $Q_{j}$ is ind-constructible (EGA IV 1.9.4).
-Indeed, since $S_{j}$ is noetherian, it suffices (EGA IV 1.9.10) to see that if $S$ is a noetherian integral scheme with
-generic point $\eta$, and if $E_{\eta}$ is the underlying set of a central sub-torus $T_{\eta}$ of $G_{\eta}$, there
-exists a neighborhood $U$ of $\eta$ such that for every point $s$ of $U$, $E_{s}$ has the same property. Now, possibly
+It follows from 3.4 that $Q_{k} = u^{-1}_{jk}(Q_{j})$ for $k \geqslant j$, and by hypothesis $ens(S) =
+u^{-1}_{j}(Q_{j})$ for $j \geqslant i$. Moreover, I claim that $Q_{j}$ is ind-constructible (EGA IV 1.9.4). Indeed,
+since $S_{j}$ is noetherian, it suffices (EGA IV 1.9.10) to see that if $S$ is a noetherian integral scheme with generic
+point $\eta$, and if $E_{\eta}$ is the underlying set of a central sub-torus $T_{\eta}$ of $G_{\eta}$, there exists a
+neighborhood $U$ of $\eta$ such that for every point $s$ of $U$, $E_{s}$ has the same property. Now, possibly
 restricting $S$, we may assume that the
 
 <!-- original page 384 -->
@@ -1142,18 +1103,18 @@ topology defined by the maximal ideal. Since $A$ is the localization of a finite
 <!-- original page 385 -->
 
 reduced (EGA IV 7.6.5). I claim that it suffices to solve the problem after the base change $\hat{S} \to S$. Indeed if
-$\hat{T}$ is the sub-torus of $G_{\hat{S}}$ with underlying space $E_{\hat{S}}$, its two inverse images in
-$G_{\hat{S}} \times_{S} \hat{S}$ are two central sub-tori with the same underlying space, so they coincide (Exp. IX 5.1
-bis), and by fpqc descent, $\hat{T}$ comes from a torus $T$ of $G$ which answers the question (cf. 3.4).
+$\hat{T}$ is the sub-torus of $G_{\hat{S}}$ with underlying space $E_{\hat{S}}$, its two inverse images in $G_{\hat{S}}
+\times_{S} \hat{S}$ are two central sub-tori with the same underlying space, so they coincide (Exp. IX 5.1 bis), and by
+fpqc descent, $\hat{T}$ comes from a torus $T$ of $G$ which answers the question (cf. 3.4).
 
 **d) A descent lemma.** Let us recall the following properties of finite morphisms which were noted in TDTE I: Let $S$
 and $S'$ be two preschemes and $u : S' \to S$ a finite morphism. Then:
 
-1. The morphism $u$ is an epimorphism if and only if the canonical morphism of sheaves
-   $\mathcal{O}_{S} \longrightarrow u_{*}(\mathcal{O}_{S'})$ is injective.
-1. The morphism $u$ is an effective epimorphism (Exp. IV 1.3) if and only if the canonical diagram
-   $0 \longrightarrow \mathcal{O}_{S} \longrightarrow u_{*}(\mathcal{O}_{S'}) \Rightarrow u_{*}(\mathcal{O}_{S'}) \otimes_{\mathcal{O}_{S}} u_{*}(\mathcal{O}_{S'})$
-   is exact.
+1. The morphism $u$ is an epimorphism if and only if the canonical morphism of sheaves $\mathcal{O}_{S} \longrightarrow
+   u_{*}(\mathcal{O}_{S'})$ is injective.
+1. The morphism $u$ is an effective epimorphism (Exp. IV 1.3) if and only if the canonical diagram $0 \longrightarrow
+   \mathcal{O}_{S} \longrightarrow u_{*}(\mathcal{O}_{S'}) \Rightarrow u_{*}(\mathcal{O}_{S'}) \otimes_{\mathcal{O}_{S}}
+   u_{*}(\mathcal{O}_{S'})$ is exact.
 1. If moreover $S$ is noetherian and if $u$ is an epimorphism, $u$ is the composite of a finite sequence of effective
    finite epimorphisms.
 
@@ -1196,9 +1157,9 @@ I claim that if the two diagrams
 
 are exact, then so is (\*).
 
-Indeed the injectivity of $M(S) \to M(S')$ is clear. If now $T'$ is an element of
-$Ker M(S') \Rightarrow M(S' \times_{S} S')$, *a fortiori* $T'$ belongs to $Ker M(S') \Rightarrow M(S' \times_{S''} S')$,
-so by exactness of (\*)′ comes from a unique element $T''$ of $M(S'')$. It suffices
+Indeed the injectivity of $M(S) \to M(S')$ is clear. If now $T'$ is an element of $Ker M(S') \Rightarrow M(S' \times_{S}
+S')$, *a fortiori* $T'$ belongs to $Ker M(S') \Rightarrow M(S' \times_{S''} S')$, so by exactness of (\*)′ comes from a
+unique element $T''$ of $M(S'')$. It suffices
 
 <!-- original page 387 -->
 
@@ -1235,11 +1196,10 @@ type is flat over $S$; the injectivity of $M(S) \to M(S')$ is therefore a conseq
 lemma:
 
 **Lemma 3.8.** *Let $f : X \to S$ and $g : S' \to S$ be two morphisms of preschemes, $\mathcal{F}$ a quasi-coherent
-$\mathcal{O}_{X}$-module, $X' = X \times_{S} S'$,
-$\mathcal{F}' = \mathcal{F} \otimes_{\mathcal{O}_{S}} \mathcal{O}_{S'}$, $Q(\mathcal{F})$ the set of quotient
-$\mathcal{O}_{X}$-modules $\mathcal{G}$ of $\mathcal{F}$ which are quasi-coherent and flat over $S$, $Q(\mathcal{F}')$
-the analogue relative to $\mathcal{F}'$, $X'$ and $S'$. Suppose $g$ is quasi-compact and
-$\mathcal{O}_{S} \to g_{*}(\mathcal{O}_{S'})$ injective; then the canonical map*
+$\mathcal{O}_{X}$-module, $X' = X \times_{S} S'$, $\mathcal{F}' = \mathcal{F} \otimes_{\mathcal{O}_{S}}
+\mathcal{O}_{S'}$, $Q(\mathcal{F})$ the set of quotient $\mathcal{O}_{X}$-modules $\mathcal{G}$ of $\mathcal{F}$ which
+are quasi-coherent and flat over $S$, $Q(\mathcal{F}')$ the analogue relative to $\mathcal{F}'$, $X'$ and $S'$. Suppose
+$g$ is quasi-compact and $\mathcal{O}_{S} \to g_{*}(\mathcal{O}_{S'})$ injective; then the canonical map*
 
 ```text
 Q(ℱ) ⟶ Q(ℱ′)
@@ -1278,13 +1238,11 @@ iii) when $S$ is the spectrum of a noetherian local ring.
 
 <!-- original page 390 -->
 
-Let then `Ŝ` denote the spectrum of the completion of the ring of $S$, and let $S'' = S' \times_{S} S'$,
-$\hat{S}' = \hat{S} \times_{S} S'$, $\hat{S}'' = \hat{S} \times_{S} S'' = \hat{S}' \times_{\hat{S}} \hat{S}'$. I claim
-it suffices to show that the diagram
+Let then `Ŝ` denote the spectrum of the completion of the ring of $S$, and let $S'' = S' \times_{S} S'$, $\hat{S}' =
+\hat{S} \times_{S} S'$, $\hat{S}'' = \hat{S} \times_{S} S'' = \hat{S}' \times_{\hat{S}} \hat{S}'$. I claim it suffices
+to show that the diagram
 
-$$
-(*)    M(\hat{S}) \longrightarrow M(\hat{S}') \Rightarrow M(\hat{S}'')
-$$
+$$ (*) M(\hat{S}) \longrightarrow M(\hat{S}') \Rightarrow M(\hat{S}'') $$
 
 is exact at $M(\hat{S}')$. This follows from the commutative diagram below, in which the second row is exact at
 $M(\hat{S}')$ by hypothesis, the first two columns are exact (fpqc descent), and the map $f$ is injective as follows
@@ -1313,15 +1271,15 @@ noetherian local ring.
 <!-- original page 391 -->
 
 Let $S_{0}$ denote the reduced subscheme of $S$ whose underlying space is the closed point of $S$. Let $T'$ be an
-element of $Ker M(S') \Rightarrow M(S'')$, $T'_{0}$ its image in $M(S'_{0})$. Since
-$S''_{0} = S'_{0} \times_{S_{0}} S'_{0}$ is faithfully flat over $S_{0}$, there exists an $S$-subgroup of multiplicative
-type $T'_{S_{0}}$ of $G_{S_{0}}$ whose inverse image in $G_{S''_{0}}$ is $T'_{S'_{0}}$ (fpqc descent). But $S$ is local
-complete noetherian, so there exist an $S$-group of multiplicative type $T$ and an $S_{0}$-morphism
-$u_{0} : T \times_{S} S_{0} \to T'_{S_{0}}$ (Exp. X 3.3). The inverse image $u'_{0}$ of $u_{0}$ above $S'_{0}$ extends
-uniquely to an $S'$-isomorphism $u' : T_{S'} \to T'$, still by Exp. X 3.3 (note that $S'$, being finite over $S$ local
-complete, is the sum of a finite number of complete local schemes). The two inverse images of $u'$ above $S''$ are two
-morphisms of $T_{S''}$ into $T''$ which coincide on $S_{0} \times_{S} S''$, so they coincide (*loc. cit.*). Since $T$ is
-flat over $S$ and $S' \to S$ is a finite effective epimorphism, it follows from TDTE I page 8 that the diagram
+element of $Ker M(S') \Rightarrow M(S'')$, $T'_{0}$ its image in $M(S'_{0})$. Since $S''_{0} = S'_{0} \times_{S_{0}}
+S'_{0}$ is faithfully flat over $S_{0}$, there exists an $S$-subgroup of multiplicative type $T'_{S_{0}}$ of $G_{S_{0}}$
+whose inverse image in $G_{S''_{0}}$ is $T'_{S'_{0}}$ (fpqc descent). But $S$ is local complete noetherian, so there
+exist an $S$-group of multiplicative type $T$ and an $S_{0}$-morphism $u_{0} : T \times_{S} S_{0} \to T'_{S_{0}}$ (Exp.
+X 3.3). The inverse image $u'_{0}$ of $u_{0}$ above $S'_{0}$ extends uniquely to an $S'$-isomorphism $u' : T_{S'} \to
+T'$, still by Exp. X 3.3 (note that $S'$, being finite over $S$ local complete, is the sum of a finite number of
+complete local schemes). The two inverse images of $u'$ above $S''$ are two morphisms of $T_{S''}$ into $T''$ which
+coincide on $S_{0} \times_{S} S''$, so they coincide (*loc. cit.*). Since $T$ is flat over $S$ and $S' \to S$ is a
+finite effective epimorphism, it follows from TDTE I page 8 that the diagram
 
 ```text
 Hom_S(T, G) ⟶ Hom_{S′}(T_{S′}, G_{S′}) ⇒ Hom_{S″}(T_{S″}, G_{S″})
@@ -1346,12 +1304,12 @@ image in $M(S')$ is $T'$. This completes the proof of 3.7.
 <!-- original page 392 -->
 
 We are reduced by reduction c) to the case where $S$ is the spectrum of a complete reduced noetherian local ring $A$.
-Let $S'$ be the spectrum of the normalization $A'$ of $A$, which is finite over $A$ by Nagata (EGA 0_IV 23.1.5);
-$S' \to S$ is an epimorphism since $A$ embeds injectively into $A'$. Suppose then that there exists a torus $T'$ of
-$G_{S'}$ having $E_{S'}$ as underlying space. The two inverse images of $T'$ in $G_{S' \times_{S} S'}$ are two central
-sub-tori with the same underlying space, so they coincide (Exp. IX 5 bis); hence, by 3.7, $T'$ comes from a central
-sub-torus $T$ of `G_S` which evidently has $E$ as underlying space. It therefore suffices to prove the existence of
-$T'$, which reduces us to the case where $S$ is normal and completes the proof of I).
+Let $S'$ be the spectrum of the normalization $A'$ of $A$, which is finite over $A$ by Nagata (EGA 0_IV 23.1.5); $S' \to
+S$ is an epimorphism since $A$ embeds injectively into $A'$. Suppose then that there exists a torus $T'$ of $G_{S'}$
+having $E_{S'}$ as underlying space. The two inverse images of $T'$ in $G_{S' \times_{S} S'}$ are two central sub-tori
+with the same underlying space, so they coincide (Exp. IX 5 bis); hence, by 3.7, $T'$ comes from a central sub-torus $T$
+of `G_S` which evidently has $E$ as underlying space. It therefore suffices to prove the existence of $T'$, which
+reduces us to the case where $S$ is normal and completes the proof of I).
 
 **II) Proof of (iii) ⇒ (ii) when $S$ is normal.**
 
@@ -1438,9 +1396,7 @@ ${}_{n}T^{0}_{\eta}$. Since ${}_{n}T^{0}$ and $M_{n}$ are trivial, there exists 
 ${}_{n}u_{\eta}$ to an $S$-isomorphism of ${}_{n}T^{0}$ onto $M_{n}$. I claim that for every point $s$ of $S$ there
 exists a group isomorphism, necessarily unique:
 
-$$
-u_{s} : T^{0}_{s} \xrightarrow{\sim} T_{s}
-$$
+$$ u_{s} : T^{0}_{s} \xrightarrow{\sim} T_{s} $$
 
 extending ${}_{n}u_{s}$ for every $n$ equal to a power of $q$. Indeed, let $S_{1}$ be an $S$-scheme,
 
@@ -1508,9 +1464,7 @@ let $M(n)$ be a subgroup scheme of $G$, of multiplicative type and of type $(\ma
 
 - *a) The family of subgroups $M(n)$ is coherent, that is, if the integer $m$ divides $n$, one has*
 
-$$
-{}_{m}M(n) = M(m).
-$$
+$$ {}_{m}M(n) = M(m). $$
 
 - *b) There exists a point $s$ of $S$ and a sub-torus $T_{s}$ of $G_{s}$ such that*
 
@@ -1535,12 +1489,10 @@ $q$, let $u(n)$ be an $S$-group morphism ${}_{n}T \to G$. Suppose:*
 
 <!-- original page 399 -->
 
-$$
-u(m) = u(n)|_{{}_{m}T}.
-$$
+$$ u(m) = u(n)|_{{}_{m}T}. $$
 
-- *b) There exists a point $s$ of $S$ and a group morphism $u_{s} : T_{s} \to G_{s}$ such that
-  $u_{s}|_{{}_{n}T_{s}} = u(n)_{s}$ for every $n$ equal to a power of $q$.*
+- *b) There exists a point $s$ of $S$ and a group morphism $u_{s} : T_{s} \to G_{s}$ such that $u_{s}|_{{}_{n}T_{s}} =
+  u(n)_{s}$ for every $n$ equal to a power of $q$.*
 - *c) For every point $t$ of $S$, there exists a closed affine subscheme $F_{t}$ of $G_{t}$ majorizing
   $u(n)_{t}({}_{n}T_{t})$ for every $n$.*
 
@@ -1558,9 +1510,7 @@ c) by simply requiring that the required closed affine subscheme $F_{t}$ exists 
 Let us show how 4.1 bis follows from 4.1. Let $G' = G \times_{S} T$. For every integer $n$ equal to a power of $q$,
 consider the group morphism
 
-$$
-v(n) : {}_{n}T \longrightarrow G'
-$$
+$$ v(n) : {}_{n}T \longrightarrow G' $$
 
 whose projections to $G$ and $T$ are respectively $u(n)$ and the canonical immersion ${}_{n}T \to T$. The morphism
 $v(n)$ is therefore an immersion; let $M(n)$ be the image subgroup. It is clear that the family of subgroups $M(n)$ is
@@ -1574,18 +1524,14 @@ $n$. By 4.1, there therefore exists a sub-torus $T'$ of $G'$ such that ${}_{n}T'
 of $q$. Let $f$ be the restriction to $T'$ of the projection of $G'$ to $T$, and $f(n)$ the restriction of $f$ to
 $M(n)$. One has
 
-$$
-f(n) \circ v(n) = id_{{}_{n}T}.
-$$
+$$ f(n) \circ v(n) = id_{{}_{n}T}. $$
 
 The fiber at $s$ of $T'$ is the torus already denoted $T'_{s}$, equal to the graph of $u_{s}$ (this follows from Exp. IX
 4.8 b)), so $f_{s}$ is an isomorphism. But `Ker f` and `Coker f` are groups of multiplicative type (Exp. IX 2.7) of
 constant type, $S$ being connected, hence reduced to the unit group, and $f$ is an isomorphism. Let $v$ be the inverse
 isomorphism of $f$. One has
 
-$$
-v|_{{}_{n}T} = v(n).
-$$
+$$ v|_{{}_{n}T} = v(n). $$
 
 Consequently, the composite of $v$ and the projection of $G'$ onto $G$ is a morphism $u : T \to G$ answering the
 question. The foregoing proves the existence of the morphism $u$; as for uniqueness, it follows in any case from Exp. IX
@@ -1601,16 +1547,14 @@ Let $A$ be a complete noetherian local ring, $I$ its maximal ideal,
 
 <!-- original page 401 -->
 
-$S = \operatorname{Spec} A$, $S_{m} = \operatorname{Spec}(A/I^{m})$. For every prescheme $X$, set
-$X_{m} = X \times_{S} S_{m}$.
+$S = \operatorname{Spec} A$, $S_{m} = \operatorname{Spec}(A/I^{m})$. For every prescheme $X$, set $X_{m} = X \times_{S}
+S_{m}$.
 
 Let then $G$ be an $S$-prescheme in groups of finite type, $T$ an $S$-torus, $q$ an integer invertible on $S$, and
 $u_{m} : T_{m} \to G_{m}$ ($m \in \mathbb{N}$) a coherent family of group morphisms. With $n$ ranging over the powers of
 $q$, denote by $u_{m}(n)$ the restriction of $u_{m}$ to ${}_{n}T_{m}$, and by $u(n)$ the unique group morphism
 
-$$
-u(n) : {}_{n}T \longrightarrow G
-$$
+$$ u(n) : {}_{n}T \longrightarrow G $$
 
 extending the morphisms $u_{m}(n)$ for every $m$ (1.6 a)). We shall say that the family $(u_{m})$, $m \in \mathbb{N}$,
 is *admissible* if for every point $t$ of $S$ there exists a closed affine subprescheme $F_{t}$ of $G_{t}$ majorizing
@@ -1668,9 +1612,9 @@ construction the subschemes $M(n)$ are schematically dense in $H$ (Exp. IX 4.1);
 schematically dense in $H_{\bar{k}}$ (Exp. IX 4.5); moreover $M(n)_{\bar{k}}$ is reduced, and it follows that
 $H_{\bar{k}}$ is necessarily equal to the closed reduced subscheme of $G_{\bar{k}}$ having as underlying space the
 closure of $M_{\bar{k}}$. This proves that $H$ is geometrically reduced (EGA IV 4.6.1). The family $M(n)$ being
-coherent, $M$ is stable under the group law; moreover $M \times_{k} M$ is dense in $ens(H \times_{k} H)$ and
-$H \times_{k} H$ is reduced (EGA IV 4.6.5); one immediately deduces that $H$ is an algebraic subgroup of $G$. Moreover
-$H$ is smooth over $S$, since it is geometrically reduced (Exp. VI_A 1.3.1), and $H$ is commutative since the $M(n)$ are
+coherent, $M$ is stable under the group law; moreover $M \times_{k} M$ is dense in $ens(H \times_{k} H)$ and $H
+\times_{k} H$ is reduced (EGA IV 4.6.5); one immediately deduces that $H$ is an algebraic subgroup of $G$. Moreover $H$
+is smooth over $S$, since it is geometrically reduced (Exp. VI_A 1.3.1), and $H$ is commutative since the $M(n)$ are
 commutative. It remains to see that $H$ is connected. Let $H^{0}$ be the connected component of $H$, $m$ the number of
 geometric points of $H/H^{0}$, $q^{s}$ the exponent of $q$ in the decomposition of $m$ into prime factors. For every
 integer $n$ equal to a power of $q$, ${}_{q^{s}} M(n)$ is then contained in $H^{0}$. But the family $M(n)$ is coherent
@@ -1807,24 +1751,21 @@ w_m = v_m u_m : T⁰_m ⟶ G̃_m    (m ∈ ℕ)
 
 comes from a unique $S$-group morphism (Exp. IX 7.1)
 
-$$
-w : T^{0} \longrightarrow \tilde{G}.
-$$
+$$ w : T^{0} \longrightarrow \tilde{G}. $$
 
 Let $T_{t}$ be the sub-torus of $G_{t}$ equal to $v^{-1}_{t} w_{t}(T^{0}_{t})$. The torus $T_{t}$ is therefore of rank
 at most $r$ (as the image of a torus of rank $r$). Let us show that $T_{t}$ majorizes $M(n)_{t}$ for every $n$. Indeed,
 let $u(n)_{m}$ be the $S_{m}$-isomorphism $({}_{n}T^{0})_{m} \xrightarrow{\sim} M(n)_{m}$ obtained by restriction of
-$u_{m}$ to $({}_{n}T^{0})_{m}$. The coherent family of morphisms $u(n)_{m}$ comes from a unique $S$-isomorphism
-$u(n) : {}_{n}T^{0} \xrightarrow{\sim} M(n)$ (since $M(n)$ is finite over $S$). For every integer $m \geqslant 0$, one
-then has the equalities
+$u_{m}$ to $({}_{n}T^{0})_{m}$. The coherent family of morphisms $u(n)_{m}$ comes from a unique $S$-isomorphism $u(n) :
+{}_{n}T^{0} \xrightarrow{\sim} M(n)$ (since $M(n)$ is finite over $S$). For every integer $m \geqslant 0$, one then has
+the equalities
 
 ```text
 w_m|_{(ₙT⁰)_m} = (v_m u_m)|_{(ₙT⁰)_m} = (v ∘ u(n))_m.
 ```
 
-Consequently, $w|_{{}_{n}T^{0}} = v \circ u(n)$ (1.6 a)). In particular, one has
-$w_{t}|_{({}_{n}T^{0})_{t}} = v_{t} \circ u(n)_{t}$, so
-$v^{-1}_{t} w_{t} ({}_{n}T^{0})_{t} = u(n)_{t} ({}_{n}T^{0})_{t} = M(n)_{t}$.
+Consequently, $w|_{{}_{n}T^{0}} = v \circ u(n)$ (1.6 a)). In particular, one has $w_{t}|_{({}_{n}T^{0})_{t}} = v_{t}
+\circ u(n)_{t}$, so $v^{-1}_{t} w_{t} ({}_{n}T^{0})_{t} = u(n)_{t} ({}_{n}T^{0})_{t} = M(n)_{t}$.
 
 This indeed proves that $T_{t}$ majorizes $M(n)_{t}$, and entails that $T_{t}$ is of rank $r$. One concludes
 
@@ -1886,9 +1827,9 @@ $S'$ one has:*
 > *$\mathcal{L}_{G}(S')$ = set of subgroup preschemes of $G_{S'}$, smooth over $S'$, with connected fibers, which are
 > identical to their connected normalizer.*
 
-*Then the functor $\mathcal{L}$ is representable by an $S$-prescheme, a union of an increasing family
-$(U_{i})_{i \in \mathbb{N}}$ of open subpreschemes, quasi-projective and of finite presentation over $S$, hence a
-fortiori separated over $S$.*
+*Then the functor $\mathcal{L}$ is representable by an $S$-prescheme, a union of an increasing family $(U_{i})_{i \in
+\mathbb{N}}$ of open subpreschemes, quasi-projective and of finite presentation over $S$, hence a fortiori separated
+over $S$.*
 
 <!-- label: III.XV.5.2 -->
 
@@ -1927,9 +1868,7 @@ P_{φ(n, r)} = Grass_{φ(n, r)}(G^{(n)})
 (EGA I 2nd ed. 9.7; cf. also Séminaire Cartan 1960/61, Exp. N° 14 by A. Grothendieck). It then follows from the
 preceding remarks that the map
 
-$$
-H \mapsto H^{(n)}
-$$
+$$ H \mapsto H^{(n)} $$
 
 defines a canonical morphism
 
@@ -1949,9 +1888,7 @@ Moreover, if $S'$ is a quasi-compact $S$-prescheme and $H$ an element of $\mathc
 
 (Exp. XI 6.11) that for $n$ large enough,
 
-$$
-N = Norm_{G_{S'}}(H) = Norm_{G_{S'}}(H^{(n)}).
-$$
+$$ N = Norm_{G_{S'}}(H) = Norm_{G_{S'}}(H^{(n)}). $$
 
 For each integer $n \geqslant 0$, introduce the subfunctor $\mathcal{L}^{r}_{n}$ of $\mathcal{L}^{r}$ such that for
 every $S$-prescheme $S'$ one has:
@@ -1973,9 +1910,9 @@ representable by an $S$-prescheme, quasi-projective and of finite presentation o
 
 <!-- label: III.XV.5.3 -->
 
-Possibly replacing $S$ by $P_{n}$, we are reduced by the usual technique to proving the following assertion: Let
-$Q \in P_{n}(S)$ and consider the subfunctor $F$ of the functor $h_{S}$ represented by the final object $S$ of $Sch/S$,
-such that for every $S$-prescheme $S'$ one has:
+Possibly replacing $S$ by $P_{n}$, we are reduced by the usual technique to proving the following assertion: Let $Q \in
+P_{n}(S)$ and consider the subfunctor $F$ of the functor $h_{S}$ represented by the final object $S$ of $Sch/S$, such
+that for every $S$-prescheme $S'$ one has:
 
 <!-- original page 413 -->
 
@@ -2010,8 +1947,8 @@ Norm_{G_{S′}}(H) = Norm_{G_{S′}}(H^{(n)}) = Norm_{G_{S′}}(Q_{S′}) = N_{S
 ```
 
 So by 5.1 b) ii), $N_{S'}$ is smooth along the unit section and its connected component is $H$. Consequently $N_{S'}$ is
-of relative dimension $r$; and since $H$ is open in $N_{S'}$ (by 5.1 b) i)), one has
-$(N_{S'})^{(n)} = H^{(n)} = Q_{S'}$. In short, $F_{2}(S') = h_{S}(S')$.
+of relative dimension $r$; and since $H$ is open in $N_{S'}$ (by 5.1 b) i)), one has $(N_{S'})^{(n)} = H^{(n)} =
+Q_{S'}$. In short, $F_{2}(S') = h_{S}(S')$.
 
 ii) $F_{2}(S') = h_{S}(S') \Rightarrow F_{1}(S') = h_{S}(S')$.
 
@@ -2043,8 +1980,8 @@ follows:*
 
 - *a) The monomorphism $L \to S$ is an immersion of finite presentation.*
 - *b) Let $\mathcal{J}$ be the conormal sheaf relative to the immersion $S \to X$ (EGA IV 16.1.2); assume that for every
-  point $s$ of $S$, $\mathcal{J} \otimes_{\mathcal{O}_{S, s}} \kappa(s)$ is of rank at most $r$. Then the immersion
-  $L \to S$ is a closed immersion.*
+  point $s$ of $S$, $\mathcal{J} \otimes_{\mathcal{O}_{S, s}} \kappa(s)$ is of rank at most $r$. Then the immersion $L
+  \to S$ is a closed immersion.*
 
 <!-- label: III.XV.5.4 -->
 
@@ -2128,12 +2065,12 @@ if $N_{S'} = N'_{S'}$, and $D(S') = \emptyset$ otherwise. We must show that $D \
 <!-- original page 418 -->
 
 is an open immersion. Now I claim that $D$ is also the subfunctor of $S$ which "makes the immersion $H \to N'$ open".
-Indeed, if $N_{S'} = N'_{S'}$, then $H_{S'} \to N'_{S'}$ is indeed an open immersion since this is so for
-$H_{S'} \to N_{S'}$ (Prop. 5.1). Conversely, if $H_{S'} \to N'_{S'}$ is an open immersion, $H$ having connected fibers,
-$H_{S'}$ is the connected component of $N'_{S'}$ (Exp. VI_B 3.10) and consequently is invariant in $N'_{S'}$, so
-$N'_{S'} \subset N_{S'}$. Since in any case $N'$ majorizes $N$, one has $N_{S'} = N'_{S'}$. The group preschemes $H$ and
-$N'$ are of finite presentation over $S$ and $H$ is flat over $S$; the fact that $D \to S$ is an open immersion then
-follows from Exp. VI_B 2.6.
+Indeed, if $N_{S'} = N'_{S'}$, then $H_{S'} \to N'_{S'}$ is indeed an open immersion since this is so for $H_{S'} \to
+N_{S'}$ (Prop. 5.1). Conversely, if $H_{S'} \to N'_{S'}$ is an open immersion, $H$ having connected fibers, $H_{S'}$ is
+the connected component of $N'_{S'}$ (Exp. VI_B 3.10) and consequently is invariant in $N'_{S'}$, so $N'_{S'} \subset
+N_{S'}$. Since in any case $N'$ majorizes $N$, one has $N_{S'} = N'_{S'}$. The group preschemes $H$ and $N'$ are of
+finite presentation over $S$ and $H$ is flat over $S$; the fact that $D \to S$ is an open immersion then follows from
+Exp. VI_B 2.6.
 
 **End of the proof of 5.2.**
 
@@ -2155,9 +2092,7 @@ for every integer $r \geqslant 0$, the functor $\mathcal{L}^{r}$ is equal to $\m
 representable by an $S$-prescheme of finite presentation and quasi-projective over $S$. Indeed, it suffices to show that
 if $H \in \mathcal{L}^{r}(S')$, the canonical immersion
 
-$$
-H \longrightarrow N = Norm_{G_{S'}}(H^{(1)})
-$$
+$$ H \longrightarrow N = Norm_{G_{S'}}(H^{(1)}) $$
 
 is an open immersion (since this entails $N = Norm_{G_{S'}}(H)$, hence $H \in \mathcal{L}^{r}_{1}(S')$). Since $H$ is
 flat over $S$, and $H$ and $N$ are of finite presentation over $S$, it suffices (Exp. VI_B 2.6) to show that for every
@@ -2172,13 +2107,13 @@ Norm_G(H) = Norm_G(Lie H) = Norm_G(H^{(1)}).
 On the other hand, if $S$ has non-zero residue characteristics, the subfunctors $\mathcal{L}^{r}_{n}$ of
 $\mathcal{L}^{r}$ may form a strictly increasing sequence (even when $S$ is quasi-compact) and in this case
 $\mathcal{L}^{r}$ is not representable by an $S$-prescheme quasi-compact over $S$. Take for example the algebraic group
-$G$, defined over a field $k$ of characteristic $p > 0$, equal to the semidirect product of the torus
-$T = G_{m} \times G_{m}$ by the unipotent group $U = G_{a} \times G_{a}$, the action of $T$ on $U$ being defined by
-$(t, t', u, u') \to (tu, t'u')$. For every integer $n > 0$, consider the smooth connected subgroup $U_{n}$ of $U$ of
-equation $u' = u^{p^{n}}$, and the sub-torus $T_{n}$ of $T$ of equation $t' = t^{p^{n}}$. It is immediate to verify that
-$T_{n}$ acts on $U_{n}$ and that the subgroup $G_{n}$ of $G$, equal to $T_{n} \cdot U_{n}$, is smooth, connected and
-equal to its normalizer in $G$. Now all the groups $G_{n}$, for $n \geqslant m$, are distinct but have the same
-infinitesimal neighborhood of order `pᵐ`.
+$G$, defined over a field $k$ of characteristic $p > 0$, equal to the semidirect product of the torus $T = G_{m} \times
+G_{m}$ by the unipotent group $U = G_{a} \times G_{a}$, the action of $T$ on $U$ being defined by $(t, t', u, u') \to
+(tu, t'u')$. For every integer $n > 0$, consider the smooth connected subgroup $U_{n}$ of $U$ of equation $u' =
+u^{p^{n}}$, and the sub-torus $T_{n}$ of $T$ of equation $t' = t^{p^{n}}$. It is immediate to verify that $T_{n}$ acts
+on $U_{n}$ and that the subgroup $G_{n}$ of $G$, equal to $T_{n} \cdot U_{n}$, is smooth, connected and equal to its
+normalizer in $G$. Now all the groups $G_{n}$, for $n \geqslant m$, are distinct but have the same infinitesimal
+neighborhood of order `pᵐ`.
 
 <!-- label: III.XV.5.6 -->
 
@@ -2193,9 +2128,9 @@ that if $\mathcal{F}$ is a sheaf of $\mathcal{O}_{S}$-modules on a prescheme $S$
 $det(\mathcal{F})$ denotes the invertible $\mathcal{O}_{S}$-module whose restriction to the open-closed subprescheme
 $S_{r}$ of $S$ ($r \geqslant 0$) where $\mathcal{F}$ is of rank $r$ is equal to $\bigwedge^{r}(\mathcal{F})$). We keep
 the notation from the proof of 5.2. To prove the assertion made on $L$, we may restrict to the functor
-$\mathcal{L}^{r}_{n}$ and prove that $L|_{\mathcal{L}^{r}_{n}}$ is $S$-ample. Consider the canonical immersion
-$v_{n} : \mathcal{L}^{r}_{n} \to P_{n}$, and let $Q$ be the locally free sheaf on $P_{n}$ universal for the Grassmannian
-$P_{n}$. By construction, one has $v^{*}_{n}(Q) = H^{(n)}$ (where now $H$ denotes the subgroup prescheme of
+$\mathcal{L}^{r}_{n}$ and prove that $L|_{\mathcal{L}^{r}_{n}}$ is $S$-ample. Consider the canonical immersion $v_{n} :
+\mathcal{L}^{r}_{n} \to P_{n}$, and let $Q$ be the locally free sheaf on $P_{n}$ universal for the Grassmannian $P_{n}$.
+By construction, one has $v^{*}_{n}(Q) = H^{(n)}$ (where now $H$ denotes the subgroup prescheme of
 $G_{\mathcal{L}^{r}_{n}}$ universal for the functor $\mathcal{L}^{r}_{n}$). Now $det(Q)$ is the canonical ample sheaf on
 $P_{n}$ (EGA I 2nd ed. 9.7), so $det H^{(n)}$ is ample relative to $\mathcal{L}^{r}_{n}$ (EGA II 4.6.13 i) bis). Let
 $\mathcal{J}$ still denote the conormal sheaf, equal to $H^{(1)}$, and $S^{q}(\mathcal{J})$ the homogeneous part of
@@ -2215,23 +2150,23 @@ there exists a canonical isomorphism:
 det S^q(𝒥) ≃ (det 𝒥)^{⊗ s},
 ```
 
-where $s > 0$ is an integer depending only on $r$ and $q$. Finally, one obtains
-$det H^{(n)} \simeq (det \mathcal{J})^{\otimes s}$ for a suitable integer $s > 0$, hence (EGA II 4.5.6),
-`det 𝒥 = (det Lie H)⁻¹` is indeed $S$-ample.
+where $s > 0$ is an integer depending only on $r$ and $q$. Finally, one obtains $det H^{(n)} \simeq (det
+\mathcal{J})^{\otimes s}$ for a suitable integer $s > 0$, hence (EGA II 4.5.6), `det 𝒥 = (det Lie H)⁻¹` is indeed
+$S$-ample.
 
 <!-- label: III.XV.5.7 -->
 
-**Remark 5.8.** Let $S$ be a prescheme, $G$ and $H$ two $S$-preschemes in groups of finite presentation over $S$,
-$i : H \to G$ an $S$-homomorphism of groups which is a monomorphism. If $H$ is smooth over $S$ with connected fibers,
-one knows (Exp. XI 6.11) that $N = Norm_{G}(H)$ is representable by a closed subgroup prescheme of $G$, of finite
-presentation over $S$. Suppose in addition that $N$ is smooth along the unit section and has the same relative dimension
-over $S$ as $H$. The connected component $N^{0}$ of $N$ is then representable by an open subgroup prescheme of $N$,
-smooth over $S$ (Exp. VI_B 3.10). The monomorphism $i$ evidently factors through $N^{0}$. In fact one has $H = N^{0}$.
-Indeed, for every point $s$ of $S$, one has $H_{s} = (N^{0})_{s}$, these two algebraic groups being connected, smooth,
-of the same dimension. Since $H$ is flat over $S$, one deduces that $H \to N^{0}$ is an isomorphism (EGA IV 17.9.5).
-Finally $H$ is a subgroup prescheme of $G$. We have therefore shown that the functor $\mathcal{L}$ introduced in this
-section is identical to the functor of subgroups $H$ of $G$, smooth over $S$, with connected fibers and equal to their
-connected normalizer.
+**Remark 5.8.** Let $S$ be a prescheme, $G$ and $H$ two $S$-preschemes in groups of finite presentation over $S$, $i : H
+\to G$ an $S$-homomorphism of groups which is a monomorphism. If $H$ is smooth over $S$ with connected fibers, one knows
+(Exp. XI 6.11) that $N = Norm_{G}(H)$ is representable by a closed subgroup prescheme of $G$, of finite presentation
+over $S$. Suppose in addition that $N$ is smooth along the unit section and has the same relative dimension over $S$ as
+$H$. The connected component $N^{0}$ of $N$ is then representable by an open subgroup prescheme of $N$, smooth over $S$
+(Exp. VI_B 3.10). The monomorphism $i$ evidently factors through $N^{0}$. In fact one has $H = N^{0}$. Indeed, for every
+point $s$ of $S$, one has $H_{s} = (N^{0})_{s}$, these two algebraic groups being connected, smooth, of the same
+dimension. Since $H$ is flat over $S$, one deduces that $H \to N^{0}$ is an isomorphism (EGA IV 17.9.5). Finally $H$ is
+a subgroup prescheme of $G$. We have therefore shown that the functor $\mathcal{L}$ introduced in this section is
+identical to the functor of subgroups $H$ of $G$, smooth over $S$, with connected fibers and equal to their connected
+normalizer.
 
 <!-- label: III.XV.5.8 -->
 
@@ -2314,15 +2249,14 @@ using semi-continuity theorems (cf. Exp. X 8.7); we shall see an example a littl
 of that field. A standard reduction (EGA IV 9) then allows us to reduce to the case where $S$ is noetherian, integral,
 with generic point $\eta$. One must show that $E$ or `ens(S) \ E` contains a neighborhood of $\eta$ (EGA IV 9.2.1). One
 may assume $S$ affine of ring $A$ and field of fractions $K$. If $L$ is a finite extension of $K$, it is immediate that
-there exists an $A$-subalgebra $B$ of $L$, finite over $A$, having $L$ as field of fractions. The canonical morphism
-$S' \to S$, where $S' = \operatorname{Spec} B$, is dominant, of finite presentation, so the image of a non-empty open
-subset of $S'$ contains a non-empty open subset of $S$ (EGA IV 1.8.4). From the viewpoint that interests us, we may
-therefore replace $S$ by $S'$, hence replace $K$ by a finite extension $L$. Thus we may choose $L$ so that
-$(G_{L})_{red}$ and $(H_{L})_{red}$ are smooth over $L$ (EGA IV 4.6.6). Possibly restricting $S'$, we may assume that
-$G_{red}$ and $H_{red}$ are group preschemes smooth over $S$ (Exp. VI_B § 10 and EGA IV 17). In view of the properties
-to be proved, we may replace $G$ and $H$ by their reduced connected components (Exp. VI_B 10.9), hence assume $G$ and
-$H$ smooth over $S$ with connected fibers. Finally we may assume $H$ is a closed subgroup prescheme of $G$ (Exp. VI_B
-10.4).
+there exists an $A$-subalgebra $B$ of $L$, finite over $A$, having $L$ as field of fractions. The canonical morphism $S'
+\to S$, where $S' = \operatorname{Spec} B$, is dominant, of finite presentation, so the image of a non-empty open subset
+of $S'$ contains a non-empty open subset of $S$ (EGA IV 1.8.4). From the viewpoint that interests us, we may therefore
+replace $S$ by $S'$, hence replace $K$ by a finite extension $L$. Thus we may choose $L$ so that $(G_{L})_{red}$ and
+$(H_{L})_{red}$ are smooth over $L$ (EGA IV 4.6.6). Possibly restricting $S'$, we may assume that $G_{red}$ and
+$H_{red}$ are group preschemes smooth over $S$ (Exp. VI_B § 10 and EGA IV 17). In view of the properties to be proved,
+we may replace $G$ and $H$ by their reduced connected components (Exp. VI_B 10.9), hence assume $G$ and $H$ smooth over
+$S$ with connected fibers. Finally we may assume $H$ is a closed subgroup prescheme of $G$ (Exp. VI_B 10.4).
 
 *Proof of i).* Possibly after a finite extension of $K$, we may assume that $G_{\eta}$ admits a "Chevalley
 decomposition", i.e. is an extension of an abelian variety $D_{\eta}$ by a smooth connected linear algebraic group
@@ -2448,13 +2382,11 @@ functions $\rho_{n}$, $\rho_{r}$, $\rho_{u}$, $\rho_{ab}$ (cf. 6.1 ter) are loca
 
 It suffices to show (EGA IV 9.) that if $S$ is a noetherian integral scheme with generic point $\eta$, the functions in
 question are constant on a neighborhood of $\eta$. Possibly replacing $S$ by a scheme $S'$ finite over $S$ and
-dominating $S$, we may assume that $G_{\eta}$ admits a Cartan subgroup $C_{\eta}$ with a Chevalley decomposition
-$1 \to L_{\eta} \to C_{\eta} \to A_{\eta} \to 1$. The argument made in 6.2 i) proves that this decomposition extends to
-a Chevalley decomposition over a neighborhood of $\eta$:
+dominating $S$, we may assume that $G_{\eta}$ admits a Cartan subgroup $C_{\eta}$ with a Chevalley decomposition $1 \to
+L_{\eta} \to C_{\eta} \to A_{\eta} \to 1$. The argument made in 6.2 i) proves that this decomposition extends to a
+Chevalley decomposition over a neighborhood of $\eta$:
 
-$$
-1 \longrightarrow L \longrightarrow C \longrightarrow A \longrightarrow 1.
-$$
+$$ 1 \longrightarrow L \longrightarrow C \longrightarrow A \longrightarrow 1. $$
 
 Moreover, one may assume that $C$ is a Cartan subgroup of $G$ (6.3) and that the maximal torus $T_{\eta}$ of $L_{\eta}$
 extends to a maximal torus $T$ of $L$ (6.3). The corollary follows immediately from this and from the definitions.
@@ -2525,24 +2457,24 @@ We shall need the following lemma:
 **Lemma 6.7.** *Let $A$ be a complete noetherian local ring, $S = \operatorname{Spec} A$, $s$ the closed point of $S$,
 $H$ an $S$-prescheme in groups, smooth with connected fibers, $T_{s}$ a sub-torus of $H_{s}$. Then:*
 
-- *i) There exists a closed subgroup prescheme $C$ of $H$, smooth, with connected fibers, such that
-  $C_{s} = Centr_{H_{s}}(T_{s})$.*
+- *i) There exists a closed subgroup prescheme $C$ of $H$, smooth, with connected fibers, such that $C_{s} =
+  Centr_{H_{s}}(T_{s})$.*
 - *ii) For every point $t$ of $S$, $C_{t}$ is the centralizer in $H_{t}$ of a sub-torus $T_{t}$ of $H_{t}$.*
 
 <!-- label: III.XV.6.7 -->
 
-*Proof of 6.7.* Let $T^{0}$ be an $S$-torus such that there exists an isomorphism
-$u_{0} : T^{0}_{s} \xrightarrow{\sim} T_{s}$ (Exp. X 4.6). Let $\mathfrak{m}$ be the maximal ideal of $A$,
-$A_{n} = A/\mathfrak{m}^{n}$, $S_{n} = \operatorname{Spec} A_{n}$, $H_{n} = H \times_{S} S_{n}$, etc. Since $H$ is
-smooth over $S$, for every integer $n > 0$ there exists an $S_{n}$-group morphism $u_{n} : T^{0}_{n} \to H_{n}$ lifting
-$u_{0}$ (Exp. IX 3.6), and one may assume by induction on $n$ that $u_{n}$ lifts $u_{n-1}$. Moreover, let $q$ be a prime
-number invertible on $S$; for every integer $\ell$ equal to a power of $q$, denote by ${}_{\ell }u_{n}$ the restriction
-of $u_{n}$ to the subgroup ${}_{\ell }T^{0}_{n}$. For fixed $\ell$ and variable $n$, the morphisms ${}_{\ell }u_{n}$
-form a projective system, hence come from a unique $S$-group morphism ${}_{\ell }u : {}_{\ell }T^{0} \to H$ (1.6 a)).
-Since $H$ is separated (Exp. VI_B 5.2) and $u_{0}$ is a monomorphism, ${}_{\ell }u$ is a monomorphism (Exp. IX 6.8), and
-even a closed immersion since it is finite, ${}_{\ell }T^{0}$ being finite over $S$. Denote by $M(\ell)$ the image
-group. It is clear that the family of subgroups of multiplicative type $M(\ell)$ is coherent in the sense of 4.1. Let
-$C_{\ell} = Centr_{H}(M(\ell))$, which is representable by a subgroup prescheme (2.5), closed ($H$ is separated),
+*Proof of 6.7.* Let $T^{0}$ be an $S$-torus such that there exists an isomorphism $u_{0} : T^{0}_{s} \xrightarrow{\sim}
+T_{s}$ (Exp. X 4.6). Let $\mathfrak{m}$ be the maximal ideal of $A$, $A_{n} = A/\mathfrak{m}^{n}$, $S_{n} =
+\operatorname{Spec} A_{n}$, $H_{n} = H \times_{S} S_{n}$, etc. Since $H$ is smooth over $S$, for every integer $n > 0$
+there exists an $S_{n}$-group morphism $u_{n} : T^{0}_{n} \to H_{n}$ lifting $u_{0}$ (Exp. IX 3.6), and one may assume
+by induction on $n$ that $u_{n}$ lifts $u_{n-1}$. Moreover, let $q$ be a prime number invertible on $S$; for every
+integer $\ell$ equal to a power of $q$, denote by ${}_{\ell }u_{n}$ the restriction of $u_{n}$ to the subgroup ${}_{\ell
+}T^{0}_{n}$. For fixed $\ell$ and variable $n$, the morphisms ${}_{\ell }u_{n}$ form a projective system, hence come
+from a unique $S$-group morphism ${}_{\ell }u : {}_{\ell }T^{0} \to H$ (1.6 a)). Since $H$ is separated (Exp. VI_B 5.2)
+and $u_{0}$ is a monomorphism, ${}_{\ell }u$ is a monomorphism (Exp. IX 6.8), and even a closed immersion since it is
+finite, ${}_{\ell }T^{0}$ being finite over $S$. Denote by $M(\ell)$ the image group. It is clear that the family of
+subgroups of multiplicative type $M(\ell)$ is coherent in the sense of 4.1. Let $C_{\ell} = Centr_{H}(M(\ell))$, which
+is representable by a subgroup prescheme (2.5), closed ($H$ is separated),
 
 <!-- original page 435 -->
 
@@ -2587,8 +2519,8 @@ $H_{t}$. Since $H$ is smooth over $S$ with connected fibers, one concludes for d
 the notation of 6.7, one has $H = C = C_{\ell}$ for $\ell$ large. Consider similarly $C'_{\ell} = Centr_{G}(M(\ell))$
 (2.5), and let $C'$ be the stationary value of $C'_{\ell}$ for $\ell$ large (2.5 bis). The group scheme $C'$ majorizes
 $H$ and is such that $C'_{t} = Centr_{G_{t}}(T_{t})$ (6.8) and $C'_{s} = Centr_{G_{s}}(T_{s})$. The hypothesis made on
-$H_{s}$ implies $\dim H_{s} = \dim C'_{s}$. Moreover, $\dim H_{s} = \dim H_{t}$ (since $H$ is smooth over $S$) and
-$\dim C'_{t} \leqslant \dim C'_{s}$ (Exp. VI_B 4.1),
+$H_{s}$ implies $\dim H_{s} = \dim C'_{s}$. Moreover, $\dim H_{s} = \dim H_{t}$ (since $H$ is smooth over $S$) and $\dim
+C'_{t} \leqslant \dim C'_{s}$ (Exp. VI_B 4.1),
 
 <!-- original page 437 -->
 
@@ -2637,33 +2569,33 @@ of $\mathcal{L}$ such that
 ```
 
 The $S$-functor $\mathcal{L}_{n}$ is therefore representable by an open subprescheme of $\mathcal{L}$, sum of the
-$\mathcal{L}^{r}_{n}$. Each $\mathcal{L}^{r}_{n}$ is of finite presentation over $S$ (5.3) and is empty for
-$r > \sup_{s \in S} \dim G_{s}$ (which is a finite number, $S$ being quasi-compact), so $\mathcal{L}_{n}$ is
+$\mathcal{L}^{r}_{n}$. Each $\mathcal{L}^{r}_{n}$ is of finite presentation over $S$ (5.3) and is empty for $r > \sup_{s
+\in S} \dim G_{s}$ (which is a finite number, $S$ being quasi-compact), so $\mathcal{L}_{n}$ is
 
 <!-- original page 439 -->
 
 of finite presentation over $S$. It suffices to prove that $\mathcal{L}_{C}$ is contained in $\mathcal{L}_{n}$ for $n$
 large enough.
 
-For every point $s$ of $S$, let $d(s)$ be the smallest integer $n$ (finite or infinite) such that
-$\mathcal{L}_{C, G_{s}} \subset \mathcal{L}_{n, G_{s}}$. It suffices to show that the function $d$ is bounded on $S$,
-since if $M$ is an upper bound, $\mathcal{L}_{C}$ will be set-theoretically contained in $\mathcal{L}_{M}$, so
-$\mathcal{L}_{C}$ will be contained in $\mathcal{L}_{M}$, since the latter is an open subset of $\mathcal{L}$. An
-immediate constructibility argument reduces us to proving that if $S$ is noetherian integral with generic point $t$,
-then $d$ is bounded on a neighborhood of $t$.
+For every point $s$ of $S$, let $d(s)$ be the smallest integer $n$ (finite or infinite) such that $\mathcal{L}_{C,
+G_{s}} \subset \mathcal{L}_{n, G_{s}}$. It suffices to show that the function $d$ is bounded on $S$, since if $M$ is an
+upper bound, $\mathcal{L}_{C}$ will be set-theoretically contained in $\mathcal{L}_{M}$, so $\mathcal{L}_{C}$ will be
+contained in $\mathcal{L}_{M}$, since the latter is an open subset of $\mathcal{L}$. An immediate constructibility
+argument reduces us to proving that if $S$ is noetherian integral with generic point $t$, then $d$ is bounded on a
+neighborhood of $t$.
 
 a) **Reduction to the case where $G$ is smooth over $S$.** Proceeding as in 6.2, one sees that, possibly changing $S$,
-one may assume that $(G)_{red}$ is a group prescheme smooth over $S$, which we shall denote $G'$. Set
-$X = \mathcal{L}_{C, G}$, $X' = \mathcal{L}_{C, G'}$ and let $H$ (resp. $H'$) be the subgroup prescheme of `G_X` (resp.
+one may assume that $(G)_{red}$ is a group prescheme smooth over $S$, which we shall denote $G'$. Set $X =
+\mathcal{L}_{C, G}$, $X' = \mathcal{L}_{C, G'}$ and let $H$ (resp. $H'$) be the subgroup prescheme of `G_X` (resp.
 $G'_{X'}$) universal for the functor $\mathcal{L}_{C, G}$ (resp. $\mathcal{L}_{C, G'}$). Since $H$ is smooth over $X$,
-$H \times_{X} X_{red}$ is reduced, hence contained in $G'_{X_{red}}$, and is an element of
-$\mathcal{L}_{C, G'}(X_{red})$, whence a canonical morphism $p : X_{red} \to X'$. It is clear that $p$ is a
-monomorphism; let us show that $p$ is even an immersion. Let $N'$ be the normalizer of $H'$ in $G_{X'}$. The set of
-points $s$ of $X'$ such that the immersion $H'_{s} \to N'_{s}$ is an open immersion is an open subset $U$, and
-$H'|_{U} \to N|_{U}$ is an open immersion (Exp. VI_B 2.5 and EGA IV 17.9.5). It follows from 5.1 iii) that $U$ is the
-largest open subset of $X'$ above which $H'$ is equal to its connected normalizer in $G_{X'}$, so
-$H'|_{U} \in \mathcal{L}_{C, G}(U)$. One immediately deduces that $p$ is an isomorphism of $X_{red}$ onto $U_{red}$. If
-one shows that $\mathcal{L}_{C, G}$ is of finite type when $G$ is smooth, $X'$ will be of finite type over $S$,
+$H \times_{X} X_{red}$ is reduced, hence contained in $G'_{X_{red}}$, and is an element of $\mathcal{L}_{C,
+G'}(X_{red})$, whence a canonical morphism $p : X_{red} \to X'$. It is clear that $p$ is a monomorphism; let us show
+that $p$ is even an immersion. Let $N'$ be the normalizer of $H'$ in $G_{X'}$. The set of points $s$ of $X'$ such that
+the immersion $H'_{s} \to N'_{s}$ is an open immersion is an open subset $U$, and $H'|_{U} \to N|_{U}$ is an open
+immersion (Exp. VI_B 2.5 and EGA IV 17.9.5). It follows from 5.1 iii) that $U$ is the largest open subset of $X'$ above
+which $H'$ is equal to its connected normalizer in $G_{X'}$, so $H'|_{U} \in \mathcal{L}_{C, G}(U)$. One immediately
+deduces that $p$ is an isomorphism of $X_{red}$ onto $U_{red}$. If one shows that $\mathcal{L}_{C, G}$ is of finite type
+when $G$ is smooth, $X'$ will be of finite type over $S$,
 
 <!-- original page 440 -->
 
@@ -2681,15 +2613,11 @@ proposition:
 **Proposition 6.10.** *Let $k$ be a field of characteristic $p > 0$, $G$ a smooth $k$-algebraic group, $T$ a maximal
 torus of $G_{\bar{k}}$, $m$ the smallest integer such that*
 
-$$
-Centr_{G}({}_{p^{m}}(T))^{0} = Centr_{G}(T)^{0}.
-$$
+$$ Centr_{G}({}_{p^{m}}(T))^{0} = Centr_{G}(T)^{0}. $$
 
 *Then, for every $k$-prescheme $S$ and every $H \in \mathcal{L}_{C}(S)$, one has*
 
-$$
-Norm_{G_{S}}(H) = Norm_{G_{S}}(F_{m}(H)).
-$$
+$$ Norm_{G_{S}}(H) = Norm_{G_{S}}(F_{m}(H)). $$
 
 *A fortiori, $\mathcal{L}_{C}$ is contained in $\mathcal{L}^{p^{m}}$.*
 
@@ -2713,21 +2641,17 @@ then contain an open subgroup of `int(g)H`, hence will be equal to
 `int(g)H`, since the latter has connected fibers. Possibly replacing $S'$ by a suitable $S''$, then $S''$ by $S$, we are
 reduced to proving that if $g \in G(S)$ normalizes $F_{m}(H)$ and if $u \in U(S)$, then $int(g)u \in H(S)$.
 
-Now let $C$ be the unique Cartan subgroup of `H_S` "containing" $u$ (Exp. XIII 3.2). It suffices to show that
-$C' = int(g)C \subset H$. Since $H \in \mathcal{L}_{C, G}(S)$, $C$ is also a Cartan subgroup of $G$; but the latter
-admits maximal tori, so (Exp. XII 7.1 (a)) $C$ is the centralizer in $G^{0}_{S}$ of its unique maximal torus $T$. It
-follows from the definition of $m$ (and from the fact that any two maximal tori of $G$ are locally conjugate for fpqc
-(Exp. XII 7.1)) that
+Now let $C$ be the unique Cartan subgroup of `H_S` "containing" $u$ (Exp. XIII 3.2). It suffices to show that $C' =
+int(g)C \subset H$. Since $H \in \mathcal{L}_{C, G}(S)$, $C$ is also a Cartan subgroup of $G$; but the latter admits
+maximal tori, so (Exp. XII 7.1 (a)) $C$ is the centralizer in $G^{0}_{S}$ of its unique maximal torus $T$. It follows
+from the definition of $m$ (and from the fact that any two maximal tori of $G$ are locally conjugate for fpqc (Exp. XII
+7.1)) that
 
-$$
-C = (Centr_{G}(T))^{0} = Centr_{G}({}_{p^{m}}(T))^{0},
-$$
+$$ C = (Centr_{G}(T))^{0} = Centr_{G}({}_{p^{m}}(T))^{0}, $$
 
 whence by conjugation by $g$:
 
-$$
-C' = Centr_{G}(int(g)({}_{p^{m}}(T)))^{0}.
-$$
+$$ C' = Centr_{G}(int(g)({}_{p^{m}}(T)))^{0}. $$
 
 But $int(g)({}_{p^{m}}(T))$ is a subgroup of multiplicative type of $int(g)(F_{m}(H)) = F_{m}(H)$ ($g$ normalizes
 $F_{m}(H)$), hence is contained in $H$. It then follows from Exp. XIII 2.1 (which is proved when the base is a field,
@@ -2772,15 +2696,15 @@ Now with the usual notation,
 𝔤 = 𝔤_0 ⊕ ∐_{r ∈ R} 𝔤_r.
 ```
 
-So $\mathfrak{g}^{T} = \mathfrak{g}_{0}$ and
-$\mathfrak{g}^{{}_{p^{m}}(T)} = \mathfrak{g}_{0} + \coprod_{r \in R_{0}} \mathfrak{g}_{r}$, where `R_0` is the subset of
-$R$ consisting of characters of $T$ whose restriction to ${}_{p^{m}}(T)$ is zero. But a non-zero character $r$ of $T$
-has trivial restriction to ${}_{p^{m}}(T)$ if and only if $m \leqslant e_{r}$, whence the lemma.
+So $\mathfrak{g}^{T} = \mathfrak{g}_{0}$ and $\mathfrak{g}^{{}_{p^{m}}(T)} = \mathfrak{g}_{0} + \coprod_{r \in R_{0}}
+\mathfrak{g}_{r}$, where `R_0` is the subset of $R$ consisting of characters of $T$ whose restriction to ${}_{p^{m}}(T)$
+is zero. But a non-zero character $r$ of $T$ has trivial restriction to ${}_{p^{m}}(T)$ if and only if $m \leqslant
+e_{r}$, whence the lemma.
 
 c) **Return to the proof of 6.4.** We have reduced (by point a) and the section preceding it) to the case where $S$ is a
 noetherian integral scheme and $G$ is smooth over $S$. We must show that the function $d$ is bounded on a neighborhood
-of the generic point $t$ of $S$. Possibly changing $S$, we may assume that $G$ admits a trivial maximal torus (6.2)
-$T = D_{S}(M)$. Let then $\mathfrak{g} = \coprod_{\lambda \in M} \mathfrak{g}_{\lambda}$ be the decomposition of the Lie
+of the generic point $t$ of $S$. Possibly changing $S$, we may assume that $G$ admits a trivial maximal torus (6.2) $T =
+D_{S}(M)$. Let then $\mathfrak{g} = \coprod_{\lambda \in M} \mathfrak{g}_{\lambda}$ be the decomposition of the Lie
 algebra of $G$ according to the characters of $T$, and let $R$ be the finite set of non-zero characters of $M$ such that
 $\mathfrak{g}_{\lambda} \neq 0$. Let us distinguish two cases:
 
@@ -2803,8 +2727,8 @@ VII[^N.D.E-XV-9] that
 Norm_{G_{S′}}(F_1(H)) = Norm_{G_{S′}}(Lie H) = Norm_{G_{S′}}(H^{(1)}).
 ```
 
-Finally, it follows from 6.10 that if $H \in \mathcal{L}_{C, G_{s}}(S')$, one has
-$Norm_{G_{S'}}(H) = Norm_{G_{S'}}(H^{(1)})$, and consequently $d(s) \leqslant 1$, so $d$ is bounded by `1` on $U$.
+Finally, it follows from 6.10 that if $H \in \mathcal{L}_{C, G_{s}}(S')$, one has $Norm_{G_{S'}}(H) =
+Norm_{G_{S'}}(H^{(1)})$, and consequently $d(s) \leqslant 1$, so $d$ is bounded by `1` on $U$.
 
 This completes the proof of 6.4.
 
@@ -2850,8 +2774,8 @@ with connected fibers.*
 representable by an $S$-prescheme smooth and quasi-projective over $S$.*
 
 - *v) Let $G'$ be an $S$-prescheme in groups of finite presentation over $S$ and $u : G \to G'$ a faithfully flat
-  $S$-group morphism, so that $G'$ satisfies the same hypotheses as $G$ (Exp. VI_B 9). Then if
-  $H \in \mathcal{CT}_{G}(S)$, the image of $H$ by $u$ is representable by a subgroup prescheme $H'$ of $G'$ which is an
+  $S$-group morphism, so that $G'$ satisfies the same hypotheses as $G$ (Exp. VI_B 9). Then if $H \in
+  \mathcal{CT}_{G}(S)$, the image of $H$ by $u$ is representable by a subgroup prescheme $H'$ of $G'$ which is an
   element of $\mathcal{CT}_{G'}(S)$. Moreover, $H \to H'$ is faithfully flat, and if $H$ is the centralizer in $G$ of a
   torus $T$, $H'$ is the centralizer in $G'$ of the torus $T' = u(T)$.*
 - *vi) Under the conditions of v), consider the $S$-morphism*
@@ -2865,10 +2789,10 @@ representable by an $S$-prescheme smooth and quasi-projective over $S$.*
 
 <!-- label: III.XV.7.1 -->
 
-*Proof of ii).* For the first assertion, we may assume $S$ local artinian with closed point $s$. Let
-$H \in \mathcal{CT}(S)$ and let $T_{s}$ be the maximal central torus of $H_{s}$, which is already defined over
-$\kappa(s)$ (cf. 3.4). Since $H_{s} \in \mathcal{CT}(s)$, one has $H_{s} = Centr_{G_{s}} T_{s}$. The group $H$ is
-smooth, so $T_{s}$ lifts uniquely to a sub-torus $T$ of $H$, central
+*Proof of ii).* For the first assertion, we may assume $S$ local artinian with closed point $s$. Let $H \in
+\mathcal{CT}(S)$ and let $T_{s}$ be the maximal central torus of $H_{s}$, which is already defined over $\kappa(s)$ (cf.
+3.4). Since $H_{s} \in \mathcal{CT}(s)$, one has $H_{s} = Centr_{G_{s}} T_{s}$. The group $H$ is smooth, so $T_{s}$
+lifts uniquely to a sub-torus $T$ of $H$, central
 
 <!-- original page 447 -->
 
@@ -2882,9 +2806,7 @@ ${}_{\ell }H$ be the "kernel" of the $\ell$-th power morphism in $H$, and let $U
 ${}_{\ell }H$ étale over $S$. It then follows from 1.3 and from the fact that $H$ is flat over $S$ that $U_{\ell}$
 majorizes ${}_{\ell }T_{s}$. Since $S$ is Henselian, there exists a unique $S$-morphism
 
-$$
-u_{\ell} : {}_{\ell }T \longrightarrow U_{\ell}
-$$
+$$ u_{\ell} : {}_{\ell }T \longrightarrow U_{\ell} $$
 
 which, on the closed fiber, induces the canonical immersion ${}_{\ell }T_{s} \to (U_{\ell})_{s}$. By uniqueness, one
 easily sees that $u_{\ell}$ is an $S$-group morphism, central (Exp. IX 5.6 a)). Proceeding then as in 6.6 and 6.7, one
@@ -2911,18 +2833,18 @@ above, to proving that if $S$ is local artinian, $S_{0}$ a closed subprescheme o
 $int(g_{0})H_{0} \subset L_{0}$, then $g_{0}$ lifts to $g \in G(S)$ such that $int(g)H \subset L$. The group $G$ being
 smooth over $S$, there exists a section $g_{1}$ of $G$ lifting $g_{0}$; let $H' = int(g_{1})H$. So this is an element of
 $\mathcal{CT}(S)$ such that $H'_{0} \subset L_{0}$. By ii), $H'$ is the centralizer in $G$ of a torus $T'$ of $G$. Since
-$L$ is smooth, the torus $T'_{0}$ of $L_{0}$ lifts to a torus $T''_{0}$ of $L$ (Exp. XI 3.6 bis). The group
-$Centr_{L} T''_{0}$ is contained in $Centr_{G} T''_{0}$, has the same fiber as the latter (namely $H'_{0}$) and is
-smooth, so equals $Centr_{G} T''_{0} = H'_{0}$. The sub-tori $T'$ and $T''_{0}$ of $G$ are two liftings of $T'_{0}$, so
-are conjugate by an element $h$ of $G(S)$ reducing to the unit section of $G_{0}$ (Exp. IX 3.3 bis); the same is
-therefore true of their centralizers $H'$ and $H''_{0}$ in $G$. The section $g = h g_{1}$ lifts $g_{0}$ and one has
-$int(g)H \subset L$.
+$L$ is smooth, the torus $T'_{0}$ of $L_{0}$ lifts to a torus $T''_{0}$ of $L$ (Exp. XI 3.6 bis). The group $Centr_{L}
+T''_{0}$ is contained in $Centr_{G} T''_{0}$, has the same fiber as the latter (namely $H'_{0}$) and is smooth, so
+equals $Centr_{G} T''_{0} = H'_{0}$. The sub-tori $T'$ and $T''_{0}$ of $G$ are two liftings of $T'_{0}$, so are
+conjugate by an element $h$ of $G(S)$ reducing to the unit section of $G_{0}$ (Exp. IX 3.3 bis); the same is therefore
+true of their centralizers $H'$ and $H''_{0}$ in $G$. The section $g = h g_{1}$ lifts $g_{0}$ and one has $int(g)H
+\subset L$.
 
 <!-- original page 449 -->
 
-If now $g \in Transp_{G}(H, L)(S)$, for $int(g)H = L$ it is necessary and sufficient that for every $s \in S$,
-$\dim H_{s} = \dim L_{s}$. It follows that if $U$ denotes the open-closed subprescheme of $S$ above which the fibers of
-$H$ have the same dimension as those of $L$, the strict transporter of $H$ in $L$, $Transp^{str}_{G}(H, L)$, is
+If now $g \in Transp_{G}(H, L)(S)$, for $int(g)H = L$ it is necessary and sufficient that for every $s \in S$, $\dim
+H_{s} = \dim L_{s}$. It follows that if $U$ denotes the open-closed subprescheme of $S$ above which the fibers of $H$
+have the same dimension as those of $L$, the strict transporter of $H$ in $L$, $Transp^{str}_{G}(H, L)$, is
 representable by the $S$-prescheme
 
 ```text
@@ -2956,15 +2878,14 @@ $A$ by its completion, hence assume $S$ spectrum of a complete noetherian local 
 `U = S \ s`. By induction hypothesis, $(N|_{U})/(H|_{U})$ is representable by a $U$-group $K$. Let then $T_{s}$ be the
 maximal central torus of $H_{s}$, $q$ an integer invertible on $S$, $\ell$ a power of $q$, $M_{\ell}$ the unique central
 subgroup of multiplicative type of $H$ lifting ${}_{\ell }T_{s}$ (cf. ii)). Choose $\ell$ large enough that
-$Centr_{G}(M_{\ell}) = H$, and let $N' = Norm_{G}(M_{\ell})$. Since $Centr_{G}(M_{\ell}) = H$, one has
-$N' \subset Norm_{G}(H)$. Moreover, one immediately verifies that $T_{s}$ (so also $(M_{\ell})_{s}$) is a characteristic
-subgroup of $H_{s}$ (i.e. stable under $\operatorname{Aut}_{gr}(H_{s})$), so $N_{s}$ normalizes $(M_{\ell})_{s}$ and
-consequently $N_{s} = N'_{s}$. The proof of Exp. XI 5.9 then shows that the quotient
-$N'/H = Norm_{G}(M_{\ell})/Centr_{G}(M_{\ell})$ is representable by an $S$-group $K'$. Since $N'$ is smooth over $S$ and
-$N'_{s} = N_{s}$, $N'$ is an open subgroup of $N$ (Exp. VI_B 2.5) containing $H$, so the image of $N'|_{U}$ in $K$ is an
-open subgroup, isomorphic to $K'|_{U}$. Let $L$ be the $S$-prescheme obtained by gluing $K$ and $K'$ along the previous
-isomorphism, and let $p$ be the $S$-morphism $N \to L$ obtained by gluing the canonical projections $N|_{U} \to K$ and
-$N' \to K'$.
+$Centr_{G}(M_{\ell}) = H$, and let $N' = Norm_{G}(M_{\ell})$. Since $Centr_{G}(M_{\ell}) = H$, one has $N' \subset
+Norm_{G}(H)$. Moreover, one immediately verifies that $T_{s}$ (so also $(M_{\ell})_{s}$) is a characteristic subgroup of
+$H_{s}$ (i.e. stable under $\operatorname{Aut}_{gr}(H_{s})$), so $N_{s}$ normalizes $(M_{\ell})_{s}$ and consequently
+$N_{s} = N'_{s}$. The proof of Exp. XI 5.9 then shows that the quotient $N'/H = Norm_{G}(M_{\ell})/Centr_{G}(M_{\ell})$
+is representable by an $S$-group $K'$. Since $N'$ is smooth over $S$ and $N'_{s} = N_{s}$, $N'$ is an open subgroup of
+$N$ (Exp. VI_B 2.5) containing $H$, so the image of $N'|_{U}$ in $K$ is an open subgroup, isomorphic to $K'|_{U}$. Let
+$L$ be the $S$-prescheme obtained by gluing $K$ and $K'$ along the previous isomorphism, and let $p$ be the $S$-morphism
+$N \to L$ obtained by gluing the canonical projections $N|_{U} \to K$ and $N' \to K'$.
 
 <!-- original page 451 -->
 
@@ -2989,8 +2910,8 @@ of $H'$ and consequently will be equal to $H'$ since the latter has connected fi
 of $H'$; $C'$ is also a Cartan subgroup of $G'$, since $H'$ is the centralizer of a torus $T'$, hence has the same
 reductive rank and the same nilpotent rank as $G'$. Set $K = (u^{-1}(C'))^{0}_{red}$. Since $T'$ is in the center of
 $H'$, $C'$ contains $T'$, so $K$ contains $T$. Let then $C$ be a Cartan subgroup of $K$ containing $T$. The torus $T$ is
-contained in the unique maximal torus of $C$, which is central in $C$ (Exp. XII 6.6 c)), so $C$ is contained in
-$H = Centr_{G} T$. Using now the fact that any two Cartan subgroups of $G$ are conjugate and that the image of a Cartan
+contained in the unique maximal torus of $C$, which is central in $C$ (Exp. XII 6.6 c)), so $C$ is contained in $H =
+Centr_{G} T$. Using now the fact that any two Cartan subgroups of $G$ are conjugate and that the image of a Cartan
 subgroup of $G$ is a Cartan subgroup of $G'$ (Exp. XII 6.6), one
 
 <!-- original page 452 -->
@@ -3005,16 +2926,16 @@ where $S$ is the spectrum of a local ring. By fpqc descent of subpreschemes of $
 spectrum of a complete noetherian local ring $A$.
 
 Let us resume the notation of ii), namely: let $T_{s}$ be the maximal central torus of $H_{s}$ ($s$ is the closed point
-of $S$), $M_{\ell}$ a subgroup of multiplicative type of $H$ lifting ${}_{\ell }T_{s}$ such that
-$H = Centr_{G} M_{\ell}$. Let $T'_{s}$ be the image of $T_{s}$ in $G'_{s}$. Since $G'$ is separated over $S$ (Exp. VI_B
-5.2), the image of $M_{\ell}$ by $u$ is a subgroup of multiplicative type $M'_{\ell}$ of $G'$ (Exp. IX 6.8). Set then
-$H' = Centr_{G'} M'_{\ell}$, which is a smooth subgroup prescheme of $G'$. For every integer $\ell'$ equal to a power of
-$q$, there exists $\ell$ such that $(M'_{\ell})_{s}$ majorizes ${}_{\ell'}T'_{s}$, so we may assume $\ell$ chosen large
-enough that $H'_{s} = Centr_{G'_{s}} T'_{s} = u_{s}(H_{s})$, where the last equality follows from 7.2. The restriction
-of $u$ to $H$, namely $v$, evidently factors through $H'$. Let us prove that $v : H \to H'$ is a flat morphism. Since
-$H$ and $H'$ are flat over $S$ and $H_{s} \to H'_{s}$ is flat, $v$ is flat on a neighborhood of $H_{s}$ (EGA IV 11.3.10
-and 11.3.1). The morphism $v$ is therefore flat on an open subgroup of $H$ (Exp. VI_B 2.2), so $v$ is flat, $H$ having
-connected fibers.
+of $S$), $M_{\ell}$ a subgroup of multiplicative type of $H$ lifting ${}_{\ell }T_{s}$ such that $H = Centr_{G}
+M_{\ell}$. Let $T'_{s}$ be the image of $T_{s}$ in $G'_{s}$. Since $G'$ is separated over $S$ (Exp. VI_B 5.2), the image
+of $M_{\ell}$ by $u$ is a subgroup of multiplicative type $M'_{\ell}$ of $G'$ (Exp. IX 6.8). Set then $H' = Centr_{G'}
+M'_{\ell}$, which is a smooth subgroup prescheme of $G'$. For every integer $\ell'$ equal to a power of $q$, there
+exists $\ell$ such that $(M'_{\ell})_{s}$ majorizes ${}_{\ell'}T'_{s}$, so we may assume $\ell$ chosen large enough that
+$H'_{s} = Centr_{G'_{s}} T'_{s} = u_{s}(H_{s})$, where the last equality follows from 7.2. The restriction of $u$ to
+$H$, namely $v$, evidently factors through $H'$. Let us prove that $v : H \to H'$ is a flat morphism. Since $H$ and $H'$
+are flat over $S$ and $H_{s} \to H'_{s}$ is flat, $v$ is flat on a neighborhood of $H_{s}$ (EGA IV 11.3.10 and 11.3.1).
+The morphism $v$ is therefore flat on an open subgroup of $H$ (Exp. VI_B 2.2), so $v$ is flat, $H$ having connected
+fibers.
 
 <!-- original page 453 -->
 
@@ -3038,9 +2959,7 @@ with open neighborhoods of $H$ in $\mathcal{CT}_{G}$
 (resp. of $H'$ in $\mathcal{CT}_{G'}$). Under these identifications, the restriction of `ũ` to $G/N$ coincides with the
 natural morphism
 
-$$
-w : G/N \longrightarrow G'/N'
-$$
+$$ w : G/N \longrightarrow G'/N' $$
 
 deduced from $u$ by passage to the quotient. Now $w$ is an epimorphism of homogeneous spaces under $G$, hence is
 faithfully flat. This proves that `ũ` is a flat morphism such that $\tilde{u}(\mathcal{CT}_{G})$, which is therefore an
@@ -3101,10 +3020,10 @@ c) ⇒ d) is clear.
 d) ⇒ e). Let $s \in S$. By hypothesis, there exists an $S$-prescheme $S'$, flat over $S$, whose image contains $s$, such
 that $G_{S'}$ admits a Cartan subgroup. Let $s'$ be a point of $S'$ above $s$. The nilpotent rank of the fibers of
 $G_{S'}$ is therefore constant on $\operatorname{Spec} \mathcal{O}_{S', s'}$, and consequently the nilpotent rank of the
-fibers of $G$ is constant on $\operatorname{Spec} \mathcal{O}_{S, s}$ which is the image of
-$\operatorname{Spec} \mathcal{O}_{S', s'}$ (EGA IV 2.3.4 ii)). Let $r$ be its value. It follows from 6.3 bis that the
-set $E_{r}$ of points $x$ of $S$ such that the nilpotent rank of $G_{x}$ equals $r$ is an ind-constructible part of $S$,
-hence contains a neighborhood of $s$ (EGA IV 1.10.1).
+fibers of $G$ is constant on $\operatorname{Spec} \mathcal{O}_{S, s}$ which is the image of $\operatorname{Spec}
+\mathcal{O}_{S', s'}$ (EGA IV 2.3.4 ii)). Let $r$ be its value. It follows from 6.3 bis that the set $E_{r}$ of points
+$x$ of $S$ such that the nilpotent rank of $G_{x}$ equals $r$ is an ind-constructible part of $S$, hence contains a
+neighborhood of $s$ (EGA IV 1.10.1).
 
 e) ⇒ b). The assertion is local on $S$, so one may assume that the nilpotent rank of the fibers of $G$ is constant and
 equal to $r$. For every $S$-prescheme $S'$ there is then identity between the Cartan subgroups of $G_{S'}$ and the
@@ -3254,22 +3173,19 @@ hypothesis, the restrictions of $u_{n}$ to each
 
 <!-- original page 463 -->
 
-factor of $(G_{m})^{r}_{S}$ come from a group morphism $G_{m, S} \to G$. Whence a product morphism
-$(G_{m})^{r}_{S} \to G^{r}$ which, composed with the morphism $G^{r} \to G$ defined by the composition law in $G$, gives
-a morphism
+factor of $(G_{m})^{r}_{S}$ come from a group morphism $G_{m, S} \to G$. Whence a product morphism $(G_{m})^{r}_{S} \to
+G^{r}$ which, composed with the morphism $G^{r} \to G$ defined by the composition law in $G$, gives a morphism
 
-$$
-v : (G_{m})^{r}_{S} \longrightarrow G.
-$$
+$$ v : (G_{m})^{r}_{S} \longrightarrow G. $$
 
 Given the existence of the group morphism $u_{n}$, it is clear that $u_{n} = v_{n}$. It remains to see that $v$ is a
-group morphism, which translates into the fact that two obvious morphisms
-$f, g : X = (G_{m})^{r}_{S} \times_{S} (G_{m})^{r}_{S} \to G$ coincide. Let $Z$ be the subscheme of coincidences of $f$
-and $g$. Since $(G_{m})^{r}_{S}$ has connected fibers and $v((G_{m})^{r}_{S})$ contains the unit section, one sees as in
-8.3 that $v$ factors through the connected component of $G$, which allows us to assume $G$ separated (Exp. VI_B 5.2), so
-$Z$ is closed. On the other hand, since $v_{n}$ is a group morphism, one has $f_{n} = g_{n}$ for every $n$, so $Z$
-contains a neighborhood of the closed fiber of $X$ (EGA I 10.9.4), hence is schematically dense in $X$, $X$ having
-smooth and irreducible fibers (Exp. IX 4.6), and consequently $Z = X$, so $f = g$.
+group morphism, which translates into the fact that two obvious morphisms $f, g : X = (G_{m})^{r}_{S} \times_{S}
+(G_{m})^{r}_{S} \to G$ coincide. Let $Z$ be the subscheme of coincidences of $f$ and $g$. Since $(G_{m})^{r}_{S}$ has
+connected fibers and $v((G_{m})^{r}_{S})$ contains the unit section, one sees as in 8.3 that $v$ factors through the
+connected component of $G$, which allows us to assume $G$ separated (Exp. VI_B 5.2), so $Z$ is closed. On the other
+hand, since $v_{n}$ is a group morphism, one has $f_{n} = g_{n}$ for every $n$, so $Z$ contains a neighborhood of the
+closed fiber of $X$ (EGA I 10.9.4), hence is schematically dense in $X$, $X$ having smooth and irreducible fibers (Exp.
+IX 4.6), and consequently $Z = X$, so $f = g$.
 
 **Definition 8.4.** *Let $S$ be a locally noetherian prescheme, $G$ an $S$-prescheme in groups of finite type, and
 $\mathcal{S}$ the set of $S$-schemes $S'$, spectrum of a complete discrete valuation ring with algebraically closed
@@ -3278,8 +3194,8 @@ residue field, of closed point $s$, of generic point $t$,*
 <!-- original page 464 -->
 
 *such that $(G_{t})^{0}_{red}$ is smooth and admits a Chevalley decomposition, i.e. is an extension of an abelian
-variety by a smooth, connected linear algebraic subgroup $L_{t}$ (this decomposition is then unique). If
-$S' \in \mathcal{S}$, denote by $G'$ (resp. $L$) the schematic closure in $G_{S'}$ of $G_{t}$ (resp. $L_{t}$).*
+variety by a smooth, connected linear algebraic subgroup $L_{t}$ (this decomposition is then unique). If $S' \in
+\mathcal{S}$, denote by $G'$ (resp. $L$) the schematic closure in $G_{S'}$ of $G_{t}$ (resp. $L_{t}$).*
 
 *Under these conditions, we shall say that*
 
@@ -3396,9 +3312,7 @@ u_n : (G_{m, S})_n ⟶ H_n
 is admissible (8.5 and 8.1 iii bis)). Now by hypothesis, $G$ satisfies property AT, so there exists an $S$-group
 morphism
 
-$$
-u : (G_{m})_{S} \longrightarrow G
-$$
+$$ u : (G_{m})_{S} \longrightarrow G $$
 
 lifting $u_{n}$ for every $n$. Proceeding as in the proof of 8.5, one sees that $u|_{{}_{\ell} G_{m, S}}$ (where $\ell$
 ranges over the powers of a prime $q$ invertible on $S$) factors through $H$. By density, one deduces that on the
@@ -3492,23 +3406,19 @@ and more precisely coincide with the connected component of the schematic closur
 
 v) follows from 2.3 since $G$ is flat over $S$.
 
-*Proof of 8.8 b).* Proceeding as in Exp. XI 4.2, one sees that it suffices to prove that the product group
-$T \times_{S} G$ again satisfies property ATC, which is immediate from the definition.
+*Proof of 8.8 b).* Proceeding as in Exp. XI 4.2, one sees that it suffices to prove that the product group $T \times_{S}
+G$ again satisfies property ATC, which is immediate from the definition.
 
 *Proof of 8.9 a).* Possibly replacing $G$ by its connected component (Exp. VI_B 3.10), we may assume $G$ has connected
 fibers. If $T$ is a sub-torus of $G$, its centralizer $Centr_{G}(T)$ is then representable (Exp. XI 6.11) by a subgroup
 prescheme of $G$, smooth over $S$ (Exp. XI 2.4), with connected fibers (Exp. XII 6.6 b)), hence is an element of
 $\mathcal{CT}(S)$, where $\mathcal{CT}$ is the functor defined in 7.1 i). It is clear that the map
 
-$$
-T \mapsto Centr_{G}(T)
-$$
+$$ T \mapsto Centr_{G}(T) $$
 
 defines an $S$-morphism
 
-$$
-u : \mathcal{T} \longrightarrow \mathcal{CT}.
-$$
+$$ u : \mathcal{T} \longrightarrow \mathcal{CT}. $$
 
 Since $\mathcal{CT}$ is representable by an $S$-prescheme smooth and quasi-projective over $S$ (7.1 i)), it suffices to
 prove that the morphism $u$ is representable by a separated and étale morphism.
@@ -3524,14 +3434,14 @@ central sub-tori $T$ of $H_{S'}$ such that $Centr_{G_{S'}}(T) = H_{S'}$. We shal
 $S$-prescheme étale and separated over $S$.
 
 Indeed, by hypothesis, $G$ satisfies property AT, hence so does $H$ (8.7 ii)); and since $H$ has connected fibers, $H$
-also satisfies property ATC (8.7 i)). On the other hand $H$ is smooth over $S$, hence flat. By 8.8 a),
-$\mathcal{T}_{C, H}$ is representable by an $S$-prescheme étale and separated over $S$. It then suffices to show that
-the canonical monomorphism $X \to \mathcal{T}_{C, H}$ is representable by an open immersion.
+also satisfies property ATC (8.7 i)). On the other hand $H$ is smooth over $S$, hence flat. By 8.8 a), $\mathcal{T}_{C,
+H}$ is representable by an $S$-prescheme étale and separated over $S$. It then suffices to show that the canonical
+monomorphism $X \to \mathcal{T}_{C, H}$ is representable by an open immersion.
 
 Set $S' = \mathcal{T}_{C, H}$ and let $K$ be the centralizer in $G_{S'}$ of the "universal" central torus of $H_{S'}$.
-The group $K$ is a smooth group scheme over $S'$ with connected fibers, majorizing $H_{S'}$. By definition,
-$X = \prod_{K/S'} H_{S'}/K$, which is indeed representable by the open-closed subprescheme of $S'$ above which $H_{S'}$
-and $K$ have the same relative dimension.
+The group $K$ is a smooth group scheme over $S'$ with connected fibers, majorizing $H_{S'}$. By definition, $X =
+\prod_{K/S'} H_{S'}/K$, which is indeed representable by the open-closed subprescheme of $S'$ above which $H_{S'}$ and
+$K$ have the same relative dimension.
 
 One proves 8.9 b) analogously to 8.8 b).
 
@@ -3601,14 +3511,11 @@ u ∈ F(S′) and g ∈ G(S′) ⇒ int(g) u ∈ F(S′).
 
 Let $u : F \to \mathcal{CT}$ (7.1 i)) be the $S$-morphism which to every element $T$ of $F(S')$ associates the element
 $Centr_{G_{S'}}(T)$ of $\mathcal{CT}(S')$. Since $\mathcal{CT}$ is representable by an $S$-prescheme smooth and
-quasi-projective (7.1 i)), we are reduced to proving the representability of $u$. After base change
-$\mathcal{CT} \to S$, we are reduced to the following problem: given $S$ and $G$ as above, $H$ a smooth subgroup of $G$
-with connected fibers, we must represent the functor `F_H` such that $F_{H}(S')$ = set of elements $T \in F(S')$ such
-that
+quasi-projective (7.1 i)), we are reduced to proving the representability of $u$. After base change $\mathcal{CT} \to
+S$, we are reduced to the following problem: given $S$ and $G$ as above, $H$ a smooth subgroup of $G$ with connected
+fibers, we must represent the functor `F_H` such that $F_{H}(S')$ = set of elements $T \in F(S')$ such that
 
-$$
-H_{S'} = Centr_{G_{S'}}(T).
-$$
+$$ H_{S'} = Centr_{G_{S'}}(T). $$
 
 We shall show that `F_H` is étale and separated over $S$. To do this, it suffices to verify the five conditions of 8.10.
 
@@ -3618,9 +3525,9 @@ $\mathcal{T}_{C, H}$, is separated and infinitesimally unramified (Exp. XI 1.8).
 `F_H` is infinitesimally smooth (*loc. cit.*). Let $S$ be the spectrum of a local artinian ring, $S_{0}$ a subscheme of
 $S$ defined by a nilpotent ideal, $T_{0}$ an element of $F_{H}(S_{0})$; let us prove that $T_{0}$ lifts to an element
 $T$ of $F_{H}(S)$. By hypothesis (8.12 iv)), $T_{0}$ lifts to an element $T'$ of $F(S)$. On the other hand, $H$ being
-smooth, $T_{0}$ lifts to a sub-torus $T''$ of `H_S` (Exp. IX 3.6 bis), which is conjugate to $T'$ by an element
-$g \in G(S)$ (*loc. cit.*), so $T'' \in F(S)$ (8.12 v)). Since $Centr_{G_{S}}(T'')$ is smooth over $S$ and coincides
-with $H_{S_{0}}$ above $S_{0}$, $T''$ lies in the
+smooth, $T_{0}$ lifts to a sub-torus $T''$ of `H_S` (Exp. IX 3.6 bis), which is conjugate to $T'$ by an element $g \in
+G(S)$ (*loc. cit.*), so $T'' \in F(S)$ (8.12 v)). Since $Centr_{G_{S}}(T'')$ is smooth over $S$ and coincides with
+$H_{S_{0}}$ above $S_{0}$, $T''$ lies in the
 
 <!-- original page 477 -->
 
@@ -3645,11 +3552,10 @@ group of $G_{s}'$. Then this functor is representable by an $S$-prescheme smooth
 Corollary 8.13 and Corollary 8.13 bis are proved analogously; let us prove 8.13 bis for example. By the usual procedure,
 we reduce to the case where $S$ is noetherian. Let us verify that the five conditions of 8.12 bis are satisfied:
 
-Conditions i) and iv) follow immediately from the corresponding properties of the functor
-$\operatorname{Hom}_{S-gr}(T, G)$. Condition v) is satisfied since the derived group of an algebraic group is invariant
-(Exp. VI_B § 7). To establish ii), we are reduced by a standard reduction (EGA IV 8) to proving that if $S$ is a
-noetherian integral scheme with generic point $\eta$ and $u : T \to G$ is an $S$-group morphism which on the generic
-fiber
+Conditions i) and iv) follow immediately from the corresponding properties of the functor $\operatorname{Hom}_{S-gr}(T,
+G)$. Condition v) is satisfied since the derived group of an algebraic group is invariant (Exp. VI_B § 7). To establish
+ii), we are reduced by a standard reduction (EGA IV 8) to proving that if $S$ is a noetherian integral scheme with
+generic point $\eta$ and $u : T \to G$ is an $S$-group morphism which on the generic fiber
 
 <!-- original page 478 -->
 
@@ -3800,8 +3706,8 @@ dim Cₛ = dim C_t ⩾ dim C′_t ⩾ ρ_u(t) + ρ_{ab}(t) + dim T_t
                             = ρ_u(s) + ρ_{ab}(s) + dim Tₛ = ρ_ν(s) = dim Cₛ.
 ```
 
-One deduces that $C_{t} = C'_{t}$, hence that $T$ is a maximal torus of $G$, and *a fortiori*
-$\rho_{r}(t) = \rho_{r}(s)$.
+One deduces that $C_{t} = C'_{t}$, hence that $T$ is a maximal torus of $G$, and *a fortiori* $\rho_{r}(t) =
+\rho_{r}(s)$.
 
 c) ⇒ b) by 8.17.
 

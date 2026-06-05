@@ -49,8 +49,8 @@ to "pre-equivalence relations"[^N.D.E-V-2] that are not equivalence relations.
 ```
 
 in $C$ is said to be *exact* if $p d_{0} = p d_{1}$ and if, for every $T \in C$, $T(p)$ is a bijection of $T(Y)$ onto
-the subset of $T(X_{0})$ consisting of arrows $f : X_{0} \to T$ such that $f d_{0} = f d_{1}$. One also says that
-$(Y, p)$ is the *cokernel* of $(d_{0}, d_{1})$ and writes
+the subset of $T(X_{0})$ consisting of arrows $f : X_{0} \to T$ such that $f d_{0} = f d_{1}$. One also says that $(Y,
+p)$ is the *cokernel* of $(d_{0}, d_{1})$ and writes
 
 ```text
 (Y, p) = Coker(d₀, d₁).
@@ -58,8 +58,8 @@ $(Y, p)$ is the *cokernel* of $(d_{0}, d_{1})$ and writes
 
 **b)** Let, for example, $C$ be the category `(Esp.An)` of ringed spaces. In this case, there always exists a cokernel
 $(Y, p)$, which can be described as follows: the underlying topological space of $Y$ is obtained from $X_{0}$ by
-identifying the points $d_{0}(x)$ and $d_{1}(x)$ and endowing $Y$ with the quotient topology. The canonical map
-$\pi : X_{0} \to Y$ together with $d_{0}, d_{1}$ then induces a double arrow of sheaves of rings on $Y$:
+identifying the points $d_{0}(x)$ and $d_{1}(x)$ and endowing $Y$ with the quotient topology. The canonical map $\pi :
+X_{0} \to Y$ together with $d_{0}, d_{1}$ then induces a double arrow of sheaves of rings on $Y$:
 
 ```text
                        δ₀
@@ -102,10 +102,10 @@ $(Q, q)$ the cokernel of $(\tilde{d}_{0}, \tilde{d}_{1})$ in `(Esp.An)`, the spa
 schemes. Then $(Y, p)$ is a cokernel of $(d_{0}, d_{1})$ in `(Sch)`.*
 
 (i) is proved in § 4.c); since the proof is short, let us repeat it here. Let $f : X_{0} \to Z$ be a morphism of schemes
-such that $f d_{0} = f d_{1}$. By hypothesis, there is a unique morphism of ringed spaces $r : Y \to Z$ such that
-$f = r p$. It remains to show that, for every $y \in Y$, the homomorphism $O_{r(y)} \to O_{y}$ induced by $r$ is local.
-This follows from the fact that $p$ is surjective, so that $y$ is of the form $p(x)$, and from the fact that the
-homomorphism $O_{f(x)} \to O_{x}$ induced by $f$ is local.
+such that $f d_{0} = f d_{1}$. By hypothesis, there is a unique morphism of ringed spaces $r : Y \to Z$ such that $f = r
+p$. It remains to show that, for every $y \in Y$, the homomorphism $O_{r(y)} \to O_{y}$ induced by $r$ is local. This
+follows from the fact that $p$ is surjective, so that $y$ is of the form $p(x)$, and from the fact that the homomorphism
+$O_{f(x)} \to O_{x}$ induced by $f$ is local.
 
 (ii) follows from (i) and the preceding lemma.
 
@@ -115,13 +115,7 @@ homomorphism $O_{f(x)} \to O_{x}$ induced by $f$ is local.
 in a richer context; more precisely, let $X_{2} = X_{1} \times_{d_{1}, d_{0}} X_{1}$ denote the fiber product of the
 diagram
 
-$$
-                X_{1}
-                \downarrow d_{1}
-(\ast)             X_{0}
-                \uparrow d_{0}
-                X_{1},
-$$
+$$ X_{1} \downarrow d_{1} (\ast) X_{0} \uparrow d_{0} X_{1}, $$
 
 and let $d'_{0}$ and $d'_{2}$ be the two canonical projections of $X_{2}$ onto $X_{1}$; one then has by definition a
 Cartesian square
@@ -179,9 +173,9 @@ is Cartesian.
 
 <!-- original page 254 -->
 
-On the other hand, let $s : X_{0} \to X_{1}$ be the unique arrow of $C$ such that, for every $T$,
-$s(T) : X_{0}(T) \to X_{1}(T)$ associates to every object of $X\ast(T)$ the identity arrow of that object.[^N.D.E-V-6]
-The arrow $s$ satisfies the equalities
+On the other hand, let $s : X_{0} \to X_{1}$ be the unique arrow of $C$ such that, for every $T$, $s(T) : X_{0}(T) \to
+X_{1}(T)$ associates to every object of $X\ast(T)$ the identity arrow of that object.[^N.D.E-V-6] The arrow $s$
+satisfies the equalities
 
 ```text
 (3)        d₁ s = id_{X₀},
@@ -201,9 +195,9 @@ Finally, the associativity of the composition maps $d'_{1}(T)$ translates into t
 ```
 
 Conversely, the conditions (1), (2), and (4) together with the existence of an arrow $s$ satisfying (3) imply that
-`(X₁ ⇉ X₀, d′₁)` is a $C$-groupoid. The condition (3) is harmless; it merely ensures that the map
-$d_{1}(T) : X_{1}(T) \to X_{0}(T)$ is surjective for every $T \in C$. In what follows we shall mostly make use of the
-Cartesian squares (0), (1) and (2), which we summarize in the diagram
+`(X₁ ⇉ X₀, d′₁)` is a $C$-groupoid. The condition (3) is harmless; it merely ensures that the map $d_{1}(T) : X_{1}(T)
+\to X_{0}(T)$ is surjective for every $T \in C$. In what follows we shall mostly make use of the Cartesian squares (0),
+(1) and (2), which we summarize in the diagram
 
 ```text
                   d′₁              d₀
@@ -248,10 +242,10 @@ the *pre-equivalence relation $X\ast$ in $X_{0}$*.
 
 <!-- label: III.V.2 -->
 
-**a)** Let $X$ be an object of $C$ and $G$ a $C$-group acting on the left on $X$. We denote by
-$d_{0} : G \times X \to X$ the arrow defining the action of $G$ on $X$, by $d_{1} : G \times X \to X$ the projection of
-the product onto the second factor, by $\mu : G \times G \to G$ the arrow defining the $C$-group structure of $G$, and
-finally by $pr_{2,3}$ the projection of $G \times G \times X = G \times (G \times X)$ onto the second factor. Then
+**a)** Let $X$ be an object of $C$ and $G$ a $C$-group acting on the left on $X$. We denote by $d_{0} : G \times X \to
+X$ the arrow defining the action of $G$ on $X$, by $d_{1} : G \times X \to X$ the projection of the product onto the
+second factor, by $\mu : G \times G \to G$ the arrow defining the $C$-group structure of $G$, and finally by $pr_{2,3}$
+the projection of $G \times G \times X = G \times (G \times X)$ onto the second factor. Then
 
 ```text
                   pr_{2,3}              d₁
@@ -264,14 +258,14 @@ finally by $pr_{2,3}$ the projection of $G \times G \times X = G \times (G \time
 
 is a $C$-groupoid.
 
-**b)** Let $d_{0}, d_{1} : X_{1} \to X_{0}$ be an *equivalence pair*, i.e., if
-$d_{0} \boxtimes d_{1} : X_{1} \to X_{0} \times X_{0}$ is the arrow with components $d_{0}$ and $d_{1}$, we suppose that
-$(d_{0} \boxtimes d_{1})(T)$ is, for every object $T$ of $C$, a bijection of $X_{1}(T)$ onto the graph of an equivalence
-relation on $X_{0}(T)$. The set $X_{1}(T)$ therefore identifies with the set of pairs $(x, y)$ of elements of $X_{0}(T)$
-such that $x \sim y$; similarly, the set $X_{2}(T) = (X_{1} \times_{d_{1}, d_{0}} X_{1})(T)$ identifies with the set of
-triples $(x, y, z)$ of elements of $X_{0}(T)$ such that $x \sim y$ and $y \sim z$. There is therefore one and only one
-arrow $d'_{1} : X_{2} \to X_{1}$ making the squares (1) and (2) commute: $d'_{1}(T)$ must send $(x, y, z) \in X_{2}(T)$
-to $(x, z) \in X_{1}(T)$. For this choice of $d'_{1}$, `(d₀, d₁ : X₁ ⇉ X₀, d′₁)` is a $C$-groupoid.
+**b)** Let $d_{0}, d_{1} : X_{1} \to X_{0}$ be an *equivalence pair*, i.e., if $d_{0} \boxtimes d_{1} : X_{1} \to X_{0}
+\times X_{0}$ is the arrow with components $d_{0}$ and $d_{1}$, we suppose that $(d_{0} \boxtimes d_{1})(T)$ is, for
+every object $T$ of $C$, a bijection of $X_{1}(T)$ onto the graph of an equivalence relation on $X_{0}(T)$. The set
+$X_{1}(T)$ therefore identifies with the set of pairs $(x, y)$ of elements of $X_{0}(T)$ such that $x \sim y$;
+similarly, the set $X_{2}(T) = (X_{1} \times_{d_{1}, d_{0}} X_{1})(T)$ identifies with the set of triples $(x, y, z)$ of
+elements of $X_{0}(T)$ such that $x \sim y$ and $y \sim z$. There is therefore one and only one arrow $d'_{1} : X_{2}
+\to X_{1}$ making the squares (1) and (2) commute: $d'_{1}(T)$ must send $(x, y, z) \in X_{2}(T)$ to $(x, z) \in
+X_{1}(T)$. For this choice of $d'_{1}$, `(d₀, d₁ : X₁ ⇉ X₀, d′₁)` is a $C$-groupoid.
 
 Conversely, consider a $C$-groupoid $X\ast$ such that $d_{0} \boxtimes d_{1} : X_{1} \to X_{0} \times X_{0}$ is a
 monomorphism. Then $(d_{0}, d_{1})$ is an equivalence pair and $X\ast$ can be reconstructed from $(d_{0}, d_{1})$ as
@@ -291,10 +285,10 @@ is exact, that is, if $(Y, p) = Coker(pr_{1}, pr_{2})$.
 
 Let, for example, $S$ be a Noetherian scheme and let $C$ be the category of schemes finite over $S$. Let us show that an
 epimorphism in $C$ is not necessarily effective: take $S$ equal to $\operatorname{Spec} k[T^{3}, T^{5}]$, where $k$ is a
-commutative field, $Y$ equal to $S$, and $X$ equal to $\operatorname{Spec} k[T]$. If $i$ is the inclusion of
-$B = k[T^{3}, T^{5}]$ into $A = k[T]$, take $p$ equal to $\operatorname{Spec} i$. In this case $X \times_{p, p} X$
-identifies with $\operatorname{Spec}(A \otimes_{B} A)$ and $Coker(pr_{1}, pr_{2})$ with $\operatorname{Spec} B'$, where
-$B'$ is the subring of $A$ consisting of $a$ such that $a \otimes_{B} 1 = 1 \otimes_{B} a$. Now
+commutative field, $Y$ equal to $S$, and $X$ equal to $\operatorname{Spec} k[T]$. If $i$ is the inclusion of $B =
+k[T^{3}, T^{5}]$ into $A = k[T]$, take $p$ equal to $\operatorname{Spec} i$. In this case $X \times_{p, p} X$ identifies
+with $\operatorname{Spec}(A \otimes_{B} A)$ and $Coker(pr_{1}, pr_{2})$ with $\operatorname{Spec} B'$, where $B'$ is the
+subring of $A$ consisting of $a$ such that $a \otimes_{B} 1 = 1 \otimes_{B} a$. Now
 
 <!-- original page 257 -->
 
@@ -302,8 +296,8 @@ $B'$ is the subring of $A$ consisting of $a$ such that $a \otimes_{B} 1 = 1 \oti
 T⁷ ⊗_B 1 = (T² T⁵) ⊗_B 1 = T² ⊗_B T⁵ = T² ⊗_B (T³ T²) = T⁵ ⊗_B T² = 1 ⊗_B T⁷.
 ```
 
-So $T^{7}$ belongs to $B'$, does not belong to $B$, and $\operatorname{Spec} B'$ is distinct from
-$\operatorname{Spec} B$, which yields the counterexample.[^N.D.E-V-10]
+So $T^{7}$ belongs to $B'$, does not belong to $B$, and $\operatorname{Spec} B'$ is distinct from $\operatorname{Spec}
+B$, which yields the counterexample.[^N.D.E-V-10]
 
 ## 3. Some sorites on $C$-groupoids
 
@@ -341,9 +335,9 @@ We choose for $Y_{1}$ the fiber product of the diagram
 ```
 
 and for $e_{0}$ and $e_{1}$ the arrows obtained by composing the canonical arrow $Y_{1} \to Y_{0} \times Y_{0}$ with the
-first and second projections of $Y_{0} \times Y_{0}$. The morphism $Y_{1} \to Y_{0} \times Y_{0}$ is then
-$e_{0} \boxtimes e_{1}$, and one has $f_{0} \circ e_{i} = d_{i} \circ f_{1}$ for $i = 0, 1$, where we have written
-$f_{1}$ for the projection of $Y_{1}$ onto $X_{1}$.
+first and second projections of $Y_{0} \times Y_{0}$. The morphism $Y_{1} \to Y_{0} \times Y_{0}$ is then $e_{0}
+\boxtimes e_{1}$, and one has $f_{0} \circ e_{i} = d_{i} \circ f_{1}$ for $i = 0, 1$, where we have written $f_{1}$ for
+the projection of $Y_{1}$ onto $X_{1}$.
 
 <!-- original page 258 -->
 
@@ -494,14 +488,13 @@ To prove the surjectivity of $T(f)$, consider the diagram
 
 <!-- original page 261 -->
 
-where $\Delta$ is the section of $Y_{1} \to Y_{0} \times Y_{0}$ defined by the morphism
-$s \circ f_{0} \circ pr_{1} : Y_{0} \times Y_{0} \to X_{1}$, with $s : X_{0} \to X_{1}$ the arrow satisfying equalities
-(3) and (3 bis) of section 1.
+where $\Delta$ is the section of $Y_{1} \to Y_{0} \times Y_{0}$ defined by the morphism $s \circ f_{0} \circ pr_{1} :
+Y_{0} \times Y_{0} \to X_{1}$, with $s : X_{0} \to X_{1}$ the arrow satisfying equalities (3) and (3 bis) of section 1.
 
-If the arrow $g : Y_{0} \to T$ is such that $g \circ e_{0} = g \circ e_{1}$, then
-$g \circ e_{0} \circ \Delta = g \circ e_{1} \circ \Delta$, so $g \circ pr_{1} = g \circ pr_{2}$. Since $f_{0}$ is an
-effective epimorphism, $g$ factors through $f_{0}$ and an arrow $h : X_{0} \to T$, that is to say $g = T(f_{0})(h)$. It
-remains to show that $h$ belongs to $C(d_{0}, d_{1})(T)$, i.e. satisfies $h d_{0} = h d_{1}$; now one has
+If the arrow $g : Y_{0} \to T$ is such that $g \circ e_{0} = g \circ e_{1}$, then $g \circ e_{0} \circ \Delta = g \circ
+e_{1} \circ \Delta$, so $g \circ pr_{1} = g \circ pr_{2}$. Since $f_{0}$ is an effective epimorphism, $g$ factors
+through $f_{0}$ and an arrow $h : X_{0} \to T$, that is to say $g = T(f_{0})(h)$. It remains to show that $h$ belongs to
+$C(d_{0}, d_{1})(T)$, i.e. satisfies $h d_{0} = h d_{1}$; now one has
 
 ```text
    h d₀ f₁ = h f₀ e₀ = g e₀ = g e₁ = h f₀ e₁ = h d₁ f₁,
@@ -536,14 +529,14 @@ one has $x \sim y$ if and only if $f_{0}(x) \sim f_{0}(y)$ (the inverse image of
 groupoid is the equivalence relation defined by the inverse image of the groupoid).
 
 Indeed, suppose $x \sim y$. There exists therefore $z \in Y_{1}$ such that $x = e_{1}(z)$ and $y = e_{0}(z)$. Since
-$f_{0} \circ e_{i} = d_{i} \circ f_{1}$ for $i = 0, 1$, one then has $f_{0}(x) = d_{1} f_{1}(z)$ and
-$f_{0}(y) = d_{0} f_{1}(z)$, whence $f_{0}(x) \sim f_{0}(y)$.
+$f_{0} \circ e_{i} = d_{i} \circ f_{1}$ for $i = 0, 1$, one then has $f_{0}(x) = d_{1} f_{1}(z)$ and $f_{0}(y) = d_{0}
+f_{1}(z)$, whence $f_{0}(x) \sim f_{0}(y)$.
 
-Conversely, suppose $f_{0}(x) \sim f_{0}(y)$ and let $z \in X_{1}$ be such that $f_{0}(y) = d_{1}(z)$ and
-$f_{0}(x) = d_{0}(z)$. Using the construction and notations of b), there is then a point $t$ of
-$Y_{0} \times_{X_{0}} X_{1}$ such that $pr_{1}(t) = x$ and $pr_{2}(t) = z$. Similarly, since
-$f_{0}(y) = d_{1} pr_{2}(t)$, there is $s \in Y_{1}$ such that $y = e_{1}(s)$ and $(e_{0} \boxtimes f_{1})(s) = t$. One
-then has $e_{0}(s) = pr_{1}(e_{0} \boxtimes f_{1})(s) = pr_{1}(t) = x$. Whence $x \sim y$.
+Conversely, suppose $f_{0}(x) \sim f_{0}(y)$ and let $z \in X_{1}$ be such that $f_{0}(y) = d_{1}(z)$ and $f_{0}(x) =
+d_{0}(z)$. Using the construction and notations of b), there is then a point $t$ of $Y_{0} \times_{X_{0}} X_{1}$ such
+that $pr_{1}(t) = x$ and $pr_{2}(t) = z$. Similarly, since $f_{0}(y) = d_{1} pr_{2}(t)$, there is $s \in Y_{1}$ such
+that $y = e_{1}(s)$ and $(e_{0} \boxtimes f_{1})(s) = t$. One then has $e_{0}(s) = pr_{1}(e_{0} \boxtimes f_{1})(s) =
+pr_{1}(t) = x$. Whence $x \sim y$.
 
 <!-- original page 261 -->
 
@@ -580,11 +573,11 @@ $(d_{0}, d_{1})$ in the category of all ringed spaces.*
 *(iv) If $(d_{0}, d_{1})$ is an equivalence pair, then $X_{1} \to X_{0} \times_{Y} X_{0}$ is an
 isomorphism*[^N.D.E-V-19] *and $p : X_{0} \to Y$ is finite locally free.*[^N.D.E-V-20] *Moreover, $(Y, p)$ is a cokernel
 of $(d_{0}, d_{1})$ in the category of sheaves for the (fppf) topology and, for every base change $Y' \to Y$, $Y'$ is
-the cokernel of the groupoid $X\ast \times_{Y} Y'$ obtained from $X\ast$ by the base change
-$X_{0} \times_{Y} Y' \to X_{0}$.*
+the cokernel of the groupoid $X\ast \times_{Y} Y'$ obtained from $X\ast$ by the base change $X_{0} \times_{Y} Y' \to
+X_{0}$.*
 
-*In particular, for every base change $S' \to S$, $Y' = Y \times_{S} S'$ is the cokernel of the $S'$-groupoid
-$X'\ast = X\ast \times_{S} S'$. So, in this case, "the formation of the quotient commutes with base change".*
+*In particular, for every base change $S' \to S$, $Y' = Y \times_{S} S'$ is the cokernel of the $S'$-groupoid $X'\ast =
+X\ast \times_{S} S'$. So, in this case, "the formation of the quotient commutes with base change".*
 
 It evidently follows from (i) that the topological space underlying $Y$ is the quotient of the topological space
 underlying $X_{0}$ by the equivalence relation defined by the $(Sch/S)$-groupoid $X\ast$.
@@ -672,16 +665,16 @@ is injective. It follows that $A_{0}$ is integral over $B$.
 entails the existence of a prime ideal $z$ of $A_{1}$ such that $x = d_{0}(z)$ and $y = d_{1}(z)$.
 
 Indeed, if the assertion were not true, $x$ would be distinct from $\delta^{-1}_{0}(t)$ for every prime ideal $t$ of
-$A_{1}$ such that $\delta^{-1}_{1}(t) = y$. For such a $t$ one would have
-$\delta^{-1}_{0}(t) \cap B = \delta^{-1}_{1}(t) \cap B = y \cap B = x \cap B$, whence by Cohen–Seidenberg (cf. Bourbaki,
-Alg. comm. V, § 2, cor. 1 of prop. 1) $x$ would be contained in no $\delta^{-1}_{0}(t)$.[^N.D.E-V-21] Now there are at
-most $n$ prime ideals $t$ of $A_{1}$ such that $\delta^{-1}_{1}(t) = y$ (cf. loc. cit., prop. 3), so, by the "Prime
-Avoidance Lemma" (loc. cit., II, § 1, prop. 3), there would exist $a \in x$ belonging to no $\delta^{-1}_{0}(t)$.
-Consequently, $\delta_{0}(a)$ would belong to none of these ideals $t$, and so, by the lemma below, the norm
-$N_{\delta_{1}}(\delta_{0}(a))$ would not belong to $y$ (one computes this norm by regarding $A_{1}$ as an algebra over
-$A_{0}$ via the homomorphism $\delta_{1}$; one has $N_{\delta_{1}}(\delta_{0}(a)) = \sigma_{n}$ with the notations of
-a)). But, since $(-1)^{n-1} \sigma_{n} = a^{n} + \sum^{n-1}_{i=1} (-1)^{i} \sigma_{i} a^{n-i}$, this norm belongs to
-$B \cap x = B \cap y$, whence the contradiction.
+$A_{1}$ such that $\delta^{-1}_{1}(t) = y$. For such a $t$ one would have $\delta^{-1}_{0}(t) \cap B =
+\delta^{-1}_{1}(t) \cap B = y \cap B = x \cap B$, whence by Cohen–Seidenberg (cf. Bourbaki, Alg. comm. V, § 2, cor. 1 of
+prop. 1) $x$ would be contained in no $\delta^{-1}_{0}(t)$.[^N.D.E-V-21] Now there are at most $n$ prime ideals $t$ of
+$A_{1}$ such that $\delta^{-1}_{1}(t) = y$ (cf. loc. cit., prop. 3), so, by the "Prime Avoidance Lemma" (loc. cit., II,
+§ 1, prop. 3), there would exist $a \in x$ belonging to no $\delta^{-1}_{0}(t)$. Consequently, $\delta_{0}(a)$ would
+belong to none of these ideals $t$, and so, by the lemma below, the norm $N_{\delta_{1}}(\delta_{0}(a))$ would not
+belong to $y$ (one computes this norm by regarding $A_{1}$ as an algebra over $A_{0}$ via the homomorphism $\delta_{1}$;
+one has $N_{\delta_{1}}(\delta_{0}(a)) = \sigma_{n}$ with the notations of a)). But, since $(-1)^{n-1} \sigma_{n} =
+a^{n} + \sum^{n-1}_{i=1} (-1)^{i} \sigma_{i} a^{n-i}$, this norm belongs to $B \cap x = B \cap y$, whence the
+contradiction.
 
 **Lemma 4.1.1.** *Let $A \to A'$ be a morphism of commutative rings making $A'$ into a projective $A$-module of rank
 $n$. Let $p \in \operatorname{Spec}(A)$, $q_{1}, \cdots, q_{r}$ the elements of $\operatorname{Spec}(A')$ above $p$, and
@@ -703,12 +696,12 @@ $\ell_{a} : a' \mapsto a a'$ of $A'$, so one has the equivalences
 Set $Y = \operatorname{Spec} B$ and $p = \operatorname{Spec} i$, where $i$ is the inclusion of $B$ into $A_{0}$. By a),
 the morphism $p : X_{0} \to Y$ is surjective. Let us first show that $(Y, p)$ is a cokernel of $(d_{0}, d_{1})$ in the
 category of all ringed spaces: it follows indeed from b) that the set underlying $\operatorname{Spec} B$ is obtained
-from the set underlying $X_{0}$ by identifying the points $x$ and $y$ such that there exists $z \in X_{1}$ with
-$d_{1} z = y$, $d_{0} z = x$. Moreover, since $i$ is integral, $p = \operatorname{Spec} i$ is closed, so $Y$ is endowed
-with the quotient topology of that of $X_{0}$. It follows that $p$ is open. Indeed, let $U'$ be any open of $X_{0}$;
-since $d_{1}$ is surjective and finite locally free, hence faithfully flat and of finite presentation, and therefore
-open, the saturation $U = d_{1}(d^{-1}_{0}(U'))$ of $U'$ for the equivalence relation defined by $X\ast$ is open. Then
-$p(U') = p(U)$ is open, since $Y$ is endowed with the quotient topology.
+from the set underlying $X_{0}$ by identifying the points $x$ and $y$ such that there exists $z \in X_{1}$ with $d_{1} z
+= y$, $d_{0} z = x$. Moreover, since $i$ is integral, $p = \operatorname{Spec} i$ is closed, so $Y$ is endowed with the
+quotient topology of that of $X_{0}$. It follows that $p$ is open. Indeed, let $U'$ be any open of $X_{0}$; since
+$d_{1}$ is surjective and finite locally free, hence faithfully flat and of finite presentation, and therefore open, the
+saturation $U = d_{1}(d^{-1}_{0}(U'))$ of $U'$ for the equivalence relation defined by $X\ast$ is open. Then $p(U') =
+p(U)$ is open, since $Y$ is endowed with the quotient topology.
 
 It follows finally from the choice of $B$ and from the fact that $p$, $d_{0}$ and $d_{1}$ are affine that the canonical
 sequence of sheaves of rings
@@ -724,18 +717,18 @@ sequence of sheaves of rings
 is exact.
 
 It remains to show that $(Y, p)$ is also the cokernel of $(d_{0}, d_{1})$ in the category of schemes (more generally, in
-the category of ringed spaces in local rings). Let then $q : X_{0} \to Z$ be a morphism of schemes such that
-$q d_{0} = q d_{1}$. By what precedes, there is a unique morphism of ringed spaces $r : Y \to Z$ such that $q = r p$. It
-remains to show that, for every $y \in Y$, the homomorphism $O_{r(y)} \to O_{y}$ induced by $r$ is local. This follows
-from the fact that $p$ is surjective, so that $y$ is of the form $p(x)$, and from the fact that the homomorphism
-$O_{q(x)} \to O_{x}$ induced by $q$ is local.
+the category of ringed spaces in local rings). Let then $q : X_{0} \to Z$ be a morphism of schemes such that $q d_{0} =
+q d_{1}$. By what precedes, there is a unique morphism of ringed spaces $r : Y \to Z$ such that $q = r p$. It remains to
+show that, for every $y \in Y$, the homomorphism $O_{r(y)} \to O_{y}$ induced by $r$ is local. This follows from the
+fact that $p$ is surjective, so that $y$ is of the form $p(x)$, and from the fact that the homomorphism $O_{q(x)} \to
+O_{x}$ induced by $q$ is local.
 
 **d)** Proof of (ii): Follows from a) and c).
 
 **e)** Proof of (iii):
 
-Recall that one denotes by $P$ the set underlying a scheme $P$, and by $d : P \to Q$ the map induced by a morphism
-$d : P \to Q$.
+Recall that one denotes by $P$ the set underlying a scheme $P$, and by $d : P \to Q$ the map induced by a morphism $d :
+P \to Q$.
 
 **Lemma 4.1.2.**[^N.D.E-V-22] *Let $(A, m)$ be a local ring, $k$ its residue field, and $K$ an extension of the field
 $k$. Then there exists a local and flat $A$-algebra $B$ such that $B/mB$ is $k$-isomorphic to $K$; moreover, one can
@@ -746,29 +739,29 @@ choose $B$ finite and free over $A$ if $K$ is of finite degree over $k$.*
 This is proved in EGA 0_III, 10.3.1, where it is moreover shown that one can choose $B$ Noetherian if $A$ is. For the
 reader's convenience, let us indicate the proof.
 
-Put $A' = A[T]$, where $T$ is an indeterminate. If $K = k(T)$, let $p = m A'$ and $B = A'_{p}$. Then
-$B/mB \cong k[T]_{(0)} = k(T)$, and $B$ is flat over $A'$, which is a free $A$-module, so $B$ is flat over $A$.
+Put $A' = A[T]$, where $T$ is an indeterminate. If $K = k(T)$, let $p = m A'$ and $B = A'_{p}$. Then $B/mB \cong
+k[T]_{(0)} = k(T)$, and $B$ is flat over $A'$, which is a free $A$-module, so $B$ is flat over $A$.
 
 If $K = k(t) = k[t]$, where $t$ is algebraic over $k$, set $B = A'/(F)$, where $F \in A'$ is a monic polynomial whose
-image in `k[T]` is the minimal polynomial $f$ of $t$ over $k$. Then $B$ is a free $A$-module of finite rank
-$deg(F) = deg(f)$. In particular, $B$ is integral over $A$, hence every maximal ideal of $B$ contains $m$. Since
-$B/mB \cong k[T]/(f) \cong K$, it follows that $B$ is local, with maximal ideal `mB`. This already shows that if
-$[K : k] < \infty$, one can choose $B$ finite and free over $A$.
+image in `k[T]` is the minimal polynomial $f$ of $t$ over $k$. Then $B$ is a free $A$-module of finite rank $deg(F) =
+deg(f)$. In particular, $B$ is integral over $A$, hence every maximal ideal of $B$ contains $m$. Since $B/mB \cong
+k[T]/(f) \cong K$, it follows that $B$ is local, with maximal ideal `mB`. This already shows that if $[K : k] < \infty$,
+one can choose $B$ finite and free over $A$.
 
 In the general case, let $(t_{i})_{i \in I}$ be a system of generators of $K$ over $k$, and endow $I$ with a
 well-ordering (i.e., a total order $\leqslant$ such that every non-empty subset of $I$ has a least element). For every
 $i \in I$, let $k_{i}$ (resp. $k_{<i}$) denote the subfield of $K$ generated by the $t_{j}$ for $j \leqslant i$ (resp.
 $j < i$). Adding one element if necessary, we may suppose that $I$ has a greatest element $\xi$, so that $K = k_{\xi}$.
-Consider the subset $J$ of $I$ consisting of indices $i$ such that there exists an inductive system
-$(A_{j})_{j \leqslant i}$ of local and flat $A$-algebras such that $A_{j}/m A_{j} \cong k_{j}$ and $A_{j}$ is flat over
-$A_{\ell}$ for every $\ell < j$. Suppose $I - J$ non-empty; let $i$ be its least element and let
-$A' = \lim_{j < i} A_{j}$. Since tensor product commutes with direct limits, $A'$ is flat over $A$ and over each $A_{j}$
-for $j < i$, and one has $A'/m A' \cong A' \otimes_{A} (A/m) \cong k_{<i}$. Moreover, $A'$ is local, with maximal ideal
-$m A'$. Indeed, if $x = f_{j}(x_{j})$ is non-invertible, then $x_{j}$ is not invertible, hence belongs to the maximal
-ideal $m A_{j}$ of $A_{j}$, whence $x \in m A'$. It then follows from the monogenic case treated above that there exists
-a local and flat $A'$-algebra $A_{i}$ such that $A_{i}/m A_{i} \cong k_{<i}(t_{i}) = k_{i}$; then $A_{i}$ is flat over
-each $A_{j}$ for $j < i$, and so $i \in J$, contrary to hypothesis. This contradiction shows that $J = I$, and so
-$A_{\xi}$ answers the question. Lemma 4.1.2 is proved.
+Consider the subset $J$ of $I$ consisting of indices $i$ such that there exists an inductive system $(A_{j})_{j
+\leqslant i}$ of local and flat $A$-algebras such that $A_{j}/m A_{j} \cong k_{j}$ and $A_{j}$ is flat over $A_{\ell}$
+for every $\ell < j$. Suppose $I - J$ non-empty; let $i$ be its least element and let $A' = \lim_{j < i} A_{j}$. Since
+tensor product commutes with direct limits, $A'$ is flat over $A$ and over each $A_{j}$ for $j < i$, and one has $A'/m
+A' \cong A' \otimes_{A} (A/m) \cong k_{<i}$. Moreover, $A'$ is local, with maximal ideal $m A'$. Indeed, if $x =
+f_{j}(x_{j})$ is non-invertible, then $x_{j}$ is not invertible, hence belongs to the maximal ideal $m A_{j}$ of
+$A_{j}$, whence $x \in m A'$. It then follows from the monogenic case treated above that there exists a local and flat
+$A'$-algebra $A_{i}$ such that $A_{i}/m A_{i} \cong k_{<i}(t_{i}) = k_{i}$; then $A_{i}$ is flat over each $A_{j}$ for
+$j < i$, and so $i \in J$, contrary to hypothesis. This contradiction shows that $J = I$, and so $A_{\xi}$ answers the
+question. Lemma 4.1.2 is proved.
 
 <!-- original page 265 -->
 
@@ -786,10 +779,10 @@ with components $d_{0}$ and $d_{1}$ is surjective; now this map factors as follo
                        (set-theoretic Y-product)
 ```
 
-$q$ being the canonical map; the image of $d_{0} \boxtimes d_{1}$ therefore contains all points $v$ of
-$X_{0} \times_{Y} X_{0}$ such that ${v} = q^{-1}(q(v))$. This last condition[^N.D.E-V-23] will be realized in particular
-if $v$ is rational over $Y$, that is to say, if the residue field $\kappa(v)$ of $v$ identifies with the residue field
-$\kappa(w)$ of the image $w$ of $v$ in $Y$.
+$q$ being the canonical map; the image of $d_{0} \boxtimes d_{1}$ therefore contains all points $v$ of $X_{0} \times_{Y}
+X_{0}$ such that ${v} = q^{-1}(q(v))$. This last condition[^N.D.E-V-23] will be realized in particular if $v$ is
+rational over $Y$, that is to say, if the residue field $\kappa(v)$ of $v$ identifies with the residue field $\kappa(w)$
+of the image $w$ of $v$ in $Y$.
 
 <!-- original page 267 -->
 
@@ -806,8 +799,8 @@ $Y'$. Since
 
 and since the hypotheses of theorem 4.1 and the previous results, in particular point b), remain valid after the base
 change $\pi : Y' \to Y$, then $v'$ is the image of an element $u' \in X_{1} \times_{Y} Y'$ by the morphism deduced from
-$d_{0} \boxtimes d_{1}$ by base change. If $u$ is the image of $u'$ in $X_{1}$, one indeed has
-$v = (d_{0} \boxtimes d_{1})(u)$.
+$d_{0} \boxtimes d_{1}$ by base change. If $u$ is the image of $u'$ in $X_{1}$, one indeed has $v = (d_{0} \boxtimes
+d_{1})(u)$.
 
 **f)** Proof of (iv):[^N.D.E-V-24]
 
@@ -817,8 +810,8 @@ $v = (d_{0} \boxtimes d_{1})(u)$.
 
 Indeed, covering $Z$ by affine opens $Z_{i}$ and replacing $f$ by the induced morphisms $f^{-1}(Z_{i}) \to Z_{i}$, we
 reduce ($f$ being finite, hence affine) to the case where $Z = \operatorname{Spec} B$ and $T = \operatorname{Spec} A$.
-Since $f$ is a monomorphism, the diagonal morphism $T \to T \times_{Z} T$ is an isomorphism (EGA I, 5.3.8), i.e.,
-$A \otimes_{B} A \to A$ is an isomorphism. Consequently, for every maximal ideal $m$ of $B$, one has an isomorphism
+Since $f$ is a monomorphism, the diagonal morphism $T \to T \times_{Z} T$ is an isomorphism (EGA I, 5.3.8), i.e., $A
+\otimes_{B} A \to A$ is an isomorphism. Consequently, for every maximal ideal $m$ of $B$, one has an isomorphism
 
 ```text
    (A/mA) ⊗_k (A/mA) ≅ (A/mA),
@@ -840,13 +833,13 @@ One assumes in addition that $d = d_{0} \boxtimes d_{1} : X_{1} \to X_{0} \times
 the preceding lemma, the morphism $A_{0} \otimes_{B} A_{0} \to A_{1}$ is surjective.
 
 We shall show that it is an isomorphism (we shall prove along the way that $p : X_{0} \to Y$ is finite and locally
-free). It suffices to show that, for every prime ideal $p$ of $B$, the homomorphism
-$(A_{0})_{p} \otimes_{B_{p}} (A_{0})_{p} \to (A_{1})_{p}$ with components $\delta_{0p}$ and $\delta_{1p}$ is bijective.
-In other words, one may suppose $B$ local. It then follows from b) that $(A_{0})_{p}$ is semilocal; indeed, if $m$ is a
-maximal ideal of $(A_{0})_{p}$, the other maximal ideals are of the form $\delta^{-1}_{0}(n)$, where $n$ runs over the
-prime ideals of $A_{1}$ such that $\delta^{-1}_{1}(n) = m$; the assertion follows from the fact that there are at most
-$n = [A_{1} : A_{0}]$ such prime ideals $n$. Possibly performing a faithfully flat base change,[^N.D.E-V-25] one can
-also suppose that the residue field of $B$ is infinite, so that one can use the following lemma:
+free). It suffices to show that, for every prime ideal $p$ of $B$, the homomorphism $(A_{0})_{p} \otimes_{B_{p}}
+(A_{0})_{p} \to (A_{1})_{p}$ with components $\delta_{0p}$ and $\delta_{1p}$ is bijective. In other words, one may
+suppose $B$ local. It then follows from b) that $(A_{0})_{p}$ is semilocal; indeed, if $m$ is a maximal ideal of
+$(A_{0})_{p}$, the other maximal ideals are of the form $\delta^{-1}_{0}(n)$, where $n$ runs over the prime ideals of
+$A_{1}$ such that $\delta^{-1}_{1}(n) = m$; the assertion follows from the fact that there are at most $n = [A_{1} :
+A_{0}]$ such prime ideals $n$. Possibly performing a faithfully flat base change,[^N.D.E-V-25] one can also suppose that
+the residue field of $B$ is infinite, so that one can use the following lemma:
 
 **Lemma 4.2.** *Let $B$ be a local ring with infinite residue field, $A$ a semilocal ring, and $i : B \to A$ a
 homomorphism sending the maximal ideal $n$ of $B$ into the radical $r$ of $A$. Let $M$ be a free $A$-module of rank $n$
@@ -859,24 +852,24 @@ and $N$ a $B$-submodule of $M$ that generates $M$ as an $A$-module. Then $N$ con
 Recall indeed that a sequence $m_{1}, \cdots, m_{n}$ of elements of $M$ is an $A$-basis of $M$ if and only if the
 canonical images of $m_{1}, \cdots, m_{n}$ in $M/rM$ form a basis of $M/rM$ over $A/r$. One can therefore replace $M$ by
 $M/rM$, $N$ by $N/(N \cap rM)$, $A$ by $A/r$ and $B$ by $B/n$. In this case the lemma is easy (if $A$ is a product of
-fields $K_{1} \times \cdots \times K_{r}$, one can identify $M$ with the module
-$K^{n}_{1} \times \cdots \times K^{n}_{r}$; if $x_{j}$ is then an element of $N$ whose $j$-th component in
-$K^{n}_{1} \times \cdots \times K^{n}_{r}$ is non-zero, show that a certain linear combination $x$ of the $x_{j}$ with
-coefficients in $B$ has all components non-zero; then replace $M$ by $M/Ax$ and proceed by induction on $n$).
+fields $K_{1} \times \cdots \times K_{r}$, one can identify $M$ with the module $K^{n}_{1} \times \cdots \times
+K^{n}_{r}$; if $x_{j}$ is then an element of $N$ whose $j$-th component in $K^{n}_{1} \times \cdots \times K^{n}_{r}$ is
+non-zero, show that a certain linear combination $x$ of the $x_{j}$ with coefficients in $B$ has all components
+non-zero; then replace $M$ by $M/Ax$ and proceed by induction on $n$).
 
 We apply the preceding lemma in the following situation: $B = B$, $A = A_{0}$, $i$ is the inclusion of $B$ in $A_{0}$,
 $M = A_{1}$ regarded as an $A_{0}$-module via the homomorphism $\delta_{1}$, $N = \delta_{0}(A_{0})$. Indeed, since
-$d_{0} \boxtimes d_{1} : X_{1} \to X_{0} \times_{Y} X_{0}$ is a closed immersion, the homomorphism
-$A_{0} \otimes_{B} A_{0} \to A_{1}$ with components $\delta_{0}$ and $\delta_{1}$ is surjective; this means precisely
-that $\delta_{0}(A_{0})$ generates the $A_{0}$-module $A_{1}$.
+$d_{0} \boxtimes d_{1} : X_{1} \to X_{0} \times_{Y} X_{0}$ is a closed immersion, the homomorphism $A_{0} \otimes_{B}
+A_{0} \to A_{1}$ with components $\delta_{0}$ and $\delta_{1}$ is surjective; this means precisely that
+$\delta_{0}(A_{0})$ generates the $A_{0}$-module $A_{1}$.
 
 Let then $a_{1}, \cdots, a_{n}$ be elements of $A_{0}$ such that $\delta_{0}(a_{1}), \cdots, \delta_{0}(a_{n})$ form a
 basis of $A_{1}$ over $A_{0}$. If we show that $a_{1}, \cdots, a_{n}$ is a basis of $A_{0}$ over $B$, it will follow
-that the homomorphism $A_{0} \otimes_{B} A_{0} \to A_{1}$ sends the basis
-$(1 \otimes a_{i})_{1 \leqslant i \leqslant n}$ to the basis $(\delta_{0}(a_{i}))_{1 \leqslant i \leqslant n}$, hence is
-bijective. Consequently, if $\epsilon : \mathbb{Z}^{n} \to A_{0}$ is the morphism of abelian groups sending the natural
-basis of $\mathbb{Z}^{n}$ to $a_{1}, \cdots, a_{n}$, it suffices to prove that the map
-$B \otimes_{\mathbb{Z}} \mathbb{Z}^{n} \to A_{0}$ with components $i$ and $\epsilon$ is bijective.
+that the homomorphism $A_{0} \otimes_{B} A_{0} \to A_{1}$ sends the basis $(1 \otimes a_{i})_{1 \leqslant i \leqslant
+n}$ to the basis $(\delta_{0}(a_{i}))_{1 \leqslant i \leqslant n}$, hence is bijective. Consequently, if $\epsilon :
+\mathbb{Z}^{n} \to A_{0}$ is the morphism of abelian groups sending the natural basis of $\mathbb{Z}^{n}$ to $a_{1},
+\cdots, a_{n}$, it suffices to prove that the map $B \otimes_{\mathbb{Z}} \mathbb{Z}^{n} \to A_{0}$ with components $i$
+and $\epsilon$ is bijective.
 
 <!-- original page 269 -->
 
@@ -894,13 +887,13 @@ Now the diagram $(0, 1, 2)\ast$ considered at the beginning of this proof induce
                     δ₀ ⊗ ℤⁿ
 ```
 
-where $u_{0}$, $u_{1}$ and $u_{2}$ have respectively as components $i$ and $\epsilon$, $\delta_{1}$ and
-$\delta_{0} \epsilon$, $\delta'_{2}$ and $\delta'_{0} \delta_{0} \epsilon$. We know that $u_{1}$ is an isomorphism.
-Since the two left-hand squares of $(0, 1, 2)\ast$ are cocartesian, $u_{2}$ is bijective. But the two horizontal rows of
-our diagram are exact, so $u_{0}$ is bijective.[^N.D.E-V-26] This shows that $A_{0}$ is a $B$-module locally free of
-rank $n$, and, by the previous reductions, this entails that
-$\delta_{0} \otimes \delta_{1} : A_{0} \otimes_{B} A_{0} \to A_{1}$ is an isomorphism. This completes the proof of
-theorem 4.1 in the particular case considered ($X_{0}$ affine and $d_{1}$ locally free of constant rank $n$).
+where $u_{0}$, $u_{1}$ and $u_{2}$ have respectively as components $i$ and $\epsilon$, $\delta_{1}$ and $\delta_{0}
+\epsilon$, $\delta'_{2}$ and $\delta'_{0} \delta_{0} \epsilon$. We know that $u_{1}$ is an isomorphism. Since the two
+left-hand squares of $(0, 1, 2)\ast$ are cocartesian, $u_{2}$ is bijective. But the two horizontal rows of our diagram
+are exact, so $u_{0}$ is bijective.[^N.D.E-V-26] This shows that $A_{0}$ is a $B$-module locally free of rank $n$, and,
+by the previous reductions, this entails that $\delta_{0} \otimes \delta_{1} : A_{0} \otimes_{B} A_{0} \to A_{1}$ is an
+isomorphism. This completes the proof of theorem 4.1 in the particular case considered ($X_{0}$ affine and $d_{1}$
+locally free of constant rank $n$).
 
 ## 5. Passage to the quotient by a finite and flat groupoid (general case)
 
@@ -920,11 +913,10 @@ d′₂│         │ d₁                d′₂│         │ d₁
 ```
 
 that the inverse images of $U^{(n)}$ under $d_{0}$ and $d_{1}$ both coincide with the largest open subset of $X_{1}$
-above which $d'_{2}$ is locally free of rank $n$;[^N.D.E-V-27] one therefore has
-$d^{-1}_{0}(U^{(n)}) = d^{-1}_{1}(U^{(n)})$, so that the groupoid $X\ast$ is the direct sum of the groupoids
-$X\ast^{(n)}$ induced by $X\ast$ on the open-and-closed subsets $U^{(n)}$. Consequently, as one sees easily, it suffices
-to prove theorem 4.1 for each of the $X\ast^{(n)}$: one is reduced to the case where $d_{1}$ is finite locally free of
-rank $n$.
+above which $d'_{2}$ is locally free of rank $n$;[^N.D.E-V-27] one therefore has $d^{-1}_{0}(U^{(n)}) =
+d^{-1}_{1}(U^{(n)})$, so that the groupoid $X\ast$ is the direct sum of the groupoids $X\ast^{(n)}$ induced by $X\ast$
+on the open-and-closed subsets $U^{(n)}$. Consequently, as one sees easily, it suffices to prove theorem 4.1 for each of
+the $X\ast^{(n)}$: one is reduced to the case where $d_{1}$ is finite locally free of rank $n$.
 
 **b)** We are now in a position to prove our theorem in the general case.
 
@@ -951,12 +943,12 @@ $x \in X_{0}$ possesses a saturated affine open neighborhood $U$. Here is how on
                   open in V_f open in V
 ```
 
-By condition b) of 4.1, there exists an affine open $V$ of $X_{0}$ containing $d_{1}(d^{-1}_{0}(x))$;[^N.D.E-V-28] if
-$F = X_{0} - V$, then $d_{1}(d^{-1}_{0}(F))$ is closed since $d_{1}$ is integral, and
-$V' = X_{0} - d_{1}(d^{-1}_{0}(F))$ is the largest saturated open contained in $V$. Since $V'$ is a neighborhood of the
-finite set $d_{1}(d^{-1}_{0}(x))$, there exists a section $f$ of the structure sheaf of $V$ vanishing on $V - V'$ and
-such that $d_{1}(d^{-1}_{0}(x))$ is contained in the open $V_{f}$ of $V$ consisting of points where $f$ does not vanish.
-We shall show that the largest saturated open $(V_{f})'$ of $V_{f}$ is affine, and therefore answers the question.
+By condition b) of 4.1, there exists an affine open $V$ of $X_{0}$ containing $d_{1}(d^{-1}_{0}(x))$;[^N.D.E-V-28] if $F
+= X_{0} - V$, then $d_{1}(d^{-1}_{0}(F))$ is closed since $d_{1}$ is integral, and $V' = X_{0} - d_{1}(d^{-1}_{0}(F))$
+is the largest saturated open contained in $V$. Since $V'$ is a neighborhood of the finite set $d_{1}(d^{-1}_{0}(x))$,
+there exists a section $f$ of the structure sheaf of $V$ vanishing on $V - V'$ and such that $d_{1}(d^{-1}_{0}(x))$ is
+contained in the open $V_{f}$ of $V$ consisting of points where $f$ does not vanish. We shall show that the largest
+saturated open $(V_{f})'$ of $V_{f}$ is affine, and therefore answers the question.
 
 Indeed, let $Z(f) = V' - V_{f}$. Then $d^{-1}_{0}(Z(f))$ is the set of points of $d^{-1}_{0}(V') = d^{-1}_{1}(V')$ where
 the image $d^{\ast}_{0}(f)$ of $f$ under the map induced by $d_{0}$ vanishes. On the other hand, since $d_{1}$ induces a
@@ -971,8 +963,8 @@ This proves 4.1 (i); assertions (ii), (iii), and the first part of (iv) are then
 consequences indicated at the end of point (iv) (cf. [Ray67a], th. 1 (iii)).
 
 By hypothesis, the groupoid $X\ast$ comes from an equivalence relation $i : R \to X_{0} \times X_{0}$ ($i$ being
-therefore an immersion, cf. N.D.E. 19), and one has established that $R$ is effective (cf. Exp. IV, 3.3.2) and that
-$p : X_{0} \to Y = X_{0}/R$ is a surjective and finite locally free morphism, hence in particular faithfully flat and of
+therefore an immersion, cf. N.D.E. 19), and one has established that $R$ is effective (cf. Exp. IV, 3.3.2) and that $p :
+X_{0} \to Y = X_{0}/R$ is a surjective and finite locally free morphism, hence in particular faithfully flat and of
 finite presentation.
 
 Consequently, denoting by `(M)` the family of faithfully flat morphisms locally of finite presentation, $R$ is
@@ -989,27 +981,25 @@ $O_{X_{0}}$-module that is ample for $\pi_{0}$. By EGA II, 6.1.12, $p_{\ast}(A)$
 $p_{\ast}(O_{X_{0}})$-module. There therefore exists a covering $(V_{i})_{i \in I}$ of $Y$ by affine opens such that $A$
 is trivial above each of the saturated affine opens $U_{i} = p^{-1}(V_{i})$.
 
-For each index $i$, write $A_{i,0} = O_{X_{0}}(U_{i})$, $A_{i,1}$ the ring of the affine open
-$d^{-1}_{0}(U_{i}) = d^{-1}_{1}(U_{i})$ of $X_{1}$, $\delta_{i,0}$ (resp. $\delta_{i,1}$) the morphism
-$A_{i,0} \to A_{i,1}$ induced by $d_{0}$ (resp. $d_{1}$), and
-$B_{i} = O_{Y}(V_{i}) = {b \in A_{i,0} | \delta_{i,0}(b) = \delta_{i,1}(b)}$.
+For each index $i$, write $A_{i,0} = O_{X_{0}}(U_{i})$, $A_{i,1}$ the ring of the affine open $d^{-1}_{0}(U_{i}) =
+d^{-1}_{1}(U_{i})$ of $X_{1}$, $\delta_{i,0}$ (resp. $\delta_{i,1}$) the morphism $A_{i,0} \to A_{i,1}$ induced by
+$d_{0}$ (resp. $d_{1}$), and $B_{i} = O_{Y}(V_{i}) = {b \in A_{i,0} | \delta_{i,0}(b) = \delta_{i,1}(b)}$.
 
 Following EGA II, § 6.5, consider the invertible $O_{X_{0}}$-module $N_{d_{1}}(d^{\ast}_{0}(A))$, the norm relative to
 the finite locally free morphism $d_{1} : X_{1} \to X_{0}$ of the invertible $O_{X_{1}}$-module $d^{\ast}_{0}(A)$. If
-$A$ is given, relative to the covering $(U_{i})_{i \in I}$, by transition functions
-$c_{ij} \in O_{X_{0}}(U_{i} \cap U_{j})^{\times}$, then $N_{\delta_{1}}(d^{\ast}_{0}(A))$ is given by the transition
-functions $N_{d_{1}}(\delta_{0}(c_{ij})) \in O_{X_{0}}(U_{i} \cap U_{j})^{\times}$; since, by paragraph 4.a), these
-elements belong to $O_{Y}(V_{i} \cap V_{j})^{\times}$, they define an invertible `O_Y`-module $L$, such that
-$p^{\ast}(L) = N_{d_{1}}(d^{\ast}_{0}(A))$. Moreover, note that for every $n \in \mathbb{N}^{\ast}$, one has
-$p^{\ast}(L^{n}) = N_{d_{1}}(d^{\ast}_{0}(A^{n}))$, cf. loc. cit., (6.5.2.1).
+$A$ is given, relative to the covering $(U_{i})_{i \in I}$, by transition functions $c_{ij} \in O_{X_{0}}(U_{i} \cap
+U_{j})^{\times}$, then $N_{\delta_{1}}(d^{\ast}_{0}(A))$ is given by the transition functions
+$N_{d_{1}}(\delta_{0}(c_{ij})) \in O_{X_{0}}(U_{i} \cap U_{j})^{\times}$; since, by paragraph 4.a), these elements
+belong to $O_{Y}(V_{i} \cap V_{j})^{\times}$, they define an invertible `O_Y`-module $L$, such that $p^{\ast}(L) =
+N_{d_{1}}(d^{\ast}_{0}(A))$. Moreover, note that for every $n \in \mathbb{N}^{\ast}$, one has $p^{\ast}(L^{n}) =
+N_{d_{1}}(d^{\ast}_{0}(A^{n}))$, cf. loc. cit., (6.5.2.1).
 
 Let us show that $L$ is ample for the morphism $\pi : Y \to S$. For this, replacing $S$ by an affine open, we may
-suppose $S$ affine. Let then $y \in Y$, $x \in X_{0}$ with $p(x) = y$, $V$ an affine open of $Y$ containing $y$, and
-$U = p^{-1}(V)$. Since $A$ is $\pi_{0}$-ample, there exists $n \in \mathbb{N}^{\ast}$ and a section
-$s \in \Gamma(X_{0}, A^{n})$ such that the open $(X_{0})_{s}$ satisfies $x \in (X_{0})_{s} \subset U$. With the
-preceding notations, $s$ is given by sections $a_{i} \in A_{i,0} = O_{X_{0}}(U_{i})$ such that $a_{i} = c_{ij} a_{j}$ on
-$U_{i} \cap U_{j}$, and $(X_{0})_{s}$ is the union of the opens
-$U'_{i} = {p \in \operatorname{Spec}(A_{i,0}) | a_{i} \notin p}$.
+suppose $S$ affine. Let then $y \in Y$, $x \in X_{0}$ with $p(x) = y$, $V$ an affine open of $Y$ containing $y$, and $U
+= p^{-1}(V)$. Since $A$ is $\pi_{0}$-ample, there exists $n \in \mathbb{N}^{\ast}$ and a section $s \in \Gamma(X_{0},
+A^{n})$ such that the open $(X_{0})_{s}$ satisfies $x \in (X_{0})_{s} \subset U$. With the preceding notations, $s$ is
+given by sections $a_{i} \in A_{i,0} = O_{X_{0}}(U_{i})$ such that $a_{i} = c_{ij} a_{j}$ on $U_{i} \cap U_{j}$, and
+$(X_{0})_{s}$ is the union of the opens $U'_{i} = {p \in \operatorname{Spec}(A_{i,0}) | a_{i} \notin p}$.
 
 For each index $i$, put $N(a_{i}) = N_{\delta_{1}}(\delta_{0}(a_{i})) \in B_{i}$. By 4.1 (i) and lemma 4.1.1, one has:
 
@@ -1017,9 +1007,8 @@ For each index $i$, put $N(a_{i}) = N_{\delta_{1}}(\delta_{0}(a_{i})) \in B_{i}$
    p(U′_i) = p d₁(d₀⁻¹(U′_i)) = p d₁({q ∈ Spec(A_{i,1}) | δ_{i,0}(a_i) ∉ q})
 ```
 
-and
-$d_{1}({q \in \operatorname{Spec}(A_{i,1}) | \delta_{i,0}(a_{i}) \notin q}) = {p \in \operatorname{Spec}(A_{i,0}) | N_{\delta_{1}}(\delta_{i,0}(a_{i})) \notin p}$,
-whence
+and $d_{1}({q \in \operatorname{Spec}(A_{i,1}) | \delta_{i,0}(a_{i}) \notin q}) = {p \in \operatorname{Spec}(A_{i,0}) |
+N_{\delta_{1}}(\delta_{i,0}(a_{i})) \notin p}$, whence
 
 ```text
    p(U′_i) = {p ∈ Spec(B_i) | N(a_i) ∉ p}.
@@ -1124,8 +1113,8 @@ $(d_{0}, d_{1})$ in the category of all ringed spaces.*
 
 *(i′) $p$ is surjective, and is open (resp. universally closed) if $d_{0}$ is.*
 
-*(ii) Suppose $S$ locally Noetherian and $X_{0}$ locally of finite type (resp. of finite type) over $S$. Then $p$ and
-$Y \to S$ are locally of finite presentation (resp. of finite presentation).*
+*(ii) Suppose $S$ locally Noetherian and $X_{0}$ locally of finite type (resp. of finite type) over $S$. Then $p$ and $Y
+\to S$ are locally of finite presentation (resp. of finite presentation).*
 
 *(iii) The morphism $X_{1} \to X_{0} \times_{Y} X_{0}$ with components $d_{0}$ and $d_{1}$ is surjective.*
 
@@ -1193,14 +1182,13 @@ composite morphism $V_{1} \to X_{0} \times_{Y} X_{0}$, and therefore so is $d_{0
 
 It remains to prove that $(Y, p)$ is a cokernel of $(d_{0}, d_{1})$ in the category of all ringed spaces. We first show
 that $Y$ is obtained from $X_{0}$ by identifying the points $x$ and $y$ such that there exists $z \in X_{1}$ with
-$d_{0}(z) = x$ and $d_{1}(z) = y$. Indeed, $p$ is surjective and one has $p d_{0} = p d_{1}$; moreover, if
-$p(x) = p(y)$, there is a point $z'$ of $X_{0} \times_{Y} X_{0}$ whose first projection is $x$ and second projection is
-$y$. If $z$ is a point of $X_{1}$ such that $(d_{0} \boxtimes d_{1})(z) = z'$, one indeed has $d_{0}(z) = x$ and
-$d_{1}(z) = y$.
+$d_{0}(z) = x$ and $d_{1}(z) = y$. Indeed, $p$ is surjective and one has $p d_{0} = p d_{1}$; moreover, if $p(x) =
+p(y)$, there is a point $z'$ of $X_{0} \times_{Y} X_{0}$ whose first projection is $x$ and second projection is $y$. If
+$z$ is a point of $X_{1}$ such that $(d_{0} \boxtimes d_{1})(z) = z'$, one indeed has $d_{0}(z) = x$ and $d_{1}(z) = y$.
 
-On the other hand, if $W$ is a saturated open of $X_{0}$, then $W \cap U$ is a saturated open of $U$; by 4.1,
-$q(W \cap U)$ is an open of $Y$. Since $q(W \cap U)$ is none other than $p(W)$, one sees that $Y$ is endowed with the
-quotient topology of that of $X_{0}$.
+On the other hand, if $W$ is a saturated open of $X_{0}$, then $W \cap U$ is a saturated open of $U$; by 4.1, $q(W \cap
+U)$ is an open of $Y$. Since $q(W \cap U)$ is none other than $p(W)$, one sees that $Y$ is endowed with the quotient
+topology of that of $X_{0}$.
 
 It remains to show that the canonical sequence of sheaves of rings
 
@@ -1227,11 +1215,11 @@ commutative diagram, where the two squares are Cartesian:
 ```
 
 Then $\tilde{d}_{1}$ is surjective, and finite locally free. On the other hand, let $x \in U'$. Since $U$ is a
-quasi-section, the set $E := d_{0} d^{-1}_{1}(x) \cap U$ is finite and contained in an affine open $W$ of $U$. Then
-$E' = E \cap U'$ is a finite set, contained in the quasi-affine open $W \cap U'$. Consequently, there exists an affine
-open $W'$ of $W \cap U'$ containing $E'$. This shows that $U'$ is a quasi-section of the groupoid $X'\ast$ induced by
-$X\ast$ on $X'_{0}$. The first assertion of (i), applied to $X'\ast$ and $U'$, then shows that $Y'$ is the cokernel in
-$(Sch/S)$ of $X'\ast$.
+quasi-section, the set $E := d_{0} d^{-1}_{1}(x) \cap U$ is finite and contained in an affine open $W$ of $U$. Then $E'
+= E \cap U'$ is a finite set, contained in the quasi-affine open $W \cap U'$. Consequently, there exists an affine open
+$W'$ of $W \cap U'$ containing $E'$. This shows that $U'$ is a quasi-section of the groupoid $X'\ast$ induced by $X\ast$
+on $X'_{0}$. The first assertion of (i), applied to $X'\ast$ and $U'$, then shows that $Y'$ is the cokernel in $(Sch/S)$
+of $X'\ast$.
 
 In particular, for every $S$-scheme $T$, one has the exact sequence
 
@@ -1294,14 +1282,14 @@ faithfully flat.*[^N.D.E-V-37] *Moreover, $(Y, p)$ is a cokernel of $(d_{0}, d_{
 (fppf) topology and, for every base change $Y' \to Y$, $Y'$ is the cokernel of the groupoid $X\ast \times_{Y} Y'$
 obtained from $X\ast$ by the base change $X_{0} \times_{Y} Y' \to X_{0}$.*
 
-*In particular, for every base change $S' \to S$, $Y' = Y \times_{S} S'$ is the cokernel of the $S'$-groupoid
-$X'\ast = X\ast \times_{S} S'$. So, in this case, "the formation of the quotient commutes with base change".*
+*In particular, for every base change $S' \to S$, $Y' = Y \times_{S} S'$ is the cokernel of the $S'$-groupoid $X'\ast =
+X\ast \times_{S} S'$. So, in this case, "the formation of the quotient commutes with base change".*
 
 Let $(Y, p)$ be the cokernel of $(d_{0}, d_{1})$ in the category of all ringed spaces. Lemma 1.2 shows that, to prove
 (i), it suffices to show that every point $z$ of $X_{0}$ possesses a saturated open neighborhood $U_{z}$ such that,
-denoting by $\tilde{d}_{0}$ and $\tilde{d}_{1}$ the restrictions of $d_{0}$ and $d_{1}$ to
-$d^{-1}_{0}(U_{z}) = d^{-1}_{1}(U_{z})$, and by $(Q, q)$ the cokernel of $(\tilde{d}_{0}, \tilde{d}_{1})$ in `(Esp.An)`,
-$Q$ is a scheme and $q$ a morphism of schemes.
+denoting by $\tilde{d}_{0}$ and $\tilde{d}_{1}$ the restrictions of $d_{0}$ and $d_{1}$ to $d^{-1}_{0}(U_{z}) =
+d^{-1}_{1}(U_{z})$, and by $(Q, q)$ the cokernel of $(\tilde{d}_{0}, \tilde{d}_{1})$ in `(Esp.An)`, $Q$ is a scheme and
+$q$ a morphism of schemes.
 
 By lemma 6.1 (i), it therefore suffices to show that every point $z$ of $X_{0}$ possesses a saturated open neighborhood
 $U_{z}$ such that the groupoid induced on $U_{z}$ by $X\ast$ possesses a quasi-section. One can even suppose that $z$ is
@@ -1337,18 +1325,18 @@ If $u(v^{-1}(z))$ is finite, one can choose $F$ equal to $X$. Otherwise, we deno
 the points of the fiber $v^{-1}(z)$ associated with the structure sheaf $O_{v^{-1}(z)}$ of $v^{-1}(z)$ (the $y_{i}$ are
 such that, if $O_{i}$ denotes the local ring of $v^{-1}(z)$ at $y_{i}$, the maximal ideal of $O_{i}$ consists of zero
 divisors). If $t$ is the image of $z$ in $T$, $u(v^{-1}(z))$ is an infinite constructible subset of the fiber of $t$ in
-$X$. There therefore exists a point $x$ closed in this fiber, belonging to $u(v^{-1} z)$ and distinct from
-$u(y_{1}), \cdots, u(y_{n})$. Then $X - {x}$ is an open neighborhood of $u(y_{1}), \cdots, u(y_{n})$, hence contains an
-open neighborhood of the form $D_{+}(f)$, where $f$ is a homogeneous element of degree $d$ of $S$ (the notations are
-those of EGA II, § 2.3).
+$X$. There therefore exists a point $x$ closed in this fiber, belonging to $u(v^{-1} z)$ and distinct from $u(y_{1}),
+\cdots, u(y_{n})$. Then $X - {x}$ is an open neighborhood of $u(y_{1}), \cdots, u(y_{n})$, hence contains an open
+neighborhood of the form $D_{+}(f)$, where $f$ is a homogeneous element of degree $d$ of $S$ (the notations are those of
+EGA II, § 2.3).
 
-Consequently, the closed subscheme $X_{1} = V_{+}(f)$ defined by $f$ contains $x$ and avoids the points
-$u(y_{1}), \cdots, u(y_{n})$. It follows of course that the inverse image $Y_{1} = u^{-1}(V_{+}(f))$ of this subscheme
-is distinct from $Y$ and meets $v^{-1}(z)$. We shall further show that the restriction $v_{1}$ of $v$ to $Y_{1}$ is flat
-at the points of $v^{-1}(z)$; if $u(v^{-1}_{1}(z))$ is finite, we shall therefore only need to choose $F$ equal to
-$X_{1}$; otherwise, we shall repeat the argument we have just developed, replacing $Y$ by $Y_{1}$, $v$ by $v_{1}$, $u$
-by the morphism $u_{1}$ induced on $Y_{1}$ by $u$; in this way we shall obtain a decreasing sequence $X, X_{1}, \cdots$
-of closed subschemes of $X$; since such a sequence terminates, $u(u^{-1}(X_{n}) \cap v^{-1}(z))$ will be finite and
+Consequently, the closed subscheme $X_{1} = V_{+}(f)$ defined by $f$ contains $x$ and avoids the points $u(y_{1}),
+\cdots, u(y_{n})$. It follows of course that the inverse image $Y_{1} = u^{-1}(V_{+}(f))$ of this subscheme is distinct
+from $Y$ and meets $v^{-1}(z)$. We shall further show that the restriction $v_{1}$ of $v$ to $Y_{1}$ is flat at the
+points of $v^{-1}(z)$; if $u(v^{-1}_{1}(z))$ is finite, we shall therefore only need to choose $F$ equal to $X_{1}$;
+otherwise, we shall repeat the argument we have just developed, replacing $Y$ by $Y_{1}$, $v$ by $v_{1}$, $u$ by the
+morphism $u_{1}$ induced on $Y_{1}$ by $u$; in this way we shall obtain a decreasing sequence $X, X_{1}, \cdots$ of
+closed subschemes of $X$; since such a sequence terminates, $u(u^{-1}(X_{n}) \cap v^{-1}(z))$ will be finite and
 non-empty for some $n$, and one will choose $F$ equal to $X_{n}$.
 
 It remains then to show that $v_{1}$ is flat at the points of $v^{-1}(z)$; let $y$ be a point of $Y_{1}$ above $z$,
@@ -1411,9 +1399,9 @@ $y$ be one of these points; since the fiber $q^{-1}(s)$ is of finite type over $
 neighborhoods $\operatorname{Spec} B$ and $\operatorname{Spec} C$ of $y$ and $z$, respectively, where $B$ and $C$ are
 finitely generated $\kappa(s)$-algebras. Then $y$ and $z$ correspond to maximal ideals $p \subset B$ and $q \subset C$,
 the fields $B/p$ and $C/q$ are of finite degree over $\kappa(s)$, and so $(B/p) \otimes_{\kappa(s)} (C/q)$ is a
-$\kappa(s)$-algebra of finite dimension, whose maximal ideals correspond exactly to the points of
-$X_{0} \times_{S} X_{0}$ whose second (resp. first) projection is $z$ (resp. $y$). There are therefore only finitely
-many points $u$ of $X_{0} \times_{S} X_{0}$ whose
+$\kappa(s)$-algebra of finite dimension, whose maximal ideals correspond exactly to the points of $X_{0} \times_{S}
+X_{0}$ whose second (resp. first) projection is $z$ (resp. $y$). There are therefore only finitely many points $u$ of
+$X_{0} \times_{S} X_{0}$ whose
 
 <!-- original page 280 -->
 
@@ -1433,12 +1421,12 @@ contained in $\tilde{d}_{1}(F_{1})$ above which $\tilde{d}_{1}$ is simultaneousl
 
 We shall see in lemma 7.4 that the inverse images of $\Phi$ by $\tilde{d}'_{1}$ and $\tilde{d}'_{0}$ both identify with
 the set of points of $F_{2}$ where $\tilde{d}'_{2}$ is not simultaneously flat and quasi-finite. It follows that
-$d^{-1}_{0}(W) = \tilde{d}'_{2}(F_{2}) - \tilde{d}'_{2}(\tilde{d}'_{0} \Phi)$ coincides with
-$d^{-1}_{1}(W) = \tilde{d}'_{2}(F_{2}) - \tilde{d}'_{2}(\tilde{d}'_{1} \Phi)$, that is, $W$ is saturated. Consequently,
-setting $W_{1} = \tilde{d}^{-1}_{1}(W)$, the equality $d^{-1}_{0}(W) = d^{-1}_{1}(W)$ entails
-$\tilde{d}'_{2} \tilde{d}'^{-1}_{0}(W) = \tilde{d}'_{2} \tilde{d}'^{-1}_{1}(W)$, that is,
-$\tilde{d}'^{-1}_{0}(W_{1}) = \tilde{d}'^{-1}_{1}(W_{1})$. Since $\tilde{d}_{0}$ is faithfully flat and quasi-compact
-(because $d_{0}$ is, like $d_{1}$, surjective, proper and flat), and the square
+$d^{-1}_{0}(W) = \tilde{d}'_{2}(F_{2}) - \tilde{d}'_{2}(\tilde{d}'_{0} \Phi)$ coincides with $d^{-1}_{1}(W) =
+\tilde{d}'_{2}(F_{2}) - \tilde{d}'_{2}(\tilde{d}'_{1} \Phi)$, that is, $W$ is saturated. Consequently, setting $W_{1} =
+\tilde{d}^{-1}_{1}(W)$, the equality $d^{-1}_{0}(W) = d^{-1}_{1}(W)$ entails $\tilde{d}'_{2} \tilde{d}'^{-1}_{0}(W) =
+\tilde{d}'_{2} \tilde{d}'^{-1}_{1}(W)$, that is, $\tilde{d}'^{-1}_{0}(W_{1}) = \tilde{d}'^{-1}_{1}(W_{1})$. Since
+$\tilde{d}_{0}$ is faithfully flat and quasi-compact (because $d_{0}$ is, like $d_{1}$, surjective, proper and flat),
+and the square
 
 ```text
               d̃′₁
@@ -1499,9 +1487,9 @@ diagram
           Z,
 ```
 
-where $Z$ is an open of $Y$, all the arrows are surjective, and $q$ is integral. Moreover, by hypothesis,
-$d_{0} : X_{1} \to X_{0}$ is proper, so $u$, obtained from it by base change, is also. Consequently, $r$ is universally
-closed, and so is $p$, since $v$ is surjective.
+where $Z$ is an open of $Y$, all the arrows are surjective, and $q$ is integral. Moreover, by hypothesis, $d_{0} : X_{1}
+\to X_{0}$ is proper, so $u$, obtained from it by base change, is also. Consequently, $r$ is universally closed, and so
+is $p$, since $v$ is surjective.
 
 Finally, $p$ being surjective and universally closed, and $X_{0}$ quasi-projective hence separated, the diagonal
 $\Delta_{Y/S}(Y)$ is closed in $Y \times_{S} Y$, being the image under $p \times p$ of the diagonal
@@ -1564,12 +1552,12 @@ quasi-section (confer § 7). Theorem 8.1 will then follow from lemma 6.1.
 
 Suppose provisionally that, for every point $z \in X_{0}$ closed relative to $S$ (confer § 7), there exists a saturated
 open $W_{z}$ which possesses a quasi-section and meets all the irreducible components of $X_{0}$ passing through $z$.
-Then the exterior $X_{0} - W_{z}$ of $W_{z}$ in $X_{0}$ is saturated (since the saturation
-$d_{1}(d^{-1}_{0}(X_{0} - W_{z}))$ of this exterior is open and does not meet $W_{z}$). If this exterior is non-empty,
-one can choose in it a point $z'$ closed relative to $S$ and associate to $z'$ an open $W_{z'}$ as above; one may
-moreover suppose $W_{z'}$ contained in $X_{0} - W_{z}$; then $W_{z}$ and $W_{z'}$ are disjoint and the groupoid induced
-by $X\ast$ on $W_{z} \cup W_{z'}$ possesses a quasi-section. The process must stop, because $X_{0}$ has only finitely
-many irreducible components. It therefore remains to construct $W_{z}$.
+Then the exterior $X_{0} - W_{z}$ of $W_{z}$ in $X_{0}$ is saturated (since the saturation $d_{1}(d^{-1}_{0}(X_{0} -
+W_{z}))$ of this exterior is open and does not meet $W_{z}$). If this exterior is non-empty, one can choose in it a
+point $z'$ closed relative to $S$ and associate to $z'$ an open $W_{z'}$ as above; one may moreover suppose $W_{z'}$
+contained in $X_{0} - W_{z}$; then $W_{z}$ and $W_{z'}$ are disjoint and the groupoid induced by $X\ast$ on $W_{z} \cup
+W_{z'}$ possesses a quasi-section. The process must stop, because $X_{0}$ has only finitely many irreducible components.
+It therefore remains to construct $W_{z}$.
 
 For this, one may suppose $S$ affine; in this case, let $y$ be a point of $X_{1}$
 
@@ -1619,19 +1607,18 @@ quasi-section for the groupoid induced by $X\ast$ on $W_{z}$.
 
 **a)** We take up the notations and hypotheses of lemma 6.1 and let $\pi : S' \to S$ be an arbitrary base change. Denote
 by $f' : X' \to Y'$ the morphism of $S'$-schemes deduced by extension via $\pi$ of the base from a morphism of
-$S$-schemes $f : X \to Y$. With this convention, $p' : X'_{0} \to Y'$ is surjective, as is the morphism
-$X'_{1} \to X'_{0} \times_{Y'} X'_{0}$ with components $d'_{0}$ and $d'_{1}$. The set underlying $Y'$ therefore
-identifies with the quotient of the set underlying $X'_{0}$ by the equivalence relation defined in $X'_{0}$ by the
-$S'$-groupoid $X'\ast$. Moreover, $q' : U' \to Y'$ is integral and surjective, so that the topology of $Y'$ is the
-quotient topology of that of $U'$, hence also of that of $X'_{0}$ (confer the proof in § 6.c).
+$S$-schemes $f : X \to Y$. With this convention, $p' : X'_{0} \to Y'$ is surjective, as is the morphism $X'_{1} \to
+X'_{0} \times_{Y'} X'_{0}$ with components $d'_{0}$ and $d'_{1}$. The set underlying $Y'$ therefore identifies with the
+quotient of the set underlying $X'_{0}$ by the equivalence relation defined in $X'_{0}$ by the $S'$-groupoid $X'\ast$.
+Moreover, $q' : U' \to Y'$ is integral and surjective, so that the topology of $Y'$ is the quotient topology of that of
+$U'$, hence also of that of $X'_{0}$ (confer the proof in § 6.c).
 
 On the other hand, it is clear that $U'$ is a quasi-section of the $S'$-groupoid $X'\ast$, to which one can therefore
 apply lemma 6.1. In particular, $X'\ast$ possesses a cokernel $(Y_{1}, p_{1})$ and the topological space underlying
 `Y_1` is obtained from the topological space underlying $X'_{0}$ by identifying the points equivalent under the relation
-defined by $X'\ast$. It follows that the canonical morphism $Y_{1} \to Y'$ is a homeomorphism; I claim that
-$Y_{1} \to Y'$ is even a universal homeomorphism: indeed, if $S''$ is above $S'$, let `Y_2` be the cokernel of
-$(d_{0} \times_{S} S'', d_{1} \times_{S} S'')$. By what precedes, applied to the base changes $S'' \to S'$ and
-$S'' \to S$,
+defined by $X'\ast$. It follows that the canonical morphism $Y_{1} \to Y'$ is a homeomorphism; I claim that $Y_{1} \to
+Y'$ is even a universal homeomorphism: indeed, if $S''$ is above $S'$, let `Y_2` be the cokernel of $(d_{0} \times_{S}
+S'', d_{1} \times_{S} S'')$. By what precedes, applied to the base changes $S'' \to S'$ and $S'' \to S$,
 
 ```text
    Y_2 ──→ Y_1 ×_{S′} S′′    and    Y_2 ──→ Y ×_S S′′ ≃ Y′ ×_{S′} S′′
@@ -1669,21 +1656,21 @@ sheaves for the (fppf) topology.*
 
 *Proof.* For (1), the question is local on $S$, so one may suppose $S = \operatorname{Spec} B$ affine. There then exists
 a ring $A$ of finite type over $\mathbb{Z}$, a morphism $S \to T = \operatorname{Spec} A$ and a $(Sch/T)$-groupoid
-$Z\ast$ such that $X\ast$ identifies with $Z\ast \times_{T} S$ (cf. EGA IV_3, 8.8.3, applied to
-$S_{0} = \operatorname{Spec} \mathbb{Z}$ and $S_{i} = \operatorname{Spec} A_{i}$, with the $A_{i}$ running over the
-finitely generated $\mathbb{Z}$-subalgebras of $B$). Moreover, one may suppose that $Z\ast$ satisfies the hypotheses of
-theorem 7.1 (cf. EGA IV_3, 8.10.5). Consequently, $Z\ast$ "locally" possesses quasi-sections.
+$Z\ast$ such that $X\ast$ identifies with $Z\ast \times_{T} S$ (cf. EGA IV_3, 8.8.3, applied to $S_{0} =
+\operatorname{Spec} \mathbb{Z}$ and $S_{i} = \operatorname{Spec} A_{i}$, with the $A_{i}$ running over the finitely
+generated $\mathbb{Z}$-subalgebras of $B$). Moreover, one may suppose that $Z\ast$ satisfies the hypotheses of theorem
+7.1 (cf. EGA IV_3, 8.10.5). Consequently, $Z\ast$ "locally" possesses quasi-sections.
 
 The same therefore holds for $X\ast$, by a), and assertions (2), (3), (4) and (5) (a) follow from 6.1, as in the proof
 of 7.1.
 
-**c)** Let us show that $Y \to S$ is of finite presentation.[^N.D.E-V-47] By hypothesis,
-$(d^{X\ast}_{0}, d^{X\ast}_{1})$ is an equivalence pair, that is, $d^{X\ast} : X_{1} \to X_{0} \times_{S} X_{0}$ is a
-monomorphism. By EGA IV_3, 8.10.5, one may suppose, possibly enlarging $A$, that
-$d^{Z\ast} : Z_{1} \to Z_{0} \times_{T} Z_{0}$ is a monomorphism. Since $T = \operatorname{Spec} A$, with $A$
-Noetherian, it then follows from theorem 7.1 that the groupoid $Z\ast$ possesses a cokernel $(Q, q)$ in $(Sch/T)$, that
-$q$ and $Q \to T$ are of finite presentation, and moreover that $q : Z_{0} \to Q$ is faithfully flat and that
-$d^{Z\ast}$ induces an isomorphism $Z_{1} \xrightarrow{\sim} Z_{0} \times_{Q} Z_{0}$. Put $Q_{S} = Q \times_{T} S$.
+**c)** Let us show that $Y \to S$ is of finite presentation.[^N.D.E-V-47] By hypothesis, $(d^{X\ast}_{0},
+d^{X\ast}_{1})$ is an equivalence pair, that is, $d^{X\ast} : X_{1} \to X_{0} \times_{S} X_{0}$ is a monomorphism. By
+EGA IV_3, 8.10.5, one may suppose, possibly enlarging $A$, that $d^{Z\ast} : Z_{1} \to Z_{0} \times_{T} Z_{0}$ is a
+monomorphism. Since $T = \operatorname{Spec} A$, with $A$ Noetherian, it then follows from theorem 7.1 that the groupoid
+$Z\ast$ possesses a cokernel $(Q, q)$ in $(Sch/T)$, that $q$ and $Q \to T$ are of finite presentation, and moreover that
+$q : Z_{0} \to Q$ is faithfully flat and that $d^{Z\ast}$ induces an isomorphism $Z_{1} \xrightarrow{\sim} Z_{0}
+\times_{Q} Z_{0}$. Put $Q_{S} = Q \times_{T} S$.
 
 Since $X_{i} \cong Z_{i} \times_{T} S$, one therefore obtains an isomorphism:
 
@@ -1725,9 +1712,8 @@ $q$ is of finite type (resp. of finite presentation)[^V-9-1].*
 Since $p$ is surjective and `qp` quasi-compact, $q$ is quasi-compact. So one may suppose $S$, $Y$ and $X_{0}$ affine,
 with rings $A$, $B$, $C$. One has $B = \lim B_{i}$, where the $B_{i}$ run over the finitely generated $A$-subalgebras of
 $B$. Since $C$ is of finite presentation over $B$, there exists an index $i_{0}$, a $B_{i_{0}}$-algebra of finite
-presentation $C_{i_{0}}$, and an isomorphism $C \simeq C_{i_{0}} \otimes_{B_{i_{0}}} B$; if we put
-$C_{i} = C_{i_{0}} \otimes_{B_{i_{0}}} B_{i}$ for $i \geqslant i_{0}$, we therefore have
-$C \simeq C_{i} \otimes_{B_{i}} B$.
+presentation $C_{i_{0}}$, and an isomorphism $C \simeq C_{i_{0}} \otimes_{B_{i_{0}}} B$; if we put $C_{i} = C_{i_{0}}
+\otimes_{B_{i_{0}}} B_{i}$ for $i \geqslant i_{0}$, we therefore have $C \simeq C_{i} \otimes_{B_{i}} B$.
 
 ```text
         B ────→ C
@@ -1737,10 +1723,10 @@ $C \simeq C_{i} \otimes_{B_{i}} B$.
         A
 ```
 
-Since $C$ is faithfully flat over $B$, one extracts from EGA IV_3, 11.2.6 and 8.10.5 (vi) the existence of an
-$i_{1} \geqslant i_{0}$ such that $C_{i_{1}}$ is faithfully flat over $B_{i_{1}}$; consequently $C_{i}$ is faithfully
-flat over $B_{i}$ for $i \geqslant i_{1}$. For $i \geqslant i_{1}$, the canonical map $C_{i} \to C$ is then injective,
-since deduced from $B_{i} \to B$ by faithfully flat extension of the base.
+Since $C$ is faithfully flat over $B$, one extracts from EGA IV_3, 11.2.6 and 8.10.5 (vi) the existence of an $i_{1}
+\geqslant i_{0}$ such that $C_{i_{1}}$ is faithfully flat over $B_{i_{1}}$; consequently $C_{i}$ is faithfully flat over
+$B_{i}$ for $i \geqslant i_{1}$. For $i \geqslant i_{1}$, the canonical map $C_{i} \to C$ is then injective, since
+deduced from $B_{i} \to B$ by faithfully flat extension of the base.
 
 <!-- original page 286 -->
 
@@ -1749,23 +1735,21 @@ whence $B_{j} = B$, since $C_{j}$ is faithfully flat over $B_{j}$. Consequently,
 
 Suppose now $C$ of finite presentation over $A$. By what precedes, $B$ is of finite type over $A$, hence of the form
 $\bar{B}/I$ where $\bar{B}$ is a polynomial algebra over $A$ in a finite number of indeterminates, and $I$ an ideal of
-$\bar{B}$. Then $I$ is the union of its finitely generated subideals $I_{\alpha}$; whence the equality
-$B = \lim B_{\alpha}$ with $B_{\alpha} = \bar{B}/I_{\alpha}$. Proceeding as above, there exists an index $\alpha_{0}$, a
-$B_{\alpha_{0}}$-algebra of finite presentation $C_{\alpha_{0}}$, and an isomorphism
-$C \simeq C_{\alpha_{0}} \otimes_{B_{\alpha_{0}}} B$. For $\alpha \geqslant \alpha_{0}$, one again sets
-$C_{\alpha} = C_{\alpha_{0}} \otimes_{B_{\alpha_{0}}} B_{\alpha}$ so that one has
-$C \simeq C_{\alpha} \otimes_{B_{\alpha}} B$ for $\alpha \geqslant \alpha_{0}$. Again by EGA IV_3, 11.2.6 and 8.10.5
-(vi), one concludes as above that $C_{\alpha}$ is faithfully flat over $B_{\alpha}$ for $\alpha$ large enough. In this
-case, the kernel of the map $C_{\alpha} \to C$ (resp. $C_{\alpha} \to C_{\beta}$ for $\beta \geqslant \alpha$)
-identifies with $C_{\alpha} \otimes_{B_{\alpha}} (I/I_{\alpha})$ (resp. with
+$\bar{B}$. Then $I$ is the union of its finitely generated subideals $I_{\alpha}$; whence the equality $B = \lim
+B_{\alpha}$ with $B_{\alpha} = \bar{B}/I_{\alpha}$. Proceeding as above, there exists an index $\alpha_{0}$, a
+$B_{\alpha_{0}}$-algebra of finite presentation $C_{\alpha_{0}}$, and an isomorphism $C \simeq C_{\alpha_{0}}
+\otimes_{B_{\alpha_{0}}} B$. For $\alpha \geqslant \alpha_{0}$, one again sets $C_{\alpha} = C_{\alpha_{0}}
+\otimes_{B_{\alpha_{0}}} B_{\alpha}$ so that one has $C \simeq C_{\alpha} \otimes_{B_{\alpha}} B$ for $\alpha \geqslant
+\alpha_{0}$. Again by EGA IV_3, 11.2.6 and 8.10.5 (vi), one concludes as above that $C_{\alpha}$ is faithfully flat over
+$B_{\alpha}$ for $\alpha$ large enough. In this case, the kernel of the map $C_{\alpha} \to C$ (resp. $C_{\alpha} \to
+C_{\beta}$ for $\beta \geqslant \alpha$) identifies with $C_{\alpha} \otimes_{B_{\alpha}} (I/I_{\alpha})$ (resp. with
 $C_{\alpha} \otimes_{B_{\alpha}} (I_{\beta}/I_{\alpha})$).
 
-Since $C_{\alpha}$ and $C$ are of finite presentation over $A$ and $C_{\alpha} \to C$ is surjective,
-$C_{\alpha} \otimes_{B_{\alpha}} (I/I_{\alpha})$ is a finitely generated ideal[^N.D.E-V-48] and is the union of the
-ideals $C_{\alpha} \otimes_{B_{\alpha}} (I_{\beta}/I_{\alpha})$. One therefore has
-$C_{\alpha} \otimes_{B_{\alpha}} (I_{\beta}/I_{\alpha}) = C_{\alpha} \otimes_{B_{\alpha}} (I/I_{\alpha})$ for $\beta$
-large enough, whence also $I_{\beta} = I$ (since $C_{\alpha}$ is faithfully flat over $B_{\alpha}$); so $B$ is of finite
-presentation over $A$.
+Since $C_{\alpha}$ and $C$ are of finite presentation over $A$ and $C_{\alpha} \to C$ is surjective, $C_{\alpha}
+\otimes_{B_{\alpha}} (I/I_{\alpha})$ is a finitely generated ideal[^N.D.E-V-48] and is the union of the ideals
+$C_{\alpha} \otimes_{B_{\alpha}} (I_{\beta}/I_{\alpha})$. One therefore has $C_{\alpha} \otimes_{B_{\alpha}}
+(I_{\beta}/I_{\alpha}) = C_{\alpha} \otimes_{B_{\alpha}} (I/I_{\alpha})$ for $\beta$ large enough, whence also
+$I_{\beta} = I$ (since $C_{\alpha}$ is faithfully flat over $B_{\alpha}$); so $B$ is of finite presentation over $A$.
 
 ## 10. Complement: quotients by a group scheme
 
@@ -1841,12 +1825,12 @@ affine and $f$ of finite presentation. Possibly replacing $S$ by $Y$, one may su
 over $S$. One then reduces to the case $S$ Noetherian thanks to EGA IV_3, 11.2.6.
 
 **d)** Under the hypotheses of 10.1.1 β), one may suppose $S$, $X$, $Y$ affine, $S$ Noetherian and $X$ of finite type
-over $S$. Consider $Y$ as filtered inverse limit of affine schemes $Y_{i}$ of finite type over $S$. The schemes
-$X \times_{Y_{i}} X$ form a filtered decreasing family of closed subschemes of $X \times_{S} X$, whose inverse limit is
-$X \times_{Y} X$. Since $X \times_{S} X$ is Noetherian, one has $X \times_{Y_{i}} X = X \times_{Y} X$ for $i$ large
-enough, so that $f_{i} : X \to Y \to Y_{i}$ satisfies the hypotheses of 10.1.1 ii) if $f$ does. Since the equivalence
-relation defined by $f$ on $X$ coincides with that defined by $f_{i}$, it is clear that it suffices to prove ii) ⇒ i)
-for $f_{i}$, which reduces us to the case where $Y$ is of finite type over $S$.
+over $S$. Consider $Y$ as filtered inverse limit of affine schemes $Y_{i}$ of finite type over $S$. The schemes $X
+\times_{Y_{i}} X$ form a filtered decreasing family of closed subschemes of $X \times_{S} X$, whose inverse limit is $X
+\times_{Y} X$. Since $X \times_{S} X$ is Noetherian, one has $X \times_{Y_{i}} X = X \times_{Y} X$ for $i$ large enough,
+so that $f_{i} : X \to Y \to Y_{i}$ satisfies the hypotheses of 10.1.1 ii) if $f$ does. Since the equivalence relation
+defined by $f$ on $X$ coincides with that defined by $f_{i}$, it is clear that it suffices to prove ii) ⇒ i) for
+$f_{i}$, which reduces us to the case where $Y$ is of finite type over $S$.
 
 *Application to group schemes.* Let $S$ be a scheme, $G$ an $S$-group scheme locally of finite presentation over $S$,
 acting (on the left) on an $S$-scheme $X$. If $X \to S$ possesses a section $\xi$, recall that the stabilizer
@@ -1892,11 +1876,11 @@ monomorphism.*
    G ×_S H ⟶ G ×_X G,   (g, h) ↦ (g, gh)
 ```
 
-is an isomorphism. Since $H$ is flat over $S$, $G \times_{S} H$ is flat over $G$, so the first projection
-$p_{1} : G \times_{S} G \to G$ is a flat morphism. Moreover, if $X$ is locally of finite type over $S$, $f$ is locally
-of finite presentation (EGA IV_1, 1.4.3 (v)), and otherwise $S$ is assumed locally Noetherian. It then suffices to apply
-10.1.1 to the morphism $f$. It remains to see that $G/H$ is locally of finite presentation over $S$, but this follows
-immediately from 9.1.
+is an isomorphism. Since $H$ is flat over $S$, $G \times_{S} H$ is flat over $G$, so the first projection $p_{1} : G
+\times_{S} G \to G$ is a flat morphism. Moreover, if $X$ is locally of finite type over $S$, $f$ is locally of finite
+presentation (EGA IV_1, 1.4.3 (v)), and otherwise $S$ is assumed locally Noetherian. It then suffices to apply 10.1.1 to
+the morphism $f$. It remains to see that $G/H$ is locally of finite presentation over $S$, but this follows immediately
+from 9.1.
 
 **Corollary 10.1.3.** *Let $S$ be a scheme, $u : G \to H$ a morphism of $S$-group schemes. Suppose $G$ locally of finite
 presentation over $S$ and that either $H$ is locally of finite type over $S$, or $S$ is locally Noetherian.*
@@ -1973,8 +1957,8 @@ exists an open $U$ of $X$, dense and $G$-saturated, satisfying the following pro
 
 <!-- label: III.V.10.3.1 -->
 
-*(i) In $(Sch/S)$, the cokernel $V = G\backslash U$ exists; moreover, the scheme $V$ is a quotient in the category of ringed
-spaces.*
+*(i) In $(Sch/S)$, the cokernel $V = G\backslash U$ exists; moreover, the scheme $V$ is a quotient in the category of
+ringed spaces.*
 
 *(ii) $p : U \to V$ is surjective, open, and of finite presentation.*
 
@@ -1986,8 +1970,8 @@ spaces.*
 (fppf) topology. In particular, $U \to V$ is faithfully flat.*[^N.D.E-V-50]
 
 *Proof.* It is assumed that the morphism $G \times_{S} X \to X \times_{S} X$, $(g, x) \mapsto (gx, x)$, is quasi-finite.
-Theorem 8.1 therefore applies to the groupoid defined by $(X, G)$. Thus there exists a dense saturated open
-$U \subset X$ such that the quotient $G\backslash U$ exists; it satisfies properties (i), (ii), (iii).
+Theorem 8.1 therefore applies to the groupoid defined by $(X, G)$. Thus there exists a dense saturated open $U \subset
+X$ such that the quotient $G\backslash U$ exists; it satisfies properties (i), (ii), (iii).
 
 <!-- original page 288 -->
 
@@ -2022,9 +2006,7 @@ Set $G_{X} = G \times_{S} X$. For every $S$-scheme $T$, one has a surjective map
 
 which induces a bijective map
 
-$$
-   \phi(T) : G_{X}(T)/F(T) \xrightarrow{\sim} \Gamma(T);
-$$
+$$ \phi(T) : G_{X}(T)/F(T) \xrightarrow{\sim} \Gamma(T); $$
 
 indeed, if $(g, x), (g', x') \in G_{X}(T)$ satisfy $(gx, x) = (g' x', x')$, then $x' = x$ and $g^{-1} g' x = x$, so
 $(g^{-1} g' x, x) \in F(T)$ and $(g, x)$ and $(g', x)$ have the same image in $G_{X}(T)/F_{X}(T)$.
@@ -2032,9 +2014,7 @@ $(g^{-1} g' x, x) \in F(T)$ and $(g, x)$ and $(g', x)$ have the same image in $G
 By definition (cf. IV, 4.4.1 (ii) or proof of 5.2.1), the quotient sheaf $G_{X}/F$ is the (fppf) sheaf associated to the
 presheaf
 
-$$
-   T \mapsto G_{X}(T)/F(T) \cong \Gamma(T).
-$$
+$$ T \mapsto G_{X}(T)/F(T) \cong \Gamma(T). $$
 
 One therefore has an isomorphism of sheaves $\phi : G_{X}/F \to \tilde{\Gamma}$.
 
@@ -2055,9 +2035,8 @@ One therefore has an isomorphism of sheaves $\phi : G_{X}/F \to \tilde{\Gamma}$.
 
 <!-- original page 289 -->
 
-*Proof of a):* Suppose the (fppf) sheaf $G_{X}/F$ representable by an $X$-scheme $Y$. Then, by IV 6.3.3,
-$p : G_{X} \to Y$ is faithfully flat and locally of finite presentation, and the second square of the diagram below is
-Cartesian:
+*Proof of a):* Suppose the (fppf) sheaf $G_{X}/F$ representable by an $X$-scheme $Y$. Then, by IV 6.3.3, $p : G_{X} \to
+Y$ is faithfully flat and locally of finite presentation, and the second square of the diagram below is Cartesian:
 
 ```text
    F ────→ F ×_X G_X ────→ G_X
@@ -2090,26 +2069,26 @@ where $\psi$ is faithfully flat (of finite type) and $\tau$ is a monomorphism of
 
 Consequently, the morphism of sheaves $\psi : G_{X} \to Y$ is therefore $F$-invariant, and there comes a morphism of
 sheaves $\bar{\psi} : G_{X}/F \to Y$. Moreover, since $\psi$ is faithfully flat (of finite type), the monomorphism of
-sheaves $\tau$ factors through the sheaf image of $d$, that is $\tilde{\Gamma}$. The isomorphism of sheaves
-$G_{X}/F \cong \tilde{\Gamma}$ therefore factors through the monomorphism $Y \to \tilde{\Gamma}$. One concludes that $Y$
+sheaves $\tau$ factors through the sheaf image of $d$, that is $\tilde{\Gamma}$. The isomorphism of sheaves $G_{X}/F
+\cong \tilde{\Gamma}$ therefore factors through the monomorphism $Y \to \tilde{\Gamma}$. One concludes that $Y$
 represents $G_{X}/F$.
 
-*Proof of b):* Suppose $F$ flat over $X$. Then, by a) and its proof, $G_{X}/F$ is representable, and the morphism
-$p : G_{X} \to G_{X}/F$ is faithfully flat and of finite presentation. On the other hand, the morphisms
-$d_{i} : G_{X} \to X$ ($i = 0, 1$) are faithfully flat and of finite presentation by hypothesis. Since
-$d_{i} = \bar{d}_{i} \circ p$, it follows from EGA IV_2, 2.2.13 (iii) and EGA IV_3, 11.3.16, that $\bar{d}_{i}$ is
-faithfully flat and of finite presentation.
+*Proof of b):* Suppose $F$ flat over $X$. Then, by a) and its proof, $G_{X}/F$ is representable, and the morphism $p :
+G_{X} \to G_{X}/F$ is faithfully flat and of finite presentation. On the other hand, the morphisms $d_{i} : G_{X} \to X$
+($i = 0, 1$) are faithfully flat and of finite presentation by hypothesis. Since $d_{i} = \bar{d}_{i} \circ p$, it
+follows from EGA IV_2, 2.2.13 (iii) and EGA IV_3, 11.3.16, that $\bar{d}_{i}$ is faithfully flat and of finite
+presentation.
 
 **Theorem 10.4.2.**[^N.D.E-V-52] *Under the hypotheses of 10.2, suppose $F$ flat over $X$. Then there exists a dense
-saturated open $U$ of $X$ such that the (fppf) quotient $V = G\backslash U$ is an $S$-scheme of finite type and $U \to V$ is
-faithfully flat and of finite presentation.*
+saturated open $U$ of $X$ such that the (fppf) quotient $V = G\backslash U$ is an $S$-scheme of finite type and $U \to
+V$ is faithfully flat and of finite presentation.*
 
 <!-- label: III.V.10.4.2 -->
 
 <!-- original page 290 -->
 
-*Proof.* Theorem 10.4.1 shows that $G_{X}/F \cong \tilde{\Gamma}$ is representable. Then the (fppf) sheaf $G\backslash X$
-identifies with the quotient sheaf of
+*Proof.* Theorem 10.4.1 shows that $G_{X}/F \cong \tilde{\Gamma}$ is representable. Then the (fppf) sheaf $G\backslash
+X$ identifies with the quotient sheaf of
 
 ```text
                   d̄₁
@@ -2125,14 +2104,14 @@ morphism
 ```
 
 is a monomorphism, that is, $(\bar{d}_{0}, \bar{d}_{1})$ is an equivalence pair. Consequently, theorem 8.1 applies.
-There therefore exists an open $U$ of $X$, dense and saturated, such that the (fppf) quotient $V = G\backslash U$ is an $S$-scheme
-of finite type, and $U \to V$ is faithfully flat and of finite presentation.
+There therefore exists an open $U$ of $X$, dense and saturated, such that the (fppf) quotient $V = G\backslash U$ is an
+$S$-scheme of finite type, and $U \to V$ is faithfully flat and of finite presentation.
 
 Taking into account the generic flatness theorem (EGA IV_2, 6.9.3), one obtains the
 
 **Corollary 10.4.3.** *Under the hypotheses of 10.2, suppose $X$ reduced. Then there exists a dense saturated open $U$
-of $X$ such that the (fppf) quotient $G\backslash U$ is an $S$-scheme of finite type and $U \to G\backslash U$ is faithfully flat and of
-finite presentation.*
+of $X$ such that the (fppf) quotient $G\backslash U$ is an $S$-scheme of finite type and $U \to G\backslash U$ is
+faithfully flat and of finite presentation.*
 
 <!-- label: III.V.10.4.3 -->
 
@@ -2240,10 +2219,10 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
     $U = A^{2}_{S} - {m}$, where $m$ is the point `(0, 0)`. Then projective space $P^{1}_{S}$ is the cokernel of
     $(\tilde{d}_{0}, \tilde{d}_{1})$ in `(Esp. An)` and in `(Sch)`, and the cokernel $Y$ of $(d_{0}, d_{1})$ in
     `(Esp. An)` is the union of $P^{1}_{S}$ and the point $y_{0} = {p(m)}$; the only open set containing $y_{0}$ is $Y$,
-    and one has $\Gamma(Y, O_{Y}) = C$. If $f : A^{2}_{S} \to T$ is a morphism of $S$-schemes such that
-    $f d_{0} = f d_{1}$ and if $V = \operatorname{Spec}(A)$ is an affine open of $T$ containing the point
-    $t_{0} = f(y_{0})$, then $f^{-1}(V) = A^{2}$ and the ring morphism $A \to C[x_{1}, x_{2}]$ factors through $C$; this
-    shows that $S = \operatorname{Spec}(C)$ is the cokernel of $(d_{0}, d_{1})$ in the category $(Sch/S)$.
+    and one has $\Gamma(Y, O_{Y}) = C$. If $f : A^{2}_{S} \to T$ is a morphism of $S$-schemes such that $f d_{0} = f
+    d_{1}$ and if $V = \operatorname{Spec}(A)$ is an affine open of $T$ containing the point $t_{0} = f(y_{0})$, then
+    $f^{-1}(V) = A^{2}$ and the ring morphism $A \to C[x_{1}, x_{2}]$ factors through $C$; this shows that $S =
+    \operatorname{Spec}(C)$ is the cokernel of $(d_{0}, d_{1})$ in the category $(Sch/S)$.
 
 [^N.D.E-V-5]: N.D.E.: Hence, in this case, $X_{2}(T)$ is the set of pairs $(f_{2}, f_{1})$ of composable arrows, that
     is, such that $d_{0}(f_{1}) = d_{1}(f_{2})$, and $d'_{0}$, $d'_{1}$, $d'_{2}$ send $(f_{2}, f_{1})$ to $f_{2}$,
@@ -2333,11 +2312,11 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
     groupoid induced on $X'_{0}$.
 
 [^N.D.E-V-34]: N.D.E.: Let us mention here the article of S. Keel and S. Mori ([KM97]), where the following theorem is
-    established. Let $X$ be an algebraic space of finite type over a locally Noetherian base $S$, and
-    $j : R \to X \times_{S} X$ a flat groupoid whose stabilizer $j^{-1}(\Delta_{X})$ is finite over $X$; there then
-    exists an algebraic space which is a geometric quotient of $X$ by $R$ and a uniform categorical quotient; moreover,
-    if $j$ is separated, this quotient is separated. In particular, if a flat $S$-group scheme $G$ acts properly on $X$,
-    with finite stabilizer (i.e., the morphism $G \times_{S} X \to X \times_{S} X$, $(g, x) \mapsto (x, g \cdot x)$, is
+    established. Let $X$ be an algebraic space of finite type over a locally Noetherian base $S$, and $j : R \to X
+    \times_{S} X$ a flat groupoid whose stabilizer $j^{-1}(\Delta_{X})$ is finite over $X$; there then exists an
+    algebraic space which is a geometric quotient of $X$ by $R$ and a uniform categorical quotient; moreover, if $j$ is
+    separated, this quotient is separated. In particular, if a flat $S$-group scheme $G$ acts properly on $X$, with
+    finite stabilizer (i.e., the morphism $G \times_{S} X \to X \times_{S} X$, $(g, x) \mapsto (x, g \cdot x)$, is
     proper and the stabilizer of the diagonal is finite over $X$), then there exists a geometric quotient $X \to X/G$.
     In the case of a reductive $S$-group scheme $G$, this is a result of J. Kollár ([Ko97]).
 
@@ -2371,10 +2350,10 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
     Conversely, put $y = d'(x)$ and $z = u(y) = d(v(x))$, and suppose $d'$ flat at $x$ and $u$ (hence also $v$) flat.
     Then $O_{v(x)} \to O_{x}$ is faithfully flat, as is $O_{z} \to O_{y} \to O_{x}$. Consequently, $O_{z} \to O_{v(x)}$
     is faithfully flat (cf. EGA IV_2, 2.2.11 (iv)). Finally, suppose $d$ locally of finite type and $d'$ quasi-finite at
-    $x$. Then $v(x)$ is isolated in its fiber $d^{-1}(z)$, since $x$ is in its fiber
-    $d'^{-1}(y) = d^{-1}(z) \otimes_{\kappa(z)} \kappa(y)$. Hence, by Chevalley's semi-continuity theorem, there exists
-    an open neighborhood of $v(x)$ every point of which is isolated in its fiber (EGA IV_3, 13.1.3 and 13.1.4), so that
-    $d$ is quasi-finite at $v(x)$.
+    $x$. Then $v(x)$ is isolated in its fiber $d^{-1}(z)$, since $x$ is in its fiber $d'^{-1}(y) = d^{-1}(z)
+    \otimes_{\kappa(z)} \kappa(y)$. Hence, by Chevalley's semi-continuity theorem, there exists an open neighborhood of
+    $v(x)$ every point of which is isolated in its fiber (EGA IV_3, 13.1.3 and 13.1.4), so that $d$ is quasi-finite at
+    $v(x)$.
 
 [^N.D.E-V-43]: N.D.E.: We have modified the sequel, taking advantage of the additions made in lemma 6.1.
 
@@ -2395,13 +2374,13 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
     locally of finite type over $S$, and $R$ an $S$-groupoid with base $X$ such that $d_{0}$ (and therefore $d_{1}$) is
     flat and of finite presentation). Let us mention in particular the following results. If $\tilde{X}/R$ is
     representable by an $S$-scheme $Y$, then $Y$ is also the cokernel in the category `(Esp. An)`. The converse is in
-    general false (cf. example 0.4 of [Mum65], Chap. 0, § 3, cited in [Ray67a], Rem. 1), but is true if
-    $d = (d_{0}, d_{1})$ is an immersion. Under this hypothesis, the morphism $p : \Omega \to Z := \Omega/R_{\Omega}$ is
-    faithfully flat and of finite presentation; if moreover $S$ is locally Noetherian, then a point $x$ of codimension 1
-    in $X$ belongs to $\Omega$ if and only if the graph of the groupoid induced on $\operatorname{Spec}(O_{X,x})$ is
-    closed. For all this, see [Ray67a], Prop. 1, [Ray67b], Prop. 1 and Theorems 2, 1 and 4, and [An73], Theorems 5 and 6
-    pages 66–67, and Prop. 3.3.1 page 49. (See also, in the case of an action of an algebraic group on an algebraically
-    closed field $k$, the article [DR81].)
+    general false (cf. example 0.4 of [Mum65], Chap. 0, § 3, cited in [Ray67a], Rem. 1), but is true if $d = (d_{0},
+    d_{1})$ is an immersion. Under this hypothesis, the morphism $p : \Omega \to Z := \Omega/R_{\Omega}$ is faithfully
+    flat and of finite presentation; if moreover $S$ is locally Noetherian, then a point $x$ of codimension 1 in $X$
+    belongs to $\Omega$ if and only if the graph of the groupoid induced on $\operatorname{Spec}(O_{X,x})$ is closed.
+    For all this, see [Ray67a], Prop. 1, [Ray67b], Prop. 1 and Theorems 2, 1 and 4, and [An73], Theorems 5 and 6 pages
+    66–67, and Prop. 3.3.1 page 49. (See also, in the case of an action of an algebraic group on an algebraically closed
+    field $k$, the article [DR81].)
 
 [^N.D.E-V-45]: N.D.E.: Indeed, let $\eta$ be such a generic point. The hypotheses imply that $O_{X_{0}, \eta}$ is an
     Artinian local ring, and $O_{F_{1}, \eta}$ a finitely generated $O_{X_{0}, \eta}$-module. Therefore, by SGA 1, VIII
@@ -2420,9 +2399,9 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
     N.D.E. 44.
 
 [^N.D.E-V-50]: N.D.E.: If one assumes in addition that $G$ is a reductive $S$-group scheme and that the (free) action of
-    $G$ on $X$ is linearizable, then it is known that $G\backslash X$ is representable and that $X \to G\backslash X$ is a (left)
-    $G$-torsor. This follows from results of Raynaud and Seshadri and is found in the article [CTS79] (proposition
-    6.11).
+    $G$ on $X$ is linearizable, then it is known that $G\backslash X$ is representable and that $X \to G\backslash X$ is
+    a (left) $G$-torsor. This follows from results of Raynaud and Seshadri and is found in the article [CTS79]
+    (proposition 6.11).
 
 [^N.D.E-V-51]: N.D.E.: This is point (2) of theorem 3 of [Ray67b]. In this Note another proof of th. 10.1.1 is sketched.
 

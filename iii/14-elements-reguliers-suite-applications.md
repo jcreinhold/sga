@@ -36,10 +36,10 @@ admits a maximal torus $T$. *QED*.
 <!-- label: III.XIV.1.2 -->
 
 By virtue of (XIII 6.3), this amounts to saying that $\mathfrak{g}$ contains a Cartan subalgebra $\mathfrak{d}$. This is
-trivial if $k$ is infinite, for then $\mathfrak{g}$ contains a regular element $a$, and one takes
-$\mathfrak{d} = Nil(a, \mathfrak{g})$. The case of finite $k$ is handled exactly as in the proof of 1°) above, but
-requires the prior construction of the scheme $\mathcal{D}$ of Cartan subalgebras of $\mathfrak{g}$ and the fact that
-this scheme is smooth over $k$, which will be carried out below (2.16).
+trivial if $k$ is infinite, for then $\mathfrak{g}$ contains a regular element $a$, and one takes $\mathfrak{d} = Nil(a,
+\mathfrak{g})$. The case of finite $k$ is handled exactly as in the proof of 1°) above, but requires the prior
+construction of the scheme $\mathcal{D}$ of Cartan subalgebras of $\mathfrak{g}$ and the fact that this scheme is smooth
+over $k$, which will be carried out below (2.16).
 
 To establish 1.1 in case 2°), where we have placed ourselves, it suffices in any event to know 1.2 for $k$ infinite. Let
 us also record for the record:
@@ -52,9 +52,9 @@ reduced to the unit group. Then $G$ is nilpotent if (and only if) its Lie algebr
 This is contained in (XII 4.9).
 
 We can now give a procedure for constructing Cartan subgroups of $G$ (also valid when $k$ is finite, granting 1.2 in
-that case). Suppose first that $G$ is affine. We proceed by induction on $n = \dim G$, the assertion being trivial if
-$n = 0$. So suppose $n > 0$ and the assertion proved for dimensions $n' < n$. Let $Z$ be the reductive center of $G$,
-and let
+that case). Suppose first that $G$ is affine. We proceed by induction on $n = \dim G$, the assertion being trivial if $n
+= 0$. So suppose $n > 0$ and the assertion proved for dimensions $n' < n$. Let $Z$ be the reductive center of $G$, and
+let
 
 ```text
 u : G ⟶ G′ = G/Z
@@ -81,10 +81,10 @@ maximal torus $T$, hence a Cartan subgroup $C = Centr_{G}(T)$. Every torus $S$ i
 
 <!-- label: III.XIV.1.4 -->
 
-One may indeed suppose $S$ local of residue field $k$; then by virtue of 1.1,
-$G_{0} = G \times_{S} \operatorname{Spec}(k)$ admits a maximal torus $T_{0}$, and by virtue of (IX 3.6 bis) and (X 2.3),
-$T_{0}$ comes from a torus $T$ of $G$, which is evidently a maximal torus. The last statement follows from this,
-applying the preceding result to the centralizer of $S$, which is indeed smooth over $k$ (XI 2.4).
+One may indeed suppose $S$ local of residue field $k$; then by virtue of 1.1, $G_{0} = G \times_{S}
+\operatorname{Spec}(k)$ admits a maximal torus $T_{0}$, and by virtue of (IX 3.6 bis) and (X 2.3), $T_{0}$ comes from a
+torus $T$ of $G$, which is evidently a maximal torus. The last statement follows from this, applying the preceding
+result to the centralizer of $S$, which is indeed smooth over $k$ (XI 2.4).
 
 **Remarks 1.5.** a) We shall give below (3.20, 3.21 and XV) variants of 1.4 in the case where $S$ is not assumed
 artinian.
@@ -126,9 +126,7 @@ Suppose the $A$-module $\mathfrak{d}$ is of finite presentation. The following c
 
 <!-- original page 300 -->
 
-$$
-ad(x_{1}) ad(x_{2}) \cdots ad(x_{N}) = 0.
-$$
+$$ ad(x_{1}) ad(x_{2}) \cdots ad(x_{N}) = 0. $$
 
 When $A$ is a field, the equivalence of (i) and (iii) is the definition of "nilpotent", that of (ii) and (iii) is a
 well-known consequence of Engel's theorem (Bourbaki, *Groupes et algèbres de Lie*, Chap. I, § 4, N° 2). In the general
@@ -136,9 +134,8 @@ case, one has trivially (iii) ⇒ (ii), and (ii) ⇒ (i) thanks to the preceding
 by passage to quotients and by localization. It remains to prove (i) ⇒ (iii). When $A$ is local artinian with maximal
 ideal $\mathfrak{m}$, let $n > 0$ be an integer such that $\mathfrak{m}^{n} = 0$, let $N$ be an integer such that
 condition (iii) is satisfied for $\mathfrak{d}(s) = \mathfrak{d} \otimes_{A} A/\mathfrak{m}$, and take $N' = nN$; one
-sees at once that this integer satisfies (iii). When $A$ is noetherian, there exist finitely many elements
-$s_{i} \in \operatorname{Spec}(A)$ and ideals of definition $\mathfrak{q}_{i} \subset A_{s_{i}}$ such that the natural
-map
+sees at once that this integer satisfies (iii). When $A$ is noetherian, there exist finitely many elements $s_{i} \in
+\operatorname{Spec}(A)$ and ideals of definition $\mathfrak{q}_{i} \subset A_{s_{i}}$ such that the natural map
 
 ```text
 𝔡 ⟶ ∏_i 𝔡 ⊗_A A_i,    where A_i = A_{s_i}/𝔮_i,
@@ -200,10 +197,10 @@ containing a given regular section is uniquely determined. More precisely:
 
 **Proposition 2.6.** *Let $S$, $\mathfrak{g}$ be as in 2.4 and let $a$ be a quasi-regular section of $\mathfrak{g}$.
 Then there exists at most one Cartan subalgebra of $\mathfrak{g}$ containing $a$. For one to exist, i.e. for $a$ to be a
-regular section, it is necessary and sufficient that $a$ satisfy the following condition:
-$\mathfrak{d} = Nil(a, \mathfrak{g})$ is a locally direct factor submodule of $\mathfrak{g}$, and $ad(a)$ induces an
-automorphism of $\mathfrak{g}/\mathfrak{d}$. In this case, $\mathfrak{d}$ is the unique Cartan subalgebra of
-$\mathfrak{g}$ containing $a$.*
+regular section, it is necessary and sufficient that $a$ satisfy the following condition: $\mathfrak{d} = Nil(a,
+\mathfrak{g})$ is a locally direct factor submodule of $\mathfrak{g}$, and $ad(a)$ induces an automorphism of
+$\mathfrak{g}/\mathfrak{d}$. In this case, $\mathfrak{d}$ is the unique Cartan subalgebra of $\mathfrak{g}$ containing
+$a$.*
 
 <!-- label: III.XIV.2.6 -->
 
@@ -254,8 +251,8 @@ locally constant. Here are some variants of this property:
 - *(C₀) The nilpotent rank of the $\mathfrak{g}(s)$ ($s \in S$) is a locally constant function of $s$.*
 - *(C₁) There locally exists, for the fpqc topology, a Cartan subalgebra of $\mathfrak{g}$.*
 - *(C₁′) Like (C₁), with "fpqc topology" replaced by "étale topology".*
-- *(C₂) Condition (C₀) is satisfied, and for every $S'$ over $S$, every quasi-regular section of
-  $\mathfrak{g}_{S'} = \mathfrak{g} \otimes_{S} S'$ is regular.*
+- *(C₂) Condition (C₀) is satisfied, and for every $S'$ over $S$, every quasi-regular section of $\mathfrak{g}_{S'} =
+  \mathfrak{g} \otimes_{S} S'$ is regular.*
 - *(C₃) Every $s \in S$ has an open neighborhood $V$ on which the Killing polynomial of $\mathfrak{g}$ is of the form*
 
 ```text
@@ -301,8 +298,8 @@ contains a regular element of $\mathfrak{g}(s)$ (condition automatically satisfi
 an open neighborhood $V$ of $s$ and a subalgebra $\mathfrak{d}$ of $\mathfrak{g}|V$ whose fiber at $s$ is
 $\mathfrak{d}_{0}$. If $S_{1}$ is a subprescheme of $S$ containing $s$, and if one has already extended
 $\mathfrak{d}_{0}$ to a Cartan subalgebra $\mathfrak{d}_{1}$ of $\mathfrak{g} \otimes_{S} S_{1}$, then one can find an
-open neighborhood $V$ of $s$ in $S$ and a Cartan subalgebra $\mathfrak{d}$ of $\mathfrak{g}|V$ such that
-$\mathfrak{d} \otimes_{V} (S_{1} \cap V)$ is equal to $\mathfrak{d}_{1}|(S_{1} \cap V)$.*
+open neighborhood $V$ of $s$ in $S$ and a Cartan subalgebra $\mathfrak{d}$ of $\mathfrak{g}|V$ such that $\mathfrak{d}
+\otimes_{V} (S_{1} \cap V)$ is equal to $\mathfrak{d}_{1}|(S_{1} \cap V)$.*
 
 *b) For every $s \in S$ such that $\mathfrak{g}(s)$ contains a regular element (condition automatically satisfied if
 $k(s)$ is infinite), <!-- original page 305 --> there exists an open neighborhood $V$ of $s$ and a Cartan subalgebra
@@ -362,8 +359,8 @@ ring `A[t]`, by letting $t$ act as $u$, and the well-known identity
 P(u) = 0
 ```
 
-shows that $M$ is annihilated by `P A[t]`, hence can be considered as a module over $A[t]/P A[t]$. Now writing
-$P = t^{r} Q$, where the constant term of $Q$ is invertible, one sees at once that
+shows that $M$ is annihilated by `P A[t]`, hence can be considered as a module over $A[t]/P A[t]$. Now writing $P =
+t^{r} Q$, where the constant term of $Q$ is invertible, one sees at once that
 
 ```text
 P A[t] = tʳ A[t] ∩ Q A[t],
@@ -411,9 +408,7 @@ $G_{n} = G \times_{S} S_{n}$ is not strictly nilpotent, however it is nilpotent.
 
 Let us still place ourselves under the conditions of 2.4, and let
 
-$$
-\mathcal{D} : (Sch)^{\circ}/S \longrightarrow (Ens)
-$$
+$$ \mathcal{D} : (Sch)^{\circ}/S \longrightarrow (Ens) $$
 
 be the functor defined by
 
@@ -436,15 +431,13 @@ p : X ⟶ 𝒟    and    ψ : X ⟶ W(𝔤).
 When (C₀) is satisfied, we also consider the open $U$ of regular points of $W(\mathfrak{g})$ (cf. 2.10) and condition
 (C₂) is then expressed by the fact that the morphism
 
-$$
-\psi^{-1}(U) \longrightarrow U
-$$
+$$ \psi^{-1}(U) \longrightarrow U $$
 
 induced by $\psi$ is an isomorphism (a priori, it is a monomorphism thanks to 2.6). Note that it is trivial that the
-morphism $p : X \to \mathcal{D}$ is representable by a projection of vector bundles (i.e. for every $S$-morphism
-$S' \to \mathcal{D}$, corresponding to a Cartan subalgebra $\mathfrak{d}$ of $\mathfrak{g}_{S'}$,
-$X \times_{\mathcal{D}} S'$ is representable by a vector bundle over $S'$, namely $W(\mathfrak{d})$); so if
-$\mathcal{D}$ is representable, the same is true of $X$. Now one has:
+morphism $p : X \to \mathcal{D}$ is representable by a projection of vector bundles (i.e. for every $S$-morphism $S' \to
+\mathcal{D}$, corresponding to a Cartan subalgebra $\mathfrak{d}$ of $\mathfrak{g}_{S'}$, $X \times_{\mathcal{D}} S'$ is
+representable by a vector bundle over $S'$, namely $W(\mathfrak{d})$); so if $\mathcal{D}$ is representable, the same is
+true of $X$. Now one has:
 
 **Theorem 2.16.** *Let $S$ be a prescheme, $\mathfrak{g}$ a Lie algebra over $S$ that is a locally free
 $\mathcal{O}_{S}$-module of finite type; suppose condition (C₀) of 2.9 is satisfied.*
@@ -454,8 +447,8 @@ $\mathcal{O}_{S}$-module of finite type; suppose condition (C₀) of 2.9 is sati
 *a) The functor $\mathcal{D}$ of Cartan subalgebras of $\mathfrak{g}$ defined above is representable by a quasi-projective prescheme of
 finite presentation over $S$. The same is true of the functor $X$ defined above.* <!-- original page 309 -->
 
-*b) When condition (C₂) of 2.9 is satisfied, $\mathcal{D}$ and $X$ are smooth over $S$, and the morphism
-$\psi^{-1}(U) \to U$ induced by $\psi$ is an isomorphism.*
+*b) When condition (C₂) of 2.9 is satisfied, $\mathcal{D}$ and $X$ are smooth over $S$, and the morphism $\psi^{-1}(U)
+\to U$ induced by $\psi$ is an isomorphism.*
 
 *c) Still assuming condition (C₂) satisfied, let $s \in S$, $\mathfrak{d}_{0}$ a Cartan subalgebra of $\mathfrak{g}(s)$,
 corresponding to a point $d$ of $\mathcal{D}$ rational over $k(s)$. Suppose that $\mathfrak{d}_{0}$ contains a regular
@@ -473,25 +466,25 @@ is representable by a projective prescheme smooth over $S$ (cf. for example Sém
 3, whose constructions transpose as they stand to the case of preschemes) [^XIV-2-1] [^N.D.E-XIV-1]. So one is reduced
 to a relative problem, namely the following: given a locally free quotient module of rank $n - r$ of $\mathfrak{g}$, or
 equivalently, a locally free submodule $\mathfrak{d}$ of rank $r$ that is locally a direct factor, represent the
-following functor: $F(S') = \emptyset$ if $\mathfrak{d}$ is not a Cartan subalgebra of $\mathfrak{g}_{S'}$,
-$F(S') = {\emptyset}$ otherwise. In fact, we shall see that $F$ is representable by a subprescheme of finite
-presentation of $S$ (which will show that $\mathcal{D} \to Grass$ is representable by an immersion of finite
-presentation, and will finish proving a)). One begins by expressing the condition that $\mathfrak{d}_{S'}$ is a Lie
-subalgebra of $\mathfrak{g}_{S'}$; one sees at once that this is expressed by the fact that $S' \to S$ factors through a
-certain closed subprescheme $S_{1}$ of $S$, of <!-- original page 310 --> finite presentation over $S$ (whose local
-equations on $S$ can be written immediately using a basis of $\mathfrak{g}$ adapted to the submodule $\mathfrak{d}$).
-One may therefore suppose that one has already $S = S_{1}$. One must then express that $\mathfrak{d}_{S'}$ contains
-locally for fpqc a quasi-regular section of $\mathfrak{g}_{S'}$, and for this one considers
-$V = W(\mathfrak{d}) \cap U$, where $U$ is the open of regular points of $W(\mathfrak{g})$ (2.10); then the structure
-morphism $V \to S$ being smooth and quasi-compact, its image $S_{1}$ is an open part of $S$ and the immersion morphism
-$S_{1} \to S$ is quasi-compact i.e. of finite presentation. The condition envisaged on $S'$ is then expressed by saying
-that $S' \to S$ factors through $S_{1}$. So one is reduced to the case where $S = S_{1}$, and using the theory of
-descent, to the case where $\mathfrak{d}$ admits a section $a$ that is a quasi-regular section of $\mathfrak{g}$. It
-remains finally to express that the section $a_{S'}$ of $\mathfrak{g}_{S'}$ deduced from $a$ satisfies
-$ad(a_{S'})_{\mathfrak{g}_{S'}/\mathfrak{d}_{S'}}$ bijective, which amounts again to saying that $S' \to S$ factors
-through a certain open subprescheme of finite presentation of $S$, namely `S_D`, where $D$ is the determinant of
-$ad(a)_{\mathfrak{g}/\mathfrak{d}}$. But then one sees at once that $\mathfrak{d}|S_{D}$ is a Cartan subalgebra of
-$\mathfrak{g}|S_{D}$, hence `S_D` represents the functor $F$, which proves a).
+following functor: $F(S') = \emptyset$ if $\mathfrak{d}$ is not a Cartan subalgebra of $\mathfrak{g}_{S'}$, $F(S') =
+{\emptyset}$ otherwise. In fact, we shall see that $F$ is representable by a subprescheme of finite presentation of $S$
+(which will show that $\mathcal{D} \to Grass$ is representable by an immersion of finite presentation, and will finish
+proving a)). One begins by expressing the condition that $\mathfrak{d}_{S'}$ is a Lie subalgebra of $\mathfrak{g}_{S'}$;
+one sees at once that this is expressed by the fact that $S' \to S$ factors through a certain closed subprescheme
+$S_{1}$ of $S$, of <!-- original page 310 --> finite presentation over $S$ (whose local equations on $S$ can be written
+immediately using a basis of $\mathfrak{g}$ adapted to the submodule $\mathfrak{d}$). One may therefore suppose that one
+has already $S = S_{1}$. One must then express that $\mathfrak{d}_{S'}$ contains locally for fpqc a quasi-regular
+section of $\mathfrak{g}_{S'}$, and for this one considers $V = W(\mathfrak{d}) \cap U$, where $U$ is the open of
+regular points of $W(\mathfrak{g})$ (2.10); then the structure morphism $V \to S$ being smooth and quasi-compact, its
+image $S_{1}$ is an open part of $S$ and the immersion morphism $S_{1} \to S$ is quasi-compact i.e. of finite
+presentation. The condition envisaged on $S'$ is then expressed by saying that $S' \to S$ factors through $S_{1}$. So
+one is reduced to the case where $S = S_{1}$, and using the theory of descent, to the case where $\mathfrak{d}$ admits a
+section $a$ that is a quasi-regular section of $\mathfrak{g}$. It remains finally to express that the section $a_{S'}$
+of $\mathfrak{g}_{S'}$ deduced from $a$ satisfies $ad(a_{S'})_{\mathfrak{g}_{S'}/\mathfrak{d}_{S'}}$ bijective, which
+amounts again to saying that $S' \to S$ factors through a certain open subprescheme of finite presentation of $S$,
+namely `S_D`, where $D$ is the determinant of $ad(a)_{\mathfrak{g}/\mathfrak{d}}$. But then one sees at once that
+$\mathfrak{d}|S_{D}$ is a Cartan subalgebra of $\mathfrak{g}|S_{D}$, hence `S_D` represents the functor $F$, which
+proves a).
 
 b) Is immediate thanks to 2.11 a) and (XI 1.5). Of course b) is also a consequence of the more precise statement c).
 
@@ -525,9 +518,7 @@ regular points of $W(\mathfrak{g})$ (cf. 2.10) by the translation morphism $m \m
 $V_{1}' \to \mathcal{D}$ (associating to $u'$ the unique Cartan subalgebra $\mathfrak{d}'$ of $\mathfrak{g}_{S'}$
 containing $a_{S'} + u'$). The restriction of this last morphism to $V'$ is a morphism
 
-$$
-V' \longrightarrow V,
-$$
+$$ V' \longrightarrow V, $$
 
 which is evidently an isomorphism. This proves c).
 
@@ -538,9 +529,9 @@ its function field is a pure extension of $k$.*
 
 <!-- label: III.XIV.2.17 -->
 
-The fact that $\mathcal{D}$ is irreducible follows from the fact that one has a surjective morphism
-$\psi^{-1}(U) \to \mathcal{D}$, and $\psi^{-1}(U)$ is irreducible, being isomorphic to the open $U$ of
-$W(\mathfrak{g})$. The assertion on the function field is an immediate consequence of c).
+The fact that $\mathcal{D}$ is irreducible follows from the fact that one has a surjective morphism $\psi^{-1}(U) \to
+\mathcal{D}$, and $\psi^{-1}(U)$ is irreducible, being isomorphic to the open $U$ of $W(\mathfrak{g})$. The assertion on
+the function field is an immediate consequence of c).
 
 **Remark 2.18.** I do not know if this conclusion remains valid if $k$ is finite, without supposing that $\mathfrak{g}$
 contains a regular point; compare 2.12. One can prove that this is the case when $\mathfrak{g}$ is the Lie algebra of an
@@ -560,13 +551,11 @@ a locally free module of finite type over $S$), $\mathfrak{h}$ a Lie subalgebra 
 a locally direct factor in $\mathfrak{g}$, and such that for every $s \in S$, the geometric fiber $\mathfrak{h}_{s}$
 contains a Cartan subalgebra of $\mathfrak{g}_{s}$. Let $a$ be a quasi-regular section of $\mathfrak{g}$ (2.5). Then*
 
-$$
-M_{a} = Transp_{G}(a, \mathfrak{h})
-$$
+$$ M_{a} = Transp_{G}(a, \mathfrak{h}) $$
 
-*(subfunctor of $G$ whose $S'$-valued points are the $g \in G(S')$ such that
-$ad(g) \cdot a_{S'} \in \Gamma(S', \mathfrak{h}_{S'})$) is representable by a closed subprescheme [^N.D.E-XIV-2] of $G$
-smooth over $S$, whose structure morphism to $S$ is surjective.*
+*(subfunctor of $G$ whose $S'$-valued points are the $g \in G(S')$ such that $ad(g) \cdot a_{S'} \in \Gamma(S',
+\mathfrak{h}_{S'})$) is representable by a closed subprescheme [^N.D.E-XIV-2] of $G$ smooth over $S$, whose structure
+morphism to $S$ is surjective.*
 
 <!-- label: III.XIV.3.1 -->
 
@@ -625,16 +614,15 @@ Transp_G(𝔨, 𝔥) = Transp_G(a, 𝔥).
 
 Indeed, taking the definitions into account, this amounts to showing that if $a$ is moreover a section of
 $\mathfrak{h}$, then one has $\mathfrak{k} \subset \mathfrak{h}$. Now since by hypothesis $\mathfrak{k}$ is locally
-nilpotent, it follows from 2.1 that $\mathfrak{k} \subset Nil(a, \mathfrak{g})$; on the other hand
-$Nil(a, \mathfrak{g}) \subset \mathfrak{h}$ because $ad(a)_{\mathfrak{g}/\mathfrak{h}}$ is injective (being so fiber by
-fiber by virtue of (XIII 4.8 b))). Whence the conclusion. In the general case, one reduces to the case where $S$ is
-affine noetherian by the standard procedure, then to the case where $S$ is local artinian (smoothness being a property
-of infinitesimal nature), and by flat descent to the case where its residue field is infinite, hence the fiber $K_{0}$
-admits an element that is regular in $\mathfrak{g}_{0}$. One lifts this element to an element of
-$K = \Gamma(\mathfrak{k})$, which reduces us to the preceding case. Thus, in case a) we have proved the smoothness of
-the transporter; as for the fact that its structure morphism is surjective, it reduces to the case where $S$ is the
-spectrum of an algebraically closed field, hence where $K$ contains a regular point of $\mathfrak{g}$, and one applies
-3.3 and 3.1.
+nilpotent, it follows from 2.1 that $\mathfrak{k} \subset Nil(a, \mathfrak{g})$; on the other hand $Nil(a, \mathfrak{g})
+\subset \mathfrak{h}$ because $ad(a)_{\mathfrak{g}/\mathfrak{h}}$ is injective (being so fiber by fiber by virtue of
+(XIII 4.8 b))). Whence the conclusion. In the general case, one reduces to the case where $S$ is affine noetherian by
+the standard procedure, then to the case where $S$ is local artinian (smoothness being a property of infinitesimal
+nature), and by flat descent to the case where its residue field is infinite, hence the fiber $K_{0}$ admits an element
+that is regular in $\mathfrak{g}_{0}$. One lifts this element to an element of $K = \Gamma(\mathfrak{k})$, which reduces
+us to the preceding case. Thus, in case a) we have proved the smoothness of the transporter; as for the fact that its
+structure morphism is surjective, it reduces to the case where $S$ is the spectrum of an algebraically closed field,
+hence where $K$ contains a regular point of $\mathfrak{g}$, and one applies 3.3 and 3.1.
 
 To prove b), one is reduced by the definition of smoothness (XI 1.1) to proving that if $S$ is affine, $S_{0}$ a
 subscheme defined by a quasi-coherent nilpotent ideal $J$, $g_{0}$ an element of $G(S_{0})$ that transports
@@ -659,10 +647,10 @@ conjugate to a subalgebra of $\mathfrak{h}$.*
 In particular, when $\mathfrak{h}$ is itself a Cartan subalgebra of $\mathfrak{g}$, one finds: <!-- original page 315 -->
 
 **Corollary 3.5.** *Let $G$ be a smooth $S$-prescheme in groups of finite type, $\mathfrak{g}$ its Lie algebra,
-$\mathfrak{d}$ and $\mathfrak{d}'$ two Cartan subalgebras of $\mathfrak{g}$. Then
-$Transp_{G}(\mathfrak{d}, \mathfrak{d}')$ is identical to the strict transporter of $\mathfrak{d}$ into $\mathfrak{d}'$,
-and is a closed subprescheme of $G$ smooth over $S$, with surjective structure morphism. Locally for the étale topology,
-$\mathfrak{d}$ and $\mathfrak{d}'$ are conjugate.*
+$\mathfrak{d}$ and $\mathfrak{d}'$ two Cartan subalgebras of $\mathfrak{g}$. Then $Transp_{G}(\mathfrak{d},
+\mathfrak{d}')$ is identical to the strict transporter of $\mathfrak{d}$ into $\mathfrak{d}'$, and is a closed
+subprescheme of $G$ smooth over $S$, with surjective structure morphism. Locally for the étale topology, $\mathfrak{d}$
+and $\mathfrak{d}'$ are conjugate.*
 
 <!-- label: III.XIV.3.5 -->
 
@@ -706,30 +694,24 @@ Then:*
 
 *a) The map*
 
-$$
-D \mapsto \mathfrak{d} = Lie(D)
-$$
+$$ D \mapsto \mathfrak{d} = Lie(D) $$
 
 *establishes a bijective correspondence between subgroups of type (C) of $G$ and Cartan subalgebras of $\mathfrak{g}$.*
 
 *b) If $D$ and $\mathfrak{d}$ correspond, one has*
 
-$$
-Norm_{G}(D) = Norm_{G}(\mathfrak{d}),
-$$
+$$ Norm_{G}(D) = Norm_{G}(\mathfrak{d}), $$
 
 *it is a closed subprescheme of $G$ smooth over $S$, and one has*
 
-$$
-D = Norm_{G}(D)^{0} = Norm_{G}(\mathfrak{d})^{0}.
-$$
+$$ D = Norm_{G}(D)^{0} = Norm_{G}(\mathfrak{d})^{0}. $$
 
 *c) Two subgroups of type (C) $D$ and $D'$ of $G$ are conjugate locally for the étale topology.*
 
-*Proof.* Let $D$ be a subgroup of type (C) of $G$, and $\mathfrak{d}$ its Lie algebra; then
-$D \subset Norm_{G}(\mathfrak{d})$, and by virtue of Definition 3.8 and 3.6 this is an inclusion of preschemes in groups
-smooth over $S$, inducing an isomorphism on the Lie algebras. Since $D$ has connected fibers, one therefore has
-$D = Norm_{G}(\mathfrak{d})^{0}$. Hence the map envisaged in a) is injective; let us prove that it is surjective. So let
+*Proof.* Let $D$ be a subgroup of type (C) of $G$, and $\mathfrak{d}$ its Lie algebra; then $D \subset
+Norm_{G}(\mathfrak{d})$, and by virtue of Definition 3.8 and 3.6 this is an inclusion of preschemes in groups smooth
+over $S$, inducing an isomorphism on the Lie algebras. Since $D$ has connected fibers, one therefore has $D =
+Norm_{G}(\mathfrak{d})^{0}$. Hence the map envisaged in a) is injective; let us prove that it is surjective. So let
 $\mathfrak{d}$ be a Cartan subalgebra of $\mathfrak{g}$; then by virtue of 3.6 $Norm_{G}(\mathfrak{d}) = N$ is a closed
 subprescheme in groups of $G$ smooth over $S$, admitting $\mathfrak{d}$ as Lie algebra. Since $G$ is of finite
 presentation over $S$, the same is true of $N$, hence (as was pointed out in XII after 7.3) the union of the connected
@@ -771,8 +753,8 @@ contains a Cartan subalgebra of $\mathfrak{g}_{s}$.*
 
 *b) For every $s \in S$, $\mathfrak{k}_{s}$ contains a Cartan subalgebra of $\mathfrak{g}_{s}$.*
 
-*Under these conditions, in order to have $H \supset K$, it is necessary and sufficient that one have
-$\mathfrak{h} \supset \mathfrak{k}$.*
+*Under these conditions, in order to have $H \supset K$, it is necessary and sufficient that one have $\mathfrak{h}
+\supset \mathfrak{k}$.*
 
 Of course, we need only prove that if $\mathfrak{h} \supset \mathfrak{k}$, then $H \supset K$. In case b), the inclusion
 $\mathfrak{h} \supset \mathfrak{k}$ shows that one is in fact under the conditions of a), so it suffices to prove a).
@@ -787,9 +769,7 @@ $\mathfrak{h}_{s}$ contains a Cartan subalgebra of $\mathfrak{g}_{s}$. Let*
 
 <!-- label: III.XIV.3.13 -->
 
-$$
-M_{a} = Transp_{G}(a, \mathfrak{h}),
-$$
+$$ M_{a} = Transp_{G}(a, \mathfrak{h}), $$
 
 *which is a closed subprescheme of $G$ smooth over $S$ (cf. 3.1), so that $M^{0}_{a}$ (union of the connected components
 of the identity element in the fibers of $M_{a}$) is an open part of $M_{a}$, which we shall endow with the structure
@@ -848,12 +828,12 @@ section is locally free. In this way, 3.12 contains (XIII 5.5).
 
 <!-- label: III.XIV.3.17 -->
 
-b) Let $G$, $\mathfrak{g}$, $\mathfrak{h}$ be as in 3.1, with $G$ of finite presentation over $S$. Then
-$N = Norm_{G}(\mathfrak{h})$ is not necessarily smooth over $S$ along the unit section, or equivalently, there does not
+b) Let $G$, $\mathfrak{g}$, $\mathfrak{h}$ be as in 3.1, with $G$ of finite presentation over $S$. Then $N =
+Norm_{G}(\mathfrak{h})$ is not necessarily smooth over $S$ along the unit section, or equivalently, there does not
 necessarily exist a subprescheme in groups $H$ of $S$ smooth over $S$ whose Lie algebra is $\mathfrak{h}$, even if $S$
-is the spectrum of a field. When such an $H$ exists, so that one has (taking $H$ with connected fibers)
-$N = Norm_{G}(H)$, I do not know whether $N$ is smooth over $S$. In this question, one may evidently reduce to the case
-where $S$ is local artinian.
+is the spectrum of a field. When such an $H$ exists, so that one has (taking $H$ with connected fibers) $N =
+Norm_{G}(H)$, I do not know whether $N$ is smooth over $S$. In this question, one may evidently reduce to the case where
+$S$ is local artinian.
 
 To conclude this section, let us examine the case where $G$ is "semisimple" over $S$:
 
@@ -888,8 +868,8 @@ homomorphism $\alpha' : \mathfrak{t} \to k$ is non-zero.*
 
 This result is essentially equivalent to Theorem 3.18, for given $t \in \mathfrak{t}$, $ad(t)$ is semisimple and its
 eigenvalues in $\mathfrak{g}/\mathfrak{t}$ are none other than the $\alpha'(t)$, hence
-$ad(t)_{\mathfrak{g}/\mathfrak{t}}$ is injective if and only if the $\alpha'(t)$ are $\neq 0$, and there exists
-$t \in \mathfrak{t}$ having this property if and only if all the $\alpha'$ are $\neq 0$.
+$ad(t)_{\mathfrak{g}/\mathfrak{t}}$ is injective if and only if the $\alpha'(t)$ are $\neq 0$, and there exists $t \in
+\mathfrak{t}$ having this property if and only if all the $\alpha'$ are $\neq 0$.
 
 **Corollary 3.20.** *Let $S$ be a prescheme, $G$ an $S$-prescheme in groups, smooth, of finite presentation over $S$,
 whose geometric fibers are connected reductive algebraic groups (i.e. extensions of a semisimple group by a torus). Then
@@ -974,8 +954,8 @@ Cartan subgroups.
 
 One is reduced to the same statement in $G'$, which is well known (*Bible* 6 th. 5 d)).
 
-**Corollary 4.4.** *Let $B$ be a Borel subgroup of $G$, $C$ a Cartan subgroup of $B$, $N$ its normalizer in $G$; then
-$N \cap B = C$.*
+**Corollary 4.4.** *Let $B$ be a Borel subgroup of $G$, $C$ a Cartan subgroup of $B$, $N$ its normalizer in $G$; then $N
+\cap B = C$.*
 
 <!-- label: III.XIV.4.4 -->
 
@@ -986,8 +966,8 @@ the normalizer of a Cartan subgroup is smooth ($C$ being its own connected norma
 suffices to see that $C$ and $N$ have the same $k$-valued points, which is none other than (*Bible* th. 6 d)).
 
 **Definition 4.5.** *Let $G$ be a smooth prescheme in groups of finite presentation over a prescheme $S$. One calls a
-Borel subgroup of $G$ any subprescheme in groups $B$ of $G$, smooth of finite presentation, such that for every
-$s \in S$, the geometric fiber $B_{s}$ is a Borel subgroup of $G_{s}$.*
+Borel subgroup of $G$ any subprescheme in groups $B$ of $G$, smooth of finite presentation, such that for every $s \in
+S$, the geometric fiber $B_{s}$ is a Borel subgroup of $G_{s}$.*
 
 <!-- label: III.XIV.4.5 -->
 
@@ -1030,23 +1010,23 @@ $G(k)$ that normalizes $B$ is in $B(k)$, which for $G$ affine is a fundamental r
 the general case reduces to it at once by the reduction already used in 4.2.
 
 **Remark 4.8.1.** One can generalize Definition 4.5 by also introducing the notion of parabolic subgroup of $G$: one
-calls thus a subprescheme in groups $P$ of $G$, smooth and of finite presentation over $S$, such that for every $s \in S$,
-the geometric fiber $P_{s}$ is a parabolic subgroup of $G_{s}$, i.e. contains a Borel subgroup of $G_{s}$. <!--
+calls thus a subprescheme in groups $P$ of $G$, smooth and of finite presentation over $S$, such that for every $s \in
+S$, the geometric fiber $P_{s}$ is a parabolic subgroup of $G_{s}$, i.e. contains a Borel subgroup of $G_{s}$. <!--
 original page 327 --> Proposition 4.8 extends (with the same reduction proof to the "set-theoretic" statement, which is
 known) to the case of a parabolic subgroup $P$ of $G$. Let us note the following consequence of this result (cf. XVI).
 If $P$ is a parabolic subgroup of $G$, then $G/P$ is representable by a quasi-projective prescheme of finite
 presentation over $S$ (N.B. one assumes $G$ to have connected fibers). Moreover $G/P$ is evidently smooth over $S$, and
-moreover with connected and proper geometric fibers, whence one can conclude easily, using (EGA III 5.5.1), that
-$D = G/P$ is in fact proper, hence projective, over $S$. Moreover, if its relative dimension is $n$, it is known that
-the invertible sheaf $\Omega^{n}_{D/S}$ is such that its inverse induces on the geometric fibers of $D/S$ ample sheaves, hence
-(EGA III 4.7.1) $(\Omega^{n}_{D/S})^{-1}$ is ample on $D$ relative to $S$.
+moreover with connected and proper geometric fibers, whence one can conclude easily, using (EGA III 5.5.1), that $D =
+G/P$ is in fact proper, hence projective, over $S$. Moreover, if its relative dimension is $n$, it is known that the
+invertible sheaf $\Omega^{n}_{D/S}$ is such that its inverse induces on the geometric fibers of $D/S$ ample sheaves,
+hence (EGA III 4.7.1) $(\Omega^{n}_{D/S})^{-1}$ is ample on $D$ relative to $S$.
 
 <!-- label: III.XIV.4.8.1 -->
 
-One sees easily, by reduction to the affine case and to the case of an algebraically closed base field, that if
-$u : G \to G'$ is an epimorphism of smooth algebraic groups, then for every Borel subgroup $B$ of $G$, $u(B) = B'$ is a
-Borel subgroup of $G'$. We are interested in the case where one obtains in this way a bijective correspondence between
-Borel subgroups of $G$ and of $G'$:
+One sees easily, by reduction to the affine case and to the case of an algebraically closed base field, that if $u : G
+\to G'$ is an epimorphism of smooth algebraic groups, then for every Borel subgroup $B$ of $G$, $u(B) = B'$ is a Borel
+subgroup of $G'$. We are interested in the case where one obtains in this way a bijective correspondence between Borel
+subgroups of $G$ and of $G'$:
 
 **Proposition 4.9.** *Let $G$, $G'$ be two smooth $S$-preschemes in groups of finite presentation with connected fibers,
 $u : G \to G'$ a faithfully flat (i.e. surjective) homomorphism of groups [^N.D.E-XIV-6]. Suppose one is in one of the
@@ -1056,9 +1036,9 @@ following two cases (where one has set $N = Ker u$):*
 
 *a) $N$ is central in $G$.*
 
-*b) $S$ is the spectrum of a field $k$, and if $\bar{k}$ denotes an algebraic closure of it,
-$N_{\bar{k}} = Ker u_{\bar{k}}$ is contained in the radical of $G_{\bar{k}}$, i.e. in the largest smooth connected
-solvable invariant subgroup of $G_{\bar{k}}$.*
+*b) $S$ is the spectrum of a field $k$, and if $\bar{k}$ denotes an algebraic closure of it, $N_{\bar{k}} = Ker
+u_{\bar{k}}$ is contained in the radical of $G_{\bar{k}}$, i.e. in the largest smooth connected solvable invariant
+subgroup of $G_{\bar{k}}$.*
 
 *Then the map $B' \mapsto u^{-1}(B')$ induces a bijection of the set of Borel subgroups of $G'$ with the analogous set
 for $G$.*
@@ -1083,9 +1063,7 @@ one has*
 
 <!-- label: III.XIV.4.10 -->
 
-$$
-\mathfrak{b} = Lie(u)^{-1}(\mathfrak{b}')
-$$
+$$ \mathfrak{b} = Lie(u)^{-1}(\mathfrak{b}') $$
 
 *where $\mathfrak{g}$, $\mathfrak{g}'$, $\mathfrak{b}$, $\mathfrak{b}'$ are the Lie algebras of $G$, $G'$, $B$, $B'$,
 and where $Lie(u) : \mathfrak{g} \to \mathfrak{g}'$ is the homomorphism deduced from $u$.*
@@ -1110,9 +1088,9 @@ hence of $G$, and let $\mathfrak{b}$ and $\mathfrak{t}$ be the Lie algebras. By 
 type (C) of $G$, i.e. $\mathfrak{t}$ is a Cartan subalgebra of $\mathfrak{g}$, hence the union of the conjugates of
 $\mathfrak{t}$ is dense in $\mathfrak{g}$ (XIII 5.1 (i) ⇒ (vii)). *A fortiori* the union of the conjugates of
 $\mathfrak{b}$ is dense in $\mathfrak{g}$. Now let $X$ be the closed subscheme of $G/B \times W(\mathfrak{g})$ whose
-$k$-valued points are the $(g', x)$ such that $x \in Ad(g) \cdot \mathfrak{b}$ (cf. XIII 1). Then the morphism
-$\psi : X \to W(\mathfrak{g})$ induced by the second projection is proper since $G/B$ is proper over $k$; on the other
-hand we have just seen that it is dominant, hence it is surjective, which proves 4.11.
+$k$-valued points are the $(g', x)$ such that $x \in Ad(g) \cdot \mathfrak{b}$ (cf. XIII 1). Then the morphism $\psi : X
+\to W(\mathfrak{g})$ induced by the second projection is proper since $G/B$ is proper over $k$; on the other hand we
+have just seen that it is dominant, hence it is surjective, which proves 4.11.
 
 The only result of the present section that we shall use in the rest of this exposé is the following corollary:
 
@@ -1144,8 +1122,8 @@ nullity of $u'(x)$ is equal to that of $u'(t)$. Assertion 4.12 follows at once.
 
 Applying 4.12 to the adjoint representation of $G$, one finds:
 
-**Theorem 5.1.** *Let $G$ be a smooth algebraic group over an infinite field, $T$ a maximal torus of $G$,
-$\mathfrak{g} \supset \mathfrak{t}$ the Lie algebras; then $\mathfrak{t}$ contains a regular element of $\mathfrak{g}$.*
+**Theorem 5.1.** *Let $G$ be a smooth algebraic group over an infinite field, $T$ a maximal torus of $G$, $\mathfrak{g}
+\supset \mathfrak{t}$ the Lie algebras; then $\mathfrak{t}$ contains a regular element of $\mathfrak{g}$.*
 
 <!-- label: III.XIV.5.1 -->
 
@@ -1159,8 +1137,8 @@ topology a Cartan subalgebra, hence (by 3.9 a)) $G$ admits locally for the étal
 
 *b) Let $H$ be a subprescheme in groups of $G$ smooth of finite presentation over $S$, with connected fibers having the
 same reductive rank as $G$ at each $s \in S$ (for example, $H$ is a maximal torus or a Cartan subgroup of $G$); let $D$
-be a subgroup of type (C) of $G$; then one has $H \subset D$ if and only if one has
-$\mathfrak{h} \subset \mathfrak{d}$.*
+be a subgroup of type (C) of $G$; then one has $H \subset D$ if and only if one has $\mathfrak{h} \subset
+\mathfrak{d}$.*
 
 *c) Suppose condition (C₀) is satisfied, i.e. the infinitesimal rank of $G$ is locally constant. Let $H$ be a
 subprescheme in groups of $G$ smooth of finite presentation over $S$, with connected nilpotent fibers having the same
@@ -1234,22 +1212,19 @@ equal to the number of conjugates of $\mathfrak{h}$ containing a regular element
 Indeed, let $g$ be a regular element of $G(k)$, $C$ the unique Cartan subgroup of $G$ containing $g$ (XIII 2); then the
 conjugates of $H$ containing $g$ are those containing $C$ (XIII 2.8 b)). Similarly, let $x$ be a regular element of
 $\mathfrak{g}$; then if a conjugate $\mathfrak{h}'$ of $\mathfrak{h}$ contains $x$, then
-$ad(x)_{\mathfrak{g}/\mathfrak{h}'}$ is injective (XIII 5.4), hence $\mathfrak{h}'$ contains
-$Nil(x, \mathfrak{g}) = \mathfrak{d}$, hence the number of conjugates of $\mathfrak{h}$ containing $x$ is equal to the
-number of conjugates containing the Cartan subalgebra $\mathfrak{d}$. Moreover $\mathfrak{d}$ is the Lie algebra of a
-subgroup $D$ of type (C) of $G$. One may evidently suppose $C \subset D$, and assertion 5.4 will follow from this: in
-order for $H$ to contain $C$, it is necessary and sufficient that $\mathfrak{h}$ contain $\mathfrak{d}$. Indeed, by
-virtue of (XIII 5.5) the relation $\mathfrak{h} \supset \mathfrak{d}$ implies $H \supset D$ and *a fortiori*
-$H \supset C$. Conversely, by 5.1 $\mathfrak{t}$ contains a regular element $x$ of $\mathfrak{g}$; then $H \supset C$
-implies $\mathfrak{h} \ni x$, hence as already pointed out, this implies $\mathfrak{h} \supset \mathfrak{d}$. This
-completes the proof.
+$ad(x)_{\mathfrak{g}/\mathfrak{h}'}$ is injective (XIII 5.4), hence $\mathfrak{h}'$ contains $Nil(x, \mathfrak{g}) =
+\mathfrak{d}$, hence the number of conjugates of $\mathfrak{h}$ containing $x$ is equal to the number of conjugates
+containing the Cartan subalgebra $\mathfrak{d}$. Moreover $\mathfrak{d}$ is the Lie algebra of a subgroup $D$ of type
+(C) of $G$. One may evidently suppose $C \subset D$, and assertion 5.4 will follow from this: in order for $H$ to
+contain $C$, it is necessary and sufficient that $\mathfrak{h}$ contain $\mathfrak{d}$. Indeed, by virtue of (XIII 5.5)
+the relation $\mathfrak{h} \supset \mathfrak{d}$ implies $H \supset D$ and *a fortiori* $H \supset C$. Conversely, by
+5.1 $\mathfrak{t}$ contains a regular element $x$ of $\mathfrak{g}$; then $H \supset C$ implies $\mathfrak{h} \ni x$,
+hence as already pointed out, this implies $\mathfrak{h} \supset \mathfrak{d}$. This completes the proof.
 
 Let $G$ be as in 5.2 and suppose that the infinitesimal rank of the fibers of $G$ remains locally constant (condition
 (C₀)). Then thanks to 5.2 c), one finds a homomorphism of functors on $(Sch)^{\circ}/S$:
 
-$$
-\mathcal{C} \longrightarrow \mathcal{D}
-$$
+$$ \mathcal{C} \longrightarrow \mathcal{D} $$
 
 where
 
@@ -1307,17 +1282,15 @@ rational over $k$, and 6.1 is trivial. In the contrary case, the Lie algebra of 
 Cartan subalgebras of $\mathfrak{g}$ are of dimension $n' < n$, hence the subgroups of type (C) of $G$ are of dimension
 $n' < n$. Consider then the morphism
 
-$$
-\mathcal{C} \longrightarrow \mathcal{D}
-$$
+$$ \mathcal{C} \longrightarrow \mathcal{D} $$
 
 envisaged in 5.5. We know by 3.10 ($k$ being an infinite field, hence $\mathfrak{g}$ containing a regular element) that
 $\mathcal{D}$ is a rational variety, i.e. the field $K$ of rational functions on $\mathcal{D}$ is a pure extension of
 $k$. Consider the fiber of $\mathcal{C}$ over the generic point $x$ of $\mathcal{D}$; by virtue of 5.5 this is the
-scheme of Cartan subgroups of a certain smooth and connected algebraic group $D_{x}$ over $K = \kappa(x)$ (namely
-$D_{x} =$ "the generic subgroup of type (C) of $G$"). The field $L$ of rational functions on $\mathcal{C}$ is therefore
-isomorphic to the field of rational functions on $\mathcal{C}_{D_{x}}$, which by the induction hypothesis (since
-$\dim D_{x} = n' < n$) is a pure extension of $K$. So by transitivity $L$ is a pure extension of $k$.
+scheme of Cartan subgroups of a certain smooth and connected algebraic group $D_{x}$ over $K = \kappa(x)$ (namely $D_{x}
+=$ "the generic subgroup of type (C) of $G$"). The field $L$ of rational functions on $\mathcal{C}$ is therefore
+isomorphic to the field of rational functions on $\mathcal{C}_{D_{x}}$, which by the induction hypothesis (since $\dim
+D_{x} = n' < n$) is a pure extension of $K$. So by transitivity $L$ is a pure extension of $k$.
 
 When $k$ is finite, a different proof is needed. One may still suppose $G$ is affine and connected. Note that $k$ is
 perfect; it follows at once that the radical $R$ of $G_{\bar{k}}$ is "defined over $k$", i.e. comes from a subgroup $R$
@@ -1331,9 +1304,7 @@ u : G ⟶ G′ = G/R
 
 be the canonical morphism. Consider the corresponding morphism $C \mapsto u(C)$
 
-$$
-v : \mathcal{C}_{G} \longrightarrow \mathcal{C}_{G'}
-$$
+$$ v : \mathcal{C}_{G} \longrightarrow \mathcal{C}_{G'} $$
 
 (whose definition is immediate by virtue of (XII 7.1 e))). Let $x$ be the generic point of $\mathcal{C}_{G'}$; then the
 fiber $v^{-1}(x)$ is identified with the scheme of Cartan subgroups of `G_K` (where $K = \kappa(x)$) whose image in
@@ -1538,10 +1509,9 @@ possible). One denotes by $X$ the group of characters of $T \otimes \bar{k}$, $R
 and $E$ the group of automorphisms of $X$ preserving $R$. The group $W$ is a normal subgroup of $E$.
 
 If $T'$ is another torus of $G$, one denotes by $X'$, $R'$, $W'$, $E'$ the group of characters, root system, …,
-corresponding. If one chooses $y \in G(\bar{k})$ such that
-$y \cdot (T \otimes \bar{k}) \cdot y^{-1} = T' \otimes \bar{k}$, one can identify $X'$, $R'$, $W'$, $E'$ with $X$, $R$,
-$W$, $E$ thanks to $int(y)$. Changing $y$ modifies this identification by an automorphism of $X$ corresponding to an
-element of $W$.
+corresponding. If one chooses $y \in G(\bar{k})$ such that $y \cdot (T \otimes \bar{k}) \cdot y^{-1} = T' \otimes
+\bar{k}$, one can identify $X'$, $R'$, $W'$, $E'$ with $X$, $R$, $W$, $E$ thanks to $int(y)$. Changing $y$ modifies this
+identification by an automorphism of $X$ corresponding to an element of $W$.
 
 The canonical generator $x \mapsto x^{q}$ of $\mathcal{G}$ operates on $X'$ while preserving $R'$; it therefore defines
 an element $f_{T'}$ of $E'$. In particular one sets $f = f_{T}$. When one identifies $E'$ with $E$ as just stated, the
@@ -1563,10 +1533,10 @@ f′(t) = y⁻¹(yty⁻¹)^q y = y⁻¹ y^q t^q y^{-q} y = n t^q n⁻¹.
 ```
 
 If $w \in W$ is the element defined by $n$, this shows that $f'$ and $f \circ w$ have the same effect on the points of
-$\bar{T}$, hence also on its characters, and one has $f' = f \circ w$, whence $f' \equiv f mod W$. Conversely, if
-$w \in W$ is given, one represents it by an element $n \in N(T)(\bar{k})$; thanks to a classical theorem of Lang, one
-can write $n$ in the form $n = y^{-1} y^{q}$, with $y \in G(\bar{k})$; the torus $\bar{T}' = \bar{yT}y^{-1}$ is then
-defined over $k$, and the preceding calculation shows that the corresponding $f'$ is equal to $f \circ w$.
+$\bar{T}$, hence also on its characters, and one has $f' = f \circ w$, whence $f' \equiv f mod W$. Conversely, if $w \in
+W$ is given, one represents it by an element $n \in N(T)(\bar{k})$; thanks to a classical theorem of Lang, one can write
+$n$ in the form $n = y^{-1} y^{q}$, with $y \in G(\bar{k})$; the torus $\bar{T}' = \bar{yT}y^{-1}$ is then defined over
+$k$, and the preceding calculation shows that the corresponding $f'$ is equal to $f \circ w$.
 
 **Lemma 3.** *Let $X$, $R$, $W$, $E$ be as above ($R$ being irreducible), and let $\varphi \in E/W$. Then there exists
 an element $f \in E$ representing $\varphi$, and a family $\theta_{1}, \cdots, \theta_{n}$ of roots enjoying the two
@@ -1576,8 +1546,8 @@ following properties:*
 
 *(1) $(\theta_{1}, \cdots, \theta_{n})$ is a basis of $X$.*
 
-*(2) $R$ is the union of the orbits of the $\theta_{i}$ under the powers of $f$ (i.e. every $a \in R$ can be written
-$a = f^{m} \theta_{i}$, with suitable $m$ and $i$).*
+*(2) $R$ is the union of the orbits of the $\theta_{i}$ under the powers of $f$ (i.e. every $a \in R$ can be written $a
+= f^{m} \theta_{i}$, with suitable $m$ and $i$).*
 
 The proof will be given a little further on.
 
@@ -1601,14 +1571,14 @@ of $\theta_{i}$ would also vanish at $x$, and the same would be true of $u_{i}$,
 **End of the proof of the theorem.**
 
 By combining Lemmas 2 and 3, one can choose a torus $T$ whose element $f$ satisfies the properties of Lemma 3. If $Y$ is
-the dual of $X$, the Lie algebra $\mathfrak{t}(\bar{k})$ of $T$ [^N.D.E-XIV-9] is canonically identified with
-$Y \otimes \bar{k}$, and this operation is compatible with the action of the Galois group (the latter operating on
-$Y \otimes \bar{k}$ thanks to its action on $Y$ and on $\bar{k}$). Let $V = \mathfrak{t}(k)$ be the Lie algebra of $T$
-over $k$. An element $x \in V$ is regular if and only if it is not annihilated by any root $\alpha \in R$, or rather by
-any of the linear forms $\alpha \in V* \otimes \bar{k}$ defined canonically by the $\alpha \in R$. By Lemma 4, one can
-find such an $x$ not annihilated by any of the roots $\theta_{i}$; but every root is conjugate to a $\theta_{i}$ (this
-is what condition (2) of Lemma 3 expresses); it follows that $x$ is not annihilated by any root, and it is indeed a
-regular element.
+the dual of $X$, the Lie algebra $\mathfrak{t}(\bar{k})$ of $T$ [^N.D.E-XIV-9] is canonically identified with $Y \otimes
+\bar{k}$, and this operation is compatible with the action of the Galois group (the latter operating on $Y \otimes
+\bar{k}$ thanks to its action on $Y$ and on $\bar{k}$). Let $V = \mathfrak{t}(k)$ be the Lie algebra of $T$ over $k$. An
+element $x \in V$ is regular if and only if it is not annihilated by any root $\alpha \in R$, or rather by any of the
+linear forms $\alpha \in V* \otimes \bar{k}$ defined canonically by the $\alpha \in R$. By Lemma 4, one can find such an
+$x$ not annihilated by any of the roots $\theta_{i}$; but every root is conjugate to a $\theta_{i}$ (this is what
+condition (2) of Lemma 3 expresses); it follows that $x$ is not annihilated by any root, and it is indeed a regular
+element.
 
 **Proof of Lemma 3.**
 
@@ -1617,9 +1587,7 @@ It relies on properties of Coxeter transformations. Let us briefly recall what t
 Let $a_{1}, \cdots, a_{n}$ be a simple root system of $R$, and, for every $i$, let $r_{i}$ be the symmetry corresponding
 to $a_{i}$. Set:
 
-$$
-c = r_{1} \cdots r_{n}.
-$$
+$$ c = r_{1} \cdots r_{n}. $$
 
 One has $c \in W$; of course the element $c$ depends on the choice of the simple system $(a_{1}, \cdots, a_{n})$ as well
 as on the order of the $a_{i}$; however one shows that its conjugacy class does not depend on any of these choices. One
@@ -1646,8 +1614,8 @@ every root distinct from $\pm a_{i}$, and changes the sign of $\pm a_{i}$.
 
 Finally, for (d) one remarks that an orbit of $c$ cannot be entirely formed of positive (resp. negative) roots, since,
 taking the sum of these roots one would find a non-zero element of $X$ invariant under $c$, and we have admitted that
-$c$ does not have 1 as an eigenvalue. There is therefore necessarily in every orbit an element $a > 0$ such that
-$c(a) < 0$, and one applies (c).
+$c$ does not have 1 as an eigenvalue. There is therefore necessarily in every orbit an element $a > 0$ such that $c(a) <
+0$, and one applies (c).
 
 **Remark.** We have sketched the preceding proof only to facilitate the reader's task; one could have limited oneself to
 referring to the canonical texts on Coxeter (cf. for example Koszul, Séminaire Bourbaki, 1959/1960, exposé 191). Said
@@ -1665,8 +1633,8 @@ $E/W$.*
 
 One knows that $-1 \notin W$; one then takes $f = -c$. A simple calculation shows that $c$ is of order $h = n + 1$;
 hence its order is odd. If $a \in R$ is any root, <!-- original page 347 --> one has $a = c^{m} \theta_{i}$ for a pair
-$(m, i)$, cf. Lemma 5; by adding $h$ to $m$ if necessary, one may suppose $m$ even, and one sees that one has then
-$a = (-c)^{m} \theta_{i} = f^{m} \theta_{i}$. The orbits of the $\theta_{i}$ therefore indeed fill $R$.
+$(m, i)$, cf. Lemma 5; by adding $h$ to $m$ if necessary, one may suppose $m$ even, and one sees that one has then $a =
+(-c)^{m} \theta_{i} = f^{m} \theta_{i}$. The orbits of the $\theta_{i}$ therefore indeed fill $R$.
 
 (3) *The element $\varphi \in E/W$ is non-trivial, and $R$ is of one of the following types:*
 
@@ -1693,8 +1661,8 @@ the $\rho_{\sigma}$, the $\sigma$ being arranged in a certain order; it follows 
 sets $f = c\psi$. One further remarks that $\psi$ permutes the $\theta_{i}$ among themselves. Indeed, one has
 $\psi(\theta_{i}) > 0$ since $\theta_{i} > 0$ and $c(\psi(\theta_{i})) = \psi(c(\theta_{i'})) < 0$, hence (Lemma 5,
 (c)), $\psi(\theta_{i})$ is equal to some $\theta_{j}$. It is now immediate <!-- original page 348 --> that $f = c\psi$
-answers the question. Indeed, if $a \in R$, one has $a = c^{m} \theta_{i}$ for a pair $(m, i)$, whence
-$a = f^{m} (\psi^{-m} \theta_{i}) = f^{m} \theta_{j}$ for some $j$. *QED*.
+answers the question. Indeed, if $a \in R$, one has $a = c^{m} \theta_{i}$ for a pair $(m, i)$, whence $a = f^{m}
+(\psi^{-m} \theta_{i}) = f^{m} \theta_{j}$ for some $j$. *QED*.
 
 **Remark.** One can prove that, except in case (2), every orbit of $f$ has exactly $h = Card(R)/n$ elements and contains
 one and only one $\theta_{i}$. In case (2), some of the $\theta_{i}$ are superfluous.
@@ -1766,22 +1734,21 @@ one and only one $\theta_{i}$. In case (2), some of the $\theta_{i}$ are superfl
     verify that $R_{u}(B) \subset G\sharp$. Let $S$ be the maximal split $k$-torus of $T$. One considers the relative
     root system $\Phi(G, S)$ and a basis $\Delta_{k}$. Given $\alpha \in \Phi(G, S)$, denote by $U_{\alpha}$ the
     unipotent subgroup associated to $\alpha$ (cf. A. Borel, *Linear Algebraic Groups*, second edition (1991), Springer,
-    Prop. 21.9). Since the $k$-group $R_{u}(B)$ is generated by the $k$-unipotent groups $U_{\alpha}$
-    ($\alpha \in \Delta_{k}$), one is reduced to verifying that $U_{\alpha} \subset G\sharp$. A glance at the
-    classification shows that there exists a semisimple group $G_{\alpha}$ of quasi-split type $A_{1}$, ${}^{2}A_{1}$,
-    ${}^{3}A_{1}$ or ${}^{2}A_{2}$ such that $U_{\alpha} \subset G_{\alpha} \subset G$. It is therefore permissible to
-    suppose that $G = PGL_{2}$ or $G = SU_{3}(K)$, where $K$ denotes the unique quadratic extension field of $k$. The
-    group $PGL^{\sharp}_{2}$ containing the standard split torus $T$, the possibilities up to conjugation under $G(k)$
-    are the following: $PGL^{\sharp}_{2} = T$, $PGL^{\sharp}_{2} = B$, or $PGL^{\sharp}_{2} = PGL_{2}$. The case
+    Prop. 21.9). Since the $k$-group $R_{u}(B)$ is generated by the $k$-unipotent groups $U_{\alpha}$ ($\alpha \in
+    \Delta_{k}$), one is reduced to verifying that $U_{\alpha} \subset G\sharp$. A glance at the classification shows
+    that there exists a semisimple group $G_{\alpha}$ of quasi-split type $A_{1}$, ${}^{2}A_{1}$, ${}^{3}A_{1}$ or
+    ${}^{2}A_{2}$ such that $U_{\alpha} \subset G_{\alpha} \subset G$. It is therefore permissible to suppose that $G =
+    PGL_{2}$ or $G = SU_{3}(K)$, where $K$ denotes the unique quadratic extension field of $k$. The group
+    $PGL^{\sharp}_{2}$ containing the standard split torus $T$, the possibilities up to conjugation under $G(k)$ are the
+    following: $PGL^{\sharp}_{2} = T$, $PGL^{\sharp}_{2} = B$, or $PGL^{\sharp}_{2} = PGL_{2}$. The case
     $PGL^{\sharp}_{2} = T$ is excluded since $PGL^{\sharp}_{2}$ contains the $k$-torus $R_{K/k}(G_{m})/G_{m}$. The
     preceding discussion indicates that if $PGL^{\sharp}_{2} = B$, then $PGL^{\sharp}_{2} = PGL_{2}$. Hence
     $PGL^{\sharp}_{2} = PGL_{2}$. If $G = SU_{3}(K)$, $\Delta_{k} = {\alpha}$ and the possibilities for $G\sharp$ (up to
-    conjugation) are the following: $G\sharp = T$, $G\sharp = B$, `G♯ = U_(2α) ⋊ T`,
-    $G\sharp = \langle U_{2\alpha}, U_{-2\alpha}, T\rangle = SL_{2} \cdot T$, or $G\sharp = G$. The case $G\sharp = B$
-    is excluded as for $PGL_{2}$. The case $SL_{2} \cdot T$ is excluded because $G\sharp$ contains the $k$-torus
-    $R^{1}_{K/k}(R^{1}_{K_{3}/K}(G_{m}))$, $K_{3}/K$ denoting the extension of degree 3 of $K$, and the isogeny class of
-    this torus is irreducible. Moreover, this torus also excludes the cases $G\sharp = T$ and `G♯ = U_(2α) ⋊ T`. One
-    concludes that $G\sharp = G$.
+    conjugation) are the following: $G\sharp = T$, $G\sharp = B$, `G♯ = U_(2α) ⋊ T`, $G\sharp = \langle U_{2\alpha},
+    U_{-2\alpha}, T\rangle = SL_{2} \cdot T$, or $G\sharp = G$. The case $G\sharp = B$ is excluded as for $PGL_{2}$. The
+    case $SL_{2} \cdot T$ is excluded because $G\sharp$ contains the $k$-torus $R^{1}_{K/k}(R^{1}_{K_{3}/K}(G_{m}))$,
+    $K_{3}/K$ denoting the extension of degree 3 of $K$, and the isogeny class of this torus is irreducible. Moreover,
+    this torus also excludes the cases $G\sharp = T$ and `G♯ = U_(2α) ⋊ T`. One concludes that $G\sharp = G$.
 
 [^XIV-A-1]: This theorem is due to Chevalley. The editor wishes to express his gratitude to American Express which, by
     misplacing a trunk of Chevalley manuscripts, obliged him to reconstruct the proof.

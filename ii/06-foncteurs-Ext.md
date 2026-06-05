@@ -20,20 +20,19 @@ one is the sheafified version, and is rendered `ℰxt^i_Z(F, G)`. -->
 
 Let $(X, \mathcal{O}_{X})$ be a ringed space and let $Z$ be a locally closed subset of $X$. Let $F$ and $G$ be
 $\mathcal{O}_{X}$-Modules; we denote by $Ext^{i}_{Z}(X; F, G)$ (resp. $\mathcal{E}xt^{i}_{Z}(F, G)$) the $i$-th derived
-functor of the functor $G \mapsto \Gamma_{Z}(\operatorname{Hom}_{\mathcal{O}_{X}}(F, G))$ (resp.
-$G \mapsto \Gamma Z(\mathcal{H}om_{\mathcal{O}_{X}}(F, G))$, where $\Gamma Z$ denotes the sheafified
-sections-with-support functor and $\mathcal{H}om_{\mathcal{O}_{X}}$ the sheafified `Hom`).
+functor of the functor $G \mapsto \Gamma_{Z}(\operatorname{Hom}_{\mathcal{O}_{X}}(F, G))$ (resp. $G \mapsto \Gamma
+Z(\mathcal{H}om_{\mathcal{O}_{X}}(F, G))$, where $\Gamma Z$ denotes the sheafified sections-with-support functor and
+$\mathcal{H}om_{\mathcal{O}_{X}}$ the sheafified `Hom`).
 
 **Lemma.**
 
 <!-- label: VI.1.2 -->
 
-The sheaf $\mathcal{E}xt^{i}_{Z}(F, G)$ is canonically isomorphic to the sheaf associated with the presheaf
-$U \mapsto Ext^{i}_{Z \cap U}(U; F|U, G|U)$.
+The sheaf $\mathcal{E}xt^{i}_{Z}(F, G)$ is canonically isomorphic to the sheaf associated with the presheaf $U \mapsto
+Ext^{i}_{Z \cap U}(U; F|U, G|U)$.
 
-This follows from (*Tôhoku*, 3.7.2) together with the fact that
-$\Gamma(U; \Gamma Z(\mathcal{H}om_{\mathcal{O}_{X}}(F, G)))$ is canonically isomorphic to
-$\Gamma_{Z \cap U}(\operatorname{Hom}_{\mathcal{O}_{X}|U}(F|U, G|U))$.
+This follows from (*Tôhoku*, 3.7.2) together with the fact that $\Gamma(U; \Gamma Z(\mathcal{H}om_{\mathcal{O}_{X}}(F,
+G)))$ is canonically isomorphic to $\Gamma_{Z \cap U}(\operatorname{Hom}_{\mathcal{O}_{X}|U}(F|U, G|U))$.
 
 **Theorem (Excision theorem).**
 
@@ -56,9 +55,8 @@ The theorem follows immediately.
 
 Let $\mathcal{O}_{X,Z}$ be the $\mathcal{O}_{X}$-Module defined by the following conditions ([Godement], 2.9.2):
 $\mathcal{O}_{X,Z}|_{X - Z} = 0$ and $\mathcal{O}_{X,Z}|_{Z} = \mathcal{O}_{X}|_{Z}$. We have seen that for every
-$\mathcal{O}_{X}$-Module $H$ there is a functorial isomorphism
-$\Gamma_{Z}(H) \simeq \operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{O}_{X,Z}, H)$. From this we deduce functorial
-isomorphisms in $F$ and $G$:
+$\mathcal{O}_{X}$-Module $H$ there is a functorial isomorphism $\Gamma_{Z}(H) \simeq
+\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{O}_{X,Z}, H)$. From this we deduce functorial isomorphisms in $F$ and $G$:
 
 ```text
 Γ_Z(Hom_{𝒪_X}(F, G)) ≃ Hom_{𝒪_X}(𝒪_{X,Z}, Hom_{𝒪_X}(F, G)),
@@ -100,15 +98,15 @@ By definition, the functor $G \mapsto \Gamma_{Z}(\operatorname{Hom}_{\mathcal{O}
 functor $G \mapsto \operatorname{Hom}_{\mathcal{O}_{X}}(F, G)$ and the functor $\Gamma_{Z}$. Since $\Gamma_{Z}$ is left
 exact (I 1.9), since $\operatorname{Hom}_{\mathcal{O}_{X}}(F, G)$ is flasque whenever $G$ is injective, and since
 $\Gamma_{Z}$ is exact on flasque sheaves (I 2.12), it follows from (*Tôhoku*, 2.4.1) that there is a spectral functor
-abutting to $Ext^{\bullet}_{Z}(X; F, G)$ whose initial term is
-$H^{p}_{Z}(X, \mathcal{E}xt^{q}_{\mathcal{O}_{X}}(F, G))$.
+abutting to $Ext^{\bullet}_{Z}(X; F, G)$ whose initial term is $H^{p}_{Z}(X, \mathcal{E}xt^{q}_{\mathcal{O}_{X}}(F,
+G))$.
 
 On the other hand, it follows from (1.4.3) that $\Gamma_{Z}(\operatorname{Hom}_{\mathcal{O}_{X}}(F, G))$ is the
 composite of $\Gamma_{Z}$ and the functor $H \mapsto \operatorname{Hom}_{\mathcal{O}_{X}}(F, H)$.
 
 Since the functor $\Gamma_{Z}$ takes injectives to injectives (I 1.4), it follows from (*Tôhoku*, 2.4.1) that there is a
-spectral functor abutting to $Ext^{\bullet}_{Z}(X; F, G)$ whose initial term is
-$Ext^{p}_{\mathcal{O}_{X}}(X; F, \mathcal{H}^{q}_{Z}(G))$.
+spectral functor abutting to $Ext^{\bullet}_{Z}(X; F, G)$ whose initial term is $Ext^{p}_{\mathcal{O}_{X}}(X; F,
+\mathcal{H}^{q}_{Z}(G))$.
 
 It follows finally, from (1.4.2) and the spectral sequence for `Ext`, that there is a spectral functor abutting to
 $Ext^{\bullet}_{Z}(X; F, G)$ whose initial term is $H^{p}(X; \mathcal{E}xt^{q}_{Z}(F, G))$. Whence the
@@ -119,21 +117,15 @@ $Ext^{\bullet}_{Z}(X; F, G)$ whose initial term is $H^{p}(X; \mathcal{E}xt^{q}_{
 
 There exist three spectral functors abutting to $Ext^{\bullet}_{Z}(X; F, G)$ whose initial terms are respectively
 
-$$
-H^{p}_{Z}(X, \mathcal{E}xt^{q}_{\mathcal{O}_{X}}(F, G))
-$$
+$$ H^{p}_{Z}(X, \mathcal{E}xt^{q}_{\mathcal{O}_{X}}(F, G)) $$
 
 <!-- label: eq:VI.1.6.1 -->
 
-$$
-H^{p}(X, \mathcal{E}xt^{q}_{Z}(F, G))
-$$
+$$ H^{p}(X, \mathcal{E}xt^{q}_{Z}(F, G)) $$
 
 <!-- label: eq:VI.1.6.2 -->
 
-$$
-Ext^{p}_{\mathcal{O}_{X}}(X; F, \mathcal{H}^{q}_{Z}(G)).
-$$
+$$ Ext^{p}_{\mathcal{O}_{X}}(X; F, \mathcal{H}^{q}_{Z}(G)). $$
 
 <!-- label: eq:VI.1.6.3 -->
 
@@ -143,9 +135,7 @@ $$
 
 Let now $Z'$ be a closed subset of $Z$ and let $Z'' = Z - Z'$. We have an exact sequence
 
-$$
-0 \to \mathcal{O}_{X,Z''} \to \mathcal{O}_{X,Z} \to \mathcal{O}_{X,Z'} \to 0
-$$
+$$ 0 \to \mathcal{O}_{X,Z''} \to \mathcal{O}_{X,Z} \to \mathcal{O}_{X,Z'} \to 0 $$
 
 <!-- label: eq:VI.1.7.1 -->
 
@@ -201,19 +191,18 @@ every quasi-coherent Module $G$ on $X$, the sheaves $\mathcal{E}xt^{i}_{Z}(F, G)
 
 One shows, as in (1.6.3), that the Modules $\mathcal{E}xt^{i}_{Z}(F, G)$ are the abutment of a spectral sequence with
 initial term $\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(F, \mathcal{H}^{q}_{Z}(G))$. By (II, cor. 3) the
-$\mathcal{H}^{q}_{Z}(G)$ are quasi-coherent, and so are the
-$\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(F, \mathcal{H}^{q}_{Z}(G))$, since $F$ is coherent. The proposition follows
-immediately.
+$\mathcal{H}^{q}_{Z}(G)$ are quasi-coherent, and so are the $\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(F,
+\mathcal{H}^{q}_{Z}(G))$, since $F$ is coherent. The proposition follows immediately.
 
 ### 2.2.
 
 <!-- label: VI.2.2 -->
 
 Let now $Y$ be a closed subprescheme of $X$ and let $\mathcal{I}$ be a defining ideal of $Y$. Let $m$ and $n$ be
-integers with $m \geqslant n \geqslant 0$; we denote by $i_{n,m}$ the canonical map
-$\mathcal{O}_{Y_{m}} = \mathcal{O}_{X}/\mathcal{I}^{m+1} \to \mathcal{O}_{X}/\mathcal{I}^{n+1} = \mathcal{O}_{Y_{n}}$
-and by $j_{n}$ the map $\mathcal{O}_{X,Y} \to \mathcal{O}_{Y_{n}}$. The system $(\mathcal{O}_{Y_{n}}, i_{n,m})$ forms a
-projective system, and the maps $j_{n}$ are compatible with the $i_{n,m}$.
+integers with $m \geqslant n \geqslant 0$; we denote by $i_{n,m}$ the canonical map $\mathcal{O}_{Y_{m}} =
+\mathcal{O}_{X}/\mathcal{I}^{m+1} \to \mathcal{O}_{X}/\mathcal{I}^{n+1} = \mathcal{O}_{Y_{n}}$ and by $j_{n}$ the map
+$\mathcal{O}_{X,Y} \to \mathcal{O}_{Y_{n}}$. The system $(\mathcal{O}_{Y_{n}}, i_{n,m})$ forms a projective system, and
+the maps $j_{n}$ are compatible with the $i_{n,m}$.
 
 Applying the functor $Ext^{i}_{\mathcal{O}_{X}}(F \otimes \bullet, G)$, one deduces a morphism
 
@@ -267,9 +256,9 @@ lim_{→ n} Ext^i_A(M/I^n M, N) → Ext^i_Y(X, F, G)
 
 deduced from `φ̲` is an isomorphism.
 
-Indeed, for $i = 0$, one can canonically identify both sides of (2.3.1) with the submodule of
-$\operatorname{Hom}_{A}(M, N)$ consisting of those elements of $\operatorname{Hom}_{A}(M, N)$ annihilated by some power
-of $I$. One then sees that the homomorphism (2.3.1) is none other than the identity map.
+Indeed, for $i = 0$, one can canonically identify both sides of (2.3.1) with the submodule of $\operatorname{Hom}_{A}(M,
+N)$ consisting of those elements of $\operatorname{Hom}_{A}(M, N)$ annihilated by some power of $I$. One then sees that
+the homomorphism (2.3.1) is none other than the identity map.
 
 The functor $N \mapsto \lim_{\to n} Ext^{\bullet}_{A}(M/I^{n} M, N)$ is a universal $\partial$-functor. We shall show
 that the same holds for the functor $N \mapsto Ext^{\bullet}_{Y}(M, N)$. Indeed, if $N$ is an injective module, by (9

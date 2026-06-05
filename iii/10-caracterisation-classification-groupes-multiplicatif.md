@@ -24,18 +24,16 @@ operations of $\Gamma$ on $S'$. (N.B. As the groups under consideration are affi
 effectivity of a descent datum is answered in the affirmative, cf. SGA 1, VIII 2.1.) Now $S'$ being connected, the
 contravariant functor
 
-$$
-M \mapsto D_{S'}(M)
-$$
+$$ M \mapsto D_{S'}(M) $$
 
 is an anti-equivalence of the category of ordinary commutative groups with the category <!-- original page 78 --> of
-diagonalizable groups over $S'$ (cf. VIII 1.6), a quasi-inverse functor being
-$H \mapsto \operatorname{Hom}_{S'-gr.}(H, G_{m,S'})$.[^N.D.E-X-3]
+diagonalizable groups over $S'$ (cf. VIII 1.6), a quasi-inverse functor being $H \mapsto \operatorname{Hom}_{S'-gr.}(H,
+G_{m,S'})$.[^N.D.E-X-3]
 
 **Proposition 1.1.** *Let $S$ be a connected prescheme, $S'$ a connected principal cover of $S$ with group $\Gamma$
 (finite). Then the category of groups of multiplicative type over $S$ split[^N.D.E-X-4] by $S'$ is anti-equivalent to
-the category of $\Gamma$-modules, i.e. of ordinary commutative groups $M$ equipped with a homomorphism
-$\Gamma \to \operatorname{Aut}_{gr.}(M)$.*
+the category of $\Gamma$-modules, i.e. of ordinary commutative groups $M$ equipped with a homomorphism $\Gamma \to
+\operatorname{Aut}_{gr.}(M)$.*
 
 <!-- label: III.X.1.1 -->
 
@@ -47,17 +45,15 @@ group of $S$ at $\xi$ (cf. SGA 1 V, N° 7):*
 
 <!-- label: III.X.1.2 -->
 
-$$
-\pi = \pi_{1}(S, \xi).
-$$
+$$ \pi = \pi_{1}(S, \xi). $$
 
 *Then the category of isotrivial groups of multiplicative type $H$ over $S$ is anti-equivalent to the category of
 "Galois modules" under $\pi$, i.e. of $\pi$-modules $M$ such that the stabilizer in $\pi$ of every point of $M$ is an
 open subgroup.*
 
-*In this correspondence, to the isotrivial group of multiplicative type $H$ is associated the group
-$M = \operatorname{Hom}_{\Omega-gr.}(H_{\xi}, G_{m,\Omega})$, where $H_{\xi}$ is the fiber of $H$ at $\xi$; this group
-is naturally equipped with operations of $\pi_{1}(S, \xi)$.*
+*In this correspondence, to the isotrivial group of multiplicative type $H$ is associated the group $M =
+\operatorname{Hom}_{\Omega-gr.}(H_{\xi}, G_{m,\Omega})$, where $H_{\xi}$ is the fiber of $H$ at $\xi$; this group is
+naturally equipped with operations of $\pi_{1}(S, \xi)$.*
 
 **Remark 1.3.** We shall see below (cf. 5.16) that if $S$ is normal, or more generally geometrically unibranch, then
 every group of multiplicative type and of finite type over $S$ is necessarily isotrivial, so that the classification
@@ -78,8 +74,8 @@ under $\pi$ that are of finite type as $\mathbb{Z}$-modules.*
 
 It follows first from the fact that $H$ is of finite type over $k$ and from the "principle of the finite extension" (cf.
 EGA IV₃, 9.1.4) that there exists a finite extension $k'$ of $k$ which splits $H$. Let us recall the principle of the
-proof: by hypothesis there exist a diagonalizable group of finite type $G$ over $k$, a faithfully flat $S'$ over
-$S = \operatorname{Spec}(k)$, and an isomorphism of $S'$-groups $H_{S'} \simeq G_{S'}$. Possibly replacing $S'$ by the
+proof: by hypothesis there exist a diagonalizable group of finite type $G$ over $k$, a faithfully flat $S'$ over $S =
+\operatorname{Spec}(k)$, and an isomorphism of $S'$-groups $H_{S'} \simeq G_{S'}$. Possibly replacing $S'$ by the
 residue field of a point of $S'$, we may suppose that $S'$ is the spectrum of an extension $K$ of $k$. The latter is the
 inductive limit of its finitely generated subalgebras $A_{i}$, from which it readily follows (cf. EGA IV₃, 8.8.2.4) that
 $u$ comes from an $A_{i}$-isomorphism $u_{i} : H_{A_{i}} \simeq G_{A_{i}}$ for $i$ large enough. By the Nullstellensatz,
@@ -87,13 +83,13 @@ there exists a quotient ring $k'$ of $A_{i}$ which is a finite extension of $k$.
 
 <!-- original page 65 -->
 
-Then $k'$ is a radicial extension of a separable extension $k'_{s}$ of $k$. By IX 5.4, the isomorphism
-$u' : H_{k'} \simeq G_{k'}$ comes from an isomorphism $H_{k'_{s}} \simeq G_{k'_{s}}$, which proves that $k'_{s}$ splits
-$H$ and establishes 1.4.
+Then $k'$ is a radicial extension of a separable extension $k'_{s}$ of $k$. By IX 5.4, the isomorphism $u' : H_{k'}
+\simeq G_{k'}$ comes from an isomorphism $H_{k'_{s}} \simeq G_{k'_{s}}$, which proves that $k'_{s}$ splits $H$ and
+establishes 1.4.
 
 **Remark 1.5.** Statement 1.2 yields in particular a characterization of isotrivial tori over $S$ of relative dimension
-$n$: setting $\pi = \pi_{1}(S, \xi)$, they correspond to classes (up to "equivalence") of representations
-$\pi \to GL(n, \mathbb{Z})$ with kernel an open subgroup of $\pi$.
+$n$: setting $\pi = \pi_{1}(S, \xi)$, they correspond to classes (up to "equivalence") of representations $\pi \to GL(n,
+\mathbb{Z})$ with kernel an open subgroup of $\pi$.
 
 <!-- label: III.X.1.5 -->
 
@@ -171,8 +167,8 @@ Hom_{S-gr.}(H, G) ⟶ Hom_{S_0-gr.}(H_0, G_0)
 ```
 
 is bijective. The question being local on $S$, we may suppose $S$ affine; there then exists a faithfully flat
-quasi-compact morphism $S' \to S$ which splits $H$ and $G$. Let $S'' = S' \times_{S} S'$; denote by $H', G'$ resp.
-$H'', G''$ the groups deduced from `H, G` by the base change $S' \to S$ resp. $S'' \to S$; define $S'_{0}$ and $S''_{0}$
+quasi-compact morphism $S' \to S$ which splits $H$ and $G$. Let $S'' = S' \times_{S} S'$; denote by $H', G'$ resp. $H'',
+G''$ the groups deduced from `H, G` by the base change $S' \to S$ resp. $S'' \to S$; define $S'_{0}$ and $S''_{0}$
 similarly, the latter being also isomorphic to $S'_{0} \times_{S_{0}} S'_{0}$. One then finds a commutative diagram with
 exact rows:
 
@@ -214,19 +210,20 @@ of locally constant maps from $S$ to $M$, depends only on the topological space 
 conclusion.
 
 To prove the second assertion of 2.1, it remains to see that every group `H_0` of multiplicative type over `S_0` which
-is quasi-isotrivial comes from a quasi-isotrivial group of multiplicative type $H$ over $S$. To see this, let
-$S'_{0} \to S_{0}$ be an étale surjective morphism which splits `H_0`.
+is quasi-isotrivial comes from a quasi-isotrivial group of multiplicative type $H$ over $S$. To see this, let $S'_{0}
+\to S_{0}$ be an étale surjective morphism which splits `H_0`.
 
-One knows (cf. 2.0) that there exists an étale morphism $S' \to S$ and an `S_0`-isomorphism $S' \times_{S} S_{0} \simeq S'_{0}$, so that
-one may suppose that $S'_{0}$ comes from $S'$ by reduction. Since <!-- original page 83 --> $H'_{0}$ is diagonalizable, one
-sees at once that it is isomorphic to the group deduced by base change $S'_{0} \to S'$ from a diagonalizable group $H'$ over
-$S'$ (N.B. if $H'_{0} = D_{S'_{0}}(M)$, one takes $H' = D_{S'}(M)$). Set as usual $S'' = S' \times_{S} S'$, $S''' = S' \times_{S} S' \times_{S} S'$,
-and define $S''_{0}$, $S'''_{0}$ similarly, deduced from the preceding by the base change $S_{0} \to S$ and isomorphic also to the
-fibered square resp. cube of $S'_{0}$ over `S_0`. Using the full faithfulness already proved, in the cases $(S'', S''_{0})$
-and $(S''', S'''_{0})$, one sees that the natural descent datum on $H'_{0}$ relative to $S'_{0} \to S_{0}$ (cf. IV 2.1) comes from a
-well-determined descent datum on $H'$ relative to $S' \to S$. This descent datum is effective since $H'$ is affine over
-$S'$ (SGA 1, VIII 2.1), so there exists an $S$-group $H$ such that $H \times_{S} S' = H' = D_{S'}(M)$, and $H$ is therefore of
-quasi-isotrivial multiplicative type.
+One knows (cf. 2.0) that there exists an étale morphism $S' \to S$ and an `S_0`-isomorphism $S' \times_{S} S_{0} \simeq
+S'_{0}$, so that one may suppose that $S'_{0}$ comes from $S'$ by reduction. Since <!-- original page 83 --> $H'_{0}$ is
+diagonalizable, one sees at once that it is isomorphic to the group deduced by base change $S'_{0} \to S'$ from a
+diagonalizable group $H'$ over $S'$ (N.B. if $H'_{0} = D_{S'_{0}}(M)$, one takes $H' = D_{S'}(M)$). Set as usual $S'' =
+S' \times_{S} S'$, $S''' = S' \times_{S} S' \times_{S} S'$, and define $S''_{0}$, $S'''_{0}$ similarly, deduced from the
+preceding by the base change $S_{0} \to S$ and isomorphic also to the fibered square resp. cube of $S'_{0}$ over `S_0`.
+Using the full faithfulness already proved, in the cases $(S'', S''_{0})$ and $(S''', S'''_{0})$, one sees that the
+natural descent datum on $H'_{0}$ relative to $S'_{0} \to S_{0}$ (cf. IV 2.1) comes from a well-determined descent datum
+on $H'$ relative to $S' \to S$. This descent datum is effective since $H'$ is affine over $S'$ (SGA 1, VIII 2.1), so
+there exists an $S$-group $H$ such that $H \times_{S} S' = H' = D_{S'}(M)$, and $H$ is therefore of quasi-isotrivial
+multiplicative type.
 
 One then verifies easily, using now the full-faithfulness result for $(S', S'_{0})$, that the given isomorphism between
 $H'_{0}$ and $H' \times_{S'} S'_{0}$ comes from an isomorphism between `H_0` and $H \times_{S} S_{0}$. (For a more
@@ -271,9 +268,7 @@ Hom_{S-gr.}(H, G) ≃ Hom_{S-gr.}(M_S, Hom_{S-gr.}(H, G_{m,S})),
 
 and the second member identifies also with
 
-$$
-\operatorname{Hom}_{gr.}(M, \operatorname{Hom}_{S-gr.}(H, G_{m,S})),
-$$
+$$ \operatorname{Hom}_{gr.}(M, \operatorname{Hom}_{S-gr.}(H, G_{m,S})), $$
 
 so the homomorphism
 
@@ -299,14 +294,14 @@ so to prove that $(\times)$ is bijective, it suffices to prove that $(\times\tim
 we may therefore suppose $S$ affine. Now $G_{m,S}$ being commutative and smooth over $S$, the situation is governed by
 IX 3.6, which completes the proof.
 
-**Corollary 2.4.** *Let $A$ be an artinian local ring with residue field $k$, $S = \operatorname{Spec}(A)$,
-$S_{0} = \operatorname{Spec}(k)$.*
+**Corollary 2.4.** *Let $A$ be an artinian local ring with residue field $k$, $S = \operatorname{Spec}(A)$, $S_{0} =
+\operatorname{Spec}(k)$.*
 
 <!-- label: III.X.2.4 -->
 
-*(i)[^N.D.E-X-10] Let $H$ be an $S$-prescheme in groups, flat and locally of finite type, such that
-$H_{0} = H \times_{S} S_{0}$ is of multiplicative type. Then $H$ is of multiplicative type, of finite type and
-isotrivial. In particular, every $S$-prescheme in groups $H$ of multiplicative type and of finite type is isotrivial.*
+*(i)[^N.D.E-X-10] Let $H$ be an $S$-prescheme in groups, flat and locally of finite type, such that $H_{0} = H
+\times_{S} S_{0}$ is of multiplicative type. Then $H$ is of multiplicative type, of finite type and isotrivial. In
+particular, every $S$-prescheme in groups $H$ of multiplicative type and of finite type is isotrivial.*
 
 *(ii) The functor $H \mapsto H_{0}$ is an equivalence between the category of groups of multiplicative type of finite
 type over $A$ and the analogous category over $k$.*
@@ -341,8 +336,8 @@ already-cited Giraud article).
 
 **Lemma 3.1.** *Let $A$ be a noetherian ring, equipped with an ideal $I$ such that $A$ is separated and complete for the
 $I$-adic topology, $S = \operatorname{Spec}(A)$, $S_{0} = \operatorname{Spec}(A/I)$, $G$ and $H$ two $S$-group schemes,
-with $G$ of multiplicative type and isotrivial, $H$ affine over $S$, flat over $S$ at the points of
-$H_{0} = H \times_{S} S_{0}$, `H_0` of quasi-isotrivial multiplicative type. Then the natural map*
+with $G$ of multiplicative type and isotrivial, $H$ affine over $S$, flat over $S$ at the points of $H_{0} = H
+\times_{S} S_{0}$, `H_0` of quasi-isotrivial multiplicative type. Then the natural map*
 
 <!-- label: III.X.3.1 -->
 
@@ -404,17 +399,13 @@ is an isomorphism.
 Let us prove (ii), i.e. that if `H_0` is isotrivial, then $H$ is so. By (i), there exists an isotrivial group of
 multiplicative type $G$ over $S$ and an `S_0`-isomorphism
 
-$$
-u_{0} : G_{0} \xrightarrow{\sim} H_{0}.
-$$
+$$ u_{0} : G_{0} \xrightarrow{\sim} H_{0}. $$
 
 [^N.D.E-X-12] Since $H$ is of finite type, so are `H_0` and `G_0`; therefore, by IX 2.1 b), the type of $G$ at each
 point of $S$ is an abelian group of finite type, and so $G$ is of finite type over $S$. On the other hand, by 3.1,
 $u_{0}$ comes from a homomorphism of $S$-groups
 
-$$
-u : G \longrightarrow H.
-$$
+$$ u : G \longrightarrow H. $$
 
 Finally, since $G$, $H$ are of multiplicative type and of finite type over $S$, and since $u_{0}$ is an isomorphism,
 then, by IX 2.9, $u$ is an isomorphism (taking into account that every neighborhood of `S_0` in $S$ equals $S$).
@@ -458,8 +449,8 @@ therefore `H_0`, which is of finite type and not isotrivial, does not come from 
 $S$ (since $H$ would necessarily be of finite type, hence isotrivial).
 
 **Lemma 3.5.**[^X-3-1] *Let $S$ be a prescheme, $u : G \to H$ a homomorphism of $S$-preschemes in groups, locally of
-finite presentation and flat over $S$, $U$ the set of $s \in S$ such that the induced homomorphism on fibers
-$u_{s} : G_{s} \to H_{s}$ is flat (resp. smooth, resp. unramified, resp. étale, resp. quasi-finite).*
+finite presentation and flat over $S$, $U$ the set of $s \in S$ such that the induced homomorphism on fibers $u_{s} :
+G_{s} \to H_{s}$ is flat (resp. smooth, resp. unramified, resp. étale, resp. quasi-finite).*
 
 <!-- label: III.X.3.5 -->
 
@@ -497,8 +488,8 @@ $H(k)/T(k)$ is annihilated by an integer $\nu > 0$. One can find a finite number
 H = ∐_i g_i · G,
 ```
 
-and one will have $g^{\nu}_{i} \in T(k)$. Since $k$ is algebraically closed, $\nu \cdot id_{T}$ is surjective on
-$T(k) \simeq k^{\ast d}$, so up to replacing the $g_{i}$ by $g_{i} t^{-1}_{i}$, where $t_{i} \in T(k)$ is such that
+and one will have $g^{\nu}_{i} \in T(k)$. Since $k$ is algebraically closed, $\nu \cdot id_{T}$ is surjective on $T(k)
+\simeq k^{\ast d}$, so up to replacing the $g_{i}$ by $g_{i} t^{-1}_{i}$, where $t_{i} \in T(k)$ is such that
 $t^{\nu}_{i} = g^{\nu}_{i}$, <!-- original page 90 --> one may suppose that $g^{\nu}_{i} = 1$. If then $n$ is a multiple
 of $\nu$, one will have
 
@@ -521,19 +512,15 @@ that $G_{0} = H_{0}$.*
 
 By 3.2 (i), there exists an isotrivial group of multiplicative type $G$ over $S$ and an isomorphism
 
-$$
-u_{0} : G_{0} \xrightarrow{\sim} H_{0}.
-$$
+$$ u_{0} : G_{0} \xrightarrow{\sim} H_{0}. $$
 
 By 3.1, $u_{0}$ comes from a unique homomorphism of $S$-groups
 
-$$
-u : G \longrightarrow H.
-$$
+$$ u : G \longrightarrow H. $$
 
-Using IX 6.6, one sees that $u$ is a monomorphism (since if $U$ is the set of $s \in S$ such that
-$u_{s} : G_{s} \to H_{s}$ is a monomorphism, then $U$ is an open neighborhood of `S_0` hence identical to $S$, and
-$G|U \to H|U$ is a monomorphism). By IX 2.5, $u$ is even a closed immersion.
+Using IX 6.6, one sees that $u$ is a monomorphism (since if $U$ is the set of $s \in S$ such that $u_{s} : G_{s} \to
+H_{s}$ is a monomorphism, then $U$ is an open neighborhood of `S_0` hence identical to $S$, and $G|U \to H|U$ is a
+monomorphism). By IX 2.5, $u$ is even a closed immersion.
 
 [^N.D.E-X-16] Therefore $G$ is of finite type, hence of finite presentation over $S$. Then, by lemma 3.5 in the "étale"
 case, one sees that there exists an open set $U$ neighborhood of `S_0`, hence identical to $S$, such that $G|U \to H|U$
@@ -574,8 +561,8 @@ this implies at once that ${}_{n} u$ is an isomorphism (the complement of its im
 $\emptyset$). By 3.6 it follows that the morphisms induced on fibers $u_{s} : G_{s} \to H_{s}$ are isomorphisms, so $u$
 is surjective, hence an isomorphism.
 
-Finally, in case a), one may assume $S$ connected,[^N.D.E-X-18] and it follows that for every $s \in S$,
-$u_{s} : G_{s} \to H_{s}$ is a monomorphism of algebraic groups of multiplicative type and of the same type over
+Finally, in case a), one may assume $S$ connected,[^N.D.E-X-18] and it follows that for every $s \in S$, $u_{s} : G_{s}
+\to H_{s}$ is a monomorphism of algebraic groups of multiplicative type and of the same type over
 $\kappa(s)$.[^N.D.E-X-19] I claim that such a homomorphism is necessarily an isomorphism (which will again complete the
 proof[^N.D.E-X-20]). Indeed, one may suppose, possibly extending the base field, that the two groups over $\kappa(s)$
 are diagonalizable, and then this follows from VIII 3.2 b) and from the fact that a surjective homomorphism of
@@ -632,8 +619,8 @@ is noetherian).
 
 <!-- label: III.X.4.0.1 -->
 
-**Lemma 4.1.** *Let $A$ be a henselian local ring with residue field $k$, $S = \operatorname{Spec}(A)$,
-$S_{0} = \operatorname{Spec}(k)$.*
+**Lemma 4.1.** *Let $A$ be a henselian local ring with residue field $k$, $S = \operatorname{Spec}(A)$, $S_{0} =
+\operatorname{Spec}(k)$.*
 
 <!-- label: III.X.4.1 -->
 
@@ -656,9 +643,9 @@ H ↦ H′ = H ×_S S′
 $S'$.*
 
 As in 4.0, the second assertion is a consequence of the first; let us prove the latter. One already knows that the
-functor under consideration is essentially surjective, since every group of multiplicative type `H_0` over
-$S_{0} = \operatorname{Spec}(k)$, finite hence of finite type over $k$, is isotrivial by 1.4, hence comes from an
-isotrivial group of multiplicative type over $S$ by 4.0.1.
+functor under consideration is essentially surjective, since every group of multiplicative type `H_0` over $S_{0} =
+\operatorname{Spec}(k)$, finite hence of finite type over $k$, is isotrivial by 1.4, hence comes from an isotrivial
+group of multiplicative type over $S$ by 4.0.1.
 
 It remains to prove full faithfulness, i.e. that for two finite groups $G$, $H$ of multiplicative type over $S$, the map
 below is bijective:
@@ -675,8 +662,8 @@ Hom_S(S, F) ⟶ Hom_{S_0}(S_0, F_0)
 
 induced by the base change $S_{0} \to S$ is bijective. For this, given recall 4.0, it suffices to prove:
 
-**Lemma 4.2.** *Let $G$, $H$ be two finite groups of multiplicative type over a prescheme $S$. Then
-$F = \operatorname{Hom}_{S-gr.}(G, H)$ is representable by a finite étale scheme over $S$.*
+**Lemma 4.2.** *Let $G$, $H$ be two finite groups of multiplicative type over a prescheme $S$. Then $F =
+\operatorname{Hom}_{S-gr.}(G, H)$ is representable by a finite étale scheme over $S$.*
 
 <!-- label: III.X.4.2 -->
 
@@ -690,9 +677,7 @@ One may therefore suppose that $G = D_{S}(M)$ and $H = D_{S}(N)$, where $M$ and 
 VIII 2.1 c)). Then, <!-- original page 94 --> $K = \operatorname{Hom}_{gr.}(N, M)$ is a finite abelian group and, by
 VIII 1.5, one has an isomorphism
 
-$$
-\operatorname{Hom}_{S-gr.}(G, H) \simeq K_{S},
-$$
+$$ \operatorname{Hom}_{S-gr.}(G, H) \simeq K_{S}, $$
 
 which completes the proof of 4.2 and hence of 4.1.
 
@@ -714,14 +699,14 @@ conclusion, one may also use Chevalley's semi-continuity theorem (EGA IV₃, 13.
 theorem given in loc. cit., 8.12.8.)
 
 Since $A$ is henselian, $Y$ is the disjoint sum of local schemes $Y_{1}, \cdots, Y_{n}$, each finite over $S$, and the
-points of $Y$ above $s$ are the closed points $y_{1}, \cdots, y_{n}$. Therefore $x = y_{i}$ for some $i$, and
-$O_{X,x} = O_{U,x} = C_{i}$ is finite over $A$. Moreover, $X' = C_{i}$ is an open subscheme of $U$ hence of $X$.
+points of $Y$ above $s$ are the closed points $y_{1}, \cdots, y_{n}$. Therefore $x = y_{i}$ for some $i$, and $O_{X,x} =
+O_{U,x} = C_{i}$ is finite over $A$. Moreover, $X' = C_{i}$ is an open subscheme of $U$ hence of $X$.
 
 Suppose moreover $g$ separated. Then, since the morphism $X' \to S$ is finite ($C_{i}$ being finite over $A$), so is the
 immersion $X' \to X$ (cf. EGA II, 6.1.5 (v)), so $X'$ is also closed in $X$.
 
-**Lemma 4.3.** *Let $A$ be a noetherian henselian local ring, $A'$ its completion, $S = \operatorname{Spec}(A)$,
-$S' = \operatorname{Spec}(A')$, $s$ the closed point of $S$, $G$ and $H$ two $S$-preschemes in groups, with $G$ of
+**Lemma 4.3.** *Let $A$ be a noetherian henselian local ring, $A'$ its completion, $S = \operatorname{Spec}(A)$, $S' =
+\operatorname{Spec}(A')$, $s$ the closed point of $S$, $G$ and $H$ two $S$-preschemes in groups, with $G$ of
 multiplicative type and of finite type over $S$, $H$ locally of finite type and separated over $S$, $H_{s}$ of
 multiplicative type, and $H$ flat over $S$ at the points of $H_{s}$.*
 
@@ -738,17 +723,17 @@ the first member onto the part of the second formed by the $u' : G' \to H'$ such
 $u''_{2} : G'' \to H''$ of $u'$ on $S'' = S' \times_{S} S'$ (by the projections $pr_{1}$, $pr_{2}$ of $S''$ onto $S'$)
 are equal.
 
-Therefore everything reduces to proving that for every homomorphism of $S'$-groups $u' : G' \to H'$, one has
-$u''_{1} = u''_{2}$. By the density theorem IX 4.8 it suffices to prove that $u''_{1}$ and $u''_{2}$ coincide on
-${}_{n} G''$ for every integer $n > 0$. (N.B. one needs here in an essential way the density theorem in a case where the
-base prescheme, here $S''$, is not locally noetherian.)
+Therefore everything reduces to proving that for every homomorphism of $S'$-groups $u' : G' \to H'$, one has $u''_{1} =
+u''_{2}$. By the density theorem IX 4.8 it suffices to prove that $u''_{1}$ and $u''_{2}$ coincide on ${}_{n} G''$ for
+every integer $n > 0$. (N.B. one needs here in an essential way the density theorem in a case where the base prescheme,
+here $S''$, is not locally noetherian.)
 
-This reduces us, replacing $G$ by ${}_{n} G$, to the case where there exists an integer $n > 0$ such that
-$n \cdot id_{G} = 0$, hence where $G$ is finite over $S$. Let likewise ${}_{n} H$ be the kernel of the $n$-th power
-morphism $\phi_{n}$ in $H$. (N.B. we have not assumed $H$ commutative, so $\phi_{n}$ (resp. ${}_{n} H$) is not
-necessarily a homomorphism of groups (resp. a subgroup of $H$).) Since ${}_{n} H$ is defined as the fibered product of
-$\phi_{n} : H \to H$ <!-- original page 95 --> and the unit section $\epsilon : S \to H$, its formation commutes with
-every base change $T \to S$, i.e. one has $({}_{n} H)_{T} = {}_{n} (H_{T})$.
+This reduces us, replacing $G$ by ${}_{n} G$, to the case where there exists an integer $n > 0$ such that $n \cdot
+id_{G} = 0$, hence where $G$ is finite over $S$. Let likewise ${}_{n} H$ be the kernel of the $n$-th power morphism
+$\phi_{n}$ in $H$. (N.B. we have not assumed $H$ commutative, so $\phi_{n}$ (resp. ${}_{n} H$) is not necessarily a
+homomorphism of groups (resp. a subgroup of $H$).) Since ${}_{n} H$ is defined as the fibered product of $\phi_{n} : H
+\to H$ <!-- original page 95 --> and the unit section $\epsilon : S \to H$, its formation commutes with every base
+change $T \to S$, i.e. one has $({}_{n} H)_{T} = {}_{n} (H_{T})$.
 
 [^N.D.E-X-25] We denote by an index $m$ on the right the reductions modulo $m^{m+1}$, where $m$ is the maximal ideal of
 $A$. Then $H_{m}$ is flat over $S_{m}$ (since $H$ is so over $S$ at the points of `H_0`); therefore, by 2.4, since `H_0`
@@ -767,8 +752,8 @@ sets
 where $Z = {}_{n} H^{+}$ is finite over $S$, and ${}_{n} H^{-}$ lies above $S - {s}$.
 
 Note that, for every finite $S$-scheme $Y$ (such as $G$), every $S$-morphism $Y \to {}_{n} H$ factors through $Z$, and
-that the formation of the decomposition $(\ast)$ commutes with the base change $S' \to S$ (where
-$S' = \operatorname{Spec}(A')$, $A'$ the completion of $A$).
+that the formation of the decomposition $(\ast)$ commutes with the base change $S' \to S$ (where $S' =
+\operatorname{Spec}(A')$, $A'$ the completion of $A$).
 
 Then $Z' = Z \times_{S} S'$ is a finite scheme over $S'$, as is $P' = Z' \times_{S'} Z'$. Denote by $\nu$ the
 restriction to $P'$ of the multiplication of $H'$ and by $\sigma$ the automorphism of $P'$ which exchanges the two
@@ -776,13 +761,13 @@ factors. Since $P'$ is finite over $S'$ and $H'$ separated and locally of finite
 and IV₁ 1.1.3, $Y = \nu(P')$ is a closed subscheme of $H'$, universally closed and quasi-compact, hence of finite type,
 hence proper over $S'$. Moreover, $Y \to S'$ has finite fibers (since $P' \to S'$ does). Therefore, since $S'$ is
 noetherian, the morphism $Y \to S'$ is finite (cf. EGA III, 4.4.2). Since $Z' \subseteq Y$ and $Z'_{m} = Y'_{m}$ for
-every $m$, then $Z' = Y$, by lemma IX 5.0, so $Z'$ is a subgroup of $H'$. Likewise, the kernel
-$K = Ker(\nu, \nu \circ \sigma)$ is a closed subscheme of $P'$, such that $K_{m} = P'_{m}$ for every $m$ (since
-$Z'_{m} = {}_{n} H_{m}$ is commutative), so $K = P'$, i.e. $Z'$ is a commutative subgroup of $H'$.
+every $m$, then $Z' = Y$, by lemma IX 5.0, so $Z'$ is a subgroup of $H'$. Likewise, the kernel $K = Ker(\nu, \nu \circ
+\sigma)$ is a closed subscheme of $P'$, such that $K_{m} = P'_{m}$ for every $m$ (since $Z'_{m} = {}_{n} H_{m}$ is
+commutative), so $K = P'$, i.e. $Z'$ is a commutative subgroup of $H'$.
 
 On the other hand, since each reduction $Z'_{m} = {}_{n} H_{m}$ is flat over $S_{m}$, then, by the "local criterion of
-flatness" (cf. EGA 0_III, 10.2.2 or [BAC], III § 5, Example 1 and Th. 1), $Z'$ is flat over $S'$. Since moreover
-$Z'_{0} = {}_{n} H_{0}$ is a finite group of multiplicative type over `S_0`, hence isotrivial by 1.4, then $Z'$ is of
+flatness" (cf. EGA 0_III, 10.2.2 or [BAC], III § 5, Example 1 and Th. 1), $Z'$ is flat over $S'$. Since moreover $Z'_{0}
+= {}_{n} H_{0}$ is a finite group of multiplicative type over `S_0`, hence isotrivial by 1.4, then $Z'$ is of
 multiplicative type (and isotrivial) over $S'$, by 3.8 b). Since $S' \to S$ is faithfully flat and quasi-compact, one
 deduces that the multiplication $Z \times_{S} Z \to H$ factors through $Z$ and makes $Z$ a subgroup of $H$, finite over
 $S$ and of multiplicative type (since $Z'$ is).
@@ -819,23 +804,23 @@ conclusions", one can reduce to the case where $S = T$. Indeed, suppose we have 
 a point $s' \in T'$ and a subgroup $G'$ of $H' = H_{T'}$ satisfying the conditions of the statement; replacing $T'$ by
 an affine open neighborhood of $s'$, one may suppose $T'$ of finite presentation over $T$.
 
-Since $G'$ is isotrivial, there exists an étale finite surjective morphism $f : \tilde{T} \to T'$ such that
-$\tilde{G} = G' \times_{T'} \tilde{T}$ is isomorphic to $D_{\tilde{T}}(M)$, where $M$ is a finitely generated abelian
-group. Since $T'$, $H$, and $\tilde{T}$, $G'$ are of finite presentation over $T = \operatorname{Spec}(O_{S,s})$, and
-$O_{S,s}$ is the inductive limit of the subalgebras $A_{i} = O_{S}(S_{i})$, where $S_{i}$ runs through the affine open
-neighborhoods of $s$ in $S$, then, by EGA IV₃, 8.8.2 (and Exp. VI_B, 10.2 and 10.3), there exist an index $i$,
-$S_{i}$-preschemes (resp. an $S_{i}$-prescheme in groups) of finite presentation $S'_{i}$ and $\tilde{T}_{i}$ (resp.
-$G'_{i}$), and morphisms $g_{i} : S'_{i} \to S_{i}$ and $f_{i} : \tilde{T}_{i} \to S'_{i}$ (resp. a morphism of
-$S_{i}$-preschemes in groups $u_{i} : G'_{i} \to H \times_{S} S'_{i}$), from which $f$ and $g$ (resp. $u : G' \to H'$)
-come by the base change $T' \to S_{i}$. Moreover, taking $i$ large enough, $g_{i}$ will be étale, $f_{i}$ étale finite
-surjective, and $u_{i}$ an open and closed immersion (cf. EGA IV, 8.10.5 and 17.7.8).
+Since $G'$ is isotrivial, there exists an étale finite surjective morphism $f : \tilde{T} \to T'$ such that $\tilde{G} =
+G' \times_{T'} \tilde{T}$ is isomorphic to $D_{\tilde{T}}(M)$, where $M$ is a finitely generated abelian group. Since
+$T'$, $H$, and $\tilde{T}$, $G'$ are of finite presentation over $T = \operatorname{Spec}(O_{S,s})$, and $O_{S,s}$ is
+the inductive limit of the subalgebras $A_{i} = O_{S}(S_{i})$, where $S_{i}$ runs through the affine open neighborhoods
+of $s$ in $S$, then, by EGA IV₃, 8.8.2 (and Exp. VI_B, 10.2 and 10.3), there exist an index $i$, $S_{i}$-preschemes
+(resp. an $S_{i}$-prescheme in groups) of finite presentation $S'_{i}$ and $\tilde{T}_{i}$ (resp. $G'_{i}$), and
+morphisms $g_{i} : S'_{i} \to S_{i}$ and $f_{i} : \tilde{T}_{i} \to S'_{i}$ (resp. a morphism of $S_{i}$-preschemes in
+groups $u_{i} : G'_{i} \to H \times_{S} S'_{i}$), from which $f$ and $g$ (resp. $u : G' \to H'$) come by the base change
+$T' \to S_{i}$. Moreover, taking $i$ large enough, $g_{i}$ will be étale, $f_{i}$ étale finite surjective, and $u_{i}$
+an open and closed immersion (cf. EGA IV, 8.10.5 and 17.7.8).
 
 Then, $\tilde{G}$ comes from the groups $\tilde{G}_{i} = G_{i} \times_{S_{i}} \tilde{T}_{i}$ and $D_{\tilde{T}_{i}}(M)$;
-therefore, by EGA IV₃, 8.8.2 (i) (and VI_B, 10.2), there exists an index $j \geqslant i$ such that
-$\tilde{G}_{j} \simeq D_{\tilde{T}_{j}}(M)$, so $G_{j}$ is of isotrivial multiplicative type. Denote by $s'_{j}$ the
-image of $s'$ in $S'_{j}$. Then the étale morphism $S'_{j} \to S_{j} \hookrightarrow S$, the point $s'_{j}$ and the open
-and closed subgroup $G'_{j}$ of $H \times_{S} S'_{j}$, verify the conditions of the statement. This shows that one may
-suppose $S = \operatorname{Spec}(A)$ local, with closed point $s$.
+therefore, by EGA IV₃, 8.8.2 (i) (and VI_B, 10.2), there exists an index $j \geqslant i$ such that $\tilde{G}_{j} \simeq
+D_{\tilde{T}_{j}}(M)$, so $G_{j}$ is of isotrivial multiplicative type. Denote by $s'_{j}$ the image of $s'$ in
+$S'_{j}$. Then the étale morphism $S'_{j} \to S_{j} \hookrightarrow S$, the point $s'_{j}$ and the open and closed
+subgroup $G'_{j}$ of $H \times_{S} S'_{j}$, verify the conditions of the statement. This shows that one may suppose $S =
+\operatorname{Spec}(A)$ local, with closed point $s$.
 
 **b)** Then, $A$ is the inductive limit of local rings $A_{i}$ which are localizations of $\mathbb{Z}$-algebras of
 finite type; denote $S_{i} = \operatorname{Spec}(A_{i})$. Let us show that the hypotheses α) and β) "descend" to some
@@ -845,36 +830,31 @@ open set $W$, which contains $H_{s}$ by hypothesis, hence contains a quasi-compa
 immersion $\tau : V \hookrightarrow H$ is of finite presentation, so $V \to S$ is too.
 
 Therefore, by EGA IV₃, 8.8.2 (and Exp. VI_B, 10.2 and 10.3), there exist an index $i$, an $S_{i}$-prescheme $V_{i}$
-(resp. an $S_{i}$-prescheme in groups $H_{i}$) of finite presentation over $S_{i}$, and an $S_{i}$-morphism
-$\tau_{i} : V_{i} \to H_{i}$ from which $V$, $H$ and $\tau$ come by base change $S \to S_{i}$; moreover, taking $i$
-large enough, $\tau_{i}$ will be an open immersion and $V_{i}$ will be flat over $S_{i}$, by EGA IV₃, 8.10.5 and 11.2.6.
-Denote by $s_{i}$ the image of $s$ in $S_{i}$; since the open immersion
-$(V_{i})_{s_{i}} \hookrightarrow (H_{i})_{s_{i}}$ gives, by the base change $\kappa(s_{i}) \to \kappa(s)$, the equality
-$V_{s} = H_{s}$, one already has $(V_{i})_{s_{i}} = (H_{i})_{s_{i}}$, i.e. $(H_{i})_{s_{i}} \subseteq V_{i}$, so $H_{i}$
-is flat over $S_{i}$ at the points of $(H_{i})_{s_{i}}$. Finally, $(H_{i})_{s_{i}}$ is of multiplicative type, since
-$H_{s} = (H_{i})_{s_{i}} \otimes_{\kappa(s_{i})} \kappa(s)$ is. Therefore the triple $(S_{i}, H_{i}, s_{i})$ verifies
-the hypotheses of 4.4, and if the desired assertion is verified for this triple, it will also be verified, by base
-change, for $(S, H, s)$. This reduces us to the case where $A$ is local and noetherian. Let us now distinguish two
-cases.
+(resp. an $S_{i}$-prescheme in groups $H_{i}$) of finite presentation over $S_{i}$, and an $S_{i}$-morphism $\tau_{i} :
+V_{i} \to H_{i}$ from which $V$, $H$ and $\tau$ come by base change $S \to S_{i}$; moreover, taking $i$ large enough,
+$\tau_{i}$ will be an open immersion and $V_{i}$ will be flat over $S_{i}$, by EGA IV₃, 8.10.5 and 11.2.6. Denote by
+$s_{i}$ the image of $s$ in $S_{i}$; since the open immersion $(V_{i})_{s_{i}} \hookrightarrow (H_{i})_{s_{i}}$ gives,
+by the base change $\kappa(s_{i}) \to \kappa(s)$, the equality $V_{s} = H_{s}$, one already has $(V_{i})_{s_{i}} =
+(H_{i})_{s_{i}}$, i.e. $(H_{i})_{s_{i}} \subseteq V_{i}$, so $H_{i}$ is flat over $S_{i}$ at the points of
+$(H_{i})_{s_{i}}$. Finally, $(H_{i})_{s_{i}}$ is of multiplicative type, since $H_{s} = (H_{i})_{s_{i}}
+\otimes_{\kappa(s_{i})} \kappa(s)$ is. Therefore the triple $(S_{i}, H_{i}, s_{i})$ verifies the hypotheses of 4.4, and
+if the desired assertion is verified for this triple, it will also be verified, by base change, for $(S, H, s)$. This
+reduces us to the case where $A$ is local and noetherian. Let us now distinguish two cases.
 
-**1°)** $A$ *is local noetherian and henselian.* <!-- original page 79 --> Let `Â` be its completion,
-$\hat{S} = \operatorname{Spec}(\hat{A})$, and $\hat{H} = H \times_{S} \hat{S}$. Applying theorem 3.7, one finds an
-`Ŝ`-group `Ĝ` of multiplicative type, isotrivial and of finite type, and a homomorphism of `Ŝ`-groups
+**1°)** $A$ *is local noetherian and henselian.* <!-- original page 79 --> Let `Â` be its completion, $\hat{S} =
+\operatorname{Spec}(\hat{A})$, and $\hat{H} = H \times_{S} \hat{S}$. Applying theorem 3.7, one finds an `Ŝ`-group `Ĝ` of
+multiplicative type, isotrivial and of finite type, and a homomorphism of `Ŝ`-groups
 
-$$
-\hat{u} : \hat{G} \longrightarrow \hat{H}
-$$
+$$ \hat{u} : \hat{G} \longrightarrow \hat{H} $$
 
-which is an open immersion and a closed immersion, such that `û` induces an isomorphism
-$\hat{u}_{0} : \hat{G}_{0} \xrightarrow{\sim} \hat{H}_{0}$.
+which is an open immersion and a closed immersion, such that `û` induces an isomorphism $\hat{u}_{0} : \hat{G}_{0}
+\xrightarrow{\sim} \hat{H}_{0}$.
 
 By remark 4.0.1, the base change functor by $\hat{S} \to S$ induces an equivalence between the category of isotrivial
 groups of multiplicative type over $S$, and over `Ŝ`; in particular `Ĝ` "comes from" an $S$-group of multiplicative type
 $G$, isotrivial and of finite type. By 4.3, `û` comes from a homomorphism
 
-$$
-u : G \longrightarrow H;
-$$
+$$ u : G \longrightarrow H; $$
 
 moreover $u$ is an open and closed immersion and induces an isomorphism $u_{0} : G_{0} \to H_{0}$, since this is so
 after the faithfully flat quasi-compact base change $\hat{S} \to S$. This therefore proves 4.4 in this case (taking of
@@ -893,16 +873,16 @@ Then $H$ is quasi-isotrivial, i.e. is split by an étale surjective morphism $S'
 
 <!-- label: III.X.4.5 -->
 
-Indeed, let $s \in S$. By 4.4, there exist an étale morphism $S' \to S$, an $s' \in S'$ above $s$ such that
-$\kappa(s) = \kappa(s')$, and a subgroup $G'$ of $H'$, of isotrivial multiplicative type and of finite type, such that
-$G'_{s'} = H'_{s'}$. Since $G'$ and $H'$ are of multiplicative type and of finite type, then, by IX 2.9, there exists an
-open neighborhood $U'$ of $s'$ such that $G'|U' = H'|U'$.
+Indeed, let $s \in S$. By 4.4, there exist an étale morphism $S' \to S$, an $s' \in S'$ above $s$ such that $\kappa(s) =
+\kappa(s')$, and a subgroup $G'$ of $H'$, of isotrivial multiplicative type and of finite type, such that $G'_{s'} =
+H'_{s'}$. Since $G'$ and $H'$ are of multiplicative type and of finite type, then, by IX 2.9, there exists an open
+neighborhood $U'$ of $s'$ such that $G'|U' = H'|U'$.
 
 [^N.D.E-X-28] Suppose moreover $S$ local henselian, with closed point $s$; then, by EGA IV₄, 18.5.11 b), there exists a
-section $\sigma$ of $S' \to S$ such that $\sigma(s) = s'$. (N.B. one can see directly that $B = O_{S',s'}$ equals
-$A = O_{S,s}$ as follows: by 4.3.0 (i), one has $B \simeq A/I$, and since $B$ is a finitely presented and flat
-$A$-algebra, $I$ is a finitely generated ideal <!-- original page 80 --> (cf. EGA IV₁, 1.4.7), and $I = I m$ (where $m$
-is the maximal ideal of $A$), whence $I = 0$.) Therefore $H$ is already isotrivial. One thus obtains:
+section $\sigma$ of $S' \to S$ such that $\sigma(s) = s'$. (N.B. one can see directly that $B = O_{S',s'}$ equals $A =
+O_{S,s}$ as follows: by 4.3.0 (i), one has $B \simeq A/I$, and since $B$ is a finitely presented and flat $A$-algebra,
+$I$ is a finitely generated ideal <!-- original page 80 --> (cf. EGA IV₁, 1.4.7), and $I = I m$ (where $m$ is the
+maximal ideal of $A$), whence $I = 0$.) Therefore $H$ is already isotrivial. One thus obtains:
 
 **Corollary 4.6.** *Let $A$ be a henselian local ring, $k$ its residue field, and $\pi$ the topological Galois group of
 an algebraic closure of $k$.*
@@ -930,10 +910,10 @@ modules under $\pi$ which are of finite type as $\mathbb{Z}$-modules.*
 <!-- original page 98 -->
 
 Taking into account that an étale morphism is open, one is reduced to proving that there exists (with the notations of
-the conclusion of 4.4) an open neighborhood $U'$ of $s'$ such that $G'|U' = H'|U'$. Set
-$S'' = \operatorname{Spec}(O_{S',s'})$; since $G'$ and $H'$ are of finite presentation over $S'$, it suffices to show,
-by EGA IV₃, 8.8.2, that $G'' = H''$. We may therefore suppose $S = S''$, and then hypotheses (a), (b), (c) become those
-of the lemma below, whose proof is the same as that of 3.8:
+the conclusion of 4.4) an open neighborhood $U'$ of $s'$ such that $G'|U' = H'|U'$. Set $S'' =
+\operatorname{Spec}(O_{S',s'})$; since $G'$ and $H'$ are of finite presentation over $S'$, it suffices to show, by EGA
+IV₃, 8.8.2, that $G'' = H''$. We may therefore suppose $S = S''$, and then hypotheses (a), (b), (c) become those of the
+lemma below, whose proof is the same as that of 3.8:
 
 **Lemma 4.7.1.** *Let $S$ be a local scheme, $s$ its closed point, $H$ an $S$-group scheme of finite type, $G$ an open
 and closed subgroup of $H$, of multiplicative type, such that $G_{s} = H_{s}$. Suppose moreover one of the following
@@ -1072,15 +1052,14 @@ quasi-compact topology (IV 6.3.1 (iv)), *a fortiori* a morphism of effective des
 When $X' \to S'$ is quasi-compact, hence of finite presentation and quasi-finite, then it is a quasi-affine morphism
 (cf. SGA 1, VIII 6.2[^N.D.E-X-34]), and effectivity follows in this case from SGA 1, VIII 7.9. In the general case, one
 reduces at once to the case where $S$ and $S'$ are affine. One covers $X'$ by affine open sets $U'_{i}$; let $V'_{i}$ be
-the saturation of $U'_{i}$ for the equivalence relation in $X'$ defined by the descent datum, i.e.
-$V'_{i} = q_{2}(q^{-1}_{1}(U'_{i}))$, where $q_{1}$, $q_{2}$ are the two projections of
-$X''_{1} = X' \times_{S'} (S'', p_{1})$ onto $X'$ ($q_{1} = pr_{1}$, and $q_{2}$ is deduced from the first projection of
-$X''_{2} = X' \times_{S'} (S'', p_{2})$ thanks to the given descent isomorphism $X''_{1} \simeq X''_{2}$). Since
-$S' \to S$ is faithfully flat quasi-compact locally of finite presentation, the same holds for
-$p_{1} : S'' = S' \times_{S} S' \to S'$, hence also for $q_{1}$ and $q_{2}$, which are consequently open morphisms (SGA
-1 IV 6.6[^N.D.E-X-35]). Consequently, $V'_{i}$ is an open and quasi-compact part of $X'$. By what we have already seen,
-the descent data induced on the $V'_{i}$ are effective, whence it follows that the descent datum on $X'$ is so (SGA 1,
-VIII 7.2).
+the saturation of $U'_{i}$ for the equivalence relation in $X'$ defined by the descent datum, i.e. $V'_{i} =
+q_{2}(q^{-1}_{1}(U'_{i}))$, where $q_{1}$, $q_{2}$ are the two projections of $X''_{1} = X' \times_{S'} (S'', p_{1})$
+onto $X'$ ($q_{1} = pr_{1}$, and $q_{2}$ is deduced from the first projection of $X''_{2} = X' \times_{S'} (S'', p_{2})$
+thanks to the given descent isomorphism $X''_{1} \simeq X''_{2}$). Since $S' \to S$ is faithfully flat quasi-compact
+locally of finite presentation, the same holds for $p_{1} : S'' = S' \times_{S} S' \to S'$, hence also for $q_{1}$ and
+$q_{2}$, which are consequently open morphisms (SGA 1 IV 6.6[^N.D.E-X-35]). Consequently, $V'_{i}$ is an open and
+quasi-compact part of $X'$. By what we have already seen, the descent data induced on the $V'_{i}$ are effective, whence
+it follows that the descent datum on $X'$ is so (SGA 1, VIII 7.2).
 
 **Corollary 5.5.** *A faithfully flat morphism of finite presentation $S' \to S$ is a morphism of effective descent for
 the fibered category of twisted constant groups (over variable base preschemes).*
@@ -1144,8 +1123,8 @@ moreover, every such group $R$ is quasi-isotrivial.*
 
 <!-- label: III.X.5.10 -->
 
-*(i) Then $Isom_{S-gr.}(H, G)$ is representable by an open and closed subprescheme of
-$\operatorname{Hom}_{S-gr.}(H, G)$, and it is a twisted constant $S$-prescheme.*
+*(i) Then $Isom_{S-gr.}(H, G)$ is representable by an open and closed subprescheme of $\operatorname{Hom}_{S-gr.}(H,
+G)$, and it is a twisted constant $S$-prescheme.*
 
 *(ii) In particular, $\operatorname{Aut}_{S-gr.}(H)$ is representable and is a twisted constant $S$-group (in general
 non-commutative).*
@@ -1231,8 +1210,8 @@ H′ = H ×_S S′ ⥲ G′ = G ×_S S′ = D_{S′}(M),
 which proves that $S'$ splits $H$. This completes the proof of 5.11.[^N.D.E-X-43]
 
 **Remark 5.11 bis.** Let us note moreover that one can, when $H$ is of finite type over $S$ and of constant type, give
-the following isotriviality criterion (in which it is no longer necessary to make any restriction on $S$):
-$H = D_{S}(R)$ is isotrivial if and only if $R$ is the union of a sequence of parts both open and closed finite over
+the following isotriviality criterion (in which it is no longer necessary to make any restriction on $S$): $H =
+D_{S}(R)$ is isotrivial if and only if $R$ is the union of a sequence of parts both open and closed finite over
 $S$.[^N.D.E-X-44]
 
 <!-- label: III.X.5.11bis -->
@@ -1282,9 +1261,9 @@ $S$-group of multiplicative type and of finite type is isotrivial.*
 
 <!-- label: III.X.5.16 -->
 
-One may indeed suppose $S$ connected, hence $H$ of constant type $M$. It suffices to apply 5.14 to
-$P = Isom_{S-gr.}(H, G)$, where $G = D_{S}(M)$, then to argue as in the proof of 5.11 (ii) ⇒ (i). One may also apply
-5.14 to $P = R = D_{S}(H)$ (cf. 5.9), then use 5.11.
+One may indeed suppose $S$ connected, hence $H$ of constant type $M$. It suffices to apply 5.14 to $P = Isom_{S-gr.}(H,
+G)$, where $G = D_{S}(M)$, then to argue as in the proof of 5.11 (ii) ⇒ (i). One may also apply 5.14 to $P = R =
+D_{S}(H)$ (cf. 5.9), then use 5.11.
 
 ## 6. Infinite Galois principal covers and the enlarged fundamental group
 
@@ -1353,8 +1332,8 @@ is a single point.*[^N.D.E-X-48]
 <!-- label: III.X.6.1 -->
 
 *(i) The functor $G \mapsto \bar{\pi}^{1}(S'/S, \xi; G)$, from the category of groups to the category of sets, is
-representable by a group, denoted $\pi_{1}(S'/S, \xi)$ and called the* fundamental group of $S$ at $\xi$ relative to
-$S' \to S$. *One thus has a functorial bijection:*
+representable by a group, denoted $\pi_{1}(S'/S, \xi)$ and called the* fundamental group of $S$ at $\xi$ relative to $S'
+\to S$. *One thus has a functorial bijection:*
 
 ```text
 π̄¹(S′/S, ξ; G) ≃ Hom_{gr.}(π_1(S′/S, ξ), G).
@@ -1424,35 +1403,28 @@ operations, which make $(S_{i})_{i \in \mathbb{N}}$ a simplicial object of $(Sch
 
 Transforming this simplicial object by the functor "set of connected components"
 
-$$
-\pi_{0} : (Sch)/S \longrightarrow (Ens),
-$$
+$$ \pi_{0} : (Sch)/S \longrightarrow (Ens), $$
 
 one finds a simplicial set $K_{\bullet} = (K_{i})_{i \in \mathbb{N}}$, with $K_{i} = \pi_{0}(S_{i})$.
 
 Likewise, the $S_{i,\xi}$ (= $(i + 1)$-th fibered power of $S'_{\xi}$ over $\xi$) form a simplicial object of
-$(Sch)/\xi$ hence of $(Sch)/S$, moreover endowed with a natural homomorphism of simplicial objects into
-$(S_{i})_{i \in \mathbb{N}}$, whence a simplicial set $k_{\bullet}$ (with $k_{i} = \pi_{0}(S_{i,\xi})$) and a canonical
-homomorphism
+$(Sch)/\xi$ hence of $(Sch)/S$, moreover endowed with a natural homomorphism of simplicial objects into $(S_{i})_{i \in
+\mathbb{N}}$, whence a simplicial set $k_{\bullet}$ (with $k_{i} = \pi_{0}(S_{i,\xi})$) and a canonical homomorphism
 
-$$
-k_{\bullet} \longrightarrow K_{\bullet}.
-$$
+$$ k_{\bullet} \longrightarrow K_{\bullet}. $$
 
 We can form a new simplicial set by taking the cone of this morphism (cf. 9.5.1):
 
-$$
-\tilde{K}_{\bullet} = Cone(k_{\bullet} \longrightarrow K_{\bullet}).
-$$
+$$ \tilde{K}_{\bullet} = Cone(k_{\bullet} \longrightarrow K_{\bullet}). $$
 
 [^N.D.E-X-53] In this way, one obtains a "pointed simplicial set" $\tilde{K}_{\bullet}$ (i.e. a simplicial set endowed
 with a homomorphism $\tilde{\xi} : \tilde{e}_{\bullet} \to \tilde{K}_{\bullet}$, where $\tilde{e}_{\bullet}$ is the
-final simplicial set). We can construct its well-known combinatorial invariants
-$\pi_{0}(\tilde{K}_{\bullet}, \tilde{\xi})$ and $\pi_{1}(\tilde{K}_{\bullet}, \tilde{\xi})$, whose construction involves
-only the components of degree $\leqslant 1$ resp. of degree $\leqslant 2$. These invariants are defined without
-restriction on $S$ or $S'$. One then verifies without difficulty, when the connected components of `S_0` and `S_1` are
-open and $\tilde{K}_{\bullet}$ is connected,[^N.D.E-X-54] that $\pi_{1}(\tilde{K}_{\bullet}, \tilde{\xi})$ represents
-the functor $G \mapsto \bar{\pi}^{1}(S'/S, \xi; G)$, i.e. one has:
+final simplicial set). We can construct its well-known combinatorial invariants $\pi_{0}(\tilde{K}_{\bullet},
+\tilde{\xi})$ and $\pi_{1}(\tilde{K}_{\bullet}, \tilde{\xi})$, whose construction involves only the components of degree
+$\leqslant 1$ resp. of degree $\leqslant 2$. These invariants are defined without restriction on $S$ or $S'$. One then
+verifies without difficulty, when the connected components of `S_0` and `S_1` are open and $\tilde{K}_{\bullet}$ is
+connected,[^N.D.E-X-54] that $\pi_{1}(\tilde{K}_{\bullet}, \tilde{\xi})$ represents the functor $G \mapsto
+\bar{\pi}^{1}(S'/S, \xi; G)$, i.e. one has:
 
 ```text
 π_1(S′/S; ξ) ≃ π_1(K̃_•, ξ̃).
@@ -1490,13 +1462,12 @@ one can even choose $S' \to S$ étale surjective).*
 
 Indeed, one may suppose $S$ connected, hence $X$ of type $I$, where $I$ is a fixed set. Therefore $X' = X \times_{S} S'$
 is isomorphic to $I_{S'}$, hence $I_{S'}$ is endowed with a descent datum relative to $S' \to S$, i.e. one has an
-isomorphism $I_{S''} \xrightarrow{\sim} I_{S''}$ satisfying the usual transitivity condition. Now,
-$S'' = S' \times_{S} S'$ is locally noetherian hence locally connected, whence it follows that the automorphisms of
-$I_{S''}$ correspond to the sections of $G_{S''}$, where $G = \operatorname{Aut}(I)$ is the group of permutations of
-$I$.
+isomorphism $I_{S''} \xrightarrow{\sim} I_{S''}$ satisfying the usual transitivity condition. Now, $S'' = S' \times_{S}
+S'$ is locally noetherian hence locally connected, whence it follows that the automorphisms of $I_{S''}$ correspond to
+the sections of $G_{S''}$, where $G = \operatorname{Aut}(I)$ is the group of permutations of $I$.
 
-In this way, one obtains a descent datum on $G_{S'}$ (considered as a trivial Galois principal bundle) relative to
-$S' \to S$. By 5.4 this descent datum is effective, whence a Galois principal bundle $P$ over $S$, with group $G$. By
+In this way, one obtains a descent datum on $G_{S'}$ (considered as a trivial Galois principal bundle) relative to $S'
+\to S$. By 5.4 this descent datum is effective, whence a Galois principal bundle $P$ over $S$, with group $G$. By
 construction, it represents the functor $Isom_{S}(I_{S}, X)$ in the category of preschemes over $S$ which are locally
 noetherian. Consequently, the étale surjective base change $P \to S$ splits $X$, so $X$ is indeed quasi-isotrivial.
 
@@ -1508,8 +1479,8 @@ increasing degrees.
 <!-- label: III.X.7.0.2 -->
 
 The proof given above shows at the same time that the classification of twisted constant bundles $X$ over $S$,
-quasi-isotrivial and of type $I$, is equivalent to that of Galois principal bundles over $S$ with group
-$G = \operatorname{Aut}(I)$. It is even an equivalence of categories.
+quasi-isotrivial and of type $I$, is equivalent to that of Galois principal bundles over $S$ with group $G =
+\operatorname{Aut}(I)$. It is even an equivalence of categories.
 
 It can be put in a more convenient form as in SGA 1 V. For this, <!-- original page 114 --> suppose $S$ connected and
 equipped with a geometric point $\xi$. Consequently the enlarged fundamental pro-group $\Pi = \Pi_{1}(S, \xi)$ is
@@ -1526,14 +1497,12 @@ We leave to the reader the verification that every $S$-morphism $X \to Y$ betwee
 bundles over $S$ induces a map $X(\xi) \to Y(\xi)$ compatible with the operations of $\Pi$, and that the functor thus
 obtained is an equivalence of categories:
 
-**Proposition 7.0.3.** *Let $S$ be a locally noetherian connected prescheme, $\xi$ a geometric point of $S$,
-$\Pi = \Pi_{1}(S, \xi)$ the enlarged fundamental pro-group of $S$ at $\xi$. Then the functor*
+**Proposition 7.0.3.** *Let $S$ be a locally noetherian connected prescheme, $\xi$ a geometric point of $S$, $\Pi =
+\Pi_{1}(S, \xi)$ the enlarged fundamental pro-group of $S$ at $\xi$. Then the functor*
 
 <!-- label: III.X.7.0.3 -->
 
-$$
-X \mapsto X(\xi)
-$$
+$$ X \mapsto X(\xi) $$
 
 *is an equivalence between the category of quasi-isotrivial twisted constant bundles over $S$ and the category of sets
 on which $\Pi$ acts continuously.*
@@ -1549,14 +1518,12 @@ category of "$\Pi$-modules", i.e. of commutative groups $M$ on which $\Pi$ acts 
 
 Using now 5.7 one concludes the:
 
-**Theorem 7.1.** *Let $S$ be a locally noetherian connected prescheme, $\xi$ a geometric point of $S$,
-$\Pi = \Pi_{1}(S, \xi)$ the enlarged fundamental pro-group of $S$ at $\xi$. Then the functor*
+**Theorem 7.1.** *Let $S$ be a locally noetherian connected prescheme, $\xi$ a geometric point of $S$, $\Pi = \Pi_{1}(S,
+\xi)$ the enlarged fundamental pro-group of $S$ at $\xi$. Then the functor*
 
 <!-- label: III.X.7.1 -->
 
-$$
-G \mapsto \operatorname{Hom}_{\kappa(\xi)-gr.}(G_{\xi}, G_{m,\xi})
-$$
+$$ G \mapsto \operatorname{Hom}_{\kappa(\xi)-gr.}(G_{\xi}, G_{m,\xi}) $$
 
 *induces an anti-equivalence of the category of quasi-isotrivial groups of multiplicative type over $S$* <!-- original
 page 115 --> *with the category of $\Pi$-modules.*
@@ -1636,9 +1603,7 @@ to prove that $H$ is affine, it suffices to show that $H'$ is so (EGA II, 6.7.1)
 extension of its field of fractions, <!-- original page 117 --> one may suppose that the generic fiber $H_{\eta}$ of $H$
 is diagonalizable, i.e. that one has an isomorphism
 
-$$
-u_{\eta} : H_{\eta} \xrightarrow{\sim} T_{\eta},
-$$
+$$ u_{\eta} : H_{\eta} \xrightarrow{\sim} T_{\eta}, $$
 
 where $T = G^{r}_{m,S}$. Now we have:
 
@@ -1759,10 +1724,10 @@ extension of an abelian variety $A$ by a smooth connected affine group $V$. Let 
 *reductive rank*, resp. *nilpotent rank*, resp. *semisimple dimension*) of $G$, and denote by $\rho_{ab}(G)$ (resp.
 $\rho_{r}(G)$, resp. $\rho_{n}(G)$, resp. $d_{s}(G)$), the dimension of $A$, resp. the dimension of the maximal tori of
 $G$, resp. the dimension of the Cartan subgroups[^N.D.E-X-70] of $G$, resp. the dimension of the quotient of $G$ (or
-also of $V$) by its radical (cf. *Bible* for all these notions). Let us also introduce the *unipotent rank*
-$\rho_{u}(G) = \rho_{u}(V) = \rho_{n}(G) - \rho_{r}(G) - \rho_{ab}(G)$. When $G$ is not over an algebraically closed
-field, we still denote by the same names and the same notations the corresponding invariants for $G_{\bar{k}}$, where
-$\bar{k}$ is the algebraic closure of $k$.
+also of $V$) by its radical (cf. *Bible* for all these notions). Let us also introduce the *unipotent rank* $\rho_{u}(G)
+= \rho_{u}(V) = \rho_{n}(G) - \rho_{r}(G) - \rho_{ab}(G)$. When $G$ is not over an algebraically closed field, we still
+denote by the same names and the same notations the corresponding invariants for $G_{\bar{k}}$, where $\bar{k}$ is the
+algebraic closure of $k$.
 
 This being so, let $G$ be a smooth group scheme over the spectrum $S$ of a discrete valuation ring; let $\rho_{ab}$ etc.
 (resp. $\rho'_{ab}$ etc.) be the invariants associated with the special fiber (resp. with the generic fiber); then one
@@ -1774,9 +1739,9 @@ has the inequalities:
 ⎩ d_s ⩽ d′_s                   ⎩ ρ_u ⩾ ρ′_u.
 ```
 
-It amounts to the same to say that if $G$ is smooth of finite type over an arbitrary base $S$, the functions
-$s \mapsto \rho_{ab}(s)$, $\rho_{ab}(s) + \rho_{r}(s)$, $d_{s}(s)$ are lower semi-continuous, and the functions
-$s \mapsto \rho_{n}(s)$, $\rho_{u}(s)$ are upper semi-continuous.[^N.D.E-X-71]
+It amounts to the same to say that if $G$ is smooth of finite type over an arbitrary base $S$, the functions $s \mapsto
+\rho_{ab}(s)$, $\rho_{ab}(s) + \rho_{r}(s)$, $d_{s}(s)$ are lower semi-continuous, and the functions $s \mapsto
+\rho_{n}(s)$, $\rho_{u}(s)$ are upper semi-continuous.[^N.D.E-X-71]
 
 The same results probably remain valid without supposing $G$ smooth over $S$, but simply flat of finite presentation
 over $S$, by agreeing to denote, for an algebraic group $G$ over an algebraically closed field $k$, by $\rho_{ab}(G)$
@@ -1882,15 +1847,13 @@ G′ ×_S G′ ⟶ G′.
 One must therefore show that $G'_{0} \times_{k} G'_{0}$ is mapped into the open set $G'_{0}$ of `X_0`; it suffices to
 see that for every point $g'_{0}$ of $G'_{0}$ with values in $k$, the morphism
 
-$$
-(\times)    h'_{0} \mapsto p_{0}(g'_{0}, h'_{0})
-$$
+$$ (\times) h'_{0} \mapsto p_{0}(g'_{0}, h'_{0}) $$
 
 from $G'_{0}$ into `X_0` takes its values in $G'_{0}$. Now since $G'$ is smooth over $S$ and $S$ is henselian, every
 $g'_{0}$ as above is induced by a section $g'$ of $G'$ over $S$, and one sees at once that the morphism $(\times)$ above
 is then induced by the morphism $h' \mapsto p(g', h')$ of $G'$ into $X$, itself deduced by transport of structure from
-the automorphism $h \mapsto g \cdot h$ of $G$, left translation by the section $g$ of $G$ image of $g'$. So
-$h' \mapsto p(g', h')$ is itself an automorphism of $X$, hence maps $G'$ into $G'$, which proves our assertion.
+the automorphism $h \mapsto g \cdot h$ of $G$, left translation by the section $g$ of $G$ image of $g'$. So $h' \mapsto
+p(g', h')$ is itself an automorphism of $X$, hence maps $G'$ into $G'$, which proves our assertion.
 
 It remains to prove that the composition law thus obtained on $G'$ is a group law. Associativity follows at once from
 the associativity of the generic fiber (isomorphic to that of $G$). On the other hand, the symmetry automorphism of the
@@ -1948,9 +1911,8 @@ Let us note that a sheaf on $T$ is nothing other than a simplicial set over $E$.
 $e \in E_{i}$, the face operators $d$ induce isomorphisms $E'_{e} \xrightarrow{\sim} E'_{d(e)}$ between the fibers (cf.
 [AM69], § 10);*
 
-*(2) a topos $T$, every object $F$ of $T$ such that there exists an epimorphism $U \to 1$ and an isomorphism
-$F \times U \simeq f^{\ast} I \times U$, where $I$ is a set and $f : T \to Ens$ is the final morphism (cf. SGA 4,
-IX.2);*
+*(2) a topos $T$, every object $F$ of $T$ such that there exists an epimorphism $U \to 1$ and an isomorphism $F \times U
+\simeq f^{\ast} I \times U$, where $I$ is a set and $f : T \to Ens$ is the final morphism (cf. SGA 4, IX.2);*
 
 *(3) a groupoid $G$, every presheaf on $G$, that is, every contravariant functor from $G$ into the category of sets (cf.
 [GZ67], append. I.1.2);*
@@ -1982,8 +1944,8 @@ descent data on $E$ are equivalent.*
 VI.8.1.6). An equivalence of categories is given by the functor associating with the object $(E' \to E)$ the pair
 $(E'_{0}, \alpha)$ where $E'_{0}$ is considered as a sheaf on `E_0` and where $\alpha$ is the unique isomorphism
 $p^{\ast}_{1} E'_{0} \xrightarrow{\sim} p^{\ast}_{2} E'_{0}$ whose fiber at each $y \in E_{1}$ — with images denoted
-$x_{1}$ and $x_{2}$ by the two projections — is given by the isomorphisms
-$(E'_{0})_{x_{1}} \leftarrow (E'_{1})_{y} \to (E'_{0})_{x_{2}}$.
+$x_{1}$ and $x_{2}$ by the two projections — is given by the isomorphisms $(E'_{0})_{x_{1}} \leftarrow (E'_{1})_{y} \to
+(E'_{0})_{x_{2}}$.
 
 – (5) ⇔ (3). Evident: one of the two relations defining the morphisms in the groupoid $G$ associated with $E$ is a
 cocycle relation.
@@ -2011,10 +1973,10 @@ Likewise, if $e$ is a point of $E$, the preceding equivalences induce bijections
 of $H$-torsors trivialized over $e$, denoted respectively $H^{1}(E rel e, H)$, $H^{1}(E^{\sim} rel e^{\sim}, H)$,
 $\operatorname{Hom}(\pi_{1}(\Pi(E), e), H)$ and $H^{1}(|E| rel |e|, H)$. Recall that one denotes by $\pi_{1}(\Pi(E), e)$
 the group $Isom_{\Pi(E)}(e, e)$. For variable $H$, these functors are represented, in the connected case, by a group
-which one denotes by $\pi_{1}(E, e)$. The group $\pi_{1}(E, e)$ is isomorphic to $\pi_{1}(\Pi(E), e)$ and
-$\pi_{1}(|E|, |e|)$, hence also to the fundamental group of a simplicial set as defined by Kan (cf. e.g. [May67], 16.1
-or [Ill72], I.2.1.1). (Recall that the set $H^{1}(E, H)$ is in turn isomorphic to the set $H^{1}(\pi_{1}(E, e), H)$ of
-morphisms to $H$ modulo conjugation, also denoted $\operatorname{Hom} ext(\pi_{1}(E, e), H)$.)
+which one denotes by $\pi_{1}(E, e)$. The group $\pi_{1}(E, e)$ is isomorphic to $\pi_{1}(\Pi(E), e)$ and $\pi_{1}(|E|,
+|e|)$, hence also to the fundamental group of a simplicial set as defined by Kan (cf. e.g. [May67], 16.1 or [Ill72],
+I.2.1.1). (Recall that the set $H^{1}(E, H)$ is in turn isomorphic to the set $H^{1}(\pi_{1}(E, e), H)$ of morphisms to
+$H$ modulo conjugation, also denoted $\operatorname{Hom} ext(\pi_{1}(E, e), H)$.)
 
 ### 9.5. Cones
 
@@ -2032,19 +1994,17 @@ faces in rank less than or equal to two being recalled below. (See also [GZ67], 
 category of locally constant sheaves on $C(f)$ is equivalent to the category of locally constant sheaves on $E$ equipped
 with a trivialization of the inverse image on $E'$. The simplicial set $C(f)$ is naturally pointed by $\star \to C(f)$.*
 
-*(2) Let $f : T' \to T$ be a morphism of topoi. Denote by $C(f)$ the topos whose objects are quintuples*
-$(F, F', A, \alpha : f^{\ast} F \to F', \beta : A \to \Gamma(T', F'))$, *where $F$ (resp. $F'$) is an object of $T$
-(resp. $T'$), $A$ is a set, and $\alpha$ (resp. $\beta$) is a morphism in $T'$ (resp. Ens). (See also [Del80], 4.3.4 and
-[Ill72], III.4 for a variant of this construction.) The category of locally constant sheaves on $C(f)$ is equivalent to
-the category of locally constant sheaves on $T$ equipped with a trivialization of* <!-- original page 104 --> *the
-inverse image on $T'$. The topos $C(f)$ is naturally pointed by the fiber functor sending the quintuple
-$(F, F', A, \alpha : f^{\ast} F \to F', \beta : A \to \Gamma(T', F'))$ to the set $A$.*
+*(2) Let $f : T' \to T$ be a morphism of topoi. Denote by $C(f)$ the topos whose objects are quintuples* $(F, F', A,
+\alpha : f^{\ast} F \to F', \beta : A \to \Gamma(T', F'))$, *where $F$ (resp. $F'$) is an object of $T$ (resp. $T'$),
+$A$ is a set, and $\alpha$ (resp. $\beta$) is a morphism in $T'$ (resp. Ens). (See also [Del80], 4.3.4 and [Ill72],
+III.4 for a variant of this construction.) The category of locally constant sheaves on $C(f)$ is equivalent to the
+category of locally constant sheaves on $T$ equipped with a trivialization of* <!-- original page 104 --> *the inverse
+image on $T'$. The topos $C(f)$ is naturally pointed by the fiber functor sending the quintuple $(F, F', A, \alpha :
+f^{\ast} F \to F', \beta : A \to \Gamma(T', F'))$ to the set $A$.*
 
 *(3) Let $f : G' \to G$ be a morphism of groupoids. Denote by $C(f)$ the colimit of the diagram*
 
-$$
-G \leftarrow G' \to B_{1}
-$$
+$$ G \leftarrow G' \to B_{1} $$
 
 *where `B_1` is the punctual category (one object, one arrow). The category of locally constant sheaves on $C(f)$ is
 equivalent to the category of locally constant sheaves on $G$ equipped with a trivialization of the inverse image on
@@ -2057,18 +2017,17 @@ $G'$.*
 ```
 
 *The category of locally constant sheaves on $C(f)$ is equivalent to the category of locally constant sheaves on $X$
-equipped with a trivialization of the inverse image on $X'$. The topological space $C(f)$ is naturally pointed by
-$\star \to C(f)$.*
+equipped with a trivialization of the inverse image on $X'$. The topological space $C(f)$ is naturally pointed by $\star
+\to C(f)$.*
 
 #### 9.5.2. Descent data on the cone of a simplicial map
 
 Let $f : E' \to E$ be a morphism of simplicial sets and $C(f)$ its cone (cf. supra, (1)). Let us use the letter $p$
 (resp. $q$, $r$) to denote the face maps of $E'$ (resp. $E$, $C(f)$). Before stating the proposition below, let us
 explicit the faces $r$ in degree less than or equal to two in terms of $p$ and $q$. By convention, $p_{ij}$ (resp.
-$p_{i}$) is the face map $E'_{2} = E'_{\{1,2,3\}} \to E'_{1} = E'_{\{1,2\}}$ (resp.
-$E'_{1} = E'_{\{1,2\}} \to E'_{0} = E'_{\{1\}}$) corresponding to the increasing map $\{1, 2\} \to \{1, 2, 3\}$ (resp.
-$\{1\} \to \{1, 2\}$) of image `\{i, j\}` (resp. `\{i\}`)[^X-9-2]. The same convention is adopted for the faces of $E$
-and $C(f)$.
+$p_{i}$) is the face map $E'_{2} = E'_{\{1,2,3\}} \to E'_{1} = E'_{\{1,2\}}$ (resp. $E'_{1} = E'_{\{1,2\}} \to E'_{0} =
+E'_{\{1\}}$) corresponding to the increasing map $\{1, 2\} \to \{1, 2, 3\}$ (resp. $\{1\} \to \{1, 2\}$) of image
+`\{i, j\}` (resp. `\{i\}`)[^X-9-2]. The same convention is adopted for the faces of $E$ and $C(f)$.
 
 The morphism
 
@@ -2099,19 +2058,19 @@ r_{21} : C(f)_2 = E_2 ∐ E′_1 ∐ E′_0 ∐ ⋆ → C(f)_1 = E_1 ∐ E′_0 
 – $E'_{0} \to \star$ (resp. $Id : E'_{0} \to E'_{0}$, $Id : E'_{0} \to E'_{0}$) on $E'_{0}$.
 
 Let $H$ be a descent datum on $C(f)$, that is, a sheaf `H_0` on $C(f)_{0} = E_{0} \coprod \star$ equipped with an
-isomorphism $\gamma : r^{\ast}_{1} H_{0} \xrightarrow{\sim} r^{\ast}_{2} H_{0}$ between its inverse images on
-$C(f)_{1} = E_{1} \coprod E'_{0} \coprod \star$ satisfying the cocycle relation
-$r^{\ast}_{31} \gamma = r^{\ast}_{32} \gamma \circ r^{\ast}_{21} \gamma$.
+isomorphism $\gamma : r^{\ast}_{1} H_{0} \xrightarrow{\sim} r^{\ast}_{2} H_{0}$ between its inverse images on $C(f)_{1}
+= E_{1} \coprod E'_{0} \coprod \star$ satisfying the cocycle relation $r^{\ast}_{31} \gamma = r^{\ast}_{32} \gamma \circ
+r^{\ast}_{21} \gamma$.
 
 <!-- original page 105 -->
 
-The restriction of the isomorphism $\gamma$ to `E_1` (resp. $E'_{0}$) is a descent datum
-$\beta : q^{\ast}_{1} G_{0} \xrightarrow{\sim} q^{\ast}_{2} G_{0}$ where `G_0` is the restriction of `H_0` to `E_0`
-(resp. a trivialization $t : H_{0}(\star) \xrightarrow{\sim} f^{\ast} G_{0} =: F_{0}$ where $H_{0}(\star)$ is the
-constant sheaf with stalk $H_{0}(\star)$). The restriction of the cocycle relation satisfied by $\gamma$ to `E_2` (resp.
-$E'_{1}$) is the cocycle relation for $\beta$ (resp. $p^{\ast}_{2}(t) = f^{\ast}_{1}(\beta) \circ p^{\ast}_{1}(t)$).
-This latter relation means that the trivialization $t$ is compatible with the descent datum $f^{\ast}_{1}(\beta)$
-induced by $\beta$ on `F_0`. From this it follows:
+The restriction of the isomorphism $\gamma$ to `E_1` (resp. $E'_{0}$) is a descent datum $\beta : q^{\ast}_{1} G_{0}
+\xrightarrow{\sim} q^{\ast}_{2} G_{0}$ where `G_0` is the restriction of `H_0` to `E_0` (resp. a trivialization $t :
+H_{0}(\star) \xrightarrow{\sim} f^{\ast} G_{0} =: F_{0}$ where $H_{0}(\star)$ is the constant sheaf with stalk
+$H_{0}(\star)$). The restriction of the cocycle relation satisfied by $\gamma$ to `E_2` (resp. $E'_{1}$) is the cocycle
+relation for $\beta$ (resp. $p^{\ast}_{2}(t) = f^{\ast}_{1}(\beta) \circ p^{\ast}_{1}(t)$). This latter relation means
+that the trivialization $t$ is compatible with the descent datum $f^{\ast}_{1}(\beta)$ induced by $\beta$ on `F_0`. From
+this it follows:
 
 **Proposition 9.5.3.** *Let $f : E' \to E$ be a morphism of simplicial sets and $C(f)$ its cone, pointed by $\star$. The
 category of descent data on $C(f)$ trivialized over $\star$ is equivalent to the category of descent data on $E$
@@ -2121,9 +2080,9 @@ equipped with a trivialization of the descent datum induced on $E'$.*
 
 ### 9.6. Representability of the functor π̄¹(S′/S, ξ; −)
 
-The notations are those of page 90 and from now on we suppose the connected components of $S_{0} = S'$ and
-$S_{1} = S' \times_{S} S'$ open. Under this hypothesis, one has the following explicit combinatorial description, which
-follows immediately from the recalls above.
+The notations are those of page 90 and from now on we suppose the connected components of $S_{0} = S'$ and $S_{1} = S'
+\times_{S} S'$ open. Under this hypothesis, one has the following explicit combinatorial description, which follows
+immediately from the recalls above.
 
 **Proposition 9.6.1.** *For every group $G$, the set $\bar{\pi}^{1}(S'/S, \xi; G)$ of isomorphism classes of descent
 data equipped with a trivialization above $\xi$ is in natural bijection with the relative non-abelian cohomology set*
@@ -2145,14 +2104,12 @@ universally submersive.
 The two following propositions make the N.D.E. (53) more precise.
 
 **Proposition 9.7.1.** *Let $\kappa$ be an algebraically closed field, and $X$ a connected $\kappa$-scheme. For every
-integer $i \geqslant 0$, denote by $X_{i}$ the $(i + 1)$-th fibered power of $X$ over $\kappa$. For every integer
-$i \geqslant 0$, the canonical map*
+integer $i \geqslant 0$, denote by $X_{i}$ the $(i + 1)$-th fibered power of $X$ over $\kappa$. For every integer $i
+\geqslant 0$, the canonical map*
 
 <!-- label: III.X.9.7.1 -->
 
-$$
-\pi_{0}(X_{i}) \to \pi_{0}(X)^{i+1}
-$$
+$$ \pi_{0}(X_{i}) \to \pi_{0}(X)^{i+1} $$
 
 *is a bijection. In particular, the simplicial set $\pi_{0}(X_{\bullet})$ is contractible.*
 
@@ -2357,12 +2314,12 @@ $\pi_{0}(X'_{x}) \to \pi_{0}(X')$ is therefore surjective, as is the morphism $\
     simplicial sets $k_{\bullet} \to K_{\bullet}$ be connected (cf. *loc. cit.*).
 
 [^N.D.E-X-49]: *N.D.E.* One has suppressed the superfluous hypothesis that the connected components of $S'''$ be open.
-    On the other hand, the description given later (cf. …) gives as the natural set of generators the set
-    $\pi_{0}(S'') \coprod \pi_{0}(S'_{\xi})$; one then reduces to $\pi_{0}(S'')$ by means of the relations between these
-    generators arising from the 2-cells. See for example [Kan58], § 19 for a finer description.
+    On the other hand, the description given later (cf. …) gives as the natural set of generators the set $\pi_{0}(S'')
+    \coprod \pi_{0}(S'_{\xi})$; one then reduces to $\pi_{0}(S'')$ by means of the relations between these generators
+    arising from the 2-cells. See for example [Kan58], § 19 for a finer description.
 
-[^N.D.E-X-50]: *N.D.E.* One could spell out this deduction; $I$ is in bijection with a cofinal set of morphisms
-    $S' \to S$ covering for the étale topology ….
+[^N.D.E-X-50]: *N.D.E.* One could spell out this deduction; $I$ is in bijection with a cofinal set of morphisms $S' \to
+    S$ covering for the étale topology ….
 
 [^N.D.E-X-51]: *N.D.E.* One has corrected 5.13 to 5.14.
 
@@ -2389,8 +2346,8 @@ $\pi_{0}(X'_{x}) \to \pi_{0}(X')$ is therefore surjective, as is the morphism $\
     additionally identifying $b_{1}$ with $b_{2}$. The discussion following *loc. cit.*, extended to the enlarged case,
     then shows that the enlarged fundamental group of $C'_{2}$ (resp. `C_2`) is zero (resp. $\mathbb{Z}$).
 
-[^N.D.E-X-57]: *N.D.E.* This is an $n$-fold point with $n$ distinct tangents, for example the curve
-    $X^{n} - Y^{n} = X^{n+1}$.
+[^N.D.E-X-57]: *N.D.E.* This is an $n$-fold point with $n$ distinct tangents, for example the curve $X^{n} - Y^{n} =
+    X^{n+1}$.
 
 [^N.D.E-X-58]: *N.D.E.* In particular, this shows that the tori of relative dimension 2 considered in 1.6 are not
     isotrivial.

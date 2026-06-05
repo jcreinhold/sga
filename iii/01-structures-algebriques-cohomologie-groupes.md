@@ -24,15 +24,11 @@ Let $C$ be a category. We shall denote by `Ĉ` the category $\operatorname{Hom}(
 functors from $C$ to the category `(Ens)` of sets.[^N.D.E-I-2] There exists a canonical functor $h : C \to \hat{C}$
 which associates to every $X \in Ob(C)$ the functor `hX` such that
 
-$$
-hX(S) = \operatorname{Hom}(S, X).
-$$
+$$ hX(S) = \operatorname{Hom}(S, X). $$
 
 For every functor $F \in Ob(\hat{C})$, one defines (cf. for example EGA 0_III, 8.1.4) a bijection
 
-$$
-\operatorname{Hom}(hX, F) \xrightarrow{\sim} F(X).
-$$
+$$ \operatorname{Hom}(hX, F) \xrightarrow{\sim} F(X). $$
 
 [^N.D.E-I-3]
 
@@ -49,15 +45,15 @@ equivalence of $C$ with the full subcategory of `Ĉ` formed by the representable
 functor of the form `hX`). In the sequel, we shall often identify $X$ and `hX`. The following numbers aim to show that
 this identification can be made without danger.
 
-**Remark 1.1.1.**[^N.D.E-I-4] *We sometimes need the following variant. Let $D$ be a full subcategory of $C$ and let
-$X, Y \in Ob(D)$; denote by $h'_{X}$ and $h'_{Y}$ the restrictions to $D$ of `hX` and `hY`. Then one has*
+**Remark 1.1.1.**[^N.D.E-I-4] *We sometimes need the following variant. Let $D$ be a full subcategory of $C$ and let $X,
+Y \in Ob(D)$; denote by $h'_{X}$ and $h'_{Y}$ the restrictions to $D$ of `hX` and `hY`. Then one has*
 
 ```text
 Hom_C(X, Y) = Hom_D(X, Y) = Hom_D̂(h′_X, h′_Y)
 ```
 
-*and therefore: to give a morphism $X \to Y$ "is the same thing" as to give, functorially in $T$, a map
-$\phi(T) : \operatorname{Hom}(T, X) \to \operatorname{Hom}(T, Y)$, for every $T \in Ob(D)$.*
+*and therefore: to give a morphism $X \to Y$ "is the same thing" as to give, functorially in $T$, a map $\phi(T) :
+\operatorname{Hom}(T, X) \to \operatorname{Hom}(T, Y)$, for every $T \in Ob(D)$.*
 
 <!-- label: III.I.1.1.1 -->
 
@@ -82,8 +78,8 @@ In `Ĉ`, "arbitrary" inverse limits exist and are computed by:
 
 <!-- original page 3 -->
 
-We shall choose as final object of `Ĉ` the functor $e$ such that $e(S) = {\emptyset}$[^N.D.E-I-8]. Every
-$F \in Ob(\hat{C})$ has a unique morphism into $e$, and one sets
+We shall choose as final object of `Ĉ` the functor $e$ such that $e(S) = {\emptyset}$[^N.D.E-I-8]. Every $F \in
+Ob(\hat{C})$ has a unique morphism into $e$, and one sets
 
 ```text
 F × F′ = F ×_e F′.
@@ -102,9 +98,7 @@ map of sets $F(S) \to G(S)$ is injective.[^N.D.E-I-9]
 
 *The functor $\Gamma$.* For every $F \in Ob(\hat{C})$, one sets
 
-$$
-\Gamma(F) = \operatorname{Hom}(e, F);
-$$
+$$ \Gamma(F) = \operatorname{Hom}(e, F); $$
 
 an element of $\Gamma(F)$ is therefore a family $(\gamma_{S})_{S\in Ob(C)}$, $\gamma_{S} \in F(S)$, such that for every
 arrow $f : S' \to S''$ of $C$ one has $F(f)(\gamma_{S''}) = \gamma_{S'}$.
@@ -122,9 +116,7 @@ has a final object: the identity arrow $S \to S$.
 If $f : T \to S$ is an object of $C/S$, then one can form the category $(C/S)/f$, which by abuse of language one denotes
 $(C/S)/T$, and one has a canonical isomorphism
 
-$$
-C/T \simeq (C/S)/T.
-$$
+$$ C/T \simeq (C/S)/T. $$
 
 This construction also applies to the category `Ĉ`; one defines in particular the category $\hat{C}/hS$. On the other
 hand, one can form the category $\hat{C}_{/S}$.
@@ -147,9 +139,9 @@ morphism into `hS`".
 
 **(i)** *Construction of $\alpha S : \hat{C}/hS \to \hat{C}_{/S}$.*
 
-Let first $H : F \to hS$ be an object of $\hat{C}/hS$. We must define a functor $\alpha S(H)$ on $C/S$. Let first
-$f : T \to S$ be an object of $C/S$; we define $\alpha S(H)(f)$ as the inverse image of $f \in hS(T)$ by the map
-$H(T) : F(T) \to hS(T)$.[^N.D.E-I-10]
+Let first $H : F \to hS$ be an object of $\hat{C}/hS$. We must define a functor $\alpha S(H)$ on $C/S$. Let first $f : T
+\to S$ be an object of $C/S$; we define $\alpha S(H)(f)$ as the inverse image of $f \in hS(T)$ by the map $H(T) : F(T)
+\to hS(T)$.[^N.D.E-I-10]
 
 Next, let $u : f \to f'$ be an arrow of $C/S$; then $F(u) : F(T') \to F(T)$ induces a map from $\alpha S(H)(f')$ into
 $\alpha S(H)(f)$, which we denote $\alpha S(H)(u)$. One verifies at once that the maps
@@ -176,15 +168,11 @@ $\hat{C}/hS$:
 
 Then for every $f : T \to S$, the map $U(T) : F(T) \to F'(T)$ induces a map
 
-$$
-\alpha S(U)(f) :  \alpha S(H)(f) \to \alpha S(H')(f),
-$$
+$$ \alpha S(U)(f) : \alpha S(H)(f) \to \alpha S(H')(f), $$
 
 which defines a morphism of functors
 
-$$
-\alpha S(U) :  \alpha S(H) \to \alpha S(H').
-$$
+$$ \alpha S(U) : \alpha S(H) \to \alpha S(H'). $$
 
 One verifies easily that the maps
 
@@ -212,16 +200,12 @@ which defines a functor $\beta S(G)$ on $C$, equipped with an obvious projection
 The equivalence $\alpha S$ commutes with the functors $\Gamma$. In other words, if $H : F \to hS$ is an object of
 $\hat{C}/hS$ and $\alpha S(H)$ the corresponding object of $\hat{C}_{/S}$, one has
 
-$$
-\Gamma(\alpha S(H)) \simeq \Gamma(H) \simeq \Gamma(F/hS).
-$$
+$$ \Gamma(\alpha S(H)) \simeq \Gamma(H) \simeq \Gamma(F/hS). $$
 
-The equivalence $\alpha S$ commutes with the functors $h$, i.e. if $f : T \to S$ is an object of $C/S$, then
-$hf : hT \to hS$ is an object of $\hat{C}/hS$ whose transform by $\alpha S$ is nothing other than $h_{C/S}(f)$, where
+The equivalence $\alpha S$ commutes with the functors $h$, i.e. if $f : T \to S$ is an object of $C/S$, then $hf : hT
+\to hS$ is an object of $\hat{C}/hS$ whose transform by $\alpha S$ is nothing other than $h_{C/S}(f)$, where
 
-$$
-h_{C/S} : C/S \to \hat{C}_{/S}
-$$
+$$ h_{C/S} : C/S \to \hat{C}_{/S} $$
 
 is the canonical functor.[^N.D.E-I-11] As a consequence:
 
@@ -252,16 +236,12 @@ where $\alpha_{S/hT}$ denotes (provisionally) the restriction (cf. 1.6) of the f
 
 For every $S \in Ob(C)$, one has a canonical functor
 
-$$
-iS : C/S \to C
-$$
+$$ iS : C/S \to C $$
 
-defined by $iS(f) = T$ if $f$ is the arrow $T \to S$. If $f : T \to S$ is an object of $C/S$, one denotes by
-$i_{T/S} = i_{f}$ the functor:
+defined by $iS(f) = T$ if $f$ is the arrow $T \to S$. If $f : T \to S$ is an object of $C/S$, one denotes by $i_{T/S} =
+i_{f}$ the functor:
 
-$$
-i_{T/S} : (C/S)/T \to C/S,
-$$
+$$ i_{T/S} : (C/S)/T \to C/S, $$
 
 and one has the commutative diagram:
 
@@ -278,9 +258,7 @@ that is, identifying $(C/S)/T$ with $C/T$ as we shall do henceforth,
 
 <!-- original page 7 -->
 
-$$
-iS \circ i_{T/S} = iT.
-$$
+$$ iS \circ i_{T/S} = iT. $$
 
 In the same way, if one identifies $C$ and $C/e$ when $C$ has a final object $e$, then $i_{S/e} : C/S \to C/e$ is
 identified with `iS`.
@@ -306,15 +284,11 @@ pS(X) = XS    and    p_{T/S}(Y) = YT.
 
 The functor `iS` defines a functor (restriction)
 
-$$
-i*_{S} : \hat{C} \to \hat{C}_{/S};
-$$
+$$ i*_{S} : \hat{C} \to \hat{C}_{/S}; $$
 
 one denotes $FS = i*_{S}(F) = F \circ iS$. One has obviously
 
-$$
-i*_{T/S} \circ i*_{S} = i*_{T},
-$$
+$$ i*_{T/S} \circ i*_{S} = i*_{T}, $$
 
 that is, for every functor $F \in Ob(\hat{C})$,
 
@@ -327,9 +301,7 @@ The notation requires a justification, which is the following:
 **Proposition 1.6.1.** *For the functor $(hX)S : (C/S)^{\circ} \to (Ens)$ to be representable, it is necessary and
 sufficient that the product $X \times S$ exist. One then has*
 
-$$
-(hX)S \simeq h_{XS}.
-$$
+$$ (hX)S \simeq h_{XS}. $$
 
 <!-- label: III.I.1.6.1 -->
 
@@ -351,9 +323,7 @@ which renders both of the preceding interpretations. Note that one has
 
 in particular
 
-$$
-\Gamma(XS) \simeq \operatorname{Hom}(S, X).
-$$
+$$ \Gamma(XS) \simeq \operatorname{Hom}(S, X). $$
 
 ### 1.7.0.
 
@@ -366,13 +336,11 @@ from $(V, \rho)$ to $(V', \rho')$ is
 the datum of a $C$-morphism $f : V \to V'$ such that $\rho' \circ f = \rho$ (i.e. $E(f)(\rho') = \rho$). Denote by $L$
 the functor
 
-$$
-\lim\to_{(V,\rho)\in C_{E}} hV,
-$$
+$$ \lim\to_{(V,\rho)\in C_{E}} hV, $$
 
-i.e. for every $S \in Ob(C)$, $L(S) = \lim\to_{(V,\rho)} hV(S)$ is the set of equivalence classes of triples
-$(V, \rho, v)$, where $v : S \to V$ is a $C$-morphism, and where one identifies $(V, \rho, v)$ with
-$(V', \rho', f \circ v)$ for every $C$-morphism $f : V \to V'$ such that $\rho' \circ f = \rho$.
+i.e. for every $S \in Ob(C)$, $L(S) = \lim\to_{(V,\rho)} hV(S)$ is the set of equivalence classes of triples $(V, \rho,
+v)$, where $v : S \to V$ is a $C$-morphism, and where one identifies $(V, \rho, v)$ with $(V', \rho', f \circ v)$ for
+every $C$-morphism $f : V \to V'$ such that $\rho' \circ f = \rho$.
 
 Then the map $\phi_{E}(S)$ which to the class of $(V, \rho, v)$ associates the element $\rho \circ v$ of $E(S)$ is well
 defined, and defines a morphism of functors
@@ -384,10 +352,10 @@ defined, and defines a morphism of functors
 **Lemma.** *$\phi_{E}$ is an isomorphism.*
 
 Indeed, let $S \in Ob(C)$. Every $x \in E(S)$ is the image under $\phi_{E}(S)$ of the triple $(S, x, id_{S})$; this
-shows that $\phi_{E}(S)$ is surjective. On the other hand, let $\ell_{1} = (V_{1}, \rho_{1}, v_{1})$ and
-$\ell_{2} = (V_{2}, \rho_{2}, v_{2})$ be two elements of $L(S)$ having the same image in $E(S)$; set
-$\gamma = \rho_{1} \circ v_{1} = \rho_{2} \circ v_{2}$. Then $\ell_{1}$ and $\ell_{2}$ are both equal, in $L(S)$, to the
-class of the triple $(S, \gamma, id_{S})$. This shows that $\phi_{E}(S)$ is injective.
+shows that $\phi_{E}(S)$ is surjective. On the other hand, let $\ell_{1} = (V_{1}, \rho_{1}, v_{1})$ and $\ell_{2} =
+(V_{2}, \rho_{2}, v_{2})$ be two elements of $L(S)$ having the same image in $E(S)$; set $\gamma = \rho_{1} \circ v_{1}
+= \rho_{2} \circ v_{2}$. Then $\ell_{1}$ and $\ell_{2}$ are both equal, in $L(S)$, to the class of the triple $(S,
+\gamma, id_{S})$. This shows that $\phi_{E}(S)$ is injective.
 
 **Corollary.** *For every object $F$ of `Ĉ`, one has*
 
@@ -425,8 +393,8 @@ We shall show that, for every object $E$ of `Ĉ`, one has
 Hom(E, Hom(F, G)) ≅ Hom(E × F, G).
 ```
 
-Let $\phi : E \times F \to G$; we must associate to it a morphism of $E$ into $\operatorname{Hom}(F, G)$. So let
-$S' \to S$ be an arrow of $C$. One has maps
+Let $\phi : E \times F \to G$; we must associate to it a morphism of $E$ into $\operatorname{Hom}(F, G)$. So let $S' \to
+S$ be an arrow of $C$. One has maps
 
 ```text
 E(S) × F(S′) → E(S′) × F(S′) ──φ(S′)──→ G(S′).
@@ -462,9 +430,9 @@ nothing other than the definition of the functor $\operatorname{Hom}(F, G)$. On 
 in $E$ transform direct limits into inverse limits. Finally, by Lemma 1.7.0, every object $E$ of `Ĉ` is isomorphic to
 the direct limit of the `hX`, where $X$ runs over the category `C_E`. This proves (a).
 
-[^N.D.E-I-15-alt] Let us sketch a direct proof of (a). To every
-$\theta \in \operatorname{Hom}(E, \operatorname{Hom}(F, G))$, one associates the element $\phi_{\theta}$ of
-$\operatorname{Hom}(E \times F, G)$ defined as follows. For every $S \in Ob(C)$, one has a map
+[^N.D.E-I-15-alt] Let us sketch a direct proof of (a). To every $\theta \in \operatorname{Hom}(E, \operatorname{Hom}(F,
+G))$, one associates the element $\phi_{\theta}$ of $\operatorname{Hom}(E \times F, G)$ defined as follows. For every $S
+\in Ob(C)$, one has a map
 
 ```text
 θ(S) : E(S) → Hom(F × S, G),
@@ -478,10 +446,10 @@ obtains a morphism:
 θ(S)(e) ∘ (f × id_S) : S → G,
 ```
 
-i.e. an element $\phi_{\theta}(S)(e, f)$ of $G(S)$. One verifies easily that the correspondence
-$S \mapsto \phi_{\theta}(S)$ is functorial in $S$, hence defines a morphism $\phi_{\theta}$ from $E \times F$ to $G$. We
-leave to the reader the verification that the maps $\theta \mapsto \phi_{\theta}$ and $\phi \mapsto \theta_{\phi}$ are
-mutually inverse bijections.
+i.e. an element $\phi_{\theta}(S)(e, f)$ of $G(S)$. One verifies easily that the correspondence $S \mapsto
+\phi_{\theta}(S)$ is functorial in $S$, hence defines a morphism $\phi_{\theta}$ from $E \times F$ to $G$. We leave to
+the reader the verification that the maps $\theta \mapsto \phi_{\theta}$ and $\phi \mapsto \theta_{\phi}$ are mutually
+inverse bijections.
 
 <!-- original page 10 -->
 
@@ -558,18 +526,16 @@ Hom(F, G) × Hom(G, F) → End(F) × End(G).
 On the other hand, the identity morphism of $F$ is an element of $\operatorname{End}(F)$ and therefore defines a
 morphism $e \to \operatorname{End}(F)$. Doing the same with $G$ and forming the product, one finds a morphism
 
-$$
-e \to \operatorname{End}(F) \times \operatorname{End}(G).
-$$
+$$ e \to \operatorname{End}(F) \times \operatorname{End}(G). $$
 
 It is then immediate that the fiber product of $e$ and of $\operatorname{Hom}(F, G) \times \operatorname{Hom}(G, F)$
 over $\operatorname{End}(F) \times \operatorname{End}(G)$ is isomorphic to $Isom(F, G)$.
 
 <!-- label: III.I.1.7.3 -->
 
-All these definitions apply in particular to the case where $F = hX, G = hY$. In the case where
-$\operatorname{Hom}(hX, hY)$ is representable by an object of $C$, one denotes this object by
-$\operatorname{Hom}(X, Y)$. It has the following property: if $Z \times X$ exists, then
+All these definitions apply in particular to the case where $F = hX, G = hY$. In the case where $\operatorname{Hom}(hX,
+hY)$ is representable by an object of $C$, one denotes this object by $\operatorname{Hom}(X, Y)$. It has the following
+property: if $Z \times X$ exists, then
 
 ```text
 Hom(Z, Hom(X, Y)) ≃ Hom(Z × X, Y).
@@ -613,15 +579,11 @@ from `(Ens)` to $C/S$.
 
 [^N.D.E-I-18] If $S' \to S$ is an arrow of $C$, one has, since direct sums commute with base change,
 
-$$
-E_{S'} = (ES)_{S'}.
-$$
+$$ E_{S'} = (ES)_{S'}. $$
 
 In particular, if $C$ has a final object $e$, one has
 
-$$
-ES = (Ee)_{S}.
-$$
+$$ ES = (Ee)_{S}. $$
 
 <!-- original page 12 -->
 
@@ -663,8 +625,8 @@ $(\ast)$ *is cartesian.*
 (This is the case for the category of schemes.)[^N.D.E-I-19] Then the functor $E \mapsto ES$ commutes with finite
 inverse limits.
 
-Indeed, taking $(\times)$ into account, it suffices to see that $E \mapsto ES$ commutes with fiber products. Let
-$u : E \to G$ and $v : F \to G$ be two maps of sets. Since in $C$ direct sums commute with base change, one has
+Indeed, taking $(\times)$ into account, it suffices to see that $E \mapsto ES$ commutes with fiber products. Let $u : E
+\to G$ and $v : F \to G$ be two maps of sets. Since in $C$ direct sums commute with base change, one has
 
 ```text
 (1)    FS ×_{GS} ES ≅ ⨆_{f∈F} S_f ×_{GS} ES ≅ ⨆_{f∈F, x∈E} S_f ×_{GS} S_x.
@@ -704,9 +666,7 @@ FS ×_{GS} ES ≅ ⨆_{F ×_G E} S = (F ×_G E)_S.
 
 An object of the form `ES` will be called a *constant object*. Note that one has a morphism functorial in $E$:
 
-$$
-E \to \Gamma(ES/S)
-$$
+$$ E \to \Gamma(ES/S) $$
 
 which associates to each $i \in E$ the section of `ES` over $S$ defined by the isomorphism of $S$ onto $S_{i}$. Suppose
 condition $(\ast)$ is satisfied for every object $S$ of $C$; then the morphism $E \to \Gamma(ES/S)$ is a monomorphism
@@ -726,11 +686,11 @@ first treat one example: the case of groups.
 
 We retain the notations of the preceding paragraph.
 
-**Definition 2.1.1.** *Let $G \in Ob(\hat{C})$. By a* `Ĉ`-group structure *on $G$, we mean the datum, for every
-$S \in Ob(C)$, of a group structure on the set $G(S)$, in such a way that for every arrow $f : S' \to S''$ of $C$, the
-map $G(f) : G(S'') \to G(S')$ is a group homomorphism. If $G$ and $H$ are two `Ĉ`-groups, by a* morphism of `Ĉ`-groups
-*from $G$ into $H$ we mean any morphism $u \in \operatorname{Hom}(G, H)$ such that for every $S \in Ob(C)$, the map of
-sets $u(S) : G(S) \to H(S)$ is a group homomorphism.*
+**Definition 2.1.1.** *Let $G \in Ob(\hat{C})$. By a* `Ĉ`-group structure *on $G$, we mean the datum, for every $S \in
+Ob(C)$, of a group structure on the set $G(S)$, in such a way that for every arrow $f : S' \to S''$ of $C$, the map
+$G(f) : G(S'') \to G(S')$ is a group homomorphism. If $G$ and $H$ are two `Ĉ`-groups, by a* morphism of `Ĉ`-groups *from
+$G$ into $H$ we mean any morphism $u \in \operatorname{Hom}(G, H)$ such that for every $S \in Ob(C)$, the map of sets
+$u(S) : G(S) \to H(S)$ is a group homomorphism.*
 
 <!-- label: III.I.2.1.1 -->
 
@@ -771,10 +731,10 @@ A subobject $H$ of $G$ such that, for every $S \in Ob(C)$, $H(S)$ is a subgroup 
 structure induced by that of $G$: it is the only one for which the monomorphism $H \to G$ is a morphism of `Ĉ`-groups.
 The `Ĉ`-group $H$ endowed with this structure is called a *sub-`Ĉ`-group of $G$*.
 
-If $G$ and $H$ are two `Ĉ`-groups, the product $G \times H$ is endowed with an obvious `Ĉ`-group structure: for every
-$S \in Ob(C)$, one endows $G(S) \times H(S)$ with the product group structure of the group structures given on $G(S)$
-and $H(S)$. The `Ĉ`-group $G \times H$ endowed with this structure will be called the *product `Ĉ`-group* of $G$ and $H$
-(it is indeed the product in the category of `Ĉ`-groups).
+If $G$ and $H$ are two `Ĉ`-groups, the product $G \times H$ is endowed with an obvious `Ĉ`-group structure: for every $S
+\in Ob(C)$, one endows $G(S) \times H(S)$ with the product group structure of the group structures given on $G(S)$ and
+$H(S)$. The `Ĉ`-group $G \times H$ endowed with this structure will be called the *product `Ĉ`-group* of $G$ and $H$ (it
+is indeed the product in the category of `Ĉ`-groups).
 
 If $G$ is a `Ĉ`-group, then for every $S \in Ob(C)$, `GS` is a $\hat{C}_{/S}$-group. If $G$ and $H$ are two `Ĉ`-groups,
 one defines the object $\operatorname{Hom}_{\hat{C}-Gr.}(G, H)$ of `Ĉ` by:
@@ -795,10 +755,9 @@ One defines similarly the objects
 Isom_{Ĉ-Gr.}(G, H),    End_{Ĉ-Gr.}(G),    Aut_{Ĉ-Gr.}(G).
 ```
 
-**Definition 2.1.2.** *Let $G \in Ob(C)$. By a* $C$-group structure *on $G$, we mean a `Ĉ`-group structure on
-$hG \in Ob(\hat{C})$. By a* morphism of the $C$-group $G$ into the $C$-group $H$, *we mean an element
-$u \in \operatorname{Hom}(G, H) \simeq \operatorname{Hom}(hG, hH)$ which defines a morphism of `Ĉ`-groups from `hG` into
-`hH`.*
+**Definition 2.1.2.** *Let $G \in Ob(C)$. By a* $C$-group structure *on $G$, we mean a `Ĉ`-group structure on $hG \in
+Ob(\hat{C})$. By a* morphism of the $C$-group $G$ into the $C$-group $H$, *we mean an element $u \in
+\operatorname{Hom}(G, H) \simeq \operatorname{Hom}(hG, hH)$ which defines a morphism of `Ĉ`-groups from `hG` into `hH`.*
 
 <!-- label: III.I.2.1.2 -->
 
@@ -824,21 +783,21 @@ of species `(T)` on $n$ objects $F_{1}, \cdots, F_{n}$ of `Ĉ`":
 
 <!-- original page 16 -->
 
-such a structure will be the datum, for each $S$ of $C$, of a structure of species `(T)` on the sets
-$F_{1}(S), \cdots, F_{n}(S)$ in such a way that for every arrow $S' \to S''$ of $C$, the family of maps
-$(F_{i}(S'')) \to (F_{i}(S'))$ is a polyhomomorphism for the species of structure `(T)`. One defines similarly the
-morphisms of the species of structure `(T)`, whence a category $(\hat{C} \times \hat{C} \cdots \times \hat{C})^{(T)}$.
-The fully faithful functor $(h \times h \times \cdots \times h)$ then allows one to define by inverse image the category
-$(C \times C \times \cdots \times C)^{(T)}$, and then, as it commutes with inverse limits, to transport to it all the
-properties, notions, and notations of a functorial kind introduced in `Ĉ`. Suppose now that in $C$ fiber products exist,
-and let `(T)` be a species of algebraic structure defined by the datum of certain morphisms between cartesian products
-satisfying axioms consisting of certain commutativities of diagrams constructed using the preceding arrows. A structure
-of species `(T)` on a family of objects of $C$ will therefore be defined by certain morphisms between cartesian products
-satisfying certain commutation conditions. It follows that if $C$ and $C'$ are two categories possessing products and
-$f : C \to C'$ is a functor commuting with products, then for every family of objects $(F_{i})$ of $C$ endowed with a
-structure of species `(T)`, the family $(f(F_{i}))$ of objects of $C'$ will thereby also be endowed with a structure of
-species `(T)`. Every $C$-group will be transformed into a $C'$-group, every pair ($C$-ring, $C$-module over this
-$C$-ring) into an analogous pair in $C'$, etc.
+such a structure will be the datum, for each $S$ of $C$, of a structure of species `(T)` on the sets $F_{1}(S), \cdots,
+F_{n}(S)$ in such a way that for every arrow $S' \to S''$ of $C$, the family of maps $(F_{i}(S'')) \to (F_{i}(S'))$ is a
+polyhomomorphism for the species of structure `(T)`. One defines similarly the morphisms of the species of structure
+`(T)`, whence a category $(\hat{C} \times \hat{C} \cdots \times \hat{C})^{(T)}$. The fully faithful functor $(h \times h
+\times \cdots \times h)$ then allows one to define by inverse image the category $(C \times C \times \cdots \times
+C)^{(T)}$, and then, as it commutes with inverse limits, to transport to it all the properties, notions, and notations
+of a functorial kind introduced in `Ĉ`. Suppose now that in $C$ fiber products exist, and let `(T)` be a species of
+algebraic structure defined by the datum of certain morphisms between cartesian products satisfying axioms consisting of
+certain commutativities of diagrams constructed using the preceding arrows. A structure of species `(T)` on a family of
+objects of $C$ will therefore be defined by certain morphisms between cartesian products satisfying certain commutation
+conditions. It follows that if $C$ and $C'$ are two categories possessing products and $f : C \to C'$ is a functor
+commuting with products, then for every family of objects $(F_{i})$ of $C$ endowed with a structure of species `(T)`,
+the family $(f(F_{i}))$ of objects of $C'$ will thereby also be endowed with a structure of species `(T)`. Every
+$C$-group will be transformed into a $C'$-group, every pair ($C$-ring, $C$-module over this $C$-ring) into an analogous
+pair in $C'$, etc.
 
 In particular, let $C$ be a category satisfying the conditions of 1.8;[^N.D.E-I-21] the functor $E \mapsto ES$ defined
 in *loc. cit.* commutes with finite inverse limits; it therefore transforms group into $S$-group (i.e. $C/S$-group),
@@ -874,9 +833,7 @@ $\mu$ defines a morphism $G \to \operatorname{End}(E)$, and it is immediate that
 $\operatorname{Aut}(E)$ and is a morphism of `Ĉ`-groups. Consequently: to give on $E$ a structure of object with
 `Ĉ`-operator group $G$ is equivalent to giving a morphism of `Ĉ`-groups
 
-$$
-\rho : G \to \operatorname{Aut}(E).
-$$
+$$ \rho : G \to \operatorname{Aut}(E). $$
 
 In particular, every element $g \in G(S)$ defines an automorphism $\rho(g)$ of the functor `ES`, that is, an
 automorphism of $E \times hS$ commuting with the projection $E \times hS \to hS$, and in particular an automorphism of
@@ -915,20 +872,20 @@ of $G$ defined by*
 
 <!-- label: III.I.2.3.3 -->
 
-**Scholium 2.3.3.1.**[^N.D.E-I-24] *In particular, let $x \in \Gamma(E)$, i.e. (cf. 1.2) a collection of elements
-$x_{S} \in E(S)$, $S \in Ob(C)$, such that for every arrow $f : S' \to S$ one has $E(f)(x_{S}) = x_{S'}$ (if $C$ has a
-final object `S_0` one has $\Gamma(E) = E(S_{0})$). Then $x$ defines a subfunctor of $E$, which we shall denote
-$\bar{x}$, and one has* $Norm_{G} \bar{x} = Centr_{G} \bar{x}$. *We shall denote by $Stab_{G}(x)$ and call* stabilizer
-of $x$ *this functor; for every $S \in Ob(C)$ one therefore has:*
+**Scholium 2.3.3.1.**[^N.D.E-I-24] *In particular, let $x \in \Gamma(E)$, i.e. (cf. 1.2) a collection of elements $x_{S}
+\in E(S)$, $S \in Ob(C)$, such that for every arrow $f : S' \to S$ one has $E(f)(x_{S}) = x_{S'}$ (if $C$ has a final
+object `S_0` one has $\Gamma(E) = E(S_{0})$). Then $x$ defines a subfunctor of $E$, which we shall denote $\bar{x}$, and
+one has* $Norm_{G} \bar{x} = Centr_{G} \bar{x}$. *We shall denote by $Stab_{G}(x)$ and call* stabilizer of $x$ *this
+functor; for every $S \in Ob(C)$ one therefore has:*
 
 ```text
 Stab_G(x)(S) = {g ∈ G(S) | ρ(g) x_S = x_S}.
 ```
 
-*Suppose that fiber products exist in $C$; if $G = hG$* (resp. $E = hE$), *where $G$ is a $C$-group (resp.
-$E \in Ob(C)$), and if $C$ has a final object `S_0`, so that $x$ is a morphism $S_{0} \to E$, then $Stab_{G}(x)$ is
-representable by the fiber product $G \times_{E} S_{0}$, where $G \to E$ is the composite of
-$id_{G} \times x : G = G \times S_{0} \to G \times E$ and of $\mu : G \times E \to E$.*
+*Suppose that fiber products exist in $C$; if $G = hG$* (resp. $E = hE$), *where $G$ is a $C$-group (resp. $E \in
+Ob(C)$), and if $C$ has a final object `S_0`, so that $x$ is a morphism $S_{0} \to E$, then $Stab_{G}(x)$ is
+representable by the fiber product $G \times_{E} S_{0}$, where $G \to E$ is the composite of $id_{G} \times x : G = G
+\times S_{0} \to G \times E$ and of $\mu : G \times E \to E$.*
 
 <!-- label: III.I.2.3.3.1 -->
 
@@ -1045,9 +1002,9 @@ of $G$ on $H$ such that if $S \in Ob(C)$, $g \in G(S)$ and $h \in H(S)$, one has
 
 **Definition 3.1.** *Let $O$ and $F$ be two objects of `Ĉ`. One says that $F$ is a* `Ĉ`-module *over the `Ĉ`-ring $O$,
 or in abbreviated form an* $O$-module, *if, for every $S \in Ob(C)$, one has endowed $O(S)$ with a ring structure and
-$F(S)$ with a structure of module over this ring in such a way that, for every arrow $S' \to S''$ of $C$,
-$O(S'') \to O(S')$ is a ring homomorphism and $F(S'') \to F(S')$ is a homomorphism of abelian groups compatible with
-this ring homomorphism.*
+$F(S)$ with a structure of module over this ring in such a way that, for every arrow $S' \to S''$ of $C$, $O(S'') \to
+O(S')$ is a ring homomorphism and $F(S'') \to F(S')$ is a homomorphism of abelian groups compatible with this ring
+homomorphism.*
 
 <!-- label: III.I.3.1 -->
 
@@ -1076,8 +1033,8 @@ and $(F_{i})_{i\in I}$ a directed family of submodules of $M$, then the inclusio
 ⋃_{i∈I} (F_i ∩ N) ⊂ (⋃_{i∈I} F_i) ∩ N
 ```
 
-is an equality: indeed, if $S \in Ob(C)$ and $x \in N(S) \cap \bigcup_{i} F_{i}(S)$, there exists $i \in I$ such that
-$x \in N(S) \cap F_{i}(S)$.
+is an equality: indeed, if $S \in Ob(C)$ and $x \in N(S) \cap \bigcup_{i} F_{i}(S)$, there exists $i \in I$ such that $x
+\in N(S) \cap F_{i}(S)$.
 
 **Proposition 3.1.2.**[^N.D.E-I-27] *Suppose the category $C$ is small, i.e. that $Ob(C)$ is a set. Then `(O-Mod.)` has
 a generator, and therefore enough injective objects.*
@@ -1091,8 +1048,8 @@ a direct sum of copies of $O(S')$ indexed by $\operatorname{Hom}(S', S)$, i.e.
 O_S(S′) = ⊕_{g : S′ → S} O(S′) g.
 ```
 
-For every morphism $f : S'' \to S'$, denoting $f*$ the ring homomorphism $O(S') \to O(S'')$, the morphism
-$O_{S}(f) : O_{S}(S') \to O_{S}(S'')$ sends each element `a g` of $O_{S}(S')$ (where
+For every morphism $f : S'' \to S'$, denoting $f*$ the ring homomorphism $O(S') \to O(S'')$, the morphism $O_{S}(f) :
+O_{S}(S') \to O_{S}(S'')$ sends each element `a g` of $O_{S}(S')$ (where
 
 <!-- original page 19 -->
 
@@ -1106,8 +1063,8 @@ morphism of $O$-modules $\tilde{x} : O_{S} \to F$ such that $\tilde{x}(1 id_{S})
 
 <!-- label: III.I.3.1.2.1 -->
 
-*Proof.* Let $\phi$ be a morphism of $O$-modules $O_{S} \to F$ such that $\phi(1 id_{S}) = x$. Let $g : S' \to S$ and
-$a \in O(S')$. The $O(S')$-linearity and the commutativity of the diagram
+*Proof.* Let $\phi$ be a morphism of $O$-modules $O_{S} \to F$ such that $\phi(1 id_{S}) = x$. Let $g : S' \to S$ and $a
+\in O(S')$. The $O(S')$-linearity and the commutativity of the diagram
 
 ```text
               φ
@@ -1186,16 +1143,12 @@ $F(S)$ defined by $g$ is an automorphism of its $O(S)$-module structure.*
 
 It amounts to the same thing to say that the morphism of `Ĉ`-groups
 
-$$
-\rho : G \to \operatorname{Aut}(F)
-$$
+$$ \rho : G \to \operatorname{Aut}(F) $$
 
 defined in 2.3 maps $G$ into the sub-`Ĉ`-group $\operatorname{Aut}_{O}(F)$ of $\operatorname{Aut}(F)$. To give a
 structure of $G$-$O$-module on the $O$-module $F$ is therefore to give a morphism of `Ĉ`-groups
 
-$$
-\rho : G \to \operatorname{Aut}_{O}(F).
-$$
+$$ \rho : G \to \operatorname{Aut}_{O}(F). $$
 
 One defines in a natural way the abelian group $\operatorname{Hom}_{G-O}(F, F')$, hence the additive category of
 $G$-$O$-modules denoted `(G-O-Mod.)`.
@@ -1311,16 +1264,12 @@ This remark applies *mutatis mutandis* to morphisms.
 
 Let $G_{a}$ be the functor from $(Sch)^{\circ}$ to `(Ens)` defined by
 
-$$
-G_{a}(S) = \Gamma(S, OS)
-$$
+$$ G_{a}(S) = \Gamma(S, OS) $$
 
 endowed with the $\hat{Sch}$-group structure defined by the additive group structure of the ring $\Gamma(S, OS)$. It is
 representable by an affine scheme, which we shall denote $G_{a}$, which is therefore a group scheme
 
-$$
-G_{a} = \operatorname{Spec} \mathbb{Z}[T].
-$$
+$$ G_{a} = \operatorname{Spec} \mathbb{Z}[T]. $$
 
 Indeed, `G_a(S) = Hom(S, G_a) = Hom_{Alg.}(ℤ[T], Γ(S, OS)) ≃ Γ(S, OS)`.
 
@@ -1335,9 +1284,7 @@ For every scheme $S$, one therefore has an $S$-group affine over $S$, denoted $G
 
 Let $G_{m}$ be the functor from $(Sch)^{\circ}$ to `(Ens)` defined by
 
-$$
-G_{m}(S) = \Gamma(S, OS)^{\times},
-$$
+$$ G_{m}(S) = \Gamma(S, OS)^{\times}, $$
 
 where $\Gamma(S, OS)^{\times}$ denotes the multiplicative group of invertible elements of the ring $\Gamma(S, OS)$,
 endowed with its natural $\hat{Sch}$-group structure. It is representable by an affine scheme denoted $G_{m}$
@@ -1377,8 +1324,8 @@ functorial in $X$. In particular, if $X'$ is a scheme and one is given morphisms
 $f \in O(X)$), then $f(x) = f \circ x$ is an element of $O(X') = \Gamma(X', O_{X'})$.
 
 **Definition.** *Let $\pi : M \to X$ be a morphism of $\hat{Sch}$, and let $OX = O \times X$. One says that $M$ is an
-`OX`-module if one has given, for every $X$-scheme $X'$, a structure of $O(X')$-module on
-$\operatorname{Hom}_{X}(X', M)$, functorial in $X'$.*
+`OX`-module if one has given, for every $X$-scheme $X'$, a structure of $O(X')$-module on $\operatorname{Hom}_{X}(X',
+M)$, functorial in $X'$.*
 
 This amounts to giving a law of $X$-abelian group $\mu : M \times_{X} M \to M$ and an "external law"
 
@@ -1386,11 +1333,11 @@ This amounts to giving a law of $X$-abelian group $\mu : M \times_{X} M \to M$ a
 O × M = OX ×_X M → M,    (f, m) ↦ f ⋅ m
 ```
 
-which is an $X$-morphism (i.e. $\pi(f \cdot m) = \pi(m)$) and which, for every $x \in X(S)$, endows
-$M(x) = {m \in M(S) | \pi(m) = x}$ with a structure of $O(S)$-module.
+which is an $X$-morphism (i.e. $\pi(f \cdot m) = \pi(m)$) and which, for every $x \in X(S)$, endows $M(x) = {m \in M(S)
+| \pi(m) = x}$ with a structure of $O(S)$-module.
 
-In this case, for every $Y \in Ob \hat{Sch}_{/X}$ (not necessarily representable),
-$\operatorname{Hom}_{X}(Y, M) = \Gamma(M_{Y}/Y)$ is an $O(Y)$-module, functorially in $Y$.
+In this case, for every $Y \in Ob \hat{Sch}_{/X}$ (not necessarily representable), $\operatorname{Hom}_{X}(Y, M) =
+\Gamma(M_{Y}/Y)$ is an $O(Y)$-module, functorially in $Y$.
 
 ### 4.4. Diagonalizable groups
 
@@ -1408,15 +1355,11 @@ D(M)(S) = Hom_{groups}(M, G_m(S)) ≃ Hom_{S-Gr.}(MS, G_{m,S}).
 It is a commutative $\hat{Sch}$-group representable by a group scheme that one will denote $D(M)$; one will therefore
 have by definition:
 
-$$
-D(M) \simeq \operatorname{Hom}_{(Sch)-Gr.}(M_{\mathbb{Z}}, G_{m}).
-$$
+$$ D(M) \simeq \operatorname{Hom}_{(Sch)-Gr.}(M_{\mathbb{Z}}, G_{m}). $$
 
 Set in fact
 
-$$
-D(M) = \operatorname{Spec} \mathbb{Z}[M],
-$$
+$$ D(M) = \operatorname{Spec} \mathbb{Z}[M], $$
 
 where $\mathbb{Z}[M]$ is the algebra of the group $M$ over the ring $\mathbb{Z}$; one has
 
@@ -1444,15 +1387,11 @@ It is associated to the `OS`-bialgebra `OS[M]`, endowed with the diagonal map an
 
 If $f : M \to N$ is a homomorphism of commutative groups, one defines in an obvious manner a morphism of $S$-groups
 
-$$
-D_{S}(f) : D_{S}(N) \to D_{S}(M),
-$$
+$$ D_{S}(f) : D_{S}(N) \to D_{S}(M), $$
 
 whence a functor
 
-$$
-D_{S} : M \mapsto D_{S}(M)
-$$
+$$ D_{S} : M \mapsto D_{S}(M) $$
 
 from the category of abelian groups to the category of $S$-groups affine over $S$, which one may also define as the
 composite of the functor $M \mapsto MS$ and of the functor $MS \mapsto \operatorname{Hom}_{S-Gr.}(MS, G_{m,S})$. This
@@ -1461,8 +1400,8 @@ functor commutes with extensions of the base.
 <!-- original page 28 -->
 
 An $S$-group isomorphic to a group of the form $D_{S}(M)$ is said to be *diagonalizable*. Note that the elements of $M$
-are interpreted as certain characters of $D_{S}(M)$, that is, certain elements of
-$\operatorname{Hom}_{S-Gr.}(D_{S}(M), G_{m,S})$. (Confer VIII 1).
+are interpreted as certain characters of $D_{S}(M)$, that is, certain elements of $\operatorname{Hom}_{S-Gr.}(D_{S}(M),
+G_{m,S})$. (Confer VIII 1).
 
 #### 4.4.4.
 
@@ -1474,9 +1413,7 @@ D(ℤ) = G_m    and    D(ℤ^r) = (G_m)^r.
 
 One sets
 
-$$
-\mu_{n} = D(\mathbb{Z}/n\mathbb{Z}),
-$$
+$$ \mu_{n} = D(\mathbb{Z}/n\mathbb{Z}), $$
 
 and calls it the *group of $n$-th roots of unity*. Indeed, one has
 
@@ -1487,9 +1424,7 @@ and calls it the *group of $n$-th roots of unity*. Indeed, one has
 The $S$-group $\mu_{n,S}$ corresponds to the `OS`-algebra $OS[T]/(T^{n} - 1)$. Suppose in particular that $S$ is the
 spectrum of a field $k$ of characteristic $p = n$. Setting $T - 1 = s$, one finds
 
-$$
-k[T]/(T^{p} - 1) = k[s]/(s^{p}),
-$$
+$$ k[T]/(T^{p} - 1) = k[s]/(s^{p}), $$
 
 which shows that the underlying topological space of $\mu_{p,k}$ reduces to a point, the local ring of this point being
 the artinian $k$-algebra $k[s]/(s^{p})$. (In the same vein, let us note that the $S$-schemes $G_{a,S}, G_{m,S}, OS$ are
@@ -1509,9 +1444,9 @@ $O_{n}$, etc.). One defines for example $GL_{n}$ as representing the functor $GL
 GL_n(S) = GL(n, Γ(S, OS)) = Aut_{OS}(OS^n).
 ```
 
-One can construct it for example as the open subscheme of $\operatorname{Spec} \mathbb{Z}[T_{ij}]$
-($1 \leqslant i, j \leqslant n$) defined by the function $f = det((T_{ij})^{n}_{i,j=1})$, that is,
-$\operatorname{Spec} \mathbb{Z}[T_{ij}, f^{-1}]$.
+One can construct it for example as the open subscheme of $\operatorname{Spec} \mathbb{Z}[T_{ij}]$ ($1 \leqslant i, j
+\leqslant n$) defined by the function $f = det((T_{ij})^{n}_{i,j=1})$, that is, $\operatorname{Spec} \mathbb{Z}[T_{ij},
+f^{-1}]$.
 
 ### 4.6. Functor-modules in the category of schemes
 
@@ -1530,9 +1465,9 @@ W(F)(S′) = Γ(S′, F ⊗_{OS} O_{S′})
 
 <!-- label: III.I.4.6.1 -->
 
-Then $V(F)$ and $W(F)$ are endowed in an obvious manner with a structure of `OS`-modules (recall that
-$OS(S') = \Gamma(S', O_{S'}) = W(OS)(S')$), in such a way that one has in fact defined two functors $V$ and $W$ from the
-category of `OS`-modules to the category of `OS`-modules, with $V$ contravariant and $W$ covariant.
+Then $V(F)$ and $W(F)$ are endowed in an obvious manner with a structure of `OS`-modules (recall that $OS(S') =
+\Gamma(S', O_{S'}) = W(OS)(S')$), in such a way that one has in fact defined two functors $V$ and $W$ from the category
+of `OS`-modules to the category of `OS`-modules, with $V$ contravariant and $W$ covariant.
 
 We restrict ourselves in the rest of this paragraph to the case where the `OS`-modules in question are quasi-coherent,
 that is, we consider $V$ and $W$ as
@@ -1541,10 +1476,7 @@ that is, we consider $V$ and $W$ as
 
 functors from the category `(OS-Mod.q.c.)` of quasi-coherent `OS`-modules to the category of `OS`-modules
 
-$$
-V : (OS-Mod.q.c.)^{\circ} \to (OS-Mod.),
-W : (OS-Mod.q.c.) \to (OS-Mod.).
-$$
+$$ V : (OS-Mod.q.c.)^{\circ} \to (OS-Mod.), W : (OS-Mod.q.c.) \to (OS-Mod.). $$
 
 **Remark 4.6.1.1.**[^N.D.E-I-31] *The reader will note that, in what follows, all the propositions involving only the
 functor $W$ are valid for arbitrary `OS`-modules, not necessarily quasi-coherent.*
@@ -1600,9 +1532,7 @@ This follows immediately from 4.6.2 (i) and (ii).
 representable by an $S$-scheme affine over $S$ which one denotes $V(F)$ and calls the* vector fibration[^N.D.E-I-33]
 *defined by $F$:*
 
-$$
-V(F) = \operatorname{Spec}(S(F)),
-$$
+$$ V(F) = \operatorname{Spec}(S(F)), $$
 
 *where $S(F)$ denotes the symmetric algebra of the `OS`-module $F$.[^N.D.E-I-34]*
 
@@ -1632,8 +1562,8 @@ Hom_{OX}(W(F′)_X, W(F)_X) ≃ Hom_{OX}(W(F′ ⊗ O_X), W(F ⊗ O_X))
 Hom_{OX}(F′ ⊗ O_X, F ⊗ O_X) = Hom_{OS}(F′, π_*(π*(F))),
 ```
 
-where one denotes $\pi : X \to S$ the structural morphism. But, by EGA II, 1.4.7, one has
-$\pi_{*}(\pi*(F)) \simeq F \otimes A$, which completes the proof.
+where one denotes $\pi : X \to S$ the structural morphism. But, by EGA II, 1.4.7, one has $\pi_{*}(\pi*(F)) \simeq F
+\otimes A$, which completes the proof.
 
 **Corollary 4.6.4.1.** *One has a canonical isomorphism*
 
@@ -1680,8 +1610,8 @@ W(Hom_{OS}(F, F′))(S′) = Γ(S′, Hom_{OS}(F, F′) ⊗ O_{S′}) = Hom_{O_{
 But the second member is indeed isomorphic to $\operatorname{Hom}_{OS}(W(F), W(F'))(S')$ and to
 $\operatorname{Hom}_{OS}(V(F'), V(F))(S')$, by 4.6.2 (i) and (ii).
 
-**Corollary 4.6.5.1.** *Let $F$ be an `OS`-module locally free of finite type. Set
-$F^{\vee} = \operatorname{Hom}_{OS}(F, OS)$. One has canonical isomorphisms:*
+**Corollary 4.6.5.1.** *Let $F$ be an `OS`-module locally free of finite type. Set $F^{\vee} =
+\operatorname{Hom}_{OS}(F, OS)$. One has canonical isomorphisms:*
 
 <!-- original page 33 -->
 
@@ -1694,9 +1624,9 @@ V(F^∨) ≃ Hom_{OS}(V(F), OS) ≃ W(F).
 
 One has finally the following proposition:
 
-**Proposition 4.6.6.** *Let $f : F \to F'$ be a morphism of `OS`-modules locally free of finite rank. For
-$W(f) : W(F) \to W(F')$ to be a monomorphism, it is necessary and sufficient that $f$ identify $F$ locally with a direct
-factor of $F'$.*
+**Proposition 4.6.6.** *Let $f : F \to F'$ be a morphism of `OS`-modules locally free of finite rank. For $W(f) : W(F)
+\to W(F')$ to be a monomorphism, it is necessary and sufficient that $f$ identify $F$ locally with a direct factor of
+$F'$.*
 
 <!-- label: III.I.4.6.6 -->
 
@@ -1717,9 +1647,7 @@ are quasi-coherent as `OS`-modules.*
 
 To give a structure of $G$-`OS`-module on $F$ is therefore, by 3.2, to give a morphism of $\hat{Sch}_{/S}$-groups
 
-$$
-\rho : hG \to \operatorname{Aut}_{OS}(W(F)).
-$$
+$$ \rho : hG \to \operatorname{Aut}_{OS}(W(F)). $$
 
 **Remark 4.7.1.0.**[^N.D.E-I-37] *Since by 4.6.2 one has an anti-isomorphism of $S$-functors in groups*
 
@@ -1727,11 +1655,11 @@ $$
 (†)    Aut_{OS}(W(F)) ≃ Aut_{OS}(V(F)),
 ```
 
-*one sees that it is equivalent to give a structure of `hG`-`OS`-module on $W(F)$ or on $V(F)$.* Indeed, let
-$\rho : hG \to \operatorname{Aut}_{OS}(W(F))$ be as above. For every $T \to S$ and $g \in G(T)$, denote by $\rho*(g)$
-the image of $\rho(g)$ by the anti-isomorphism `(†)`; one has therefore $\rho*(gh) = \rho*(h) \circ \rho*(g)$, i.e.
-$\rho*$ defines a structure of `hG`-`OS`-module "on the right" on $V(F)$. Setting $\rho^{\vee}(g) = \rho*(g^{-1})$, one
-obtains indeed a structure of `hG`-`OS`-module on $V(F)$, the datum of which is equivalent to that of $\rho$.
+*one sees that it is equivalent to give a structure of `hG`-`OS`-module on $W(F)$ or on $V(F)$.* Indeed, let $\rho : hG
+\to \operatorname{Aut}_{OS}(W(F))$ be as above. For every $T \to S$ and $g \in G(T)$, denote by $\rho*(g)$ the image of
+$\rho(g)$ by the anti-isomorphism `(†)`; one has therefore $\rho*(gh) = \rho*(h) \circ \rho*(g)$, i.e. $\rho*$ defines a
+structure of `hG`-`OS`-module "on the right" on $V(F)$. Setting $\rho^{\vee}(g) = \rho*(g^{-1})$, one obtains indeed a
+structure of `hG`-`OS`-module on $V(F)$, the datum of which is equivalent to that of $\rho$.
 
 <!-- label: III.I.4.7.1.0 -->
 
@@ -1763,9 +1691,9 @@ F^G(U) = W(F)^G(U) = {x ∈ F(U) | g ⋅ x_{S′} = x_{S′} for every S′ ─�
 where $x_{S'}$ denotes the image of $x$ in $\Gamma(S', f*(F)) = \Gamma(U, f_{*} f*(F))$.
 
 One should be careful that the natural morphism $W(F^{G}) \to W(F)^{G}$ is not in general an isomorphism. For example,
-if $S = \operatorname{Spec}(\mathbb{Z})$ and $G$ is the constant group $\mathbb{Z}/2\mathbb{Z} = {1, \tau}$ acting on
-$F = OS$ by $\tau \cdot 1 = -1$, one has $F^{G} = 0$ but, if $R$ is an `F_2`-algebra,
-$W(F)^{G}(\operatorname{Spec}(R)) = R$.
+if $S = \operatorname{Spec}(\mathbb{Z})$ and $G$ is the constant group $\mathbb{Z}/2\mathbb{Z} = {1, \tau}$ acting on $F
+= OS$ by $\tau \cdot 1 = -1$, one has $F^{G} = 0$ but, if $R$ is an `F_2`-algebra, $W(F)^{G}(\operatorname{Spec}(R)) =
+R$.
 
 <!-- label: III.I.4.7.1.2 -->
 
@@ -1774,9 +1702,7 @@ $W(F)^{G}(\operatorname{Spec}(R)) = R$.
 We suppose from now until the end of n° 4.7 that $G$ is affine over $S$.[^N.D.E-I-40] Then, by virtue of 4.6.4, the
 datum of a morphism of $S$-functors
 
-$$
-\rho : hG \to \operatorname{End}_{OS}(W(F))
-$$
+$$ \rho : hG \to \operatorname{End}_{OS}(W(F)) $$
 
 is equivalent to that of a morphism of `OS`-modules
 
@@ -1828,19 +1754,14 @@ $A$-comodules that are quasi-coherent as `OS`-modules. One has thus obtained:
 
 **Proposition 4.7.2.** *Let $G$ be an $S$-group affine over $S$. One has equivalences of categories:*
 
-$$
-(G-OS-Mod.) \cong (A(G)-Comod.)
-(G-OS-Mod.q.c.) \cong (A(G)-Comod.q.c.)
-$$
+$$ (G-OS-Mod.) \cong (A(G)-Comod.) (G-OS-Mod.q.c.) \cong (A(G)-Comod.q.c.) $$
 
 <!-- label: III.I.4.7.2 -->
 
-[^N.D.E-I-42] *If moreover $S = \operatorname{Spec}(\Lambda)$ is affine and if one denotes
-$\Lambda[G] = \Gamma(S, A(G))$, one has an equivalence of categories*
+[^N.D.E-I-42] *If moreover $S = \operatorname{Spec}(\Lambda)$ is affine and if one denotes $\Lambda[G] = \Gamma(S,
+A(G))$, one has an equivalence of categories*
 
-$$
-(A(G)-Comod.q.c.) \cong (\Lambda[G]-Comod.).
-$$
+$$ (A(G)-Comod.q.c.) \cong (\Lambda[G]-Comod.). $$
 
 [^N.D.E-I-43] Suppose moreover that $A = A(G)$ is a flat `OS`-module. Let $E$ be an $A$-comodule and $F$ a
 sub-`OS`-module of $E$. Since $A$ is flat over `OS`, one can identify $F \otimes A$ (resp. $F \otimes A \otimes A$) with
@@ -1848,8 +1769,8 @@ a sub-`OS`-module of $E \otimes A$ (resp. $E \otimes A \otimes A$). Suppose that
 then its restriction $\mu_{F} : F \to F \otimes A$ endows $F$ with a structure of $A$-comodule; one says that $F$ is a
 *subcomodule* of $E$. By passage to the quotient, $\mu_{E}$ defines a morphism of `OS`-modules $E/F \to E/F \otimes A$,
 which endows $E/F$ with a structure of $A$-comodule. If $f : E \to E'$ is a morphism of $A$-comodules, `Ker f` (resp.
-`Im f`) is a sub-$A$-comodule of $E$ (resp. $E'$), and $f$ induces an isomorphism of $A$-comodules:
-$E/Ker f \xrightarrow{\sim} Im f$. Moreover, if $E$ and $E'$ are quasi-coherent `OS`-modules, so are `Ker f` and `Im f`.
+`Im f`) is a sub-$A$-comodule of $E$ (resp. $E'$), and $f$ induces an isomorphism of $A$-comodules: $E/Ker f
+\xrightarrow{\sim} Im f$. Moreover, if $E$ and $E'$ are quasi-coherent `OS`-modules, so are `Ker f` and `Im f`.
 Consequently, `(A-Comod.)` and `(A-Comod.q.c.)` are abelian categories.
 
 **Corollary 4.7.2.1.** *Suppose that $G$ is affine and flat over $S$. Then the category `(G-OS-Mod.q.c.)` (resp.
@@ -1916,9 +1837,7 @@ of $G$-`OS`-modules.*
 
 Indeed, if $G = D_{S}(M)$, each $F_{i}$ is graded by the $(F_{i})_{m}$, and for each $m \in M$ the sequence
 
-$$
-0 \to (F_{1})_{m} \to (F_{2})_{m} \to (F_{3})_{m} \to 0
-$$
+$$ 0 \to (F_{1})_{m} \to (F_{2})_{m} \to (F_{3})_{m} \to 0 $$
 
 of `OS`-modules is split. The preceding proposition then entails the result.
 
@@ -1928,8 +1847,8 @@ of `OS`-modules is split. The preceding proposition then entails the result.
 
 ### 5.1. The standard complex
 
-[^N.D.E-I-44] Let $C$ be a category, $G$ a `Ĉ`-group, $O$ a `Ĉ`-ring, and $F$ a $G$-$O$-module. One sets, for
-$n \geqslant 0$,
+[^N.D.E-I-44] Let $C$ be a category, $G$ a `Ĉ`-group, $O$ a `Ĉ`-ring, and $F$ a $G$-$O$-module. One sets, for $n
+\geqslant 0$,
 
 ```text
 C^n(G, F) = Hom(G^n, F)    and    C^n(G, F) = Hom(G^n, F),
@@ -1974,8 +1893,8 @@ $\Gamma(O)$-modules) denoted $C*(G, F)$. One defines in the same way the complex
 C*(G, F) = Γ(C*(G, F)).
 ```
 
-One denotes by $H^{n}(G, F)$ (resp. $H^{n}(G, F)$) the groups (resp. the `Ĉ`-groups) of cohomology of the complex
-$C*(G, F)$ (resp. $C*(G, F)$).
+One denotes by $H^{n}(G, F)$ (resp. $H^{n}(G, F)$) the groups (resp. the `Ĉ`-groups) of cohomology of the complex $C*(G,
+F)$ (resp. $C*(G, F)$).
 
 One has in particular
 
@@ -1991,8 +1910,8 @@ and the action $\mu : G \times F \to F$ as follows: for every $f \in C^{n}(G, F)
 ∂f = μ ∘ (id_G × f) + ∑_{i=1}^{n} (-1)^i f ∘ (id_{G^{i-1}} × m × id_{G^{n-i}}) + (-1)^{n+1} f ∘ pr_{[1,n]},
 ```
 
-*where $pr_{[1,n]}$ denotes the projection of $G^{n+1} = G^{n} \times G$ onto $G^{n}$. Similarly, for every
-$S \in Ob(C)$ and $f \in C^{n}(G, F)(S) = C^{n}(GS, FS)$, one has*
+*where $pr_{[1,n]}$ denotes the projection of $G^{n+1} = G^{n} \times G$ onto $G^{n}$. Similarly, for every $S \in
+Ob(C)$ and $f \in C^{n}(G, F)(S) = C^{n}(GS, FS)$, one has*
 
 ```text
 ∂f = μ_S ∘ (id_{GS} × f) + ∑_{i=1}^{n} (-1)^i f ∘ (id_{GS^{i-1}} × m_S × id_{GS^{n-i}}) + (-1)^{n+1} f ∘ pr_{[1,n]_S},
@@ -2007,15 +1926,11 @@ $S \in Ob(C)$ and $f \in C^{n}(G, F)(S) = C^{n}(GS, FS)$, one has*
 [^N.D.E-I-46] Recall (cf. § 3) that `(G-O-Mod.)` is endowed with a structure of abelian category, defined "argument by
 argument"; thus,
 
-$$
-0 \to F' \to F \to F'' \to 0
-$$
+$$ 0 \to F' \to F \to F'' \to 0 $$
 
 is an exact sequence of $G$-$O$-modules if and only if the sequence of abelian groups
 
-$$
-0 \to F'(S) \to F(S) \to F''(S) \to 0
-$$
+$$ 0 \to F'(S) \to F(S) \to F''(S) \to 0 $$
 
 is exact, for every $S \in Ob(C)$.
 
@@ -2025,10 +1940,10 @@ is exact, for every $S \in Ob(C)$.
 of the left exact functors $H^{0}$ and $H^{0}$ are defined. We now propose to show that the functors $H^{n}$ (resp.
 $H^{n}$) are indeed the derived functors of $H^{0}$ (resp. $H^{0}$).
 
-**Definition 5.2.0.**[^N.D.E-I-48] *For every $O$-module $P$, one denotes by $E(P)$ the object
-$\operatorname{Hom}(G, P)$ of `Ĉ` endowed with the structure of $G$-$O$-module defined as follows: for every
-$S \in Ob(C)$ one has $\operatorname{Hom}(G, P)(S) = \operatorname{Hom}_{S}(GS, PS)$, and one makes $g \in G(S)$ and
-$a \in O(S)$ operate on $\phi \in \operatorname{Hom}_{S}(GS, PS)$ by the formulas*
+**Definition 5.2.0.**[^N.D.E-I-48] *For every $O$-module $P$, one denotes by $E(P)$ the object $\operatorname{Hom}(G,
+P)$ of `Ĉ` endowed with the structure of $G$-$O$-module defined as follows: for every $S \in Ob(C)$ one has
+$\operatorname{Hom}(G, P)(S) = \operatorname{Hom}_{S}(GS, PS)$, and one makes $g \in G(S)$ and $a \in O(S)$ operate on
+$\phi \in \operatorname{Hom}_{S}(GS, PS)$ by the formulas*
 
 ```text
 (g ⋅ φ)(h) = φ(hg)    and    (a ⋅ φ)(h) = a φ(h),
@@ -2036,9 +1951,7 @@ $a \in O(S)$ operate on $\phi \in \operatorname{Hom}_{S}(GS, PS)$ by the formula
 
 *for every $h \in G(S')$, $S' \to S$. Moreover, for every $\phi \in \operatorname{Hom}_{S}(GS, PS)$ one sets*
 
-$$
-\epsilon(\phi) = \phi(1) \in P(S)
-$$
+$$ \epsilon(\phi) = \phi(1) \in P(S) $$
 
 *(where `1` denotes the unit element of $G(S)$).*
 
@@ -2071,9 +1984,9 @@ Hom(G, P) → Hom(G_2 × G_1, P)
 
 <!-- label: III.I.5.2.0.1 -->
 
-**Lemma 5.2.0.2.**[^N.D.E-I-48] *(i) The functor $E$ is right adjoint to the forgetful functor
-$(G-O-Mod.) \to (O-Mod.)$; more precisely, $\epsilon : E \to Id$ induces for every $M \in (G-O-Mod.)$ and
-$P \in Ob(O-Mod.)$ a bijection*
+**Lemma 5.2.0.2.**[^N.D.E-I-48] *(i) The functor $E$ is right adjoint to the forgetful functor $(G-O-Mod.) \to
+(O-Mod.)$; more precisely, $\epsilon : E \to Id$ induces for every $M \in (G-O-Mod.)$ and $P \in Ob(O-Mod.)$ a
+bijection*
 
 ```text
 Hom_{G-O-Mod.}(M, E(P)) ⥲ Hom_{O-Mod.}(M, P)
@@ -2097,9 +2010,7 @@ $\operatorname{Hom}_{S}(GS, PS)$ defined by: for every $g \in G(S')$, $S' \to S$
 
 Then, for every $h \in G(S)$, one has $\phi_{f}(h m) = h \cdot f(m)$, i.e. $\phi_{f}$ is an element of
 
-$$
-\operatorname{Hom}_{G-O-Mod.}(M, E(P)).
-$$
+$$ \operatorname{Hom}_{G-O-Mod.}(M, E(P)). $$
 
 If $\phi \in \operatorname{Hom}_{G-O-Mod.}(M, E(P))$ and if one denotes, for every $m \in M(S)$, $f(m) = \phi(m)(1)$,
 then
@@ -2113,12 +2024,10 @@ i.e. $\phi_{f} = \phi$. Conversely, it is clear that $\phi_{f}(m)(1) = f(m)$. Th
 **Definition 5.2.0.3.** *Let $M$ be a $G$-$O$-module; the identity map of $M$ (considered as an $O$-module) corresponds
 by adjunction to the morphism of $G$-$O$-modules*
 
-$$
-\mu_{M} : M \to E(M)
-$$
+$$ \mu_{M} : M \to E(M) $$
 
-*such that for every $S \in Ob(C)$ and $m \in M(S)$, $\mu_{M}(m)$ is the morphism $GS \to MS$ defined by: for every
-$S' \to S$ and $g \in G(S')$, $\mu_{M}(m)(g) = g \cdot m_{S'} \in M(S')$.*
+*such that for every $S \in Ob(C)$ and $m \in M(S)$, $\mu_{M}(m)$ is the morphism $GS \to MS$ defined by: for every $S'
+\to S$ and $g \in G(S')$, $\mu_{M}(m)(g) = g \cdot m_{S'} \in M(S')$.*
 
 <!-- label: III.I.5.2.0.3 -->
 
@@ -2133,18 +2042,16 @@ Then, the functors $H^{n}(G, -)$ (resp. $H^{n}(G, -)$) are the derived functors 
 
 <!-- label: III.I.5.2.1 -->
 
-By virtue of the well-known general results,[^N.D.E-I-49] it suffices to verify that the $H^{n}(G, -)$ (resp.
-$H^{n}(G, -)$) form an effaceable cohomological functor in degrees `> 0`.
+By virtue of the well-known general results,[^N.D.E-I-49] it suffices to verify that the $H^{n}(G, -)$ (resp. $H^{n}(G,
+-)$) form an effaceable cohomological functor in degrees `> 0`.
 
 Let
 
-$$
-0 \to F' \to F \to F'' \to 0
-$$
+$$ 0 \to F' \to F \to F'' \to 0 $$
 
-be an exact sequence of $G$-$O$-modules, and let $S \in Ob(C)$. By hypothesis, $G$ is representable by an object
-$G \in Ob(C)$, and finite products exist in $C$; in particular $C$ has a final element $e$. Hence each $G^{n} \times hS$
-is representable by $G^{n} \times S$ (with $G^{0} = e$), and the sequence
+be an exact sequence of $G$-$O$-modules, and let $S \in Ob(C)$. By hypothesis, $G$ is representable by an object $G \in
+Ob(C)$, and finite products exist in $C$; in particular $C$ has a final element $e$. Hence each $G^{n} \times hS$ is
+representable by $G^{n} \times S$ (with $G^{0} = e$), and the sequence
 
 ```text
 0 → F′(G^n × S) → F(G^n × S) → F″(G^n × S) → 0
@@ -2180,9 +2087,9 @@ deduced from it by base change.[^N.D.E-I-50] Now, one defines for every $n \geqs
 σ : C^{n+1}(G, Hom(G, P)) → C^n(G, Hom(G, P))
 ```
 
-as follows. Let $f \in C^{n+1}(G, \operatorname{Hom}(G, P))$; for every $S \in Ob(C)$ and
-$g_{1}, \cdots, g_{n} \in G(S)$, $\sigma(f)(g_{1}, \cdots, g_{n})$ is the element of $\operatorname{Hom}_{S}(GS, PS)$
-defined by: for every $S' \to S$ and $x \in G(S')$,
+as follows. Let $f \in C^{n+1}(G, \operatorname{Hom}(G, P))$; for every $S \in Ob(C)$ and $g_{1}, \cdots, g_{n} \in
+G(S)$, $\sigma(f)(g_{1}, \cdots, g_{n})$ is the element of $\operatorname{Hom}_{S}(GS, PS)$ defined by: for every $S'
+\to S$ and $x \in G(S')$,
 
 ```text
 σ(f)(g_1, …, g_n)(x) = f(x, g_1, …, g_n)(e) ∈ P(S′)
@@ -2211,8 +2118,8 @@ whence
 (∂σ(f) + σ(∂f))(g_1, …, g_{n+1})(x) = f(g_1, …, g_{n+1})(x),
 ```
 
-i.e. $\partial \sigma + \sigma\partial$ is the identity map of $C^{n+1}(G, \operatorname{Hom}(G, P))$, for every
-$n \geqslant 0$.
+i.e. $\partial \sigma + \sigma\partial$ is the identity map of $C^{n+1}(G, \operatorname{Hom}(G, P))$, for every $n
+\geqslant 0$.
 
 **Remark 5.2.3.**[^N.D.E-I-51] *The hypothesis "$C$ small" is used only to ensure the existence of the derived functors
 $R^{n} H^{0}$ and $R^{n} H^{0}$. In any case, the foregoing shows that the functors $H^{n}(G, -)$ (resp. $H^{n}(G, -)$)
@@ -2237,8 +2144,8 @@ H^n(G, F) = H^n(hG, W(F)).
 
 <!-- original page 40 -->
 
-Suppose $G$ is affine over $S$. Then, in view of Proposition 4.6.4, this cohomology is computed as follows:
-$H^{n}(G, F)$ is the $n$-th homology group of the complex $C*(G, F)$ whose $n$-th term is:
+Suppose $G$ is affine over $S$. Then, in view of Proposition 4.6.4, this cohomology is computed as follows: $H^{n}(G,
+F)$ is the $n$-th homology group of the complex $C*(G, F)$ whose $n$-th term is:
 
 ```text
 C^n(G, F) = Γ(S, F ⊗ A(G) ⊗ ⋯ ⊗ A(G))
@@ -2297,8 +2204,8 @@ It follows from 4.6.4.1, 5.2.0, and 5.2.0.1 that one has an isomorphism of $G$-`
 
 <!-- label: eq:III.I.5.3.1-star -->
 
-Via this identification, the morphism $\epsilon : E(W(P)) \to W(P)$ corresponds to the morphism of `OS`-modules
-$id_{P} \otimes \eta : Ind(P) \to P$.
+Via this identification, the morphism $\epsilon : E(W(P)) \to W(P)$ corresponds to the morphism of `OS`-modules $id_{P}
+\otimes \eta : Ind(P) \to P$.
 
 One has already used that the functor $W : (OS-Mod.) \to (OS-Mod.)$ is fully faithful; the same is true, by Definition
 4.7.1, of its restriction to `(G-OS-Mod.)`, i.e. if $M, M'$ are $G$-`OS`-modules, one has a functorial isomorphism
@@ -2309,9 +2216,9 @@ Hom_{G-OS-Mod.}(M, M′) ≃ Hom_{G-OS-Mod.}(W(M), W(M′)).
 
 Consequently, one deduces from Lemma 5.2.0.2 the following:
 
-**Corollary 5.3.1.1.** *(i) The functor `Ind` is right adjoint to the forgetful functor
-$(G-OS-Mod.q.c.) \to (OS-Mod.q.c.)$. More precisely, the map $id_{P} \otimes \eta : Ind(P) \to P$ induces for every
-object $M$ of `(G-OS-Mod.q.c.)` a bijection*
+**Corollary 5.3.1.1.** *(i) The functor `Ind` is right adjoint to the forgetful functor $(G-OS-Mod.q.c.) \to
+(OS-Mod.q.c.)$. More precisely, the map $id_{P} \otimes \eta : Ind(P) \to P$ induces for every object $M$ of
+`(G-OS-Mod.q.c.)` a bijection*
 
 ```text
 Hom_{G-OS-Mod.}(M, Ind(P)) ⥲ Hom_{OS}(M, P).
@@ -2346,8 +2253,8 @@ Taking [Gr57, 2.2.1 and 2.3] into account (already used in the proof of 5.2.1), 
 
 **Remark 5.3.1.3.** *One can also prove 5.3.1.1 by the following computation. To every morphism of $G$-`OS`-modules
 $\phi : M \to P \otimes_{OS} A(G)$ one associates the `OS`-morphism $(id_{P} \otimes \eta) \circ \phi : M \to P$.
-Conversely, to every `OS`-morphism $f : M \to P$ one associates the morphism of $G$-`OS`-modules
-$(f \otimes id_{A(G)}) \circ \mu_{M} : M \to P \otimes_{OS} A(G)$. One sees at once that*
+Conversely, to every `OS`-morphism $f : M \to P$ one associates the morphism of $G$-`OS`-modules $(f \otimes id_{A(G)})
+\circ \mu_{M} : M \to P \otimes_{OS} A(G)$. One sees at once that*
 
 ```text
 (id_P ⊗ η) ∘ (f ⊗ id_{A(G)}) ∘ μ_M = (f ⊗ id_{OS}) ∘ (id_P ⊗ η) ∘ μ_M = f.
@@ -2391,9 +2298,7 @@ exact).*
 
 Indeed, by hypothesis, the sequence of $G$-`OS`-modules
 
-$$
-0 \to F \to E(F) \to E(F)/F \to 0
-$$
+$$ 0 \to F \to E(F) \to E(F)/F \to 0 $$
 
 is split; $F$ is therefore a direct factor, as $G$-`OS`-module, of $E(F)$, whose cohomology is zero.
 
@@ -2424,8 +2329,8 @@ M_x(U′) = {m ∈ M(U′) | π(m) = x_{U′} = φ*(x)}.
 
 Finally, if $g \in G(U)$ one will also denote `gx` the element $\lambda(g, x)$ of $X(U)$.
 
-**Definition 6.1.** *a) One says that $M$ is a* $G$-equivariant $X$-object *if one has given an action
-$\Lambda : G \times M \to M$ of $G$ on $M$ lifting $\lambda$, i.e. such that the square below is commutative:*
+**Definition 6.1.** *a) One says that $M$ is a* $G$-equivariant $X$-object *if one has given an action $\Lambda : G
+\times M \to M$ of $G$ on $M$ lifting $\lambda$, i.e. such that the square below is commutative:*
 
 ```text
                    Λ
@@ -2445,24 +2350,22 @@ $\Lambda : G \times M \to M$ of $G$ on $M$ lifting $\lambda$, i.e. such that the
 *verifying $1 \cdot m = m$ and $g \cdot (h \cdot m) = (gh) \cdot m$ and functorial in the $(G \times X)$-object $U$.
 This still amounts to giving morphisms of $U$-objects:*
 
-$$
-\Lambda_{x}(g) : M_{x} \to M_{gx}
-$$
+$$ \Lambda_{x}(g) : M_{x} \to M_{gx} $$
 
 *verifying $\Lambda_{x}(1) = id$ and $\Lambda_{hx}(g) \circ \Lambda_{x}(h) = \Lambda_{x}(gh)$.*
 
 *b) Let now $O$ be a `Ĉ`-ring and let $OX = O \times X$. Under the conditions of (a), one says that $M$ is a*
 $G$-equivariant `OX`-module *if it is an `OX`-module (cf. Definition 4.3.3.1, valid for any ring functor on a category
-$C$) and if the action $\Lambda$ is compatible with the `OX`-module structure of $M$, i.e. if for every
-$(g, x) \in G(U) \times X(U)$ ($U \in Ob(C)$), the map $\Lambda_{x}(g) : M_{x} \to M_{gx}$, $m \mapsto g \cdot m$ is a
-morphism of `OU`-modules.*
+$C$) and if the action $\Lambda$ is compatible with the `OX`-module structure of $M$, i.e. if for every $(g, x) \in G(U)
+\times X(U)$ ($U \in Ob(C)$), the map $\Lambda_{x}(g) : M_{x} \to M_{gx}$, $m \mapsto g \cdot m$ is a morphism of
+`OU`-modules.*
 
 <!-- label: III.I.6.1 -->
 
-**Remark 6.2.** *(i) In (a) above, the conditions $\Lambda_{x}(1) = id$ and
-$\Lambda_{hx}(g) \circ \Lambda_{x}(h) = \Lambda_{x}(gh)$ evidently entail that each $\Lambda_{x}(g)$ is an isomorphism,
-with inverse $\Lambda_{gx}(g^{-1})$. Conversely, if one assumes that each $\Lambda_{x}(g)$ is an isomorphism, the
-condition $\Lambda_{hx}(g) \circ \Lambda_{x}(h) = \Lambda_{x}(gh)$ applied to $h = 1$ gives $\Lambda_{x}(1) = id$.*
+**Remark 6.2.** *(i) In (a) above, the conditions $\Lambda_{x}(1) = id$ and $\Lambda_{hx}(g) \circ \Lambda_{x}(h) =
+\Lambda_{x}(gh)$ evidently entail that each $\Lambda_{x}(g)$ is an isomorphism, with inverse $\Lambda_{gx}(g^{-1})$.
+Conversely, if one assumes that each $\Lambda_{x}(g)$ is an isomorphism, the condition $\Lambda_{hx}(g) \circ
+\Lambda_{x}(h) = \Lambda_{x}(gh)$ applied to $h = 1$ gives $\Lambda_{x}(1) = id$.*
 
 *(ii) Let $M$ be an `OX`-module. First, one sees that giving a morphism $\Lambda : G \times M \to M$ making the diagram
 of 6.1 commutative and such that each morphism*
@@ -2495,23 +2398,21 @@ $f*(\theta)$ the isomorphism deduced from $\theta$ by a base change $f : G \time
 *One sees therefore that giving a $G$-equivariant `OX`-module structure on $M$ is equivalent to giving an isomorphism
 $\theta$ of $O_{G\times X}$-modules as above, such that the diagram above is commutative.*
 
-*(iii) All that precedes extends to the case where $G$ is only a `Ĉ`-monoid: in that case, giving an action
-$\Lambda : G \times M \to M$ lifting $\lambda$ and such that each $\Lambda_{x}(g) : M_{x} \to M_{gx}$ is a morphism of
-`OU`-modules is equivalent to giving a morphism $\theta$ of $O_{G\times X}$-modules as in (ii), such that the diagram
-above (without the ∼ under the arrows) is commutative, and such that
-$p_{M} \circ \theta \circ (\epsilon_{G} \times id_{M}) = id_{M}$, where $\epsilon_{G}$ denotes the unit section of $G$
-and $p_{M}$ the projection onto $M$.*
+*(iii) All that precedes extends to the case where $G$ is only a `Ĉ`-monoid: in that case, giving an action $\Lambda : G
+\times M \to M$ lifting $\lambda$ and such that each $\Lambda_{x}(g) : M_{x} \to M_{gx}$ is a morphism of `OU`-modules
+is equivalent to giving a morphism $\theta$ of $O_{G\times X}$-modules as in (ii), such that the diagram above (without
+the ∼ under the arrows) is commutative, and such that $p_{M} \circ \theta \circ (\epsilon_{G} \times id_{M}) = id_{M}$,
+where $\epsilon_{G}$ denotes the unit section of $G$ and $p_{M}$ the projection onto $M$.*
 
 <!-- label: III.I.6.2 -->
 
 ### 6.3. G-equivariant morphisms
 
 Let $Y$ be a second object of `Ĉ`, endowed with an action $\lambda_{Y} : G \times Y \to Y$ of $G$, and let $N$ be a
-second $G$-equivariant `OX`-module. One says that a `Ĉ`-morphism $f : Y \to X$ (resp. a morphism of `OX`-modules
-$\phi : M \to N$) is *$G$-equivariant* if it commutes with the action of $G$, i.e. if one has set-theoretically
-$f(g \cdot y) = g \cdot f(y)$ (resp. $\phi(g \cdot m) = g \cdot \phi(m)$), which is equivalent to saying that
-$f \circ \lambda_{Y} = \lambda_{X} \circ (id_{G} \times f)$ (resp.
-$\phi \circ \Lambda_{M} = \Lambda_{N} \circ (id_{G} \times \phi)$).
+second $G$-equivariant `OX`-module. One says that a `Ĉ`-morphism $f : Y \to X$ (resp. a morphism of `OX`-modules $\phi :
+M \to N$) is *$G$-equivariant* if it commutes with the action of $G$, i.e. if one has set-theoretically $f(g \cdot y) =
+g \cdot f(y)$ (resp. $\phi(g \cdot m) = g \cdot \phi(m)$), which is equivalent to saying that $f \circ \lambda_{Y} =
+\lambda_{X} \circ (id_{G} \times f)$ (resp. $\phi \circ \Lambda_{M} = \Lambda_{N} \circ (id_{G} \times \phi)$).
 
 One then obtains at once the following lemma:
 
@@ -2524,9 +2425,8 @@ inverse image $f*(M) = Y \times_{f} M$ is a $G$-equivariant `OY`-module.*
 
 On the other hand, $G$ acts on $\operatorname{Hom}_{\hat{C}}(Y, X)$. Indeed, let $T \in Ob(C)$, $g \in G(T)$ and $\phi$
 a $T$-morphism $Y_{T} \to X_{T}$; then $g$ defines automorphisms $\lambda_{Y}(g)$ and $\lambda_{X}(g)$ of `Y_T` and
-`X_T`, and one will denote $g \cdot \phi$ (or also $g \phi g^{-1}$) the morphism
-$\lambda_{X}(g) \circ \phi \circ \lambda_{Y}(g^{-1})$. This defines an action of $G(T)$ on
-$\operatorname{Hom}_{T}(Y_{T}, X_{T})$, functorial in $T$.
+`X_T`, and one will denote $g \cdot \phi$ (or also $g \phi g^{-1}$) the morphism $\lambda_{X}(g) \circ \phi \circ
+\lambda_{Y}(g^{-1})$. This defines an action of $G(T)$ on $\operatorname{Hom}_{T}(Y_{T}, X_{T})$, functorial in $T$.
 
 **Definition 6.3.2.** *If $\phi : Y \to X$ is an arbitrary `Ĉ`-morphism, one can therefore consider its stabilizer
 $Stab_{G}(\phi)$ (cf. 2.3.3.1): for every $T \in Ob(C)$, $Stab_{G}(\phi)(T)$ is the subgroup $G(T)$ formed by the $g$
@@ -2555,12 +2455,10 @@ Hom_X(X_T, M) = Hom_{X_T}(X_T, M_T) = Γ(M_T/X_T).
 ```
 
 Recall, on the other hand, that every morphism $g : Z \to Y$ of `Ĉ`-objects above $X$ induces a morphism of abelian
-groups $M(g) : M(Y) \to M(Z)$, which is compatible with the ring morphism $g* : O(Y) \to O(Z)$. In particular, when
-$Z = Y$ (with $g$ then an $X$-endomorphism of $Y$), one obtains a morphism of abelian groups
+groups $M(g) : M(Y) \to M(Z)$, which is compatible with the ring morphism $g* : O(Y) \to O(Z)$. In particular, when $Z =
+Y$ (with $g$ then an $X$-endomorphism of $Y$), one obtains a morphism of abelian groups
 
-$$
-M(g) : M(Y) \to M(Y)
-$$
+$$ M(g) : M(Y) \to M(Y) $$
 
 which is not in general a morphism of $O(Y)$-modules, but which verifies, for every $m \in M(Y)$ and $\alpha \in O(Y)$:
 
@@ -2570,8 +2468,8 @@ M(g)(α ⋅ m) = g*(α) ⋅ M(g)(m).
 
 This said, one will write simply, in the sequel, $g*$ instead of $M(g)$.
 
-Let $T \in Ob(C)$ and let $X_{T} = X \times T$ and $pr_{X}$ the projection $X_{T} \to X$. For every
-$\alpha \in O(X_{T})$ and $g \in G(T)$, set $g(\alpha) = (g^{-1})*(\alpha)$: it is the element of $O(X_{T})$ defined
+Let $T \in Ob(C)$ and let $X_{T} = X \times T$ and $pr_{X}$ the projection $X_{T} \to X$. For every $\alpha \in
+O(X_{T})$ and $g \in G(T)$, set $g(\alpha) = (g^{-1})*(\alpha)$: it is the element of $O(X_{T})$ defined
 set-theoretically by: for every $S \in Ob(C)$ and $x \in X(S)$, $t \in T(S)$,
 
 ```text
@@ -2581,9 +2479,9 @@ g(α)(x, t) = α(g^{-1} x, t).
 One thus obtains a (left) action of $G(T)$ by ring automorphisms on $O(X_{T})$, functorial in $T$, and such that
 $g(\alpha) = \alpha$ if $\alpha$ is the image in $O(X_{T})$ of an element of $O(T)$.
 
-Now denote by $\phi$ the identity morphism of `X_T` (cf. 6.3 and the generalization further below to a morphism
-$\phi : Y \to X$) and designate $\operatorname{Hom}_{X}(X_{T}, M)$ by $M(\phi g^{-1})$ resp. $M(\phi)$, according as
-`X_T` is regarded as an $X$-object via $pr_{X} \circ \lambda(g^{-1})_{T}$, resp. $pr_{X}$.
+Now denote by $\phi$ the identity morphism of `X_T` (cf. 6.3 and the generalization further below to a morphism $\phi :
+Y \to X$) and designate $\operatorname{Hom}_{X}(X_{T}, M)$ by $M(\phi g^{-1})$ resp. $M(\phi)$, according as `X_T` is
+regarded as an $X$-object via $pr_{X} \circ \lambda(g^{-1})_{T}$, resp. $pr_{X}$.
 
 <!-- original page 42 -->
 
@@ -2594,9 +2492,9 @@ morphism of abelian groups
 (g^{-1})* : M(φ) → M(φ g^{-1}),    m ↦ m ∘ λ(g^{-1})_T
 ```
 
-which verifies $(g^{-1})*(\alpha \cdot m) = (g \alpha) \cdot (g^{-1})*(m)$ for every $m \in M(\phi)$ and
-$\alpha \in O(X_{T})$. (If $m$ is a section of `M_T` on `X_T` then $(g^{-1})*(m)$ is the section defined
-set-theoretically by $(x, t) \mapsto m(g^{-1} x, t)$.) In particular, $(g^{-1})*$ is a morphism of $O(T)$-modules.
+which verifies $(g^{-1})*(\alpha \cdot m) = (g \alpha) \cdot (g^{-1})*(m)$ for every $m \in M(\phi)$ and $\alpha \in
+O(X_{T})$. (If $m$ is a section of `M_T` on `X_T` then $(g^{-1})*(m)$ is the section defined set-theoretically by $(x,
+t) \mapsto m(g^{-1} x, t)$.) In particular, $(g^{-1})*$ is a morphism of $O(T)$-modules.
 
 By the functoriality of the morphisms of $O(X_{T})$-modules $\Lambda_{x}(g)$, one obtains a commutative diagram:
 
@@ -2612,9 +2510,7 @@ By the functoriality of the morphisms of $O(X_{T})$-modules $\Lambda_{x}(g)$, on
 and $g \phi g^{-1} = \phi$, since $\phi$ is the identity map. Setting $A(g) = (g^{-1})* \circ \Lambda_{\phi}(g)$, one
 therefore obtains a morphism of abelian groups
 
-$$
-A(g) : M(\phi) \to M(\phi)
-$$
+$$ A(g) : M(\phi) \to M(\phi) $$
 
 which is "compatible with the action of $G(T)$ on $O(X_{T})$", i.e. which verifies
 
@@ -2657,9 +2553,9 @@ A(g)(α ⋅ m) = g(α) ⋅ A(g)(m).
 Since $g(\alpha) = \alpha$ for $\alpha \in O(T)$, this gives in particular that $\prod_{X/S_{0}} M$ is a
 $G$-$O_{S_{0}}$-module.
 
-More generally, let, as in 6.3, $Y$ be a second $G$-equivariant `Ĉ`-object, $\phi : Y \to X$ a `Ĉ`-morphism and
-$H = Stab_{G}(\phi)$. Then the fiber product $M_{\phi} = Y \times_{\phi} M$ is an $H$-equivariant `OY`-module. One
-therefore obtains:
+More generally, let, as in 6.3, $Y$ be a second $G$-equivariant `Ĉ`-object, $\phi : Y \to X$ a `Ĉ`-morphism and $H =
+Stab_{G}(\phi)$. Then the fiber product $M_{\phi} = Y \times_{\phi} M$ is an $H$-equivariant `OY`-module. One therefore
+obtains:
 
 <!-- original page 43 -->
 
@@ -2676,23 +2572,17 @@ $S$-scheme $X$, and $F$ an `OX`-module (not necessarily quasi-coherent).
 $G$-equivariant, i.e. if one has given, for every morphism $(g, x) : U \to G \times_{S} X$, isomorphisms of
 `OU`-modules*
 
-$$
-\Lambda_{x}(g) : W(x*(F)) \xrightarrow{\sim} W((gx)*(F)),
-$$
+$$ \Lambda_{x}(g) : W(x*(F)) \xrightarrow{\sim} W((gx)*(F)), $$
 
 *functorial in $U$ and verifying $\Lambda_{hx}(g) \circ \Lambda_{x}(h) = \Lambda_{x}(gh)$.* Since the functor $W$ is
 fully faithful (cf. 4.6.1.1 and 4.6.2), one therefore obtains isomorphisms of `OU`-modules
 
-$$
-\Lambda_{x}(g) : x*(F) \xrightarrow{\sim} (gx)*(F),
-$$
+$$ \Lambda_{x}(g) : x*(F) \xrightarrow{\sim} (gx)*(F), $$
 
 where one recalls that `gx` denotes the morphism $\lambda \circ (g, x) : U \to X$. In particular, applying this to the
 identity morphism of $G \times_{S} X$, one obtains an isomorphism of $O_{G \times_{S} X}$-modules
 
-$$
-(\star)    \theta : pr*_{X}(F) \xrightarrow{\sim} \lambda*(F)
-$$
+$$ (\star) \theta : pr*_{X}(F) \xrightarrow{\sim} \lambda*(F) $$
 
 <!-- label: eq:III.I.6.5.1-star -->
 
@@ -2723,13 +2613,10 @@ $G$-equivariant `OY`-module.*
 giving an action of $G$ on the vector fibration $V(F)$, compatible with the action on $X$ and "linear" on the fibers.*
 
 Indeed, denote by $\phi$ the isomorphism $\lambda*(F) \xrightarrow{\sim} pr*_{X}(F)$ inverse of $\theta$. For every
-morphism $(g, x) : U \to G \times_{S} X$, one has an isomorphism of `OU`-modules
-$\phi_{x}(g) = \Lambda_{x}(g)^{-1} = \Lambda_{gx}(g^{-1})$ from $(gx)*(F)$ to $x*(F)$; it induces an isomorphism of
-`OU`-modules
+morphism $(g, x) : U \to G \times_{S} X$, one has an isomorphism of `OU`-modules $\phi_{x}(g) = \Lambda_{x}(g)^{-1} =
+\Lambda_{gx}(g^{-1})$ from $(gx)*(F)$ to $x*(F)$; it induces an isomorphism of `OU`-modules
 
-$$
-V((gx)*(F)) \xrightarrow{\sim} V(x*(F))
-$$
+$$ V((gx)*(F)) \xrightarrow{\sim} V(x*(F)) $$
 
 <!-- original page 44 -->
 
@@ -2763,9 +2650,7 @@ the one one finds in *loc. cit.*, Def. 1.6, and the isomorphism $t \phi$ above c
 a $G$-equivariant `OS`-module $F$ is the same thing as a $G$-`OS`-module (cf. 4.7.1). Moreover, if one denotes $f$ the
 morphism $G \to S$ (equal here to $pr_{X}$ and to $\lambda$), then the isomorphism*
 
-$$
-(\star)    \theta : f*(F) \xrightarrow{\sim} f*(F)
-$$
+$$ (\star) \theta : f*(F) \xrightarrow{\sim} f*(F) $$
 
 *is an element of*
 
@@ -2774,25 +2659,24 @@ Hom_{OG}(f*(F), f*(F)) = Hom_{OG}(W(f*(F)), W(f*(F))) = End_{OS}(W(F))(G)
 ```
 
 *which is nothing other than the morphism $\rho : G \to \operatorname{End}_{OS}(W(F))$ defining the operation of $G$ on
-$W(F)$. Moreover, $\theta$ corresponds by adjunction to the morphism of `OS`-modules
-$f_{*}(\theta) \circ \tau : F \to f_{*} f*(F)$, where $\tau : F \to f_{*} f*(F)$ is the "unit" morphism of the
-adjunction. (This will be used in `VI_B`, 11.10.bis.)*
+$W(F)$. Moreover, $\theta$ corresponds by adjunction to the morphism of `OS`-modules $f_{*}(\theta) \circ \tau : F \to
+f_{*} f*(F)$, where $\tau : F \to f_{*} f*(F)$ is the "unit" morphism of the adjunction. (This will be used in `VI_B`,
+11.10.bis.)*
 
 <!-- label: III.I.6.5.4 -->
 
 ### 6.6. The functors ∏_{X/S} W(F) and W(p_\*(F))
 
-Let $S$ be a scheme, $G$ an $S$-group scheme acting on $S$-schemes $X$ and $Y$ via the morphisms
-$\lambda : G \times_{S} X \to X$ and $\mu : G \times_{S} Y \to Y$, and let $p : X \to Y$ be a $G$-equivariant morphism.
-Suppose that the morphisms $p : X \to Y$ and $\nu_{Y} : Y \to S$ are quasi-compact and quasi-separated, and that
-$\pi : G \to S$ is flat.
+Let $S$ be a scheme, $G$ an $S$-group scheme acting on $S$-schemes $X$ and $Y$ via the morphisms $\lambda : G \times_{S}
+X \to X$ and $\mu : G \times_{S} Y \to Y$, and let $p : X \to Y$ be a $G$-equivariant morphism. Suppose that the
+morphisms $p : X \to Y$ and $\nu_{Y} : Y \to S$ are quasi-compact and quasi-separated, and that $\pi : G \to S$ is flat.
 
 Then the projection $pr_{Y} : G \times_{S} Y \to Y$ is flat, as is $\mu$ (since $\mu$ is the composite of $pr_{Y}$ and
 of the automorphism $(g, y) \mapsto (g, gy)$). Finally, for a variable $S$-scheme $f : T \to$, one will denote by
 $p_{T} : X_{T} \to T$ and $f_{X} : X_{T} \to X$ the morphisms deduced from $p$ and $f$ by base change.
 
-Let $F$ be a quasi-coherent and $G$-equivariant `OX`-module, and let $\theta$ be the isomorphism
-$pr*_{X}(F) \xrightarrow{\sim} \lambda*(F)$ of 6.5.1 $(\star)$. Since $p$ is quasi-compact and quasi-separated,
+Let $F$ be a quasi-coherent and $G$-equivariant `OX`-module, and let $\theta$ be the isomorphism $pr*_{X}(F)
+\xrightarrow{\sim} \lambda*(F)$ of 6.5.1 $(\star)$. Since $p$ is quasi-compact and quasi-separated,
 
 <!-- original page 45 -->
 
@@ -2814,8 +2698,8 @@ Indeed, one has the two cartesian squares below:
 ```
 
 Since $p$ is quasi-compact and quasi-separated and $pr_{Y}$ and $\mu$ are flat, it follows from EGA III, 1.4.15
-(completed by EGA IV_1, 1.7.21) that one has $q_{*} pr*_{X}(F) = pr*_{Y} p_{*}(F)$ and
-$q_{*} \lambda*(F) = \mu* p_{*}(F)$. Consequently, $\theta$ induces an isomorphism:
+(completed by EGA IV_1, 1.7.21) that one has $q_{*} pr*_{X}(F) = pr*_{Y} p_{*}(F)$ and $q_{*} \lambda*(F) = \mu*
+p_{*}(F)$. Consequently, $\theta$ induces an isomorphism:
 
 ```text
 θ_Y : pr*_Y p_*(F) ⥲ μ* p_*(F),
@@ -2849,9 +2733,8 @@ proposition (for point (ii), compare with [GIT], p. 32).
 quasi-coherent and $G$-equivariant `OX`-module. Suppose that $\pi : G \to S$ is flat and that $p : X \to S$ is
 quasi-compact and quasi-separated.*
 
-*(i) Then $p_{*}(F)$ is a quasi-coherent $G$-`OS`-module. Moreover, the canonical morphism
-$W(p_{*}(F)) \to \prod_{X/S} W(F)$ is a morphism of $G$-`OS`-modules, and these two functors coincide on the category of
-flat $S$-schemes.*
+*(i) Then $p_{*}(F)$ is a quasi-coherent $G$-`OS`-module. Moreover, the canonical morphism $W(p_{*}(F)) \to \prod_{X/S}
+W(F)$ is a morphism of $G$-`OS`-modules, and these two functors coincide on the category of flat $S$-schemes.*
 
 *(ii) If moreover $G$ is affine over $S$ and if one denotes $A(G) = \pi_{*}(O_{G})$, then $p_{*}(F)$ is endowed with a
 structure of $A(G)$-comodule.[^N.D.E-I-55]*
@@ -2869,13 +2752,11 @@ of $\phi$ (cf. 6.3.2).
 
 Let us point out at once (see Exp. `VI_B`, § 6) that $Stab_{G}(\phi)$ is representable by a closed sub-group scheme $H$
 of $G$ if $X$ is separated over $S$ and if $Y$ is essentially free over $S$ (cf. *loc. cit.*, Déf. 6.2.1). Indeed,
-consider the morphism $r : G \times_{S} Y \to X \times_{S} X$ given set-theoretically by
-$r(g, y) = (\phi(y), g \phi(g^{-1} y))$, and let $P = G \times_{S} Y$ and $P'$ the inverse image by $r$ of the diagonal
-$\Delta_{X/S}$. Then one has (cf. *loc. cit.*, 6.2.4 (a))
+consider the morphism $r : G \times_{S} Y \to X \times_{S} X$ given set-theoretically by $r(g, y) = (\phi(y), g
+\phi(g^{-1} y))$, and let $P = G \times_{S} Y$ and $P'$ the inverse image by $r$ of the diagonal $\Delta_{X/S}$. Then
+one has (cf. *loc. cit.*, 6.2.4 (a))
 
-$$
-Stab_{G}(\phi) = \prod_{P/G} P'
-$$
+$$ Stab_{G}(\phi) = \prod_{P/G} P' $$
 
 and therefore, by *loc. cit.*, $Stab_{G}(\phi)$ is representable by a closed sub-group scheme $H$ of $G$ if $X$ is
 separated over $S$ and if $Y$ is essentially free over $S$; this second condition being automatically verified if $S$ is
@@ -2903,29 +2784,29 @@ To conclude, let us point out two results (6.8.1 and 6.8.6 below) that will be u
 particular III, 4.25).
 
 **Proposition 6.8.1.** *Let $S$ be a scheme, $\pi : G \to S$ an $S$-group scheme, $\epsilon : S \to G$ the unit section.
-Consider the action by left translations of $G$ on itself. Then the functors $E \mapsto \pi*(E)$ and
-$F \mapsto \epsilon*(F)$ induce equivalences, quasi-inverse to one another, between the category of quasi-coherent
-`OS`-modules and that of quasi-coherent $G$-equivariant `OG`-modules.*
+Consider the action by left translations of $G$ on itself. Then the functors $E \mapsto \pi*(E)$ and $F \mapsto
+\epsilon*(F)$ induce equivalences, quasi-inverse to one another, between the category of quasi-coherent `OS`-modules and
+that of quasi-coherent $G$-equivariant `OG`-modules.*
 
 <!-- label: III.I.6.8.1 -->
 
 *Proof.* Denote by $\mu$ the multiplication of $G$ and by $pr_{2}$ the second projection $G \times_{S} G \to G$. Since
 $\pi \circ \mu = \pi \circ pr_{2}$, then, for every quasi-coherent `OS`-module $E$, one has a canonical isomorphism
 $\mu* \pi*(E) = pr*_{2} \pi*(E)$, and one verifies easily that this isomorphism satisfies the "cocycle condition" 6.5.1
-$(\star\star)$, i.e. $\pi*(E)$ is a $G$-equivariant `OG`-module. Since $\epsilon* \pi*(E) = E$, the functor
-$E \mapsto \pi*(E)$ is
+$(\star\star)$, i.e. $\pi*(E)$ is a $G$-equivariant `OG`-module. Since $\epsilon* \pi*(E) = E$, the functor $E \mapsto
+\pi*(E)$ is
 
 <!-- original page 47 -->
 
-fully faithful; it remains therefore to see that for every $G$-equivariant `OG`-module $F$, one has
-$F \simeq \pi* \epsilon*(F)$. By hypothesis, one has an isomorphism $\theta : pr*_{2}(F) \xrightarrow{\sim} \mu*(F)$;
-taking the inverse image of $\theta$ by the morphism $\tau : G \to G \times_{S} G$ of components
-$(id_{G}, \epsilon \circ \pi)$, one obtains an isomorphism $F \xrightarrow{\sim} \pi* \epsilon*(F)$.
+fully faithful; it remains therefore to see that for every $G$-equivariant `OG`-module $F$, one has $F \simeq \pi*
+\epsilon*(F)$. By hypothesis, one has an isomorphism $\theta : pr*_{2}(F) \xrightarrow{\sim} \mu*(F)$; taking the
+inverse image of $\theta$ by the morphism $\tau : G \to G \times_{S} G$ of components $(id_{G}, \epsilon \circ \pi)$,
+one obtains an isomorphism $F \xrightarrow{\sim} \pi* \epsilon*(F)$.
 
-**Remarks 6.8.2.** *(a) Consider the action of $G \times_{S} G$ on $G$ defined by
-$(g_{1}, g_{2}) \cdot g = g_{1} g g^{-1}_{2}$; then the stabilizer of the unit section $\epsilon : S \to G$ is the
-diagonal subgroup $H$ of $G \times_{S} G$. Consequently, if $F$ is a quasi-coherent $(G \times_{S} G)$-equivariant
-`OG`-module then, by 6.5.2, $E = \epsilon*(F)$ is endowed with a structure of $H$-`OS`-module.*
+**Remarks 6.8.2.** *(a) Consider the action of $G \times_{S} G$ on $G$ defined by $(g_{1}, g_{2}) \cdot g = g_{1} g
+g^{-1}_{2}$; then the stabilizer of the unit section $\epsilon : S \to G$ is the diagonal subgroup $H$ of $G \times_{S}
+G$. Consequently, if $F$ is a quasi-coherent $(G \times_{S} G)$-equivariant `OG`-module then, by 6.5.2, $E =
+\epsilon*(F)$ is endowed with a structure of $H$-`OS`-module.*
 
 *(b) One can show that $F \mapsto \epsilon*(F)$ is an equivalence of categories, between the category of quasi-coherent
 $(G \times_{S} G)$-equivariant `OG`-modules and that of quasi-coherent $H$-`OS`-modules. This is a particular case of
@@ -2933,12 +2814,12 @@ more general "descent" results (cf. Exp. IV, § 2 and SGA 1, VIII), see for exam
 
 <!-- label: III.I.6.8.2 -->
 
-**Remark 6.8.3.** *One retains the notations of 6.8.1. For every quasi-coherent `OS`-module $E$, denote by
-$\pi^{G}_{*} \pi*(E)$ the sub-`OS`-module of $\pi_{*} \pi*(E)$ whose sections on every open subset $V$ of $S$ are the
-$\gamma \in \Gamma(\pi^{-1}(V), \pi*(E))$ such that $g \cdot \gamma_{S'} = \gamma_{S'}$ for every $S' \to V$ and
-$g \in G(S')$. Then the natural morphism $E \to \pi^{G}_{*} \pi*(E)$ is an isomorphism: this is immediate if
-$\pi_{*} \pi*(E) = E \otimes_{OS} \pi_{*}(O_{G})$ (for example if $G \to S$ is affine, or if $G \to S$ is quasi-compact
-and quasi-separated and $E$ flat), and it is verified without difficulty in the general case.*
+**Remark 6.8.3.** *One retains the notations of 6.8.1. For every quasi-coherent `OS`-module $E$, denote by $\pi^{G}_{*}
+\pi*(E)$ the sub-`OS`-module of $\pi_{*} \pi*(E)$ whose sections on every open subset $V$ of $S$ are the $\gamma \in
+\Gamma(\pi^{-1}(V), \pi*(E))$ such that $g \cdot \gamma_{S'} = \gamma_{S'}$ for every $S' \to V$ and $g \in G(S')$. Then
+the natural morphism $E \to \pi^{G}_{*} \pi*(E)$ is an isomorphism: this is immediate if $\pi_{*} \pi*(E) = E
+\otimes_{OS} \pi_{*}(O_{G})$ (for example if $G \to S$ is affine, or if $G \to S$ is quasi-compact and quasi-separated
+and $E$ flat), and it is verified without difficulty in the general case.*
 
 <!-- label: III.I.6.8.3 -->
 
@@ -3055,9 +2936,9 @@ which endow $W_{P}(N)$ with a structure of $H$-equivariant module (cf. 6.1).
     Likewise, it is clear that if $F(S) \to G(S)$ is surjective for every $S$, then $F \to G$ is an epimorphism, and the
     converse is seen by considering the amalgamated sum $G \bigsqcup_{F} G$, cf. the proof of Lemma 4.4.4 in Exp. IV.
 
-[^N.D.E-I-10]: N.D.E.: For example, if $F = hX$ then $H$ corresponds to a morphism $h : X \to S$ and
-    $H(T) : \operatorname{Hom}_{C}(T, X) \to \operatorname{Hom}_{C}(T, S)$ is the map $g \mapsto h \circ g$, whence
-    $\alpha S(hX) = \operatorname{Hom}_{C/S}(-, X)$.
+[^N.D.E-I-10]: N.D.E.: For example, if $F = hX$ then $H$ corresponds to a morphism $h : X \to S$ and $H(T) :
+    \operatorname{Hom}_{C}(T, X) \to \operatorname{Hom}_{C}(T, S)$ is the map $g \mapsto h \circ g$, whence $\alpha
+    S(hX) = \operatorname{Hom}_{C/S}(-, X)$.
 
 [^N.D.E-I-11]: N.D.E.: Cf. N.D.E. (10).
 
@@ -3117,8 +2998,8 @@ which endow $W_{P}(N)$ with a structure of $H$-equivariant module (cf. 6.1).
 
 [^N.D.E-I-28]: N.D.E.: The following sentence has been added; this will be used in section 5.
 
-[^N.D.E-I-29]: N.D.E.: And, of course, the inversion morphism $G \to G$ induces a morphism of `OS`-algebras
-    $\tau : A(G) \to A(G)$ which, together with $\Delta$ and $\epsilon$, makes $A(G)$ an `OS`-Hopf algebra.
+[^N.D.E-I-29]: N.D.E.: And, of course, the inversion morphism $G \to G$ induces a morphism of `OS`-algebras $\tau : A(G)
+    \to A(G)$ which, together with $\Delta$ and $\epsilon$, makes $A(G)$ an `OS`-Hopf algebra.
 
 [^N.D.E-I-30]: N.D.E.: This paragraph has been added, which will be useful later (cf. II 1.3).
 

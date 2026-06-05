@@ -6,9 +6,9 @@
 
 This Exposé is modeled on the preceding one, but this time the result of no. 1 is weaker.
 
-Throughout this Exposé, $X$ will denote a locally noetherian prescheme, $I$ a quasi-coherent ideal of `O_X` (so that
-$Y = V(I)$ is a closed part of $X$), $U$ a variable open neighborhood of $Y$ in $X$, and $\hat{X}$ the formal completion
-of $X$ along $Y$. For every ringed space $(Z, O_{Z})$, we denote by $P(Z)$ the category of invertible `O_Z`-Modules — in
+Throughout this Exposé, $X$ will denote a locally noetherian prescheme, $I$ a quasi-coherent ideal of `O_X` (so that $Y
+= V(I)$ is a closed part of $X$), $U$ a variable open neighborhood of $Y$ in $X$, and $\hat{X}$ the formal completion of
+$X$ along $Y$. For every ringed space $(Z, O_{Z})$, we denote by $P(Z)$ the category of invertible `O_Z`-Modules — in
 other words, locally free of rank 1 — and by $\operatorname{Pic}(Z)$ the group of isomorphism classes of invertible
 Modules on $Z$.
 
@@ -27,10 +27,10 @@ abelian groups on $Y$
 
 <!-- label: eq:XI.1.1 -->
 
-is exact. Let us be precise: the group structure on $P_{n}$ is the additive structure, $u(x) = 1 + x$ for every
-$x \in P_{n}$, and $v$ is the homomorphism deduced from the injection $I^{n+2} \to I^{n+1}$. We see that $v$ is
-surjective by remarking that, for every $y \in Y$, $O_{X_{n}, y}$ is a local ring, the quotient of $O_{X_{n+1}, y}$ by a
-nilpotent ideal; the rest is equally trivial. From (1.1) we deduce an exact cohomology sequence:
+is exact. Let us be precise: the group structure on $P_{n}$ is the additive structure, $u(x) = 1 + x$ for every $x \in
+P_{n}$, and $v$ is the homomorphism deduced from the injection $I^{n+2} \to I^{n+1}$. We see that $v$ is surjective by
+remarking that, for every $y \in Y$, $O_{X_{n}, y}$ is a local ring, the quotient of $O_{X_{n+1}, y}$ by a nilpotent
+ideal; the rest is equally trivial. From (1.1) we deduce an exact cohomology sequence:
 
 ```text
 (∗)   H¹(Y, P_n) ──u¹──→ H¹(Y, O*_{X_{n+1}}) ──v¹──→ H¹(Y, O*_{X_n}) ──d──→ H²(Y, P_n).
@@ -38,9 +38,9 @@ nilpotent ideal; the rest is equally trivial. From (1.1) we deduce an exact coho
 
 <!-- label: eq:XI.1.star -->
 
-On the other hand, for every $n \in \mathbb{N}$, one knows how to identify $\operatorname{Pic}(X_{n})$ with
-$H^{1}(Y, O*_{X_{n}})$; moreover, if $E$ is an invertible $O_{X_{n+1}}$-Module corresponding to a cohomology class
-$c(E)$, the cohomology class corresponding to the inverse image of $E$ on $X_{n}$ is equal to $v^{1}(c(E))$.
+On the other hand, for every $n \in \mathbb{N}$, one knows how to identify $\operatorname{Pic}(X_{n})$ with $H^{1}(Y,
+O*_{X_{n}})$; moreover, if $E$ is an invertible $O_{X_{n+1}}$-Module corresponding to a cohomology class $c(E)$, the
+cohomology class corresponding to the inverse image of $E$ on $X_{n}$ is equal to $v^{1}(c(E))$.
 
 <!-- original page 101 -->
 
@@ -50,8 +50,8 @@ Whence the following proposition:
 
 <!-- label: XI.1.1 -->
 
-Retain the notations introduced above. Let $p \in \mathbb{N}$. The map
-$\operatorname{Pic}(\hat{X}) \to \operatorname{Pic}(Y_{n})$:
+Retain the notations introduced above. Let $p \in \mathbb{N}$. The map $\operatorname{Pic}(\hat{X}) \to
+\operatorname{Pic}(Y_{n})$:
 
 1. is injective for $n \geqslant p$, if $H^{1}(Y, P_{n}) = 0$ for $n \geqslant p$;
 1. is an isomorphism for $n \geqslant p$, if $H^{i}(Y, P_{n}) = 0$ for $n \geqslant p$ and $i = 1, 2$.
@@ -82,17 +82,13 @@ The reader will find in Exposé X, no. 2, the proof of what follows:
 
 Suppose that $Lef(X, Y)$ holds; then for every open neighborhood $U$ of $Y$ in $X$, the functor
 
-$$
-P(U) \longrightarrow P(\hat{X})
-$$
+$$ P(U) \longrightarrow P(\hat{X}) $$
 
 <!-- label: eq:XI.2.1 -->
 
 is fully faithful, so that the map
 
-$$
-\operatorname{Pic}(U) \longrightarrow \operatorname{Pic}(\hat{X})
-$$
+$$ \operatorname{Pic}(U) \longrightarrow \operatorname{Pic}(\hat{X}) $$
 
 <!-- label: eq:XI.2.2 -->
 
@@ -110,15 +106,15 @@ lim→_U Pic(U) ⟶ Pic(X̂).
 
 <!-- label: XI.2.2 -->
 
-Suppose that $Lef(X, Y)$ holds and that $H^{1}(Y, P_{n}) = 0$ for every integer $n \geqslant p$; then for every open
-$U \supset Y$, the maps
+Suppose that $Lef(X, Y)$ holds and that $H^{1}(Y, P_{n}) = 0$ for every integer $n \geqslant p$; then for every open $U
+\supset Y$, the maps
 
 ```text
 Pic(X) ⟶ Pic(U) ⟶ Pic(Y_n)
 ```
 
-are injective for $n \geqslant p$. If $Leff(X, Y)$ holds and if, moreover, $H^{i}(Y, P_{n}) = 0$ for every integer
-$n \geqslant p$ and $i = 1, 2$, then the map
+are injective for $n \geqslant p$. If $Leff(X, Y)$ holds and if, moreover, $H^{i}(Y, P_{n}) = 0$ for every integer $n
+\geqslant p$ and $i = 1, 2$, then the map
 
 ```text
 lim→_U Pic(U) ⟶ Pic(Y_n)
@@ -180,9 +176,9 @@ spectrum of a noetherian local ring, we find:
 
 <!-- label: XI.3.5 -->
 
-Let $A$ be a noetherian local ring; in order that it be parafactorial, it is necessary and sufficient that
-$prof A \geqslant 2$ and $\operatorname{Pic}(X' - {x}) = 0$, where we have set $X' = \operatorname{Spec}(A)$ and $x$ is
-the unique closed point of $X'$.
+Let $A$ be a noetherian local ring; in order that it be parafactorial, it is necessary and sufficient that $prof A
+\geqslant 2$ and $\operatorname{Pic}(X' - {x}) = 0$, where we have set $X' = \operatorname{Spec}(A)$ and $x$ is the
+unique closed point of $X'$.
 
 Note that a local ring of dimension $\leqslant 1$ is never parafactorial, since its depth is $\leqslant 1$. Hence
 "factorial" does not imply "parafactorial"; however, the converse holds for noetherian local rings of dimension
@@ -223,9 +219,7 @@ Let $X$ be a noetherian and normal prescheme. Let $Z^{1}(X)$ be the free abelian
 that $\dim O_{X,x} = 1$. The local ring of such a point is a discrete valuation ring. We shall write $v_{x}$ for the
 corresponding normalized valuation. Let $K(X)$ be the ring of rational functions on $X$ and let
 
-$$
-p: K(X)* \longrightarrow Z^{1}(X)
-$$
+$$ p: K(X)* \longrightarrow Z^{1}(X) $$
 
 be the map that to every $f \in K(X)*$ associates the codimension-one cycle:
 
@@ -237,23 +231,18 @@ be the map that to every $f \in K(X)*$ associates the codimension-one cycle:
 
 The image of $p$ is denoted $P(X)$, and its elements are called *principal divisors*.[^XI-3-star3] We set
 
-$$
-Cl(X) = Z^{1}(X)/P(X).
-$$
+$$ Cl(X) = Z^{1}(X)/P(X). $$
 
 Let $Z'^{1}(X)$ be the subgroup of $Z^{1}(X)$ whose elements are the locally principal divisors. One knows that
 
-$$
-\operatorname{Pic}(X) \simeq Z'^{1}(X)/P(X),
-$$
+$$ \operatorname{Pic}(X) \simeq Z'^{1}(X)/P(X), $$
 
 and consequently $\operatorname{Pic}(X)$ is identified with a subgroup of $Cl(X)$.
 
-Note that if $U$ is a dense open of $X$, then $K(X) \to K(U)$ is an isomorphism, and that if
-$codim(X - U, X) \geqslant 2$, i.e. if every $x \in X$ such that $\dim O_{X,x} \leqslant 1$ belongs to $U$, the
-homomorphism $Z^{1}(X) \to Z^{1}(U)$, and consequently $Cl(X) \to Cl(U)$, is also an isomorphism. Finally, if every
-$x \in U$ is factorial — i.e. $O_{X,x}$ is so — then $Z^{1}(U) = Z'^{1}(U)$, and so
-$\operatorname{Pic}(U) \simeq Cl(U)$.
+Note that if $U$ is a dense open of $X$, then $K(X) \to K(U)$ is an isomorphism, and that if $codim(X - U, X) \geqslant
+2$, i.e. if every $x \in X$ such that $\dim O_{X,x} \leqslant 1$ belongs to $U$, the homomorphism $Z^{1}(X) \to
+Z^{1}(U)$, and consequently $Cl(X) \to Cl(U)$, is also an isomorphism. Finally, if every $x \in U$ is factorial — i.e.
+$O_{X,x}$ is so — then $Z^{1}(U) = Z'^{1}(U)$, and so $\operatorname{Pic}(U) \simeq Cl(U)$.
 
 **Proposition.**
 
@@ -272,16 +261,15 @@ lim→_{i ∈ I} Pic(U_i) ──≅──→ Cl(X).
 ```
 
 Note that b) implies that every $x \in X$ such that $\dim O_{X,x} \leqslant 1$ belongs to $U_{i}$ for every $i$. Hence
-the $U_{i}$ are dense, and moreover the homomorphism $Z^{1}(U_{i}) \to Z^{1}(X)$ is an isomorphism, as is
-$K(U_{i}) \to K(X)$. So $\operatorname{Pic}(U) \subset Cl(U_{i}) \simeq Cl(X)$. To prove what is desired, it therefore
-suffices to show that every $D \in Z^{1}(X)$ belongs to $Z'^{1}(U_{i})$ for a suitable $i$. It suffices to do this for
-irreducible positive "divisors". Let then $x \in X$ be such that $\dim O_{X,x} = 1$. It suffices to prove that there
-exists $i \in I$ such that ${x}$ is locally principal at the points of $U_{i}$. Let $I$ be the largest ideal of
-definition of the closed set ${x}$. The set of points in whose neighborhood $I$ is free is an open set $U$. Now
-$U \supset \bigcap_{i \in I} U_{i}$ by c). If we set $Y = X - U$, then $Y \subset \bigcup_{i \in I} Y_{i}$ with
-$Y_{i} = X - U_{i}$; now $Y$ is closed, so admits a finite number of generic points, so is contained in the union of
-finitely many $Y_{i}$, hence in some $Y_{j}$ for a $j \in I$, because the $U_{i}$ form a filter base. Thus
-$U \supset U_{j}$. QED.
+the $U_{i}$ are dense, and moreover the homomorphism $Z^{1}(U_{i}) \to Z^{1}(X)$ is an isomorphism, as is $K(U_{i}) \to
+K(X)$. So $\operatorname{Pic}(U) \subset Cl(U_{i}) \simeq Cl(X)$. To prove what is desired, it therefore suffices to
+show that every $D \in Z^{1}(X)$ belongs to $Z'^{1}(U_{i})$ for a suitable $i$. It suffices to do this for irreducible
+positive "divisors". Let then $x \in X$ be such that $\dim O_{X,x} = 1$. It suffices to prove that there exists $i \in
+I$ such that ${x}$ is locally principal at the points of $U_{i}$. Let $I$ be the largest ideal of definition of the
+closed set ${x}$. The set of points in whose neighborhood $I$ is free is an open set $U$. Now $U \supset \bigcap_{i \in
+I} U_{i}$ by c). If we set $Y = X - U$, then $Y \subset \bigcup_{i \in I} Y_{i}$ with $Y_{i} = X - U_{i}$; now $Y$ is
+closed, so admits a finite number of generic points, so is contained in the union of finitely many $Y_{i}$, hence in
+some $Y_{j}$ for a $j \in I$, because the $U_{i}$ form a filter base. Thus $U \supset U_{j}$. QED.
 
 **Corollary.**
 
@@ -349,8 +337,8 @@ Let us summarize the preceding:
 
 <!-- label: XI.3.12 -->
 
-Let $X$ be a locally noetherian prescheme and let $I$ be a quasi-coherent ideal of $X$. Set $Y = V(I)$. Let
-$p \in \mathbb{N}$. Suppose that:
+Let $X$ be a locally noetherian prescheme and let $I$ be a quasi-coherent ideal of $X$. Set $Y = V(I)$. Let $p \in
+\mathbb{N}$. Suppose that:
 
 1. $Leff(X, Y)$ holds (Exposé X);
 1. $H^{i}(X, I^{n+1}/I^{n+2}) = 0$ if $i = 1$ or `2` and if $n \geqslant p$;
@@ -390,16 +378,14 @@ intersection is also a complete intersection, all localizations of $A$ other tha
 
 *Proof of 3.13 (i)* (following Kaplansky).[^XI-3-star5]
 
-Let $A$ be a regular noetherian local ring; set $\dim A = n$. If $n = 0$ or `1`, the result is known. Suppose
-$n \geqslant 2$, and argue by induction on $n$: suppose $n \geqslant 2$ and the theorem proved for rings of dimension
-$< n$. Set $X' = \operatorname{Spec}(A)$ and $X = X' - {x}$, where $x = r(A)$. The localizations of $A$ other than $A$
-are regular and of dimension $< n$, hence factorial. Moreover $prof A = \dim A \geqslant 2$. It therefore suffices to
-prove that $\operatorname{Pic}(X) = 0$ (Cor. 3.10). Let then $L$ be an invertible `O_X`-Module; one knows that one can
-prolong it to a coherent $O_{X'}$-Module $L'$. There exists a resolution of $L'$ by free $O_{X'}$-Modules:
+Let $A$ be a regular noetherian local ring; set $\dim A = n$. If $n = 0$ or `1`, the result is known. Suppose $n
+\geqslant 2$, and argue by induction on $n$: suppose $n \geqslant 2$ and the theorem proved for rings of dimension $<
+n$. Set $X' = \operatorname{Spec}(A)$ and $X = X' - {x}$, where $x = r(A)$. The localizations of $A$ other than $A$ are
+regular and of dimension $< n$, hence factorial. Moreover $prof A = \dim A \geqslant 2$. It therefore suffices to prove
+that $\operatorname{Pic}(X) = 0$ (Cor. 3.10). Let then $L$ be an invertible `O_X`-Module; one knows that one can prolong
+it to a coherent $O_{X'}$-Module $L'$. There exists a resolution of $L'$ by free $O_{X'}$-Modules:
 
-$$
-0 \longleftarrow L' \longleftarrow L'_{1} \longleftarrow \cdots \longleftarrow L'_{n} \longleftarrow 0,
-$$
+$$ 0 \longleftarrow L' \longleftarrow L'_{1} \longleftarrow \cdots \longleftarrow L'_{n} \longleftarrow 0, $$
 
 since the cohomological dimension of $A$ is finite. By restriction to $X$ one obtains a finite free resolution. It
 therefore suffices to prove the following lemma:
@@ -426,8 +412,8 @@ be the announced exact sequence, where $L_{0} = L$. Since everything is locally 
 ⨂_{0 ⩽ i ⩽ n} (det(L_i))^{(−1)^i} ≃ O_X;
 ```
 
-now all the $L_{i}$ for $i > 0$ are free, so their determinants are free as well, hence so is the determinant of
-$L_{0} = L$. QED.
+now all the $L_{i}$ for $i > 0$ are free, so their determinants are free as well, hence so is the determinant of $L_{0}
+= L$. QED.
 
 It remains to prove (ii) of the theorem. Beforehand, let us prove a lemma that will permit us to proceed by induction:
 
@@ -436,8 +422,8 @@ It remains to prove (ii) of the theorem. Beforehand, let us prove a lemma that w
 <!-- label: XI.3.16 -->
 
 Let $A$ be a noetherian local ring that is a quotient of a regular ring. Let $t \in r(A)$ be an $A$-regular element.
-Suppose that $A$ is complete for the $t$-adic topology. Set $X' = \operatorname{Spec}(A)$,
-$Y' = V(t) \simeq \operatorname{Spec}(B)$, $B = A/tA$, $X = X' - {x}$, $Y = Y' - {x}$, $x = r(A)$. Suppose that:
+Suppose that $A$ is complete for the $t$-adic topology. Set $X' = \operatorname{Spec}(A)$, $Y' = V(t) \simeq
+\operatorname{Spec}(B)$, $B = A/tA$, $X = X' - {x}$, $Y = Y' - {x}$, $x = r(A)$. Suppose that:
 
 1. for every $y \in X$ closed in $X$, one has $prof O_{X,y} \geqslant 2$,
 1. $prof A/tA \geqslant 3$,
@@ -447,13 +433,12 @@ then so is $A$.
 
 One knows that a) implies $Lef(X, Y)$ thanks to X 2.1. If we prove that $H^{1}(Y, P_{n}) = 0$ for every $n \geqslant 0$,
 we shall know thanks to (2.2) that $\operatorname{Pic}(X) \to \operatorname{Pic}(Y)$ is injective. If, moreover, $B$ is
-parafactorial, we shall know that $\operatorname{Pic}(Y) = 0$ (3.5), hence $\operatorname{Pic}(X) = 0$; now
-$prof(A) \geqslant 3 + 1 \geqslant 2$ since $t$ is $A$-regular, so $A$ will be parafactorial by 3.5.[^TRANSLATOR-XI-1]
+parafactorial, we shall know that $\operatorname{Pic}(Y) = 0$ (3.5), hence $\operatorname{Pic}(X) = 0$; now $prof(A)
+\geqslant 3 + 1 \geqslant 2$ since $t$ is $A$-regular, so $A$ will be parafactorial by 3.5.[^TRANSLATOR-XI-1]
 
-Let $I = (tA)^{\sim}$ be the $O_{X'}$-Module associated with the ideal `tA`. In no. 1, we set
-$P_{n} = (I^{n+1}/I^{n+2})|Y$ for every $n \geqslant 0$. Now $t$ is $A$-regular, so $P_{n} \simeq O_{Y}$. It therefore
-remains to prove that $H^{1}(Y, O_{Y}) = 0$. Now $Y = Y' - {x}$ is an open subset of $Y'$, so we have an exact sequence
-(I (27)):
+Let $I = (tA)^{\sim}$ be the $O_{X'}$-Module associated with the ideal `tA`. In no. 1, we set $P_{n} =
+(I^{n+1}/I^{n+2})|Y$ for every $n \geqslant 0$. Now $t$ is $A$-regular, so $P_{n} \simeq O_{Y}$. It therefore remains to
+prove that $H^{1}(Y, O_{Y}) = 0$. Now $Y = Y' - {x}$ is an open subset of $Y'$, so we have an exact sequence (I (27)):
 
 ```text
 H¹(Y′, O_{Y′}) ⟶ H¹(Y, O_Y) ⟶ H²_x(Y′, O_{Y′}),
@@ -474,21 +459,21 @@ Retaining the hypotheses of 3.16, suppose moreover that:
 Then the map $\operatorname{Pic}(X) \to \operatorname{Pic}(Y)$ is an isomorphism; in particular, in order that $A$ be
 parafactorial, it is necessary and sufficient that $B$ be so.
 
-One knows (X 2.1) that a) and c) imply $Leff(X, Y)$. Moreover, by the reasoning just made, d) implies that
-$H^{i}(Y, P_{n}) = 0$ for every $n \geqslant 0$ and $i = 1$ or $i = 2$. Furthermore, for every open neighborhood $U$ of
-$Y$ in $X$, the complement of $U$ in $X$ consists of a finite number of closed points. Thanks to e) and Theorem 3.12, we
-deduce that $\operatorname{Pic}(X) \to \operatorname{Pic}(Y)$ is an isomorphism. On the other hand,
-$prof A \geqslant prof B \geqslant 2$; by criterion 3.5, we deduce that $A$ is parafactorial if and only if $B$ is so.
+One knows (X 2.1) that a) and c) imply $Leff(X, Y)$. Moreover, by the reasoning just made, d) implies that $H^{i}(Y,
+P_{n}) = 0$ for every $n \geqslant 0$ and $i = 1$ or $i = 2$. Furthermore, for every open neighborhood $U$ of $Y$ in
+$X$, the complement of $U$ in $X$ consists of a finite number of closed points. Thanks to e) and Theorem 3.12, we deduce
+that $\operatorname{Pic}(X) \to \operatorname{Pic}(Y)$ is an isomorphism. On the other hand, $prof A \geqslant prof B
+\geqslant 2$; by criterion 3.5, we deduce that $A$ is parafactorial if and only if $B$ is so.
 
 Let us now prove 3.13 (ii). Let $R$ be a regular noetherian local ring. Let $(t_{1}, \cdots, t_{k})$ be an $R$-sequence.
 Set $B = R/(t_{1}, \cdots, t_{k})$ and suppose $\dim B \geqslant 4$. We must prove that $B$ is parafactorial. We argue
 by induction on $k$. If $k = 0$, then $B$ is regular, hence factorial by 3.13 (i), hence parafactorial by 3.10. Suppose
 $k \geqslant 1$ and the theorem proved for $k' < k$. Set $A = R/(t_{1}, \cdots, t_{k-1})$, so $B = A/t_{k} A$. We may
 suppose $B$ complete by 3.7. By the induction hypothesis, $A$ is parafactorial. Let us prove that we may apply Lemma
-3.17. We have supposed $B$ complete, hence so is $A$, and therefore $A$ is complete for the $t_{k}$-adic topology. If
-$x \in X$, and if $x$ is closed in $X$, then $A_{x}$ is a complete intersection of dimension $\geqslant 4$, with
-$k' < k$. By the induction hypothesis, $A_{x}$ is parafactorial, and moreover of depth $\geqslant 4$. This gives a), c),
-and e). Moreover $\dim A \geqslant 5$, whence d). QED.
+3.17. We have supposed $B$ complete, hence so is $A$, and therefore $A$ is complete for the $t_{k}$-adic topology. If $x
+\in X$, and if $x$ is closed in $X$, then $A_{x}$ is a complete intersection of dimension $\geqslant 4$, with $k' < k$.
+By the induction hypothesis, $A_{x}$ is parafactorial, and moreover of depth $\geqslant 4$. This gives a), c), and e).
+Moreover $\dim A \geqslant 5$, whence d). QED.
 
 **Theorem.**
 

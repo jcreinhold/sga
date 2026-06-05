@@ -65,9 +65,7 @@ p : G_{a, S} → G
 
 *a group morphism such that for every $S' \to S$ and all $t \in Q(S')$, $x \in G_{a}(S')$ one has*
 
-$$
-int(t)(p(x)) = p(\alpha(t)^{q} x).
-$$
+$$ int(t)(p(x)) = p(\alpha(t)^{q} x). $$
 
 *Then there exists a unique $\nu \in G_{a}(S)$ such that $p(x) = p_{\alpha}(\nu x^{q})$.*
 
@@ -155,14 +153,12 @@ hand, the inner automorphisms of $T$ define on $G$ a structure of group with gro
 
 *(i) There exists a unique morphism of groups with group of operators $T$*
 
-$$
-\exp : W(g_{\alpha}) \to G
-$$
+$$ \exp : W(g_{\alpha}) \to G $$
 
 *which induces on the Lie algebras the canonical morphism $g_{\alpha} \to g$.*[^N.D.E-XX-2]
 
-*In other words, `exp` is the unique morphism satisfying the following conditions: for every $S' \to S$ and every
-$t \in T(S')$, $X, X' \in W(g_{\alpha})(S')$, one has*
+*In other words, `exp` is the unique morphism satisfying the following conditions: for every $S' \to S$ and every $t \in
+T(S')$, $X, X' \in W(g_{\alpha})(S')$, one has*
 
 ```text
 exp(X + X′) = exp(X) exp(X′),
@@ -172,9 +168,7 @@ Lie(exp)(X) = X.
 
 *(ii) If one defines analogously (in the $S$-elementary system $(G, T, -\alpha)$)*
 
-$$
-\exp : W(g_{-\alpha}) \to G,
-$$
+$$ \exp : W(g_{-\alpha}) \to G, $$
 
 *then the morphism*
 
@@ -234,10 +228,10 @@ There exists an open neighborhood $U$ of $s_{0}$ such that $f|U$ is a monomorphi
 
 <!-- label: III.XX.1.6 -->
 
-**Lemma 1.7.** *Let $A$ be a complete noetherian local ring with algebraically closed residue field $k$,
-$(G, T, \alpha)$ an $A$-elementary system, $p_{0} : G_{a, k} \to G_{k}$ a morphism of $k$-groups normalized by $T_{k}$
-with multiplier $\alpha \otimes_{A} k$. There exists a group morphism $p : G_{a, A} \to G$ normalized by $T$ with
-multiplier $\alpha$.*
+**Lemma 1.7.** *Let $A$ be a complete noetherian local ring with algebraically closed residue field $k$, $(G, T,
+\alpha)$ an $A$-elementary system, $p_{0} : G_{a, k} \to G_{k}$ a morphism of $k$-groups normalized by $T_{k}$ with
+multiplier $\alpha \otimes_{A} k$. There exists a group morphism $p : G_{a, A} \to G$ normalized by $T$ with multiplier
+$\alpha$.*
 
 <!-- label: III.XX.1.7 -->
 
@@ -253,9 +247,8 @@ set-theoretic question. One is thus reduced to proving:
 
 <!-- original page 41 -->
 
-**Lemma 1.8.** *Let $k$ be an algebraically closed field; let $N$ be an invariant subgroup of
-$T \cdot_{\alpha} G_{a, k}$ ($\alpha$ a non-trivial character of the torus $T$), étale over $k$ and such that
-$N \cap T = {e}$. Then $N = {e}$.*
+**Lemma 1.8.** *Let $k$ be an algebraically closed field; let $N$ be an invariant subgroup of $T \cdot_{\alpha} G_{a,
+k}$ ($\alpha$ a non-trivial character of the torus $T$), étale over $k$ and such that $N \cap T = {e}$. Then $N = {e}$.*
 
 <!-- label: III.XX.1.8 -->
 
@@ -270,8 +263,8 @@ show, by induction on $n$, that $p_{0}$ can be extended for each $n$ to a morphi
 p_n : G_{a, S_n} → G_{S_n}
 ```
 
-normalized by $T_{S_{n}}$ with multiplier $\alpha_{S_{n}}$, the $p_{n}$ further satisfying the condition
-$p_{n+1} \times_{S_{n+1}} S_{n} = p_{n}$.
+normalized by $T_{S_{n}}$ with multiplier $\alpha_{S_{n}}$, the $p_{n}$ further satisfying the condition $p_{n+1}
+\times_{S_{n+1}} S_{n} = p_{n}$.
 
 Let $H = T \cdot_{\alpha} G_{a, S}$. The morphism $H_{S_{n}} \to G_{S_{n}}$ defined by $p_{n}$ is denoted $f_{n}$. Let
 us admit the following lemma:
@@ -290,9 +283,7 @@ and the adjoint representation of $G$).*
 
 Then, by virtue of Exp. III 2.8, $f_{n}$ extends to a morphism of $S_{n+1}$-groups
 
-$$
-f'_{n+1} : H_{S_{n+1}} \to G_{S_{n+1}}.
-$$
+$$ f'_{n+1} : H_{S_{n+1}} \to G_{S_{n+1}}. $$
 
 <!-- original page 42 -->
 
@@ -362,9 +353,7 @@ g_B : B → B̂    and    g_C : C → Ĉ.
 It follows from the remark made above that $g_{C}$ is an isomorphism. To give a coherent system $(f_{n})$ as in the
 statement is equivalent to giving a morphism of graded $A$-algebras
 
-$$
-\hat{F} : \hat{B} \to \hat{C}.
-$$
+$$ \hat{F} : \hat{B} \to \hat{C}. $$
 
 To find a morphism $f$ as in the statement is equivalent to finding a morphism of graded $A$-algebras $F : B \to C$
 rendering commutative the diagram
@@ -383,8 +372,8 @@ Since $g_{C}$ is an isomorphism, the existence and uniqueness of $F$ are immedia
 
 To complete the proof of 1.5, it remains only to prove 1.9.
 
-**1.12. Proof of 1.9.** One has $g = t \oplus g_{\alpha} \oplus g_{-\alpha}$. As explained in 1.9, consider $g$ as a
-$(T \cdot_{\alpha} G_{a, k})$-module. It is clear that $t \oplus g_{\alpha}$ is a submodule of $g$, the quotient being
+**1.12. Proof of 1.9.** One has $g = t \oplus g_{\alpha} \oplus g_{-\alpha}$. As explained in 1.9, consider $g$ as a $(T
+\cdot_{\alpha} G_{a, k})$-module. It is clear that $t \oplus g_{\alpha}$ is a submodule of $g$, the quotient being
 isomorphic to $g_{-\alpha}$ as a $k$-vector space and even as a $T$-module. It is clear that $G_{a, k}$ acts trivially
 on this quotient, which is of dimension 1 (for every group morphism from $G_{a, k}$ to $G_{m, k}$ is trivial). Similarly
 $g_{\alpha}$ is a submodule of $t \oplus g_{\alpha}$, the quotient being isomorphic to $t$ as a $T$-module, $G_{a, k}$
@@ -395,22 +384,19 @@ acting trivially on it. To summarize:
 **Lemma 1.13.** *Under the conditions of 1.9, $g$ admits a composition series as $(T \cdot_{\alpha} G_{a, k})$-module
 whose successive quotients are*
 
-$$
-g_{-\alpha}, t, g_{\alpha},
-$$
+$$ g_{-\alpha}, t, g_{\alpha}, $$
 
 *viewed as $(T \cdot_{\alpha} G_{a, k})$-modules via the projection $T \cdot_{\alpha} G_{a, k} \to T$.*
 
 <!-- label: III.XX.1.13 -->
 
-One is therefore reduced to computing the cohomology of $T \cdot_{\alpha} G_{a, k}$ acting via the projection
-$T \cdot_{\alpha} G_{a, k} \to T$ and the character $\beta$ of $T$ (here $\beta = 0$, $\alpha$, or $-\alpha$) on
+One is therefore reduced to computing the cohomology of $T \cdot_{\alpha} G_{a, k}$ acting via the projection $T
+\cdot_{\alpha} G_{a, k} \to T$ and the character $\beta$ of $T$ (here $\beta = 0$, $\alpha$, or $-\alpha$) on
 $W(k)$.[^N.D.E-XX-5] Let $k[x_{1}, \cdots, x_{n}]$ denote the algebra of polynomials over $k$ in $n$ variables and
 $k_{q}[x_{1}, \cdots, x_{n}]$ the subspace of homogeneous polynomials of degree $q$.
 
-**Lemma 1.14.** *With the preceding notations, one has
-$H^{n}(T \cdot_{\alpha} G_{a, k}, k) = H^{n}(C^{*}_{\alpha, \beta})$, where the complex $C^{*}_{\alpha, \beta}$ is
-defined by*
+**Lemma 1.14.** *With the preceding notations, one has $H^{n}(T \cdot_{\alpha} G_{a, k}, k) = H^{n}(C^{*}_{\alpha,
+\beta})$, where the complex $C^{*}_{\alpha, \beta}$ is defined by*
 
 <!-- original page 45 -->
 
@@ -444,8 +430,8 @@ To prove 1.9, it therefore suffices to prove that $H^{2}(C^{*}_{\alpha, \beta}) 
 which is done at once.
 
 **Remark 1.15.** *One can explicitly compute the groups $H^{n}(C^{*}_{\alpha, \beta})$ for $\beta = q \alpha$ (see M.
-Lazard,* Lois de groupes et analyseurs\*, Annales E.N.S., 1955). In particular, one finds
-$H^{n}(C^{*}_{\alpha, q \alpha}) = 0$ for $n > q$.\*
+Lazard,* Lois de groupes et analyseurs\*, Annales E.N.S., 1955). In particular, one finds $H^{n}(C^{*}_{\alpha, q
+\alpha}) = 0$ for $n > q$.\*
 
 <!-- label: III.XX.1.15 -->
 
@@ -559,8 +545,8 @@ g_α ⊗_{O_S} g_{−α} → O_S,   (X, Y) ↦ ⟨X, Y⟩,
 α* : G_{m, S} → T
 ```
 
-*such that for every $S' \to S$ and all $X \in \Gamma(S', g_{\alpha} \otimes O_{S'})$,
-$Y \in \Gamma(S', g_{-\alpha} \otimes O_{S'})$ one has the equivalence:*
+*such that for every $S' \to S$ and all $X \in \Gamma(S', g_{\alpha} \otimes O_{S'})$, $Y \in \Gamma(S', g_{-\alpha}
+\otimes O_{S'})$ one has the equivalence:*
 
 ```text
 exp(X) · exp(Y) ∈ Ω(S′) ⇐⇒ 1 + ⟨X, Y⟩ ∈ G_m(S′),
@@ -583,16 +569,16 @@ isomorphism, hence puts the modules $g_{\alpha}$ and $g_{-\alpha}$ in duality, a
 <!-- original page 48 -->
 
 In view of the uniqueness assertions of the theorem, it suffices to do the proof locally on $S$. One can therefore
-assume $g_{\alpha}$ and $g_{-\alpha}$ free on $S$. Take then $X \in \Gamma(S, g_{\alpha})^{\times}$,
-$Y \in \Gamma(S, g_{-\alpha})^{\times}$ and set $p_{\alpha}(x) = \exp(x X)$, $p_{-\alpha}(y) = \exp(y Y)$, for
-$x, y \in G_{a}(S')$, $S' \to S$. By 1.5 and 1.21, it suffices to prove:
+assume $g_{\alpha}$ and $g_{-\alpha}$ free on $S$. Take then $X \in \Gamma(S, g_{\alpha})^{\times}$, $Y \in \Gamma(S,
+g_{-\alpha})^{\times}$ and set $p_{\alpha}(x) = \exp(x X)$, $p_{-\alpha}(y) = \exp(y Y)$, for $x, y \in G_{a}(S')$, $S'
+\to S$. By 1.5 and 1.21, it suffices to prove:
 
 **Proposition 2.2.** *Let $S$ be a scheme, $G$ an $S$-group, $T$ a torus of $G$, $\alpha$ a character of $T$ non-trivial
 on each fiber, $p_{\alpha} : G_{a, S} \to G$ (resp. $p_{-\alpha} : G_{a, S} \to G$) a group monomorphism normalized by
 $T$ with multiplier $\alpha$ (resp. $-\alpha$). Suppose that:*
 
-*(i) The morphism $G_{a, S} \times_{S} T \times_{S} G_{a, S} \to G$ defined by
-$(y, t, x) \mapsto p_{-\alpha}(y) t p_{\alpha}(x)$ is an open immersion. Denote its image by $\Omega$.*
+*(i) The morphism $G_{a, S} \times_{S} T \times_{S} G_{a, S} \to G$ defined by $(y, t, x) \mapsto p_{-\alpha}(y) t
+p_{\alpha}(x)$ is an open immersion. Denote its image by $\Omega$.*
 
 *(ii) For every $s \in S$, $(p_{\alpha})_{s}(G_{a, \kappa(s)})$ and $(p_{-\alpha})_{s}(G_{a, \kappa(s)})$ do not
 commute.*
@@ -620,9 +606,7 @@ p_α(x) p_{−α}(y) = p_{−α}( y / (1 + a x y) ) · α*(1 + a x y) · p_α( x
 
 A) Consider the morphism
 
-$$
-G^{2}_{a, S} \to G
-$$
+$$ G^{2}_{a, S} \to G $$
 
 defined by $(x, y) \mapsto p_{\alpha}(x) p_{-\alpha}(y)$. Let $U$ be the inverse image of $\Omega$ under this morphism.
 It is an open subset of $G^{2}_{a, S}$ containing $0 \times_{S} G_{a, S}$ and $G_{a, S} \times_{S} 0$. There therefore
@@ -646,8 +630,8 @@ B(u, 0) = B(0, v) = e.
 ```
 
 Let $S'$ be a separated $S$-scheme and let $t \in T(S')$ be a point of $T$. Since $\Omega_{S'}$ is stable under
-$int(t)$, then, by the last formula of 1.16, $U_{S'}$ is stable under the automorphism
-$(x, y) \mapsto (\alpha(t) x, \alpha(t)^{-1} y)$ of $G^{2}_{a, S'}$, and one has the relations:
+$int(t)$, then, by the last formula of 1.16, $U_{S'}$ is stable under the automorphism $(x, y) \mapsto (\alpha(t) x,
+\alpha(t)^{-1} y)$ of $G^{2}_{a, S'}$, and one has the relations:
 
 ```text
 A(α(t) u, α(t)⁻¹ v) = α(t)⁻¹ A(u, v),
@@ -694,8 +678,8 @@ One knows that $A(0, 1) = 1$; it follows that there exists an open set `W_1` of 
 such that for every section $x$ of `W_1`, $A(x, 1)$ is invertible; setting $A(x, 1)^{-1} = F(x)$, one obtains that if
 $(u, v) \in V(S')$[^N.D.E-XX-11] and $u v \in W_{1}(S')$, $S' \to S$, then $A(u, v) = v A(u v, 1) = v F(u v)^{-1}$.
 Arguing similarly for $C$, one obtains that there exists an open set `W_2` of $G_{a, S}$ containing the zero section,
-and an element $E$[^N.D.E-XX-12] of $O(W_{2})^{\times}$, such that $C(u, v) = u C(1, u v) = u E(u v)^{-1}$, if
-$(u, v) \in V(S')$ and $u v \in W_{2}(S')$. Consequently, setting $W = W_{1} \cap W_{2}$, one obtains:
+and an element $E$[^N.D.E-XX-12] of $O(W_{2})^{\times}$, such that $C(u, v) = u C(1, u v) = u E(u v)^{-1}$, if $(u, v)
+\in V(S')$ and $u v \in W_{2}(S')$. Consequently, setting $W = W_{1} \cap W_{2}$, one obtains:
 
 There exists an open set $W$ of $G_{a, S}$ containing the zero section, and $S$-morphisms
 
@@ -741,8 +725,8 @@ It is immediate from the definition of $L$ that $(1, 0, 0) \in L(S)$. Consider t
 L ∩_T (1 ×_S G_{a, S} ×_S G_{a, S}) = 1 ×_S M;
 ```
 
-$M$ is an open set of $G^{2}_{a, S}$, containing the section `(0, 0)`, and for $(v, w) \in M(S')$, one has
-$v, w E(v)^{-1}, v + w \in W(S')$ and
+$M$ is an open set of $G^{2}_{a, S}$, containing the section `(0, 0)`, and for $(v, w) \in M(S')$, one has $v, w
+E(v)^{-1}, v + w \in W(S')$ and
 
 ```text
 (1′)   E(v + w) = E(w E(v)⁻¹) E(v),
@@ -750,10 +734,10 @@ $v, w E(v)^{-1}, v + w \in W(S')$ and
 (3′)   (v + w) F(v + w)⁻¹ = α(H(v))⁻¹ w F(w E(v)⁻¹)⁻¹ + v F(v)⁻¹.
 ```
 
-Consider finally the morphism from $M$ to $G^{2}_{a, S}$ defined set-theoretically by
-$(v, w) \mapsto (v, w E(v)^{-1})$.[^N.D.E-XX-13] It preserves the section `(0, 0)` and induces an isomorphism of $M$
-onto an open set $N$ of $G^{2}_{a, S}$ containing the zero section (the inverse isomorphism being given by
-$(x, y) \mapsto (x, y E(x))$).[^N.D.E-XX-14] One has thus proved the following assertion:
+Consider finally the morphism from $M$ to $G^{2}_{a, S}$ defined set-theoretically by $(v, w) \mapsto (v, w
+E(v)^{-1})$.[^N.D.E-XX-13] It preserves the section `(0, 0)` and induces an isomorphism of $M$ onto an open set $N$ of
+$G^{2}_{a, S}$ containing the zero section (the inverse isomorphism being given by $(x, y) \mapsto (x, y
+E(x))$).[^N.D.E-XX-14] One has thus proved the following assertion:
 
 There exists an open set $N$ of $G^{2}_{a, S}$, containing the zero section, such that if $(x, y) \in N(S')$, then
 `x, y` and $x + y E(x)$[^N.D.E-XX-15] belong to $W(S')$ and:
@@ -834,9 +818,7 @@ characteristic 0, $F$ is a rational fraction with zero derivative, hence constan
 If $k$ is of characteristic $p$, and if $F$ is not constant,[^N.D.E-XX-18] there exists an integer $n > 0$ and a
 rational fraction $F_{1} \in k(X)$ such that $F'_{1}(X) \neq 0$ and
 
-$$
-F(X) = F_{1}(X^{p^{n}}) = F_{1}(X)^{p^{n}}.
-$$
+$$ F(X) = F_{1}(X^{p^{n}}) = F_{1}(X)^{p^{n}}. $$
 
 Substituting in the functional equation, one finds
 
@@ -846,9 +828,7 @@ Substituting in the functional equation, one finds
 
 Differentiating at $x = 0$, one finds
 
-$$
-(\ast_{1})   F'_{1}(y) = F'_{1}(0) F_{1}(y),
-$$
+$$ (\ast_{1}) F'_{1}(y) = F'_{1}(0) F_{1}(y), $$
 
 and differentiating (†\_1) at $y = 0$, one obtains
 
@@ -858,24 +838,22 @@ and differentiating (†\_1) at $y = 0$, one obtains
 
 Since, by hypothesis, $F'_{1}(X)$ is an invertible element of $k(X)$, one deduces from these two equalities that
 
-$$
-F_{1}(X)^{p^{n}} = 1,
-$$
+$$ F_{1}(X)^{p^{n}} = 1, $$
 
-hence `F_1` is a constant, contradicting the initial hypothesis. This shows that $F$ is constant, and equal to
-$1 = F(0)$.
+hence `F_1` is a constant, contradicting the initial hypothesis. This shows that $F$ is constant, and equal to $1 =
+F(0)$.
 
-D) Suppose $S$ is the spectrum of a field. If $F'(0) = 0$, then $F = 1$. Formula (5″) then gives us
-$H(x + y) = H(x) H(y)$, which shows that $H$ extends to a group morphism $G_{a, S} \to T$ (Exp. XVIII 2.3), which is
-necessarily constant of value $e$. On the other hand, by Lemma 2.3, one will also have $E(x) = 1 + b x$ for some
-$b \in k$. But then (6″) gives, for $(x, y) \in N(S')$,
+D) Suppose $S$ is the spectrum of a field. If $F'(0) = 0$, then $F = 1$. Formula (5″) then gives us $H(x + y) = H(x)
+H(y)$, which shows that $H$ extends to a group morphism $G_{a, S} \to T$ (Exp. XVIII 2.3), which is necessarily constant
+of value $e$. On the other hand, by Lemma 2.3, one will also have $E(x) = 1 + b x$ for some $b \in k$. But then (6″)
+gives, for $(x, y) \in N(S')$,
 
 ```text
 (x + y) E(x + y)⁻¹ = x E(x)⁻¹ + y E(y)⁻¹,
 ```
 
-hence,[^N.D.E-XX-19] by Exp. XVIII 2.3 again, $x \mapsto x E(x)^{-1}$ extends to a morphism of $k$-groups
-$G_{a, k} \to G_{a, k}$, hence $x/(1 + b x) = c x$ for some $c \in k$, whence $b = 0$ (and $c = 1$).
+hence,[^N.D.E-XX-19] by Exp. XVIII 2.3 again, $x \mapsto x E(x)^{-1}$ extends to a morphism of $k$-groups $G_{a, k} \to
+G_{a, k}$, hence $x/(1 + b x) = c x$ for some $c \in k$, whence $b = 0$ (and $c = 1$).
 
 <!-- original page 54 -->
 
@@ -918,9 +896,7 @@ Since $G_{m, S}$ is schematically dense in $G_{a, S}$, one deduces $a^{2} = a b$
 Since $a$ is invertible, $x \mapsto 1 + a x$ is an automorphism of $G_{a, S}$; one can therefore find an open set $W'$
 of $G_{a, S}$ containing the section `1` and a morphism
 
-$$
-P : W' \to T
-$$
+$$ P : W' \to T $$
 
 such that $P(1 + a x) = H(x)$.[^N.D.E-XX-21]
 
@@ -946,9 +922,9 @@ section `1`, hence
 (♦_4)   α ∘ α* = 2.
 ```
 
-F)[^N.D.E-XX-22] Assembling the results (+) and (♦\_1 — ♦\_4), one sees that there exist $a \in G_{m}(S)$ and
-$\alpha* \in \operatorname{Hom}_{S-gr.}(G_{m, S}, T)$ such that $\alpha \circ \alpha* = 2$ and that, if
-$(u, v) \in V(S')$ and $u v \in W(S')$, then $1 + a u v$ is invertible and
+F)[^N.D.E-XX-22] Assembling the results (+) and (♦\_1 — ♦\_4), one sees that there exist $a \in G_{m}(S)$ and $\alpha*
+\in \operatorname{Hom}_{S-gr.}(G_{m, S}, T)$ such that $\alpha \circ \alpha* = 2$ and that, if $(u, v) \in V(S')$ and $u
+v \in W(S')$, then $1 + a u v$ is invertible and
 
 ```text
 p_α(u) p_{−α}(v) = p_{−α}( v / (1 + a u v) ) · α*(1 + a u v) · p_α( u / (1 + a u v) ).
@@ -956,9 +932,8 @@ p_α(u) p_{−α}(v) = p_{−α}( v / (1 + a u v) ) · α*(1 + a u v) · p_α( u
 
 Consider the open set $V'$ of $G^{2}_{a, S}$ defined by "$1 + a u v$ invertible", i.e. $V' = (G^{2}_{a, S})_{f}$ where
 $f(u, v) = 1 + a u v$. The two sides of the preceding formula define morphisms from $V'$ to $G$ which coincide in a
-neighborhood of the section `0`, hence coincide on $V'$. The preceding formula is therefore valid for every section
-$(u, v)$ of $V'$. In particular, it follows that $V' \subset U$, where $U$ is the open set introduced at the beginning
-of A).
+neighborhood of the section `0`, hence coincide on $V'$. The preceding formula is therefore valid for every section $(u,
+v)$ of $V'$. In particular, it follows that $V' \subset U$, where $U$ is the open set introduced at the beginning of A).
 
 Let us prove that $U = V'$. Returning to the notations of A), one has a morphism
 
@@ -972,8 +947,8 @@ definition of the rational map $G^{2}_{a, k} \to G_{a, k}$ defined by the ration
 open set defined by the function $1 + a X Y$.
 
 G) One has thus proved the existence of $a$ and $\alpha*$, as well as the two additional properties announced. It
-remains to prove uniqueness. Let then $a'$ and $\alpha*'$ also satisfy the required conditions. If
-$u, v \in G_{a}(S')^{2}$, one has at once:
+remains to prove uniqueness. Let then $a'$ and $\alpha*'$ also satisfy the required conditions. If $u, v \in
+G_{a}(S')^{2}$, one has at once:
 
 <!-- original page 56 -->
 
@@ -1047,12 +1022,10 @@ W(g_α)^× ×_S W(g_{−α})^× → G_{m, S}.
 
 <!-- label: III.XX.2.6 -->
 
-For every section $X \in \Gamma(S, g_{\alpha})^{\times}$, there therefore exists a unique section $X^{-1}$ of
-$\Gamma(S, g_{-\alpha})^{\times}$ such that $X X^{-1} = 1$. One has $(z X)^{-1} = z^{-1} X^{-1}$. The morphism
+For every section $X \in \Gamma(S, g_{\alpha})^{\times}$, there therefore exists a unique section $X^{-1}$ of $\Gamma(S,
+g_{-\alpha})^{\times}$ such that $X X^{-1} = 1$. One has $(z X)^{-1} = z^{-1} X^{-1}$. The morphism
 
-$$
-s : W(g_{\alpha})^{\times} \to W(g_{-\alpha})^{\times}
-$$
+$$ s : W(g_{\alpha})^{\times} \to W(g_{-\alpha})^{\times} $$
 
 thus defined is therefore an isomorphism of schemes, compatible with the isomorphism $s : z \mapsto z^{-1}$ on the
 operator groups.
@@ -1097,8 +1070,8 @@ O_S  ──α*──→  t  ──α──→  O_S.
 One will denote $H_{\alpha} = \alpha*(1)$. One calls $\alpha$ the *infinitesimal root* associated with $\alpha$, and
 $H_{\alpha}$ the corresponding *infinitesimal coroot*.
 
-**Lemma 2.10.** *Let $S' \to S$ and $X, X' \in W(g_{\alpha})(S')$, $H \in W(t)(S')$, $Y, Y' \in W(g_{-\alpha})(S')$,
-$t \in T(S')$. One has*
+**Lemma 2.10.** *Let $S' \to S$ and $X, X' \in W(g_{\alpha})(S')$, $H \in W(t)(S')$, $Y, Y' \in W(g_{-\alpha})(S')$, $t
+\in T(S')$. One has*
 
 ```text
 (1)   Ad(t) H = H,    Ad(t) X = α(t) X,    Ad(t) Y = α(t)⁻¹ Y.
@@ -1118,29 +1091,25 @@ $t \in T(S')$. One has*
 (3)   [H, X] = α(H) X,    [H, Y] = −α(H) Y,    [X, Y] = ⟨X, Y⟩ H_α.
 ```
 
-$$
-(4)   H_{-\alpha} = -H_{\alpha}.
-$$
+$$ (4) H_{-\alpha} = -H_{\alpha}. $$
 
-$$
-(5)   \alpha(H_{\alpha}) = 2.
-$$
+$$ (5) \alpha(H_{\alpha}) = 2. $$
 
 <!-- label: III.XX.2.10 -->
 
 The proof of these various formulas is either trivial or an immediate consequence of formula (F) of 2.1.
 
 **Corollary 2.11.** *Suppose $H_{\alpha}$ is non-zero on every fiber (which is in particular the case if `2` is
-invertible on $S$, by (5)). Then $X_{\alpha} \in \Gamma(S, g_{\alpha})^{\times}$ and
-$X_{-\alpha} \in \Gamma(S, g_{-\alpha})^{\times}$ are paired if and only if $[X_{\alpha}, X_{-\alpha}] = H_{\alpha}$.*
+invertible on $S$, by (5)). Then $X_{\alpha} \in \Gamma(S, g_{\alpha})^{\times}$ and $X_{-\alpha} \in \Gamma(S,
+g_{-\alpha})^{\times}$ are paired if and only if $[X_{\alpha}, X_{-\alpha}] = H_{\alpha}$.*
 
 <!-- label: III.XX.2.11 -->
 
 <!-- original page 59 -->
 
-**2.12.** Let $(G, T, \alpha)$ be an $S$-elementary system. We know (1.19) that the center of $G$ is
-$Centr(G) = Ker(\alpha)$, a group of multiplicative type and of finite type. If $Q$ is a subgroup of multiplicative type
-of $Centr(G)$, the quotient $G/Q$ is affine over $S$ (Exp. IX 2.5), smooth over $S$ (Exp. VI_B 9.2) with connected
+**2.12.** Let $(G, T, \alpha)$ be an $S$-elementary system. We know (1.19) that the center of $G$ is $Centr(G) =
+Ker(\alpha)$, a group of multiplicative type and of finite type. If $Q$ is a subgroup of multiplicative type of
+$Centr(G)$, the quotient $G/Q$ is affine over $S$ (Exp. IX 2.5), smooth over $S$ (Exp. VI_B 9.2) with connected
 reductive fibers of semisimple rank 1 (Exp. XIX 1.8).
 
 Set $G' = G/Q$; this is a reductive $S$-group of semisimple rank 1; $T' = T/Q$ is a maximal torus of it. The open set
@@ -1152,14 +1121,12 @@ $\alpha$, it follows that the morphism derived from the canonical morphism $G \t
 g_α  ──∼──→  g′_{α′}    and    g_{−α}  ──∼──→  g′_{−α′}.
 ```
 
-In particular, $\alpha'$ is a root of $G'$ with respect to $T'$. Hence, denoting by $\alpha/Q$ the character
-$T/Q \to G_{m, S}$ induced by $\alpha$, one has:
+In particular, $\alpha'$ is a root of $G'$ with respect to $T'$. Hence, denoting by $\alpha/Q$ the character $T/Q \to
+G_{m, S}$ induced by $\alpha$, one has:
 
 **Lemma 2.13.** *If $Q$ is a subgroup of multiplicative type of $Ker(\alpha)$, then*
 
-$$
-(G/Q, T/Q, \alpha/Q)
-$$
+$$ (G/Q, T/Q, \alpha/Q) $$
 
 *is an elementary system.*
 
@@ -1209,7 +1176,7 @@ G_{m, S}  ⤴  ⤵  G_{m, S}
 N = Norm_G(T),    W = Norm_G(T) / T,
 ```
 
-(cf. Exp. XIX 6.3); $N$ is a closed subgroup of $G$, smooth over $S$. One will denote by $N^{\times}  = N - T$ the open
+(cf. Exp. XIX 6.3); $N$ is a closed subgroup of $G$, smooth over $S$. One will denote by $N^{\times} = N - T$ the open
 subscheme of $N$ induced on the complement of $T$.[^N.D.E-XX-24] Let $R$ be the (unique) maximal torus of $Ker(\alpha)$,
 and $T'$ the image of $\alpha* : G_{m, S} \to T$, which is a subtorus of dimension 1 of $T$.
 
@@ -1228,8 +1195,8 @@ geometric fibers, and this follows at once from the formula $\alpha \circ \alpha
 
 <!-- original page 61 -->
 
-*(ii) $N^{\times}$ is a principal homogeneous bundle locally trivial under $T$, on the left by the law
-$(t, q) \mapsto t q$ (resp. on the right by the law $(q, t) \mapsto q t$).*
+*(ii) $N^{\times}$ is a principal homogeneous bundle locally trivial under $T$, on the left by the law $(t, q) \mapsto t
+q$ (resp. on the right by the law $(q, t) \mapsto q t$).*
 
 *(iii) One has the formula*
 
@@ -1406,9 +1373,7 @@ $(g_{\alpha})^{\otimes 2}$ and hence
 
 <!-- original page 65 -->
 
-$$
-Isom_{O_{S}-mod.}(W(g_{-\alpha}), W(g_{\alpha})) \cong W((g_{\alpha})^{\otimes 2})^{\times}.
-$$
+$$ Isom_{O_{S}-mod.}(W(g_{-\alpha}), W(g_{\alpha})) \cong W((g_{\alpha})^{\otimes 2})^{\times}. $$
 
 If $w \in N^{\times}(S)$, then $Ad(w)$ permutes $g_{\alpha}$ and $g_{-\alpha}$ (3.1, (iii)), hence defines an
 isomorphism:
@@ -1420,12 +1385,10 @@ a_α(w) : g_{−α} ──∼──→ g_α,
 which we shall therefore identify with a section $a_{\alpha}(w) \in \Gamma(S, (g_{\alpha})^{\otimes 2})^{\times}$. This
 construction is compatible with base change and therefore defines a morphism
 
-$$
-a_{\alpha} : N^{\times} \to W((g_{\alpha})^{\otimes 2})^{\times},
-$$
+$$ a_{\alpha} : N^{\times} \to W((g_{\alpha})^{\otimes 2})^{\times}, $$
 
-such that $a_{\alpha}(w) Y = Ad(w) Y$ for all $w \in N^{\times}(S')$, $Y \in \Gamma(S', g_{-\alpha})^{\times}$,
-$S' \to S$.
+such that $a_{\alpha}(w) Y = Ad(w) Y$ for all $w \in N^{\times}(S')$, $Y \in \Gamma(S', g_{-\alpha})^{\times}$, $S' \to
+S$.
 
 **Theorem 3.6.** *(i) One has*
 
@@ -1443,17 +1406,13 @@ a_α(t w) = α(t) a_α(w),    a_α(w t) = α(t)⁻¹ a_α(w).
 
 *(iii) If one defines analogously $a_{-\alpha} : N^{\times} \to W((g_{-\alpha})^{\otimes 2})^{\times}$, one has*
 
-$$
-a_{-\alpha}(w) = a_{\alpha}(w)^{-1}.
-$$
+$$ a_{-\alpha}(w) = a_{\alpha}(w)^{-1}. $$
 
 [^N.D.E-XX-28]
 
 *(iv) For every $X \in W(g_{\alpha})^{\times}(S')$, $S' \to S$, one has*
 
-$$
-a_{\alpha}(w_{\alpha}(X)) = -X^{2}.
-$$
+$$ a_{\alpha}(w_{\alpha}(X)) = -X^{2}. $$
 
 <!-- label: III.XX.3.6 -->
 
@@ -1467,9 +1426,9 @@ definition[^N.D.E-XX-29]
 a_α(w_α(X))⁻¹(Z) = Ad(w_α(X))(Z) = Ad(exp(X)) Ad(exp(−X⁻¹)) Ad(exp(X))(Z).
 ```
 
-Applying formulas (2′) and (2) of Lemma 2.10, as well as the equalities $H_{-\alpha} = -H_{\alpha}$,
-$\alpha(H_{\alpha}) = 2$ (*loc. cit.* (4) and (5)) and $\langle X, X^{-1}\rangle = 1$ (2.6), one obtains that the
-right-hand side equals successively:
+Applying formulas (2′) and (2) of Lemma 2.10, as well as the equalities $H_{-\alpha} = -H_{\alpha}$, $\alpha(H_{\alpha})
+= 2$ (*loc. cit.* (4) and (5)) and $\langle X, X^{-1}\rangle = 1$ (2.6), one obtains that the right-hand side equals
+successively:
 
 ```text
 Ad(exp(X)) Ad(exp(−X⁻¹))(Z) = Ad(exp(X))(Z + ⟨X⁻¹, Z⟩ (H_α − X⁻¹))
@@ -1494,9 +1453,7 @@ w_α(X) exp(X) w_α(X)⁻¹ = exp(−X) w_α(X) exp(−X),
 
 *or, by an immediate calculation,*
 
-$$
-(w_{\alpha}(X) \exp(X))^{3} = e.
-$$
+$$ (w_{\alpha}(X) \exp(X))^{3} = e. $$
 
 <!-- label: III.XX.3.7 -->
 
@@ -1545,9 +1502,8 @@ various diagrams.*
 
 <!-- label: III.XX.3.9 -->
 
-**Lemma 3.10.** *Let $S$ be a scheme, $q$ an integer `> 0` such that $x \mapsto x^{q}$ defines an endomorphism of
-$G_{a, S}$, $(G, T, \alpha)$ and $(G', T', \alpha')$ two $S$-elementary systems, $f : G \to G'$ an $S$-group morphism.
-Let*
+**Lemma 3.10.** *Let $S$ be a scheme, $q$ an integer `> 0` such that $x \mapsto x^{q}$ defines an endomorphism of $G_{a,
+S}$, $(G, T, \alpha)$ and $(G', T', \alpha')$ two $S$-elementary systems, $f : G \to G'$ an $S$-group morphism. Let*
 
 <!-- original page 68 -->
 
@@ -1563,9 +1519,7 @@ h^∨ : (g_{−α})^{⊗q} ──∼──→ g′_{−α′}
 
 *the contragredient isomorphism. For every $S' \to S$ and every $X \in W(g_{\alpha})(S')$, suppose:*
 
-$$
-f(\exp(X)) = \exp(h(X^{q})).
-$$
+$$ f(\exp(X)) = \exp(h(X^{q})). $$
 
 *Then the following conditions are equivalent:*
 
@@ -1575,8 +1529,8 @@ $$
 
 *(iii) $f(\exp(Y)) = \exp(h^{\vee}(Y^{q}))$.*
 
-*(Each condition is to be read: for every $S' \to S$ and every $z \in G_{m}(S')$, $Z \in W(g_{\alpha})^{\times}(S')$,
-$Y \in W(g_{-\alpha})(S')$, one has …).*
+*(Each condition is to be read: for every $S' \to S$ and every $z \in G_{m}(S')$, $Z \in W(g_{\alpha})^{\times}(S')$, $Y
+\in W(g_{-\alpha})(S')$, one has …).*
 
 <!-- label: III.XX.3.10 -->
 
@@ -1602,12 +1556,10 @@ G_{m, S}  ──α′*──→  T′  ──α′──→  G_{m, S}
 
 *(ii) There exists an (unique) isomorphism of `O_S`-modules*
 
-$$
-h : (g_{\alpha})^{\otimes q} \to g'_{\alpha'}
-$$
+$$ h : (g_{\alpha})^{\otimes q} \to g'_{\alpha'} $$
 
-*such that $f(\exp(X)) = \exp(h(X^{q}))$, $f(\exp(Y)) = \exp(h^{\vee}(Y^{q}))$ for all $X \in W(g_{\alpha})(S')$,
-$Y \in W(g_{-\alpha})(S')$, $S' \to S$ (it follows that $f$ also satisfies the equivalent conditions of 3.10).*
+*such that $f(\exp(X)) = \exp(h(X^{q}))$, $f(\exp(Y)) = \exp(h^{\vee}(Y^{q}))$ for all $X \in W(g_{\alpha})(S')$, $Y \in
+W(g_{-\alpha})(S')$, $S' \to S$ (it follows that $f$ also satisfies the equivalent conditions of 3.10).*
 
 <!-- label: III.XX.3.11 -->
 
@@ -1615,8 +1567,8 @@ One has (ii) ⇒ (i). Indeed, by 3.10, condition (ii) entails $f \circ \alpha* =
 through $T'$. It remains to prove $\alpha'(f(t)) = \alpha(t)^{q}$, which follows at once from the fact that $f$ induces
 a morphism of groups $T \cdot U_{\alpha} \to T' \cdot U_{\alpha'}$.
 
-Let us prove (i) ⇒ (ii). Let $X \in \Gamma(S, g_{\alpha})$, $Y \in \Gamma(S, g_{-\alpha})$. Set
-$p^{+}(x) = f(\exp(x X))$ and $p^{-}(y) = f(\exp(y Y))$; these are group morphisms
+Let us prove (i) ⇒ (ii). Let $X \in \Gamma(S, g_{\alpha})$, $Y \in \Gamma(S, g_{-\alpha})$. Set $p^{+}(x) = f(\exp(x
+X))$ and $p^{-}(y) = f(\exp(y Y))$; these are group morphisms
 
 ```text
 p^+, p^− : G_{a, S} → G.
@@ -1630,8 +1582,8 @@ int(α′*(z))^q (p^+(x)) = int(f_T(α*(z))) (f(exp(x X)))
                        = f(exp(z² x X)) = p^+(z² x).
 ```
 
-Applying Lemma 1.2 (with $Q = \alpha'*(G_{m, S})$), one deduces that there exists a section
-$X' \in \Gamma(S, g'_{\alpha'})$ such that
+Applying Lemma 1.2 (with $Q = \alpha'*(G_{m, S})$), one deduces that there exists a section $X' \in \Gamma(S,
+g'_{\alpha'})$ such that
 
 ```text
 f(exp(x X)) = p^+(x) = exp(x^q X′).
@@ -1655,9 +1607,7 @@ One concludes easily that $X^{q} \mapsto X'$ and $Y^{q} \mapsto Y'$ define isomo
 
 **Proposition 3.12.** *Let $(G, T, \alpha)$ be an $S$-elementary system, $w \in N^{\times}(S)$; set*
 
-$$
-\Omega_{0} = \Omega \cap int(w^{-1})(\Omega).
-$$
+$$ \Omega_{0} = \Omega \cap int(w^{-1})(\Omega). $$
 
 *Let $d$ be the function on $\Omega$ defined by*
 
@@ -1728,9 +1678,7 @@ G_{m, S}  ──q──→  G_{m, S}
 
 *There exists a unique morphism of $S$-groups $f : G \to G'$ which extends $f_{T}$ and satisfies*
 
-$$
-f(\exp(X)) = \exp(h(X^{q}))
-$$
+$$ f(\exp(X)) = \exp(h(X^{q})) $$
 
 *for every $X \in W(g_{\alpha})(S')$, $S' \to S$. Moreover, this morphism also satisfies*
 
@@ -1853,14 +1801,14 @@ t_S : G_{m, S} → SL,     t_S(z) = ( z    0 ),
 t_P : G_{m, S} → PL,     t_P(z) = p(t_G(z, 1)).
 ```
 
-These are group monomorphisms, which define in each group a (split) torus of relative codimension 2. For every
-$s \in S$, let
+These are group monomorphisms, which define in each group a (split) torus of relative codimension 2. For every $s \in
+S$, let
 
 ```text
 X ∈ Γ(s, L ⊗ s)^×;
 ```
 
-then the section $( 0  X / -X^{-1}  0)$ of $GL_{s}$ normalizes $t_{G}(G^{2}_{m, s})$ and does not centralize it; one
+then the section $( 0 X / -X^{-1} 0)$ of $GL_{s}$ normalizes $t_{G}(G^{2}_{m, s})$ and does not centralize it; one
 concludes from Exp. XIX 1.6 that `GL` is reductive, of semisimple rank 1, with maximal torus $t_{G}(G^{2}_{m, S})$.
 
 One argues similarly for `SL` and `PL`, and one sees that `SL` (resp. `PL`) is reductive, of semisimple rank 1, with
@@ -1899,8 +1847,8 @@ and that the morphism
 u : L → g    (resp. u⁻ : L⁻¹ → g)
 ```
 
-defined by $u(X) = ( 0  X / 0  0)$ (resp. $u^{-}(X) = ( 0  0 / X  0)$) is an isomorphism of $L$ onto $g_{\alpha_{G}}$
-(resp. of $L^{-1}$ onto $g_{-\alpha_{G}}$).
+defined by $u(X) = ( 0 X / 0 0)$ (resp. $u^{-}(X) = ( 0 0 / X 0)$) is an isomorphism of $L$ onto $g_{\alpha_{G}}$ (resp.
+of $L^{-1}$ onto $g_{-\alpha_{G}}$).
 
 One has thus proved that $(G, t_{G}(G^{2}_{m, S}), \alpha_{G})$ is an $S$-elementary system.
 
@@ -1914,14 +1862,12 @@ one proves that $(SL, t_{S}(G_{m, S}), \alpha_{S})$ and $(PL, t_{P}(G_{m, S}), \
 one defines isomorphisms of $L$ (resp. $L^{-1}$) with the corresponding direct summands of the Lie algebras of `SL` and
 `PL`.
 
-**5.5.** Set $\exp ( 0  X / 0  0) = ( 1  X / 0  1)$. One has thus defined a morphism
+**5.5.** Set $\exp ( 0 X / 0 0) = ( 1 X / 0 1)$. One has thus defined a morphism
 
-$$
-W(g_{\alpha_{G}}) \to GL
-$$
+$$ W(g_{\alpha_{G}}) \to GL $$
 
 which induces on the Lie algebras the canonical morphism, hence is the unique morphism of this type (1.5). Similarly,
-one sets $\exp ( 0  0 / Y  0) = ( 1  0 / Y  1)$. Carrying out the explicit calculation of formula (F), one finds
+one sets $\exp ( 0 0 / Y 0) = ( 1 0 / Y 1)$. Carrying out the explicit calculation of formula (F), one finds
 
 ```text
 ⟨ ( 0  X / 0  0 ), ( 0  0 / Y  0 ) ⟩ = X Y,    α*_G(z) = ( z   0  ) = t_G(z, z⁻¹).
@@ -1941,10 +1887,7 @@ N^×_G(S′) = { ( 0  P ) | P ∈ W(g_α)^×(S′), Q ∈ W(g_{−α})^×(S′) 
 
 the morphism $w_{\alpha_{G}}$ (cf. 3.1 (iv)) is given, for every $X \in W(g_{\alpha})^{\times}(S')$, by
 
-$$
-w_{\alpha_{G}}(X) = (  0     X);
-             ( -X^{-1}  0)
-$$
+$$ w_{\alpha_{G}}(X) = ( 0 X); ( -X^{-1} 0) $$
 
 the morphism $a_{\alpha_{G}}$ (cf. 3.5) is given by:
 
@@ -1953,8 +1896,8 @@ if w = ( 0  P ) ∈ N^×_G(S′), then a_{α_G}(w) = P Q⁻¹ ∈ W((g_α)^{⊗2
        ( Q  0 )
 ```
 
-that is, for every $Y \in W(g_{-\alpha})^{\times}(S')$, one has
-$a_{\alpha_{G}}(w)(Y) = P Q^{-1} Y \in W(g_{\alpha})^{\times}(S')$.
+that is, for every $Y \in W(g_{-\alpha})^{\times}(S')$, one has $a_{\alpha_{G}}(w)(Y) = P Q^{-1} Y \in
+W(g_{\alpha})^{\times}(S')$.
 
 **5.6.** We leave the reader the task of carrying out the same computations in `SL` and `PL`. One finds the same duality
 formula and the coroots
@@ -1965,9 +1908,7 @@ formula and the coroots
 
 Denote by $p_{T}$ the morphism induced by $p : GL \to PL$ on $t_{S}(G_{m, S})$, i.e.
 
-$$
-p_{T}(t_{S}(z)) = t_{P}(z^{2}).
-$$
+$$ p_{T}(t_{S}(z)) = t_{P}(z^{2}). $$
 
 One therefore has the commutative diagram:[^N.D.E-XX-33]
 
@@ -1989,8 +1930,8 @@ One therefore has the commutative diagram:[^N.D.E-XX-33]
                        id        
 ```
 
-One recognizes in the central part the commutative diagram of 4.1[^N.D.E-XX-34] relative to the canonical morphism
-$p \circ i : SL \to PL$, which induces a morphism of the preceding $S$-elementary systems.
+One recognizes in the central part the commutative diagram of 4.1[^N.D.E-XX-34] relative to the canonical morphism $p
+\circ i : SL \to PL$, which induces a morphism of the preceding $S$-elementary systems.
 
 <!-- original page 76 -->
 
@@ -2069,8 +2010,8 @@ canonical morphism $SL \to PL$.*
 
 Note that conditions (b) of (i) give an explicit description of the duality between $g_{\alpha}$ and $g_{-\alpha}$.
 
-**Corollary 5.9.** *Let $(G, T, \alpha)$ be an $S$-elementary system. The subgroups $T \cdot U_{\alpha}$,
-$T \cdot U_{-\alpha}$, $U_{\alpha}$ and $U_{-\alpha}$ are closed.*
+**Corollary 5.9.** *Let $(G, T, \alpha)$ be an $S$-elementary system. The subgroups $T \cdot U_{\alpha}$, $T \cdot
+U_{-\alpha}$, $U_{\alpha}$ and $U_{-\alpha}$ are closed.*
 
 <!-- label: III.XX.5.9 -->
 
@@ -2092,8 +2033,8 @@ G_{m, S}  ──α*──→  T  ──α──→  G_{m, S}
 ```
 
 a diagram of groups[^N.D.E-XX-35] such that $\alpha \circ \alpha* = 2$. Let $R$ be the maximal torus of $Ker(\alpha)$
-and $K = \alpha*^{-1}(R)$. Then $K$ is a subgroup of multiplicative type of $G_{m, S}$; by virtue of
-$\alpha \circ \alpha* = 2$, it is even a subgroup of $\mu_{2, S}$. In particular the morphism
+and $K = \alpha*^{-1}(R)$. Then $K$ is a subgroup of multiplicative type of $G_{m, S}$; by virtue of $\alpha \circ
+\alpha* = 2$, it is even a subgroup of $\mu_{2, S}$. In particular the morphism
 
 ```text
 K → SL,    z ↦ ( z   0  )
@@ -2152,17 +2093,15 @@ One has therefore proved the
 
 <!-- original page 80 -->
 
-**6.1.** Let $S$ be a scheme, $(G, T, \alpha)$ an $S$-elementary system. Let $X \in W(g_{\alpha})^{\times}(S)$ and
-$u = \exp(X)$; one has seen in 3.8 that the element $w = w_{\alpha}(X)$ satisfies in particular the relation
+**6.1.** Let $S$ be a scheme, $(G, T, \alpha)$ an $S$-elementary system. Let $X \in W(g_{\alpha})^{\times}(S)$ and $u =
+\exp(X)$; one has seen in 3.8 that the element $w = w_{\alpha}(X)$ satisfies in particular the relation
 
-$$
-(w u)^{3} = e.
-$$
+$$ (w u)^{3} = e. $$
 
 [^N.D.E-XX-36]
 
-One denotes by $s_{\alpha}$ the automorphism of $T$ induced by $int(w)$; according to Theorem 3.1 (iii), for every
-$S' \to S$ and $t \in T(S')$, one has
+One denotes by $s_{\alpha}$ the automorphism of $T$ induced by $int(w)$; according to Theorem 3.1 (iii), for every $S'
+\to S$ and $t \in T(S')$, one has
 
 ```text
 s_α(t) = int(w)(t) = t · α*(α(t)⁻¹).
@@ -2176,9 +2115,7 @@ f_T : T → H,    f_α : U_α → H
 
 *be group morphisms and $h \in H(S)$ a section of $H$. For there to exist a (necessarily unique) group morphism*
 
-$$
-f : G \to H
-$$
+$$ f : G \to H $$
 
 *extending $f_{T}$ and $f_{\alpha}$ and satisfying $f(w) = h$, it is necessary and sufficient that the following
 conditions be satisfied:*
@@ -2202,10 +2139,7 @@ into $H$).*
 
 *(iii) One has the two relations in $H(S)$:*
 
-$$
-(3)   h^{2} = f_{T}(\alpha*(-1)),
-(4)   (h f_{\alpha}(u))^{3} = e.
-$$
+$$ (3) h^{2} = f_{T}(\alpha*(-1)), (4) (h f_{\alpha}(u))^{3} = e. $$
 
 <!-- label: III.XX.6.2 -->
 
@@ -2243,8 +2177,8 @@ Now, by (3) and (1), $h^{2} = f_{T}(\alpha*(-1))$ commutes with $f_{\alpha}(-u)$
 h f_α(u) h⁻¹ = f_α(−u) h f_α(−u).
 ```
 
-But, by definition, $h f_{\alpha}(u) h^{-1} = f_{-\alpha}(w u w^{-1})$; by 3.7, since $u = \exp(X)$ and
-$w = w_{\alpha}(X)$, one has
+But, by definition, $h f_{\alpha}(u) h^{-1} = f_{-\alpha}(w u w^{-1})$; by 3.7, since $u = \exp(X)$ and $w =
+w_{\alpha}(X)$, one has
 
 <!-- original page 82 -->
 
@@ -2329,8 +2263,8 @@ Substituting in the preceding equality, one obtains
 f_α(x u) f_{−α}(y ũ) = f_{−α}( y / (1 + x y) · ũ ) f_α(−(x + y⁻¹) u) · h⁻¹ · f_T(α*(1 + x y)⁻¹) · h · f_α(y⁻¹ u).
 ```
 
-Since $h^{-1} f_{T}(t) h = f_{T}(s_{\alpha}(t))$ by (2) (note that $s^{2}_{\alpha} = id$) and since
-$s_{\alpha} \circ \alpha* = -\alpha*$ (cf. 6.2.1), this equals
+Since $h^{-1} f_{T}(t) h = f_{T}(s_{\alpha}(t))$ by (2) (note that $s^{2}_{\alpha} = id$) and since $s_{\alpha} \circ
+\alpha* = -\alpha*$ (cf. 6.2.1), this equals
 
 ```text
 f_{−α}( y / (1 + x y) · ũ ) f_α(−(x + y⁻¹) u) · f_T(α*(1 + x y)) · f_α(y⁻¹ u).
@@ -2351,8 +2285,8 @@ f_α(x u) f_{−α}(y ũ) = f_{−α}( y / (1 + x y) · ũ ) · f_T(α*(1 + x y)
 
 One has thus proved:
 
-**Lemma 6.2.2.** *Let $S' \to S$. If $a \in U_{\alpha}(S')$, $b \in U^{\times}_{-\alpha}(S')$, and
-$1 + a b \in G_{m}(S')$, one has*
+**Lemma 6.2.2.** *Let $S' \to S$. If $a \in U_{\alpha}(S')$, $b \in U^{\times}_{-\alpha}(S')$, and $1 + a b \in
+G_{m}(S')$, one has*
 
 ```text
 f_α(a) f_{−α}(b) = f_{−α}( b / (1 + a b) ) f_T(α*(1 + a b)) f_α( a / (1 + a b) ).
@@ -2365,9 +2299,7 @@ f_α(a) f_{−α}(b) = f_{−α}( b / (1 + a b) ) f_T(α*(1 + a b)) f_α( a / (1
 By schematic density, this formula remains valid when $b \in U_{-\alpha}(S')$, $1 + a b$ being always invertible.
 Consider then the morphism
 
-$$
-f : \Omega \to H
-$$
+$$ f : \Omega \to H $$
 
 defined by $f(y t x) = f_{-\alpha}(y) f_{T}(t) f_{\alpha}(x)$.
 
@@ -2456,14 +2388,13 @@ f(w_α) = f_α(u) f_{−α}(−ũ) f_α(u) = h.
 
 [^N.D.E-XX-13]: N.D.E.: We have corrected what follows.
 
-[^N.D.E-XX-14]: N.D.E.: that is, we have made the "change of variables" $x = v$, $y = w E(v)^{-1}$, i.e. $v = x$,
-    $w = y E(x)$.
+[^N.D.E-XX-14]: N.D.E.: that is, we have made the "change of variables" $x = v$, $y = w E(v)^{-1}$, i.e. $v = x$, $w = y
+    E(x)$.
 
 [^N.D.E-XX-15]: N.D.E.: We have corrected `y E(x)` to $x + y E(x)$.
 
-[^N.D.E-XX-16]: N.D.E.: that is, one writes the equalities resulting from
-    $p_{\alpha}(t) p_{\alpha}(u) p_{-\alpha}(v) = p_{\alpha}(t + u) p_{-\alpha}(v)$ and sets $v = 1$ and $x = u$,
-    $t = y F(u)$ (i.e. $y = t F(u)^{-1}$).
+[^N.D.E-XX-16]: N.D.E.: that is, one writes the equalities resulting from $p_{\alpha}(t) p_{\alpha}(u) p_{-\alpha}(v) =
+    p_{\alpha}(t + u) p_{-\alpha}(v)$ and sets $v = 1$ and $x = u$, $t = y F(u)$ (i.e. $y = t F(u)^{-1}$).
 
 [^N.D.E-XX-17]: N.D.E.: We have corrected `y F(x)` to $x + y F(x)$.
 
@@ -2472,9 +2403,9 @@ f(w_α) = f_α(u) f_{−α}(−ũ) f_α(u) = h.
 [^N.D.E-XX-19]: N.D.E.: We have added the sentence that follows. One can also see by a direct calculation that the
     preceding equality entails $0 = x y b (2 + (x + y) b)$, hence $0 = b(2 + (x + y) b)$, and finally $b = 0$.
 
-[^N.D.E-XX-20]: N.D.E.: In the three preceding equalities, we have corrected the original by replacing the factor
-    $(1 + b x)$ on the right by $1 + a x$. Substituting the third equality into the second and taking into account that
-    $1 + a x$ is invertible, one obtains the equality $a^{2} x y = a b x y$.
+[^N.D.E-XX-20]: N.D.E.: In the three preceding equalities, we have corrected the original by replacing the factor $(1 +
+    b x)$ on the right by $1 + a x$. Substituting the third equality into the second and taking into account that $1 + a
+    x$ is invertible, one obtains the equality $a^{2} x y = a b x y$.
 
 [^N.D.E-XX-21]: N.D.E.: that is, we have made the change of variables $x' = 1 + a x$, i.e. $x = (x' - 1)/a$.
 
@@ -2486,8 +2417,8 @@ f(w_α) = f_α(u) f_{−α}(−ũ) f_α(u) = h.
 
 [^N.D.E-XX-25]: N.D.E.: We have corrected the first formula of the original.
 
-[^N.D.E-XX-26]: N.D.E.: The first equality follows from 1.5 (i) which, combined with the equality
-    $\alpha \circ \alpha* = 2$, gives the formulas
+[^N.D.E-XX-26]: N.D.E.: The first equality follows from 1.5 (i) which, combined with the equality $\alpha \circ \alpha*
+    = 2$, gives the formulas
 
     ```text
     (†)   α*(z) exp(X) α*(z)⁻¹ = exp(z² X),    α*(z) exp(X⁻¹) α*(z)⁻¹ = exp(z⁻² X),

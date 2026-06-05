@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  MDBOOK_VERSION: "0.4.40"
+  MDBOOK_VERSION: "0.5.3"
 
 jobs:
   deploy:
@@ -35,7 +35,7 @@ jobs:
 
       - uses: taiki-e/install-action@v2
         with:
-          tool: mdbook@0.4.40,mdbook-katex@0.9.4
+          tool: mdbook@0.5.3
 
       - name: Check SUMMARY.md is up to date
         run: python3 scripts/generate-summary.py --check

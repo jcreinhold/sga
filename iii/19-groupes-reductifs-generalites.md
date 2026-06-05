@@ -108,10 +108,10 @@ Consider now the semi-direct product $G = H \cdot Q$; it is smooth and separated
 $Centr_{G}(Q)$ is representable by a closed subscheme of $G$, of finite presentation over $G$, by Exp. XI 6.11
 (a),[^N.D.E-XIX-6] and it is smooth over $S$ by Exp. XI 2.4.
 
-Since $Centr_{G}(Q) = H^{Q} \cdot Q$, it follows that $H^{Q}$ is smooth over $S$. (Indeed, using the section
-$\sigma : H^{Q} \to Centr_{G}(Q)$ deduced from the unit section $\epsilon_{Q}$ of $Q$, one sees at once that $H^{Q}$ is
-formally smooth over $S$; and since moreover $\epsilon_{Q}$ is of finite presentation, $H^{Q}$ is locally of finite
-presentation over $S$.) This proves (i).
+Since $Centr_{G}(Q) = H^{Q} \cdot Q$, it follows that $H^{Q}$ is smooth over $S$. (Indeed, using the section $\sigma :
+H^{Q} \to Centr_{G}(Q)$ deduced from the unit section $\epsilon_{Q}$ of $Q$, one sees at once that $H^{Q}$ is formally
+smooth over $S$; and since moreover $\epsilon_{Q}$ is of finite presentation, $H^{Q}$ is locally of finite presentation
+over $S$.) This proves (i).
 
 Finally, suppose $H$ affine over $S$ and with connected fibers. Then each geometric fiber $G_{\bar{s}}$ of $G$ is a
 smooth affine connected $\kappa\bar{s}$-group, hence, by the first assertion of 1.3, so is
@@ -177,27 +177,25 @@ as one sees at once. In particular, if $G$ is reductive, so is $H$.
 
 Let $f : G \to G'$ be a surjective morphism of smooth affine connected $k$-groups. Then
 
-$$
-f(rad_{u}(G)) = rad_{u}(G').
-$$
+$$ f(rad_{u}(G)) = rad_{u}(G'). $$
 
 <!-- label: eq:III.XIX.1.7.2 -->
 
 In particular, if $G$ is reductive, so is $G'$.
 
-Let us prove (1.7.2). First, $f$ sends $rad_{u}(G)$ into $rad_{u}(G')$. Introducing
-$H = (f^{-1}(rad_{u}(G')))^{0}_{red}$, which contains $rad_{u}(G)$, one has $rad_{u}(H) = rad_{u}(G)$ and one is reduced
-to the case where $G = H$, i.e. where $G'$ is unipotent. Since the union of the $T \cdot rad_{u}(G)$ (as $T$ runs
-through the set of maximal tori of $G$) is dense in $G$, the union of the $f(T) f(rad_{u}(G))$ is dense in $G'$; but
-$f(T)$ consists of semisimple elements, so $f(T) = {e}$, $G'$ being unipotent; this shows that $f(rad_{u}(G))$ is dense
-in $G'$. Therefore, by *Bible*, § 5.4, Lemma 4 or [Ch05], § 6.1, Lemma 1,[^N.D.E-XIX-8] $f(rad_{u}(G))$ is an open
-subgroup of $G'$; the latter being connected, it follows that $f(rad_{u}(G)) = G'$. (N.B.: one can prove under the same
+Let us prove (1.7.2). First, $f$ sends $rad_{u}(G)$ into $rad_{u}(G')$. Introducing $H =
+(f^{-1}(rad_{u}(G')))^{0}_{red}$, which contains $rad_{u}(G)$, one has $rad_{u}(H) = rad_{u}(G)$ and one is reduced to
+the case where $G = H$, i.e. where $G'$ is unipotent. Since the union of the $T \cdot rad_{u}(G)$ (as $T$ runs through
+the set of maximal tori of $G$) is dense in $G$, the union of the $f(T) f(rad_{u}(G))$ is dense in $G'$; but $f(T)$
+consists of semisimple elements, so $f(T) = {e}$, $G'$ being unipotent; this shows that $f(rad_{u}(G))$ is dense in
+$G'$. Therefore, by *Bible*, § 5.4, Lemma 4 or [Ch05], § 6.1, Lemma 1,[^N.D.E-XIX-8] $f(rad_{u}(G))$ is an open subgroup
+of $G'$; the latter being connected, it follows that $f(rad_{u}(G)) = G'$. (N.B.: one can prove under the same
 hypotheses that $f(rad(G)) = rad(G')$.)
 
 **1.8.** One says that the $k$-group $G$ is *semisimple* if it is smooth, affine, and connected and if $rad(G) = {e}$,
-i.e. if $G$ is reductive and $Centr(G)$ is finite. If $G$ is an arbitrary smooth affine connected $k$-group, then
-$G / rad(G)$ is semisimple (*Bible*, § 9.4, Prop. 2), and $G / rad_{u}(G)$ is reductive. One calls the *semisimple rank
-of $G$* and denotes by $rgss(G/k)$ or $rgss(G)$ the reductive rank of $G / rad(G)$.
+i.e. if $G$ is reductive and $Centr(G)$ is finite. If $G$ is an arbitrary smooth affine connected $k$-group, then $G /
+rad(G)$ is semisimple (*Bible*, § 9.4, Prop. 2), and $G / rad_{u}(G)$ is reductive. One calls the *semisimple rank of
+$G$* and denotes by $rgss(G/k)$ or $rgss(G)$ the reductive rank of $G / rad(G)$.
 
 If $G$ is reductive, one therefore has
 
@@ -215,10 +213,7 @@ a central subgroup then ($G/Q$ is reductive and) $rgss(G) = rgss(G/Q)$.
 **1.9.** If $K$ is an algebraically closed extension of $k$ and if $G$ is a smooth affine connected $k$-group, then $G$
 is reductive (resp. semisimple) if and only if `G_K` is, and one has
 
-$$
-rgred(G/k) = rgred(G_{K}/K),
-rgss(G/k) = rgss(G_{K}/K).
-$$
+$$ rgred(G/k) = rgred(G_{K}/K), rgss(G/k) = rgss(G_{K}/K). $$
 
 **1.10.** Let $G$ be a smooth connected $k$-group and let $T$ be a torus of $G$.[^N.D.E-XIX-9] Denote by $g$ the $k$-Lie
 algebra of $G$, i.e. $g = Lie(G) = Lie(G/k)(k)$; likewise denote $t = Lie(T)$. Then $g$ decomposes under the action of
@@ -230,14 +225,12 @@ g = g₀ ⊕ ∐_{α ∈ R} g_α,
 
 <!-- label: eq:III.XIX.1.10.1 -->
 
-where the $\alpha \in R$ are non-trivial characters of $T$ and the $g_{\alpha}$ are $\neq 0$. The characters
-$\alpha \in R$ are called the *roots* of $G$ with respect to $T$. By Exp. II, 5.2.3 (i), one has
+where the $\alpha \in R$ are non-trivial characters of $T$ and the $g_{\alpha}$ are $\neq 0$. The characters $\alpha \in
+R$ are called the *roots* of $G$ with respect to $T$. By Exp. II, 5.2.3 (i), one has
 
 <!-- original page 7 -->
 
-$$
-g_{0} = Lie(Centr_{G}(T)).
-$$
+$$ g_{0} = Lie(Centr_{G}(T)). $$
 
 <!-- label: eq:III.XIX.1.10.2 -->
 
@@ -258,9 +251,8 @@ moreover $Centr(G)$ is then affine, hence $G \to G/Centr(G)$ is affine; since th
 When $G$ is reductive and $T$ maximal, the roots in the preceding sense coincide with the roots in the sense of *Bible*,
 § 12.2, Def. 1; the latter are indeed roots in the sense of this number (*Bible*, § 13.2, Th. 1, c)) and there are
 $\dim(G) - \dim(T)$ of them (*Bible*, § 13.4, Cor. 2 to Th. 3). Moreover, if $\alpha$ is a root, so is $-\alpha$
-(*Bible*, § 12.2, Cor. to Prop. 1). (As usual, one writes the group structure of
-$\operatorname{Hom}_{k-gr.}(T, G_{m,k})$ indifferently additively or multiplicatively.) It follows that, for $G$
-reductive,
+(*Bible*, § 12.2, Cor. to Prop. 1). (As usual, one writes the group structure of $\operatorname{Hom}_{k-gr.}(T,
+G_{m,k})$ indifferently additively or multiplicatively.) It follows that, for $G$ reductive,
 
 <!-- original page 8 -->
 
@@ -329,9 +321,9 @@ one therefore has $rgred(G/Q) = rgss(G/Q) = 1$, which proves that $G/Q$ is semis
 and $rgss(G) = 1$.
 
 Let us finally prove (i) ⇒ (v). If $Q$ is the radical of $G$, one has $\dim(T) - \dim(Q) = 1$ and $Q$ is central in $G$,
-hence $G = Centr_{G}(Q)$, which proves that $Q$ is a singular torus; by *Bible*, § 11.3, Th. 2, one has
-$W_{G}(T) = (Z/2Z)_{k}$; by *Bible*, § 12.1, Lemma 1, one has $\dim(G) - \dim(T) = 2$. There are therefore at most two
-roots of $G$ with respect to $T$; but there are at least two, opposite to each other (1.10).
+hence $G = Centr_{G}(Q)$, which proves that $Q$ is a singular torus; by *Bible*, § 11.3, Th. 2, one has $W_{G}(T) =
+(Z/2Z)_{k}$; by *Bible*, § 12.1, Lemma 1, one has $\dim(G) - \dim(T) = 2$. There are therefore at most two roots of $G$
+with respect to $T$; but there are at least two, opposite to each other (1.10).
 
 **Proposition 1.12.** *Let $k$ be an algebraically closed field, $G$ a smooth connected $k$-group, $T$ a torus of $G$,
 $R$ the set of roots of $G$ with respect to $T$, and*
@@ -351,8 +343,8 @@ $Ker(\alpha)$[^N.D.E-XIX-12] and $Z_{\alpha} = Centr_{G}(T_{\alpha})$. The follo
 are such that $\beta = q \alpha$, then $q = \pm 1$; for each $\alpha \in R$, there exists $w_{\alpha} \in G(k)$ which
 normalizes $T$, centralizes $T_{\alpha}$, but does not centralize $T$.*
 
-*Moreover, under these conditions, each $Z_{\alpha}$ is of semisimple rank `1` and one has
-$Lie(Z_{\alpha}) = t \oplus g_{\alpha} \oplus g_{-\alpha}$.*
+*Moreover, under these conditions, each $Z_{\alpha}$ is of semisimple rank `1` and one has $Lie(Z_{\alpha}) = t \oplus
+g_{\alpha} \oplus g_{-\alpha}$.*
 
 <!-- label: III.XIX.1.12 -->
 
@@ -407,8 +399,8 @@ the set of roots of $G$ with respect to $T$, and*
 g = g₀ ⊕ ∐_{α ∈ R} g_α
 ```
 
-*as above. For each $\alpha \in R$, let $T_{\alpha}$ be the maximal torus of $Ker(\alpha)$ and
-$Z_{\alpha} = Centr_{G}(T_{\alpha})$. The following conditions are equivalent:*
+*as above. For each $\alpha \in R$, let $T_{\alpha}$ be the maximal torus of $Ker(\alpha)$ and $Z_{\alpha} =
+Centr_{G}(T_{\alpha})$. The following conditions are equivalent:*
 
 <!-- original page 11 -->
 
@@ -418,8 +410,8 @@ $Z_{\alpha} = Centr_{G}(T_{\alpha})$. The following conditions are equivalent:*
 
 <!-- label: III.XIX.1.13 -->
 
-[^N.D.E-XIX-14] This follows from the equalities $rad(G) = Centr(G)^{0}$ and
-$Centr(G) = \bigcap_{\alpha \in R} Ker(\alpha)$, established in 1.6.2 (iv) and (1.10.3).
+[^N.D.E-XIX-14] This follows from the equalities $rad(G) = Centr(G)^{0}$ and $Centr(G) = \bigcap_{\alpha \in R}
+Ker(\alpha)$, established in 1.6.2 (iv) and (1.10.3).
 
 ## 2. Reductive group schemes. Definitions and first properties
 
@@ -446,19 +438,17 @@ finite presentation", IV₂, 2.1.4 for "flat", and IV₂, 4.6.5 (i) for "with ge
 
 <!-- original page 9 -->
 
-On the other hand, these properties are clearly local for the Zariski topology, so it suffices to verify that if
-$S' \to S$ is a faithfully flat quasi-compact morphism and if $G_{S'} \to S'$ has the indicated properties, then so does
-$G \to S$. This follows from EGA IV₂, 2.5.1 for "flat", 2.7.1 (vi) and (xiii) for "of finite presentation" and "affine",
-and 4.6.5 (i) for "with geometrically integral fibers" (and also EGA IV₄, 17.7.3 (ii) for "smooth").
+On the other hand, these properties are clearly local for the Zariski topology, so it suffices to verify that if $S' \to
+S$ is a faithfully flat quasi-compact morphism and if $G_{S'} \to S'$ has the indicated properties, then so does $G \to
+S$. This follows from EGA IV₂, 2.5.1 for "flat", 2.7.1 (vi) and (xiii) for "of finite presentation" and "affine", and
+4.6.5 (i) for "with geometrically integral fibers" (and also EGA IV₄, 17.7.3 (ii) for "smooth").
 
 **2.2.** Let $G$ be an $S$-group scheme satisfying the preceding conditions, and $Q$ a torus (cf. IX, Def. 1.3) of
 $G$.[^N.D.E-XIX-16] Then, by XI, 6.11 a) and XI, 2.4, $Centr_{G}(Q)$ is representable by a closed subgroup scheme of $G$
 (hence affine over $S$), of finite presentation and smooth over $S$; moreover, since each geometric fiber $G_{\bar{s}}$
 of $G$ is a smooth affine connected $\kappa\bar{s}$-group, then, by the first assertion of 1.3, so is
 
-$$
-Centr_{G_{\bar{s}}}(Q_{\bar{s}}) = (Centr_{G}(Q))_{\bar{s}}.
-$$
+$$ Centr_{G_{\bar{s}}}(Q_{\bar{s}}) = (Centr_{G}(Q))_{\bar{s}}. $$
 
 **Lemma 2.3.** *Let $S$ be a scheme, $G$ an $S$-group scheme smooth and affine over $S$, with connected fibers, $T$ a
 torus of $G$. The set of $s \in S$ such that $G_{s}$ is a reductive $s$-group, of semisimple rank `1` and with maximal
@@ -470,17 +460,13 @@ torus $T_{s}$, is an open subset $U$ of $S$.*
 
 *Proof.* Since $G$ and $T$ are flat over $S$, the function
 
-$$
-s \mapsto \dim(G_{s}/s) - \dim(T_{s}/s)
-$$
+$$ s \mapsto \dim(G_{s}/s) - \dim(T_{s}/s) $$
 
 is locally constant; let $U_{1}$ be the open subset of points of $S$ where it equals `2`.
 
 [^N.D.E-XIX-17] By 6.3, the Weyl group
 
-$$
-W_{G}(T) = Norm_{G}(T) / Centr_{G}(T)
-$$
+$$ W_{G}(T) = Norm_{G}(T) / Centr_{G}(T) $$
 
 is representable by an $S$-group scheme étale and separated over $S$, and the function
 
@@ -489,8 +475,8 @@ s ↦ number of points of W_G(T)_s
 ```
 
 is lower semicontinuous. Let $U_{2}$ be the set of points of $S$ where this function is `> 1`; it is open. By 1.11, the
-set of $s$ such that $G_{s}$ is reductive, of semisimple rank `1`, with maximal torus $T_{s}$, is
-$U = U_{1} \cap U_{2}$; moreover, for every $s \in U$, $W_{G}(T)_{s}$ has exactly two points.
+set of $s$ such that $G_{s}$ is reductive, of semisimple rank `1`, with maximal torus $T_{s}$, is $U = U_{1} \cap
+U_{2}$; moreover, for every $s \in U$, $W_{G}(T)_{s}$ has exactly two points.
 
 Consequently (cf. SGA 1, I 10.9 and EGA IV₃, 15.5.1 and IV₄, 18.12.4), $W_{G}(T)_{U}$ is étale and finite over $U$.
 
@@ -506,9 +492,7 @@ $W_{G}(T)_{U}$ is a free `O_U`-module.[^N.D.E-XIX-18]
 the unit section of $G$. One has seen in II, § 4.11 that the functor $Lie(G/S)$ is representable by the vector fibration
 $V(\omega^{1}_{G/S})$ (where $\omega^{1}_{G/S} = \epsilon*(\Omega^{1}_{G/S})$), and one denotes*
 
-$$
-g = Lie(G/S) = (\omega^{1}_{G/S})^{V}
-$$
+$$ g = Lie(G/S) = (\omega^{1}_{G/S})^{V} $$
 
 *the sheaf of sections of this vector fibration. Suppose moreover that $G$ is smooth over $S$; then $\omega^{1}_{G/S}$
 and hence $Lie(G/S)$ are locally free `O_S`-modules of finite type, and one has (cf. I 4.6.5.1):*
@@ -573,10 +557,10 @@ $G_{s_{0}}$ admits a torus of rank $r_{0}$.
 
 By "Hensel's lemma" (cf. XI, 1.10), the smoothness of $\mathcal{M}_{r_{0}}$ permits one to lift this torus to an
 $S'$-torus $T$ of $G$, where $S' \to S$ is étale equipped with a point $s'_{0}$ mapping to $s_{0}$. By Exp. X, 4.5 (see
-also 6.1[^N.D.E-XIX-22]), there exists an étale morphism $f : S'' \to S'$ splitting $T$ and such that
-$f^{-1}(s'_{0}) \neq \emptyset$. Since an étale morphism is open and the assertions of (i) are local for the étale
-topology, one may therefore assume that $G$ possesses a split torus $T$,[^N.D.E-XIX-23] maximal at $s_{0}$. Write
-therefore $T = D_{S}(M)$ and let
+also 6.1[^N.D.E-XIX-22]), there exists an étale morphism $f : S'' \to S'$ splitting $T$ and such that $f^{-1}(s'_{0})
+\neq \emptyset$. Since an étale morphism is open and the assertions of (i) are local for the étale topology, one may
+therefore assume that $G$ possesses a split torus $T$,[^N.D.E-XIX-23] maximal at $s_{0}$. Write therefore $T = D_{S}(M)$
+and let
 
 ```text
 g = ∐_{m ∈ M} g_m
@@ -620,12 +604,12 @@ One has therefore proved (i) and the first assertion of (ii); it remains to prov
 is finite over $U$, i.e. "that it has the same number of points in each geometric fiber" (cf. SGA 1, I 10.9 and EGA IV₃,
 15.5.1 and IV₄, 8.12.4).
 
-For this, it suffices to remark that the geometric fiber of this group at $s \in U$ is determined by the situation
-$R \subset M$, as the constant group associated with the "abstract Weyl group of this root system", and in particular is
+For this, it suffices to remark that the geometric fiber of this group at $s \in U$ is determined by the situation $R
+\subset M$, as the constant group associated with the "abstract Weyl group of this root system", and in particular is
 independent of the point $s$, cf. *Bible*, § 11.3, Th. 2 (see also Exp. XXII, no. 3).
 
-**Corollary 2.6.** *Let $G$ be an $S$-group affine and smooth over $S$, with connected fibers. The set of points
-$s \in S$ such that $G_{\bar{s}}$ is reductive (resp. semisimple) is an open subset $U$ of $S$, and the functions*
+**Corollary 2.6.** *Let $G$ be an $S$-group affine and smooth over $S$, with connected fibers. The set of points $s \in
+S$ such that $G_{\bar{s}}$ is reductive (resp. semisimple) is an open subset $U$ of $S$, and the functions*
 
 ```text
 s ↦ rgred(G_s̄/s̄),     s ↦ rgss(G_s̄/s̄)
@@ -706,9 +690,9 @@ unit character of $T_{\bar{s}}$.*
 
 <!-- label: III.XIX.3.3 -->
 
-[^N.D.E-XIX-29] It is clear that (ii) ⇒ (i), and one sees easily that (iii) ⇒ (i). One has (i) ⇒ (ii), for if
-$s' \in S'$ lies over $s$ and if $\alpha_{s'}$ is the unit character, then so is $\alpha_{s}$. Finally, to prove (i) ⇒
-(iii), one reduces to the case where $T$ is diagonalizable and concludes by Exp. VIII 3.2 a).
+[^N.D.E-XIX-29] It is clear that (ii) ⇒ (i), and one sees easily that (iii) ⇒ (i). One has (i) ⇒ (ii), for if $s' \in
+S'$ lies over $s$ and if $\alpha_{s'}$ is the unit character, then so is $\alpha_{s}$. Finally, to prove (i) ⇒ (iii),
+one reduces to the case where $T$ is diagonalizable and concludes by Exp. VIII 3.2 a).
 
 **3.4.** [^N.D.E-XIX-30] Let $G$ be a reductive $S$-group scheme, $T$ a maximal torus of $G$. Let $\alpha$ be a root of
 $G$ with respect to $T$. Then, by 2.5.0 and 1.12, $g^{\alpha}$ is a locally free `O_S`-module of rank one. Moreover, by
@@ -760,13 +744,13 @@ with respect to $T$. Every root of $G$ with respect to $T$ is locally on $S$ equ
 Put $\mathcal{M} = \operatorname{Hom}_{S-gr.}(T, G_{m,S})$; it is a twisted constant $S$-group scheme (Exp. X 5.6). If
 $G$ admits a root system $R$ with respect to $T$, then the inclusion $R \hookrightarrow \mathcal{M}(S)$ defines a
 morphism $R_{S} \to \mathcal{M}$, where `R_S` is the constant $S$-scheme defined by $R$; thanks to condition (ii), one
-sees easily that this morphism is an open and closed immersion whose image is none other than
-$\bigcup_{\alpha \in R} \alpha(S)$ (each $\alpha \in R$ being considered as a section $S \to \mathcal{M}$).
+sees easily that this morphism is an open and closed immersion whose image is none other than $\bigcup_{\alpha \in R}
+\alpha(S)$ (each $\alpha \in R$ being considered as a section $S \to \mathcal{M}$).
 
 Let $\mathcal{R}$ be the functor of roots of $G$ with respect to $T$: by definition, $\mathcal{R}(S')$ is the set of
-roots of $G_{S'}$ with respect to $T_{S'}$ for every $S' \to S$; if $S' = \emptyset$, one sets
-$\mathcal{R}(\emptyset) = {e}$, and if $S' \neq \emptyset$ then the inclusion $R \hookrightarrow \mathcal{M}(S')$
-identifies $R$ with a root system of $G_{S'}$ with respect to $T_{S'}$, and therefore, by 3.7, one has
+roots of $G_{S'}$ with respect to $T_{S'}$ for every $S' \to S$; if $S' = \emptyset$, one sets $\mathcal{R}(\emptyset) =
+{e}$, and if $S' \neq \emptyset$ then the inclusion $R \hookrightarrow \mathcal{M}(S')$ identifies $R$ with a root
+system of $G_{S'}$ with respect to $T_{S'}$, and therefore, by 3.7, one has
 
 ```text
 𝓡(S′) = Hom_{loc. const.}(S′, R),
@@ -815,35 +799,27 @@ follows at once from 1.12.
 **4.1.** Let $S$ be a scheme, $F$ a locally free `O_S`-module of finite type. The $S$-scheme $W(F)$ is smooth over $S$.
 Its Lie algebra is canonically isomorphic to $F$. Indeed, one has a canonical isomorphism
 
-$$
-W(F) \xrightarrow{\sim} Lie(W(F)/S) = W(Lie(W(F)/S))
-$$
+$$ W(F) \xrightarrow{\sim} Lie(W(F)/S) = W(Lie(W(F)/S)) $$
 
 (Exp. II, 4.4.1 and 4.4.2). We shall always identify $F$ and $Lie(W(F)/S)$.
 
 **Lemma 4.2.** *Let $S$ be a scheme, $V$ a vector fibration over $S$, smooth over $S$. Then there exists a unique
 isomorphism of `O_S`-modules*
 
-$$
-\exp : W(Lie(V/S)) \xrightarrow{\sim} V
-$$
+$$ \exp : W(Lie(V/S)) \xrightarrow{\sim} V $$
 
 *inducing the identity on the Lie algebras.* [^N.D.E-XIX-32]
 
 <!-- label: III.XIX.4.2 -->
 
-*Proof.* Indeed, $V = V(F)$ for some quasi-coherent `O_S`-module $F$. Since $V$ is smooth over $S$, then
-$F \simeq \omega^{1}_{V/S}$ is locally free of finite type, and therefore
+*Proof.* Indeed, $V = V(F)$ for some quasi-coherent `O_S`-module $F$. Since $V$ is smooth over $S$, then $F \simeq
+\omega^{1}_{V/S}$ is locally free of finite type, and therefore
 
-$$
-Lie(V/S) = V(\omega^{1}_{V/S}) \simeq W(Lie(V/S)).
-$$
+$$ Lie(V/S) = V(\omega^{1}_{V/S}) \simeq W(Lie(V/S)). $$
 
 Moreover, by Exp. II *loc. cit.*, one has a canonical isomorphism
 
-$$
-V \xrightarrow{\sim} Lie(V/S) \simeq W(Lie(V/S))
-$$
+$$ V \xrightarrow{\sim} Lie(V/S) \simeq W(Lie(V/S)) $$
 
 and one has at once the uniqueness of `exp`, since $W$ is fully faithful.
 
@@ -863,8 +839,8 @@ restricts the operator law to $G_{m,S}$, then $V\times$ is stable and is therefo
 with group of operators $G_{m,S}$. We shall again write this law as $(z, v) \mapsto v^{z}$.
 
 **Definition 4.4.1.** [^N.D.E-XIX-33] *Let $L$ be an invertible module on $S$ and $W(L)$ the associated vector bundle.
-Then $W(L)\times$ is a principal homogeneous bundle (locally trivial) under $G_{m,S}$. One denotes
-$\Gamma(S, L)\times = W(L)\times(S)$.*
+Then $W(L)\times$ is a principal homogeneous bundle (locally trivial) under $G_{m,S}$. One denotes $\Gamma(S, L)\times =
+W(L)\times(S)$.*
 
 <!-- label: III.XIX.4.4.1 -->
 
@@ -895,8 +871,8 @@ p : W(L) → G          [^N.D.E-XIX-35]
 the following equivalent conditions:*
 
 *(i) $p$ is a morphism of objects with group of operators $T$, if one makes $T$ operate on $W(L)$ by $\alpha$ and on $G$
-by inner automorphisms. In other words, for every $S' \to S$ and all $t \in T(S')$ and
-$x \in W(L)(S') = \Gamma(S', L \otimes O_{S'})$, one has*
+by inner automorphisms. In other words, for every $S' \to S$ and all $t \in T(S')$ and $x \in W(L)(S') = \Gamma(S', L
+\otimes O_{S'})$, one has*
 
 <!-- original page 22 -->
 
@@ -920,9 +896,7 @@ on each fiber, then $\alpha$ is a root of $G$ with respect to $T$.*
 **Proposition 4.8.** *Under the conditions of 4.7, suppose that $G$ is reductive, and that $p$ is a monomorphism. Then
 $\alpha$ is a root of $G$ with respect to $T$ and $Lie(p)$ induces an isomorphism*
 
-$$
-Lie(p) : L \xrightarrow{\sim} g^{\alpha}.
-$$
+$$ Lie(p) : L \xrightarrow{\sim} g^{\alpha}. $$
 
 <!-- label: III.XIX.4.8 -->
 
@@ -934,9 +908,7 @@ centralizes $T_{\bar{s}}$, which is impossible, since the latter is its own cent
 **Corollary 4.9.** *Under the conditions of 4.8, there exists a monomorphism of groups with operators $T$ (i.e.
 normalized by $T$ with multiplier $\alpha$)*
 
-$$
-W(g^{\alpha}) \to G
-$$
+$$ W(g^{\alpha}) \to G $$
 
 *which induces on the Lie algebras the canonical morphism $g^{\alpha} \to g$.*
 
@@ -950,9 +922,7 @@ respect to $T$, and that such a morphism is unique.
 **Reminder 4.10.** *Let $k$ be an algebraically closed field, $G$ a reductive $k$-group, $T$ a maximal torus of $G$,
 $\alpha$ a root of $G$ with respect to $T$. There exists a monomorphism*
 
-$$
-p : G_{a,k} \to G
-$$
+$$ p : G_{a,k} \to G $$
 
 *normalized by $T$ with multiplier $\alpha$.*
 
@@ -966,21 +936,15 @@ $G_{a,S}$. (If $S \neq \emptyset$, one has $q = 1$, or $q = p^{n}$, $p$ being a 
 follows at once from the elementary fact: the gcd of the binomial coefficients `(q choose i)`, for $i \neq 0, q$, is $p$
 if $q = p^{n}$, $p$ prime, and `1` in the contrary case.) The morphism defined by the $q$-th power
 
-$$
-L \to L^{\otimes q}
-$$
+$$ L \to L^{\otimes q} $$
 
 is a morphism of sheaves of abelian groups. It defines by base change a morphism of $S$-group schemes:
 
-$$
-W(L) \to W(L^{\otimes q}).
-$$
+$$ W(L) \to W(L^{\otimes q}). $$
 
 In particular, if $L'$ is another invertible module and if one has a morphism of `O_S`-modules
 
-$$
-h : L^{\otimes q} \to L',
-$$
+$$ h : L^{\otimes q} \to L', $$
 
 one deduces from it a morphism of $S$-group schemes:
 
@@ -1003,20 +967,18 @@ condition:*
 
 *for all $x \in W(L)(S')$, $t \in T(S')$, $S' \to S$. Let $s_{0} \in S$ be such that $\alpha_{s_{0}} \neq 0$.*
 
-*a) Suppose that $g$ sends the zero section to the zero section and that for every integer $n > 0$, one has
-$(\alpha' \circ f)_{s_{0}} \neq n \alpha_{s_{0}}$. Then $g = 0$ in a neighborhood of $s_{0}$.*
+*a) Suppose that $g$ sends the zero section to the zero section and that for every integer $n > 0$, one has $(\alpha'
+\circ f)_{s_{0}} \neq n \alpha_{s_{0}}$. Then $g = 0$ in a neighborhood of $s_{0}$.*
 
 *b) Suppose that $g$ is a morphism of groups such that $g_{s_{0}} \neq 0$. Then there exist an open subset $U$ of $S$
-containing $s_{0}$ and an integer $q > 0$ such that $x \mapsto x^{q}$ is an endomorphism of $G_{a,U}$ and
-$(\alpha' \circ f)_{U} = q \alpha_{U}$.*
+containing $s_{0}$ and an integer $q > 0$ such that $x \mapsto x^{q}$ is an endomorphism of $G_{a,U}$ and $(\alpha'
+\circ f)_{U} = q \alpha_{U}$.*
 
-*c) Suppose that $(\alpha' \circ f)_{s_{0}} = q \alpha_{s_{0}}$, where $q$ is an integer `> 0` such that
-$x \mapsto x^{q}$ is an endomorphism of $G_{a,S}$. Then there exist an open subset $U$ of $S$ containing $s_{0}$ and a
-unique morphism of `O_S`-modules*
+*c) Suppose that $(\alpha' \circ f)_{s_{0}} = q \alpha_{s_{0}}$, where $q$ is an integer `> 0` such that $x \mapsto
+x^{q}$ is an endomorphism of $G_{a,S}$. Then there exist an open subset $U$ of $S$ containing $s_{0}$ and a unique
+morphism of `O_S`-modules*
 
-$$
-h : L^{\otimes q}|U \to L'|U
-$$
+$$ h : L^{\otimes q}|U \to L'|U $$
 
 *such that $g_{U}$ is the composite morphism*
 
@@ -1044,9 +1006,7 @@ The condition (⋆) linking $f$ and $g$ is written as an identity in $\Gamma(S',
 
 that is, for every $n \geqslant 0$, every $S' \to S$ and every $t \in T(S')$,
 
-$$
-a_{n} (\alpha'(f(t)) - \alpha(t)^{n}) = 0.
-$$
+$$ a_{n} (\alpha'(f(t)) - \alpha(t)^{n}) = 0. $$
 
 For each $n \geqslant 0$, let $S_{n}$ be the set of $s \in S$ such that $(\alpha' \circ f)_{s} = n \alpha_{s}$. One
 knows (Exp. IX 5.3) that the $S_{n}$ are open and closed, and that $(\alpha' \circ f)_{S_{n}} = n \alpha_{S_{n}}$.
@@ -1055,8 +1015,8 @@ fiber (same reference), which entails that the $S_{n}$ are disjoint. Shrinking $
 assume that one is in one of the two following cases: there exists an $n$ such that $S = S_{n}$, or all the $S_{n}$ are
 empty.
 
-Let $m \geqslant 0$ be such that $S_{m} = \emptyset$; I claim that then $a_{m} = 0$; indeed $\alpha' \circ f$ and
-$m \alpha$ are distinct on each fiber of $S$, and one has:
+Let $m \geqslant 0$ be such that $S_{m} = \emptyset$; I claim that then $a_{m} = 0$; indeed $\alpha' \circ f$ and $m
+\alpha$ are distinct on each fiber of $S$, and one has:
 
 **Lemma 4.13.** *Let $S$ be a scheme, $T$ an $S$-torus, $\alpha$ and $\alpha'$ two characters of $T$ distinct on each
 fiber; there exists a family ${S_{i} \to S}$ covering for (fpqc), and for each $i$ a $t_{i} \in T(S_{i})$, such that
@@ -1154,8 +1114,8 @@ a a′ (d − 1)² = b b′ (d + 1)².
 
 Combining the two preceding relations, one finds at once the second sought formula.
 
-**5.4.** Consider then $G = G_{1} \cap SL(g)$. It is the closed subgroup of $G_{1}$ defined by the equation
-$det(u) = 1$. It is therefore an affine group over $S$.
+**5.4.** Consider then $G = G_{1} \cap SL(g)$. It is the closed subgroup of $G_{1}$ defined by the equation $det(u) =
+1$. It is therefore an affine group over $S$.
 
 **Proposition 5.5.** *The group $G$ is smooth over $S$.*
 
@@ -1283,9 +1243,7 @@ z ↦     ⎜ 0  1/z  0 ⎟ .
 
 It is a monomorphism that defines a torus $T$ of $G^{0}$. I claim that one has
 
-$$
-T = Centr_{G}(T) = Centr_{G^{0}}(T).
-$$
+$$ T = Centr_{G}(T) = Centr_{G^{0}}(T). $$
 
 It suffices indeed to verify the first equality. Since these are smooth subgroups of $G$ over $S$, it suffices to verify
 that they have the same geometric points. For the fibers at points $s \neq s_{0}$, this follows from the fact that
@@ -1336,55 +1294,45 @@ Choose a maximal torus $T_{0}$ of $G_{0} (= G_{k})$ (one exists, for example bec
 $G_{0}$ is smooth over $k$, Exp. XII, 7.1 c)); since $k$ is separably closed, $T_{0}$ is split (cf. X 1.4) and is
 therefore given by a monomorphism of groups
 
-$$
-f_{0} : G^{r}_{m,k} \to G_{0}.
-$$
+$$ f_{0} : G^{r}_{m,k} \to G_{0}. $$
 
 Let $m$ be an integer `> 1` prime to the characteristic of $k$. By Exp. VIII 6.7, for every $h > 0$,
 $Centr_{G_{0}}({}_{m^{h}}T_{0})$ is representable by a closed subscheme of $G_{0}$. Since the ${}_{m^{h}}T_{0}$ are
 schematically dense in $T_{0}$ (cf. Exp. IX 4.10) and $G_{0}$ is noetherian, there exists an $h$ such that
 
-$$
-Centr_{G_{0}}({}_{m^{h}}T_{0}) = Centr_{G_{0}}(T_{0}) = T_{0}.
-$$
+$$ Centr_{G_{0}}({}_{m^{h}}T_{0}) = Centr_{G_{0}}(T_{0}) = T_{0}. $$
 
 Put $n = m^{h}$; since $n$ is invertible on $S$, ${}_{n} G_{m,S}$ is isomorphic to $(Z/nZ)_{S}$; $f_{0}$ therefore
 defines a monomorphism of groups
 
-$$
-u_{0} : (Z/nZ)^{r}_{k} \to G_{0}
-$$
+$$ u_{0} : (Z/nZ)^{r}_{k} \to G_{0} $$
 
 such that $Centr_{G}(u_{0}) = T_{0}$. Now the $S$-functor
 
-$$
-\mathcal{P} = \operatorname{Hom}_{S-gr.}((Z/nZ)^{r}_{S}, G)
-$$
+$$ \mathcal{P} = \operatorname{Hom}_{S-gr.}((Z/nZ)^{r}_{S}, G) $$
 
-is representable by an $S$-scheme of finite type (as a closed subscheme of $r$ copies of
-${}_{n} G = \operatorname{Hom}_{S-gr.}((Z/nZ)_{S}, G) = Ker(G --n--> G)$). But $\mathcal{P}$ is smooth over $S$ (Exp. IX
-3.6), hence $u_{0} \in \mathcal{P}(k)$ lifts to a section $u \in \mathcal{P}(S)$ (Hensel's lemma, Exp. XI 1.11):
+is representable by an $S$-scheme of finite type (as a closed subscheme of $r$ copies of ${}_{n} G =
+\operatorname{Hom}_{S-gr.}((Z/nZ)_{S}, G) = Ker(G --n--> G)$). But $\mathcal{P}$ is smooth over $S$ (Exp. IX 3.6), hence
+$u_{0} \in \mathcal{P}(k)$ lifts to a section $u \in \mathcal{P}(S)$ (Hensel's lemma, Exp. XI 1.11):
 
 <!-- original page 33 -->
 
-$$
-u : (Z/nZ)^{r}_{S} \to G.
-$$
+$$ u : (Z/nZ)^{r}_{S} \to G. $$
 
 Consider $H = Centr_{G}(u)$; it is a closed subgroup scheme of $G$, by Exp. VIII 6.5 e), and one has $H_{0} = T_{0}$ by
 hypothesis.[^N.D.E-XIX-45] Moreover, $H$ is smooth over $S$: indeed, let $S' = \operatorname{Spec}(A)$ be an affine
-scheme over $S$, $u' : ({}_{n} G_{m,S'})^{r} \to G_{S'}$ the morphism deduced from $u$ by base change,
-$S'_{J} = \operatorname{Spec}(A/J)$, where $J$ is an ideal of square zero, and let $x \in H(S'_{J})$; since $G$ is
-smooth, $x$ lifts to an element $g$ of $G(S')$; then $v = int(g)(u')$ verifies $v_{J} = u'_{J}$ and therefore, by IX
-3.2, there exists an element $g'$ of $G(S')$ such that $g'_{J} = e$ and $int(g')(v) = u'$; then $h = g' g$ belongs to
-$H(S')$ and verifies $h_{J} = x$.
+scheme over $S$, $u' : ({}_{n} G_{m,S'})^{r} \to G_{S'}$ the morphism deduced from $u$ by base change, $S'_{J} =
+\operatorname{Spec}(A/J)$, where $J$ is an ideal of square zero, and let $x \in H(S'_{J})$; since $G$ is smooth, $x$
+lifts to an element $g$ of $G(S')$; then $v = int(g)(u')$ verifies $v_{J} = u'_{J}$ and therefore, by IX 3.2, there
+exists an element $g'$ of $G(S')$ such that $g'_{J} = e$ and $int(g')(v) = u'$; then $h = g' g$ belongs to $H(S')$ and
+verifies $h_{J} = x$.
 
 Let then $H^{0}$ be the neutral component of $H$; it is a subgroup scheme of $G$, smooth and with connected fibers,
-whose special fiber is a torus. By Exp. X 8.1, it is a torus, necessarily split (Exp. X 4.6). Put $H^{0} = T$ and let
-$C = Centr_{G}(T)$, which is a closed subgroup of $G$ (Exp. VIII 6.5 e)), smooth (Exp. XI 2.4). Consider $C^{0}$ (in
-fact $C^{0} = C$, but we do not need to know it); then $C^{0} \supset T$ and these are two smooth groups with connected
-fibers. They coincide at $s_{0}$, hence in a neighborhood. Shrinking $S$ if necessary, one may therefore assume
-$C^{0} = T$, hence *a fortiori* $T$ maximal.
+whose special fiber is a torus. By Exp. X 8.1, it is a torus, necessarily split (Exp. X 4.6). Put $H^{0} = T$ and let $C
+= Centr_{G}(T)$, which is a closed subgroup of $G$ (Exp. VIII 6.5 e)), smooth (Exp. XI 2.4). Consider $C^{0}$ (in fact
+$C^{0} = C$, but we do not need to know it); then $C^{0} \supset T$ and these are two smooth groups with connected
+fibers. They coincide at $s_{0}$, hence in a neighborhood. Shrinking $S$ if necessary, one may therefore assume $C^{0} =
+T$, hence *a fortiori* $T$ maximal.
 
 **Remark 6.2.** *The proof shows in particular that the reductive rank of $G_{\bar{s}}$ is constant in a neighborhood of
 $s = s_{0}$.*
@@ -1397,17 +1345,15 @@ subtorus of $G$.*
 *(i) $Centr_{G}(Q)$ and $Norm_{G}(Q)$ are representable by closed subgroup schemes, smooth (and therefore of finite
 presentation) over $S$.*
 
-*(ii) $Centr_{G}(Q)$ is an open and closed subscheme of $Norm_{G}(Q)$. The quotient
-$W_{G}(Q) = Norm_{G}(Q) / Centr_{G}(Q)$ is representable by an open subgroup scheme of $\operatorname{Aut}_{S-gr.}(Q)$;
-it is therefore an $S$-group scheme quasi-finite, étale and separated over $S$.*
+*(ii) $Centr_{G}(Q)$ is an open and closed subscheme of $Norm_{G}(Q)$. The quotient $W_{G}(Q) = Norm_{G}(Q) /
+Centr_{G}(Q)$ is representable by an open subgroup scheme of $\operatorname{Aut}_{S-gr.}(Q)$; it is therefore an
+$S$-group scheme quasi-finite, étale and separated over $S$.*
 
 <!-- original page 34 -->
 
 *(iii) For every $s \in S$, put*
 
-$$
-w(s) = Norm_{G(\bar{s})}(Q(\bar{s})) / Centr_{G(\bar{s})}(Q(\bar{s})).
-$$
+$$ w(s) = Norm_{G(\bar{s})}(Q(\bar{s})) / Centr_{G(\bar{s})}(Q(\bar{s})). $$
 
 *Then $s \mapsto w(s)$ is lower semicontinuous, and is constant in a neighborhood of $s$ if and only if $W_{G}(Q)$ is
 finite over $S$ in a neighborhood of $s$.*
@@ -1547,8 +1493,8 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 [^N.D.E-XIX-31]: *N.D.E.*: see SGA 1, VIII 4.4 or EGA IV₂, 2.7.1.
 
 [^N.D.E-XIX-32]: *N.D.E.*: We have kept the original proof; one can also detail it as follows. Let $F$ be a
-    quasi-coherent `O_S`-module, $V = V(F)$. Denote by $\pi$ the projection $V \to S$ and $\epsilon$ the zero section
-    $S \to V$. Then $\Omega^{1}_{V/S} = \pi* F$, whence
+    quasi-coherent `O_S`-module, $V = V(F)$. Denote by $\pi$ the projection $V \to S$ and $\epsilon$ the zero section $S
+    \to V$. Then $\Omega^{1}_{V/S} = \pi* F$, whence
 
     ```text
     (1)    ω¹_{V/S} = ε* Ω¹_{V/S} ≃ ε* π* F ≃ F,
@@ -1577,11 +1523,11 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [^N.D.E-XIX-37]: *N.D.E.*: "consider the semi-direct product $T \cdot_{\alpha} W(L)$, resp. $T' \cdot_{\alpha'} W(L')$"
     has been removed. On the other hand, the hypothesis in (b) that $g$ be a morphism of groups, combined with (⋆),
-    amounts to saying that the morphism $(t, x) \mapsto (f(t), g(x))$ is a morphism of groups from
-    $T \cdot_{\alpha} W(L)$ to $T' \cdot_{\alpha'} W(L')$.
+    amounts to saying that the morphism $(t, x) \mapsto (f(t), g(x))$ is a morphism of groups from $T \cdot_{\alpha}
+    W(L)$ to $T' \cdot_{\alpha'} W(L')$.
 
-[^N.D.E-XIX-38]: *N.D.E.*: The equality $[u(X), u(Y)] = 2 t u(H)$ (resp. $[u(H), u(X)] = u(X)$, resp.
-    $[u(H), u(Y)] = -u(Y)$) gives the relations (4), (4′), and (5) (resp. (1)–(3), resp. (1′)–(3′)).
+[^N.D.E-XIX-38]: *N.D.E.*: The equality $[u(X), u(Y)] = 2 t u(H)$ (resp. $[u(H), u(X)] = u(X)$, resp. $[u(H), u(Y)] =
+    -u(Y)$) gives the relations (4), (4′), and (5) (resp. (1)–(3), resp. (1′)–(3′)).
 
 [^N.D.E-XIX-39]: *N.D.E.*: The sign has been corrected.
 

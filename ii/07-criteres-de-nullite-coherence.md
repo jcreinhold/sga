@@ -25,12 +25,10 @@ Let $X$ be a locally noetherian prescheme, $Y$ a closed subset of $X$, and $G$ a
 $\mathcal{O}_{X}$-Module. Suppose that for every coherent $\mathcal{O}_{X}$-Module $F$ with support contained in $Y$,
 one has
 
-$$
-\mathcal{E}xt^{n-1}(F, G) = 0.
-$$
+$$ \mathcal{E}xt^{n-1}(F, G) = 0. $$
 
-Then for every coherent $\mathcal{O}_{X}$-Module $F$ and every closed subset $Z$ of $X$ such that
-$Y \supset Supp F \cap Z$, one has
+Then for every coherent $\mathcal{O}_{X}$-Module $F$ and every closed subset $Z$ of $X$ such that $Y \supset Supp F \cap
+Z$, one has
 
 ```text
 ℰxt^n_Z(F, G) ≅ ℋom(F, ℋ^n_Y(G)).
@@ -44,9 +42,7 @@ We first remark that
 
 (trivial, cf. Exposé VI). We first carry out the proof for $Z = X$, so that $Supp F \subset Y$. The functor
 
-$$
-F \mapsto \mathcal{E}xt^{n}(F, G),
-$$
+$$ F \mapsto \mathcal{E}xt^{n}(F, G), $$
 
 defined on the category of coherent $\mathcal{O}_{X}$-Modules with support contained in $Y$, is left exact. By (IV 1.3),
 it is represented by
@@ -128,8 +124,8 @@ $X$ such that $Z' \cap Supp F = Y \cap Supp F$, one has isomorphisms
 
 *Proof.* We argue by induction. The proposition is trivial for $n < 0$. Suppose it has been proved for $n < q$. If one
 of the conditions holds for $n = q$, and for two subsets $Z$ and $S$ as stated, then by the induction hypothesis we
-have, for every closed subset $Z'$ of $X$ and every coherent $\mathcal{O}_{X}$-Module $F$ such that
-$Z' \cap Supp F = Y \cap Supp F$, isomorphisms
+have, for every closed subset $Z'$ of $X$ and every coherent $\mathcal{O}_{X}$-Module $F$ such that $Z' \cap Supp F = Y
+\cap Supp F$, isomorphisms
 
 ```text
 ℰxt^{q−1}_{Z'}(F, G) ≅ ℋom(F, ℋ^{q−1}_Y(G)) ≅ ℰxt^{q−1}_Y(F, G).
@@ -181,8 +177,8 @@ Now in that case one is reduced to a problem on $A$-modules, where $X = \operato
 Ass Hom_A(P, H) = Supp P ∩ Ass H.
 ```
 
-One knows that `Ass H ⊂ Supp H ⊂ Supp P` and that $Ass \operatorname{Hom}_{A}(P, H) = \emptyset$; hence
-$Ass H = \emptyset$, so $H = 0$.
+One knows that `Ass H ⊂ Supp H ⊂ Supp P` and that $Ass \operatorname{Hom}_{A}(P, H) = \emptyset$; hence $Ass H =
+\emptyset$, so $H = 0$.
 
 <!-- TRANSLATOR NOTE: The source states the formula `Ass Hom_A(P, H) = Supp P ∩ Ass H` "under the sole hypothesis that
 `M` is of finite type"; in context the finite-type module is `P` (the source uses `M` and `P` interchangeably in this
@@ -250,9 +246,7 @@ a closed subset of $X$. Let $i \in \mathbb{Z}$. Suppose that, for every coherent
 contained in $Y$, $T^{i} F$ and $T^{i-1} F$ are coherent. Let $F$ be a coherent $\mathcal{O}_{X}$-Module. For $T^{i} F$
 to be coherent, it is necessary and sufficient that $T^{i} F''$ be coherent, where we have set
 
-$$
-F'' = F/\Gamma_{Y}(F).
-$$
+$$ F'' = F/\Gamma_{Y}(F). $$
 
 Indeed, $F' = \Gamma_{Y}(F)$ is coherent because $X$ is locally noetherian; the cohomology exact sequence of
 $T^{\bullet}$ then gives
@@ -277,11 +271,11 @@ $\mathcal{E}xt^{i}_{Y}(F, G)$ (cf. Exposé VI).
 
 <!-- label: VII.1.7 -->
 
-Suppose $F$ and $G$ are coherent, and set $S = Supp F$, $S' = S \cap (X - Y)$. Suppose that, for every
-$x \in Y \cap S'$, one has $prof G_{x} \geqslant n$. Then $\mathcal{E}xt^{i}_{Y}(F, G)$ is coherent for $i < n$.
+Suppose $F$ and $G$ are coherent, and set $S = Supp F$, $S' = S \cap (X - Y)$. Suppose that, for every $x \in Y \cap
+S'$, one has $prof G_{x} \geqslant n$. Then $\mathcal{E}xt^{i}_{Y}(F, G)$ is coherent for $i < n$.
 
-Indeed, 1.6 allows us to apply 1.5 to $T^{\bullet}(F) = \mathcal{E}xt^{\bullet}_{Y}(F, G)$. Setting
-$F'' = F/\Gamma_{Y}(F)$, one sees that $Supp F'' = S'$. Now, by III 3.3, the hypothesis on the depth of $G$ ensures the
+Indeed, 1.6 allows us to apply 1.5 to $T^{\bullet}(F) = \mathcal{E}xt^{\bullet}_{Y}(F, G)$. Setting $F'' =
+F/\Gamma_{Y}(F)$, one sees that $Supp F'' = S'$. Now, by III 3.3, the hypothesis on the depth of $G$ ensures the
 vanishing of $\mathcal{H}^{i}_{Y \cap S'}(G)$ for $i < n$; by 1.2, one deduces the vanishing of $T^{i} F''$ for $i < n$,
 whence the conclusion by 1.5.
 
@@ -292,8 +286,8 @@ whence the conclusion by 1.5.
 <!-- original page 82 -->
 
 Let $X$ be a locally noetherian regular prescheme, that is, one all of whose local rings are regular. Let $Y$ be a
-closed subset of $X$. Let $F$ and $G$ be two coherent $\mathcal{O}_{X}$-Modules. Set $S = Supp F$,
-$S' = S \cap (X - Y)$. Set
+closed subset of $X$. Let $F$ and $G$ be two coherent $\mathcal{O}_{X}$-Modules. Set $S = Supp F$, $S' = S \cap (X -
+Y)$. Set
 
 ```text
 m = sup_{x ∈ Y ∩ S} dim 𝒪_{X,x},
@@ -313,8 +307,8 @@ In the situation just described, one has:
 
 <!-- original page 65 -->
 
-Note first that $\mathcal{E}xt^{i}_{Y}(F, G)$ is coherent for every $i$ when $Supp F \subset Y$. Moreover, setting
-$F'' = F/\Gamma_{Y}(F)$ as above, one sees that $Supp F'' = S'$, so that (2) follows from (1) and from 1.3.
+Note first that $\mathcal{E}xt^{i}_{Y}(F, G)$ is coherent for every $i$ when $Supp F \subset Y$. Moreover, setting $F''
+= F/\Gamma_{Y}(F)$ as above, one sees that $Supp F'' = S'$, so that (2) follows from (1) and from 1.3.
 
 <!-- TRANSLATOR NOTE: The source reference here reads "1.3" (= Lemma VII.1.3) but the argument actually invokes Lemma
 VII.1.5 to swap `F` for `F''`. We have preserved the source's "1.3"; readers checking the proof should compare 1.5. -->
@@ -361,12 +355,12 @@ If $P$ is the underlying space of a connected subprescheme of $X$, then $D(P)$ i
 for "X" — the lemma is about subpreschemes of the ambient `X` of the section. We render it as `X`. -->
 
 Indeed, let $\alpha$ and $\beta$ belong to $D(P)$, corresponding to points $p$ and $q$ of $P$. We show that there exists
-a sequence of points of $P$, $(p = p_{1}, \cdots, p_{n} = q)$, such that for $1 \leqslant i < n$ one has
-$|\dim \mathcal{O}_{X,p_{i}} - \dim \mathcal{O}_{X,p_{i+1}}| = 1$; it will follow that $D(P)$ contains the interval
-$[\alpha, \beta]$. For this, one remarks that $p$ and $q$ can be joined by a chain of irreducible components of $P$ such
-that two successive components meet. One is reduced to the case where $p$ is the generic point of an irreducible
-component $Q$ of $P$, and where $q \in Q$, and so $q \supset p$ as ideals of $\mathcal{O}_{q}$, where the assertion is
-trivial from the definition of dimension.
+a sequence of points of $P$, $(p = p_{1}, \cdots, p_{n} = q)$, such that for $1 \leqslant i < n$ one has $|\dim
+\mathcal{O}_{X,p_{i}} - \dim \mathcal{O}_{X,p_{i+1}}| = 1$; it will follow that $D(P)$ contains the interval $[\alpha,
+\beta]$. For this, one remarks that $p$ and $q$ can be joined by a chain of irreducible components of $P$ such that two
+successive components meet. One is reduced to the case where $p$ is the generic point of an irreducible component $Q$ of
+$P$, and where $q \in Q$, and so $q \supset p$ as ideals of $\mathcal{O}_{q}$, where the assertion is trivial from the
+definition of dimension.
 
 <!-- TRANSLATOR NOTE: The source displayed equation reads `dim 𝒪_{X,p_i} − dim 𝒪_{X,p_{i+1}} = 1`, but for the
 argument to give an interval-filling chain one needs unit jumps in either direction; we read this as an absolute value
@@ -377,15 +371,15 @@ and have rendered it `| … | = 1`. The source also writes the interval as `[p, 
 <!-- label: VII.2.3 -->
 
 Let $X$ be a locally noetherian regular prescheme, $Y$ a closed subset of $X$, and $F$ a coherent
-$\mathcal{O}_{X}$-Module. Let $P = Y \cap Supp F \cap (X - Y)$. Let $n \in \mathbb{Z}$, and suppose that
-$n \notin D(P)$. Then $\mathcal{E}xt^{n}_{Y}(F, \mathcal{O}_{X})$ is coherent.
+$\mathcal{O}_{X}$-Module. Let $P = Y \cap Supp F \cap (X - Y)$. Let $n \in \mathbb{Z}$, and suppose that $n \notin
+D(P)$. Then $\mathcal{E}xt^{n}_{Y}(F, \mathcal{O}_{X})$ is coherent.
 
 <!-- original page 66 -->
 
 The conclusion is local and the hypotheses are preserved by restriction to an open set. Now $P$ is closed and so locally
 noetherian, hence locally connected; we may therefore assume $X$ affine and noetherian, and $P$ connected. Set
-`D(P) = [a, b[`, which is legitimate by the preceding lemma. If $n > b$, we conclude by 2.1; if $n < a$, then
-$n < \dim \mathcal{O}_{X,x} = prof \mathcal{O}_{X,x}$ for every $x \in P$, and we conclude by 1.7.
+`D(P) = [a, b[`, which is legitimate by the preceding lemma. If $n > b$, we conclude by 2.1; if $n < a$, then $n < \dim
+\mathcal{O}_{X,x} = prof \mathcal{O}_{X,x}$ for every $x \in P$, and we conclude by 1.7.
 
 <!-- TRANSLATOR NOTE: The source defines `P = Y ∩ Supp F ∩ (X − Y)`, which is empty as written; the intended set is
 almost certainly the closure intersection that appears in §1, e.g. `P = Supp F ∩ (closure of (Supp F ∩ (X − Y)))` or

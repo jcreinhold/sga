@@ -15,12 +15,10 @@
 Let $k$ be an algebraically closed field, and let $X = \mathbb{P}^{r}_{k}$ be projective space of dimension $r$ over
 $k$. Then $X$ is **simply connected**, that is, $\pi_{1}(X) = 0$.
 
-For $r = 0$ this is trivial. If $r = 1$, one must show that if $X'$ is a nonempty connected étale covering of
-$X = \mathbb{P}^{1}_{k}$, then $X' \simeq X$. The genus formula gives, if $g$ and $g'$ are the genera of $X$ and $X'$,
+For $r = 0$ this is trivial. If $r = 1$, one must show that if $X'$ is a nonempty connected étale covering of $X =
+\mathbb{P}^{1}_{k}$, then $X' \simeq X$. The genus formula gives, if $g$ and $g'$ are the genera of $X$ and $X'$,
 
-$$
-1 - g' = d(1 - g),
-$$
+$$ 1 - g' = d(1 - g), $$
 
 where $d$ is the degree of $X'$ over $X$. Since $g = 0$, we have $1 - g' = d$, which forces $d = 1$ because $g' \geq 0$;
 this proves $X' \simeq X$.
@@ -52,9 +50,9 @@ subgroup of $G$.
 
 Recall that a variety **unirational over $k$** means a proper integral scheme over $k$ whose function field $K$ is
 contained in a purely transcendental extension $K'$ of $k$, finite over $K$ (that is, with the same transcendence degree
-over $k$ as $K$), or equivalently, for which there exists a dominant rational map $f: \mathbb{P}^{r}_{k} \to X$ with
-$r = \dim X$. If $X$ is normal, the reflections preceding X.3.4 show that for every connected étale covering $X'$ of
-$X$, with function field $L/K$, the $K'$-algebra $L \otimes_{K} K'$ is unramified over the model $\mathbb{P}^{r}$, hence
+over $k$ as $K$), or equivalently, for which there exists a dominant rational map $f: \mathbb{P}^{r}_{k} \to X$ with $r
+= \dim X$. If $X$ is normal, the reflections preceding X.3.4 show that for every connected étale covering $X'$ of $X$,
+with function field $L/K$, the $K'$-algebra $L \otimes_{K} K'$ is unramified over the model $\mathbb{P}^{r}$, hence
 completely decomposed by XI.1.1. This shows that $L$ is $K$-isomorphic to a subextension of $K'/K$. Taking V.8.2 into
 account, this proves:
 
@@ -118,18 +116,14 @@ proper, smooth, and connected over $k$, and finally let $G$ be a commutative gro
 Denote by $Ext(A,G)$ the group of classes of commutative extensions of $A$ by $G$, and by $H^{1}(A,G)$ the group of
 classes of principal bundles on $A$ with group $G$ (compare no. XI.4 below). Consider the canonical homomorphism
 
-$$
-Ext(A,G) \to H^{1}(A,G).
-$$
+$$ Ext(A,G) \to H^{1}(A,G). $$
 
 <!-- original page 287 -->
 
 An argument of Serre [XI.5, Chapter VII, Theorem 5] shows that this is an injective homomorphism, whose image is the set
 of “primitive elements” of $H^{1}(A,G)$, that is, the elements $\xi$ for which
 
-$$
-\pi*(\xi) = pr_{1}*(\xi) + pr_{2}*(\xi),
-$$
+$$ \pi*(\xi) = pr_{1}*(\xi) + pr_{2}*(\xi), $$
 
 where $pr_{i}$ are the two projections from $A \times A$ to $A$, and $\pi: A \times A \to A$ is the composition law of
 $A$. Serre states his theorem only for $G$ linear and connected, and of course smooth over $k$, but by simplifying the
@@ -142,13 +136,11 @@ commutative. Using $\pi_{1}(A \times A) \simeq \pi_{1}(A) \times \pi_{1}(A)$ (X.
 $\operatorname{Hom}(\pi_{1}(X),G)$ for every algebraic scheme $X$, in particular for $X = A$ or $X = A \times A$, one
 sees that every class in $H^{1}(A,G)$ is primitive. Thus one has an isomorphism
 
-$$
-Ext(A,G) \simeq H^{1}(A,G).
-$$
+$$ Ext(A,G) \simeq H^{1}(A,G). $$
 
 In other words, **every principal covering of $A$ with commutative structural group $G$, pointed above the origin of
-$A$, is endowed in a unique way with a structure of algebraic group having the marked point as origin, and such that
-$A' \to A$ is a homomorphism of algebraic groups.** In particular, if $A'$ is connected, it is also an abelian variety,
+$A$, is endowed in a unique way with a structure of algebraic group having the marked point as origin, and such that $A'
+\to A$ is a homomorphism of algebraic groups.** In particular, if $A'$ is connected, it is also an abelian variety,
 isogenous to $A$.
 
 On the other hand, since the functor $X \mapsto \pi_{1}(X)$ from pointed algebraic schemes $X$ to groups commutes with
@@ -159,16 +151,12 @@ products (IX.1.7), it sends a group in the first category to a group in the cate
 
 **is a commutative group.** Thus, to know $\pi_{1}(A)$, it is enough to know the functor
 
-$$
-G \mapsto H^{1}(A,G) = \operatorname{Hom}(\pi_{1}(A),G)
-$$
+$$ G \mapsto H^{1}(A,G) = \operatorname{Hom}(\pi_{1}(A),G) $$
 
 as $G$ varies through finite **commutative** groups. Finally, recall that for every integer $n > 0$, the
 multiplication-by-$n$ homomorphism in $A$,
 
-$$
-A --n\to A,
-$$
+$$ A --n\to A, $$
 
 is surjective, hence has finite kernel, that is, it is an isogeny; it follows that every isogeny $A' \to A$ is a
 quotient of an isogeny of the preceding type. From this, and from standard arguments (cf. for example [XI.6]), one
@@ -182,9 +170,7 @@ Let $A$ be an abelian variety over an algebraically closed field $k$. For every 
 ordinary finite group underlying the kernel ${}_{nA}$ of multiplication by $n$ in $A$, and put, for every prime number
 $\ell$,
 
-$$
-T_{\ell}(A) = \lim_{r} K^{r}_{\ell}
-$$
+$$ T_{\ell}(A) = \lim_{r} K^{r}_{\ell} $$
 
 and
 
@@ -202,9 +188,7 @@ ring $\operatorname{Hom}(A,A)$ of endomorphisms of $A$ in $T_{\ell}(A)$, called 
 which plays an important role in the theory of abelian varieties (cf. for example [XI.4, Chapter VII]). Theorem XI.2.1
 gives an interpretation of it in terms of the natural representation in the **$\ell$-adic homology group** of $A$,
 
-$$
-H_{1}(A,\mathbb{Z}_{\ell}) = \pi_{1}(A)_{\ell},
-$$
+$$ H_{1}(A,\mathbb{Z}_{\ell}) = \pi_{1}(A)_{\ell}, $$
 
 <!-- original page 289 -->
 
@@ -234,15 +218,13 @@ ${}_{nA}$ are taken into account, they behave regularly for every $n$.
 This suggests that the “true” fundamental group of an abelian variety $A$ is the pro-algebraic group (formal inverse
 limit of finite groups over $k$)
 
-$$
-\lim_{n} {}_{nA},
-$$
+$$ \lim_{n} {}_{nA}, $$
 
 where by the “true fundamental group” of an algebraic scheme $X$ one should mean the pro-group that classifies principal
 coverings of $X$ with structural group an arbitrary finite group scheme $G$ over $k$, not necessarily separable over
 $k$. In this way, for example, from the representations of $\operatorname{Hom}(A,A)$ in the $p$-primary component of the
-true fundamental group of $A$, one recovers the Weil characteristic polynomial defined by the latter using the
-$\ell \neq p$, in a more natural way than Serre’s construction [XI.8].
+true fundamental group of $A$, one recovers the Weil characteristic polynomial defined by the latter using the $\ell
+\neq p$, in a more natural way than Serre’s construction [XI.8].
 
 ## 3. Projective Cones, Zariski’s Example
 
@@ -252,29 +234,23 @@ $\ell \neq p$, in a more natural way than Serre’s construction [XI.8].
 
 For simplicity, keep $k$ algebraically closed, and let $V$ be a connected projective $k$-scheme, a closed subscheme of
 $\mathbb{P}^{r}_{k}$, which one may assume nonsingular if desired. Let $Y = \hat{C}$ be the projective cone over $V$,
-let $y_{0}$ be its vertex, let $X = \hat{C}_{V}$ be the usual projective closure of the vector bundle
-$C_{V} = V(\mathcal{O}_{V}(1))$ associated with $\mathcal{O}_{V}(1)$, and finally let
+let $y_{0}$ be its vertex, let $X = \hat{C}_{V}$ be the usual projective closure of the vector bundle $C_{V} =
+V(\mathcal{O}_{V}(1))$ associated with $\mathcal{O}_{V}(1)$, and finally let
 
-$$
-f: X \to Y
-$$
+$$ f: X \to Y $$
 
 be the canonical morphism contracting the zero section $X_{0}$ of `C_V` on $X$ to a point (EGA II 8.6.4). Since $X$ is a
-locally trivial bundle over $V$ with fibers $\mathbb{P}^{1}$, hence with simply connected fibers, the morphism
-$p: X \to V$ induces, by X.1.4, an isomorphism
+locally trivial bundle over $V$ with fibers $\mathbb{P}^{1}$, hence with simply connected fibers, the morphism $p: X \to
+V$ induces, by X.1.4, an isomorphism
 
-$$
-\pi_{1}(X) \simeq \pi_{1}(V).
-$$
+$$ \pi_{1}(X) \simeq \pi_{1}(V). $$
 
 Since $p$ induces an isomorphism $X_{0} \to V$, it follows that **an étale covering of $X$ is completely decomposed if
-and only if its restriction to $X_{0}$ is so**. But for every étale covering $Y'$ of $Y$, the inverse image
-$X' = X \times_{Y} Y'$ is an étale covering of $X$ completely decomposed over the fiber $X_{0}$, hence trivial. Since
-the homomorphism $\pi_{1}(X) \to \pi_{1}(Y)$ is surjective (IX.3.4), it follows that
+and only if its restriction to $X_{0}$ is so**. But for every étale covering $Y'$ of $Y$, the inverse image $X' = X
+\times_{Y} Y'$ is an étale covering of $X$ completely decomposed over the fiber $X_{0}$, hence trivial. Since the
+homomorphism $\pi_{1}(X) \to \pi_{1}(Y)$ is surjective (IX.3.4), it follows that
 
-$$
-\pi_{1}(Y) = (e).
-$$
+$$ \pi_{1}(Y) = (e). $$
 
 In other words, **every projective cone is simply connected.** In characteristic 0, the same result remains true with
 $Y$ taken to be the affine cone.
@@ -290,8 +266,8 @@ generic fiber, is trivial. Nevertheless $X'$ does not come by inverse image from
 simply connected and $X'$ would then be completely decomposed. This shows that X.1.3 and X.1.4 become false if the
 hypothesis that $f$ is separable is replaced by the weaker hypothesis that its fibers are separable algebraic schemes,
 or even smooth schemes, over the $\kappa(s)$. Similarly, the fundamental groups of the geometric fibers $\bar{X}_{y}$
-for $y \neq y_{0}$ are plainly reduced to `(e)`, since these fibers are reduced to a point, while
-$\pi_{1}(X_{0}) \neq e$; hence the semicontinuity theorem X.2.4 also fails for $f$.
+for $y \neq y_{0}$ are plainly reduced to `(e)`, since these fibers are reduced to a point, while $\pi_{1}(X_{0}) \neq
+e$; hence the semicontinuity theorem X.2.4 also fails for $f$.
 
 Finally let us indicate the example, pointed out by Zariski, that makes the same theorems fail when the hypothesis that
 $f$ is separable is replaced by the hypothesis that $f$ is flat. Let $f: X \to Y$ be a morphism from a nonsingular
@@ -331,9 +307,7 @@ $\chi^{i}$, $i = 0,1,2,3$, with $\chi$ a primitive character. Let $f$ be its $n$
 One sees at once that $K'$ is a regular extension of $k(g)$. This follows from the fact that the plane curve with
 homogeneous equation in `U,T,Z`
 
-$$
-T^{n} + Z^{n} + (1 + g^{n})U^{n} = 0
-$$
+$$ T^{n} + Z^{n} + (1 + g^{n})U^{n} = 0 $$
 
 is smooth over $k(g)$, by the Jacobian criterion, and from the fact that every plane curve is connected. On the other
 hand, $k(f) = K \cap k(g)$, since the right-hand side is an extension of $k(f)$ contained in the prime-degree extension
@@ -374,10 +348,9 @@ $G$ if the morphism
 P ×_S G → P ×_S P
 ```
 
-with components $pr_{1}$ and $\pi$ is an isomorphism. Equivalently, for every object $S'$ of $Sch_{/}S$, the set
-$P(S') = \operatorname{Hom}_{S}(S',P)$, regarded as a set with operator group $G(S') = \operatorname{Hom}_{S}(S',G)$, is
-either empty or principal homogeneous, that is, empty or isomorphic to $G(S')$ with $G(S')$ acting by right
-translations.
+with components $pr_{1}$ and $\pi$ is an isomorphism. Equivalently, for every object $S'$ of $Sch_{/}S$, the set $P(S')
+= \operatorname{Hom}_{S}(S',P)$, regarded as a set with operator group $G(S') = \operatorname{Hom}_{S}(S',G)$, is either
+empty or principal homogeneous, that is, empty or isomorphic to $G(S')$ with $G(S')$ acting by right translations.
 
 We say that $P$ is **trivial** if $P$ is isomorphic to $G$, with $G$ acting on itself by right translations, or
 equivalently if each of the operator sets $P(S')$ under $G(S')$ is trivial. One verifies, for example by the patented
@@ -441,9 +414,7 @@ Let $E$ be an $S$-prescheme on which the $S$-group $G$ acts on the left, and let
 on the right under $G$. We want to define an associated bundle $E^{P}$, “locally” isomorphic to $E$. To do this, make
 $G$ act on the right on $P \times_{S} E$ by the law
 
-$$
-(x,y) \mapsto (xg,g^{-1}y),
-$$
+$$ (x,y) \mapsto (xg,g^{-1}y), $$
 
 <!-- original page 295 -->
 
@@ -454,9 +425,9 @@ subject to existence,
 E^(P) = (P ×_S E)/G.
 ```
 
-With this convention, $P \times_{S} E$ will be a prescheme over $T = E^{P}$, with right operator group
-$G_{T} = G \times_{S} T$; one would like, for comfort, $P \times_{S} E$ to be a principal homogeneous bundle over $T$
-with group `G_T`.
+With this convention, $P \times_{S} E$ will be a prescheme over $T = E^{P}$, with right operator group $G_{T} = G
+\times_{S} T$; one would like, for comfort, $P \times_{S} E$ to be a principal homogeneous bundle over $T$ with group
+`G_T`.
 
 To verify the existence of $E^{P}$ and the preceding property, take the $S'$ from Definition XI.4.1 and look at the
 inverse-image situation over $S'$. Since $P'$ is trivial, that is, isomorphic to $G'_{d}$, one sees at once that
@@ -498,14 +469,12 @@ commutes with finite products; indeed this implies that it sends groups to group
 groups. Similarly, $H^{1}(S,G)$ is a functor in the **affine** $S$-group $G$, with values in sets, by formation of
 associated bundles; one checks easily that this functor commutes with finite products. In particular it sends groups in
 the category of affine $S$-groups, that is, **commutative affine** $S$-groups, to groups, and indeed to commutative
-groups. Thus, **if $G$ is a commutative affine $S$-group, $H^{1}(S,G)$ is a commutative group**, and a homomorphism
-$G \to H$ of commutative affine $S$-groups gives rise to a group homomorphism $H^{1}(S,G) \to H^{1}(S,H)$.
+groups. Thus, **if $G$ is a commutative affine $S$-group, $H^{1}(S,G)$ is a commutative group**, and a homomorphism $G
+\to H$ of commutative affine $S$-groups gives rise to a group homomorphism $H^{1}(S,G) \to H^{1}(S,H)$.
 
 For simplicity, from now on we restrict to **affine and commutative** $S$-groups. Let
 
-$$
-0 \to G' \to G \to G'' \to 0
-$$
+$$ 0 \to G' \to G \to G'' \to 0 $$
 
 be a sequence of morphisms of such groups. **We say that this sequence is exact if the composite $G' \to G \to G''$ is
 zero** (which allows $G$ to be regarded as a prescheme over $G''$ with right operator group ${G'_{G}}''$)
@@ -515,15 +484,11 @@ zero** (which allows $G$ to be regarded as a prescheme over $G''$ with right ope
 **and if $G$ is a principal homogeneous bundle over $G''$ with group ${G'_{G}}'' = G' \times_{S} G''$**. This implies in
 particular that $u: G' \to G$ is a kernel of $v: G \to G''$, and a fortiori it implies exactness of
 
-$$
-0 \to H^{0}(S,G') \to H^{0}(S,G) \to H^{0}(S,G'').
-$$
+$$ 0 \to H^{0}(S,G') \to H^{0}(S,G) \to H^{0}(S,G''). $$
 
 It also makes it possible to define a map
 
-$$
-\partial: H^{0}(S,G'') \to H^{1}(S,G'),
-$$
+$$ \partial: H^{0}(S,G'') \to H^{1}(S,G'), $$
 
 by associating to every section of $G''$ over $S$, that is, to every $S$-morphism $f: S \to G''$, the principal
 homogeneous bundle $P_{f}$ with group $G' \simeq f*({G'_{G}}'')$ over $S$, inverse image of the principal homogeneous
@@ -637,9 +602,7 @@ canonical bijection, functorial in $G$:
 
 <!-- label: eq:XI.5.etoile -->
 
-$$
-(*)   H^{1}(S,G) \simeq H^{1}(\pi_{1},\mathcal{G}),
-$$
+$$ (*) H^{1}(S,G) \simeq H^{1}(\pi_{1},\mathcal{G}), $$
 
 where
 
@@ -647,8 +610,8 @@ where
 
 the second member denotes the set of classes, up to isomorphism, of principal homogeneous bundles under $\mathcal{G}$ in
 the category of finite sets on which $\pi_{1}$ acts; it is in fact needless to specify “continuously.” This set is made
-explicit in the familiar way as the quotient of the set $Z^{1}(\pi_{1},G)$ of 1-cocycles
-$\phi: \pi_{1} \to \mathcal{G}$, satisfying
+explicit in the familiar way as the quotient of the set $Z^{1}(\pi_{1},G)$ of 1-cocycles $\phi: \pi_{1} \to
+\mathcal{G}$, satisfying
 
 ```text
 φ(1) = 1,     φ(st) = φ(s)(s · φ(t)),
@@ -690,23 +653,17 @@ $\mathbb{G}_{a},S$. Then every principal homogeneous bundle under $G$ is locally
 
 Here $GL(n)_{S}$, for an integer $n \geq 0$, denotes the $S$-group representing the contravariant functor
 
-$$
-T \mapsto GL(n, \Gamma(T,\mathcal{O}_{T}))
-$$
+$$ T \mapsto GL(n, \Gamma(T,\mathcal{O}_{T})) $$
 
 on the $S$-prescheme $T$. In particular $\mathbb{G}_{m},S$, the “multiplicative group over $S$,” represents the
 contravariant functor
 
-$$
-T \mapsto \Gamma(T,\mathcal{O}^{*}_{T}),
-$$
+$$ T \mapsto \Gamma(T,\mathcal{O}^{*}_{T}), $$
 
 and therefore, as a prescheme over $S$, is isomorphic to $\operatorname{Spec} \mathcal{O}_{S}[t,t^{-1}]$, where $t$ is
 an indeterminate. Similarly $\mathbb{G}_{a},S$ represents the contravariant functor
 
-$$
-T \mapsto \Gamma(T,\mathcal{O}_{T}),
-$$
+$$ T \mapsto \Gamma(T,\mathcal{O}_{T}), $$
 
 and hence is isomorphic as an $S$-prescheme to $\operatorname{Spec}(\mathcal{O}_{S}[t])$, where $t$ is an indeterminate.
 Notice that, by dévissage, XI.5.1 recovers Rosenlicht’s local-triviality result for the case where $G$ admits a
@@ -716,12 +673,11 @@ local triviality of principal homogeneous bundles, cf. [XI.7] and [XI.3].
 The first assertion is proved by observing that $G(T) = \operatorname{Aut}(\mathcal{O}^{n}_{T})$, and that the morphisms
 $S' \to S$ occurring in XI.4.1, that is, those which are faithfully flat and quasi-compact, are morphisms of effective
 descent for the fibered category of modules locally isomorphic to $\mathcal{O}^{n}_{T}$, that is, locally free of rank
-$n$ (VIII.1.12). The second is proved in an analogous way, noting that in this case
-$G(T) = \operatorname{Aut}(\mathcal{E}_{T})$, where $\mathcal{E}_{T}$ is the trivial **extension** of $\mathcal{O}_{T}$
-by $\mathcal{O}_{T}$, and where the automorphisms must of course respect the extension structure. The morphisms
-$S' \to S$ occurring in XI.4.1 are morphisms of effective descent for the fibered category of extensions of
-$\mathcal{O}_{T}$ by $\mathcal{O}_{T}$, as follows easily from VIII.1.1, and such extensions are automatically locally
-trivial.
+$n$ (VIII.1.12). The second is proved in an analogous way, noting that in this case $G(T) =
+\operatorname{Aut}(\mathcal{E}_{T})$, where $\mathcal{E}_{T}$ is the trivial **extension** of $\mathcal{O}_{T}$ by
+$\mathcal{O}_{T}$, and where the automorphisms must of course respect the extension structure. The morphisms $S' \to S$
+occurring in XI.4.1 are morphisms of effective descent for the fibered category of extensions of $\mathcal{O}_{T}$ by
+$\mathcal{O}_{T}$, as follows easily from VIII.1.1, and such extensions are automatically locally trivial.
 
 **Remark.**
 
@@ -745,21 +701,15 @@ the type considered here.
 
 There are canonical bijections
 
-$$
-H^{1}(S,GL(n)_{S}) \simeq H^{1}(S,GL(n,\mathcal{O}_{S})),
-$$
+$$ H^{1}(S,GL(n)_{S}) \simeq H^{1}(S,GL(n,\mathcal{O}_{S})), $$
 
 in particular
 
-$$
-H^{1}(S,\mathbb{G}_{m},S) \simeq H^{1}(S,\mathcal{O}^{*}_{S}),
-$$
+$$ H^{1}(S,\mathbb{G}_{m},S) \simeq H^{1}(S,\mathcal{O}^{*}_{S}), $$
 
 and
 
-$$
-H^{1}(S,\mathbb{G}_{a},S) \simeq H^{1}(S,\mathcal{O}_{S}),
-$$
+$$ H^{1}(S,\mathbb{G}_{a},S) \simeq H^{1}(S,\mathcal{O}_{S}), $$
 
 where the second members denote cohomology groups of the topological space $S$ with coefficients in ordinary sheaves.
 
@@ -777,9 +727,7 @@ by itself.
 
 Let $S$ be a prescheme, let $n$ be an integer `> 0`, let
 
-$$
-u_{n}: \mathbb{G}_{m},S \to \mathbb{G}_{m},S
-$$
+$$ u_{n}: \mathbb{G}_{m},S \to \mathbb{G}_{m},S $$
 
 be the $n$-th power homomorphism, and let $\mu_{n},S$ be its kernel. Then $\mu_{n},S$ is finite and locally free of rank
 $n$ over $S$, and it is étale over $S$ if and only if for every $s \in S$, the characteristic of $s$ is prime to $n$.
@@ -796,22 +744,16 @@ One has
 
 <!-- original page 303 -->
 
-$$
-\mathbb{G}_{m} = \operatorname{Spec} \mathcal{O}_{S}[t,t^{-1}],
-$$
+$$ \mathbb{G}_{m} = \operatorname{Spec} \mathcal{O}_{S}[t,t^{-1}], $$
 
 and $u_{n}$ corresponds to the homomorphism $u_{n}$ on affine $\mathcal{O}_{S}$-algebras given by
 
-$$
-u_{n}(t) = t^{n}.
-$$
+$$ u_{n}(t) = t^{n}. $$
 
 On the other hand, the unit section of $\mathbb{G}_{m},S$ corresponds to the augmentation homomorphism of
 $\mathcal{O}_{S}$-algebras given by
 
-$$
-\epsilon(t) = 1,
-$$
+$$ \epsilon(t) = 1, $$
 
 whose kernel is therefore the principal ideal $(t - 1)$. The image of this ideal by $u_{n}$ is thus the principal ideal
 $(1 - t^{n})$, and one finds
@@ -857,9 +799,7 @@ generator $1 mod n\mathbb{Z}$ of $\mathbb{Z}/n\mathbb{Z}$. With this understood:
 
 If $\mu_{n},S$ is étale over $S$, one thereby obtains a one-to-one correspondence between isomorphisms of $S$-groups
 
-$$
-(\mathbb{Z}/n\mathbb{Z})_{S} \simeq \mu_{n},S
-$$
+$$ (\mathbb{Z}/n\mathbb{Z})_{S} \simeq \mu_{n},S $$
 
 and sections of $\mathcal{O}_{S}$ that are of exact order $n$ on each connected component of $S$; such a section will be
 called a “primitive $n$-th root of unity over $S$.” Therefore, for $\mu_{n},S$ to be isomorphic as an $S$-group to
@@ -891,9 +831,7 @@ $S$ be a prescheme. There is a canonical exact sequence
 hence, putting $H^{1}(S,\mathcal{O}^{*}_{S}) = \operatorname{Pic}(S)$, and denoting for every abelian group $A$ by
 ${}_{nA}$ and $A_{n}$ the kernel and cokernel of multiplication by $n$ in $A$, the exact sequence
 
-$$
-0 \to H^{0}(S,\mathcal{O}_{S})^{*}_{n} \to H^{1}(S,\mu_{n}) \to {}_{nPic}(S) \to 0.
-$$
+$$ 0 \to H^{0}(S,\mathcal{O}_{S})^{*}_{n} \to H^{1}(S,\mu_{n}) \to {}_{nPic}(S) \to 0. $$
 
 \[Translator note: the corrected source fixes the definition of $\operatorname{Pic}(S)$ here from $H^{1}(S,\mathcal{O}_{S})$ to $H^{1}(S,\mathcal{O}^{*}_{S})$.\]
 
@@ -906,9 +844,7 @@ We shall spell out two important cases, where one or the other extreme term of t
 Suppose ${}_{nPic}(S) = 0$, for example that $S$ is the spectrum of a local ring or of a factorial ring, and let $A$ be
 the ring $H^{0}(S,\mathcal{O}_{S})$. Then there is a canonical isomorphism
 
-$$
-H^{1}(S,\mu_{n}) \simeq A^{*}/(A^{*})^{n}.
-$$
+$$ H^{1}(S,\mu_{n}) \simeq A^{*}/(A^{*})^{n}. $$
 
 This is essentially the classical statement of Kummer theory when $S$ is the spectrum of a field.
 
@@ -920,16 +856,12 @@ Suppose that every element of $H^{0}(S,\mathcal{O}_{S})$ is an $n$-th power, for
 is a composite of algebraically closed fields, or that $S$ is reduced and proper over an algebraically closed field $k$.
 Then there is a canonical isomorphism
 
-$$
-H^{1}(S,\mu_{n}) \simeq {}_{nPic}(S).
-$$
+$$ H^{1}(S,\mu_{n}) \simeq {}_{nPic}(S). $$
 
 In particular, when $S$ is proper and connected over an algebraically closed field $k$, this relates the fundamental
 group of $S$ with the points of finite order of the Picard scheme $P$ of $S$ over $k$. Thus one has an isomorphism
 
-$$
-\operatorname{Hom}(\pi_{1}(S),\mathbb{Z}/n\mathbb{Z}) \simeq {}_{nP}(k)
-$$
+$$ \operatorname{Hom}(\pi_{1}(S),\mathbb{Z}/n\mathbb{Z}) \simeq {}_{nP}(k) $$
 
 for $n$ prime to the characteristic, a relation often used in algebraic
 
@@ -946,13 +878,11 @@ scheme of $X$ over $S$ exists and the connected Picards of the fibers of $X$ ove
 example when the geometric fibers of $X$ over $S$ are normal, with $X$ still flat and projective over $S$, and in
 particular if $X$ is smooth and projective over $S$.
 
-Now let $p$ be a prime number, and suppose that $S$ is a prescheme of characteristic $p$, that is,
-$p \cdot \mathcal{O}_{S} = 0$. Then the $p$-th power homomorphism in $\mathcal{O}_{S}$ is additive, and the
-corresponding morphism, obtained by replacing $S$ by a variable $T$ over $S$,
+Now let $p$ be a prime number, and suppose that $S$ is a prescheme of characteristic $p$, that is, $p \cdot
+\mathcal{O}_{S} = 0$. Then the $p$-th power homomorphism in $\mathcal{O}_{S}$ is additive, and the corresponding
+morphism, obtained by replacing $S$ by a variable $T$ over $S$,
 
-$$
-F: \mathbb{G}_{a},S \to \mathbb{G}_{a},S
-$$
+$$ F: \mathbb{G}_{a},S \to \mathbb{G}_{a},S $$
 
 is therefore a homomorphism of $S$-groups, called the **Frobenius homomorphism**. Note that such a morphism is defined
 for every $S$-prescheme $G$ which comes by base extension from a prescheme $G_{0}$ over the prime field
@@ -972,9 +902,7 @@ power is the unit section. When $G = \mathbb{G}_{a},S$, they therefore correspon
 to arbitrary sections of $G$ over $S$. Taking in particular the section of $\mathbb{G}_{a},S$ over $S$ corresponding to
 the unit section of the sheaf of rings $\mathcal{O}_{S}$, one obtains a homomorphism of $S$-groups
 
-$$
-i: (\mathbb{Z}/p\mathbb{Z})_{S} \to \mathbb{G}_{a},S.
-$$
+$$ i: (\mathbb{Z}/p\mathbb{Z})_{S} \to \mathbb{G}_{a},S. $$
 
 **Proposition.**
 
@@ -982,17 +910,15 @@ $$
 
 The sequence of homomorphisms of $S$-groups
 
-$$
-0 \to (\mathbb{Z}/p\mathbb{Z})_{S} \to \mathbb{G}_{a},S \to \mathbb{G}_{a},S \to 0
-$$
+$$ 0 \to (\mathbb{Z}/p\mathbb{Z})_{S} \to \mathbb{G}_{a},S \to \mathbb{G}_{a},S \to 0 $$
 
 is exact in the sense of no. XI.4. It is called the **Artin-Schreier exact sequence** over $S$. \[Translator note: the
 corrected source fixes the last group symbol in the displayed sequence.\]
 
 It is enough to prove this over the prime field $k = \mathbb{Z}/p\mathbb{Z}$. It is enough to observe that the
 homomorphism $wp*: k[t] \to k[t]$ defined by $wp*(t) = t - t^{p}$ makes `k[t]` a free module of rank $p$ over `k[t]`;
-more precisely, `k[t]` is a free module over `k[s]`, where $s = t - t^{p}$, with basis formed by the $t^{i}$ for
-$0 \leq i \leq p - 1$.
+more precisely, `k[t]` is a free module over `k[s]`, where $s = t - t^{p}$, with basis formed by the $t^{i}$ for $0 \leq
+i \leq p - 1$.
 
 Using XI.4.5 and XI.5.3, we conclude:
 
@@ -1022,12 +948,10 @@ Let us spell out two extreme cases:
 
 <!-- label: XI.6.9 -->
 
-Suppose $H^{1}(S,\mathcal{O}_{S})^{F} = 0$, for example that $S$ is an affine scheme. Then, putting
-$A = H^{0}(S,\mathcal{O}_{S})$, there is a canonical isomorphism
+Suppose $H^{1}(S,\mathcal{O}_{S})^{F} = 0$, for example that $S$ is an affine scheme. Then, putting $A =
+H^{0}(S,\mathcal{O}_{S})$, there is a canonical isomorphism
 
-$$
-H^{1}(S,\mathbb{Z}/p\mathbb{Z}) \simeq A/wp A.
-$$
+$$ H^{1}(S,\mathbb{Z}/p\mathbb{Z}) \simeq A/wp A. $$
 
 This is **Artin-Schreier theory** in its classical form, at least when $A$ is the spectrum of a field. \[Translator
 note: the source says “when $A$ is the spectrum of a field”; mathematically one expects “when $S$ is the spectrum of a
@@ -1045,9 +969,7 @@ $wp H^{0}(S,\mathcal{O}_{S}) = H^{0}(S,\mathcal{O}_{S})$, for example that $H^{0
 algebraically closed fields, or that $S$ is proper over an algebraically closed field. Then there is a canonical
 isomorphism
 
-$$
-H^{1}(S,\mathbb{Z}/p\mathbb{Z}) \simeq H^{1}(S,\mathcal{O}_{S})^{F}.
-$$
+$$ H^{1}(S,\mathbb{Z}/p\mathbb{Z}) \simeq H^{1}(S,\mathcal{O}_{S})^{F}. $$
 
 **Remarks.**
 
@@ -1102,9 +1024,7 @@ $\operatorname{Pic}_{S}/k$; we shall denote it by $T\bullet(\operatorname{Pic}_{
 we saw in XI.2.1 that this group is also isomorphic to the “true” Tate module $T_{\bullet}(S) = \lim {}_{nS}$, and the
 isomorphism (\*) is then written in the more striking form
 
-$$
-Ext^{1}(A,G) \simeq \operatorname{Hom}(D(G),B),
-$$
+$$ Ext^{1}(A,G) \simeq \operatorname{Hom}(D(G),B), $$
 
 where $A$ is an abelian variety, $B$ its dual, and $G$ a finite algebraic group over $k$. The results just indicated can
 moreover be generalized to the case where $k$ is replaced by an arbitrary base prescheme, and to coefficient groups $G$

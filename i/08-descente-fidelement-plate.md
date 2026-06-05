@@ -73,8 +73,8 @@ $g$.
 **Proof of VIII.1.1.** Let first $T$ be an $S$-prescheme that is $S$-isomorphic to the sum of a family of induced open
 subsets `Sᵢ` of $S$ covering $S$. Then it is evident that the structural morphism $T \to S$ is a morphism of effective
 $\mathcal{F}$-descent. This means precisely that giving a quasi-coherent Module $F$ on $S$ is equivalent to giving
-quasi-coherent Modules `Fᵢ` on the `Sᵢ`, together with gluing isomorphisms
-$\phi_{ji}: F_{i}|S_{i}\cap S_{j} \to F_{j}|S_{i}\cap S_{j}$ satisfying the familiar cocycle condition. By VII, 8,
+quasi-coherent Modules `Fᵢ` on the `Sᵢ`, together with gluing isomorphisms $\phi_{ji}: F_{i}|S_{i}\cap S_{j} \to
+F_{j}|S_{i}\cap S_{j}$ satisfying the familiar cocycle condition. By VII, 8,
 
 <!-- original page 197 -->
 
@@ -143,9 +143,7 @@ morphism of effective descent for any fibered category over `Sch`.
 It remains finally to show that if $N'$ is an $A'$-module endowed with descent data for $A \to A'$, i.e. endowed with an
 isomorphism
 
-$$
-\phi: N'_{1} \simeq N'_{2}
-$$
+$$ \phi: N'_{1} \simeq N'_{2} $$
 
 between the two modules deduced from $N'$ by the changes of rings `A′ ⇉ A′ ⊗_A A′`, then
 
@@ -179,9 +177,9 @@ consideration is an isomorphism, it suffices to prove that it becomes so after t
 using the flatness of $A_{1}$ over $A$, one sees that the homomorphism so obtained is none other than the one that would
 be obtained directly in terms of the module $N' \otimes_{A} A_{1}$ over $A'_{1} = A' \otimes_{A} A_{1}$, endowed with
 the descent datum relative to $A_{1} \to A'_{1}$ canonically deduced by change of rings from the datum given on $N'$.
-Thus it suffices to find an $A_{1}$ faithfully flat over $A$ such that
-$\operatorname{Spec}(A'_{1}) \to \operatorname{Spec}(A_{1})$ is a morphism of effective $\mathcal{F}$-descent. As above,
-take $A_{1} = A'$. This finishes the proof of VIII.1.6, and hence the proof of VIII.1.1.
+Thus it suffices to find an $A_{1}$ faithfully flat over $A$ such that $\operatorname{Spec}(A'_{1}) \to
+\operatorname{Spec}(A_{1})$ is a morphism of effective $\mathcal{F}$-descent. As above, take $A_{1} = A'$. This finishes
+the proof of VIII.1.6, and hence the proof of VIII.1.1.
 
 **Corollary. Descent of Sections of Modules.**
 
@@ -263,15 +261,11 @@ Indeed, $M = colim_{i} M_{i}$, where the `Mᵢ` are the finite-type submodules o
 if $M'$ is of finite type, then $M'$ is equal to one of the $M'_{i}$; by faithful flatness, $M$ is equal to `Mᵢ`, hence
 $M$ is of finite type. Consequently there exists an exact sequence
 
-$$
-0 \to R \to L \to M \to 0,
-$$
+$$ 0 \to R \to L \to M \to 0, $$
 
 with $L$ free of finite type, whence an exact sequence
 
-$$
-0 \to R' \to L' \to M' \to 0,
-$$
+$$ 0 \to R' \to L' \to M' \to 0, $$
 
 with $L'$ free of finite type. Thus if $M'$ is of finite presentation, $R'$ is of finite type, and by what precedes $R$
 is of finite type, hence $M$ is of finite presentation. Finally, saying that $M$ is locally free and of finite type
@@ -299,16 +293,12 @@ operations.
 
 For example, the data of three quasi-coherent Modules $F$, $G$, $H$ on $S$ and a pairing
 
-$$
-F \otimes G \to H
-$$
+$$ F \otimes G \to H $$
 
 is equivalent to the data of three quasi-coherent Modules $F'$, $G'$, $H'$ on $S'$, endowed with descent data relative
 to $g: S' \to S$, and endowed with a pairing
 
-$$
-F' \otimes G' \to H'
-$$
+$$ F' \otimes G' \to H' $$
 
 “compatible” with these descent data, in the evident sense. For example, if $F = G = H$, one sees that the data of a
 quasi-coherent Module $F$ on $S$ endowed with an algebra law, which for the moment we do not suppose to satisfy any
@@ -344,9 +334,9 @@ _\[Translator’s note: the source section title has a footnote referring to fur
 
 <!-- label: VIII.3.1 -->
 
-Let $f: X \to Y$ be an $S$-morphism, let $g: S' \to S$ be a surjective morphism, and let
-$f': X' = X \times_{S} S' \to Y' = Y \times_{S} S'$ be the morphism deduced from $f$ by base change using $g: S' \to S$.
-In order that $f$ be surjective, respectively radicial, it is necessary and sufficient that $f'$ be so.
+Let $f: X \to Y$ be an $S$-morphism, let $g: S' \to S$ be a surjective morphism, and let $f': X' = X \times_{S} S' \to
+Y' = Y \times_{S} S'$ be the morphism deduced from $f$ by base change using $g: S' \to S$. In order that $f$ be
+surjective, respectively radicial, it is necessary and sufficient that $f'$ be so.
 
 Note that $f'$ can also be obtained by the base change $Y' \to Y$, which is also surjective since it is deduced from the
 surjective morphism $g: S' \to S$. On the other hand, for every $y \in Y$ and every $y' \in Y'$ lying over $y$, one has
@@ -380,12 +370,12 @@ $f'$ be so.
 
 <!-- original page 204 -->
 
-Only the “suffices” direction has to be proved. One may evidently suppose $S = Y$, since the hypothesis made on
-$g: S' \to S$ is preserved for $Y' \to Y$. Moreover, one may suppose $Y$ affine. Then $Y'$ is quasi-compact, hence $X'$
-is quasi-compact, since $f'$ is so by hypothesis. Let $(X_{i})_{i}\in I$ be a family of affine open subsets of $X$
-covering $X$. Then the $X'_{i}$ are open subsets of $X'$ covering $X'$, so a finite subfamily covers $X'$. Since
-$X' \to X$ is surjective, it follows that the corresponding `Xᵢ` already cover $X$, and hence $X$ is quasi-compact, i.e.
-$f$ is quasi-compact.
+Only the “suffices” direction has to be proved. One may evidently suppose $S = Y$, since the hypothesis made on $g: S'
+\to S$ is preserved for $Y' \to Y$. Moreover, one may suppose $Y$ affine. Then $Y'$ is quasi-compact, hence $X'$ is
+quasi-compact, since $f'$ is so by hypothesis. Let $(X_{i})_{i}\in I$ be a family of affine open subsets of $X$ covering
+$X$. Then the $X'_{i}$ are open subsets of $X'$ covering $X'$, so a finite subfamily covers $X'$. Since $X' \to X$ is
+surjective, it follows that the corresponding `Xᵢ` already cover $X$, and hence $X$ is quasi-compact, i.e. $f$ is
+quasi-compact.
 
 Suppose now that $f'$ is of finite type, and prove that $f$ is so, assuming $g$ faithfully flat. Replacing $Y'$ by the
 sum of a family of affine open subsets covering it, one may suppose $Y'$ affine. Finally, since $X$ is covered by
@@ -421,8 +411,8 @@ $g$.
 Let $A$ be a ring and $X$ an $A$-prescheme. One sees easily that the following conditions are equivalent:
 
 1. There exists a noetherian ring $A_{0}$, which one may if desired suppose to be a finite-type subring of $A$, an
-   $A_{0}$-prescheme $X_{0}$ of finite type, a homomorphism $A_{0} \to A$, and an $A$-isomorphism
-   $X \simeq X_{0} \times_{A_{0}} A$.
+   $A_{0}$-prescheme $X_{0}$ of finite type, a homomorphism $A_{0} \to A$, and an $A$-isomorphism $X \simeq X_{0}
+   \times_{A_{0}} A$.
 1. The diagonal morphism $X \to X \times_{\operatorname{Spec}(A)} X$ is quasi-compact, a void condition if $X$ is
    separated over $A$; $X$ is a finite union of affine open subsets `Xᵢ` whose rings `Bᵢ` are algebras of finite
    presentation over $A$, i.e. quotients of polynomial algebras in finitely many indeterminates by finite-type ideals.
@@ -453,9 +443,7 @@ Let $g: Y' \to Y$ be a morphism, and let $Z$ be a subset of $Y$. Suppose that $g
 quasi-compact morphism $f: X \to Y$ such that $Z = f(X)$. N.B. if $Y$ is noetherian, this latter condition is implied by
 “$Z$ is constructible”. Then
 
-$$
-g^{-1}(closure(Z)) = closure(g^{-1}(Z)).
-$$
+$$ g^{-1}(closure(Z)) = closure(g^{-1}(Z)). $$
 
 One may suppose $Y$ affine, then $Y'$ affine. Since $Y$ is affine, $X$ is a finite union of affine open subsets `Xᵢ`,
 and replacing $X$ by the sum of the `Xᵢ`, one may also suppose $X$ affine. Let $A$, $A'$, $B$ be the rings of $Y$, $Y'$,
@@ -473,9 +461,7 @@ $g^{-1}(closure(Z))$, which follows from $I' = IA'$, itself a consequence of the
 Let $g: Y' \to Y$ be a flat and quasi-compact morphism, and let $Z'$ be a closed subset of $Y'$ saturated for the
 set-theoretic equivalence relation defined by $g$. Then
 
-$$
-Z' = g^{-1}(closure(g(Z'))).
-$$
+$$ Z' = g^{-1}(closure(g(Z'))). $$
 
 Indeed, $Z' = g^{-1}(Z)$, with $Z = g(Z')$. One may then apply VIII.4.1, noting that the condition imposed on $Z$ in
 VIII.4.1 is indeed satisfied by taking for $X$ the prescheme $Z'$ endowed with the reduced structure induced by $Y'$.
@@ -491,9 +477,9 @@ In particular:
 Let $g: Y' \to Y$ be a faithfully flat and quasi-compact morphism. Then $g$ makes $Y$ a quotient topological space of
 $Y'$; i.e. for a subset $Z$ of $Y$, $Z$ is closed, respectively open, if and only if $Z' = g^{-1}(Z)$ is so.
 
-Recall now that two elements `a,b` of $Y'$ have the same image in $Y$ if and only if they are of the form
-$p_{1}(c), p_{2}(c)$ for a suitable element $c$ in $Y'' = Y' \times_{Y} Y'$. It follows that, if $g$ is surjective, one
-has an **exact** diagram of sets
+Recall now that two elements `a,b` of $Y'$ have the same image in $Y$ if and only if they are of the form $p_{1}(c),
+p_{2}(c)$ for a suitable element $c$ in $Y'' = Y' \times_{Y} Y'$. It follows that, if $g$ is surjective, one has an
+**exact** diagram of sets
 
 ```text
 𝒫(Y) → 𝒫(Y′) ⇉ 𝒫(Y″),
@@ -523,9 +509,9 @@ We have the following complement to VIII.4.3:
 
 <!-- label: VIII.4.5 -->
 
-Let $g: Y' \to Y$ be as in VIII.4.3, and let $Z$ be a subset of $Y$ such that there exists a quasi-compact morphism
-$f: X \to Y$ with image $Z$ (for example, $Z$ constructible and $Y$ noetherian). Then $Z$ is a locally closed subset of
-$Y$ if and only if $Z' = g^{-1}(Z)$ is a locally closed subset of $Y'$.
+Let $g: Y' \to Y$ be as in VIII.4.3, and let $Z$ be a subset of $Y$ such that there exists a quasi-compact morphism $f:
+X \to Y$ with image $Z$ (for example, $Z$ constructible and $Y$ noetherian). Then $Z$ is a locally closed subset of $Y$
+if and only if $Z' = g^{-1}(Z)$ is a locally closed subset of $Y'$.
 
 It is enough to prove the “if” direction. Let $Y_{1}$ be the closed subprescheme of $Y$, the closure of $Z$ endowed with
 the induced reduced structure, and let $Y_{1}' = Y_{1} \times_{Y} Y'$ be the closed subprescheme of $Y'$ inverse image
@@ -538,19 +524,17 @@ exactly that $Z$ is locally closed.
 
 <!-- label: VIII.4.6 -->
 
-Let $g: S' \to S$ be a faithfully flat and quasi-compact morphism, let $f: X \to Y$ be an $S$-morphism, and let
-$f': X' \to Y'$ be the $S'$-morphism obtained from it by base change. Suppose that $f'$ is an open map (respectively a
-closed map, respectively quasi-compact and a homeomorphism into its image, respectively a homeomorphism onto). Then $f$
-has the same property.
+Let $g: S' \to S$ be a faithfully flat and quasi-compact morphism, let $f: X \to Y$ be an $S$-morphism, and let $f': X'
+\to Y'$ be the $S'$-morphism obtained from it by base change. Suppose that $f'$ is an open map (respectively a closed
+map, respectively quasi-compact and a homeomorphism into its image, respectively a homeomorphism onto). Then $f$ has the
+same property.
 
 Since $Y'$ is faithfully flat and quasi-compact over $Y$, one may suppose $Y = S$. Let $Q$ be a subset of $X$; then,
 denoting by $h$ the projection morphism $X' \to X$, one has
 
 <!-- original page 208 -->
 
-$$
-g^{-1}(f(Q)) = f'(h^{-1}(Q)).
-$$
+$$ g^{-1}(f(Q)) = f'(h^{-1}(Q)). $$
 
 If $Q$ is open (respectively closed), so is $h^{-1}(Q)$, hence so is $f'(h^{-1}(Q))$ if $f'$ is assumed to be an open
 map (respectively a closed map); therefore $f(Q)$ has the same property, by the preceding formula and VIII.4.3. This
@@ -562,16 +546,12 @@ remains to prove that the map $X \to f(X)$ is open. We already know that $f$ is 
 to prove that for every closed subset $Z$ of $X$ one has $Z = f^{-1}(cl(f(Z)))$. Since $h: X' \to X$ is surjective, this
 is equivalent to the analogous formula after inverse image by $h$, namely
 
-$$
-Z' = f'^{-1}(g^{-1}(cl(f(Z)))),
-$$
+$$ Z' = f'^{-1}(g^{-1}(cl(f(Z)))), $$
 
 where $Z' = h^{-1}(Z)$. By VIII.4.1 applied to the subset $f(Z)$ of $Y$, one has $g^{-1}(cl(f(Z))) = cl(g^{-1}(f(Z)))$,
 and the formula to be proved is equivalent to
 
-$$
-Z' = f'^{-1}(cl(f'(Z'))),
-$$
+$$ Z' = f'^{-1}(cl(f'(Z'))), $$
 
 which follows from the hypothesis that $f'$ is a homeomorphism into its image.
 
@@ -645,9 +625,7 @@ Let $g: S' \to S$ be a morphism of preschemes.
 
 a) Suppose that $g$ is surjective and that the homomorphism
 
-$$
-g*: \mathcal{O}_{S} \to g_{*}(\mathcal{O}_{S}')
-$$
+$$ g*: \mathcal{O}_{S} \to g_{*}(\mathcal{O}_{S}') $$
 
 is injective. Then $g$ is an epimorphism in the category of preschemes, and even in the category of ringed spaces.
 
@@ -661,9 +639,7 @@ $h: S'' \to S$ be the structural morphism, and consider the canonical diagram of
 Suppose this diagram is **exact**. Then $g$ is an effective epimorphism in the category of preschemes (and also in the
 category of ringed spaces), that is, the diagram
 
-$$
-S \leftarrow S' \Leftrightarrow S''
-$$
+$$ S \leftarrow S' \Leftrightarrow S'' $$
 
 is exact.
 
@@ -673,24 +649,18 @@ $\mathcal{O}_{Z} \to \mathcal{O}_{S}$, or equivalently the homomorphism
 
 <!-- original page 211 -->
 
-$$
-u: f^{-1}_{0}(\mathcal{O}_{Z}) \to \mathcal{O}_{S}
-$$
+$$ u: f^{-1}_{0}(\mathcal{O}_{Z}) \to \mathcal{O}_{S} $$
 
 defined by $f$. We already know the homomorphism
 
-$$
-(fg)^{-1}_{0}(\mathcal{O}_{Z}) = g^{-1}_{0}(f^{-1}_{0}(\mathcal{O}_{Z})) \to \mathcal{O}_{S}'
-$$
+$$ (fg)^{-1}_{0}(\mathcal{O}_{Z}) = g^{-1}_{0}(f^{-1}_{0}(\mathcal{O}_{Z})) \to \mathcal{O}_{S}' $$
 
 defined by `fg`, or equivalently we have a homomorphism
 
-$$
-f^{-1}_{0}(\mathcal{O}_{Z}) \to g_{0}*(\mathcal{O}_{S}') = g_{*}(\mathcal{O}_{S}').
-$$
+$$ f^{-1}_{0}(\mathcal{O}_{Z}) \to g_{0}*(\mathcal{O}_{S}') = g_{*}(\mathcal{O}_{S}'). $$
 
-One immediately checks that the latter is none other than the composite of
-$g*: \mathcal{O}_{S} \to g_{*}(\mathcal{O}_{S}')$ with $u$; since $g*$ is injective, $u$ is known once $g*u$ is known.
+One immediately checks that the latter is none other than the composite of $g*: \mathcal{O}_{S} \to
+g_{*}(\mathcal{O}_{S}')$ with $u$; since $g*$ is injective, $u$ is known once $g*u$ is known.
 
 \[
 N.B. We have obviously not used the fact that $g: S' \to S$ is a morphism of preschemes; the statement would hold for an
@@ -722,9 +692,7 @@ The hypothesis on $f'$ implies that the underlying set map $f_{0}'$ is constant 
 $g_{0}$ is surjective, $f_{0}'$ factors uniquely as $f_{0}' = f_{0}g_{0}$, where $f_{0}: S \to Z$ is a map, necessarily
 continuous because $g_{0}$ identifies $S$ with a quotient topological space of $S'$. Now consider the homomorphism
 
-$$
-f^{-1}_{0}(\mathcal{O}_{Z}) \to g_{*}(\mathcal{O}_{S}')
-$$
+$$ f^{-1}_{0}(\mathcal{O}_{Z}) \to g_{*}(\mathcal{O}_{S}') $$
 
 deduced from the homomorphism $(f_{0}g_{0})^{-1}(\mathcal{O}_{Z}) \to \mathcal{O}_{S}'$ corresponding to $f'$. The
 hypothesis $f'p_{1} = f'p_{2}$ is then interpreted as saying that the composites of the preceding homomorphism with the
@@ -736,9 +704,7 @@ g_*(𝒪_S′) ⇉ h_*(𝒪_S″)
 
 are the same. Hence, by hypothesis b), it factors through a morphism
 
-$$
-f^{-1}_{0}(\mathcal{O}_{Z}) \to \mathcal{O}_{S}.
-$$
+$$ f^{-1}_{0}(\mathcal{O}_{Z}) \to \mathcal{O}_{S}. $$
 
 This latter morphism defines a morphism of ringed spaces $f: S \to Z$, which is the desired morphism.
 
@@ -780,9 +746,9 @@ and VIII.1.7 into account.
 
 <!-- label: VIII.5.4 -->
 
-Let $g: S' \to S$ be a faithfully flat and quasi-compact morphism, let $f: X \to Y$ be an $S$-morphism, and let
-$f': X' \to Y'$ be the $S'$-morphism obtained from it by the base change $S' \to S$. Then $f$ is an isomorphism if and
-only if $f'$ is an isomorphism.
+Let $g: S' \to S$ be a faithfully flat and quasi-compact morphism, let $f: X \to Y$ be an $S$-morphism, and let $f': X'
+\to Y'$ be the $S'$-morphism obtained from it by the base change $S' \to S$. Then $f$ is an isomorphism if and only if
+$f'$ is an isomorphism.
 
 Indeed, if $f'$ is an isomorphism, it is also an isomorphism for the natural descent structures on $X'$ and $Y'$; and
 since the functor $X \mapsto X'$ from $Sch_{/}S$ to the category of objects of $Sch_{/}S'$ with descent data is fully
@@ -828,12 +794,12 @@ only if $f'$ is.
 
 Only the “if” direction has to be proved, and as usual one may suppose $Y = S$, with $Y$ affine and $Y'$ affine. Since
 the hypothesis implies that $f'$ is affine, $f$ is affine as well by VIII.5.6; hence $X$, and consequently $X'$, are
-affine. Let $A$, $A'$, $B$, and $B' = B \otimes_{A} A'$ be the rings of $Y$, $Y'$, $X$, and $X'$. One has
-$B = colim_{i} B_{i}$, where $B_{i}$ runs through the sub-$A$-algebras of $B$ that are of finite type over $A$; hence
-$B' = colim_{i} B_{i}'$, where the $B_{i}'$ are finite-type subalgebras of the $A'$-algebra $B'$. If $B'$ is integral
-over $A'$, the $B_{i}'$ are finite-type modules over $A'$; since $A'$ is faithfully flat over $A$, the $B_{i}$ are
-finite-type modules over $A$, that is, $B$ is integral over $A$. One sees in the same way that if $B'$ is finite over
-$A'$, then $B$ is finite over $A$. The same conclusion holds for “locally free of finite type”; see VIII.1.11.
+affine. Let $A$, $A'$, $B$, and $B' = B \otimes_{A} A'$ be the rings of $Y$, $Y'$, $X$, and $X'$. One has $B = colim_{i}
+B_{i}$, where $B_{i}$ runs through the sub-$A$-algebras of $B$ that are of finite type over $A$; hence $B' = colim_{i}
+B_{i}'$, where the $B_{i}'$ are finite-type subalgebras of the $A'$-algebra $B'$. If $B'$ is integral over $A'$, the
+$B_{i}'$ are finite-type modules over $A'$; since $A'$ is faithfully flat over $A$, the $B_{i}$ are finite-type modules
+over $A$, that is, $B$ is integral over $A$. One sees in the same way that if $B'$ is finite over $A'$, then $B$ is
+finite over $A$. The same conclusion holds for “locally free of finite type”; see VIII.1.11.
 
 **Corollary.**
 
@@ -849,33 +815,25 @@ Only the “if” direction has to be proved. The hypothesis on $\mathcal{L}'$ i
 hence $f$ is separated by VIII.4.8. Since $f$ is quasi-compact and $g: Y' \to Y$ is flat, the computation of direct
 images by affine coverings shows that for every integer $n$ one has isomorphisms
 
-$$
-g*(f_{*}(\mathcal{L}^{\otimes }n)) \simeq f'_{*}(\mathcal{L}'^{\otimes }n),
-$$
+$$ g*(f_{*}(\mathcal{L}^{\otimes }n)) \simeq f'_{*}(\mathcal{L}'^{\otimes }n), $$
 
 and therefore an isomorphism
 
-$$
-g*(\mathcal{S}) \simeq \mathcal{S}',
-$$
+$$ g*(\mathcal{S}) \simeq \mathcal{S}', $$
 
 where $\mathcal{S}$ (respectively $\mathcal{S}'$) denotes the quasi-coherent graded Algebra on $Y$ (respectively on
-$Y'$) given by the direct sum of the $f_{*}(\mathcal{L}^{\otimes }n)$ (respectively of the
-$f'_{*}(\mathcal{L}'^{\otimes }n)$) for $n \geq 0$. Notice that, for every $n \geq 0$, the cokernel of the canonical
-homomorphism $f'_{*}(\mathcal{S}'_{n}) \to \mathcal{L}'^{\otimes }n$ is the inverse image by $X' \to X$ of the cokernel
-of $f_{*}(\mathcal{S}_{n}) \to \mathcal{L}^{\otimes }n$; hence its support $Z'_{n}$ is the inverse image of the support
+$Y'$) given by the direct sum of the $f_{*}(\mathcal{L}^{\otimes }n)$ (respectively of the $f'_{*}(\mathcal{L}'^{\otimes
+}n)$) for $n \geq 0$. Notice that, for every $n \geq 0$, the cokernel of the canonical homomorphism
+$f'_{*}(\mathcal{S}'_{n}) \to \mathcal{L}'^{\otimes }n$ is the inverse image by $X' \to X$ of the cokernel of
+$f_{*}(\mathcal{S}_{n}) \to \mathcal{L}^{\otimes }n$; hence its support $Z'_{n}$ is the inverse image of the support
 $Z_{n}$. If $\mathcal{L}'$ is ample, the intersection of the $Z'_{n}$ is empty; since $X' \to X$ is surjective, the
 intersection of the $Z_{n}$ is empty, that is, one has a canonical morphism
 
-$$
-j: X \to \operatorname{Proj}(\mathcal{S})
-$$
+$$ j: X \to \operatorname{Proj}(\mathcal{S}) $$
 
 (EGA II 3). Moreover, the analogous morphism
 
-$$
-j': X' \to \operatorname{Proj}(\mathcal{S}')
-$$
+$$ j': X' \to \operatorname{Proj}(\mathcal{S}') $$
 
 is none other than the one deduced from the preceding morphism by the base change $Y' \to Y$ (loc. cit.). With this
 said, to say that $\mathcal{L}'$ is ample relative to $f'$ means that $j'$ is an immersion, necessarily quasi-compact
@@ -902,14 +860,14 @@ Under the conditions of VIII.5.4, and assuming $f$ quasi-compact, $f$ is quasi-a
 <!-- label: VIII.5.10 -->
 
 Hironaka’s example of a non-projective variety shows that one can have a proper morphism $f: X \to Y$ of nonsingular
-algebraic varieties (with $Y$ projective), such that $Y$ is the union of two open subsets $Y_{i}$ for which
-$X_{i} = X \times_{Y} Y_{i}$ is projective over $Y_{i}$, while $f$ is not projective. Thus, putting
-$Y' = Y_{1} \amalg Y_{2}$, $Y'$ is faithfully flat and quasi-compact (and even quasi-finite) over $Y$, and
-$f': X' \to Y'$ is projective, but $f$ is not projective. One must therefore be careful: in order to apply VIII.5.8 and
-deduce from the fact that $f'$ is projective the same conclusion for $f$, one must already have on $X'$ an invertible
-Module $\mathcal{L}'$ ample for $f'$, **endowed with a descent datum relative to** $X' \to X$. This allows
-$\mathcal{L}'$ to be regarded as the inverse image of an invertible Module $\mathcal{L}$ on $X$, which will then be
-ample for $f$ by VIII.5.8. When $g: S' \to S$ is finite and locally free, however, see VIII.7.7.
+algebraic varieties (with $Y$ projective), such that $Y$ is the union of two open subsets $Y_{i}$ for which $X_{i} = X
+\times_{Y} Y_{i}$ is projective over $Y_{i}$, while $f$ is not projective. Thus, putting $Y' = Y_{1} \amalg Y_{2}$, $Y'$
+is faithfully flat and quasi-compact (and even quasi-finite) over $Y$, and $f': X' \to Y'$ is projective, but $f$ is not
+projective. One must therefore be careful: in order to apply VIII.5.8 and deduce from the fact that $f'$ is projective
+the same conclusion for $f$, one must already have on $X'$ an invertible Module $\mathcal{L}'$ ample for $f'$, **endowed
+with a descent datum relative to** $X' \to X$. This allows $\mathcal{L}'$ to be regarded as the inverse image of an
+invertible Module $\mathcal{L}$ on $X$, which will then be ample for $f$ by VIII.5.8. When $g: S' \to S$ is finite and
+locally free, however, see VIII.7.7.
 
 ## 6. Application to Finite and Quasi-Finite Morphisms
 
@@ -975,9 +933,7 @@ Since, on the other hand, the property for $f: X \to Y$ of being finite, respect
 order to prove VIII.6.1 and VIII.6.2 we are reduced to the case where $Y$ is the spectrum of a local ring, and hence has
 finite dimension. We proceed by induction on
 
-$$
-n = \dim(Y),
-$$
+$$ n = \dim(Y), $$
 
 the assertion being trivial for $n < 0$.
 
@@ -992,14 +948,11 @@ quasi-compact, the statements VIII.5.7 and VIII.5.9 reduce us to the case where 
 Using then the fact that every noetherian local ring $B$ over $A$ that is quasi-finite over $A$ is finite over $A$, and
 the fact that $X$ is separated over $Y$ and the fiber over $y$ consists of isolated points, one obtains a decomposition
 
-$$
-X = X' \amalg X'',
-$$
+$$ X = X' \amalg X'', $$
 
 where $X'$ is **finite** over $Y$ and the fiber of $X''$ at $y$ is empty. If $X$ is proper over $Y$, then so is $X''$,
-and therefore its image in $Y$ is closed; since it does not contain $y$, it is empty, hence $X'' = \emptyset$ and
-$X = X'$. This shows that $X$ is finite over $Y$ and proves VIII.6.1. Notice that the induction hypothesis is not used
-here.
+and therefore its image in $Y$ is closed; since it does not contain $y$, it is empty, hence $X'' = \emptyset$ and $X =
+X'$. This shows that $X$ is finite over $Y$ and proves VIII.6.1. Notice that the induction hypothesis is not used here.
 
 If $X$ is quasi-finite over $Y$, then $X''$ is also quasi-finite; but $X''$ in fact lies over the open set $Y - {y}$ of
 $Y$, **which has dimension** $< n$. By the induction hypothesis, $X''$ is quasi-affine over $Y - {y}$, hence also over
@@ -1024,9 +977,7 @@ argument is often useful for getting rid of noetherian hypotheses, which in appl
 
 As usual, consider a morphism of preschemes
 
-$$
-g: S' \to S
-$$
+$$ g: S' \to S $$
 
 and an $S'$-prescheme $X'$. In accordance with the general facts of VII, 9, the giving of a descent datum on $X'$
 relative to $g$ is equivalent to the giving of an equivalence pair
@@ -1044,21 +995,13 @@ p₁,p₂: S″ = S′ ×_S S′ ⇉ S′
 defined by $g$, and such that the two squares (or either one of them, which is the same by symmetry) extracted from the
 corresponding diagram
 
-$$
-X' \leftarrow X''
-\downarrow    \downarrow
-S' \leftarrow S''
-$$
+$$ X' \leftarrow X'' \downarrow \downarrow S' \leftarrow S'' $$
 
 using either $p_{1},q_{1}$ or $p_{2},q_{2}$, are **cartesian**. A solution of the descent problem posed by this descent
 datum, that is, an object $X$ over $S$ endowed with an isomorphism $X \times_{S} S' \leftarrow X'$ compatible with the
 descent data, is equivalent to the giving of a **cartesian** square
 
-$$
-X  \leftarrow X'
-\downarrow    \downarrow
-S  \leftarrow S'
-$$
+$$ X \leftarrow X' \downarrow \downarrow S \leftarrow S' $$
 
 satisfying $hq_{1} = hq_{2}$.
 
@@ -1180,9 +1123,7 @@ does not meet $R(x')$; moreover, since $q_{2}$ is finite (because $g$, hence $p_
 the right-hand side is a closed subset of $X'$. Let $U'$ be its complement in $X'$. This is a **saturated** open subset,
 and one has
 
-$$
-R(x') \subset U' \subset U,
-$$
+$$ R(x') \subset U' \subset U, $$
 
 with $U$ affine, but $U'$ not a priori affine. Since a finite subset $R(x')$ in an affine scheme $U$ has a fundamental
 system of affine neighborhoods of the form $U_{f}$, replacing $f$ by its restriction to $U'$ shows that there exists a
@@ -1202,12 +1143,10 @@ f′ = Norm_q₂(q₁*(f)),
 where `Norm_q₂` denotes the **norm** relative to the finite locally free morphism $q_{2}: U'' \to U'$. The compatibility
 of the formation of the norm with base change easily implies that $f'$ is an **invariant** section:
 
-$$
-q_{1}*(f') = q_{2}*(f'),
-$$
+$$ q_{1}*(f') = q_{2}*(f'), $$
 
-which implies that ${U'_{f}}'$ is a saturated open subset of $U'$. More precisely, denoting by $Z(f')$ the set of zeros of
-a section $f'$, one finds from the properties of norms that
+which implies that ${U'_{f}}'$ is a saturated open subset of $U'$. More precisely, denoting by $Z(f')$ the set of zeros
+of a section $f'$, one finds from the properties of norms that
 
 ```text
 Z(f′) = q₂(Z(q₁*(f))) = q₂(q₁*(Z(f))) = R(U′ − U′_f).
@@ -1215,9 +1154,10 @@ Z(f′) = q₂(Z(q₁*(f))) = q₂(q₁*(Z(f))) = R(U′ − U′_f).
 
 <!-- original page 224 -->
 
-This implies that ${U'_{f}}' = U' - Z(f')$ is saturated, contains $R(x')$, and is contained in $U'_{f}$. Since the latter
-is affine, it follows that ${U'_{f}}'$ is also affine (being equal to $(U'_{f})_{f}''$, with $f'' = f'$ restricted to
-${U'_{f}}'$). It is therefore a saturated affine open subset containing $R(x')$, hence $x'$, which completes the proof.
+This implies that ${U'_{f}}' = U' - Z(f')$ is saturated, contains $R(x')$, and is contained in $U'_{f}$. Since the
+latter is affine, it follows that ${U'_{f}}'$ is also affine (being equal to $(U'_{f})_{f}''$, with $f'' = f'$
+restricted to ${U'_{f}}'$). It is therefore a saturated affine open subset containing $R(x')$, hence $x'$, which
+completes the proof.
 
 Notice that this argument applies whenever one has an equivalence relation (or even only a pre-equivalence relation; see
 [VIII.3]) in a prescheme $X'$, finite and locally free; indeed VIII.7.6 is also a special case of the analogous result
@@ -1258,9 +1198,9 @@ from $\mathcal{L}'$ by descent, is ample relative to $S$.
 
 The proof is entirely analogous to that of VIII.5.8. One notes that on the quasi-coherent graded Algebra $\mathcal{S}'$
 on $S'$ defined by $\mathcal{L}'$ there is a descent datum, allowing one to construct a quasi-coherent graded Algebra
-$\mathcal{S}$ on $S$ by VIII.1.1, whence a $P = \operatorname{Proj}(\mathcal{S})$ over $S$ such that
-$P' = \operatorname{Proj}(\mathcal{S}')$ is identified, together with its descent datum, with $P \times_{S} S'$. Since
-by hypothesis $X'$ is identified with an open subset of $P'$, necessarily stable under the descent datum on $P'$, the
+$\mathcal{S}$ on $S$ by VIII.1.1, whence a $P = \operatorname{Proj}(\mathcal{S})$ over $S$ such that $P' =
+\operatorname{Proj}(\mathcal{S}')$ is identified, together with its descent datum, with $P \times_{S} S'$. Since by
+hypothesis $X'$ is identified with an open subset of $P'$, necessarily stable under the descent datum on $P'$, the
 descent datum on $X'$ is also effective, and one obtains the descended prescheme as an open subset of $P$. The details
 are left to the reader.
 
@@ -1296,8 +1236,8 @@ of this assertion:
 1. One can find an $S$ equal to the spectrum of a regular local ring of dimension 3 (if desired, the local ring of an
    algebraic scheme over a field of prescribed characteristic), and a principal covering $T$ of $S$ with group
    $\mathbb{Z}/2\mathbb{Z}$, such that, if $t$ denotes one of the points of $T$ above the closed point $s$ of $S$, and
-   $S' = T - s$, one can find an $X'$ **projective** over $S'$, regular, endowed with a descent datum relative to
-   $g: S' \to S$, this descent datum not being effective.
+   $S' = T - s$, one can find an $X'$ **projective** over $S'$, regular, endowed with a descent datum relative to $g: S'
+   \to S$, this descent datum not being effective.
 
 For these constructions one uses Hironaka’s example of non-projective varieties. For (i), it is enough to use the fact
 that one can find over $k$ a proper and smooth scheme $X_{0}$ of dimension 3, on which $G = \mathbb{Z}/2\mathbb{Z}$ acts

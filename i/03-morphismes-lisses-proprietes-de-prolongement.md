@@ -10,8 +10,8 @@
 
 In II, we limited ourselves to homomorphisms of finite type and, consequently, in local homomorphisms $A \to B$ of local
 rings, to the case where B is isomorphic to a localization of an A-algebra of finite type. This case is insufficient for
-various applications, notably in formal geometry or analytic geometry. For example, the formal power-series ring
-$B = A[[t_{1},...,t_{n}]]$ has, from the point of view of formal geometry, the properties of a smooth algebra over A. In
+various applications, notably in formal geometry or analytic geometry. For example, the formal power-series ring $B =
+A[[t_{1},...,t_{n}]]$ has, from the point of view of formal geometry, the properties of a smooth algebra over A. In
 analytic geometry, the same is true of the local ring of a point (y,z) of a product $Y \times \mathbb{C}^{n}$, regarded
 as an algebra over the local ring of y; moreover, the completion of this algebra is isomorphic to the algebra of formal
 power series in n indeterminates over the completion of the base ring $\mathcal{O}_{x}$. This leads to the following
@@ -31,9 +31,9 @@ Here $\bar{A}$ and $\bar{B}$ denote the completions of A and B. Since $B'$ is fi
 indeed a semi-local ring, a direct sum of complete local rings, each of which is still a free module over $\bar{B}$,
 hence has the same dimension as $\bar{B}$, and therefore as B. It follows that the number of variables $t_{i}$ in the
 formal power-series rings considered in III.1.1 is equal to `dim B̄ − dim Ā = dim B − dim A`, and in particular is
-independent of the local component chosen. One sees at once that it is also the dimension of the ring
-$B \otimes k = B/\mathfrak{m}B$, where $k = A/\mathfrak{m}$ is the residue field of A; we shall call it the **relative
-dimension of** B **with respect to** A.
+independent of the local component chosen. One sees at once that it is also the dimension of the ring $B \otimes k =
+B/\mathfrak{m}B$, where $k = A/\mathfrak{m}$ is the residue field of A; we shall call it the **relative dimension of** B
+**with respect to** A.
 
 <!-- original page 59 -->
 
@@ -87,8 +87,8 @@ We are immediately reduced to the case where A and B are complete.
 
 For (i), let $A''$ be a finite free local extension of A such that the local components of $B'' = B \otimes_{A} A''$ are
 formal power-series algebras over $A''$. Extending scalars $A'' \to A'' \otimes_{A} A' \to A'''$, where $A'''$ is a
-local component of $A'' \otimes_{A} A'$, one sees that the local components of
-$B'' \otimes_{A''} A''' = B \otimes_{A} A'''$ are formal power-series algebras over $A'''$. But we also have
+local component of $A'' \otimes_{A} A'$, one sees that the local components of $B'' \otimes_{A''} A''' = B \otimes_{A}
+A'''$ are formal power-series algebras over $A'''$. But we also have
 
 ```text
 B ⊗_A A‴ = (B ⊗_A A′) ⊗_{A′} A‴ = B′ ⊗_{A′} A‴.
@@ -97,9 +97,9 @@ B ⊗_A A‴ = (B ⊗_A A′) ⊗_{A′} A‴ = B′ ⊗_{A′} A‴.
 Moreover, since $A''$ is free over A, $A'' \otimes_{A} A'$ is free over $A'$, and consequently so is $A'''$, which is a
 direct factor of it. This proves that $B'$ is formally smooth over $A'$.
 
-For (ii), let $A''$ be a finite free local $A'$-algebra such that the local components of
-$B' \otimes_{A'} A'' = B \otimes_{A} A''$ are formal power-series algebras over $A''$. Since $A'$ is free over A, so is
-$A''$; hence B is formally **smooth** over A.
+For (ii), let $A''$ be a finite free local $A'$-algebra such that the local components of $B' \otimes_{A'} A'' = B
+\otimes_{A} A''$ are formal power-series algebras over $A''$. Since $A'$ is free over A, so is $A''$; hence B is
+formally **smooth** over A.
 
 **Proposition.**
 
@@ -113,15 +113,12 @@ Only the necessity has to be proved, and we may suppose A and B complete. Let $\
 maximal ideals of A and B, respectively, and let $t_{1},...,t_{n}$ be elements of $\mathfrak{n}$ defining a basis of the
 vector space
 
-$$
-(\mathfrak{n}/\mathfrak{n}^{2})/Im(\mathfrak{m}/\mathfrak{m}^{2}) = \mathfrak{n}/(\mathfrak{n}^{2} + \mathfrak{m}B).
+$$ (\mathfrak{n}/\mathfrak{n}^{2})/Im(\mathfrak{m}/\mathfrak{m}^{2}) = \mathfrak{n}/(\mathfrak{n}^{2} + \mathfrak{m}B).
 $$
 
 These elements therefore define a homomorphism of local A-algebras
 
-$$
-B_{1} = A[[t_{1},...,t_{n}]] \to B.
-$$
+$$ B_{1} = A[[t_{1},...,t_{n}]] \to B. $$
 
 We prove that it is an isomorphism. It suffices to prove that for every power $\mathfrak{m}^{q}$ of $\mathfrak{m}$, one
 obtains an isomorphism after reducing modulo $\mathfrak{m}^{q}$, since $B_{1}$ and B are the projective limits of the
@@ -129,14 +126,14 @@ corresponding rings reduced modulo $\mathfrak{m}^{q}$, with q variable. Since B 
 graded rings associated with the $\mathfrak{m}$-adic filtration are obtained by tensoring over $k = A/\mathfrak{m}$ with
 $gr(A)$ the rings $B_{1}/\mathfrak{m}B_{1}$ and $B/\mathfrak{m}B$, respectively. We are thus reduced to showing that
 $B_{1}/\mathfrak{m}B_{1} \to B/\mathfrak{m}B$ is an isomorphism. Taking III.1.3 into account, we are thereby reduced to
-the case where A is a **field** k. On the other hand, if $A'$ is a finite free local A-algebra such that
-$B \otimes_{A} A'$ is a formal power-series algebra over $A'$, note that this algebra is local since the residual
-extension of B over A is trivial. To prove that $B_{1} \to B$ is an isomorphism, it suffices to prove that
-$B_{1} \otimes_{A} A' \to B \otimes_{A} A'$ is one. This reduces us to the case where B is already a formal power-series
-algebra; this reduction should have been made first, before reducing to the case of a base field. But then B is a
-regular local ring with coefficient field k, and it is well known, and immediate by considering the graded rings
-associated with the $\mathfrak{n}_{1}$-adic and $\mathfrak{n}$-adic filtrations on $B_{1}$ and B, that $B_{1} \to B$ is
-an isomorphism. This completes the proof.
+the case where A is a **field** k. On the other hand, if $A'$ is a finite free local A-algebra such that $B \otimes_{A}
+A'$ is a formal power-series algebra over $A'$, note that this algebra is local since the residual extension of B over A
+is trivial. To prove that $B_{1} \to B$ is an isomorphism, it suffices to prove that $B_{1} \otimes_{A} A' \to B
+\otimes_{A} A'$ is one. This reduces us to the case where B is already a formal power-series algebra; this reduction
+should have been made first, before reducing to the case of a base field. But then B is a regular local ring with
+coefficient field k, and it is well known, and immediate by considering the graded rings associated with the
+$\mathfrak{n}_{1}$-adic and $\mathfrak{n}$-adic filtrations on $B_{1}$ and B, that $B_{1} \to B$ is an isomorphism. This
+completes the proof.
 
 **Corollary.**
 
@@ -151,11 +148,11 @@ B̄ ⊗_{Ā} A′̄ = completion of (B ⊗_A A′)
 are isomorphic to formal power-series algebras over $A\bar{'}$.
 
 Indeed, if L/k is the residual extension of B/A, consider an extension $k'/k$ such that the residual extensions in the
-$k'$-algebra $L \otimes_{k} k'$ are trivial. Let $A'$ be an algebra finite and free over A such that
-$A'/\mathfrak{m}A' = k'$; one knows that such an algebra exists, for example by reducing step by step to the case where
-$k'/k$ is monogenic, and then lifting to A the coefficients of the minimal polynomial of a generator of $k'$ over k. It
-is local. Then $B \otimes_{A} A'$ has, at its maximal ideals, trivial residual extensions over that $k'$ of $A'$, and
-the conclusion follows with the help of III.1.5.
+$k'$-algebra $L \otimes_{k} k'$ are trivial. Let $A'$ be an algebra finite and free over A such that $A'/\mathfrak{m}A'
+= k'$; one knows that such an algebra exists, for example by reducing step by step to the case where $k'/k$ is
+monogenic, and then lifting to A the coefficients of the minimal polynomial of a generator of $k'$ over k. It is local.
+Then $B \otimes_{A} A'$ has, at its maximal ideals, trivial residual extensions over that $k'$ of $A'$, and the
+conclusion follows with the help of III.1.5.
 
 **Corollary.**
 
@@ -237,9 +234,7 @@ $B/\mathfrak{m}^{qB}$ is still formally smooth over $A/\mathfrak{m}^{q}$ by III.
 Since B is flat over A by III.1.3, B **is free over** A because A is artinian. Thus there exists an **A-module
 homomorphism**
 
-$$
-w: B \to C
-$$
+$$ w: B \to C $$
 
 lifting the given homomorphism $u: B \to C/J$. Put
 
@@ -281,13 +276,11 @@ continuous homomorphism of topological A-algebras from B to the discrete ring C,
 C_q = C/𝔫^q,    J_q = (J + 𝔫^q)/𝔫^q.
 ```
 
-Thus $C_{q}/J_{q}$ identifies with a quotient algebra of C/J. On the other hand, the composite homomorphism
-$u_{q}: B \to C/J \to C_{q}/J_{q}$ is continuous from B to the discrete ring $C_{q}/J_{q}$, and $J_{q}$ is a nilpotent
-ideal in $C_{q}$. We then construct, step by step, A-homomorphisms
+Thus $C_{q}/J_{q}$ identifies with a quotient algebra of C/J. On the other hand, the composite homomorphism $u_{q}: B
+\to C/J \to C_{q}/J_{q}$ is continuous from B to the discrete ring $C_{q}/J_{q}$, and $J_{q}$ is a nilpotent ideal in
+$C_{q}$. We then construct, step by step, A-homomorphisms
 
-$$
-v_{q}: B \to C_{q}
-$$
+$$ v_{q}: B \to C_{q} $$
 
 such that (a) $v_{q}$ lifts $u_{q}$ and (b) $v_{q}$ lifts $v_{q-1}$. The possibility of the induction is checked easily:
 since
@@ -315,10 +308,10 @@ hypothesis (iii).
 This done, the $v_{q}$ define a homomorphism from B into the projective limit C of the $C_{q}$. Since J is closed, J is
 the projective limit of the $J_{q}$; hence v lifts u, as required.
 
-(iv) ⇒ (i). First one observes at once that if (iv) holds, then (iv) remains true for the local components of
-$B \otimes_{A} A'$ over $A'$, if $A'$ is a finite local algebra over A. Taking $A'$ free over A and such that the
-residual extensions of $B'$ over $A'$ are trivial, we are reduced, by III.1.4 (ii), to the case where the residual
-extension of B over A is trivial. We shall then prove the slightly more precise result:
+(iv) ⇒ (i). First one observes at once that if (iv) holds, then (iv) remains true for the local components of $B
+\otimes_{A} A'$ over $A'$, if $A'$ is a finite local algebra over A. Taking $A'$ free over A and such that the residual
+extensions of $B'$ over $A'$ are trivial, we are reduced, by III.1.4 (ii), to the case where the residual extension of B
+over A is trivial. We shall then prove the slightly more precise result:
 
 **Corollary.**
 
@@ -398,9 +391,9 @@ Let $f: X \to Y$ be a morphism locally of finite type. The following conditions 
    $Y'$ and an extension g of $g_{0}|_{Y'_{0} \cap U}$ to a Y-morphism $U \to X$.
 1. For $Y'$, $Y'_{0}$, and z as in (ii), putting $X' = X \times_{Y} Y'$ and $X'_{0} = X \times_{Y} Y'_{0}$, every
    section of $X'_{0}$ over $Y'_{0}$ extends to a section of $X'$ over an open neighborhood U of z.
-1. For every Y-scheme $Y'$ that is the spectrum of a local artinian ring finite over some $\mathcal{O}_{y}$, with
-   $y \in Y$, every nonempty closed sub-prescheme $Y'_{0}$ of $Y'$, and every Y-morphism $g_{0}: Y'_{0} \to X$, there
-   exists a Y-morphism $g: Y' \to X$ extending $g_{0}$.
+1. For every Y-scheme $Y'$ that is the spectrum of a local artinian ring finite over some $\mathcal{O}_{y}$, with $y \in
+   Y$, every nonempty closed sub-prescheme $Y'_{0}$ of $Y'$, and every Y-morphism $g_{0}: Y'_{0} \to X$, there exists a
+   Y-morphism $g: Y' \to X$ extending $g_{0}$.
 1. For every $Y'$ and $Y'_{0}$ as in (iii), putting $X' = X \times_{Y} Y'$ and $X'_{0} = X \times_{Y} Y'_{0}$, every
    section of $X'_{0}$ over $Y'_{0}$ extends to a section of $X'$ over $Y'$.
 
@@ -442,9 +435,9 @@ $Y'$ in a neighborhood of z, only if $n = 0$, a condition that is known to be su
 
 <!-- label: III.3.3 -->
 
-Let X be a prescheme locally of finite type over a **complete** local ring A, let y be the closed point of
-$Y = \operatorname{Spec}(A)$, and let x be a point of $f^{-1}(y)$ **rational** over $\kappa(y)$. If X is **smooth over A
-at x**, then there exists a section s of X over Y “passing through x”, i.e. such that s(y) = x.
+Let X be a prescheme locally of finite type over a **complete** local ring A, let y be the closed point of $Y =
+\operatorname{Spec}(A)$, and let x be a point of $f^{-1}(y)$ **rational** over $\kappa(y)$. If X is **smooth over A at
+x**, then there exists a section s of X over Y “passing through x”, i.e. such that s(y) = x.
 
 In particular, if X is smooth over A, then the natural map
 
@@ -480,8 +473,8 @@ neighborhood of x”.
 We leave it to the reader to make precise what is meant by this. One may note that, for $U_{0}$ given, a solution of the
 stated problem amounts to giving on $U_{0}$ a sheaf of algebras $\mathcal{B}$ over $f^{-1}_{0}(\mathcal{O}_{Y})$, where
 $f_{0}$ is the continuous map underlying the structural morphism $U_{0} \to Y_{0}$, together with a homomorphism of
-rings $\mathcal{B} \to \mathcal{O}_{U_{0}}$ compatible with the homomorphism
-$f^{-1}(\mathcal{O}_{Y}) \to f^{-1}(\mathcal{O}_{Y_{0}})$, such that:
+rings $\mathcal{B} \to \mathcal{O}_{U_{0}}$ compatible with the homomorphism $f^{-1}(\mathcal{O}_{Y}) \to
+f^{-1}(\mathcal{O}_{Y_{0}})$, such that:
 
 1. This homomorphism induces an isomorphism
 
@@ -559,36 +552,30 @@ translations, or equivalently for $\mathcal{P}$ to have a section.
 
 Let S be a prescheme, let X and Y be preschemes over S, and let $Y_{0}$ be a closed sub-prescheme of Y defined by an
 ideal $\mathcal{J}$ on Y **of square zero**. Let $g_{0}$ be an S-morphism from $Y_{0}$ to X, and let
-$\mathcal{P}(g_{0})$ be the sheaf on Y whose sections on an open U are the extensions $g: U \to X$ of
-$g_{0}|_{U \cap Y_{0}}$ to an S-morphism g. Then $\mathcal{P}(g_{0})$ is, naturally, a **formally principal
-homogeneous** sheaf under the commutative sheaf of groups
+$\mathcal{P}(g_{0})$ be the sheaf on Y whose sections on an open U are the extensions $g: U \to X$ of $g_{0}|_{U \cap
+Y_{0}}$ to an S-morphism g. Then $\mathcal{P}(g_{0})$ is, naturally, a **formally principal homogeneous** sheaf under
+the commutative sheaf of groups
 
-$$
-\mathcal{G} = \operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(g_{0}*(\Omega^{1}_{X/S}), \mathcal{J}).
-$$
+$$ \mathcal{G} = \operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(g_{0}*(\Omega^{1}_{X/S}), \mathcal{J}). $$
 
 Put $\mathcal{P} = \mathcal{P}(g_{0})$. For every open U of Y we must define a map
 
-$$
-\mathcal{P}(U) \times \mathcal{G}(U) \to \mathcal{P}(U)
-$$
+$$ \mathcal{P}(U) \times \mathcal{G}(U) \to \mathcal{P}(U) $$
 
 so that: for fixed $g \in \mathcal{P}(U)$, the map s ↦ gs from $\mathcal{G}(U)$ to $\mathcal{P}(U)$ is bijective;
 $\mathcal{P}(U)$ becomes a set with group of operators $\mathcal{G}(U)$; and these maps are compatible with restriction
-operators for an open $V \subset U$. The verification of the last point is trivial, so for simplicity we may suppose
-$U = Y$. The verification of the second point, which is local if one wants, is left to the reader. We shall limit
+operators for an open $V \subset U$. The verification of the last point is trivial, so for simplicity we may suppose $U
+= Y$. The verification of the second point, which is local if one wants, is left to the reader. We shall limit
 ourselves, for a given $g \in \mathcal{P}(Y)$, to defining a natural bijection from $\mathcal{G}(Y)$ onto
 $\mathcal{P}(Y)$. Thus suppose already given an S-morphism $g: Y \to X$, and seek a canonical bijection
 
-$$
-\operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(g_{0}*(\Omega^{1}_{X/S}), \mathcal{J}) \to \mathcal{P}(Y),
-$$
+$$ \operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(g_{0}*(\Omega^{1}_{X/S}), \mathcal{J}) \to \mathcal{P}(Y), $$
 
 <!-- label: eq:III.5.1.* -->
 
 where $\mathcal{P}(Y)$ is the set of S-morphisms $g'$ from Y to X inducing the same morphism $g_{0}: Y_{0} \to X$ as g.
-Giving such a $g'$ is equivalent to giving an S-morphism $h: Y \to X \times_{S} X$ such that $pr_{1} \circ h = g$ and
-$h \circ i = (g_{0},g_{0})$, where $pr_{1}: X \times_{S} X \to X$ is the first projection, $i: Y_{0} \to Y$ is the
+Giving such a $g'$ is equivalent to giving an S-morphism $h: Y \to X \times_{S} X$ such that $pr_{1} \circ h = g$ and $h
+\circ i = (g_{0},g_{0})$, where $pr_{1}: X \times_{S} X \to X$ is the first projection, $i: Y_{0} \to Y$ is the
 canonical immersion, and $(g_{0},g_{0}): Y_{0} \to X \times_{S} X$ is the morphism $\Delta_{X/S} g_{0}$ with components
 $g_{0},g_{0}:$
 
@@ -621,16 +608,15 @@ and $Y'_{0}$ with the sheaf of algebras
 
 Then $u_{0}$ is the section defined by the canonical augmentation of $\mathcal{A}_{0}$ into $\mathcal{O}_{Y_{0}}$. Thus
 $\mathcal{P}(Y)$ identifies with the set of algebra homomorphisms $\mathcal{A} \to \mathcal{O}_{Y}$ inducing the
-canonical augmentation $\mathcal{A}_{0} \to \mathcal{O}_{Y_{0}}$. But the algebra homomorphisms
-$\mathcal{A} \to \mathcal{O}_{Y}$ correspond bijectively to module homomorphisms $\mathcal{M} \to \mathcal{O}_{Y}$,
-putting for simplicity $\mathcal{M} = g*(\Omega^{1}_{X/S})$, and we are interested in those inducing the **zero**
-homomorphism $\mathcal{M}_{0} \to \mathcal{O}_{Y_{0}}$, where
-$\mathcal{M}_{0} = \mathcal{M} \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y_{0}}$; that is, those sending $\mathcal{M}$ into
-the augmentation ideal $\mathcal{J}$. We therefore find the set
+canonical augmentation $\mathcal{A}_{0} \to \mathcal{O}_{Y_{0}}$. But the algebra homomorphisms $\mathcal{A} \to
+\mathcal{O}_{Y}$ correspond bijectively to module homomorphisms $\mathcal{M} \to \mathcal{O}_{Y}$, putting for
+simplicity $\mathcal{M} = g*(\Omega^{1}_{X/S})$, and we are interested in those inducing the **zero** homomorphism
+$\mathcal{M}_{0} \to \mathcal{O}_{Y_{0}}$, where $\mathcal{M}_{0} = \mathcal{M} \otimes_{\mathcal{O}_{Y}}
+\mathcal{O}_{Y_{0}}$; that is, those sending $\mathcal{M}$ into the augmentation ideal $\mathcal{J}$. We therefore find
+the set
 
-$$
-\operatorname{Hom}_{\mathcal{O}_{Y}}(\mathcal{M},\mathcal{J}) = \operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(\mathcal{M}_{0},\mathcal{J}),
-$$
+$$ \operatorname{Hom}_{\mathcal{O}_{Y}}(\mathcal{M},\mathcal{J}) =
+\operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(\mathcal{M}_{0},\mathcal{J}), $$
 
 since $\mathcal{J}$ is annihilated by $\mathcal{J}$. This is the desired canonical bijection $III.5.1.*$.
 
@@ -667,31 +653,25 @@ X_n = X ×_S S_n,    Y_n = Y ×_S S_n.
 
 Suppose we have an $S_{n}$-morphism
 
-$$
-g_{n}: Y_{n} \to X_{n}
-$$
+$$ g_{n}: Y_{n} \to X_{n} $$
 
 or, what amounts to the same thing, an S-morphism $Y_{n} \to X$, or again an $S_{n+1}$-morphism $Y_{n} \to X_{n+1}$,
 since such a morphism necessarily induces $Y_{n} \to X_{n}$. We seek to extend it to an $S_{n+1}$-morphism
 
-$$
-g_{n+1}: Y_{n+1} \to X_{n+1}.
-$$
+$$ g_{n+1}: Y_{n+1} \to X_{n+1}. $$
 
 If this can be continued indefinitely, one obtains a morphism $\hat{Y} \to \hat{X}$ for the formal preschemes obtained
 by completing Y and X for the ideals $\mathcal{I}\mathcal{O}_{Y}$ and $\mathcal{I}\mathcal{O}_{X}$. We may apply III.5.1
 with $(S,X,Y,Y_{0},g_{0})$ replaced by `(S_{n+1}`, $X_{n+1}$, $Y_{n+1}$, $Y_{n}$, `g_n)`. The sheaf $\mathcal{G}$ here
 becomes the sheaf of module homomorphisms from $g_{n}*(\Omega^{1}_{X_{n+1}/S_{n+1}})$ into
 
-$$
-\mathcal{J} = \mathcal{I}^{n+1}\mathcal{O}_{Y} / \mathcal{I}^{n+2}\mathcal{O}_{Y}.
-$$
+$$ \mathcal{J} = \mathcal{I}^{n+1}\mathcal{O}_{Y} / \mathcal{I}^{n+2}\mathcal{O}_{Y}. $$
 
 Since $\mathcal{J}$ is annihilated by $\mathcal{I}\mathcal{O}_{Y}$, we may then replace
 $g_{n}*(\Omega^{1}_{X_{n+1}/S_{n+1}})$ by the sheaf it induces on $Y_{0}$, namely $h_{0}*(\Omega^{1}_{X/S})$, where
 $h_{0}$ is the composite $Y_{0} \to Y_{n} \to X_{n+1}$, or again the composite $Y_{0} \to X_{0} \to X_{n+1}$, where
-$g_{0}: Y_{0} \to X_{0}$ is induced by $g_{n}$. Since the inverse image of $\Omega^{1}_{X_{n+1}/S_{n+1}}$ on
-$X_{0} = X_{n+1} \times_{S_{n+1}} S_{0}$ is $\Omega^{1}_{X_{0}/S_{0}}$, one sees that one also has
+$g_{0}: Y_{0} \to X_{0}$ is induced by $g_{n}$. Since the inverse image of $\Omega^{1}_{X_{n+1}/S_{n+1}}$ on $X_{0} =
+X_{n+1} \times_{S_{n+1}} S_{0}$ is $\Omega^{1}_{X_{0}/S_{0}}$, one sees that one also has
 
 ```text
 𝒢 = Hom_{𝒪_{Y₀}}(g₀*(Ω¹_{X₀/S₀}), 𝓘^{n+1}𝒪_Y / 𝓘^{n+2}𝒪_Y).
@@ -707,9 +687,8 @@ Let S, X, Y, $\mathcal{I}$, and $g_{n}$ be as above, and let $\mathcal{P}(g_{n})
 open U are the extensions $g_{n+1}$ of $g_{n}$ to an $S_{n+1}$-morphism $Y_{n+1} \to X_{n+1}$. Then $\mathcal{P}(g_{n})$
 is a formally principal homogeneous sheaf under the sheaf of groups
 
-$$
-\mathcal{G} = \operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(g_{0}*(\Omega^{1}_{X_{0}/S_{0}}), gr^{n+1}_{\mathcal{I}\mathcal{O}_{Y}}(\mathcal{O}_{Y})).
-$$
+$$ \mathcal{G} = \operatorname{Hom}_{\mathcal{O}_{Y_{0}}}(g_{0}*(\Omega^{1}_{X_{0}/S_{0}}),
+gr^{n+1}_{\mathcal{I}\mathcal{O}_{Y}}(\mathcal{O}_{Y})). $$
 
 In particular:
 
@@ -729,9 +708,7 @@ considered, the sheaf $\mathcal{G}$ may also be written
 
 Proceeding step by step, one sees therefore that if all the $H^{1}(Y_{0},\mathcal{G}_{n})$ vanish, where
 
-$$
-\mathcal{G}_{n} = g_{0}*(\mathfrak{g}_{X_{0}/S_{0}}) \otimes gr^{n}_{\mathcal{I}\mathcal{O}_{Y}}(\mathcal{O}_{Y}),
-$$
+$$ \mathcal{G}_{n} = g_{0}*(\mathfrak{g}_{X_{0}/S_{0}}) \otimes gr^{n}_{\mathcal{I}\mathcal{O}_{Y}}(\mathcal{O}_{Y}), $$
 
 then, starting with an arbitrary $g_{k}$, one can extend it successively to $g_{k+1}$, and so on. In particular, if
 $\mathcal{I}$ is nilpotent, one will be able to find an extension g of $g_{k}$ to Y. The vanishing condition for the H¹
@@ -784,21 +761,15 @@ extensions of $g_{n}$ vanish.** Thus one obtains:
 Let $(S,X,Y,\mathcal{I},g_{n})$ be as above. Suppose moreover that X is smooth over S and Y is flat over S, and finally
 that S is affine and the
 
-$$
-gr^{n}(\mathcal{O}_{S}) = \mathcal{I}^{n}/\mathcal{I}^{n+1}
-$$
+$$ gr^{n}(\mathcal{O}_{S}) = \mathcal{I}^{n}/\mathcal{I}^{n+1} $$
 
 are locally free. Then the obstruction to constructing $g_{n+1}$ lies in
 
-$$
-H^{1}(Y_{0},\mathcal{G}_{0}) \otimes_{A} gr^{n+1}_{I}(A),
-$$
+$$ H^{1}(Y_{0},\mathcal{G}_{0}) \otimes_{A} gr^{n+1}_{I}(A), $$
 
 where A is the ring of S and I the ideal of A defining $\mathcal{I}$, with
 
-$$
-\mathcal{G}_{0} = g_{0}*(\mathfrak{g}_{X_{0}/S_{0}}).
-$$
+$$ \mathcal{G}_{0} = g_{0}*(\mathfrak{g}_{X_{0}/S_{0}}). $$
 
 If $H^{1}(Y_{0},\mathcal{G}_{0}) = 0$, then $g_{n}$ can be extended to an `Ŝ`-morphism ĝ: $\hat{Y} \to \hat{X}$.
 
@@ -833,8 +804,8 @@ $H^{0}(X_{0},\mathfrak{g}_{X_{0}/k}) = 0$.
 This gives in particular a result on the **uniqueness** of a smooth formal prescheme over A reducing to a given
 prescheme $X_{0}$, provided $H^{1}(X_{0},\mathfrak{g}_{X_{0}/k}) = 0$. Moreover, if $\mathfrak{X}$ and $\mathfrak{Y}$
 come from ordinary proper schemes over A, say X and Y, then by the existence theorem for sheaves in formal geometry, cf.
-the Bourbaki seminar exposé no. 182,[^iii-5-8-1] there is a bijective correspondence between the A-isomorphisms
-$Y \to X$ and the A-isomorphisms of the formal completions. Hence:
+the Bourbaki seminar exposé no. 182,[^iii-5-8-1] there is a bijective correspondence between the A-isomorphisms $Y \to
+X$ and the A-isomorphisms of the formal completions. Hence:
 
 **Corollary.**
 
@@ -852,8 +823,8 @@ standard projective space over the algebraic closure of k: every formal scheme p
 $\mathbb{P}^{r}_{k}$, is algebraizable, and more precisely is isomorphic to the $\mathfrak{m}$-adic formal completion of
 $\mathbb{P}^{r}_{A}$. In particular, thanks to the “existence theorem”, every ordinary proper scheme over A with fiber
 $\mathbb{P}^{r}_{k}$ is isomorphic to $\mathbb{P}^{r}_{A}$, where A is a complete local ring. Using descent theory, one
-can prove that if A is not complete, X becomes isomorphic to $\mathbb{P}^{r}$ after making a finite étale extension
-$A \to A'$ of the base; in this form, the result remains valid for a fiber that is a Severi-Brauer scheme.
+can prove that if A is not complete, X becomes isomorphic to $\mathbb{P}^{r}$ after making a finite étale extension $A
+\to A'$ of the base; in this form, the result remains valid for a fiber that is a Severi-Brauer scheme.
 
 ## 6. Global Infinitesimal Extension of Smooth S-Schemes
 
@@ -873,12 +844,11 @@ X_n → X_{n+1} ×_{S_{n+1}} S_n
 
 that is **smooth** over $S_{n+1}$, or equivalently by II.2.1, **flat** over $S_{n+1}$. As we noted in III.4, such data
 amount to giving a sheaf of algebras $\mathcal{B}$ over $f^{-1}(\mathcal{O}_{S_{n+1}})$, where f is the continuous map
-underlying the structural morphism $X_{n} \to S_{n}$, equipped with an augmentation
-$\mathcal{B} \to \mathcal{O}_{X_{n}}$ compatible with the augmentation
-$f^{-1}(\mathcal{O}_{S_{n+1}}) \to f^{-1}(\mathcal{O}_{S_{n}})$, and satisfying two conditions (a) and (b) that we shall
-not rewrite, merely noting that they are **local in nature** on the topological space underlying $X_{n}$. By III.4.1, a
-solution exists locally. It is moreover unique up to nonunique isomorphism, at least locally. Let us begin by making
-this point precise.
+underlying the structural morphism $X_{n} \to S_{n}$, equipped with an augmentation $\mathcal{B} \to
+\mathcal{O}_{X_{n}}$ compatible with the augmentation $f^{-1}(\mathcal{O}_{S_{n+1}}) \to f^{-1}(\mathcal{O}_{S_{n}})$,
+and satisfying two conditions (a) and (b) that we shall not rewrite, merely noting that they are **local in nature** on
+the topological space underlying $X_{n}$. By III.4.1, a solution exists locally. It is moreover unique up to nonunique
+isomorphism, at least locally. Let us begin by making this point precise.
 
 <!-- original page 78 -->
 
@@ -928,9 +898,7 @@ for each i a smooth scheme $X^{i}$ over $S_{n+1}$ reducing to $U_{i}$. Suppose f
 values in the quasi-coherent sheaf $\mathcal{G}$ is zero, Corollary III.6.2 implies that $X^{i}|U_{ij}$ is isomorphic to
 $X^{j}|U_{ij}$; let
 
-$$
-f_{ji}: X^{i}|U_{ij} \to X^{j}|U_{ij}
-$$
+$$ f_{ji}: X^{i}|U_{ij} \to X^{j}|U_{ij} $$
 
 be such an isomorphism. It is determined up to a section of $\mathcal{G}$ on $U_{ij}$. For every triple of indices put
 
@@ -940,9 +908,7 @@ f_{ji}^{(k)} = f_{ji}|U_{ijk},    where U_{ijk} = U_i ∩ U_j ∩ U_k.
 
 If one had
 
-$$
-f^{(i)}_{kj} f^{(k)}_{ji} = f^{(j)}_{ki},
-$$
+$$ f^{(i)}_{kj} f^{(k)}_{ji} = f^{(j)}_{ki}, $$
 
 <!-- label: eq:III.6.1 -->
 
@@ -959,9 +925,7 @@ so that the $f'_{ji}$ satisfy the preceding transitivity condition. This suffici
 solution is also necessary, as one sees by recalling that such a solution X must, on each $U_{i}$, be isomorphic to
 $X^{i}$; this allows one to choose isomorphisms
 
-$$
-f_{i}: X|U_{i} \to X^{i}
-$$
+$$ f_{i}: X|U_{i} \to X^{i} $$
 
 and to define
 
@@ -980,9 +944,9 @@ f_{ijk} = (f_{ki}^{(j)})^{-1} f_{kj}^{(i)} f_{ji}^{(k)}.
 <!-- label: eq:III.6.3 -->
 
 This is an automorphism of $X^{i}|U_{ijk}$, which we identify with a section of $\mathcal{G}$ by III.6.1. One checks, by
-a small formal calculation left to the reader, that it is a **2-cocycle** f of the open covering
-$\mathcal{U} = (U_{i})$, with coefficients in $\mathcal{G}$. The same calculation shows that, under III.6.2, the gluing
-condition III.6.1 **for the** $f'_{ij}$ is equivalent to the formula
+a small formal calculation left to the reader, that it is a **2-cocycle** f of the open covering $\mathcal{U} =
+(U_{i})$, with coefficients in $\mathcal{G}$. The same calculation shows that, under III.6.2, the gluing condition
+III.6.1 **for the** $f'_{ij}$ is equivalent to the formula
 
 ```text
 f = dg,
@@ -1078,21 +1042,15 @@ Note that the direct proof of Theorem III.4.1 could not have given this result.
 Under the conditions of III.6.3, suppose S is affine with ring A, $\mathcal{I}$ is defined by an ideal I of A, and
 finally the
 
-$$
-gr^{n}_{\mathcal{I}}(\mathcal{O}_{S}) = \mathcal{I}^{n}/\mathcal{I}^{n+1}
-$$
+$$ gr^{n}_{\mathcal{I}}(\mathcal{O}_{S}) = \mathcal{I}^{n}/\mathcal{I}^{n+1} $$
 
 are locally free. Then $H^{i}(X_{0},\mathcal{G})$ identifies with
 
-$$
-H^{i}(X_{0},\mathcal{G}_{0}) \otimes_{A} gr^{n+1}_{I}(A),
-$$
+$$ H^{i}(X_{0},\mathcal{G}_{0}) \otimes_{A} gr^{n+1}_{I}(A), $$
 
 where
 
-$$
-\mathcal{G}_{0} = \mathfrak{g}_{X_{0}/S_{0}}.
-$$
+$$ \mathcal{G}_{0} = \mathfrak{g}_{X_{0}/S_{0}}. $$
 
 Thus the obstruction class to extending $X_{n}$ lies in $H^{2}(X_{0},\mathcal{G}_{0}) \otimes_{A} gr^{n+1}_{I}(A)$, and,
 if it is zero, the set of isomorphism classes of solutions is a principal homogeneous space under
@@ -1106,9 +1064,7 @@ In particular:
 
 Under the conditions of III.6.9, suppose
 
-$$
-H^{2}(X_{0},\mathfrak{g}_{X_{0}/S_{0}}) = 0.
-$$
+$$ H^{2}(X_{0},\mathfrak{g}_{X_{0}/S_{0}}) = 0. $$
 
 Then there exists an $\hat{\mathcal{I}}$-adic formal scheme $\mathfrak{X}$ over the $\mathcal{I}$-adic formal completion
 `Ŝ` of S, “smooth over S”, i.e. such that the $\mathfrak{X}_{p}$ are smooth over the $S_{p}$, and reducing to $X_{n}$,
@@ -1131,22 +1087,21 @@ The results of the preceding number sometimes make it possible to prove the exis
 scheme over such a ring, reducing to a given smooth scheme $X_{0}$ over k. Distinguish two cases.
 
 1. **A is “of equal characteristics”.** This is the case in particular if k has characteristic 0. Then one knows that
-   there exists a **coefficient subfield of** A, i.e. a subfield $k'$ such that $A \to k$ induces an isomorphism
-   $k' \to k$. **Then there even exists an ordinary smooth scheme over A reducing to $X_{0}$**, namely
-   $X = X_{0} \otimes_{k} A$, with A regarded as an algebra over k by the homomorphism $k \to k' \to A$ defined by $k'$.
-   It should be noted, however, that this construction is not “natural”. It is easy to convince oneself, already in the
-   case where A = k[t]/(t²), the algebra of dual numbers, that another lifting homomorphism $k \to A$, in this case
-   defined by an absolute derivation of k into itself, defines an $X'$ over A that in general **is not isomorphic to
-   X**, if $H^{1}(X_{0},\mathfrak{g}_{X_{0}/k}) \neq 0$. It would moreover be interesting to study, for k of
-   characteristic 0, or imperfect of characteristic p > 0, which X smooth over A are obtained in this way, and under
-   what condition two homomorphisms $k \to A$ define isomorphic A-schemes. Nevertheless, the existence of $k'$ is enough
-   to imply that the first obstruction to lifting $X_{0}$, which lies in
-   $H^{2}(X_{0},\mathfrak{g}_{X_{0}/k}) \otimes_{k} \mathfrak{m}/\mathfrak{m}^{2}$, is necessarily zero. Of course, once
-   $X_{0}$ has then been lifted to $X_{1}$ smooth over $A/\mathfrak{m}^{2}$, the new obstruction to constructing $X_{2}$
-   will in general not be zero: it will depend on a variable element in a certain principal homogeneous space under
-   $H^{1}(X_{0},\mathcal{G}_{0}) \otimes \mathfrak{m}/\mathfrak{m}^{2}$ and lies in
-   $H^{2}(X_{0},\mathcal{G}_{0}) \otimes \mathfrak{m}^{2}/\mathfrak{m}^{3}$. The situation ought to be studied in
-   detail.[^iii-7-a-1]
+   there exists a **coefficient subfield of** A, i.e. a subfield $k'$ such that $A \to k$ induces an isomorphism $k' \to
+   k$. **Then there even exists an ordinary smooth scheme over A reducing to $X_{0}$**, namely $X = X_{0} \otimes_{k}
+   A$, with A regarded as an algebra over k by the homomorphism $k \to k' \to A$ defined by $k'$. It should be noted,
+   however, that this construction is not “natural”. It is easy to convince oneself, already in the case where A =
+   k[t]/(t²), the algebra of dual numbers, that another lifting homomorphism $k \to A$, in this case defined by an
+   absolute derivation of k into itself, defines an $X'$ over A that in general **is not isomorphic to X**, if
+   $H^{1}(X_{0},\mathfrak{g}_{X_{0}/k}) \neq 0$. It would moreover be interesting to study, for k of characteristic 0,
+   or imperfect of characteristic p > 0, which X smooth over A are obtained in this way, and under what condition two
+   homomorphisms $k \to A$ define isomorphic A-schemes. Nevertheless, the existence of $k'$ is enough to imply that the
+   first obstruction to lifting $X_{0}$, which lies in $H^{2}(X_{0},\mathfrak{g}_{X_{0}/k}) \otimes_{k}
+   \mathfrak{m}/\mathfrak{m}^{2}$, is necessarily zero. Of course, once $X_{0}$ has then been lifted to $X_{1}$ smooth
+   over $A/\mathfrak{m}^{2}$, the new obstruction to constructing $X_{2}$ will in general not be zero: it will depend on
+   a variable element in a certain principal homogeneous space under $H^{1}(X_{0},\mathcal{G}_{0}) \otimes
+   \mathfrak{m}/\mathfrak{m}^{2}$ and lies in $H^{2}(X_{0},\mathcal{G}_{0}) \otimes \mathfrak{m}^{2}/\mathfrak{m}^{3}$.
+   The situation ought to be studied in detail.[^iii-7-a-1]
 
 2) **A is of unequal characteristics.** In this case we know nothing, except if by luck
    $H^{2}(X_{0},\mathfrak{g}_{X_{0}/k}) = 0$, in which case one can construct an $\mathfrak{m}$-adic formal smooth
@@ -1234,9 +1189,7 @@ Combining this with III.6.10, one finds:
 
 Let A be a complete local ring with residue field k, and let $X_{0}$ be a projective smooth scheme over k such that
 
-$$
-H^{2}(X_{0},\mathfrak{g}_{X_{0}/k}) = H^{2}(X_{0},\mathcal{O}_{X_{0}}) = 0.
-$$
+$$ H^{2}(X_{0},\mathfrak{g}_{X_{0}/k}) = H^{2}(X_{0},\mathcal{O}_{X_{0}}) = 0. $$
 
 Then there exists a smooth and projective scheme X over A reducing to $X_{0}$.
 

@@ -56,22 +56,20 @@ of a regular ring), and let $J$ be an ideal of $A$. Prove that the modules $H^{i
 
 "$J$-cofinite", i.e. that the modules
 
-$$
-\operatorname{Hom}_{A}(A/J, H^{i}_{J}(M))
-$$
+$$ \operatorname{Hom}_{A}(A/J, H^{i}_{J}(M)) $$
 
 are finitely generated.
 
 Recall that $H^{i}_{J}(M)$ denotes the module $H^{i}_{Y}(X, \tilde{M})$ (where $X = \operatorname{Spec}(A)$, $Y = V(J)$)
-of Exposé I, interpreted in II in terms of a direct limit of cohomologies of Koszul complexes, or again for
-$i \geqslant 2$ the module $H^{i-1}(X - Y, \tilde{M})$. Actually, 1.1 should be a consequence of a more precise
-statement, implying that the $H^{i}_{J}(M)$ lie in a suitable abelian subcategory $\mathcal{D}_{J}$ of the category
-$\mathcal{C}_{J}$ of $A$-modules of support $\subset Y = V(J)$, such that $H \in Ob \mathcal{D}_{J}$ implies that $H$ is
-$J$-cofinite. (N.B. The category of modules $H$ of support contained in $V(J)$ that are $J$-cofinite is unfortunately
-not stable under passage to a quotient!). The essential problem would then consist in defining $\mathcal{D}_{J}$. More
-precisely, the solution of problem 1.1 should follow (at least if $A$ is a quotient of a regular ring) from a duality
-theory, generalizing both local duality and the duality theory of projective morphisms to which we alluded above, and
-which would be of the following kind:
+of Exposé I, interpreted in II in terms of a direct limit of cohomologies of Koszul complexes, or again for $i \geqslant
+2$ the module $H^{i-1}(X - Y, \tilde{M})$. Actually, 1.1 should be a consequence of a more precise statement, implying
+that the $H^{i}_{J}(M)$ lie in a suitable abelian subcategory $\mathcal{D}_{J}$ of the category $\mathcal{C}_{J}$ of
+$A$-modules of support $\subset Y = V(J)$, such that $H \in Ob \mathcal{D}_{J}$ implies that $H$ is $J$-cofinite. (N.B.
+The category of modules $H$ of support contained in $V(J)$ that are $J$-cofinite is unfortunately not stable under
+passage to a quotient!). The essential problem would then consist in defining $\mathcal{D}_{J}$. More precisely, the
+solution of problem 1.1 should follow (at least if $A$ is a quotient of a regular ring) from a duality theory,
+generalizing both local duality and the duality theory of projective morphisms to which we alluded above, and which
+would be of the following kind:
 
 **Conjecture 1.2** ("Affine duality"[^XIII-1-3]).
 
@@ -91,8 +89,8 @@ from the category of complexes of $A$-modules that are free of finite type in ea
 that are injective in each dimension and bounded above in degree (where the morphisms are defined similarly) is fully
 faithful.
 
-(ii) Prove that for every $K\bullet$ of the form $D_{J}(L\bullet)$, the
-$H^{i}(K\bullet) (= Ext^{i}_{Y}(X; L\bullet, \mathcal{O}_{X}))$ are $J$-cofinite.
+(ii) Prove that for every $K\bullet$ of the form $D_{J}(L\bullet)$, the $H^{i}(K\bullet) (= Ext^{i}_{Y}(X; L\bullet,
+\mathcal{O}_{X}))$ are $J$-cofinite.
 
 (iii) More precisely, prove that the $K\bullet$ that are homotopic to a complex of the form $D_{J}(L\bullet)$ can be
 characterized by finiteness properties of the $H^{i}(K\bullet)$, stronger than the one envisaged in (ii), for example by
@@ -130,9 +128,7 @@ dim Hⁱ(U, F) < +∞   for i ⩾ s.
 
 (ii) Give an example, with $X$ connected and regular, where one has
 
-$$
-H^{s}(U, F) \neq 0.
-$$
+$$ H^{s}(U, F) \neq 0. $$
 
 To see that (i) is a particular case of 1.1, one considers
 
@@ -174,10 +170,10 @@ limits[^N.D.E-XIII-5].
 
 <!-- label: XIII.2 -->
 
-Let $A$ be a complete noetherian local ring, $f$ an element of its maximal ideal, $X = \operatorname{Spec}(A)$,
-$Y = \operatorname{Spec}(A/fA)$. The use of the local "Lefschetz" technique allows one to give criteria for
-$Y' = X' \cap Y$ (where $X' = X - {\mathfrak{m}}$) to be connected, in terms of hypotheses on $X'$. Thus, it suffices
-that one have: a) $X'$ connected, b) $prof \mathcal{O}_{X',x} \geqslant 2$
+Let $A$ be a complete noetherian local ring, $f$ an element of its maximal ideal, $X = \operatorname{Spec}(A)$, $Y =
+\operatorname{Spec}(A/fA)$. The use of the local "Lefschetz" technique allows one to give criteria for $Y' = X' \cap Y$
+(where $X' = X - {\mathfrak{m}}$) to be connected, in terms of hypotheses on $X'$. Thus, it suffices that one have: a)
+$X'$ connected, b) $prof \mathcal{O}_{X',x} \geqslant 2$
 
 <!-- original page 177 -->
 
@@ -199,14 +195,13 @@ $a_{k}$) The irreducible components of $X'$ are of dimension $\geqslant k + 1$.
 
 <!-- original page 140 -->
 
-$b_{k}$) $X'$ is connected in dimension $\geqslant k$, i.e. one cannot disconnect $X'$ by a closed part of dimension
-$< k$ (cf. III 3.8).
+$b_{k}$) $X'$ is connected in dimension $\geqslant k$, i.e. one cannot disconnect $X'$ by a closed part of dimension $<
+k$ (cf. III 3.8).
 
-Let $m$ be an integer, $0 \leqslant m \leqslant k$, and let $f_{1}, \cdots, f_{m} \in \mathfrak{r}(A)$; set
-$B = A / \sum_{i} f_{i}A$, $Y = \operatorname{Spec}(B) = V(f_{1}) \cap \cdots \cap V(f_{m})$,
-$Y' = X' \cap Y = Y - {a}$. Then $Y$ satisfies the conditions $a_{k-m}$), $b_{k-m}$). In particular, for every sequence
-of $m \leqslant k$ elements $f_{1}, \cdots, f_{m}$ of $\mathfrak{r}(A)$,
-$Y' = X' \cap V(f_{1}) \cap \cdots \cap V(f_{m})$ is connected.
+Let $m$ be an integer, $0 \leqslant m \leqslant k$, and let $f_{1}, \cdots, f_{m} \in \mathfrak{r}(A)$; set $B = A /
+\sum_{i} f_{i}A$, $Y = \operatorname{Spec}(B) = V(f_{1}) \cap \cdots \cap V(f_{m})$, $Y' = X' \cap Y = Y - {a}$. Then
+$Y$ satisfies the conditions $a_{k-m}$), $b_{k-m}$). In particular, for every sequence of $m \leqslant k$ elements
+$f_{1}, \cdots, f_{m}$ of $\mathfrak{r}(A)$, $Y' = X' \cap V(f_{1}) \cap \cdots \cap V(f_{m})$ is connected.
 
 It is moreover easy to see that if the last conclusion holds (it evidently suffices to take $m = k$ there), and
 excluding the case where $X$ would be irreducible of dimension 0 or 1, it follows that the irreducible components of
@@ -219,23 +214,21 @@ for given $k$, to the case where $X$ is integral, and even (by passing to the no
 <!-- original page 178 -->
 
 to the case where $X$ is normal. If $k = 1$, hence $\dim X' \geqslant 2$, then $X'$ is of depth $\geqslant 2$ at its
-closed points, and one can apply the result recalled at the beginning of the section, which shows that
-$Y' = X' \cap V(f)$ is connected. In the case $k \geqslant 1$, one supposes the theorem proved for $k' < k$. By
-induction on $m$, one is reduced to the case where $m = 1$, i.e. to verifying that for $f_{1} \in \mathfrak{r}(A)$,
-$X' \cap V(f_{1})$ is connected in dimension $\geqslant k - 1$. If it were not, i.e. if it were disconnected by a $Z'$
-of dimension $< k - 1$, there would exist a sequence $f_{2}, \cdots, f_{k}$ such that
-$X' \cap V(f_{1}) \cap \cdots \cap V(f_{k})$ is disconnected, and in this sequence one can choose
-$f_{2} \in \mathfrak{r}(A)$ arbitrarily, subject to the sole condition of not vanishing at any point of a certain finite
-part $F$ of $X'$ (namely the set of maximal points of $Z'$). Moreover, one verifies easily, using the fact that $X'$ is
-normal, hence satisfies Serre's condition ($S_{2}$)[^XIII-2-1], that there exists a finite part $F'$ of $X'$ such that
-$f \in \mathfrak{r}(A)$, $V(f) \cap F' = \emptyset$ implies that $V(f) \cap X'$ also satisfies condition ($S_{2}$). One
-can then choose $f_{2}$ in such a way that $f_{2}$ vanishes neither on $F$ nor on $F'$, hence such that
-$X' \cap V(f_{2})$ satisfies ($S_{2}$). But then, by virtue of Hartshorne's theorem III 3.6, $X' \cap V(f_{2})$ is
-connected in codimension 1, hence (since every component of $X' \cap V(f_{2})$ is of dimension $\geqslant k$) it is
-connected in dimension $\geqslant k - 1$. Applying the induction hypothesis to
-$V(f_{2}) = \operatorname{Spec}(A/f_{2}A)$, it follows that
-$X' \cap V(f_{2}) \cap V(f_{1}) \cap V(f_{3}) \cap \cdots \cap V(f_{k})$ is connected, whereas it had been constructed
-disconnected — absurd.
+closed points, and one can apply the result recalled at the beginning of the section, which shows that $Y' = X' \cap
+V(f)$ is connected. In the case $k \geqslant 1$, one supposes the theorem proved for $k' < k$. By induction on $m$, one
+is reduced to the case where $m = 1$, i.e. to verifying that for $f_{1} \in \mathfrak{r}(A)$, $X' \cap V(f_{1})$ is
+connected in dimension $\geqslant k - 1$. If it were not, i.e. if it were disconnected by a $Z'$ of dimension $< k - 1$,
+there would exist a sequence $f_{2}, \cdots, f_{k}$ such that $X' \cap V(f_{1}) \cap \cdots \cap V(f_{k})$ is
+disconnected, and in this sequence one can choose $f_{2} \in \mathfrak{r}(A)$ arbitrarily, subject to the sole condition
+of not vanishing at any point of a certain finite part $F$ of $X'$ (namely the set of maximal points of $Z'$). Moreover,
+one verifies easily, using the fact that $X'$ is normal, hence satisfies Serre's condition ($S_{2}$)[^XIII-2-1], that
+there exists a finite part $F'$ of $X'$ such that $f \in \mathfrak{r}(A)$, $V(f) \cap F' = \emptyset$ implies that $V(f)
+\cap X'$ also satisfies condition ($S_{2}$). One can then choose $f_{2}$ in such a way that $f_{2}$ vanishes neither on
+$F$ nor on $F'$, hence such that $X' \cap V(f_{2})$ satisfies ($S_{2}$). But then, by virtue of Hartshorne's theorem III
+3.6, $X' \cap V(f_{2})$ is connected in codimension 1, hence (since every component of $X' \cap V(f_{2})$ is of
+dimension $\geqslant k$) it is connected in dimension $\geqslant k - 1$. Applying the induction hypothesis to $V(f_{2})
+= \operatorname{Spec}(A/f_{2}A)$, it follows that $X' \cap V(f_{2}) \cap V(f_{1}) \cap V(f_{3}) \cap \cdots \cap
+V(f_{k})$ is connected, whereas it had been constructed disconnected — absurd.
 
 Let us point out some interesting corollaries:
 
@@ -259,20 +252,19 @@ Then the irreducible components of $X_{y_{0}}$ are of dimension $\geqslant k + 1
 dimension $\geqslant k$.
 
 Indeed, Zariski's connection theorem (cf. EGA III 4.3.1) implies that $X_{y_{0}}$ is connected; to show that it is not
-disconnected by a closed part of dimension $< k$, one is reduced to showing that the local rings at points
-$x \in X_{y_{0}}$ such that $\dim x < k$ have a spectrum not disconnected by $x$. Now this is true without assuming
-either $f$ proper, or $Y$ unibranch at $y_{0}$. One reduces, to see this, to the case where $X$ is integral dominating
-$Y$, and if one wishes $Y$ affine of finite type over $\mathbb{Z}$, so that one is under the conditions of the dimension
-formula for $\mathcal{O}_{X,x}$ over $\mathcal{O}_{Y,y_{0}}$. Using in this case the finiteness of the normal closure,
-one can even suppose $X$ normal, hence by virtue of a theorem of Nagata[^XIII-2-2], the completion of a local ring
+disconnected by a closed part of dimension $< k$, one is reduced to showing that the local rings at points $x \in
+X_{y_{0}}$ such that $\dim x < k$ have a spectrum not disconnected by $x$. Now this is true without assuming either $f$
+proper, or $Y$ unibranch at $y_{0}$. One reduces, to see this, to the case where $X$ is integral dominating $Y$, and if
+one wishes $Y$ affine of finite type over $\mathbb{Z}$, so that one is under the conditions of the dimension formula for
+$\mathcal{O}_{X,x}$ over $\mathcal{O}_{Y,y_{0}}$. Using in this case the finiteness of the normal closure, one can even
+suppose $X$ normal, hence by virtue of a theorem of Nagata[^XIII-2-2], the completion of a local ring
 $\mathcal{O}_{X,x}$ of $X'$ is again normal; hence (if $\mathcal{O}_{X,x}$ is of dimension $N$)
-$\operatorname{Spec}(\hat{\mathcal{O}}_{X,x})$ is connected in dimension $\geqslant N - 1$. Let
-$n = \dim \mathcal{O}_{Y,y_{0}}$; then $deg tr k(x)/k(y) < k$ implies
-$\dim \mathcal{O}_{X,x} > n + (k + 1) - k = n + 1$, taking into account $\dim X_{y_{1}} \geqslant k + 1$, and taking a
-system $f_{1}, \cdots, f_{n}$ of parameters of $\mathcal{O}_{Y,y_{0}}$ which one lifts to elements of
-$\mathcal{O}_{X,x}$, one sees by 2.1 that
-$\operatorname{Spec}(\hat{\mathcal{O}}_{X,x} / \sum f_{i} \hat{\mathcal{O}}_{X,x})$ is connected in dimension
-$\geqslant 1$, i.e. is not disconnected by its closed point, or equivalently,
+$\operatorname{Spec}(\hat{\mathcal{O}}_{X,x})$ is connected in dimension $\geqslant N - 1$. Let $n = \dim
+\mathcal{O}_{Y,y_{0}}$; then $deg tr k(x)/k(y) < k$ implies $\dim \mathcal{O}_{X,x} > n + (k + 1) - k = n + 1$, taking
+into account $\dim X_{y_{1}} \geqslant k + 1$, and taking a system $f_{1}, \cdots, f_{n}$ of parameters of
+$\mathcal{O}_{Y,y_{0}}$ which one lifts to elements of $\mathcal{O}_{X,x}$, one sees by 2.1 that
+$\operatorname{Spec}(\hat{\mathcal{O}}_{X,x} / \sum f_{i} \hat{\mathcal{O}}_{X,x})$ is connected in dimension $\geqslant
+1$, i.e. is not disconnected by its closed point, or equivalently,
 $\operatorname{Spec}(\hat{\mathcal{O}}_{X_{y_{0}},x})$ is not disconnected by its closed point; *a fortiori* the same
 holds for $\operatorname{Spec}(\mathcal{O}_{X_{y_{0}},x})$.
 
@@ -291,13 +283,13 @@ dimension $\geqslant l + 1$, and $X$ geometrically connected in dimension $\geqs
 
 <!-- original page 180 -->
 
-Then for every sequence $H_{1}, \cdots, H_{m}$ of $m$ hyperplanes of $\mathbf{P}^{r}_{k}$
-($0 \leqslant m \leqslant l - 1$), $X \cap H_{1} \cap \cdots \cap H_{m}$ satisfies the same condition with $l - m$, in
-particular is geometrically connected in dimension $\geqslant l - 1$.
+Then for every sequence $H_{1}, \cdots, H_{m}$ of $m$ hyperplanes of $\mathbf{P}^{r}_{k}$ ($0 \leqslant m \leqslant l -
+1$), $X \cap H_{1} \cap \cdots \cap H_{m}$ satisfies the same condition with $l - m$, in particular is geometrically
+connected in dimension $\geqslant l - 1$.
 
-One can moreover modify this statement in an obvious way for the case where one is given a proper morphism
-$X \to \mathbf{P}^{r}_{k}$, which is not necessarily an immersion; an analogous extension is possible for 2.1 (by
-considering a proper scheme over $X'$).
+One can moreover modify this statement in an obvious way for the case where one is given a proper morphism $X \to
+\mathbf{P}^{r}_{k}$, which is not necessarily an immersion; an analogous extension is possible for 2.1 (by considering a
+proper scheme over $X'$).
 
 <!-- original page 142 -->
 
@@ -308,9 +300,9 @@ connection theorem which reduces us to the case of a finite morphism.
 
 <!-- label: XIII.2.4 -->
 
-Let $A$ be a complete noetherian normal local ring of dimension $\geqslant k + 2$. Let $X = \operatorname{Spec}(A)$,
-$X' = X - {a}$, and $f_{1}, \cdots, f_{k}$ elements of $\mathfrak{r}(A)$; then
-$Y' = X' \cap V(f_{1}) \cap \cdots \cap V(f_{k})$ is connected, and $\pi_{1}(Y') \to \pi_{1}(X')$ is surjective.
+Let $A$ be a complete noetherian normal local ring of dimension $\geqslant k + 2$. Let $X = \operatorname{Spec}(A)$, $X'
+= X - {a}$, and $f_{1}, \cdots, f_{k}$ elements of $\mathfrak{r}(A)$; then $Y' = X' \cap V(f_{1}) \cap \cdots \cap
+V(f_{k})$ is connected, and $\pi_{1}(Y') \to \pi_{1}(X')$ is surjective.
 
 One proceeds as in SGA 1 X 2.11.
 
@@ -329,8 +321,8 @@ following result: for $H$ "sufficiently general", $X \cap H$ is also normal. Thi
 <!-- original page 181 -->
 
 Let $A$ be a complete noetherian normal local ring. Show that there exists a nonzero $f \in \mathfrak{r}(A)$ such that
-$Y' = X' \cap V(f) = Y - {a}$ (where $Y = \operatorname{Spec}(A/fA)$) is normal (hence irreducible by 2.1 if
-$\dim A \geqslant 3$).
+$Y' = X' \cap V(f) = Y - {a}$ (where $Y = \operatorname{Spec}(A/fA)$) is normal (hence irreducible by 2.1 if $\dim A
+\geqslant 3$).
 
 To do things properly, one would have to show that, in a suitable sense, there exist even "many" elements $f$ having the
 property in question, for example that one can choose $f$ in an arbitrary power of the maximal ideal. Using Serre's
@@ -342,8 +334,8 @@ affirmative answer to 2.5 if one had one to:
 <!-- label: XIII.2.6 -->
 
 Let $A$ be a complete noetherian local ring, $U$ an open part of its spectrum $X$, $F$ a finite part of $X' = X - {a}$.
-Suppose $U$ is regular. Prove that there exists $f \in \mathfrak{r}(A)$ such that $V(f) \cap U$ is regular, and
-$V(f) \cap F = \emptyset$.
+Suppose $U$ is regular. Prove that there exists $f \in \mathfrak{r}(A)$ such that $V(f) \cap U$ is regular, and $V(f)
+\cap F = \emptyset$.
 
 For a "local Bertini"-type result, see Chow [2].
 
@@ -357,8 +349,8 @@ Here again, one has numerous questions, suggested by the global results or by th
 
 <!-- label: XIII.3.1 -->
 
-Let $A$ be a complete noetherian local ring with algebraically closed residue field, $X = \operatorname{Spec}(A)$,
-$X' = X - {a}$, $a$ the closed point. Suppose the irreducible components of $X$ are of dimension $\geqslant 2$, and $X'$
+Let $A$ be a complete noetherian local ring with algebraically closed residue field, $X = \operatorname{Spec}(A)$, $X' =
+X - {a}$, $a$ the closed point. Suppose the irreducible components of $X$ are of dimension $\geqslant 2$, and $X'$
 connected.
 
 (i) Prove that $\pi_{1}(X')$ is topologically finitely generated.
@@ -370,11 +362,11 @@ group of $\pi_{1}(X')$ that is "of order prime to $p$" is finitely presented.
 
 For part (i), using the theory of descent SGA 1 IX 5.2 and theorem 2.4, one is reduced to the case where $A$ is normal
 of dimension 2. In this case, a systematic method for studying the fundamental group of $X'$, inaugurated by Mumford [5]
-in the transcendental setting, consists in desingularizing $X$, i.e. in considering a projective birational morphism
-$Z \to X$, with $Z$ integral regular, inducing an isomorphism $Z' = Z|_{X'} \to X'$; it is plausible that such a $Z$
-always exists, this is in any case what Abhyankar's method [1] demonstrates in the case of "equal
-characteristics"[^XIII-3-1]. Let $C$ be the fiber of the closed point of $X$ by $Z \to X$; it is an algebraic curve over
-the residue field $k$, connected by virtue of the connection theorem. The solution of 3.1 then seems linked to:
+in the transcendental setting, consists in desingularizing $X$, i.e. in considering a projective birational morphism $Z
+\to X$, with $Z$ integral regular, inducing an isomorphism $Z' = Z|_{X'} \to X'$; it is plausible that such a $Z$ always
+exists, this is in any case what Abhyankar's method [1] demonstrates in the case of "equal characteristics"[^XIII-3-1].
+Let $C$ be the fiber of the closed point of $X$ by $Z \to X$; it is an algebraic curve over the residue field $k$,
+connected by virtue of the connection theorem. The solution of 3.1 then seems linked to:
 
 **Problem 3.2.**
 
@@ -415,9 +407,9 @@ are of codimension 1.
 
 <!-- label: XIII.3.4 -->
 
-Let $A$ be a complete noetherian local ring of dimension 2, with algebraically closed residue field. Let again
-$X = \operatorname{Spec}(A)$, $X' = X - {a}$. Find particular structural properties of $\pi_{1}(X')$ in the case where
-$A$ is a complete intersection.
+Let $A$ be a complete noetherian local ring of dimension 2, with algebraically closed residue field. Let again $X =
+\operatorname{Spec}(A)$, $X' = X - {a}$. Find particular structural properties of $\pi_{1}(X')$ in the case where $A$ is
+a complete intersection.
 
 A satisfactory solution of this problem would perhaps permit one to resolve the following old problem:
 
@@ -438,9 +430,7 @@ Let $X$ be a scheme locally of finite type over the field of complex numbers $\m
 analytic space $X_{h}$ over $\mathbb{C}$, whence homotopy and homology invariants $\pi_{i}(X_{h})$, $H_{i}(X_{h})$,
 $H^{i}(X_{h})$ etc. One knows moreover that $X$ is connected if and only if $X_{h}$ is, hence one has a bijection
 
-$$
-\pi_{0}(X_{h}) \to \pi_{0}(X).
-$$
+$$ \pi_{0}(X_{h}) \to \pi_{0}(X). $$
 
 Likewise, since every étale covering $X'$ of $X$ defines an étale covering $X'_{h}$
 
@@ -448,19 +438,17 @@ Likewise, since every étale covering $X'$ of $X$ defines an étale covering $X'
 
 of $X_{h}$, one has a canonical homomorphism
 
-$$
-\pi_{1}(X_{h}) \to \pi_{1}(X),
-$$
+$$ \pi_{1}(X_{h}) \to \pi_{1}(X), $$
 
 which one knows, using a theorem of Grauert-Remmert, identifies the second group with the completion of the first for
 the topology of subgroups of finite index (which simply expresses the fact that $X' \mapsto X'_{h}$ is an equivalence of
 the category of étale coverings of $X$ with the category of finite étale coverings of $X_{h}$). It follows that the
 results of this seminar (by purely algebraic means) on $\pi_{0}(X)$ and $\pi_{1}(X)$ imply results for $\pi_{0}(X_{h})$
-and $\pi_{1}(X_{h})$ (which are of transcendental nature). Moreover, if $X$ is proper, the well-known exact sequence
-$0 \to \mathbb{Z} \to \mathbb{C} \to \mathbb{C}* \to 0$ allows one to show that the Néron-Severi group of $X$ (the
-quotient of its Picard group by the connected component of the identity) is isomorphic to a subgroup of
-$H^{2}(X_{h}, \mathbb{Z})$; in the non-singular Kähler case, it is the subgroup denoted $H^{(1,1)}(X_{h}, \mathbb{Z})$
-(classes of type `(1, 1)`):
+and $\pi_{1}(X_{h})$ (which are of transcendental nature). Moreover, if $X$ is proper, the well-known exact sequence $0
+\to \mathbb{Z} \to \mathbb{C} \to \mathbb{C}* \to 0$ allows one to show that the Néron-Severi group of $X$ (the quotient
+of its Picard group by the connected component of the identity) is isomorphic to a subgroup of $H^{2}(X_{h},
+\mathbb{Z})$; in the non-singular Kähler case, it is the subgroup denoted $H^{(1,1)}(X_{h}, \mathbb{Z})$ (classes of
+type `(1, 1)`):
 
 ```text
 Pic(X) / Pic⁰(X) ⊂ H²(X, ℤ).
@@ -473,30 +461,22 @@ Very precise indications, going in the same direction as those just mentioned, a
 Lefschetz [7]. It asserts that if $X$ is a non-singular irreducible projective analytic space of dimension $n$, and if
 $Y$ is a non-singular hyperplane section, then the injection
 
-$$
-Y_{n-1} \to X_{n}
-$$
+$$ Y_{n-1} \to X_{n} $$
 
 induces a homomorphism
 
 <!-- original page 185 -->
 
-$$
-\pi_{i}(Y_{n-1}) \to \pi_{i}(X_{n})
-$$
+$$ \pi_{i}(Y_{n-1}) \to \pi_{i}(X_{n}) $$
 
 which is an isomorphism for $i \leqslant n - 2$, an epimorphism for $i = n - 1$. The analogous statement follows for the
 homomorphisms
 
-$$
-H_{i}(Y_{n-1}) \to H_{i}(X_{n})
-$$
+$$ H_{i}(Y_{n-1}) \to H_{i}(X_{n}) $$
 
 on homology (integral, to fix ideas), while in cohomology,
 
-$$
-H^{i}(X_{n}) \to H^{i}(Y_{n-1})
-$$
+$$ H^{i}(X_{n}) \to H^{i}(Y_{n-1}) $$
 
 is an isomorphism in dimension $i \leqslant n - 2$, a monomorphism in dimension $i = n - 1$. We have obtained variants
 of these results in the framework of schemes, for $\pi_{0}$, $\pi_{1}$, `Pic`, valid moreover without non-singularity
@@ -512,9 +492,7 @@ Let $X$ be an analytic space, $Y$ a closed analytic part of $X$ (or simply a clo
 every $x \in Y$, the local ring $\mathcal{O}_{X,x}$ is a complete intersection. Let $n$ be the complex codimension of
 $Y$ in $X$. Is the canonical homomorphism
 
-$$
-\pi_{i}(X - Y) \to \pi_{i}(X)
-$$
+$$ \pi_{i}(X - Y) \to \pi_{i}(X) $$
 
 <!-- original page 146 -->
 
@@ -526,11 +504,11 @@ path-connected space) and $x \in X$, local invariants $\Pi^{x}_{i}(X)$[^XIII-4-2
 
 <!-- original page 186 -->
 
-To do this, one chooses a non-constant map $f$ from the interval `[0, 1]` into $X$, such that $f(0) = x$ and
-$f(t) \neq x$ for $t \neq 0$ (such maps exist if $x$ is not an isolated point). Then for every neighborhood $U$ of $x$,
-there exists an $\epsilon > 0$ such that $0 < t < \epsilon$ implies $f(t) \in U$, and the homotopy groups
-$\pi_{i}(U - x, f(t))$ are essentially independent of $t$ (they are, for varying $t$, related by a transitive system of
-isomorphisms); one can denote them $\pi_{i}(U - x, f)$. One then sets
+To do this, one chooses a non-constant map $f$ from the interval `[0, 1]` into $X$, such that $f(0) = x$ and $f(t) \neq
+x$ for $t \neq 0$ (such maps exist if $x$ is not an isolated point). Then for every neighborhood $U$ of $x$, there
+exists an $\epsilon > 0$ such that $0 < t < \epsilon$ implies $f(t) \in U$, and the homotopy groups $\pi_{i}(U - x,
+f(t))$ are essentially independent of $t$ (they are, for varying $t$, related by a transitive system of isomorphisms);
+one can denote them $\pi_{i}(U - x, f)$. One then sets
 
 ```text
 Π^x_i(X) = lim_{← U} πᵢ₋₁(U − x, f),
@@ -544,9 +522,7 @@ $X$, introduced in I, and should play the role of relative local homotopy groups
 for $i \leqslant n$ and for every $x \in Y$, where $Y$ is a closed part of $X$ of topological dimension $\leqslant d$,
 should entail that the homomorphisms
 
-$$
-\pi_{i}(X - Y) \to \pi_{i}(X)
-$$
+$$ \pi_{i}(X - Y) \to \pi_{i}(X) $$
 
 are bijective for $i < n - d$, and surjective for $i = n - d$[^XIII-4-4]. From this point of view, 4.1 would imply (for
 $Y$ reduced to a point) a conjecture of purely local nature, expressing itself by
@@ -564,13 +540,11 @@ $n$, then
 
 <!-- original page 187 -->
 
-$$
-\Pi^{x}_{i}(X) = \pi_{i-1}(S^{2n-1}),
-$$
+$$ \Pi^{x}_{i}(X) = \pi_{i-1}(S^{2n-1}), $$
 
-where $S^{2n-1}$ denotes the sphere of dimension $2n - 1$. In particular in this case $\Pi^{x}_{i}(X) = 0$ for
-$i \leqslant 2n - 1$, which corresponds to the fact that if from a topological manifold $X$ one removes a closed part
-$Y$ of codimension $\geqslant m$, then $\pi_{i}(X - Y) \to \pi_{i}(X)$ is an isomorphism for $i \leqslant m - 2$ and an
+where $S^{2n-1}$ denotes the sphere of dimension $2n - 1$. In particular in this case $\Pi^{x}_{i}(X) = 0$ for $i
+\leqslant 2n - 1$, which corresponds to the fact that if from a topological manifold $X$ one removes a closed part $Y$
+of codimension $\geqslant m$, then $\pi_{i}(X - Y) \to \pi_{i}(X)$ is an isomorphism for $i \leqslant m - 2$ and an
 epimorphism for $i = m - 1$.
 
 This being said:
@@ -585,22 +559,18 @@ $t$. Suppose the following conditions satisfied:
 a) $t$ is regular at $x$ (i.e. not a zero-divisor at $x$, a hypothesis perhaps superfluous, moreover).
 
 b) At the points $x'$ of $X - Y$ near $x$, $\mathcal{O}_{X,x'}$ is a complete intersection (a hypothesis which should be
-replaceable by the following more general one if 4.1 is true: for $x'$ as above, $\Pi^{x'}_{i}(X) = 0$ for
-$i \leqslant n - 1$).
+replaceable by the following more general one if 4.1 is true: for $x'$ as above, $\Pi^{x'}_{i}(X) = 0$ for $i \leqslant
+n - 1$).
 
 c) At the points $y$ of $Y - {x}$ near $x$, one has
 
-$$
-prof \mathcal{O}_{X,y} \geqslant n
-$$
+$$ prof \mathcal{O}_{X,y} \geqslant n $$
 
 (it suffices for example that one have $prof \mathcal{O}_{X,x} \geqslant n$).
 
 Under these conditions, is the canonical homomorphism
 
-$$
-\Pi^{x}_{i}(Y) \to \Pi^{x}_{i}(X)
-$$
+$$ \Pi^{x}_{i}(Y) \to \Pi^{x}_{i}(X) $$
 
 an isomorphism for $i \leqslant n - 2$, an epimorphism for $i = n - 1$?
 
@@ -618,16 +588,14 @@ of zeros of $t$. Suppose:
 
 a) $t$ is a regular section (hypothesis perhaps superfluous).
 
-b) For every $x \in X - Y$, $\mathcal{O}_{X,x}$ is a complete intersection (should be replaceable by
-$\Pi^{x}_{i}(X) = 0$ for $i \leqslant n - 1$).
+b) For every $x \in X - Y$, $\mathcal{O}_{X,x}$ is a complete intersection (should be replaceable by $\Pi^{x}_{i}(X) =
+0$ for $i \leqslant n - 1$).
 
 c) For every $x \in Y$, $prof \mathcal{O}_{X,x} \geqslant n$.
 
 Under these conditions, is the homomorphism
 
-$$
-\pi_{i}(Y) \to \pi_{i}(X)
-$$
+$$ \pi_{i}(Y) \to \pi_{i}(X) $$
 
 an isomorphism for $i \leqslant n - 2$, an epimorphism for $i = n - 1$?
 
@@ -655,9 +623,7 @@ be a complete local ring with residue field $k$, $X = \operatorname{Spec}(A)$, $
 $a$ is the maximal ideal of $A$, i.e. the closed point of $\operatorname{Spec}(A)$. One proposes to construct a strict
 projective system $G$ of locally algebraic groups `Gᵢ` over $k$, and a natural isomorphism
 
-$$
-\operatorname{Pic}(U) \simeq G(k)
-$$
+$$ \operatorname{Pic}(U) \simeq G(k) $$
 
 <!-- label: eq:XIII.5.plus -->
 
@@ -669,9 +635,7 @@ characterizing the pro-object $G$. If $A$ contains a subfield, still denoted $k$
 one can make the problem precise by requiring that for a variable extension $k'$ of $k$, one have an isomorphism,
 functorial in $k'$:
 
-$$
-\operatorname{Pic}(U') \simeq G(k')
-$$
+$$ \operatorname{Pic}(U') \simeq G(k') $$
 
 <!-- label: eq:XIII.5.plus-prime -->
 
@@ -713,17 +677,15 @@ Pic(Y) ≃ lim_{← } Pic(Y_n),
 where $Y_{n} = Y \otimes_{A} A_{n}$, $A_{n} = A/\mathfrak{m}^{n+1}$. When $A$ admits a field of representatives $k$, one
 has at one's disposal the theory of Picard schemes of the projective schemes $Y_{n}$ over $k$, hence one has
 
-$$
-\operatorname{Pic}(Y_{n}) \simeq \operatorname{Pic}_{Y_{n}/k}(k).
-$$
+$$ \operatorname{Pic}(Y_{n}) \simeq \operatorname{Pic}_{Y_{n}/k}(k). $$
 
-This therefore furnishes a construction of a projective system of locally algebraic groups
-$\operatorname{Pic}_{Y_{n}/k} / Im \mathbb{Z}^{I}$, which is the desired system[^N.D.E-XIII-13]. In the case envisaged
-here, one can moreover see (using that $a$ is an isolated singular point) that the connected components of the
-universal-image subgroups in this projective system form an essentially constant projective system, so that in this case
-one finds a locally algebraic group $G$ as solution of the problem. If one supposes furthermore $A$ normal of dimension
-2, then a remark of Mumford (stating that the intersection matrix of the components of $Y_{a}$ in $X$ is negative
-definite[^N.D.E-XIII-14]) implies that $G$ is even
+This therefore furnishes a construction of a projective system of locally algebraic groups $\operatorname{Pic}_{Y_{n}/k}
+/ Im \mathbb{Z}^{I}$, which is the desired system[^N.D.E-XIII-13]. In the case envisaged here, one can moreover see
+(using that $a$ is an isolated singular point) that the connected components of the universal-image subgroups in this
+projective system form an essentially constant projective system, so that in this case one finds a locally algebraic
+group $G$ as solution of the problem. If one supposes furthermore $A$ normal of dimension 2, then a remark of Mumford
+(stating that the intersection matrix of the components of $Y_{a}$ in $X$ is negative definite[^N.D.E-XIII-14]) implies
+that $G$ is even
 
 <!-- original page 191 -->
 
@@ -805,8 +767,8 @@ and only if $A$ is. (Cf. loc. cit. Chap. III, section 4)[^XIII-6-3].
 
 <!-- original page 152 -->
 
-If $X$ is a prescheme, and $x$ a point of $X$, $x'$ a point above $x$, the spectrum of a separable closure $k'$ of
-$k = k(x)$, one is led to define the *strictly local ring of $X$ at $x'$*, $\mathcal{O}'_{X,x'}$, as the strictly local
+If $X$ is a prescheme, and $x$ a point of $X$, $x'$ a point above $x$, the spectrum of a separable closure $k'$ of $k =
+k(x)$, one is led to define the *strictly local ring of $X$ at $x'$*, $\mathcal{O}'_{X,x'}$, as the strictly local
 closure of the usual local ring $\mathcal{O}_{X,x}$, relatively to the residual extension $k'/k$. It is the strictly
 local rings at the "geometric" points of $X$ that, from the point of view of the étale topology, are supposed to reflect
 the local properties of the prescheme $X$. They also play, in many respects, the role that one used to assign to the
@@ -820,11 +782,10 @@ It is then in order to take up again a good number of questions, that one genera
 
 noetherian strictly local rings). Thus the topological problems raised in nos 2 and 3 are posed more generally for
 strictly local rings. One can moreover state conjecturally, for "good" strictly local rings, certain properties of
-simple connectedness and acyclicity for the geometric fibers of the canonical morphism
-$\operatorname{Spec}(\hat{A}) \to \operatorname{Spec}(A)$, which would show that for many "topological"-nature
-properties, it amounts to the same to prove them for the ring $A$, or for its completion `Â`. Certain results already
-obtained in this direction[^XIII-6-4] allow one to hope that one will soon have at one's disposal complete results in
-this direction.
+simple connectedness and acyclicity for the geometric fibers of the canonical morphism $\operatorname{Spec}(\hat{A}) \to
+\operatorname{Spec}(A)$, which would show that for many "topological"-nature properties, it amounts to the same to prove
+them for the ring $A$, or for its completion `Â`. Certain results already obtained in this direction[^XIII-6-4] allow
+one to hope that one will soon have at one's disposal complete results in this direction.
 
 The notion of étale localization furnishes a definition that seems reasonable of the notion of "geometrically
 parafactorial" or "geometrically factorial" local ring (the need for which was indicated in no 5, p. 150): one will call
@@ -875,8 +836,8 @@ lim_{← } H⁰(U − {x}, ℤ) → lim_{← } H⁰(U, ℤ).
 
 At a pinch, and for convenience of formulation, one can set $\Pi^{x}_{i}(X) = H^{x}_{i}(X)$ for $i \leqslant 1$;
 otherwise one must complete the subsequent assertions concerning the $\Pi^{x}_{i}$ by the corresponding assertions for
-$H^{x}_{0}$, $H^{x}_{1}$. If $x$ is an isolated point of $X$, it is appropriate to set $\Pi^{x}_{i}(X) = 0$ for
-$i \neq 0$, $\Pi^{x}_{0}(X) = H^{x}_{0}(X) = \mathbb{Z}$.
+$H^{x}_{0}$, $H^{x}_{1}$. If $x$ is an isolated point of $X$, it is appropriate to set $\Pi^{x}_{i}(X) = 0$ for $i \neq
+0$, $\Pi^{x}_{0}(X) = H^{x}_{0}(X) = \mathbb{Z}$.
 
 <!-- original page 197 -->
 
@@ -885,9 +846,9 @@ in a neighborhood of $x$, i.e. if $\Pi^{x}_{i}(X) = 0$ for $i = 0, 1$. In the ge
 designate only a family of groups, not necessarily isomorphic to each other; however the expression $\Pi^{x}_{i}(X) = 0$
 retains an obvious sense.
 
-Page 146, where I predict that the vanishing of the local homotopy invariants $\Pi^{x}_{i}(X)$ for $x \in Y$,
-$i \leqslant n$, should entail the bijectivity of $\pi_{i}(X - Y) \to \pi_{i}(X)$ for $i < n - d$, the surjectivity for
-$i = n - d$, it is appropriate to be cautious, failing to be able to dispose in the present context (as in Algebraic
+Page 146, where I predict that the vanishing of the local homotopy invariants $\Pi^{x}_{i}(X)$ for $x \in Y$, $i
+\leqslant n$, should entail the bijectivity of $\pi_{i}(X - Y) \to \pi_{i}(X)$ for $i < n - d$, the surjectivity for $i
+= n - d$, it is appropriate to be cautious, failing to be able to dispose in the present context (as in Algebraic
 Geometry) of "general" points at which the local conditions will also have to apply. It will doubtless be necessary, for
 this reason, to call upon *relative local homotopy invariants*
 
@@ -970,12 +931,12 @@ H^Y_i(ℤ_X) = 0   for i < n
 
 be zero (one then says that $X$ is "pure along $Y$").
 
-One notes that if $X$ is an analytic space, $Y$ an analytic subspace, and if $X$ is pure along $Y$, then for every
-$x \in Y$, the local ring $\mathcal{O}_{X,x}$, as well as its localizations with respect to prime ideals containing the
-ideal defining the germ $Y$ at $x$ (i.e. in the inverse image $Y_{x}$ of $Y$ by
-$\operatorname{Spec}(\mathcal{O}_{X,x}) = X_{x} \to X$), are pure in the sense of Exp. X; it seems plausible that the
-converse is also true. Analogous remarks hold for cohomological depth, it being understood that one works with the étale
-topology on the $\operatorname{Spec}(\mathcal{O}_{X,x})$.
+One notes that if $X$ is an analytic space, $Y$ an analytic subspace, and if $X$ is pure along $Y$, then for every $x
+\in Y$, the local ring $\mathcal{O}_{X,x}$, as well as its localizations with respect to prime ideals containing the
+ideal defining the germ $Y$ at $x$ (i.e. in the inverse image $Y_{x}$ of $Y$ by $\operatorname{Spec}(\mathcal{O}_{X,x})
+= X_{x} \to X$), are pure in the sense of Exp. X; it seems plausible that the converse is also true. Analogous remarks
+hold for cohomological depth, it being understood that one works with the étale topology on the
+$\operatorname{Spec}(\mathcal{O}_{X,x})$.
 
 Conjecture 4.1 then generalizes to:
 
@@ -983,8 +944,8 @@ Conjecture 4.1 then generalizes to:
 
 <!-- label: XIII.6.B -->
 
-Let $E$ be an analytic space, $X$ an analytic part of $E$. Suppose that $E$ is non-singular of dimension $N$ at
-$x \in X$, and that $X$ can be described by $p$ analytic equations in a neighborhood of every point. Then the rectified
+Let $E$ be an analytic space, $X$ an analytic part of $E$. Suppose that $E$ is non-singular of dimension $N$ at $x \in
+X$, and that $X$ can be described by $p$ analytic equations in a neighborhood of every point. Then the rectified
 homotopical depth of $X$ is $\geqslant N - p$.
 
 In particular, a local complete intersection of dimension $n$ at every point would be of rectified homotopical depth
@@ -1001,9 +962,7 @@ neighborhood of $x$ (for example $Y$ defined by an equation at $x$), and that $X
 $\geqslant n$ in a neighborhood of $x$ (for example, is at every point of $X - Y$ near $x$ a complete intersection of
 dimension $\geqslant n$, cf. conjecture B). Then the canonical homomorphism
 
-$$
-\Pi^{x}_{i}(Y) \to \Pi^{x}_{i}(X)
-$$
+$$ \Pi^{x}_{i}(Y) \to \Pi^{x}_{i}(X) $$
 
 is an isomorphism for $i < n - 1$, an epimorphism for $i = n - 1$.
 
@@ -1020,9 +979,7 @@ Let $X$ be a compact analytic space, $Y$ an analytic subspace of $X$ such that $
 rectified homotopical depth $\geqslant n$ (for example a complete intersection of dimension $\geqslant n$ at every
 point). Then the canonical homomorphism
 
-$$
-\pi_{i}(Y) \to \pi_{i}(X)
-$$
+$$ \pi_{i}(Y) \to \pi_{i}(X) $$
 
 is an isomorphism for $i < n - 1$, an epimorphism for $i = n - 1$.
 
@@ -1064,9 +1021,8 @@ is an isomorphism (and $\pi_{2}(Y, x) \to \pi_{2}(X, x)$ an epimorphism).
 One notes that the local conditions (i) (ii) (iii) on $U$ are satisfied if $U$ is locally a complete intersection of
 dimension $\geqslant 3$. From the point of view of Algebraic Geometry, (when $U$ comes from a scheme, still denoted
 $U$), the conditions (i) to (iii) correspond to hypotheses on the local invariants $\Pi^{x}_{i}(U)$, namely
-$\Pi^{x}_{i}(U) = 0$ for $i < 3 - deg tr k(x)/k$, for points $x$ such that one has respectively
-$deg tr k(x)/k = 0, 1, 2$. The global condition on $U$ ($U$ Stein) will be satisfied if $X$ is projective and $Y$ a
-hyperplane section.
+$\Pi^{x}_{i}(U) = 0$ for $i < 3 - deg tr k(x)/k$, for points $x$ such that one has respectively $deg tr k(x)/k = 0, 1,
+2$. The global condition on $U$ ($U$ Stein) will be satisfied if $X$ is projective and $Y$ a hyperplane section.
 
 <!-- original page 158 -->
 
@@ -1298,17 +1254,17 @@ hyperplane section.
     the following results of Saito (Saito S., "Arithmetic on two-dimensional local rings", *Invent. Math.* **85**
     (1986), no. 2, p. 379–414) in the case of surfaces, the first being local, the other global. Let $A$ be an excellent
     local ring of dimension 2, normal and henselian with finite residue field, and $X$ the complement of the closed
-    point in $\operatorname{Spec}(A)$. Then one has a perfect duality of torsion groups
-    $\operatorname{Pic}(X) \times Br(X) \to \mathbb{Q}/\mathbb{Z}$ — by Brauer group of $X$, one means cohomological
-    Brauer group $Br(X) = H^{2}_{\acute{e}}t(X, \mathbf{G}_{m})$. In the global case, one has the following
-    generalization of a result of Lichtenbaum (Lichtenbaum S., "Duality theorems for curves over $p$-adic fields",
-    *Invent. Math.* **7** (1969), p. 120–136): let $k$ be the field of fractions of a complete discrete valuation ring
-    $\mathcal{O}$ with finite residue field and $X$ a projective, smooth and geometrically complete curve over $k$. The
-    group $\operatorname{Pic}^{0}(X)$ is equipped with the topology induced from the adic topology of $k$, and
-    $\operatorname{Pic}(X)$ is the topological group that makes $\operatorname{Pic}^{0}(X)$ an open subgroup. Then one
-    has a perfect duality of topological groups $\operatorname{Pic}(X) \times Br(X) \to \mathbb{Q}/\mathbb{Z}$. Note
-    that this statement, which concerns curves, is of course proved by considering a regular (proper and flat) model of
-    $X$ over $\mathcal{O}$: it is a result about surfaces.
+    point in $\operatorname{Spec}(A)$. Then one has a perfect duality of torsion groups $\operatorname{Pic}(X) \times
+    Br(X) \to \mathbb{Q}/\mathbb{Z}$ — by Brauer group of $X$, one means cohomological Brauer group $Br(X) =
+    H^{2}_{\acute{e}}t(X, \mathbf{G}_{m})$. In the global case, one has the following generalization of a result of
+    Lichtenbaum (Lichtenbaum S., "Duality theorems for curves over $p$-adic fields", *Invent. Math.* **7** (1969), p.
+    120–136): let $k$ be the field of fractions of a complete discrete valuation ring $\mathcal{O}$ with finite residue
+    field and $X$ a projective, smooth and geometrically complete curve over $k$. The group $\operatorname{Pic}^{0}(X)$
+    is equipped with the topology induced from the adic topology of $k$, and $\operatorname{Pic}(X)$ is the topological
+    group that makes $\operatorname{Pic}^{0}(X)$ an open subgroup. Then one has a perfect duality of topological groups
+    $\operatorname{Pic}(X) \times Br(X) \to \mathbb{Q}/\mathbb{Z}$. Note that this statement, which concerns curves, is
+    of course proved by considering a regular (proper and flat) model of $X$ over $\mathcal{O}$: it is a result about
+    surfaces.
 
 [^XIII-6-5]: Cf. A. Grothendieck, *Le groupe de Brauer II* (Séminaire Bourbaki no 297, Nov. 1965), notably 1.8 and 1.11
     b.
@@ -1338,9 +1294,9 @@ hyperplane section.
     depth, they are even equivalent to a third, expressing itself in terms of Whitney stratification (cf. *loc. cit.*,
     theorem 1.4).
 
-[^N.D.E-XIII-23]: *N.D.E.* As observed in [HL], example 3.1.3, this conjecture is false already for
-    $X = {z \in \mathbb{C}^{n} \mid z^{2}_{1} + z^{3}_{2} + \cdots + z^{3}_{n} = 0}$, $n \geqslant 4$ and $Y$ reduced to
-    the origin. But, suitably modified, it is true (theorem 3.1.4 of *loc. cit.*).
+[^N.D.E-XIII-23]: *N.D.E.* As observed in [HL], example 3.1.3, this conjecture is false already for $X = {z \in
+    \mathbb{C}^{n} \mid z^{2}_{1} + z^{3}_{2} + \cdots + z^{3}_{n} = 0}$, $n \geqslant 4$ and $Y$ reduced to the origin.
+    But, suitably modified, it is true (theorem 3.1.4 of *loc. cit.*).
 
 [^N.D.E-XIII-24]: *N.D.E.* This conjecture is proved, even in the case where $E$ is singular, in \[HL\]: it is theorem
     3.2.1.

@@ -23,10 +23,10 @@ VIII, 2.1).
 
 If $S$ is a prescheme of characteristic $p > 0$, for every integer $n > 0$ and every $S$-prescheme in groups $G$, we
 denote by $F_{n}(G)$ the radicial sub-$S$-prescheme in groups of $G$ equal to the kernel of the $n$-th iterate of the
-Frobenius morphism relative to $G$ (Exp. VII_A). In particular, if $G = (G_{a})_{S}$ we set
-$F_{n}(G) = (\alpha_{p^{n}})_{S}$, which is a radicial $S$-group, flat and finite over $S$, representing the following
-functor: for every $S$-prescheme $S'$, $(\alpha_{p^{n}})_{S}(S')$ is the set of $x' \in \Gamma(S', O_{S'})$ such that
-$x'^{p^{n}} = 0$.
+Frobenius morphism relative to $G$ (Exp. VII_A). In particular, if $G = (G_{a})_{S}$ we set $F_{n}(G) =
+(\alpha_{p^{n}})_{S}$, which is a radicial $S$-group, flat and finite over $S$, representing the following functor: for
+every $S$-prescheme $S'$, $(\alpha_{p^{n}})_{S}(S')$ is the set of $x' \in \Gamma(S', O_{S'})$ such that $x'^{p^{n}} =
+0$.
 
 The group $(\mu_{p^{n}})_{S}$, already defined, is canonically isomorphic to $F_{n}(G_{m})_{S}$.
 
@@ -61,8 +61,8 @@ unipotent.*
 The necessity of the condition is clear, since a composition series gives a composition series by extension of the base.
 
 The proof of sufficiency is standard: $K$ is the direct limit of its finitely generated $k$-subalgebras. By Exp. VI_B §
-10, one can find a finitely generated $k$-subalgebra $A$ of $K$, a composition series $G_{i}$ of `G_S`
-($S = \operatorname{Spec} A$), and immersions $u_{i} : H_{i} = G_{i} / G_{i+1} \to (G_{a})_{S}$. To prove that $G$ is
+10, one can find a finitely generated $k$-subalgebra $A$ of $K$, a composition series $G_{i}$ of `G_S` ($S =
+\operatorname{Spec} A$), and immersions $u_{i} : H_{i} = G_{i} / G_{i+1} \to (G_{a})_{S}$. To prove that $G$ is
 unipotent, it then suffices to make a $k$-base extension $A \to k$, which is possible because
 $\operatorname{Hom}_{k-alg}(A, k)$ is non-empty, since $A$ is a non-zero $k$-algebra of finite type over the
 algebraically closed field $k$.
@@ -120,10 +120,10 @@ $H'$ is trivial. Moreover, there is a unique lift of `H''` in $H$, namely $H_{re
 
 Indeed, since $k$ is perfect, the reduced $k$-scheme $H_{red}$ is an algebraic subgroup of $H$ (Exp. VI_A, 0.2) which is
 geometrically reduced, hence smooth over $k$ (Exp. VI_A, 1.3.1), hence étale, since $H$ is of dimension 0. To see that
-the canonical projection $H_{red} \to H''$ is an isomorphism, it suffices to verify it after base extension
-$k \to \bar{k}$, in which case it suffices to show that one has an isomorphism on the $\bar{k}$-valued points, which is
-clear. The last assertion follows from the fact that every lift of `H''` in $H$, being étale over $k$, is reduced, hence
-is necessarily contained in $H_{red}$.
+the canonical projection $H_{red} \to H''$ is an isomorphism, it suffices to verify it after base extension $k \to
+\bar{k}$, in which case it suffices to show that one has an isomorphism on the $\bar{k}$-valued points, which is clear.
+The last assertion follows from the fact that every lift of `H''` in $H$, being étale over $k$, is reduced, hence is
+necessarily contained in $H_{red}$.
 
 <!-- original page 536 -->
 
@@ -191,9 +191,7 @@ $\alpha_{p}$).
 
 Now let $H = G_{a}$ ($p > 0$), so that one has an exact sequence:
 
-$$
-0 \longrightarrow N \longrightarrow G_{a} \longrightarrow H'' \longrightarrow 0.
-$$
+$$ 0 \longrightarrow N \longrightarrow G_{a} \longrightarrow H'' \longrightarrow 0. $$
 
 If $N = G_{a}$, then $H'' = 0$. Otherwise, proceeding by induction on the length of a composition series of $N$, one may
 assume that $N = \alpha_{p}$, or that $N$ is a form of $(\mathbb{Z}/p\mathbb{Z})^{r}$ (1.5).
@@ -248,8 +246,8 @@ To prove i) we must establish that for every prescheme $S$ over $k$, $\operatorn
 this follows from the following lemma:
 
 **Lemma 2.5.** *Let $S$ be a prescheme, $M$ an $S$-group of multiplicative type and of finite type over $S$, $U$ an
-$S$-prescheme in groups of finite presentation over $S$ with unipotent fibers. Then
-$\operatorname{Hom}_{S-gr}(M, U) = e$.*
+$S$-prescheme in groups of finite presentation over $S$ with unipotent fibers. Then $\operatorname{Hom}_{S-gr}(M, U) =
+e$.*
 
 <!-- label: III.XVII.2.5 -->
 
@@ -306,9 +304,9 @@ $x \in V(S')$ such that $x_{S''}$ is fixed under $G(S'')$ for every `S''` over $
 This being so, one has the following lemma:
 
 **Lemma 3.1.** *Let $S$ be a prescheme, $G$ an $S$-prescheme in groups, affine over $S$, defined by the quasi-coherent
-`O_S`-algebra $A$. Suppose that $G$ acts on a quasi-coherent sheaf of `O_S`-modules $M$, and let
-$\mu : M \to A \otimes_{O_{S}} M$ be the comorphism defining the action of $G$ on $M$ (Exp. I, 4.7.2), and
-$\nu : M \to A \otimes_{O_{S}} M$ the morphism $x \mapsto \mu(x) - 1 \otimes x$. Then:*
+`O_S`-algebra $A$. Suppose that $G$ acts on a quasi-coherent sheaf of `O_S`-modules $M$, and let $\mu : M \to A
+\otimes_{O_{S}} M$ be the comorphism defining the action of $G$ on $M$ (Exp. I, 4.7.2), and $\nu : M \to A
+\otimes_{O_{S}} M$ the morphism $x \mapsto \mu(x) - 1 \otimes x$. Then:*
 
 <!-- label: III.XVII.3.1 -->
 
@@ -373,8 +371,8 @@ Suppose now $p > 0$.
 
 b) $G = \alpha_{p}$. The group $\alpha_{p}$ being a radicial group of height 1 (Exp. VII_A § 7), giving a representation
 of $\alpha_{p}$ in $V$ amounts to giving a representation of the $p$-Lie algebra $\alpha_{p}$ in $gl(V)$ (App. II 2.2),
-that is, here, to giving an element $X$ of $\operatorname{End}(V)$ such that $X^{p} = 0$ (App. II 2.1). But then
-$V \neq 0 \Rightarrow W = Ker(X) \neq 0$, and still by (App. II 2.2), one has $W = V^{\alpha_{p}}$.
+that is, here, to giving an element $X$ of $\operatorname{End}(V)$ such that $X^{p} = 0$ (App. II 2.1). But then $V \neq
+0 \Rightarrow W = Ker(X) \neq 0$, and still by (App. II 2.2), one has $W = V^{\alpha_{p}}$.
 
 c) $G = \mathbb{Z}/p\mathbb{Z}$. A representation of $G$ in $V$ is equivalent to giving an element $x$ of
 $\operatorname{Aut}(V)$ such that $x^{p} = 1$, i.e. $(1 - x)^{p} = 0$, so $x$ is of the form $1 + n$ with $n$ nilpotent,
@@ -384,8 +382,8 @@ and $W = Ker n$ is left fixed by $x$.
 
 d) $G = G_{a}$. Let $G_{i}$, $i \in I$, be the increasing filtered family of étale algebraic subgroups of $G_{a}$, hence
 isomorphic to $(\mathbb{Z}/p\mathbb{Z})^{r_{i}}$ (prop. 1.5), and let $V_{i} = V^{G_{i}}$. Since $V$ is of finite,
-non-zero dimension, and $V_{i}$ is non-zero by c), the decreasing filtered family of the $V_{i}$ is stationary, and
-$W = \bigcap_{i \in I} V_{i} \neq 0$. Now one has the lemma:
+non-zero dimension, and $V_{i}$ is non-zero by c), the decreasing filtered family of the $V_{i}$ is stationary, and $W =
+\bigcap_{i \in I} V_{i} \neq 0$. Now one has the lemma:
 
 **Lemma 3.3.** *The family of étale subgroups of $(G_{a})_{S}$ ($S$ an $S$-prescheme of characteristic $p > 0$) is
 schematically dense in $G$ (Exp. IX, 4.1).*
@@ -422,8 +420,8 @@ We shall now summarize and complement the properties of unipotent groups already
 
 *i) $G$ is unipotent.*
 
-*ii) $G$ possesses a composition series, defined over $k$, whose successive quotients are isomorphic to $G_{a}$ if
-$p = 0$ (resp. to $\alpha_{p}$, $G_{a}$, or twisted $(\mathbb{Z}/p\mathbb{Z})^{r}$ (1.4) if $p > 0$).*
+*ii) $G$ possesses a composition series, defined over $k$, whose successive quotients are isomorphic to $G_{a}$ if $p =
+0$ (resp. to $\alpha_{p}$, $G_{a}$, or twisted $(\mathbb{Z}/p\mathbb{Z})^{r}$ (1.4) if $p > 0$).*
 
 *iii) As in ii), but one further assumes the composition series to be central.*
 
@@ -453,9 +451,9 @@ iii) ⇒ ii) ⇒ i) and iv) ⇒ i) is clear.
 
 We shall prove i) ⇒ iv) shortly, but first let us note some consequences of what has been proved.
 
-**Definition 3.6.** *We shall say that a $p$-Lie algebra $g$ ($p > 0$) (cf. Exp. VII_A § 5) is* unipotent *if the map
-$x \mapsto x^{(p)}$ is nilpotent, i.e. if for every $x \in g$, there exists an integer $n > 0$ such that
-$x^{(p^{n})} = 0$.*
+**Definition 3.6.** *We shall say that a $p$-Lie algebra $g$ ($p > 0$) (cf. Exp. VII_A § 5) is* unipotent *if the map $x
+\mapsto x^{(p)}$ is nilpotent, i.e. if for every $x \in g$, there exists an integer $n > 0$ such that $x^{(p^{n})} =
+0$.*
 
 <!-- label: III.XVII.3.6 -->
 
@@ -472,9 +470,9 @@ finite-dimensional vector space.*
 Since i) ⇒ v), it suffices to prove 3.7 when $G = Trigstr(n)$. We have already used the fact that $Trigstr(n)$ is a
 nilpotent algebraic group. Moreover, the Lie algebra $h$ of $Trigstr(n)$ consists of the upper-triangular endomorphisms
 of $V$ having zeros on the principal diagonal. They are therefore nilpotent and consequently $h$ is nilpotent (Bourbaki,
-*loc. cit.* Chap. 1 § 4 cor. 3). If $p > 0$, since the $p$-th power in the $p$-Lie algebra
-$gl(V) = \operatorname{End}(V)$ coincides with the $p$-th power of the endomorphisms of $V$ (Exp. VII_A, 6.4.4), one
-sees that $h$ is unipotent.
+*loc. cit.* Chap. 1 § 4 cor. 3). If $p > 0$, since the $p$-th power in the $p$-Lie algebra $gl(V) =
+\operatorname{End}(V)$ coincides with the $p$-th power of the endomorphisms of $V$ (Exp. VII_A, 6.4.4), one sees that
+$h$ is unipotent.
 
 **Corollary 3.8.** *Let $k$ be an algebraically closed field and $G$ a smooth and affine algebraic group over $k$. Then
 the following properties are equivalent:*
@@ -564,8 +562,8 @@ If $g \neq 0$ and is unipotent, there exists $X \in g$, $X \neq 0$, such that $X
 <!-- original page 551 -->
 
 Let $X_{1}, \cdots, X_{n}$ be a basis of a supplement in $g$ of the line `kX`. The Lie algebra $h$ is then the
-$k$-vector subspace of $g$ generated by $X^{(p)}_{1}, \cdots, X^{(p)}_{n}$, hence has dimension at most
-$n = \dim g - 1$.
+$k$-vector subspace of $g$ generated by $X^{(p)}_{1}, \cdots, X^{(p)}_{n}$, hence has dimension at most $n = \dim g -
+1$.
 
 *Proof of 3.9 ii)*. $G$ is smooth and connected. In this case, the descending central series of $G$ is representable by
 characteristic smooth connected algebraic subgroups $G_{i}$ (Exp. VI_B, 8.3 and 7.4), and $G_{i} = 0$ for $i$ large
@@ -583,16 +581,14 @@ case where $G$ is annihilated by $p$, but then $G_{\bar{k}}$ is isomorphic to $(
 *Proof of 3.5 i) ⇒ iv) in the case b)* $p = 0$. The group $G$ is then smooth and connected, and proceeding as in 3.9
 ii), one reduces to the case where $G$ is moreover commutative. One then has the following more precise result:
 
-**Lemma 3.9 ter.** *Let $k$ be a field of characteristic `0`, $G$ a commutative unipotent $k$-algebraic group,
-$g = Lie G$. Then there exists a canonical isomorphism:*
+**Lemma 3.9 ter.** *Let $k$ be a field of characteristic `0`, $G$ a commutative unipotent $k$-algebraic group, $g = Lie
+G$. Then there exists a canonical isomorphism:*
 
 <!-- label: III.XVII.3.9ter -->
 
 <!-- original page 552 -->
 
-$$
-\exp : W(g) \xrightarrow{\sim} G.
-$$
+$$ \exp : W(g) \xrightarrow{\sim} G. $$
 
 *The morphism `exp` is the unique homomorphism $W(g) \to G$ that induces the identity on Lie algebras.*
 
@@ -648,8 +644,8 @@ i) ⇔ i bis), since the image of a group of multiplicative type is of multiplic
 
 <!-- original page 554 -->
 
-ii) ⇔ ii bis). Because if an ordinary finite group $H$ has order not a power of $p$, there exists a prime number
-$q \neq p$, and an element $x$ of $H$ distinct from $e$, such that $x^{q} = e$ (Sylow's theorem, cf. J.-P. Serre, *Corps
+ii) ⇔ ii bis). Because if an ordinary finite group $H$ has order not a power of $p$, there exists a prime number $q \neq
+p$, and an element $x$ of $H$ distinct from $e$, such that $x^{q} = e$ (Sylow's theorem, cf. J.-P. Serre, *Corps
 locaux*, Chap. IX § 2).
 
 i) ⇒ ii) follows from the following lemma:
@@ -777,8 +773,8 @@ it possesses a composition series whose successive quotients are isomorphic to $
 
 i) ⇒ iv) by 2.4 i).
 
-iv) ⇒ v). By Exp. XIV, 4.1, $G$ possesses a maximal torus $T$ defined over $k$. Now if $r = \dim T$,
-$({}_{n} T)_{\bar{k}}$ is isomorphic to $(\mu_{n})^{r}$. Hence $r = 0$.
+iv) ⇒ v). By Exp. XIV, 4.1, $G$ possesses a maximal torus $T$ defined over $k$. Now if $r = \dim T$, $({}_{n}
+T)_{\bar{k}}$ is isomorphic to $(\mu_{n})^{r}$. Hence $r = 0$.
 
 v) ⇒ i) as remarked in the proof of 3.8.
 
@@ -830,9 +826,7 @@ suffices to show that `G_1` is isomorphic to $(G_{a})^{n-1}$. Now it is immediat
 $\operatorname{Spec} k[X_{1}, \cdots, X_{n}] = G^{n}_{a}$ to $G_{a} = \operatorname{Spec} k[T]$ is defined by an
 additive polynomial of the form:
 
-$$
-\Sigma_{i,j} a_{i,j} X^{p^{j}}_{i}.
-$$
+$$ \Sigma_{i,j} a_{i,j} X^{p^{j}}_{i}. $$
 
 Since `G_1` is smooth, the linear part of this polynomial is non-zero. Possibly making a linear change of the
 coordinates $X_{i}$, we may assume that `G_1` is an algebraic subgroup of $(G_{a})^{n}$ defined by the equation:
@@ -946,9 +940,9 @@ hence $G'$ is unipotent by a).
 
 <!-- original page 564 -->
 
-To show that $G$ is unipotent, it therefore suffices to prove that `G''` is unipotent (2.2). But `G''` is of height
-$h - 1$, hence, by induction hypothesis, it suffices to show that `Lie G''` is unipotent. Since iv) ⇒ v), it suffices to
-show that $G''_{\bar{k}}$ does not contain any group isomorphic to $\mu_{p}$. Let then a subgroup of $G''_{\bar{k}}$
+To show that $G$ is unipotent, it therefore suffices to prove that `G''` is unipotent (2.2). But `G''` is of height $h -
+1$, hence, by induction hypothesis, it suffices to show that `Lie G''` is unipotent. Since iv) ⇒ v), it suffices to show
+that $G''_{\bar{k}}$ does not contain any group isomorphic to $\mu_{p}$. Let then a subgroup of $G''_{\bar{k}}$
 isomorphic to $\mu_{p}$, $H$ its inverse image in $G_{\bar{k}}$. The group $G'$ being unipotent, we shall prove in § 5
 that the extension:
 
@@ -1005,19 +999,17 @@ F^n : k ⟶ k,   x ↦ x^{p^n},   (resp.   φ : k' ⟶ k,   x' ↦ x'^{p^n}).
 
 *Then, for every $k$-prescheme $X$, there exists a functorial isomorphism:*
 
-$$
-(X_{k'})^{\phi} \xrightarrow{\sim} X^{(p^{n})}.
-$$
+$$ (X_{k'})^{\phi} \xrightarrow{\sim} X^{(p^{n})}. $$
 
-*Consequently, if $X$ and $Y$ are two $k$-preschemes such that there exists a $k'$-isomorphism
-$u' : X_{k'} \xrightarrow{\sim} Y_{k'}$, then there exists a $k$-isomorphism
-$v : X^{(p^{n})} \xrightarrow{\sim} Y^{(p^{n})}$. If moreover $X$ and $Y$ are equipped with structures of $k$-preschemes
-in groups and if $u'$ is a $k'$-homomorphism, then $v$ is a $k$-homomorphism.*
+*Consequently, if $X$ and $Y$ are two $k$-preschemes such that there exists a $k'$-isomorphism $u' : X_{k'}
+\xrightarrow{\sim} Y_{k'}$, then there exists a $k$-isomorphism $v : X^{(p^{n})} \xrightarrow{\sim} Y^{(p^{n})}$. If
+moreover $X$ and $Y$ are equipped with structures of $k$-preschemes in groups and if $u'$ is a $k'$-homomorphism, then
+$v$ is a $k$-homomorphism.*
 
 <!-- original page 566 -->
 
-The lemma follows simply from the transitivity of base changes and from the fact that the composite morphism
-$k \to k' \xrightarrow{\phi} k$ is equal to $F^{n}$.
+The lemma follows simply from the transitivity of base changes and from the fact that the composite morphism $k \to k'
+\xrightarrow{\phi} k$ is equal to $F^{n}$.
 
 *Continuation of the proof of 4.3.1.*
 
@@ -1025,11 +1017,10 @@ i) ⇒ iii). Proceed by induction on $\dim G$. If $\dim G = 0$, since $G$ is con
 3.9 i). If $\dim G > 0$, there exists an integer $m \geqslant 0$ such that the quotient $G / F_{m} G$ is a smooth group
 (App. II 3.1), evidently connected and non-zero. Applying 4.1.1 i) ⇒ iii) to the latter, one sees that there exists an
 algebraic subgroup $G'$ of $G$ which is characteristic and connected, and such that the quotient $G'' = G/G'$ is a form
-of $G^{r}_{a}$ ($r > 0$). By 4.1.5, if $K$ is a perfect closure of $k$, one has
-$G''_{K} \xrightarrow{\sim} (G_{a, K})^{r}$. Since `G''` is of finite type over $k$, there exists a finite radicial
-extension $k'$ of $k$ such that $G''_{k'} \xrightarrow{\sim} (G_{a, k'})^{r}$ (Exp. VI_B § 10). Let $n > 0$ be such that
-$(k')^{p^{n}} \subset k$. Keeping the notations of 4.3.2, one deduces that there exists a $k$-isomorphism of algebraic
-groups:
+of $G^{r}_{a}$ ($r > 0$). By 4.1.5, if $K$ is a perfect closure of $k$, one has $G''_{K} \xrightarrow{\sim} (G_{a,
+K})^{r}$. Since `G''` is of finite type over $k$, there exists a finite radicial extension $k'$ of $k$ such that
+$G''_{k'} \xrightarrow{\sim} (G_{a, k'})^{r}$ (Exp. VI_B § 10). Let $n > 0$ be such that $(k')^{p^{n}} \subset k$.
+Keeping the notations of 4.3.2, one deduces that there exists a $k$-isomorphism of algebraic groups:
 
 ```text
 (G_{a, k})^r = (G_{a, k'})^{rφ} ⥲ (G'')^{(p^n)}.
@@ -1037,13 +1028,11 @@ groups:
 
 Consider then the Frobenius homomorphism relative to `G''` (Exp. VII_A § 4)
 
-$$
-F^{n} : G'' \longrightarrow (G'')^{(p^{n})}.
-$$
+$$ F^{n} : G'' \longrightarrow (G'')^{(p^{n})}. $$
 
 Since `G''` (and hence also $(G'')^{(p^{n})}$) is smooth over $k$, and $F^{n}$ is radicial, $F^{n}$ is an epimorphism
-for the fpqc topology, so that $(G'')^{(p^{n})}$ is identified with $G''/ F_{n}(G'')$. Finally we have shown that
-$G''/ F_{n}(G'')$ is isomorphic, as an algebraic group, to $(G_{a})^{r}$.
+for the fpqc topology, so that $(G'')^{(p^{n})}$ is identified with $G''/ F_{n}(G'')$. Finally we have shown that $G''/
+F_{n}(G'')$ is isomorphic, as an algebraic group, to $(G_{a})^{r}$.
 
 <!-- original page 567 -->
 
@@ -1077,8 +1066,8 @@ vi ter) ⇒ vi bis). Indeed, if $G$ is nilpotent, so is its subgroup `F G`. It a
 nilpotent if and only if $Lie F G = Lie G$ (Exp. VII_A) is nilpotent.
 
 vi bis) ⇒ vi). Let $Z$ be the identity component of the center of $G$, and let $r$ be the reductive component of the
-center of $g$. We must show that $r = 0$. Now it is immediate that $r$ is a characteristic sub-$p$-Lie algebra of
-$g = Lie F G$ (i.e. stable under the functor $\operatorname{Aut}_{p-Lie}(g)$); hence $r$ is the Lie algebra of a
+center of $g$. We must show that $r = 0$. Now it is immediate that $r$ is a characteristic sub-$p$-Lie algebra of $g =
+Lie F G$ (i.e. stable under the functor $\operatorname{Aut}_{p-Lie}(g)$); hence $r$ is the Lie algebra of a
 characteristic radicial subgroup $R$ of `F G` (App. II 2.2). On the other hand, it follows from the last assertion of
 4.2.2 and from App. II 2.1 that $R$ is a form of $(\mu_{p})^{r}$. The group $R$ being characteristic in `F G`, which is
 itself a characteristic subgroup of $G$ (App. II 1), $R$ is *a fortiori* invariant in $G$, hence is central, $G$ being
@@ -1178,9 +1167,7 @@ cases, $G$ therefore possesses a composition series:
 
 <!-- original page 571 -->
 
-$$
-0 \subset L \subset G^{0} \subset G
-$$
+$$ 0 \subset L \subset G^{0} \subset G $$
 
 such that $L$ is affine and connected, $G^{0}/L = A$ is an abelian variety, and $G/G^{0}$ an étale group.
 
@@ -1219,9 +1206,7 @@ a $k$-algebraic group extension of $H$ by $U$, so that one has the exact sequenc
 
 <!-- label: III.XVII.5.1.1 -->
 
-$$
-1 \longrightarrow U \longrightarrow E \longrightarrow H \longrightarrow 1.
-$$
+$$ 1 \longrightarrow U \longrightarrow E \longrightarrow H \longrightarrow 1. $$
 
 *Then:*
 
@@ -1277,10 +1262,10 @@ a) follows simply from the fact that $E(k) \to H(k)$ is surjective. One has b) �
 therefore suffices to treat case c). Let $x$ be a point of $H$; $x$ is both an open and closed part of $H$, and the
 induced subscheme is isomorphic to $\operatorname{Spec} K$, where $K$ is a finite separable extension of $k$. Let $X$ be
 the inverse image in $E$ of the scheme $x$. The $K$-scheme $X$ is a principal homogeneous $K$-space under the group
-`U_K`. But `U_K` possesses a composition series with successive quotients isomorphic to $(G_{a})_{K}$, hence
-$H^{1}(K, U_{K}) = 0$ (J.-P. Serre, *Cohomologie Galoisienne*, Chap. III, prop. 6), and consequently $X$ is trivial,
-hence has a $K$-rational point. One thus obtains a $k$-section of $E \to H$ over $x$, for every point $x$ of $H$, whence
-the existence of a section $H \to E$.
+`U_K`. But `U_K` possesses a composition series with successive quotients isomorphic to $(G_{a})_{K}$, hence $H^{1}(K,
+U_{K}) = 0$ (J.-P. Serre, *Cohomologie Galoisienne*, Chap. III, prop. 6), and consequently $X$ is trivial, hence has a
+$K$-rational point. One thus obtains a $k$-section of $E \to H$ over $x$, for every point $x$ of $H$, whence the
+existence of a section $H \to E$.
 
 **Lemma 5.2.3.**[^N.D.E-XVII-8] *With the notations of 5.1.1, suppose $H$ étale. Then:*
 
@@ -1321,12 +1306,11 @@ connected, $k$ is perfect, hence `U_0` is $k$-solvable (4.1.4 b)) and we are red
 <!-- original page 577 -->
 
 The preceding reductions show that in cases b), c), and d) one may suppose that $U$ possesses a characteristic
-composition series $(U_{i})$ such that $U_{i} / U_{i+1}$ is commutative and such that the maps
-$U_{i}(k) \to (U_{i} / U_{i+1})(k)$ are surjective (in cases c) and d), this last point comes from
-$H^{1}(k, G_{a}) = 0$). An immediate dévissage then shows that it suffices to prove the conjugacy of two lifts $H'$ and
-`H''` in $E$ when $U$ is commutative. In short, it suffices to prove i) a). In this case, the triviality of the
-extension $E$ is ensured if $H^{2}(H, U) = 0$ (App. I 3.1), and the conjugacy of $H'$ and `H''` if $H^{1}(H, U) = 0$.
-Now we have the following lemma:
+composition series $(U_{i})$ such that $U_{i} / U_{i+1}$ is commutative and such that the maps $U_{i}(k) \to (U_{i} /
+U_{i+1})(k)$ are surjective (in cases c) and d), this last point comes from $H^{1}(k, G_{a}) = 0$). An immediate
+dévissage then shows that it suffices to prove the conjugacy of two lifts $H'$ and `H''` in $E$ when $U$ is commutative.
+In short, it suffices to prove i) a). In this case, the triviality of the extension $E$ is ensured if $H^{2}(H, U) = 0$
+(App. I 3.1), and the conjugacy of $H'$ and `H''` if $H^{1}(H, U) = 0$. Now we have the following lemma:
 
 **Lemma 5.2.4.** *Let $S$ be a prescheme, $U$ an $S$-prescheme in commutative groups, $H$ an $S$-prescheme in groups,
 étale, finite, of rank $n$, acting on $U$. Then the groups $H^{i}(H, U)$ ($i > 0$) are annihilated by $n$ in the
@@ -1373,9 +1357,9 @@ one has $H^{i}(H, U) = 0$ for $i > 0$.*
 It suffices to show that raising to the $n$-th power in $U$ is an isomorphism, since this will entail that
 multiplication by $n$ in $H^{i}(H, U)$ is both an isomorphism and the zero morphism, hence $H^{i}(H, U) = 0$. Now, under
 the hypotheses on $U$, it suffices to verify that raising to the $n$-th power is an isomorphism on the fibers of $U$
-(EGA IV 17.9.5), which reduces us to the case where $S$ is the spectrum of a field $k$ of characteristic $p$. Since
-$(n, p) = 1$, raising to the $n$-th power in $U$ is an étale morphism (Exp. VII), and is a monomorphism (2.4 i)), hence
-an open immersion (EGA IV 17.9.1).
+(EGA IV 17.9.5), which reduces us to the case where $S$ is the spectrum of a field $k$ of characteristic $p$. Since $(n,
+p) = 1$, raising to the $n$-th power in $U$ is an étale morphism (Exp. VII), and is a monomorphism (2.4 i)), hence an
+open immersion (EGA IV 17.9.1).
 
 <!-- original page 579 -->
 
@@ -1427,10 +1411,10 @@ Since $R_{n}$ is representable by a non-empty affine $k$-scheme (5.2.3 ii)), and
 non-zero rings is non-zero, the functor $R = \lim R_{n}$ is representable by a non-empty affine $k$-scheme (EGA IV 8 and
 1.9.1). There therefore exists an extension $K$ of $k$ and a point $u \in R(K)$. The image $u_{n}$ of $u$ in $R_{n}(K)$
 corresponds to a lift $H'_{n}$ of $({}_{n} H)_{K}$ in $(E_{n})_{K}$. By construction, $H'_{n} = {}_{n}(H'_{m})$ if $n$
-divides $m$. Set $U_{n} = (U_{K})^{H'_{n}}$. The choice of $H'_{n}$ allows one to identify $(R_{n})_{K}$ with
-$U_{K} / U_{n}$. But the family of $H'_{n}$ is filtered increasing, hence the family of $U_{n}$ is filtered decreasing
-and consequently is stationary for $n$ large enough (`U_K` is noetherian). It follows that the family of $(R_{n})_{K}$
-is stationary, and consequently so is the family of $R_{n}$.
+divides $m$. Set $U_{n} = (U_{K})^{H'_{n}}$. The choice of $H'_{n}$ allows one to identify $(R_{n})_{K}$ with $U_{K} /
+U_{n}$. But the family of $H'_{n}$ is filtered increasing, hence the family of $U_{n}$ is filtered decreasing and
+consequently is stationary for $n$ large enough (`U_K` is noetherian). It follows that the family of $(R_{n})_{K}$ is
+stationary, and consequently so is the family of $R_{n}$.
 
 <!-- original page 581 -->
 
@@ -1442,16 +1426,16 @@ $H'_{n}$ for every $n$ (Exp. VI_B § 7). The argument made in Exp. XV 4.6 shows 
 algebraic group whose formation commutes with base field extension. To show that $H'$ is a lift of $H$ in $E$, we may
 therefore suppose $k$ algebraically closed. By *Bible* 4 th. 4, $H'$ is then the direct product of a (smooth) group of
 multiplicative type $M$ and a unipotent group $V$. The groups $H'_{n}$ are then necessarily contained in $M$ (2.4) and
-in view of the definition of $H'$ this entails $H' = M$. So $H'$ is of multiplicative type and consequently
-$H' \cap U = 0$. The morphism $H' \to H$ is therefore a monomorphism; moreover, it follows from the density theorem
-(Exp. IX, 4.10) that it is an epimorphism, hence an isomorphism.
+in view of the definition of $H'$ this entails $H' = M$. So $H'$ is of multiplicative type and consequently $H' \cap U =
+0$. The morphism $H' \to H$ is therefore a monomorphism; moreover, it follows from the density theorem (Exp. IX, 4.10)
+that it is an epimorphism, hence an isomorphism.
 
-Let now $H'$ and `H''` be two lifts of $H$ in $E$. For every $n \in N_{0}$, denote by
-$T_{n} = Transp({}_{n} H', {}_{n} H'')$ the transporter of ${}_{n} H'$ into ${}_{n} H''$, which is representable by a
-closed subscheme of $U$ (Exp. VIII 6.5 e)). The $T_{n}$ form a decreasing filtered family of closed subschemes of $U$,
-non-empty by 5.2.3 i a). Let $T$ be the stationary value. Under the hypotheses of 5.2.3 i), $T_{n}(k)$ is non-empty.
-There therefore exists an element $u$ of $U(k)$ such that ${}_{n} H'' = int(u) {}_{n} H'$ for every $n \in N_{0}$. But
-then $H'' = int(u) H'$ (Exp. IX, 4.8 b).
+Let now $H'$ and `H''` be two lifts of $H$ in $E$. For every $n \in N_{0}$, denote by $T_{n} = Transp({}_{n} H', {}_{n}
+H'')$ the transporter of ${}_{n} H'$ into ${}_{n} H''$, which is representable by a closed subscheme of $U$ (Exp. VIII
+6.5 e)). The $T_{n}$ form a decreasing filtered family of closed subschemes of $U$, non-empty by 5.2.3 i a). Let $T$ be
+the stationary value. Under the hypotheses of 5.2.3 i), $T_{n}(k)$ is non-empty. There therefore exists an element $u$
+of $U(k)$ such that ${}_{n} H'' = int(u) {}_{n} H'$ for every $n \in N_{0}$. But then $H'' = int(u) H'$ (Exp. IX, 4.8
+b).
 
 <!-- original page 582 -->
 
@@ -1501,9 +1485,9 @@ Let us show that $Ext_{alg}(H, V) = 0$. Let then `E_0` be an algebraic group ext
 
 The scheme `E_0` is a torsor with base $H$ and group $G^{r}_{a}$, hence defines an element of $H^{1}(H, O^{r}_{H})$ (in
 the sense of the cohomology of coherent sheaves). Since $H$ is affine, one has $H^{1}(H, O^{r}_{H}) = 0$ (EGA III § 1).
-That is to say, $E_{0} \to H$ possesses a section. Consequently, the group $Ext_{alg}(H, V)$ is isomorphic to
-$H^{2}(H, V)$ (App. I 3.1). Now $H^{i}(H, V) = H^{i}(H, W(V)) = 0$ for $i > 0$ (Exp. IX, 3.1). One then concludes, by
-the exact sequence `(**)`, that $Ext_{alg}(H, F V) = 0$, hence that $E$ is a trivial extension.
+That is to say, $E_{0} \to H$ possesses a section. Consequently, the group $Ext_{alg}(H, V)$ is isomorphic to $H^{2}(H,
+V)$ (App. I 3.1). Now $H^{i}(H, V) = H^{i}(H, W(V)) = 0$ for $i > 0$ (Exp. IX, 3.1). One then concludes, by the exact
+sequence `(**)`, that $Ext_{alg}(H, F V) = 0$, hence that $E$ is a trivial extension.
 
 ### 5.5. Proof of 5.1.1 i)
 
@@ -1524,19 +1508,15 @@ We shall reduce to the case where $U$ is radicial. For this, note that since $k$
 
 5.2.3 i) c) that the extension:
 
-$$
-1 \longrightarrow U \longrightarrow E_{0} \longrightarrow H_{red} \longrightarrow 1
-$$
+$$ 1 \longrightarrow U \longrightarrow E_{0} \longrightarrow H_{red} \longrightarrow 1 $$
 
-is trivial. Let `H_1` be a lift of $H_{red}$ in $E$. By App. II 3.1, there exists an integer $n > 0$ such that
-$E^{(n)} = E / F_{n}(E)$ is smooth; let `E''` be the algebraic subgroup of $E$ generated by `H_1` and $F_{n}(E)$ (i.e.
-the inverse image in $E$ of the image of `H_1` in $E^{(n)}$). Denote by `H''` the image of `E''` in $H$. Then I claim
-that $H'' = H$. Indeed, denote by $R$ the image of $F_{n}(E)$ in $H$, so that `H''` is generated by $R$ and $H_{red}$.
-The group $H/R$ is a quotient of $E^{(n)}$ hence is smooth; consequently the canonical morphism
+is trivial. Let `H_1` be a lift of $H_{red}$ in $E$. By App. II 3.1, there exists an integer $n > 0$ such that $E^{(n)}
+= E / F_{n}(E)$ is smooth; let `E''` be the algebraic subgroup of $E$ generated by `H_1` and $F_{n}(E)$ (i.e. the
+inverse image in $E$ of the image of `H_1` in $E^{(n)}$). Denote by `H''` the image of `E''` in $H$. Then I claim that
+$H'' = H$. Indeed, denote by $R$ the image of $F_{n}(E)$ in $H$, so that `H''` is generated by $R$ and $H_{red}$. The
+group $H/R$ is a quotient of $E^{(n)}$ hence is smooth; consequently the canonical morphism
 
-$$
-H_{red} \longrightarrow H/R
-$$
+$$ H_{red} \longrightarrow H/R $$
 
 is an epimorphism, so $H$ is generated by $R$ and $H_{red}$, hence equals `H''`. One thus obtains an exact sequence:
 
@@ -1569,12 +1549,10 @@ unique lift of $H$. This already proves that, in the general case, $E^{0} \cap U
 in $E$) and surjective ($H$ is connected), hence an isomorphism. If now $H'$ is another lift of $H$, $H'$ is connected,
 hence contained in $E^{0}$, and consequently equal to $E^{0}$.
 
-ii) Let `H_0` be the identity component of $H$. By i), $E^{0}$ is the unique lift of `H_0` in $E$. Set
-$E_{0} = E/E^{0}$, $H_{0}' = H/H_{0}$, so that one has the extension:
+ii) Let `H_0` be the identity component of $H$. By i), $E^{0}$ is the unique lift of `H_0` in $E$. Set $E_{0} =
+E/E^{0}$, $H_{0}' = H/H_{0}$, so that one has the extension:
 
-$$
-1 \longrightarrow U \longrightarrow E_{0} \longrightarrow H_{0}' \longrightarrow 1.
-$$
+$$ 1 \longrightarrow U \longrightarrow E_{0} \longrightarrow H_{0}' \longrightarrow 1. $$
 
 $H_{0}'$ being étale, this extension is trivial (5.2.3 i b)). If $H_{1}'$ is a lift of $H_{0}'$ in `E_0`, `H_1` its
 inverse image in $E$, it is clear that `H_1` lifts $H$ in $E$. If `H_2` is a second lift of $H$ in $E$, it contains
@@ -1589,9 +1567,7 @@ immediately $H_{2} = int(u) H_{1}$.
 
 *Proof of 5.1.1 i) a)*. Using the composition series
 
-$$
-1 \longrightarrow U^{0} \longrightarrow U \longrightarrow U/U^{0} \longrightarrow 1,
-$$
+$$ 1 \longrightarrow U^{0} \longrightarrow U \longrightarrow U/U^{0} \longrightarrow 1, $$
 
 i) a) follows from the conjunction of i) b) and 5.5.1 ii).
 
@@ -1626,9 +1602,9 @@ a principal homogeneous space under $Z$, and the hypothesis on $Z$ entails that 
 
 f) Proceeding as in 5.3.1, one sees that it suffices to consider the case $H$ étale. Suppose first $H$ diagonalizable,
 defined by the ordinary group $M$, of order $m$ prime to $p$. The data of the two lifts $H'$ and `H''` defines a
-1-cocycle of $M$ with values in $U(\bar{k})$, that is, a map $h$ from $M$ to $U(\bar{k})$ such that
-$h(mn) = h(m) \cdot {}^{m} h(n)$ for every pair `m, n` of elements of $M$. The groups $H'$ and `H''` are conjugate by
-an element of $U(k)$ if and only if there exists $a \in U(\bar{k})$ such that
+1-cocycle of $M$ with values in $U(\bar{k})$, that is, a map $h$ from $M$ to $U(\bar{k})$ such that $h(mn) = h(m) \cdot
+{}^{m} h(n)$ for every pair `m, n` of elements of $M$. The groups $H'$ and `H''` are conjugate by an element of $U(k)$
+if and only if there exists $a \in U(\bar{k})$ such that
 
 ```text
 h(m) = a^{−1} ({}^m a).
@@ -1702,15 +1678,11 @@ U^{H_0} · H_1 = U^{H_0} · H_2.
 
 By 5.6.1, $U^{H_{0}} = U_{0}$ is smooth. Consider then the extension
 
-$$
-1 \longrightarrow U_{0} \longrightarrow E_{0} \longrightarrow H \longrightarrow 1.
-$$
+$$ 1 \longrightarrow U_{0} \longrightarrow E_{0} \longrightarrow H \longrightarrow 1. $$
 
 By construction `H_0` is central in `E_0`, hence invariant. By passage to the quotient, one obtains the exact sequence:
 
-$$
-1 \longrightarrow U_{0} \longrightarrow E_{0}' \longrightarrow H'' \longrightarrow 1.
-$$
+$$ 1 \longrightarrow U_{0} \longrightarrow E_{0}' \longrightarrow H'' \longrightarrow 1. $$
 
 Since `U_0` is smooth, and since $P(H'')$ is true, the two images of `H_1` and `H_2`
 
@@ -1722,13 +1694,13 @@ To prove 5.1.1 ii) b), note then that, since $k$ is algebraically closed, $H$ po
 successive quotients are smooth or isomorphic to $\mu_{p}$ when $p > 0$. By repeated use of 5.7.2, we are reduced to the
 case where $H$ is smooth or equal to $\mu_{p}$. In the first case, it suffices to apply 5.1.1 ii) a). There remains the
 case $H = \mu_{p}$. Since $U$ is smooth, $U$ possesses a characteristic composition series with successive quotients
-étale or isomorphic to $(G_{a})^{r}$ (3.9). If $U$ is étale, one applies 5.5.1. There finally remains the case
-$H = \mu_{p}$, $U = G^{r}_{a}$.
+étale or isomorphic to $(G_{a})^{r}$ (3.9). If $U$ is étale, one applies 5.5.1. There finally remains the case $H =
+\mu_{p}$, $U = G^{r}_{a}$.
 
 We must show that $H^{1}(\mu_{p}, U) = 0$. The method used in 5.4.1 no longer applies here, since $\mu_{p}$ does not in
-general act linearly on $(G_{a})^{r}$. Let us fix the notations: $H'$ denotes a lift of $H$ in $E$, $e = Lie E$,
-$u = Lie U$, $h = Lie H$, $h' = Lie H'$. Let $X$ be a non-zero element of $h$ such that $X^{(p)} = X$ (App. II 3.1), and
-let $X'$ be its lift in $h'$.
+general act linearly on $(G_{a})^{r}$. Let us fix the notations: $H'$ denotes a lift of $H$ in $E$, $e = Lie E$, $u =
+Lie U$, $h = Lie H$, $h' = Lie H'$. Let $X$ be a non-zero element of $h$ such that $X^{(p)} = X$ (App. II 3.1), and let
+$X'$ be its lift in $h'$.
 
 Since $\mu_{p}$ is a radicial group of height 1, there is a bijective correspondence between the set of lifts of $H$ in
 $E$ and the set $A$ of $Y \in e$ such that $Y^{(p)} = Y$ and which project to $X$ (App. II 2.2). Likewise if $Y \in A$
@@ -1756,10 +1728,10 @@ $H'$, which one may also write:
 u = u_0 ⊕ ⊕_{n ∈ (ℤ/pℤ)^×} u_n.
 ```
 
-If $u \in u_{0}$, one has $ad X'(u) = 0$. If $u \in u_{n}$ ($n \in (\mathbb{Z}/p\mathbb{Z})^{\times}$), one has
-$(ad X')^{p-1}(u) = u$. Finally, $Y = X' + u$ is an element of $A$ if and only if
-$u \in \oplus_{n \in (\mathbb{Z}/p\mathbb{Z})^{\times}} u_{n}$. Note that $A$ is the set of $k$-rational points of an
-irreducible subscheme of $W(e)$, of dimension equal to $rg u - rg u_{0} = rg u - rg Centr_{u}(X')$.
+If $u \in u_{0}$, one has $ad X'(u) = 0$. If $u \in u_{n}$ ($n \in (\mathbb{Z}/p\mathbb{Z})^{\times}$), one has $(ad
+X')^{p-1}(u) = u$. Finally, $Y = X' + u$ is an element of $A$ if and only if $u \in \oplus_{n \in
+(\mathbb{Z}/p\mathbb{Z})^{\times}} u_{n}$. Note that $A$ is the set of $k$-rational points of an irreducible subscheme
+of $W(e)$, of dimension equal to $rg u - rg u_{0} = rg u - rg Centr_{u}(X')$.
 
 b) *Study of $B$.* We shall need the following lemma:
 
@@ -1777,17 +1749,15 @@ $U_{red}$ acts on $X_{red}$ if $k$ is perfect). Let $Y$ be the schematic image o
 $g \mapsto g \cdot x$, which is a closed and reduced subscheme of $X$ on which $G$ acts. It follows easily from EGA IV
 1.8.6 that the orbit of $x$ is an open part $Z$ of $Y$, dense in $Y$. We must show that $Z = ens(Y)$. Let $F$ be the
 closed reduced subscheme of $Y$ having `Y \ Z` as underlying space. One has therefore $F = V(J)$, where $J$ is a
-non-zero ideal of $\Gamma(Y, O_{Y})$. Since $G$ is smooth, $G$ acts on $F$, hence on $J$, and consequently (3.2)
-$J^{G} \neq 0$. If $a$ is a non-zero element of $J^{G}$, $a$ is necessarily constant on the orbit $Z$, hence is constant
-on $Y$, $Z$ being dense in $Y$. But then the ideal $J$ contains $k$, and $F = \emptyset$.
+non-zero ideal of $\Gamma(Y, O_{Y})$. Since $G$ is smooth, $G$ acts on $F$, hence on $J$, and consequently (3.2) $J^{G}
+\neq 0$. If $a$ is a non-zero element of $J^{G}$, $a$ is necessarily constant on the orbit $Z$, hence is constant on
+$Y$, $Z$ being dense in $Y$. But then the ideal $J$ contains $k$, and $F = \emptyset$.
 
 This being so, let us apply the preceding lemma to the group $U$ acting on the affine space $W(e)$ via the adjoint
 representation. One obtains that the orbit of $X'$ is the underlying set of a closed sub-prescheme of $W(e)$. Moreover,
 the stabilizer $Z$ of $X'$ is the centralizer of $X'$ in $U$, and one has a closed immersion:
 
-$$
-U/Z \longrightarrow W(e).
-$$
+$$ U/Z \longrightarrow W(e). $$
 
 Let us note that the orbit of $X'$ is the underlying space of a closed subscheme of $W(e)$ of dimension equal to
 $\dim U - \dim Z$.
@@ -1797,8 +1767,8 @@ surjective,
 
 <!-- original page 593 -->
 
-so that by point b) above, $B$ is the set of $k$-rational points of a closed subscheme of $W(e)$ of dimension
-$\dim U - \dim Z$. Taking point a) into account, to prove that $A = B$, it then suffices to show that one has:
+so that by point b) above, $B$ is the set of $k$-rational points of a closed subscheme of $W(e)$ of dimension $\dim U -
+\dim Z$. Taking point a) into account, to prove that $A = B$, it then suffices to show that one has:
 
 ```text
 rg u − rg Centr_u(X') ⩽ dim U − dim Centr_U(X').
@@ -1851,9 +1821,8 @@ $p$-Lie algebras. Suppose $H \neq 0$ (hence $Lie H \neq 0$) and suppose we have 
 $h_{1}$ of $h = Lie H$ that lifts to a sub-$p$-Lie algebra $h_{1}'$ of `Lie E`. By *loc. cit.*, there exists a subgroup
 `H_1` of $H$ such that $Lie H_{1} = h_{1}$, and a lift $H_{1}'$ of `H_1` in $E$ such that $Lie H_{1}' = h_{1}'$.
 Applying again the reduction described above, one is reduced to the same problem, where one has replaced $H$ by
-$H/H_{1}$. Since $H$ is of height 1, `Lie(H/H_1) = Lie H / Lie H_1` (*loc. cit.*), so
-$rg Lie(H/H_{1}) \leqslant rg Lie H - 1$. In brief, proceeding by induction on the rank of `Lie H`, one sees that it
-suffices, when $h \neq 0$,
+$H/H_{1}$. Since $H$ is of height 1, `Lie(H/H_1) = Lie H / Lie H_1` (*loc. cit.*), so $rg Lie(H/H_{1}) \leqslant rg Lie
+H - 1$. In brief, proceeding by induction on the rank of `Lie H`, one sees that it suffices, when $h \neq 0$,
 
 <!-- original page 595 -->
 
@@ -1897,9 +1866,9 @@ type $M$, whose formation commutes with base field extension. Since $E_{\bar{k}}
 and $U$ is unipotent, it is clear that $M$ is the unique lift of $H$ in $E$.
 
 *Proof of 5.1.1 i) c) ($U$ $k$-solvable)*. Since $(H/H)^{0}(k)$ is of order prime to $p$, it is immediate by duality
-that there exists an integer $n$ such that ${}_{n} H$ is an étale subgroup and the canonical morphism
-${}_{n} H \to H/H^{0}$ is an epimorphism, so that $H/_{n} H$ is connected. By 5.2.3 d), there exists a lift $H'$ of
-${}_{n} H$ in $E$. One shows, as at the beginning of the proof of 5.8.1, that $C = Centr_{E}(H')$
+that there exists an integer $n$ such that ${}_{n} H$ is an étale subgroup and the canonical morphism ${}_{n} H \to
+H/H^{0}$ is an epimorphism, so that $H/_{n} H$ is connected. By 5.2.3 d), there exists a lift $H'$ of ${}_{n} H$ in $E$.
+One shows, as at the beginning of the proof of 5.8.1, that $C = Centr_{E}(H')$
 
 <!-- original page 597 -->
 
@@ -1979,9 +1948,7 @@ On the other hand $\mu_{p-1}$ acts on $U$ by the formula:
 
 Denote by $G$ the Galois group of the extension $K$ defined by the equation
 
-$$
-X^{p} + X + t^{2} = 0,
-$$
+$$ X^{p} + X + t^{2} = 0, $$
 
 and let $a \in H^{1}(G, U)$ be the non-zero element described above. One verifies immediately that $E_{a}$ is then a
 non-trivial extension of $\mu_{p-1}$ by $U$.
@@ -2003,8 +1970,8 @@ The functor `T_G` (resp. $T_{G''}$) of subtori of $G$ (resp. `G''`) (cf. Exp. XV
 morphism $T_{G} \to T_{G''}$ deduced from the morphism $G \to G''$ is identified with the morphism $u \mapsto u^{p}$. It
 follows that if `T''` is a subtorus of `G''` corresponding to a point $x$ of $k \simeq G_{a}(k)$ such that $x^{1/p}$ is
 not in $k$, the inverse image $E$ of `T''` in $G$ will be an extension of a torus `T''` by $F U = \alpha_{p}$, will not
-possess maximal tori defined over $k$, hence will not be trivial. One finds for $E$ the subgroup of
-$G = \operatorname{Spec} k[U, T, T^{-1}]$ with equation $U^{p} = x - x T^{p}$.
+possess maximal tori defined over $k$, hence will not be trivial. One finds for $E$ the subgroup of $G =
+\operatorname{Spec} k[U, T, T^{-1}]$ with equation $U^{p} = x - x T^{p}$.
 
 **Remark 5.9.1.** *This last example shows that a non-smooth algebraic group defined over a non-perfect field does not
 necessarily possess maximal tori, and thus answers the question raised in Exp. XIV, 1.5 b).*
@@ -2062,9 +2029,7 @@ a $k$-algebraic group extension of $U$ by $H$, so that one has the exact sequenc
 
 <!-- label: III.XVII.6.1.1 -->
 
-$$
-1 \longrightarrow H \longrightarrow E \longrightarrow U \longrightarrow 1.
-$$
+$$ 1 \longrightarrow H \longrightarrow E \longrightarrow U \longrightarrow 1. $$
 
 *Then the extension $E$ is trivial and there exists a unique lift of $U$ in $E$ in each of the following cases:*
 
@@ -2098,9 +2063,7 @@ $H$ for the fpqc topology). Then $E$ is a central extension.*
 
 Indeed, since $H$ is commutative, the group $U$ acts by inner automorphisms on $H$, via an $S$-morphism of groups
 
-$$
-u : U \longrightarrow \operatorname{Aut}_{S-gr}(H).
-$$
+$$ u : U \longrightarrow \operatorname{Aut}_{S-gr}(H). $$
 
 The functor $\operatorname{Aut}_{S-gr}(H)$ is representable by an étale $S$-scheme (Exp. X 5.10), and consequently the
 unit section is both an open and closed immersion. Since $U$ has connected fibers, one deduces that $u$ is the unit
@@ -2119,8 +2082,8 @@ H¹(U, H) = Hom_{k-gr}(U, H) = 0
 
 by 2.4 ii). In the general case, denote by $U_{1}'$ the unique lift in $E$ of the connected component `U_0` of $U$, and
 let $N = Norm_{E}(U_{1}')$. If $g \in E(k)$, $int(g) U_{1}'$ is a lift of `U_0`, hence is equal to $U_{1}'$, and
-consequently $N(k) \supset E(k)$. Moreover, $N$ majorizes $H$ (6.2.1) and $U_{1}'$, whence immediately the fact that
-$N = E$. Passing to the quotient by $U_{1}'$,
+consequently $N(k) \supset E(k)$. Moreover, $N$ majorizes $H$ (6.2.1) and $U_{1}'$, whence immediately the fact that $N
+= E$. Passing to the quotient by $U_{1}'$,
 
 <!-- original page 604 -->
 
@@ -2139,8 +2102,8 @@ that every central extension of $U$ by $G_{m}$ be trivial.*
 <!-- label: III.XVII.6.2.4 -->
 
 Indeed, by induction on $r$, one notes first that the hypothesis entails that $E$ is trivial if $H = G^{r}_{m}$. In the
-general case, $H$ embeds in $G^{r}_{m}$ for a suitable integer $r$ (this is immediate by duality); let
-$H'' = G^{r}_{m} / H$. One obtains the exact sequence (App. I 2.1):
+general case, $H$ embeds in $G^{r}_{m}$ for a suitable integer $r$ (this is immediate by duality); let $H'' = G^{r}_{m}
+/ H$. One obtains the exact sequence (App. I 2.1):
 
 ```text
 Z¹(U, H'') ⟶ Ext_{alg}(U, H) ⟶ Ext_{alg}(U, G_m^r) = 0
@@ -2160,9 +2123,7 @@ then every $k$-morphism (of preschemes)*
 
 <!-- label: III.XVII.6.2.5 -->
 
-$$
-f : U \longrightarrow H
-$$
+$$ f : U \longrightarrow H $$
 
 *is constant.*
 
@@ -2215,9 +2176,8 @@ b) $H = G^{r}_{m}$.
 c) $H$ is radicial.
 
 In case a), one applies A) iii); in case c), one applies 1.6. Finally in case b), one notes that by Hilbert's Theorem
-90, $E \to U$ possesses a section, so that it suffices to show that
-$H^{2}(U, G^{r}_{m}) = H^{2}(U(k), G^{r}_{m}(k)) = 0$. Now $U(k)$ is a finite $p$-group, while $G^{r}_{m}(k)$ is
-uniquely $p$-divisible (since $k$ is perfect).
+90, $E \to U$ possesses a section, so that it suffices to show that $H^{2}(U, G^{r}_{m}) = H^{2}(U(k), G^{r}_{m}(k)) =
+0$. Now $U(k)$ is a finite $p$-group, while $G^{r}_{m}(k)$ is uniquely $p$-divisible (since $k$ is perfect).
 
 ### 6.3. Proof of 6.1.1 B) and C)
 
@@ -2226,9 +2186,7 @@ uniquely $p$-divisible (since $k$ is perfect).
 Thanks to 6.2.1, 6.2.3, 6.2.4, one sees that it suffices to prove B) when $H = G_{m}$. One therefore has an exact
 sequence:
 
-$$
-1 \longrightarrow G_{m} \longrightarrow E \longrightarrow \alpha_{p} \longrightarrow 1.
-$$
+$$ 1 \longrightarrow G_{m} \longrightarrow E \longrightarrow \alpha_{p} \longrightarrow 1. $$
 
 Since $G_{m}$ is smooth, one deduces an exact sequence of $p$-Lie algebras (App. II 3.2):
 
@@ -2267,12 +2225,10 @@ comorphism:
 (X, Y) ↦ (XX' + uYY', XY' + YX').
 ```
 
-The group $E$ is smooth, connected, commutative, of dimension 2; the subscheme $Y = 0$ defines a subgroup
-$H \simeq G_{m}$. The kernel $K$ of squaring in $E$ has equation:
+The group $E$ is smooth, connected, commutative, of dimension 2; the subscheme $Y = 0$ defines a subgroup $H \simeq
+G_{m}$. The kernel $K$ of squaring in $E$ has equation:
 
-$$
-X^{2} + uY^{2} = 1,
-$$
+$$ X^{2} + uY^{2} = 1, $$
 
 hence is of dimension 1. The group $K$ contains the unipotent radical of $E$ (defined over $\bar{k}$) but also the
 contribution of $H$ which is isomorphic to $\mu_{2}$. Since $K$ is reduced over $k$, the unipotent radical of $E$ is not
@@ -2288,20 +2244,17 @@ b) $H = G_{m}$, $U = \mathbb{Z}/2\mathbb{Z}$, $k$ non-perfect of characteristic 
 
 Choosing $k$ and $u$ as in a), consider the subgroup $E$ of `GL_2` generated by the element $X$ such that:
 
-$$
-X = ( 0   1) = ( u^{1/2}   0)( 0          u^{-1/2}).
-    ( u   0)   ( 0         u^{1/2})( u^{1/2}    0)
-$$
+$$ X = ( 0 1) = ( u^{1/2} 0)( 0 u^{-1/2}). ( u 0) ( 0 u^{1/2})( u^{1/2} 0) $$
 
 The group $E$ is an extension of $\mathbb{Z}/2\mathbb{Z}$ by $G_{m}$, but this extension is not trivial because the
 unipotent part of $X$ is not defined over $k$.
 
 c) $H = \mu_{p}$, $U = \alpha_{p}$, $k$ non-perfect.
 
-Let $e$ be the commutative $p$-Lie algebra generated by two elements $X$ and $Y$ such that $X^{(p)} = X$ and
-$Y^{(p)} = aX$. By App. II 2.2, $e$ is the $p$-Lie algebra of an algebraic group $E$ extension of $\alpha_{p}$ by
-$\mu_{p}$, but this extension is trivial if and only if there exists $b \in k$ such that $b^{p} = a$ (since one then has
-$(bX + Y)^{(p)} = 0$).
+Let $e$ be the commutative $p$-Lie algebra generated by two elements $X$ and $Y$ such that $X^{(p)} = X$ and $Y^{(p)} =
+aX$. By App. II 2.2, $e$ is the $p$-Lie algebra of an algebraic group $E$ extension of $\alpha_{p}$ by $\mu_{p}$, but
+this extension is trivial if and only if there exists $b \in k$ such that $b^{p} = a$ (since one then has $(bX +
+Y)^{(p)} = 0$).
 
 d) $H = \mu_{2}$, $U = \alpha_{2} \times \alpha_{2}$, $E$ non-commutative, $k$ a field of characteristic 2.
 
@@ -2359,10 +2312,10 @@ b) $K = \mu_{p}$. In this case $E$ is a trivial extension.
 Indeed, since $H$ is smooth, the canonical morphism $Lie E \to Lie \mu_{p}$ is surjective (App. II 3.2), and it suffices
 to apply 5.8.2 i), taking App. II 2.2 into account.
 
-c) $K = \mu_{q}$, with $(q, p) = 1$ and $E$ commutative. Here again the extension $E$ is trivial. Indeed, let
-$x \in E(k)$ be a lift of a generator $\bar{x}$ of $\mu_{q}(k)$. The element $x^{q}$ is an element of $H(k)$, hence is
-of the form $y^{q}$, $y \in H(k)$ (note that $G^{r}_{m}(k)$ is $q$-divisible). Since $E$ is commutative, $y^{-1} x$ is a
-lift of $\bar{x}$ of order $q$.
+c) $K = \mu_{q}$, with $(q, p) = 1$ and $E$ commutative. Here again the extension $E$ is trivial. Indeed, let $x \in
+E(k)$ be a lift of a generator $\bar{x}$ of $\mu_{q}(k)$. The element $x^{q}$ is an element of $H(k)$, hence is of the
+form $y^{q}$, $y \in H(k)$ (note that $G^{r}_{m}(k)$ is $q$-divisible). Since $E$ is commutative, $y^{-1} x$ is a lift
+of $\bar{x}$ of order $q$.
 
 ii) *General case.* The groups $H$ and $K$ are flat, affine, and of finite presentation over $S$ (Exp. IX 2.1), and
 consequently so is $E$ (Exp. VI_B 9.2). Using then the general technique of VI_B § 10, we reduce to the case where $S$
@@ -2413,18 +2366,14 @@ When $G$ is smooth, 7.2.1 b) is well-known (*Bible* § 4 Th. 4). If $G$ is radic
 height 1 (App. II 3.1). To prove 7.2.1 b), it then suffices to note that if one has an exact sequence of commutative
 algebraic groups:
 
-$$
-0 \longrightarrow G' \longrightarrow G \longrightarrow G'' \longrightarrow 0,
-$$
+$$ 0 \longrightarrow G' \longrightarrow G \longrightarrow G'' \longrightarrow 0, $$
 
 <!-- original page 614 -->
 
 where $G'$ (resp. `G''`) is a product of a group of multiplicative type by a unipotent group, $G' = M' \cdot U'$ (resp.
 $G'' = M'' \cdot U''$), then so is $G$. Indeed, consider the exact sequence:
 
-$$
-0 \longrightarrow G'/U' \longrightarrow G/U' \longrightarrow G'' \longrightarrow 0.
-$$
+$$ 0 \longrightarrow G'/U' \longrightarrow G/U' \longrightarrow G'' \longrightarrow 0. $$
 
 By 7.1.1 a), the inverse image in $G/U'$ of `M''` is a subgroup of multiplicative type `M_1`. The group `M_1` lifts to a
 subgroup $M$ of $G$ (5.1.1 i) a)). Likewise, using this time 6.1.1 C), one proves that there exists a unipotent subgroup
@@ -2437,8 +2386,8 @@ unipotent fibers, so the image of `M_1` in $G_{S} / M_{2}$ is zero (2.4 i)) and 
 majorizes `M_2`, and finally $M_{1} = M_{2}$. By fpqc descent, it follows that $M_{\bar{k}}$ comes from an algebraic
 subgroup $M$ of $G$. It is clear that $M$ is of multiplicative type, that $G/M$ is unipotent, and that the formation of
 $M$ is compatible with every extension of the field $k$. For every $k$-prescheme $S$, every subgroup of multiplicative
-type $H$ of `G_S` is contained in `M_S`. Indeed, by 2.5, its image in the group with unipotent fibers
-$(G/M)_{S} = G_{S} / M_{S}$ is zero. Taking in particular
+type $H$ of `G_S` is contained in `M_S`. Indeed, by 2.5, its image in the group with unipotent fibers $(G/M)_{S} = G_{S}
+/ M_{S}$ is zero. Taking in particular
 
 <!-- original page 615 -->
 
@@ -2479,8 +2428,8 @@ following lemma:
 
 <!-- original page 616 -->
 
-**Lemma 7.3.2.** *(Rosenlicht). Let $G$ be a connected $k$-algebraic group, $Z$ its center. Then the center $Z'$ of
-$G' = G/Z$ is unipotent.*
+**Lemma 7.3.2.** *(Rosenlicht). Let $G$ be a connected $k$-algebraic group, $Z$ its center. Then the center $Z'$ of $G'
+= G/Z$ is unipotent.*
 
 <!-- label: III.XVII.7.3.2 -->
 
@@ -2498,11 +2447,11 @@ b) $x^{\ell^{n}} \in Z^{0}(k)$;
 (it suffices to choose a lift of $\bar{x}$ whose image in $N/Z^{0}(k)$ belongs to the $\ell$-Sylow subgroup).
 
 Raising to the $\ell$-th power in the commutative group $Z^{0}$ is an étale morphism, hence $Z^{0}(k)$ is
-$\ell$-divisible. Consequently, possibly multiplying $x$ by an element of $Z^{0}(k)$, one may suppose
-$x^{\ell^{n}} = 0$. The group $N$ is then generated by two commuting commutative groups ($Z$ and the group generated by
-$x$), hence is commutative. The group ${}_{\ell^{n}} N$ is a group of multiplicative type, characteristic in $N$, hence
-invariant in $G$, and consequently central, $G$ being connected (Exp. IX, 5.5). Hence ${}_{\ell^{n}} N$ is contained in
-$Z$, which contradicts the fact that its image in $G'$ contains $\mu_{\ell}$.
+$\ell$-divisible. Consequently, possibly multiplying $x$ by an element of $Z^{0}(k)$, one may suppose $x^{\ell^{n}} =
+0$. The group $N$ is then generated by two commuting commutative groups ($Z$ and the group generated by $x$), hence is
+commutative. The group ${}_{\ell^{n}} N$ is a group of multiplicative type, characteristic in $N$, hence invariant in
+$G$, and consequently central, $G$ being connected (Exp. IX, 5.5). Hence ${}_{\ell^{n}} N$ is contained in $Z$, which
+contradicts the fact that its image in $G'$ contains $\mu_{\ell}$.
 
 <!-- original page 617 -->
 
@@ -2545,8 +2494,8 @@ Then:*
 
 <!-- label: III.XVII.A.1.1 -->
 
-*a) If $v$ possesses a section (that is, if there exists a $k$-morphism of preschemes $s : A'' \to A$ such that
-$vs = 1_{A''}$), one has the usual exact cohomology sequence:*
+*a) If $v$ possesses a section (that is, if there exists a $k$-morphism of preschemes $s : A'' \to A$ such that $vs =
+1_{A''}$), one has the usual exact cohomology sequence:*
 
 ```text
 … → H^i(G, A) → H^i(G, A'') ─d→ H^{i+1}(G, A') → …
@@ -2566,8 +2515,8 @@ $vs = 1_{A''}$), one has the usual exact cohomology sequence:*
 0 ⟶ C^•(G, A') ⟶ C^•(G, A) ⟶ C^•(G, A'') ⟶ 0.
 ```
 
-b) If $x'' \in A''^{G}(k)$, its inverse image in $A$ is a principal homogeneous space under $A'$, trivial (since
-$A(k) \to A''(k)$ is supposed surjective), on which $G$ acts, hence defines an element $d(x'') \in H^{1}(G, A')$. The
+b) If $x'' \in A''^{G}(k)$, its inverse image in $A$ is a principal homogeneous space under $A'$, trivial (since $A(k)
+\to A''(k)$ is supposed surjective), on which $G$ acts, hence defines an element $d(x'') \in H^{1}(G, A')$. The
 exactness of the sequence (1) is then immediate.
 
 ### A.2. The group $Ext_{alg}(G, A)$
@@ -2611,14 +2560,11 @@ b) If $g : H \to G$ is a $k$-morphism of $k$-algebraic groups, and if $E$ is an 
 product $E \times_{G} H$ is naturally an extension of $H$ by $A$, denoted $g^{*}(E)$. One therefore has a commutative
 diagram:
 
-$$
-1 \longrightarrow A \longrightarrow g^{*}(E) \longrightarrow H \longrightarrow 1
-     \downarrow 1_{A}          \downarrow      \downarrow g
-1 \longrightarrow A \longrightarrow E \longrightarrow G \longrightarrow 1.
-$$
+$$ 1 \longrightarrow A \longrightarrow g^{*}(E) \longrightarrow H \longrightarrow 1 \downarrow 1_{A} \downarrow
+\downarrow g 1 \longrightarrow A \longrightarrow E \longrightarrow G \longrightarrow 1. $$
 
-Adapting the proofs given in J.-P. Serre, *Groupes algébriques et corps de classes*, Chap. VII, one endows
-$Ext_{alg}(G, A)$ with a natural abelian group structure, functorial in $A$ and $G$.
+Adapting the proofs given in J.-P. Serre, *Groupes algébriques et corps de classes*, Chap. VII, one endows $Ext_{alg}(G,
+A)$ with a natural abelian group structure, functorial in $A$ and $G$.
 
 <!-- original page 621 -->
 
@@ -2654,8 +2600,8 @@ in the usual way a section homomorphism $u : G \to A'' \cdot G$. One then has $d
 <!-- label: III.XVII.A.3 -->
 
 It is well known, in the case of abstract groups, that there exists a functorial isomorphism between the abelian groups
-$H^{2}(G, A)$ and $Ext(G, A)$. Likewise in the present case, if $A$ is an element of $(Ab)_{G}$, to every 2-cocycle
-$u \in Z^{2}(G, A)$ one can associate a structure of algebraic group on the prescheme $A \times_{k} G$ which makes it an
+$H^{2}(G, A)$ and $Ext(G, A)$. Likewise in the present case, if $A$ is an element of $(Ab)_{G}$, to every 2-cocycle $u
+\in Z^{2}(G, A)$ one can associate a structure of algebraic group on the prescheme $A \times_{k} G$ which makes it an
 element of $Ext_{alg}(G, A)$. Moreover this extension is trivial if and only if $u \in B^{2}(G, A)$ (cf. Exp. III
 1.2.2). Let us recall that the composition law on $A \times G$ is defined by the formula:
 
@@ -2777,8 +2723,8 @@ We now suppose that $S$ is the spectrum of a field $k$ of characteristic $p$.
 Let us recall that in Exp. VI_A § 5, it was shown that if $G$ is a $k$-algebraic group, $H$ an algebraic subgroup of
 $G$, then the sheaf $G/H$ (sheaf for the fpqc topology) is representable. Recall then (VII_A 8.3):
 
-**Proposition B.3.1.** *Let $G$ be a $k$-algebraic group. Then there exists an integer $m$ such that for every
-$n \geqslant m$, the algebraic group $G / F_{n}(G)$ is smooth over $k$.*
+**Proposition B.3.1.** *Let $G$ be a $k$-algebraic group. Then there exists an integer $m$ such that for every $n
+\geqslant m$, the algebraic group $G / F_{n}(G)$ is smooth over $k$.*
 
 <!-- label: III.XVII.B.3.1 -->
 
@@ -2798,9 +2744,7 @@ $n \geqslant m$, the algebraic group $G / F_{n}(G)$ is smooth over $k$.*
 
 *iii) For every integer $n > 0$, one has the exact sequence:*
 
-$$
-1 \longrightarrow F_{n}(G') \longrightarrow F_{n}(G) \longrightarrow F_{n}(G'') \longrightarrow 1.
-$$
+$$ 1 \longrightarrow F_{n}(G') \longrightarrow F_{n}(G) \longrightarrow F_{n}(G'') \longrightarrow 1. $$
 
 *iv) The morphism $F G \to F G''$ is an epimorphism.*
 
@@ -2849,8 +2793,8 @@ The following proposition, as well as Theorems C.3.1 and C.4.1 below, will appea
 Raynaud on group schemes over a discrete valuation ring.[^N.D.E-XVII-12]
 
 **Proposition C.2.1.** *Let $S$ be the spectrum of a discrete valuation ring, $t$ its generic point, $G$ an
-$S$-prescheme in groups of finite type and flat, $\tilde{G} = \operatorname{Spec} \Gamma(G, O_{G})$,
-$u : G \to \tilde{G}$ the canonical morphism. Then:*
+$S$-prescheme in groups of finite type and flat, $\tilde{G} = \operatorname{Spec} \Gamma(G, O_{G})$, $u : G \to
+\tilde{G}$ the canonical morphism. Then:*
 
 <!-- label: III.XVII.C.2.1 -->
 
@@ -2945,9 +2889,7 @@ that is not solvable.
 
 i) Let us begin by describing the morphism $u$. The data of a $K$-scheme
 
-$$
-f : S \longrightarrow \operatorname{Spec}(K)
-$$
+$$ f : S \longrightarrow \operatorname{Spec}(K) $$
 
 <!-- original page 630 -->
 
@@ -2963,24 +2905,19 @@ Spec(k) ←──g──── S          (where g = j ∘ f)
 where $T = \operatorname{Spec}(K) \times_{\operatorname{Spec}(k)} S$, $h$ and `jT` are the two projections, and $s$ is
 the section of $T$ over $S$ such that $h \circ s = f$. The map
 
-$$
-u(S) : G_{K}(S) \longrightarrow H(S)
-$$
+$$ u(S) : G_{K}(S) \longrightarrow H(S) $$
 
 is simply the composite map:
 
-$$
-G_{K}(S) \xrightarrow{\sim} H(T) \to H(S),
-$$
+$$ G_{K}(S) \xrightarrow{\sim} H(T) \to H(S), $$
 
 where the last arrow is defined by the section $s$.
 
-Take in particular for $S$ the spectrum of an algebraic closure $\bar{k}$ of $k$ and for $f$ the unique $k$-morphism
-$K \to \bar{k}$, so that $T$ is a local Artinian scheme. To prove i) it suffices to do so after extension
-$K \to \bar{k}$ of the base field. Now it is clear that $G_{S} = \prod_{T/S} H_{T} / T$ represents the Greenberg functor
-of `H_T` relative to $S$ (M. J. Greenberg, *Schemata over local rings*, Ann. of Maths. 73, 1961, p. 624-648). The
-description made above then shows that, by means of this last identification, $u_{S}$ is the canonical transition
-morphism:
+Take in particular for $S$ the spectrum of an algebraic closure $\bar{k}$ of $k$ and for $f$ the unique $k$-morphism $K
+\to \bar{k}$, so that $T$ is a local Artinian scheme. To prove i) it suffices to do so after extension $K \to \bar{k}$
+of the base field. Now it is clear that $G_{S} = \prod_{T/S} H_{T} / T$ represents the Greenberg functor of `H_T`
+relative to $S$ (M. J. Greenberg, *Schemata over local rings*, Ann. of Maths. 73, 1961, p. 624-648). The description
+made above then shows that, by means of this last identification, $u_{S}$ is the canonical transition morphism:
 
 ```text
 Green(H_T) ⟶ H_S = H_T ×_T S.
@@ -2989,8 +2926,8 @@ Green(H_T) ⟶ H_S = H_T ×_T S.
 Assertion i) then follows from the fact that $H$ is smooth over $K$ and from (M. J. Greenberg, *Schemata over local
 rings II*, Ann. of Maths. 78, 1963, p. 256-266).
 
-ii) To establish ii) we may suppose $k$ separably closed. Let $U$ be a smooth algebraic subgroup of $G$ such that
-$U_{K} \supset R$, and let us show that $U = G$.
+ii) To establish ii) we may suppose $k$ separably closed. Let $U$ be a smooth algebraic subgroup of $G$ such that $U_{K}
+\supset R$, and let us show that $U = G$.
 
 <!-- original page 631 -->
 

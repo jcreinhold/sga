@@ -13,19 +13,17 @@ Modules on $Z$.
 
 <!-- label: X.1 -->
 
-Let $I$ be an ideal of definition of $Y$ in $X$. Set, for every $n \in \mathbb{N}$,
-$Y_{n} = (Y, (\mathcal{O}_{X}/I^{n+1})|Y)$. The $Y_{n}$ form a direct system of ordinary preschemes, or also of formal
-preschemes, by equipping the structure sheaves with the discrete topology. One knows (EGA I 10.6.2) that $\hat{X}$ is
-the direct limit, in the category of formal preschemes, of the direct system of the $Y_{n}$. One also knows (EGA I
-10.13) that to give a formal $\hat{X}$-prescheme of finite type $R$ is the same as to give a direct system of
-$Y_{n}$-preschemes $R_{n}$ of finite type, such that $R_{n} \simeq (R_{n+1}) \times_{(Y_{n+1})} (Y_{n})$. Moreover, in
-order that $R$ be an étale covering of $\hat{X}$, it is necessary and sufficient that for every $n$, $R_{n}$ be an étale
-covering of $Y_{n}$. This said, it is easy to see that nilpotent elements do not matter for étale coverings (SGA 1 8.3),
-that is, that the base-change functor
+Let $I$ be an ideal of definition of $Y$ in $X$. Set, for every $n \in \mathbb{N}$, $Y_{n} = (Y,
+(\mathcal{O}_{X}/I^{n+1})|Y)$. The $Y_{n}$ form a direct system of ordinary preschemes, or also of formal preschemes, by
+equipping the structure sheaves with the discrete topology. One knows (EGA I 10.6.2) that $\hat{X}$ is the direct limit,
+in the category of formal preschemes, of the direct system of the $Y_{n}$. One also knows (EGA I 10.13) that to give a
+formal $\hat{X}$-prescheme of finite type $R$ is the same as to give a direct system of $Y_{n}$-preschemes $R_{n}$ of
+finite type, such that $R_{n} \simeq (R_{n+1}) \times_{(Y_{n+1})} (Y_{n})$. Moreover, in order that $R$ be an étale
+covering of $\hat{X}$, it is necessary and sufficient that for every $n$, $R_{n}$ be an étale covering of $Y_{n}$. This
+said, it is easy to see that nilpotent elements do not matter for étale coverings (SGA 1 8.3), that is, that the
+base-change functor
 
-$$
-\hat{E}t(Y_{n+1}) \longrightarrow \hat{E}t(Y_{n})
-$$
+$$ \hat{E}t(Y_{n+1}) \longrightarrow \hat{E}t(Y_{n}) $$
 
 is an equivalence of categories for every $n \in \mathbb{N}$. Hence:
 
@@ -66,14 +64,13 @@ These conditions are satisfied in two important examples:
 Let $A$ be a noetherian ring and let $t \in \mathfrak{r}(A)$ be an $A$-regular element belonging to the radical
 $\mathfrak{r}(A)$ of $A$. Suppose that $A$ is a quotient of a regular local ring and that $A$ is complete for the
 $t$-adic topology (for example $A$ complete for the $\mathfrak{r}(A)$-adic topology). Set $X' = \operatorname{Spec}(A)$
-and $Y' = V(t)$; further, set $x = \mathfrak{r}(A)$ and $X = X' - {x}$, $Y = Y' - {x}$. So $X$ is open in $X'$ and
-$Y = X \cap Y'$. Then:
+and $Y' = V(t)$; further, set $x = \mathfrak{r}(A)$ and $X = X' - {x}$, $Y = Y' - {x}$. So $X$ is open in $X'$ and $Y =
+X \cap Y'$. Then:
 
 1. If, for every prime ideal $\mathfrak{p}$ of $A$ such that $\dim A/\mathfrak{p} = 1$ (i.e. for every closed point of
    $X$), one has $prof A_{\mathfrak{p}} \geqslant 2$, then $Lef(X, Y)$ holds;
-1. if, moreover, for every prime ideal $\mathfrak{p}$ of $A$ such that $t \in \mathfrak{p}$ and
-   $\dim A/\mathfrak{p} = 1$ (i.e. for every closed point of $Y$), one has $prof A_{\mathfrak{p}} \geqslant 3$, then
-   $Leff(X, Y)$ holds.
+1. if, moreover, for every prime ideal $\mathfrak{p}$ of $A$ such that $t \in \mathfrak{p}$ and $\dim A/\mathfrak{p} =
+   1$ (i.e. for every closed point of $Y$), one has $prof A_{\mathfrak{p}} \geqslant 3$, then $Leff(X, Y)$ holds.
 
 Let us first show that, for every open neighborhood $U$ of $Y$ in $X$, the complement of $U$ in $X$ is a union of a
 finite number of closed points (in $X$). Note that $U$ is open in $X$, hence in $X'$, so $Z' = X' - U$ is closed.
@@ -83,11 +80,11 @@ finite number of closed points (in $X$). Note that $U$ is open in $X$, hence in 
 Let $I$ be an ideal of definition of $Z'$; it suffices to prove that $A/I$ is of dimension `1`. But $Z' \cap Y' = {x}$,
 so $A/(I + (t))$ is artinian, whence the conclusion by the "Hauptidealsatz".
 
-The first hypothesis is equivalent to: "for every prime ideal $\mathfrak{p}$ of $A$,
-$\mathfrak{p} \neq \mathfrak{r}(A)$, one has $prof A_{\mathfrak{p}} \geqslant 3 - \dim A/\mathfrak{p}$". Indeed, $A$ is
-a quotient of a regular ring, so one may apply VIII 2.3 to the prescheme $X'$, to the closed part ${x}$, and to the
-coherent sheaf $\mathcal{O}_{X'}$, observing that $c(\mathfrak{p}) = \dim(A/\mathfrak{p})$ for
-$\mathfrak{p} \in U = X' - {x}$ (since $x$ is the closed point of $X'$).
+The first hypothesis is equivalent to: "for every prime ideal $\mathfrak{p}$ of $A$, $\mathfrak{p} \neq
+\mathfrak{r}(A)$, one has $prof A_{\mathfrak{p}} \geqslant 3 - \dim A/\mathfrak{p}$". Indeed, $A$ is a quotient of a
+regular ring, so one may apply VIII 2.3 to the prescheme $X'$, to the closed part ${x}$, and to the coherent sheaf
+$\mathcal{O}_{X'}$, observing that $c(\mathfrak{p}) = \dim(A/\mathfrak{p})$ for $\mathfrak{p} \in U = X' - {x}$ (since
+$x$ is the closed point of $X'$).
 
 Let $U$ be an open neighborhood of $Y$ in $X$ and let $E$ be a locally free $\mathcal{O}_{U}$-module. Set $Z = X - U$
 and let $u: U \to X$ be the canonical immersion. We shall first prove that $u_{*}(E)$ is a coherent
@@ -102,9 +99,9 @@ c(𝔭) = codim({𝔭}̄ ∩ Z, {𝔭}̄).
 
 Now if $\mathfrak{p} \in U$ and $c(\mathfrak{p}) = 1$, denoting again by $\mathfrak{p}$ the ideal of $A$ corresponding
 to $\mathfrak{p}$, one sees that $\dim A/\mathfrak{p} = 2$, since the complement of $U$ is a union of a finite number of
-closed points and $A$ is a quotient of a regular ring. Moreover, $E$ is locally free, so for every
-$\mathfrak{p} \in Supp E$ one has $prof E_{\mathfrak{p}} = prof \mathcal{O}_{U,\mathfrak{p}}$. Finally, if
-$\mathfrak{p} \in U$ and $c(\mathfrak{p}) = 1$, one has
+closed points and $A$ is a quotient of a regular ring. Moreover, $E$ is locally free, so for every $\mathfrak{p} \in
+Supp E$ one has $prof E_{\mathfrak{p}} = prof \mathcal{O}_{U,\mathfrak{p}}$. Finally, if $\mathfrak{p} \in U$ and
+$c(\mathfrak{p}) = 1$, one has
 
 ```text
 prof E′_𝔭 = prof E_𝔭 = prof 𝒪_{U,𝔭} = prof A_𝔭 ⩾ 3 − 2 = 1.
@@ -154,10 +151,9 @@ passing to the completions. In order that $E$ be algebraizable, it suffices that
 $\mathcal{O}_{\hat{X}'}$-Module, since $A$ is complete for the $t$-adic topology. Let $I = t\mathcal{O}_{\hat{X}}$; this
 is an ideal of definition of $\hat{X}$.
 
-For every $n \geqslant 0$, set $E_{n} = E/I^{n+1}E$. At every closed point $y \in Y$, the depth of $E_{0}$ is
-$\geqslant 2$; indeed, $t$ is an $A$-regular element, so
-$prof \mathcal{O}_{Y_{0},y} = prof \mathcal{O}_{X,y} - 1 \geqslant 2$. One concludes that $\hat{f}_{*}(E)$ is coherent
-(IX 2.3). QED.
+For every $n \geqslant 0$, set $E_{n} = E/I^{n+1}E$. At every closed point $y \in Y$, the depth of $E_{0}$ is $\geqslant
+2$; indeed, $t$ is an $A$-regular element, so $prof \mathcal{O}_{Y_{0},y} = prof \mathcal{O}_{X,y} - 1 \geqslant 2$. One
+concludes that $\hat{f}_{*}(E)$ is coherent (IX 2.3). QED.
 
 <!-- original page 92 -->
 
@@ -179,14 +175,12 @@ Let $S$ be a prescheme; one knows (EGA II 6.1.2) that the functor which to every
 associates the $\mathcal{O}_{X}$-Algebra $r_{*}(\mathcal{O}_{R})$ induces an equivalence between the category of finite
 flat coverings of $S$ and the category of locally free coherent $\mathcal{O}_{X}$-Algebras. Let $U$ be an open
 neighborhood of $Y$, and let $r: R \to U$ be a finite flat covering of $U$. Let $\hat{R}$ be the finite flat covering of
-$\hat{X}$ deduced from it by base change. One has
-$\hat{r}_{*}(\mathcal{O}_{\hat{R}}) \simeq r_{*}\hat{\mathcal{O}_{R}}$.
+$\hat{X}$ deduced from it by base change. One has $\hat{r}_{*}(\mathcal{O}_{\hat{R}}) \simeq
+r_{*}\hat{\mathcal{O}_{R}}$.
 
 Suppose then that $Lef(X, Y)$ holds. This implies that, for every $U$, the inverse image functor
 
-$$
-L(U) \longrightarrow L(\hat{X})
-$$
+$$ L(U) \longrightarrow L(\hat{X}) $$
 
 is fully faithful. Indeed, let $E$ and $F$ be two locally free coherent $\mathcal{O}_{U}$-Modules;
 $\operatorname{Hom}(E, F)$ is also coherent and locally free. By hypothesis the natural map
@@ -218,15 +212,15 @@ covering of $U$) associates its inverse image by $\hat{X} \to X$.
 <!-- original page 93 -->
 
 1. If $Leff(X, Y)$ holds, then for every locally free coherent $\mathcal{O}_{\hat{X}}$-Module $E$ (resp. ...), there
-   exist an open $U$ and a locally free coherent $\mathcal{O}_{U}$-Module `Ẽ` (resp. ...), such that
-   $L_{U}(\tilde{E}) \simeq E$ (resp. ...).
+   exist an open $U$ and a locally free coherent $\mathcal{O}_{U}$-Module `Ẽ` (resp. ...), such that $L_{U}(\tilde{E})
+   \simeq E$ (resp. ...).
 
 (i) Has been seen.
 
 (ii) Follows from (i) and from the hypothesis, at least for `L_U` and `P_U`. Moreover, if $R$ is an étale covering of
-$\hat{X}$, there exist an open neighborhood $U$ of $Y$ in $X$ and a finite flat covering $R'$ of $U$ such that
-$\hat{R}' \simeq R$. From it one deduces a covering $R''$ of $Y$ which is étale by 1.1, so $R'$ is étale in a
-neighborhood $U'$ of $Y$. QED.
+$\hat{X}$, there exist an open neighborhood $U$ of $Y$ in $X$ and a finite flat covering $R'$ of $U$ such that $\hat{R}'
+\simeq R$. From it one deduces a covering $R''$ of $Y$ which is étale by 1.1, so $R'$ is étale in a neighborhood $U'$ of
+$Y$. QED.
 
 **Corollary.**
 
@@ -251,9 +245,7 @@ by $Lef(X, Y)$.
 
 If $Lef(X, Y)$ holds, then for every $U$, the functor
 
-$$
-\hat{E}t(U) \longrightarrow \hat{E}t(Y)
-$$
+$$ \hat{E}t(U) \longrightarrow \hat{E}t(Y) $$
 
 is fully faithful. If $Leff(X, Y)$ holds, then for every étale covering $R$ of $Y$, there exist an open neighborhood $U$
 of $Y$ and a covering $R'$ of $U$ such that $R' \times_{U} Y \simeq R$.
@@ -326,9 +318,7 @@ This said, the following theorem is the essential result of this number:
 Recall that one says that a local ring is a *complete intersection* if there exist a regular noetherian local ring $B$
 and a $B$-regular sequence $(t_{1}, \cdots, t_{k})$ of elements of the radical $\mathfrak{r}(B)$ of $B$ such that
 
-$$
-A \simeq B/(t_{1}, \cdots, t_{k}).
-$$
+$$ A \simeq B/(t_{1}, \cdots, t_{k}). $$
 
 In this connection, let us remark that it would be less ambiguous to say that $A$ is an *absolute* complete
 intersection, by opposition with the situation, already encountered, in which $X$ is a locally noetherian prescheme
@@ -351,10 +341,10 @@ canonical immersion of $U$ into $X$. The following conditions are equivalent:
 1. for every $z \in Z$, one has $prof \mathcal{O}_{X,z} \geqslant 2$.
 
 One has already seen (III 3.3) the equivalence of (ii) and (iii). Let us show that (ii) implies (i). Let $F$ and $G$ be
-two locally free coherent $\mathcal{O}_{V}$-Modules; $\operatorname{Hom}(F, G)$ is also one, so
-$\operatorname{Hom}(F, G) \to i_{*}(\operatorname{Hom}(F|V', G|V'))$ is an isomorphism, so
-$\operatorname{Hom}(F, G) \simeq \operatorname{Hom}(F|V', G|V')$. Conversely, one takes $F = G = \mathcal{O}_{X}$ and
-applies (i) to every open $V$ of $X$.
+two locally free coherent $\mathcal{O}_{V}$-Modules; $\operatorname{Hom}(F, G)$ is also one, so $\operatorname{Hom}(F,
+G) \to i_{*}(\operatorname{Hom}(F|V', G|V'))$ is an isomorphism, so $\operatorname{Hom}(F, G) \simeq
+\operatorname{Hom}(F|V', G|V')$. Conversely, one takes $F = G = \mathcal{O}_{X}$ and applies (i) to every open $V$ of
+$X$.
 
 Here is a useful "descent lemma":
 
@@ -370,9 +360,7 @@ Note that the hypothesis $\mathcal{O}_{X} \simeq i_{*}(\mathcal{O}_{U})$ is pres
 since $i$ is a quasi-compact morphism and, in that case, direct image commutes with inverse image. Now this hypothesis
 implies that the functor
 
-$$
-\hat{E}t(V) \longrightarrow \hat{E}t(U \cap V)
-$$
+$$ \hat{E}t(V) \longrightarrow \hat{E}t(U \cap V) $$
 
 defined by
 
@@ -416,15 +404,15 @@ Let $A$ be a noetherian local ring and let $t \in \mathfrak{r}(A)$ be an $A$-reg
 complete for the $t$-adic topology and is, moreover, a quotient of a regular local ring (for example $A$ complete). Set
 $B = A/tA$.
 
-1. If for every prime ideal $\mathfrak{p}$ of $A$ such that $\dim A/\mathfrak{p} = 1$, one has
-   $prof A_{\mathfrak{p}} \geqslant 2$, then $B$ pure implies $A$ pure.
-1. If for every prime ideal $\mathfrak{p}$ of $A$ such that $\dim A/\mathfrak{p} = 1$, one has
-   $prof A_{\mathfrak{p}} \geqslant 2$, if $A_{\mathfrak{p}}$ is pure when $t \notin \mathfrak{p}$, and if[^N.D.E-X-5]
-   $prof A_{\mathfrak{p}} \geqslant 3$ when $t \in \mathfrak{p}$, then $A$ pure implies $B$ pure.
+1. If for every prime ideal $\mathfrak{p}$ of $A$ such that $\dim A/\mathfrak{p} = 1$, one has $prof A_{\mathfrak{p}}
+   \geqslant 2$, then $B$ pure implies $A$ pure.
+1. If for every prime ideal $\mathfrak{p}$ of $A$ such that $\dim A/\mathfrak{p} = 1$, one has $prof A_{\mathfrak{p}}
+   \geqslant 2$, if $A_{\mathfrak{p}}$ is pure when $t \notin \mathfrak{p}$, and if[^N.D.E-X-5] $prof A_{\mathfrak{p}}
+   \geqslant 3$ when $t \in \mathfrak{p}$, then $A$ pure implies $B$ pure.
 
-Let $X' = \operatorname{Spec}(A)$ and $Y' = V(t)$, which one identifies with the spectrum of $B$. Let
-$x = \mathfrak{r}(A)$, and set $X = X' - {x}$ and $Y = Y' - {x} = X \cap Y'$. Denote by $\hat{X}'$ the formal spectrum
-of $A$ for the $t$-adic topology, which is identified with the formal completion of $X'$ along $Y'$.
+Let $X' = \operatorname{Spec}(A)$ and $Y' = V(t)$, which one identifies with the spectrum of $B$. Let $x =
+\mathfrak{r}(A)$, and set $X = X' - {x}$ and $Y = Y' - {x} = X \cap Y'$. Denote by $\hat{X}'$ the formal spectrum of $A$
+for the $t$-adic topology, which is identified with the formal completion of $X'$ along $Y'$.
 
 Since $A$ is complete for the $t$-adic topology, one notes that $\hat{E}t(X') \to \hat{E}t(\hat{X}')$ is an equivalence
 of categories. Likewise $\hat{E}t(\hat{X}') \to \hat{E}t(Y')$ by Proposition 1.1, so $\hat{E}t(X') \to \hat{E}t(Y')$ is
@@ -454,11 +442,11 @@ the conclusion.
 
 **Proof of the purity theorem.**
 
-Let us first prove (i) by induction on the dimension. Let $A$ be a noetherian local ring of dimension `2`. Set
-$X' = \operatorname{Spec}(A)$, $x = \mathfrak{r}(A)$, $X = X' - {x}$. One has $prof A = 2$. One may therefore apply
-Lemma 3.5 to the pair $(X', {x})$, and so $\hat{E}t(X') \to \hat{E}t(X)$ is fully faithful. Let now $r: R \to X$ be an
-étale covering defined by a locally free coherent and étale $\mathcal{O}_{X}$-Algebra $A = r_{*}(\mathcal{O}_{R})$.
-Denote by $i: X \to X'$ the canonical immersion of $X$ into $X'$. I claim that $i_{*}(A) = B$ is a coherent
+Let us first prove (i) by induction on the dimension. Let $A$ be a noetherian local ring of dimension `2`. Set $X' =
+\operatorname{Spec}(A)$, $x = \mathfrak{r}(A)$, $X = X' - {x}$. One has $prof A = 2$. One may therefore apply Lemma 3.5
+to the pair $(X', {x})$, and so $\hat{E}t(X') \to \hat{E}t(X)$ is fully faithful. Let now $r: R \to X$ be an étale
+covering defined by a locally free coherent and étale $\mathcal{O}_{X}$-Algebra $A = r_{*}(\mathcal{O}_{R})$. Denote by
+$i: X \to X'$ the canonical immersion of $X$ into $X'$. I claim that $i_{*}(A) = B$ is a coherent
 $\mathcal{O}_{X'}$-Algebra. Indeed, it suffices to apply the "finiteness theorem" VIII 2.3. I claim that this algebra is
 of depth $\geqslant 2$ at $x$. Indeed, it is the direct image of an $\mathcal{O}_{X}$-Module, with $X = X' - {x}$. Since
 $A$ is a regular ring of dimension `2`, one has $dp B + prof B = \dim A = 2$, where `dp B` denotes the projective
@@ -471,19 +459,18 @@ in $x = \mathfrak{r}(A)$, hence is empty since $\dim A = 2$.
 
 Let $A$ be a regular noetherian local ring, $\dim A = n \geqslant 3$. Suppose (i) proved for rings of dimension $< n$.
 To prove that $A$ is pure, one may assume $A$ complete by 3.8. Let $t \in \mathfrak{r}(A)$ whose image in
-$\mathfrak{r}(A)/\mathfrak{r}(A)^{2}$ is nonzero. Then $B = A/tA$ is a regular noetherian local ring of dimension
-$n - 1$, hence is pure, since $n - 1 \geqslant 2$. One concludes by Lemma 3.9 (i), which is applicable since $A$ is
-complete.
+$\mathfrak{r}(A)/\mathfrak{r}(A)^{2}$ is nonzero. Then $B = A/tA$ is a regular noetherian local ring of dimension $n -
+1$, hence is pure, since $n - 1 \geqslant 2$. One concludes by Lemma 3.9 (i), which is applicable since $A$ is complete.
 
 Let us show (ii). Let $A$ be a noetherian local ring of dimension $\geqslant 3$. Suppose that there exist a regular
 noetherian local ring $B$ and a $B$-sequence $(t_{1}, \cdots, t_{k})$ such that $A \simeq B/(t_{1}, \cdots, t_{k})$. Let
 us prove that $A$ is pure, by induction on $k$. If $k = 0$, one knows it by (i). Suppose $k \geqslant 1$ and the result
-acquired for $k' < k$. By Corollary 3.8[^TRANSLATOR-X-1] one may assume that $A$ (hence also $B$) is complete. Set
-$C = B/(t_{1}, \cdots, t_{k-1})$, so $A \simeq C/t_{k} C$ and $t_{k}$ is $C$-regular. By the induction hypothesis one
-knows that $C$ is pure; it suffices to prove that Lemma 3.9 (ii) is applicable. Notation: the $A$ and $B$ of the lemma
-become $C$ and $A$. One has $\dim C \geqslant 4$, so for every prime ideal $\mathfrak{p}$ of $C$ such that
-$\dim C/\mathfrak{p} = 1$, one has $prof C_{\mathfrak{p}} \geqslant 3$. Moreover, $C_{\mathfrak{p}}$ is a complete
-intersection with $k' \leqslant k - 1$, hence is pure by the induction hypothesis. QED.
+acquired for $k' < k$. By Corollary 3.8[^TRANSLATOR-X-1] one may assume that $A$ (hence also $B$) is complete. Set $C =
+B/(t_{1}, \cdots, t_{k-1})$, so $A \simeq C/t_{k} C$ and $t_{k}$ is $C$-regular. By the induction hypothesis one knows
+that $C$ is pure; it suffices to prove that Lemma 3.9 (ii) is applicable. Notation: the $A$ and $B$ of the lemma become
+$C$ and $A$. One has $\dim C \geqslant 4$, so for every prime ideal $\mathfrak{p}$ of $C$ such that $\dim C/\mathfrak{p}
+= 1$, one has $prof C_{\mathfrak{p}} \geqslant 3$. Moreover, $C_{\mathfrak{p}}$ is a complete intersection with $k'
+\leqslant k - 1$, hence is pure by the induction hypothesis. QED.
 
 **Theorem.**
 
@@ -496,17 +483,13 @@ Examples 2.1 and 2.2). Suppose moreover that, for every open neighborhood $U$ of
 ring $\mathcal{O}_{X,x}$ is regular of dimension $\geqslant 2$ or a complete intersection of dimension $\geqslant 3$.
 Then
 
-$$
-\pi_{0}(Y) \longrightarrow \pi_{0}(X)
-$$
+$$ \pi_{0}(Y) \longrightarrow \pi_{0}(X) $$
 
 <!-- original page 98 -->
 
 is a bijection, and if $X$ is connected
 
-$$
-\pi_{1}(Y) \longrightarrow \pi_{1}(X)
-$$
+$$ \pi_{1}(Y) \longrightarrow \pi_{1}(X) $$
 
 is an isomorphism.
 
@@ -566,11 +549,11 @@ LEDGER DELTA (Exposé X):
     arithmetic surface (normal and quasi-projective) $X$ over a ring of integers $\mathcal{O}_{K}$, Bost, improving on
     results of Ihara (Ihara Y., "Horizontal divisors on arithmetic surfaces associated with Belyĭ uniformizations", in
     *The Grothendieck theory of dessins d'enfants* (Luminy, 1993), London Math. Soc. Lect. Note Series, vol. 200,
-    Cambridge Univ. Press, Cambridge, 1994, pp. 245–254 or loc. cit., corollary 7.2), has shown that if a point
-    $P \in X(\mathcal{O}_{K})$, playing the role of the divisor $D$ in the geometric situation, satisfies certain
-    positivity conditions, then the arrow $\pi_{1}(X) \to \pi_{1}(\operatorname{Spec} \mathcal{O}_{K})$ deduced from the
-    projection was invertible with inverse the arrow $\pi_{1}(\operatorname{Spec} \mathcal{O}_{K}) \to \pi_{1}(X)$
-    deduced from $P$ (loc. cit., Theorem 1.2).
+    Cambridge Univ. Press, Cambridge, 1994, pp. 245–254 or loc. cit., corollary 7.2), has shown that if a point $P \in
+    X(\mathcal{O}_{K})$, playing the role of the divisor $D$ in the geometric situation, satisfies certain positivity
+    conditions, then the arrow $\pi_{1}(X) \to \pi_{1}(\operatorname{Spec} \mathcal{O}_{K})$ deduced from the projection
+    was invertible with inverse the arrow $\pi_{1}(\operatorname{Spec} \mathcal{O}_{K}) \to \pi_{1}(X)$ deduced from $P$
+    (loc. cit., Theorem 1.2).
 
 [^X-3-pur-star]: For a more satisfactory notion in some respects, cf. the commentary XIV 1.6 d).
 

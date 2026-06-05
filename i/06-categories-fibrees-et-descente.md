@@ -15,11 +15,11 @@ The notion of “descent” supplies the general framework for all procedures of
 of $X$ by open subsets `Xᵢ`. Suppose one is given, for every $i$, a fiber space, say, `Eᵢ` over `Xᵢ`, and for every pair
 $(i,j)$ an isomorphism $f_{ji}$ from $E_{i}|X_{ij}$ to $E_{j}|X_{ij}$, where $X_{ij} = X_{i} \cap X_{j}$, satisfying the
 well-known transitivity condition, written in abbreviated form $f_{kj} f_{ji} = f_{ki}$. One knows that there exists a
-fiber space $E$ on $X$, defined up to isomorphism by the condition that one have isomorphisms
-$f_{i}: E|X_{i} \simeq E_{i}$ satisfying the relations $f_{ji} = f_{j} f^{-1}_{i}$, with the usual abuse of notation.
+fiber space $E$ on $X$, defined up to isomorphism by the condition that one have isomorphisms $f_{i}: E|X_{i} \simeq
+E_{i}$ satisfying the relations $f_{ji} = f_{j} f^{-1}_{i}$, with the usual abuse of notation.
 
-Let $X'$ be the sum space of the `Xᵢ`; it is therefore a fiber space over $X$, i.e. endowed with a continuous map
-$X' \to X$. The data of the `Eᵢ` can be interpreted more concisely as a fiber space $E'$ over $X'$, and the data of the
+Let $X'$ be the sum space of the `Xᵢ`; it is therefore a fiber space over $X$, i.e. endowed with a continuous map $X'
+\to X$. The data of the `Eᵢ` can be interpreted more concisely as a fiber space $E'$ over $X'$, and the data of the
 $f_{ji}$ as an isomorphism between the two inverse images, by the two canonical projections, $E''_{1}$ and $E''_{2}$ of
 $E'$ on $X'' = X' \times_{X} X'$. The gluing condition can then be written as an identity between isomorphisms of fiber
 spaces $E'''_{1}$ and $E'''_{3}$ over the triple fiber product $X''' = X' \times_{X} X' \times_{X} X'$, where $E'''_{i}$
@@ -56,19 +56,18 @@ lying in the Universe in question; the “morphisms” from one object $X$ of `C
 <!-- original page 147 -->
 
 If $\mathcal{C}$ is a category, we denote by $Ob(\mathcal{C})$ **the set of objects** of $\mathcal{C}$, and by
-$Fl(\mathcal{C})$ **the set of arrows** of $\mathcal{C}$, or morphisms of $\mathcal{C}$. We shall therefore write
-$X \in Ob(\mathcal{C})$, avoiding the common abuse of notation $X \in \mathcal{C}$. If $\mathcal{C}$ and $\mathcal{C}'$
-are two categories, a **functor** from $\mathcal{C}$ to $\mathcal{C}'$ will always mean what is commonly called a
-**covariant** functor from $\mathcal{C}$ to $\mathcal{C}'$. Its data include both the target category and the source
-category, $\mathcal{C}$ and $\mathcal{C}'$. The functors from $\mathcal{C}$ to $\mathcal{C}'$ form a set, denoted
+$Fl(\mathcal{C})$ **the set of arrows** of $\mathcal{C}$, or morphisms of $\mathcal{C}$. We shall therefore write $X \in
+Ob(\mathcal{C})$, avoiding the common abuse of notation $X \in \mathcal{C}$. If $\mathcal{C}$ and $\mathcal{C}'$ are two
+categories, a **functor** from $\mathcal{C}$ to $\mathcal{C}'$ will always mean what is commonly called a **covariant**
+functor from $\mathcal{C}$ to $\mathcal{C}'$. Its data include both the target category and the source category,
+$\mathcal{C}$ and $\mathcal{C}'$. The functors from $\mathcal{C}$ to $\mathcal{C}'$ form a set, denoted
 $\operatorname{Hom}(\mathcal{C},\mathcal{C}')$, which is the set of objects of a category denoted `Hom̲(𝒞,𝒞′)`. By
 definition, a **contravariant functor** from $\mathcal{C}$ to $\mathcal{C}'$ is a functor from the **opposite category**
 $\mathcal{C}^{\circ}$ of $\mathcal{C}$ to $\mathcal{C}'$.
 
-We shall admit the notions of **projective limit** and **inductive limit** of a functor
-$F: \mathcal{I} \to \mathcal{C}$, and in particular the most common special cases of these notions: cartesian products
-and fiber products, the dual notions of direct sums and amalgamated sums, and the usual formal properties of these
-operations.
+We shall admit the notions of **projective limit** and **inductive limit** of a functor $F: \mathcal{I} \to
+\mathcal{C}$, and in particular the most common special cases of these notions: cartesian products and fiber products,
+the dual notions of direct sums and amalgamated sums, and the usual formal properties of these operations.
 
 For example, in the category `Cat` introduced above, projective limits, relative to categories $\mathcal{I}$ lying in
 the chosen Universe, exist. The set of objects, respectively the set of arrows, of the projective-limit category
@@ -95,8 +94,8 @@ $id_{\mathcal{C}}'$.
 When this is so, giving a functor $G: \mathcal{C}' \to \mathcal{C}$ and an isomorphism $\phi: FG \to id_{\mathcal{C}}'$
 is equivalent to giving, for every $S' \in Ob(\mathcal{C}')$, a pair $(S,u)$ formed by an object $S$ of $\mathcal{C}$
 and an isomorphism $u: F(S) \to S'$, namely $(G(S'), \phi(S'))$. With this notation, there exists a unique functor
-$\mathcal{C}' \to \mathcal{C}$ having the given map $S' \mapsto G(S')$ as its object map, and such that the map
-$S' \mapsto \phi(S')$ is a homomorphism of functors $FG \to id_{\mathcal{C}}'$.
+$\mathcal{C}' \to \mathcal{C}$ having the given map $S' \mapsto G(S')$ as its object map, and such that the map $S'
+\mapsto \phi(S')$ is a homomorphism of functors $FG \to id_{\mathcal{C}}'$.
 
 Finally, if $G$ is a functor quasi-inverse to $F$, and if one chooses isomorphisms $\phi: FG \simeq id_{\mathcal{C}}'$
 and $\psi: GF \simeq id_{\mathcal{C}}$, then the two compatibility conditions on $\phi$ and $\psi$ stated in [VI.1,
@@ -111,17 +110,13 @@ Let $\mathcal{E}$ be a category in the chosen Universe. It is therefore an objec
 category $Cat_{/}\mathcal{E}$ of “objects of `Cat` over $\mathcal{E}$”. An object of this category is therefore a
 functor
 
-$$
-p: \mathcal{F} \to \mathcal{E}.
-$$
+$$ p: \mathcal{F} \to \mathcal{E}. $$
 
 One also says that the category $\mathcal{F}$, endowed with such a functor, is a **category over** $\mathcal{E}$, or an
 **$\mathcal{E}$-category**. Thus an **$\mathcal{E}$-functor** from a category $\mathcal{F}$ over $\mathcal{E}$ to a
 category $\mathcal{G}$ over $\mathcal{E}$ will mean a functor
 
-$$
-f: \mathcal{F} \to \mathcal{G}
-$$
+$$ f: \mathcal{F} \to \mathcal{G} $$
 
 such that
 
@@ -142,9 +137,7 @@ $Cat_{/}\mathcal{E}$.
 
 We shall denote by
 
-$$
-\operatorname{Hom}_{\mathcal{E}}(\mathcal{F},\mathcal{G})
-$$
+$$ \operatorname{Hom}_{\mathcal{E}}(\mathcal{F},\mathcal{G}) $$
 
 the set of $\mathcal{E}$-functors from $\mathcal{F}$ to $\mathcal{G}$. Of course, a composite of $\mathcal{E}$-functors
 is an $\mathcal{E}$-functor, the composition in question corresponding by definition to the composition of arrows in
@@ -152,32 +145,24 @@ $Cat_{/}\mathcal{E}$.
 
 Now consider two $\mathcal{E}$-functors
 
-$$
-f,g: \mathcal{F} \to \mathcal{G}
-$$
+$$ f,g: \mathcal{F} \to \mathcal{G} $$
 
 and a homomorphism of functors
 
-$$
-u: f \to g.
-$$
+$$ u: f \to g. $$
 
 One says that $u$ is an **$\mathcal{E}$-homomorphism**, or a “**homomorphism of $\mathcal{E}$-functors**”, if for every
 $\xi \in Ob(\mathcal{F})$, one has
 
-$$
-q(u(\xi)) = id_{p(\xi)}.
-$$
+$$ q(u(\xi)) = id_{p(\xi)}. $$
 
 In words: putting $S = p(\xi) = qf(\xi) = qg(\xi) \in Ob(\mathcal{E})$, the morphism
 
-$$
-u(\xi): f(\xi) \to g(\xi)
-$$
+$$ u(\xi): f(\xi) \to g(\xi) $$
 
 in $\mathcal{G}$ is an $id_{S}$-morphism. In general, for every morphism $\alpha: T \to S$ in $\mathcal{E}$ and every
-category $\mathcal{G}$ over $\mathcal{E}$, a morphism $v$ in $\mathcal{G}$ is called an **$\alpha$-morphism** if
-$q(v) = \alpha$, where $q$ denotes the projection functor $\mathcal{G} \to \mathcal{E}$. If one has a third
+category $\mathcal{G}$ over $\mathcal{E}$, a morphism $v$ in $\mathcal{G}$ is called an **$\alpha$-morphism** if $q(v) =
+\alpha$, where $q$ denotes the projection functor $\mathcal{G} \to \mathcal{E}$. If one has a third
 $\mathcal{E}$-functor $h: \mathcal{F} \to \mathcal{G}$ and an $\mathcal{E}$-homomorphism $v: g \to h$, then `vu` is
 again an $\mathcal{E}$-homomorphism.
 
@@ -208,9 +193,8 @@ composition of $\mathcal{E}$-functors. In other words, one wants to define a “
 ```
 
 when $\mathcal{F}$, $\mathcal{G}$, $\mathcal{H}$ are three categories over $\mathcal{E}$, in such a way that this
-functor induces, on objects, the composition map $(f,g) \mapsto gf$ for $\mathcal{E}$-functors
-$f: \mathcal{F} \to \mathcal{G}$ and $g: \mathcal{G} \to \mathcal{H}$. For this, recall that one defines a canonical
-functor
+functor induces, on objects, the composition map $(f,g) \mapsto gf$ for $\mathcal{E}$-functors $f: \mathcal{F} \to
+\mathcal{G}$ and $g: \mathcal{G} \to \mathcal{H}$. For this, recall that one defines a canonical functor
 
 ```text
 (ii) Hom̲(ℱ,𝒢) × Hom̲(𝒢,ℋ) → Hom̲(ℱ,ℋ),
@@ -307,9 +291,7 @@ in $Cat_{/}\mathcal{E}$. In particular, cartesian products exist there; these ar
 `Cat`. In accordance with the general notation, if $\mathcal{F}$ and $\mathcal{G}$ are categories over $\mathcal{E}$, we
 denote by
 
-$$
-\mathcal{F} \times_{\mathcal{E}} \mathcal{G}
-$$
+$$ \mathcal{F} \times_{\mathcal{E}} \mathcal{G} $$
 
 their product in $Cat_{/}\mathcal{E}$, i.e. their fiber product over $\mathcal{E}$ in `Cat`, regarded as a category over
 $\mathcal{E}$. Thus $\mathcal{F} \times_{\mathcal{E}} \mathcal{G}$ is endowed with two $\mathcal{E}$-functors $pr_{1}$
@@ -327,9 +309,9 @@ This bijection moreover comes from an isomorphism of categories
 Hom̲_{ℰ/-}(ℋ, ℱ ×_ℰ 𝒢) ≃ Hom̲_{ℰ/-}(ℋ,ℱ) × Hom̲_{ℰ/-}(ℋ,𝒢),
 ```
 
-by taking the sets of objects of the two sides. The displayed functor is the one whose components are the functors
-$h \mapsto pr_{1} \circ h$ and $h \mapsto pr_{2} \circ h$ from the first member to the two factors of the second. We
-leave to the reader the verification that one indeed obtains an isomorphism in this way; the analogous fact is true more
+by taking the sets of objects of the two sides. The displayed functor is the one whose components are the functors $h
+\mapsto pr_{1} \circ h$ and $h \mapsto pr_{2} \circ h$ from the first member to the two factors of the second. We leave
+to the reader the verification that one indeed obtains an isomorphism in this way; the analogous fact is true more
 generally whenever one has a projective limit of categories, and not only in the case of a fiber product.
 
 Recall moreover, as was said in VI.1, that
@@ -343,9 +325,7 @@ the composition of arrows being carried out componentwise.
 
 In what follows, we consider a functor
 
-$$
-\lambda: \mathcal{E}' \to \mathcal{E},
-$$
+$$ \lambda: \mathcal{E}' \to \mathcal{E}, $$
 
 and, for every category $\mathcal{F}$ over $\mathcal{E}$, we regard $\mathcal{F} \times_{\mathcal{E}} \mathcal{E}'$ as a
 category over $\mathcal{E}'$ by means of $pr_{2}$. In other words, we interpret the “fiber product” operation as an
@@ -355,15 +335,12 @@ functor** for $\lambda$:
 
 <!-- original page 154 -->
 
-$$
-\lambda*: Cat_{/}\mathcal{E} \to Cat_{/}\mathcal{E}'.
-$$
+$$ \lambda*: Cat_{/}\mathcal{E} \to Cat_{/}\mathcal{E}'. $$
 
 It is adjoint to the “restriction of the base” functor, which sends every category $\mathcal{F}'$ over $\mathcal{E}'$,
-with projection functor $p'$, to $\mathcal{F}'$ regarded as a category over $\mathcal{E}$ by the functor
-$p = \lambda p'$. As is well known for a base-change functor in a category, the base-change functor “commutes with
-projective limits”, and in particular “transforms” fiber products over $\mathcal{E}$ into fiber products over
-$\mathcal{E}'$.
+with projection functor $p'$, to $\mathcal{F}'$ regarded as a category over $\mathcal{E}$ by the functor $p = \lambda
+p'$. As is well known for a base-change functor in a category, the base-change functor “commutes with projective
+limits”, and in particular “transforms” fiber products over $\mathcal{E}$ into fiber products over $\mathcal{E}'$.
 
 Let $\mathcal{F}$ and $\mathcal{G}$ be two categories over $\mathcal{E}$. We shall define a **canonical isomorphism**
 
@@ -380,9 +357,7 @@ pr₁: 𝒢′ = 𝒢 ×_ℰ ℰ′ → 𝒢,
 
 and define (i) by
 
-$$
-F \mapsto pr_{1} \circ F,
-$$
+$$ F \mapsto pr_{1} \circ F, $$
 
 which a priori denotes a functor
 
@@ -403,9 +378,7 @@ is the characteristic property of the base-change functor. It remains therefore
 
 to prove that if $F$, $G$ are $\mathcal{E}'$-functors $\mathcal{F}' \to \mathcal{G}'$, then **the map**
 
-$$
-u \mapsto pr_{1} \circ u
-$$
+$$ u \mapsto pr_{1} \circ u $$
 
 **induces a bijection**
 
@@ -444,29 +417,21 @@ f ↦ f′ = f ×_ℰ ℰ′,
 expressing the functorial dependence of $\mathcal{F} \times_{\mathcal{E}} \mathcal{E}'$ on the object $\mathcal{F}$ over
 $\mathcal{E}$. On the other hand, consider two $\mathcal{E}$-functors
 
-$$
-f,g: \mathcal{F} \to \mathcal{G}
-$$
+$$ f,g: \mathcal{F} \to \mathcal{G} $$
 
 and a homomorphism of $\mathcal{E}$-functors
 
-$$
-u: f \to g.
-$$
+$$ u: f \to g. $$
 
 We shall spell out the corresponding homomorphism of $\mathcal{E}'$-functors
 
 <!-- original page 156 -->
 
-$$
-u': f' \to g'.
-$$
+$$ u': f' \to g'. $$
 
 For every
 
-$$
-\xi' = (\xi,S') \in Ob(\mathcal{F}')
-$$
+$$ \xi' = (\xi,S') \in Ob(\mathcal{F}') $$
 
 with
 
@@ -482,17 +447,13 @@ u′(ξ′): f′(ξ′) = (f(ξ),S′) → g′(ξ′) = (g(ξ),S′)    in �
 
 is defined by the formula
 
-$$
-u'(\xi') = (u(\xi), id_{S'}).
-$$
+$$ u'(\xi') = (u(\xi), id_{S'}). $$
 
 This is indeed an $S'$-morphism in $\mathcal{G}'$, since $q(u(\xi)) = \lambda(id_{S'}) = id_{S}$.
 
 Now consider any $\mathcal{E}$-functor
 
-$$
-\lambda': \mathcal{E}'' \to \mathcal{E}'
-$$
+$$ \lambda': \mathcal{E}'' \to \mathcal{E}' $$
 
 and the corresponding functor
 
@@ -539,13 +500,11 @@ Hom̲_{ℰ′/-}(ℱ′,𝒢′) × Hom̲_{ℰ′/-}(𝒢′,ℋ′) → Hom̲_{
 where the horizontal arrows are the composition functors defined in the preceding number. This commutativity is
 expressed by the formulas
 
-$$
-(gf)' = g'f'
-$$
+$$ (gf)' = g'f' $$
 
-for $f \in \operatorname{Hom}_{\mathcal{E}}(\mathcal{F},\mathcal{G})$,
-$g \in \operatorname{Hom}_{\mathcal{E}}(\mathcal{G},\mathcal{H})$, a formula which simply expresses the functoriality of
-base change, and
+for $f \in \operatorname{Hom}_{\mathcal{E}}(\mathcal{F},\mathcal{G})$, $g \in
+\operatorname{Hom}_{\mathcal{E}}(\mathcal{G},\mathcal{H})$, a formula which simply expresses the functoriality of base
+change, and
 
 ```text
 (v ∗ u)′ = v′ ∗ u′
@@ -603,9 +562,9 @@ Thus the objects of $\mathcal{F}_{S}$ are the objects $\xi$ of $\mathcal{F}$ suc
 are the morphisms $u$ of $\mathcal{F}$ such that $p(u) = id_{S}$, i.e. the $S$-morphisms in $\mathcal{F}$. Of course,
 $\mathcal{F}_{S}$ is canonically isomorphic to the fiber product $\mathcal{F} \times_{\mathcal{E}} {S}$, where ${S}$
 denotes the point subcategory of $\mathcal{E}$ defined by $S$, endowed with its inclusion functor into $\mathcal{E}$. It
-follows, taking the transitivity of base change into account, that if one makes a base change
-$\lambda: \mathcal{E}' \to \mathcal{E}$, then for every $S' \in Ob(\mathcal{E}')$, **the projection
-$pr_{1}: \mathcal{F}' = \mathcal{F} \times_{\mathcal{E}} \mathcal{E}' \to \mathcal{F}$ induces an isomorphism**
+follows, taking the transitivity of base change into account, that if one makes a base change $\lambda: \mathcal{E}' \to
+\mathcal{E}$, then for every $S' \in Ob(\mathcal{E}')$, **the projection $pr_{1}: \mathcal{F}' = \mathcal{F}
+\times_{\mathcal{E}} \mathcal{E}' \to \mathcal{F}$ induces an isomorphism**
 
 ```text
 ℱ′_{S′} → ℱ_S,    where S = λ(S′).
@@ -652,18 +611,17 @@ is an equivalence of categories.
 
 <!-- original page 160 -->
 
-1. $f$ is an equivalence of categories, and for every $S \in Ob(\mathcal{E})$, the functor
-   $f_{S}: \mathcal{F}_{S} \to \mathcal{G}_{S}$ induced by $f$ is an equivalence of categories.
+1. $f$ is an equivalence of categories, and for every $S \in Ob(\mathcal{E})$, the functor $f_{S}: \mathcal{F}_{S} \to
+   \mathcal{G}_{S}$ induced by $f$ is an equivalence of categories.
 
 1. $f$ is fully faithful, and for every $S \in Ob(\mathcal{E})$ and every $\eta \in Ob(\mathcal{G}_{S})$, there exist
    $\xi \in Ob(\mathcal{F}_{S})$ and an $S$-isomorphism $u: f(\xi) \to \eta$.
 
 **Proof.** Evidently (1) implies that $f$ is an equivalence of categories, a notion defined by the same condition but
 without requiring the isomorphisms of functors to be $\mathcal{E}$-morphisms. On the other hand, it follows from the
-functorialities of the preceding number that condition (1) is preserved after base change
-$\mathcal{E}' \to \mathcal{E}$. Hence (1) ⇒ (2). Evidently (2) ⇒ (3), since it is enough to take
-$\mathcal{E}' = \mathcal{E}$ and $\mathcal{E}' = {S}$. It is still more trivial that (3) ⇒ (4). It remains to prove (4)
-⇒ (1).
+functorialities of the preceding number that condition (1) is preserved after base change $\mathcal{E}' \to
+\mathcal{E}$. Hence (1) ⇒ (2). Evidently (2) ⇒ (3), since it is enough to take $\mathcal{E}' = \mathcal{E}$ and
+$\mathcal{E}' = {S}$. It is still more trivial that (3) ⇒ (4). It remains to prove (4) ⇒ (1).
 
 For this, choose for every $\eta \in Ob(\mathcal{G})$ an object $g(\eta) \in Ob(\mathcal{F})$ and an isomorphism
 $u(\eta): f(g(\eta)) \to \eta$ such that $q(u(\eta)) = id_{S}$, where $S = q(\eta)$. This is possible by the second
@@ -671,13 +629,11 @@ condition in (4). As is known and immediate, the fact that $f$ is fully faithful
 unique way as a functor from $\mathcal{G}$ to $\mathcal{F}$, so that the $u(\eta)$ define a functorial homomorphism,
 hence isomorphism,
 
-$$
-u: fg \simeq id_{\mathcal{G}}.
-$$
+$$ u: fg \simeq id_{\mathcal{G}}. $$
 
 Moreover, by construction, $g$ is an $\mathcal{E}$-functor and $u$ an $\mathcal{E}$-homomorphism. To the preceding data
-there then corresponds a functorial isomorphism $v: gf \to id_{\mathcal{F}}$, defined by the condition
-$f \ast v = u \ast f$, and one sees at once that it is also an $\mathcal{E}$-morphism. This proves the assertion.
+there then corresponds a functorial isomorphism $v: gf \to id_{\mathcal{F}}$, defined by the condition $f \ast v = u
+\ast f$, and one sees at once that it is also an $\mathcal{E}$-morphism. This proves the assertion.
 
 **Definition.**
 
@@ -692,8 +648,8 @@ an **$\mathcal{E}$-equivalence**.
 
 Suppose that the projection functor $p: \mathcal{F} \to \mathcal{E}$ is a transportable functor, i.e. that for every
 isomorphism $\alpha: T \to S$ in $\mathcal{E}$ and every object $\xi$ in $\mathcal{F}_{T}$, there exists an isomorphism
-$u$ in $\mathcal{F}$ with source $\xi$ such that $p(u) = \alpha$. Then every $\mathcal{E}$-functor
-$f: \mathcal{F} \to \mathcal{G}$ that is an equivalence of categories is an $\mathcal{E}$-equivalence.
+$u$ in $\mathcal{F}$ with source $\xi$ such that $p(u) = \alpha$. Then every $\mathcal{E}$-functor $f: \mathcal{F} \to
+\mathcal{G}$ that is an equivalence of categories is an $\mathcal{E}$-equivalence.
 
 This follows
 
@@ -729,9 +685,7 @@ Let $\mathcal{F}$ be a category over $\mathcal{E}$, with projection functor $p$.
 
 Consider a morphism
 
-$$
-\alpha: \eta \to \xi
-$$
+$$ \alpha: \eta \to \xi $$
 
 in $\mathcal{F}$, and let
 
@@ -744,9 +698,7 @@ $u: \eta' \to \xi$, there exists a unique $T$-morphism $\bar{u}: \eta' \to \eta$
 
 This therefore means that, for every $\eta' \in Ob(\mathcal{F}_{T})$, the map $v \mapsto \alpha \circ v$
 
-$$
-(i)  \operatorname{Hom}_{T}(\eta',\eta) \to \operatorname{Hom}_{f}(\eta',\xi)
-$$
+$$ (i) \operatorname{Hom}_{T}(\eta',\eta) \to \operatorname{Hom}_{f}(\eta',\xi) $$
 
 is bijective. It also means that the pair $(\eta,\alpha)$ **represents, as a functor in $\eta'$**, the functor
 $\mathcal{F}^{\circ}_{T} \to Set$ given by the second member.
@@ -807,9 +759,9 @@ morphisms into cartesian morphisms. We denote by `Hom̲_cart(ℱ,𝒢)` the full
 cartesian functors.
 
 For example, regarding $\mathcal{E}$ as a category over $\mathcal{E}$ by means of the identity functor, every morphism
-of $\mathcal{E}$ is cartesian. Thus a cartesian functor from $\mathcal{E}$ to $\mathcal{F}$ is a section functor
-$F: \mathcal{E} \to \mathcal{F}$ that transforms every morphism of $\mathcal{E}$ into a cartesian morphism. Such a
-functor is called a **cartesian section** of $\mathcal{F}$ over $\mathcal{E}$.
+of $\mathcal{E}$ is cartesian. Thus a cartesian functor from $\mathcal{E}$ to $\mathcal{F}$ is a section functor $F:
+\mathcal{E} \to \mathcal{F}$ that transforms every morphism of $\mathcal{E}$ into a cartesian morphism. Such a functor
+is called a **cartesian section** of $\mathcal{F}$ over $\mathcal{E}$.
 
 **Proposition.**
 
@@ -842,9 +794,9 @@ This follows in the usual way from criterion VI.4.2 (1) and from VI.5.3 (1), (2)
 
 <!-- original page 164 -->
 
-One can specify that **the $\mathcal{E}$-functor $G: \mathcal{G} \to \mathcal{H}$ is cartesian if and only if
-$G \circ F$ is cartesian**, and likewise **an $\mathcal{E}$-functor $G: \mathcal{H} \to \mathcal{F}$ is cartesian if and
-only if $F \circ G$ is cartesian**.
+One can specify that **the $\mathcal{E}$-functor $G: \mathcal{G} \to \mathcal{H}$ is cartesian if and only if $G \circ
+F$ is cartesian**, and likewise **an $\mathcal{E}$-functor $G: \mathcal{H} \to \mathcal{F}$ is cartesian if and only if
+$F \circ G$ is cartesian**.
 
 It follows from VI.5.4 (3) that, if one considers the subcategory $Cat^{cart}_{/}\mathcal{E}$ of $Cat_{/}\mathcal{E}$
 whose objects are the same as those of $Cat_{/}\mathcal{E}$ and whose morphisms are the **cartesian** functors, then, as
@@ -864,9 +816,7 @@ $\mathcal{F} = \mathcal{G}$.
 
 Let $\mathcal{F}$ be a category over $\mathcal{E}$. We denote by
 
-$$
-Lim\leftarrow(\mathcal{F}/\mathcal{E})
-$$
+$$ Lim\leftarrow(\mathcal{F}/\mathcal{E}) $$
 
 the category of cartesian $\mathcal{E}$-functors $\mathcal{E} \to \mathcal{F}$, i.e. the cartesian sections of
 $\mathcal{F}$ over $\mathcal{E}$.
@@ -885,8 +835,8 @@ categories, as well as numerous examples.
 
 <!-- label: VI.6.1 -->
 
-A category $\mathcal{F}$ over $\mathcal{E}$ is called a **fibered category**, and the functor
-$\mathcal{F} \to \mathcal{E}$ is then said to be **fibrant**, if it satisfies the two following axioms:
+A category $\mathcal{F}$ over $\mathcal{E}$ is called a **fibered category**, and the functor $\mathcal{F} \to
+\mathcal{E}$ is then said to be **fibrant**, if it satisfies the two following axioms:
 
 **Fib I.** For every morphism $f: T \to S$ in $\mathcal{E}$, the inverse-image functor by $f$ in $\mathcal{F}$ exists.
 
@@ -909,9 +859,7 @@ once that this is indeed a fibered subcategory of $\mathcal{F}$, because in the 
 
 <!-- original page 165 -->
 
-$$
-\operatorname{Hom}_{T}(\eta',\eta) \simeq \operatorname{Hom}_{f}(\eta',\xi)
-$$
+$$ \operatorname{Hom}_{T}(\eta',\eta) \simeq \operatorname{Hom}_{f}(\eta',\xi) $$
 
 relative to a cartesian $f$-morphism $\alpha$ in $\mathcal{F}$, the $T$-isomorphisms of the first member correspond to
 the cartesian morphisms of the second. By definition, the cartesian sections $\mathcal{E} \to \mathcal{F}$ then
@@ -960,21 +908,17 @@ cartesian if and only if $F(\alpha)$ is.
 
 <!-- label: VI.6.3 -->
 
-Let $\mathcal{F}_{1}$, $\mathcal{F}_{2}$ be two categories over $\mathcal{E}$, and let
-$\alpha = (\alpha_{1},\alpha_{2})$ be a morphism in
-$\mathcal{F} = \mathcal{F}_{1} \times_{\mathcal{E}} \mathcal{F}_{2}$. Then $\alpha$ is cartesian if and only if its
-components are cartesian.
+Let $\mathcal{F}_{1}$, $\mathcal{F}_{2}$ be two categories over $\mathcal{E}$, and let $\alpha =
+(\alpha_{1},\alpha_{2})$ be a morphism in $\mathcal{F} = \mathcal{F}_{1} \times_{\mathcal{E}} \mathcal{F}_{2}$. Then
+$\alpha$ is cartesian if and only if its components are cartesian.
 
 Indeed, let $\xi_{i}$ be the target and $\eta_{i}$ the source of $\alpha_{i}$, and let $f: T \to S$ be the morphism of
 $\mathcal{E}$ such that $\alpha_{1}$ and $\alpha_{2}$ are $f$-morphisms. For every $\eta' = (\eta'_{1},\eta'_{2})$ in
 $\mathcal{F}_{T}$, one has a commutative diagram
 
-$$
-\operatorname{Hom}_{T}(\eta',\eta)  \to  \operatorname{Hom}_{f}(\eta',\xi)
-     \downarrow              \downarrow
-\operatorname{Hom}_{T}(\eta'_{1},\eta_{1}) \times \operatorname{Hom}_{T}(\eta'_{2},\eta_{2})
-  \to \operatorname{Hom}_{f}(\eta'_{1},\xi_{1}) \times \operatorname{Hom}_{f}(\eta'_{2},\xi_{2}),
-$$
+$$ \operatorname{Hom}_{T}(\eta',\eta) \to \operatorname{Hom}_{f}(\eta',\xi) \downarrow \downarrow
+\operatorname{Hom}_{T}(\eta'_{1},\eta_{1}) \times \operatorname{Hom}_{T}(\eta'_{2},\eta_{2}) \to
+\operatorname{Hom}_{f}(\eta'_{1},\xi_{1}) \times \operatorname{Hom}_{f}(\eta'_{2},\xi_{2}), $$
 
 where the vertical arrows are bijections. Thus if one of the horizontal arrows is a bijection, the same is true of the
 other. This already shows that if $\alpha_{1}$ and $\alpha_{2}$ are cartesian, hence the second horizontal arrow is
@@ -1016,11 +960,10 @@ These results moreover extend to the case of the fiber product of an arbitrary f
 
 <!-- label: VI.6.6 -->
 
-Let $\mathcal{F}$ be a category over $\mathcal{E}$, with projection functor $p$, and let
-$\lambda: \mathcal{E}' \to \mathcal{E}$ be a functor. Regard
-$\mathcal{F}' = \mathcal{F} \times_{\mathcal{E}} \mathcal{E}'$ as a category over $\mathcal{E}'$ by the projection
-functor $p' = p \times_{\mathcal{E}} id_{\mathcal{E}}'$. Let $\alpha'$ be a morphism of $\mathcal{F}'$. Then $\alpha'$
-is a cartesian morphism if and only if its image $\alpha$ in $\mathcal{F}$ is cartesian.
+Let $\mathcal{F}$ be a category over $\mathcal{E}$, with projection functor $p$, and let $\lambda: \mathcal{E}' \to
+\mathcal{E}$ be a functor. Regard $\mathcal{F}' = \mathcal{F} \times_{\mathcal{E}} \mathcal{E}'$ as a category over
+$\mathcal{E}'$ by the projection functor $p' = p \times_{\mathcal{E}} id_{\mathcal{E}}'$. Let $\alpha'$ be a morphism of
+$\mathcal{F}'$. Then $\alpha'$ is a cartesian morphism if and only if its image $\alpha$ in $\mathcal{F}$ is cartesian.
 
 The proof is immediate and is left to the reader.
 
@@ -1034,8 +977,8 @@ For every cartesian functor $F: \mathcal{F} \to \mathcal{G}$ of categories over 
 F′ = F ×_ℰ ℰ′
 ```
 
-from $\mathcal{F}' = \mathcal{F} \times_{\mathcal{E}} \mathcal{E}'$ to
-$\mathcal{G}' = \mathcal{G} \times_{\mathcal{E}} \mathcal{E}'$ is cartesian.
+from $\mathcal{F}' = \mathcal{F} \times_{\mathcal{E}} \mathcal{E}'$ to $\mathcal{G}' = \mathcal{G} \times_{\mathcal{E}}
+\mathcal{E}'$ is cartesian.
 
 Consequently, the functor `Hom̲_ℰ(ℱ,𝒢) → Hom̲_ℰ′(ℱ′,𝒢′)` considered in VI.3 induces a functor
 
@@ -1080,15 +1023,12 @@ $\mathcal{E}$-functors $\mathcal{E}' \to \mathcal{F}$ that transform arbitrary m
 particular, if $\mathcal{F}$ is a fibered category and if $\tilde{\mathcal{F}}$ is the subcategory of $\mathcal{F}$
 whose morphisms are the cartesian morphisms of $\mathcal{F}$, then one has a bijection
 
-$$
-Ob Lim\leftarrow(\mathcal{F}'/\mathcal{E}') \simeq \operatorname{Hom}_{\mathcal{E}/-}(\mathcal{E}',\tilde{\mathcal{F}}).
-$$
+$$ Ob Lim\leftarrow(\mathcal{F}'/\mathcal{E}') \simeq
+\operatorname{Hom}_{\mathcal{E}/-}(\mathcal{E}',\tilde{\mathcal{F}}). $$
 
 This makes precise the way in which the expression
 
-$$
-Lim\leftarrow((\mathcal{F} \times_{\mathcal{E}} \mathcal{E}')/\mathcal{E}')
-$$
+$$ Lim\leftarrow((\mathcal{F} \times_{\mathcal{E}} \mathcal{E}')/\mathcal{E}') $$
 
 must be regarded as a functor in $\mathcal{E}'$ and $\mathcal{F}$, from the category `Cat_/ℰ° × Cat^cart_/ℰ` to the
 category `Cat`. Later we shall see a more complete functorial dependence with respect to $\mathcal{E}'$ when
@@ -1098,9 +1038,8 @@ $\mathcal{F}$ is required to be a fibered category.
 
 <!-- label: VI.6.9 -->
 
-If $\mathcal{F}$ is a fibered, respectively prefibered, category over $\mathcal{E}$, then
-$\mathcal{F}' = \mathcal{F} \times_{\mathcal{E}} \mathcal{E}'$ is a fibered, respectively prefibered, category over
-$\mathcal{E}'$.
+If $\mathcal{F}$ is a fibered, respectively prefibered, category over $\mathcal{E}$, then $\mathcal{F}' = \mathcal{F}
+\times_{\mathcal{E}} \mathcal{E}'$ is a fibered, respectively prefibered, category over $\mathcal{E}'$.
 
 **Proposition.**
 
@@ -1113,9 +1052,7 @@ induced functor
 
 <!-- original page 169 -->
 
-$$
-F_{S}: \mathcal{F}_{S} \to \mathcal{G}_{S}
-$$
+$$ F_{S}: \mathcal{F}_{S} \to \mathcal{G}_{S} $$
 
 be faithful, respectively fully faithful, respectively an equivalence.
 
@@ -1131,12 +1068,10 @@ Let $\mathcal{F}$ be a prefibered category over $\mathcal{E}$. In order that $\m
 and sufficient that it satisfy the following condition:
 
 **Fib II′.** Let $\alpha: \eta \to \xi$ be a cartesian morphism in $\mathcal{F}$ over the morphism $f: T \to S$ of
-$\mathcal{E}$. For every morphism $g: U \to T$ in $\mathcal{E}$, and every $\zeta \in Ob(\mathcal{F}_{U})$, the map
-$u \mapsto \alpha \circ u$
+$\mathcal{E}$. For every morphism $g: U \to T$ in $\mathcal{E}$, and every $\zeta \in Ob(\mathcal{F}_{U})$, the map $u
+\mapsto \alpha \circ u$
 
-$$
-\operatorname{Hom}_{g}(\zeta,\eta) \to \operatorname{Hom}_{fg}(\zeta,\xi)
-$$
+$$ \operatorname{Hom}_{g}(\zeta,\eta) \to \operatorname{Hom}_{fg}(\zeta,\xi) $$
 
 is bijective.
 
@@ -1154,16 +1089,12 @@ converse is true if $\mathcal{F}$ is fibered over $\mathcal{E}$.
 Indeed, if $\alpha$ is an isomorphism then evidently so is $f = p(\alpha)$. For every $\eta' \in Ob(\mathcal{F}_{T})$,
 the map $u \mapsto \alpha \circ u$
 
-$$
-\operatorname{Hom}(\eta',\eta) \to \operatorname{Hom}(\eta',\xi)
-$$
+$$ \operatorname{Hom}(\eta',\eta) \to \operatorname{Hom}(\eta',\xi) $$
 
 is bijective. Since $f$ is an isomorphism, one sees at once that an element of the first member is a $T$-morphism if and
 only if its image in the second is an $f$-morphism. Thus one obtains a bijection
 
-$$
-\operatorname{Hom}_{T}(\eta',\eta) \to \operatorname{Hom}_{f}(\eta',\xi),
-$$
+$$ \operatorname{Hom}_{T}(\eta',\eta) \to \operatorname{Hom}_{f}(\eta',\xi), $$
 
 <!-- original page 170 -->
 
@@ -1222,9 +1153,7 @@ in cloven categories.
 
 We shall denote by $\alpha_{f}(\xi)$ the canonical morphism
 
-$$
-\alpha_{f}(\xi): f*(\xi) \to \xi.
-$$
+$$ \alpha_{f}(\xi): f*(\xi) \to \xi. $$
 
 As was said, it is functorial in $\xi$, i.e. one has a functorial homomorphism
 
@@ -1234,9 +1163,7 @@ As was said, it is functorial in $\xi$, i.e. one has a functorial homomorphism
 
 where for every $S \in Ob(\mathcal{E})$, $i_{S}$ denotes the inclusion functor
 
-$$
-i_{S}: \mathcal{F}_{S} \to \mathcal{F}.
-$$
+$$ i_{S}: \mathcal{F}_{S} \to \mathcal{F}. $$
 
 Now consider morphisms
 
@@ -1246,9 +1173,7 @@ f: T → S    and    g: U → T
 
 in $\mathcal{E}$, and let $\xi \in Ob(\mathcal{F}_{S})$. There then exists a unique $U$-morphism
 
-$$
-c_{f,g}(\xi): g*f*(\xi) \to (fg)*(\xi)
-$$
+$$ c_{f,g}(\xi): g*f*(\xi) \to (fg)*(\xi) $$
 
 making commutative
 
@@ -1256,18 +1181,12 @@ making commutative
 
 the diagram
 
-$$
-g*f*(\xi) --\alpha_{g}(f*(\xi))--> f*(\xi)
-   | c_{f,g}(\xi)           | \alpha_{f}(\xi)
-   \downarrow                      \downarrow
-(fg)*(\xi) --\alpha_{fg}(\xi)-->   \xi,
-$$
+$$ g*f*(\xi) --\alpha_{g}(f*(\xi))--> f*(\xi) | c_{f,g}(\xi) | \alpha_{f}(\xi) \downarrow \downarrow (fg)*(\xi)
+--\alpha_{fg}(\xi)--> \xi, $$
 
 by the definition of $(fg)*(\xi)$. For variable $\xi$, this homomorphism is functorial; that is, one has a homomorphism
 
-$$
-c_{f,g}: g*f* \to (fg)*
-$$
+$$ c_{f,g}: g*f* \to (fg)* $$
 
 of functors $\mathcal{F}_{S} \to \mathcal{F}_{U}$. Note at once:
 
@@ -1325,12 +1244,8 @@ A′) c_{f,id_T} = id_{f*},    c_{id_S,f} = id_{f*}.
 
 As for the third, it is visualized by the commutativity of the diagram
 
-$$
-h*g*f*(\xi) --c_{g,h}(f*(\xi))--> (gh)*f*(\xi)
-    | h*(c_{f,g}(\xi))              | c_{f,gh}(\xi)
-    \downarrow                             \downarrow
-h*(fg)*(\xi) --c_{fg,h}(\xi)-->    (fgh)*(\xi).
-$$
+$$ h*g*f*(\xi) --c_{g,h}(f*(\xi))--> (gh)*f*(\xi) | h*(c_{f,g}(\xi)) | c_{f,gh}(\xi) \downarrow \downarrow h*(fg)*(\xi)
+--c_{fg,h}(\xi)--> (fgh)*(\xi). $$
 
 In the case of fibered categories, where the $c_{f,g}$ are isomorphisms, this commutativity may be expressed intuitively
 by saying that **the successive use of isomorphisms of the form $c_{f,g}$ does not lead to “contradictory
@@ -1344,22 +1259,15 @@ c_{fg,h} ∘ (h* ∗ c_{f,g}) = c_{f,gh} ∘ (c_{g,h} ∗ f*).
 The proof of the first two formulas in VI.7.4 is trivial; let us sketch that of the third. For this, consider, in
 addition to the square `(D)`, the square of homomorphisms
 
-$$
-g*f*(\xi) --\alpha_{g}(f*(\xi))--> f*(\xi)
-   | c_{f,g}(\xi)            | \alpha_{f}(\xi)
-   \downarrow                       \downarrow
-(fg)*(\xi) --\alpha_{fg}(\xi)-->    \xi,
-$$
+$$ g*f*(\xi) --\alpha_{g}(f*(\xi))--> f*(\xi) | c_{f,g}(\xi) | \alpha_{f}(\xi) \downarrow \downarrow (fg)*(\xi)
+--\alpha_{fg}(\xi)--> \xi, $$
 
 <!-- original page 174 -->
 
 which is commutative by definition of $c_{f,g}(\xi)$. Consider the diagram obtained by joining the vertices of `(D)` to
 the corresponding vertices of this square by homomorphisms of the form $\alpha$:
 
-$$
-\alpha_{h}(g*f*(\xi)),       \alpha_{gh}(f*(\xi)),
-\alpha_{h}((fg)*(\xi)),      \alpha_{fgh}(\xi).
-$$
+$$ \alpha_{h}(g*f*(\xi)), \alpha_{gh}(f*(\xi)), \alpha_{h}((fg)*(\xi)), \alpha_{fgh}(\xi). $$
 
 The four lateral faces of the cube so obtained are also commutative. For the left face, this comes from the fact that
 the left column of `(D)` is obtained from the left column of the preceding square by applying $h$, and that $\alpha_{h}$
@@ -1372,15 +1280,15 @@ Let us confine ourselves, in what follows, to **normalized** cloven categories. 
 following objects:
 
 1. A map $S \mapsto \mathcal{F}_{S}$ from $Ob(\mathcal{E})$ to `Cat`.
-1. A map $f \mapsto f*$, associating to every $f \in Fl(\mathcal{E})$, with source $T$ and target $S$, a functor
-   $f*: \mathcal{F}_{S} \to \mathcal{F}_{T}$.
+1. A map $f \mapsto f*$, associating to every $f \in Fl(\mathcal{E})$, with source $T$ and target $S$, a functor $f*:
+   \mathcal{F}_{S} \to \mathcal{F}_{T}$.
 1. A map $(f,g) \mapsto c_{f,g}$, associating to every pair of arrows $(f,g)$ of $\mathcal{E}$ a functorial homomorphism
    $c_{f,g}: g*f* \to (fg)*$.
 
 Moreover, these data satisfy the conditions expressed in formulas A′) and B) above. N.B. If one had not confined oneself
-to the case of a normalized cleavage, one would have had to introduce an additional object, namely a function
-$S \mapsto \alpha_{S}$ associating to every object $S$ of $\mathcal{E}$ a functorial homomorphism
-$\alpha_{S}: (id_{S})* \to id_{\mathcal{F}_{S}}$; condition A′) would then be replaced by condition A).
+to the case of a normalized cleavage, one would have had to introduce an additional object, namely a function $S \mapsto
+\alpha_{S}$ associating to every object $S$ of $\mathcal{E}$ a functorial homomorphism $\alpha_{S}: (id_{S})* \to
+id_{\mathcal{F}_{S}}$; condition A′) would then be replaced by condition A).
 
 <!-- original page 175 -->
 
@@ -1402,17 +1310,13 @@ defined in the preceding number.
 
 Put
 
-$$
-\mathcal{F}^{\circ} = \coprod_{S\in Ob(\mathcal{E})} Ob(\mathcal{F}(S)),
-$$
+$$ \mathcal{F}^{\circ} = \coprod_{S\in Ob(\mathcal{E})} Ob(\mathcal{F}(S)), $$
 
 the sum set of the sets $Ob(\mathcal{F}(S))$. N.B. here we write $\mathcal{F}(S)$, and not $\mathcal{F}_{S}$, for the
 value at the object $S$ of $\mathcal{E}$ of the given pseudofunctor, to avoid notational confusion later. We therefore
 have an evident map
 
-$$
-p^{\circ}: \mathcal{F}^{\circ} \to Ob(\mathcal{E}).
-$$
+$$ p^{\circ}: \mathcal{F}^{\circ} \to Ob(\mathcal{E}). $$
 
 Let
 
@@ -1422,18 +1326,14 @@ Let
 
 be two elements of $\mathcal{F}^{\circ}$, and let $f \in \operatorname{Hom}(T,S)$. Put
 
-$$
-h_{f}(\bar{\eta},\bar{\xi}) = \operatorname{Hom}_{\mathcal{F}(T)}(\eta, f*(\xi)).
-$$
+$$ h_{f}(\bar{\eta},\bar{\xi}) = \operatorname{Hom}_{\mathcal{F}(T)}(\eta, f*(\xi)). $$
 
 <!-- original page 176 -->
 
 If in addition one has a morphism $g: U \to T$ in $\mathcal{E}$ and $\zeta \in Ob(\mathcal{F}(U))$, one defines a map,
 denoted $(u,v) \mapsto u \circ v$,
 
-$$
-h_{f}(\bar{\eta},\bar{\xi}) \times h_{g}(\bar{\zeta},\bar{\eta}) \to h_{fg}(\bar{\zeta},\bar{\xi}),
-$$
+$$ h_{f}(\bar{\eta},\bar{\xi}) \times h_{g}(\bar{\zeta},\bar{\eta}) \to h_{fg}(\bar{\zeta},\bar{\xi}), $$
 
 i.e. a map
 
@@ -1456,21 +1356,15 @@ That is, $u \circ v$ is the composite of the sequence
 
 On the other hand, put
 
-$$
-h(\bar{\eta},\bar{\xi}) = \coprod_{f\in \operatorname{Hom}(T,S)} h_{f}(\bar{\eta},\bar{\xi}).
-$$
+$$ h(\bar{\eta},\bar{\xi}) = \coprod_{f\in \operatorname{Hom}(T,S)} h_{f}(\bar{\eta},\bar{\xi}). $$
 
 The preceding pairings define pairings
 
-$$
-h(\bar{\eta},\bar{\xi}) \times h(\bar{\zeta},\bar{\eta}) \to h(\bar{\zeta},\bar{\xi}),
-$$
+$$ h(\bar{\eta},\bar{\xi}) \times h(\bar{\zeta},\bar{\eta}) \to h(\bar{\zeta},\bar{\xi}), $$
 
 while the definition of the $h(\bar{\eta},\bar{\xi})$ gives an evident map
 
-$$
-p_{\bar{\eta},\bar{\xi}}: h(\bar{\eta},\bar{\xi}) \to \operatorname{Hom}(T,S).
-$$
+$$ p_{\bar{\eta},\bar{\xi}}: h(\bar{\eta},\bar{\xi}) \to \operatorname{Hom}(T,S). $$
 
 This being said, one verifies the following points:
 
@@ -1480,31 +1374,26 @@ This being said, one verifies the following points:
 
 <!-- original page 177 -->
 
-$$
-h_{id_{S}}(\bar{\xi},\bar{\xi}) = \operatorname{Hom}_{\mathcal{F}(S)}(id_{S}*(\xi),\xi) = \operatorname{Hom}_{\mathcal{F}(S)}(\xi,\xi),
-$$
+$$ h_{id_{S}}(\bar{\xi},\bar{\xi}) = \operatorname{Hom}_{\mathcal{F}(S)}(id_{S}*(\xi),\xi) =
+\operatorname{Hom}_{\mathcal{F}(S)}(\xi,\xi), $$
 
 and its image in $h(\bar{\xi},\bar{\xi})$. This object is a **left and right unit** for composition between elements of
 the $h(\bar{\eta},\bar{\xi})$.
 
 This already shows that **one obtains a category** $\mathcal{F}$ by putting
 
-$$
-Ob(\mathcal{F}) = \mathcal{F}^{\circ},
-Fl(\mathcal{F}) = \coprod_{\bar{\xi},\bar{\eta}\in \mathcal{F}^{\circ}} h(\bar{\eta},\bar{\xi}).
-$$
+$$ Ob(\mathcal{F}) = \mathcal{F}^{\circ}, Fl(\mathcal{F}) = \coprod_{\bar{\xi},\bar{\eta}\in \mathcal{F}^{\circ}}
+h(\bar{\eta},\bar{\xi}). $$
 
 N.B. one cannot simply take $Fl(\mathcal{F})$ to be the **union** of the sets $h(\bar{\eta},\bar{\xi})$, since these
 latter sets are not necessarily disjoint. Moreover:
 
-1. The maps $p^{\circ}: Ob(\mathcal{F}) \to Ob(\mathcal{E})$ and
-   $p_{1} = (p_{\bar{\eta},\bar{\xi}}): Fl(\mathcal{F}) \to Fl(\mathcal{E})$ define a **functor**
-   $p: \mathcal{F} \to \mathcal{E}$. In this way $\mathcal{F}$ becomes a category over $\mathcal{E}$; moreover, the
-   evident map $h_{f}(\bar{\eta},\bar{\xi}) \to \operatorname{Hom}(\bar{\eta},\bar{\xi})$ induces a **bijection**
+1. The maps $p^{\circ}: Ob(\mathcal{F}) \to Ob(\mathcal{E})$ and $p_{1} = (p_{\bar{\eta},\bar{\xi}}): Fl(\mathcal{F})
+   \to Fl(\mathcal{E})$ define a **functor** $p: \mathcal{F} \to \mathcal{E}$. In this way $\mathcal{F}$ becomes a
+   category over $\mathcal{E}$; moreover, the evident map $h_{f}(\bar{\eta},\bar{\xi}) \to
+   \operatorname{Hom}(\bar{\eta},\bar{\xi})$ induces a **bijection**
 
-$$
-h_{f}(\bar{\eta},\bar{\xi}) \simeq \operatorname{Hom}_{f}(\bar{\eta},\bar{\xi}).
-$$
+$$ h_{f}(\bar{\eta},\bar{\xi}) \simeq \operatorname{Hom}_{f}(\bar{\eta},\bar{\xi}). $$
 
 1. The evident maps
 
@@ -1514,15 +1403,12 @@ Ob(ℱ(S)) → ℱ° = Ob(ℱ),    Fl(ℱ(S)) → Fl(ℱ),
 
 where the second is defined by the evident maps
 
-$$
-\operatorname{Hom}_{\mathcal{F}(S)}(\xi,\xi') = h_{id_{S}}(\bar{\xi},\bar{\xi}') \to \operatorname{Hom}(\bar{\xi},\bar{\xi}'),
-$$
+$$ \operatorname{Hom}_{\mathcal{F}(S)}(\xi,\xi') = h_{id_{S}}(\bar{\xi},\bar{\xi}') \to
+\operatorname{Hom}(\bar{\xi},\bar{\xi}'), $$
 
 define an **isomorphism**
 
-$$
-i_{S}: \mathcal{F}(S) \simeq \mathcal{F}_{S}.
-$$
+$$ i_{S}: \mathcal{F}(S) \simeq \mathcal{F}_{S}. $$
 
 1. For every object $\bar{\xi} = (S,\xi)$ of $\mathcal{F}$, and every morphism $f: T \to S$ of $\mathcal{E}$, consider
 
@@ -1531,20 +1417,15 @@ $$
 the element $\bar{\eta} = (T,\eta)$ of $\mathcal{F}_{T}$, with $\eta = f*(\xi)$, and the element $\alpha_{f}(\xi)$ of
 $\operatorname{Hom}(\bar{\eta},\bar{\xi})$, image of $id_{f*(\xi)}$ by the morphism
 
-$$
-\operatorname{Hom}_{\mathcal{F}(T)}(f*(\xi),f*(\xi)) = h_{f}(\bar{\eta},\bar{\xi}) \to \operatorname{Hom}_{f}(\bar{\eta},\bar{\xi}).
-$$
+$$ \operatorname{Hom}_{\mathcal{F}(T)}(f*(\xi),f*(\xi)) = h_{f}(\bar{\eta},\bar{\xi}) \to
+\operatorname{Hom}_{f}(\bar{\eta},\bar{\xi}). $$
 
 **This element is cartesian, and it is the identity of $\bar{\xi}$ if $f = id_{S}$**. In other words, the set of the
 $\alpha_{f}(\xi)$ defines a **normalized cleavage of $\mathcal{F}$ over $\mathcal{E}$**. Moreover, by construction, one
 has commutativity in the diagram of functors
 
-$$
-\mathcal{F}(S) --f*--> \mathcal{F}(T)
- | i_{S}        | i_{T}
- \downarrow            \downarrow
-\mathcal{F}_{S} --f*_{\mathcal{F}}-> \mathcal{F}_{T},
-$$
+$$ \mathcal{F}(S) --f*--> \mathcal{F}(T) | i_{S} | i_{T} \downarrow \downarrow \mathcal{F}_{S} --f*_{\mathcal{F}}->
+\mathcal{F}_{T}, $$
 
 where $f*_{\mathcal{F}}$ is the inverse-image functor by $f$, relative to the cleavage considered on $\mathcal{F}$.
 Finally:
@@ -1608,9 +1489,7 @@ cloven category $\mathcal{F}$ over $\mathcal{E}$ by a base-change functor $\math
 
 Suppose one has a functor
 
-$$
-\phi: \mathcal{E}^{\circ} \to Cat.
-$$
+$$ \phi: \mathcal{E}^{\circ} \to Cat. $$
 
 It then defines a pseudofunctor by putting
 
@@ -1640,12 +1519,12 @@ If $\mathcal{F}$ is a fibered category over $\mathcal{E}$, there does not always
 Suppose for example that $Ob(\mathcal{E})$ and $Ob(\mathcal{F})$ are reduced to one element, and that the set of
 endomorphisms of that element is a group $E$, respectively $F$, so that the projection functor $p$ is given by a group
 homomorphism $p: F \to E$, surjective since $p$ is fibrant. One verifies at once that the set of cleavages of
-$\mathcal{F}$ over $\mathcal{E}$ is in bijective correspondence with the set of maps $s: E \to F$ such that
-$ps = id_{E}$, i.e. the set of “systems of representatives” for the classes modulo the subgroup $G$ that is the kernel
-of the surjective homomorphism $p: F \to E$. A cleavage is a splitting if and only if $s$ is a group homomorphism. To
-say that a splitting exists therefore means that the group extension $F$ of $E$ by $G$ is trivial, which is expressed,
-when $G$ is commutative, by the vanishing of a certain cohomology class in $H^{2}(E,G)$, where $G$ is regarded as a
-group on which $E$ operates.
+$\mathcal{F}$ over $\mathcal{E}$ is in bijective correspondence with the set of maps $s: E \to F$ such that $ps =
+id_{E}$, i.e. the set of “systems of representatives” for the classes modulo the subgroup $G$ that is the kernel of the
+surjective homomorphism $p: F \to E$. A cleavage is a splitting if and only if $s$ is a group homomorphism. To say that
+a splitting exists therefore means that the group extension $F$ of $E$ by $G$ is trivial, which is expressed, when $G$
+is commutative, by the vanishing of a certain cohomology class in $H^{2}(E,G)$, where $G$ is regarded as a group on
+which $E$ operates.
 
 Suppose, however, that $\mathcal{F}$ is a fibered category over $\mathcal{E}$ such that the
 
@@ -1668,23 +1547,17 @@ $\phi(S)$ are rigid and discrete categories, and the functor $\phi$ is defined u
 
 Consider a category $\mathcal{F}$ over $\mathcal{E}$, with projection functor
 
-$$
-p: \mathcal{F} \to \mathcal{E}.
-$$
+$$ p: \mathcal{F} \to \mathcal{E}. $$
 
 It defines a category $\mathcal{F}^{\circ}$ over $\mathcal{E}^{\circ}$ by the projection functor
 
-$$
-p^{\circ}: \mathcal{F}^{\circ} \to \mathcal{E}^{\circ}.
-$$
+$$ p^{\circ}: \mathcal{F}^{\circ} \to \mathcal{E}^{\circ}. $$
 
 A morphism $\alpha: \eta \to \xi$ in $\mathcal{F}$ is said to be **co-cartesian** if it is a cartesian morphism for
 $\mathcal{F}^{\circ}$ over $\mathcal{E}^{\circ}$. Spelling this out, one sees that it means that for every object $\xi'$
 of $\mathcal{F}_{S}$, the map $u \mapsto u \circ \alpha$
 
-$$
-\operatorname{Hom}_{S}(\xi,\xi') \to \operatorname{Hom}_{f}(\eta,\xi')
-$$
+$$ \operatorname{Hom}_{S}(\xi,\xi') \to \operatorname{Hom}_{f}(\eta,\xi') $$
 
 is bijective. One then also says that $(\xi,\alpha)$ is a **direct image** of $\eta$ by $f$, in the category
 $\mathcal{F}$ over $\mathcal{E}$. If it exists for every $\eta$ in $\mathcal{F}_{T}$, one says that the direct-image
@@ -1692,22 +1565,16 @@ functor by $f$ exists; once it has been chosen, this functor is denoted
 
 <!-- original page 182 -->
 
-$$
-f*_{\mathcal{F}}    or    f_{*}.
-$$
+$$ f*_{\mathcal{F}} or f_{*}. $$
 
 It is therefore defined by an isomorphism of bifunctors on $\mathcal{F}^{\circ}_{T} \times \mathcal{F}_{S}$:
 
-$$
-\operatorname{Hom}_{S}(f_{*}(\eta),\xi) \simeq \operatorname{Hom}_{f}(\eta,\xi).
-$$
+$$ \operatorname{Hom}_{S}(f_{*}(\eta),\xi) \simeq \operatorname{Hom}_{f}(\eta,\xi). $$
 
 Thus, if $f_{*}$ exists, then for $f*$ to exist it is necessary and sufficient that $f_{*}$ admit an adjoint functor,
 i.e. that there exist a functor $f*: \mathcal{F}_{S} \to \mathcal{F}_{T}$ and an isomorphism of bifunctors
 
-$$
-\operatorname{Hom}_{S}(f_{*}(\eta),\xi) \simeq \operatorname{Hom}_{T}(\eta,f*(\xi)).
-$$
+$$ \operatorname{Hom}_{S}(f_{*}(\eta),\xi) \simeq \operatorname{Hom}_{T}(\eta,f*(\xi)). $$
 
 Let $g: U \to T$ be another morphism in $\mathcal{E}$, and suppose that the inverse and direct images by $f$, $g$, and
 `fg` exist. Consider then the functorial homomorphisms
@@ -1751,9 +1618,7 @@ Ar(ℰ) = Hom̲(Δ¹,ℰ).
 This is called the **category of arrows of** $\mathcal{E}$. The object `1` of $\Delta^{1}$ defines a canonical functor,
 called the **target functor**
 
-$$
-Ar(\mathcal{E}) \to \mathcal{E}
-$$
+$$ Ar(\mathcal{E}) \to \mathcal{E} $$
 
 the functor defined by the object `0` of $\Delta^{1}$ being called the **source functor**. For every object $S$ of
 $\mathcal{E}$, the fiber category $Ar(\mathcal{E})_{S}$ is canonically isomorphic to the category $\mathcal{E}_{/}S$ of
@@ -1767,9 +1632,7 @@ f_*: ℰ_/T = ℱ_T → ℰ_/S = ℱ_S
 
 and a functorial isomorphism
 
-$$
-\operatorname{Hom}_{S}(f_{*}(\eta),\xi) \simeq \operatorname{Hom}_{f}(\eta,\xi),
-$$
+$$ \operatorname{Hom}_{S}(f_{*}(\eta),\xi) \simeq \operatorname{Hom}_{f}(\eta,\xi), $$
 
 which therefore makes $f_{*}$ a direct-image functor for $f$ in $\mathcal{F}$. Moreover, here
 
@@ -1816,12 +1679,10 @@ f_*: Hom̲(𝒰(T)°,𝒞) → Hom̲(𝒰(S)°,𝒞)
 called the **direct-image functor of presheaves by** $f$. One sees at once that the direct image of a sheaf is a sheaf.
 Thus the functor $f_{*}: \mathcal{P}(T) \to \mathcal{P}(S)$ induces a functor, also denoted
 
-$$
-f_{*}: \mathcal{F}(T) \to \mathcal{F}(S).
-$$
+$$ f_{*}: \mathcal{F}(T) \to \mathcal{F}(S). $$
 
-Moreover, one verifies trivially, by associativity of composition of functors, that for a second continuous map
-$g: U \to T$ one has the identity
+Moreover, one verifies trivially, by associativity of composition of functors, that for a second continuous map $g: U
+\to T$ one has the identity
 
 ```text
 (gf)_* = g_* f_*,    and likewise    (id_S)_* = id_{𝒫(S)}.
@@ -1829,15 +1690,11 @@ $g: U \to T$ one has the identity
 
 In this way one obtains a functor
 
-$$
-S \mapsto \mathcal{P}(S)
-$$
+$$ S \mapsto \mathcal{P}(S) $$
 
 respectively
 
-$$
-S \mapsto \mathcal{F}(S)
-$$
+$$ S \mapsto \mathcal{F}(S) $$
 
 <!-- original page 185 -->
 
@@ -1897,9 +1754,7 @@ functor** $p: \mathcal{U} \to \mathcal{C}$ by a functor $f: \mathcal{U} \to \mat
 
 The category of presheaves is deduced from the preceding fibered category by the base change
 
-$$
-Top^{\circ} \to Cat
-$$
+$$ Top^{\circ} \to Cat $$
 
 the functor $S \mapsto \mathcal{U}(S)$ defined above. This gives a fibered category over $Top^{\circ}$, and by passing
 to the opposite category one obtains the co-fibered category $\mathcal{P}$ of presheaves over `Top`. The notion of
@@ -1917,19 +1772,19 @@ over $\mathcal{E}'$, which is fibered, respectively co-fibered, when $\mathcal{F
 <!-- original page 187 -->
 
 A section of $\mathcal{E}'$ over $\mathcal{F}'$, necessarily cartesian, since $\mathcal{E}'$ is a groupoid and every
-isomorphism in $\mathcal{F}'$ is cartesian by VI.6.12, can also be interpreted as an $\mathcal{E}$-functor
-$\mathcal{E}' \to \mathcal{F}$ over $\lambda$, or also as an object with operators $\xi$ in $\mathcal{F}$ “over” the
-object with operators $S$.
+isomorphism in $\mathcal{F}'$ is cartesian by VI.6.12, can also be interpreted as an $\mathcal{E}$-functor $\mathcal{E}'
+\to \mathcal{F}$ over $\lambda$, or also as an object with operators $\xi$ in $\mathcal{F}$ “over” the object with
+operators $S$.
 
 ### d) Pairs of Quasi-Inverse Adjoint Functors; Autodualities
 
 When the base category $\mathcal{E}$ is reduced to two objects $a$, $b$ and, besides the identity arrows, to two
 isomorphisms $f: a \to b$ and $g: b \to a$ inverse to one another, i.e. $\mathcal{E}$ is a connected rigid groupoid with
 two objects, a normalized cloven category over $\mathcal{E}$ is essentially the same thing as the system formed by two
-categories $\mathcal{F}_{a}$ and $\mathcal{F}_{b}$ and a **pair of adjoint functors**
-$G: \mathcal{F}_{a} \to \mathcal{F}_{b}$ and $F: \mathcal{F}_{b} \to \mathcal{F}_{a}$ that are equivalences of
-categories, hence quasi-inverse to one another. One takes for $\mathcal{F}_{a}$ and $\mathcal{F}_{b}$ the fiber
-categories of $\mathcal{F}$, for $F$ and $G$ the functors $f*$ and $g*$, and the two isomorphisms
+categories $\mathcal{F}_{a}$ and $\mathcal{F}_{b}$ and a **pair of adjoint functors** $G: \mathcal{F}_{a} \to
+\mathcal{F}_{b}$ and $F: \mathcal{F}_{b} \to \mathcal{F}_{a}$ that are equivalences of categories, hence quasi-inverse
+to one another. One takes for $\mathcal{F}_{a}$ and $\mathcal{F}_{b}$ the fiber categories of $\mathcal{F}$, for $F$ and
+$G$ the functors $f*$ and $g*$, and the two isomorphisms
 
 ```text
 u: FG ≃ id_{ℱ_a},    v: GF ≃ id_{ℱ_b}
@@ -1946,9 +1801,9 @@ An interesting case is the one in which
 ```
 
 An **autoduality** in a category $\mathcal{C}$ means the data of a functor $D: \mathcal{C} \to \mathcal{C}^{\circ}$ and
-an isomorphism $u: DD^{\circ} \simeq id_{\mathcal{C}}$ such that $u$ and the isomorphism
-$u^{\circ}: D^{\circ}D \simeq id^{\circ}_{\mathcal{C}}$ make $(D,D^{\circ})$ a pair of adjoint functors, necessarily
-quasi-inverse to one another. This condition is written
+an isomorphism $u: DD^{\circ} \simeq id_{\mathcal{C}}$ such that $u$ and the isomorphism $u^{\circ}: D^{\circ}D \simeq
+id^{\circ}_{\mathcal{C}}$ make $(D,D^{\circ})$ a pair of adjoint functors, necessarily quasi-inverse to one another.
+This condition is written
 
 ```text
 D(u(x)) = u(D(x))    for every x ∈ Ob(𝒞).
@@ -2001,8 +1856,8 @@ and
 
 <!-- original page 189 -->
 
-$Lim\leftarrow(\mathcal{F}/\mathcal{E})$ corresponds to the full subcategory formed by the functors
-$F: \mathcal{E} \to \mathcal{C}$ that transform arbitrary morphisms into isomorphisms.
+$Lim\leftarrow(\mathcal{F}/\mathcal{E})$ corresponds to the full subcategory formed by the functors $F: \mathcal{E} \to
+\mathcal{C}$ that transform arbitrary morphisms into isomorphisms.
 
 ## 12. Functors on a Cloven Category
 
@@ -2010,9 +1865,7 @@ $F: \mathcal{E} \to \mathcal{C}$ that transform arbitrary morphisms into isomorp
 
 Let $\mathcal{F}$ be a normalized cloven category over $\mathcal{E}$. For every object $S$ of $\mathcal{E}$, denote by
 
-$$
-i_{S}: \mathcal{F}_{S} \to \mathcal{F}
-$$
+$$ i_{S}: \mathcal{F}_{S} \to \mathcal{F} $$
 
 the inclusion functor. Thus one has a functorial homomorphism, for every morphism $f: T \to S$ in $\mathcal{E}$,
 
@@ -2022,9 +1875,7 @@ the inclusion functor. Thus one has a functorial homomorphism, for every morphis
 
 where $f*$ is the base-change functor $\mathcal{F}_{S} \to \mathcal{F}_{T}$ for $f$ defined by the cleavage. Let now
 
-$$
-F: \mathcal{F} \to \mathcal{C}
-$$
+$$ F: \mathcal{F} \to \mathcal{C} $$
 
 be a functor from $\mathcal{F}$ to a category $\mathcal{C}$. Put, for every $S \in Ob(\mathcal{E})$,
 
@@ -2038,9 +1889,9 @@ and for every $f: T \to S$ in $\mathcal{E}$,
 φ_f = F ∗ α_f: F_T f* → F_S.
 ```
 
-Thus to every functor $F: \mathcal{F} \to \mathcal{C}$ there is associated a family `(F_S)` of functors
-$\mathcal{F}_{S} \to \mathcal{C}$, and a family $(\phi_{f})$ of homomorphisms of functors $F_{T} f* \to F_{S}$. These
-families satisfy the following conditions:
+Thus to every functor $F: \mathcal{F} \to \mathcal{C}$ there is associated a family `(F_S)` of functors $\mathcal{F}_{S}
+\to \mathcal{C}$, and a family $(\phi_{f})$ of homomorphisms of functors $F_{T} f* \to F_{S}$. These families satisfy
+the following conditions:
 
 a) $\phi_{id_{S}} = id_{F_{S}}$.
 
@@ -2068,13 +1919,11 @@ f*(ξ) --α_f(ξ)----------->  ξ
 
 for variable $\xi$ in $\mathcal{F}_{S}$.
 
-If $G$ is a second functor $\mathcal{F} \to \mathcal{C}$, giving rise to functors
-$G_{S}: \mathcal{F}_{S} \to \mathcal{C}$ and functorial homomorphisms $\psi_{f}: G_{T} f* \to G_{S}$, and if
-$u: F \to G$ is a functorial homomorphism, then to it there correspond the functorial homomorphisms $u \ast i_{S}$:
+If $G$ is a second functor $\mathcal{F} \to \mathcal{C}$, giving rise to functors $G_{S}: \mathcal{F}_{S} \to
+\mathcal{C}$ and functorial homomorphisms $\psi_{f}: G_{T} f* \to G_{S}$, and if $u: F \to G$ is a functorial
+homomorphism, then to it there correspond the functorial homomorphisms $u \ast i_{S}$:
 
-$$
-u_{S}: F_{S} \to G_{S}.
-$$
+$$ u_{S}: F_{S} \to G_{S}. $$
 
 One checks at once that, for every morphism $f: T \to S$ in $\mathcal{E}$, one has commutativity in the squares
 
@@ -2089,13 +1938,13 @@ c)  F_T f* --φ_f--> F_S
 
 <!-- label: VI.12.1 -->
 
-Let $\mathcal{H}(\mathcal{F},\mathcal{C})$ be the category whose objects are pairs of families `(F_S)`,
-$S \in Ob(\mathcal{E})$, of functors $\mathcal{F}_{S} \to \mathcal{C}$, and of families $(\phi_{f})$,
-$f \in Fl(\mathcal{E})$, of functorial homomorphisms $F_{T} f* \to F_{S}$ satisfying conditions **a)** and **b)**, and
-whose morphisms are the families $(u_{S})$, $S \in Ob(\mathcal{E})$, of homomorphisms $F_{S} \to G_{S}$ verifying the
-commutativity condition **c)** written above; composition of morphisms is by composition of homomorphisms of functors
-$\mathcal{F}_{S} \to \mathcal{C}$. Then the two laws just described define an **isomorphism** $K$ from the category
-`Hom̲(ℱ,𝒞)` to the category $\mathcal{H}(\mathcal{F},\mathcal{C})$.
+Let $\mathcal{H}(\mathcal{F},\mathcal{C})$ be the category whose objects are pairs of families `(F_S)`, $S \in
+Ob(\mathcal{E})$, of functors $\mathcal{F}_{S} \to \mathcal{C}$, and of families $(\phi_{f})$, $f \in Fl(\mathcal{E})$,
+of functorial homomorphisms $F_{T} f* \to F_{S}$ satisfying conditions **a)** and **b)**, and whose morphisms are the
+families $(u_{S})$, $S \in Ob(\mathcal{E})$, of homomorphisms $F_{S} \to G_{S}$ verifying the commutativity condition
+**c)** written above; composition of morphisms is by composition of homomorphisms of functors $\mathcal{F}_{S} \to
+\mathcal{C}$. Then the two laws just described define an **isomorphism** $K$ from the category `Hom̲(ℱ,𝒞)` to the
+category $\mathcal{H}(\mathcal{F},\mathcal{C})$.
 
 <!-- original page 191 -->
 
@@ -2122,9 +1971,7 @@ F(ξ) = F_S(ξ)    for ξ ∈ Ob(ℱ_S) ⊂ Ob(ℱ),
 
 and a map $Fl(\mathcal{F}) \to Fl(\mathcal{C})$ by
 
-$$
-F(\alpha_{f}(\xi)u') = \phi_{f}(\xi) F_{T}(u'),
-$$
+$$ F(\alpha_{f}(\xi)u') = \phi_{f}(\xi) F_{T}(u'), $$
 
 for every morphism $f: T \to S$ in $\mathcal{E}$, every object $\xi$ of $\mathcal{F}_{S}$, and every $T$-morphism $u'$
 with target $f*(\xi)$. Then one obtains a **functor** $F$ from $\mathcal{F}$ to $\mathcal{C}$. Indeed, the relation
@@ -2161,16 +2008,12 @@ Suppose now that $\mathcal{C}$ is also a normalized cloven category over $\mathc
 $\mathcal{G}$, and that we are interested in $\mathcal{E}$-functors from $\mathcal{F}$ to $\mathcal{G}$. If $F$ is such
 a functor, it induces functors
 
-$$
-F_{S}: \mathcal{F}_{S} \to \mathcal{G}_{S}
-$$
+$$ F_{S}: \mathcal{F}_{S} \to \mathcal{G}_{S} $$
 
 on the fiber categories. On the other hand, for every morphism $f: T \to S$ in $\mathcal{E}$ and every object $\xi$ in
 $\mathcal{F}_{S}$, the $f$-morphism $F(\alpha_{f}(\xi))$ factors uniquely through a $T$-morphism
 
-$$
-\phi_{f}(\xi): F_{T}(f*_{\mathcal{F}}(\xi)) \to f*_{\mathcal{G}}(F_{S}(\xi)),
-$$
+$$ \phi_{f}(\xi): F_{T}(f*_{\mathcal{F}}(\xi)) \to f*_{\mathcal{G}}(F_{S}(\xi)), $$
 
 where the subscript $\mathcal{F}$ or $\mathcal{G}$ indicates the cloven category in which the inverse-image functor is
 being taken. Hence one obtains a functorial homomorphism of functors from $\mathcal{F}_{S}$ to $\mathcal{G}_{T}$:
