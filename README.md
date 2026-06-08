@@ -27,6 +27,9 @@ exist) were cross-referenced for technical accuracy.
 
 ## Related projects
 
+- [EGA — English translation](https://jcreinhold.github.io/ega/) — a companion translation, by the same author, of
+  Grothendieck and Dieudonné's *Éléments de Géométrie Algébrique*, the foundational reference these seminars build on.
+  SGA and EGA cite each other throughout; citations between the two translations are hyperlinked.
 - The French LaTeX re-typesettings of the SGA volumes — most notably Bas Edixhoven's volunteer SGA 1 LaTeX project, the
   2005 SMF *Documents Mathématiques* edition of SGA 2 edited by Y. Laszlo et al., and the 2011 SMF re-edition of SGA 3
   edited by M. Demazure — were cross-referenced as authoritative French source text.
