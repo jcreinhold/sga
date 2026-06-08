@@ -421,4 +421,5 @@ here. The proof below works for any closed `P ⊂ Y ∩ Supp F` on which the dim
 | toujours d'après                     | still by                           | Standard.                                                                                                   |
 | $7\to$, $-\to$, $\sim=$              | $\mapsto$, $\to$, $\cong$          | OCR repair, per the SGA 2 glossary.                                                                         |
 
-[^VII-2-1]: Cf. [EGA 0_IV 17.3.1](https://jcreinhold.github.io/ega/iv/04-ch0-17-regular-rings.html#173-cohomological-theory-of-regular-rings).
+[^VII-2-1]: Cf.
+    [EGA 0_IV 17.3.1](https://jcreinhold.github.io/ega/iv/04-ch0-17-regular-rings.html#173-cohomological-theory-of-regular-rings).

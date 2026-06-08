@@ -2387,11 +2387,13 @@ spectrum of a field (resp. if $S$ is the spectrum of a field and $G$ locally of 
 *b)* Moreover, by I 6.8.2, $\omega^{1}_{G/S}$ is equipped with a canonical structure of $G$-`O_S`-module, which induces
 on $V(\omega^{1}_{G/S}) = Lie(G/S)$ the adjoint action.[^N.D.E-II-87]
 
-*c)* On the other hand (cf. [EGA I, 5.3.11](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism) and 5.4.6), $\epsilon$ is an immersion, and is a closed immersion if $G$ is
-separated over $S$. Therefore $\omega^{1}_{G/S}$ is identified with $I/I^{2}$, where $I$ is the quasi-coherent ideal
-defining $\epsilon(S)$ in an open subset $U$ of $G$ in which $\epsilon(S)$ is closed (if $G \to S$ is separated, one may
-take $U = G$, and if $G = \operatorname{Spec} A(G)$ is affine over $S$, $I$ is nothing other than the augmentation ideal
-of $A(G)$, i.e. the kernel of $\epsilon^{\natural} : A(G) \to O_{S}$, cf. I 4.2).[^N.D.E-II-88]
+*c)* On the other hand (cf.
+[EGA I, 5.3.11](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism)
+and 5.4.6), $\epsilon$ is an immersion, and is a closed immersion if $G$ is separated over $S$. Therefore
+$\omega^{1}_{G/S}$ is identified with $I/I^{2}$, where $I$ is the quasi-coherent ideal defining $\epsilon(S)$ in an open
+subset $U$ of $G$ in which $\epsilon(S)$ is closed (if $G \to S$ is separated, one may take $U = G$, and if
+$G = \operatorname{Spec} A(G)$ is affine over $S$, $I$ is nothing other than the augmentation ideal of $A(G)$, i.e. the
+kernel of $\epsilon^{\natural} : A(G) \to O_{S}$, cf. I 4.2).[^N.D.E-II-88]
 
 **Remark 4.11.5.** One can deduce from the isomorphism $\Omega^{1}_{G/S} \simeq \pi^{*}(\omega^{1}_{G/S})$ that the
 `O_S`-module $\omega^{1}_{G/S}$ is identified with the sheaf $\pi_{*}(\Omega^{1}_{G/S})^{G}$ of "differentials of $G$
@@ -2405,7 +2407,9 @@ VII_A, 2.4).[^N.D.E-II-89]
 
 **Notation 4.11.6.** *One denotes by $Lie(G/S)$ the sheaf of sections of the vector fibration $Lie(G/S) \to S$; it is
 the `O_S`-module $(\omega^{1}_{G/S})^{\vee} = \operatorname{Hom}_{O_{S}}(\omega^{1}_{G/S}, O_{S})$ dual to
-$\omega^{1}_{G/S}$ (cf. [EGA II 1.7.9](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#17-vector-bundle-associated-to-a-sheaf-of-modules)). It is equipped with a structure of `O_S`-Lie algebra.*
+$\omega^{1}_{G/S}$ (cf.
+[EGA II 1.7.9](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#17-vector-bundle-associated-to-a-sheaf-of-modules)).
+It is equipped with a structure of `O_S`-Lie algebra.*
 
 <!-- label: III.II.4.11.6 -->
 
@@ -2415,8 +2419,10 @@ does not allow one to reconstruct the structure of $S$-scheme of `O_S`-Lie algeb
 However one has:
 
 **Lemma 4.11.7.** *Suppose $\omega^{1}_{G/S}$ locally free of finite type (which is the case in particular if $G$ is
-smooth over $S$ (cf. [EGA IV_4, 17.2.4](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#172-general-differential-properties)), or if $S$ is the spectrum of a field and $G$ locally of finite type over $S$).
-Then $Lie(G/S)^{\vee} \cong (\omega^{1}_{G/S})^{\vee\vee} \cong \omega^{1}_{G/S}$ and therefore*
+smooth over $S$ (cf.
+[EGA IV_4, 17.2.4](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#172-general-differential-properties)),
+or if $S$ is the spectrum of a field and $G$ locally of finite type over $S$). Then
+$Lie(G/S)^{\vee} \cong (\omega^{1}_{G/S})^{\vee\vee} \cong \omega^{1}_{G/S}$ and therefore*
 
 <!-- label: III.II.4.11.7 -->
 

@@ -348,7 +348,8 @@ hence the projective dimension of $F_{x}$ is finite; let $d$ be that integer. Le
 $$ K = \ker(L^{-d} \to L^{-d+1}). $$
 
 The module $K_{x}$ is free, because $d$ is the projective dimension of $F_{x}$ ([M], Ch. VI, Prop. 2.1). By ([EGA 0_I
-5.4.1](https://jcreinhold.github.io/ega/i/00-05-quasi-coherent-and-coherent-sheaves.html#54-locally-free-sheaves) Errata), one deduces that the $\mathcal{O}_{U}$-Module $\tilde{K}$ is free on a neighborhood $U'$ of $x$, with $U'
+5.4.1](https://jcreinhold.github.io/ega/i/00-05-quasi-coherent-and-coherent-sheaves.html#54-locally-free-sheaves)
+Errata), one deduces that the $\mathcal{O}_{U}$-Module $\tilde{K}$ is free on a neighborhood $U'$ of $x$, with $U'
 \subset U$. Choosing $f \in \mathcal{O}_{X}(U)$ such that $x \in D(f) \subset U'$, one therefore has a projective
 resolution of $M_{f}$ (with $M = F(U)$):
 
@@ -537,7 +538,9 @@ Carry out the base change $v : X' \to X$, which is flat:
 <!-- label: eq:VIII.2.7 -->
 
 The morphism $i$ is separated (since it is an immersion), and of finite type (since it is an open immersion and $X$ is
-locally noetherian); the base change is flat, hence ([EGA III 1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes)) one has an isomorphism
+locally noetherian); the base change is flat, hence
+([EGA III 1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes))
+one has an isomorphism
 
 $$ v^{*}(i_{*}(F|U)) \cong i'_{*}(v'^{*}(F|U)). $$
 
@@ -619,10 +622,12 @@ is given by
 E₂^{p,q} = R^p f_*(R^q g_*(F)).
 ```
 
-Moreover, there exists a coherent $\mathcal{O}_{X}$-Module $G$ such that $G|U \simeq F$ ([EGA I 9.4.3](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#94-extension-of-quasi-coherent-sheaves)). It then follows
-from the preceding paragraph that condition (iv) of page 74 is satisfied, i.e. that $R^{q} g_{*}(G|U)$ is coherent for
-$q < n$. One then applies the finiteness theorem of [EGA III 3.2.1](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#32-the-finiteness-theorem-case-of-usual-schemes) to $f$ and to the sheaves $R^{q} g_{*}(F)$, and finds
-that $E^{p,q}_{2}$ is coherent for $q < n$, whence the conclusion.
+Moreover, there exists a coherent $\mathcal{O}_{X}$-Module $G$ such that $G|U \simeq F$
+([EGA I 9.4.3](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#94-extension-of-quasi-coherent-sheaves)).
+It then follows from the preceding paragraph that condition (iv) of page 74 is satisfied, i.e. that $R^{q} g_{*}(G|U)$
+is coherent for $q < n$. One then applies the finiteness theorem of
+[EGA III 3.2.1](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#32-the-finiteness-theorem-case-of-usual-schemes)
+to $f$ and to the sheaves $R^{q} g_{*}(F)$, and finds that $E^{p,q}_{2}$ is coherent for $q < n$, whence the conclusion.
 
 **Proposition.**
 

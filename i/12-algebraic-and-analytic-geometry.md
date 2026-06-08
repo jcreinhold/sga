@@ -85,8 +85,10 @@ is an isomorphism, since $\hat{\psi}_{x}$ is one; this proves a.
 b. If one has two $\mathbb{C}$-schemes $X_{1}$, $X_{2}$, such that $X^{an}_{1}$ and $X^{an}_{2}$ exist, then $(X_{1}
 \times X_{2})^{an}$ also exists. Indeed, let $\phi_{1}: X^{an}_{1} \to X_{1}$ and $\phi_{2}: X^{an}_{2} \to X_{2}$ be
 the canonical morphisms, and let $p_{1}$, $p_{2}$ be the two projections from $X^{an}_{1} \times X^{an}_{2}$. It follows
-formally from [EGA I 1.8.1](https://jcreinhold.github.io/ega/i/01-01-affine-schemes.html#18-morphisms-from-locally-ringed-spaces-to-affine-schemes) that $X_{1} \times X_{2}$ is the product of $X_{1}$ and $X_{2}$ in the category of ringed
-spaces in local rings. Consequently the morphisms $\phi_{1} \cdot p_{1}$ and $\phi_{2} \cdot p_{2}$ define a
+formally from
+[EGA I 1.8.1](https://jcreinhold.github.io/ega/i/01-01-affine-schemes.html#18-morphisms-from-locally-ringed-spaces-to-affine-schemes)
+that $X_{1} \times X_{2}$ is the product of $X_{1}$ and $X_{2}$ in the category of ringed spaces in local rings.
+Consequently the morphisms $\phi_{1} \cdot p_{1}$ and $\phi_{2} \cdot p_{2}$ define a
 
 <!-- original page 314 -->
 
@@ -141,9 +143,11 @@ products. But if $X$, $Y$, $Z$ are schemes locally of finite type over $\mathbb{
 Let $X$ be a $\mathbb{C}$-scheme locally of finite type, let $X^{an}$ be the associated analytic space, and let $\phi:
 X^{an} \to X$ be the canonical morphism. If $F$ is an $\mathcal{O}_{X}$-module, the inverse image $\phi*F = F^{an}$ is a
 sheaf of modules over $\mathcal{O}^{an}_{X}$. This defines a functor from the category of $\mathcal{O}_{X}$-modules to
-the category of modules on $X^{an}$. This functor commutes with inductive limits ([EGA 0 4.3.2](https://jcreinhold.github.io/ega/i/00-04-ringed-spaces.html#43-inverse-image-of-a-b-module)). Since the sheaf
-$\mathcal{O}^{an}_{X}$ is coherent [XII.4, no. 18, §2, th. 2], it sends coherent sheaves to coherent sheaves ([EGA 0
-5.3.11](https://jcreinhold.github.io/ega/i/00-05-quasi-coherent-and-coherent-sheaves.html#53-coherent-sheaves)). Moreover:
+the category of modules on $X^{an}$. This functor commutes with inductive limits
+([EGA 0 4.3.2](https://jcreinhold.github.io/ega/i/00-04-ringed-spaces.html#43-inverse-image-of-a-b-module)). Since the
+sheaf $\mathcal{O}^{an}_{X}$ is coherent [XII.4, no. 18, §2, th. 2], it sends coherent sheaves to coherent sheaves ([EGA
+0 5.3.11](https://jcreinhold.github.io/ega/i/00-05-quasi-coherent-and-coherent-sheaves.html#53-coherent-sheaves)).
+Moreover:
 
 **Subproposition.**
 
@@ -161,7 +165,9 @@ F_φ(x) ⊗_𝒪_X,φ(x) 𝒪_X^an,x = 0.
 ```
 
 Since the morphism $\mathcal{O}_{X},\phi(x) \to \mathcal{O}^{an}_{X},x$ is faithfully flat, one has $F_{\phi}(x) = 0$
-for every closed point $\phi(x)$ of $X$; and since $X$ is Jacobson ([EGA IV 10.4.8](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#104-jacobson-preschemes-and-jacobson-rings)), this implies that $F$ is zero.
+for every closed point $\phi(x)$ of $X$; and since $X$ is Jacobson
+([EGA IV 10.4.8](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#104-jacobson-preschemes-and-jacobson-rings)),
+this implies that $F$ is zero.
 
 The
 
@@ -200,7 +206,9 @@ is equivalent to saying that $\dim X = 0$, respectively $\dim X^{an} = 0$ by [XI
 follows from (viii).
 
 Let $P$ be one of the properties (ii) through (vii). For $X$ to have property $P$, it is necessary and sufficient that
-$P$ hold at every closed point of $X$. Indeed, since $X$ is excellent ([EGA IV 7.8.6](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings) (iii)), the set of points
+$P$ hold at every closed point of $X$. Indeed, since $X$ is excellent
+([EGA IV 7.8.6](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings) (iii)), the
+set of points
 
 <!-- original page 317 -->
 
@@ -261,7 +269,8 @@ necessary and sufficient that $X^{an}$ be connected, respectively irreducible.
 
 Suppose $X^{an}$ is connected, respectively irreducible. The image $X(\mathbb{C})$ of $X^{an}$ in $X$ is then connected,
 respectively irreducible. It follows that $X$ is connected, respectively irreducible, because closed subsets of $X$ and
-of $X(\mathbb{C})$ correspond bijectively ([EGA IV 10.1.2](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#101-very-dense-subsets-of-a-topological-space)).
+of $X(\mathbb{C})$ correspond bijectively
+([EGA IV 10.1.2](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#101-very-dense-subsets-of-a-topological-space)).
 
 Conversely suppose $X$ is connected, respectively irreducible, and let us show that the same is true of $X^{an}$. We may
 restrict to the case where $X$ is irreducible. Indeed, suppose $X$ is connected. Given a point $x$ of $X$, the set of
@@ -358,16 +367,20 @@ Then $f$ has property $P$ if and only if $f^{an}$ has property $P$.
 Let $\phi: X^{an} \to X$ and $\psi: Y^{an} \to Y$ be the canonical morphisms. Let $x$ be a point of $X^{an}$, and put $y
 = f^{an}(x)$. The morphisms $\mathcal{O}^{an}_{Y},y \to \mathcal{O}^{an}_{X},x$ and $\mathcal{O}_{Y},\psi(y) \to
 \mathcal{O}_{X},\phi(x)$ deduced from $f^{an}$ and $f$ give the same morphism after passage to completions (XII.1.1). By
-[XII.2, ch. 3, §5, prop. 4], respectively [EGA IV 17.4.4](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#174-characterizations-of-unramified-morphisms), it is therefore equivalent to say that $f^{an}$ satisfies
-property (i), respectively (ii), and to say that $f$ satisfies (i), respectively (ii), at every closed point of $X$.
-Since the set of points of $X$ where (i), respectively (ii), holds is open ([EGA IV 11.1.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#111-flatness-loci-noetherian-case) and I 3.3), this proves (i)
-and (ii), hence also (iii).
+[XII.2, ch. 3, §5, prop. 4], respectively
+[EGA IV 17.4.4](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#174-characterizations-of-unramified-morphisms),
+it is therefore equivalent to say that $f^{an}$ satisfies property (i), respectively (ii), and to say that $f$ satisfies
+(i), respectively (ii), at every closed point of $X$. Since the set of points of $X$ where (i), respectively (ii), holds
+is open
+([EGA IV 11.1.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#111-flatness-loci-noetherian-case)
+and I 3.3), this proves (i) and (ii), hence also (iii).
 
 Let $P$ be property (iv), respectively (v), respectively (vi). Taking XII.2.1 ((v), (vi), (vii)) into account, it is
 equivalent to say that the geometric fibers of $f^{an}$ at the various points $y$ of $Y^{an}$ are regular, respectively
 normal, respectively reduced, and to say that the same is true of the geometric fibers of $f$ at the various closed
 points $\psi(y)$ of $Y$. Cases (iv), respectively (v), respectively (vi), then follow from (i) and from the fact that
-the set of points of $Y$ where the geometric fibers of $f$ are regular is open ([EGA IV 12.1.7](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#121-local-properties-of-the-fibres-of-a-flat-morphism-locally-of-finite-presentation)).
+the set of points of $Y$ where the geometric fibers of $f$ are regular is open
+([EGA IV 12.1.7](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#121-local-properties-of-the-fibres-of-a-flat-morphism-locally-of-finite-presentation)).
 
 (vii). If $f$ is injective, so is $f^{an}$. Conversely suppose $f^{an}$ is injective and let us show that $f$ is
 injective. We may suppose
@@ -375,18 +388,20 @@ injective. We may suppose
 <!-- original page 322 -->
 
 $f$ of finite type. Since $f^{an}$ is injective, the fibers of $f$ at closed points of $Y$ are radicial. Since the set
-of points of $Y$ whose fiber is radicial is locally constructible ([EGA IV 9.6.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#96-constructibility-of-certain-properties-of-morphisms)), and since $Y$ is a Jacobson scheme,
-all fibers of $f$ are radicial; hence $f$ is injective.
+of points of $Y$ whose fiber is radicial is locally constructible
+([EGA IV 9.6.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#96-constructibility-of-certain-properties-of-morphisms)),
+and since $Y$ is a Jacobson scheme, all fibers of $f$ are radicial; hence $f$ is injective.
 
 (viii). Let $\Delta: X \to X \times_{Y} X$ and $\Delta^{an}: X^{an} \to X^{an} \times_{Y^{an}} X^{an}$ be the diagonal
 immersions, and let $\Theta: X^{an} \times_{Y^{an}} X^{an} \to X \times_{Y} X$ be the canonical morphism. By XII.2.3,
 saying that $\Delta(X)$ is closed in $X \times_{Y} X$ is equivalent to saying that $\Delta^{an}(X^{an})$ is closed in
 $X^{an} \times_{Y^{an}} X^{an}$.
 
-Since an open immersion is nothing other than an étale injective morphism ([EGA IV 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions) and [XII.4, no. 13, §1]), (xi)
-follows from (iii) and (vii). Since an isomorphism is the same thing as a surjective open immersion, (ix) follows from
-(xi) and XII.3.2 (i) below. Saying that $f$ is a monomorphism is equivalent to saying that the diagonal morphism
-$\Delta: X \to X \times_{Y} X$ is an isomorphism, so (x) follows from (ix).
+Since an open immersion is nothing other than an étale injective morphism
+([EGA IV 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)
+and [XII.4, no. 13, §1]), (xi) follows from (iii) and (vii). Since an isomorphism is the same thing as a surjective open
+immersion, (ix) follows from (xi) and XII.3.2 (i) below. Saying that $f$ is a monomorphism is equivalent to saying that
+the diagonal morphism $\Delta: X \to X \times_{Y} X$ is an isomorphism, so (x) follows from (ix).
 
 **Proposition.**
 
@@ -415,14 +430,16 @@ Let $\phi: X^{an} \to X$ and $\psi: Y^{an} \to Y$ be the canonical morphisms.
 
 (i). If $f$ is surjective, then for every point $y$ of $Y^{an}$, $f^{-1}(\psi(y))$ is a nonempty closed subset of $X$;
 hence it contains at least one closed point, which proves that $f^{an}$ is surjective. Conversely, if $f^{an}$ is
-surjective, $f(X)$ is a locally constructible subset of $Y$ ([EGA IV 1.8.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets)) containing all closed points of $Y$; hence
-$f(X) = Y$.
+surjective, $f(X)$ is a locally constructible subset of $Y$
+([EGA IV 1.8.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets))
+containing all closed points of $Y$; hence $f(X) = Y$.
 
 (ii) follows from XII.2.2.
 
 (iii). If $f$ is a closed immersion, then so is $f^{an}$ by XII.1.1 a. Conversely, if $f^{an}$ is a closed immersion,
-then so is $f$ by XII.3.1 (x) and XII.3.2 (v), since this is equivalent to saying that $f$ is a proper monomorphism ([EGA
-IV 8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)).
+then so is $f$ by XII.3.1 (x) and XII.3.2 (v), since this is equivalent to saying that $f$ is a proper monomorphism
+([EGA IV
+8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)).
 
 (iv). It is clear that if $f$ is an immersion, then so is $f^{an}$. Conversely suppose $f^{an}$ is an immersion, and let
 $T$ be the image of $X$ in $Y$, and $\bar{T}$ the scheme-theoretic closure of $f$. There is a factorization of $f$
@@ -454,8 +471,9 @@ The morphism $i^{an}_{1}$ is a proper monomorphism, hence so is $i_{1}$ by XII.3
 $i_{1}$, and hence also $f$, is an immersion.
 
 (v). Suppose $f$ is proper and let us show that $f^{an}$ is proper. Since properness of $f^{an}$ is local on $Y^{an}$,
-we may suppose $Y$ affine. By Chow’s lemma ([EGA II 5.6.1](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#56-chows-lemma)), one can find a projective $Y$-scheme $X'$ and a projective
-surjective morphism
+we may suppose $Y$ affine. By Chow’s lemma
+([EGA II 5.6.1](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#56-chows-lemma)),
+one can find a projective $Y$-scheme $X'$ and a projective surjective morphism
 
 $$ g: X' \to X. $$
 
@@ -485,9 +503,11 @@ $$ \psi^{-1}(closure(f(T))) = \psi^{-1}(f(T)). $$
 
 This implies $f(T) = closure(f(T))$, that is, $f$ is closed; hence $f$ is proper.
 
-(vi). Saying that a morphism is finite is equivalent to saying that it is proper with finite fibers ([EGA III 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem) and
-[XII.4, no. 19, §5]). Since the set of points where the fibers of $f$ are finite is locally constructible ([EGA IV
-9.7.9](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#97-constructibility-of-separability-geometric-irreducibility-and-geometric-connectedness)), the fibers of $f$ are finite if and only if the fibers of $f^{an}$ are finite. Thus (vi) follows from (v).
+(vi). Saying that a morphism is finite is equivalent to saying that it is proper with finite fibers
+([EGA III 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)
+and [XII.4, no. 19, §5]). Since the set of points where the fibers of $f$ are finite is locally constructible ([EGA IV
+9.7.9](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#97-constructibility-of-separability-geometric-irreducibility-and-geometric-connectedness)),
+the fibers of $f$ are finite if and only if the fibers of $f^{an}$ are finite. Thus (vi) follows from (v).
 
 **Remark.**
 
@@ -513,7 +533,9 @@ proper scheme the theorems established in [XII.10, no. 12] when $X$ is projectiv
 More general results, concerning relative proper schemes over an analytic space, are proved in [XII.7, ch. VIII, no. 3].
 
 Recall that the Čech cohomology used in [XII.10, no. 12] coincides with the usual cohomology in the algebraic case as
-well as in the analytic case ([EGA III 1.4.1](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes) and [XII.5, II 5.10]).
+well as in the analytic case
+([EGA III 1.4.1](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes)
+and [XII.5, II 5.10]).
 
 ### 4.1
 
@@ -585,11 +607,13 @@ The proof is then completed by copying [XII.10, no. 12, lemma 5], with cohomolog
 
 <!-- original page 328 -->
 
-**The case where $f$ is proper.** One uses [EGA III 3.1.2](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#31-the-dévissage-lemma) to reduce to the projective case. Let $\mathcal{K}$ be the
-category of coherent $\mathcal{O}_{X}$-modules such that $\theta_{p}$ is an isomorphism for every $p \geq 0$. It is
-enough to prove that, for every exact sequence $0 \to F' \to F \to F'' \to 0$ whose two terms are in $\mathcal{K}$, the
-third is also in $\mathcal{K}$; that a direct factor of an object of $\mathcal{K}$ is in $\mathcal{K}$; and that, for
-every point $x$ of $X$, one can find an object $F$ of $\mathcal{K}$ such that $F_{x} \neq 0$.
+**The case where $f$ is proper.** One uses
+[EGA III 3.1.2](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#31-the-dévissage-lemma)
+to reduce to the projective case. Let $\mathcal{K}$ be the category of coherent $\mathcal{O}_{X}$-modules such that
+$\theta_{p}$ is an isomorphism for every $p \geq 0$. It is enough to prove that, for every exact sequence
+$0 \to F' \to F \to F'' \to 0$ whose two terms are in $\mathcal{K}$, the third is also in $\mathcal{K}$; that a direct
+factor of an object of $\mathcal{K}$ is in $\mathcal{K}$; and that, for every point $x$ of $X$, one can find an object
+$F$ of $\mathcal{K}$ such that $F_{x} \neq 0$.
 
 The first condition follows by applying the five lemma to the following commutative diagram, whose rows are exact:
 

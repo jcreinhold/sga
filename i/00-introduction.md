@@ -136,10 +136,12 @@ statement, definition, remark, or similar item inside that exposé. If needed, l
 example 9.7.1 and 9.7.2 to designate the various steps in the proof of Proposition 9.7. The reference III 9 denotes
 paragraph 9 of Exposé III. The number of the exposé is omitted for references internal to an exposé. For a reference to
 another part of the _Séminaire_, the same sigla are used, but preceded by the mention of the SGA part in question, for
-example SGA 1 III 9.7. Similarly, the reference [EGA IV 11.5.7](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#115-descent-of-flatness-by-arbitrary-morphisms-general-case) means: _Éléments de Géométrie Algébrique_, Chapter IV,
-statement, definition, etc. 11.5.7; here, the first Arabic numeral again denotes the paragraph number. Apart from these
-conventions, in force throughout the SGA, the bibliography for an exposé will generally be gathered at its end, and
-inside the exposé it will be referred to by numbers in square brackets, such as [3], according to custom.
+example SGA 1 III 9.7. Similarly, the reference
+[EGA IV 11.5.7](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#115-descent-of-flatness-by-arbitrary-morphisms-general-case)
+means: _Éléments de Géométrie Algébrique_, Chapter IV, statement, definition, etc. 11.5.7; here, the first Arabic
+numeral again denotes the paragraph number. Apart from these conventions, in force throughout the SGA, the bibliography
+for an exposé will generally be gathered at its end, and inside the exposé it will be referred to by numbers in square
+brackets, such as [3], according to custom.
 
 Finally, for the reader’s convenience, whenever it seems necessary, we shall append to the end of SGA volumes an index
 of notation and a terminological index containing, where appropriate, an English translation of the French terms used.

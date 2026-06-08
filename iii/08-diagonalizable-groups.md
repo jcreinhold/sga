@@ -397,7 +397,9 @@ an $S$-prescheme $X$ affine over $S$ (such that $X \times_{S} S'_{i} = X'_{i}$ f
 S$.*
 
 The first assertion follows from 1.7.2. For the second, it suffices to verify that each morphism $X \times_{S} S_{i} \to
-S_{i}$ is a closed immersion (resp. finite and étale), which follows from [EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent) (resp. and IV₄, 17.7.3).
+S_{i}$ is a closed immersion (resp. finite and étale), which follows from
+[EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)
+(resp. and IV₄, 17.7.3).
 
 **Remark 1.7.4.** *Assertion 1.5 (b) follows, as announced, from 1.7.1 and 1.7.2 (i).*
 
@@ -1331,9 +1333,10 @@ amounts to saying that $u$ is a monomorphism (which is true by hypothesis) and t
 proper at every point of $u(G)$)[^N.D.E-VIII-35]. The valuative criterion of properness assures us that it suffices to
 verify that for every base change $S' \to S$, with $S'$ the spectrum of a discrete valuation ring, complete if one
 wishes, the morphism $u' : G' \to H'$ has the same properness property. (The case of local properness was forgotten in
-[EGA II 7.3](https://jcreinhold.github.io/ega/ii/02-07-valuative-criteria.html#73-valuative-criterion-of-properness), and will appear as an erratum in EGA IV[^VIII-7-starstar].) This therefore reduces us to the case where $S$
-itself is the spectrum of a complete discrete valuation ring — subject to the supplementary hypotheses on $G$, $H$, $u$
-that we are led to formulate being stable under base change.
+[EGA II 7.3](https://jcreinhold.github.io/ega/ii/02-07-valuative-criteria.html#73-valuative-criterion-of-properness),
+and will appear as an erratum in EGA IV[^VIII-7-starstar].) This therefore reduces us to the case where $S$ itself is
+the spectrum of a complete discrete valuation ring — subject to the supplementary hypotheses on $G$, $H$, $u$ that we
+are led to formulate being stable under base change.
 
 Let then $s$ (resp. $s_{0}$) be the closed point (resp. the generic point) of $S$. Then the homomorphisms induced on the
 fibers
@@ -1350,10 +1353,12 @@ therefore identify $G_{s_{0}}$ with a closed subscheme of $H_{s_{0}}$. Now we ha
 
 <!-- label: III.VIII.7.1 -->
 
-*Then the schematic closure $\bar{L}_{0}$ in $H$ (i.e. the smallest closed subprescheme of $H$ majorizing `L_0`, cf. [EGA
-I 9.5](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#95-closed-image-of-a-prescheme-closure-of-a-subprescheme)) exists and is also the unique closed subprescheme of $H$, flat over $S$, whose generic fiber is `L_0`. Moreover,
-the formation of $\bar{L}$ is functorial with respect to a variable couple $(H, L_{0})$, and commutes with the formation
-of cartesian products over $S$.*
+*Then the schematic closure $\bar{L}_{0}$ in $H$ (i.e. the smallest closed subprescheme of $H$ majorizing `L_0`, cf.
+[EGA I
+9.5](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#95-closed-image-of-a-prescheme-closure-of-a-subprescheme))
+exists and is also the unique closed subprescheme of $H$, flat over $S$, whose generic fiber is `L_0`. Moreover, the
+formation of $\bar{L}$ is functorial with respect to a variable couple $(H, L_{0})$, and commutes with the formation of
+cartesian products over $S$.*
 
 <!-- original page 28 -->
 
@@ -1390,7 +1395,9 @@ that $u$ or again $u_{s}$ is an isomorphism, possibly under the hypothesis of bi
 Suppose therefore first that $u$ is bijective. If $H_{s}$ is reduced, one can evidently conclude that $u_{s}$ is an
 isomorphism, since $G_{s}$ identifies with a closed subscheme of $H_{s}$ having the same underlying set. In particular,
 if $k = \kappa(s)$ is of characteristic zero, every algebraic group over $k$ is reduced by Cartier (cf. VI_B, 1.6.1, or
-VII_B, 3.3.1, or [EGA IV₄, 16.12.2](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#1612-case-of-characteristic-zero--jacobian-criterion-for-differentially-smooth-morphisms) and 17.12.5), and one has thus obtained:
+VII_B, 3.3.1, or
+[EGA IV₄, 16.12.2](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#1612-case-of-characteristic-zero--jacobian-criterion-for-differentially-smooth-morphisms)
+and 17.12.5), and one has thus obtained:
 
 **Proposition 7.2.** *Let $u : G \to H$ be a homomorphism of preschemes in groups of finite presentation over $S$.
 Suppose that $u$ is a monomorphism, $G$ flat over $S$, and the residue fields of $S$ of characteristic zero. Then $u$ is
@@ -1797,7 +1804,9 @@ ______________________________________________________________________
 [^N.D.E-VIII-20]: N.D.E.: It follows from 5.2 that $\sum_{p \neq 0} J_{p} = A_{0}$, hence `1` is written as a finite sum
     $\sum_{i} x_{i}$, with $x_{i} \in J_{p_{i}}$.
 
-[^N.D.E-VIII-21]: N.D.E.: cf. [EGA II, 2.7.1](https://jcreinhold.github.io/ega/ii/02-02-homogeneous-prime-spectra.html#27-finiteness-conditions) (vi).
+[^N.D.E-VIII-21]: N.D.E.: cf.
+    [EGA II, 2.7.1](https://jcreinhold.github.io/ega/ii/02-02-homogeneous-prime-spectra.html#27-finiteness-conditions)
+    (vi).
 
 [^VIII-6-star]: The present § is independent of the theory of diagonalizable groups; its natural place would be in VI_B.
 
@@ -1835,13 +1844,19 @@ ______________________________________________________________________
     1.1 (c). If one does not assume $G$ has connected fibers, one may take $S = \operatorname{Spec}(\mathbb{Z}_{2})$, $G
     = (\mathbb{Z}/2\mathbb{Z})_{S}$ deprived of the non-neutral closed point, $H = (\mu_{2})_{S}$.
 
-[^N.D.E-VIII-34]: N.D.E.: cf. [EGA IV₃, § 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes), and Exp. VI_B, § 10.
+[^N.D.E-VIII-34]: N.D.E.: cf.
+    [EGA IV₃, § 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes),
+    and Exp. VI_B, § 10.
 
-[^N.D.E-VIII-35]: N.D.E.: cf. [EGA IV₃, 8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms) and 15.7.1.
+[^N.D.E-VIII-35]: N.D.E.: cf.
+    [EGA IV₃, 8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)
+    and 15.7.1.
 
-[^VIII-7-starstar]: Cf. [EGA IV₃, 15.7](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#157-appendix-valuative-criteria-of-local-properness).
+[^VIII-7-starstar]: Cf.
+    [EGA IV₃, 15.7](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#157-appendix-valuative-criteria-of-local-properness).
 
-[^VIII-7-starstarstar]: Cf. [EGA IV₂, 2.8](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#28-preschemes-over-a-regular-base-of-dimension-1-closure-of-a-closed-sub-prescheme-of-the-generic-fibre).
+[^VIII-7-starstarstar]: Cf.
+    [EGA IV₂, 2.8](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#28-preschemes-over-a-regular-base-of-dimension-1-closure-of-a-closed-sub-prescheme-of-the-generic-fibre).
 
 [^N.D.E-VIII-36]: N.D.E.: We have suppressed the word "closed".
 

@@ -113,12 +113,15 @@ this seminar devoted to reductive group schemes.
 of flat morphism, étale morphism, smooth morphism, expounded in SGA 1, I to V; and finally the theory of faithfully flat
 descent of SGA 1, VIII. We have as far as possible avoided formulating unnecessary noetherian hypotheses, which has
 required us in return to replace the usual hypothesis "of finite type" by the hypothesis "of finite presentation". For
-the notion of morphism of finite presentation, the reader is referred to [EGA IV, 1.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation) and 1.6. The results of SGA 1, I to
-IV, most often stated in the noetherian context, will be developed in the general case in EGA IV,[^I-intro-6] where
-standard methods for reducing certain types of statements (involving hypotheses of finite presentation) to the
-noetherian case will also be developed in detail ([EGA IV, §§ 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes), 9, 11). The reader who does not wish to admit these
-results from EGA IV can simplify certain statements or their proofs by assuming the base prescheme to be locally
-noetherian. He will, however, expose himself to difficulties in cases where the proof
+the notion of morphism of finite presentation, the reader is referred to
+[EGA IV, 1.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation)
+and 1.6. The results of SGA 1, I to IV, most often stated in the noetherian context, will be developed in the general
+case in EGA IV,[^I-intro-6] where standard methods for reducing certain types of statements (involving hypotheses of
+finite presentation) to the noetherian case will also be developed in detail
+([EGA IV, §§ 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes),
+9, 11). The reader who does not wish to admit these results from EGA IV can simplify certain statements or their proofs
+by assuming the base prescheme to be locally noetherian. He will, however, expose himself to difficulties in cases where
+the proof
 
 <!-- original page xxiv -->
 

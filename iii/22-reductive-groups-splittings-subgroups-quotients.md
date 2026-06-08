@@ -605,7 +605,9 @@ This is an open immersion. Indeed, since both sides are flat and of finite prese
 this on each geometric fiber (SGA 1, I 5.7 and VIII 5.4); one is thus reduced to the case where $S$ is the spectrum of
 an algebraically closed field; but, by *Bible*, § 13.4, cor. 2 to th. 3, $u$ is radicial and dominant; since the tangent
 map of $u$ at the origin is an isomorphism (definition of a system of roots), $u$ is birational; but $G$ being normal,
-one may apply Zariski's "Main Theorem" ([EGA III₁, 4.4.9](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)) and $u$ is an open immersion.
+one may apply Zariski's "Main Theorem"
+([EGA III₁, 4.4.9](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem))
+and $u$ is an open immersion.
 
 Let us show that the image $\Omega$ of this open immersion is independent of the ordering chosen on $R+$ (resp. $R-$).
 Since this is a question of comparing open subsets of $G$, one is reduced to proving that they have the same geometric
@@ -995,8 +997,9 @@ Ker(f) = D_S(K(R(f))),    K(R(f)) = Coker(R(f)).
 *(b) If $G$ and $G'$ are semisimple, every morphism of split groups $f : G \to G'$ is an isogeny.*[^N.D.E-XXII-21]
 
 *(c) If $f : G \to G'$ is faithfully flat and finite and if $G$ is reductive (resp. semisimple), then $G'$ is also. It
-is indeed of finite presentation over $S$ (Exp. V 9.1), affine over $S$ ([EGA II 6.7.1](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#67-chevalleys-theorem)), smooth over $S$ (Exp. VI 9.2),
-with connected reductive (resp. semisimple) geometric fibers by Exp. XIX 1.7.*
+is indeed of finite presentation over $S$ (Exp. V 9.1), affine over $S$
+([EGA II 6.7.1](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#67-chevalleys-theorem)), smooth
+over $S$ (Exp. VI 9.2), with connected reductive (resp. semisimple) geometric fibers by Exp. XIX 1.7.*
 
 Definition 4.2.1 may seem arbitrary. It is justified by the following proposition (which we state, for simplicity, for
 semisimple groups).
@@ -1512,13 +1515,14 @@ $H'$ two subgroups of type (R) of $G$, both containing $T$. Then*
 H = H′ ⇔ h = h′.
 ```
 
-By virtue of the finite presentation hypotheses, one reduces as usual (cf. [EGA IV₃, § 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes) and Exp. VI_B § 10) to the case
-where $S$ is noetherian; it suffices then to verify that $h = h'$ implies $H_{S'} = H'_{S'}$ for every $S'$ spectrum of
-an artinian quotient of a local ring of $S$;[^N.D.E-XXII-32] one is thus reduced to the case where $S$ is artinian, and
-one may apply 5.1.8. Let $u : G \to G' = G/Z$ be the canonical morphism and $T' = T/Z$ the maximal torus of $G'$
-corresponding to $T$. By Exp. XII 7.12, there exist subgroups of type (R) $H_{1}$ and $H'_{1}$ of $G'$, containing $T'$,
-such that $H = u^{-1}(H_{1})$ and $H' = u^{-1}(H'_{1})$. It suffices to prove that $H_{1} = H'_{1}$. But by 5.2.7 and
-5.1.5, one has
+By virtue of the finite presentation hypotheses, one reduces as usual (cf.
+[EGA IV₃, § 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes)
+and Exp. VI_B § 10) to the case where $S$ is noetherian; it suffices then to verify that $h = h'$ implies
+$H_{S'} = H'_{S'}$ for every $S'$ spectrum of an artinian quotient of a local ring of $S$;[^N.D.E-XXII-32] one is thus
+reduced to the case where $S$ is artinian, and one may apply 5.1.8. Let $u : G \to G' = G/Z$ be the canonical morphism
+and $T' = T/Z$ the maximal torus of $G'$ corresponding to $T$. By Exp. XII 7.12, there exist subgroups of type (R)
+$H_{1}$ and $H'_{1}$ of $G'$, containing $T'$, such that $H = u^{-1}(H_{1})$ and $H' = u^{-1}(H'_{1})$. It suffices to
+prove that $H_{1} = H'_{1}$. But by 5.2.7 and 5.1.5, one has
 
 $$ Lie(H_{1}) = Lie(H'_{1}), $$
 
@@ -2917,8 +2921,9 @@ descent of affine schemes.[^N.D.E-XXII-52]
 The assertions of (ii) follow immediately from 5.5.5 (ii) and 5.6.13. It already follows that $Tor(G)$ is affine over
 $S$ (EGA II 6.7.1). It thus remains only to prove the fact that $Bor(G)$ is projective over $S$. We already know that it
 is quasi-projective; it remains to prove that it is proper;[^N.D.E-XXII-53] but it has connected fibers, so by [EGA IV₃,
-15.7.10](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#157-appendix-valuative-criteria-of-local-properness), one is reduced to proving it on geometric fibers; if $S$ is the spectrum of an algebraically closed field, one
-has $Bor(G) = G/B$ by (iii) and one concludes by Bible, § 6.4, th. 4 (or [Ch05], § 6.5, th. 5).
+15.7.10](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#157-appendix-valuative-criteria-of-local-properness),
+one is reduced to proving it on geometric fibers; if $S$ is the spectrum of an algebraically closed field, one has
+$Bor(G) = G/B$ by (iii) and one concludes by Bible, § 6.4, th. 4 (or [Ch05], § 6.5, th. 5).
 
 **Remark 5.8.4.** *Under the conditions of 5.8.3, let $Q$ be a central subgroup of multiplicative type of $G$. The
 obvious morphisms define isomorphisms*
@@ -4105,8 +4110,10 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
     cit., 17.9.1, $f$ is a surjective open immersion, hence an isomorphism.
 
 [^N.D.E-XXII-7]: Indeed, let $T$ be a maximal torus of $G$. The fact that $W_{G}(T)$ is finite over $S$ is local for the
-    (fpqc) topology ([EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)), so a fortiori for the étale topology. By 2.3, one may therefore suppose that $G$
-    is split relative to $T$, in which case the assertion follows from 3.4.
+    (fpqc) topology
+    ([EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)),
+    so a fortiori for the étale topology. By 2.3, one may therefore suppose that $G$ is split relative to $T$, in which
+    case the assertion follows from 3.4.
 
 [^N.D.E-XXII-8]: We have replaced $Q_{w}$ by $N_{w}$, just as in XX 3.0 we had replaced $Q$ by $N\times$.
 
@@ -4114,7 +4121,8 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [^N.D.E-XXII-10]: We have expanded the original in what follows.
 
-[^N.D.E-XXII-11]: See also [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes).
+[^N.D.E-XXII-11]: See also
+    [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes).
 
 [^N.D.E-XXII-12]: We have added the following sentence.
 
@@ -4184,9 +4192,11 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [^N.D.E-XXII-35]: In fact, it suffices (cf. loc. cit.) that 2 and 3 be non-zero on $S$.
 
-[^N.D.E-XXII-36]: By [EGA IV₄, 17.11.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1711-smooth-morphisms-of-smooth-preschemes), $i$ is étale at every point of the unit section (and $Norm_{G}(g_{R'})$ is smooth
-    at every point of the unit section). Furthermore, let $V$ be the largest open subset of $\Omega_{R+, R'}$ on which
-    $i$ is étale; since $i$ is a monomorphism, $i_{V}$ is an open immersion (ibid., 17.9.1).
+[^N.D.E-XXII-36]: By
+    [EGA IV₄, 17.11.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1711-smooth-morphisms-of-smooth-preschemes),
+    $i$ is étale at every point of the unit section (and $Norm_{G}(g_{R'})$ is smooth at every point of the unit
+    section). Furthermore, let $V$ be the largest open subset of $\Omega_{R+, R'}$ on which $i$ is étale; since $i$ is a
+    monomorphism, $i_{V}$ is an open immersion (ibid., 17.9.1).
 
 [^N.D.E-XXII-37]: That is, if $g^{i\alpha+j\beta} = 0$ on a connected component of $S$, the corresponding exponential is
     1 on this component.
@@ -4219,7 +4229,8 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [^N.D.E-XXII-45]: This re-proves and refines XII 1.10 (for $G$ reductive).
 
-[^N.D.E-XXII-46]: By SGA 1, VIII 2.1 and [EGA IV₄, 17.7.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility).
+[^N.D.E-XXII-46]: By SGA 1, VIII 2.1 and
+    [EGA IV₄, 17.7.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility).
 
 [^N.D.E-XXII-47]: See also the additions made in VI_B, 6.2.1 to 6.2.6 and 6.5.2 to 6.5.5.
 
@@ -4274,4 +4285,6 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 
 [^N.D.E-XXII-65]: We have removed the hypothesis that $H$ be retrocompact in $G$, which is automatically verified
     because, by VI_B 5.5, $G$ and $H$ are separated and quasi-compact over $S$, so $H \hookrightarrow G$ is
-    quasi-compact by [EGA IV₁, 1.1.2](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#11-quasi-compact-morphisms) (v).
+    quasi-compact by
+    [EGA IV₁, 1.1.2](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#11-quasi-compact-morphisms)
+    (v).

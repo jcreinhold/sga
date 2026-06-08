@@ -858,17 +858,19 @@ The proof of the theorem is now easy. Note first the following consequence of th
 ${A_{i}}$ is an inductive system of rings over $S$, if $\tilde{A} = \lim A_{i}$, and if the hypotheses of (3.9) are
 satisfied for $S = \operatorname{Spec} \tilde{A}$, then one may descend the object that represents the quotient $G$ of
 $R \Rightarrow X^{2}$ to one of $S_{i} = \operatorname{Spec} A_{i}$ with the finiteness and flatness properties stated
-in (3.9). This is the usual passage to the limit ([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes) and 11). It follows that for the proof of (iii) and (iv) of
-(3.7), one may restrict to the case $S = \operatorname{Spec} A$, with $A$ a strictly local ring. Let then $x_{0}$ be a
-closed point of the closed fiber $X_{0}$ of $X/S$. There exists[^XVIII-3-3] an extension $A'$ of $A$, local, free and
-finite, and a section of $X' = X \times_{S} S'$ passing through the unique point $x'_{0}$ of $X'$ above $x_{0}$. Note
-that $X'_{0} \to X_{0}$ is radicial since $S$ is strictly local, hence the residue field of $A$ separably closed. It
-follows that there exists an inductive system ${A_{i}}$ of local rings, flat and finite over $S$, such that, setting
-$\tilde{A} = \lim A_{i}$ and $\tilde{X} = X \times_{S} \operatorname{Spec} \tilde{A}$, $\tilde{X}$ has a set of sections
-which induces a dense set on the closed fiber $\tilde{X}_{0}$. For each closed point $x_{0}$ of $X_{0}$ one takes an
-extension $A(x_{0})$ such that the corresponding base change of $X$ admits a section "passing through $x_{0}$", and one
-takes as inductive system the system of finite tensor products of the $A(x_{0})$. Note that `Ã` is local, being a limit
-of local rings. Hence by (3.12) and (3.10) one has the quotient $G$
+in (3.9). This is the usual passage to the limit
+([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes) and
+11). It follows that for the proof of (iii) and (iv) of (3.7), one may restrict to the case $S = \operatorname{Spec} A$,
+with $A$ a strictly local ring. Let then $x_{0}$ be a closed point of the closed fiber $X_{0}$ of $X/S$. There
+exists[^XVIII-3-3] an extension $A'$ of $A$, local, free and finite, and a section of $X' = X \times_{S} S'$ passing
+through the unique point $x'_{0}$ of $X'$ above $x_{0}$. Note that $X'_{0} \to X_{0}$ is radicial since $S$ is strictly
+local, hence the residue field of $A$ separably closed. It follows that there exists an inductive system ${A_{i}}$ of
+local rings, flat and finite over $S$, such that, setting $\tilde{A} = \lim A_{i}$ and
+$\tilde{X} = X \times_{S} \operatorname{Spec} \tilde{A}$, $\tilde{X}$ has a set of sections which induces a dense set on
+the closed fiber $\tilde{X}_{0}$. For each closed point $x_{0}$ of $X_{0}$ one takes an extension $A(x_{0})$ such that
+the corresponding base change of $X$ admits a section "passing through $x_{0}$", and one takes as inductive system the
+system of finite tensor products of the $A(x_{0})$. Note that `Ã` is local, being a limit of local rings. Hence by
+(3.12) and (3.10) one has the quotient $G$
 
 <!-- original page 653 -->
 
@@ -933,8 +935,9 @@ vol. 27, No. 1, June, 1963.
 | `Cb` (OCR) | `Ĉ` | Not encountered in this Exposé; ledger note. |
 -->
 
-[^XVIII-1-1]: cf. also [EGA IV₃, 11.9](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#119-separating-and-universally-separating-families-of-homomorphisms-of-sheaves-of-modules) and 11.10 (notably 11.10.8), where one says "universally schematically dense
-    relatively to $S$".
+[^XVIII-1-1]: cf. also
+    [EGA IV₃, 11.9](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#119-separating-and-universally-separating-families-of-homomorphisms-of-sheaves-of-modules)
+    and 11.10 (notably 11.10.8), where one says "universally schematically dense relatively to $S$".
 
 [^N.D.E-XVIII-1]: N.D.E.: to be made precise for which topology: a priori (fpqc).
 
@@ -946,8 +949,10 @@ vol. 27, No. 1, June, 1963.
 
 [^N.D.E-XVIII-3]: N.D.E.: To be made precise…
 
-[^XVIII-1-2]: cf. [EGA IV₄, 20.5](https://jcreinhold.github.io/ega/iv/33-ch4-20-meromorphic-functions.html#205-relative-pseudo-morphisms), where one says "pseudo-morphism of $X$ into $Y$ relatively to $S$", in order not to
-    conflict with [EGA I, 7.12](https://jcreinhold.github.io/ega/i/01-07-rational-maps.html#7-rational-maps).
+[^XVIII-1-2]: cf.
+    [EGA IV₄, 20.5](https://jcreinhold.github.io/ega/iv/33-ch4-20-meromorphic-functions.html#205-relative-pseudo-morphisms),
+    where one says "pseudo-morphism of $X$ into $Y$ relatively to $S$", in order not to conflict with
+    [EGA I, 7.12](https://jcreinhold.github.io/ega/i/01-07-rational-maps.html#7-rational-maps).
 
 [^N.D.E-XVIII-4]: N.D.E.: The number 1.5.1 has been added.
 
@@ -975,13 +980,15 @@ vol. 27, No. 1, June, 1963.
 
 [^N.D.E-XVIII-13]: N.D.E.: to be made precise…
 
-[^XVIII-3-2]: combining Exp. VI_A, 1.1.1 and [EGA IV₄, 17.16.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1716-quasi-sections-of-flat-or-smooth-morphisms).
+[^XVIII-3-2]: combining Exp. VI_A, 1.1.1 and
+    [EGA IV₄, 17.16.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1716-quasi-sections-of-flat-or-smooth-morphisms).
 
 [^N.D.E-XVIII-14]: N.D.E.: If $X$ is smooth, separated over $S$, faithfully flat of finite presentation over $S$, then
     $G/S$ is representable by an $S$-group scheme smooth and of finite type over $S$. This is Theorem 6.6.1 of the book
     *Néron models* of Bosch–Lütkebohmert–Raynaud, Springer (1990).
 
-[^N.D.E-XVIII-15]: N.D.E.: Another way to conclude here is by faithfully flat descent ([EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)), since $\beta$ is
-    fppf-covering.
+[^N.D.E-XVIII-15]: N.D.E.: Another way to conclude here is by faithfully flat descent
+    ([EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)),
+    since $\beta$ is fppf-covering.
 
 [^XVIII-3-3]: cf. note at the bottom of page 15, Exp. VII.

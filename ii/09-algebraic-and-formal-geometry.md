@@ -82,7 +82,9 @@ r_i: i*(R^i f_*(F)) → R^i f_*(F)^∧,
 
 which is an isomorphism when $R^{i} f_{*}(F)$ is coherent.
 
-As is explained in [EGA III 4.1.1](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#41-the-fundamental-theorem), one has a commutative diagram:
+As is explained in
+[EGA III 4.1.1](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#41-the-fundamental-theorem),
+one has a commutative diagram:
 
 ```text
                        ρ_i
@@ -177,8 +179,9 @@ Im[R^i f_*(F_{p′}) → R^i f_*(F_p)] = Im[R^i f_*(F_{p+k}) → R^i f_*(F_p)].
 
 <!-- original page 102 -->
 
-Proceeding as in [EGA III 4.1.8](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#41-the-fundamental-theorem), it is easy to reduce to the case where $X'$ is the spectrum of a noetherian ring $A$. In
-this case, one knows that
+Proceeding as in
+[EGA III 4.1.8](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#41-the-fundamental-theorem),
+it is easy to reduce to the case where $X'$ is the spectrum of a noetherian ring $A$. In this case, one knows that
 
 ```text
 R^i f_*(F) = H^i(X, F)^~     (cf. 1.10).
@@ -202,7 +205,9 @@ H^i = ⨁_{k ∈ ℕ} H^i(X, J^k F),    i ∈ ℤ,
 
 where $H^{i}$ is equipped with the graded $S$-module structure defined by 1.11, where one has taken $U' = X'$.
 
-The proof is modelled on that of [EGA III 4.1.5](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#41-the-fundamental-theorem); let us give a summary.
+The proof is modelled on that of
+[EGA III 4.1.5](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#41-the-fundamental-theorem);
+let us give a summary.
 
 We work on $\varphi_{i}$ and $\psi_{i}$, which correspond to homomorphisms of modules:
 
@@ -347,7 +352,8 @@ whence the exact sequence:
 Now the projective system $(Q^{i}_{k})_{k \in \mathbb{N}}$ is essentially zero, hence $t_{i}$ is an isomorphism.
 
 (c) Let us prove that, if $H^{i}$ is of finite type, then $\psi_{i}$ is an isomorphism. It suffices to apply [EGA 0_III
-13.3.1](https://jcreinhold.github.io/ega/iii/06-ch0-13-projective-limits-homological-algebra.html#133-application-cohomology-of-a-projective-limit-of-sheaves), taking as a basis of opens of $X$ the affine opens. This is legitimate;
+13.3.1](https://jcreinhold.github.io/ega/iii/06-ch0-13-projective-limits-homological-algebra.html#133-application-cohomology-of-a-projective-limit-of-sheaves),
+taking as a basis of opens of $X$ the affine opens. This is legitimate;
 
 <!-- original page 83 -->
 
@@ -492,7 +498,9 @@ T′ = {x ∈ Spec(A) | dim A/x = 1}.
 
 <!-- label: IX.2 -->
 
-Let us first state [EGA III 3.4.2](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#34-the-finiteness-theorem-case-of-formal-schemes) in a slightly more general form.
+Let us first state
+[EGA III 3.4.2](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#34-the-finiteness-theorem-case-of-formal-schemes)
+in a slightly more general form.
 
 Let $f: X \to X'$ be an adic morphism[^IX-2-star] of formal preschemes, with $X'$ noetherian. Let $I'$ be an ideal of
 definition of $X'$; since $f$ is adic, $f*I' = J$ is[^N.D.E-IX-2] an ideal of definition of $X$.
@@ -564,8 +572,11 @@ Suppose that $K^{i}$ is a graded $S$-Module of finite type for $i = n - 1$, $i =
 
 <!-- original page 109 -->
 
-The proof is very easy from [EGA 0_III 13.7.7](https://jcreinhold.github.io/ega/iii/06-ch0-13-projective-limits-homological-algebra.html#137-derived-functors-of-a-projective-limit-of-arguments) (cf. EGA III 3.4.2), provided one corrects the text on page 78 as indicated
-in ([EGA III 2](https://jcreinhold.github.io/ega/iii/09-ch3-02-cohomology-projective-morphisms.html#2-cohomological-study-of-projective-morphisms), Err_III 24).
+The proof is very easy from
+[EGA 0_III 13.7.7](https://jcreinhold.github.io/ega/iii/06-ch0-13-projective-limits-homological-algebra.html#137-derived-functors-of-a-projective-limit-of-arguments)
+(cf. EGA III 3.4.2), provided one corrects the text on page 78 as indicated in
+([EGA III 2](https://jcreinhold.github.io/ega/iii/09-ch3-02-cohomology-projective-morphisms.html#2-cohomological-study-of-projective-morphisms),
+Err_III 24).
 
 <!-- original page 86 -->
 
@@ -703,7 +714,8 @@ LEDGER DELTA (Exposé IX):
 
 [^IX-2-star]: This hypothesis is not essential; cf. XII, p. 118.
 
-[^N.D.E-IX-2]: *N.D.E.* By definition itself, cf. [EGA I 10.12.1](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#1012-adic-morphisms-of-formal-preschemes).
+[^N.D.E-IX-2]: *N.D.E.* By definition itself, cf.
+    [EGA I 10.12.1](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#1012-adic-morphisms-of-formal-preschemes).
 
 [^N.D.E-IX-3]: *N.D.E.* Numerous algebraization statements have been obtained since, not to mention those cited below;
     cf. the articles of Faltings or of Mme Raynaud cited in editor's notes (22) p. 155 and (7) p. 203 respectively. One

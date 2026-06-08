@@ -634,12 +634,14 @@ application we have made of the proposition.
 
 <!-- label: III.XXV.4.2 -->
 
-By [EGA II, 1.6.4](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#16-affine-morphisms), one may suppose $S$ reduced. By the usual techniques of passage to the limit,[^N.D.E-XXV-7] one may
-suppose $S$ local. If $\dim(S) = 0$, the assertion is trivial,[^N.D.E-XXV-8] suppose $\dim(S) = 1$. By faithfully flat
-descent, one may suppose that $S$ is complete with algebraically closed residue field. Replacing $S$ by its
-normalization $\tilde{S}$ if necessary, one may ([EGA II, 6.7.1](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#67-chevalleys-theorem) and [EGA 0_IV 23.1.5](https://jcreinhold.github.io/ega/iv/10-ch0-23-japanese-rings.html#231-japanese-rings)) suppose $S$ normal.[^N.D.E-XXV-9]
-One is therefore reduced to the case where $S$ is the spectrum of a complete discrete valuation ring $A$ with
-algebraically closed residue field.
+By [EGA II, 1.6.4](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#16-affine-morphisms), one may suppose
+$S$ reduced. By the usual techniques of passage to the limit,[^N.D.E-XXV-7] one may suppose $S$ local. If $\dim(S) = 0$,
+the assertion is trivial,[^N.D.E-XXV-8] suppose $\dim(S) = 1$. By faithfully flat descent, one may suppose that $S$ is
+complete with algebraically closed residue field. Replacing $S$ by its normalization $\tilde{S}$ if necessary, one may
+([EGA II, 6.7.1](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#67-chevalleys-theorem) and
+[EGA 0_IV 23.1.5](https://jcreinhold.github.io/ega/iv/10-ch0-23-japanese-rings.html#231-japanese-rings)) suppose $S$
+normal.[^N.D.E-XXV-9] One is therefore reduced to the case where $S$ is the spectrum of a complete discrete valuation
+ring $A$ with algebraically closed residue field.
 
 ### 4.3
 
@@ -769,7 +771,9 @@ Math. I.H.É.S. **31** (1966), 21–58.
 
 [^N.D.E-XXV-6]: N.D.E.: We have added the flatness hypothesis, which had been omitted.
 
-[^N.D.E-XXV-7]: N.D.E.: cf. [EGA IV_3, 8.10.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#810-permanence-properties-of-morphisms-under-projective-passage-to-the-limit) (viii).
+[^N.D.E-XXV-7]: N.D.E.: cf.
+    [EGA IV_3, 8.10.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#810-permanence-properties-of-morphisms-under-projective-passage-to-the-limit)
+    (viii).
 
 [^N.D.E-XXV-8]: N.D.E.: Indeed, if $S = \operatorname{Spec}(k)$ ($k$ a field), then $f$ is the composite of the
     projection $p : G \to G/Ker(f)$ and a closed immersion $i$, and since $Ker(f)$ is finite over $k$, $p$ is finite

@@ -56,7 +56,9 @@ local cohomology sheaves $\mathcal{H}^{i}_{Y}(F)$ be coherent for $i \leqslant n
 $R^{i} f_{*}(F|X - Y)$ be coherent for $i \leqslant n - 1$, where $f: X - Y \to X$ is the inclusion). This theorem is
 one of the central technical results of the Séminaire, and we show in Exposé IX how a theorem of this nature can be used
 to establish a "comparison theorem" and an "existence theorem" in formal geometry, by tracing and generalizing the use
-made in ([EGA III §§ 4](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#4-the-fundamental-theorem-of-proper-morphisms-applications) and 5) of the finiteness theorem for a proper morphism.
+made in
+([EGA III §§ 4](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#4-the-fundamental-theorem-of-proper-morphisms-applications)
+and 5) of the finiteness theorem for a proper morphism.
 
 These last results are applied in X and XI, devoted respectively to Lefschetz-type theorems for the fundamental group
 and for the Picard group.

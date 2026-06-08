@@ -1309,9 +1309,12 @@ between $Y$ and its normalization, which no longer needs to be finite over $Y$.
 
 <!-- end of Exposé I source block: next chapter begins at smf_doc-math_3_01.tex line 2519 -->
 
-[^I-1-1]: Cf. [EGA IV 16.3](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#163-fundamental-differential-invariants-of-a-morphism-of-preschemes).
+[^I-1-1]: Cf.
+    [EGA IV 16.3](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#163-fundamental-differential-invariants-of-a-morphism-of-preschemes).
 
-[^I-2-1]: In [EGA II 6.2.3](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#62-quasi-finite-morphisms) one assumes in addition that $f$ is of finite type.
+[^I-2-1]: In
+    [EGA II 6.2.3](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#62-quasi-finite-morphisms)
+    one assumes in addition that $f$ is of finite type.
 
 [^I-3-1]: Cf. remorse in III 1.2.
 
@@ -1321,11 +1324,14 @@ between $Y$ and its normalization, which no longer needs to be finite over $Y$.
 
 [^I-5-1]: Cf. IV 5.9.
 
-[^I-9-1]: Cf. [EGA IV 5.8.6](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#58-regular-preschemes-and-property-rn-serres-normality-criterion).
+[^I-9-1]: Cf.
+    [EGA IV 5.8.6](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#58-regular-preschemes-and-property-rn-serres-normality-criterion).
 
-[^I-10-1]: Cf. [EGA IV 15.5.1](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#155-separable-rank-of-the-fibres-of-a-quasi-finite-and-universally-open-morphism-application-to-the-geometric-connected-components-of-the-fibres-of-a-proper-morphism).
+[^I-10-1]: Cf.
+    [EGA IV 15.5.1](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#155-separable-rank-of-the-fibres-of-a-quasi-finite-and-universally-open-morphism-application-to-the-geometric-connected-components-of-the-fibres-of-a-proper-morphism).
 
 [^I-10-2]: For the definition, cf. below no. I.11.
 
-[^I-11-1]: Cf. IX 4.10. For a more direct proof, cf. [EGA IV 18.10.3](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1810-étale-preschemes-over-a-geometrically-unibranch-or-normal-prescheme), using a variant of I.9.5 for geometrically
-    unibranch local rings.
+[^I-11-1]: Cf. IX 4.10. For a more direct proof, cf.
+    [EGA IV 18.10.3](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1810-étale-preschemes-over-a-geometrically-unibranch-or-normal-prescheme),
+    using a variant of I.9.5 for geometrically unibranch local rings.

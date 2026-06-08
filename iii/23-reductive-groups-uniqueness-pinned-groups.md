@@ -2394,9 +2394,10 @@ $G$ inducing $D_{S}(h)$ on $T$ and such that $u \circ p_{\alpha} = p_{h(\alpha)}
 
 <!-- original page 208 source -->
 
-Indeed (i bis) ⇒ (i) trivially, (i) ⇒ (ii) by the principle of finite extension ([EGA IV₃, 9.1.4](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#91-the-principle-of-finite-extension)), (ii) ⇒ (iii)
-trivially; it remains to prove (iii) ⇒ (i bis). Now one may suppose $G$ and $G'$ splittable (Exp. XXII, 2.3), in which
-case the assertion follows from 5.3.
+Indeed (i bis) ⇒ (i) trivially, (i) ⇒ (ii) by the principle of finite extension
+([EGA IV₃, 9.1.4](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#91-the-principle-of-finite-extension)),
+(ii) ⇒ (iii) trivially; it remains to prove (iii) ⇒ (i bis). Now one may suppose $G$ and $G'$ splittable (Exp. XXII,
+2.3), in which case the assertion follows from 5.3.
 
 **Corollary 5.7.** *Let $S$ be a scheme, $G$ a reductive $S$-group, $G'$ an $S$-group that is affine, smooth, and with
 connected fibers. Let $s \in S$ be such that $G_{s}$ and $G'_{s}$ are isomorphic; there exists then an étale $S' \to S$

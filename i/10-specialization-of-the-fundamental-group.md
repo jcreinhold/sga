@@ -45,14 +45,17 @@ Let $f: X \to Y$ be a proper and separable morphism, with $Y$ locally noetherian
 factorization $X \to Y' \to Y$, where $f'_{*}(\mathcal{O}_{X}) = \mathcal{O}_{Y'}$, with $Y'$ finite over $Y$ and
 isomorphic to the spectrum of the algebra $f_{*}(\mathcal{O}_{X})$. Then $Y'$ is an **étale covering** of $Y$.
 
-This proposition will appear in [EGA III 7](https://jcreinhold.github.io/ega/iii/15-ch3-07-base-change-homological-functors.html#7-study-of-base-change-in-the-covariant-homological-functors-of-modules). [Translator note: the source footnote cites [EGA III 7.8.10](https://jcreinhold.github.io/ega/iii/15-ch3-07-base-change-homological-functors.html#78-application-to-proper-morphisms-ii-cohomological-flatness-criteria)(i).] Let us
-indicate the principle of the proof. One reduces easily to the case where $Y$ is the spectrum of a complete local ring
-$A$, and, after making a suitable finite flat extension of the latter corresponding to a suitable residue extension, one
-may suppose that the connected components of the fiber over the closed point $y$ are geometrically connected. This also
-means that $H^{0}(X_{y}, \mathcal{O}_{X_{y}})$ decomposes as a product of fields identical with $k = \kappa(y)$.
-Supposing then that $X$ is connected, as one may, one has $H^{0}(X_{y}, \mathcal{O}_{X_{y}}) = k$, hence the
-homomorphism $A \to H^{0}(X_{y}, \mathcal{O}_{X_{y}})$ is **surjective**. By a general proposition of Künneth type, one
-concludes that $f_{*}(\mathcal{O}_{X})$ is defined by a module $B$ over $A$ that is free over $A$, and that
+This proposition will appear in
+[EGA III 7](https://jcreinhold.github.io/ega/iii/15-ch3-07-base-change-homological-functors.html#7-study-of-base-change-in-the-covariant-homological-functors-of-modules).
+[Translator note: the source footnote cites
+[EGA III 7.8.10](https://jcreinhold.github.io/ega/iii/15-ch3-07-base-change-homological-functors.html#78-application-to-proper-morphisms-ii-cohomological-flatness-criteria)(i).]
+Let us indicate the principle of the proof. One reduces easily to the case where $Y$ is the spectrum of a complete local
+ring $A$, and, after making a suitable finite flat extension of the latter corresponding to a suitable residue
+extension, one may suppose that the connected components of the fiber over the closed point $y$ are geometrically
+connected. This also means that $H^{0}(X_{y}, \mathcal{O}_{X_{y}})$ decomposes as a product of fields identical with
+$k = \kappa(y)$. Supposing then that $X$ is connected, as one may, one has $H^{0}(X_{y}, \mathcal{O}_{X_{y}}) = k$,
+hence the homomorphism $A \to H^{0}(X_{y}, \mathcal{O}_{X_{y}})$ is **surjective**. By a general proposition of Künneth
+type, one concludes that $f_{*}(\mathcal{O}_{X})$ is defined by a module $B$ over $A$ that is free over $A$, and that
 $B/\mathfrak{m}B \to H^{0}(X_{y}, \mathcal{O}_{X_{y}}) = k$ is bijective. Thus in the present case $B$ is an étale
 algebra over $A$, completing the proof.
 
@@ -444,9 +447,11 @@ algebraically closed extension of its fraction field. We saw in III.7.4 that the
 
 $$ \pi_{1}(X_{1}) \to \pi_{1}(X_{0}), $$
 
-where $X_{1} = X \otimes_{A} K$. It is immediate (cf. [EGA IV 12.2](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#122-local-and-global-properties-of-the-fibres-of-a-proper-flat-morphism-of-finite-presentation)) that $X_{1}$ is smooth over $K$, connected (X.1.2),
-of dimension 1, and that its genus is equal to $g$, by invariance of the Euler-Poincaré characteristic (cf. EGA III 7).
-Since $K$ has characteristic 0, the preceding result applies to it. We have thus proved, by **transcendental methods**:
+where $X_{1} = X \otimes_{A} K$. It is immediate (cf.
+[EGA IV 12.2](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#122-local-and-global-properties-of-the-fibres-of-a-proper-flat-morphism-of-finite-presentation))
+that $X_{1}$ is smooth over $K$, connected (X.1.2), of dimension 1, and that its genus is equal to $g$, by invariance of
+the Euler-Poincaré characteristic (cf. EGA III 7). Since $K$ has characteristic 0, the preceding result applies to it.
+We have thus proved, by **transcendental methods**:
 
 **Theorem.**
 
@@ -494,14 +499,15 @@ of $X$ is topologically finitely generated.
 <!-- original page 274 -->
 
 We proceed by induction on $n = \dim X$, the assertion being trivial for $n \leq 0$. Suppose $n > 0$ and the theorem
-proved in dimensions $n' < n$. By Chow’s lemma ([EGA II 5.6.2](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#56-chows-lemma)), there exists a projective scheme $X'$ over $k$ and a
-surjective morphism $X' \to X$. One may plainly suppose $X'$ reduced, and after passing to the normalization, normal. By
-descent theory, it is enough to prove that the fundamental groups of the connected components of $X'$ are topologically
-finitely generated (IX.5.2). This reduces us to the case where $X$ is **projective** and **normal**. If $n = 1$, it is
-enough to apply X.2.6. If $n \geq 2$, consider a projective immersion $X \to \mathbb{P}^{r}_{k}$ and a hyperplane
-section $Y = X \cdot H$, endowed with the induced reduced structure, such that $Y \neq X$, that is, $H$ does not contain
-$X$. Then $\dim Y < n$, and by the induction hypothesis it is enough to prove that $\pi_{1}(Y) \to \pi_{1}(X)$ is
-**surjective**. More generally:
+proved in dimensions $n' < n$. By Chow’s lemma
+([EGA II 5.6.2](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#56-chows-lemma)),
+there exists a projective scheme $X'$ over $k$ and a surjective morphism $X' \to X$. One may plainly suppose $X'$
+reduced, and after passing to the normalization, normal. By descent theory, it is enough to prove that the fundamental
+groups of the connected components of $X'$ are topologically finitely generated (IX.5.2). This reduces us to the case
+where $X$ is **projective** and **normal**. If $n = 1$, it is enough to apply X.2.6. If $n \geq 2$, consider a
+projective immersion $X \to \mathbb{P}^{r}_{k}$ and a hyperplane section $Y = X \cdot H$, endowed with the induced
+reduced structure, such that $Y \neq X$, that is, $H$ does not contain $X$. Then $\dim Y < n$, and by the induction
+hypothesis it is enough to prove that $\pi_{1}(Y) \to \pi_{1}(X)$ is **surjective**. More generally:
 
 **Lemma.**
 
@@ -524,7 +530,8 @@ Under the preceding conditions, let $X'$ be a connected étale covering of $X$, 
 Since $X$ is normal, $X'$ is normal; being connected, it is irreducible, and its image in $\mathbb{P}^{r}_{k}$ has
 dimension $\geq 2$. A well-known lemma due to Zariski, called the **Bertini theorem**, implies that if $H_{1}'$ is the
 generic hyperplane in $\mathbb{P}^{r}_{k}$, defined over an extension $K$ of $k$, then $X' \times_{\mathbb{P}^{r}}
-H_{1}$ is universally irreducible, hence universally connected over $K$. Zariski’s connectedness theorem ([EGA III 4](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#4-the-fundamental-theorem-of-proper-morphisms-applications))
+H_{1}$ is universally irreducible, hence universally connected over $K$. Zariski’s connectedness theorem
+([EGA III 4](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#4-the-fundamental-theorem-of-proper-morphisms-applications))
 then implies that for **every** hyperplane $H$, defined over any extension of $k$, $X' \times_{\mathbb{P}^{r}} H$ is
 geometrically connected. This proves X.2.11, hence X.2.9.
 
@@ -615,7 +622,8 @@ participants in the seminar, and should be the subject of a later exposé.
 We record here only the very simple proof in the special case $\dim A = 2$, which is enough for the most important
 application we shall make of it in the present number. Since $B$ is normal, it is a $B$-module of depth (old
 terminology: cohomological codimension) $\geq 2$; hence it is an $A$-module of depth $\geq 2$. Since $A$ is regular of
-dimension 2, it follows that $B$ is a **free module** over $A$. [Translator note: the source refers to [EGA 0_IV 17.3.4](https://jcreinhold.github.io/ega/iv/04-ch0-17-regular-rings.html#173-cohomological-theory-of-regular-rings).]
+dimension 2, it follows that $B$ is a **free module** over $A$. [Translator note: the source refers to
+[EGA 0_IV 17.3.4](https://jcreinhold.github.io/ega/iv/04-ch0-17-regular-rings.html#173-cohomological-theory-of-regular-rings).]
 It then follows from I.4.10 that the set of prime ideals $\mathfrak{q}$ of $A$ at which $B$ is ramified over $A$ is the
 subset of $\operatorname{Spec}(A)$ defined by a principal ideal (generated by the discriminant of a basis of $B$ over
 $A$). Thus it is empty if it is contained in the closed point of $\operatorname{Spec}(A)$, proving X.3.2 when $\dim A =
@@ -646,11 +654,12 @@ It remains to prove that for every **étale** covering $U'$ of $U$, there exists
 necessarily unique by what precedes, such that $U'$ is isomorphic to $X' \times_{X} U$. One may plainly suppose $U'$
 connected, hence irreducible since $U'$ is normal ($U$ being normal). Let $K$ be the field of rational functions on $X$,
 or on $U$, which is the same, and let $K'$ be that of $U'$. Then $U'$ identifies with the normalization of $U$ in $K'$
-(I.10.3). Let $X'$ be the normalization of $X$ in $K'$ ([EGA II 6.3](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#63-integral-closure-of-a-prescheme)); then $X' \times_{X} U \simeq U'$. Moreover $X'$ is
-normal and integral, and the structural morphism $f: X' \to X$ is **finite** and dominant, since $X$ is normal and
-$K'/K$ is a finite separable extension. It is étale over $U' = f^{-1}(U)$, and since $Z$ has codimension $\geq 2$ in
-$X$, $f^{-1}(Z)$ has codimension $\geq 2$ in $X'$. We conclude from X.3.1 that $X'$ is étale over $X$, completing the
-proof.
+(I.10.3). Let $X'$ be the normalization of $X$ in $K'$
+([EGA II 6.3](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#63-integral-closure-of-a-prescheme));
+then $X' \times_{X} U \simeq U'$. Moreover $X'$ is normal and integral, and the structural morphism $f: X' \to X$ is
+**finite** and dominant, since $X$ is normal and $K'/K$ is a finite separable extension. It is étale over
+$U' = f^{-1}(U)$, and since $Z$ has codimension $\geq 2$ in $X$, $f^{-1}(Z)$ has codimension $\geq 2$ in $X'$. We
+conclude from X.3.1 that $X'$ is étale over $X$, completing the proof.
 
 Now let $f: X \to Y$ be a rational map from a locally noetherian regular prescheme $X$ to a prescheme $Y$, and suppose
 $f$ is defined on an open subset $U$ whose complement is a closed subset of codimension $\geq 2$. Then X.3.3 gives a

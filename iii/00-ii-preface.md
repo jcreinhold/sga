@@ -8,9 +8,8 @@ Tome II of the 2011 SMF re-edition of SGA 3 contains Exposés VIII through XVIII
 sheet, or notation index of its own — the editors chose to consolidate the volume-level apparatus into Tomes I and III
 only. Reading-order navigation for the Tome II Exposés can be found in the [README](README.md); references to the
 Avertissement, Introduction, and reference convention all live with
-[Tome I's front matter](00-i-foreword-introduction.md); and the translation glossary applies uniformly across the
-three Tomes. The Tome I errata sheet flags Exposé II only (§ 1.2), and the Tome III errata sheet does not concern this
-Tome.
+[Tome I's front matter](00-i-foreword-introduction.md); and the translation glossary applies uniformly across the three
+Tomes. The Tome I errata sheet flags Exposé II only (§ 1.2), and the Tome III errata sheet does not concern this Tome.
 
 Topically, Tome II spans three threads. Exposés VIII–XII (Grothendieck) develop the theory of groups of multiplicative
 type — diagonalizable groups (VIII), homomorphisms between groups of multiplicative type (IX), characterization and

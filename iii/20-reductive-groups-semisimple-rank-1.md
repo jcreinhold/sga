@@ -43,7 +43,9 @@ G_{a, S} ×_S T ×_S G_{a, S} → G,
 <!-- label: III.XX.1.1 -->
 
 Since the tangent map at the identity is bijective, this morphism is also separable, hence birational; by Zariski's
-"Main Theorem" ([EGA III₁, 4.4.9](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)), it is therefore an open immersion.
+"Main Theorem"
+([EGA III₁, 4.4.9](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)),
+it is therefore an open immersion.
 
 **Lemma 1.2.** *Let $S$ be a scheme, $G$ an $S$-group scheme, $T$ a torus of $G$, $Q$ a subtorus of $T$, $\alpha$ a
 character of $T$ inducing on $Q$ a non-trivial character on each fiber. Let $p_{\alpha} : G_{a, S} \to G$ (resp.
@@ -2366,13 +2368,15 @@ f(w_α) = f_α(u) f_{−α}(−ũ) f_α(u) = h.
 
 [^N.D.E-XX-3]: N.D.E.: see also VI_B, 2.5.
 
-[^N.D.E-XX-4]: N.D.E.: by [EGA IV₄, 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions).
+[^N.D.E-XX-4]: N.D.E.: by
+    [EGA IV₄, 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions).
 
 [^N.D.E-XX-5]: N.D.E.: We have added the sentence that follows.
 
 [^N.D.E-XX-6]: N.D.E.: We have replaced $P_{-\alpha}$ and $P_{\alpha}$ by $U_{-\alpha}$ and $U_{\alpha}$.
 
-[^N.D.E-XX-7]: N.D.E.: see also [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes).
+[^N.D.E-XX-7]: N.D.E.: see also
+    [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes).
 
 [^N.D.E-XX-8]: N.D.E.: Indeed, on the one hand, $Lie(G_{a, S}) = O_{S}$ and $Lie(p_{\alpha})$ is an element of
     $\operatorname{Hom}_{O_{S}}(O_{S}, g_{\alpha}) = \Gamma(S, g_{\alpha})$.

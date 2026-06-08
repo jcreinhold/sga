@@ -8,7 +8,8 @@
 
 The present Seminar is the continuation of the 1960 Seminar. We refer to the latter by sigla such as I.9.7, meaning:
 Séminaire de Géométrie Algébrique, Exposé I, no. 9.7. The numbers of the 1961 exposés will follow those of 1960. We
-refer to the Éléments de Géométrie Algébrique of Dieudonné-Grothendieck by sigla such as [EGA I 8.7.3](https://jcreinhold.github.io/ega/i/01-08-chevalley-schemes.html#8-chevalley-schemes).
+refer to the Éléments de Géométrie Algébrique of Dieudonné-Grothendieck by sigla such as
+[EGA I 8.7.3](https://jcreinhold.github.io/ega/i/01-08-chevalley-schemes.html#8-chevalley-schemes).
 
 The present exposé summarizes, with slight additions, the last exposés of 1960, which had not been written up.
 

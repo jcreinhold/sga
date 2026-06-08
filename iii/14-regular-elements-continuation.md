@@ -143,7 +143,8 @@ sees at once that this integer satisfies (iii). When $A$ is noetherian, there ex
 
 is injective; then by what precedes there exists for every $i$ an integer $N_{i}$ satisfying (iii) for the Lie algebra
 $\mathfrak{d} \otimes_{A} A_{i}$, and taking $N$ to be the largest of the $N_{i}$, one satisfies (iii) for
-$\mathfrak{d}$. Finally, the general case reduces to the noetherian case by the usual procedure explained in ([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes)).
+$\mathfrak{d}$. Finally, the general case reduces to the noetherian case by the usual procedure explained in
+([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes)).
 
 **Definition 2.2.** *Let $S$ be a prescheme, $\mathfrak{d}$ a quasi-coherent Lie algebra over $S$ that is a module of
 finite presentation. One says that $\mathfrak{d}$ is locally nilpotent if for every $s \in S$, the Lie algebra
@@ -1703,7 +1704,9 @@ one and only one $\theta_{i}$. In case (2), some of the $\theta_{i}$ are superfl
 
 [^XIV-1-1]: M. Raynaud gave a negative answer to the question raised here, cf. (XVII Example 5.9.c)).
 
-[^XIV-2-1]: Cf. also [EGA I, 2](https://jcreinhold.github.io/ega/i/01-02-preschemes-and-morphisms.html#2-preschemes-and-morphisms-of-preschemes)nd edition (to appear in North Holland Publishing Co.).
+[^XIV-2-1]: Cf. also
+    [EGA I, 2](https://jcreinhold.github.io/ega/i/01-02-preschemes-and-morphisms.html#2-preschemes-and-morphisms-of-preschemes)nd
+    edition (to appear in North Holland Publishing Co.).
 
 [^N.D.E-XIV-1]: See § I.1.3 of M. Demazure and P. Gabriel, *Groupes algébriques*, Masson (1970).
 

@@ -2995,8 +2995,11 @@ Fib(S, G) → Fib(κ(s), G_s)
 If $K$ is a finite separable extension of $\kappa(s)$, there exists an $S' \to S$ finite surjective étale such that $K
 \simeq S' \otimes_{S} \kappa(s)$.[^N.D.E-XXIV-47] If $P$ is a principal homogeneous bundle under $G$, then $P$ is smooth
 over $S$, hence $P_{s}$ smooth over $\kappa(s)$; there therefore exists a finite separable extension $K$ of $\kappa(s)$
-such that `P_K` possesses a section (cf. [EGA IV_4, 17.15.10](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1715-case-of-preschemes-over-a-base-field)). Representing $K$ as said above, one sees that $P_{S'}$
-possesses a section by "Hensel's lemma" (cf. [EGA IV_4, 18.5.17](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#185-henselian-local-rings1)), which proves the first part of (i).
+such that `P_K` possesses a section (cf.
+[EGA IV_4, 17.15.10](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1715-case-of-preschemes-over-a-base-field)).
+Representing $K$ as said above, one sees that $P_{S'}$ possesses a section by "Hensel's lemma" (cf.
+[EGA IV_4, 18.5.17](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#185-henselian-local-rings1)),
+which proves the first part of (i).
 
 Conversely, if $P$ is a principal homogeneous sheaf under $G$ for the étale topology, there exists an $S' \to S$ finite
 surjective étale that trivializes $P$ (indeed every covering family of a henselian local scheme for the étale topology

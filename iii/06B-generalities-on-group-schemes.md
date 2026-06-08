@@ -42,18 +42,23 @@ naturally equipped with a group structure in the category $(Sch/k)_{red}$, where
 (VI_A, 0.2)).
 
 Let us prove the first assertion of 1.2. Replacing $A$ by the algebraic closure of its residue field $k$, we may assume
-that $A$ is an algebraically closed field $k$ (cf. [EGA IV₂, 2.3.12](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#23-topological-properties-of-flat-morphisms)). Replacing $u$ by `u_red : G_red → H_red`, we may
-assume $G$ and $H$ reduced; in this case, as we have just seen, $u(G)$ is the underlying space of a reduced group
-subscheme of $G$; we may therefore assume $u$ dominant. Then $G(k)$ acts transitively on the set of connected components
-of $H$, and it suffices to show that $u(G) \cap H^{0}$ is closed: we are reduced to the case where $H$ is connected,
-hence irreducible and of finite type (VI_A, 2.4). Then $u$ is of finite type, since it is quasi-compact and locally of
-finite type; since $H$ is noetherian, $u(G)$ is constructible ([EGA IV₁, 1.8.5](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets)), so it contains an open subset $V$ of $H$
-([EGA 0_III, 9.2.2](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#92-constructible-sets-in-noetherian-spaces)), and then, by (VI_A, 0.5), we have $H = V \cdot V \subset u(G) \cdot u(G) = u(G)$.
+that $A$ is an algebraically closed field $k$ (cf.
+[EGA IV₂, 2.3.12](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#23-topological-properties-of-flat-morphisms)).
+Replacing $u$ by `u_red : G_red → H_red`, we may assume $G$ and $H$ reduced; in this case, as we have just seen, $u(G)$
+is the underlying space of a reduced group subscheme of $G$; we may therefore assume $u$ dominant. Then $G(k)$ acts
+transitively on the set of connected components of $H$, and it suffices to show that $u(G) \cap H^{0}$ is closed: we are
+reduced to the case where $H$ is connected, hence irreducible and of finite type (VI_A, 2.4). Then $u$ is of finite
+type, since it is quasi-compact and locally of finite type; since $H$ is noetherian, $u(G)$ is constructible
+([EGA IV₁, 1.8.5](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets)),
+so it contains an open subset $V$ of $H$
+([EGA 0_III, 9.2.2](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#92-constructible-sets-in-noetherian-spaces)),
+and then, by (VI_A, 0.5), we have $H = V \cdot V \subset u(G) \cdot u(G) = u(G)$.
 
 Let us prove the second assertion. Recall first that the functor `Ker u` (cf. I, 2.3.6.1) is representable by
 $u^{-1}(e)$, where $e$ denotes the unit element of $H$. When $u$ is locally of finite type, `Ker u` is therefore locally
-of finite type over $A$. We reduce as before, this time using [EGA IV₂, 4.1.4](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#41-dimension-of-algebraic-preschemes), to the case where $A$ is an algebraically
-closed field $k$.
+of finite type over $A$. We reduce as before, this time using
+[EGA IV₂, 4.1.4](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#41-dimension-of-algebraic-preschemes),
+to the case where $A$ is an algebraically closed field $k$.
 
 <!-- original page 321 -->
 
@@ -79,7 +84,8 @@ Indeed, one has $f \times_{A} g = (id_{X} \times_{A} g) \circ (f \times_{A} id_{
 that $f \times_{A} id_{Y'}$ and $id_{X} \times_{A} g$ are dominant. For this one may replace $A$ by its residue field
 $k$. In this case, $X$ and $Y'$ are flat over $A = k$, and since $f \times_{A} id_{Y'}$ (resp. $id_{X} \times_{A} g$) is
 deduced from $f$ (resp. $g$) by the flat base change $Y' \to A$ (resp. $X \to A$), it is dominant (and quasi-compact),
-by [EGA IV₂, 2.3.7](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#23-topological-properties-of-flat-morphisms).
+by
+[EGA IV₂, 2.3.7](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#23-topological-properties-of-flat-morphisms).
 
 <!-- original page 333 -->
 
@@ -115,21 +121,27 @@ nilpotent Nakayama lemma, the $x_{i}$ generate $C$ as a $B$-algebra. This proves
 surjective morphism $B[X_{1}, \cdots, X_{n}] \to C$, and let $I = Ker(\phi)$.
 
 Suppose now that $C$ is flat over $A$ and that $C/nC$ is of finite presentation over $B/nB$. Then, on the one hand,
-$I/nI$ is identified with the kernel of $\bar{\phi} = \phi \otimes_{A} (A/n)$. On the other hand, by [EGA IV₁, 1.4.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation), the
-kernel of $\bar{\phi}$ is an ideal of finite type. Let then $P_{1}, \cdots, P_{s}$ be elements of $I$ whose images
+$I/nI$ is identified with the kernel of $\bar{\phi} = \phi \otimes_{A} (A/n)$. On the other hand, by
+[EGA IV₁, 1.4.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation),
+the kernel of $\bar{\phi}$ is an ideal of finite type. Let then $P_{1}, \cdots, P_{s}$ be elements of $I$ whose images
 generate $I/nI$ as an ideal; by the nilpotent Nakayama lemma, they generate $I$. This proves (ii).
 
 Let us return to the proof of 1.3. Let $x$ be an arbitrary point of $G$. Since $G$ is flat over $A$, the fiber-wise
-flatness criterion in the form of [EGA IV₃, 11.3.10.2](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses), shows that $u$ is flat at $x$ if $u \otimes_{A} k$ is. Likewise,
-by the preceding lemma, one sees that $u$ is of finite type (resp. of finite presentation) at $x$ if $u \otimes_{A} k$
-is. Since the other properties are then verified on fibers (cf. [EGA IV₄, 17.4.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#174-characterizations-of-unramified-morphisms), 17.5.1, and 17.6.1, for unramified,
-smooth, and étale), we are reduced to the case $A = k$.
+flatness criterion in the form of
+[EGA IV₃, 11.3.10.2](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses),
+shows that $u$ is flat at $x$ if $u \otimes_{A} k$ is. Likewise, by the preceding lemma, one sees that $u$ is of finite
+type (resp. of finite presentation) at $x$ if $u \otimes_{A} k$ is. Since the other properties are then verified on
+fibers (cf.
+[EGA IV₄, 17.4.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#174-characterizations-of-unramified-morphisms),
+17.5.1, and 17.6.1, for unramified, smooth, and étale), we are reduced to the case $A = k$.
 
 <!-- original page 334 -->
 
 Let now $x$ be a point of $G$ where one of the conditions of 1.3 (i) holds. Since the properties under consideration are
-preserved by (fpqc) descent (cf. [EGA IV, 2.5.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#25-permanence-of-properties-of-modules-under-faithfully-flat-descent), 2.7.1, and 17.7.1), one reduces, by replacing $k$ by an algebraic
-closure of $\kappa(x)$, to the case where $k$ is algebraically closed and $x \in G(k)$.
+preserved by (fpqc) descent (cf.
+[EGA IV, 2.5.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#25-permanence-of-properties-of-modules-under-faithfully-flat-descent),
+2.7.1, and 17.7.1), one reduces, by replacing $k$ by an algebraic closure of $\kappa(x)$, to the case where $k$ is
+algebraically closed and $x \in G(k)$.
 
 Since $G$ is a Jacobson scheme (cf. EGA IV₃, 10.4.7) and since the set $W$ of points of $G$ where $u$ is flat (resp.
 quasi-finite, unramified, smooth, or étale) is stable under generization[^N.D.E-VI_B-7] (resp. open), it suffices to
@@ -155,10 +167,12 @@ $G$ of finite type over $A$, then $G$ is locally of finite type over $A$.*
 <!-- label: III.VI_B.1.3.1.1 -->
 
 By Lemma 1.3.0, we may assume $A$ equal to its residue field $k$. Moreover, by (fpqc) descent, we may assume $k$
-algebraically closed (cf. [EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)). Let $V$ be the open subset of $G$ formed by the points where $G$ is of finite
-type over $k$; by hypothesis, $V \neq \emptyset$. Since $G$ is a Jacobson scheme, $V$ contains a closed point $x$ and,
-to show that $V = G$, it suffices to show that every closed point $y$ of $G$ belongs to $V$. Now, for such a point $y$,
-the translation $r_{y} \circ r^{-1}_{x}$ sends $x$ to $y$, whence $y \in V$. ∎
+algebraically closed (cf.
+[EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)).
+Let $V$ be the open subset of $G$ formed by the points where $G$ is of finite type over $k$; by hypothesis,
+$V \neq \emptyset$. Since $G$ is a Jacobson scheme, $V$ contains a closed point $x$ and, to show that $V = G$, it
+suffices to show that every closed point $y$ of $G$ belongs to $V$. Now, for such a point $y$, the translation
+$r_{y} \circ r^{-1}_{x}$ sends $x$ to $y$, whence $y \in V$. ∎
 
 **Corollary 1.3.2.** *Let $A$ be an Artinian local ring, $u : G \to H$ a morphism between $A$-groups locally of finite
 type. The following assertions are equivalent:*
@@ -192,14 +206,18 @@ hypothesis, $u'$ is dominant and, since $C$ is of finite type over $k$ (VI_A, 2.
 quasi-compact. By EGA IV₂, 2.3.7, $u' \otimes_{k} \bar{k}$ is again quasi-compact and dominant, where $\bar{k}$ denotes
 an algebraic closure of $k$. Then, since $C \otimes_{k} \bar{k}$ is a union of connected components of $G \otimes_{k}
 \bar{k}$, the morphism $u \otimes_{k} \bar{k} : G \otimes_{k} \bar{k} \to H \otimes_{k} \bar{k}$ satisfies assertion
-(v). We are thus reduced to the case where $A = k$ is an algebraically closed field, taking into account [EGA IV₂, 2.6.4](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#26-permanence-of-set-theoretic-and-topological-properties-of-morphisms-under-faithfully-flat-descent).
+(v). We are thus reduced to the case where $A = k$ is an algebraically closed field, taking into account
+[EGA IV₂, 2.6.4](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#26-permanence-of-set-theoretic-and-topological-properties-of-morphisms-under-faithfully-flat-descent).
 
 In this case, we may further replace $u$ by $u_{red}$, and we are reduced to the case where $H$ is reduced. Let then
 $\xi$ (resp. $\eta$) be the generic point of $C$ (resp. $D$). Since $u'$ is quasi-compact and dominant, $u'(\xi) = \eta$
-(cf. [EGA IV₁, 1.1.5](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#11-quasi-compact-morphisms)). On the other hand, since $H$ is reduced, the local ring $O_{H,\eta}$ is a field, hence $u'$ is
-flat at the point $\xi$.[^N.D.E-VI_B-11] Hence, by 1.3, $u$ is flat; moreover, since $u$ is locally of finite type and
-$H$ is locally noetherian, $u$ is locally of finite presentation. Therefore, by [EGA IV₂, 2.4.6](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#24-universally-open-morphisms-and-flat-morphisms), $u$ is universally open.
-∎
+(cf.
+[EGA IV₁, 1.1.5](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#11-quasi-compact-morphisms)).
+On the other hand, since $H$ is reduced, the local ring $O_{H,\eta}$ is a field, hence $u'$ is flat at the point
+$\xi$.[^N.D.E-VI_B-11] Hence, by 1.3, $u$ is flat; moreover, since $u$ is locally of finite type and $H$ is locally
+noetherian, $u$ is locally of finite presentation. Therefore, by
+[EGA IV₂, 2.4.6](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#24-universally-open-morphisms-and-flat-morphisms),
+$u$ is universally open. ∎
 
 **Proposition 1.4.** *Let $A$ be an Artinian local ring, and $u : G \to H$ a quasi-compact morphism between $A$-groups
 locally of finite type. The following assertions are equivalent:*
@@ -213,9 +231,10 @@ locally of finite type. The following assertions are equivalent:*
 <!-- label: III.VI_B.1.4 -->
 
 *Proof.* It is clear that (i) implies (iii), and that (iii) implies (ii). On the other hand, it follows from the
-hypotheses that $u$ is of finite type and, since $G$ is separated (VI_A, 0.3), so is $u$ ([EGA I, 5.5.1](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#55-separation-criteria)). It therefore
-remains to show that assertion (ii) implies that $u$ is universally closed, so that we may assume $A$ equal to its
-residue field $k$.[^N.D.E-VI_B-12] Let $k'$ be an algebraic closure of $\kappa(h)$, $u' : G' \to H'$ the morphism
+hypotheses that $u$ is of finite type and, since $G$ is separated (VI_A, 0.3), so is $u$
+([EGA I, 5.5.1](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#55-separation-criteria)).
+It therefore remains to show that assertion (ii) implies that $u$ is universally closed, so that we may assume $A$ equal
+to its residue field $k$.[^N.D.E-VI_B-12] Let $k'$ be an algebraic closure of $\kappa(h)$, $u' : G' \to H'$ the morphism
 deduced from $u$ by base change, and $h'$ a point of $H'$ above $h$; then the fiber $u'^{-1}(h') = u^{-1}(h)
 \times_{\kappa(h)} k'$ is non-empty and proper, and it suffices to show that $u'$ is proper (EGA IV₂, 2.6.4). We may
 therefore assume that $k$ is algebraically closed and $h \in H(k)$.
@@ -223,11 +242,16 @@ therefore assume that $k$ is algebraically closed and $h \in H(k)$.
 <!-- original page 336 -->
 
 We have seen (1.2) that $u(G)$ is then the underlying set of a closed reduced group subscheme of $H$; since every closed
-immersion is proper ([EGA II, 5.4.2](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#54-proper-morphisms-and-universally-closed-morphisms)), we may assume that $u$ is surjective and that $H$ is reduced. Since $u$ is
-surjective, the group $G(k)$ acts transitively on the set of closed points of $H$; whatever the closed point $y$ of $H$,
-$u^{-1}(y)$ is therefore proper over $\kappa(y)$. By [EGA IV₃, 9.6.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#96-constructibility-of-certain-properties-of-morphisms), the set of $y \in H$ such that $u^{-1}(y)$ is not
-proper over $\kappa(y)$ is locally constructible; since it contains no closed point, it is empty (cf. [EGA IV₃, 10.3.1](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#103-jacobson-spaces)
-and 10.4.7).
+immersion is proper
+([EGA II, 5.4.2](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#54-proper-morphisms-and-universally-closed-morphisms)),
+we may assume that $u$ is surjective and that $H$ is reduced. Since $u$ is surjective, the group $G(k)$ acts
+transitively on the set of closed points of $H$; whatever the closed point $y$ of $H$, $u^{-1}(y)$ is therefore proper
+over $\kappa(y)$. By
+[EGA IV₃, 9.6.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#96-constructibility-of-certain-properties-of-morphisms),
+the set of $y \in H$ such that $u^{-1}(y)$ is not proper over $\kappa(y)$ is locally constructible; since it contains no
+closed point, it is empty (cf.
+[EGA IV₃, 10.3.1](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#103-jacobson-spaces) and
+10.4.7).
 
 [^N.D.E-VI_B-13] Consider now the generic point $\eta$ of $H^{0}$; by what precedes, the fiber $u^{-1}(\eta) = G
 \times_{H} \operatorname{Spec} \kappa(\eta)$ is proper over $\kappa(\eta)$. On the other hand, since $H$ is reduced,
@@ -254,14 +278,19 @@ finite type. The following assertions are equivalent:*
 
 <!-- label: III.VI_B.1.4.1 -->
 
-*Proof.* It is clear that (iv) implies (iii), that (iii) implies (ii) ([EGA I, 6.4.4](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#64-algebraic-preschemes)), and that, in the case where $u$ is
-quasi-compact, assertions (iv) and (v) are equivalent. We have already seen in 1.3 that (i) and (ii) are equivalent.
+*Proof.* It is clear that (iv) implies (iii), that (iii) implies (ii)
+([EGA I, 6.4.4](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#64-algebraic-preschemes)), and that,
+in the case where $u$ is quasi-compact, assertions (iv) and (v) are equivalent. We have already seen in 1.3 that (i) and
+(ii) are equivalent.
 
 Let us show finally that (i) implies (iv). Let $C$ be a connected component of $G$; since $C$ is of finite type over $A$
 (VI_A, 2.4.1) and $G$ and $H$ are separated (VI_A, 0.2), by EGA I, 5.5.1 and 6.3.4, the restriction $u'$ of $u$ to $C$
 is separated and of finite type.[^N.D.E-VI_B-14] Since the fibers of $u'$ are discrete, it follows that $u'$ is
-quasi-finite (cf. [EGA II, 6.2.2](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#62-quasi-finite-morphisms)). Since every quasi-finite proper morphism is finite (cf. [EGA III₁, 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)), it therefore
-suffices to show that $u'$ is universally closed.
+quasi-finite (cf.
+[EGA II, 6.2.2](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#62-quasi-finite-morphisms)).
+Since every quasi-finite proper morphism is finite (cf.
+[EGA III₁, 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)),
+it therefore suffices to show that $u'$ is universally closed.
 
 For this, we may assume that $A$ is equal to its residue field $k$. Then, by (fpqc) descent (cf. EGA IV₂, 2.6.4), it
 suffices to show that $u' \otimes_{k} \bar{k}$ is universally closed, where $\bar{k}$ denotes an algebraic closure of
@@ -293,10 +322,13 @@ locally of finite type. The following assertions are equivalent:*[^N.D.E-VI_B-15
 *Proof.* It is clear that (i) implies (ii), and if one considers the functors represented respectively by $G$ and $H$,
 it is immediate that conditions (ii) and (iii) are equivalent. Finally, if `Ker u` is the unit $k$-group, `Ker u` is a
 proper non-empty fiber, so $u$ is a proper monomorphism by 1.4, of finite presentation since $H$ is locally noetherian
-([EGA IV₁, 1.6.1](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#16-morphisms-of-finite-presentation)), and hence a closed immersion ([EGA IV₃, 8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)).
+([EGA IV₁, 1.6.1](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#16-morphisms-of-finite-presentation)),
+and hence a closed immersion
+([EGA IV₃, 8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)).
 
 The last assertion follows from the fact that, since $H$ is locally noetherian, every immersion $G \to H$ is
-quasi-compact ([EGA I, 6.6.4](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)). ∎
+quasi-compact
+([EGA I, 6.6.4](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)). ∎
 
 **Counterexample 1.4.3.** *Let $k$ be a field of characteristic 0, $G$ the constant $k$-group $\mathbb{Z}$, and $H$ the
 $k$-group $G_{a,k}$. Let $u : G \to H$ be a morphism of $k$-groups. If $u \neq 0$, then $Ker u = 0$, but $u$ is not a
@@ -338,12 +370,16 @@ Recall also (II 4.11) that, if $\pi$ denotes the structural morphism $G \to S$, 
 \pi*(\omega_{G/S})$, so that it comes to the same thing to say that the `O_S`-module $\omega_{G/S}$ is locally free, or
 that the `O_G`-module $\Omega^{1}_{G/S}$ is locally free.
 
-If there exists an open neighborhood $U$ of $\epsilon(S)$ which is smooth over $S$, then, by [EGA IV₄, 17.2.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#172-general-differential-properties),
+If there exists an open neighborhood $U$ of $\epsilon(S)$ which is smooth over $S$, then, by
+[EGA IV₄, 17.2.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#172-general-differential-properties),
 $\Omega^{1}_{U/S}$ is locally free of finite type, as well as $\omega_{G/S} = \epsilon*(\Omega^{1}_{U/S})$.
 
 Conversely, if $\omega_{G/S}$ is locally free, the same holds for $\Omega^{1}_{G/S} = \pi*(\omega_{G/S})$. Since $S$ is
-of characteristic `0`, the Jacobian criterion ([EGA IV₄, 16.12.2](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#1612-case-of-characteristic-zero--jacobian-criterion-for-differentially-smooth-morphisms)) therefore implies that $G$ is differentially smooth
-over $S$. Then it follows from [EGA IV₄, 17.12.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1712-smooth-subpreschemes-of-a-smooth-prescheme-smooth-morphisms-and-differentially-smooth-morphisms), that $G$ is smooth over $S$ at every point of the unit section. ∎
+of characteristic `0`, the Jacobian criterion
+([EGA IV₄, 16.12.2](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#1612-case-of-characteristic-zero--jacobian-criterion-for-differentially-smooth-morphisms))
+therefore implies that $G$ is differentially smooth over $S$. Then it follows from
+[EGA IV₄, 17.12.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1712-smooth-subpreschemes-of-a-smooth-prescheme-smooth-morphisms-and-differentially-smooth-morphisms),
+that $G$ is smooth over $S$ at every point of the unit section. ∎
 
 **Corollary 1.6.1 (Cartier).** *Given a field $k$ of characteristic zero, every $k$-group locally of finite type over
 $k$ is smooth over $k$.*
@@ -431,7 +467,8 @@ W'_{1}$. ∎
 
 **Remark 2.1.2.** *A great many properties of a morphism are local in nature for the (fpqc) topology; let us mention the
 properties of being flat, (universally) open, (locally) of finite type, of finite presentation, quasi-finite (cf. EGA
-IV₂, 2.5.1, 2.6.1 and 2.7.1), smooth, étale, unramified ([EGA IV₄, 17.7.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility)).*
+IV₂, 2.5.1, 2.6.1 and 2.7.1), smooth, étale, unramified
+([EGA IV₄, 17.7.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility)).*
 
 *The proof of 2.1 in fact uses only base changes by flat morphisms; the proposition therefore applies to a property
 satisfying condition b) of 2.0 relative to the (fpqc) topology, and stable under base change by flat morphisms (for
@@ -445,7 +482,8 @@ topology $T$.*
 
 *In particular, if $G$ is flat and locally of finite presentation over $S$, one has an analogous statement for
 properties stable under base change by flat morphisms locally of finite presentation, satisfying condition b) of 2.0
-relative to the (fpqc) topology (e.g., the properties of being regular, reduced, Cohen–Macaulay, etc. ([EGA IV₂, 6.8](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#68-regular-normal-reduced-smooth-morphisms))).*
+relative to the (fpqc) topology (e.g., the properties of being regular, reduced, Cohen–Macaulay, etc.
+([EGA IV₂, 6.8](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#68-regular-normal-reduced-smooth-morphisms))).*
 
 <!-- label: III.VI_B.2.1.2 -->
 
@@ -475,10 +513,11 @@ open (EGA IV₂, 2.4.6). Set $U = \pi_{V}(V)$; $U$ is therefore open in $S$. It 
 group subscheme of $G|_{U}$; we may therefore assume $U = S$.
 
 Set then $G' = G \times_{S} V$, $H' = H \times_{S} V$, $V' = V \times_{S} V$ and $u' = u_{(V)}$. Then, since $V$ is flat
-and locally of finite presentation over $S$, so is $H'$ over $H$. By [EGA IV₄, 17.7.4](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility), $V'$ is then the largest open
-subset of $G'$ such that the restriction of $u'$ to $V'$ is flat and locally of finite presentation (resp. smooth, resp.
-étale). With the automorphisms $a$ and $b$ defined as in the proof of 2.1, it is then clear that $V'$ is stable under
-$a$, hence $V$ is a group subscheme of $G$.
+and locally of finite presentation over $S$, so is $H'$ over $H$. By
+[EGA IV₄, 17.7.4](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility),
+$V'$ is then the largest open subset of $G'$ such that the restriction of $u'$ to $V'$ is flat and locally of finite
+presentation (resp. smooth, resp. étale). With the automorphisms $a$ and $b$ defined as in the proof of 2.1, it is then
+clear that $V'$ is stable under $a$, hence $V$ is a group subscheme of $G$.
 
 Let us show (ii). The restriction $\pi_{V}$ of $\pi_{G}$ to $V$ is a universally open morphism, either because so is
 $\pi_{G}$, or as the composition of the restriction of $u$ to $V$ and $\pi_{H}$ in the case where $\pi_{H}$ is
@@ -487,9 +526,10 @@ of $G|_{U}$. We may therefore assume $U = S$.
 
 Set as before $G' = G \times_{S} V$, $H' = H \times_{S} V$, $V' = V \times_{S} V$ and $u' = u_{(V)}$. Then $\pi_{V} : V
 \to S$ is surjective and universally open, the same is true of $G' \to G$, so that $V'$ is the largest open subset of
-$G'$ such that the restriction of $u'$ to $V'$ is universally open, by virtue of ([EGA IV₃, 14.3.4](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#143-universally-open-morphisms) (i) and (ii)). With
-the automorphisms $a$ and $b$ defined as before, it is then clear that $V'$ is stable under $a$, hence $V$ is a group
-subscheme of $G$. ∎
+$G'$ such that the restriction of $u'$ to $V'$ is universally open, by virtue of
+([EGA IV₃, 14.3.4](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#143-universally-open-morphisms)
+(i) and (ii)). With the automorphisms $a$ and $b$ defined as before, it is then clear that $V'$ is stable under $a$,
+hence $V$ is a group subscheme of $G$. ∎
 
 <!-- original page 333 -->
 
@@ -543,8 +583,9 @@ $U_{l}.q.f.$ (resp. $U_{n}.r.$).*
 
 *Proof.* Let us show (i). First note (1.3.1.1) that, for every $s \in S$, $G_{s}$ is locally of finite type over
 $\kappa(s)$. Let $Y$ be the open subset of $H$ formed by the points where $\pi_{H}$ is of finite type, and let `X_1` be
-the open subset of $u^{-1}(Y)$ formed by the points where $\pi_{G}$ is of finite presentation. By [EGA IV₃, 11.3.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses), the
-set $X$ of points of `X_1` where $\pi_{G}$ is of finite presentation and flat is open in `X_1`, hence in $G$.
+the open subset of $u^{-1}(Y)$ formed by the points where $\pi_{G}$ is of finite presentation. By
+[EGA IV₃, 11.3.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses),
+the set $X$ of points of `X_1` where $\pi_{G}$ is of finite presentation and flat is open in `X_1`, hence in $G$.
 
 Let $u_{X} : X \to Y$ be the morphism deduced from $u$. Since $Y$ (resp. $X$) contains the unit section of $H$ (resp.
 $G$), the restriction $\pi_{X}$ of $\pi_{G}$ to $X$ is surjective, and the morphism $S \to X$ deduced from
@@ -553,12 +594,18 @@ $\epsilon_{G}$ is an $S$-section of $X$.
 Consider the sets $W_{flat} \supset W_{smooth} \supset W_{\acute{e}}t$, formed by the points of $X$ where $u_{X}$ is
 flat (resp. smooth, resp. étale). It is clear that $W_{smooth}$ and $W_{\acute{e}}t$ are open in $X$, cf. N.D.E. (6). On
 the other hand, since $\pi_{Y}$ is locally of finite type and $\pi_{X} = \pi_{Y} \circ u_{X}$ is locally of finite
-presentation, by [EGA IV₁, 1.4.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation) (v), $u_{X}$ is locally of finite presentation. Consequently, the flat locus `W_X` of
-$u_{X}$ is open in $X$ (EGA IV₃, 11.3.1).
+presentation, by
+[EGA IV₁, 1.4.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation)
+(v), $u_{X}$ is locally of finite presentation. Consequently, the flat locus `W_X` of $u_{X}$ is open in $X$ (EGA IV₃,
+11.3.1).
 
-Let $x \in X$ and set $s = \pi_{X}(x)$; then by [EGA IV₂, 11.3.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses) (combined with [EGA IV₄, 17.5.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms), resp. 17.6.1), $x$
-belongs to $W_{flat}$ (resp. $W_{smooth}$, $W_{\acute{e}}t$) if and only if $u_{s}$ is flat (resp. smooth, étale) at the
-point $x$, or, what comes to the same by 1.3, if and only if $u_{s}$ is flat (resp. smooth, étale).
+Let $x \in X$ and set $s = \pi_{X}(x)$; then by
+[EGA IV₂, 11.3.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses)
+(combined with
+[EGA IV₄, 17.5.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms),
+resp. 17.6.1), $x$ belongs to $W_{flat}$ (resp. $W_{smooth}$, $W_{\acute{e}}t$) if and only if $u_{s}$ is flat (resp.
+smooth, étale) at the point $x$, or, what comes to the same by 1.3, if and only if $u_{s}$ is flat (resp. smooth,
+étale).
 
 Consequently, for "♭ = flat, smooth or étale", one has $U_{\flat} = \epsilon^{-1}_{G}(W_{\flat})$ and $W_{\flat} =
 \pi^{-1}_{X}(U_{\flat})$. Since $W_{\flat}$ is open in $X$, hence in $G$, the first equality shows that $U_{\flat}$ is
@@ -578,8 +625,9 @@ locally of finite type, $u_{s}$ is locally quasi-finite by 1.3.1.
 
 Conversely, if $u_{s}$ is locally quasi-finite, then $u^{-1}_{X}(u_{X}(x)) \subset u^{-1}_{s}(u_{s}(x))$ is a finite
 set. Since $u_{X} : X \to H$ is locally of finite type, it follows from Chevalley's semicontinuity theorem ([EGA IV₃,
-13.1.3](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem)) that there exists an open neighborhood $W$ of $x$ in $X$ such that the fiber $u^{-1}_{X}(u_{X}(x'))$ is discrete
-for every $x' \in W$. Hence, by EGA II, 6.2.2 (and EGA III₂, Err_III 20), $u_{X}$ is quasi-finite at $x$.
+13.1.3](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem))
+that there exists an open neighborhood $W$ of $x$ in $X$ such that the fiber $u^{-1}_{X}(u_{X}(x'))$ is discrete for
+every $x' \in W$. Hence, by EGA II, 6.2.2 (and EGA III₂, Err_III 20), $u_{X}$ is quasi-finite at $x$.
 
 Consequently, one has $U_{l}.q.f. = \epsilon^{-1}_{G}(V_{l}.q.f.)$ and $V_{l}.q.f. = \pi^{-1}_{X}(U_{l}.q.f.)$, and the
 first equality shows that $U_{l}.q.f.$ is open in $S$.
@@ -606,16 +654,19 @@ If moreover $G$ is locally of finite presentation over $S$, then $Z = G$, and so
 $\pi_{G}$ of $U_{n}.r.$. This completes the proof of assertion (ii). ∎
 
 **Corollary 2.6.** *Let $u : G \to H$ be a morphism of $S$-groups which is a radicial morphism (which is the case if $u$
-is a monomorphism ([EGA I, 3.5.4](https://jcreinhold.github.io/ega/i/01-03-product-of-preschemes.html#35-surjections-and-injections))). Suppose $G$ (resp. $H$) locally of finite presentation and flat (resp. locally of
-finite type) over $S$. Then the set $U$ of $s \in S$ such that $u_{s}$ is an open immersion is open in $S$, and the
-restriction of $u$ over $U$ is an open immersion.*
+is a monomorphism
+([EGA I, 3.5.4](https://jcreinhold.github.io/ega/i/01-03-product-of-preschemes.html#35-surjections-and-injections))).
+Suppose $G$ (resp. $H$) locally of finite presentation and flat (resp. locally of finite type) over $S$. Then the set
+$U$ of $s \in S$ such that $u_{s}$ is an open immersion is open in $S$, and the restriction of $u$ over $U$ is an open
+immersion.*
 
 <!-- label: III.VI_B.2.6 -->
 
 By 2.5 (i), the set $U'$ of points $s \in S$ such that $u_{s}$ is étale is open in $S$. Since $u$ is radicial, so is
-$u_{s}$, for every $s \in S$, hence by [EGA IV₄, 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions), one has $U = U'$, which shows that $U$ is open. Finally, by 2.5
-(i), the restriction of $u$ over $U$ is étale; since $u$ is radicial, this restriction is an open immersion (EGA IV₄,
-17.9.1). ∎
+$u_{s}$, for every $s \in S$, hence by
+[EGA IV₄, 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions),
+one has $U = U'$, which shows that $U$ is open. Finally, by 2.5 (i), the restriction of $u$ over $U$ is étale; since $u$
+is radicial, this restriction is an open immersion (EGA IV₄, 17.9.1). ∎
 
 **Proposition 2.7.** *Let $G$ be an $S$-group. The following conditions are equivalent:*
 
@@ -735,7 +786,8 @@ an affine morphism. So let $y \in Y$, and let $V$ be an affine open neighborhood
 Then $V'$ is an open neighborhood of $x = f^{-1}(y)$ in $X$. There exists an open affine neighborhood $W'$ of $x$ in $X$
 contained in $V'$. Set then $W = f(W')$. Then $W$ is an open neighborhood of $y$ in $Y$ contained in the affine scheme
 $V$, hence $W$ is separated. Since $W'$ is an affine scheme, the restriction of $f$ over $W$ is then an affine morphism
-([EGA II, 1.2.3](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#12-affine-preschemes-over-a-prescheme)). ∎
+([EGA II, 1.2.3](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#12-affine-preschemes-over-a-prescheme)).
+∎
 
 **Corollary 2.10.** *Let $G$ be an $S$-group locally of finite type. Suppose that, for every $s \in S$, $G_{s}$ is the
 unit $\kappa(s)$-group; then $G$ is the unit $S$-group.*
@@ -856,7 +908,8 @@ It suffices indeed to check that, for every $s' \in S'$ with image $s$ in $S$, $
 \kappa(s'))^{0} = (G_{s} \otimes_{\kappa(s)} \kappa(s'))^{0}$ equals $G^{0}_{s} \otimes_{\kappa(s)} \kappa(s')$; this
 follows from (VI_A, 2.1.2). Note, for later use in 4.2, that we have not used the group structure of $G_{s}$, only the
 fact that $G^{0}_{s}$ has a rational point, namely $\epsilon(s)$, hence is geometrically connected (see also [EGA IV₂,
-4.5.14](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#45-geometrically-irreducible-and-geometrically-connected-preschemes)). ∎
+4.5.14](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#45-geometrically-irreducible-and-geometrically-connected-preschemes)).
+∎
 
 **Special case 3.4.** *Let $G$ be an $S$-group scheme; denote by $G^{0}$ the subset of $G$ equal to the union of the
 $G^{0}_{s}$ as $s$ runs through $S$. Then $G^{0}$ is a part of $G$ stable under the group law of $G$ (cf. 3.0), and for
@@ -892,9 +945,10 @@ over $S$.*
 
 <!-- original page 343 -->
 
-Our assertion being local on $S$ ([EGA I, 6.6.1](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)), one reduces to the case where $S$ is affine. By 3.5, there then exists
-a quasi-compact open $U$ of $G$ containing $G^{0} = G$, hence $G$ is quasi-compact, hence quasi-compact over the affine
-scheme $S$ (EGA I, 6.6.4 (v)). ∎
+Our assertion being local on $S$
+([EGA I, 6.6.1](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)), one
+reduces to the case where $S$ is affine. By 3.5, there then exists a quasi-compact open $U$ of $G$ containing
+$G^{0} = G$, hence $G$ is quasi-compact, hence quasi-compact over the affine scheme $S$ (EGA I, 6.6.4 (v)). ∎
 
 **Proposition 3.7.** [^N.D.E-VI_B-24] *Let $G$ be an $S$-group locally of finite presentation. Then:*
 
@@ -939,7 +993,8 @@ it follows that for every quasi-compact and quasi-separated open $T$ of $S$ (e.g
 
 **Corollary 3.8.** *Let `S_0` be a quasi-compact and quasi-separated scheme, $I$ a filtered increasing preordered set,
 $(A_{i})_{i \in I}$ a direct system of commutative quasi-coherent $O_{S_{0}}$-algebras, $A = \lim A_{i}$ (direct limit),
-$S_{i} = \operatorname{Spec} A_{i}$ for $i \in I$, and $S = \operatorname{Spec} A$ (cf. [EGA II, 1.3.1](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#13-affine-prescheme-over-s-associated-to-an-os-algebra)).*
+$S_{i} = \operatorname{Spec} A_{i}$ for $i \in I$, and $S = \operatorname{Spec} A$ (cf.
+[EGA II, 1.3.1](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#13-affine-prescheme-over-s-associated-to-an-os-algebra)).*
 
 *Let $G$ be an `S_0`-group scheme locally of finite presentation. Then the canonical map $\lim G^{0}(S_{i}) \to
 G^{0}(S)$ is bijective.*
@@ -961,11 +1016,12 @@ then the canonical morphism $i : G^{0} \to G$ is an open immersion; moreover, $G
 <!-- label: III.VI_B.3.9 -->
 
 Since $G^{0}$ is a subfunctor of the functor $G$, the morphism $i$ is a monomorphism, hence radicial. By the definition
-of the functor $G^{0}$, one verifies immediately from the definition ([EGA IV₄, 17.1.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#171-formally-smooth-formally-unramified-formally-étale-morphisms)) that $i$ is a formally étale
-morphism (noting that $G^{0}$ is the image of $i$ in $G$). Finally, it follows from the characterization (EGA IV₃,
-8.14.2 c)) of $S$-schemes locally of finite presentation via the functor they represent, and from 3.8, that, since $G$
-is locally of finite presentation over $S$, so is $G^{0}$. Hence $i$ is locally of finite presentation (cf. EGA IV₁,
-1.4.3); it is therefore a radicial étale morphism; hence an open immersion (EGA IV₄, 17.9.1).
+of the functor $G^{0}$, one verifies immediately from the definition
+([EGA IV₄, 17.1.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#171-formally-smooth-formally-unramified-formally-étale-morphisms))
+that $i$ is a formally étale morphism (noting that $G^{0}$ is the image of $i$ in $G$). Finally, it follows from the
+characterization (EGA IV₃, 8.14.2 c)) of $S$-schemes locally of finite presentation via the functor they represent, and
+from 3.8, that, since $G$ is locally of finite presentation over $S$, so is $G^{0}$. Hence $i$ is locally of finite
+presentation (cf. EGA IV₁, 1.4.3); it is therefore a radicial étale morphism; hence an open immersion (EGA IV₄, 17.9.1).
 
 Finally, the last assertion follows from 3.6. ∎
 
@@ -1031,7 +1087,9 @@ $u^{0} : G^{0} \to H^{0}$ is surjective.
 Conversely, suppose the map $u^{0} : G^{0} \to H^{0}$ is surjective, $G$ flat over $S$ and $H$ with reduced fibers.
 Then, for every $s \in S$, the morphism $u^{0}_{s} : G^{0}_{s} \to H^{0}_{s}$ is surjective, hence flat at every point
 above the generic point $\eta$ of $H^{0}_{s}$ (since $O_{H^{0}_{s}, \eta}$ is a field), hence $u_{s}$ is flat by 1.3.
-Hence $u$ is flat, by the fiber-wise flatness criterion ([EGA IV₃, 11.3.11](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses)). ∎
+Hence $u$ is flat, by the fiber-wise flatness criterion
+([EGA IV₃, 11.3.11](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses)).
+∎
 
 ## 4. Dimension of fibers of groups locally of finite presentation
 
@@ -1061,7 +1119,9 @@ upper semicontinuous on $S$.
 
 Suppose $G$ locally of finite presentation over $S$. To show that the function $s \mapsto \dim G_{s}$ is locally
 constructible, one sees, reasoning as above, that it suffices to show that the function $x \mapsto \dim_{x}
-\pi^{-1}(\pi(x))$ is locally constructible on $G$, which follows from [EGA IV₃, 9.9.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#99-constructibility-of-local-properties-of-the-fibres). ∎
+\pi^{-1}(\pi(x))$ is locally constructible on $G$, which follows from
+[EGA IV₃, 9.9.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#99-constructibility-of-local-properties-of-the-fibres).
+∎
 
 **Proposition 4.2.** *Let $\pi : G \to S$ be an $S$-scheme locally of finite presentation, equipped with an $S$-section
 $\epsilon$ and satisfying the following two conditions (which are satisfied if $G$ is an $S$-group, by 1.5 and (VI_A,
@@ -1088,12 +1148,15 @@ of $s'$ in $S'$.*[^N.D.E-VI_B-29]
 
 <!-- label: III.VI_B.4.2 -->
 
-*Proof.* Clearly (i) ⇒ (i bis). By [EGA IV₃, 14.3.3.1](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#143-universally-open-morphisms) (ii), the set of points of $G^{0}_{s}$ where $\pi_{G}$ is
-universally open is closed in $G^{0}_{s}$. Hence, since $G^{0}_{s}$ is irreducible, one has (i bis) ⇒ (i).
+*Proof.* Clearly (i) ⇒ (i bis). By
+[EGA IV₃, 14.3.3.1](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#143-universally-open-morphisms)
+(ii), the set of points of $G^{0}_{s}$ where $\pi_{G}$ is universally open is closed in $G^{0}_{s}$. Hence, since
+$G^{0}_{s}$ is irreducible, one has (i bis) ⇒ (i).
 
 Let us show that (i) implies (ii). Let $T$ be the set of $t \in S$ such that $\dim G_{t} = \dim G_{s}$. By 4.1, $T$ is
-locally constructible, hence, by [EGA IV₁, 1.10.1](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#110-application-to-open-morphisms), to show that $T$ is a neighborhood of $s$, it suffices to show that
-every generization $s'$ of $s$ belongs to $T$.
+locally constructible, hence, by
+[EGA IV₁, 1.10.1](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#110-application-to-open-morphisms),
+to show that $T$ is a neighborhood of $s$, it suffices to show that every generization $s'$ of $s$ belongs to $T$.
 
 <!-- original page 349 -->
 
@@ -1113,7 +1176,8 @@ presentation over $S$. Replacing $S$ by $\epsilon^{-1}(U)$ and then $U$ by $U \c
 where $\pi : U \to S$ is of finite presentation and admits $\epsilon : S \to U$ as section. Then, by EGA IV₃, 9.7.12,
 $G^{0} \cap U$ is constructible in $U$. Then, replacing $V$ by an affine open contained in $V \cap U$, we obtain that
 $G^{0} \cap V$ is constructible in $V$. Since $\pi : V \to S$ is of finite presentation, $\pi(G^{0} \cap V)$ is locally
-constructible in $S$, by Chevalley's constructibility theorem (cf. [EGA IV₁, 1.8.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets)).
+constructible in $S$, by Chevalley's constructibility theorem (cf.
+[EGA IV₁, 1.8.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets)).
 
 Hence, by loc. cit., 1.10.1, to show that $\pi(G^{0} \cap V)$ is an open neighborhood of $s$, it suffices to show that
 for every generization $t$ of $s$, there exists a generization $\xi$ of $\eta$ belonging to $G^{0}$ (and hence to $G^{0}
@@ -1141,10 +1205,11 @@ an extension of $\kappa(t)$; then $(W \cap G^{0}_{t}) \otimes_{\kappa(t)} K = (W
 \otimes_{\kappa(t)} K)$ is a non-empty open subset of $G^{0}_{t} \otimes_{\kappa(t)} K$, hence is irreducible since
 $G^{0}_{t} \otimes_{\kappa(t)} K$ is.
 
-We are then in the conditions of application of [EGA IV₃, 15.6.6](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#156-connected-components-of-the-fibres-along-a-section) (ii), which asserts that $\pi''$ (hence $\pi$) is
-universally open at the points of $W \cap G^{0}_{s}$. But, by EGA IV₃, 14.3.3.1 (ii), the subset of $G_{s}$ formed by
-the points where $\pi$ is universally open is closed in $G_{s}$; since it contains $W \cap G^{0}_{s}$, it therefore
-contains its closure $G^{0}_{s}$. ∎
+We are then in the conditions of application of
+[EGA IV₃, 15.6.6](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#156-connected-components-of-the-fibres-along-a-section)
+(ii), which asserts that $\pi''$ (hence $\pi$) is universally open at the points of $W \cap G^{0}_{s}$. But, by EGA IV₃,
+14.3.3.1 (ii), the subset of $G_{s}$ formed by the points where $\pi$ is universally open is closed in $G_{s}$; since it
+contains $W \cap G^{0}_{s}$, it therefore contains its closure $G^{0}_{s}$. ∎
 
 <!-- original page 350 -->
 
@@ -1178,7 +1243,9 @@ $S$.*[^N.D.E-VI_B-31]
 <!-- label: III.VI_B.4.4 -->
 
 *Proof.* Let us show that (i) implies (ii). For every $x \in G$, one has $\dim_{x} \pi^{-1}(\pi(x)) = \dim
-\pi^{-1}(\pi(x))$, by 1.5. Consequently, by [EGA IV₄, 17.10.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1710-relative-dimension-of-a-smooth-prescheme-over-another), the function
+\pi^{-1}(\pi(x))$, by 1.5. Consequently, by
+[EGA IV₄, 17.10.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1710-relative-dimension-of-a-smooth-prescheme-over-another),
+the function
 
 ```text
 x ↦ dim_x π⁻¹(π(x)) = dim π⁻¹(π(x))
@@ -1192,10 +1259,11 @@ locally constant on $S$. Moreover, for every $s \in S$, $G_{s}$ is smooth over $
 Let us show that (ii) implies (iv). It suffices to show that $G^{0}$ is open in $G$, for then, by 3.4, $G^{0}$ will be
 representable by the group subscheme induced on $G^{0}$, and the properties of $G^{0}$ cited in the statement will
 follow from 2.4 and 4.2. Given $s \in S$, construct as in the proof of 3.10, $W$, $T$, $\pi''$, $\epsilon''$, and
-$W^{0}$. Then, by [EGA IV₃, 15.6.7](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#156-connected-components-of-the-fibres-along-a-section), $W^{0}$ is open in $W$. On the other hand, under hypothesis 4.4 (ii), it follows from
-4.2 that $\pi$ is universally open at every point of $W^{0}$, hence (VI_A, 0.1) `µ` is universally open at every point
-of $W^{0} \times_{S} W^{0}$, which shows that $W^{0} \cdot W^{0}$ is open, and one concludes as in the proof of Theorem
-3.10.
+$W^{0}$. Then, by
+[EGA IV₃, 15.6.7](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#156-connected-components-of-the-fibres-along-a-section),
+$W^{0}$ is open in $W$. On the other hand, under hypothesis 4.4 (ii), it follows from 4.2 that $\pi$ is universally open
+at every point of $W^{0}$, hence (VI_A, 0.1) `µ` is universally open at every point of $W^{0} \times_{S} W^{0}$, which
+shows that $W^{0} \cdot W^{0}$ is open, and one concludes as in the proof of Theorem 3.10.
 
 It is clear that (iv) ⇒ (iii), and (iii) ⇒ (ii) follows from 4.2 applied to $V$.
 
@@ -1214,8 +1282,9 @@ of $G$ be a closed immersion.*
 
 <!-- label: III.VI_B.5.1 -->
 
-The condition is necessary ([EGA I, 5.4.6](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#54-separated-morphisms-and-separated-preschemes)); it is sufficient by virtue of the following cartesian diagram (cf. (VI_A,
-0.3)):
+The condition is necessary
+([EGA I, 5.4.6](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#54-separated-morphisms-and-separated-preschemes));
+it is sufficient by virtue of the following cartesian diagram (cf. (VI_A, 0.3)):
 
 ```text
               µ ∘ (id_G × c)
@@ -1231,9 +1300,10 @@ G ×_S G ─────────────────────→ G
 
 <!-- label: III.VI_B.5.2 -->
 
-Indeed, $S$ is then equal to $\coprod_{s \in S} \operatorname{Spec} O_{S,s}$, and by [EGA I, 5.5.5](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#55-separation-criteria), it suffices to show
-that for every $s \in S$, $G \times_{S} \operatorname{Spec} O_{S,s}$ is separated, which follows from (VI_A, 0.3), since
-$O_{S,s}$ is a local ring of dimension 0.[^N.D.E-VI_B-33]
+Indeed, $S$ is then equal to $\coprod_{s \in S} \operatorname{Spec} O_{S,s}$, and by
+[EGA I, 5.5.5](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#55-separation-criteria),
+it suffices to show that for every $s \in S$, $G \times_{S} \operatorname{Spec} O_{S,s}$ is separated, which follows
+from (VI_A, 0.3), since $O_{S,s}$ is a local ring of dimension 0.[^N.D.E-VI_B-33]
 
 <!-- original page 352 -->
 
@@ -1346,8 +1416,10 @@ closed $\tilde{\pi}(\tilde{X} - U')$. This proves (i).
 
 <!-- original page 358 -->
 
-(ii) One may assume $Y$ and $X$ reduced. By Zariski's "Main Theorem" (cf. [EGA IV₃, 8.12.9](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#812-new-demonstration-and-generalization-of-zariskis-main-theorem)), there exist affine open
-neighborhoods $U$ of $x$, and $V = \operatorname{Spec}(A)$ of $y$, such that $f(U) \subset V$, and a factorization:
+(ii) One may assume $Y$ and $X$ reduced. By Zariski's "Main Theorem" (cf.
+[EGA IV₃, 8.12.9](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#812-new-demonstration-and-generalization-of-zariskis-main-theorem)),
+there exist affine open neighborhoods $U$ of $x$, and $V = \operatorname{Spec}(A)$ of $y$, such that $f(U) \subset V$,
+and a factorization:
 
 ```text
        j
@@ -1405,9 +1477,11 @@ situation obtained by the base change $S' \to S$. So, by what precedes, one is r
 the point $x$.
 
 Set $y = u(x)$. Since $u$ is locally of finite presentation (since $f$ and $q$ are, cf. EGA IV₁, 1.4.3), then by [EGA
-IV₁, 1.10.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#110-application-to-open-morphisms), it suffices to show that $u(\operatorname{Spec} O_{X,x}) = \operatorname{Spec}(O_{Y,y})$. For this, one may
-assume $S$ affine and integral. Let then $\pi : S' \to S$ be its normalization; denote by $u' : X' \to Y'$ the morphism
-deduced from $u$ by base change. Since the morphism $\pi_{Y} : Y' \to Y$ is integral and surjective, one has
+IV₁,
+1.10.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#110-application-to-open-morphisms),
+it suffices to show that $u(\operatorname{Spec} O_{X,x}) = \operatorname{Spec}(O_{Y,y})$. For this, one may assume $S$
+affine and integral. Let then $\pi : S' \to S$ be its normalization; denote by $u' : X' \to Y'$ the morphism deduced
+from $u$ by base change. Since the morphism $\pi_{Y} : Y' \to Y$ is integral and surjective, one has
 
 ```text
 Spec(O_{Y,y}) = ⋃_{y′} π_Y(Spec(O_{Y′, y′})),
@@ -1431,8 +1505,9 @@ dominant. Since $Y$ is normal, it follows from Lemma 5.6.0 that $g$ is open, so 
 in particular at the point $x$. Consequently, $u(\operatorname{Spec} O_{X,x}) = \operatorname{Spec} O_{Y,y}$, and this
 completes the proof of Lemma 5.6.1.0. ∎
 
-The following lemma advantageously replaces [EGA IV₃, 14.5.10](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#145-universally-open-morphisms-and-quasi-sections),[^N.D.E-VI_B-40] in that it is independent of noetherian
-hypotheses.
+The following lemma advantageously replaces
+[EGA IV₃, 14.5.10](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#145-universally-open-morphisms-and-quasi-sections),[^N.D.E-VI_B-40]
+in that it is independent of noetherian hypotheses.
 
 **Lemma 5.6.1.** *Let $S$ be a scheme, $f : X \to S$ an $S$-scheme locally of finite presentation, $s$ a point of $S$,
 $x$ a closed point of $X_{s}$. Suppose that $f$ is universally open at the generic point $z$ of an irreducible component
@@ -1470,8 +1545,10 @@ u : X ─→ A^n_S = Spec(A[T_1, …, T_n]),
 defined by $T_{i} \mapsto t_{i}$, is of finite presentation, $x$ is isolated in its fiber $u^{-1}(u(x))$, and one has
 $u(x) = \tau_{0}(s)$, where $\tau_{0} : S \to A^{n}_{S}$ denotes the "zero section" of $A^{n}_{S} \to S$, corresponding
 to the morphism of $A$-algebras $A[T_{1}, \cdots, T_{n}] \to A$ that sends each $T_{i}$ to 0. Since the set of points of
-$X$ that are isolated in their fiber above $A^{n}_{S}$ is open ([EGA IV₃, 13.1.4](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem)), one may assume, shrinking $X$, that
-$u$ is quasi-finite and that $u^{-1}(u(x)) = {x}$. By Lemma 5.6.1.0, $u$ is universally open at the point $x$.
+$X$ that are isolated in their fiber above $A^{n}_{S}$ is open
+([EGA IV₃, 13.1.4](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem)),
+one may assume, shrinking $X$, that $u$ is quasi-finite and that $u^{-1}(u(x)) = {x}$. By Lemma 5.6.1.0, $u$ is
+universally open at the point $x$.
 
 Let $B_{0} = B/(t_{1}, \cdots, t_{n})$ and let $X_{0} = X \times_{A^{n}_{S}} \tau_{0}(S) = \operatorname{Spec} B_{0}$
 and $u_{0} : X_{0} \to S$ be the morphism deduced from $u$ by the base change $\tau_{0} : S \hookrightarrow A^{n}_{S}$.
@@ -1482,7 +1559,9 @@ Let $A'$ be the henselization of the local ring $A_{p} = O_{S,s}$, and let $S' =
 B_{0} \otimes_{A} A'$, and $X'_{0} = X_{0} \times_{S} S' = \operatorname{Spec}(B'_{0})$. Then the closed point $s'$ of
 $S'$ is the unique point of $S'$ above $s$, one has $\kappa(s') = \kappa(s)$, and $X'_{0}$ has a unique point $x'$ above
 $s'$; one has $\kappa(x') = \kappa(x)$ and $x'$ is also the unique point of $X'_{0}$ above $s$ and above $x$. Since $A'$
-is henselian, by [EGA IV₄, 18.5.11](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#185-henselian-local-rings1), $X'_{0}$ is the disjoint sum of two open and closed parts:
+is henselian, by
+[EGA IV₄, 18.5.11](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#185-henselian-local-rings1),
+$X'_{0}$ is the disjoint sum of two open and closed parts:
 
 ```text
 (*)    X′_0 = V ⊔ W,    where V = Spec(O_{X′_0, x′});
@@ -1523,10 +1602,12 @@ X_i ──── u_i ────→ S_i
 ```
 
 For every $j \geq i$, let $V_{j} = V_{i} \times_{S_{i}} S_{j}$ and let $\pi_{j} : V_{j} \to S_{j}$ be the morphism (of
-finite presentation) deduced from $\pi_{i}$ by base change. Since $\pi : V \to S'$ is finite and surjective, by [EGA IV₂,
-8.10.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#810-permanence-properties-of-morphisms-under-projective-passage-to-the-limit), there exists an index $j$ such that $\pi_{j} : V_{j} \to S_{j}$ is finite and surjective. Then $w : S_{j} \to S$
-is étale affine, $S_{j}$ has a unique point $s_{j}$ above $s$, and $V_{j}$ has a unique point $x_{j}$ above $s_{j}$
-(since $x'$ is the unique point of $V = V_{j} \times_{S_{j}} S'$ above $s'$):
+finite presentation) deduced from $\pi_{i}$ by base change. Since $\pi : V \to S'$ is finite and surjective, by [EGA
+IV₂,
+8.10.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#810-permanence-properties-of-morphisms-under-projective-passage-to-the-limit),
+there exists an index $j$ such that $\pi_{j} : V_{j} \to S_{j}$ is finite and surjective. Then $w : S_{j} \to S$ is
+étale affine, $S_{j}$ has a unique point $s_{j}$ above $s$, and $V_{j}$ has a unique point $x_{j}$ above $s_{j}$ (since
+$x'$ is the unique point of $V = V_{j} \times_{S_{j}} S'$ above $s'$):
 
 ```text
 X_j ────→ X_0 ────→ X
@@ -1587,7 +1668,9 @@ where $K$ contains $\bar{k}$.
 
 Since the projection $p : G_{K} \to G_{\bar{k}}$ is surjective and open, $V = p(W)$ is a dense open of $G_{\bar{k}}$,
 and since $p^{-1}(g) = \operatorname{Spec}(\kappa(g) \otimes_{\bar{k}} K)$ is irreducible for every $g \in G_{\bar{k}}$
-(cf. [EGA IV₂, 4.3.3](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#43-reminders-on-tensor-products-of-fields)), then for every $g \in V$, the generic point of $p^{-1}(g)$ belongs to $W$. On the other hand, let
+(cf.
+[EGA IV₂, 4.3.3](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#43-reminders-on-tensor-products-of-fields)),
+then for every $g \in V$, the generic point of $p^{-1}(g)$ belongs to $W$. On the other hand, let
 $\Gamma = \operatorname{Gal}(\bar{k}/k)$; since the projection $q : G_{\bar{k}} \to G$ is surjective and $\Gamma$ acts
 transitively on the fibers of $q$, then $U = q(V')$, where $V'$ is the intersection of the $\Gamma$-conjugates of $V$.
 
@@ -2200,13 +2283,17 @@ The equivalence of conditions (i) and (ii) follows from the fact that, whatever 
 \in T(S')$, one has $tt' \in T(S')$, and from the fact that $Transpstr_{G}(X, X) = T \cap c(T)$ (cf. 6.1 (ii)).
 
 Let us place ourselves in case a). Let $t \in T(S)$; then $int(t)$ is a monomorphism of $X$ into $X$, hence an
-$S$-automorphism of $X$ ([EGA IV₄, 17.9.6](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)), so that $t$ belongs to $Transpstr_{G}(X, X)$, whence a).
+$S$-automorphism of $X$
+([EGA IV₄, 17.9.6](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)),
+so that $t$ belongs to $Transpstr_{G}(X, X)$, whence a).
 
 In case b), it is clear that $\mu(T \times_{S} T) \subset T$, and the assertion follows from the following lemma.
 
 **Lemma 6.4.2.** [^N.D.E-VI_B-60] *Let $G$ be an $S$-scheme of finite presentation, equipped with an associative law (in
-the sense of [EGA 0_III 8.2.5](https://jcreinhold.github.io/ega/iii/01-ch0-08-representable-functors.html#82-algebraic-structures-in-categories)). Suppose that for every $S$-scheme $S'$ and every $g \in G(S')$, right and left
-translations by $g$ in the set $G(S')$ are injective, and that $G(S) \neq \emptyset$. Then $G$ is an $S$-group.*
+the sense of
+[EGA 0_III 8.2.5](https://jcreinhold.github.io/ega/iii/01-ch0-08-representable-functors.html#82-algebraic-structures-in-categories)).
+Suppose that for every $S$-scheme $S'$ and every $g \in G(S')$, right and left translations by $g$ in the set $G(S')$
+are injective, and that $G(S) \neq \emptyset$. Then $G$ is an $S$-group.*
 
 <!-- label: III.VI_B.6.4.2 -->
 
@@ -2257,7 +2344,8 @@ since $H_{s} = (N^{0})_{s} = (N_{s})^{0}$.
 
 Let us show finally that (iii) entails (i). Since $H_{s} = (N^{0})_{s}$ for every $s \in S$, then $H_{s} \to N_{s}$ is
 an open immersion. Moreover, $H$ and $N$ are locally of finite presentation over $S$, and $H$ is flat over $S$, hence
-([EGA IV₄, 17.9.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)), $H \to N$ is an open immersion. ∎
+([EGA IV₄, 17.9.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)),
+$H \to N$ is an open immersion. ∎
 
 [^N.D.E-VI_B-61] For the reader's convenience, we have included below the results 6.8 to 6.11 of Exp. XI.
 
@@ -2305,9 +2393,10 @@ prove that $T = S$, i.e. $Y = X$.
 
 Now $Y \supset X_{n}$ for every $n$ implies (thanks to the fact that $X$ is locally noetherian) that $Y$ is, in a
 neighborhood of every point of $\epsilon(S)$, an induced open subscheme of $X$;[^N.D.E-VI_B-64] hence there exists an
-induced open $U$ of $X$, containing $\epsilon(S)$, such that $U \subset Y$. By virtue of [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes), the fibers
-of $X/S$ being integral, $U$ is schematically dense in $X$, hence ($Y$ being a closed subscheme majorizing $U$) one has
-$Y = X$. This proves 6.5.3 hence 6.5.2 when $S$ is noetherian.
+induced open $U$ of $X$, containing $\epsilon(S)$, such that $U \subset Y$. By virtue of
+[EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes),
+the fibers of $X/S$ being integral, $U$ is schematically dense in $X$, hence ($Y$ being a closed subscheme majorizing
+$U$) one has $Y = X$. This proves 6.5.3 hence 6.5.2 when $S$ is noetherian.
 
 <!-- original page 377 -->
 
@@ -2507,10 +2596,12 @@ Let us first note that, to prove (i), (iii) and (iii′), by defining $X$ and $f
 where $I$ is reduced to a single element.
 
 Let $H$ be the reduced subscheme of $G$ with underlying set $\bigcup_{n \geqslant 1} f^{n}(X^{n})$. Then the family of
-morphisms $f^{n} : X^{n} \to H$ is schematically dominant (cf. [EGA IV₃, 11.10.4](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)), hence every closed subscheme of $G$
-which majorizes the $f^{n}$ also majorizes $H$. Moreover, by loc. cit., 11.10.7, $H$ is geometrically reduced. Hence to
-show (i) and (ii), it suffices to show that $H$ is a group subscheme of $G$, i.e. that the restriction of $c$ to $H$ and
-the restriction of $\mu$ to $H \times_{k} H$ factor through the injection $H \to G$.
+morphisms $f^{n} : X^{n} \to H$ is schematically dominant (cf.
+[EGA IV₃, 11.10.4](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)),
+hence every closed subscheme of $G$ which majorizes the $f^{n}$ also majorizes $H$. Moreover, by loc. cit., 11.10.7, $H$
+is geometrically reduced. Hence to show (i) and (ii), it suffices to show that $H$ is a group subscheme of $G$, i.e.
+that the restriction of $c$ to $H$ and the restriction of $\mu$ to $H \times_{k} H$ factor through the injection
+$H \to G$.
 
 Since $H$ is geometrically reduced, $H \times_{k} H$ is reduced, and it suffices to verify that $c(H) \subset H$ and
 that $\mu(H \times_{k} H) \subset H$ (set-theoretically). But by [EGA IV₃, 11.10.6](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes), the union of the $f^{n}_{(H)}(X^{n}
@@ -2533,7 +2624,9 @@ majorizes `H_S`, or, what amounts to the same, that $H_{S} = H_{S} \times_{G_{S}
 \times_{G_{S}} G' = G' \cap H_{S}$. Since $G'$ and `H_S` both majorize the $f^{n}_{S}$, the same is true of $H'_{S}$.
 Now (EGA IV₃, 11.10.6), since the family of $f^{n} : X^{n} \to H$ is schematically dominant, the same is true of the
 family of $f^{n}_{S} : X^{n}_{S} \to H_{S}$, so that $H'_{S}$, which majorizes each of the $f^{n}_{S}$, is equal to
-`H_S` by [EGA IV₃, 11.10.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes) c). This proves (iii).
+`H_S` by
+[EGA IV₃, 11.10.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)
+c). This proves (iii).
 
 Let us show finally that `H_S` is the smallest group subscheme (not necessarily closed) of `G_S` majorizing $f_{S}$.
 
@@ -2748,7 +2841,9 @@ $f'^{m}(X'^{m}) = \Gamma_{G}(f)$.
 
 Moreover, since $X$ and $G$ are of finite type over $k$, the morphisms $f'^{n}$ are of finite type over $k$.
 Consequently, $f'^{m}(X'^{m})$ is constructible in $G$ (EGA IV₁, 1.8.5), hence contains an open $U$ of its closure
-$\Gamma_{G}(f)$ ([EGA 0_IV, 9.2.3](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#92-constructible-sets-in-noetherian-spaces)). Then, by VI_A 0.5, one has:
+$\Gamma_{G}(f)$
+([EGA 0_IV, 9.2.3](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#92-constructible-sets-in-noetherian-spaces)).
+Then, by VI_A 0.5, one has:
 
 ```text
 Γ_G(f) ⊂ U · U ⊂ f′^{2m}(X′^{2m}) ⊂ Γ_G(f),
@@ -2880,8 +2975,9 @@ topology. This proves that (iii) ⇒ (ii), whence the equivalence of conditions 
 
 Note moreover that, since the morphisms $X \to S$ and $H \to S$ are locally of finite presentation, the same is true of
 $f : X \to H$ (cf. EGA IV₁, 1.4.3 (v)), and as $\mu : H \times_{S} H$ is also of finite presentation (cf. VI_A, 0.1), it
-follows that each $f^{n} : X^{n} \to H$ is so. Hence, by [EGA IV₁, 1.9.5](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#19-pro-constructible-and-ind-constructible-sets) (viii), the $f^{n}(X^{n})$ are ind-constructible
-parts of $H$.
+follows that each $f^{n} : X^{n} \to H$ is so. Hence, by
+[EGA IV₁, 1.9.5](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#19-pro-constructible-and-ind-constructible-sets)
+(viii), the $f^{n}(X^{n})$ are ind-constructible parts of $H$.
 
 Suppose moreover $H$ quasi-compact (then $S$ is also, since $H \to S$ is surjective). Then, by [EGA IV₁, 1.9.9](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#19-pro-constructible-and-ind-constructible-sets), one
 concludes that there exists $p$ such that $f^{p}(X^{p}) = H$. As before, one then deduces, from the fact that the fibers
@@ -3257,17 +3353,21 @@ constructible, for $T$ to be closed, it is necessary and sufficient that $T$ be 
 IV₁, 1.10.1).
 
 Let then $s \in S$ and $s'$ a specialization of $s$ in $S$. Since one has reduced to the case where $S$ is noetherian,
-then, by [EGA II, 7.1.9](https://jcreinhold.github.io/ega/ii/02-07-valuative-criteria.html#71-reminders-on-valuation-rings), there exists a discrete valuation ring $A$ and a morphism $\operatorname{Spec}(A) \to S$ such
-that $s$ (resp. $s'$) is the image of the generic point $\alpha$ (resp. of the closed point $a$) of
-$\operatorname{Spec}(A)$. It suffices then to show that if one sets $G' = G \otimes_{S} A$, and if $G'_{\alpha}$ is
-solvable (resp. nilpotent), then so is $G'_{a}$. Note that, since $G$ is flat and separated over $S$, $G'_{\alpha}$ is
-flat and separated over $A$, so we are reduced to the case where $S$ is the spectrum of a discrete valuation ring $A$.
+then, by
+[EGA II, 7.1.9](https://jcreinhold.github.io/ega/ii/02-07-valuative-criteria.html#71-reminders-on-valuation-rings),
+there exists a discrete valuation ring $A$ and a morphism $\operatorname{Spec}(A) \to S$ such that $s$ (resp. $s'$) is
+the image of the generic point $\alpha$ (resp. of the closed point $a$) of $\operatorname{Spec}(A)$. It suffices then to
+show that if one sets $G' = G \otimes_{S} A$, and if $G'_{\alpha}$ is solvable (resp. nilpotent), then so is $G'_{a}$.
+Note that, since $G$ is flat and separated over $S$, $G'_{\alpha}$ is flat and separated over $A$, so we are reduced to
+the case where $S$ is the spectrum of a discrete valuation ring $A$.
 
 Then, since $G_{\alpha}$ is supposed solvable (resp. nilpotent), there exists an integer $q$ such that $K^{q}_{\alpha}$
 (with the notations introduced above) is isomorphic to the unit $\kappa(\alpha)$-group. For every $n$, let
-$\bar{K}^{n}_{\alpha}$ denote the schematic closure (in the sense of [EGA IV₂, 2.8.5](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#28-preschemes-over-a-regular-base-of-dimension-1-closure-of-a-closed-sub-prescheme-of-the-generic-fibre)) of $K^{n}_{\alpha}$ in $G$. Let us
-show, by induction on $p$, that $(\bar{K}^{p}_{\alpha})_{a} \supset K^{p}_{a}$. Note first that, since $G$ is flat over
-$A$, then $G_{\alpha}$ is equal to $G$̄ (EGA IV₂, 2.8.5), so $(\bar{K}^{0}_{\alpha})_{a} = K^{0}_{a}$.
+$\bar{K}^{n}_{\alpha}$ denote the schematic closure (in the sense of
+[EGA IV₂, 2.8.5](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#28-preschemes-over-a-regular-base-of-dimension-1-closure-of-a-closed-sub-prescheme-of-the-generic-fibre))
+of $K^{n}_{\alpha}$ in $G$. Let us show, by induction on $p$, that $(\bar{K}^{p}_{\alpha})_{a} \supset K^{p}_{a}$. Note
+first that, since $G$ is flat over $A$, then $G_{\alpha}$ is equal to $G$̄ (EGA IV₂, 2.8.5), so
+$(\bar{K}^{0}_{\alpha})_{a} = K^{0}_{a}$.
 
 Let $p \geqslant 0$. Suppose we have established that $K^{p}_{a} \subset (\bar{K}^{p}_{\alpha})_{a}$, and denote by
 $\nu_{a}, \nu_{\alpha}, \nu, \bar{\nu}_{a}$ the following morphisms, defined as in 7.2.2:
@@ -3421,11 +3521,13 @@ hand, one saw in (ii) that $\epsilon''$ is a closed immersion if and only if $u$
 immersion, then so is $\delta \circ (id_{G} \times u) : G \times_{S} G' \to G \times_{S} G$; hence, by Lemma 9.2.1
 below, $G''$ is separated over $S$.
 
-Assertion (xi) follows from (vii) and from [EGA IV₂, 2.2.13](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#22-faithfully-flat-modules-on-preschemes).
+Assertion (xi) follows from (vii) and from
+[EGA IV₂, 2.2.13](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#22-faithfully-flat-modules-on-preschemes).
 
-Assertion (xii) follows from (vii), from [EGA IV₄, 17.7.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility) and 17.7.7, and from the fact that, $p$ being universally open,
-whatever $s \in S$, if the underlying space of $G_{s}$ is discrete, the same is true of the underlying space of
-$G''_{s}$.
+Assertion (xii) follows from (vii), from
+[EGA IV₄, 17.7.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility)
+and 17.7.7, and from the fact that, $p$ being universally open, whatever $s \in S$, if the underlying space of $G_{s}$
+is discrete, the same is true of the underlying space of $G''_{s}$.
 
 Finally, assertion (xiii) follows from (vii), (viii), and from EGA IV₄, 17.7.5. ∎
 
@@ -3440,8 +3542,9 @@ closed immersion. Then $Y = X/R$ is separated over $S$.*
 <!-- label: III.VI_B.9.2.1 -->
 
 Recall (IV Def. 3.3.2) that the hypothesis "$R$ effective" means that there exists a morphism of $S$-schemes $p : X \to
-Y$ such that the natural morphism $R \to X \times_{Y} X$ is an isomorphism. From this one deduces ([EGA I, 5.3.5](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism)) the
-following cartesian diagram:
+Y$ such that the natural morphism $R \to X \times_{Y} X$ is an isomorphism. From this one deduces
+([EGA I, 5.3.5](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism))
+the following cartesian diagram:
 
 ```text
 R ────v────→ X ×_S X
@@ -3452,8 +3555,9 @@ R ────v────→ X ×_S X
 Y ─────────→ Y ×_S Y.
 ```
 
-Then, since $\Delta_{Y/S}$ is an immersion ([EGA I, 5.3.9](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism)), the same is true of $v$. Similarly, if $Y$ is separated over
-$S$, $\Delta_{Y/S}$ is a closed immersion, hence so is $v$.
+Then, since $\Delta_{Y/S}$ is an immersion
+([EGA I, 5.3.9](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism)),
+the same is true of $v$. Similarly, if $Y$ is separated over $S$, $\Delta_{Y/S}$ is a closed immersion, hence so is $v$.
 
 Conversely, suppose that $v$ is a closed immersion and that $Y$ represents the (fpqc) quotient sheaf of $X$ by $R$. Then
 $p$ is covering for the (fpqc) topology (IV 4.4.3), and hence $p \times p$ is too (by base change, $p \times id_{X}$ and
@@ -3501,13 +3605,15 @@ $G/G'$ is representable in the following particular cases:*
 
 ### 10.0
 
-Let us recall the essential result of [EGA IV₃, § 8.8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes). Suppose given the following situation: `S_0` a quasi-compact and
-quasi-separated scheme, $I$ a filtered increasing preordered set, $(A_{i})_{i \in I}$ an inductive system of
-quasi-coherent commutative $\mathcal{O}_{S_{0}}$-algebras, $A = \varinjlim A_{i}$, $S_{i} = \operatorname{Spec} A_{i}$
-for $i \in I$, and $S = \operatorname{Spec} A$;[^N.D.E-VI_B-90] then the category of $S$-schemes of finite presentation
-is determined up to equivalence by the data of the categories of $S_{i}$-schemes of finite presentation, of the functors
-between these categories $\rho_{ji} : X_{i} \mapsto X_{i} \times_{S_{i}} S_{j}$ for $i \leqslant j$, and the
-transitivity isomorphisms $\rho_{kj} \circ \rho_{ji} \xrightarrow{\sim} \rho_{ki}$.
+Let us recall the essential result of
+[EGA IV₃, § 8.8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes).
+Suppose given the following situation: `S_0` a quasi-compact and quasi-separated scheme, $I$ a filtered increasing
+preordered set, $(A_{i})_{i \in I}$ an inductive system of quasi-coherent commutative $\mathcal{O}_{S_{0}}$-algebras,
+$A = \varinjlim A_{i}$, $S_{i} = \operatorname{Spec} A_{i}$ for $i \in I$, and
+$S = \operatorname{Spec} A$;[^N.D.E-VI_B-90] then the category of $S$-schemes of finite presentation is determined up to
+equivalence by the data of the categories of $S_{i}$-schemes of finite presentation, of the functors between these
+categories $\rho_{ji} : X_{i} \mapsto X_{i} \times_{S_{i}} S_{j}$ for $i \leqslant j$, and the transitivity isomorphisms
+$\rho_{kj} \circ \rho_{ji} \xrightarrow{\sim} \rho_{ki}$.
 
 Let us be precise. Given $j \in I$, and an $S_{j}$-scheme of finite presentation $X_{j}$, we shall set, for every $i \in
 I$ such that $i \geqslant j$, $X_{i} = X_{j} \times_{S_{j}} S_{i}$, and $X = X_{j} \times_{S_{j}} S$. Then ([EGA IV₃,
@@ -3521,11 +3627,13 @@ presentation $X_{j}$ and an $S$-isomorphism $X \xrightarrow{\sim} X_{j} \times_{
 
 <!-- original page 386 -->
 
-One concludes ([EGA IV₃, 8.8.3](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes)) that, whenever one has a diagram $\mathcal{D}$ involving a finite number of objects and
-arrows of the category of $S$-schemes of finite presentation, one can find an index $i \in I$ and a diagram
-$\mathcal{D}_{i}$ in the category of $S_{i}$-schemes of finite presentation, such that the diagram $\mathcal{D}$ comes
-up to isomorphism from the diagram $\mathcal{D}_{i}$ by base change $S \to S_{i}$. One can even find $i$ and
-$\mathcal{D}_{i}$ such that every cartesian square of $\mathcal{D}$ comes from a cartesian square of $\mathcal{D}_{i}$.
+One concludes
+([EGA IV₃, 8.8.3](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes))
+that, whenever one has a diagram $\mathcal{D}$ involving a finite number of objects and arrows of the category of
+$S$-schemes of finite presentation, one can find an index $i \in I$ and a diagram $\mathcal{D}_{i}$ in the category of
+$S_{i}$-schemes of finite presentation, such that the diagram $\mathcal{D}$ comes up to isomorphism from the diagram
+$\mathcal{D}_{i}$ by base change $S \to S_{i}$. One can even find $i$ and $\mathcal{D}_{i}$ such that every cartesian
+square of $\mathcal{D}$ comes from a cartesian square of $\mathcal{D}_{i}$.
 
 ### 10.1
 
@@ -3539,7 +3647,8 @@ Moreover, a great number of common properties for a morphism, stable under base 
 This is so in the case where $P$ is one of the following properties for a morphism: being separated, surjective,
 radicial, affine, quasi-affine, finite, quasi-finite, proper, projective, quasi-projective, an isomorphism, a
 monomorphism, an immersion, an open immersion, a closed immersion (EGA IV₃, 8.10.5), flat (EGA IV₃, 11.2.6), smooth,
-unramified or étale ([EGA IV₄, 17.7.8](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility)).[^N.D.E-VI_B-91]
+unramified or étale
+([EGA IV₄, 17.7.8](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility)).[^N.D.E-VI_B-91]
 
 Note that this is also the case where $P$ is the property of being covering for the (fppf) topology; indeed, given two
 $S$-schemes of finite presentation $X$ and $Y$, and an $S$-morphism $u : X \to Y$, it follows from IV, 6.3.1
@@ -3712,10 +3821,11 @@ separated over $A$, $i_{A}$ and $j_{A}$ are closed immersions, and $G \times_{S}
 functors considered for $S'$ are deduced by base change from the analogous functors for $\operatorname{Spec}(A)$, it
 suffices to establish the result for the latter.
 
-By [EGA IV₂, 6.9.2](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#69-the-generic-flatness-theorem), up to replacing $A$ by a localization $A_{f}$ (and hence $S'$ by the affine open $S'_{f}$), one may
-suppose that $G_{A}, Y_{A}, Z_{A}$ are essentially free over $A$ (in the sense of 6.2.1).[^N.D.E-VI_B-97] It follows
-then from 6.2.4 b) and e) that, under the hypotheses of the statement, the functors considered are representable by
-closed sub-$A$-schemes of `G_A` (hence of finite presentation over $A$, since $A$ is noetherian and `G_A` of finite
+By [EGA IV₂, 6.9.2](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#69-the-generic-flatness-theorem),
+up to replacing $A$ by a localization $A_{f}$ (and hence $S'$ by the affine open $S'_{f}$), one may suppose that
+$G_{A}, Y_{A}, Z_{A}$ are essentially free over $A$ (in the sense of 6.2.1).[^N.D.E-VI_B-97] It follows then from 6.2.4
+b) and e) that, under the hypotheses of the statement, the functors considered are representable by closed
+sub-$A$-schemes of `G_A` (hence of finite presentation over $A$, since $A$ is noetherian and `G_A` of finite
 presentation
 
 <!-- original page 403 -->
@@ -3815,8 +3925,10 @@ open $S'$ of $S$ such that for every $s \in S'$, one has $(H_{s}, H_{s}) = H_{s}
 Indeed, by the proof of 10.12, there exists a non-empty open $S'$ of $S$ and a sub-$S'$-group scheme $D$ of $G|_{S'}$,
 of finite presentation and with smooth fibers, such that $D_{s} = (H_{s}, H_{s})$ (resp. $D_{s} = (G_{s}, H_{s})$) for
 every $s \in S'$. On the other hand, since $D_{\eta} = H_{\eta}$ and since $D$ and $H$ are of finite presentation over
-$S'$, then, by [EGA IV₃, 8.8.2.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes), there exists a non-empty open $S''$ of $S'$ such that $D|_{S''} = H|_{S''}$. For every
-$s \in S''$, one has therefore $H_{s} = D_{s} = (H_{s}, H_{s})$ (resp. $H_{s} = D_{s} = (G_{s}, H_{s})$). ∎
+$S'$, then, by
+[EGA IV₃, 8.8.2.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes),
+there exists a non-empty open $S''$ of $S'$ such that $D|_{S''} = H|_{S''}$. For every $s \in S''$, one has therefore
+$H_{s} = D_{s} = (H_{s}, H_{s})$ (resp. $H_{s} = D_{s} = (G_{s}, H_{s})$). ∎
 
 ### 10.14
 
@@ -3883,10 +3995,15 @@ covering morphisms for the (fppf) topology recalled in 10.1.[^N.D.E-VI_B-103]
 
 ### 11.0. Reminders
 
-[^N.D.E-VI_B-C-104] Let $q : X \to S$ be a quasi-compact and quasi-separated morphism of schemes (cf. [EGA IV₁, 1.1](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#11-quasi-compact-morphisms) &
-1.2), and let $F$ be a quasi-coherent `O_X`-module. Recall that $q_{*}(F)$ is a quasi-coherent `O_S`-module ([EGA I,
-9.2.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#92-direct-image-of-a-quasi-coherent-sheaf)). Moreover, by [EGA III, 1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes) (completed by [EGA IV₁, 1.7.21](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results)), one has point (c) below, and the proof of loc. cit.
-also gives points (a) and (b):
+[^N.D.E-VI_B-C-104] Let $q : X \to S$ be a quasi-compact and quasi-separated morphism of schemes (cf.
+[EGA IV₁, 1.1](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#11-quasi-compact-morphisms)
+& 1.2), and let $F$ be a quasi-coherent `O_X`-module. Recall that $q_{*}(F)$ is a quasi-coherent `O_S`-module ([EGA I,
+9.2.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#92-direct-image-of-a-quasi-coherent-sheaf)).
+Moreover, by
+[EGA III, 1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes)
+(completed by
+[EGA IV₁, 1.7.21](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results)),
+one has point (c) below, and the proof of loc. cit. also gives points (a) and (b):
 
 (a) If $F$ is a filtered inductive limit of quasi-coherent submodules $F_{\alpha}$, then $q_{*}(F) = \lim_{\alpha}
 q_{*}(F_{\alpha})$.
@@ -3949,7 +4066,8 @@ We shall assume, in case (b), that it is $g$ which is flat and affine. Set then 
 Spec 𝒜(X) = S′ ──→ S
 ```
 
-In cases (a) and (b), $g$ is affine and so, by [EGA II, 1.5.2](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#15-change-of-base-prescheme), one has:
+In cases (a) and (b), $g$ is affine and so, by
+[EGA II, 1.5.2](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#15-change-of-base-prescheme), one has:
 
 ```text
 (1)        g′_*(O_{Y′}) = v* g_*(O_Y) = 𝒜(Y) ⊗_{O_S} O_{S′}.
@@ -3958,10 +4076,13 @@ In cases (a) and (b), $g$ is affine and so, by [EGA II, 1.5.2](https://jcreinhol
 One has the same equality in case (c), by 11.0 (c), since $S'$ is flat over $S$ and $g$ is quasi-compact and
 quasi-separated.
 
-On the other hand ([EGA II 1.2.7](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#12-affine-preschemes-over-a-prescheme)), $f : X \to S$ factors through $v$ by means of a morphism $p : X \to S'$, and one has
-$p_{*}(O_{X}) = O_{S'}$ and $X \times_{S} Y = X \times_{S'} Y'$. Since $f$ is quasi-separated, so is $p$ ([EGA IV₁,
-1.2.2](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#12-quasi-separated-morphisms)), and since $f$ is quasi-compact and $v$ is quasi-separated, $p$ is also quasi-compact (EGA IV₁, 1.2.4). Consider
-then the cartesian square:
+On the other hand
+([EGA II 1.2.7](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#12-affine-preschemes-over-a-prescheme)),
+$f : X \to S$ factors through $v$ by means of a morphism $p : X \to S'$, and one has $p_{*}(O_{X}) = O_{S'}$ and
+$X \times_{S} Y = X \times_{S'} Y'$. Since $f$ is quasi-separated, so is $p$ ([EGA IV₁,
+1.2.2](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#12-quasi-separated-morphisms)),
+and since $f$ is quasi-compact and $v$ is quasi-separated, $p$ is also quasi-compact (EGA IV₁, 1.2.4). Consider then the
+cartesian square:
 
 ```text
               p′
@@ -4499,8 +4620,10 @@ $E$, stable under $G$.*
 
 By hypothesis (i) and 11.6.1, $E$ is equipped with an $\mathcal{A}(G)$-comodule structure. On the other hand, since $S$
 is quasi-compact and quasi-separated, $E$ is the inductive limit of its finitely generated quasi-coherent submodules
-([EGA I, 9.4.9](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#94-extension-of-quasi-coherent-sheaves) and [EGA IV₁, 1.7.7](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results)). Consequently, the corollary follows from Proposition 11.9, applied to the coalgebra
-$\mathcal{A}(G)$. ∎
+([EGA I, 9.4.9](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#94-extension-of-quasi-coherent-sheaves)
+and
+[EGA IV₁, 1.7.7](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results)).
+Consequently, the corollary follows from Proposition 11.9, applied to the coalgebra $\mathcal{A}(G)$. ∎
 
 Moreover, one has the following proposition:
 
@@ -4673,9 +4796,10 @@ $O(X)$ with a right $O(G)$-comodule structure, i.e. $G$ acts linearly on the lef
 Consequently, $G$ also acts on the right on the affine envelope $X_{af} = \operatorname{Spec} O(X)$ of $X$, and the
 canonical morphism $X \to X_{af}$ is $G$-equivariant.
 
-Moreover, $X$ being quasi-affine, $X \to X_{af}$ is an open immersion ([EGA II, 5.1.2](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#51-quasi-affine-morphisms)), hence a fortiori $G$ acts
-faithfully on $X_{af}$. One thus obtains that the linear (left) action of $G$ on the $k$-algebra $O(X) = O(X_{af})$ is
-faithful. This proves the implication (iii) ⇒ (iv).
+Moreover, $X$ being quasi-affine, $X \to X_{af}$ is an open immersion
+([EGA II, 5.1.2](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#51-quasi-affine-morphisms)),
+hence a fortiori $G$ acts faithfully on $X_{af}$. One thus obtains that the linear (left) action of $G$ on the
+$k$-algebra $O(X) = O(X_{af})$ is faithful. This proves the implication (iii) ⇒ (iv).
 
 Suppose now that $G$ acts faithfully on a $k$-vector space $V$. Then, by virtue of 11.10, $V$ is the inductive limit of
 finite-dimensional vector subspaces $V_{i}$, stable under the action of $G$. If $K_{i}$ is the kernel of the induced
@@ -4774,7 +4898,9 @@ generated by $B$ and $B'$. Hence, by Lemma 11.12, $A$ is the inductive limit of 
 \in I}$ of finitely generated subalgebras stable under `∆` and $u$. Then each $B_{i}$, equipped with the restriction of
 $u$ and the morphism $B_{i} \to B_{i} \otimes_{k} B_{i}$ deduced from `∆`, is a Hopf algebra, hence by I 4.2 it is the
 algebra of an affine $k$-group $G_{i}$, of finite type over $k$. Finally, since $A = \lim B_{i}$, one has $G = \lim
-G_{i}$ (cf. [EGA IV₃ 8.2.3](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#82-projective-limits-of-preschemes)). The transition morphisms are faithfully flat by the following lemma:
+G_{i}$ (cf.
+[EGA IV₃ 8.2.3](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#82-projective-limits-of-preschemes)).
+The transition morphisms are faithfully flat by the following lemma:
 
 **Lemma 11.14.** *Let $k$ be a field, $u : G \to H$ a morphism between finitely generated affine $k$-groups, and
 $u^{\natural} : B \to A$[^N.D.E-VI_B-C-126] the corresponding morphism of $k$-algebras. For $u$ to be faithfully flat,
@@ -4782,12 +4908,15 @@ it is necessary and sufficient that $u^{\natural}$ be injective.*
 
 <!-- label: III.VI_B.11.14 -->
 
-The condition is obviously necessary (cf. [EGA 0_I 6.6.1](https://jcreinhold.github.io/ega/i/00-06-flatness.html#66-faithfully-flat-rings)). Let us show it is sufficient. Set $N = Ker u$. Then, by VI_A,
-3.3.2 and 5.4.1, $G/N$ is a finitely generated $k$-group and $u$ factors as $G --p--> G/N --v--> H$, where $p$ is
-faithfully flat and $v$ is a closed immersion. Hence, since $H$ is an affine scheme, $G/N$ is an affine scheme and the
-morphism $v^{\natural} : B \to O(G/N)$ is surjective (cf. [EGA I 4.2.3](https://jcreinhold.github.io/ega/i/01-04-subpreschemes-and-immersions.html#42-immersion-morphisms)). Now, since $u^{\natural}$ is assumed injective,
-and since $u^{\natural} = p^{\natural} \circ v^{\natural}$, then $v^{\natural}$ is also injective: it is therefore an
-isomorphism, as is $v$, and since $p$ is faithfully flat, so is $u$. ∎
+The condition is obviously necessary (cf.
+[EGA 0_I 6.6.1](https://jcreinhold.github.io/ega/i/00-06-flatness.html#66-faithfully-flat-rings)). Let us show it is
+sufficient. Set $N = Ker u$. Then, by VI_A, 3.3.2 and 5.4.1, $G/N$ is a finitely generated $k$-group and $u$ factors as
+$G --p--> G/N --v--> H$, where $p$ is faithfully flat and $v$ is a closed immersion. Hence, since $H$ is an affine
+scheme, $G/N$ is an affine scheme and the morphism $v^{\natural} : B \to O(G/N)$ is surjective (cf.
+[EGA I 4.2.3](https://jcreinhold.github.io/ega/i/01-04-subpreschemes-and-immersions.html#42-immersion-morphisms)). Now,
+since $u^{\natural}$ is assumed injective, and since $u^{\natural} = p^{\natural} \circ v^{\natural}$, then
+$v^{\natural}$ is also injective: it is therefore an isomorphism, as is $v$, and since $p$ is faithfully flat, so is
+$u$. ∎
 
 **Definition 11.15.** [^N.D.E-VI_B-C-127] *Let $k$ be a field, $G$ a quasi-compact $k$-group and $V$ a $k$-vector space
 equipped with a $k$-linear action of $G$, hence with an $\mathcal{A}(G)$-comodule structure $\delta : V \to V \otimes
@@ -4930,8 +5059,9 @@ with the $a_{i}$ linearly independent, one has $U = Vect(v_{1}, \cdots, v_{n})$.
 that the morphism $G \times U \to V$ factors through $U$.
 
 Conversely, the inverse image of $E$ by the morphism $\mu_{v} : g \mapsto gv$ is a closed subset of $G$ which contains
-the rational points; now these are dense in $G$, since $G$ is of finite type over $k$ (cf. [EGA IV₃, 10.4.8](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#104-jacobson-preschemes-and-jacobson-rings)), hence
-$\mu^{-1}_{v}(E) = G$ and so, since $G$ is reduced, $\mu_{v}$ factors through $E$, whence $E = U$. ∎
+the rational points; now these are dense in $G$, since $G$ is of finite type over $k$ (cf.
+[EGA IV₃, 10.4.8](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#104-jacobson-preschemes-and-jacobson-rings)),
+hence $\mu^{-1}_{v}(E) = G$ and so, since $G$ is reduced, $\mu_{v}$ factors through $E$, whence $E = U$. ∎
 
 **Theorem 11.17 (Chevalley).** *Let $k$ be a field, $G$ an affine $k$-group (not necessarily of finite type), and $N$ a
 closed group subscheme of $G$ invariant in $G$; then the (fpqc) sheaf quotient $G/N$ is representable by an affine
@@ -4991,7 +5121,9 @@ G_red × N′ ⇒ G_red,     where     N′ = N ∩ G_red.
 Since the underlying spaces are the same (and since the quotient is the quotient ringed space), the morphism $G_{red} /
 N' \to G/N$ is a homeomorphism. Since $G_{red} / N'$ is reduced (since $p : G_{red} \to G_{red}/N'$ is faithfully flat),
 it follows that $(G/N)_{red}$ is identified with $G_{red} / N'$, which is affine by (c). Since $G/N$ is of finite type
-over $k$ (cf. VI_A, 3.3.2), this implies, by [EGA I, 5.1.10](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#51-reduced-preschemes), that $G/N$ is affine.
+over $k$ (cf. VI_A, 3.3.2), this implies, by
+[EGA I, 5.1.10](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#51-reduced-preschemes),
+that $G/N$ is affine.
 
 Finally, for arbitrary $k$, let $\bar{k}$ be an algebraic closure of $k$. Then, by 9.2 (v), $(G \otimes_{k} \bar{k})/(N
 \otimes_{k} \bar{k})$ is isomorphic to $(G/N) \otimes_{k} \bar{k}$, hence since the former is affine, so is the latter,
@@ -5097,8 +5229,9 @@ Consider then the following commutative diagram:
 ```
 
 Since $q_{i} \circ \tau = \tau_{i}$ is a closed immersion and $q_{i}$ is separated ($G'$ being separated, cf. VI_A,
-0.3), then $\tau$ is a closed immersion (cf. [EGA I, 5.4.4](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#54-separated-morphisms-and-separated-preschemes)). It follows that $G/N$ is affine, and that the morphism
-$\tau^{\natural} : O(G') \to O(G/N)$ is surjective, whence (i).
+0.3), then $\tau$ is a closed immersion (cf.
+[EGA I, 5.4.4](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#54-separated-morphisms-and-separated-preschemes)).
+It follows that $G/N$ is affine, and that the morphism $\tau^{\natural} : O(G') \to O(G/N)$ is surjective, whence (i).
 
 If moreover $u^{\natural} : O(G') \to O(G)$ is injective, so is $\tau^{\natural}$, hence $\tau^{\natural}$ is an
 isomorphism, hence so is $\tau$ (since $G'$ and $G/N$ are affine). This proves (ii). ∎
@@ -5540,10 +5673,11 @@ is an isomorphism.*
 
 <!-- label: III.VI_B.13.1 -->
 
-*Proof.* Replacing $S$ by one of its connected components, we may suppose $S$ integral. By [EGA IV₂, 2.1.12](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#21-flat-modules-on-preschemes), the flatness
-locus of $\mathcal{F}$, i.e. the set of points $s \in S$ such that $\mathcal{F}_{s}$ is a flat $O_{S,s}$-module, is an
-open subset $U$ of $S$; denote by $j$ the inclusion $U \hookrightarrow S$. Since $\mathcal{A}_{s}$ is flat, hence
-torsion-free, so is $\mathcal{F}_{s}$,
+*Proof.* Replacing $S$ by one of its connected components, we may suppose $S$ integral. By
+[EGA IV₂, 2.1.12](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#21-flat-modules-on-preschemes),
+the flatness locus of $\mathcal{F}$, i.e. the set of points $s \in S$ such that $\mathcal{F}_{s}$ is a flat
+$O_{S,s}$-module, is an open subset $U$ of $S$; denote by $j$ the inclusion $U \hookrightarrow S$. Since
+$\mathcal{A}_{s}$ is flat, hence torsion-free, so is $\mathcal{F}_{s}$,
 
 <!-- original page 436 -->
 
@@ -5938,7 +6072,9 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 
 [^N.D.E-VI_B-10]: We have expanded the original in what follows.
 
-[^N.D.E-VI_B-11]: The original invoked the generic flatness theorem ([EGA IV₂, 6.9.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#69-the-generic-flatness-theorem)), which is not necessary here.
+[^N.D.E-VI_B-11]: The original invoked the generic flatness theorem
+    ([EGA IV₂, 6.9.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#69-the-generic-flatness-theorem)),
+    which is not necessary here.
 
 [^N.D.E-VI_B-12]: We have added the following sentence.
 
@@ -5949,14 +6085,18 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 [^N.D.E-VI_B-15]: The hypothesis that $G$ and $H$ are locally of finite type may be removed, since according to \[Per76,
     4.2.4\]: every quasi-compact monomorphism $u : G \to H$ between group schemes over a field $k$ is a closed
     immersion; see also [DG70, III.3.7.2 b)] for the case where $G$ and $H$ are affine (in which case every morphism $G
-    \to H$ is affine ([EGA II, 1.6.2](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#16-affine-morphisms) (v)), hence quasi-compact).
+    \to H$ is affine
+    ([EGA II, 1.6.2](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#16-affine-morphisms) (v)), hence
+    quasi-compact).
 
 [^N.D.E-VI_B-16]: In this particular case, see also (VI_A, 0.5.2), valid without finiteness hypotheses.
 
-[^N.D.E-VI_B-17]: The implication (ii) ⇒ (i) is a general fact (cf. [EGA 0_IV, 14.1.6](https://jcreinhold.github.io/ega/iv/01-ch0-14-combinatorial-dimension.html#141-combinatorial-dimension-of-a-topological-space)), and (i) ⇒ (ii) follows from the
-    fact that if $X$ is an irreducible scheme of finite type over a field, one has $\dim X = \dim U$ for every non-empty
-    open subset $U$ of $X$; the essential point here is therefore to establish assertion (i), which has already been
-    done in an addition to (VI_A, 2.4.1). We have modified the statement and proof of the lemma accordingly.
+[^N.D.E-VI_B-17]: The implication (ii) ⇒ (i) is a general fact (cf.
+    [EGA 0_IV, 14.1.6](https://jcreinhold.github.io/ega/iv/01-ch0-14-combinatorial-dimension.html#141-combinatorial-dimension-of-a-topological-space)),
+    and (i) ⇒ (ii) follows from the fact that if $X$ is an irreducible scheme of finite type over a field, one has
+    $\dim X = \dim U$ for every non-empty open subset $U$ of $X$; the essential point here is therefore to establish
+    assertion (i), which has already been done in an addition to (VI_A, 2.4.1). We have modified the statement and proof
+    of the lemma accordingly.
 
 [^N.D.E-VI_B-18]: In the statement, we have replaced "along the unit section" by "at every point of the unit section";
     on the other hand, at the end of the proof, we have made explicit the results of EGA IV₄ cited in reference.
@@ -5964,9 +6104,10 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 [^N.D.E-VI_B-19]: In case (i), the open subset $V$ is formed by all the points of $G$ at which $u$ is smooth, resp.
     étale, resp. of finite presentation and flat, cf. N.D.E. (6). On the other hand, in case (ii), $V$ is the largest
     open subset contained in the set $E$ of points of $G$ at which $u$ is universally open, but $E$ is not necessarily
-    open, as shown by the following example ([EGA IV₃, 14.1.3](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#141-open-morphisms) (i)): let $k$ be a field, $H = S = \operatorname{Spec} A$
-    with $A = k[x]$, and $G$ the $S$-group $\operatorname{Spec} A[y]/(xy)$; then $E$ equals the unit section of $G$,
-    which is not open.
+    open, as shown by the following example
+    ([EGA IV₃, 14.1.3](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#141-open-morphisms)
+    (i)): let $k$ be a field, $H = S = \operatorname{Spec} A$ with $A = k[x]$, and $G$ the $S$-group
+    $\operatorname{Spec} A[y]/(xy)$; then $E$ equals the unit section of $G$, which is not open.
 
 [^N.D.E-VI_B-20]: We have expanded the statement and the proof, and in (i) we have weakened the hypothesis on $H$ by
     replacing "of finite presentation" by "of finite type".
@@ -5974,11 +6115,16 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 [^N.D.E-VI_B-21]: We have modified the presentation, separating the assertions relative to the "quasi-finite" case from
     those relative to the "unramified" case.
 
-[^VI_B-2-9-i]: This is also a particular case of [EGA IV₄, 18.12.11](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results), since $\pi$ is evidently a universal homeomorphism.
+[^VI_B-2-9-i]: This is also a particular case of
+    [EGA IV₄, 18.12.11](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results),
+    since $\pi$ is evidently a universal homeomorphism.
 
-[^VI_B-2-9-ii]: This is also an immediate consequence of [EGA IV₄, 18.12.6](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results).
+[^VI_B-2-9-ii]: This is also an immediate consequence of
+    [EGA IV₄, 18.12.6](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results).
 
-[^VI_B-2-9-1]: Cf. [EGA IV₄, 18.12.7.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results) for a slightly more general result, provable by the same proof.
+[^VI_B-2-9-1]: Cf.
+    [EGA IV₄, 18.12.7.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results)
+    for a slightly more general result, provable by the same proof.
 
 [^N.D.E-VI_B-22]: This is a slightly abusive notation, but one which is compatible with the notations of (VI_A, 2.3)
     when this connected component is the underlying topological space of an open group subscheme $G^{0}$ of $G$, cf.
@@ -5986,17 +6132,19 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 
 [^N.D.E-VI_B-23]: We have added what follows.
 
-[^N.D.E-VI_B-24]: Recall the following definitions and results (cf. [EGA 0_III, § 9.1](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#91-constructible-sets) and [EGA IV₁, §§ 1.8](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets) and 1.9). Let
-    $X$ be a topological space. (i) An open $U$ of $X$ is called *retrocompact* if the inclusion $U \hookrightarrow X$
-    is quasi-compact, i.e. if $U \cap V$ is quasi-compact for every quasi-compact open $V \subset X$. (ii) A part $C$ of
-    $X$ is called *constructible* if it is a finite union of parts of the form $U - V$, where $U$ and $V$ are
-    retrocompact opens in $X$. (iii) A part $L$ of $X$ is called *locally constructible* if for every $x \in X$ there
-    exists an open neighborhood $U$ of $x$ in $X$ such that $L \cap U$ is constructible in $U$. (N.B. If $X$ is
-    quasi-compact and quasi-separated, $L$ is then constructible.) (iv) A part $I$ of $X$ is called *ind-constructible*
-    if for every $x \in X$, there exists an open neighborhood $U$ of $x$ in $X$ such that $I \cap U$ is a union of parts
-    locally constructible in $U$. Let now $f : X \to Y$ be a morphism of schemes. By Chevalley's constructibility
-    theorem (cf. EGA IV₁, 1.8.4 and 1.9.5 (viii)), if $f$ is of finite presentation (resp. locally of finite
-    presentation), then the image under $f$ of any locally constructible part is locally constructible (resp.
+[^N.D.E-VI_B-24]: Recall the following definitions and results (cf.
+    [EGA 0_III, § 9.1](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#91-constructible-sets) and
+    [EGA IV₁, §§ 1.8](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets)
+    and 1.9). Let $X$ be a topological space. (i) An open $U$ of $X$ is called *retrocompact* if the inclusion
+    $U \hookrightarrow X$ is quasi-compact, i.e. if $U \cap V$ is quasi-compact for every quasi-compact open
+    $V \subset X$. (ii) A part $C$ of $X$ is called *constructible* if it is a finite union of parts of the form
+    $U - V$, where $U$ and $V$ are retrocompact opens in $X$. (iii) A part $L$ of $X$ is called *locally constructible*
+    if for every $x \in X$ there exists an open neighborhood $U$ of $x$ in $X$ such that $L \cap U$ is constructible in
+    $U$. (N.B. If $X$ is quasi-compact and quasi-separated, $L$ is then constructible.) (iv) A part $I$ of $X$ is called
+    *ind-constructible* if for every $x \in X$, there exists an open neighborhood $U$ of $x$ in $X$ such that $I \cap U$
+    is a union of parts locally constructible in $U$. Let now $f : X \to Y$ be a morphism of schemes. By Chevalley's
+    constructibility theorem (cf. EGA IV₁, 1.8.4 and 1.9.5 (viii)), if $f$ is of finite presentation (resp. locally of
+    finite presentation), then the image under $f$ of any locally constructible part is locally constructible (resp.
     ind-constructible).
 
 [^N.D.E-VI_B-25]: We have expanded the original in what follows.
@@ -6042,8 +6190,10 @@ schemes*, Adv. Math. **65** (1987), 16–34.
     X \times_{S} X$ are covering for the (fppf) topology), locally of finite type over $S$, then $X$ is locally
     quasi-projective over $S$. In particular, $G$ is quasi-projective over $S$. See also N.D.E. (35) in VI_A.
 
-[^N.D.E-VI_B-38]: We have added this lemma, communicated by O. Gabber, which improves [EGA IV₃, 14.4.1.2](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#144-chevalleys-criterion-for-universally-open-morphisms) and corrects the
-    proof of loc. cit., 14.4.1.3 without modifying its hypotheses (compare with the erratum (Err_IV, 38) in EGA IV₄).
+[^N.D.E-VI_B-38]: We have added this lemma, communicated by O. Gabber, which improves
+    [EGA IV₃, 14.4.1.2](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#144-chevalleys-criterion-for-universally-open-morphisms)
+    and corrects the proof of loc. cit., 14.4.1.3 without modifying its hypotheses (compare with the erratum (Err_IV,
+    38) in EGA IV₄).
 
 [^N.D.E-VI_B-39]: We have made this lemma explicit, used in the proof of Lemma 5.6.1.
 
@@ -6144,7 +6294,8 @@ schemes*, Adv. Math. **65** (1987), 16–34.
 [^N.D.E-VI_B-67]: We have added this subsection.
 
 [^N.D.E-VI_B-68]: We have replaced, here and in the sequel, the little-used terminology "separable" by the usual
-    terminology "geometrically reduced", cf. [EGA IV₂, 4.6.2](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#46-geometrically-reduced-algebraic-preschemes).
+    terminology "geometrically reduced", cf.
+    [EGA IV₂, 4.6.2](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#46-geometrically-reduced-algebraic-preschemes).
 
 [^N.D.E-VI_B-69]: The original stated (iii′) under the additional hypothesis that $G$ be locally of finite type over
     $k$, but this can be omitted, by VI_A, 0.5.2.
@@ -6298,7 +6449,8 @@ schemes*, Adv. Math. **65** (1987), 16–34.
     the right on $X$ in order to obtain a left linear action of $G$ on $O(X)$.
 
 [^N.D.E-VI_B-C-122]: Recall that a $k$-scheme $X$ is said to be quasi-affine if it is isomorphic to a quasi-compact open
-    of an affine $k$-scheme ([EGA II, 5.1.1](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#51-quasi-affine-morphisms)).
+    of an affine $k$-scheme
+    ([EGA II, 5.1.1](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#51-quasi-affine-morphisms)).
 
 [^N.D.E-VI_B-C-123]: The equivalence of these conditions is proved in the additional section 12.
 

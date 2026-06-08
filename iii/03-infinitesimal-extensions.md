@@ -168,8 +168,9 @@ Hom_{X⁺}(Y, L_X) = Hom_{O_{Y₀}}(g₀*(Ω¹_{X₀/S₀}), J · O_Y),
 ```
 
 *where $\Omega^{1}_{X_{0}/S_{0}}$ denotes the module of relative differentials of $X_{0}$ with respect to $S_{0}$ (cf.
-SGA 1, I.1 or [EGA IV₄, 16.3](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#163-fundamental-differential-invariants-of-a-morphism-of-preschemes)), and where $J \cdot O_{Y}$ is regarded as an $O_{Y_{0}}$-module thanks to the fact that it
-is annihilated by $I$.*
+SGA 1, I.1 or
+[EGA IV₄, 16.3](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#163-fundamental-differential-invariants-of-a-morphism-of-preschemes)),
+and where $J \cdot O_{Y}$ is regarded as an $O_{Y_{0}}$-module thanks to the fact that it is annihilated by $I$.*
 
 Then `L_X` is an $X^{+}$-functor in abelian groups.[^N.D.E-III-9] Indeed, for every $X^{+}$-morphism $f : Z \to Y$, the
 functor $f_{0}*$ and the morphism $f_{0}*(J \cdot O_{Y}) \to J \cdot O_{Z}$ of (0.1.4) induce a natural morphism of
@@ -222,15 +223,17 @@ p_X│         │p_W
 
 **Reminders 0.1.7.**[^N.D.E-III-11] *In this paragraph, given an $S$-scheme $X$, we "recall" certain functorial
 properties of the module of differentials $\Omega^{1}_{X/S}$ and of the first infinitesimal neighborhood of the diagonal
-$\Delta^{(1)}_{X/S}$, properties which follow easily from ([EGA IV₄, §§ 16.1–16.4](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#161-normal-invariants-of-an-immersion)), but which do not figure there
-explicitly.*
+$\Delta^{(1)}_{X/S}$, properties which follow easily from
+([EGA IV₄, §§ 16.1–16.4](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#161-normal-invariants-of-an-immersion)),
+but which do not figure there explicitly.*
 
 <!-- label: III.III.0.1.7 -->
 
-**a)** Let us begin by recalling the following facts (cf. [EGA II, §§ 1.2–1.5](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#12-affine-preschemes-over-a-prescheme)). Let $g : Y \to X$ be a morphism of
-schemes, $\pi : X' \to X$ an affine $X$-scheme, $B$ the quasi-coherent `O_X`-algebra $\pi_{*}(O_{X'})$; then the
-$Y$-scheme $Y \times_{X} X'$ is affine and corresponds to the quasi-coherent `O_Y`-algebra $g*(B)$, and one has a
-commutative diagram of bijections:
+**a)** Let us begin by recalling the following facts (cf.
+[EGA II, §§ 1.2–1.5](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#12-affine-preschemes-over-a-prescheme)).
+Let $g : Y \to X$ be a morphism of schemes, $\pi : X' \to X$ an affine $X$-scheme, $B$ the quasi-coherent `O_X`-algebra
+$\pi_{*}(O_{X'})$; then the $Y$-scheme $Y \times_{X} X'$ is affine and corresponds to the quasi-coherent `O_Y`-algebra
+$g*(B)$, and one has a commutative diagram of bijections:
 
 ```text
 Hom_X(Y, X′)            ──∼──►    Hom_Y(Y, Y ×_X X′)
@@ -310,7 +313,9 @@ that is, equivalently, a morphism of `O_X`-modules
 
 $$ f_{X/W/S} : f*(\Omega^{1}_{W/S}) \to \Omega^{1}_{X/S}, $$
 
-cf. ([EGA IV₄, 16.4.3.6](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)) (and (16.4.18.2) for the notation $f_{X/W/S}$).
+cf.
+([EGA IV₄, 16.4.3.6](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants))
+(and (16.4.18.2) for the notation $f_{X/W/S}$).
 
 <!-- original page 90 -->
 
@@ -501,7 +506,8 @@ L_X × X ──∼──► X × X
 *(defined set-theoretically by $(m, x) \mapsto (x, m \cdot x)$).*
 
 *Proof.* Let $i_{0}$ be the immersion $X_{0} \hookrightarrow X$. Note first that, since $X_{0} = X \times_{S} S_{0}$,
-one has $i_{0}*(\Omega^{1}_{X/S}) \simeq \Omega^{1}_{X_{0}/S_{0}}$ (cf. [EGA IV, 16.4.5](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)).
+one has $i_{0}*(\Omega^{1}_{X/S}) \simeq \Omega^{1}_{X_{0}/S_{0}}$ (cf.
+[EGA IV, 16.4.5](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)).
 
 Let $Y$ be an $X^{+}$-scheme, given by an $S$-morphism $g_{J} : Y_{J} \to X$, and let $g_{0} : Y_{0} \to X_{0}$ be the
 morphism obtained by base change. By 0.1.8, if $\operatorname{Hom}_{X^{+}}(Y, X)$ is non-empty, it is a principal
@@ -660,7 +666,9 @@ this proves that $X^{+} \times_{S} X'^{+} \simeq (X \times_{S} X')^{+}$.
 Next, let $Y$ be a scheme above $X^{+} \times_{S} X'^{+}$ via a morphism $h : Y_{J} \to X \times_{S} X'$; set $f = p
 \circ h$ and $g = q \circ h$, where we have denoted by `p, q` the projections of $X \times_{S} X'$ to $X$ and $X'$.
 Since $\Omega^{1}_{(X_{0} \times_{S_{0}} X'_{0})/S_{0}} \cong p_{0}*(\Omega^{1}_{X_{0}/S_{0}}) \oplus
-q_{0}*(\Omega^{1}_{X'_{0}/S_{0}})$ (cf. [EGA IV₄, 16.4.23](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)), one obtains a natural isomorphism:
+q_{0}*(\Omega^{1}_{X'_{0}/S_{0}})$ (cf.
+[EGA IV₄, 16.4.23](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)),
+one obtains a natural isomorphism:
 
 ```text
 Hom_{O_{Y₀}}(f₀*(Ω¹_{X₀/S₀}), J · O_Y) × Hom_{O_{Y₀}}(g₀*(Ω¹_{X′₀/S₀}), J · O_Y)
@@ -839,9 +847,12 @@ First, one has (independently of the preceding hypothesis):
 Hom_{S₀}(T, L⁰_X) = Γ(T, Hom_{O_T}(ω¹_{X₀/S₀} ⊗_{O_{S₀}} O_T, J ⊗_{O_{S₀}} O_T)).
 ```
 
-Now suppose that $\omega^{1}_{X_{0}/S_{0}}$ admits a finite presentation (cf. [EGA 0_I, 5.2.5](https://jcreinhold.github.io/ega/i/00-05-quasi-coherent-and-coherent-sheaves.html#52-sheaves-of-finite-type)), which will in particular
-be the case if $X_{0}$ is locally of finite presentation over $S_{0}$ (cf. [EGA IV₄, 16.4.22](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)). Then, if $T$ is flat over
-$S_{0}$, it follows from ([EGA 0_I, 6.7.6](https://jcreinhold.github.io/ega/i/00-06-flatness.html#67-flat-morphisms-of-ringed-spaces)) that
+Now suppose that $\omega^{1}_{X_{0}/S_{0}}$ admits a finite presentation (cf.
+[EGA 0_I, 5.2.5](https://jcreinhold.github.io/ega/i/00-05-quasi-coherent-and-coherent-sheaves.html#52-sheaves-of-finite-type)),
+which will in particular be the case if $X_{0}$ is locally of finite presentation over $S_{0}$ (cf.
+[EGA IV₄, 16.4.22](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)).
+Then, if $T$ is flat over $S_{0}$, it follows from
+([EGA 0_I, 6.7.6](https://jcreinhold.github.io/ega/i/00-06-flatness.html#67-flat-morphisms-of-ringed-spaces)) that
 
 ```text
 Hom_{O_T}(ω¹_{X₀/S₀} ⊗_{O_{S₀}} O_T, J ⊗_{O_{S₀}} O_T) ≃ Hom_{O_{S₀}}(ω¹_{X₀/S₀}, J) ⊗_{O_{S₀}} O_T ,
@@ -1231,9 +1242,13 @@ f_*(F) ⊗_{O_S} O_{S′} = f′_*(F ⊗_{O_S} O_{S′}),
 
 $$ g*(f_{*}(F)) = f'_{*}(g'*(F)). $$
 
-These two facts hold more generally for a quasi-compact and quasi-separated morphism $f$, cf. ([EGA I, 9.2.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#92-direct-image-of-a-quasi-coherent-sheaf)) and ([EGA
-III₁, 1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes)) in the quasi-compact separated case (taking into account EGA III₂, Err_III 25) and ([EGA IV₁, 1.7.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results) and
-1.7.21).
+These two facts hold more generally for a quasi-compact and quasi-separated morphism $f$, cf.
+([EGA I, 9.2.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#92-direct-image-of-a-quasi-coherent-sheaf))
+and ([EGA III₁,
+1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes))
+in the quasi-compact separated case (taking into account EGA III₂, Err_III 25) and
+([EGA IV₁, 1.7.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results)
+and 1.7.21).
 
 **Remark 0.14.**[^N.D.E-III-30] *Resume the notations of 0.11: let $E$ be an $S$-scheme, $X = \operatorname{Aut}_{S}(E)$
 and $L'_{X}$ the $S$-functor in commutative groups defined by:*
@@ -2168,7 +2183,8 @@ H*(G, F ⊗_{O_S} L) ≃ H*(G, F) ⊗_Λ L.
 ```
 
 By (I, 5.3), $H*(G, F)$ (resp. $H*(G, F \otimes_{O_{S}} L)$) is the cohomology of the complex $\Gamma(S, C)$ (resp.
-$\Gamma(S, C \otimes_{O_{S}} L)$). Now, since $S$ is affine, one has (cf. [EGA I, 1.3.12](https://jcreinhold.github.io/ega/i/01-01-affine-schemes.html#13-sheaf-associated-to-a-module))
+$\Gamma(S, C \otimes_{O_{S}} L)$). Now, since $S$ is affine, one has (cf.
+[EGA I, 1.3.12](https://jcreinhold.github.io/ega/i/01-01-affine-schemes.html#13-sheaf-associated-to-a-module))
 
 ```text
 Γ(S, C ⊗_{O_S} L) ≃ Γ(S, C) ⊗_Λ L.
@@ -3037,7 +3053,9 @@ I_Y ⊗_{O_X} O_{X′} ⟶ I_{Y′}
 
 <!-- original page 137 -->
 
-is bijective (cf. [EGA IV₂, 2.1.8](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#21-flat-modules-on-preschemes)). One then has the following commutative diagram with exact rows:
+is bijective (cf.
+[EGA IV₂, 2.1.8](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#21-flat-modules-on-preschemes)).
+One then has the following commutative diagram with exact rows:
 
 ```text
 I_Y² ⊗_{O_X} O_{X′} ──► I_Y ⊗_{O_X} O_{X′} ──► (I_Y/I_Y²) ⊗_{O_Y} O_{Y′} ──► 0
@@ -3541,13 +3559,18 @@ presentation over $S$. Then $Y$ is locally complete intersection (cf. 4.6.2) in 
 
 <!-- original page 146 -->
 
-*Proof.*[^N.D.E-III-105] We shall show that the immersion $Y \to X$ is regular in the sense of [EGA IV₄, 16.9.2](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#169-regular-and-quasi-regular-immersions), which
-implies that it is also regular in the sense of 4.6.2, by [EGA IV₄, 19.5.1](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#195-m-regularity-criteria) (moreover, by loc. cit., the two definitions
-are equivalent if $S$ is locally noetherian). Therefore, in what follows, we take "regular immersion" in the sense of
-EGA IV₄, 16.9.2. Since $X$ and $Y$ are flat and locally of finite presentation over $S$, then, by [EGA IV₄, 19.2.4](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#192-transversally-regular-immersions), it
-suffices to show that, for every $s \in S$, $Y_{s} \to X_{s}$ is a regular immersion. By [EGA IV₄, 19.1.5](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#191-properties-of-regular-immersions) (ii), one is
-reduced to verifying the assertion on the geometric fibers of $S$, that is, when $S$ is the spectrum of an algebraically
-closed field $k$.
+*Proof.*[^N.D.E-III-105] We shall show that the immersion $Y \to X$ is regular in the sense of
+[EGA IV₄, 16.9.2](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#169-regular-and-quasi-regular-immersions),
+which implies that it is also regular in the sense of 4.6.2, by
+[EGA IV₄, 19.5.1](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#195-m-regularity-criteria)
+(moreover, by loc. cit., the two definitions are equivalent if $S$ is locally noetherian). Therefore, in what follows,
+we take "regular immersion" in the sense of EGA IV₄, 16.9.2. Since $X$ and $Y$ are flat and locally of finite
+presentation over $S$, then, by
+[EGA IV₄, 19.2.4](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#192-transversally-regular-immersions),
+it suffices to show that, for every $s \in S$, $Y_{s} \to X_{s}$ is a regular immersion. By
+[EGA IV₄, 19.1.5](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#191-properties-of-regular-immersions)
+(ii), one is reduced to verifying the assertion on the geometric fibers of $S$, that is, when $S$ is the spectrum of an
+algebraically closed field $k$.
 
 Then, by VI_A, 3.2, the quotient $X/Y$ exists and is smooth, the morphism $\pi : X \to X/Y$ is flat, and one has a
 cartesian square
@@ -3988,7 +4011,9 @@ Now one has:
 free of finite type, so is $n_{Y_{0}/X_{0}}$ and the sequence is locally split.*
 
 *Proof.*[^N.D.E-III-122] Denote by $\pi_{0}$ the morphism $Y_{0} \to S_{0}$. By SGA 1 II, formula (4.3) (see also [EGA
-IV₄, 16.4.21](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)), one has a canonical exact sequence of $O_{Y_{0}}$-modules
+IV₄,
+16.4.21](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#164-functorial-properties-of-differential-invariants)),
+one has a canonical exact sequence of $O_{Y_{0}}$-modules
 
 ```text
 (†)    N_{Y₀/X₀} ──D̄₀──► Ω¹_{X₀/S₀} ⊗_{O_{X₀}} O_{Y₀} ──► Ω¹_{Y₀/S₀} ──► 0.
@@ -4000,10 +4025,11 @@ $\pi_{0}*$ (cf. Exp. I, § 6.8). This proves (i).
 
 <!-- original page 154 -->
 
-Suppose moreover $X_{0}$ and $Y_{0}$ smooth over $S_{0}$. Then, by SGA 1 II 4.10 (see also [EGA IV₄, 17.2.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#172-general-differential-properties) (i) and
-17.2.5), $D$ is injective and the sequence `(†)` is formed of $O_{Y_{0}}$-modules locally free of finite type (hence is
-locally split). By the equivalence of categories I, 6.8.1, $d$ is also injective, and therefore the sequence `(+)` has
-the indicated properties.
+Suppose moreover $X_{0}$ and $Y_{0}$ smooth over $S_{0}$. Then, by SGA 1 II 4.10 (see also
+[EGA IV₄, 17.2.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#172-general-differential-properties)
+(i) and 17.2.5), $D$ is injective and the sequence `(†)` is formed of $O_{Y_{0}}$-modules locally free of finite type
+(hence is locally split). By the equivalence of categories I, 6.8.1, $d$ is also injective, and therefore the sequence
+`(+)` has the indicated properties.
 
 **4.26.**[^N.D.E-III-123] For every $S_{0}$-scheme $f : T \to S_{0}$, `(+)` gives an exact sequence of
 $Y_{0}(T)$-$O(T)$-modules
@@ -4564,8 +4590,9 @@ Then, by 4.35.1, one has:
     every $y$ one has $r_{y}(E) = {y}$, hence $E$ is not a group if $|E| > 1$.
 
 [^N.D.E-III-67]: N.D.E.: Since $X$ and $X_{0}$ have the same underlying topological space and $t_{0}$ is an
-    automorphism, $t$ is a homeomorphism, hence an affine morphism, cf. Exp. VI_B, 2.9.1 or [EGA IV₄, 18.12.7.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results). It thus
-    suffices to see that if $J$ is a nilpotent ideal of a ring $\Lambda$, and $\phi : A \to B$ a morphism of
+    automorphism, $t$ is a homeomorphism, hence an affine morphism, cf. Exp. VI_B, 2.9.1 or
+    [EGA IV₄, 18.12.7.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results).
+    It thus suffices to see that if $J$ is a nilpotent ideal of a ring $\Lambda$, and $\phi : A \to B$ a morphism of
     $\Lambda$-algebras, with $B$ flat over $\Lambda$, such that $\phi \otimes_{\Lambda} (\Lambda/J)$ is bijective, then
     $\phi$ is bijective. By the "nilpotent Nakayama lemma", $\phi$ is surjective; moreover, $B$ being flat over
     $\Lambda$, one also has $Ker(\phi) \otimes_{\Lambda} (\Lambda/J) = 0$, whence $Ker(\phi) = 0$, hence $\phi$ is

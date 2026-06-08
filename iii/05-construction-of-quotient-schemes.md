@@ -736,8 +736,10 @@ choose $B$ finite and free over $A$ if $K$ is of finite degree over $k$.*
 
 <!-- label: III.V.4.1.2 -->
 
-This is proved in [EGA 0_III, 10.3.1](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#103-existence-of-flat-extensions-of-local-rings), where it is moreover shown that one can choose $B$ Noetherian if $A$ is. For the
-reader's convenience, let us indicate the proof.
+This is proved in
+[EGA 0_III, 10.3.1](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#103-existence-of-flat-extensions-of-local-rings),
+where it is moreover shown that one can choose $B$ Noetherian if $A$ is. For the reader's convenience, let us indicate
+the proof.
 
 Put $A' = A[T]$, where $T$ is an indeterminate. If $K = k(T)$, let $p = m A'$ and $B = A'_{p}$. Then $B/mB \cong
 k[T]_{(0)} = k(T)$, and $B$ is flat over $A'$, which is a free $A$-module, so $B$ is flat over $A$.
@@ -977,9 +979,10 @@ Noetherian and $\pi_{0} : X_{0} \to S$ is quasi-projective. Let us then show tha
 <!-- label: III.V.5.1 -->
 
 The above hypotheses imply that $Y \to S$ is of finite type, see the proof of 6.1 (ii). Let $A$ be an invertible
-$O_{X_{0}}$-module that is ample for $\pi_{0}$. By [EGA II, 6.1.12](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#61-preschemes-integral-over-another), $p_{\ast}(A)$ is an invertible
-$p_{\ast}(O_{X_{0}})$-module. There therefore exists a covering $(V_{i})_{i \in I}$ of $Y$ by affine opens such that $A$
-is trivial above each of the saturated affine opens $U_{i} = p^{-1}(V_{i})$.
+$O_{X_{0}}$-module that is ample for $\pi_{0}$. By
+[EGA II, 6.1.12](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#61-preschemes-integral-over-another),
+$p_{\ast}(A)$ is an invertible $p_{\ast}(O_{X_{0}})$-module. There therefore exists a covering $(V_{i})_{i \in I}$ of
+$Y$ by affine opens such that $A$ is trivial above each of the saturated affine opens $U_{i} = p^{-1}(V_{i})$.
 
 For each index $i$, write $A_{i,0} = O_{X_{0}}(U_{i})$, $A_{i,1}$ the ring of the affine open $d^{-1}_{0}(U_{i}) =
 d^{-1}_{1}(U_{i})$ of $X_{1}$, $\delta_{i,0}$ (resp. $\delta_{i,1}$) the morphism $A_{i,0} \to A_{i,1}$ induced by
@@ -1152,12 +1155,15 @@ inverse image of $Y'$ in $U$. Since $R$ is Noetherian, it suffices to show that 
 but, by paragraphs 4 and 5, $B$ is contained in $A$, which is a finitely generated $R$-algebra; the assertion therefore
 follows from the fact that $R$ is Noetherian and $A$ is integral over $B$.
 
-Finally, since $X_{0} \to S$ is locally of finite type, so is $p$ ([EGA I, 6.6.6](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)), hence $p$ is locally of finite
-presentation since $Y$ is locally Noetherian.
+Finally, since $X_{0} \to S$ is locally of finite type, so is $p$
+([EGA I, 6.6.6](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)), hence
+$p$ is locally of finite presentation since $Y$ is locally Noetherian.
 
 It remains to show the last assertion of (ii). Suppose in addition $X_{0}$ of finite type over $S$. Then, since $p$ is
 surjective, $Y$ is also quasi-compact over $S$, hence of finite type over $S$. Since $S$ is locally Noetherian, then
-$X_{0} \to S$ and $Y \to S$ are of finite presentation, and so $p : X_{0} \to Y$ is also ([EGA IV_1, 1.6.2](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#16-morphisms-of-finite-presentation) (v)).
+$X_{0} \to S$ and $Y \to S$ are of finite presentation, and so $p : X_{0} \to Y$ is also
+([EGA IV_1, 1.6.2](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#16-morphisms-of-finite-presentation)
+(v)).
 
 **b)** Proof of (iii):
 
@@ -1410,14 +1416,18 @@ $X_{1} \to X_{0} \times_{S} X_{0}$ has finite fibers, such a point $u$ comes fro
 whence the desired assertion.
 
 The morphism $\tilde{d}_{1}$ is therefore quasi-finite and flat at the points of $F_{1}$ above $z$. Since
-$\tilde{d}_{1}$ is of finite type, it follows from SGA 1, IV 6.10 and [EGA III, 4.4.10](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem),[^N.D.E-V-40] that the set $\Phi$
-of points of $F_{1}$ where $\tilde{d}_{1}$ is not simultaneously flat and quasi-finite is closed in $F_{1}$, hence in
-$X_{1}$ (since $F_{1}$ is closed in $X_{1}$). Since $d_{1}$ is proper, $\tilde{d}_{1}(\Phi)$ is closed, and does not
-contain $z$ by what precedes. Put $W = \tilde{d}_{1}(F_{1}) - \tilde{d}_{1}(\Phi)$. Then the restriction of
-$\tilde{d}_{1}$ to $\tilde{d}^{-1}_{1}(W)$ is[^N.D.E-V-41] of finite presentation (in view of the Noetherian
-hypotheses), flat, proper and quasi-finite, hence finite, locally free, and open, by [EGA III, 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem), and [EGA IV_2,
-2.1.12](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#21-flat-modules-on-preschemes) and 2.4.6. Consequently, $\tilde{d}_{1}(F_{1})$ is a neighborhood of $z$, and $W$ is the largest open of $X_{0}$
-contained in $\tilde{d}_{1}(F_{1})$ above which $\tilde{d}_{1}$ is simultaneously flat and quasi-finite.
+$\tilde{d}_{1}$ is of finite type, it follows from SGA 1, IV 6.10 and
+[EGA III, 4.4.10](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem),[^N.D.E-V-40]
+that the set $\Phi$ of points of $F_{1}$ where $\tilde{d}_{1}$ is not simultaneously flat and quasi-finite is closed in
+$F_{1}$, hence in $X_{1}$ (since $F_{1}$ is closed in $X_{1}$). Since $d_{1}$ is proper, $\tilde{d}_{1}(\Phi)$ is
+closed, and does not contain $z$ by what precedes. Put $W = \tilde{d}_{1}(F_{1}) - \tilde{d}_{1}(\Phi)$. Then the
+restriction of $\tilde{d}_{1}$ to $\tilde{d}^{-1}_{1}(W)$ is[^N.D.E-V-41] of finite presentation (in view of the
+Noetherian hypotheses), flat, proper and quasi-finite, hence finite, locally free, and open, by
+[EGA III, 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem),
+and [EGA IV_2,
+2.1.12](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#21-flat-modules-on-preschemes) and
+2.4.6. Consequently, $\tilde{d}_{1}(F_{1})$ is a neighborhood of $z$, and $W$ is the largest open of $X_{0}$ contained
+in $\tilde{d}_{1}(F_{1})$ above which $\tilde{d}_{1}$ is simultaneously flat and quasi-finite.
 
 We shall see in lemma 7.4 that the inverse images of $\Phi$ by $\tilde{d}'_{1}$ and $\tilde{d}'_{0}$ both identify with
 the set of points of $F_{2}$ where $\tilde{d}'_{2}$ is not simultaneously flat and quasi-finite. It follows that
@@ -1818,7 +1828,8 @@ The morphism $u$ is an isomorphism, since $f''$ is a monomorphism, and $p'_{1}$ 
 is flat.
 
 **b)** The assertions of 10.1.1 are local on $Y$ (hence local on $S$); they are also local on $X$, as follows easily
-from the fact that a flat morphism locally of finite presentation is open ([EGA IV_3, 11.3.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses)).
+from the fact that a flat morphism locally of finite presentation is open
+([EGA IV_3, 11.3.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses)).
 
 **c)** Under the hypotheses of 10.1.1 α), in view of what precedes, we are reduced to the case where $X$ and $Y$ are
 affine and $f$ of finite presentation. Possibly replacing $S$ by $Y$, one may suppose $X$ and $Y$ of finite presentation
@@ -1878,9 +1889,10 @@ monomorphism.*
 
 is an isomorphism. Since $H$ is flat over $S$, $G \times_{S} H$ is flat over $G$, so the first projection $p_{1} : G
 \times_{S} G \to G$ is a flat morphism. Moreover, if $X$ is locally of finite type over $S$, $f$ is locally of finite
-presentation ([EGA IV_1, 1.4.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation) (v)), and otherwise $S$ is assumed locally Noetherian. It then suffices to apply 10.1.1 to
-the morphism $f$. It remains to see that $G/H$ is locally of finite presentation over $S$, but this follows immediately
-from 9.1.
+presentation
+([EGA IV_1, 1.4.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation)
+(v)), and otherwise $S$ is assumed locally Noetherian. It then suffices to apply 10.1.1 to the morphism $f$. It remains
+to see that $G/H$ is locally of finite presentation over $S$, but this follows immediately from 9.1.
 
 **Corollary 10.1.3.** *Let $S$ be a scheme, $u : G \to H$ a morphism of $S$-group schemes. Suppose $G$ locally of finite
 presentation over $S$ and that either $H$ is locally of finite type over $S$, or $S$ is locally Noetherian.*
@@ -1934,8 +1946,9 @@ $X$-scheme defined by the Cartesian product*
 ```
 
 *Then $F$ is an $X$-subgroup scheme of $G \times_{S} X$. Since $G \times_{S} X$ is of finite type over $S$ Noetherian,
-hence Noetherian, $F$ is of finite type over $S$ and over $X$ ([EGA I, 6.3.5](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#63-morphisms-of-finite-type) and 6.3.6). Moreover, if $X \to S$ is
-separated, $F$ is a closed $X$-subgroup scheme of $G \times_{S} X$.*
+hence Noetherian, $F$ is of finite type over $S$ and over $X$
+([EGA I, 6.3.5](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#63-morphisms-of-finite-type) and
+6.3.6). Moreover, if $X \to S$ is separated, $F$ is a closed $X$-subgroup scheme of $G \times_{S} X$.*
 
 Recall that one says that $G$ *acts freely* on $X$ if the morphism
 
@@ -2076,8 +2089,11 @@ represents $G_{X}/F$.
 *Proof of b):* Suppose $F$ flat over $X$. Then, by a) and its proof, $G_{X}/F$ is representable, and the morphism $p :
 G_{X} \to G_{X}/F$ is faithfully flat and of finite presentation. On the other hand, the morphisms $d_{i} : G_{X} \to X$
 ($i = 0, 1$) are faithfully flat and of finite presentation by hypothesis. Since $d_{i} = \bar{d}_{i} \circ p$, it
-follows from [EGA IV_2, 2.2.13](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#22-faithfully-flat-modules-on-preschemes) (iii) and [EGA IV_3, 11.3.16](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses), that $\bar{d}_{i}$ is faithfully flat and of finite
-presentation.
+follows from
+[EGA IV_2, 2.2.13](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#22-faithfully-flat-modules-on-preschemes)
+(iii) and
+[EGA IV_3, 11.3.16](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses),
+that $\bar{d}_{i}$ is faithfully flat and of finite presentation.
 
 **Theorem 10.4.2.**[^N.D.E-V-52] *Under the hypotheses of 10.2, suppose $F$ flat over $X$. Then there exists a dense
 saturated open $U$ of $X$ such that the (fppf) quotient $V = G\backslash U$ is an $S$-scheme of finite type and $U \to
@@ -2107,7 +2123,9 @@ is a monomorphism, that is, $(\bar{d}_{0}, \bar{d}_{1})$ is an equivalence pair.
 There therefore exists an open $U$ of $X$, dense and saturated, such that the (fppf) quotient $V = G\backslash U$ is an
 $S$-scheme of finite type, and $U \to V$ is faithfully flat and of finite presentation.
 
-Taking into account the generic flatness theorem ([EGA IV_2, 6.9.3](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#69-the-generic-flatness-theorem)), one obtains the
+Taking into account the generic flatness theorem
+([EGA IV_2, 6.9.3](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#69-the-generic-flatness-theorem)),
+one obtains the
 
 **Corollary 10.4.3.** *Under the hypotheses of 10.2, suppose $X$ reduced. Then there exists a dense saturated open $U$
 of $X$ such that the (fppf) quotient $G\backslash U$ is an $S$-scheme of finite type and $U \to G\backslash U$ is
@@ -2266,9 +2284,10 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
 [^N.D.E-V-18]: N.D.E.: We have added that $p$ is open, by taking up the analogous proof given in 6.1.
 
 [^N.D.E-V-19]: N.D.E.: Note that, in this case, $X_{1} \to X_{0} \times_{S} X_{0}$ is therefore an immersion ([EGA I,
-    5.3.10](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism)); see also VI_B, 9.2.1. On the other hand, for the existence of the quotient (in the category of schemes or
-    that of algebraic spaces) under the weaker hypothesis that $d_{0}$ and $d_{1}$ are finite (but not necessarily
-    flat), see [An73], § 1.1, [Fe03], [Ko08]…
+    5.3.10](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism));
+    see also VI_B, 9.2.1. On the other hand, for the existence of the quotient (in the category of schemes or that of
+    algebraic spaces) under the weaker hypothesis that $d_{0}$ and $d_{1}$ are finite (but not necessarily flat), see
+    [An73], § 1.1, [Fe03], [Ko08]…
 
 [^N.D.E-V-20]: N.D.E.: We have made explicit the consequences which follow; see [Ray67a], th. 1 (iii) and the proof
     given further on, at the end of section 5.
@@ -2283,8 +2302,9 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
     265-266-268-269-267-270-271.
 
 [^N.D.E-V-24]: N.D.E.: We have added the following lemma, taken from [DG70], I, § 5, Prop. 1.5 (see also the proof of
-    [EGA IV_3, 8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)), used implicitly in the original, and explicitly in [DG70], III, § 2, 4.6. It is moreover useful
-    in th. 7.1 further on.
+    [EGA IV_3, 8.11.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)),
+    used implicitly in the original, and explicitly in [DG70], III, § 2, 4.6. It is moreover useful in th. 7.1 further
+    on.
 
 [^N.D.E-V-25]: N.D.E.: cf. Lemma 4.1.2.
 
@@ -2341,8 +2361,10 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
 [^N.D.E-V-40]: N.D.E.: If $f : X \to Y$ is a morphism locally of finite type, the set of $x \in X$ isolated in their
     fiber $f^{-1}(f(x))$ is open in $X$: in EGA III, 4.4.10, this is deduced, for $Y$ locally Noetherian, from Zariski's
     "Main Theorem"; on the other hand, for arbitrary $Y$, this follows from Chevalley's semi-continuity theorem ([EGA
-    IV_3, 13.1.3](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem) and 13.1.4). Consequently, $f$ is quasi-finite at $x$ if and only if $f$ is of finite type at $x$ and
-    $x$ is isolated in $f^{-1}(f(x))$; this will be used further on, cf. N.D.E. 42.
+    IV_3,
+    13.1.3](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem)
+    and 13.1.4). Consequently, $f$ is quasi-finite at $x$ if and only if $f$ is of finite type at $x$ and $x$ is
+    isolated in $f^{-1}(f(x))$; this will be used further on, cf. N.D.E. 42.
 
 [^N.D.E-V-41]: N.D.E.: We have expanded on the original in what follows.
 
@@ -2391,9 +2413,12 @@ Grothendieck), Sém. Bourbaki, Vol. 9, Exp. 294 (1965), Soc. Math. France, 1995.
 [^N.D.E-V-47]: N.D.E.: The original states that this follows from proposition 9.1 below. We were not able to reconstruct
     that argument. The proof that follows was indicated to us by O. Gabber.
 
-[^V-9-1]: Cf. [EGA IV_4, 17.7.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility) for a more general result.
+[^V-9-1]: Cf.
+    [EGA IV_4, 17.7.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility)
+    for a more general result.
 
-[^N.D.E-V-48]: N.D.E.: cf. [EGA IV_1, 1.4.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation).
+[^N.D.E-V-48]: N.D.E.: cf.
+    [EGA IV_1, 1.4.4](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation).
 
 [^N.D.E-V-49]: N.D.E.: Here too, there exists a largest open $U$ of $X$ satisfying the conclusions of the theorem, cf.
     N.D.E. 44.

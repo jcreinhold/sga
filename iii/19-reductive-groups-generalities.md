@@ -431,17 +431,24 @@ Ker(\alpha)$, established in 1.6.2 (iv) and (1.10.3).
 over $S$; and since its fibers are smooth and connected, they are geometrically integral, by VI_A, 2.4.
 
 Conversely, if (ii) is satisfied, the fibers of $G$ are connected and geometrically reduced, hence smooth (VI_A, 1.3.1);
-then $G$ is smooth over $S$, by [EGA IV₄, 17.5.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms).
+then $G$ is smooth over $S$, by
+[EGA IV₄, 17.5.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms).
 
-Of course, these properties are stable under base change: cf. [EGA II, 1.5.1](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#15-change-of-base-prescheme) for "affine", IV₁, 1.6.2 (iii) for "of
-finite presentation", IV₂, 2.1.4 for "flat", and IV₂, 4.6.5 (i) for "with geometrically integral fibers".
+Of course, these properties are stable under base change: cf.
+[EGA II, 1.5.1](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#15-change-of-base-prescheme) for
+"affine", IV₁, 1.6.2 (iii) for "of finite presentation", IV₂, 2.1.4 for "flat", and IV₂, 4.6.5 (i) for "with
+geometrically integral fibers".
 
 <!-- original page 9 -->
 
 On the other hand, these properties are clearly local for the Zariski topology, so it suffices to verify that if $S' \to
 S$ is a faithfully flat quasi-compact morphism and if $G_{S'} \to S'$ has the indicated properties, then so does $G \to
-S$. This follows from [EGA IV₂, 2.5.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#25-permanence-of-properties-of-modules-under-faithfully-flat-descent) for "flat", 2.7.1 (vi) and (xiii) for "of finite presentation" and "affine", and
-4.6.5 (i) for "with geometrically integral fibers" (and also [EGA IV₄, 17.7.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility) (ii) for "smooth").
+S$. This follows from
+[EGA IV₂, 2.5.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#25-permanence-of-properties-of-modules-under-faithfully-flat-descent)
+for "flat", 2.7.1 (vi) and (xiii) for "of finite presentation" and "affine", and 4.6.5 (i) for "with geometrically
+integral fibers" (and also
+[EGA IV₄, 17.7.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility)
+(ii) for "smooth").
 
 **2.2.** Let $G$ be an $S$-group scheme satisfying the preceding conditions, and $Q$ a torus (cf. IX, Def. 1.3) of
 $G$.[^N.D.E-XIX-16] Then, by XI, 6.11 a) and XI, 2.4, $Centr_{G}(Q)$ is representable by a closed subgroup scheme of $G$
@@ -478,7 +485,9 @@ is lower semicontinuous. Let $U_{2}$ be the set of points of $S$ where this func
 set of $s$ such that $G_{s}$ is reductive, of semisimple rank `1`, with maximal torus $T_{s}$, is $U = U_{1} \cap
 U_{2}$; moreover, for every $s \in U$, $W_{G}(T)_{s}$ has exactly two points.
 
-Consequently (cf. SGA 1, I 10.9 and [EGA IV₃, 15.5.1](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#155-separable-rank-of-the-fibres-of-a-quasi-finite-and-universally-open-morphism-application-to-the-geometric-connected-components-of-the-fibres-of-a-proper-morphism) and IV₄, 18.12.4), $W_{G}(T)_{U}$ is étale and finite over $U$.
+Consequently (cf. SGA 1, I 10.9 and
+[EGA IV₃, 15.5.1](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#155-separable-rank-of-the-fibres-of-a-quasi-finite-and-universally-open-morphism-application-to-the-geometric-connected-components-of-the-fibres-of-a-proper-morphism)
+and IV₄, 18.12.4), $W_{G}(T)_{U}$ is étale and finite over $U$.
 
 **Remark 2.4.** *The group $W_{G}(T)_{U}$ is isomorphic to $(Z/2Z)_{U}$.*
 
@@ -542,18 +551,22 @@ W_{G_{S′}}(T) = Norm_{G_{S′}}(T) / Centr_{G_{S′}}(T) = Norm_{G_{S′}}(T) 
 
 *Proof.*[^N.D.E-XIX-21] Denote by $\pi : G \to S$ the structure morphism and $\epsilon : S \to G$ the unit section.
 Since $G$ is flat over $S$ at $\epsilon(s_{0})$ and $G_{\bar{s}_{0}}$ reduced (hence smooth over $\bar{s}_{0}$, cf. VI_A
-1.3.1), $G$ is smooth over $S$ at the point $\epsilon(s_{0})$ ([EGA IV₄, 17.5.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms)), i.e. there exists an open neighborhood
-$V$ of $\epsilon(s_{0})$ such that $\pi|V$ is smooth. Then, $S' = \epsilon^{-1}(V)$ is an open subset of $S$, and
-$G_{S'}$ is smooth over $S'$ at the points of $\epsilon(S')$. Since $G$ has connected fibers, $G_{S'}$ is smooth over
-$S'$, by VI_B, 3.10. So, replacing $S$ by $S'$, one may assume $G$ smooth over $S$.
+1.3.1), $G$ is smooth over $S$ at the point $\epsilon(s_{0})$
+([EGA IV₄, 17.5.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms)),
+i.e. there exists an open neighborhood $V$ of $\epsilon(s_{0})$ such that $\pi|V$ is smooth. Then,
+$S' = \epsilon^{-1}(V)$ is an open subset of $S$, and $G_{S'}$ is smooth over $S'$ at the points of $\epsilon(S')$.
+Since $G$ has connected fibers, $G_{S'}$ is smooth over $S'$, by VI_B, 3.10. So, replacing $S$ by $S'$, one may assume
+$G$ smooth over $S$.
 
 By Exp. XI, Th. 4.1, the functor of subgroups of multiplicative type of $G$ is representable by an $S$-scheme
 $\mathcal{M}$, smooth and separated over $S$. Denote by $r_{0}$ the rank of $G_{\bar{s}_{0}}$ and consider the open
 subscheme $\mathcal{M}_{r_{0}}$ of $\mathcal{M}$, which represents the functor of subtori of rank $r_{0}$ of $G$ (IX
 1.4). Smoothness entails that $\mathcal{M}_{r_{0}}$ admits a rational point over a finite separable extension of
-$\kappa(s_{0})$ (cf. [EGA IV₄, 17.15.10](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1715-case-of-preschemes-over-a-base-field) (iii)). Thus there exists $S' \to S$ étale equipped with a point $s'_{0}$ mapping
-to $s_{0}$ such that $G_{s'_{0}}$ admits a torus of rank $r_{0}$. Therefore, replacing $S$ by $S'$, one may assume that
-$G_{s_{0}}$ admits a torus of rank $r_{0}$.
+$\kappa(s_{0})$ (cf.
+[EGA IV₄, 17.15.10](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1715-case-of-preschemes-over-a-base-field)
+(iii)). Thus there exists $S' \to S$ étale equipped with a point $s'_{0}$ mapping to $s_{0}$ such that $G_{s'_{0}}$
+admits a torus of rank $r_{0}$. Therefore, replacing $S$ by $S'$, one may assume that $G_{s_{0}}$ admits a torus of rank
+$r_{0}$.
 
 By "Hensel's lemma" (cf. XI, 1.10), the smoothness of $\mathcal{M}_{r_{0}}$ permits one to lift this torus to an
 $S'$-torus $T$ of $G$, where $S' \to S$ is étale equipped with a point $s'_{0}$ mapping to $s_{0}$. By Exp. X, 4.5 (see
@@ -633,11 +646,12 @@ The property of being reductive (resp. semisimple) for an $S$-group $G$ is stabl
 reductive (resp. equals $Q$). This follows at once from 2.2 and 1.6. Applying 2.5 to $Centr_{G}(Q)$, one deduces from it
 that $Q$ is contained (locally for the étale topology) in a maximal torus.
 
-**Remark 2.9.** *Using as usual the technique of [EGA IV₃, § 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes), the finite-presentation hypotheses, and Theorem 2.5, one
-sees that if $G$ is a reductive group over $S$, there exists an open covering of $S$, say ${U_{i}}$, such that each
-$G_{U_{i}}$ comes by base change from a reductive group over a noetherian ring (in fact, a finitely generated algebra
-over $Z$). Likewise, if $G$ possesses a split maximal torus $T$, one may further assume that $T_{U_{i}}$ comes from a
-split maximal torus of the preceding group, ….*
+**Remark 2.9.** *Using as usual the technique of
+[EGA IV₃, § 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes),
+the finite-presentation hypotheses, and Theorem 2.5, one sees that if $G$ is a reductive group over $S$, there exists an
+open covering of $S$, say ${U_{i}}$, such that each $G_{U_{i}}$ comes by base change from a reductive group over a
+noetherian ring (in fact, a finitely generated algebra over $Z$). Likewise, if $G$ possesses a split maximal torus $T$,
+one may further assume that $T_{U_{i}}$ comes from a split maximal torus of the preceding group, ….*
 
 <!-- label: III.XIX.2.9 -->
 
@@ -1288,11 +1302,12 @@ exists an étale morphism $S' \to S$ covering $s_{0}$, and a split maximal torus
 <!-- original page 32 -->
 
 *Proof.* First, one may assume $S$ affine.[^N.D.E-XIX-44] Since $G$ is of finite presentation over $S$, one may assume
-$S$ noetherian, then local, then henselian with separably closed residue field (cf. [EGA IV, 8.12](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#812-new-demonstration-and-generalization-of-zariskis-main-theorem), § 8.8, and § 18.8).
-Set therefore $S = \operatorname{Spec}(A)$, $A$ henselian with separably closed residue field $k = \kappa(s_{0})$.
-Choose a maximal torus $T_{0}$ of $G_{0} (= G_{k})$ (one exists, for example because the scheme of maximal tori of
-$G_{0}$ is smooth over $k$, Exp. XII, 7.1 c)); since $k$ is separably closed, $T_{0}$ is split (cf. X 1.4) and is
-therefore given by a monomorphism of groups
+$S$ noetherian, then local, then henselian with separably closed residue field (cf.
+[EGA IV, 8.12](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#812-new-demonstration-and-generalization-of-zariskis-main-theorem),
+§ 8.8, and § 18.8). Set therefore $S = \operatorname{Spec}(A)$, $A$ henselian with separably closed residue field
+$k = \kappa(s_{0})$. Choose a maximal torus $T_{0}$ of $G_{0} (= G_{k})$ (one exists, for example because the scheme of
+maximal tori of $G_{0}$ is smooth over $k$, Exp. XII, 7.1 c)); since $k$ is separably closed, $T_{0}$ is split (cf. X
+1.4) and is therefore given by a monomorphism of groups
 
 $$ f_{0} : G^{r}_{m,k} \to G_{0}. $$
 
@@ -1490,7 +1505,8 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 [^N.D.E-XIX-30]: *N.D.E.*: The following has been modified, in order to recall the hypotheses of 3.2 and to add that $T$
     is a maximal torus.
 
-[^N.D.E-XIX-31]: *N.D.E.*: see SGA 1, VIII 4.4 or [EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent).
+[^N.D.E-XIX-31]: *N.D.E.*: see SGA 1, VIII 4.4 or
+    [EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent).
 
 [^N.D.E-XIX-32]: *N.D.E.*: We have kept the original proof; one can also detail it as follows. Let $F$ be a
     quasi-coherent `O_S`-module, $V = V(F)$. Denote by $\pi$ the projection $V \to S$ and $\epsilon$ the zero section $S

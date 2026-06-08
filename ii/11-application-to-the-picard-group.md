@@ -539,14 +539,16 @@ LEDGER DELTA (Exposé XI):
 | morphisme de descente | morphism of descent | Standard. |
 -->
 
-[^XI-3-star1]: For a more detailed study of the notion of parafactoriality, and the proof of 3.3, cf. [EGA IV 21.13](https://jcreinhold.github.io/ega/iv/34-ch4-21-divisors.html#2113-parafactorial-couples-parafactorial-local-rings),
+[^XI-3-star1]: For a more detailed study of the notion of parafactoriality, and the proof of 3.3, cf.
+    [EGA IV 21.13](https://jcreinhold.github.io/ega/iv/34-ch4-21-divisors.html#2113-parafactorial-couples-parafactorial-local-rings),
     21.14.
 
 [^N.D.E-XI-1]: *N.D.E.* For a precise study of the link between the factoriality of $A$ and that of its completion, see
     (Heitmann R., "Characterization of completions of unique factorization domains", *Trans. Amer. Math. Soc.* **337**
     (1993), no. 1, pp. 379–387).
 
-[^XI-3-star2]: For the generalities that follow, cf. also [EGA IV 21](https://jcreinhold.github.io/ega/iv/34-ch4-21-divisors.html#21-divisors).
+[^XI-3-star2]: For the generalities that follow, cf. also
+    [EGA IV 21](https://jcreinhold.github.io/ega/iv/34-ch4-21-divisors.html#21-divisors).
 
 [^XI-3-star3]: In conformity with the terminology of EGA IV 21, we now prefer to reserve the name "divisors" for
     "locally principal divisors" or "Cartier divisors".
@@ -555,7 +557,8 @@ LEDGER DELTA (Exposé XI):
 
 [^N.D.E-XI-3]: *N.D.E.* See Bourbaki, *Algèbre commutative* VII.1.4, cor. to th. 2, and VII.3.2, th. 1.
 
-[^XI-3-star4]: Cf. [EGA IV 5.8.6](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#58-regular-preschemes-and-property-rn-serres-normality-criterion).
+[^XI-3-star4]: Cf.
+    [EGA IV 5.8.6](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#58-regular-preschemes-and-property-rn-serres-normality-criterion).
 
 [^N.D.E-XI-4]: *N.D.E.* To be compared with the following purity result, due to Gabber. Let $X$ be the spectrum of a
     regular local ring $A$ of dimension 3, $a$ an element of nonzero differential, i.e. $a \in m - m^{2}$, and $U$ the
@@ -570,7 +573,8 @@ LEDGER DELTA (Exposé XI):
     multiplicities, and birational algebra* (South Hadley, MA, 1992), Contemp. Math., vol. 159, American Mathematical
     Society, Providence, RI, 1994, pp. 15–18.
 
-[^XI-3-star5]: It is the proof reproduced in [EGA IV 21.11.1](https://jcreinhold.github.io/ega/iv/34-ch4-21-divisors.html#2111-factoriality-of-regular-local-rings).
+[^XI-3-star5]: It is the proof reproduced in
+    [EGA IV 21.11.1](https://jcreinhold.github.io/ega/iv/34-ch4-21-divisors.html#2111-factoriality-of-regular-local-rings).
 
 [^TRANSLATOR-XI-1]:
     <!-- TRANSLATOR NOTE: The source literally has "prof(A) = 3 + 1 ⩾ 2 car t est A-régulier". The

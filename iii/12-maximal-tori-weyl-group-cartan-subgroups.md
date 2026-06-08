@@ -86,7 +86,8 @@ For $T$ to be a maximal torus of $G$, it is necessary and sufficient that $T'$ b
 
 <!-- original page 183 -->
 
-This is an immediate consequence of the "principle of finite extension" ([EGA IV, 9.1.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#91-the-principle-of-finite-extension)).
+This is an immediate consequence of the "principle of finite extension"
+([EGA IV, 9.1.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#91-the-principle-of-finite-extension)).
 
 **Definition 1.3.** *Let $S$ be a prescheme, $G$ an $S$-prescheme in groups of finite type, $T$ a group subpreschema of
 $G$. One says that $T$ is a* maximal torus of $G$ *if*
@@ -947,13 +948,14 @@ $$ u_{m}|X : X \longrightarrow T_{m} $$
 
 <!-- label: III.XII.5.1 -->
 
-*Proof.* a) To prove the first assertion of a), one takes for $X$ the schematic closure of $U$ ([EGA I, 9.5.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#95-closed-image-of-a-prescheme-closure-of-a-subprescheme) and 9.5.3),
-which is defined since the immersion $i : U \to M$ is quasi-compact (because $U$ is of finite type over $S$ and $M$ is
-separated over $S$ (4.1)). It therefore remains to prove that such an $X$ is affine over $S$, which will prove at the
-same time the second assertion of a). In the foregoing form, one sees that the question is local on $S$, which one may
-therefore suppose affine. Then $U$, being of finite type over $S$, is contained in a quasi-compact open of $M$, and this
-brings us to the case where $U$ itself is <!-- original page 211 --> an open, of finite type over $S$, i.e.
-quasi-compact. (N.B. A closed subscheme of a scheme affine over $S$ is affine over $S$.)
+*Proof.* a) To prove the first assertion of a), one takes for $X$ the schematic closure of $U$
+([EGA I, 9.5.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#95-closed-image-of-a-prescheme-closure-of-a-subprescheme)
+and 9.5.3), which is defined since the immersion $i : U \to M$ is quasi-compact (because $U$ is of finite type over $S$
+and $M$ is separated over $S$ (4.1)). It therefore remains to prove that such an $X$ is affine over $S$, which will
+prove at the same time the second assertion of a). In the foregoing form, one sees that the question is local on $S$,
+which one may therefore suppose affine. Then $U$, being of finite type over $S$, is contained in a quasi-compact open of
+$M$, and this brings us to the case where $U$ itself is <!-- original page 211 --> an open, of finite type over $S$,
+i.e. quasi-compact. (N.B. A closed subscheme of a scheme affine over $S$ is affine over $S$.)
 
 It suffices to prove that such a $U$ is majorized by a closed subpreschema of $M$ which is affine. In this form, the
 usual reduction procedure brings us at once to the case where $S$ is noetherian. One proceeds similarly for b), which
@@ -1611,9 +1613,11 @@ quasi-projective over $S$, the same holds for $Q$ hence also for $\mathcal{T}$. 
 that $\mathcal{T}$ is then affine over $S$ is recorded for memory, being established in 5.4 (N.B. I do not know whether
 without the affine hypothesis on $G/S$, it is possible to choose $n$ in such a way that in 7.5 the open immersion is
 also a closed immersion). For the assertion that $\mathcal{T}$ is affine over $S$ if $S$ is artinian, one is reduced to
-the case where $S$ is the spectrum of a field ([EGA I, 6.1.7](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#61-noetherian-and-locally-noetherian-preschemes)), which one may suppose algebraically closed. Then thanks to
-f), which will be proved below, it suffices to prove the same assertion for $G/Centr(G)$; now this last is affine by
-6.1, so that one is under the preceding conditions. This completes the proof of d).
+the case where $S$ is the spectrum of a field
+([EGA I, 6.1.7](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#61-noetherian-and-locally-noetherian-preschemes)),
+which one may suppose algebraically closed. Then thanks to f), which will be proved below, it suffices to prove the same
+assertion for $G/Centr(G)$; now this last is affine by 6.1, so that one is under the preceding conditions. This
+completes the proof of d).
 
 e) By (IX, 6.8), we know that there exists a subtorus $T'$ of $G'$ such that $u$ induces a faithfully flat morphism $T
 \to T'$ (which characterizes $T'$ as the subsheaf $u(T)$ of $G'$). Let $C$ be the centralizer of $T$, $C'$ that of $T'$;
@@ -1854,11 +1858,13 @@ $S$, hence $G$, is quasi-compact and quasi-separated).*
 <!-- label: III.XII.8.1 -->
 
 One reduces as usual to the case where $S$ is affine noetherian; moreover one may suppose (by the usual noetherian
-criterion of constructibility ([EGA 0_III, 9.2.3](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#92-constructible-sets-in-noetherian-spaces))) that $S$ is integral, and restrict to proving that there exists a
-nonempty open $U$ of $S$ such that $G^{ss}|U$ is constructible. Taking $U$ small enough, and replacing it if necessary
-by a finite covering, one may suppose that $G$ is separated over $S$ and contains a maximal torus
-    <!-- original page 241 --> $T$. But then by 7.1 d) the functor $\mathcal{T}$ is representable by a prescheme of finite
-presentation over $S$, and the same therefore holds for $T$, whose image in $G$ is consequently constructible. QED.
+criterion of constructibility
+([EGA 0_III, 9.2.3](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#92-constructible-sets-in-noetherian-spaces)))
+that $S$ is integral, and restrict to proving that there exists a nonempty open $U$ of $S$ such that $G^{ss}|U$ is
+constructible. Taking $U$ small enough, and replacing it if necessary by a finite covering, one may suppose that $G$ is
+separated over $S$ and contains a maximal torus <!-- original page 241 --> $T$. But then by 7.1 d) the functor
+$\mathcal{T}$ is representable by a prescheme of finite presentation over $S$, and the same therefore holds for $T$,
+whose image in $G$ is consequently constructible. QED.
 
 Suppose again that $k$ is a field, and consider the subgroup $H$ of $G$ generated by the preceding morphism (cf. VI_B,
 1.2). It is a smooth group subscheme of $G$, connected since $T$ is, whose formation is evidently compatible with any
@@ -2307,7 +2313,9 @@ complex
 L ⟶ Γ(G, M ⊗_A O_G) ⟶ Γ(G², M ⊗_A O_{G²}) ⟶ Γ(G³, M ⊗_A O_{G³}) ⟶ ⋯
 ```
 
-Since $A'$ is flat over $A$, by ([EGA IV_1, 1.7.21](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results)) one has
+Since $A'$ is flat over $A$, by
+([EGA IV_1, 1.7.21](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results))
+one has
 
 ```text
 Γ(G^n, M ⊗_A O_{G^n}) ⊗_A A′ ≃ Γ(G′^n, (M ⊗_A A′) ⊗_{A′} O_{G′^n}).

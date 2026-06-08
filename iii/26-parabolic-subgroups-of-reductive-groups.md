@@ -746,7 +746,9 @@ The decomposition*
 
 $$ Par(G) \longrightarrow Of(Dyn(G)) \longrightarrow S $$
 
-*is the Stein factorization ([EGA III, 4.3.3](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#43-zariskis-connection-theorem)) of the structural morphism $Par(G) \to S$.*
+*is the Stein factorization
+([EGA III, 4.3.3](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#43-zariskis-connection-theorem))
+of the structural morphism $Par(G) \to S$.*
 
 <!-- original page 446 -->
 
@@ -1140,10 +1142,11 @@ P ×_S Q ─────→ G
    P ───────→ G/Q.
 ```
 
-On the other hand (iv) or (iv') implies (v), by the theory of dimension (cf. [EGA IV₂, 5.6.6](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#56-dimension-formula-and-universally-catenary-rings)). One notes that one may
-indeed assume $S = \operatorname{Spec}(k)$, $k$ an algebraically closed field, and that every non-empty fiber of the
-morphism (iv), resp. (iv'), at a point of $G(k)$, resp. of $(G/Q)(k)$, is isomorphic to $P \cap Q$ (as an immediate
-computation shows).
+On the other hand (iv) or (iv') implies (v), by the theory of dimension (cf.
+[EGA IV₂, 5.6.6](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#56-dimension-formula-and-universally-catenary-rings)).
+One notes that one may indeed assume $S = \operatorname{Spec}(k)$, $k$ an algebraically closed field, and that every
+non-empty fiber of the morphism (iv), resp. (iv'), at a point of $G(k)$, resp. of $(G/Q)(k)$, is isomorphic to
+$P \cap Q$ (as an immediate computation shows).
 
 One has (vi) ⇒ (vii), by Exp. XXII, 5.5.1 (iv) and 5.9.2.
 
@@ -3201,7 +3204,8 @@ Grothendieck, M. Lazard), Collected Works, vol. 3, Springer, 2005.
 [^N.D.E-XXVI-18]: *N.D.E.* "Relatively dense" has been replaced by "universally schematically dense over $S$", cf. EGA
     IV₃, Def. 11.10.8.
 
-[^N.D.E-XXVI-19]: *N.D.E.* cf. [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes).
+[^N.D.E-XXVI-19]: *N.D.E.* cf.
+    [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes).
 
 [^N.D.E-XXVI-20]: *N.D.E.* "Of order 2" has been replaced by "of order $\leqslant 2$" because $s_{G}$ may be trivial
     (for example, if $G$ is of type `A_1`, $B_{n}$, $C_{n}$, …).

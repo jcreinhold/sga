@@ -51,8 +51,9 @@ u₀ : H ×_S S₀ ⥲ H₀.
 ```
 
 Since $H'$ is flat over $S$ and $H' \times_{S} S_{0}$ is of finite presentation over $S_{0}$ (Exp. IX 2.1 b)), $H'$ is
-of finite presentation over $S$; moreover, its fibers are smooth, so $H'$ is smooth over $S$ ([EGA IV 17.5.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms)). Since $S$
-is affine, $u_{0}$ therefore lifts to an $S$-morphism of preschemes:
+of finite presentation over $S$; moreover, its fibers are smooth, so $H'$ is smooth over $S$
+([EGA IV 17.5.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms)).
+Since $S$ is affine, $u_{0}$ therefore lifts to an $S$-morphism of preschemes:
 
 $$ u : H \longrightarrow H'. $$
 
@@ -109,12 +110,15 @@ the center of $G$.*
 
 <!-- label: III.XV.1.3 -->
 
-Since $G$ is flat and of finite presentation over $S$, it follows from the preceding lemma and from [EGA IV 17.8.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#178-criteria-for-smoothness-and-unramifiedness-by-fibres) that
-if $x$ is a point of $G$ projecting to $s$ in $S$ and belonging to the center of $G_{s}$, the morphism $u$ is étale at
-$x$. If moreover $x$ is a point of ${}_{n}G$, then ${}_{n}G$ is étale over $S$ at $x$. By hypothesis, the group $H_{0}$
-is central and contained in ${}_{n}G_{0}$, so it is in fact contained in the largest open subset $V$ of ${}_{n}G$ which
-is étale over $S$. Since $H_{0}$ and $V \times_{S} S_{0} = V_{0}$ are étale over $S_{0}$, $H_{0}$ is an open subset of
-$V_{0}$ ([EGA IV 17.8.7](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#178-criteria-for-smoothness-and-unramifiedness-by-fibres) and 17.9.1).
+Since $G$ is flat and of finite presentation over $S$, it follows from the preceding lemma and from
+[EGA IV 17.8.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#178-criteria-for-smoothness-and-unramifiedness-by-fibres)
+that if $x$ is a point of $G$ projecting to $s$ in $S$ and belonging to the center of $G_{s}$, the morphism $u$ is étale
+at $x$. If moreover $x$ is a point of ${}_{n}G$, then ${}_{n}G$ is étale over $S$ at $x$. By hypothesis, the group
+$H_{0}$ is central and contained in ${}_{n}G_{0}$, so it is in fact contained in the largest open subset $V$ of
+${}_{n}G$ which is étale over $S$. Since $H_{0}$ and $V \times_{S} S_{0} = V_{0}$ are étale over $S_{0}$, $H_{0}$ is an
+open subset of $V_{0}$
+([EGA IV 17.8.7](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#178-criteria-for-smoothness-and-unramifiedness-by-fibres)
+and 17.9.1).
 
 <!-- original page 353 -->
 
@@ -314,7 +318,8 @@ presentation.*
 
 The lemma follows from Exp. VIII 6.5 e), without smoothness hypothesis on $H$, when $G$ is separated over $S$. In the
 present case, one notes that the assertion to be proved is local for the fpqc topology, which allows us to assume $H$
-diagonalizable, hence of the form $D_{S}(M)$. We may also assume $S$ affine, then $S$ noetherian thanks to [EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes).
+diagonalizable, hence of the form $D_{S}(M)$. We may also assume $S$ affine, then $S$ noetherian thanks to
+[EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes).
 Since $H$ is smooth over $S$ and of finite type, the order $q$ of the torsion subgroup of $M$ is invertible on $S$ (Exp.
 VIII 2.1 e)). It is then immediate (cf. Exp. IX 4.10) that the subgroups ${}_{n}H$, where $n$ ranges over powers of $q$,
 are schematically dense in $H$ (Exp. IX 4.1). But ${}_{n}H$ is a completely decomposed covering of $S$ (i.e. is
@@ -523,7 +528,8 @@ may then replace $S$ by $\operatorname{Spec} \mathcal{O}_{s}$ and $G$ by $G \tim
 \mathcal{O}_{s}$.
 
 Possibly again making a faithfully flat extension, we may assume that $\mathcal{O}_{s}$ has an algebraically closed
-residue field ([EGA 0_III, 10.3.1](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#103-existence-of-flat-extensions-of-local-rings)).
+residue field
+([EGA 0_III, 10.3.1](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#103-existence-of-flat-extensions-of-local-rings)).
 
 Let $\mathfrak{m}$ be the maximal ideal of $\mathcal{O}_{s}$ and
 $S_{n} = \operatorname{Spec} \mathcal{O}_{s}/\mathfrak{m}^{n}$. Suppose we have shown that for every $n > 0$ the
@@ -768,8 +774,9 @@ The subscheme ${}_{n}T_{0}$ is defined by the vanishing of the following section
 
 $$ h(n) = T^{n} - 1, $$
 
-which is regular ([EGA 0_IV 15.2.2](https://jcreinhold.github.io/ega/iv/02-ch0-15-mf-regular-sequences.html#152-f-regular-sequences)) and remains regular after any base change $S'_{0} \to S_{0}$. We therefore have an
-exact sequence of sheaves:
+which is regular
+([EGA 0_IV 15.2.2](https://jcreinhold.github.io/ega/iv/02-ch0-15-mf-regular-sequences.html#152-f-regular-sequences)) and
+remains regular after any base change $S'_{0} \to S_{0}$. We therefore have an exact sequence of sheaves:
 
 ```text
 0 ⟶ 𝒪_{T₀} ──h(n)──→ 𝒪_{T₀} ⟶ 𝒪_{ₙT₀} ⟶ 0.
@@ -3770,7 +3777,8 @@ locally constant. Since $\rho_{r}$ and $\rho_{ab}$ are locally constant, $\rho_{
 [^N.D.E-XV-1]: The idea of approximating a torus by its finite subgroups appears in Grothendieck's proof of the
     connectedness of the centralizers of tori; see § 4.6 of *Bible*.
 
-[^N.D.E-XV-2]: cf. [EGA 0_III, 12.3.5](https://jcreinhold.github.io/ega/iii/05-ch0-12-complements-cohomology-sheaves.html#123-complements-on-the-ext-functors-of-sheaves).
+[^N.D.E-XV-2]: cf.
+    [EGA 0_III, 12.3.5](https://jcreinhold.github.io/ega/iii/05-ch0-12-complements-cohomology-sheaves.html#123-complements-on-the-ext-functors-of-sheaves).
 
 [^N.D.E-XV-3]: introduced after Lemma 2.7.
 

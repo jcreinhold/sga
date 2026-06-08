@@ -260,7 +260,8 @@ $$ prof^{L}_{Y}(X) \geqslant n $$
 
 if, for every constant sheaf of the form $\mathbb{Z}/\ell \mathbb{Z}$ with $\ell \in L$, one has
 $prof_{Y}(\mathbb{Z}/\ell \mathbb{Z}) \geqslant n$. One defines in the obvious way the $Y$-étale depth for $L$ of $X$.
-If $L = P$, the set of all prime numbers, and if there is no risk of confusion with the notation of ([EGA IV 5.7.1](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#57-depth-and-property-sn))
+If $L = P$, the set of all prime numbers, and if there is no risk of confusion with the notation of
+([EGA IV 5.7.1](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#57-depth-and-property-sn))
 (relative to the case $F = O_{X}$), one omits $L$ in the notation; otherwise one writes $prof^{\acute{e}}_{Y}t(X)$.
 
 Finally one says that $X$ is of $Y$-homotopical depth $\geqslant 3$ for $L$ and writes
@@ -347,10 +348,14 @@ coherent `O_X`-modules, one finds the usual notion of $Y$-depth as the infimum o
 b) For $n \leqslant 2$, the notion of $Y$-étale depth of $X$ is independent of $L$. For $n = 1$, it simply means that
 $U$ is dense in $X$. Indeed this condition is necessary in order that $prof_{Y}(F) \geqslant 1$, and it is also
 sufficient since one may suppose $X$ reduced, the case in which the condition $U$ dense in $X$ is preserved by étale
-base change ([EGA IV 11.10.5](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes) (ii) b)). If $U$ is retrocompact in $X$, the relation $prof_{Y}(X) \geqslant 1$ is also
-equivalent to saying that $Y$ contains no maximal point of $X$ ([EGA I 6.6.5](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)). For $n = 2$ and $U$ retrocompact in $X$,
-the condition $prof_{Y}(X) \geqslant 2$ is equivalent to the fact that, for every geometric point $y$ of $Y$, `Ū` is
-connected non-empty, that is, "$Y$ does not disconnect $X$ locally for the étale topology".
+base change
+([EGA IV 11.10.5](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)
+(ii) b)). If $U$ is retrocompact in $X$, the relation $prof_{Y}(X) \geqslant 1$ is also equivalent to saying that $Y$
+contains no maximal point of $X$
+([EGA I 6.6.5](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#66-quasi-compact-morphisms)). For
+$n = 2$ and $U$ retrocompact in $X$, the condition $prof_{Y}(X) \geqslant 2$ is equivalent to the fact that, for every
+geometric point $y$ of $Y$, `Ū` is connected non-empty, that is, "$Y$ does not disconnect $X$ locally for the étale
+topology".
 
 c) If $X$ is of $Y$-depth $\geqslant n$ for $L$ and $U$ retrocompact in $X$, then for every locally constant abelian
 sheaf of $L$-torsion $F$ on $X$, one has $prof_{Y}(F) \geqslant n$. Indeed, since the property $prof_{Y}(F) \geqslant n$
@@ -602,10 +607,11 @@ We are going to deduce from 1.8 important cases where one can determine the éta
 
 <!-- label: XIV.1.10 -->
 
-Denote by $X$ either a smooth scheme over a field $k$, or a regular excellent scheme ([EGA IV 7.8.2](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings)) of characteristic
-zero (N.B. if one admits resolution of singularities in the sense of (SGA 4 XIX), it suffices to suppose, more
-generally, that $X$ is a regular excellent scheme of equal characteristic). Let $Y$ be a closed part of $X$ and $L$ the
-set
+Denote by $X$ either a smooth scheme over a field $k$, or a regular excellent scheme
+([EGA IV 7.8.2](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings)) of
+characteristic zero (N.B. if one admits resolution of singularities in the sense of (SGA 4 XIX), it suffices to suppose,
+more generally, that $X$ is a regular excellent scheme of equal characteristic). Let $Y$ be a closed part of $X$ and $L$
+the set
 
 <!-- original page 220 -->
 
@@ -659,7 +665,8 @@ $O_{X,x}$ is a Cohen-Macaulay ring, hence one has $prof_{x}(O_{X}) \geqslant 3$;
 is an étale covering of $X - {x}$ that does not extend to an étale covering of $X$; hence one has by 1.4 $prof_{Y}(X) =
 2$.
 
-The following theorem is the analogue of ([EGA IV 6.3.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#63-flatness-and-depth)):
+The following theorem is the analogue of
+([EGA IV 6.3.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#63-flatness-and-depth)):
 
 **Theorem 1.13.**
 
@@ -1126,8 +1133,10 @@ is irreducible; knowing that $Y_{s}$ is rare in $X_{s}$, this evidently entails 
 
 <!-- label: XIV.1.20 -->
 
-Let $f : X \to S$ be a regular morphism ([EGA IV 6.8.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#68-regular-normal-reduced-smooth-morphisms)) of locally noetherian schemes, $Y$ a closed part of $X$. Suppose
-that, for every point $s \in f(Y)$, one of the following conditions is realized:
+Let $f : X \to S$ be a regular morphism
+([EGA IV 6.8.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#68-regular-normal-reduced-smooth-morphisms))
+of locally noetherian schemes, $Y$ a closed part of $X$. Suppose that, for every point $s \in f(Y)$, one of the
+following conditions is realized:
 
 a) One has $codim(Y_{s}, X_{s}) \geqslant 2$.
 
@@ -1189,7 +1198,8 @@ deg.tr. k(x)/k(s) = deg.tr. k(x′)/k(s′)   and   dim({s}) = dim({s′}).
 
 In particular, given $x \in X$, one can find $x'$ such that $\delta(x) = \delta(x')$.
 
-One has indeed ([EGA IV 6.11](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#611-criteria-for-the-sets-usnf-or-ucnf-to-be-open))
+One has indeed
+([EGA IV 6.11](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#611-criteria-for-the-sets-usnf-or-ucnf-to-be-open))
 
 $$ \dim({s}) = \dim g^{-1}({s}). $$
 
@@ -1250,14 +1260,18 @@ Let $s' = f'(x')$, $s = f(x)$. By definition:
                      + codim({s} ∩ T, {s}) − codim({s′} ∩ T′, {s′}).
 ```
 
-Since $g$ is faithfully flat, it follows from ([EGA IV 6.1.4](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#61-flatness-and-dimension)) that one has
+Since $g$ is faithfully flat, it follows from
+([EGA IV 6.1.4](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#61-flatness-and-dimension)) that one
+has
 
 ```text
 (∗) codim({s} ∩ T, {s}) = codim(g^{−1}({s}) ∩ g^{−1}(T), g^{−1}({s}))
                        ⩽ codim(g^{−1}({s}) ∩ T′, g^{−1}({s}));
 ```
 
-since $S'$ is catenary, one has, by ([EGA 0_IV 14.3.2](https://jcreinhold.github.io/ega/iv/01-ch0-14-combinatorial-dimension.html#143-the-chain-condition) b)):
+since $S'$ is catenary, one has, by
+([EGA 0_IV 14.3.2](https://jcreinhold.github.io/ega/iv/01-ch0-14-combinatorial-dimension.html#143-the-chain-condition)
+b)):
 
 ```text
 codim({s′} ∩ T′, g^{−1}({s})) = codim({s′} ∩ T′, {s′}) + codim({s′}, g^{−1}({s}))
@@ -1283,7 +1297,8 @@ S′_s --→ Spec k(s)
 ```
 
 The morphism $Z \to \operatorname{Spec} k(s)$ is flat, locally of finite type, and one has $\dim Z = deg.tr. k(x)/k(s)$.
-It then follows from ([EGA IV 6.1.2](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#61-flatness-and-dimension)) that
+It then follows from
+([EGA IV 6.1.2](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#61-flatness-and-dimension)) that
 
 ```text
 dim(O_{Z′,x′}) = dim(O_{S′_s, s′}) + deg.tr. k(x)/k(s) − deg.tr. k(x′)/k(s′);
@@ -1403,8 +1418,9 @@ is a dualizing complex on $X'_{x}$ that is constant (that is, having only one no
 $\mathbb{Z}/\ell \mathbb{Z}$).
 
 Taking (SGA 5 I 3.4.3) into account, the only thing to prove is that $K'$ is constant. Now, since $Z$ is excellent, the
-set of points of $Z$ whose local rings are regular is an open set $U$ ([EGA IV 7.8.3](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings) (iv)), and $U$ evidently contains
-$X'_{x}$ which is regular. Let then
+set of points of $Z$ whose local rings are regular is an open set $U$
+([EGA IV 7.8.3](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings) (iv)), and
+$U$ evidently contains $X'_{x}$ which is regular. Let then
 
 $$ u : U \to R $$
 
@@ -1418,7 +1434,9 @@ $$ (\mu_{\ell})_{S} \simeq (\mathbb{Z}/\ell \mathbb{Z})_{S} $$
 $$ R^{!} u(\mathbb{Z}/\ell \mathbb{Z}) \simeq \mathbb{Z}/\ell \mathbb{Z}[2c], $$
 
 where $c$ is a locally constant function on $U$, necessarily constant in a neighborhood of $X'_{x}$, since the fibers of
-$g$ are geometrically integral by ([EGA IV 18.9.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#189-formal-fibres-of-henselian-noetherian-rings)) hence $X'_{x}$ integral. The lemma follows immediately.
+$g$ are geometrically integral by
+([EGA IV 18.9.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#189-formal-fibres-of-henselian-noetherian-rings))
+hence $X'_{x}$ integral. The lemma follows immediately.
 
 ## 3. Converse of the affine Lefschetz theorem
 
@@ -1517,7 +1535,9 @@ R^n u_*(F|_{Spec L}) ≃ w_*(R^n v_*(F|_{Spec L})).
 Now $R^{n} v_{*}(F|_{\operatorname{Spec} L}) \neq 0$, since $H^{n}(L', F|_{L'}) \neq 0$; one therefore also has $R^{n}
 u_{*}(F|_{\operatorname{Spec} L}) \neq 0$.
 
-Let us recall the following well-known lemma (cf. [EGA 0_III 10.3.1.2](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#103-existence-of-flat-extensions-of-local-rings) and [EGA IV 18.2.3](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#182-étale-covers)):
+Let us recall the following well-known lemma (cf.
+[EGA 0_III 10.3.1.2](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#103-existence-of-flat-extensions-of-local-rings)
+and [EGA IV 18.2.3](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#182-étale-covers)):
 
 **Lemma 3.4.**
 
@@ -1585,10 +1605,11 @@ Let $x'$ be such a point; it suffices to show that one can find a scheme `X_1` �
 
 $$ H^{d+r}(X'_{1}, F) \neq 0. $$
 
-The set $Z'$ is constructible (SGA 4 IX 2.4), hence the same holds for $Z$ ([EGA IV 1.9.12](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#19-pro-constructible-and-ind-constructible-sets)); one can then suppose, by
-restricting $X$ to a neighborhood of $x$, that $Z$ is an irreducible closed set with generic point $x$. Let $T = f(Z)$;
-$T$ is a constructible set contained in ${s}$; one can therefore find an affine open $U$ of $S$ such that $s \in U$ and
-that $T \cap U = T_{U}$ is an irreducible closed set of $U$ with generic point $s$.
+The set $Z'$ is constructible (SGA 4 IX 2.4), hence the same holds for $Z$
+([EGA IV 1.9.12](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#19-pro-constructible-and-ind-constructible-sets));
+one can then suppose, by restricting $X$ to a neighborhood of $x$, that $Z$ is an irreducible closed set with generic
+point $x$. Let $T = f(Z)$; $T$ is a constructible set contained in ${s}$; one can therefore find an affine open $U$ of
+$S$ such that $s \in U$ and that $T \cap U = T_{U}$ is an irreducible closed set of $U$ with generic point $s$.
 
 <!-- original page 247 -->
 
@@ -1967,10 +1988,11 @@ where one sets (cf. 2.2): $\delta_{T}(u) = deg.tr.(k(x)/k(s)) + codim({s} \cap T
 *Proof.*
 
 1°) Let $t$ be a point of $T$, $\bar{S}$ the strict localization of $S$ at a geometric point above $t$, and $S'$ the
-completion of $\bar{S}$ with closed point $t'$; then $\bar{S}$ is excellent by ([EGA IV 7.9.5](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#79-excellent-rings-and-resolution-of-singularities)), so $S'$ is a complete
-strictly local excellent scheme. Given a scheme $U$ over $X$ (resp. an $S$-morphism $f$, resp. etc.), we shall denote by
-$U'$ (resp. $f'$, resp. etc.) the scheme $U \times_{S} S'$ (resp. the morphism $f_{(S')}$, resp. etc.). One has the
-cartesian square
+completion of $\bar{S}$ with closed point $t'$; then $\bar{S}$ is excellent by
+([EGA IV 7.9.5](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#79-excellent-rings-and-resolution-of-singularities)),
+so $S'$ is a complete strictly local excellent scheme. Given a scheme $U$ over $X$ (resp. an $S$-morphism $f$, resp.
+etc.), we shall denote by $U'$ (resp. $f'$, resp. etc.) the scheme $U \times_{S} S'$ (resp. the morphism $f_{(S')}$,
+resp. etc.). One has the cartesian square
 
 ```text
 U′ --h--> U
@@ -2548,8 +2570,9 @@ depth $prof^{\acute{e}}t(A)$.
 <!-- label: XIV.5.2 -->
 
 Let $A$ be a noetherian local ring; suppose that $A$ is isomorphic to a quotient of a regular local ring $B$ by an ideal
-$I$ (this is true, for example, when $A$ is complete by virtue of the Cohen theorem ([EGA 0_IV 19.8.8](https://jcreinhold.github.io/ega/iv/06-ch0-19-formally-smooth-algebras.html#198-cohen-algebras-and-p-cohen-rings-application-to-the-structure-of-complete-local-rings))). Let $q$ be the
-minimal number of generators of $I$; then the number $\dim(B) - q$ is independent of the choice of $B$.
+$I$ (this is true, for example, when $A$ is complete by virtue of the Cohen theorem
+([EGA 0_IV 19.8.8](https://jcreinhold.github.io/ega/iv/06-ch0-19-formally-smooth-algebras.html#198-cohen-algebras-and-p-cohen-rings-application-to-the-structure-of-complete-local-rings))).
+Let $q$ be the minimal number of generators of $I$; then the number $\dim(B) - q$ is independent of the choice of $B$.
 
 The minimal number of generators of $I$ is also equal to the rank of the $k$-vector space $I \otimes_{B} k$, where $k$
 denotes the residue field of $A$. One reduces immediately to the case where $A$ is complete, since one has $\hat{A}
@@ -2605,7 +2628,9 @@ ring $B''$ and surjective homomorphisms $g : B'' \to B$ and $g' : B'' \to B'$, r
 ```
 
 Now, if $W$ is a Cohen ring with residue field $k$, one has a local morphism $W \to A$ that lifts to $B$ and $B'$ ([EGA
-IV 19.8.6](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#198-properties-of-passage-to-projective-limit)), so that one has the commutative diagram
+IV
+19.8.6](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#198-properties-of-passage-to-projective-limit)),
+so that one has the commutative diagram
 
 ```text
                   B
@@ -2657,7 +2682,9 @@ and one has equality if and only if $A$ is a complete intersection.
 One can suppose $A$ complete. Let then $A = B/I$, where $B$ is a complete regular local ring and $I$ an ideal of $B$. If
 $(x_{1}, \cdots, x_{q})$ is a minimal system of generators of $I$, one has $\dim A \geqslant \dim B - q$, and to say
 that $\dim A = \dim B - q$ is equivalent to saying that $(x_{1}, \cdots, x_{q})$ forms part of a system of parameters of
-$B$ ([EGA 0_IV 16.3.7](https://jcreinhold.github.io/ega/iv/03-ch0-16-dimension-and-depth.html#163-systems-of-parameters-in-a-noetherian-local-ring)); the proposition follows immediately.
+$B$
+([EGA 0_IV 16.3.7](https://jcreinhold.github.io/ega/iv/03-ch0-16-dimension-and-depth.html#163-systems-of-parameters-in-a-noetherian-local-ring));
+the proposition follows immediately.
 
 **Proposition 5.5.**
 

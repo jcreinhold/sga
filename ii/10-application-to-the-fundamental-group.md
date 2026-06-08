@@ -5,9 +5,10 @@
 <!-- original page 89 -->
 
 Throughout this Exposé, $X$ will denote a locally noetherian prescheme, $Y$ a closed part of $X$, $U$ a variable open
-neighborhood of $Y$ in $X$, and $\hat{X}$ the formal completion of $X$ along $Y$ ([EGA I 10.8](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#108-formal-completion-of-a-prescheme-along-a-closed-subset)). For every prescheme $Z$,
-we denote by $\hat{E}t(Z)$ the category of étale coverings of $Z$, and by $L(Z)$ the category of locally free coherent
-Modules on $Z$.
+neighborhood of $Y$ in $X$, and $\hat{X}$ the formal completion of $X$ along $Y$
+([EGA I 10.8](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#108-formal-completion-of-a-prescheme-along-a-closed-subset)).
+For every prescheme $Z$, we denote by $\hat{E}t(Z)$ the category of étale coverings of $Z$, and by $L(Z)$ the category
+of locally free coherent Modules on $Z$.
 
 ## 1. Comparison of $\hat{E}t(\hat{X})$ and $\hat{E}t(Y)$
 
@@ -15,12 +16,14 @@ Modules on $Z$.
 
 Let $I$ be an ideal of definition of $Y$ in $X$. Set, for every $n \in \mathbb{N}$, $Y_{n} = (Y,
 (\mathcal{O}_{X}/I^{n+1})|Y)$. The $Y_{n}$ form a direct system of ordinary preschemes, or also of formal preschemes, by
-equipping the structure sheaves with the discrete topology. One knows ([EGA I 10.6.2](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#106-formal-preschemes-as-inductive-limits)) that $\hat{X}$ is the direct limit,
-in the category of formal preschemes, of the direct system of the $Y_{n}$. One also knows ([EGA I 10.13](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#1013-morphisms-of-finite-type)) that to give a
-formal $\hat{X}$-prescheme of finite type $R$ is the same as to give a direct system of $Y_{n}$-preschemes $R_{n}$ of
-finite type, such that $R_{n} \simeq (R_{n+1}) \times_{(Y_{n+1})} (Y_{n})$. Moreover, in order that $R$ be an étale
-covering of $\hat{X}$, it is necessary and sufficient that for every $n$, $R_{n}$ be an étale covering of $Y_{n}$. This
-said, it is easy to see that nilpotent elements do not matter for étale coverings (SGA 1 8.3), that is, that the
+equipping the structure sheaves with the discrete topology. One knows
+([EGA I 10.6.2](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#106-formal-preschemes-as-inductive-limits))
+that $\hat{X}$ is the direct limit, in the category of formal preschemes, of the direct system of the $Y_{n}$. One also
+knows ([EGA I 10.13](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#1013-morphisms-of-finite-type)) that
+to give a formal $\hat{X}$-prescheme of finite type $R$ is the same as to give a direct system of $Y_{n}$-preschemes
+$R_{n}$ of finite type, such that $R_{n} \simeq (R_{n+1}) \times_{(Y_{n+1})} (Y_{n})$. Moreover, in order that $R$ be an
+étale covering of $\hat{X}$, it is necessary and sufficient that for every $n$, $R_{n}$ be an étale covering of $Y_{n}$.
+This said, it is easy to see that nilpotent elements do not matter for étale coverings (SGA 1 8.3), that is, that the
 base-change functor
 
 $$ \hat{E}t(Y_{n+1}) \longrightarrow \hat{E}t(Y_{n}) $$
