@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Generate SUMMARY.md for mdBook from the SGA volume directories.
 
-Walks ``i/``, ``ii/``, ``iii/`` in order, derives a short human title for
-each exposé file from its filename (with a small special-case map for
-front-matter / glossary / index pages), and writes ``SUMMARY.md`` at the
-repo root. With ``--check`` the script exits non-zero if the committed
-file is stale; this is the drift gate run in CI.
+Walks ``i/``, ``ii/``, ``iii/`` in order and, for each exposé file, uses its
+first-level (``# ``) heading as the human title — these headings are the
+authoritative English titles (e.g. "Exposé I. Étale Morphisms"). Front- and
+back-matter pages (and the two chapters whose heading carries LaTeX that would
+render raw in the sidebar) get a short curated label from ``TITLE_OVERRIDES``.
+Writes ``SUMMARY.md`` at the repo root. With ``--check`` the script exits
+non-zero if the committed file is stale; this is the drift gate run in CI.
 """
 
 import argparse
@@ -22,31 +24,47 @@ VOLUMES: list[tuple[str, str]] = [
     ("iii", "SGA 3 — Group Schemes"),
 ]
 
-SPECIAL_TITLES: dict[str, str] = {
+# Curated short labels, keyed by file stem. Front/back matter, plus the two
+# chapters whose `# ` heading contains math ($...$) that would otherwise show
+# raw in the sidebar. Everything else takes its title from the `# ` heading.
+TITLE_OVERRIDES: dict[str, str] = {
     "00-title-preface": "Title and preface",
-    "00-avertissement": "Avertissement",
+    "00-foreword": "Foreword",
     "00-introduction": "Introduction",
-    "00-i-avertissement-introduction": "Avertissement and introduction (I)",
+    "00-i-foreword-introduction": "Foreword and introduction (I)",
     "00-i-errata": "Errata (I)",
     "00-ii-preface": "Preface (II)",
     "00-iii-errata": "Errata (III)",
     "glossary": "Translation glossary",
     "zz-index-notations": "Index of notations",
-    "zz-index-terminologique": "Index of terminology",
+    "zz-index-terminological": "Index of terminology",
     "zz-i-index": "Index (volume I)",
     "zz-iii-index": "Index (volume III)",
+    "06-ext-functors": "Exposé VI. The functors Ext and ℰxt",
+    "07A-infinitesimal-study-differential-operators": (
+        "Exposé VII_A. Infinitesimal study: differential operators and "
+        "restricted p-Lie algebras"
+    ),
 }
 
 PREFIX_RE = re.compile(r"^\d+[A-Za-z]?-")
 
 
-def derive_title(stem: str) -> str:
-    if stem in SPECIAL_TITLES:
-        return SPECIAL_TITLES[stem]
-    m = re.match(r"^(\d+)([A-Za-z]?)-(.+)$", stem)
-    if m:
-        num, suffix, rest = m.groups()
-        return f"Exposé {int(num)}{suffix}. {rest.replace('-', ' ').capitalize()}"
+def first_heading(path: Path) -> str | None:
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return None
+
+
+def derive_title(path: Path) -> str:
+    stem = path.stem
+    if stem in TITLE_OVERRIDES:
+        return TITLE_OVERRIDES[stem]
+    heading = first_heading(path)
+    if heading:
+        return heading
+    # Fallback for an untitled file: prettify the (already English) stem.
     body = stem
     while PREFIX_RE.match(body):
         body = PREFIX_RE.sub("", body, count=1)
@@ -71,7 +89,7 @@ def volume_entries(vol: str) -> list[tuple[str, Path]]:
         (p for p in vol_dir.glob("*.md") if p.name not in skip),
         key=sort_key,
     )
-    return [(derive_title(p.stem), p.relative_to(ROOT)) for p in paths]
+    return [(derive_title(p), p.relative_to(ROOT)) for p in paths]
 
 
 def render() -> str:

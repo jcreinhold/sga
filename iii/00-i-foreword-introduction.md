@@ -1,4 +1,4 @@
-# Avertissement and Introduction
+# Foreword and Introduction
 
 <!-- label: III.avertissement-introduction -->
 

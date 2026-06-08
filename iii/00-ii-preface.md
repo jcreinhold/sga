@@ -8,7 +8,7 @@ Tome II of the 2011 SMF re-edition of SGA 3 contains Exposés VIII through XVIII
 sheet, or notation index of its own — the editors chose to consolidate the volume-level apparatus into Tomes I and III
 only. Reading-order navigation for the Tome II Exposés can be found in the [README](README.md); references to the
 Avertissement, Introduction, and reference convention all live with
-[Tome I's front matter](00-i-avertissement-introduction.md); and the translation glossary applies uniformly across the
+[Tome I's front matter](00-i-foreword-introduction.md); and the translation glossary applies uniformly across the
 three Tomes. The Tome I errata sheet flags Exposé II only (§ 1.2), and the Tome III errata sheet does not concern this
 Tome.
 
@@ -30,14 +30,14 @@ the main line; the reader heading for the reductive-group material of Tome III n
 The Exposés in this Tome are listed below; for the full reading order across all three Tomes, see the
 [README](README.md).
 
-- [Exposé VIII — Diagonalizable groups (Grothendieck)](08-groupes-diagonalisables.md)
-- [Exposé IX — Groups of multiplicative type: homomorphisms (Grothendieck)](09-groupes-type-multiplicatif-homomorphismes.md)
-- [Exposé X — Characterization and classification of groups of multiplicative type (Grothendieck)](10-caracterisation-classification-groupes-multiplicatif.md)
-- [Exposé XI — Representability criteria (Grothendieck)](11-criteres-representabilite.md)
-- [Exposé XII — Maximal tori, the Weyl group, Cartan subgroups, the reductive center (Grothendieck)](12-tores-maximaux-weyl-cartan-centre-reductif.md)
-- [Exposé XIII — Regular elements: algebraic groups and Lie algebras (Grothendieck)](13-elements-reguliers-groupes-algebres-lie.md)
-- [Exposé XIV — Regular elements: continuation, applications (Grothendieck, app. Serre)](14-elements-reguliers-suite-applications.md)
-- [Exposé XV — Complements on sub-tori. Application to smooth groups (Raynaud)](15-sous-tores-applications-groupes-lisses.md)
-- [Exposé XVI — Groups of zero unipotent rank (Raynaud)](16-groupes-rang-unipotent-nul.md)
-- [Exposé XVII — Unipotent algebraic groups; extensions (Raynaud)](17-groupes-algebriques-unipotents-extensions.md)
-- [Exposé XVIII — Weil's theorem on the construction of a group from a rational law (Artin)](18-theoreme-weil-loi-rationnelle.md)
+- [Exposé VIII — Diagonalizable groups (Grothendieck)](08-diagonalizable-groups.md)
+- [Exposé IX — Groups of multiplicative type: homomorphisms (Grothendieck)](09-groups-of-multiplicative-type-homomorphisms.md)
+- [Exposé X — Characterization and classification of groups of multiplicative type (Grothendieck)](10-characterization-classification-multiplicative-type-groups.md)
+- [Exposé XI — Representability criteria (Grothendieck)](11-representability-criteria.md)
+- [Exposé XII — Maximal tori, the Weyl group, Cartan subgroups, the reductive center (Grothendieck)](12-maximal-tori-weyl-group-cartan-subgroups.md)
+- [Exposé XIII — Regular elements: algebraic groups and Lie algebras (Grothendieck)](13-regular-elements-algebraic-groups-lie-algebras.md)
+- [Exposé XIV — Regular elements: continuation, applications (Grothendieck, app. Serre)](14-regular-elements-continuation.md)
+- [Exposé XV — Complements on sub-tori. Application to smooth groups (Raynaud)](15-sub-tori-application-to-smooth-groups.md)
+- [Exposé XVI — Groups of zero unipotent rank (Raynaud)](16-groups-of-zero-unipotent-rank.md)
+- [Exposé XVII — Unipotent algebraic groups; extensions (Raynaud)](17-unipotent-algebraic-groups-extensions.md)
+- [Exposé XVIII — Weil's theorem on the construction of a group from a rational law (Artin)](18-weil-theorem-rational-law.md)
