@@ -26,7 +26,7 @@ which associates to every $X \in Ob(C)$ the functor `hX` such that
 
 $$ hX(S) = \operatorname{Hom}(S, X). $$
 
-For every functor $F \in Ob(\hat{C})$, one defines (cf. for example EGA 0_III, 8.1.4) a bijection
+For every functor $F \in Ob(\hat{C})$, one defines (cf. for example [EGA 0_III, 8.1.4](https://jcreinhold.github.io/ega/iii/01-ch0-08-representable-functors.html#81-representable-functors)) a bijection
 
 $$ \operatorname{Hom}(hX, F) \xrightarrow{\sim} F(X). $$
 
@@ -1199,7 +1199,7 @@ scheme; if $O$ is a ring, `OS` is an $S$-ring scheme, etc.
 
 ### 4.2. Affine S-groups
 
-Let us recall a certain number of things about affine $S$-schemes (EGA II, § 1). One says that the $S$-scheme $T$ is
+Let us recall a certain number of things about affine $S$-schemes ([EGA II, § 1](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#1-affine-morphisms)). One says that the $S$-scheme $T$ is
 *affine over $S$* if the inverse image of every affine open subset of $S$ is affine. The `OS`-algebra $f_{*}(O_{T})$,
 which one denotes $A(T)$, is then quasi-coherent ($f$ denotes the structural morphism of $T$). Conversely, to every
 quasi-coherent `OS`-algebra $A$, one can associate an $S$-scheme affine over $S$, denoted $\operatorname{Spec}(A)$.
@@ -1315,7 +1315,7 @@ $\operatorname{Spec} \mathbb{Z}[T]$, which we shall denote $O$ when considering 
 structure.
 
 For every scheme $S$, `OS = S ×_{Spec ℤ} Spec ℤ[T] = Spec(OS[T])` is therefore an $S$-ring scheme, affine over $S$.
-(Note: in EGA II 1.7.13, `OS` is denoted `S[T]`).
+(Note: in [EGA II 1.7.13](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#17-vector-bundle-associated-to-a-sheaf-of-modules), `OS` is denoted `S[T]`).
 
 #### 4.3.3.1
 
@@ -1508,7 +1508,7 @@ V(F ⊕ F′) ≃ V(F) ×_S V(F′)    and    W(F ⊕ F′) ≃ W(F) ×_S W(F′
 <!-- label: III.I.4.6.2 -->
 
 Parts (i) and (iii) are obvious from the definitions. For (ii), one takes for $S'$ open subschemes of $S$. We leave the
-proof to the reader (for $V$, use EGA II, 1.7.14).
+proof to the reader (for $V$, use [EGA II, 1.7.14](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#17-vector-bundle-associated-to-a-sheaf-of-modules)).
 
 Recall (cf. 3.1.4) that if $F, F'$ are `OS`-modules, $\operatorname{Hom}_{OS}(F, F')$ denotes the $S$-functor (in
 abelian groups) which to every $S' \to S$ associates $\operatorname{Hom}_{O_{S'}}(F_{S'}, F'_{S'})$.
@@ -1528,7 +1528,7 @@ abelian groups) which to every $S' \to S$ associates $\operatorname{Hom}_{O_{S'}
 
 This follows immediately from 4.6.2 (i) and (ii).
 
-**Notation 4.6.3.1.** *Let $F$ be a quasi-coherent `OS`-module. One knows (EGA II, 1.7.8) that the $S$-functor $V(F)$ is
+**Notation 4.6.3.1.** *Let $F$ be a quasi-coherent `OS`-module. One knows ([EGA II, 1.7.8](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#17-vector-bundle-associated-to-a-sheaf-of-modules)) that the $S$-functor $V(F)$ is
 representable by an $S$-scheme affine over $S$ which one denotes $V(F)$ and calls the* vector fibration[^N.D.E-I-33]
 *defined by $F$:*
 
@@ -1562,7 +1562,7 @@ Hom_{OX}(W(F′)_X, W(F)_X) ≃ Hom_{OX}(W(F′ ⊗ O_X), W(F ⊗ O_X))
 Hom_{OX}(F′ ⊗ O_X, F ⊗ O_X) = Hom_{OS}(F′, π_*(π*(F))),
 ```
 
-where one denotes $\pi : X \to S$ the structural morphism. But, by EGA II, 1.4.7, one has $\pi_{*}(\pi*(F)) \simeq F
+where one denotes $\pi : X \to S$ the structural morphism. But, by [EGA II, 1.4.7](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#14-quasi-coherent-sheaves-on-an-affine-prescheme-over-s), one has $\pi_{*}(\pi*(F)) \simeq F
 \otimes A$, which completes the proof.
 
 **Corollary 4.6.4.1.** *One has a canonical isomorphism*
@@ -1584,7 +1584,7 @@ Indeed,[^N.D.E-I-35] let $f : S' \to S$ be an $S$-scheme and $X' = X \times_{S} 
    S′ ───────→ S
 ```
 
-and by EGA II, 1.5.2, $X'$ is affine over $S'$ and $\pi'_{*}(O_{X'}) = f*(A)$. One has therefore
+and by [EGA II, 1.5.2](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#15-change-of-base-prescheme), $X'$ is affine over $S'$ and $\pi'_{*}(O_{X'}) = f*(A)$. One has therefore
 
 ```text
 Hom_S(Spec(A), W(F))(S′) = Hom_{S′}(Spec(f*(A)), W(f*(F)))
@@ -1630,7 +1630,7 @@ $F'$.*
 
 <!-- label: III.I.4.6.6 -->
 
-The direct proposition is essentially contained in EGA 0_I, 5.5.5.[^N.D.E-I-36] Conversely, if $F$ is locally a direct
+The direct proposition is essentially contained in [EGA 0_I, 5.5.5](https://jcreinhold.github.io/ega/i/00-05-quasi-coherent-and-coherent-sheaves.html#55-sheaves-on-a-space-ringed-in-local-rings).[^N.D.E-I-36] Conversely, if $F$ is locally a direct
 factor of $F'$, then for every $\pi : S' \to S$, $\pi* F$ is a submodule of $\pi* F'$ (because locally a direct factor),
 so $W(F)(S') = \Gamma(S', \pi* F)$ is a submodule of $W(F')(S') = \Gamma(S', \pi* F')$.
 
@@ -2680,7 +2680,7 @@ Let $F$ be a quasi-coherent and $G$-equivariant `OX`-module, and let $\theta$ be
 
 <!-- original page 45 -->
 
-$p_{*}(F)$ is quasi-coherent (cf. EGA I, 9.2.1).
+$p_{*}(F)$ is quasi-coherent (cf. [EGA I, 9.2.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#92-direct-image-of-a-quasi-coherent-sheaf)).
 
 **Lemma 6.6.1.** *The quasi-coherent `OY`-module $p_{*}(F)$ is $G$-equivariant.*
 
@@ -2697,8 +2697,8 @@ Indeed, one has the two cartesian squares below:
    G ×_S Y ─────────→ Y ←───────── G ×_S Y.
 ```
 
-Since $p$ is quasi-compact and quasi-separated and $pr_{Y}$ and $\mu$ are flat, it follows from EGA III, 1.4.15
-(completed by EGA IV_1, 1.7.21) that one has $q_{*} pr*_{X}(F) = pr*_{Y} p_{*}(F)$ and $q_{*} \lambda*(F) = \mu*
+Since $p$ is quasi-compact and quasi-separated and $pr_{Y}$ and $\mu$ are flat, it follows from [EGA III, 1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes)
+(completed by [EGA IV_1, 1.7.21](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#17-improvements-of-earlier-results)) that one has $q_{*} pr*_{X}(F) = pr*_{Y} p_{*}(F)$ and $q_{*} \lambda*(F) = \mu*
 p_{*}(F)$. Consequently, $\theta$ induces an isomorphism:
 
 ```text
@@ -2833,7 +2833,7 @@ structure on $W_{P}(F)$.*
 <!-- label: III.I.6.8.4 -->
 
 **Recollection 6.8.5.** *Let $X$ be an $S$-scheme and $Y$ a sub-$S$-scheme of $X$. One denotes by $N_{Y/X}$ the conormal
-sheaf of the immersion $i : Y \hookrightarrow X$ (cf. EGA IV_4, 16.1.2). If $S' \to S$ is a flat morphism and if one
+sheaf of the immersion $i : Y \hookrightarrow X$ (cf. [EGA IV_4, 16.1.2](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#161-normal-invariants-of-an-immersion)). If $S' \to S$ is a flat morphism and if one
 denotes $i' : Y' \hookrightarrow X'$ the immersion deduced from $i$ by base change, then by* loc. cit., *16.2.2 (iii),
 one has $N_{Y/X} \otimes_{OY} O_{Y'} = N_{Y'/X'}$.*
 
@@ -2932,7 +2932,7 @@ which endow $W_{P}(N)$ with a structure of $H$-equivariant module (cf. 6.1).
 
 [^N.D.E-I-9]: N.D.E.: If $F(S) \to G(S)$ is injective for every $S$, it is clear that $F \to G$ is a monomorphism; the
     converse is seen by considering the diagram $F \times_{G} F \Rightarrow F \to G$. One thus obtains that: "$F \to G$
-    is a monomorphism if and only if the diagonal morphism $F \to F \times_{G} F$ is an isomorphism" (cf. EGA I, 5.3.8).
+    is a monomorphism if and only if the diagonal morphism $F \to F \times_{G} F$ is an isomorphism" (cf. [EGA I, 5.3.8](https://jcreinhold.github.io/ega/i/01-05-reduced-preschemes-and-separation.html#53-diagonal-graph-of-a-morphism)).
     Likewise, it is clear that if $F(S) \to G(S)$ is surjective for every $S$, then $F \to G$ is an epimorphism, and the
     converse is seen by considering the amalgamated sum $G \bigsqcup_{F} G$, cf. the proof of Lemma 4.4.4 in Exp. IV.
 

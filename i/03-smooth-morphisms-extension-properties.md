@@ -1209,16 +1209,16 @@ the fundamental group of $X_{0}$ by transcendental means.
 
 <!-- end of Exposé III source block: next chapter begins at smf_doc-math_3_01.tex line 6269 -->
 
-[^iii-1-1-1]: For a more general and more conceptual definition, motivated by III.2.1 below, cf. EGA 0_IV 19.3.1.
+[^iii-1-1-1]: For a more general and more conceptual definition, motivated by III.2.1 below, cf. [EGA 0_IV 19.3.1](https://jcreinhold.github.io/ega/iv/06-ch0-19-formally-smooth-algebras.html#193-formally-smooth-algebras).
 
-[^iii-1-2-1]: Or better, “essentially unramified”, respectively “essentially étale”; compare EGA IV 18.6.1.
+[^iii-1-2-1]: Or better, “essentially unramified”, respectively “essentially étale”; compare [EGA IV 18.6.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#186-henselization).
 
-[^iii-2-1-1]: Cf. EGA 0_IV 19.3, 19.8.
+[^iii-2-1-1]: Cf. [EGA 0_IV 19.3](https://jcreinhold.github.io/ega/iv/06-ch0-19-formally-smooth-algebras.html#193-formally-smooth-algebras), 19.8.
 
 [^iii-5-0-1]: It seems preferable to adopt the shorter and more expressive term “torsor under $\mathcal{G}$”, introduced
     in J. Giraud's thesis.
 
-[^iii-5-8-1]: Cf. EGA III 5.4.1 for the proof.
+[^iii-5-8-1]: Cf. [EGA III 5.4.1](https://jcreinhold.github.io/ega/iii/12-ch3-05-existence-coherent-algebraic-sheaves.html#54-application-comparison-of-morphisms-of-usual-schemes-and-of-morphisms-of-formal-schemes-algebraizable-formal-schemes) for the proof.
 
 [^iii-6-3-1]: This condition is in fact unnecessary, and one can avoid the cocycle calculations above. Cf. J. Giraud,
     _Cohomologie Non Abélienne_, forthcoming from Springer Verlag, 1971. Compare Remarks III.6.4.

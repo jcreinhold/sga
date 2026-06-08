@@ -32,7 +32,7 @@ multiplicative type, in which case 4.1 and 4.2 will doubtless be the key result 
 
 ## 1. Reminders on smooth, étale, and unramified morphisms
 
-The reader is referred to EGA IV §§ 17 & 18, and pending its publication, to SGA 1, I, II, III (where it is however
+The reader is referred to [EGA IV §§ 17](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#17-smooth-unramified-étale-morphisms) & 18, and pending its publication, to SGA 1, I, II, III (where it is however
 appropriate to replace certain noetherian hypotheses, troublesome in applications, by hypotheses of finite
 presentation).
 
@@ -675,7 +675,7 @@ Let us prove 3.7. Let us place ourselves under the conditions of c); let $t$ be 
 O_t = lim_→ O_{T_i, t_i}.
 ```
 
-Then using the condition stated in c), one sees easily that $O_{t}$ is a noetherian local ring (EGA 0_IV 10.3.1.3). Its
+Then using the condition stated in c), one sees easily that $O_{t}$ is a noetherian local ring ([EGA 0_IV 10.3.1.3](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#103-existence-of-flat-extensions-of-local-rings)). Its
 residue field $\kappa(t)$ is the inductive limit of the residue fields $\kappa(t_{i})$, and $k$ is an extension of it.
 If $\eta$ denotes the spectrum of $\kappa(t)$, $\xi$ that of $k$, one has a commutative diagram
 
@@ -811,7 +811,7 @@ $t$, $t_{x}$. This morphism is induced by an $S$-morphism
 
 $$ w : U \longrightarrow V $$
 
-where $U$ is an open neighborhood of $x$ in $U_{t}$, and $V = U_{t_{x}}$ (EGA I 6.5.1). It all reduces to proving that
+where $U$ is an open neighborhood of $x$ in $U_{t}$, and $V = U_{t_{x}}$ ([EGA I 6.5.1](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#65-local-determination-of-a-morphism)). It all reduces to proving that
 this morphism is étale at $x$. Moreover, $U$ and $V$ are equipped with monomorphisms $U \to F$, $V \to F$, and one sees
 at once that, restricting $U$ further if necessary, $w$ is an $F$-morphism, hence $w$ is a monomorphism. It now suffices
 to prove the
@@ -1022,7 +1022,7 @@ N.D.E. (4). They are rendered here as XI-4-1 and N.D.E-XI-4. -->
 
 Let us now prove 4.1. Since the functor $F$ is evidently of local nature, one may suppose $S$ affine, so that $S =
 \operatorname{Spec}(A)$, $A$ a ring. Considering $A$ as the inductive limit of its subrings of finite type over
-$\mathbb{Z}$, and noting that $G$ comes from a smooth and affine group over such a subring (EGA IV 8), one is reduced to
+$\mathbb{Z}$, and noting that $G$ comes from a smooth and affine group over such a subring ([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes)), one is reduced to
 the case where $S$ is noetherian. For every integer $n > 0$, let $T_{n}$ be the functor defined as $F$, but restricting
 to subgroups $H$ of multiplicative type of `G_T` such that $n \cdot id_{H} = 0$, i.e. such that ${}_{n}H = H$. Order the
 set $I$ of integers `> 0` by the divisibility relation. When $m$ is a multiple of $n$, define
@@ -1219,7 +1219,7 @@ It remains to prove this last point. Now the morphism
 
 $$ g \mapsto int(g) \circ u $$
 
-from $G$ to $M$ is smooth of finite type by virtue of 5.2; it is therefore an open morphism (EGA IV 6.6), and if $U$
+from $G$ to $M$ is smooth of finite type by virtue of 5.2; it is therefore an open morphism ([EGA IV 6.6](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#66-transitivity-properties)), and if $U$
 denotes its image, with the structure induced by $M$, the induced morphism $G \to U$ is smooth, surjective, of finite
 type, hence covering for the faithfully flat and quasi-compact topology. Moreover, it is evident that the preceding
 morphism $G \to M$ makes $G$ into a formally principal homogeneous sheaf under $Centr_{G}(u)_{M}$, which implies that
@@ -1244,7 +1244,7 @@ the sheaf $G/Centr_{G}(u)$ is indeed representable by $U$.
 $Centr_{G}(u_{1})$.*
 
 (i) ⇒ (i bis) and (ii) ⇒ (ii bis) are trivial (the second thanks to the Nullstellensatz); on the other hand (i bis) ⇒
-(ii) by the "principle of finite extension" (EGA IV 9). On the other hand (ii bis) ⇒ (iii) thanks to the fact that
+(ii) by the "principle of finite extension" ([EGA IV 9](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#9-constructible-properties)). On the other hand (ii bis) ⇒ (iii) thanks to the fact that
 $Transp(u_{1}, u_{2})$ is smooth over $S$ hence flat over $S$, and of finite type hence quasi-compact over $S$; it is
 therefore faithfully flat quasi-compact over $S$ if and only if its structural morphism is surjective. As, on the other
 hand, it is formally principal homogeneous under $Centr_{G}(u_{1})$, which is faithfully flat and quasi-compact over
@@ -1748,7 +1748,7 @@ over $S$. In particular, 6.11 a) remains valid by replacing the hypothesis "$H$ 
 
 [^XI-5-1]: The situation has changed since the writing of this text, cf. XV and XIX N° 6.
 
-[^XI-5-2]: EGA IV 15.5.1 and 18.10.7.
+[^XI-5-2]: [EGA IV 15.5.1](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#155-separable-rank-of-the-fibres-of-a-quasi-finite-and-universally-open-morphism-application-to-the-geometric-connected-components-of-the-fibres-of-a-proper-morphism) and 18.10.7.
 
 [^N.D.E-XI-5]: *N.D.E.* For a generalization to the non-affine case, see M. Raynaud, *Faisceaux amples sur les schémas
     en groupes et les espaces homogènes*, Lecture Notes Math. 119 (1970), IX.2.8.

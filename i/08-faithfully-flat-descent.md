@@ -309,7 +309,7 @@ the usual axioms just mentioned if and only if $F'$ does.
 For example, the data of a quasi-coherent Algebra $\mathcal{A}$ on $S$, by which from now on we mean associative,
 commutative, and with unit section, is equivalent to the data of a quasi-coherent Algebra $\mathcal{A}'$ on $S'$ endowed
 with descent data relative to $g: S' \to S$. Recalling the equivalence between the dual category of quasi-coherent
-Algebras on $S$ and the category of affine $S$-preschemes over $S$, EGA II, §1, one obtains at once:
+Algebras on $S$ and the category of affine $S$-preschemes over $S$, [EGA II, §1](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#1-affine-morphisms), one obtains at once:
 
 **Theorem.**
 
@@ -327,8 +327,8 @@ morphism of preschemes. Then $g$ is a morphism of effective $\mathcal{F}'$-desce
 
 <!-- label: VIII.3 -->
 
-_\[Translator’s note: the source section title has a footnote referring to further results of the same kind in EGA IV
-2.3, 2.6, and 2.7.\]_
+_\[Translator’s note: the source section title has a footnote referring to further results of the same kind in [EGA IV
+2.3](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#23-topological-properties-of-flat-morphisms), 2.6, and 2.7.\]_
 
 **Proposition.**
 
@@ -782,7 +782,7 @@ $f(X)$ is closed, one is reduced to the case where $f'$ is a closed immersion, h
 
 Under the conditions of VIII.5.4, $f$ is affine if and only if $f'$ is.
 
-One proceeds as in VIII.5.5, using VIII.2.1. One may also use Serre’s cohomological criterion [EGA II 5.2], which proves
+One proceeds as in VIII.5.5, using VIII.2.1. One may also use Serre’s cohomological criterion [[EGA II 5.2](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#52-serres-criterion)], which proves
 VIII.5.6 without using descent techniques.
 
 **Corollary.**
@@ -831,7 +831,7 @@ intersection of the $Z_{n}$ is empty, that is, one has a canonical morphism
 
 $$ j: X \to \operatorname{Proj}(\mathcal{S}) $$
 
-(EGA II 3). Moreover, the analogous morphism
+([EGA II 3](https://jcreinhold.github.io/ega/ii/02-03-homogeneous-spectrum-sheaf-graded-algebras.html#3-homogeneous-spectrum-of-a-sheaf-of-graded-algebras)). Moreover, the analogous morphism
 
 $$ j': X' \to \operatorname{Proj}(\mathcal{S}') $$
 
@@ -845,7 +845,7 @@ $\mathcal{S}_{1}$.
 
 <!-- original page 216 -->
 
-Recall (EGA II 5.1.1) that a quasi-compact morphism $f$ is called **quasi-affine** if, for every affine open $U$ in $Y$,
+Recall ([EGA II 5.1.1](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#51-quasi-affine-morphisms)) that a quasi-compact morphism $f$ is called **quasi-affine** if, for every affine open $U$ in $Y$,
 $f^{-1}(U)$ is a prescheme isomorphic to an open subscheme of an affine scheme. One shows (loc. cit.) that this is
 equivalent to saying that $\mathcal{O}_{X}$ is ample (or also very ample) relative to $f$. Thus VIII.5.8 implies:
 
@@ -874,7 +874,7 @@ locally free, however, see VIII.7.7.
 <!-- label: VIII.6 -->
 
 \[
-Translator note: the section title contains a footnote in the source: “Cf. EGA IV 18.12 for generalizations to
+Translator note: the section title contains a footnote in the source: “Cf. [EGA IV 18.12](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1812-applications-of-étale-localization-to-quasi-finite-morphisms-generalizations-of-earlier-results) for generalizations to
 preschemes not necessarily locally noetherian.”
 \]
 
@@ -900,7 +900,7 @@ quasi-affine, and a fortiori quasi-projective.
 <!-- original page 217 -->
 
 Theorem VIII.6.1 is well known, and is due to Chevalley in the case of algebraic varieties. One also finds a simple
-proof in [EGA III 4], using the “theorem on formal functions.” The proof given here does not use that theorem, but
+proof in [[EGA III 4](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#4-the-fundamental-theorem-of-proper-morphisms-applications)], using the “theorem on formal functions.” The proof given here does not use that theorem, but
 instead uses descent theory; we give it as a bonus to the reader, since it comes “for free” at the same time as the
 proof of VIII.6.2. Recall also ([EGA III 4] or [VIII.1]) that the global form of Zariski’s “Main Theorem,” deduced from
 the “theorem on formal functions,” asserts that if $f: X \to Y$ is quasi-finite and **quasi-projective**, with $Y$
@@ -927,7 +927,7 @@ neighborhood $U$ of $y$ such that $X|U$ is finite (respectively quasi-affine, re
 $X \times_{Y} \operatorname{Spec}(\mathcal{O}_{y})$ is finite (respectively quasi-affine, respectively ...) over
 $\operatorname{Spec}(\mathcal{O}_{y})$.
 
-[Translator note: the source footnote refers to EGA IV 8.]
+[Translator note: the source footnote refers to [EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes).]
 
 Since, on the other hand, the property for $f: X \to Y$ of being finite, respectively quasi-affine, is local on $Y$, in
 order to prove VIII.6.1 and VIII.6.2 we are reduced to the case where $Y$ is the spectrum of a local ring, and hence has
@@ -1168,7 +1168,7 @@ to VIII.7.9 and VIII.7.2, which avoids the use of norms.
 
 Notice moreover that under the conditions of VIII.7.6, if the descent datum on $X'$ is effective, with $X'$ coming from
 $X$ over $S$, then the morphism $X' \to X$ is finite, locally free, and surjective, since it is deduced from $g$ by the
-base change $X \to S$. It follows (EGA II 6.6.4) that if $X'$ is quasi-projective over $S'$, hence over $S$, then $X$ is
+base change $X \to S$. It follows ([EGA II 6.6.4](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#66-application-criteria-for-ampleness)) that if $X'$ is quasi-projective over $S'$, hence over $S$, then $X$ is
 quasi-projective over $S$. A relatively ample invertible sheaf on $X$ is obtained by taking the **norm** of an
 invertible sheaf on $X'$ relatively ample over $S$, or over $S'$, which is the same thing. Thus one obtains:
 

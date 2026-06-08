@@ -1049,7 +1049,7 @@ fractions of R, K′ the field of fractions of R′, L an étale K-algebra, and 
 over R if and only if L′ is tamely ramified over R′. Indeed, one may suppose R and R′ strictly local. By XIII.2.0.1 it
 is enough to prove that, when L is a field, L′ is also a field. Let R̃ be the normalization of R in L, let π̃ be a
 uniformizer of R̃, and let R̃′ = R̃ ⊗\_R R′. Since the extension κ(R̃)|κ(R) is radicial and the extension κ(R′)|κ(R) is
-étale, κ(R̃) ⊗\*κ(R) κ(R′) is a field [EGA IV 4.3.2 and 4.3.5]. This proves that R̃′ is a local ring; and since π maps to
+étale, κ(R̃) ⊗\*κ(R) κ(R′) is a field [[EGA IV 4.3.2](https://jcreinhold.github.io/ega/iv/16-ch4-04-base-field-change.html#43-reminders-on-tensor-products-of-fields) and 4.3.5]. This proves that R̃′ is a local ring; and since π maps to
 π′ in R′, one has κ(R̃′) = R′/(π̃). Consequently R̃′ is a discrete valuation ring [XIII.5, ch. I, §2, prop. 2], and hence
 L′ is a field.
 
@@ -1755,7 +1755,7 @@ $i_{*}\mathcal{F}$ is constructible; hence the same is true of $q_{*}\mathcal{F}
 1.1).
 
 Let 𝓕 be a constructible sheaf of groups on U satisfying XIII.2.4 a or XIII.2.4 b, and let us prove that R¹*tame q*\*𝓕
-is constructible. By passage to the limit (EGA IV 8.10.5 and 17.7.8) and using 1, one may suppose S noetherian. Let Φ be
+is constructible. By passage to the limit ([EGA IV 8.10.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#810-permanence-properties-of-morphisms-under-projective-passage-to-the-limit) and 17.7.8) and using 1, one may suppose S noetherian. Let Φ be
 the stack on X whose fiber over every scheme X′ étale over X is formed by the torsors on U′ = U ×\_X X′, with group 𝓕|U,
 that are tamely ramified on X relative to S. Thus one has
 
@@ -2142,7 +2142,7 @@ from XIII.1.13 1 that $(F,f)$ is cohomologically proper relative to $S$ in dimen
 1.2. **Reduction to the case where X is normal affine over S.**
 
 Let U_s be an affine open subset of X_s dense in X_s. After restricting S to a nonempty open subset, one may suppose
-that U_s → X_s lifts to an open immersion i: U → X, schematically dominant relative to S (EGA IV 8.9.1). Since the
+that U_s → X_s lifts to an open immersion i: U → X, schematically dominant relative to S ([EGA IV 8.9.1](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#89-first-applications-to-the-elimination-of-noetherian-hypotheses)). Since the
 morphism X → S is normal, one has by SGA 2 XIV 1.18:
 
 $$ prof_{et},S-U(X) \geq 2; $$
@@ -2158,7 +2158,7 @@ reduction.
 
 1.3. **End of the proof.**
 
-One may suppose S normal (EGA IV 7.8.3). One can find a compactification of X_s:
+One may suppose S normal ([EGA IV 7.8.3](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings)). One can find a compactification of X_s:
 
 <!-- original page 398 -->
 
@@ -2184,7 +2184,7 @@ X → P
 ```
 
 where $P$ is a scheme normal over $S$, $j$ is an open immersion schematically dominant relative to $S$, and $g$ is
-proper (EGA IV 6.9.1, 9.9.4, and 9.6.1). For every finite constant sheaf of sets $F$ on $X$ with value $C$, $j_{*}F$ is
+proper ([EGA IV 6.9.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#69-the-generic-flatness-theorem), 9.9.4, and 9.6.1). For every finite constant sheaf of sets $F$ on $X$ with value $C$, $j_{*}F$ is
 the constant sheaf with value $C$ (SGA 4 2.14.1), and the same remains true after every base change $S' \to S$. It
 follows that $(F,j)$ is cohomologically proper relative to $S$ in dimension ≤ 0. Hence the same is true of $(F,f)$,
 since $g$ is proper (XIII.1.8). Since $g$ is proper, $f_{*}F = g_{*}C_{P}$ is constructible, which completes the proof
@@ -2225,7 +2225,7 @@ scheme smooth over S
 
 <!-- original page 400 -->
 
-(EGA IV 9.6.1 and 12.1.6). Let X₂ = X₁ ×\_X X₁, and let q: X₂ → X be the canonical morphism. There is an exact diagram
+([EGA IV 9.6.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#96-constructibility-of-certain-properties-of-morphisms) and 12.1.6). Let X₂ = X₁ ×\_X X₁, and let q: X₂ → X be the canonical morphism. There is an exact diagram
 of stacks on X
 
 ```text
@@ -2627,7 +2627,7 @@ same remains true when X is replaced by an étale scheme of finite type over X, 
 <!-- label: XIII.3.3 -->
 
 Let S be an irreducible scheme with generic point s, and let f: X → S be a morphism of finite presentation. Suppose that
-the finite type schemes of dimension ≤ dim X_s over an algebraic closure k̄ of k are desingularizable (EGA IV 7.9.1).
+the finite type schemes of dimension ≤ dim X_s over an algebraic closure k̄ of k are desingularizable ([EGA IV 7.9.1](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#79-excellent-rings-and-resolution-of-singularities)).
 Then, if ℒ denotes the set of prime numbers distinct from the residual characteristics of S, there exists a nonempty
 open subset S₁ of S such that the morphism f|S₁ is universally locally 1-aspherical for ℒ.
 
@@ -2638,7 +2638,7 @@ is a composite of étale extensions and surjective radicial extensions.
 First let us show that, after possibly restricting $S$ to a nonempty open subset, $f$ is universally locally 0-acyclic.
 After possibly making a radicial extension of $\kappa(s)$, we may suppose that the morphism $(X_{s})_{red} \to s$ is
 separable; hence, after possibly restricting $S$ to a nonempty open subset and making a surjective radicial extension of
-$S$, we may suppose that $f$ is flat, with geometrically separable fibers (EGA IV 12.1.1). It follows that $f$ is
+$S$, we may suppose that $f$ is flat, with geometrically separable fibers ([EGA IV 12.1.1](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#121-local-properties-of-the-fibres-of-a-flat-morphism-locally-of-finite-presentation)). It follows that $f$ is
 universally 0-acyclic (SGA 4 XV 4.1).
 
 Let us show that, after possibly restricting S to a nonempty open subset, f is universally locally 1-aspherical for ℒ.
@@ -3413,7 +3413,7 @@ Then, if x′ is the point of X′ above x, X′ is smooth over S at x′. If th
 of κ(x), then U′₁ = U₁ ×\_X X′ is a connected étale covering of U₁, tamely ramified over X₁ relative to S₁ (XIII.2.1.1).
 
 If $s = f(x)$, the geometric fiber $X'_{\bar{s}}$ is regular at $x'$ (XIII.5.1); since $X'$ is flat over $S$ in a
-neighborhood of $Y$, this proves that $X'$ is smooth over $S$ at $x'$ (EGA IV 12.1.6). If the integers $n_{i}$ are prime
+neighborhood of $Y$, this proves that $X'$ is smooth over $S$ at $x'$ ([EGA IV 12.1.6](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#121-local-properties-of-the-fibres-of-a-flat-morphism-locally-of-finite-presentation)). If the integers $n_{i}$ are prime
 to $p$, $U'_{1}$ is an étale covering of $U_{1}$ (I.7.4); it is tamely ramified over $X_{1}$ relative to $S$ because
 this is true on the geometric fibers over every point of $S$ (XIII.5.1). Finally, the fact that $U'_{1}$ is connected
 follows from SGA 4 XVI 3.2.

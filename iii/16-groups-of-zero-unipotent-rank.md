@@ -182,14 +182,14 @@ such that $G$, $H$, $u$ are obtained from $G_{0}$, $H_{0}$, $u_{0}$ by a base ex
 is a monomorphism translates to $Ker u =$ unit group; we may therefore assume that $u_{0}$ is a monomorphism. Since $G$
 has zero unipotent rank $\rho_{u}$ and possesses, locally for the fpqc topology, maximal tori, the abelian rank
 $\rho_{ab}$ of the fibers of $G$ is locally constant (Exp. XV 8.18). But $\rho_{u}$ and $\rho_{ab}$ are locally
-constructible functions (Exp. XV 6.3 bis). A standard argument (cf. EGA IV 8.3.4) shows that one may choose $S_{0}$ and
+constructible functions (Exp. XV 6.3 bis). A standard argument (cf. [EGA IV 8.3.4](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#83-constructible-parts-in-a-projective-limit-of-preschemes)) shows that one may choose $S_{0}$ and
 $G_{0}$ so that the unipotent rank (resp. the abelian rank) of the fibers of $G_{0}$ is zero (resp. locally constant).
 But then $G_{0}$ possesses locally maximal tori for the fpqc topology (Exp. XV 8.18), and <!-- original page 490 --> the
 functor $\mathcal{TM}_{G_{0}}$ of maximal tori of $G_{0}$ is representable by an $S_{0}$-scheme $X_{0}$, of finite type
 over $S_{0}$ (Exp. XV 8.15). Let $T_{0}$ be the "universal" maximal torus of $(G_{0})_{X_{0}}$, $X$ the $S$-prescheme
 $X_{0} \times_{S_{0}} S$, $T = T_{0} \times_{S_{0}} S$ the universal maximal torus for $G$. By hypothesis, in case b),
 the Weyl group relative to $T$ is representable and finite over $X$. These two properties are compatible with projective
-limits of preschemes (Exp. VI_B 10.1 iii) and EGA IV 8.10.5). One may therefore choose $S_{0}$ so that the Weyl group of
+limits of preschemes (Exp. VI_B 10.1 iii) and [EGA IV 8.10.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#810-permanence-properties-of-morphisms-under-projective-passage-to-the-limit)). One may therefore choose $S_{0}$ so that the Weyl group of
 $T_{0}$ is finite over $X_{0}$. Under these conditions it is clear that to prove 1.4 we may replace $S$, $G$, $u$, $H$
 by $S_{0}$, $G_{0}$, $u_{0}$, $H_{0}$, hence assume $S$ noetherian.
 
@@ -213,7 +213,7 @@ zero unipotent rank. Then:*
 only if the abelian rank, or the reductive rank, of $G$ is locally constant on $S$.*
 
 *iii) For every integer $q > 0$ invertible on $S$, the family of subgroups ${}_{q^{n}}G$ is universally schematically
-dense in $G$ relative to $S$ (EGA IV 11.10.8).*
+dense in $G$ relative to $S$ ([EGA IV 11.10.8](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)).*
 
 <!-- original page 491 -->
 
@@ -267,11 +267,11 @@ artinian.
 Let $q$ be an integer invertible on $S$. For every integer $n$, ${}_{q^{n}}G_{s}$ is a subgroup of multiplicative type
 of $G_{s}$, étale and central (1.7). Since $G$ is smooth, ${}_{q^{n}}(G_{s})$ lifts to an $S$-group subscheme étale and
 central $M_{n}$ of $G$ (Exp. XV 1.2). The family of flat subgroups $M_{n}$, $n \in \mathbb{N}$, is then schematically
-dense in $G$ (1.7 and EGA IV 11.10.9). Since $Z$ is closed in $G$ and majorizes all the $M_{n}$, we have $Z = G$.
+dense in $G$ (1.7 and [EGA IV 11.10.9](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)). Since $Z$ is closed in $G$ and majorizes all the $M_{n}$, we have $Z = G$.
 
 *1.6 ii).* To see that ${}_{n} G$ is flat and quasi-finite over $S$, it suffices to show that raising to the $n$th power in
 $G$ is a flat and quasi-finite morphism. Since $G$ is flat over $S$, we are reduced to the case where $S$ is the
-spectrum of a field (EGA IV 11.3.10), and we noted in the proof of 1.7 that raising to the $n$th power was an
+spectrum of a field ([EGA IV 11.3.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses)), and we noted in the proof of 1.7 that raising to the $n$th power was an
 epimorphism. Moreover ${}_{n} G$ is separated over $S$, since $G$ is separated over $S$ (Exp. VI_B <!-- original page 494
 --> 5.2). For ${}_{n} G$ to be finite over $S$, it is necessary and sufficient that the fibers of ${}_{n} G$ be the spectra of
 finite algebras, of locally constant rank (one sees this immediately by reducing to the case where $S$ is the spectrum
@@ -308,14 +308,14 @@ if $S$ is locally noetherian) and $u : G \to H$ an $S$-group morphism. Then if t
 $u$ is proper.*
 
 **Proof of 1.8.** We reduce as usual to the case where $S$ is noetherian (Exp. VI_B § 10 and Exp. XV 6.2) and we may
-then apply the valuative criterion of properness (EGA II 7.3.8). We therefore suppose that $S$ is the spectrum of a
+then apply the valuative criterion of properness ([EGA II 7.3.8](https://jcreinhold.github.io/ega/ii/02-07-valuative-criteria.html#73-valuative-criterion-of-properness)). We therefore suppose that $S$ is the spectrum of a
 discrete valuation ring $A$, with closed point $s$ and generic point $t$. Let $x \in G(t)$ and $h \in H(S)$ be such that
 $u_{t}(x) = h(t)$. We must show that $x$ comes from a unique element $x$ of $G(S)$. It even suffices to prove the
 existence and uniqueness of $x$ after a faithfully flat extension of the discrete valuation ring $A$. Now let $y$ be the
 projection of $x$ in $G''(t)$. Since $G''$ is proper over $S$, $y$ comes from a unique element $y$ of $G''(S)$. Let $X$
 be the inverse image of $y$ in $G$. The prescheme $X$ is faithfully flat over $S$ (since $G'$ is faithfully flat over
 $S$ as is the morphism $G \to G''$ (Exp. VI_B § 9)). Replacing if necessary the discrete valuation ring by a faithfully
-flat one, we may assume that $X$ has a section $\ell$ over $S$ (EGA IV 14.5.8). Replacing $x$ by $x\ell^{-1}_{t}$, we
+flat one, we may assume that $X$ has a section $\ell$ over $S$ ([EGA IV 14.5.8](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#145-universally-open-morphisms-and-quasi-sections)). Replacing $x$ by $x\ell^{-1}_{t}$, we
 may assume that $x \in G'(t)$. But then the existence and uniqueness of $x$ follow from the fact that $u|G'$ is proper.
 
 **Proof of 1.5.**
@@ -332,8 +332,8 @@ fibers, has unit Weyl group (*Bible* 6 th. 1 cor. 3).
 **Proof of 1.3 a).**
 
 Since the morphism $u$ is already a monomorphism, in order to see that $u$ is an immersion, it suffices to show that $u$
-is proper at the points of $u(G)$ (EGA IV 15.7.1); for that we may use the valuative criterion of local properness (EGA
-IV 15.7.5). We are thus reduced to the case where $S$ is the spectrum of a complete discrete valuation ring with
+is proper at the points of $u(G)$ ([EGA IV 15.7.1](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#157-appendix-valuative-criteria-of-local-properness)); for that we may use the valuative criterion of local properness ([EGA
+IV 15.7.5](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#157-appendix-valuative-criteria-of-local-properness)). We are thus reduced to the case where $S$ is the spectrum of a complete discrete valuation ring with
 algebraically closed residue field, with closed point $s$ and generic point $t$. Since $G$ is flat over $S$, standard
 reductions (cf. Exp. VIII proof of 7.1) allow us to reduce to the case where $H$ is flat over $S$, $u_{t}$ is an
 isomorphism, and $u_{s}$ is an isomorphism of underlying spaces. To say that $u$ is an immersion is then equivalent to
@@ -435,8 +435,8 @@ It is clear that $h(S)$ is contained in $u(C) = D$, hence $h$ is the image of a 
 
 **Proof of 1.3 b).**
 
-We shall again use the valuative criterion of local properness (EGA IV 15.5) in the case of an immersion (resp. the
-valuative criterion of properness (EGA II 7.3.6) in the case of a closed immersion). This reduces us to the case where
+We shall again use the valuative criterion of local properness ([EGA IV 15.5](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#155-separable-rank-of-the-fibres-of-a-quasi-finite-and-universally-open-morphism-application-to-the-geometric-connected-components-of-the-fibres-of-a-proper-morphism)) in the case of an immersion (resp. the
+valuative criterion of properness ([EGA II 7.3.6](https://jcreinhold.github.io/ega/ii/02-07-valuative-criteria.html#73-valuative-criterion-of-properness)) in the case of a closed immersion). This reduces us to the case where
 $S$ is the spectrum of a complete discrete valuation ring with algebraically closed residue field. Let $s$ be the closed
 point and $t$ the generic point of $S$. Replacing $H$ by the schematic closure in $H$ of $u_{t}(G_{t})$, we may assume
 that $H$ is flat over $S$ and that $u_{t}$ is an isomorphism.
@@ -518,11 +518,11 @@ The morphism $u$ is an isomorphism, since $f''$ is a monomorphism, and $p'_{1}$ 
 is flat.
 
 b) The assertions of 2.1 are local on $Y$ (and so are local on $S$); they are also local on $X$, as follows easily from
-the fact that a flat morphism locally of finite presentation is open (EGA IV 11.3.1).
+the fact that a flat morphism locally of finite presentation is open ([EGA IV 11.3.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses)).
 
 c) Under the hypotheses of 2.1 a), in view of the foregoing, we are reduced to the case where $X$ and $Y$ are affine and
 $f$ of finite presentation. Replacing $S$ by $Y$, we may assume $X$ and $Y$ of finite presentation over $S$. We then
-reduce to the case $S$ noetherian thanks to EGA IV 11.2.6.
+reduce to the case $S$ noetherian thanks to [EGA IV 11.2.6](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#112-flatness-of-a-projective-limit-of-preschemes).
 
 d) Under the hypotheses of 2.1 b), we may assume $S$, $X$, $Y$ affine, $S$ noetherian and $X$ of finite type over $S$.
 Consider $Y$ as a filtered projective limit of affine schemes $Y_{i}$ of finite type over $S$. The schemes $X
@@ -575,7 +575,7 @@ G ×_S H ⟶ G ×_X G,    (g, h) ↦ (g, gh)
 
 is an isomorphism. Since $H$ is flat over $S$, $G \times_{S} H$ is flat over $G$, so the first projection $p_{1} : G
 \times_{S} G \to G$ is a flat morphism. Furthermore, if $X$ is locally of finite type over $S$, $f$ is locally of finite
-presentation (EGA IV 1.4.3 v)); otherwise $S$ is assumed locally noetherian. It then suffices to apply 2.1 to the
+presentation ([EGA IV 1.4.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation) v)); otherwise $S$ is assumed locally noetherian. It then suffices to apply 2.1 to the
 morphism $f$.
 
 It remains to see that $G/H$ is locally of finite presentation over $S$, but this follows immediately from Exp. V 9.1.
@@ -612,9 +612,9 @@ $S$ and quasi-projective over $S$.*
 All the assertions to be proved, except the last, are local on $S$. To establish them, we may therefore assume $S$
 quasi-compact and the relative dimension of $H$ over $S$ constant and equal to $r$. Let us proceed as in XV § 5. For
 every integer $n > 0$, let $G_{(n)}$ (resp. $H_{(n)}$) be the $n$th normal invariant of the unit section of $G$ (resp.
-of $H$) (EGA IV 16). The sheaf of $\mathcal{O}_{S}$-modules $H_{(n)}$ is a quotient of $G_{(n)}$, and $H$ being smooth
+of $H$) ([EGA IV 16](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#16-differential-invariants-differentially-smooth-morphisms)). The sheaf of $\mathcal{O}_{S}$-modules $H_{(n)}$ is a quotient of $G_{(n)}$, and $H$ being smooth
 over $S$ of dimension $r$, $H_{(n)}$ canonically defines an element $\xi_{n}$ of $X_{n} = Grass_{\varphi(n,r)} G_{(n)}$
-(EGA I 2nd ed. § 9) for a suitable integer $\varphi(n, r)$. On the other hand, $G$ acts naturally on $G_{(n)}$ (and
+([EGA I 2](https://jcreinhold.github.io/ega/i/01-02-preschemes-and-morphisms.html#2-preschemes-and-morphisms-of-preschemes)nd ed. § 9) for a suitable integer $\varphi(n, r)$. On the other hand, $G$ acts naturally on $G_{(n)}$ (and
 hence also on $X_{n}$) via the representation
 
 ```text
@@ -637,8 +637,8 @@ F(T) =  set of T-subgroups H of G_T, representable, smooth over T,
         with connected fibers.
 ```
 
-Such a group $H$ is of finite presentation over $S$ (Exp. VI_B 5.5) and $H \to G_{T}$ is a quasi-affine morphism (EGA IV
-8.11.2). By effective descent of quasi-affine morphisms (SGA 1, VIII 7.9), one deduces that $F$ is a sheaf for the fpqc
+Such a group $H$ is of finite presentation over $S$ (Exp. VI_B 5.5) and $H \to G_{T}$ is a quasi-affine morphism ([EGA IV
+8.11.2](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms)). By effective descent of quasi-affine morphisms (SGA 1, VIII 7.9), one deduces that $F$ is a sheaf for the fpqc
 topology. Since $G/N$ is the sheaf associated to a subfunctor of $F$, one sees that there is a canonical monomorphism
 $G/N \to F$. There exists therefore a subgroup $H_{0}$ of $G \times_{S} (G/N)$, representable, smooth over $G/N$, with
 connected fibers, "universal" for the functor $G/N$. I claim that the invertible sheaf $L = (det(Lie H_{0}))^{-1}$ is
@@ -790,7 +790,7 @@ $S$-group preschemes, smooth over $S$, whose fibers are abelian varieties) and t
 Using the general properties of passage to the limit proved in Exp. VI_B § 10 and Exp. XV 6.2, 6.3, and 6.3 bis, we
 reduce as usual to the case <!-- original page 514 --> where $S$ is noetherian (note that the assertions of 3.4 and 3.5
 are local on $S$). We noted in 3.1 that the hypotheses on $G$ imply that $Z$ is representable. To show that $Z$ is flat
-over $S$, we reduce by EGA 0_III 10.2.6 to the case where $S$ is local artinian. But then, $G$ being smooth, $G$
+over $S$, we reduce by [EGA 0_III 10.2.6](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#102-local-criteria-of-flatness) to the case where $S$ is local artinian. But then, $G$ being smooth, $G$
 possesses locally for the étale topology maximal tori (Exp. XV 8.17). Replacing $S$ by a finite flat extension if
 necessary (which is allowable for proving that $Z$ is flat), we may assume that $G$ possesses a maximal torus $T$.
 
@@ -812,7 +812,7 @@ i : Z/Z ∩ T ⟶ C/T
 
 is an isomorphism, it suffices to verify this when $S$ is local artinian. <!-- original page 515 --> Indeed, one will
 then deduce in succession that $Z/Z \cap T$ is flat over $S$ (EGA 0_III 10.2.6), then that $i$ is flat (EGA IV 11.3.10),
-then that $i$ is an open immersion (EGA IV 17.9.1), then that $i$ is an isomorphism (since $C/T$ has connected fibers).
+then that $i$ is an open immersion ([EGA IV 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)), then that $i$ is an isomorphism (since $C/T$ has connected fibers).
 
 We henceforth assume that $S$ is local artinian with closed point $s$ and that $G$ possesses a maximal torus $T$. Let $C
 = Centr_{G}(T)$. The group $C$ is a Cartan subgroup of $G$ (Exp. XII 7.1) and majorizes $Z$.
@@ -843,7 +843,7 @@ proof of 3.4 a) and of 3.5.
 Considering $A$ as an inductive limit of its sub-$\mathbb{Z}$-algebras of finite type, we reduce as above to the case
 where $S$ is noetherian reduced.
 
-To show that $Z$ is flat, we have at our disposal a valuative criterion of flatness (EGA IV 11.8.1), which allows us to
+To show that $Z$ is flat, we have at our disposal a valuative criterion of flatness ([EGA IV 11.8.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#118-a-valuative-criterion-of-flatness)), which allows us to
 reduce to the case where $S$ is the spectrum of a complete discrete valuation ring with algebraically closed residue
 field, with generic point $t$ and closed point $s$. Let $Z'$ be the schematic closure in $Z$ of $Z_{t}$. We must show
 that $Z' = Z$, and it suffices even to show that $Z_{s} = Z'_{s}$ (Exp. VI_B 2.6). <!-- original page 517 --> By (Exp.
@@ -951,13 +951,13 @@ finite. Then $u$ is an affine morphism.*
 <!-- label: III.XVI.4.2 -->
 
 The assertion to be proved is local on $Y$, which allows us to assume $Y$ (and hence also $X$) of finite type over $S$.
-By EGA IV 8, one sees that it suffices to prove 4.2 when $S$ is the spectrum of a local ring $A$. By fpqc descent we may
-assume $A$ complete, then $A$ reduced (EGA II 1.6.4), then $A$ normal (Nagata's theorem (EGA 0_IV 22) and Chevalley's
-theorem (EGA II 6.7.1)). If $A$ is a field, $u$ is finite by hypothesis, hence affine. Otherwise $A$ is a discrete
+By [EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes), one sees that it suffices to prove 4.2 when $S$ is the spectrum of a local ring $A$. By fpqc descent we may
+assume $A$ complete, then $A$ reduced ([EGA II 1.6.4](https://jcreinhold.github.io/ega/ii/02-01-affine-morphisms.html#16-affine-morphisms)), then $A$ normal (Nagata's theorem ([EGA 0_IV 22](https://jcreinhold.github.io/ega/iv/09-ch0-22-differential-criteria.html#22-differential-criteria-for-formal-smoothness-and-regularity)) and Chevalley's
+theorem ([EGA II 6.7.1](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#67-chevalleys-theorem))). If $A$ is a field, $u$ is finite by hypothesis, hence affine. Otherwise $A$ is a discrete
 valuation ring; let $s$ be the closed point of $S$, $t$ the generic point, $\pi$ a uniformizer of $A$. Let $y$ be a
 point of $Y_{s}$. Applying EGA IV 8 once more, we may replace $Y$ by the spectrum $Y'$ of $\mathcal{O}_{Y,y}$ and $X$ by
-$X' = X \times_{Y} Y'$; we may even assume $\mathcal{O}_{Y,y}$ complete. Since $u$ is quasi-finite and separated, by EGA
-II 6.2.6 $X'$ is a sum of two schemes $X_{1}$ and $X_{2}$ with $X_{1}$ finite over $Y'$ (hence affine) and $X_{2}$ such
+$X' = X \times_{Y} Y'$; we may even assume $\mathcal{O}_{Y,y}$ complete. Since $u$ is quasi-finite and separated, by [EGA
+II 6.2.6](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#62-quasi-finite-morphisms) $X'$ is a sum of two schemes $X_{1}$ and $X_{2}$ with $X_{1}$ finite over $Y'$ (hence affine) and $X_{2}$ such
 that $u(X_{2})$ does not contain the closed point $y$ of $Y'$. I claim that under these conditions $X_{2}$ does not meet
 the closed fiber $X'_{s}$. Indeed, by hypothesis <!-- original page 522 --> $X'_{s} \to Y'_{s}$ is finite, hence the
 restriction of this morphism to the closed subset $(X_{2})_{s}$ is finite and its image in $(Y')_{s}$ is a closed
@@ -1035,7 +1035,7 @@ unipotent rank of $G$ is zero and one may apply 4.1.
 By 4.1 d), it suffices to show that the Weyl group $W$ relative to $T$ is affine over a neighborhood $U$ of $s$. In fact
 we shall see that $W$ is even finite over a neighborhood of $s$. Since $W$ is quasi-finite over $S$ (Exp. XV 7.1 iv)),
 to say that $W$ is finite over a neighborhood $U$ of $s$ is equivalent to saying that the morphism $W \to S$ is proper
-at $s$ (EGA IV 15.7 and EGA III 4.4.2); to establish this we have at our disposal <!-- original page 525 --> the
+at $s$ ([EGA IV 15.7](https://jcreinhold.github.io/ega/iv/27-ch4-15-fibers-of-a-morphism.html#157-appendix-valuative-criteria-of-local-properness) and [EGA III 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)); to establish this we have at our disposal <!-- original page 525 --> the
 valuative criterion of local properness (EGA IV 15.7), which reduces us to the case where $S$ is the spectrum of a
 discrete valuation ring, with closed point $s$. But then, by the last assertion of 4.1 d), $G$ is affine over $S$, and
 we may apply property a) recalled above to conclude that $G$ is reductive (resp. semisimple). Using now property b), we
@@ -1131,7 +1131,7 @@ deduces immediately that $u f^{N} = v f^{N}$. But the $\kappa(s)$-morphism $f^{N
 reduced; consequently $f^{N}_{s}$ is generically flat. Since $T$ is smooth over $S$, hence flat, there exists a non-empty
 open set $V$ of $T$ such that $f^{N}|V$ is flat (EGA IV 11.3.10). The image of $V$ is an open $W$ of $G$ (EGA IV 11.3.1)
 and $f^{N} : V \to W$ is faithfully flat, of finite presentation, hence covering for the fpqc topology. <!-- original page
-530 --> The equality $u f^{N} = v f^{N}$ then implies $u|W = v|W$. Since $W$ is schematically dense in $G$ (EGA IV 11.10.10)
+530 --> The equality $u f^{N} = v f^{N}$ then implies $u|W = v|W$. Since $W$ is schematically dense in $G$ ([EGA IV 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes))
 and $H$ is separated over $S$ (Exp. VI_A 0.3), one deduces immediately that $u = v$.
 
 <!-- LEDGER DELTA — Exposé XVI — for consolidation in Phase 3

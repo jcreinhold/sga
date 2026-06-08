@@ -57,7 +57,7 @@ Hⁱ(X, F) × Ext^{r−i}(X; F, Ωʳ_{X/k}) → Hʳ(X, Ωʳ_{X/k}),
 
 <!-- label: eq:XII.1.3 -->
 
-and from a well-known isomorphism (cf. *FAC*, or *EGA* III 2.1.12):
+and from a well-known isomorphism (cf. *FAC*, or [*EGA* III 2.1.12](https://jcreinhold.github.io/ega/iii/09-ch3-02-cohomology-projective-morphisms.html#21-explicit-calculations-of-certain-cohomology-groups)):
 
 ```text
 Hʳ(X, Ωʳ_{X/k}) = Hʳ(P^r_k, O_{P^r_k}(−r − 1)) ⥲ k.
@@ -132,7 +132,7 @@ For given `i, F`, the following conditions are equivalent:
 
 (i) ⇔ (i bis) since the submodule of $H^{i}(X, F(\cdot))$ formed by the sum of the homogeneous components of degree
 $\geqslant \nu$ is finitely generated over $S$ (in fact, for $i \neq 0$, it is even finitely generated over $k$), cf.
-*FAC* or *EGA* III 2.2.1 and 2.3.2.
+*FAC* or [*EGA* III 2.2.1](https://jcreinhold.github.io/ega/iii/09-ch3-02-cohomology-projective-morphisms.html#22-the-fundamental-theorem-of-projective-morphisms) and 2.3.2.
 
 (i) ⇔ (ii) by virtue of Corollary 1.2.
 
@@ -230,7 +230,7 @@ Rⁱf_{V_α∗}(Eʲ(V_α)) = 0 for i ≠ 0, m ⩾ m₀, for all j,
 ```
 
 whence it follows, using the flatness of $E^{j}(V_{\alpha})$ with respect to $V_{\alpha}$ and easy Künneth-type
-relations (cf. *EGA* III, §7), that
+relations (cf. [*EGA* III, §7](https://jcreinhold.github.io/ega/iii/15-ch3-07-base-change-homological-functors.html#7-study-of-base-change-in-the-covariant-homological-functors-of-modules)), that
 
 ```text
 Hⁱ(X_t, Eʲ(t)(m)) = 0 for i ≠ 0, m ⩾ m₀, for all j,
@@ -402,7 +402,7 @@ is bijective if $i < n$, injective if $i = n$.
 
 This shows that for $i < n$, the projective system $(H^{i}(X_{m}, F_{m}))_{m\geqslant 0}$ is essentially constant, *a
 fortiori* satisfies the Mittag-Leffler condition; therefore (taking into account $\hat{F} = \lim F_{m}$) one concludes
-(ii) by *EGA* 0_III 13.3. On the other hand, (i) follows trivially, taking into account 2.3.
+(ii) by [*EGA* 0_III 13.3](https://jcreinhold.github.io/ega/iii/06-ch0-13-projective-limits-homological-algebra.html#133-application-cohomology-of-a-projective-limit-of-sheaves). On the other hand, (i) follows trivially, taking into account 2.3.
 
 **Corollary.**
 
@@ -576,7 +576,7 @@ It remains to prove 3.2. This had been done in the seminar by a somewhat tedious
 everything in terms of cohomology on the punctured projecting cone of $X$ relative to $S$, in order to reduce to Theorem
 2.1. A more direct and more satisfactory way (although substantially the same) seems to me now the following. It
 consists in noting that in IX, no. 2 (and with the notation of that exposé), the hypothesis that the morphism $f:
-\mathcal{X} \to \mathcal{X}'$ be adic does not intervene anywhere in the proof of 2.1, via *EGA* 0_III 13.7.7; it
+\mathcal{X} \to \mathcal{X}'$ be adic does not intervene anywhere in the proof of 2.1, via [*EGA* 0_III 13.7.7](https://jcreinhold.github.io/ega/iii/06-ch0-13-projective-limits-homological-algebra.html#137-derived-functors-of-a-projective-limit-of-arguments); it
 suffices to assume in its place that $\mathcal{X}$ is also adic, and to choose two ideals of definition $\mathcal{J}$
 for $\mathcal{X}'$, $\mathcal{I}$ for $\mathcal{X}$, such that $\mathcal{J} O_{\mathcal{X}} \subset \mathcal{I}$, and to
 define $\mathcal{S} = gr_{\mathcal{J}}(O_{\mathcal{X}'})$, and to consider $gr_{\mathcal{I}}(\mathcal{F})$. In any case,
@@ -1150,7 +1150,7 @@ $$ E^{p,q}_{2} = R^{p}f_{\ast}(R^{qg}_{\ast}(F)) \Rightarrow R^{\ast }h_{\ast}(F
 
 <!-- label: eq:XII.5.26 -->
 
-and from the fact that the higher direct images by $f$ of a coherent module on $X$ are coherent (*EGA* III 3.2.1).
+and from the fact that the higher direct images by $f$ of a coherent module on $X$ are coherent ([*EGA* III 3.2.1](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#32-the-finiteness-theorem-case-of-usual-schemes)).
 
 **Proposition.**
 
@@ -1213,14 +1213,14 @@ Let $S$, $\mathcal{S}$, $X$, $f$ be as in 5.2, and $G$ a quasi-coherent module o
 
 *Proof of 5.3.*
 
-For a), the case $i = 0$ is given in *EGA* III 2.3.2; the case $i > 0$ follows from *EGA* III 2.2.1 (i)(ii), which says
+For a), the case $i = 0$ is given in [*EGA* III 2.3.2](https://jcreinhold.github.io/ega/iii/09-ch3-02-cohomology-projective-morphisms.html#23-application-to-graded-sheaves-of-algebras-and-of-modules); the case $i > 0$ follows from *EGA* III 2.2.1 (i)(ii), which says
 that the $R^{i}f_{\ast} G(m)$ are coherent, and zero for $m$ large (if one assumes $S$ noetherian, which is
 permissible).
 
 <!-- original page 130 -->
 
-For b), one notes that $G$ is isomorphic to $\operatorname{Proj}(\bigoplus_{m\geqslant m_{0}} f_{\ast}(G(m)))$ (*EGA* II
-3.4.4 and 3.4.2), which proves that $G$ is coherent if $\bigoplus_{m\geqslant m_{0}} f_{\ast}(G(m))$ is finitely
+For b), one notes that $G$ is isomorphic to $\operatorname{Proj}(\bigoplus_{m\geqslant m_{0}} f_{\ast}(G(m)))$ ([*EGA* II
+3.4.4](https://jcreinhold.github.io/ega/ii/02-03-homogeneous-spectrum-sheaf-graded-algebras.html#34-finiteness-conditions) and 3.4.2), which proves that $G$ is coherent if $\bigoplus_{m\geqslant m_{0}} f_{\ast}(G(m))$ is finitely
 generated on $\mathcal{S}$, by virtue of *loc. cit.* 3.4.4.
 
 **Corollary.**
@@ -1384,7 +1384,7 @@ these conditions:
    necessarily locally free, alas), and an isomorphism $\hat{F} \cong \mathcal{F}$.
 
 It remains only to prove (ii), thanks to 5.9. Now by that remark and 2.1, it follows that $\mathcal{F}$ is induced by a
-coherent module $\mathcal{G}$ on $\hat{X}'$. By the existence theorem *EGA* III 5.1.4, $\mathcal{G}$ is of the form
+coherent module $\mathcal{G}$ on $\hat{X}'$. By the existence theorem [*EGA* III 5.1.4](https://jcreinhold.github.io/ega/iii/12-ch3-05-existence-coherent-algebraic-sheaves.html#51-statement-of-the-theorem), $\mathcal{G}$ is of the form
 $\hat{F}$, where $F$ is coherent on $X$, whence the conclusion.
 
 <!-- original page 133 -->
@@ -1405,7 +1405,7 @@ $\hat{F}$, where $F$ is coherent on $X$, whence the conclusion.
 
 1. One may set oneself the problem of giving handy necessary and sufficient conditions, in terms of depth, for the
    universal finiteness condition envisaged in 5.10 to be verified. When $S$ is the spectrum of a field, it follows
-   easily from *EGA* III 1.4.15 that it is necessary and sufficient that the $R^{i}g_{\ast}(F)$ ($i \leqslant n$) be
+   easily from [*EGA* III 1.4.15](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#14-application-to-the-cohomology-of-arbitrary-preschemes) that it is necessary and sufficient that the $R^{i}g_{\ast}(F)$ ($i \leqslant n$) be
    coherent, which is expressed in terms of depth thanks to VIII 2.3. In the general case, one will note however that it
    does not suffice to require that the preceding condition be verified for all the fibers $U_{s} \subset X_{s}$ ($s \in
    S$), even in the case where $n = 0$. Take for example $X = S$, $S$ the spectrum of a discrete valuation ring, $U$ the
@@ -1495,7 +1495,7 @@ Unresolved / flagged:
 
 [^XII-1-starstarstar]: For a more general duality theorem, cf. the Hartshorne seminar cited at the end of Exp. IV.
 
-[^XII-1-star2]: The first part of 1.5 may be obtained at once by applying the purely local statement *EGA* IV 12.3.4 to
+[^XII-1-star2]: The first part of 1.5 may be obtained at once by applying the purely local statement [*EGA* IV 12.3.4](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#123-local-cohomological-properties-of-the-fibres-of-a-flat-morphism-locally-of-finite-presentation) to
     the preceding `Eʲ`, which short-circuits the greater part of the proof that follows.
 
 [^XII-1-star3]: This remark is made more precise by the footnote on page 112.
@@ -1541,7 +1541,7 @@ Unresolved / flagged:
     \operatorname{Pic}(X_{n})$ is not surjective for $n > 1$ in positive characteristic, where $X_{n}$ denotes a
     thickened hyperplane section of $X$ projective and smooth as above.
 
-[^XII-5-star]: It suffices in fact that $g$ be quasi-compact and quasi-separated (*EGA* IV 1.2.1), without conditions on
+[^XII-5-star]: It suffices in fact that $g$ be quasi-compact and quasi-separated ([*EGA* IV 1.2.1](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#12-quasi-separated-morphisms)), without conditions on
     $U$, $X$.
 
 [^N.D.E-XII-6]: *N.D.E.* Of course, in the projective case one refers to Grothendieck's existence theorems of *FGA*; cf.

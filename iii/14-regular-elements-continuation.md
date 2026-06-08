@@ -143,7 +143,7 @@ sees at once that this integer satisfies (iii). When $A$ is noetherian, there ex
 
 is injective; then by what precedes there exists for every $i$ an integer $N_{i}$ satisfying (iii) for the Lie algebra
 $\mathfrak{d} \otimes_{A} A_{i}$, and taking $N$ to be the largest of the $N_{i}$, one satisfies (iii) for
-$\mathfrak{d}$. Finally, the general case reduces to the noetherian case by the usual procedure explained in (EGA IV 8).
+$\mathfrak{d}$. Finally, the general case reduces to the noetherian case by the usual procedure explained in ([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes)).
 
 **Definition 2.2.** *Let $S$ be a prescheme, $\mathfrak{d}$ a quasi-coherent Lie algebra over $S$ that is a module of
 finite presentation. One says that $\mathfrak{d}$ is locally nilpotent if for every $s \in S$, the Lie algebra
@@ -1016,10 +1016,10 @@ original page 327 --> Proposition 4.8 extends (with the same reduction proof to 
 known) to the case of a parabolic subgroup $P$ of $G$. Let us note the following consequence of this result (cf. XVI).
 If $P$ is a parabolic subgroup of $G$, then $G/P$ is representable by a quasi-projective prescheme of finite
 presentation over $S$ (N.B. one assumes $G$ to have connected fibers). Moreover $G/P$ is evidently smooth over $S$, and
-moreover with connected and proper geometric fibers, whence one can conclude easily, using (EGA III 5.5.1), that $D =
+moreover with connected and proper geometric fibers, whence one can conclude easily, using ([EGA III 5.5.1](https://jcreinhold.github.io/ega/iii/12-ch3-05-existence-coherent-algebraic-sheaves.html#55-a-decomposition-of-certain-schemes)), that $D =
 G/P$ is in fact proper, hence projective, over $S$. Moreover, if its relative dimension is $n$, it is known that the
 invertible sheaf $\Omega^{n}_{D/S}$ is such that its inverse induces on the geometric fibers of $D/S$ ample sheaves,
-hence (EGA III 4.7.1) $(\Omega^{n}_{D/S})^{-1}$ is ample on $D$ relative to $S$.
+hence ([EGA III 4.7.1](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#47-an-ampleness-criterion)) $(\Omega^{n}_{D/S})^{-1}$ is ample on $D$ relative to $S$.
 
 <!-- label: III.XIV.4.8.1 -->
 
@@ -1703,7 +1703,7 @@ one and only one $\theta_{i}$. In case (2), some of the $\theta_{i}$ are superfl
 
 [^XIV-1-1]: M. Raynaud gave a negative answer to the question raised here, cf. (XVII Example 5.9.c)).
 
-[^XIV-2-1]: Cf. also EGA I, 2nd edition (to appear in North Holland Publishing Co.).
+[^XIV-2-1]: Cf. also [EGA I, 2](https://jcreinhold.github.io/ega/i/01-02-preschemes-and-morphisms.html#2-preschemes-and-morphisms-of-preschemes)nd edition (to appear in North Holland Publishing Co.).
 
 [^N.D.E-XIV-1]: See § I.1.3 of M. Demazure and P. Gabriel, *Groupes algébriques*, Masson (1970).
 

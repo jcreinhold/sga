@@ -157,7 +157,7 @@ group.*
 of finite type whose torsion subgroup is of order prime to the characteristic of $\kappa(s)$.*
 
 These statements follow from VIII 2.1, taking into account that the properties in question descend along faithfully flat
-quasi-compact morphisms (cf. SGA 1, VIII or EGA IV₂, § 2).
+quasi-compact morphisms (cf. SGA 1, VIII or [EGA IV₂, § 2](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#2-base-change-and-flatness)).
 
 Using VIII 3.5, one obtains likewise:
 
@@ -445,7 +445,7 @@ group of multiplicative type $H$ over $S$.[^N.D.E-IX-8] Then, by 3.6, there exis
 \to G$ which lifts the immersion $H_{0} \hookrightarrow G_{0}$; since $H$ and `H_0` (resp. $G$ and `G_0`) have the same
 underlying topological space, and since, for every $h \in H$, the morphism <!-- original page 50 --> $O_{G,u(h)} \to
 O_{H,h}$ is surjective (since it is so after reduction modulo $J$, which is nilpotent), $u$ is also an immersion (cf.
-EGA I, 4.2.2).
+[EGA I, 4.2.2](https://jcreinhold.github.io/ega/i/01-04-subpreschemes-and-immersions.html#42-immersion-morphisms)).
 
 Finally, for every lifting $H$ of `H_0` to a flat subgroup of $G$, $H$ is necessarily of multiplicative type by X
 2.3,[^N.D.E-IX-9] which also proves assertion (b) of 3.6 bis. (The reader will verify that the results 3.2 bis to 3.6
@@ -485,7 +485,7 @@ schematically dense *if for every open $U$ of $X$, and every closed subprescheme
 *One says that a subprescheme $Z$ of $X$ is* schematically dense in $X$ *if such is the case of the family reduced to
 $Z$.*
 
-One sees immediately (cf. EGA IV₃, 11.10.1) that the definition is equivalent to saying that for every open $U$ of $X$,
+One sees immediately (cf. [EGA IV₃, 11.10.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)) that the definition is equivalent to saying that for every open $U$ of $X$,
 every section $f$ of `O_U` which is zero on the $Z_{i} \cap U$ is zero, which also means that the intersection of the
 kernels of the canonical homomorphisms
 
@@ -653,12 +653,12 @@ O(T^{i}_{n}) \to 0 $$
 
 where all the vertical arrows are surjective. This has the following consequences: on the one hand, the projective
 system $(K^{i}_{n})_{n \in \mathbb{N}}$ satisfies the Mittag-Leffler condition, hence the projective limit of the
-$O(T^{i}_{n})$ identifies with the topological ring quotient $\hat{A}/K^{i}$ (cf. EGA 0_III, § 13.2). On the other hand,
+$O(T^{i}_{n})$ identifies with the topological ring quotient $\hat{A}/K^{i}$ (cf. [EGA 0_III, § 13.2](https://jcreinhold.github.io/ega/iii/06-ch0-13-projective-limits-homological-algebra.html#132-the-mittagleffler-condition-for-abelian-groups)). On the other hand,
 the map $K^{i} \to K^{i}_{n}$ is surjective (cf. [BEns], III, § 7.4, Prop. 5), whence it follows that $K^{i}_{n} \simeq
 (K^{i} + m^{n+1} \hat{A})/m^{n+1} \hat{A}$ and $O(T^{i}_{n}) \simeq (\hat{A}/K^{i}) \otimes_{A} (A/m^{n+1})$.
 
 In other words, $(T^{i}_{n})_{n}$ is an inductive system of affine artinian schemes, and the inductive limit $T^{i} =
-\lim_{n} T^{i}_{n}$ is a closed formal subscheme of the formal scheme $\hat{S} = Spf(\hat{A})$ (cf. EGA I, § 10), whose
+\lim_{n} T^{i}_{n}$ is a closed formal subscheme of the formal scheme $\hat{S} = Spf(\hat{A})$ (cf. [EGA I, § 10](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#10-formal-schemes)), whose
 reduction modulo $m^{n+1}$ is $T^{i}_{n}$.
 
 Let $T$ be the closed formal subscheme of `Ŝ` intersection of the $T^{i}$, that is, defined by $K = \sum_{i} K^{i}$.
@@ -706,7 +706,7 @@ $(Z_{i})_{i \in I}$ is schematically dense in $X$.*
 
 <!-- label: III.IX.4.5.0 -->
 
-This follows from EGA IV₃, 11.10.5 (i) and 11.9.10 (i). It remains to give the proof of:
+This follows from [EGA IV₃, 11.10.5](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes) (i) and 11.9.10 (i). It remains to give the proof of:
 
 **Lemma 4.5.** *Let $X$ be a locally noetherian prescheme*[^N.D.E-IX-20] *over a field $k$, $(Z_{i})_{i \in I}$ a family
 of subpreschemes of $X$, $k'$ an extension of $k$, $X'$ and $Z'_{i}$ the preschemes deduced from $X$ and $Z_{i}$ by the
@@ -730,8 +730,8 @@ finite-type sub-$k$-algebra $A$ of $k'$ such that $g \in B_{A} = B \otimes_{k} A
 ```
 
 given the hypothesis, this implies that the image of $t'$ in each $(O(Z_{i}) \otimes_{k} A)_{g}$ is zero. This reduces
-us to showing that the family $(Z_{iA})_{i \in I}$ is schematically dense in `X_A`,[^N.D.E-IX-22] which follows from EGA
-IV₃, 11.9.10 b).
+us to showing that the family $(Z_{iA})_{i \in I}$ is schematically dense in `X_A`,[^N.D.E-IX-22] which follows from [EGA
+IV₃, 11.9.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#119-separating-and-universally-separating-families-of-homomorphisms-of-sheaves-of-modules) b).
 
 Let us note in passing the following result, which will serve in a later Exposé:[^N.D.E-IX-23]
 
@@ -743,23 +743,23 @@ $S$. Then $U$ is schematically dense in $X$.*
 
 <!-- original page 56 -->
 
-Suppose for simplicity $U$ retrocompact in $X$ (cf. EGA IV₃, 11.10.10 and 11.9.17 for the general case). The case $X$
+Suppose for simplicity $U$ retrocompact in $X$ (cf. [EGA IV₃, 11.10.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes) and 11.9.17 for the general case). The case $X$
 locally noetherian is included only for memory; it is contained in 4.3.
 
 In the second case envisaged, one may evidently suppose $S$ and $X$ affine; then $X$ and $U$ are of finite presentation
 over $S = \operatorname{Spec}(A)$. The ring $A$ is the inductive limit of its finite-type sub-$\mathbb{Z}$-algebras
-$A_{i}$. The "patented procedure" already used (cf. EGA IV₃, 8.8.2 and 8.10.5 (iii)) shows that there exist an $i$, an
+$A_{i}$. The "patented procedure" already used (cf. [EGA IV₃, 8.8.2](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes) and 8.10.5 (iii)) shows that there exist an $i$, an
 affine scheme $X_{i}$ over $S_{i} = \operatorname{Spec}(A_{i})$ and an open $U_{i}$ in $X_{i}$, from which `X, U` are
 deduced by base change $S \to S_{i}$. Let $E_{i}$ be the part of $S_{i}$ consisting of $s \in S_{i}$ such that
 $(U_{i})_{s}$ is schematically dense in $(X_{i})_{s}$.
 
-[^N.D.E-IX-24] By EGA IV₂, 5.9.9 and 5.10.2, $E_{i}$ is the set of $s \in S_{i}$ such that $(U_{i})_{s}$ contains the
-set $Ass O(X_{i})_{s}$ of points "associated" with the structure sheaf of $(X_{i})_{s}$, and by EGA IV₃, 11.9.17.1 this
+[^N.D.E-IX-24] By [EGA IV₂, 5.9.9](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#59-z-pure-and-z-closed-modules) and 5.10.2, $E_{i}$ is the set of $s \in S_{i}$ such that $(U_{i})_{s}$ contains the
+set $Ass O(X_{i})_{s}$ of points "associated" with the structure sheaf of $(X_{i})_{s}$, and by [EGA IV₃, 11.9.17.1](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#119-separating-and-universally-separating-families-of-homomorphisms-of-sheaves-of-modules) this
 condition is of constructible nature, i.e. $E_{i}$ is a constructible part of $S_{i}$.
 
 [^N.D.E-IX-24] By 4.5, the inverse image of $E_{i}$ by $S_{j} \to S_{i}$ (resp. by $S \to S_{i}$) is $E_{j}$ (resp. the
 set $E$ of $s \in S$ such that $U_{s}$ is schematically dense in $X_{s}$). Moreover, by hypothesis, $E = S$, which is
-also the inverse image by each $S \to S_{i}$ of $S_{i}$. By EGA IV₃, 8.3.11, this implies that there exists $j \geqslant
+also the inverse image by each $S \to S_{i}$ of $S_{i}$. By [EGA IV₃, 8.3.11](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#83-constructible-parts-in-a-projective-limit-of-preschemes), this implies that there exists $j \geqslant
 i$ such that $E_{j} = S_{j}$, i.e. such that for every $s \in S_{j}$, $(U_{j})_{s}$ is schematically dense in
 $(X_{j})_{s}$.
 
@@ -862,7 +862,7 @@ a) $S$ locally noetherian.[^N.D.E-IX-28] Let $K = Ker(u, v)$ be the inverse imag
 the morphism $(u, v)$; this is a subprescheme in groups of $H$. We wish to find $U$ such that $K_{U} = H_{U}$. Note
 that, since $S$ is locally noetherian and $H$ of finite type over $S$, $H$ is locally noetherian, hence the immersion $K
 \hookrightarrow H$ is of finite type (cf. EGA I, 6.3.5). Hence $K$ is of finite type over $S$, hence of finite
-presentation over $S$, since $S$ is locally noetherian. Consequently, by EGA IV₃, 8.8.2.4, to show that there exists an
+presentation over $S$, since $S$ is locally noetherian. Consequently, by [EGA IV₃, 8.8.2.4](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes), to show that there exists an
 open neighborhood $U$ of $s$ such that $K_{U} = H_{U}$, it suffices to show that $K_{S_{0}} = H_{S_{0}}$, where `S_0` is
 the spectrum of $A = O_{S,s}$. One may therefore suppose $S$ local with closed point $s$. Replacing the noetherian local
 ring $A$ by its completion `Â` if necessary, which introduces a base change $\hat{S} \to S$ faithfully flat and
@@ -1012,14 +1012,14 @@ Since $H_{S^{0}}$ is finite over $S^{0}$, one concludes from 5.0 (applied to the
 $K_{S^{0}} = H_{S^{0}}$.
 
 On the other hand, since $H \times_{S} G$ is noetherian (being of finite presentation over $S$ noetherian), the
-immersion $K \hookrightarrow H \times_{S} G$ is of finite type (cf. EGA I, 6.3.5), so that $K$ is of finite type, hence
+immersion $K \hookrightarrow H \times_{S} G$ is of finite type (cf. [EGA I, 6.3.5](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#63-morphisms-of-finite-type)), so that $K$ is of finite type, hence
 of finite presentation over $G$. Then the equality $K_{S^{0}} = H_{G} \times_{G} S^{0}$ entails, by EGA IV₃, 8.8.2.4,
 that there exists an open neighborhood $W$ of $e$ in $G$ such that $K \times_{G} W = H_{G} \times_{G} W = H \times_{S}
 W$. Hence $K$ majorizes the open neighborhood $V = H \times_{S} W$ of the unit section of `G_H` over $H$.
 
 For every $t \in H$, the fiber $G_{t}$ (being a $\kappa(t)$-algebraic group) is Cohen–Macaulay (VI_A, 1.1.1), hence
 without embedded components; as it is moreover connected, hence irreducible (VI_A, 2.4), it has its generic point as
-unique associated point. Hence, by EGA IV₂, 3.1.8, the open $V_{t}$ is schematically dense in $G_{t}$. By 4.3, $V$ is
+unique associated point. Hence, by [EGA IV₂, 3.1.8](https://jcreinhold.github.io/ega/iv/15-ch4-03-associated-prime-cycles.html#31-associated-prime-cycles-of-a-module), the open $V_{t}$ is schematically dense in $G_{t}$. By 4.3, $V$ is
 therefore schematically dense in `G_H`. Moreover, since $K$ is a sub-$H$-group of `G_H`, it induces on each fiber
 $G_{h}$ a subgroup $K_{h}$, and since the latter majorizes an open neighborhood of the unit element and $G_{h}$ is
 connected, it follows that $K_{h} = G_{h}$, hence $K = G_{H}$ set-theoretically. Thus $K$ is a closed subprescheme of
@@ -1377,7 +1377,7 @@ $g_{n}$ is deduced from $g_{n+1}$ by reduction, $u'_{n} = int(g_{n}) u_{n}$; thi
 is separated and complete, the $g_{n}$ come from a $g \in G(S)$; and to prove that $u' = int(g) u$, it suffices to use
 the injectivity in assertion 7.1.
 
-**Remark 7.4.** *One will compare 7.1 with EGA III 5.4.1, which implies that the statement 7.1 is valid if, instead of
+**Remark 7.4.** *One will compare 7.1 with [EGA III 5.4.1](https://jcreinhold.github.io/ega/iii/12-ch3-05-existence-coherent-algebraic-sheaves.html#54-application-comparison-of-morphisms-of-usual-schemes-and-of-morphisms-of-formal-schemes-algebraizable-formal-schemes), which implies that the statement 7.1 is valid if, instead of
 supposing $H$ of multiplicative type and $G$ affine, one supposes $H$ proper over $S$, and $G$ separated and locally of
 finite type over $S$. Having a statement like 7.1 without a properness hypothesis is rather exceptional, and must here
 be interpreted as one of the aspects of the great "rigidity" of the structure of a group of multiplicative type. The
@@ -1547,7 +1547,7 @@ arbitrary base scheme.*[^N.D.E-IX-54]
 | de type multiplicatif localement trivial | of locally trivial multiplicative type | New term in Exposé IX. |
 | localement isotrivial | locally isotrivial | New term in Exposé IX. |
 | type de G en s | type of G at s | Standard. |
-| schématiquement dense | schematically dense | Standard (EGA IV₃, 11.10). |
+| schématiquement dense | schematically dense | Standard ([EGA IV₃, 11.10](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes)). |
 | famille schématiquement dense | schematically dense family | Standard. |
 | schématiquement dense dans X | schematically dense in X | Standard. |
 | universellement schématiquement dense | universally schematically dense | Per EGA IV₃, Def. 11.10.8. |
@@ -1598,7 +1598,7 @@ arbitrary base scheme.*[^N.D.E-IX-54]
 
 [^N.D.E-IX-3]: *N.D.E.* This definition has been added, since it appears in propositions 2.3 and 2.7.
 
-[^N.D.E-IX-4]: *N.D.E.* Cf. also V, 9.1 or EGA IV₂, 2.7.1.
+[^N.D.E-IX-4]: *N.D.E.* Cf. also V, 9.1 or [EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent).
 
 [^N.D.E-IX-5]: *N.D.E.* and even a closed immersion.
 
@@ -1626,7 +1626,7 @@ arbitrary base scheme.*[^N.D.E-IX-54]
 [^N.D.E-IX-13]: *N.D.E.* The original has been spelled out in what follows.
 
 [^N.D.E-IX-14]: *N.D.E.* For another proof, using a reduction to the case where $S'$ is locally noetherian (and 4.3 and
-    4.5 as here), see EGA IV₃, 11.9.16 and 11.9.12 (N.B. in the last line of the proof of 11.9.16, replace 11.9.5 by
+    4.5 as here), see [EGA IV₃, 11.9.16](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#119-separating-and-universally-separating-families-of-homomorphisms-of-sheaves-of-modules) and 11.9.12 (N.B. in the last line of the proof of 11.9.16, replace 11.9.5 by
     11.9.12).
 
 [^N.D.E-IX-15]: *N.D.E.* The following sentence has been added, and the original spelled out in what follows.
@@ -1642,7 +1642,7 @@ arbitrary base scheme.*[^N.D.E-IX-54]
 
 [^N.D.E-IX-19]: *N.D.E.* This lemma has been inserted here, since it is used in the proof of 4.5 and 4.7.
 
-[^N.D.E-IX-20]: *N.D.E.* This hypothesis is in fact superfluous, cf. EGA IV₃, 11.10.6 and 11.9.13.
+[^N.D.E-IX-20]: *N.D.E.* This hypothesis is in fact superfluous, cf. [EGA IV₃, 11.10.6](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#1110-schematically-dominant-families-of-morphisms-and-schematically-dense-families-of-subpreschemes) and 11.9.13.
 
 [^N.D.E-IX-21]: *N.D.E.* The original has been spelled out in what follows.
 
@@ -1699,17 +1699,17 @@ arbitrary base scheme.*[^N.D.E-IX-54]
     apply EGA IV₃, 8.8.2.
 
 [^N.D.E-IX-41]: *N.D.E.* Above, $X - {s}$ has been corrected to $S - {s}$. Recall on the other hand that a quasi-finite
-    morphism is supposed to be of finite type, cf. EGA II, 6.2.3 (and EGA III₂, Err_III 20 for the definition of
+    morphism is supposed to be of finite type, cf. [EGA II, 6.2.3](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#62-quasi-finite-morphisms) (and EGA III₂, Err_III 20 for the definition of
     "locally quasi-finite"). Hence here ($S$ being noetherian), $X$ is of finite presentation over $S$, each immersion
     $X_{i} \hookrightarrow X$ is of finite type (by EGA I, 6.3.5), hence $X_{i}$ is of finite presentation over $S$, and
     one may apply EGA IV₃, 8.8.2.
 
 [^IX-6-1]: Cf. VI_B 2.5 (ii) for a more general statement.
 
-[^N.D.E-IX-42]: *N.D.E.* Cf. EGA IV₃, 13.1.4, and EGA IV₄, 17.4.1. Moreover, $t$ (instead of $s$) has been used to
+[^N.D.E-IX-42]: *N.D.E.* Cf. [EGA IV₃, 13.1.4](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem), and [EGA IV₄, 17.4.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#174-characterizations-of-unramified-morphisms). Moreover, $t$ (instead of $s$) has been used to
     denote the image of $x$.
 
-[^N.D.E-IX-43]: *N.D.E.* It in fact suffices to suppose $G$ locally of finite type over $S$; by EGA IV₄, 1.4.3 (v), this
+[^N.D.E-IX-43]: *N.D.E.* It in fact suffices to suppose $G$ locally of finite type over $S$; by [EGA IV₄, 1.4.3](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation) (v), this
     entails ($H \to S$ being of finite presentation) that $H \to G$ is locally of finite presentation, hence so is $K
     \to S$, which is deduced from it by base change.
 

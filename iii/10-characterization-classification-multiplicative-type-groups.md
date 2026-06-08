@@ -15,8 +15,8 @@ exists an étale, finite, surjective morphism $S' \to S$ such that $H' = H \time
 connected, $S'$ decomposes as a finite sum of connected components $S'_{i}$, and one can therefore (possibly by
 replacing $S'$ by one of the $S'_{i}$) assume $S'$ connected. Finally, one knows that $S'$ can be dominated by an
 $S'_{1}$ finite, étale and connected, which is Galois, i.e. a principal homogeneous bundle over $S$ with group
-$\Gamma_{S}$, where $\Gamma$ is an ordinary finite group (cf. SGA 1, V N°s 7 & 3 when $S$ is locally noetherian, and EGA
-IV₄, 18.2.9 in the general case).[^N.D.E-X-1] We assume $S'$ chosen in this way, and we propose to determine the groups
+$\Gamma_{S}$, where $\Gamma$ is an ordinary finite group (cf. SGA 1, V N°s 7 & 3 when $S$ is locally noetherian, and [EGA
+IV₄, 18.2.9](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#182-étale-covers) in the general case).[^N.D.E-X-1] We assume $S'$ chosen in this way, and we propose to determine the groups
 of multiplicative type $H$ over $S$ which are "trivialized" by $S'$, i.e. such that $H' = H \times_{S} S'$ is
 diagonalizable.[^N.D.E-X-2] By descent theory (cf. SGA 1, VIII 5.4), the category of these $H$ is equivalent to the
 category of diagonalizable groups $H'$ over $S'$, equipped with operations of $\Gamma$ on $H'$ compatible with the
@@ -73,11 +73,11 @@ groups of multiplicative type and of finite type $H$ over $k$ is anti-equivalent
 under $\pi$ that are of finite type as $\mathbb{Z}$-modules.*
 
 It follows first from the fact that $H$ is of finite type over $k$ and from the "principle of the finite extension" (cf.
-EGA IV₃, 9.1.4) that there exists a finite extension $k'$ of $k$ which splits $H$. Let us recall the principle of the
+[EGA IV₃, 9.1.4](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#91-the-principle-of-finite-extension)) that there exists a finite extension $k'$ of $k$ which splits $H$. Let us recall the principle of the
 proof: by hypothesis there exist a diagonalizable group of finite type $G$ over $k$, a faithfully flat $S'$ over $S =
 \operatorname{Spec}(k)$, and an isomorphism of $S'$-groups $H_{S'} \simeq G_{S'}$. Possibly replacing $S'$ by the
 residue field of a point of $S'$, we may suppose that $S'$ is the spectrum of an extension $K$ of $k$. The latter is the
-inductive limit of its finitely generated subalgebras $A_{i}$, from which it readily follows (cf. EGA IV₃, 8.8.2.4) that
+inductive limit of its finitely generated subalgebras $A_{i}$, from which it readily follows (cf. [EGA IV₃, 8.8.2.4](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes)) that
 $u$ comes from an $A_{i}$-isomorphism $u_{i} : H_{A_{i}} \simeq G_{A_{i}}$ for $i$ large enough. By the Nullstellensatz,
 there exists a quotient ring $k'$ of $A_{i}$ which is a finite extension of $k$. The latter therefore splits $H$.
 
@@ -130,8 +130,8 @@ not isotrivial.
 
 <!-- original page 81 -->
 
-[^N.D.E-X-6] Let us begin by recalling the following result (cf. SGA 1, I 8.3 in the case $S$ locally noetherian, EGA
-IV₄, 18.1.2 in general):
+[^N.D.E-X-6] Let us begin by recalling the following result (cf. SGA 1, I 8.3 in the case $S$ locally noetherian, [EGA
+IV₄, 18.1.2](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#181-a-remarkable-equivalence-of-categories) in general):
 
 <!-- original page 66 -->
 
@@ -592,8 +592,8 @@ $S_{0} = \operatorname{Spec}(k)$, and $\xi$ a geometric point of `S_0`. Then, th
 X ↦ X_0 = X ×_S S_0
 ```
 
-*is an equivalence between the category of étale covers of $S$ and the analogous category over `S_0` (cf. EGA IV₄, §
-18.5). Consequently (cf. SGA 1, V), one has $\pi_{1}(S_{0}, \xi) = \pi_{1}(S, \xi)$.*
+*is an equivalence between the category of étale covers of $S$ and the analogous category over `S_0` (cf. [EGA IV₄, §
+18.5](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#185-henselian-local-rings1)). Consequently (cf. SGA 1, V), one has $\pi_{1}(S_{0}, \xi) = \pi_{1}(S, \xi)$.*
 
 Suppose moreover $A$ noetherian and denote by $A'$ its completion, $S' = \operatorname{Spec}(A')$. Then $A'$ is a
 complete noetherian local ring, hence henselian (loc. cit., 18.5.14), and the functor
@@ -671,7 +671,7 @@ induced by the base change $S_{0} \to S$ is bijective. For this, given recall 4.
 It suffices to show that $F_{S'}$ is representable by a preschem $X'$ étale and finite (hence affine) over $S'$, since
 the descent datum on $X'$ relative to $f$ (cf. VIII 1.7.2) will then be effective (by SGA 1 VIII, 2.1), whence the
 existence of an $S$-prescheme $X$ such that $X \times_{S} S' = X'$, which represents $F$, and is étale and finite over
-$S$ (cf. SGA 1, V 5.7 and EGA IV₄, 17.7.3 (ii)).
+$S$ (cf. SGA 1, V 5.7 and [EGA IV₄, 17.7.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#177-descent-properties-passage-to-the-limit-and-constructibility) (ii)).
 
 One may therefore suppose that $G = D_{S}(M)$ and $H = D_{S}(N)$, where $M$ and $N$ are finite commutative groups (cf.
 VIII 2.1 c)). Then, <!-- original page 94 --> $K = \operatorname{Hom}_{gr.}(N, M)$ is a finite abelian group and, by
@@ -695,7 +695,7 @@ i.e. one has a decomposition as a disjoint sum $X = X' \sqcup X''$.*
 *Proof.* By the local form of Zariski's main theorem given in [Pes66], or [Ray70, Ch. IV, Th. 1], $x$ has an affine open
 neighborhood $U = \operatorname{Spec}(B)$ of finite type and quasi-finite over $A = O_{S,s}$, and there exists an open
 immersion $U \hookrightarrow Y = \operatorname{Spec}(C)$, where $C$ is a finite $A$-algebra. (N.B. to reach this
-conclusion, one may also use Chevalley's semi-continuity theorem (EGA IV₃, 13.1.4), then the form of Zariski's main
+conclusion, one may also use Chevalley's semi-continuity theorem ([EGA IV₃, 13.1.4](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem)), then the form of Zariski's main
 theorem given in loc. cit., 8.12.8.)
 
 Since $A$ is henselian, $Y$ is the disjoint sum of local schemes $Y_{1}, \cdots, Y_{n}$, each finite over $S$, and the
@@ -703,7 +703,7 @@ points of $Y$ above $s$ are the closed points $y_{1}, \cdots, y_{n}$. Therefore 
 O_{U,x} = C_{i}$ is finite over $A$. Moreover, $X' = C_{i}$ is an open subscheme of $U$ hence of $X$.
 
 Suppose moreover $g$ separated. Then, since the morphism $X' \to S$ is finite ($C_{i}$ being finite over $A$), so is the
-immersion $X' \to X$ (cf. EGA II, 6.1.5 (v)), so $X'$ is also closed in $X$.
+immersion $X' \to X$ (cf. [EGA II, 6.1.5](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#61-preschemes-integral-over-another) (v)), so $X'$ is also closed in $X$.
 
 **Lemma 4.3.** *Let $A$ be a noetherian henselian local ring, $A'$ its completion, $S = \operatorname{Spec}(A)$, $S' =
 \operatorname{Spec}(A')$, $s$ the closed point of $S$, $G$ and $H$ two $S$-preschemes in groups, with $G$ of
@@ -757,16 +757,16 @@ that the formation of the decomposition $(\ast)$ commutes with the base change $
 
 Then $Z' = Z \times_{S} S'$ is a finite scheme over $S'$, as is $P' = Z' \times_{S'} Z'$. Denote by $\nu$ the
 restriction to $P'$ of the multiplication of $H'$ and by $\sigma$ the automorphism of $P'$ which exchanges the two
-factors. Since $P'$ is finite over $S'$ and $H'$ separated and locally of finite type over $S'$, then, by EGA II 5.4.3
+factors. Since $P'$ is finite over $S'$ and $H'$ separated and locally of finite type over $S'$, then, by [EGA II 5.4.3](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#54-proper-morphisms-and-universally-closed-morphisms)
 and IV₁ 1.1.3, $Y = \nu(P')$ is a closed subscheme of $H'$, universally closed and quasi-compact, hence of finite type,
 hence proper over $S'$. Moreover, $Y \to S'$ has finite fibers (since $P' \to S'$ does). Therefore, since $S'$ is
-noetherian, the morphism $Y \to S'$ is finite (cf. EGA III, 4.4.2). Since $Z' \subseteq Y$ and $Z'_{m} = Y'_{m}$ for
+noetherian, the morphism $Y \to S'$ is finite (cf. [EGA III, 4.4.2](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#44-zariskis-main-theorem)). Since $Z' \subseteq Y$ and $Z'_{m} = Y'_{m}$ for
 every $m$, then $Z' = Y$, by lemma IX 5.0, so $Z'$ is a subgroup of $H'$. Likewise, the kernel $K = Ker(\nu, \nu \circ
 \sigma)$ is a closed subscheme of $P'$, such that $K_{m} = P'_{m}$ for every $m$ (since $Z'_{m} = {}_{n} H_{m}$ is
 commutative), so $K = P'$, i.e. $Z'$ is a commutative subgroup of $H'$.
 
 On the other hand, since each reduction $Z'_{m} = {}_{n} H_{m}$ is flat over $S_{m}$, then, by the "local criterion of
-flatness" (cf. EGA 0_III, 10.2.2 or [BAC], III § 5, Example 1 and Th. 1), $Z'$ is flat over $S'$. Since moreover $Z'_{0}
+flatness" (cf. [EGA 0_III, 10.2.2](https://jcreinhold.github.io/ega/iii/03-ch0-10-complements-flat-modules.html#102-local-criteria-of-flatness) or [BAC], III § 5, Example 1 and Th. 1), $Z'$ is flat over $S'$. Since moreover $Z'_{0}
 = {}_{n} H_{0}$ is a finite group of multiplicative type over `S_0`, hence isotrivial by 1.4, then $Z'$ is of
 multiplicative type (and isotrivial) over $S'$, by 3.8 b). Since $S' \to S$ is faithfully flat and quasi-compact, one
 deduces that the multiplication $Z \times_{S} Z \to H$ factors through $Z$ and makes $Z$ a subgroup of $H$, finite over
@@ -808,12 +808,12 @@ Since $G'$ is isotrivial, there exists an étale finite surjective morphism $f :
 G' \times_{T'} \tilde{T}$ is isomorphic to $D_{\tilde{T}}(M)$, where $M$ is a finitely generated abelian group. Since
 $T'$, $H$, and $\tilde{T}$, $G'$ are of finite presentation over $T = \operatorname{Spec}(O_{S,s})$, and $O_{S,s}$ is
 the inductive limit of the subalgebras $A_{i} = O_{S}(S_{i})$, where $S_{i}$ runs through the affine open neighborhoods
-of $s$ in $S$, then, by EGA IV₃, 8.8.2 (and Exp. VI_B, 10.2 and 10.3), there exist an index $i$, $S_{i}$-preschemes
+of $s$ in $S$, then, by [EGA IV₃, 8.8.2](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#88-preschemes-of-finite-presentation-over-a-projective-limit-of-preschemes) (and Exp. VI_B, 10.2 and 10.3), there exist an index $i$, $S_{i}$-preschemes
 (resp. an $S_{i}$-prescheme in groups) of finite presentation $S'_{i}$ and $\tilde{T}_{i}$ (resp. $G'_{i}$), and
 morphisms $g_{i} : S'_{i} \to S_{i}$ and $f_{i} : \tilde{T}_{i} \to S'_{i}$ (resp. a morphism of $S_{i}$-preschemes in
 groups $u_{i} : G'_{i} \to H \times_{S} S'_{i}$), from which $f$ and $g$ (resp. $u : G' \to H'$) come by the base change
 $T' \to S_{i}$. Moreover, taking $i$ large enough, $g_{i}$ will be étale, $f_{i}$ étale finite surjective, and $u_{i}$
-an open and closed immersion (cf. EGA IV, 8.10.5 and 17.7.8).
+an open and closed immersion (cf. [EGA IV, 8.10.5](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#810-permanence-properties-of-morphisms-under-projective-passage-to-the-limit) and 17.7.8).
 
 Then, $\tilde{G}$ comes from the groups $\tilde{G}_{i} = G_{i} \times_{S_{i}} \tilde{T}_{i}$ and $D_{\tilde{T}_{i}}(M)$;
 therefore, by EGA IV₃, 8.8.2 (i) (and VI_B, 10.2), there exists an index $j \geqslant i$ such that $\tilde{G}_{j} \simeq
@@ -865,7 +865,7 @@ $A^{h}$ of $A$. More precisely, one sees easily (using SGA 1, I § 5[^X-4-1]) th
 $S$-preschemes étale $S'$ equipped with a point $s'$ above $s$ such that $\kappa(s')/\kappa(s)$ is trivial, form a
 filtered inductive system, whose inductive limit is a noetherian henselian local ring $A^{h}$ (called the "henselized"
 ring of $A$); for details of this construction (due to Nagata in the normal case), cf. SGA 4, VIII § 4[^X-4-1]. The
-sorites of EGA IV₃ § 8 then allow, <!-- original page 97 --> as in part a) of the proof, to deduce from a known result
+sorites of [EGA IV₃ § 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes) then allow, <!-- original page 97 --> as in part a) of the proof, to deduce from a known result
 on the inductive limit $A^{h}$ of the $O_{S',s'}$, an analogous result on one of the $(S', s')$, which proves 4.4.
 
 **Corollary 4.5.** *Let $S$ be a prescheme, $H$ an $S$-prescheme in groups of multiplicative type and of finite type.
@@ -878,10 +878,10 @@ Indeed, let $s \in S$. By 4.4, there exist an étale morphism $S' \to S$, an $s'
 H'_{s'}$. Since $G'$ and $H'$ are of multiplicative type and of finite type, then, by IX 2.9, there exists an open
 neighborhood $U'$ of $s'$ such that $G'|U' = H'|U'$.
 
-[^N.D.E-X-28] Suppose moreover $S$ local henselian, with closed point $s$; then, by EGA IV₄, 18.5.11 b), there exists a
+[^N.D.E-X-28] Suppose moreover $S$ local henselian, with closed point $s$; then, by [EGA IV₄, 18.5.11](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#185-henselian-local-rings1) b), there exists a
 section $\sigma$ of $S' \to S$ such that $\sigma(s) = s'$. (N.B. one can see directly that $B = O_{S',s'}$ equals $A =
 O_{S,s}$ as follows: by 4.3.0 (i), one has $B \simeq A/I$, and since $B$ is a finitely presented and flat $A$-algebra,
-$I$ is a finitely generated ideal <!-- original page 80 --> (cf. EGA IV₁, 1.4.7), and $I = I m$ (where $m$ is the
+$I$ is a finitely generated ideal <!-- original page 80 --> (cf. [EGA IV₁, 1.4.7](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#14-morphisms-locally-of-finite-presentation)), and $I = I m$ (where $m$ is the
 maximal ideal of $A$), whence $I = 0$.) Therefore $H$ is already isotrivial. One thus obtains:
 
 **Corollary 4.6.** *Let $A$ be a henselian local ring, $k$ its residue field, and $\pi$ the topological Galois group of
@@ -1233,7 +1233,7 @@ one necessarily has $Z = J_{S}$, where $J$ is a part of $I$, and one therefore h
 on whether $J$ is infinite or finite, which gives the desired conclusion.
 
 **Recalls 5.14.0.**[^N.D.E-X-45] Let $S$ be a locally noetherian prescheme, and let $\tilde{S}$ be the normalization of
-$S_{red}$ (cf. EGA II, 6.3.8). Recall that $S$ is said to be *geometrically unibranch* (cf. EGA 0_IV, § 23.2 and IV₂, §
+$S_{red}$ (cf. [EGA II, 6.3.8](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#63-integral-closure-of-a-prescheme)). Recall that $S$ is said to be *geometrically unibranch* (cf. [EGA 0_IV, § 23.2](https://jcreinhold.github.io/ega/iv/10-ch0-23-japanese-rings.html#232-integral-closure-of-an-integral-noetherian-local-ring) and IV₂, §
 6.15) if the canonical morphism $\tilde{S} \to S$ is radicial (and hence a universal homeomorphism); in particular, the
 connected components of $S$ are irreducible.
 
@@ -1241,10 +1241,10 @@ connected components of $S$ are irreducible.
 
 Suppose then $S$ connected, hence irreducible, let $\eta$ be its generic point and let $f : P \to S$ be a flat and
 locally quasi-finite morphism. Let $P_{i}$ be the irreducible components of $P$, and $\xi_{i}$ the generic point of
-$P_{i}$. Since $P$ is flat over $S$, each $\xi_{i}$ <!-- original page 106 --> lies above $\eta$ (cf. EGA IV₂, 2.3.4),
+$P_{i}$. Since $P$ is flat over $S$, each $\xi_{i}$ <!-- original page 106 --> lies above $\eta$ (cf. [EGA IV₂, 2.3.4](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#23-topological-properties-of-flat-morphisms)),
 and so $(P_{i})_{\eta} = P_{i} \cap P_{\eta}$ is the closure of $\xi_{i}$ in $P_{\eta}$. Since the fiber $P_{\eta}$ is
 discrete, one therefore has $(P_{i})_{\eta} = {\xi_{i}}$. This applies in particular when $f$ is étale; in this case,
-$P$ is also locally noetherian and geometrically unibranch (cf. EGA IV₄, 17.5.7), so its irreducible components are its
+$P$ is also locally noetherian and geometrically unibranch (cf. [EGA IV₄, 17.5.7](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms)), so its irreducible components are its
 connected components and are open (and closed).
 
 **Corollary 5.14.** *Let $S$ be a locally noetherian and geometrically unibranch prescheme, $P$ a quasi-isotrivial
@@ -1593,8 +1593,8 @@ procedure (cf. EGA IV₂, 8.8.2) to the case where $S$ is moreover noetherian. W
 By 4.9 we are reduced to proving that $H$ is affine over $S$. We may therefore suppose[^N.D.E-X-60] $A$ noetherian
 local, and since the completion `Â` is faithfully flat over $A$, we are reduced by descent to the case where $A$ is a
 complete noetherian local ring. Let $S'$ be the normalization of $S_{red}$; one knows by Nagata that it is finite over
-$S$ (EGA 0_IV, 23.1.5); moreover $S' \to S$ is surjective, so $H' = H \times_{S} S' \to H$ is finite and surjective, so
-to prove that $H$ is affine, it suffices to show that $H'$ is so (EGA II, 6.7.1).
+$S$ ([EGA 0_IV, 23.1.5](https://jcreinhold.github.io/ega/iv/10-ch0-23-japanese-rings.html#231-japanese-rings)); moreover $S' \to S$ is surjective, so $H' = H \times_{S} S' \to H$ is finite and surjective, so
+to prove that $H$ is affine, it suffices to show that $H'$ is so ([EGA II, 6.7.1](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#67-chevalleys-theorem)).
 
 <!-- original page 95 -->
 
@@ -1665,7 +1665,7 @@ is flat (SGA 1 I 5.9). Consequently, $K = Ker(u)$ is flat over $S$,[^N.D.E-X-64]
 generic fiber $K_{\eta}$. Now $K_{\eta}$ is the unit group by construction, and since $K$ is separated over $S$ (since
 $H$ is), its unit section is closed, whence it follows that $K$ is the unit group. <!-- original page 119 --> Therefore
 $u$ is a monomorphism; since we have seen that it is faithfully flat, it is therefore an isomorphism (cf. SGA 1, I 5.1
-or EGA IV₄, 17.9.1). This proves that $H$ is a torus, hence completes the proof of 8.2.[^N.D.E-X-65]
+or [EGA IV₄, 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)). This proves that $H$ is a torus, hence completes the proof of 8.2.[^N.D.E-X-65]
 
 **Remark 8.5.1.** Instead of invoking 8.5 one can also invoke Zariski's "Main Theorem", which directly implies that $u$
 is an open immersion, hence an isomorphism.[^N.D.E-X-66]
@@ -1797,7 +1797,7 @@ of `G_0` through which passes a section of $G$ over $S$ is everywhere dense. Now
 **Lemma 8.9.** *Let $S$ be a locally noetherian regular prescheme of dimension 1, $G$ an $S$-prescheme in groups flat
 and locally of finite type, such that $G_{\eta}$ is smooth over $\kappa(\eta)$ for every maximal point $\eta$ of $S$
 (which implies that $G$ is reduced). Suppose that the normalized scheme $X$ of $G$ is finite over $G$ (this is the case,
-by Nagata, if $S$ is the spectrum of a complete discrete valuation ring, cf. EGA IV₂, 7.7.4), and let $G'$ be the open
+by Nagata, if $S$ is the spectrum of a complete discrete valuation ring, cf. [EGA IV₂, 7.7.4](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#77-applications-ii-universally-japanese-rings)), and let $G'$ be the open
 set of $X$ formed by the points at which $X$ is smooth over $S$. With these notations:*
 
 <!-- label: III.X.8.9 -->
@@ -1864,7 +1864,7 @@ and the latter being smooth over $S$, it suffices to verify the commutativity on
 proves part a) of 8.9.
 
 Let us prove b). Let $Z'$ be the set of $x \in X$ such that $O_{X,x}$ is non-regular; it is a closed part by a theorem
-of Nagata (EGA IV₂, 6.12.6), <!-- original page 126 --> obviously contained in `X_0`; let $Z$ be its image in $G$, which
+of Nagata ([EGA IV₂, 6.12.6](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#612-nagatas-criteria-for-regx-to-be-open)), <!-- original page 126 --> obviously contained in `X_0`; let $Z$ be its image in $G$, which
 is therefore a closed part of `G_0`. Then $Z$ is a rare part of `G_0`, i.e. contains no maximal point $y$ of `G_0`.
 Indeed, since `G_0` is defined in $G$ by an equation $t = 0$ (where $t$ is a uniformizer of the discrete valuation ring
 $A$), $O_{G,y}$ is of dimension 1 by the Hauptidealsatz, so for every $x$ of $X$ above $y$, $O_{X,x}$ is of dimension 1,
@@ -2254,7 +2254,7 @@ $\pi_{0}(X'_{x}) \to \pi_{0}(X')$ is therefore surjective, as is the morphism $\
 [^N.D.E-X-27]: *N.D.E.* One has spelled out the reductions that follow (the original indicated: "One reduces at once to
     the case where $S$ is the spectrum of a noetherian local ring $A$, and where $s$ is the closed point of $S$.").
 
-[^X-4-1]: Or EGA IV₄, § 18.6.
+[^X-4-1]: Or [EGA IV₄, § 18.6](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#186-henselization).
 
 [^N.D.E-X-28]: *N.D.E.* One has spelled out the original in what precedes and what follows.
 
@@ -2269,9 +2269,9 @@ $\pi_{0}(X'_{x}) \to \pi_{0}(X')$ is therefore surjective, as is the morphism $\
 
 [^N.D.E-X-33]: *N.D.E.* One has corrected "equivalence" to "anti-equivalence".
 
-[^N.D.E-X-34]: *N.D.E.* (when $S'$ is locally noetherian, and EGA IV₃, 8.11.2 in general).
+[^N.D.E-X-34]: *N.D.E.* (when $S'$ is locally noetherian, and [EGA IV₃, 8.11.2](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#811-application-to-quasi-finite-morphisms) in general).
 
-[^N.D.E-X-35]: *N.D.E.* (when $S'$ is locally noetherian, and EGA IV₂, 2.4.6 in general).
+[^N.D.E-X-35]: *N.D.E.* (when $S'$ is locally noetherian, and [EGA IV₂, 2.4.6](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#24-universally-open-morphisms-and-flat-morphisms) in general).
 
 [^N.D.E-X-36]: *N.D.E.* One has corrected $H$ to $G$.
 
@@ -2280,7 +2280,7 @@ $\pi_{0}(X'_{x}) \to \pi_{0}(X')$ is therefore surjective, as is the morphism $\
 [^N.D.E-X-38]: *N.D.E.* Correct this reference by treating the case of the functor $Isom_{S-gr.}(H, G)$ in an addition
     1.5.1 in VIII ….
 
-[^N.D.E-X-39]: *N.D.E.* One has added this recall, used several times in the sequel. (See also EGA I, 6.1.9; note
+[^N.D.E-X-39]: *N.D.E.* One has added this recall, used several times in the sequel. (See also [EGA I, 6.1.9](https://jcreinhold.github.io/ega/i/01-06-finiteness-conditions.html#61-noetherian-and-locally-noetherian-preschemes); note
     however that the proof of *loc. cit.* seems unnecessarily complicated.)
 
 [^N.D.E-X-40]: *N.D.E.* Compare with the examples of 1.6 ….
@@ -2299,7 +2299,7 @@ $\pi_{0}(X'_{x}) \to \pi_{0}(X')$ is therefore surjective, as is the morphism $\
 [^N.D.E-X-45]: *N.D.E.* The original treated in 5.14 the case where $S$ is locally noetherian and normal, and signalled
     in Remark 5.15 that the reasoning applies, more generally, if one supposes only $S$ geometrically unibranch instead
     of normal. One has modified the statement of 5.14 (and also 5.16) accordingly, and one has added these "recalls",
-    drawn from EGA IV₄, 18.10.6 and 18.10.7, which show that the proof of 5.14 applies verbatim to the geometrically
+    drawn from [EGA IV₄, 18.10.6](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#1810-étale-preschemes-over-a-geometrically-unibranch-or-normal-prescheme) and 18.10.7, which show that the proof of 5.14 applies verbatim to the geometrically
     unibranch case.
 
 [^N.D.E-X-46]: *N.D.E.* One has removed remark 5.15, rendered obsolete by the addition of 5.14.0 (cf. the preceding

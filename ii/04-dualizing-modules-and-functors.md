@@ -680,7 +680,7 @@ so
 Hom_A(X, I) = lim_← Hom_A(X_k, I).
 ```
 
-Therefore $Y = \varprojlim X_{k}$ is an `Â`-module of finite type, as follows from EGA 0_I 7.2.9. We note in this
+Therefore $Y = \varprojlim X_{k}$ is an `Â`-module of finite type, as follows from [EGA 0_I 7.2.9](https://jcreinhold.github.io/ega/i/00-07-adic-rings.html#72-adic-rings-and-projective-limits). We note in this
 connection that $\mathcal{D}_{A}$ is also the category of `Â`-modules of finite type, or, if one prefers, that
 $\mathcal{D}_{A}$ is the category of complete $A$-modules of finite type over `Â`. Let then $Y$ be such a module, and
 let $f : Y \to I$ be an `Â`-homomorphism. The image of $f$ is a submodule of finite type, hence is annihilated by

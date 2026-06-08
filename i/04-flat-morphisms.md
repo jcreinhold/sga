@@ -816,13 +816,13 @@ induces on each $X_{i} = X \times_{Y} Y_{i}$ a sheaf flat relative to $Y_{i}$.
 
 <!-- end of Exposé IV source block: next chapter begins at smf_doc-math_3_01.tex line 7383 -->
 
-[^iv-0-1]: Cf. EGA IV 11 and 12.
+[^iv-0-1]: Cf. [EGA IV 11](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#11-topological-properties-of-flat-morphisms-of-finite-presentation-local-criteria-of-flatness) and 12.
 
 [^iv-0-2]: And, for a more detailed exposition, Exposés VIII and IX below.
 
 [^iv-0-3]: N. Bourbaki, _Algèbre Commutative_, Chap. I, Modules plats, Act. Sci. Ind. 1290, Paris, Hermann, 1961.
 
-[^iv-6-0-1]: Cf. EGA 0_III 9, EGA IV 1.8 and 1.10.
+[^iv-6-0-1]: Cf. [EGA 0_III 9](https://jcreinhold.github.io/ega/iii/02-ch0-09-constructible-sets.html#9-constructible-sets), [EGA IV 1.8](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets) and 1.10.
 
-[^iv-6-6-1]: The answer to the second question is affirmative, and to the first negative even if $f$ is étale; cf. EGA
-    IV 12.1.1.5 and EGA Err_IV 33.
+[^iv-6-6-1]: The answer to the second question is affirmative, and to the first negative even if $f$ is étale; cf. [EGA
+    IV 12.1.1.5](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#121-local-properties-of-the-fibres-of-a-flat-morphism-locally-of-finite-presentation) and EGA Err_IV 33.

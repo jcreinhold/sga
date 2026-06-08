@@ -827,11 +827,11 @@ such that $s'_{j} \mapsto s_{j}$ and $s'_{0}$ is a specialization of $s'_{1}$. O
 
 <!-- original page 386 (continuing) -->
 
-therefore (EGA II 7.1.4) reduced to the case where $S$ is the spectrum of a valuation ring $A$, $s_{0}$ the closed point
+therefore ([EGA II 7.1.4](https://jcreinhold.github.io/ega/ii/02-07-valuative-criteria.html#71-reminders-on-valuation-rings)) reduced to the case where $S$ is the spectrum of a valuation ring $A$, $s_{0}$ the closed point
 of $S$, and $s_{1}$ the generic point of $S$. Now let $V$ be the closure of $C_{1}$ in $Y$. It is clear that $C_{0}
 \subseteq V$, and so the lemma is a consequence of the "well-known" fact that an irreducible closed subprescheme $V$ of
 a prescheme $Y/S$ of finite presentation satisfies $\dim V \times_{S} s_{1} \geqslant \dim V \times_{S} s_{0}$ if $S$ is
-the spectrum of a valuation ring and if $V \times_{S} s_{1} \neq \emptyset$ (EGA IV 13.1.6).
+the spectrum of a valuation ring and if $V \times_{S} s_{1} \neq \emptyset$ ([EGA IV 13.1.6](https://jcreinhold.github.io/ega/iv/25-ch4-13-equidimensional-morphisms.html#131-chevalleys-semi-continuity-theorem)).
 
 **Lemma 3.12.** *Suppose that $S$ is the spectrum of a local ring with closed point $s_{0}$, and let ${c_{i}}$, $i \in
 I$, be sections such that the closure $C_{0}$ of the set ${c_{i}(s) \cap X_{0}}$ in the closed fiber $X_{0}$ is of
@@ -839,7 +839,7 @@ dimension equal to $\dim X_{0} = n$. Then the condition of Lemma 3.9 is satisfie
 
 <!-- label: III.XVIII.3.12 -->
 
-*Proof.* Note first that the fibers of $X/S$ all have the same dimension $n$, which results from EGA IV 12.1.1 (i) and
+*Proof.* Note first that the fibers of $X/S$ all have the same dimension $n$, which results from [EGA IV 12.1.1](https://jcreinhold.github.io/ega/iv/24-ch4-12-study-of-fibers.html#121-local-properties-of-the-fibres-of-a-flat-morphism-locally-of-finite-presentation) (i) and
 from the fact that $X$ has a rational composition law. Lemma (3.11) therefore implies that for each morphism $S_{1} \to
 S$ with $S_{1}$ the spectrum of a field, the dimension of the closure of the set ${c_{i} \times_{S} S_{1}}$ in
 $X_{S_{1}}$ is equal to $n$. Let us verify the condition of (3.10). Let $(a, b) \in X^{2}(S')$. For $(c^{-1}_{i} a)b$ to
@@ -858,7 +858,7 @@ The proof of the theorem is now easy. Note first the following consequence of th
 ${A_{i}}$ is an inductive system of rings over $S$, if $\tilde{A} = \lim A_{i}$, and if the hypotheses of (3.9) are
 satisfied for $S = \operatorname{Spec} \tilde{A}$, then one may descend the object that represents the quotient $G$ of
 $R \Rightarrow X^{2}$ to one of $S_{i} = \operatorname{Spec} A_{i}$ with the finiteness and flatness properties stated
-in (3.9). This is the usual passage to the limit (EGA IV 8 and 11). It follows that for the proof of (iii) and (iv) of
+in (3.9). This is the usual passage to the limit ([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes) and 11). It follows that for the proof of (iii) and (iv) of
 (3.7), one may restrict to the case $S = \operatorname{Spec} A$, with $A$ a strictly local ring. Let then $x_{0}$ be a
 closed point of the closed fiber $X_{0}$ of $X/S$. There exists[^XVIII-3-3] an extension $A'$ of $A$, local, free and
 finite, and a section of $X' = X \times_{S} S'$ passing through the unique point $x'_{0}$ of $X'$ above $x_{0}$. Note
@@ -933,7 +933,7 @@ vol. 27, No. 1, June, 1963.
 | `Cb` (OCR) | `Ĉ` | Not encountered in this Exposé; ledger note. |
 -->
 
-[^XVIII-1-1]: cf. also EGA IV₃, 11.9 and 11.10 (notably 11.10.8), where one says "universally schematically dense
+[^XVIII-1-1]: cf. also [EGA IV₃, 11.9](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#119-separating-and-universally-separating-families-of-homomorphisms-of-sheaves-of-modules) and 11.10 (notably 11.10.8), where one says "universally schematically dense
     relatively to $S$".
 
 [^N.D.E-XVIII-1]: N.D.E.: to be made precise for which topology: a priori (fpqc).
@@ -946,8 +946,8 @@ vol. 27, No. 1, June, 1963.
 
 [^N.D.E-XVIII-3]: N.D.E.: To be made precise…
 
-[^XVIII-1-2]: cf. EGA IV₄, 20.5, where one says "pseudo-morphism of $X$ into $Y$ relatively to $S$", in order not to
-    conflict with EGA I, 7.12.
+[^XVIII-1-2]: cf. [EGA IV₄, 20.5](https://jcreinhold.github.io/ega/iv/33-ch4-20-meromorphic-functions.html#205-relative-pseudo-morphisms), where one says "pseudo-morphism of $X$ into $Y$ relatively to $S$", in order not to
+    conflict with [EGA I, 7.12](https://jcreinhold.github.io/ega/i/01-07-rational-maps.html#7-rational-maps).
 
 [^N.D.E-XVIII-4]: N.D.E.: The number 1.5.1 has been added.
 
@@ -975,13 +975,13 @@ vol. 27, No. 1, June, 1963.
 
 [^N.D.E-XVIII-13]: N.D.E.: to be made precise…
 
-[^XVIII-3-2]: combining Exp. VI_A, 1.1.1 and EGA IV₄, 17.16.2.
+[^XVIII-3-2]: combining Exp. VI_A, 1.1.1 and [EGA IV₄, 17.16.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1716-quasi-sections-of-flat-or-smooth-morphisms).
 
 [^N.D.E-XVIII-14]: N.D.E.: If $X$ is smooth, separated over $S$, faithfully flat of finite presentation over $S$, then
     $G/S$ is representable by an $S$-group scheme smooth and of finite type over $S$. This is Theorem 6.6.1 of the book
     *Néron models* of Bosch–Lütkebohmert–Raynaud, Springer (1990).
 
-[^N.D.E-XVIII-15]: N.D.E.: Another way to conclude here is by faithfully flat descent (EGA IV₂, 2.7.1), since $\beta$ is
+[^N.D.E-XVIII-15]: N.D.E.: Another way to conclude here is by faithfully flat descent ([EGA IV₂, 2.7.1](https://jcreinhold.github.io/ega/iv/14-ch4-02-base-change-and-flatness.html#27-permanence-of-various-properties-of-morphisms-under-faithfully-flat-descent)), since $\beta$ is
     fppf-covering.
 
 [^XVIII-3-3]: cf. note at the bottom of page 15, Exp. VII.

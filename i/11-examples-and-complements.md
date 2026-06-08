@@ -239,7 +239,7 @@ V(\mathcal{O}_{V}(1))$ associated with $\mathcal{O}_{V}(1)$, and finally let
 
 $$ f: X \to Y $$
 
-be the canonical morphism contracting the zero section $X_{0}$ of `C_V` on $X$ to a point (EGA II 8.6.4). Since $X$ is a
+be the canonical morphism contracting the zero section $X_{0}$ of `C_V` on $X$ to a point ([EGA II 8.6.4](https://jcreinhold.github.io/ega/ii/02-08-blow-ups-projecting-cones.html#86-a-canonical-isomorphism-for-punctured-cones)). Since $X$ is a
 locally trivial bundle over $V$ with fibers $\mathbb{P}^{1}$, hence with simply connected fibers, the morphism $p: X \to
 V$ induces, by X.1.4, an isomorphism
 

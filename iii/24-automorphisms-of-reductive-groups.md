@@ -2995,8 +2995,8 @@ Fib(S, G) → Fib(κ(s), G_s)
 If $K$ is a finite separable extension of $\kappa(s)$, there exists an $S' \to S$ finite surjective étale such that $K
 \simeq S' \otimes_{S} \kappa(s)$.[^N.D.E-XXIV-47] If $P$ is a principal homogeneous bundle under $G$, then $P$ is smooth
 over $S$, hence $P_{s}$ smooth over $\kappa(s)$; there therefore exists a finite separable extension $K$ of $\kappa(s)$
-such that `P_K` possesses a section (cf. EGA IV_4, 17.15.10). Representing $K$ as said above, one sees that $P_{S'}$
-possesses a section by "Hensel's lemma" (cf. EGA IV_4, 18.5.17), which proves the first part of (i).
+such that `P_K` possesses a section (cf. [EGA IV_4, 17.15.10](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1715-case-of-preschemes-over-a-base-field)). Representing $K$ as said above, one sees that $P_{S'}$
+possesses a section by "Hensel's lemma" (cf. [EGA IV_4, 18.5.17](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#185-henselian-local-rings1)), which proves the first part of (i).
 
 Conversely, if $P$ is a principal homogeneous sheaf under $G$ for the étale topology, there exists an $S' \to S$ finite
 surjective étale that trivializes $P$ (indeed every covering family of a henselian local scheme for the étale topology
@@ -3409,8 +3409,8 @@ with $S' \to S$ étale surjective, hence covering for the topology considered.
 [^N.D.E-XXIV-18]: N.D.E.: The original referred to EGA IV, § 24, which has not appeared. The point is to use "Bertini's
     theorem". Let us detail the argument, which was indicated to us by O. Gabber. Let $X \to S$ be a surjective, smooth
     and projective morphism; replacing $S$ by a connected component, one may assume that $X/S$ has constant relative
-    dimension $d$ at every point (cf. EGA IV_4, 17.10.2). One may also assume that $X$ is a closed subscheme of a
-    projective space $P^{n}_{S} = P(E)$, where $E$ is a free $A$-module of rank $n + 1$ (cf. EGA II, 5.3.3). Let $s_{1},
+    dimension $d$ at every point (cf. [EGA IV_4, 17.10.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#1710-relative-dimension-of-a-smooth-prescheme-over-another)). One may also assume that $X$ is a closed subscheme of a
+    projective space $P^{n}_{S} = P(E)$, where $E$ is a free $A$-module of rank $n + 1$ (cf. [EGA II, 5.3.3](https://jcreinhold.github.io/ega/ii/02-05-quasi-affine-quasi-projective-morphisms.html#53-quasi-projective-morphisms)). Let $s_{1},
     ..., s_{r}$ be the closed points of $S$; by Bertini's theorem (see for example [Jou83], I 6.10), there exists an
     open set $U$ of the product $P = P(E^{*})^{d}$, with non-empty fibers, such that for every point $u = (f_{1}, ...,
     f_{d})$ of $U_{s_{i}}$, the intersection of $X_{\kappa(u)}$ with the $d$ hyperplanes of $P^{n}_{\kappa(u)}$ defined
@@ -3424,7 +3424,7 @@ with $S' \to S$ étale surjective, hence covering for the topology considered.
     closed points $s'_{1}, ..., s'_{t}$ is of cardinality $\geqslant 2m$. Then $U$ possesses a rational point $u_{i}$
     over each closed point of $S'$, and since $A' \to \prod_{i} \kappa(s_{i})$ is surjective, these lift to a section
     $u$ of $P_{S'}$. Write $Z$ for the intersection of $X_{S'}$ with the $d$ hyperplanes of $P^{n}_{S'}$ defined by $u$,
-    and $V$ for the open set of $Z$ formed by the points at which $Z$ is étale over $S'$. By EGA IV_3, 11.3.8, $V$
+    and $V$ for the open set of $Z$ formed by the points at which $Z$ is étale over $S'$. By [EGA IV_3, 11.3.8](https://jcreinhold.github.io/ega/iv/23a-ch4-11-flatness-loci-and-descent.html#113-application-to-elimination-of-noetherian-hypotheses), $V$
     contains the fibers $Z_{s'_{i}}$ for every $i$; since $\pi : Z \to S'$ is proper, it follows that the closed set
     $\pi(Z - V)$ is empty, whence $V = Z$. Then $Z \to S'$ is surjective, étale and proper, hence finite, as is the
     composite $Z \to S$, and this yields the desired section of $X \to S$.

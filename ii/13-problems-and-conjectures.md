@@ -18,7 +18,7 @@ results, to conjecture, and even to prove, analogous results for complete noethe
 which really appear in the global statement, for instance for local rings that are not necessarily of equal
 characteristic. Thus, Serre's duality theorem for projective space (XII 1.1) suggested the useful local duality theorem
 (V 2.1). Serre's fundamental theorem on the cohomology of coherent Modules on projective space (finiteness, asymptotic
-behavior for large $n$ of $H^{i}(X, F(n))$, cf. EGA III 2.2.1) generalizes to a structure theorem for the local
+behavior for large $n$ of $H^{i}(X, F(n))$, cf. [EGA III 2.2.1](https://jcreinhold.github.io/ega/iii/09-ch3-02-cohomology-projective-morphisms.html#22-the-fundamental-theorem-of-projective-morphisms)) generalizes to a structure theorem for the local
 invariants $H^{i}_{\mathfrak{m}}(M)$, see V 3. Likewise, the Lefschetz theorems for the fundamental group, and for the
 Picard group ("equivalence criteria"), well familiar in the classical case and subsequently extended to an arbitrary
 base field, suggested the "local" Lefschetz theorems of Exposés X and XI. Of course, the local theorems are in turn
@@ -35,8 +35,8 @@ by a general base scheme. Thus, the sequel of EGA III will give[^N.D.E-XIII-1] a
 Serre duality[^XIII-1-1]; the theorems on finiteness and asymptotic behavior of the $H^{i}(X, F(n))$ were stated in EGA
 III 2.2.1 over a general base scheme, and finally the Lefschetz theorems can equally be developed for a projective
 morphism, as we saw in XII 4.9, thanks to the local theorem XII 4.7. Of course, working over a general base scheme also
-leads to essentially new statements, such as the "comparison theorem" EGA III 4.15 and the existence theorem for sheaves
-EGA III 5.1.4 (which, as we saw moreover in IX, derive from the same key cohomological theorems as the Lefschetz
+leads to essentially new statements, such as the "comparison theorem" [EGA III 4.15](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#4-the-fundamental-theorem-of-proper-morphisms-applications) and the existence theorem for sheaves
+[EGA III 5.1.4](https://jcreinhold.github.io/ega/iii/12-ch3-05-existence-coherent-algebraic-sheaves.html#51-statement-of-the-theorem) (which, as we saw moreover in IX, derive from the same key cohomological theorems as the Lefschetz
 theorems for $\pi_{1}$ and `Pic`).
 
 It then becomes necessary to extract theorems that simultaneously encompass the two generalizations we have just
@@ -155,7 +155,7 @@ $\mathbf{P}^{3}$ that is not set-theoretically the intersection of two hypersurf
 
 <!-- label: XIII.1.4 -->
 
-Give an affine variant of the "comparison theorem" EGA III 4.1.5 as a theorem of commutation of the functors $H^{i}_{J}$
+Give an affine variant of the "comparison theorem" [EGA III 4.1.5](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#41-the-fundamental-theorem) as a theorem of commutation of the functors $H^{i}_{J}$
 with certain inverse limits.
 
 Finally, in the present order of ideas, I had posed the following problem: let $A$ be a complete regular noetherian
@@ -251,7 +251,7 @@ dimension $\geqslant k$.
 Then the irreducible components of $X_{y_{0}}$ are of dimension $\geqslant k + 1$, and $X_{y_{0}}$ is connected in
 dimension $\geqslant k$.
 
-Indeed, Zariski's connection theorem (cf. EGA III 4.3.1) implies that $X_{y_{0}}$ is connected; to show that it is not
+Indeed, Zariski's connection theorem (cf. [EGA III 4.3.1](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#43-zariskis-connection-theorem)) implies that $X_{y_{0}}$ is connected; to show that it is not
 disconnected by a closed part of dimension $< k$, one is reduced to showing that the local rings at points $x \in
 X_{y_{0}}$ such that $\dim x < k$ have a spectrum not disconnected by $x$. Now this is true without assuming either $f$
 proper, or $Y$ unibranch at $y_{0}$. One reduces, to see this, to the case where $X$ is integral dominating $Y$, and if
@@ -668,7 +668,7 @@ Pic(U) ≃ Pic(V) ≃ Pic(Y) / Im ℤ^I,
 
 where $I$ is the set of irreducible components of the fiber $Y_{a}$ (each of these defining an element of
 $\operatorname{Pic}(Y)$, being a locally principal divisor, thanks to $Y$ regular). On the other hand, using the
-technique of formal geometry EGA III 4 and 5, notably the existence theorem, one finds
+technique of formal geometry [EGA III 4](https://jcreinhold.github.io/ega/iii/11-ch3-04-fundamental-theorem-proper-morphisms.html#4-the-fundamental-theorem-of-proper-morphisms-applications) and 5, notably the existence theorem, one finds
 
 ```text
 Pic(Y) ≃ lim_{← } Pic(Y_n),
@@ -1163,9 +1163,9 @@ $\Pi^{x}_{i}(U) = 0$ for $i < 3 - deg tr k(x)/k$, for points $x$ such that one h
 
 [^N.D.E-XIII-5]: *N.D.E.* Write $K = \lim_{a \neq 0} A[1/a]$ and observe that $a \neq 0$ is $A$-regular.
 
-[^XIII-2-1]: Cf. EGA IV 5.7.2.
+[^XIII-2-1]: Cf. [EGA IV 5.7.2](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#57-depth-and-property-sn).
 
-[^XIII-2-2]: Cf. EGA IV 7.8.3 (i) (ii) (v).
+[^XIII-2-2]: Cf. [EGA IV 7.8.3](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings) (i) (ii) (v).
 
 [^N.D.E-XIII-6]: *N.D.E.* For a very beautiful direct proof, see (Fulton W. & Lazarsfeld R., "Connectivity and its
     applications in algebraic geometry", in *Algebraic geometry (Chicago, Ill., 1980)*, Lect. Notes in Math., vol. 862,
@@ -1241,7 +1241,7 @@ $\Pi^{x}_{i}(U) = 0$ for $i < 3 - deg tr k(x)/k$, for points $x$ such that one h
 
 [^XIII-6-2]: Or, preferably, SGA 4.
 
-[^XIII-6-3]: Or EGA IV 18.8.
+[^XIII-6-3]: Or [EGA IV 18.8](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#188-strictly-local-rings-and-strict-henselization).
 
 [^XIII-6-4]: Cf. M. Artin in SGA 4 XIX.
 
@@ -1285,7 +1285,7 @@ $\Pi^{x}_{i}(U) = 0$ for $i < 3 - deg tr k(x)/k$, for points $x$ such that one h
     823–836).
 
 [^XIII-6-10]: In the first edition of these notes, we had employed the term "true homotopical depth". In the present
-    version, we follow EGA IV 10.8.1.
+    version, we follow [EGA IV 10.8.1](https://jcreinhold.github.io/ega/iv/23-ch4-10-jacobson-preschemes.html#108-rectified-depth).
 
 [^N.D.E-XIII-22]: *N.D.E.* All the conjectures that follow, suitably rectified if I dare say so, have become theorems
     thanks to the work of Hamm and Lê Dũng Tráng (Hamm H.A. & Lê Dũng Tráng, "Rectified homotopical depth and

@@ -5,7 +5,7 @@
 <!-- original page 89 -->
 
 Throughout this Exposé, $X$ will denote a locally noetherian prescheme, $Y$ a closed part of $X$, $U$ a variable open
-neighborhood of $Y$ in $X$, and $\hat{X}$ the formal completion of $X$ along $Y$ (EGA I 10.8). For every prescheme $Z$,
+neighborhood of $Y$ in $X$, and $\hat{X}$ the formal completion of $X$ along $Y$ ([EGA I 10.8](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#108-formal-completion-of-a-prescheme-along-a-closed-subset)). For every prescheme $Z$,
 we denote by $\hat{E}t(Z)$ the category of étale coverings of $Z$, and by $L(Z)$ the category of locally free coherent
 Modules on $Z$.
 
@@ -15,8 +15,8 @@ Modules on $Z$.
 
 Let $I$ be an ideal of definition of $Y$ in $X$. Set, for every $n \in \mathbb{N}$, $Y_{n} = (Y,
 (\mathcal{O}_{X}/I^{n+1})|Y)$. The $Y_{n}$ form a direct system of ordinary preschemes, or also of formal preschemes, by
-equipping the structure sheaves with the discrete topology. One knows (EGA I 10.6.2) that $\hat{X}$ is the direct limit,
-in the category of formal preschemes, of the direct system of the $Y_{n}$. One also knows (EGA I 10.13) that to give a
+equipping the structure sheaves with the discrete topology. One knows ([EGA I 10.6.2](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#106-formal-preschemes-as-inductive-limits)) that $\hat{X}$ is the direct limit,
+in the category of formal preschemes, of the direct system of the $Y_{n}$. One also knows ([EGA I 10.13](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#1013-morphisms-of-finite-type)) that to give a
 formal $\hat{X}$-prescheme of finite type $R$ is the same as to give a direct system of $Y_{n}$-preschemes $R_{n}$ of
 finite type, such that $R_{n} \simeq (R_{n+1}) \times_{(Y_{n+1})} (Y_{n})$. Moreover, in order that $R$ be an étale
 covering of $\hat{X}$, it is necessary and sufficient that for every $n$, $R_{n}$ be an étale covering of $Y_{n}$. This
@@ -171,7 +171,7 @@ $u$). Let $Y = V(t)$ be the subscheme of $X$ of equation $t = 0$.[^N.D.E-X-2] Th
 
 This example will be treated in detail in Exp. XII.
 
-Let $S$ be a prescheme; one knows (EGA II 6.1.2) that the functor which to every finite flat covering $r: R \to S$
+Let $S$ be a prescheme; one knows ([EGA II 6.1.2](https://jcreinhold.github.io/ega/ii/02-06-integral-finite-morphisms.html#61-preschemes-integral-over-another)) that the functor which to every finite flat covering $r: R \to S$
 associates the $\mathcal{O}_{X}$-Algebra $r_{*}(\mathcal{O}_{R})$ induces an equivalence between the category of finite
 flat coverings of $S$ and the category of locally free coherent $\mathcal{O}_{X}$-Algebras. Let $U$ be an open
 neighborhood of $Y$, and let $r: R \to U$ be a finite flat covering of $U$. Let $\hat{R}$ be the finite flat covering of

@@ -738,7 +738,7 @@ lemma:
 *b) $G$ possesses a composition series whose successive quotients are forms of $G_{a}$.*
 
 Indeed, by hypothesis, there exists an extension $k'$ of $k$ such that $G_{k'}$ is isomorphic to $(G_{a, k'})^{r}$. By
-the principle of finite extension (EGA IV 9.1.1), one may suppose that $k'$ is a finite extension of $k$. But then, for
+the principle of finite extension ([EGA IV 9.1.1](https://jcreinhold.github.io/ega/iv/22-ch4-09-constructible-properties.html#91-the-principle-of-finite-extension)), one may suppose that $k'$ is a finite extension of $k$. But then, for
 a), it suffices to consider the canonical closed immersion (EGA V[^N.D.E-XVII-5]):
 
 ```text
@@ -1357,9 +1357,9 @@ one has $H^{i}(H, U) = 0$ for $i > 0$.*
 It suffices to show that raising to the $n$-th power in $U$ is an isomorphism, since this will entail that
 multiplication by $n$ in $H^{i}(H, U)$ is both an isomorphism and the zero morphism, hence $H^{i}(H, U) = 0$. Now, under
 the hypotheses on $U$, it suffices to verify that raising to the $n$-th power is an isomorphism on the fibers of $U$
-(EGA IV 17.9.5), which reduces us to the case where $S$ is the spectrum of a field $k$ of characteristic $p$. Since $(n,
+([EGA IV 17.9.5](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)), which reduces us to the case where $S$ is the spectrum of a field $k$ of characteristic $p$. Since $(n,
 p) = 1$, raising to the $n$-th power in $U$ is an étale morphism (Exp. VII), and is a monomorphism (2.4 i)), hence an
-open immersion (EGA IV 17.9.1).
+open immersion ([EGA IV 17.9.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#179-étale-morphisms-and-open-immersions)).
 
 <!-- original page 579 -->
 
@@ -1408,7 +1408,7 @@ Let `N_0` be the set of integers `> 0` prime to $p$, ordered by divisibility. Fo
 and finally let $R_{n}$ be the $k$-functor of lifts of ${}_{n} H$ in $E_{n}$ (cf. 5.2.3 ii)). If $n$ divides $m$, it is
 clear that one has a natural $k$-morphism $R_{m} \to R_{n}$, so the $R_{n}$ form an inverse system of $k$-functors.
 Since $R_{n}$ is representable by a non-empty affine $k$-scheme (5.2.3 ii)), and since a filtered direct limit of
-non-zero rings is non-zero, the functor $R = \lim R_{n}$ is representable by a non-empty affine $k$-scheme (EGA IV 8 and
+non-zero rings is non-zero, the functor $R = \lim R_{n}$ is representable by a non-empty affine $k$-scheme ([EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes) and
 1.9.1). There therefore exists an extension $K$ of $k$ and a point $u \in R(K)$. The image $u_{n}$ of $u$ in $R_{n}(K)$
 corresponds to a lift $H'_{n}$ of $({}_{n} H)_{K}$ in $(E_{n})_{K}$. By construction, $H'_{n} = {}_{n}(H'_{m})$ if $n$
 divides $m$. Set $U_{n} = (U_{K})^{H'_{n}}$. The choice of $H'_{n}$ allows one to identify $(R_{n})_{K}$ with $U_{K} /
@@ -1484,7 +1484,7 @@ Let us show that $Ext_{alg}(H, V) = 0$. Let then `E_0` be an algebraic group ext
 ```
 
 The scheme `E_0` is a torsor with base $H$ and group $G^{r}_{a}$, hence defines an element of $H^{1}(H, O^{r}_{H})$ (in
-the sense of the cohomology of coherent sheaves). Since $H$ is affine, one has $H^{1}(H, O^{r}_{H}) = 0$ (EGA III § 1).
+the sense of the cohomology of coherent sheaves). Since $H$ is affine, one has $H^{1}(H, O^{r}_{H}) = 0$ ([EGA III § 1](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#1-cohomology-of-affine-schemes)).
 That is to say, $E_{0} \to H$ possesses a section. Consequently, the group $Ext_{alg}(H, V)$ is isomorphic to $H^{2}(H,
 V)$ (App. I 3.1). Now $H^{i}(H, V) = H^{i}(H, W(V)) = 0$ for $i > 0$ (Exp. IX, 3.1). One then concludes, by the exact
 sequence `(**)`, that $Ext_{alg}(H, F V) = 0$, hence that $E$ is a trivial extension.
@@ -1745,9 +1745,9 @@ $ens(X)$ image of $G$ under the morphism $g \mapsto g \cdot x$).*
 
 By functoriality, $G$ acts on the affine envelope of $X$ (that is, $\operatorname{Spec} \Gamma(X, O_{X})$), which allows
 us to suppose $X$ affine. One may further suppose $k$ algebraically closed, $X$ reduced, and $U$ smooth (note that
-$U_{red}$ acts on $X_{red}$ if $k$ is perfect). Let $Y$ be the schematic image of $G$ (EGA I 9.5.1) under the morphism
-$g \mapsto g \cdot x$, which is a closed and reduced subscheme of $X$ on which $G$ acts. It follows easily from EGA IV
-1.8.6 that the orbit of $x$ is an open part $Z$ of $Y$, dense in $Y$. We must show that $Z = ens(Y)$. Let $F$ be the
+$U_{red}$ acts on $X_{red}$ if $k$ is perfect). Let $Y$ be the schematic image of $G$ ([EGA I 9.5.1](https://jcreinhold.github.io/ega/i/01-09-complements-on-quasi-coherent-sheaves.html#95-closed-image-of-a-prescheme-closure-of-a-subprescheme)) under the morphism
+$g \mapsto g \cdot x$, which is a closed and reduced subscheme of $X$ on which $G$ acts. It follows easily from [EGA IV
+1.8.6](https://jcreinhold.github.io/ega/iv/12-ch4-01-relative-finiteness-conditions.html#18-morphisms-of-finite-presentation-and-constructible-sets) that the orbit of $x$ is an open part $Z$ of $Y$, dense in $Y$. We must show that $Z = ens(Y)$. Let $F$ be the
 closed reduced subscheme of $Y$ having `Y \ Z` as underlying space. One has therefore $F = V(J)$, where $J$ is a
 non-zero ideal of $\Gamma(Y, O_{Y})$. Since $G$ is smooth, $G$ acts on $F$, hence on $J$, and consequently (3.2) $J^{G}
 \neq 0$. If $a$ is a non-zero element of $J^{G}$, $a$ is necessarily constant on the orbit $Z$, hence is constant on

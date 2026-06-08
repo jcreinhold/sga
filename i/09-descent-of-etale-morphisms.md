@@ -34,7 +34,7 @@ the sense of Exposé I, a morphism $U \to U_{0}$, and a $U$-isomorphism
 When $S$ is locally noetherian, this terminology agrees with that of loc. cit. Similarly, we shall say that $f$ **is
 étale**, or that $X$ **is étale over** $S$, if $f$ is étale at every point $x$ of $X$. With these definitions, the
 propositions below reduce without difficulty to the noetherian case, where they are proved in I.4, I.5, and I.7. For
-details, the reader may consult EGA IV. [Translator note: more precisely, EGA IV 17 and 18.]
+details, the reader may consult EGA IV. [Translator note: more precisely, [EGA IV 17](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#17-smooth-unramified-étale-morphisms) and 18.]
 
 **Remarks.**
 
@@ -125,7 +125,7 @@ $s \in S$, $\mathcal{A}_{s} \otimes_{\mathcal{O}_{s}} \kappa(s)$ is a separable 
 case a direct product of finite separable extensions of $\kappa(s)$.
 
 Finally, the following result is less elementary in nature, being the conjunction of I.8.4 and the **existence theorem
-for sheaves in algebraic geometry** (EGA III 5; cf. also [IX.1], theorem 3).
+for sheaves in algebraic geometry** ([EGA III 5](https://jcreinhold.github.io/ega/iii/12-ch3-05-existence-coherent-algebraic-sheaves.html#5-an-existence-theorem-for-coherent-algebraic-sheaves); cf. also [IX.1], theorem 3).
 
 **Theorem.**
 
@@ -432,7 +432,7 @@ a complete local ring with algebraically closed residue field, the corresponding
 
 Let $g: S' \to S$ be a finite, surjective morphism of finite presentation (the last hypothesis follows from the others
 if $S$ is locally noetherian). \[Translator note: the source footnote says that in fact it is enough for $g$ to be
-integral, by a limit argument in the style of EGA IV 8.\] Then $g$ is a morphism of effective descent for the fibered
+integral, by a limit argument in the style of [EGA IV 8](https://jcreinhold.github.io/ega/iv/21-ch4-08-projective-limits.html#8-projective-limits-of-preschemes).\] Then $g$ is a morphism of effective descent for the fibered
 category of preschemes étale, separated, and of finite type over other preschemes.
 
 We must show that if $X'$ is étale, separated, and of finite type over $S'$, and endowed with a descent datum relative
@@ -506,8 +506,8 @@ corresponding morphism $g_{1}: S_{1}' = S' \times_{S} S_{1} \to S_{1}$ is so. Si
 hypotheses as $g$, we are reduced to proving IX.4.9 for $S_{1}$ in place of $S$.
 
 Taking first for $A_{1}$ the direct product of the $A/\mathfrak{p}_{i}$, for the minimal prime ideals $\mathfrak{p}_{i}$
-of $A$, we are reduced to the case where $A$ is **integral**. One then shows [Translator note: the source refers to EGA
-IV 14.3.13 and 14.5.4] that there exists an integral subscheme $S_{1}$ of $S'$, quasi-finite over $S$ and dominant over
+of $A$, we are reduced to the case where $A$ is **integral**. One then shows [Translator note: the source refers to [EGA
+IV 14.3.13](https://jcreinhold.github.io/ega/iv/26-ch4-14-universally-open-morphisms.html#143-universally-open-morphisms) and 14.5.4] that there exists an integral subscheme $S_{1}$ of $S'$, quasi-finite over $S$ and dominant over
 $S$, passing through a point of the fiber of $S'$ over the closed point $y$ of $S$. This uses the fact that $S'$ is
 universally open of finite type over the integral noetherian local $S$ and that $S'_{y}$ is nonempty. Since $A$ is
 complete, $S_{1}$ is finite over $S$, and since it dominates $S$, the morphism $S_{1} \to S$ is surjective. Replacing
@@ -546,7 +546,7 @@ and radicial.
 The proof is the same, invoking IX.4.1 instead of IX.4.7.
 
 Notice that the proof of IX.4.7 is “elementary” in that it does not use the finiteness and comparison theorems for
-proper morphisms (EGA III 3, 4, 5). This is no longer true of the following result:
+proper morphisms ([EGA III 3](https://jcreinhold.github.io/ega/iii/10-ch3-03-finiteness-proper-morphisms.html#3-the-finiteness-theorem-for-proper-morphisms), 4, 5). This is no longer true of the following result:
 
 **Theorem.**
 

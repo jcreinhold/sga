@@ -740,7 +740,7 @@ LEDGER DELTA (Exposé III):
 
 [^N.D.E-III-2]: *N.D.E.* The original edition gave a proof, not entirely correct.
 
-[^III-3-1]: Cf. EGA 0_IV 14.3.2.
+[^III-3-1]: Cf. [EGA 0_IV 14.3.2](https://jcreinhold.github.io/ega/iv/01-ch0-14-combinatorial-dimension.html#143-the-chain-condition).
 
 [^N.D.E-III-3]: *N.D.E.* There was a typo in the original edition.
 

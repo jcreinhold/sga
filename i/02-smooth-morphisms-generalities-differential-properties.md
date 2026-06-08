@@ -1240,19 +1240,19 @@ minimality of $g$.
 [^II-1-1]: Older terminology: $f$ is simple at $x$, or $x$ is a simple point for $f$. This terminology led to confusion
     in various contexts, such as simple algebras and simple groups, and had to be abandoned.
 
-[^II-1-2]: It is better then to say, as in EGA IV 18.6.1, that $B$ is “essentially smooth” over $A$.
+[^II-1-2]: It is better then to say, as in [EGA IV 18.6.1](https://jcreinhold.github.io/ega/iv/31-ch4-18-complements-etale-morphisms.html#186-henselization), that $B$ is “essentially smooth” over $A$.
 
-[^II-2-1]: Cf. EGA IV 7.8.
+[^II-2-1]: Cf. [EGA IV 7.8](https://jcreinhold.github.io/ega/iv/19-ch4-07-noetherian-completion.html#78-excellent-rings).
 
-[^II-2-2]: Cf. EGA IV 5.12.10.
+[^II-2-2]: Cf. [EGA IV 5.12.10](https://jcreinhold.github.io/ega/iv/17-ch4-05-dimension-depth-regularity.html#512-relations-between-the-properties-of-a-noetherian-local-ring-a-and-of-a-quotient-ring-ata).
 
-[^II-3-1]: For these formulas, cf. EGA IV 6.1 and 6.3.
+[^II-3-1]: For these formulas, cf. [EGA IV 6.1](https://jcreinhold.github.io/ega/iv/18-ch4-06-flat-morphisms.html#61-flatness-and-dimension) and 6.3.
 
-[^ii-4-14-1]: We would now rather say “$A$-regular sequence”, cf. EGA 0_IV 15.1.7 and 15.1.11.
+[^ii-4-14-1]: We would now rather say “$A$-regular sequence”, cf. [EGA 0_IV 15.1.7](https://jcreinhold.github.io/ega/iv/02-ch0-15-mf-regular-sequences.html#151-m-regular-sequences-and-m-quasi-regular-sequences) and 15.1.11.
 
-[^ii-4-14-2]: As was said in the preface, this has now been done; cf. EGA IV 17, 18.
+[^ii-4-14-2]: As was said in the preface, this has now been done; cf. [EGA IV 17](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#17-smooth-unramified-étale-morphisms), 18.
 
-[^ii-4-18-1]: For everything concerning the present paragraph, one may consult EGA IV 16.8 to 16.12.
+[^ii-4-18-1]: For everything concerning the present paragraph, one may consult [EGA IV 16.8](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#168-differential-operators1) to 16.12.
 
 [^ii-4-19-1]: This is the terminology adopted in EGA 0_IV 15.1.7.
 

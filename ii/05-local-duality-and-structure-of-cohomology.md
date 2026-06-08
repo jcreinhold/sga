@@ -487,8 +487,8 @@ morphism $\operatorname{Spec}(\mathcal{O}_{X,y_{\alpha}}) \to X$. The affine sch
 $\operatorname{Spec}(\mathcal{O}_{X,y_{\alpha}})$ is canonically isomorphic to
 $\operatorname{Spec}(\mathcal{O}_{X,y_{\alpha}})$.
 
-By (EGA I 3.2.7) one sees that if $y_{0}$ is the unique closed point of $Y_{0} =
-\operatorname{Spec}(\mathcal{O}_{X,y_{\alpha}})$, then $Y_{0} - y_{0}$ is affine. By (EGA III 1.3.1) one finds
+By ([EGA I 3.2.7](https://jcreinhold.github.io/ega/i/01-03-product-of-preschemes.html#32-products-of-preschemes)) one sees that if $y_{0}$ is the unique closed point of $Y_{0} =
+\operatorname{Spec}(\mathcal{O}_{X,y_{\alpha}})$, then $Y_{0} - y_{0}$ is affine. By ([EGA III 1.3.1](https://jcreinhold.github.io/ega/iii/08-ch3-01-cohomology-affine-schemes.html#13-cohomology-of-an-affine-scheme)) one finds
 
 ```text
 Hⁱ(Y₀ − y₀, 𝒪_{Y₀}) = 0   if i > 0,

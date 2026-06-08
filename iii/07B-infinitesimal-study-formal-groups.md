@@ -89,9 +89,9 @@ $A$, i.e., the intersection of all maximal ideals of $A$ (cf. Bourbaki, *Algèbr
 artinian, $\mathfrak{p}$ is a maximal ideal. Consequently, $\Upsilon(A)$ equals the set of open prime ideals of $A$.
 
 b) Each $\mathfrak{m} A_{\mathfrak{m}}$ is an ideal of definition of $A_{\mathfrak{m}}$, i.e. an open ideal $I$ such
-that the sequence of $I^{n}$ tends to `0` (cf. EGA 0_I, 7.1.2). Consequently, $\operatorname{Spec}(A_{\mathfrak{m}} /
+that the sequence of $I^{n}$ tends to `0` (cf. [EGA 0_I, 7.1.2](https://jcreinhold.github.io/ega/i/00-07-adic-rings.html#71-admissible-rings)). Consequently, $\operatorname{Spec}(A_{\mathfrak{m}} /
 \mathfrak{m} A_{\mathfrak{m}})$, endowed with the topological ring $A_{\mathfrak{m}}$, is an affine formal scheme in the
-sense of (EGA I, 10.1.2).
+sense of ([EGA I, 10.1.2](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#101-formal-affine-schemes)).
 
 c) The topological ring $A$ is *admissible* in the sense of (EGA 0_I, 7.1.2) if and only if $r(A)$ is open (hence an
 ideal of definition), and this is the case if and only if $\Upsilon(A)$ is finite. In this case, the affine formal
@@ -102,7 +102,7 @@ product $\prod_{\mathfrak{m} \in E} A_{\mathfrak{m}}$.
 d) Let $A$ be an arbitrary pseudocompact ring. In 1.1 below, the space $\Upsilon(A)$ is endowed with the discrete
 topology and with the sheaf of rings whose ring of sections on any subset $E$ is $\prod_{\mathfrak{m} \in E}
 A_{\mathfrak{m}}$. By b), every point then admits an open neighborhood which is an affine formal scheme, so this defines
-a formal scheme (EGA I, 10.4.2), which we shall denote $Spf(A)$. (For this formal scheme to be affine, it must be
+a formal scheme ([EGA I, 10.4.2](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#104-formal-preschemes-and-morphisms)), which we shall denote $Spf(A)$. (For this formal scheme to be affine, it must be
 quasi-compact, hence $\Upsilon(A)$ must be finite; in this case, $Spf(A)$ coincides with the definition of (EGA I,
 10.1.2)).
 
@@ -993,7 +993,7 @@ By 1.1, the functor $A \mapsto Spf(A)$ is an anti-equivalence of $Alp/k$ (0.4.1)
 For example, let $X \in Ob Vaf/k$ and $f : Y \to X$ and $g : Z \to X$ be two formal $k$-varieties over $X$ and let $A$,
 $B$, $C$ be the affine algebras of $X$, $Y$, $Z$; by 0.4.1, the affine algebra of the fiber product $Y \times_{X} Z$ is
 identified with $B \hat{\otimes}_{A} C$,[^N.D.E-VII_B-41] so that the inclusion of $Vaf/k$ in the category of all formal
-$k$-schemes commutes with finite inverse limits (cf. EGA I, 10.7).
+$k$-schemes commutes with finite inverse limits (cf. [EGA I, 10.7](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#107-products-of-formal-preschemes)).
 
 The direct limits of formal $k$-varieties correspond to inverse limits of their affine algebras.
 
@@ -1016,7 +1016,7 @@ homomorphisms $d^{\natural}_{x}$ and $e^{\natural}_{x}$ (notations of 1.1).
 **Definition 1.2.D.** *If $\phi : k \to \ell$ is a homomorphism of pseudocompact rings and $X$ is a formal $k$-variety
 with affine algebra $A$, the formal scheme $X \times_{Spf(k)} Spf(\ell)$, obtained by base change, is a formal
 $\ell$-variety, which we shall also denote $X \hat{\otimes}_{k} \ell$ and which has as affine algebra the completed
-tensor product $A \hat{\otimes}_{k} \ell$ (cf. 0.5 and EGA I, § 10).*
+tensor product $A \hat{\otimes}_{k} \ell$ (cf. 0.5 and [EGA I, § 10](https://jcreinhold.github.io/ega/i/01-10-formal-schemes.html#10-formal-schemes)).*
 
 <!-- label: III.VII_B.1.2.D -->
 
@@ -2090,15 +2090,15 @@ topologically flat, then $X/X_{1}$ represents the quotient sheaf for the flat to
 To complete these generalities on formal varieties, it remains to define briefly the étale formal varieties over
 $k$.[^N.D.E-VII_B-70]
 
-**Recollections 1.6.A.** *(i)* Let us first recall (cf. EGA 0\_{IV}, 19.10.2) that a topological $k$-algebra $A$ is said
+**Recollections 1.6.A.** *(i)* Let us first recall (cf. [EGA 0\_{IV}, 19.10.2](https://jcreinhold.github.io/ega/iv/06-ch0-19-formally-smooth-algebras.html#19-formally-smooth-algebras-and-cohen-rings)) that a topological $k$-algebra $A$ is said
 to be *formally étale* over $k$ (for the topologies given on $k$ and $A$, resp. for the discrete topologies) if, for
 every discrete topological $k$-algebra $C$ (not necessarily artinian), and every nilpotent ideal $J$ of $C$, every
 continuous morphism of $k$-algebras $A \to C/J$ lifts in a unique way to a continuous morphism $A \to C$ ($A$ being
 endowed with the given topology, resp. with the discrete topology). One sees at once that this property is preserved by
 base change, i.e., for every morphism $k \to k'$ of pseudocompact rings, `A ⨶_k k'` is then formally étale over $k'$. On
 the other hand, one sees easily that it suffices to verify the lifting condition for every ideal $J$ of square zero, cf.
-EGA IV_4, 17.1.2 (ii). One says that $A$ is *étale* over $k$ if it is formally étale over $k$ for the discrete
-topologies, and if moreover $A$ is a $k$-algebra of finite presentation (cf. EGA IV_4, 17.3.2 (ii)). In what follows,
+[EGA IV_4, 17.1.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#171-formally-smooth-formally-unramified-formally-étale-morphisms) (ii). One says that $A$ is *étale* over $k$ if it is formally étale over $k$ for the discrete
+topologies, and if moreover $A$ is a $k$-algebra of finite presentation (cf. [EGA IV_4, 17.3.2](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#173-smooth-unramified-étale-morphisms) (ii)). In what follows,
 $k$ being a pseudocompact ring and $A$ a profinite $k$-algebra, one will use "formally étale" in the sense of the given
 topologies (unless otherwise stated).
 
@@ -2217,7 +2217,7 @@ Vaf^{\acute{e}}t_{/}\kappa(k)$ (cf. SGA 1, I 6.1).*
 <!-- label: III.VII_B.1.6.E -->
 
 *Proof.* (a) Let $I$ denote the kernel of the multiplication morphism `m : A ⨶_k A → A`. Suppose $X$ étale over $k$,
-i.e., $A$ formally étale over $k$. Then, by EGA 0\_{IV}, 20.7.4, the Hausdorff completion of $I/I^{2}$, for the quotient
+i.e., $A$ formally étale over $k$. Then, by [EGA 0\_{IV}, 20.7.4](https://jcreinhold.github.io/ega/iv/07-ch0-20-derivations-and-differentials.html#207-generalizations-to-topological-rings), the Hausdorff completion of $I/I^{2}$, for the quotient
 topology of that of $I$, is zero, i.e., one has $I = I^{2}$. Now, for every $x \in X$, $I$ is contained in the maximal
 ideal `m_{∆(x)}` of `A ⨶_k A`, hence the localization `I_{m_{∆(x)}}` is contained in the maximal ideal of
 `O_{X×X, ∆(x)}`, and so, by Nakayama's lemma 0.3, one has `I_{m_{∆(x)}} = 0`, and hence `∆ : X → X × X` is a local
@@ -2225,7 +2225,7 @@ isomorphism.
 
 Suppose now that `∆` is a local isomorphism and that $k$ is a field $\kappa$, and let us show that each $O_{X, x}$ is a
 finite-dimensional étale $\kappa$-algebra. Replacing $X$ by $Spf(O_{X, x})$, one may suppose that $A = O_{X, x}$ is
-local. One proceeds then as in the proof of EGA IV_4, 17.4.1, (b) ⇒ (d''). Let $K$ be a finite normal extension of
+local. One proceeds then as in the proof of [EGA IV_4, 17.4.1](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#174-characterizations-of-unramified-morphisms), (b) ⇒ (d''). Let $K$ be a finite normal extension of
 $\kappa$ containing the residue field $\kappa(x)$, and let `B = A ⨶_κ K = A ⨶_κ K` (since $[K : \kappa] < \infty$, then
 `−⨶_κ K` and `− ⨶_κ K` coincide) and `X_K = Spf(B) = X ⨶_κ K`. Then `∆_K : X_K → X_K ⨶_K X_K` is again a local
 isomorphism, so for every $y \in X_{K}$, the multiplication `B_y ⨶_K B_y → B_y` induces an isomorphism
@@ -3949,7 +3949,7 @@ at every point of the unit section.*
 Indeed, let $x$ be a point of the unit section, $s$ its image in $S$, $O_{x}$ and $O_{s}$ the local algebras of $x$ and
 $s$.[^N.D.E-VII_B-C-12] Since, by hypothesis, $O_{s}$ and $O_{x}$ are noetherian local rings, the $\mathfrak{m}$-adic
 topology on each of these rings coincides with the "pseudocompact" topology defined by the ideals of finite codimension.
-Denote then by $\hat{O}_{x}$ and $\hat{O}_{s}$ the completions for this topology. By (EGA IV₄, 17.5.3), $G$ is smooth
+Denote then by $\hat{O}_{x}$ and $\hat{O}_{s}$ the completions for this topology. By ([EGA IV₄, 17.5.3](https://jcreinhold.github.io/ega/iv/30-ch4-17-smooth-unramified-etale-morphisms.html#175-characterizations-of-smooth-morphisms)), $G$ is smooth
 over $S$ at the point $x$ if and only if $\hat{O}_{x}$ is formally smooth over $\hat{O}_{s}$, these two algebras being
 endowed with the $\mathfrak{m}$-adic topology; it therefore suffices to show this latter property. Now $\hat{O}_{x}$ and
 $\hat{O}_{s}$ are the local rings of $x$ and $s$ in the formal varieties $\hat{G}/\hat{S}$ and `Ŝ` defined in 1.2.6. Set
@@ -3959,7 +3959,7 @@ $I$ the augmentation ideal of $O_{x}$. By hypothesis, $\omega_{G/S, x} = I/I^{2}
 finite rank $n$. Since $O_{s}$ is noetherian, it follows that $\omega_{H/k}$, which is the completion of $\omega_{G/S,
 x}$, is identified with $\omega_{G/S} \otimes_{O_{S}} \hat{O}_{s}$, hence is a topologically free $k$-module of rank
 $n$. Hence, by the implication (iv) ⇒ (ii) of 3.3, $\hat{O}_{x}$ is isomorphic to $k[[\omega_{H/k}]]$, i.e., to a formal
-power series algebra $k[[t_{1}, \cdots, t_{n}]]$. Finally, this last is formally smooth over $k$, by (EGA 0_IV, 19.3.3).
+power series algebra $k[[t_{1}, \cdots, t_{n}]]$. Finally, this last is formally smooth over $k$, by ([EGA 0_IV, 19.3.3](https://jcreinhold.github.io/ega/iv/06-ch0-19-formally-smooth-algebras.html#193-formally-smooth-algebras)).
 This proves the corollary.
 
 We thus recover a result obtained otherwise for group schemes locally of finite presentation over an arbitrary scheme
@@ -5396,7 +5396,7 @@ follows from Theorem 5.2 (ii).[^N.D.E-VII_B-C-50]
 
 [^N.D.E-VII_B-C-51] Recall the following definitions. On the one hand, one says that a noetherian local ring $A$ is a
 *complete intersection* if the completion `Â` is a quotient of a complete regular noetherian local ring $B$ by an ideal
-$I$ generated by a regular sequence of elements of $B$ (cf. EGA IV₄, 19.3.1). On the other hand, let $\tau : Y
+$I$ generated by a regular sequence of elements of $B$ (cf. [EGA IV₄, 19.3.1](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#193-relative-complete-intersections-flat-case)). On the other hand, let $\tau : Y
 \hookrightarrow X$ be a closed immersion of schemes. If $y \in Y$, one says that $\tau$ is a *regular immersion at the
 point $y$* if the kernel of $O_{X, y} \to O_{Y, y}$ is generated by a regular sequence; if moreover $X$ is locally
 noetherian and if $\tau$ is a regular immersion at every point, one says that $\tau$ is a regular immersion (cf. loc.
@@ -5409,7 +5409,7 @@ intersection.*
 
 <!-- label: III.VII_B.5.5.1 -->
 
-Indeed, by EGA IV₄, 19.3.4, one can assume $k$ algebraically closed. If $car(k) = 0$, we already know that $G$ is smooth
+Indeed, by [EGA IV₄, 19.3.4](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#193-relative-complete-intersections-flat-case), one can assume $k$ algebraically closed. If $car(k) = 0$, we already know that $G$ is smooth
 (cf. 3.3.1 or VI_B, 1.6.1) and hence $O_{G, e}$ is a $k$-algebra of formal power series, by EGA IV₄, 17.5.3 (d′′). If
 $car(k) = p > 0$, it follows from 5.4, applied to $H = {e}$, that $O_{G, e}$ is a complete intersection.
 
@@ -5426,14 +5426,14 @@ Spf(\hat{O}_{H, e})$. Since $A$ is noetherian, one has an exact sequence
 0 ⟶ I ⊗_A Â ⟶ Â ──π──→ **A**(Ĥ) → 0
 ```
 
-and `Â` is faithfully flat over $A$. Hence, by EGA IV₄, 16.9.10 (ii) and 19.1.5 (ii), it suffices to show that the
+and `Â` is faithfully flat over $A$. Hence, by [EGA IV₄, 16.9.10](https://jcreinhold.github.io/ega/iv/29-ch4-16-differential-invariants.html#169-regular-and-quasi-regular-immersions) (ii) and 19.1.5 (ii), it suffices to show that the
 kernel $\hat{I} = I \otimes_{A} \hat{A}$ of $\pi$ is generated by a regular sequence of elements of `Â`.
 
 Now, since $G$ is smooth, `Â` is reduced; by 5.4, the subalgebra $B = **A**(\hat{G}/\hat{H})$ is therefore isomorphic to
 a formal power series algebra $k[[x_{1}, \cdots, x_{n}]]$, and hence the unit section of $\hat{G}/\hat{H}$ is defined in
 $B$ by the regular sequence $(x_{1}, \cdots, x_{n})$. Since `Â` is noetherian, the ideal $J$ of `Â` generated by $x_{1},
 \cdots, x_{n}$ is closed, hence equal to `Î`, by Corollary 1.4. Moreover, since `Â` is topologically flat, hence flat
-over $B$ (cf. 0.3.8), then $(x_{1}, \cdots, x_{n})$ is a regular sequence in `Â`, by EGA IV₄, 19.1.5 (ii).
+over $B$ (cf. 0.3.8), then $(x_{1}, \cdots, x_{n})$ is a regular sequence in `Â`, by [EGA IV₄, 19.1.5](https://jcreinhold.github.io/ega/iv/32-ch4-19-regular-immersions.html#191-properties-of-regular-immersions) (ii).
 
 *b) One can also deduce from 5.2 (ii) the following more precise result.* Suppose $k$ perfect. By 5.2 (ii) applied to
 the algebra $C = **A**(H)$, there exists a basis $(y_{1}, \cdots, y_{r+s})$ of $\omega_{H}$ and integers $1 \leqslant
@@ -5799,7 +5799,7 @@ Springer), Springer-Verlag, 1967.
     $k/l$, for every open ideal $l$ of $k$." In what follows, we have rectified the omission of the flatness hypothesis
     in the first condition above, and detailed the equivalence of the said conditions.
 
-[^N.D.E-VII_B-71]: Let us point out in passing that the proof given in EGA 0\_{IV}, 19.3.5 (v) is erroneous.
+[^N.D.E-VII_B-71]: Let us point out in passing that the proof given in [EGA 0\_{IV}, 19.3.5](https://jcreinhold.github.io/ega/iv/06-ch0-19-formally-smooth-algebras.html#193-formally-smooth-algebras) (v) is erroneous.
 
 [^N.D.E-VII_B-72]: Note that $Vaf^{\acute{e}}t_{/}k$ is stable under finite inverse limits.
 
