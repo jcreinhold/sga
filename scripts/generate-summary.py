@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate SUMMARY.md for mdBook from the SGA volume directories.
 
-Walks ``i/``, ``ii/``, ``iii/`` in order and, for each exposé file, uses its
+Walks ``i/``, ``ii/``, ``iii/``, ``iv/`` in order and, for each exposé file, uses its
 first-level (``# ``) heading as the human title — these headings are the
 authoritative English titles (e.g. "Exposé I. Étale Morphisms"). Front- and
 back-matter pages (and the two chapters whose heading carries LaTeX that would
@@ -22,6 +22,7 @@ VOLUMES: list[tuple[str, str]] = [
     ("i", "SGA 1 — Étale Coverings and the Fundamental Group"),
     ("ii", "SGA 2 — Local Cohomology and Lefschetz Theorems"),
     ("iii", "SGA 3 — Group Schemes"),
+    ("iv", "SGA IV — Topoi and Sites"),
 ]
 
 # Curated short labels, keyed by file stem. Front/back matter, plus the two
@@ -35,6 +36,16 @@ TITLE_OVERRIDES: dict[str, str] = {
     "00-i-errata": "Errata (I)",
     "00-ii-preface": "Preface (II)",
     "00-iii-errata": "Errata (III)",
+    "00-front-matter": "Front matter",
+    "01-expose-i-prefaisceaux": "Exposé I. Presheaves",
+    "02-expose-ii-topologies-et-faisceaux": "Exposé II. Topologies and Sheaves",
+    "03-expose-iii-fonctorialite-des-categories-de-faisceaux": (
+        "Exposé III. Functoriality of Categories of Sheaves"
+    ),
+    "04-expose-iv-topos": "Exposé IV. Topoi",
+    "94-index-terminologique": "Index of terminology",
+    "95-index-des-notations": "Index of notations",
+    "translation-ledger": "Translation ledger",
     "glossary": "Translation glossary",
     "zz-index-notations": "Index of notations",
     "zz-index-terminological": "Index of terminology",

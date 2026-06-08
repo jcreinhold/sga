@@ -82,3 +82,14 @@
 - [Translation glossary](iii/glossary.md)
 - [Index (volume I)](iii/zz-i-index.md)
 - [Index (volume III)](iii/zz-iii-index.md)
+
+# SGA IV — Topoi and Sites
+
+- [Front matter](iv/00-front-matter.md)
+- [Exposé I. Presheaves](iv/01-expose-i-prefaisceaux.md)
+- [Exposé II. Topologies and Sheaves](iv/02-expose-ii-topologies-et-faisceaux.md)
+- [Exposé III. Functoriality of Categories of Sheaves](iv/03-expose-iii-fonctorialite-des-categories-de-faisceaux.md)
+- [Exposé IV. Topoi](iv/04-expose-iv-topos.md)
+- [Index of terminology](iv/94-index-terminologique.md)
+- [Index of notations](iv/95-index-des-notations.md)
+- [Translation ledger](iv/translation-ledger.md)
