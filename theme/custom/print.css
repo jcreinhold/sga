@@ -1,0 +1,51 @@
+/* Print: high-contrast black on white regardless of the active theme, and
+   keep statements / proofs / displayed equations from splitting across pages.
+   Loaded via additional-css, so this is ADDITIVE to mdBook's bundled
+   print.css (it cascades after and wins). */
+@media print {
+  html,
+  .light,
+  .coal,
+  .navy,
+  .rust,
+  .ayu {
+    --bg: #fff;
+    --fg: #000;
+    --links: #000;
+    --gi-rule: #999;
+    --gi-ink-soft: #333;
+  }
+
+  html,
+  body,
+  .content,
+  .page-wrapper {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .content {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  .content main {
+    max-width: none;
+  }
+  .content a {
+    color: #000;
+  }
+
+  /* Keep a statement, a caution, a displayed equation, or a footnote whole. */
+  .gi-thm,
+  .content blockquote,
+  .content .footnote-definition li,
+  .content .katex-display {
+    break-inside: avoid;
+  }
+
+  /* On paper there is no scrolling — show wide math in full rather than
+       clipping it inside the on-screen scroll box. */
+  .content .katex-display {
+    overflow: visible;
+  }
+}

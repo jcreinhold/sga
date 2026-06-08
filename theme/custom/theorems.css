@@ -1,0 +1,73 @@
+/* =====================================================================
+   AMS theorem-environment typography.
+
+   SGA authors statements as a bold run-in label on its own line
+   (`**Proposition.**`), an HTML `<!-- label: I.2.1 -->` comment, then the
+   statement as a separate paragraph. theorems.js tags the label paragraph
+   AND the following statement paragraph at load and adds the classes below;
+   this file is the styling. (The gentle-iut inline form — label + body in
+   one paragraph — is still handled.) Continuation paragraphs and condition
+   lists stay upright (the safe choice — the tagger styles only the lead
+   statement paragraph).
+
+   AMS conventions encoded (no boxes — boxes fatigue across a long read):
+     plain  : bold upright label + ITALIC body   (theorem/lemma/prop/cor)
+     defn   : bold upright label + upright body   (definition/example/…)
+     remark : bold upright label + upright body   (remark/caution)
+     proof  : ITALIC label        + upright body
+   ===================================================================== */
+
+.gi-thm {
+  margin-block: 1.25em;
+}
+.gi-thm-label {
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* plain: bold upright label, italic body; flip nested emphasis upright so
+   it still reads as emphasis inside the italic run. */
+.gi-thm--plain {
+  font-style: italic;
+}
+.gi-thm--plain .gi-thm-label {
+  font-style: normal;
+}
+.gi-thm--plain em,
+.gi-thm--plain i {
+  font-style: normal;
+}
+
+/* definition / remark: body upright (the bold label is kept as authored).
+   Tagging still gives the label a consistent hook and the block its margin. */
+
+/* proof: italic run-in "Proof.", upright body. No auto-QED — there is no
+   end-of-proof marker to place a tombstone on. */
+.gi-thm--proof .gi-thm-label {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* GUARD: an italic body must never slant rendered math. KaTeX sets numbers
+   and operators in UPRIGHT KaTeX fonts; an ancestor font-style:italic would
+   force a synthetic slant on them. Pin math upright inside every statement. */
+.gi-thm .katex,
+.gi-thm .katex * {
+  font-style: normal;
+}
+
+/* ---------------------------------------------------------------------
+   Cautions / asides authored as ordinary blockquotes (`> **Caution.** …`).
+   Render them as quiet left-rule asides rather than tinted boxes — calmer
+   over a long read. Leave GFM admonitions (.blockquote-tag) to mdBook.
+   --------------------------------------------------------------------- */
+.content blockquote:not(.blockquote-tag) {
+  background: transparent;
+  border-block: none;
+  border-inline-start: 3px solid var(--gi-rule);
+  padding: 0.2em 0 0.2em 1.2em;
+  color: var(--gi-ink-soft);
+}
+.content blockquote:not(.blockquote-tag) .gi-thm-label {
+  color: var(--fg);
+}

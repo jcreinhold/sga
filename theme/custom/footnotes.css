@@ -1,0 +1,126 @@
+/* =====================================================================
+   SGA — footnotes as Tufte margin sidenotes (loaded via book.toml
+   additional-css, after typography.css, so it shares the palette tokens
+   and wins the cascade).
+
+   SGA authors translator/editor notes as ordinary markdown footnotes
+   (`[^I-1-1]`). mdBook renders an inline `<sup class="footnote-reference">`
+   marker and, at the page foot, an `<ol class="footnote-definition">`
+   (preceded by an `<hr>`). footnotes.js clones each definition into a
+   `.gi-sidenote` placed right after its marker. This stylesheet renders
+   both presentations in the book's editorial idiom — hairline, soft ink,
+   no box — and toggles between them by width:
+
+     * wide screens  → margin sidenotes in the right gutter; the foot list
+                       (and its rule) are hidden — the notes ARE the footnotes,
+                       shown beside the claim.
+     * narrow + print → sidenotes hidden; the native numbered foot list carries
+                        the notes (also the no-JS and search-indexed form).
+
+   SCALE NOTE: mdBook sets :root { font-size: 62.5% }, so 1rem = 10px.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. The inline marker — keep mdBook's superscript, just quiet the colour
+   (it must not speckle the measure with accent colour); the one calm
+   slate-blue accent appears only on hover/focus.
+   --------------------------------------------------------------------- */
+.content .footnote-reference {
+  font-variant-numeric: lining-nums;
+}
+.content .footnote-reference a {
+  color: var(--gi-ink-soft);
+  text-decoration: none;
+}
+.content .footnote-reference a:hover,
+.content .footnote-reference a:focus {
+  color: var(--links);
+}
+
+/* ---------------------------------------------------------------------
+   2. Margin sidenote — hidden by default; revealed only where the right
+   gutter is reliably wide enough (see §4). It is emitted inline right
+   after its marker, so floating it right lands its top near the marker's
+   line. A single hairline on the inner edge echoes the "rule-based aside"
+   idiom (cautions) without a box or tint.
+   --------------------------------------------------------------------- */
+.content .gi-sidenote {
+  display: none;
+}
+
+.content .gi-sn-num {
+  color: var(--gi-ink-soft);
+  font-variant-numeric: lining-nums;
+  margin-inline-end: 0.35em;
+}
+
+/* Keep any inline math in a note upright (mirrors the theorem guard). */
+.content .gi-sidenote .katex,
+.content .gi-sidenote .katex * {
+  font-style: normal;
+}
+
+/* ---------------------------------------------------------------------
+   3. The native foot list — the universal fallback (narrow, print, no-JS,
+   search). Quiet soft-ink hanging list; mdBook supplies the ordered-list
+   structure, we just tune colour/leading.
+   --------------------------------------------------------------------- */
+.content .footnote-definition {
+  font-size: 1.6rem; /* ~16px, below the 20px body */
+  color: var(--gi-ink-soft);
+}
+.content .footnote-definition li::marker {
+  color: var(--gi-ink-soft);
+  font-variant-numeric: lining-nums;
+}
+
+/* ---------------------------------------------------------------------
+   4. Wide screens — switch to margin sidenotes.
+
+   mdBook centres the ~72ch (~720px) column inside the content area, so the
+   right gutter is (contentArea − 720)/2. The gutter only clears ~180px —
+   enough for a readable note — once the viewport passes ~1440px with the
+   sidebar open. Below that the foot list (§3) carries the notes, so the
+   column never has to give up width and nothing overflows. Where notes ARE
+   shown, the foot list and its rule are redundant and hidden.
+   --------------------------------------------------------------------- */
+@media (min-width: 1440px) {
+  .content .gi-sidenote {
+    display: block;
+    float: right;
+    clear: right;
+    width: 12em;
+    margin-inline-end: -13.5em; /* push past the column edge into the gutter */
+    margin-block: 0.1em 0.9em;
+    font-size: 1.4rem; /* ~14px aside text */
+    line-height: 1.4;
+    color: var(--gi-ink-soft);
+    text-align: left;
+    border-inline-start: 1px solid var(--gi-rule);
+    padding-inline-start: 0.8em;
+    /* Avoid hyphen rivers in the narrow note; let long words wrap soft. */
+    hyphens: none;
+    overflow-wrap: break-word;
+  }
+  /* Notes replace the foot list on wide screens. */
+  .content .footnote-definition,
+  .content hr.gi-footnotes-rule {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   5. Print — always the foot-list form; never the floated margin note.
+   --------------------------------------------------------------------- */
+@media print {
+  .content .gi-sidenote {
+    display: none !important;
+  }
+  .content .footnote-definition,
+  .content hr.gi-footnotes-rule {
+    display: revert !important;
+  }
+  .content .footnote-reference a {
+    color: inherit;
+  }
+}

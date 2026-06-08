@@ -17,6 +17,9 @@ concurrency:
 
 env:
   MDBOOK_VERSION: "0.5.3"
+  # First mdbook-katex release built against mdbook 0.5 (mdbook-preprocessor
+  # 0.5.1). Pre-release, so it must be pinned exactly — see Makefile.
+  MDBOOK_KATEX_VERSION: "0.10.0-alpha"
 
 jobs:
   deploy:
@@ -36,6 +39,11 @@ jobs:
       - uses: taiki-e/install-action@v2
         with:
           tool: mdbook@${{ env.MDBOOK_VERSION }}
+
+      # mdbook-katex 0.10.0-alpha has no prebuilt binary in install-action, and
+      # it is a pre-release, so build it from crates.io with the version pinned.
+      - name: Install mdbook-katex
+        run: cargo install mdbook-katex --version "${MDBOOK_KATEX_VERSION}" --locked
 
       - name: Check SUMMARY.md is up to date
         run: python3 scripts/generate-summary.py --check

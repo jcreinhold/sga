@@ -1,18 +1,26 @@
-<!-- MathJax 3, configured to accept the project's $...$ / $$...$$ delimiters.
-     mdBook's built-in `mathjax-support` only recognises \(...\) and \[...\], so we
-     load and configure MathJax ourselves here instead. -->
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-  };
-</script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- Math is rendered to static HTML at build time by the mdbook-katex
+     preprocessor (see [preprocessor.katex] in book.toml); KaTeX's own
+     stylesheet/fonts are injected by that preprocessor. There is no client-side
+     math JS here anymore — the old MathJax 3 setup was removed when we switched
+     to build-time KaTeX, so the page paints once with no layout shift. -->
+
+<!-- Preload the prose body face (STIX Two Text, vendored under fonts/ →
+     /fonts/) so the first paint lands in final metrics. Roman is the running
+     text; italic carries theorem statements and is on-screen immediately, so
+     preload both. (CMU Serif, the symbol fallback, is fetched lazily and not
+     preloaded.) Fonts are always fetched anonymously, hence crossorigin even
+     same-origin. -->
+<link
+  rel="preload"
+  as="font"
+  type="font/woff2"
+  crossorigin
+  href="{{path_to_root}}fonts/stix-two-text-400-roman.woff2"
+/>
+<link
+  rel="preload"
+  as="font"
+  type="font/woff2"
+  crossorigin
+  href="{{path_to_root}}fonts/stix-two-text-400-italic.woff2"
+/>

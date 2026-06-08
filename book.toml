@@ -9,9 +9,37 @@ src = "."
 build-dir = "book"
 create-missing = false
 
+# Render math to static HTML at build time (no client-side JS, no layout shift).
+# Delimiters stay at their defaults — block $$..$$ and inline $..$ — matching how
+# the SGA source authors math. throw-on-error=false keeps the build green if any
+# span fails to parse; KaTeX renders that span inline in error-color instead of
+# aborting. The SGA corpus uses no custom macros, so none are configured.
+[preprocessor.katex]
+error-color = "#b3261e"
+throw-on-error = false
+
+# Runs right after katex: KaTeX draws \tilde / \widetilde accents as a literal
+# `~`, which mdBook's markdown parser would otherwise read as GFM strikethrough
+# (spurious <del>, lost accents). This HTML-encodes those accent tildes. See the
+# script.
+[preprocessor.katex-tilde]
+after = ["katex"]
+command = "python3 scripts/katex-tilde-fix.py"
+
 [output.html]
 git-repository-url = "https://github.com/jcreinhold/sga"
 edit-url-template = "https://github.com/jcreinhold/sga/edit/main/{path}"
+preferred-dark-theme = "coal"
+additional-css = [
+  "theme/custom/typography.css",
+  "theme/custom/theorems.css",
+  "theme/custom/footnotes.css",
+  "theme/custom/print.css",
+]
+additional-js = [
+  "theme/custom/theorems.js",
+  "theme/custom/footnotes.js",
+]
 
 [output.html.search]
 enable = true

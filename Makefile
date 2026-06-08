@@ -1,7 +1,9 @@
-# Build tasks for the Gentle IUT mdBook site.
+# Build tasks for the SGA mdBook site.
 # See book.toml (mdBook config) and scripts/generate-summary.py (ToC generator).
 
 MDBOOK_VERSION := 0.5.3
+# Pre-release: the first mdbook-katex built against mdbook 0.5. Pin exactly.
+MDBOOK_KATEX_VERSION := 0.10.0-alpha
 BUILD_DIR := book
 
 .DEFAULT_GOAL := help
@@ -34,3 +36,4 @@ clean: ## Remove the build output.
 .PHONY: install
 install: ## Install the pinned mdBook toolchain (matches CI).
 	cargo install mdbook --version $(MDBOOK_VERSION) --locked
+	cargo install mdbook-katex --version $(MDBOOK_KATEX_VERSION) --locked

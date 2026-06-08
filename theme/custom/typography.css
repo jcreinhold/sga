@@ -1,0 +1,276 @@
+/* =====================================================================
+   SGA — typographic system (loaded via book.toml additional-css, so it
+   cascades AFTER mdBook's variables/general/chrome and wins). Mirrors the
+   gentle-iut reading surface.
+
+   SCALE NOTE: mdBook sets :root { font-size: 62.5% }, so 1rem = 10px.
+   "20px body" is therefore 2rem; sizes below are spelled out accordingly.
+
+   Strategy: a comfortable on-screen reading serif for the prose (STIX Two
+   Text), paired with KaTeX's Computer-Modern math. STIX is the
+   scientific-publishing companion to that math tradition, so the inline
+   math sits naturally in the line without the thin Computer-Modern body
+   that tired the eye over a long read.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. Prose font — self-hosted, so first paint lands in final metrics.
+
+   Body is STIX Two Text (STIX v2.0.2, vendored under fonts/ → /fonts/):
+   a Times-heritage scientific-publishing serif that reads comfortably on
+   screen for long-form text and — unlike Computer Modern — actually covers
+   the subscripts (₁), blackboard bold (ℚ ℝ ℤ ℂ) and primes the prose uses
+   inline, so those no longer drop to a mismatched system fallback mid-word.
+
+   STIX Two Text deliberately omits the heavy math operators and arrows
+   (those live in STIX Two Math); CMU Serif is kept *below* it in the
+   stack purely as the glyph fallback for the literal → ← ∗ √ … that
+   appear in running prose, so they match the Computer-Modern math KaTeX
+   renders. font-display:block (with the preloads in head.hbs) avoids a
+   fallback→STIX reflow.
+   --------------------------------------------------------------------- */
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: block;
+  src: url("../../fonts/stix-two-text-400-roman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: italic;
+  font-weight: 400 500;
+  font-display: block;
+  src: url("../../fonts/stix-two-text-400-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: block;
+  src: url("../../fonts/stix-two-text-700-roman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "STIX Two Text";
+  font-style: italic;
+  font-weight: 600 700;
+  font-display: block;
+  src: url("../../fonts/stix-two-text-700-italic.woff2") format("woff2");
+}
+
+/* CMU Serif — kept ONLY as the symbol fallback for the arrows/operators
+   STIX Two Text lacks; never preloaded, fetched lazily if such a glyph
+   appears. Its Computer-Modern forms match the KaTeX math on the page. */
+@font-face {
+  font-family: "CMU Serif";
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: block;
+  src: url("../../fonts/cmu-serif-500-roman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CMU Serif";
+  font-style: italic;
+  font-weight: 400 500;
+  font-display: block;
+  src: url("../../fonts/cmu-serif-500-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CMU Serif";
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: block;
+  src: url("../../fonts/cmu-serif-700-roman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CMU Serif";
+  font-style: italic;
+  font-weight: 600 700;
+  font-display: block;
+  src: url("../../fonts/cmu-serif-700-italic.woff2") format("woff2");
+}
+
+:root {
+  --gi-prose:
+    "STIX Two Text", "CMU Serif", Georgia, Cambria, "Times New Roman", serif;
+  --gi-accent: var(--links);
+}
+
+/* ---------------------------------------------------------------------
+   2. Warm, reduced-contrast palette. Pure #000/#fff haloes around the
+   thin CM serifs and tires the eye over a long read; warm near-black on
+   warm paper stays crisp without glare (~15:1, past WCAG AAA). Dark mode
+   runs the same logic in reverse — never pure white on black.
+   Only the visible reading-surface tokens are retuned; chrome niceties
+   (scrollbar/icons) inherit mdBook's tuned values.
+   --------------------------------------------------------------------- */
+.light,
+html:not(.js) {
+  --bg: #fcfcfd; /* near-white, faintly cool — no warm cast */
+  --fg: #1f2328; /* neutral near-black ink */
+  --links: #2f5ca6; /* slate blue: the one calm accent */
+  --sidebar-bg: #f4f5f7;
+  --sidebar-fg: #3a4048;
+  --sidebar-active: #2f5ca6;
+  --inline-code-color: #34506f;
+  --quote-bg: #f2f4f7;
+  --quote-border: #e6e8eb;
+  --search-mark-bg: #dbe6f4;
+  --gi-ink-soft: #5c6370; /* tags, secondary text */
+  --gi-rule: #e6e8eb; /* hairlines */
+}
+
+.coal {
+  --bg: #15181c; /* cool near-black, never warm */
+  --fg: #dde1e6; /* soft cool off-white, not pure white */
+  --links: #84a9dd; /* lighter slate blue for dark bg */
+  --sidebar-bg: #1b1f24;
+  --sidebar-fg: #aab2bd;
+  --sidebar-active: #84a9dd;
+  --inline-code-color: #b8c6da;
+  --quote-bg: #1c2127;
+  --quote-border: #2a2f36;
+  --search-mark-bg: #2a3a52;
+  --gi-ink-soft: #9aa3af;
+  --gi-rule: #2a2f36;
+}
+
+/* JS-disabled readers whose OS prefers dark get coal's values inline,
+   not the .coal class — mirror the override so they get warm dark too. */
+@media (prefers-color-scheme: dark) {
+  html:not(.js) {
+    --bg: #15181c;
+    --fg: #dde1e6;
+    --links: #84a9dd;
+    --sidebar-bg: #1b1f24;
+    --sidebar-fg: #aab2bd;
+    --sidebar-active: #84a9dd;
+    --inline-code-color: #b8c6da;
+    --quote-bg: #1c2127;
+    --quote-border: #2a2f36;
+    --search-mark-bg: #2a3a52;
+    --gi-ink-soft: #9aa3af;
+    --gi-rule: #2a2f36;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   3. The reading column. Only the content surface is restyled; the
+   sidebar/menu chrome keep mdBook's sizing.
+   --------------------------------------------------------------------- */
+.content {
+  font-family: var(--gi-prose);
+  font-size: 2rem; /* 20px — deep reading of hard material */
+  line-height: 1.65; /* looser than prose: tall inline math
+                                         (∑ ∫ fractions) + a wide line both
+                                         demand headroom */
+  /* Ragged-right, NOT justified: CSS justification opens rivers and lacks
+       TeX's hyphenation penalties, so left-aligned reads better here. */
+  text-align: left;
+  hyphens: none;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  /* Lining figures in prose: they sit at the same level as the digits
+       in the Computer-Modern math, so a "rank 2" in text matches a "2" in
+       an equation. (Old-style would descend and clash with the math.) */
+  font-variant-numeric: lining-nums proportional-nums;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ~72 characters: near the upper edge of the comfortable prose measure.
+   An earlier 64ch read too sparse on wide screens — the eye returned too
+   often — so this widens toward the optimum while staying under the point
+   where the return sweep starts to miss lines (~75ch). At the 20px body set
+   above this is ~720px, still inside mdBook's 750px --content-max-width,
+   so no clamp is needed. ch is measured against that 20px body. */
+.content main {
+  max-width: 72ch;
+}
+
+.content p,
+.content ol,
+.content ul {
+  line-height: 1.65; /* override mdBook's 1.45em */
+}
+
+/* Math, code, tables and tags want lining figures, not old-style. */
+.content code,
+.content .katex,
+.content table {
+  font-variant-numeric: lining-nums;
+}
+
+/* Match inline/display math size to the prose. katex.min.css sets
+   `.katex { font-size: 1.21em }` — that 1.21 factor is calibrated for sans/Times
+   bodies; against the Computer Modern KaTeX uses for math it overshoots and the
+   math reads ~20% too big, making lines jump. Pulling it to ~1.0 lets the prose
+   and math sit at one size. Higher specificity than katex.min.css's `.katex`,
+   and loaded after it, so this wins. */
+.content .katex {
+  font-size: 1em;
+}
+
+/* ---------------------------------------------------------------------
+   4. Headings — restrained scale (a textbook is not a landing page),
+   bold, tight leading, balanced wrap. Sizes in rem (1rem = 10px).
+   --------------------------------------------------------------------- */
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  font-family: var(--gi-prose);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.006em;
+  text-wrap: balance;
+}
+.content h1 {
+  font-size: 3.4rem;
+}
+.content h2 {
+  font-size: 2.8rem;
+  margin-block-start: 2em;
+}
+.content h3 {
+  font-size: 2.4rem;
+  margin-block-start: 1.6em;
+}
+.content h4 {
+  font-size: 2.05rem;
+}
+
+/* ---------------------------------------------------------------------
+   5. Links — quiet by default, underline on hover (mdBook's content-link
+   model already matches; just refine the hover underline).
+   --------------------------------------------------------------------- */
+.content a:hover {
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.06em;
+}
+
+/* ---------------------------------------------------------------------
+   6. Display equations — vertical rhythm, and wide equations scroll
+   WITHIN their own block rather than the whole page. KaTeX inherits
+   currentColor, so math inverts cleanly with the prose in dark mode.
+   --------------------------------------------------------------------- */
+.content .katex-display {
+  margin: 1.3em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.15em; /* room for descenders while scrolling */
+}
+
+/* mdbook-katex renders unparseable expressions in error-color; make sure
+   they stay legible (and visible) rather than blending in. */
+.content .katex-error {
+  white-space: normal;
+}
+
+/* ---------------------------------------------------------------------
+   7. Selection.
+   --------------------------------------------------------------------- */
+::selection {
+  background: var(--search-mark-bg);
+}
