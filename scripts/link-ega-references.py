@@ -34,8 +34,6 @@ Usage:
     python3 scripts/link-ega-references.py --ega-root ../ega
 """
 
-from __future__ import annotations
-
 import argparse
 import re
 import sys
@@ -94,9 +92,7 @@ def build_file_map(ega_root: Path) -> dict[tuple[str, int], str]:
 _HEADING_ID_RE = re.compile(r"<h[1-6][^>]*\sid=\"([^\"]+)\"")
 
 
-def build_anchor_index(
-    ega_root: Path, file_map: dict[tuple[str, int], str]
-) -> dict[str, dict[str, str]]:
+def build_anchor_index(ega_root: Path, file_map: dict[tuple[str, int], str]) -> dict[str, dict[str, str]]:
     """For each target HTML file, map leading-digit-run -> anchor id.
 
     mdBook strips dots from heading numbers, so ``### 17.3.`` becomes
@@ -149,10 +145,10 @@ CITATION_RE = re.compile(
 # Spans whose contents must never be rewritten.
 _PROTECT_RES = [
     re.compile(r"(?ms)^[ \t]*(`{3,}|~{3,}).*?^[ \t]*\1"),  # fenced code
-    re.compile(r"(?s)\$\$.*?\$\$"),                         # block math
-    re.compile(r"`+[^`]*`+"),                               # inline code
-    re.compile(r"\$(?:\\.|[^$\\\n])*\$"),                   # inline math
-    re.compile(r"\[[^\]]*\]\([^)]*\)"),                     # existing md links
+    re.compile(r"(?s)\$\$.*?\$\$"),  # block math
+    re.compile(r"`+[^`]*`+"),  # inline code
+    re.compile(r"\$(?:\\.|[^$\\\n])*\$"),  # inline math
+    re.compile(r"\[[^\]]*\]\([^)]*\)"),  # existing md links
 ]
 
 _ROMAN_RE = re.compile(r"IV|III|II|VI|V|I")
@@ -215,12 +211,13 @@ class Linker:
         return BASE_URL + html + (f"#{anchor}" if anchor else "")
 
     def refresh_existing_links(self, text: str) -> str:
-        """Re-resolve every link already pointing at the EGA site, recomputing
-        its URL from the citation in the link label. This is what makes the
-        transform a one-command *refresh* after the EGA book moves a file or
-        retitles a heading: the label is the source of truth, the URL is derived.
-        A citation that no longer resolves is unwrapped back to plain text so no
-        dead links survive."""
+        """Re-resolve every link pointing at the EGA site, recomputing its URL from the citation in the link label.
+
+        This is what makes the transform a one-command *refresh* after the EGA book moves a file or retitles a heading:
+        the label is the source of truth, the URL is derived. A citation that no longer resolves is unwrapped back to
+        plain text so no dead links survive.
+        """
+
         def repl(m: re.Match) -> str:
             label, url = m.group(1), m.group(2)
             if BASE_URL not in url:
@@ -273,8 +270,7 @@ class Linker:
     _unresolved_samples: list[str] = []
 
     def _seed_seen(self, text: str, seen: set) -> None:
-        """Register citations already linked to the EGA site, so a re-run does
-        not promote a previously-skipped repeat into a new 'first' occurrence."""
+        """Register citations linked to EGA site, so re-run does not promote a repeat into a new 'first' occurrence."""
         for label, url in _EXISTING_EGA_LINK_RE.findall(text):
             if BASE_URL not in url:
                 continue
@@ -307,8 +303,7 @@ def main() -> int:
     file_map = build_file_map(ega_root)
     anchor_index = build_anchor_index(ega_root, file_map)
     print(f"file_map: {len(file_map)} (class, section) entries")
-    print(f"anchor index: {sum(len(a) for a in anchor_index.values())} anchors "
-          f"across {len(anchor_index)} files")
+    print(f"anchor index: {sum(len(a) for a in anchor_index.values())} anchors across {len(anchor_index)} files")
 
     stats: Counter = Counter()
     linker = Linker(file_map, anchor_index, stats)

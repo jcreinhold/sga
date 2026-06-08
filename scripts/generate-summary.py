@@ -42,8 +42,7 @@ TITLE_OVERRIDES: dict[str, str] = {
     "zz-iii-index": "Index (volume III)",
     "06-ext-functors": "Exposé VI. The functors Ext and ℰxt",
     "07A-infinitesimal-study-differential-operators": (
-        "Exposé VII_A. Infinitesimal study: differential operators and "
-        "restricted p-Lie algebras"
+        "Exposé VII_A. Infinitesimal study: differential operators and restricted p-Lie algebras"
     ),
 }
 
