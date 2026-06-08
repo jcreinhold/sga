@@ -6,6 +6,12 @@ MDBOOK_VERSION := 0.5.3
 MDBOOK_KATEX_VERSION := 0.10.0-alpha
 BUILD_DIR := book
 
+# mdbook-katex 0.10.0-alpha is built against mdbook 0.5.1 and prints a benign
+# cross-version WARN when run under the 0.5.3 we pin (it is the newest release,
+# so there is nothing to upgrade to). Quiet just that preprocessor's sub-error
+# logs; genuine katex errors are level=error and still surface.
+MDBOOK := RUST_LOG=info,mdbook_katex=error mdbook
+
 .DEFAULT_GOAL := help
 
 .PHONY: help
@@ -23,11 +29,11 @@ check: ## Fail if book/SUMMARY.md is stale (the CI drift gate).
 
 .PHONY: build
 build: summary ## Build the static site into $(BUILD_DIR)/.
-	mdbook build
+	$(MDBOOK) build
 
 .PHONY: serve
 serve: summary ## Build, serve locally with live reload, and open a browser.
-	mdbook serve --open
+	$(MDBOOK) serve --open
 
 .PHONY: clean
 clean: ## Remove the build output.
