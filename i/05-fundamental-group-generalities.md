@@ -1518,14 +1518,22 @@ associated homomorphisms
 u′: π_{F″} → π_{F′},       u: π_{F′} → π_F.
 ```
 
-In order that $Ker u \subset Im u'$, i.e. in order that $uu'$ be the trivial homomorphism, it is necessary and
+In order that $Im u' \subset Ker u$, i.e. in order that $uu'$ be the trivial homomorphism, it is necessary and
 sufficient that, for every object $X$ of $\mathcal{C}$, $H'(H(X))$ be completely decomposed. In order that $Ker u
-\supset Im u'$, it is necessary and sufficient that, for every connected pointed object $X'$ of $\mathcal{C}'$ such that
+\subset Im u'$, it is necessary and sufficient that, for every connected pointed object $X'$ of $\mathcal{C}'$ such that
 $H'(X')$ admits a pointed section, there exist an object $X$ of $\mathcal{C}$ and a homomorphism from a connected
 component of $H(X)$ to $X'$.
 
 The first assertion follows from the last assertion of V.6.4. The second follows from the conjunction of V.6.4 and
 V.6.6.
+
+\[Translator note: the source states this proposition with two misprints, both corrected above. First, it hypothesizes
+$H': \mathcal{C} \to \mathcal{C}''$, whereas $F' = F''H'$ and $F = F'H$ require $H': \mathcal{C}' \to \mathcal{C}''$, so
+that $H'H: \mathcal{C} \to \mathcal{C}''$. Second, it prints both inclusions reversed: "Pour que $Ker u \subset Im u'$
+i.e. pour que $uu'$ soit l'homomorphisme trivial … Pour que $Ker u \supset Im u'$ …". But $uu' = 1$ says exactly that
+$Im u' \subset Ker u$, and the two conditions are then distinct, as the two halves of the proposition require. The
+proof sketch confirms the intended reading: the second assertion is deduced from V.6.4 together with V.6.6, and V.6.6
+is the criterion for an open subgroup to *contain* $Ker u$, which is what bounds $Ker u$ from above.\]
 
 **Remark.**
 
