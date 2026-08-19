@@ -37,6 +37,7 @@ Usage:
 import argparse
 import re
 import sys
+import typing
 from collections import Counter
 from pathlib import Path
 
@@ -92,7 +93,9 @@ def build_file_map(ega_root: Path) -> dict[tuple[str, int], str]:
 _HEADING_ID_RE = re.compile(r"<h[1-6][^>]*\sid=\"([^\"]+)\"")
 
 
-def build_anchor_index(ega_root: Path, file_map: dict[tuple[str, int], str]) -> dict[str, dict[str, str]]:
+def build_anchor_index(
+    ega_root: Path, file_map: dict[tuple[str, int], str]
+) -> dict[str, dict[str, str]]:
     """For each target HTML file, map leading-digit-run -> anchor id.
 
     mdBook strips dots from heading numbers, so ``### 17.3.`` becomes
@@ -267,7 +270,7 @@ class Linker:
 
         return CITATION_RE.sub(repl, segment)
 
-    _unresolved_samples: list[str] = []
+    _unresolved_samples: typing.ClassVar[list[str]] = []
 
     def _seed_seen(self, text: str, seen: set) -> None:
         """Register citations linked to EGA site, so re-run does not promote a repeat into a new 'first' occurrence."""
@@ -303,7 +306,9 @@ def main() -> int:
     file_map = build_file_map(ega_root)
     anchor_index = build_anchor_index(ega_root, file_map)
     print(f"file_map: {len(file_map)} (class, section) entries")
-    print(f"anchor index: {sum(len(a) for a in anchor_index.values())} anchors across {len(anchor_index)} files")
+    print(
+        f"anchor index: {sum(len(a) for a in anchor_index.values())} anchors across {len(anchor_index)} files"
+    )
 
     stats: Counter = Counter()
     linker = Linker(file_map, anchor_index, stats)
