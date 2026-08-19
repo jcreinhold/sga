@@ -669,13 +669,7 @@ $$ \operatorname{Hom}(u^*G,F) \simeq \operatorname{Hom}(G,u_*F). $$
 **Proof.** We shall indicate only the proof of the existence of the left adjoint functor. The "respectively" part of the
 proposition then follows formally from the isomorphisms
 
-$$
-\operatorname{Hom}(C^\circ,D)
-\simeq
-\operatorname{Hom}(C,D^\circ)^\circ
-\simeq
-\operatorname{Hom}((C^\circ)^\circ,D^\circ)^\circ.
-$$
+$$ \operatorname{Hom}(C^\circ,D) \simeq \operatorname{Hom}(C,D^\circ)^\circ \simeq \operatorname{Hom}((C^\circ)^\circ,D^\circ)^\circ. $$
 
 Let $Y$ be an object of $C'$. Denote by $I_Y$ the following category. The objects of $I_Y$ are the pairs $(X,m)$, where
 $X$ is an object of $C$ and $m : Y \to u(X)$ is a morphism. A morphism from $(X,m)$ to $(X',m')$ is a morphism
@@ -804,21 +798,11 @@ $$ \operatorname{Hom}(v(Y),F) \simeq \varinjlim_{C/F} \operatorname{Hom}(v(Y),-)
 
 But $v$ is left adjoint to $u$, and therefore
 
-$$
-\varinjlim_{C/F} \operatorname{Hom}(v(Y),-)
-\simeq
-\varinjlim_{C/F} \operatorname{Hom}(Y,u(-)).
-$$
+$$ \varinjlim_{C/F} \operatorname{Hom}(v(Y),-) \simeq \varinjlim_{C/F} \operatorname{Hom}(Y,u(-)). $$
 
 Using 5.4 3), it follows that
 
-$$
-\varinjlim_{C/F} \operatorname{Hom}(Y,u(-))
-\simeq
-\operatorname{Hom}(Y,u_!F)
-\simeq
-u_!F(Y).
-$$
+$$ \varinjlim_{C/F} \operatorname{Hom}(Y,u(-)) \simeq \operatorname{Hom}(Y,u_!F) \simeq u_!F(Y). $$
 
 Thus, for every object $Y$ of $C'$, we have determined an isomorphism $v^*F(Y) \simeq u_!F(Y)$, visibly functorial in
 $Y$ and in $F$.
@@ -1494,13 +1478,7 @@ where the object $X'$ of $C$ is identified with the functor it represents.
 
 Consequently, for a second object $Y$ of $E$, one has a canonical isomorphism
 
-$$
-\operatorname{Hom}_{\widehat{C}}(\varphi(X),\varphi(Y))
-\simeq
-\varprojlim_{C/X} \operatorname{Hom}_{\widehat{C}}(X',\varphi(Y))
-\simeq
-\varprojlim_{C/X} \operatorname{Hom}_E(X',Y). \tag{*}
-$$
+$$ \operatorname{Hom}_{\widehat{C}}(\varphi(X),\varphi(Y)) \simeq \varprojlim_{C/X} \operatorname{Hom}_{\widehat{C}}(X',\varphi(Y)) \simeq \varprojlim_{C/X} \operatorname{Hom}_E(X',Y). \tag{*} $$
 
 This said, the map
 
@@ -1697,11 +1675,7 @@ $u(X')$. This shows that the functor considered is faithful, taking into account
 Conversely, let $v : F|_C \to G|_C$ be a morphism. Let us show that it comes from a morphism $u : F \to G$. For every
 $X \in \operatorname{ob}(E)$, define
 
-$$
-u(X) : F(X)=\varinjlim_{C/X} F(X')
-\to
-G(X)=\varinjlim_{C/X} G(X')
-$$
+$$ u(X) : F(X)=\varinjlim_{C/X} F(X') \to G(X)=\varinjlim_{C/X} G(X') $$
 
 as the inductive limit of the $v(X')$. It is immediate that one thus obtains a morphism functorial in $X$, hence a
 morphism $u : F \to G$, and that the morphism induced by $u$ from $F|_C$ to $G|_C$ is $v$. This completes the proof.
@@ -2087,11 +2061,7 @@ the latter, the functor (8.2.4.8) is not generally injective on objects.
 **8.2.5.** Let us spell out definition (8.2.4.3) in terms of the indexed expressions (8.2.4.1) of the ind-objects
 considered. Taking definition (8.2.2.1) into account, one finds a canonical bijection
 
-$$
-\operatorname{Hom}((X_i)_{i \in I},(Y_j)_{j \in J})
-=
-\varprojlim_{i \in I}\varinjlim_{j \in J}\operatorname{Hom}_C(X_i,Y_j). \tag{8.2.5.1}
-$$
+$$ \operatorname{Hom}((X_i)_{i \in I},(Y_j)_{j \in J}) = \varprojlim_{i \in I}\varinjlim_{j \in J}\operatorname{Hom}_C(X_i,Y_j). \tag{8.2.5.1} $$
 
 We leave to the reader the task of spelling out the composition of morphisms of ind-objects by means of this formula.
 Note that it follows at once from this formula that the set $\operatorname{Hom}(X,Y)$ of homomorphisms of ind-objects is
@@ -2329,10 +2299,10 @@ $c : C \to \operatorname{Ind}(C)$ does not generally commute with filtering indu
 
 To avoid this possible confusion in writing (8.5.3.1), "certain authors" (= P. Deligne) prefer to write it
 
-$$ X=\text{``}\varinjlim\text{''}_{i \in I} X_i, \tag{8.5.3.2} $$
+$$ X=\text{“}\varinjlim\text{”}_{i \in I} X_i, \tag{8.5.3.2} $$
 
 the role of the quotation marks being to indicate that the inductive limit is taken in a category of ind-objects
-$\operatorname{Ind}(C)$. By extension, one would then have to denote by $\text{``}\varinjlim\text{''}$ every inductive
+$\operatorname{Ind}(C)$. By extension, one would then have to denote by $\text{“}\varinjlim\text{”}$ every inductive
 limit operation in $\operatorname{Ind}(C)$, without the components of the inductive system considered in
 $\operatorname{Ind}(C)$ necessarily being in the image, or the essential image, of $c : C \to \operatorname{Ind}(C)$.
 
@@ -2358,26 +2328,18 @@ We may say that $\Phi$ is an **indexed expression** of $\varphi$, indexed by the
 corresponding functor (8.5.4.3) is isomorphic to $\varphi$. Below (8.8) we shall study general conditions for the
 existence of an indexed expression for a given functor $\varphi$. Here we simply start from a functor $\varphi$ given in
 indexed form (8.5.4.3), in the case where $J$ is a small filtering category, to indicate the computation of
-$\text{``}\varinjlim\text{''}_J\varphi=\text{``}\varinjlim\text{''}_j\varphi(j)$.
+$\text{“}\varinjlim\text{”}_J\varphi=\text{“}\varinjlim\text{”}_j\varphi(j)$.
 
 Formula (8.5.3.2) and the associativity formula for inductive limits (2.5.0) then immediately give the "tautological
-calculation" of $\text{``}\varinjlim\text{''}\varphi$:
+calculation" of $\text{“}\varinjlim\text{”}\varphi$:
 
-$$
-\text{``}\varinjlim\text{''}_{j \in J}\varphi
-=
-\text{``}\varinjlim\text{''}_{(j,i) \in J \times I}\Phi, \tag{8.5.4.4}
-$$
+$$ \text{“}\varinjlim\text{”}_{j \in J}\varphi = \text{“}\varinjlim\text{”}_{(j,i) \in J \times I}\Phi, \tag{8.5.4.4} $$
 
 [PDF p. 99]
 
 that is,
 
-$$
-\text{``}\varinjlim\text{''}_{j \in J}(i \mapsto \Phi(j,i))
-=
-\text{``}\varinjlim\text{''}_{(j,i) \in J \times I}\Phi(j,i). \tag{8.5.4.5}
-$$
+$$ \text{“}\varinjlim\text{”}_{j \in J}(i \mapsto \Phi(j,i)) = \text{“}\varinjlim\text{”}_{(j,i) \in J \times I}\Phi(j,i). \tag{8.5.4.5} $$
 
 Thus the desired inductive system is none other than $\Phi$ itself, the index category being $J \times I$, which is
 indeed filtering since $J$ and $I$ are.
@@ -2418,15 +2380,7 @@ $$ \operatorname{Ind}(f)((X_i)_{i \in I})=(f(X_i))_{i \in I}. \tag{8.6.1.2} $$
 Let $Y=(Y_j)_{j \in J}$ be a second inductive system of $C$. One then obtains an evident map, also denoted
 $u \mapsto \operatorname{Ind}(f)(u)$:
 
-$$
-\operatorname{Hom}(X,Y)
-=
-\varprojlim_i \varinjlim_j \operatorname{Hom}_C(X_i,Y_j)
-\to
-\operatorname{Hom}(\operatorname{Ind}(f)(X),\operatorname{Ind}(f)(Y))
-\simeq
-\varprojlim_i \varinjlim_j \operatorname{Hom}_{C'}(f(X_i),f(Y_j)). \tag{8.6.1.3}
-$$
+$$ \operatorname{Hom}(X,Y) = \varprojlim_i \varinjlim_j \operatorname{Hom}_C(X_i,Y_j) \to \operatorname{Hom}(\operatorname{Ind}(f)(X),\operatorname{Ind}(f)(Y)) \simeq \varprojlim_i \varinjlim_j \operatorname{Hom}_{C'}(f(X_i),f(Y_j)). \tag{8.6.1.3} $$
 
 One immediately observes that these maps are compatible with composition of morphisms of ind-objects, by referring to
 the unwritten formula for the composition of morphisms of ind-objects (8.2.5). Thus one has obtained, for every universe
@@ -2542,7 +2496,7 @@ $\operatorname{Ind}(C')$ is a small filtering inductive limit of objects of $C'$
 $\operatorname{Ind}(f)$ implies that, for this functor to be essentially surjective, it is equivalent that every object
 $X'$ of $C'$ lie in the essential image. But if one has an isomorphism
 
-$$ X' \simeq \text{``}\varinjlim\text{''} f(X_i), $$
+$$ X' \simeq \text{“}\varinjlim\text{”} f(X_i), $$
 
 this isomorphism factors through one of the $f(X_i)$, which shows that $X'$ is a direct factor of $f(X_i)$, proving
 necessity in (2). Sufficiency follows at once from full faithfulness of $\operatorname{Ind}(f)$ and from stability of
@@ -3234,7 +3188,7 @@ inductive, limit representable in $\operatorname{Ind}(C)$, and one has a canonic
 $$
 \varprojlim_J \varphi
 \simeq
-\text{``}\varinjlim\text{''}_i \varprojlim_J \Phi(j,i), \tag{8.9.2.1}
+\text{“}\varinjlim\text{”}_i \varprojlim_J \Phi(j,i), \tag{8.9.2.1}
 $$
 
 [PDF p. 127]
@@ -3244,7 +3198,7 @@ respectively
 $$
 \varinjlim_J \varphi
 \simeq
-\text{``}\varinjlim\text{''}_i \varinjlim_J \Phi(j,i), \tag{8.9.2.2}
+\text{“}\varinjlim\text{”}_i \varinjlim_J \Phi(j,i), \tag{8.9.2.2}
 $$
 
 where $\varprojlim_J$, respectively $\varinjlim_J$, is computed in $C$.
@@ -3255,11 +3209,11 @@ $\varprojlim_J$, and that $c$ commutes with $\varprojlim_J$ by 8.9.1 (4) and (1)
 $$
 \varprojlim_J \varphi
 =
-\varprojlim_J \text{``}\varinjlim\text{''}_i \Phi(j,i)
+\varprojlim_J \text{“}\varinjlim\text{”}_i \Phi(j,i)
 \simeq
-\text{``}\varinjlim\text{''}_i \varprojlim_J^{\operatorname{Ind}(C)} \Phi(j,i)
+\text{“}\varinjlim\text{”}_i \varprojlim_J^{\operatorname{Ind}(C)} \Phi(j,i)
 \simeq
-\text{``}\varinjlim\text{''}_i \varprojlim_J^C \Phi(j,i).
+\text{“}\varinjlim\text{”}_i \varprojlim_J^C \Phi(j,i).
 $$
 
 The second is proved in the same way, using the commutation of inductive limits of type $I$ with inductive limits of
@@ -3281,9 +3235,9 @@ is representable in $C$. Then the product $\prod_{\alpha \in A} X(\alpha)$ is re
 and it is canonically isomorphic to the ind-object indexed by $I$ given by the formula
 
 $$
-\prod_{\alpha \in A}\text{``}\varinjlim\text{''}_{i_\alpha \in I_\alpha} X(\alpha)_{i_\alpha}
+\prod_{\alpha \in A}\text{“}\varinjlim\text{”}_{i_\alpha \in I_\alpha} X(\alpha)_{i_\alpha}
 \simeq
-\text{``}\varinjlim\text{''}_{i=(i_\alpha) \in I}
+\text{“}\varinjlim\text{”}_{i=(i_\alpha) \in I}
 \left(\prod_{\alpha \in A} X(\alpha)_{i_\alpha}\right). \tag{8.9.3.1}
 $$
 
@@ -3393,7 +3347,7 @@ $\operatorname{Ind}(f)$ commutes with filtering inductive limits (8.6.3).
 
 3. Suppose $C$ is additive, respectively abelian. Then $\operatorname{Ind}(C)$ is so as well.
 
-4. Let $X=\text{``}\varinjlim\text{''}_I X_i$ be an ind-object of $C$, and let $R \rightrightarrows X$ be an equivalence
+4. Let $X=\text{“}\varinjlim\text{”}_I X_i$ be an ind-object of $C$, and let $R \rightrightarrows X$ be an equivalence
    relation in $X$. For every $i \in \operatorname{ob}(I)$, let $R_i \rightrightarrows X_i$ be the equivalence relation
    in $X_i$, considered as an object of $\operatorname{Ind}(C)$, induced by $R$ via $X_i \to X$. We suppose that the
    fiber product
@@ -3405,7 +3359,7 @@ $\operatorname{Ind}(f)$ commutes with filtering inductive limits (8.6.3).
 
 5. Let $X$ be an object of $C$, and let $R$ be an equivalence relation in $c(X)$, that is, in $X$ considered as an
    object of $\operatorname{Ind}(C)$. Suppose that fiber products are representable in $C$. For $R$ to be effective, it
-   is necessary that $R$ be of the form $\text{``}\varinjlim\text{''}_i R_i$, where the $R_i$ are equivalence relations
+   is necessary that $R$ be of the form $\text{“}\varinjlim\text{”}_i R_i$, where the $R_i$ are equivalence relations
    in $X$, regarded as an object of $C$, and this condition
 
 [PDF p. 132]
@@ -3415,7 +3369,7 @@ $\operatorname{Ind}(f)$ commutes with filtering inductive limits (8.6.3).
 6. Suppose that, in $C$, every morphism factors as an effective epimorphism followed by an effective monomorphism, and
    that finite projective limits are representable. Let $X$ be an object of $C$, and let $R$ be a subobject of
    $X \times X$, regarded as an element of $\operatorname{Ind}(C)$. Write $R$ in the form
-   $\text{``}\varinjlim\text{''}_i Z_i$, where $(Z_i)_{i \in I}$ is a filtering increasing family of subobjects of
+   $\text{“}\varinjlim\text{”}_i Z_i$, where $(Z_i)_{i \in I}$ is a filtering increasing family of subobjects of
    $X \times X$ in $C$, which is possible by (2). Show that, for $R$ to be an equivalence relation in $X$, it is
    necessary and sufficient that, for every $i \in \operatorname{ob}(I)$, there exists a $j \in \operatorname{ob}(I)$
    which contains $s(Z_i)$ and $Z_i \circ Z_i$, where $s$ is the symmetry of $X \times X$.
@@ -3451,7 +3405,7 @@ $\operatorname{Ind}(f)$ commutes with filtering inductive limits (8.6.3).
 2. Let $J$ be a small set such that sums indexed by $J$ are representable in $C$, hence also in $\operatorname{Pro}(C)$.
    Let $(X(\alpha))_{\alpha \in J}$ be a family of elements of $\operatorname{Pro}(C)$, with
 
-   $$ X(\alpha)=\text{``}\varprojlim\text{''}_{I_\alpha} X_{i_\alpha}. $$
+   $$ X(\alpha)=\text{“}\varprojlim\text{”}_{I_\alpha} X_{i_\alpha}. $$
 
    Show that, for the sum of the $X(\alpha)$ in $\operatorname{Pro}(C)$ to be universal, it suffices that the same be
    true for each of the families
@@ -3464,9 +3418,9 @@ $\operatorname{Ind}(f)$ commutes with filtering inductive limits (8.6.3).
    $\operatorname{Pro}(C)$
 
    $$
-   \text{``}\varprojlim\text{''}_I \left(\coprod_\alpha X(\alpha)_i\right)
+   \text{“}\varprojlim\text{”}_I \left(\coprod_\alpha X(\alpha)_i\right)
    \leftarrow
-   \text{``}\varprojlim\text{''}_{I^J}
+   \text{“}\varprojlim\text{”}_{I^J}
    \left(\coprod_{\alpha \in J} X(\alpha)_{i_\alpha}\right)
    $$
 
@@ -3486,7 +3440,7 @@ $\operatorname{Ind}(f)$ commutes with filtering inductive limits (8.6.3).
    $I$, ordered by inclusion, and let $X'=(X'_J)_{J \in P_f(I)}$ be the ind-object formed by the images of the finite
    subfamilies of the given family. Finally let
 
-   $$ X''=X \amalg_{X'} X=\text{``}\varinjlim\text{''}_J (X \amalg_{X'_J} X). $$
+   $$ X''=X \amalg_{X'} X=\text{“}\varinjlim\text{”}_J (X \amalg_{X'_J} X). $$
 
    Show that the two canonical morphisms $X \rightrightarrows X''$ are distinct, but coincide on the $X_i$.
 
@@ -3605,7 +3559,7 @@ $$ F\backslash C \to C, \tag{8.10.12} $$
 
 and 3.4 is rewritten in the form
 
-$$ F \simeq \text{``}\varprojlim\text{''}_{(F\backslash C)^\circ} X. \tag{8.10.13} $$
+$$ F \simeq \text{“}\varprojlim\text{”}_{(F\backslash C)^\circ} X. \tag{8.10.13} $$
 
 **8.10.14.** Criterion 8.3.3 applied to $C^\circ$ becomes a pro-representability criterion for $F$: it is necessary and
 sufficient that $(F\backslash C)^\circ$ be filtering and essentially small, the latter condition being superfluous if
@@ -3769,7 +3723,7 @@ $$ X=(X_i)_{i \in I} $$
 be an ind-object of the $U$-category $C$, and let $F$ be the presheaf which it ind-represents. One then sees at once
 that saying that the canonical morphisms
 
-$$ X_i \to F=\text{``}\varinjlim\text{''}_i X_i $$
+$$ X_i \to F=\text{“}\varinjlim\text{”}_i X_i $$
 
 are monomorphisms of $\operatorname{Ind}(C)$, or equivalently of $\widehat{C}$, that is, monomorphisms of functors
 argument by argument, is equivalent to saying that, for every arrow $i \to j$ of $I$, the corresponding transition arrow
@@ -3783,7 +3737,7 @@ is a monomorphism. When these conditions are fulfilled, and if moreover $I$ is a
 
 Note that this condition is not invariant under isomorphism of ind-objects; an ind-object will be called **essentially
 strict** if it is isomorphic to a strict ind-object. A presheaf will be called **strictly ind-representable** if it is
-ind-representable by a strict ind-object. Thus $F=\text{``}\varinjlim\text{''}X_i$ is strictly ind-representable if and
+ind-representable by a strict ind-object. Thus $F=\text{“}\varinjlim\text{”}X_i$ is strictly ind-representable if and
 only if $X=(X_i)_{i \in I}$ is essentially strict.
 
 **8.12.1.1.** Let $F$ be a presheaf on $C$, and consider the full subcategory of $C/F$ formed by the arrows $X \to F$,
@@ -3794,7 +3748,7 @@ that of the set of subobjects of $F$. It follows at once from the definitions:
 **Proposition 8.12.2.** For the presheaf $F$ on $C$ to be strictly ind-representable, it is necessary and sufficient
 that the ordered category $I$ of representable subfunctors of $F$ be filtering and essentially small, and that one have
 
-$$ \text{``}\varinjlim\text{''}_I X_i \simeq F. \tag{8.12.2.1} $$
+$$ \text{“}\varinjlim\text{”}_I X_i \simeq F. \tag{8.12.2.1} $$
 
 When, for every object $X$ of $C$, the set of subobjects of $X$ in $C$ is small, for example if $C$ admits a small
 generating subcategory (7.4), this implies that the category of representable subfunctors is even small.
@@ -3805,7 +3759,7 @@ generating subcategory (7.4), this implies that the category of representable su
 ind-object, and the latter is even a strict ind-object: take the representation (8.12.2.1). A strict ind-object $Y$ is
 called **saturated** if it is isomorphic to an ind-object of the form $(X_i)$ occurring in (8.12.2.1), for suitable $F$.
 Thus, up to unique isomorphism, there exists only one saturated strict ind-object isomorphic to a given strict
-ind-object, namely the one considered in 8.12.2, taking $F=\text{``}\varinjlim\text{''}Y$, the limit in $\widehat{C}$.
+ind-object, namely the one considered in 8.12.2, taking $F=\text{“}\varinjlim\text{”}Y$, the limit in $\widehat{C}$.
 
 **8.12.2.3.** Suppose one already knows that a small cofinal subset can be found in the set $\operatorname{Ob}(C/F)$,
 which is the case in particular if $F$ is ind-representable. Then it follows that the same condition is verified in the
@@ -3961,7 +3915,7 @@ corresponding functor
 
 [PDF p. 151]
 
-$$ F(X)=\text{``}\varinjlim\text{''}_i \operatorname{Hom}(X_i,X) $$
+$$ F(X)=\text{“}\varinjlim\text{”}_i \operatorname{Hom}(X_i,X) $$
 
 takes its values in $U\text{-}\mathbf{Ens}$, although the index set $I$ evidently does not have a cardinal in $U$. More
 precisely, let us show that for every small full subcategory $C_0$ of $C$, there exists an $i_0 \in I$ such that the
@@ -4095,7 +4049,7 @@ $\pi' \geq \pi$, then condition $L_\pi$ implies condition $L_{\pi'}$.
 respectively **$\pi$-accessible**, if $E$ satisfies $L_\pi$ (9.1) and if, for every ordered set $I \in U$ large relative
 to $\pi$, and every inductive system $(X_i)_{i \in I}$ in $E$ of type $I$, the canonical morphism
 
-$$ \text{``}\varinjlim\text{''}_i f(X_i) \to f(\text{``}\varinjlim\text{''}_i X_i) $$
+$$ \text{“}\varinjlim\text{”}_i f(X_i) \to f(\text{“}\varinjlim\text{”}_i X_i) $$
 
 is a monomorphism, respectively an isomorphism. We say that $f$ is **preaccessible**, respectively **accessible**,
 relative to the universe $U$, if there exists a cardinal $\pi \in U$ such that $f$ is $\pi$-preaccessible, respectively

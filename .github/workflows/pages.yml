@@ -54,6 +54,10 @@ jobs:
         # that preprocessor's sub-error logs. Real katex errors still surface.
         run: RUST_LOG=info,mdbook_katex=error mdbook build
 
+      # Per-page titles/canonicals/descriptions + sitemap.xml + robots.txt.
+      - name: Apply SEO post-processing
+        run: python3 scripts/seo.py
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

@@ -30,6 +30,7 @@ check: ## Fail if book/SUMMARY.md is stale (the CI drift gate).
 .PHONY: build
 build: summary ## Build the static site into $(BUILD_DIR)/.
 	$(MDBOOK) build
+	python3 scripts/seo.py
 
 .PHONY: serve
 serve: summary ## Build, serve locally with live reload, and open a browser.

@@ -41,3 +41,23 @@ The two versions are produced from a single source file, located on the arXiv.or
 $<http://arxiv.org/$>. The differences between the two versions are documented in the source file.
 
 The old page numbering is incorporated in the margin; the number n indicates the beginning of page n.
+
+## Contents of this volume
+
+- [Foreword](00-foreword.md)
+- [Introduction](00-introduction.md)
+- [Exposé I. Étale Morphisms](01-etale-morphisms.md)
+- [Exposé II. Smooth Morphisms: Generalities, Differential Properties](02-smooth-morphisms-generalities-differential-properties.md)
+- [Exposé III. Smooth Morphisms: Extension Properties](03-smooth-morphisms-extension-properties.md)
+- [Exposé IV. Flat Morphisms](04-flat-morphisms.md)
+- [Exposé V. The Fundamental Group: Generalities](05-fundamental-group-generalities.md)
+- [Exposé VI. Fibered Categories and Descent](06-fibered-categories-and-descent.md)
+- [Exposé VII. Does Not Exist](07-does-not-exist.md)
+- [Exposé VIII. Faithfully Flat Descent](08-faithfully-flat-descent.md)
+- [Exposé IX. Descent of Étale Morphisms. Application to the Fundamental Group](09-descent-of-etale-morphisms.md)
+- [Exposé X. Theory of Specialization of the Fundamental Group](10-specialization-of-the-fundamental-group.md)
+- [Exposé XI. Examples and Complements](11-examples-and-complements.md)
+- [Exposé XII. Algebraic Geometry and Analytic Geometry](12-algebraic-and-analytic-geometry.md)
+- [Exposé XIII. Cohomological Properness of Sheaves of Sets and of Sheaves of Noncommutative Groups](13-cohomological-properness.md)
+- [Translation glossary](glossary.md)
+- [Index of notations](zz-index-notations.md)

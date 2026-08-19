@@ -1,13 +1,20 @@
 # SGA — English translation
 
-An idiomatic, LLM-generated English translation (Markdown, Unicode mathematics) of the Grothendieck-era *Séminaires de
-Géométrie Algébrique du Bois-Marie*.
+An English translation of the **SGA** (*Séminaires de Géométrie Algébrique du Bois-Marie*), Alexander Grothendieck's
+foundational 1960s algebraic-geometry seminar, published as a browser-readable, fully cross-linked site at
+<https://jcreinhold.github.io/sga/>. The translation is LLM-generated and edited for mathematical accuracy (Markdown
+source, Unicode/LaTeX mathematics), with the original exposé, section, and statement numbering preserved.
+
+The site offers searchable HTML pages for every exposé, stable per-exposé URLs, hyperlinked EGA cross-references to
+the companion [EGA English translation](https://jcreinhold.github.io/ega/), original-page markers, and per-volume
+terminology glossaries.
 
 ## Volumes
 
 - [`i/`](i) — SGA 1: Étale Coverings and the Fundamental Group (Grothendieck, with Raynaud)
 - [`ii/`](ii) — SGA 2: Cohomologie locale des faisceaux cohérents et théorèmes de Lefschetz locaux et globaux
 - [`iii/`](iii) — SGA 3: Schémas en Groupes (Demazure–Grothendieck)
+- [`iv/`](iv) — SGA 4: Théorie des Topos et Cohomologie Étale des Schémas (Artin–Grothendieck–Verdier; in progress)
 
 Each volume directory has its own `README.md` with status, exposé index, and translation notes.
 

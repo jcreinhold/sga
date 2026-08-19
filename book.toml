@@ -1,7 +1,7 @@
 [book]
 authors = ["Jacob Reinhold"]
 title = "Séminaire de Géométrie Algébrique du Bois-Marie — English"
-description = "An English Markdown translation of the Grothendieck-era SGA seminars."
+description = "A complete English translation of Grothendieck's Séminaire de Géométrie Algébrique du Bois-Marie (SGA): SGA 1 on étale coverings and the fundamental group, SGA 2 on local cohomology and Lefschetz theorems, SGA 3 on group schemes, and SGA 4 on topoi."
 language = "en"
 src = "."
 
